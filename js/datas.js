@@ -66,3 +66,17 @@ export const paraInputDataHora = (d) => `${hojeISO(d)}T${dois(d.getHours())}:${d
 
 /** Mesmo dia do calendário. @param {Date} a @param {Date} b */
 export const mesmoDia = (a, b) => a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+
+/** Chave AAAA-MM-DD de um dia local. @param {Date} d */
+export const chaveDia = (d) => hojeISO(d);
+
+/** Dias da grade do mês (de domingo a sábado, semanas inteiras). */
+export function diasDoMes(ano, mes) {
+  const primeiro = new Date(ano, mes, 1);
+  const ultimo = new Date(ano, mes + 1, 0);
+  const inicio = new Date(ano, mes, 1 - primeiro.getDay());
+  const fim = new Date(ano, mes, ultimo.getDate() + (6 - ultimo.getDay()));
+  const dias = [];
+  for (let d = new Date(inicio); d <= fim; d = new Date(d.getFullYear(), d.getMonth(), d.getDate() + 1)) dias.push(d);
+  return dias;
+}
