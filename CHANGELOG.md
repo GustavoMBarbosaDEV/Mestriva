@@ -1,5 +1,23 @@
 # Mudanças
 
+## 0.5.0 — identidade visual, abertura e tela inicial (ainda não publicada)
+
+**O que mudou**
+- **Logo e identidade visual:** símbolo novo (um "M" que sobe, com o ponto no topo), ícones do app, favicon e guia em IDENTIDADE.md.
+- **Animação de abertura:** o "M" se desenha, o ponto aparece e o nome entra; some quando a primeira tela está pronta. Com "menos animação" ligado, não anima.
+- **Tela inicial (/bem-vindo):** selo com a versão, título que entra palavra por palavra, painel com parallax ao rolar, números que contam (0 reais, 15 matérias, 450 questões, 2 temas), recursos em destaque alternados, quem faz, perguntas frequentes, contato, chamada final, rodapé com links e barra fixa "Começar grátis" no celular. O botão de baixar o APK só aparece no Android e quando o APK existir.
+- Quem abre pelo navegador pela primeira vez vê a tela inicial; com o app instalado, vai direto ao questionário.
+- **Perguntas frequentes** em /faq, **imagem de compartilhamento** (WhatsApp e redes), etiquetas de SEO e dados estruturados.
+- **Atalhos do ícone** (segurar o ícone no celular): Calendário, Quiz, Estudar e Tutor.
+
+**O que foi testado**
+- Testes automáticos e checagem de tipos limpa.
+- No navegador: abertura, redirecionamento da primeira visita, tela inicial em 390 e 1280 px, claro e escuro, sem rolagem lateral, números contando.
+
+**O que não foi testado**
+- Atalhos do ícone e abertura no celular de verdade com o app instalado.
+- Pré-visualização do link no WhatsApp (precisa do site publicado).
+
 ## 0.4.1 — correções da revisão e Go Live (ainda não publicada)
 
 - **Go Live (Live Server do VS Code):** o app abre em `/index.html`, recarregar em `/calendario` funciona (`.vscode/settings.json` devolve o index.html, como o Hosting) e o modo offline não liga em 127.0.0.1.
