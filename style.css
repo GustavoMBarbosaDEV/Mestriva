@@ -1689,6 +1689,12 @@ h1, h2, h3, h4 {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-2\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.625rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.625rem * var(--tw-space-y-reverse));
+}
+
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1928,6 +1934,10 @@ h1, h2, h3, h4 {
   background-color: hsl(var(--secondary) / 0.4);
 }
 
+.bg-secondary\/60 {
+  background-color: hsl(var(--secondary) / 0.6);
+}
+
 .bg-secondary\/70 {
   background-color: hsl(var(--secondary) / 0.7);
 }
@@ -1946,6 +1956,10 @@ h1, h2, h3, h4 {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .p-6 {
@@ -2922,6 +2936,10 @@ h1, h2, h3, h4 {
   color: hsl(var(--foreground));
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 .hover\:opacity-100:hover {
   opacity: 1;
 }
@@ -3201,6 +3219,10 @@ h1, h2, h3, h4 {
 
   .lg\:grid-cols-\[1\.4fr_1fr\] {
     grid-template-columns: 1.4fr 1fr;
+  }
+
+  .lg\:grid-cols-\[1fr_1\.3fr\] {
+    grid-template-columns: 1fr 1.3fr;
   }
 
   .lg\:px-10 {

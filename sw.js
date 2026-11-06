@@ -9,7 +9,7 @@ const SHELL = [
   "js/app.js", "js/versao.js", "js/util.js", "js/icones.js", "js/normaliza.js", "js/loja.js", "js/preferencias.js", "js/rotas.js",
   "js/atualizacao.js", "js/ui/dialogo.js", "js/ui/controles.js", "js/ui/acessibilidade.js", "js/ui/casca.js",
   "js/datas.js", "js/eventos.js", "js/curriculo.js", "js/markdown.js", "js/ui/formulario.js", "js/ui/pagina.js", "js/ui/cabecalho.js", "js/ui/dialogo-evento.js", "js/ui/vazio.js", "js/ui/dialogo-materia.js",
-  "js/paginas/provisoria.js", "js/paginas/nao-encontrada.js", "js/paginas/onboarding.js", "js/paginas/calendario.js", "js/paginas/grade.js",
+  "js/paginas/provisoria.js", "js/paginas/nao-encontrada.js", "js/paginas/onboarding.js", "js/paginas/calendario.js", "js/paginas/grade.js", "js/paginas/notas.js",
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png", "icons/favicon.svg",
   "fonts/space-grotesk-5.1.1/space-grotesk-latin-400-normal.woff2", "fonts/space-grotesk-5.1.1/space-grotesk-latin-500-normal.woff2",
   "fonts/space-grotesk-5.1.1/space-grotesk-latin-600-normal.woff2", "fonts/space-grotesk-5.1.1/space-grotesk-latin-700-normal.woff2",

@@ -11,6 +11,9 @@ const dois = (n) => String(n).padStart(2, "0");
 /** @param {unknown} v @returns {Date|null} */
 export function parseData(v) {
   if (!v) return null;
+  // "AAAA-MM-DD" sozinho seria lido em UTC (e cairia no dia anterior no Brasil): lê como dia local.
+  const so = typeof v === "string" ? /^(\d{4})-(\d{2})-(\d{2})$/.exec(v) : null;
+  if (so) return new Date(Number(so[1]), Number(so[2]) - 1, Number(so[3]));
   const d = v instanceof Date ? new Date(v.getTime()) : new Date(/** @type {any} */ (v));
   return Number.isNaN(d.getTime()) ? null : d;
 }
