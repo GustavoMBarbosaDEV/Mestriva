@@ -113,7 +113,7 @@ export function montar(raiz, ctx) {
       r = responde(comMateria, contexto());
     }
     let resposta = r && r.texto ? { papel: "tutor", texto: r.texto, acoes: r.acoes } : null;
-    if (!resposta) resposta = { papel: "tutor", texto: NAO_ENTENDI };
+    if (!resposta) resposta = { papel: "tutor", texto: NAO_ENTENDI, acoes: [] };
     e.mensagens.push(resposta);
     e.pensando = false;
     t.pinta();

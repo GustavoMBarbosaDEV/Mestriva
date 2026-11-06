@@ -1,5 +1,29 @@
 # Mudanças
 
+## 0.3.0 — conteúdo e tutor sem IA (ainda não publicada)
+
+**O que mudou**
+- Banco do Mestriva: 15 matérias comuns a muitos cursos, cada uma com 6 tópicos (resumo e revisão) e 30 questões explicadas, 450 no total. Ele fica no próprio site e funciona sem internet depois da primeira abertura.
+- Quiz: junta questões do banco e cartões do estudante, prioriza as vencidas e as erradas (repetição espaçada de 1, 3, 7 e 15 dias), mostra explicação e tem "Reportar erro nesta questão" (e-mail para o contato).
+- Revisão do que errei (Notas e resultado do quiz) montada no aparelho, com as seções: O que aconteceu, Reconstruindo a base, Passo a passo, Treino rápido e Plano de 3 dias.
+- Cartões, lacunas e questões gerados das anotações do estudante.
+- Estudar mostra o material pronto do banco das matérias da grade; a Grade mostra o selo "Conteúdo pronto".
+- Tutor por regras: métodos de estudo (com adaptação para TDAH), plano da semana, agenda, médias, quanto falta tirar e resumo dos conteúdos do banco.
+- Quiz e material mostram blocos de código (perguntas de programação).
+
+**Correções da revisão do plano 2**
+- Sem rolagem lateral no celular com títulos longos (Calendário, Notas, Estudar, Hoje).
+- O painel do sino fecha ao tocar fora ou no próprio sino.
+- Material de estudo pode ser salvo sem matérias na grade.
+
+**O que foi testado**
+- 192 testes automáticos, incluindo a validação das 450 questões (4 alternativas, 1 correta, explicação, sem repetição, todo tópico com 4+ questões, 20%+ de aplicação/análise, gabarito distribuído). Checagem de tipos limpa.
+- No navegador: quiz completo (grade ligada ao banco, explicação, reportar, resultado e revisão), quiz só com cartões do estudante, revisão a partir de Notas, material do banco em Estudar, selo na Grade e tutor com perguntas reais; sem rolagem lateral em 390 px.
+
+**O que não foi testado**
+- Revisão humana das questões (lançamento com checagens automáticas, como decidido).
+- A IA embutida do Chrome: ainda não aceita português, por isso o tutor usa só regras.
+
 ## 0.2.0 — telas reais no modo local (ainda não publicada)
 
 **O que mudou**

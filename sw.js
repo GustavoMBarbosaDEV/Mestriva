@@ -1,6 +1,6 @@
 // Service worker do Mestriva: cache por versão, navegação com prazo e arquivos do cache com atualização em segundo plano.
 // Baseado no modelo do Monetra. Toda mudança publicada sobe a versão (ferramentas/bump.mjs).
-const V = "0.2.0";
+const V = "0.3.0";
 const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
 const CACHE = "mestriva-" + V;
 // Arquivos guardados na instalação. Todo arquivo de js/ precisa estar aqui (testes/pwa.test.mjs confere).
