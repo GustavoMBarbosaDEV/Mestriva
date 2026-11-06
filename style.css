@@ -1225,10 +1225,6 @@ h1, h2, h3, h4 {
   z-index: 30;
 }
 
-.z-40 {
-  z-index: 40;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -1665,10 +1661,6 @@ h1, h2, h3, h4 {
   animation: spin 1s linear infinite;
 }
 
-.cursor-default {
-  cursor: default;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1782,6 +1774,12 @@ h1, h2, h3, h4 {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
 .space-y-1\.5 > :not([hidden]) ~ :not([hidden]) {
@@ -2077,10 +2075,6 @@ h1, h2, h3, h4 {
 
 .bg-secondary\/70 {
   background-color: hsl(var(--secondary) / 0.7);
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-white\/10 {
@@ -2768,6 +2762,10 @@ h1, h2, h3, h4 {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.\[overflow-wrap\:anywhere\] {
+  overflow-wrap: anywhere;
 }
 
 /* ---------- Dark theme polish ---------- */

@@ -50,7 +50,7 @@ export function desenhaGrade(e, eventos, agora = new Date()) {
         .join("")}</ul>`
     : `<p class="mt-2 text-xs text-muted-foreground">Nada marcado neste dia.</p>`;
 
-  return `<section class="overflow-hidden panel">
+  return `<section class="min-w-0 overflow-hidden panel">
     <div class="flex items-center justify-between border-b border-hair px-4 py-3">
       <h2 class="font-heading text-sm font-semibold capitalize">${formataData(e.mes, "MMMM yyyy")}</h2>
       <div class="flex items-center gap-1">
@@ -97,7 +97,7 @@ export function desenhaContagem(eventos, agora = new Date()) {
         })
         .join("")}</ul>`
     : `<div class="flex flex-1 flex-col items-center justify-center px-4 py-10 text-center"><p class="text-xs text-muted-foreground">Nenhum compromisso futuro registrado.</p><button type="button" data-acao="novo" class="mt-3 inline-flex items-center gap-1.5 rounded-lg border border-dashed border-border px-3 py-2 text-[11px] font-medium text-foreground/70 transition hover:border-electric/50">${icone("Plus", "h-3 w-3")}Adicionar o primeiro</button></div>`;
-  return `<section class="flex flex-col panel">
+  return `<section class="flex min-w-0 flex-col panel">
     <div class="flex items-center justify-between border-b border-hair px-4 py-3"><h2 class="text-sm font-semibold">Contagem regressiva</h2>${icone("CalendarDays", "h-4 w-4 text-muted-foreground")}</div>
     ${corpo}
   </section>`;

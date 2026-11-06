@@ -22,7 +22,7 @@ const BOTAO_CONTORNO =
 export const formMaterial = () => ({ subject: "", kind: "resumo", topic: "", content: "", erro: "", ouvindo: false });
 
 export function validaMaterial(f) {
-  if (!f.subject.trim() || !f.topic.trim()) return "Escolha a matéria e diga qual conteúdo você quer estudar.";
+  if (!f.topic.trim()) return "Diga qual conteúdo você quer estudar.";
   if (!f.content.trim()) return "Escreva ou cole suas anotações para salvar o material.";
   return "";
 }
@@ -42,7 +42,7 @@ function formulario(f, materias) {
       <div class="flex items-center gap-2"><span class="flex h-8 w-8 items-center justify-center rounded-lg bg-ink">${icone("Wand2", "h-4 w-4 text-neon")}</span><h2 class="text-sm font-semibold">Montar material de estudo</h2></div>
       <p class="mt-1.5 text-xs text-muted-foreground">Escolha a matéria, o conteúdo e o formato, e escreva ou cole suas anotações. O material fica salvo aqui para reler, ouvir e revisar.</p>
       <div class="mt-4 grid gap-3 sm:grid-cols-2">
-        ${campo({ rotulo: "Matéria", para: "study-subject", conteudo: `<select id="study-subject" data-campo="subject" class="${CLASSE_CAMPO}"><option value="">Selecione a matéria</option>${materias.map((m) => `<option value="${esc(m.name)}"${m.name === f.subject ? " selected" : ""}>${esc(m.name)}</option>`).join("")}</select>` })}
+        ${campo({ rotulo: "Matéria", para: "study-subject", conteudo: `<input id="study-subject" data-campo="subject" list="study-subjects" value="${esc(f.subject)}" placeholder="Ex: Cálculo II" class="${CLASSE_CAMPO}" /><datalist id="study-subjects">${materias.map((m) => `<option value="${esc(m.name)}"></option>`).join("")}</datalist>` })}
         ${campo({ rotulo: "Formato", para: "study-kind", conteudo: `<select id="study-kind" data-campo="kind" class="${CLASSE_CAMPO}">${TIPOS.map((t) => `<option value="${t.value}"${t.value === f.kind ? " selected" : ""}>${t.label}</option>`).join("")}</select>` })}
       </div>
       <div class="mt-3">${campo({
@@ -109,8 +109,8 @@ export function desenha(f, materias, materiais, prova, pomodoro, agora = new Dat
       acoes: `<button type="button" data-acao="foco" class="${BOTAO_CONTORNO}">${icone("Sparkles")}Modo foco</button>`,
     })}
     <div class="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
-      <div class="space-y-5"><div data-form>${formulario(f, materias)}</div>${listaMateriais(materiais)}</div>
-      <div class="space-y-5">${cartaoProva(prova, agora)}<div data-pomodoro>${desenhaPomodoro(pomodoro, materias, "")}</div>${METODOS}</div>
+      <div class="min-w-0 space-y-5"><div data-form>${formulario(f, materias)}</div>${listaMateriais(materiais)}</div>
+      <div class="min-w-0 space-y-5">${cartaoProva(prova, agora)}<div data-pomodoro>${desenhaPomodoro(pomodoro, materias, "")}</div>${METODOS}</div>
     </div>
   </div>`;
 }
@@ -128,8 +128,12 @@ export function montar(raiz, ctx) {
   const form = criaTela(/** @type {HTMLElement} */ (pagina.querySelector("[data-form]")), {
     estado: formMaterial(),
     desenha: (f) => formulario(f, materias),
-    aoDigitar(campoNome, _v, _f) {
-      if (campoNome === "subject") form.pinta();
+    aoDigitar(campoNome, _v, f) {
+      if (campoNome !== "subject") return;
+      // Atualiza só a dica do conteúdo (redesenhar a cada letra atrapalharia a lista de sugestões).
+      const ativa = materias.find((m) => m.name === f.subject);
+      const dica = pagina.querySelector("#study-topic")?.closest(".space-y-1\\.5")?.querySelector("p:last-child");
+      if (dica) dica.textContent = ativa?.topics ? `Na sua grade: ${ativa.topics}` : "Ex: regra da cadeia, cinemática, sociologia clássica…";
     },
     acoes: {
       salvar(_el, f, t) {

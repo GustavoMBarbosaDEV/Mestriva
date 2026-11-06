@@ -63,5 +63,7 @@ test("próxima prova e página", () => {
   assert.ok(h.includes("próxima prova") && h.includes("P2") && h.includes("em 5 dias") && h.includes("Nenhum material ainda"));
   assert.ok(h.includes("Recall ativo") && h.includes("Modo Pomodoro"));
   assert.ok(!/\bIA\b/.test(h));
-  assert.match(validaMaterial(formMaterial()), /Escolha a matéria/);
+  assert.match(validaMaterial(formMaterial()), /Diga qual conteúdo/);
+  assert.equal(validaMaterial({ ...formMaterial(), topic: "Derivadas", content: "x" }), ""); // matéria é opcional (grade vazia não trava)
+  assert.ok(desenha(formMaterial(), [], [], null, pomodoroInicial(), agora).includes("list=\"study-subjects\""));
 });

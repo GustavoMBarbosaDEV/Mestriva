@@ -140,7 +140,9 @@ export function iniciar() {
       });
     },
     sino(el) {
-      abreSino(el, loja.lista("eventos"));
+      // Tocar de novo no sino fecha o painel.
+      if (el.getAttribute("aria-expanded") === "true") fechaSino();
+      else abreSino(el, loja.lista("eventos"));
     },
     foco() {
       abreFoco({ loja, anuncia });

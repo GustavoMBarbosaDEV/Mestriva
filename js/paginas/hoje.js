@@ -103,7 +103,7 @@ export function desenha(r) {
     ? `<ul class="divide-y divide-hair">${r.agenda
         .map((e) => {
           const m = metaTipo(e.type);
-          return `<li class="flex items-center gap-3 px-5 py-3.5"><span class="shrink-0 rounded-lg px-2 py-1 font-mono text-[10px] uppercase tracking-wide ${m.chip}">${m.label}</span><div class="min-w-0 flex-1"><p class="truncate text-sm font-medium">${esc(e.title)}</p><p class="mt-0.5 text-xs text-muted-foreground">${esc(e.subject || "Geral")} · ${formataData(e.date, "d MMM 'às' HH:mm")}</p></div><span class="shrink-0 font-mono text-[10px] uppercase tracking-wide text-muted-foreground">${contagem(e.date, r.agora)}</span></li>`;
+          return `<li class="flex items-center gap-3 px-5 py-3.5"><span class="shrink-0 rounded-lg px-2 py-1 font-mono text-[10px] uppercase tracking-wide ${m.chip}">${m.label}</span><div class="min-w-0 flex-1"><p class="truncate text-sm font-medium">${esc(e.title)}</p><p class="mt-0.5 text-xs text-muted-foreground [overflow-wrap:anywhere]">${esc(e.subject || "Geral")} · ${formataData(e.date, "d MMM 'às' HH:mm")}</p></div><span class="shrink-0 font-mono text-[10px] uppercase tracking-wide text-muted-foreground">${contagem(e.date, r.agora)}</span></li>`;
         })
         .join("")}</ul>`
     : `<div class="px-5 py-8 text-center"><p class="text-xs text-muted-foreground">Nada marcado por aqui ainda.</p><a href="/calendario" class="mt-3 inline-flex items-center gap-1.5 rounded-lg border border-dashed border-border px-3 py-2 text-[11px] font-medium text-foreground/70 transition hover:border-electric/50">${icone("Plus", "h-3 w-3")}Adicionar compromisso</a></div>`;

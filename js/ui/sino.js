@@ -64,21 +64,21 @@ export function abreSino(botao, eventos) {
   const caixa = botao.parentElement;
   if (!caixa) return;
   botao.setAttribute("aria-expanded", "true");
-  const fundo = document.createElement("button");
-  fundo.type = "button";
-  fundo.setAttribute("aria-label", "Fechar lembretes");
-  fundo.className = "fixed inset-0 z-40 cursor-default bg-transparent";
-  fundo.dataset.sinoFundo = "";
   const painel = document.createElement("div");
   // No celular abre fixo abaixo do cabeçalho; no computador, acima do botão no menu lateral.
   painel.className = "fixed inset-x-4 top-[4.25rem] z-50 overflow-hidden panel shadow-xl lg:absolute lg:inset-x-auto lg:top-auto lg:left-0 lg:bottom-full lg:mb-2 lg:w-[300px]";
   painel.dataset.sinoPainel = "";
   const pinta = () => (painel.innerHTML = desenhaLembretes(lista, permissaoAtual(), ativado()));
   pinta();
-  caixa.append(fundo, painel);
+  caixa.append(painel);
   const tecla = (/** @type {KeyboardEvent} */ e) => { if (e.key === "Escape") { fechaSino(); botao.focus(); } };
   document.addEventListener("keydown", tecla);
-  fundo.addEventListener("click", fechaSino);
+  // Toque fora do painel fecha (sem fundo fixo: o cabeçalho e o menu têm backdrop-blur, que prende elementos fixed dentro deles).
+  const fora = (/** @type {PointerEvent} */ e) => {
+    const alvo = /** @type {Node} */ (e.target);
+    if (!painel.contains(alvo) && !botao.contains(alvo)) fechaSino();
+  };
+  setTimeout(() => document.addEventListener("pointerdown", fora, true), 0);
   painel.addEventListener("click", async (e) => {
     const alvo = /** @type {HTMLElement} */ (e.target);
     if (alvo.closest("[data-fechar-sino]")) fechaSino();
@@ -93,7 +93,7 @@ export function abreSino(botao, eventos) {
   });
   fechaSino = () => {
     document.removeEventListener("keydown", tecla);
-    fundo.remove();
+    document.removeEventListener("pointerdown", fora, true);
     painel.remove();
     botao.setAttribute("aria-expanded", "false");
     fechaSino = () => {};

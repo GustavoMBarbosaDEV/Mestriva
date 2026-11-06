@@ -44,11 +44,11 @@ function item(n) {
     <div class="flex items-start justify-between gap-3">
       <div class="min-w-0">
         <p class="truncate text-[13px] font-semibold">${esc(n.activity)}</p>
-        <p class="mt-0.5 text-[11px] text-muted-foreground">${esc(n.subject)} · ${n.date ? formataData(n.date, "d MMM yyyy") : "sem data"}</p>
+        <p class="mt-0.5 text-[11px] text-muted-foreground [overflow-wrap:anywhere]">${esc(n.subject)} · ${n.date ? formataData(n.date, "d MMM yyyy") : "sem data"}</p>
       </div>
       <span class="shrink-0 rounded-lg px-2.5 py-1 text-xs font-semibold ${tomDaNota(n)}">${esc(numeroBr(n.value ?? "—"))}/${esc(numeroBr(n.max_value || 10))}</span>
     </div>
-    ${n.wrong_topics ? `<p class="mt-2 rounded-lg bg-secondary/60 px-3 py-2 text-[11px] leading-relaxed text-foreground/70"><span class="font-medium text-foreground">Erros: </span>${esc(n.wrong_topics)}</p>` : ""}
+    ${n.wrong_topics ? `<p class="mt-2 rounded-lg bg-secondary/60 px-3 py-2 text-[11px] leading-relaxed text-foreground/70 [overflow-wrap:anywhere]"><span class="font-medium text-foreground">Erros: </span>${esc(n.wrong_topics)}</p>` : ""}
     <div class="mt-3 flex items-center justify-between gap-2">
       <button type="button" data-acao="revisao" data-id="${esc(n.id)}" class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-electric transition hover:underline disabled:opacity-60">${icone("Sparkles", "h-3.5 w-3.5")}Gerar conteúdo complementar</button>
       <button type="button" data-acao="excluir" data-id="${esc(n.id)}" class="rounded-lg p-1.5 text-muted-foreground transition hover:text-destructive" aria-label="Excluir ${esc(n.activity)}">${icone("Trash2", "h-3.5 w-3.5")}</button>
@@ -69,7 +69,7 @@ export function desenha(f, notas, materias) {
       acoes: media ? `<div class="rounded-xl border border-hair bg-card px-4 py-2.5"><p class="font-mono text-[9px] uppercase tracking-[0.16em] text-muted-foreground">média geral</p><p class="mt-0.5 font-heading text-lg font-semibold leading-none">${media}</p></div>` : "",
     })}
     <div class="grid gap-5 lg:grid-cols-[1fr_1.3fr]">
-      <form data-enviar="nota" class="space-y-4 panel p-5" novalidate>
+      <form data-enviar="nota" class="min-w-0 space-y-4 panel p-5" novalidate>
         <div class="flex items-center gap-2"><span class="flex h-8 w-8 items-center justify-center rounded-lg bg-ink">${icone("Plus", "h-4 w-4 text-neon")}</span><h2 class="text-sm font-semibold">Lançar resultado</h2></div>
         ${campo({ rotulo: "Matéria", para: "grade-subject", conteudo: `<input id="grade-subject" data-campo="subject" list="grade-subjects" value="${esc(f.subject)}" placeholder="Ex: Cálculo II" class="${CLASSE_CAMPO}" /><datalist id="grade-subjects">${materias.map((m) => `<option value="${esc(m.name)}"></option>`).join("")}</datalist>` })}
         ${campo({ rotulo: "Atividade", para: "grade-activity", conteudo: `<input id="grade-activity" data-campo="activity" value="${esc(f.activity)}" placeholder="Ex: P2 / Trabalho em grupo" class="${CLASSE_CAMPO}" />` })}
@@ -82,7 +82,7 @@ export function desenha(f, notas, materias) {
         ${f.erro ? `<p role="alert" class="rounded-xl bg-destructive/10 px-3.5 py-2.5 text-xs font-medium text-destructive">${esc(f.erro)}</p>` : ""}
         <button type="submit" class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-ink px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-ink/90 disabled:opacity-60">Salvar resultado</button>
       </form>
-      <div class="space-y-3">
+      <div class="min-w-0 space-y-3">
         <div class="flex items-center justify-between"><h2 class="text-sm font-semibold">Seus lançamentos</h2><span class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">${notas.length} registros</span></div>
         ${lista}
       </div>
