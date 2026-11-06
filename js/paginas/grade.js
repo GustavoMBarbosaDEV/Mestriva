@@ -4,6 +4,7 @@ import { icone } from "../icones.js";
 import { corDaMateria, agrupaPorPeriodo, lerGradeTexto } from "../curriculo.js";
 import { achaNoBanco } from "../conteudo.js";
 import { carregaIndice } from "../banco.js";
+import { textoDoPdf, materiasDoTextoExtraido } from "../importar.js";
 import { cabecalho, BOTAO_PRIMARIO } from "../ui/cabecalho.js";
 import { vazio } from "../ui/vazio.js";
 import { criaTela } from "../ui/pagina.js";
@@ -101,7 +102,7 @@ export function montar(raiz, ctx) {
         ctx.anuncia(`${m.name}: ${m.status === "concluida" ? "concluída" : "cursando"}`);
       },
       importar(_el, _e, t) { abreDialogoImportar({ loja: ctx.loja, aoSalvar: () => t.pinta(), anuncia: ctx.anuncia, materiasDoTexto }); },
-      arquivo() { abreDialogoArquivo(); },
+      arquivo(_el, _e, t) { abreDialogoArquivo({ loja: ctx.loja, aoSalvar: () => t.pinta(), anuncia: ctx.anuncia, lePdf: textoDoPdf, extrai: materiasDoTextoExtraido }); },
     },
   });
   carregaIndice().then((indice) => { tela.estado.indice = indice; tela.pinta(); });

@@ -117,19 +117,71 @@ export function abreDialogoImportar({ loja, aoSalvar, anuncia, materiasDoTexto }
   return tela;
 }
 
-/** Importar por PDF ou foto: chega no plano 6 (leitura no próprio aparelho). */
-export function abreDialogoArquivo() {
-  abreDialogo({
+/** Corpo do diálogo "Importar grade por arquivo" (lendo no aparelho). */
+export function corpoArquivo(e) {
+  const zona = `<label class="flex cursor-pointer flex-col items-center justify-center rounded-2xl border border-dashed border-border bg-secondary/40 px-4 py-8 text-center transition hover:border-electric/50">
+      <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-card">${icone("FileUp", "h-5 w-5 text-electric")}</span>
+      <span class="mt-3 text-sm font-medium">Escolher o PDF da grade</span>
+      <span class="mt-1 text-[11px] text-muted-foreground">PDF com texto · até 10 MB · lido no seu aparelho, nada é enviado</span>
+      <input type="file" accept="application/pdf,.pdf" data-arquivo-grade class="sr-only" />
+    </label>`;
+  const lendo = `<p role="status" class="flex items-center gap-2 text-xs text-muted-foreground">${icone("Loader2", "h-3.5 w-3.5 animate-spin")}Lendo o arquivo no seu aparelho…</p>`;
+  const n = e.itens.length;
+  const lista = `<div>
+      <div class="mb-2 flex items-center justify-between"><p class="text-xs font-semibold">${n} matéria${n === 1 ? "" : "s"} encontrada${n === 1 ? "" : "s"}</p><span class="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">confira antes de salvar</span></div>
+      <ul class="max-h-56 space-y-1.5 overflow-y-auto pr-1">${e.itens
+        .map((m, i) => `<li class="flex items-center gap-2 rounded-lg border border-hair px-3 py-2"><span class="min-w-0 flex-1"><span class="block truncate text-[13px] font-medium">${esc(m.name)}</span><span class="block truncate text-[11px] text-muted-foreground">${esc([m.period ? `${m.period} período` : "Sem período", m.professor].filter(Boolean).join(" · "))}</span></span><button type="button" data-acao="remover" data-valor="${i}" class="rounded-lg p-1.5 text-muted-foreground transition hover:text-destructive" aria-label="Remover ${esc(m.name)}">${icone("Trash2", "h-3.5 w-3.5")}</button></li>`)
+        .join("")}</ul>
+    </div>
+    <div class="flex justify-end gap-2">
+      <button type="button" data-acao="outro" class="rounded-xl border border-border px-4 py-2.5 text-sm font-medium text-foreground/70 transition hover:bg-secondary">Escolher outro</button>
+      <button type="button" data-acao="salvar-arquivo"${n ? "" : " disabled"} class="${BOTAO}">${icone("Upload", "h-4 w-4 text-neon")}Salvar ${n} matéria${n === 1 ? "" : "s"}</button>
+    </div>`;
+  return `<div class="space-y-4">${e.fase === "conferir" ? lista : e.fase === "lendo" ? lendo : zona}${ERRO(e.erro)}<p class="text-[11px] leading-relaxed text-muted-foreground">Grade em foto ou PDF escaneado (sem texto selecionável)? Por enquanto, use "Carregar grade" e cole a lista.</p></div>`;
+}
+
+/** Importar a grade por PDF (texto lido no aparelho com pdf.js). @param {{loja:any, aoSalvar:()=>void, anuncia:(t:string)=>void, lePdf:(f: File) => Promise<string>, extrai:(t: string) => any[]}} p */
+export function abreDialogoArquivo({ loja, aoSalvar, anuncia, lePdf, extrai }) {
+  const dlg = abreDialogo({
     titulo: "Importar grade por arquivo",
-    descricao: "Envie o PDF ou uma foto da grade e o app separa as matérias para você conferir.",
-    corpo: `<div class="space-y-4">
-      <div class="flex flex-col items-center justify-center rounded-2xl border border-dashed border-border bg-secondary/40 px-4 py-8 text-center">
-        <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-card">${icone("FileUp", "h-5 w-5 text-electric")}</span>
-        <span class="mt-3 text-sm font-medium">Chega na próxima etapa</span>
-        <span class="mt-1 text-[11px] text-muted-foreground">A leitura do arquivo vai acontecer no seu aparelho, sem enviar nada para fora. Por enquanto, use "Carregar grade" e cole a lista.</span>
-      </div>
-    </div>`,
+    descricao: "Envie o PDF da grade e o app separa as matérias para você conferir.",
+    corpo: "",
     classe: "max-h-[88vh] max-w-lg overflow-y-auto rounded-2xl",
     classeTitulo: "text-xl",
+  });
+  const area = /** @type {HTMLElement} */ (dlg.elemento.querySelector("[data-corpo]"));
+  const tela = criaTela(area, {
+    estado: { fase: "escolher", erro: "", itens: [] },
+    desenha: corpoArquivo,
+    acoes: {
+      remover(el, e, t) { e.itens.splice(Number(el.dataset.valor), 1); t.pinta(); },
+      outro(_el, e, t) { Object.assign(e, { fase: "escolher", erro: "", itens: [] }); t.pinta(); },
+      "salvar-arquivo"(_el, e) {
+        const base = Date.now();
+        e.itens.forEach((m, i) => loja.salva("materias", { name: m.name, period: m.period, professor: m.professor, status: "cursando", order: base + i }));
+        dlg.fecha();
+        anuncia(`${e.itens.length} matérias importadas`);
+        aoSalvar();
+      },
+    },
+  });
+  area.addEventListener("change", async (ev) => {
+    const input = /** @type {HTMLInputElement} */ (ev.target);
+    if (!input.matches("[data-arquivo-grade]") || !input.files?.[0]) return;
+    const f = input.files[0];
+    const e = tela.estado;
+    if (f.size > 10 * 1024 * 1024) { e.erro = "O arquivo passa de 10 MB. Tente um PDF menor."; tela.pinta(); return; }
+    if (!/pdf$/i.test(f.type) && !/\.pdf$/i.test(f.name)) { e.erro = "Por enquanto só PDF. Para foto, use “Carregar grade” e cole a lista."; tela.pinta(); return; }
+    Object.assign(e, { fase: "lendo", erro: "" });
+    tela.pinta();
+    try {
+      const itens = extrai(await lePdf(f));
+      if (!itens.length) Object.assign(e, { fase: "escolher", erro: "Não encontrei matérias nesse arquivo. Se for um PDF escaneado (imagem), use “Carregar grade” e cole a lista." });
+      else Object.assign(e, { fase: "conferir", itens });
+    } catch {
+      Object.assign(e, { fase: "escolher", erro: "Não consegui ler esse PDF. Tente outro arquivo ou cole a lista em “Carregar grade”." });
+    }
+    tela.pinta();
+    anuncia(e.fase === "conferir" ? `${e.itens.length} matérias encontradas. Confira antes de salvar.` : e.erro);
   });
 }

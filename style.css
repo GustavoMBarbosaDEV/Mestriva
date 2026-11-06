@@ -1497,6 +1497,10 @@ h1, h2, h3, h4 {
   max-height: 8rem;
 }
 
+.max-h-56 {
+  max-height: 14rem;
+}
+
 .max-h-64 {
   max-height: 16rem;
 }
@@ -1731,6 +1735,10 @@ h1, h2, h3, h4 {
 
 .rotate-180 {
   --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2476,6 +2484,10 @@ h1, h2, h3, h4 {
 
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .pr-6 {
