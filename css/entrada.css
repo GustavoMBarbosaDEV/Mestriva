@@ -568,3 +568,8 @@
     transform: none;
   }
 }
+
+/* Atrasos da entrada dos indicadores do painel (80, 140 e 200 ms). */
+.rise-1 { animation-delay: 80ms; }
+.rise-2 { animation-delay: 140ms; }
+.rise-3 { animation-delay: 200ms; }
