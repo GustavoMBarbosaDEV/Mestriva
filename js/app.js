@@ -16,6 +16,7 @@ import * as notas from "./paginas/notas.js";
 import * as estudar from "./paginas/estudar.js";
 import * as hoje from "./paginas/hoje.js";
 import * as ajustes from "./paginas/ajustes.js";
+import * as quiz from "./paginas/quiz.js";
 import { abreSino, fechaSino, lembretes, notificaLembretes } from "./ui/sino.js";
 import { abreFoco } from "./ui/foco.js";
 import { mostraNovidades } from "./ui/novidades.js";
@@ -29,7 +30,7 @@ import { VERSAO, NOVIDADES } from "./versao.js";
  */
 
 /** Páginas reais (as que não estão aqui mostram a provisória). @type {Record<string, Pagina>} */
-const PAGINAS = { "nao-encontrada": naoEncontrada, onboarding, calendar: calendario, curriculum: grade, grades: notas, study: estudar, dashboard: hoje, settings: ajustes };
+const PAGINAS = { "nao-encontrada": naoEncontrada, onboarding, calendar: calendario, curriculum: grade, grades: notas, study: estudar, dashboard: hoje, settings: ajustes, quiz };
 
 const TOAST_VIEWPORT = "pointer-events-none fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]";
 const TOAST =

@@ -1912,6 +1912,11 @@ h1, h2, h3, h4 {
   border-style: dashed;
 }
 
+.border-\[\#12B76A\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(18 183 106 / var(--tw-border-opacity, 1));
+}
+
 .border-border {
   border-color: hsl(var(--border));
 }
@@ -2020,6 +2025,10 @@ h1, h2, h3, h4 {
 
 .bg-destructive\/10 {
   background-color: hsl(var(--destructive) / 0.1);
+}
+
+.bg-destructive\/5 {
+  background-color: hsl(var(--destructive) / 0.05);
 }
 
 .bg-electric {
@@ -2182,6 +2191,11 @@ h1, h2, h3, h4 {
   padding-bottom: 3rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -2220,6 +2234,10 @@ h1, h2, h3, h4 {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .pb-28 {
@@ -2292,6 +2310,11 @@ h1, h2, h3, h4 {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -2307,6 +2330,10 @@ h1, h2, h3, h4 {
 
 .text-\[13px\] {
   font-size: 13px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-\[17px\] {
@@ -2440,6 +2467,11 @@ h1, h2, h3, h4 {
   color: rgb(2 122 72 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#12B76A\] {
+  --tw-text-opacity: 1;
+  color: rgb(18 183 106 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#3B5BFF\] {
   --tw-text-opacity: 1;
   color: rgb(59 91 255 / var(--tw-text-opacity, 1));
@@ -2535,6 +2567,10 @@ h1, h2, h3, h4 {
   color: rgb(255 255 255 / 0.45);
 }
 
+.text-white\/50 {
+  color: rgb(255 255 255 / 0.5);
+}
+
 .text-white\/60 {
   color: rgb(255 255 255 / 0.6);
 }
@@ -2545,6 +2581,10 @@ h1, h2, h3, h4 {
 
 .text-white\/85 {
   color: rgb(255 255 255 / 0.85);
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 
 .opacity-0 {
@@ -3384,6 +3424,18 @@ h1, h2, h3, h4 {
 
 .data-\[estado\=unchecked\]\:bg-input[data-estado="unchecked"] {
   background-color: hsl(var(--input));
+}
+
+.dark\:border-foreground:is(.dark *) {
+  border-color: hsl(var(--foreground));
+}
+
+.dark\:bg-\[\#12B76A\]\/15:is(.dark *) {
+  background-color: rgb(18 183 106 / 0.15);
+}
+
+.dark\:bg-foreground:is(.dark *) {
+  background-color: hsl(var(--foreground));
 }
 
 .dark\:text-foreground:is(.dark *) {

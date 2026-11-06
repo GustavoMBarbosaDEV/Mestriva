@@ -136,3 +136,13 @@ test("substitui tudo (restaurar backup) e limpa (apagar dados)", () => {
   assert.equal(a.getItem(CHAVE), null);
   assert.equal(avisos, 2);
 });
+
+test("histórico de respostas (repetição espaçada)", () => {
+  const a = armazenamentoFalso();
+  const loja = criaLoja({ armazenamento: a });
+  assert.deepEqual(loja.erros(), {});
+  loja.salvaErros({ "q-1": { a: 1, e: 0, prox: "2026-11-06T10:00:00.000Z" } });
+  assert.equal(criaLoja({ armazenamento: a }).erros()["q-1"].a, 1);
+  loja.erros()["q-1"].a = 9;
+  assert.equal(loja.erros()["q-1"].a, 1);
+});

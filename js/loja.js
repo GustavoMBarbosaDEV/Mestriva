@@ -106,6 +106,13 @@ export function criaLoja({ armazenamento, chave = "mestriva.dados.v1" } = {}) {
       grava();
       return true;
     },
+    /** Histórico de respostas por questão (repetição espaçada). */
+    erros: () => copia(estado.erros),
+    /** @param {Record<string,{a:number,e:number,prox:string}>} erros */
+    salvaErros(erros) {
+      estado.erros = normDados({ erros }).erros;
+      grava();
+    },
     /** Troca todos os dados (restaurar backup). @param {unknown} dados */
     substitui(dados) {
       estado = normDados(dados);
