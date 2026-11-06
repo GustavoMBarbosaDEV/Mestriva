@@ -106,6 +106,21 @@ export function criaLoja({ armazenamento, chave = "mestriva.dados.v1" } = {}) {
       grava();
       return true;
     },
+    /** Troca todos os dados (restaurar backup). @param {unknown} dados */
+    substitui(dados) {
+      estado = normDados(dados);
+      grava();
+    },
+    /** Apaga os dados deste aparelho. */
+    limpa() {
+      estado = normDados(null);
+      try {
+        arm?.removeItem(chave);
+      } catch {
+        /* nada a apagar */
+      }
+      for (const fn of ouvintes) fn(copia(estado));
+    },
     /** @param {(d:any)=>void} fn */
     assina(fn) {
       ouvintes.add(fn);

@@ -120,3 +120,19 @@ test("coleção desconhecida lança", () => {
   assert.throws(() => loja.lista("nada"), /coleção desconhecida/);
   assert.throws(() => loja.salva("nada", {}), /coleção desconhecida/);
 });
+
+test("substitui tudo (restaurar backup) e limpa (apagar dados)", () => {
+  const a = armazenamentoFalso();
+  const loja = criaLoja({ armazenamento: a });
+  loja.salva("materias", { name: "Velha" });
+  let avisos = 0;
+  loja.assina(() => avisos++);
+  loja.substitui({ perfil: { course: "Direito" }, materias: [{ name: "Nova" }] });
+  assert.deepEqual(loja.lista("materias").map((m) => m.name), ["Nova"]);
+  assert.equal(criaLoja({ armazenamento: a }).perfil().course, "Direito");
+  loja.limpa();
+  assert.deepEqual(loja.lista("materias"), []);
+  assert.equal(loja.perfil().onboarding_completed, false);
+  assert.equal(a.getItem(CHAVE), null);
+  assert.equal(avisos, 2);
+});

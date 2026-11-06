@@ -15,6 +15,8 @@ import * as grade from "./paginas/grade.js";
 import * as notas from "./paginas/notas.js";
 import * as estudar from "./paginas/estudar.js";
 import * as hoje from "./paginas/hoje.js";
+import * as ajustes from "./paginas/ajustes.js";
+import { abreSino, fechaSino, lembretes, notificaLembretes } from "./ui/sino.js";
 import { abreFoco } from "./ui/foco.js";
 
 /**
@@ -25,9 +27,9 @@ import { abreFoco } from "./ui/foco.js";
  */
 
 /** Páginas reais (as que não estão aqui mostram a provisória). @type {Record<string, Pagina>} */
-const PAGINAS = { "nao-encontrada": naoEncontrada, onboarding, calendar: calendario, curriculum: grade, grades: notas, study: estudar, dashboard: hoje };
+const PAGINAS = { "nao-encontrada": naoEncontrada, onboarding, calendar: calendario, curriculum: grade, grades: notas, study: estudar, dashboard: hoje, settings: ajustes };
 
-const TOAST_VIEWPORT = "fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]";
+const TOAST_VIEWPORT = "pointer-events-none fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]";
 const TOAST =
   "group pointer-events-auto relative flex w-full items-center justify-between space-x-4 overflow-hidden rounded-md border p-6 pr-8 shadow-lg transition-all animate-in slide-in-from-top-full sm:slide-in-from-bottom-full border bg-background text-foreground";
 
@@ -63,7 +65,10 @@ export function iniciar() {
     li.setAttribute("role", "status");
     li.innerHTML = `<div class="text-sm opacity-90">${esc(texto)}</div>`;
     vp.appendChild(li);
-    setTimeout(() => li.remove(), 6000);
+    setTimeout(() => {
+      li.remove();
+      if (vp && !vp.children.length) vp.remove();
+    }, 6000);
   }
 
   const usuario = () => ({ nome: loja.perfil().display_name, email: "" });
@@ -78,6 +83,7 @@ export function iniciar() {
       return;
     }
     fechaDialogos();
+    fechaSino();
     dialogoA11y = null;
     if (limpeza) limpeza();
     limpeza = null;
@@ -91,7 +97,7 @@ export function iniciar() {
     };
     const pagina = /** @type {Pagina} */ (PAGINAS[r.pagina] || provisoria);
     const conteudo = pagina.render(ctx);
-    app.innerHTML = rota.tipo === "protegida" ? casca({ caminho, usuario: ctx.usuario, tema: prefs.tema, conteudo }) : conteudo;
+    app.innerHTML = rota.tipo === "protegida" ? casca({ caminho, usuario: ctx.usuario, tema: prefs.tema, conteudo, lembretes: lembretes(loja.lista("eventos")).length }) : conteudo;
     document.title = r.pagina === "landing" ? rota.titulo : `${rota.titulo} · Mestriva`;
     const resto = pagina.montar?.(app, ctx);
     if (typeof resto === "function") limpeza = resto;
@@ -130,6 +136,9 @@ export function iniciar() {
         classeTitulo: "font-heading text-xl",
         aoFechar: () => (dialogoA11y = null),
       });
+    },
+    sino(el) {
+      abreSino(el, loja.lista("eventos"));
     },
     foco() {
       abreFoco({ loja, anuncia });
@@ -176,6 +185,7 @@ export function iniciar() {
   avisaArmazenamento();
   loja.assina(avisaArmazenamento);
   ligaAtualizacao({ anuncia });
+  notificaLembretes(lembretes(loja.lista("eventos")));
   return { loja, desenha };
 }
 

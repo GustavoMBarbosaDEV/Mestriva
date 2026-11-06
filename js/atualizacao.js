@@ -43,7 +43,8 @@ export function primeiroVisivel(lista) {
 /** @param {{anuncia: (t: string) => void}} p */
 export function ligaAtualizacao({ anuncia }) {
   if (!("serviceWorker" in navigator)) return;
-  if (location.hostname === "localhost" && new URLSearchParams(location.search).has("semsw")) return;
+  // No computador (localhost) o cache do service worker esconde o código novo: só liga com ?sw no endereço.
+  if (location.hostname === "localhost" && !new URLSearchParams(location.search).has("sw")) return;
 
   let adiadoAte = 0;
   ouveTrocaDeControle(navigator.serviceWorker, () => location.reload());

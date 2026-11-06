@@ -39,7 +39,6 @@ export function resolve(caminho, { logado, perfilCompleto }) {
     return { pagina: rota.pagina, rota, redireciona: c === "/" ? "/bem-vindo" : "/login?volta=" + encodeURIComponent(c) };
   }
   if (rota.tipo === "protegida" && !perfilCompleto) return { pagina: rota.pagina, rota, redireciona: "/onboarding" };
-  if (rota.tipo === "onboarding" && perfilCompleto) return { pagina: rota.pagina, rota, redireciona: "/" };
   if ((c === "/login" || c === "/register") && logado) return { pagina: rota.pagina, rota, redireciona: "/" };
   return { pagina: rota.pagina, rota };
 }

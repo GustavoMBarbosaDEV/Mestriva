@@ -1205,6 +1205,10 @@ h1, h2, h3, h4 {
   top: 1rem;
 }
 
+.top-\[4\.25rem\] {
+  top: 4.25rem;
+}
+
 .top-\[50\%\] {
   top: 50%;
 }
@@ -1219,6 +1223,10 @@ h1, h2, h3, h4 {
 
 .z-30 {
   z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .z-50 {
@@ -1373,6 +1381,10 @@ h1, h2, h3, h4 {
   height: 3rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-2\.5 {
   height: 0.625rem;
 }
@@ -1441,6 +1453,10 @@ h1, h2, h3, h4 {
   height: 1px;
 }
 
+.max-h-64 {
+  max-height: 16rem;
+}
+
 .max-h-\[88vh\] {
   max-height: 88vh;
 }
@@ -1491,6 +1507,10 @@ h1, h2, h3, h4 {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-2 {
+  width: 0.5rem;
 }
 
 .w-2\.5 {
@@ -1620,6 +1640,11 @@ h1, h2, h3, h4 {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes pulse {
   50% {
     opacity: .5;
@@ -1638,6 +1663,10 @@ h1, h2, h3, h4 {
 
 .animate-spin {
   animation: spin 1s linear infinite;
+}
+
+.cursor-default {
+  cursor: default;
 }
 
 .cursor-pointer {
@@ -1987,6 +2016,10 @@ h1, h2, h3, h4 {
   background-color: hsl(var(--card) / 0.95);
 }
 
+.bg-destructive {
+  background-color: hsl(var(--destructive));
+}
+
 .bg-destructive\/10 {
   background-color: hsl(var(--destructive) / 0.1);
 }
@@ -2044,6 +2077,10 @@ h1, h2, h3, h4 {
 
 .bg-secondary\/70 {
   background-color: hsl(var(--secondary) / 0.7);
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-white\/10 {
@@ -2219,6 +2256,10 @@ h1, h2, h3, h4 {
   padding-top: 0.25rem;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -2376,6 +2417,10 @@ h1, h2, h3, h4 {
   letter-spacing: 0.12em;
 }
 
+.tracking-\[0\.14em\] {
+  letter-spacing: 0.14em;
+}
+
 .tracking-\[0\.16em\] {
   letter-spacing: 0.16em;
 }
@@ -2418,6 +2463,10 @@ h1, h2, h3, h4 {
 
 .text-destructive {
   color: hsl(var(--destructive));
+}
+
+.text-destructive-foreground {
+  color: hsl(var(--destructive-foreground));
 }
 
 .text-electric {
@@ -2549,6 +2598,12 @@ h1, h2, h3, h4 {
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -3103,12 +3158,20 @@ h1, h2, h3, h4 {
   border-right-width: 0px;
 }
 
+.hover\:border-destructive\/40:hover {
+  border-color: hsl(var(--destructive) / 0.4);
+}
+
 .hover\:border-electric\/40:hover {
   border-color: rgb(59 91 255 / 0.4);
 }
 
 .hover\:border-electric\/50:hover {
   border-color: rgb(59 91 255 / 0.5);
+}
+
+.hover\:bg-destructive\/90:hover {
+  background-color: hsl(var(--destructive) / 0.9);
 }
 
 .hover\:bg-ink\/90:hover {
@@ -3404,8 +3467,25 @@ h1, h2, h3, h4 {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+
   .lg\:bottom-6 {
     bottom: 1.5rem;
+  }
+
+  .lg\:bottom-full {
+    bottom: 100%;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
   }
 
   .lg\:left-auto {
@@ -3416,9 +3496,17 @@ h1, h2, h3, h4 {
     right: 1.5rem;
   }
 
+  .lg\:top-auto {
+    top: auto;
+  }
+
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .lg\:mb-2 {
+    margin-bottom: 0.5rem;
   }
 
   .lg\:mt-0 {
@@ -3433,6 +3521,10 @@ h1, h2, h3, h4 {
     display: none;
   }
 
+  .lg\:w-\[300px\] {
+    width: 300px;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -3443,6 +3535,10 @@ h1, h2, h3, h4 {
 
   .lg\:grid-cols-\[1\.35fr_1fr\] {
     grid-template-columns: 1.35fr 1fr;
+  }
+
+  .lg\:grid-cols-\[1\.3fr_1fr\] {
+    grid-template-columns: 1.3fr 1fr;
   }
 
   .lg\:grid-cols-\[1\.4fr_1fr\] {

@@ -36,7 +36,7 @@ test("perfil incompleto vai para o onboarding", () => {
 });
 
 test("logado não volta ao login nem ao onboarding pronto", () => {
-  assert.equal(resolve("/onboarding", ok).redireciona, "/");
+  assert.equal(resolve("/onboarding", ok).redireciona, undefined); // dá para rever o questionário (link em Ajustes)
   assert.equal(resolve("/login", ok).redireciona, "/");
   assert.equal(resolve("/register", ok).redireciona, "/");
   assert.equal(resolve("/bem-vindo", ok).pagina, "landing");
