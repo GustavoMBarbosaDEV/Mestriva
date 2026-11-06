@@ -9,15 +9,17 @@ import { casca } from "./ui/casca.js";
 import { ligaAtualizacao, primeiroVisivel } from "./atualizacao.js";
 import * as provisoria from "./paginas/provisoria.js";
 import * as naoEncontrada from "./paginas/nao-encontrada.js";
+import * as onboarding from "./paginas/onboarding.js";
 
 /**
  * @typedef {{render: (ctx: Ctx) => string, montar?: (raiz: HTMLElement, ctx: Ctx) => (void | (() => void))}} Pagina
  * @typedef {{loja: ReturnType<typeof criaLoja>, prefs: import("./preferencias.js").Prefs, usuario: {nome:string, email:string},
- *   navega: typeof navega, anuncia: (t: string) => void, rota: {caminho: string, titulo: string, pagina: string}}} Ctx
+ *   navega: typeof navega, anuncia: (t: string) => void, toast: (t: string) => void, rota: {caminho: string, titulo: string, pagina: string},
+ *   mudaA11y: (a11y: import("./preferencias.js").A11y) => void}} Ctx
  */
 
-/** Páginas reais entram aqui a partir do plano 2. @type {Record<string, Pagina>} */
-const PAGINAS = { "nao-encontrada": naoEncontrada };
+/** Páginas reais (as que não estão aqui mostram a provisória). @type {Record<string, Pagina>} */
+const PAGINAS = { "nao-encontrada": naoEncontrada, onboarding };
 
 const TOAST_VIEWPORT = "fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]";
 const TOAST =
@@ -77,7 +79,10 @@ export function iniciar() {
     const rota = r.rota ? { ...r.rota } : { caminho, titulo: "Página não encontrada", pagina: r.pagina, tipo: "publica" };
     rota.caminho = caminho;
     /** @type {Ctx} */
-    const ctx = { loja, prefs, usuario: usuario(), navega, anuncia, rota };
+    const ctx = {
+      loja, prefs, usuario: usuario(), navega, anuncia, toast, rota,
+      mudaA11y: (/** @type {import("./preferencias.js").A11y} */ a11y) => mudaPrefs({ ...prefs, a11y }),
+    };
     const pagina = /** @type {Pagina} */ (PAGINAS[r.pagina] || provisoria);
     const conteudo = pagina.render(ctx);
     app.innerHTML = rota.tipo === "protegida" ? casca({ caminho, usuario: ctx.usuario, tema: prefs.tema, conteudo }) : conteudo;
