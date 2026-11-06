@@ -1,5 +1,7 @@
 // Registro do service worker e cartão "Nova versão pronta" (padrão do Monetra).
 
+import { simbolo } from "./ui/marca.js";
+
 const ADIAR_MS = 30 * 60 * 1000;
 const CARTAO =
   "panel fixed inset-x-4 bottom-24 z-[60] mx-auto flex max-w-md items-center gap-3 p-4 animate-in fade-in-0 slide-in-from-bottom-4 lg:bottom-6 lg:left-auto lg:right-6 lg:mx-0";
@@ -58,7 +60,7 @@ export function ligaAtualizacao({ anuncia }) {
     el.id = "nova-versao";
     el.setAttribute("role", "status");
     el.className = CARTAO;
-    el.innerHTML = `<span class="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-ink font-heading text-lg font-bold text-neon">M<span class="pulse-dot absolute -right-0.5 -top-0.5 h-2.5 w-2.5 rounded-full bg-electric"></span></span>
+    el.innerHTML = `<span class="relative flex h-10 w-10 shrink-0">${simbolo("h-10 w-10")}<span class="pulse-dot absolute -right-0.5 -top-0.5 h-2.5 w-2.5 rounded-full bg-electric"></span></span>
       <span class="min-w-0 flex-1"><span class="block text-sm font-semibold">Nova versão pronta</span><span class="block font-mono text-[11px] text-muted-foreground" data-versao></span>
       <span class="mt-2 block h-1 overflow-hidden rounded-full bg-secondary" hidden data-barra><span class="block h-full w-1/3 animate-pulse rounded-full bg-electric"></span></span></span>
       <span class="flex shrink-0 gap-1.5"><button type="button" data-atualizar class="${BOTAO} bg-ink text-white hover:bg-ink/90">Atualizar</button><button type="button" data-depois class="${BOTAO} text-muted-foreground hover:bg-secondary hover:text-foreground">Depois</button></span>`;

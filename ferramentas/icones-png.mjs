@@ -10,12 +10,12 @@ fs.mkdirSync(destino, { recursive: true });
 
 const INK = "#0b1220";
 const NEON = "#c6ff4f";
-// "M" geométrico desenhado em caminho (não depende da fonte instalada).
-const M = "M148 372V140h58l50 100 50-100h58v232h-52V232l-42 84h-28l-42-84v140z";
+// Símbolo do Mestriva (js/ui/marca.js) em escala 512: "M" que sobe com o ponto no topo.
+const ELETRICO = "#3b5bff";
 
 const svg = ({ cantos = true, escala = 1 } = {}) => {
   const t = (1 - escala) * 256;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="${cantos ? 113 : 0}" fill="${INK}"/><path transform="translate(${t} ${t}) scale(${escala})" d="${M}" fill="${NEON}"/></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="${cantos ? 113 : 0}" fill="${INK}"/><g transform="translate(${t} ${t}) scale(${escala * 8})"><path d="M16 48V28l14 14 18-18v24" fill="none" stroke="${NEON}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="48" cy="14.5" r="3.8" fill="${ELETRICO}"/></g></svg>`;
 };
 
 const gera = (nome, tamanho, opcoes) => sharp(Buffer.from(svg(opcoes))).resize(tamanho, tamanho).png().toFile(path.join(destino, nome));

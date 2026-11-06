@@ -4,6 +4,7 @@ import { icone } from "../icones.js";
 import { campo, chips, alternaChip, CLASSE_CAMPO, CLASSE_TEXTO } from "../ui/formulario.js";
 import { criaTela } from "../ui/pagina.js";
 import { PERIODOS } from "../curriculo.js";
+import { simbolo } from "../ui/marca.js";
 
 export const PASSOS = [
   { title: "Sua instituição", hint: "Onde você estuda e o que cursa" },
@@ -124,7 +125,7 @@ export function desenha(e) {
     <div class="pointer-events-none absolute -left-24 bottom-0 h-80 w-80 rounded-full bg-electric/30 blur-3xl"></div>
     <div class="relative">
       <div class="flex items-center gap-3">
-        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 font-heading text-lg font-bold text-neon">M</span>
+        ${simbolo("h-10 w-10 rounded-xl ring-1 ring-white/15")}
         <span><span class="block font-heading text-lg font-semibold leading-none">Mestriva</span><span class="mt-1 block font-mono text-[10px] uppercase tracking-[0.18em] text-white/45">estudo com método</span></span>
       </div>
       <h2 class="mt-14 max-w-sm font-heading text-[34px] font-semibold leading-[1.15]">Um plano de estudos que conhece a sua faculdade.</h2>

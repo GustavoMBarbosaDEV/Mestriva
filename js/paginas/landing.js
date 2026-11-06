@@ -2,6 +2,7 @@
 // Os textos que prometiam IA agora descrevem o que o app faz de verdade (banco, revisão e tutor no aparelho).
 import { icone } from "../icones.js";
 import { botaoAcessibilidade, botaoTema } from "../ui/acessibilidade.js";
+import { simbolo } from "../ui/marca.js";
 
 const RECURSOS = [
   { icon: "Upload", title: "Grade em dois minutos", text: "Cole a lista de matérias do curso e o app organiza tudo por período." },
@@ -109,7 +110,7 @@ export function desenha(e, tema) {
   return `<div class="min-h-screen bg-background">
     <header class="sticky top-0 z-30 border-b border-hair bg-background/80 backdrop-blur-xl">
       <div class="mx-auto flex max-w-6xl items-center justify-between gap-2 px-4 py-3 sm:px-6">
-        <a href="/bem-vindo" class="flex min-w-0 items-center gap-2.5"><span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-ink font-heading text-base font-bold text-neon">M</span><span class="min-w-0"><span class="block font-heading text-[15px] font-semibold leading-none">Mestriva</span><span class="mt-1 block truncate font-mono text-[9px] uppercase tracking-[0.18em] text-muted-foreground">estudo com método</span></span></a>
+        <a href="/bem-vindo" class="flex min-w-0 items-center gap-2.5">${simbolo("h-9 w-9")}<span class="min-w-0"><span class="block font-heading text-[15px] font-semibold leading-none">Mestriva</span><span class="mt-1 block truncate font-mono text-[9px] uppercase tracking-[0.18em] text-muted-foreground">estudo com método</span></span></a>
         <div class="flex shrink-0 items-center gap-1.5">
           ${botaoTema(tema, { compacto: true })}${botaoAcessibilidade({ compacto: true })}
           <a href="/login" class="hidden rounded-xl px-3 py-2 text-sm font-medium text-foreground/75 transition hover:text-foreground sm:block">Entrar</a>

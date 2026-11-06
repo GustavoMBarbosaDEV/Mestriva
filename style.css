@@ -2635,10 +2635,6 @@ h1, h2, h3, h4 {
   line-height: 1rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-light {
   font-weight: 300;
 }
@@ -2966,6 +2962,10 @@ h1, h2, h3, h4 {
 
 .ring-white\/10 {
   --tw-ring-color: rgb(255 255 255 / 0.1);
+}
+
+.ring-white\/15 {
+  --tw-ring-color: rgb(255 255 255 / 0.15);
 }
 
 .ring-offset-background {
@@ -3812,6 +3812,14 @@ h1, h2, h3, h4 {
 
 .dark\:bg-foreground:is(.dark *) {
   background-color: hsl(var(--foreground));
+}
+
+.dark\:fill-\[\#6f88ff\]:is(.dark *) {
+  fill: #6f88ff;
+}
+
+.dark\:stroke-white\/10:is(.dark *) {
+  stroke: rgb(255 255 255 / 0.1);
 }
 
 .dark\:text-foreground:is(.dark *) {

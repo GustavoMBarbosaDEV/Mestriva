@@ -2,6 +2,7 @@
 import { esc, cn, iniciais } from "../util.js";
 import { icone } from "../icones.js";
 import { botaoAcessibilidade, botaoTema } from "./acessibilidade.js";
+import { simbolo } from "./marca.js";
 
 export const NAV = [
   { to: "/", label: "Hoje", icon: "LayoutDashboard" },
@@ -60,7 +61,7 @@ export function casca({ caminho, usuario, tema, conteudo, lembretes = 0 }) {
 
   <aside class="fixed inset-y-0 left-0 z-30 hidden w-[264px] flex-col border-r border-hair bg-card/70 px-4 py-6 backdrop-blur-xl lg:flex">
     <a href="/" class="flex items-center gap-3 px-2">
-      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-ink font-heading text-lg font-bold text-neon">M</span>
+      ${simbolo("h-10 w-10")}
       <span>
         <span class="block font-heading text-[17px] font-semibold leading-none">Mestriva</span>
         <span class="mt-1 block font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">estudo com método</span>
@@ -88,7 +89,7 @@ export function casca({ caminho, usuario, tema, conteudo, lembretes = 0 }) {
 
   <header class="sticky top-0 z-30 flex items-center justify-between gap-2 border-b border-hair bg-card/85 px-4 py-3 backdrop-blur-xl lg:hidden">
     <a href="/" class="flex min-w-0 items-center gap-2.5">
-      <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-ink font-heading text-sm font-bold text-neon">M</span>
+      ${simbolo("h-8 w-8")}
       <span class="truncate font-heading text-base font-semibold">Mestriva</span>
     </a>
     <div class="flex shrink-0 items-center gap-1.5">
