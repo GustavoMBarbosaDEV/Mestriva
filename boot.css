@@ -1,8 +1,27 @@
-/* Splash enquanto os módulos carregam. Sem Tailwind: precisa funcionar antes do style.css. */
-.splash { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: #f7f9fb; }
-html.dark .splash { background: #0a0f19; }
-.splash-logo { display: block; width: 64px; height: 64px; border-radius: 16px; animation: splash-pulsa 1.6s ease-in-out infinite; }
-html.dark .splash-logo { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.09); }
-@keyframes splash-pulsa { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.7; transform: scale(0.96); } }
-@media (prefers-reduced-motion: reduce) { .splash-logo { animation: none; } }
-html.a11y-motion .splash-logo { animation: none; }
+/* Abertura enquanto os módulos carregam. Sem Tailwind: precisa funcionar antes do style.css. */
+#abertura { position: fixed; inset: 0; z-index: 999; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+  background: radial-gradient(60% 45% at 50% 42%, rgba(59, 91, 255, 0.09), transparent 70%), #f7f9fb; color: #0b1220;
+  font: 600 26px/1.1 "Space Grotesk", ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.02em; transition: opacity 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+html.dark #abertura { background: radial-gradient(60% 45% at 50% 42%, rgba(111, 136, 255, 0.14), transparent 70%), #0a0f19; color: #eef2f8; }
+#abertura .ab-marca { width: 84px; height: 84px; margin-bottom: 14px; overflow: visible; }
+#abertura .ab-marca * { transform-box: fill-box; transform-origin: center; }
+#abertura .ab-fundo { animation: ab-fundo 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+#abertura .ab-traco { stroke-dasharray: 1; stroke-dashoffset: 1; animation: ab-traco 0.6s cubic-bezier(0.65, 0, 0.35, 1) 0.2s forwards; }
+#abertura .ab-ponto { animation: ab-ponto 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) 0.72s both; }
+#abertura .ab-nome { animation: ab-nome 0.6s ease 0.62s both; }
+#abertura .ab-lema { font: 500 10px/1 "JetBrains Mono", ui-monospace, monospace; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.55; animation: ab-lema 0.5s ease 0.8s both; }
+html.dark #abertura .ab-fundo { stroke: rgba(255, 255, 255, 0.1); stroke-width: 1; }
+html.dark #abertura .ab-ponto { fill: #6f88ff; }
+@keyframes ab-fundo { from { opacity: 0; transform: scale(0.82); } }
+@keyframes ab-traco { to { stroke-dashoffset: 0; } }
+@keyframes ab-ponto { from { opacity: 0; transform: scale(0); } }
+@keyframes ab-nome { from { opacity: 0; letter-spacing: 0.18em; transform: translateY(8px); } }
+@keyframes ab-lema { from { opacity: 0; transform: translateY(6px); } }
+#abertura.sai { opacity: 0; pointer-events: none; }
+#abertura.sai .ab-marca { transform: scale(0.92); transition: transform 0.35s ease; }
+@media (prefers-reduced-motion: reduce) { #abertura { transition: none; } #abertura * { animation: none !important; stroke-dashoffset: 0 !important; } }
+html.a11y-motion #abertura { transition: none; }
+html.a11y-motion #abertura * { animation: none !important; stroke-dashoffset: 0 !important; }
+/* Se o app não abrir (sem JavaScript ou erro), a abertura some sozinha depois de 6 s. */
+#abertura { animation: ab-some 0.35s ease 6s forwards; }
+@keyframes ab-some { to { opacity: 0; visibility: hidden; } }
