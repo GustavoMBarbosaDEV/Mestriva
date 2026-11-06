@@ -61,3 +61,22 @@ test("diálogo de arquivo: escolher, lendo e conferir", () => {
   assert.ok(h.includes("2 matérias encontradas") && h.includes("Salvar 2 matérias") && h.includes('data-acao="remover"'));
   assert.ok(corpoArquivo({ fase: "escolher", erro: "Não achei", itens: [] }).includes('role="alert"'));
 });
+
+test("revisão: linhas reais de grade (pré-requisito, só códigos, cabeçalhos e períodos por extenso)", () => {
+  const r = materiasDoTextoExtraido(`Primeiro Semestre
+ENG1001 Cálculo I 60 -
+ENG1002 Geometria Analítica 60 —
+IIº Semestre
+ENG2001 Cálculo II 60 ENG1001
+ENG2002 Física II 4 60 ENG1001, ENG1002
+ENG1001 ENG1002
+Coordenação do Curso
+1 Mecânica Geral 4 60`);
+  assert.deepEqual(r.map((m) => [m.period, m.name]), [
+    ["1º", "Cálculo I"],
+    ["1º", "Geometria Analítica"],
+    ["2º", "Cálculo II"],
+    ["2º", "Física II"],
+    ["2º", "Mecânica Geral"],
+  ]);
+});

@@ -1,6 +1,6 @@
 // Service worker do Mestriva: cache por versão, navegação com prazo e arquivos do cache com atualização em segundo plano.
 // Baseado no modelo do Monetra. Toda mudança publicada sobe a versão (ferramentas/bump.mjs).
-const V = "0.4.0";
+const V = "0.4.1";
 const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
 const CACHE = "mestriva-" + V;
 // Arquivos guardados na instalação. Todo arquivo de js/ precisa estar aqui (testes/pwa.test.mjs confere).
@@ -22,6 +22,8 @@ const SHELL = [
 const COM_VERSAO = ["style.css", "boot.css", "pre.js", "js/app.js"];
 const ESPERA_NAVEGACAO = 3000;
 const FORA = /^\/(__|baixar)(\/|$)/;
+// Páginas soltas do site: vão direto à rede (senão o cache do app ficaria com a página no lugar do app).
+const PAGINAS_SOLTAS = /^\/(privacidade|termos)(\.html)?$/;
 
 self.addEventListener("install", (e) => {
   const lista = SHELL.map((f) => (COM_VERSAO.includes(f) ? f + "?v=" + V : f));
@@ -76,6 +78,7 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (url.origin !== location.origin || FORA.test(url.pathname)) return;
   if (e.request.mode === "navigate") {
+    if (PAGINAS_SOLTAS.test(url.pathname)) return;
     if (/\.[a-z0-9]+$/i.test(url.pathname) && !url.pathname.endsWith("/index.html")) return;
     e.respondWith(navegacao(e));
     return;

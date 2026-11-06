@@ -144,7 +144,7 @@ export function corpoArquivo(e) {
 export function abreDialogoArquivo({ loja, aoSalvar, anuncia, lePdf, leFoto, extrai }) {
   const dlg = abreDialogo({
     titulo: "Importar grade por arquivo",
-    descricao: "Envie o PDF da grade e o app separa as matérias para você conferir.",
+    descricao: "Envie o PDF ou uma foto da grade e o app separa as matérias para você conferir.",
     corpo: "",
     classe: "max-h-[88vh] max-w-lg overflow-y-auto rounded-2xl",
     classeTitulo: "text-xl",

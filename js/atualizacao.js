@@ -44,7 +44,8 @@ export function primeiroVisivel(lista) {
 export function ligaAtualizacao({ anuncia }) {
   if (!("serviceWorker" in navigator)) return;
   // No computador (localhost) o cache do service worker esconde o código novo: só liga com ?sw no endereço.
-  if (location.hostname === "localhost" && !new URLSearchParams(location.search).has("sw")) return;
+  const noComputador = ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname); // npm run serve e Go Live
+  if (noComputador && !new URLSearchParams(location.search).has("sw")) return;
 
   let adiadoAte = 0;
   ouveTrocaDeControle(navigator.serviceWorker, () => location.reload());

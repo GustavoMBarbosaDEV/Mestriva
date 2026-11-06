@@ -18,9 +18,28 @@ export function linhasDosItens(itens) {
   return linhas.sort((a, b) => b.y - a.y).map((l) => l.partes.sort((a, b) => a.x - b.x).map((p) => p.s).join(" "));
 }
 
-const CABECALHO = /^(codigo|cod|disciplinas?|componentes?( curriculares?)?|carga|ch|creditos?|cr|total|pre requisitos?|co requisitos?|universidade|instituto|faculdade|centro|curso|matriz|grade|departamento|campus|optativas?|eletivas?|obrigatorias?|nucleo|eixo|hora|semestral|anual|legenda|pagina)\b/;
+const CABECALHO = /^(codigo|cod|disciplinas?|componentes?( curriculares?)?|carga|ch|creditos?|cr|total|pre requisitos?|co requisitos?|universidade|instituto|faculdade|centro|curso|matriz|grade|departamento|campus|optativas?|eletivas?|obrigatorias?|nucleo|eixo|hora|semestral|anual|legenda|pagina|coordenacao|reitoria|ementa|semestre letivo|assinatura|aprovad[oa])\b/;
 const PERIODO_ANTES = /^(\d{1,2})\s*(?:o|º|°)?\s*(?:periodo|semestre|ano|modulo|etapa|serie|termo)\b/;
 const PERIODO_DEPOIS = /^(?:periodo|semestre|modulo|etapa|termo)\s*(\d{1,2})\b/;
+const ROMANO = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10 };
+const PERIODO_ROMANO = /^([ivx]{1,4})o?\s*(?:periodo|semestre|ano|modulo|etapa|termo)\b/;
+const ORDINAIS = ["primeir", "segund", "terceir", "quart", "quint", "sext", "setim", "oitav", "non", "decim"];
+const PERIODO_EXTENSO = /^(primeir|segund|terceir|quart|quint|sext|setim|oitav|non|decim)[oa]\s+(?:periodo|semestre|ano|modulo|etapa|termo)\b/;
+// Código de disciplina (MAT101, CIV-210, ENG 1001), mas não número romano seguido de carga ("Cálculo II 60").
+const CODIGO = "(?!(?:I{1,3}|IV|VI{0,3}|IX|X)\\b)[A-ZÇ]{2,6}\\s?-?\\d{2,5}[A-Z]?";
+const SO_CODIGOS = new RegExp(`^(?:${CODIGO}[\\s,;/]*)+$`);
+const CODIGOS_NO_FIM = new RegExp(`(?:[\\s,;/]+${CODIGO})+\\s*$`);
+
+/** Período escrito como "2º Período", "Período 2", "IIº Semestre" ou "Segundo Semestre". */
+function periodoDaLinha(n) {
+  const p = PERIODO_ANTES.exec(n) || PERIODO_DEPOIS.exec(n);
+  if (p) return Number(p[1]);
+  const r = PERIODO_ROMANO.exec(n);
+  if (r && ROMANO[r[1]]) return ROMANO[r[1]];
+  const e = PERIODO_EXTENSO.exec(n);
+  if (e) return ORDINAIS.indexOf(e[1]) + 1;
+  return 0;
+}
 const SEM_PERIODO = /^(optativas?|eletivas?|disciplinas optativas|componentes optativos)\b/;
 
 /**
@@ -36,8 +55,9 @@ export function materiasDoTextoExtraido(texto) {
     const linha = bruta.replace(/\s+/g, " ").trim();
     if (!linha) continue;
     const n = normalizaNome(linha.replace(/º|°/g, "o"));
-    const p = PERIODO_ANTES.exec(n) || PERIODO_DEPOIS.exec(n);
-    if (p) { periodo = `${Number(p[1])}º`; continue; }
+    const numero = periodoDaLinha(n);
+    if (numero) { periodo = `${numero}º`; continue; }
+    if (SO_CODIGOS.test(linha)) continue; // linha só com códigos (pré-requisitos)
     if (SEM_PERIODO.test(n)) { periodo = ""; continue; }
     if (CABECALHO.test(n)) continue;
 
@@ -50,11 +70,17 @@ export function materiasDoTextoExtraido(texto) {
     }
     resto = resto
       .replace(/^[A-ZÇ]{2,6}\s?-?\d{2,5}[A-Z]?\b\s*[-–—:]?\s*/, "") // código da disciplina (MAT101, CIV-210)
-      .replace(/^\d{1,3}\s*[-–—.)]\s*/, "") // numeração "1 - "
-      .replace(/\(\s*\d+\s*(?:h|horas?|cr|creditos?|créditos?)?\s*\)/gi, "") // (60h)
-      .replace(/(?:\s+\d+(?:[.,]\d+)?\s*(?:h|horas?|cr|creditos?|créditos?)?)+\s*$/i, "") // carga horária e créditos no fim
-      .replace(/[\s\-–—:;,.]+$/, "")
-      .trim();
+      .replace(/^\d{1,3}\s*[-–—.)]?\s+(?=[A-Za-zÀ-ÿ])/, "") // numeração "1 - " ou "1 "
+      .replace(/\(\s*\d+\s*(?:h|horas?|cr|creditos?|créditos?)?\s*\)/gi, ""); // (60h)
+    // O fim da linha pode ter, em qualquer ordem: traço de pré-requisito vazio, códigos de pré-requisito, carga e créditos.
+    for (let antes = ""; antes !== resto; ) {
+      antes = resto;
+      resto = resto
+        .replace(/[\s\-–—:;,.]+$/, "")
+        .replace(CODIGOS_NO_FIM, "")
+        .replace(/(?:\s+\d+(?:[.,]\d+)?\s*(?:h|horas?|cr|creditos?|créditos?)?)+\s*$/i, "")
+        .trim();
+    }
     const letras = (resto.match(/[A-Za-zÀ-ÿ]/g) || []).length;
     if (letras < 3 || resto.length > 90 || !/[A-Za-zÀ-ÿ]{3,}/.test(resto)) continue;
     const chave = normalizaNome(resto);

@@ -61,3 +61,8 @@ test("voltaSegura só aceita caminho interno", () => {
   assert.equal(voltaSegura("/notas"), "/notas");
   assert.equal(voltaSegura("/grade?x=1"), "/grade?x=1");
 });
+
+test("Go Live: /index.html é o início", () => {
+  assert.equal(resolve("/index.html", ok).pagina, "dashboard");
+  assert.equal(resolve("/index.html", { logado: false, perfilCompleto: false }).redireciona, "/bem-vindo");
+});

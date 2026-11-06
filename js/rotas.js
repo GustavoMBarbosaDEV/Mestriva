@@ -22,7 +22,8 @@ export const ROTAS = [
 
 /** Só o caminho, sem consulta, âncora e barra final. @param {string} caminho */
 export function limpaCaminho(caminho) {
-  const so = String(caminho || "/").split(/[?#]/)[0] || "/";
+  // "/index.html" (como o Go Live abre) é o mesmo que "/".
+  const so = String(caminho || "/").split(/[?#]/)[0].replace(/\/index\.html$/, "/") || "/";
   return so.length > 1 ? so.replace(/\/+$/, "") || "/" : "/";
 }
 

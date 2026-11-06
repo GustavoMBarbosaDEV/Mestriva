@@ -1,0 +1,7 @@
+{
+  // Go Live (extensão Live Server): serve a pasta do projeto e, em endereços do app como /calendario,
+  // devolve o index.html (igual ao Firebase Hosting), para recarregar a página sem dar 404.
+  "liveServer.settings.root": "/",
+  "liveServer.settings.file": "index.html",
+  "liveServer.settings.ignoreFiles": [".vscode/**", "ferramentas/**", "testes/**", "dist/**", "docs/**", "**/*.md"]
+}

@@ -19,12 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CONTA: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      PROJETO: ${{ vars.FIREBASE_PROJETO }}
     steps:
       - name: Conferir credencial
         id: cred
         run: |
-          if [ -z "$CONTA" ]; then
-            echo "::notice::Secret FIREBASE_SERVICE_ACCOUNT ausente: deploy pulado."
+          if [ -z "$CONTA" ] || [ -z "$PROJETO" ]; then
+            echo "::notice::Falta o secret FIREBASE_SERVICE_ACCOUNT ou a variável FIREBASE_PROJETO: deploy pulado."
             echo "ok=false" >> "$GITHUB_OUTPUT"
           else
             echo "ok=true" >> "$GITHUB_OUTPUT"

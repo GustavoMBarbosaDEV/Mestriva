@@ -121,7 +121,7 @@ export function desenha(e, tema) {
     <footer class="border-t border-hair py-6">
       <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 text-[11px] text-muted-foreground sm:px-6">
         <span class="inline-flex items-center gap-2">${icone("Moon", "h-3.5 w-3.5")}Mestriva · estudo com método</span>
-        <span class="inline-flex flex-wrap items-center gap-3"><a href="/privacidade" data-externo class="hover:text-foreground">Privacidade</a><a href="/termos" data-externo class="hover:text-foreground">Termos</a><span>Feito para quem estuda de verdade.</span></span>
+        <span class="inline-flex flex-wrap items-center gap-3"><a href="/privacidade.html" data-externo class="hover:text-foreground">Privacidade</a><a href="/termos.html" data-externo class="hover:text-foreground">Termos</a><span>Feito para quem estuda de verdade.</span></span>
       </div>
     </footer>
   </div>`;

@@ -161,7 +161,7 @@ export function revisaoDosErros({ materia, erradas = [], texto = "" }) {
 }
 
 // Palavras genéricas que aparecem em nomes de tópico de várias áreas e não identificam conteúdo sozinhas.
-const GENERICAS = new Set(["sistem", "teoria", "relaca", "princi", "estrut", "organi", "aplica", "geral", "concei", "introd", "basica", "fundam", "metodo", "tipos", "regras", "abordag", "aborda", "explic", "entend", "quero", "sobre", "saber", "estuda", "precis", "melhor", "funcio", "pergun", "materi", "conteu", "quanto", "porque", "quais", "forma", "exemp", "exempl", "pratic", "coisas", "calcul", "resolv", "difere", "import"]);
+const GENERICAS = new Set(["sistem", "teoria", "relaca", "princi", "estrut", "organi", "aplica", "geral", "concei", "introd", "basica", "fundam", "metodo", "tipos", "regras", "abordag", "aborda", "explic", "entend", "quero", "sobre", "saber", "estuda", "precis", "melhor", "funcio", "pergun", "materi", "conteu", "quanto", "porque", "quais", "forma", "exemp", "exempl", "pratic", "coisas", "calcul", "resolv", "difere", "import", "dados"]);
 
 /** Raízes (6 letras) das palavras com 5+ letras, sem as genéricas. */
 export function raizesSignificativas(t) {

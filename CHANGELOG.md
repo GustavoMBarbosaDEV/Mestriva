@@ -1,5 +1,16 @@
 # Mudanças
 
+## 0.4.1 — correções da revisão e Go Live (ainda não publicada)
+
+- **Go Live (Live Server do VS Code):** o app abre em `/index.html`, recarregar em `/calendario` funciona (`.vscode/settings.json` devolve o index.html, como o Hosting) e o modo offline não liga em 127.0.0.1.
+- **Service worker:** abrir a política de privacidade ou os termos não troca mais o app guardado para uso offline por essas páginas.
+- **Importar grade:** ignora pré-requisitos (traço vazio ou códigos no fim), linhas só com códigos e cabeçalhos como "Coordenação do Curso"; entende "IIº Semestre", "Primeiro Semestre" e numeração sem traço.
+- **Privacidade e termos:** dados técnicos de acesso do Hosting, dados sensíveis (acessibilidade), finalidade e tempo de guarda, transferência internacional; cláusula de responsabilidade "na medida permitida pela lei" (CDC). CSS das páginas com versão.
+- **Tutor:** "dados" deixou de puxar Metodologia sem querer; "planejar a semana" volta a montar o plano.
+- **Deploy:** sem a variável FIREBASE_PROJETO, o workflow pula com aviso claro.
+
+**Testado:** testes automáticos (incluindo linhas reais de grade) e checagem de tipos. **Não testado:** o Go Live em si (feito para o Live Server; confira abrindo a pasta no VS Code).
+
 ## 0.4.0 — importar grade, landing e preparação para publicar (ainda não publicada)
 
 **O que mudou**

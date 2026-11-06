@@ -141,7 +141,7 @@ export function responde(pergunta, ctx) {
     if (media === null) return { texto: `Ainda não há notas${m ? ` de ${m.name}` : ""} lançadas. Lance em **Notas** e eu calculo.` };
     return { texto: `Sua média${m ? ` em **${m.name}**` : " geral"} é **${br(media)}** (de ${n} ${n === 1 ? "nota" : "notas"}, em escala de 0 a 10).` };
   }
-  if (tem(/\b(cronograma|plano de estudos?|organizar (os |meus )?estudos|semana de provas|rotina de estudos?)\b/)) return { texto: plano(c) };
+  if (tem(/\b(cronograma|plano de estudos?|organizar (os |meus )?estudos|planejar (a |minha )?semana|planejar (os |meus )?estudos|semana de provas|rotina de estudos?)\b/)) return { texto: plano(c) };
   if (tem(/\b(agenda|essa semana|esta semana|proximos dias|proximas provas|quais (provas|entregas|compromissos)|o que (eu )?tenho (para|pra|nessa|nesta|essa|esta|hoje|amanha))\b/)) return { texto: agenda(c) };
 
   const tdah = /tdah|deficit de atencao/.test(q) || /tdah|deficit de atencao/.test(normalizaNome(c.perfil?.accessibility_notes || ""));

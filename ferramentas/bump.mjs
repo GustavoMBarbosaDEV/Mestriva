@@ -34,6 +34,9 @@ const gravar = [
   troca(path.join("js", "versao.js"), [[/export const VERSAO = "\d+\.\d+\.\d+";/g, `export const VERSAO = "${nova}";`, 1]]),
   troca("sw.js", [[/const V = "\d+\.\d+\.\d+";/g, `const V = "${nova}";`, 1]]),
   troca("index.html", COM_V.map((a) => [new RegExp(`((?:href|src)="/${a.replace(/[./]/g, "\\$&")})\\?v=[0-9.]+"`, "g"), `$1?v=${nova}"`, 1])),
+  ...["privacidade.html", "termos.html"].filter((p) => fs.existsSync(path.join(raiz, p))).map((p) =>
+    troca(p, ["style.css", "pre.js"].map((a) => [new RegExp(`((?:href|src)="/${a.replace(/[./]/g, "\\$&")})\\?v=[0-9.]+"`, "g"), `$1?v=${nova}"`, 1]))
+  ),
 ];
 gravar.forEach((g) => g());
 console.log(`Versão ${nova}. Falta escrever NOVIDADES em js/versao.js e a entrada no CHANGELOG.md.`);
