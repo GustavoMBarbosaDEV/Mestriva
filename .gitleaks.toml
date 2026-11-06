@@ -1,0 +1,9 @@
+title = "Mestriva"
+
+[extend]
+useDefault = true
+
+# Quando o Firebase for ligado, a apiKey do app web e a chave de site do reCAPTCHA vão para o navegador de todo mundo:
+# são públicas por natureza. Acrescente-as aqui (allowlist) com este comentário. Quem protege os dados são as regras
+# do Firestore, as restrições da chave no Google Cloud e o App Check.
+# Nunca libere aqui uma chave de verdade (conta de serviço, token, senha).
