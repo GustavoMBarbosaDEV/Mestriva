@@ -594,3 +594,25 @@
 /* Enunciado do quiz: sem a margem extra dos parágrafos do material. */
 .quiz-enunciado > p:first-child { margin-top: 0; }
 .quiz-enunciado > p:last-child { margin-bottom: 0; }
+
+/* Revelar ao rolar. Só esconde quando o JS liga o observador. */
+.com-revela .revela {
+  opacity: 0;
+  transform: translateY(18px);
+  filter: blur(6px);
+  transition: opacity 0.6s cubic-bezier(0.22, 0.61, 0.36, 1), transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1), filter 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.com-revela .revela.visivel {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+.a11y-motion .revela,
+.com-revela.a11y-motion .revela {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .com-revela .revela { opacity: 1; transform: none; filter: none; }
+}
