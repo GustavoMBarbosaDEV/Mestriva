@@ -1,5 +1,22 @@
 # Mudanças
 
+## 0.4.0 — importar grade, landing e preparação para publicar (ainda não publicada)
+
+**O que mudou**
+- Importar a grade por **PDF** (pdf.js) ou **foto** (Tesseract), lendo tudo no aparelho: o app separa as matérias por período, tira código, carga horária e créditos, guarda o professor quando aparece, e o estudante confere e remove itens antes de salvar.
+- **Landing** (herói, recursos, acessibilidade com demonstração do modo foco, chamada final), sem prometer IA.
+- **Política de privacidade** e **Termos de uso** (responsável Gustavo M Barbosa, contato monetra.app26@gmail.com), robots.txt e sitemap.xml.
+- **Publicação preparada:** firebase.json (dist/, endereços limpos, cabeçalhos de segurança, cache), workflows do GitHub (gitleaks, CodeQL, testes com build, deploy só com tudo verde) e Dependabot.
+- **Tutor e quiz mais precisos** (correções da revisão dos planos 4 e 5): busca de tópicos única e criteriosa, sem confundir conteúdo com ajuda, média, agenda ou plano; nota-alvo lida do texto original; matéria de contexto primeiro, inclusive dentro dos resumos; link do tutor para o quiz abre a matéria da grade; título da prova não filtra o quiz por engano.
+
+**O que foi testado**
+- 204 testes automáticos e checagem de tipos limpa; build de publicação (vendor/ copiado sem alterar).
+- No navegador: PDF gerado com uma grade de Direito (5 matérias, períodos e professor certos, remover e salvar, selo do banco); foto de uma grade de Administração (5 matérias reconhecidas em cerca de 1 s, todas ligadas ao banco); landing em 390 e 1280 px sem rolagem lateral; perguntas reais ao tutor.
+
+**O que não foi testado**
+- Foto tirada com celular de verdade (sombra, ângulo) e PDF escaneado sem texto.
+- Publicação no Firebase Hosting e os workflows rodando no GitHub (dependem do projeto e do repositório, que são do dono).
+
 ## 0.3.0 — conteúdo e tutor sem IA (ainda não publicada)
 
 **O que mudou**

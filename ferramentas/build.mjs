@@ -40,6 +40,8 @@ let depois = 0;
 for (const f of lista(dist)) {
   const ext = path.extname(f);
   if (ext !== ".js" && ext !== ".css") continue;
+  // As bibliotecas de vendor/ já vêm minificadas (e o motor do Tesseract tem 4 MB): copiadas como estão.
+  if (f.startsWith(path.join(dist, "vendor") + path.sep)) continue;
   const texto = fs.readFileSync(f, "utf8");
   const modulo = f.startsWith(path.join(dist, "js") + path.sep);
   const r = await transform(texto, {
