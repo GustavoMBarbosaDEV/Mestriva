@@ -1,0 +1,164 @@
+// Motor do conteúdo sem IA: achar a matéria no banco, validar o banco, repetição espaçada,
+// montar o quiz e montar a revisão do que o estudante errou. Tudo puro (testado com node --test).
+
+const ROMANOS = { i: "1", ii: "2", iii: "3", iv: "4", v: "5", vi: "6", vii: "7", viii: "8", ix: "9", x: "10" };
+
+/** "Cálculo II" → "calculo 2". */
+export function normalizaNome(s = "") {
+  return String(s)
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .split(" ")
+    .map((p) => ROMANOS[p] || p)
+    .join(" ");
+}
+
+/** Id da matéria do banco que corresponde ao nome cadastrado na grade, ou null. */
+export function achaNoBanco(nome, indice) {
+  const alvo = normalizaNome(nome);
+  if (!alvo || !indice?.materias) return null;
+  for (const m of indice.materias) {
+    if ([m.nome, ...(m.apelidos || [])].some((n) => normalizaNome(n) === alvo)) return m.id;
+  }
+  return null;
+}
+
+/** Lista de problemas da matéria do banco (vazia = ok). Regras das checagens automáticas do lançamento. */
+export function validaMateriaBanco(m) {
+  const erros = [];
+  const topicos = new Set((m.topicos || []).map((t) => t.id));
+  for (const t of m.topicos || []) {
+    if (!t.resumo || !String(t.resumo).trim()) erros.push(`${t.id}: sem resumo`);
+    if (!t.revisao || !String(t.revisao).trim()) erros.push(`${t.id}: sem revisão`);
+  }
+  const ids = new Set();
+  const perguntas = new Set();
+  const porTopico = new Map();
+  let fortes = 0;
+  for (const q of m.questoes || []) {
+    if (ids.has(q.id)) erros.push(`id repetido: ${q.id}`);
+    ids.add(q.id);
+    const p = normalizaNome(q.pergunta);
+    if (perguntas.has(p)) erros.push(`pergunta repetida: ${q.id}`);
+    perguntas.add(p);
+    if (!Array.isArray(q.opcoes) || q.opcoes.length !== 4) erros.push(`${q.id}: precisa de 4 alternativas`);
+    else if (new Set(q.opcoes.map(normalizaNome)).size !== 4) erros.push(`${q.id}: alternativas repetidas`);
+    if (!Number.isInteger(q.correta) || q.correta < 0 || q.correta > 3) erros.push(`${q.id}: correta fora do intervalo`);
+    if (!q.explicacao || String(q.explicacao).trim().length < 40) erros.push(`${q.id}: explicação curta`);
+    if (!topicos.has(q.topico)) erros.push(`${q.id}: tópico desconhecido`);
+    if (!["conceitual", "aplicacao", "analise"].includes(q.nivel)) erros.push(`${q.id}: nível inválido`);
+    if (q.nivel === "aplicacao" || q.nivel === "analise") fortes += 1;
+    porTopico.set(q.topico, (porTopico.get(q.topico) || 0) + 1);
+  }
+  for (const t of m.topicos || []) if ((porTopico.get(t.id) || 0) < 4) erros.push(`${t.id}: menos de 4 questões`);
+  const total = (m.questoes || []).length;
+  if (total && fortes / total < 0.2) erros.push("menos de 20% de questões de aplicação ou análise");
+  return erros;
+}
+
+export const INTERVALOS = [1, 3, 7, 15];
+const DIA = 86400000;
+
+/** Atualiza o histórico de uma questão. erros: {id: {a, e, prox}} (a = acertos seguidos, e = erros). */
+export function registraResposta(erros, id, acertou, agora = new Date()) {
+  const atual = erros[id] || { a: 0, e: 0, prox: "" };
+  const a = acertou ? Math.min(atual.a + 1, INTERVALOS.length) : 0;
+  const dias = acertou ? INTERVALOS[a - 1] : 1;
+  return { ...erros, [id]: { a, e: atual.e + (acertou ? 0 : 1), prox: new Date(agora.getTime() + dias * DIA).toISOString() } };
+}
+
+/** Fisher–Yates com sorteio injetável (testes). */
+function embaralha(lista, sorteio) {
+  const l = [...lista];
+  for (let i = l.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(sorteio() * (i + 1));
+    [l[i], l[j]] = [l[j], l[i]];
+  }
+  return l;
+}
+
+/**
+ * Escolhe as questões: primeiro as vencidas (mais erradas antes), depois as nunca vistas, depois as outras.
+ * @param {{questoes:any[], qtd:number, erros:Record<string,{a:number,e:number,prox:string}>, agora?:Date, sorteio?:() => number}} p
+ */
+export function montaQuiz({ questoes, qtd, erros = {}, agora = new Date(), sorteio = Math.random }) {
+  const t = agora.getTime();
+  const vencidas = [];
+  const novas = [];
+  const resto = [];
+  for (const q of questoes) {
+    const h = erros[q.id];
+    if (!h) novas.push(q);
+    else if (!h.prox || Date.parse(h.prox) <= t) vencidas.push(q);
+    else resto.push(q);
+  }
+  vencidas.sort((a, b) => erros[b.id].e - erros[a.id].e);
+  resto.sort((a, b) => Date.parse(erros[a.id].prox) - Date.parse(erros[b.id].prox));
+  return [...vencidas, ...embaralha(novas, sorteio), ...resto].slice(0, qtd);
+}
+
+/** Mesma questão com as alternativas em outra ordem (a correta acompanha). */
+export function embaralhaAlternativas(q, sorteio = Math.random) {
+  const ordem = embaralha(q.opcoes.map((_, i) => i), sorteio);
+  return { ...q, opcoes: ordem.map((i) => q.opcoes[i]), correta: ordem.indexOf(q.correta) };
+}
+
+/** Tópicos da matéria citados no texto do estudante. */
+function topicosDoTexto(materia, texto) {
+  const t = ` ${normalizaNome(texto)} `;
+  return (materia?.topicos || []).filter((tp) =>
+    normalizaNome(tp.nome)
+      .split(" ")
+      .filter((p) => p.length >= 5)
+      .some((p) => t.includes(` ${p.slice(0, 6)}`))
+  );
+}
+
+/**
+ * Revisão do que errou, com as seções (O que aconteceu, Reconstruindo a base, Passo a passo,
+ * Treino rápido, Plano de 3 dias). Devolve markdown (o leitor escapa tudo).
+ * @param {{materia:any|null, erradas:any[], texto:string}} p
+ */
+export function revisaoDosErros({ materia, erradas = [], texto = "" }) {
+  const ids = new Set(erradas.map((q) => q.topico));
+  const topicos = [...(materia?.topicos || []).filter((t) => ids.has(t.id)), ...topicosDoTexto(materia, texto).filter((t) => !ids.has(t.id))];
+  const nomes = topicos.map((t) => t.nome);
+  const partes = [];
+
+  partes.push("## O que aconteceu");
+  if (texto.trim()) partes.push(`Você anotou: "${texto.trim()}".`);
+  partes.push(
+    nomes.length
+      ? `Os erros se concentram em: ${nomes.join(", ")}. Isso costuma indicar uma base que ficou frágil, não falta de capacidade — dá para fechar essas lacunas com treino focado.`
+      : "Erro em prova quase sempre vem de um conceito que ficou pela metade ou de pressa na leitura do enunciado. Vamos reconstruir a base e treinar."
+  );
+
+  partes.push("## Reconstruindo a base");
+  if (topicos.length) for (const t of topicos) partes.push(`### ${t.nome}`, t.resumo, t.revisao);
+  else partes.push("Releia o conteúdo da aula sobre esse tema e escreva, sem olhar, as definições principais. Depois compare com o material e marque o que faltou.");
+
+  partes.push("## Passo a passo do exercício");
+  const exemplo = erradas[0];
+  if (exemplo) {
+    partes.push(`**Questão:** ${exemplo.pergunta}`, `1. Leia o enunciado e sublinhe o que ele pede.`, `2. Lembre o conceito envolvido (${(materia?.topicos || []).find((t) => t.id === exemplo.topico)?.nome || "veja acima"}).`, `3. Resposta correta: **${exemplo.opcoes[exemplo.correta]}**.`, `4. Por quê: ${exemplo.explicacao}`);
+  } else {
+    partes.push("1. Pegue uma questão parecida com a que você errou.", "2. Escreva o que o enunciado pede antes de calcular ou responder.", "3. Resolva devagar, justificando cada passo em uma frase.", "4. Confira com o gabarito e anote onde travou.");
+  }
+
+  partes.push("## Treino rápido");
+  const idsErrados = new Set(erradas.map((q) => q.id));
+  const treino = (materia?.questoes || []).filter((q) => (ids.has(q.topico) || topicos.some((t) => t.id === q.topico)) && !idsErrados.has(q.id)).slice(0, 5);
+  if (treino.length) treino.forEach((q, i) => partes.push(`**${i + 1}.** ${q.pergunta}`, `> Resposta: ${q.opcoes[q.correta]} — ${q.explicacao}`));
+  else partes.push("Faça 5 exercícios curtos do mesmo tipo (lista da aula ou do livro) e corrija na hora. Erre no treino, não na prova.");
+
+  partes.push(
+    "## Plano de 3 dias",
+    "- **Dia 1:** 25 minutos relendo a base acima e escrevendo um resumo de memória; 25 minutos refazendo a questão errada sem olhar a resposta.",
+    "- **Dia 2:** 25 minutos de treino rápido (5 exercícios) e 25 minutos explicando o conteúdo em voz alta, como se ensinasse alguém.",
+    "- **Dia 3:** um quiz desta matéria no Mestriva; o que errar volta para a revisão."
+  );
+  return partes.join("\n\n");
+}
