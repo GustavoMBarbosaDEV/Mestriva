@@ -1,0 +1,68 @@
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const raiz = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const le = (f) => fs.readFileSync(path.join(raiz, f), "utf8");
+
+function shell() {
+  const sw = le("sw.js");
+  const bloco = /const SHELL = \[([\s\S]*?)\];/.exec(sw);
+  assert.ok(bloco, "sw.js sem SHELL");
+  const V = /const V = "([0-9.]+)";/.exec(sw)[1];
+  return [...bloco[1].matchAll(/"([^"]+)"/g)].map((m) => m[1].replace("${V}", V));
+}
+
+function arquivosJs(dir = "js") {
+  return fs.readdirSync(path.join(raiz, dir), { withFileTypes: true }).flatMap((e) =>
+    e.isDirectory() ? arquivosJs(dir + "/" + e.name) : e.name.endsWith(".js") ? [dir + "/" + e.name] : []
+  );
+}
+
+test("SHELL cobre todo arquivo de js/", () => {
+  const itens = shell().map((s) => s.split("?")[0]);
+  for (const f of arquivosJs()) assert.ok(itens.includes(f), `falta no SHELL: ${f}`);
+});
+
+test("SHELL só lista arquivos que existem", () => {
+  for (const s of shell()) {
+    const f = s.split("?")[0];
+    if (f === "./") continue;
+    assert.ok(fs.existsSync(path.join(raiz, f)), `não existe: ${f}`);
+  }
+});
+
+test("versões batem", () => {
+  const v = /export const VERSAO = "([0-9.]+)";/.exec(le("js/versao.js"))[1];
+  assert.equal(/const V = "([0-9.]+)";/.exec(le("sw.js"))[1], v);
+  const idx = le("index.html");
+  const vs = [...idx.matchAll(/\?v=([0-9.]+)"/g)].map((m) => m[1]);
+  assert.equal(vs.length, 4);
+  for (const x of vs) assert.equal(x, v);
+});
+
+test("manifesto válido", () => {
+  const m = JSON.parse(le("manifest.webmanifest"));
+  assert.equal(m.start_url, "/");
+  assert.equal(m.display, "standalone");
+  assert.equal(m.theme_color, "#0b1220");
+  const mask = m.icons.find((i) => i.purpose === "maskable" && i.sizes === "512x512");
+  assert.ok(mask);
+  for (const i of m.icons) assert.ok(fs.existsSync(path.join(raiz, i.src.replace(/^\//, ""))), i.src);
+  assert.ok(m.icons.some((i) => i.sizes === "192x192"));
+});
+
+test("index.html sem script inline", () => {
+  const idx = le("index.html");
+  for (const s of idx.match(/<script\b[^>]*>/g)) assert.match(s, /\ssrc=/);
+  assert.ok(!/\son[a-z]+=/i.test(idx));
+  assert.match(idx, /Content-Security-Policy/);
+});
+
+test("ícones do index existem", () => {
+  for (const f of ["icons/favicon.svg", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png"]) {
+    assert.ok(fs.existsSync(path.join(raiz, f)), f);
+  }
+});

@@ -6,6 +6,7 @@ import { resolve, ligaNavegacao, navega, limpaCaminho } from "./rotas.js";
 import { abreDialogo, fechaDialogos } from "./ui/dialogo.js";
 import { corpoAcessibilidade, aplicaAcaoA11y } from "./ui/acessibilidade.js";
 import { casca } from "./ui/casca.js";
+import { ligaAtualizacao } from "./atualizacao.js";
 import * as provisoria from "./paginas/provisoria.js";
 import * as naoEncontrada from "./paginas/nao-encontrada.js";
 
@@ -160,6 +161,7 @@ export function iniciar() {
   };
   avisaArmazenamento();
   loja.assina(avisaArmazenamento);
+  ligaAtualizacao({ anuncia });
   return { loja, desenha };
 }
 
