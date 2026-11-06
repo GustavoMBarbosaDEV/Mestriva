@@ -10,7 +10,7 @@ import { achaNoBanco, montaQuiz, embaralhaAlternativas, registraResposta, revisa
 import { questoesDoEstudante } from "../gerador.js";
 import { markdownParaHtml } from "../markdown.js";
 
-const CONTATO = "monetra.app26@gmail.com";
+import { CONTATO } from "../ui/marca.js";
 const BOTAO_CONTORNO = "inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 text-sm font-medium text-foreground/75 transition hover:border-electric/50 hover:text-foreground";
 
 /**

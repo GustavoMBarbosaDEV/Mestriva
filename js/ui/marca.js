@@ -18,3 +18,9 @@ export const SIMBOLO_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0
 export function simbolo(classe = "h-10 w-10") {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="${esc(classe)} shrink-0" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="16" fill="${CORES.tinta}" class="dark:stroke-white/10" stroke-width="2"/><path d="${TRACO}" fill="none" stroke="${CORES.lima}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="48" cy="14.5" r="3.8" fill="${CORES.eletrico}" class="dark:fill-[#6f88ff]"/></svg>`;
 }
+
+/** Quem faz o app e o e-mail de contato (o mesmo das páginas de privacidade e termos). */
+export const AUTOR = "Gustavo M Barbosa";
+export const CONTATO = "monetra.app26@gmail.com";
+/** Endereço do APK para Android. Vazio enquanto não existe: a landing esconde o botão de baixar. */
+export const LINK_APK = "";

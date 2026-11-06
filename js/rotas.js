@@ -29,19 +29,31 @@ export function limpaCaminho(caminho) {
 
 /**
  * @param {string} caminho
- * @param {{logado:boolean, perfilCompleto:boolean}} estado
+ * @param {{logado:boolean, perfilCompleto:boolean, apresentacao?:boolean}} estado
+ * apresentacao: quem ainda não começou e abriu pelo navegador (app não instalado) vê a landing em "/".
  * @returns {{pagina:string, redireciona?:string, rota?:Rota}}
  */
-export function resolve(caminho, { logado, perfilCompleto }) {
+export function resolve(caminho, { logado, perfilCompleto, apresentacao = false }) {
   const c = limpaCaminho(caminho);
   const rota = ROTAS.find((r) => r.caminho === c);
   if (!rota) return { pagina: "nao-encontrada" };
   if (rota.tipo !== "publica" && !logado) {
     return { pagina: rota.pagina, rota, redireciona: c === "/" ? "/bem-vindo" : "/login?volta=" + encodeURIComponent(c) };
   }
+  if (c === "/" && !perfilCompleto && apresentacao) return { pagina: rota.pagina, rota, redireciona: "/bem-vindo" };
   if (rota.tipo === "protegida" && !perfilCompleto) return { pagina: rota.pagina, rota, redireciona: "/onboarding" };
   if ((c === "/login" || c === "/register") && logado) return { pagina: rota.pagina, rota, redireciona: "/" };
   return { pagina: rota.pagina, rota };
+}
+
+/** O app está aberto instalado (tela cheia, sem barra do navegador)? */
+export function appInstalado() {
+  try {
+    return matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: fullscreen)").matches ||
+      /** @type {any} */ (navigator).standalone === true || document.referrer.startsWith("android-app://");
+  } catch {
+    return false;
+  }
 }
 
 /** Destino de volta depois do login: só caminhos internos. @param {string|null|undefined} v */

@@ -66,3 +66,11 @@ test("Go Live: /index.html é o início", () => {
   assert.equal(resolve("/index.html", ok).pagina, "dashboard");
   assert.equal(resolve("/index.html", { logado: false, perfilCompleto: false }).redireciona, "/bem-vindo");
 });
+
+test("primeira visita pelo navegador mostra a apresentação; instalado vai direto ao questionário", () => {
+  const novo = { logado: true, perfilCompleto: false };
+  assert.equal(resolve("/", { ...novo, apresentacao: true }).redireciona, "/bem-vindo");
+  assert.equal(resolve("/", { ...novo, apresentacao: false }).redireciona, "/onboarding");
+  assert.equal(resolve("/calendario", { ...novo, apresentacao: true }).redireciona, "/onboarding");
+  assert.equal(resolve("/", { logado: true, perfilCompleto: true, apresentacao: true }).redireciona, undefined);
+});

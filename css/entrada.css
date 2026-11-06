@@ -616,3 +616,21 @@
 @media (prefers-reduced-motion: reduce) {
   .com-revela .revela { opacity: 1; transform: none; filter: none; }
 }
+
+/* Landing: título entrando palavra por palavra (--i dá a ordem) e painel do topo com parallax. */
+.palavra {
+  display: inline-block;
+  animation: palavra 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(0.15s + var(--i, 0) * 70ms);
+}
+@keyframes palavra {
+  from { opacity: 0; transform: translateY(0.35em); filter: blur(6px); }
+}
+.parallax { transform: rotate(-3deg); will-change: transform; }
+details > summary::-webkit-details-marker { display: none; }
+.a11y-motion .palavra { animation: none; }
+.a11y-motion .parallax { transform: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  .palavra { animation: none; }
+  .parallax { transform: none !important; }
+}
