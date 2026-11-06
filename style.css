@@ -1290,6 +1290,10 @@ h1, h2, h3, h4 {
   margin-top: 0.5rem;
 }
 
+.mt-2\.5 {
+  margin-top: 0.625rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -1441,12 +1445,20 @@ h1, h2, h3, h4 {
   height: 34rem;
 }
 
+.h-\[calc\(100vh-260px\)\] {
+  height: calc(100vh - 260px);
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-px {
   height: 1px;
+}
+
+.max-h-32 {
+  max-height: 8rem;
 }
 
 .max-h-64 {
@@ -1463,6 +1475,14 @@ h1, h2, h3, h4 {
 
 .max-h-screen {
   max-height: 100vh;
+}
+
+.min-h-\[440px\] {
+  min-height: 440px;
+}
+
+.min-h-\[44px\] {
+  min-height: 44px;
 }
 
 .min-h-full {
@@ -1597,6 +1617,14 @@ h1, h2, h3, h4 {
   max-width: 1180px;
 }
 
+.max-w-\[150px\] {
+  max-width: 150px;
+}
+
+.max-w-\[88\%\] {
+  max-width: 88%;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
@@ -1663,6 +1691,10 @@ h1, h2, h3, h4 {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.resize-none {
+  resize: none;
 }
 
 .grid-cols-2 {
@@ -1888,6 +1920,14 @@ h1, h2, h3, h4 {
   border-radius: 0.75rem;
 }
 
+.rounded-bl-sm {
+  border-bottom-left-radius: calc(var(--radius) - 4px);
+}
+
+.rounded-br-sm {
+  border-bottom-right-radius: calc(var(--radius) - 4px);
+}
+
 .border {
   border-width: 1px;
 }
@@ -2082,6 +2122,10 @@ h1, h2, h3, h4 {
   background-color: hsl(var(--secondary) / 0.4);
 }
 
+.bg-secondary\/50 {
+  background-color: hsl(var(--secondary) / 0.5);
+}
+
 .bg-secondary\/60 {
   background-color: hsl(var(--secondary) / 0.6);
 }
@@ -2116,6 +2160,10 @@ h1, h2, h3, h4 {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-3\.5 {
+  padding: 0.875rem;
 }
 
 .p-4 {
@@ -2335,6 +2383,10 @@ h1, h2, h3, h4 {
 
 .text-\[11px\] {
   font-size: 11px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .text-\[13px\] {
@@ -2673,6 +2725,10 @@ h1, h2, h3, h4 {
 
 .ring-electric\/40 {
   --tw-ring-color: rgb(59 91 255 / 0.4);
+}
+
+.ring-hair {
+  --tw-ring-color: hsl(var(--hair));
 }
 
 .ring-white\/10 {
@@ -3295,6 +3351,10 @@ h1, h2, h3, h4 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:ring-electric\/40:hover {
+  --tw-ring-color: rgb(59 91 255 / 0.4);
+}
+
 .hover\:brightness-105:hover {
   --tw-brightness: brightness(1.05);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -3634,6 +3694,10 @@ h1, h2, h3, h4 {
 
   .lg\:grid-cols-\[1fr_1\.3fr\] {
     grid-template-columns: 1fr 1.3fr;
+  }
+
+  .lg\:grid-cols-\[1fr_280px\] {
+    grid-template-columns: 1fr 280px;
   }
 
   .lg\:flex-row {
