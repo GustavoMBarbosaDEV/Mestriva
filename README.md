@@ -17,7 +17,7 @@ Abra http://localhost:5173.
 ## Testes
 
 ```bash
-node --test testes/
+node --test "testes/*.test.mjs"
 ```
 
 ## Ferramentas (`ferramentas/`)

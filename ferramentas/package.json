@@ -10,7 +10,7 @@
     "bump": "node bump.mjs",
     "build": "node build.mjs",
     "serve": "node servidor.mjs",
-    "testes": "node --test ../testes/"
+    "testes": "node --test \"../testes/*.test.mjs\""
   },
   "devDependencies": {
     "@fontsource/atkinson-hyperlegible": "5.1.1",
