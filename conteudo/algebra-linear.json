@@ -1,0 +1,315 @@
+{
+  "id": "algebra-linear",
+  "nome": "Álgebra Linear",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "matrizes",
+      "nome": "Matrizes e operações",
+      "resumo": "Uma **matriz** m×n é uma tabela com m linhas e n colunas. O elemento aᵢⱼ fica na linha i e na coluna j.\n\n### Tipos importantes\n- **Quadrada**: m = n.\n- **Identidade** I: 1 na diagonal principal e 0 fora dela; AI = IA = A.\n- **Nula**: todos os elementos iguais a 0.\n- **Diagonal** e **triangular** (superior ou inferior).\n- **Simétrica**: Aᵀ = A.\n\n### Operações\n- **Soma**: só entre matrizes de mesmo tamanho, elemento a elemento.\n- **Multiplicação por escalar**: multiplica todos os elementos.\n- **Produto AB**: definido quando o número de colunas de A é igual ao número de linhas de B. Se A é m×n e B é n×p, então AB é m×p. O elemento (i, j) de AB é a soma dos produtos da linha i de A pela coluna j de B.\n- **Transposta** Aᵀ: troca linhas por colunas. Vale (AB)ᵀ = BᵀAᵀ.\n\n### Cuidados com o produto\n- Em geral **AB ≠ BA**: o produto não é comutativo.\n- AB = 0 não implica A = 0 ou B = 0.\n- (A + B)² = A² + AB + BA + B², que só vira A² + 2AB + B² se AB = BA.\n\n### Matriz inversa\nA quadrada é **invertível** se existe A⁻¹ com AA⁻¹ = A⁻¹A = I. Isso acontece exatamente quando det(A) ≠ 0. Para 2×2, com linhas (a, b) e (c, d): A⁻¹ = (1/det A)·[linhas (d, −b) e (−c, a)]. Em geral, a inversa pode ser obtida escalonando [A | I] até chegar a [I | A⁻¹]. Vale também (AB)⁻¹ = B⁻¹A⁻¹.",
+      "revisao": "**Lembre:**\n- AB existe se colunas de A = linhas de B; (m×n)(n×p) dá m×p.\n- AB ≠ BA em geral.\n- (AB)ᵀ = BᵀAᵀ e (AB)⁻¹ = B⁻¹A⁻¹: a ordem se inverte.\n- Inversa 2×2: troque a e d, troque o sinal de b e c, divida por det A.\n\n**Erros comuns:** multiplicar matrizes elemento a elemento; usar a fórmula do quadrado da soma como se fossem números.\n\n**Mini exemplo:** A com linhas (1, 2) e (3, 4). det A = 4 − 6 = −2. Então A⁻¹ = (−1/2)·[linhas (4, −2) e (−3, 1)] = linhas (−2, 1) e (3/2, −1/2)."
+    },
+    {
+      "id": "determinantes",
+      "nome": "Determinantes",
+      "resumo": "O **determinante** é um número associado a cada matriz quadrada. Ele indica se a matriz é invertível e mede como a transformação associada altera áreas ou volumes.\n\n### Cálculo\n- **2×2**: com linhas (a, b) e (c, d), det = ad − bc.\n- **3×3 (Sarrus)**: repita as duas primeiras colunas à direita, some os produtos das três diagonais descendentes e subtraia os produtos das três diagonais ascendentes.\n- **Laplace (cofatores)**: escolha uma linha ou coluna, de preferência com muitos zeros, e some aᵢⱼ·Cᵢⱼ, em que Cᵢⱼ = (−1)ⁱ⁺ʲ·Mᵢⱼ e Mᵢⱼ é o determinante obtido ao eliminar a linha i e a coluna j.\n- **Triangular**: o determinante é o produto da diagonal principal.\n\n### Propriedades\n- det(Aᵀ) = det(A).\n- det(AB) = det(A)·det(B).\n- det(A⁻¹) = 1/det(A).\n- Se A é n×n, det(kA) = kⁿ·det(A).\n- Trocar duas linhas troca o sinal do determinante.\n- Multiplicar uma linha por k multiplica o determinante por k.\n- Somar a uma linha um múltiplo de outra **não altera** o determinante.\n- Linha ou coluna nula, ou duas linhas proporcionais, dão det = 0.\n\n### Interpretação\n**det(A) ≠ 0** ⇔ A é invertível ⇔ o sistema Ax = b tem solução única ⇔ as colunas de A são linearmente independentes. Em ℝ², |det| é a área do paralelogramo formado pelas colunas; em ℝ³, o volume do paralelepípedo.",
+      "revisao": "**Lembre:**\n- 2×2: ad − bc.\n- det(AB) = det A·det B; det(Aᵀ) = det A; det(A⁻¹) = 1/det A.\n- det(kA) = kⁿ·det A para A n×n.\n- det A = 0 ⇔ A não é invertível.\n\n**Erros comuns:** achar que det(kA) = k·det A; achar que det(A + B) = det A + det B; esquecer de subtrair as diagonais ascendentes na regra de Sarrus.\n\n**Mini exemplo:** A 2×2 com det A = 5. Então det(3A) = 3²·5 = 45 e det(A⁻¹) = 1/5."
+    },
+    {
+      "id": "sistemas-lineares",
+      "nome": "Sistemas lineares",
+      "resumo": "Um **sistema linear** pode ser escrito como Ax = b, em que A é a matriz dos coeficientes, x o vetor das incógnitas e b o vetor dos termos independentes.\n\n### Classificação\n- **SPD** (possível e determinado): uma única solução.\n- **SPI** (possível e indeterminado): infinitas soluções.\n- **SI** (impossível): nenhuma solução.\n\nNunca há exatamente duas soluções: ou há zero, ou uma, ou infinitas.\n\n### Escalonamento (Gauss)\nAplique à **matriz aumentada** [A | b] as operações elementares:\n- trocar duas linhas;\n- multiplicar uma linha por um número não nulo;\n- somar a uma linha um múltiplo de outra.\n\nO objetivo é chegar à forma escalonada e resolver de baixo para cima (substituição regressiva). Uma linha do tipo 0 = c, com c ≠ 0, indica sistema impossível.\n\n### Teorema de Rouché–Capelli\nSeja n o número de incógnitas:\n- posto(A) ≠ posto([A | b]): **SI**;\n- posto(A) = posto([A | b]) = n: **SPD**;\n- posto(A) = posto([A | b]) < n: **SPI**, com n − posto variáveis livres.\n\n### Sistemas quadrados\nSe A é n×n, det(A) ≠ 0 garante SPD. Se det(A) = 0, o sistema é SPI ou SI, e é preciso escalonar para decidir.\n\n### Sistemas homogêneos\nAx = 0 é **sempre possível**, pois x = 0 (solução trivial) sempre serve. Ele tem soluções não triviais exatamente quando posto(A) < n.",
+      "revisao": "**Lembre:**\n- SPD, SPI ou SI; nunca exatamente duas soluções.\n- Linha 0 = c (c ≠ 0) no escalonamento: impossível.\n- Rouché–Capelli: compare posto(A), posto([A | b]) e o número de incógnitas.\n- Homogêneo é sempre possível.\n\n**Erros comuns:** concluir que det = 0 significa impossível (pode ser SPI); errar sinais ao somar múltiplos de linhas.\n\n**Mini exemplo:** x + y = 2 e 2x + 2y = 5. Subtraindo o dobro da primeira da segunda: 0 = 1. Logo o sistema é impossível. Se a segunda fosse 2x + 2y = 4, teríamos 0 = 0 e infinitas soluções."
+    },
+    {
+      "id": "espacos-vetoriais",
+      "nome": "Espaços vetoriais, base e dimensão",
+      "resumo": "Um **espaço vetorial** é um conjunto V com soma de vetores e multiplicação por escalar que satisfazem propriedades como associatividade, comutatividade, existência do vetor nulo e de opostos. Exemplos: ℝⁿ, matrizes m×n e polinômios de grau ≤ n.\n\n### Subespaços\nW ⊂ V é **subespaço** se:\n1. o vetor nulo pertence a W;\n2. u + v ∈ W sempre que u, v ∈ W;\n3. k·u ∈ W para todo escalar k e u ∈ W.\n\nTeste rápido: se o vetor nulo não está em W, W não é subespaço. Retas e planos que passam pela origem são subespaços; os que não passam, não são.\n\n### Combinação linear e geradores\nv é **combinação linear** de v₁, ..., vₖ se v = a₁v₁ + ... + aₖvₖ. O conjunto de todas essas combinações é o **subespaço gerado** [v₁, ..., vₖ].\n\n### Dependência linear\nOs vetores são **linearmente independentes (LI)** se a₁v₁ + ... + aₖvₖ = 0 só ocorre com todos os aᵢ = 0. Caso contrário, são **LD**: algum deles é combinação dos outros. Dois vetores são LD se forem proporcionais. Qualquer conjunto que contém o vetor nulo é LD.\n\n### Base e dimensão\nUma **base** é um conjunto **LI que gera** V. Todas as bases de V têm o mesmo número de vetores, chamado **dimensão**. dim ℝⁿ = n. Em um espaço de dimensão n:\n- mais de n vetores são sempre LD;\n- menos de n vetores não geram o espaço;\n- n vetores LI formam uma base.\n\nPara n vetores em ℝⁿ, basta calcular o determinante da matriz formada por eles: det ≠ 0 indica base.",
+      "revisao": "**Lembre:**\n- Subespaço precisa conter o vetor nulo e ser fechado para soma e multiplicação por escalar.\n- LI: a única combinação que dá zero é a trivial.\n- Base = LI + gera. Dimensão = número de vetores da base.\n- Em ℝⁿ, mais de n vetores são LD.\n\n**Erros comuns:** achar que qualquer reta é subespaço (só as que passam pela origem); achar que vetores não nulos são automaticamente LI.\n\n**Mini exemplo:** W = {(x, y, z) : z = 0} é o plano xy. Os vetores (1, 0, 0) e (0, 1, 0) são LI e geram W, então dim W = 2."
+    },
+    {
+      "id": "transformacoes-lineares",
+      "nome": "Transformações lineares",
+      "resumo": "Uma função T: V → W é uma **transformação linear** se, para todos os vetores u, v e escalar k:\n- T(u + v) = T(u) + T(v);\n- T(k·u) = k·T(u).\n\nConsequência imediata: **T(0) = 0**. Se T(0) ≠ 0, T não é linear. Termos constantes (como x + 1), produtos entre variáveis (xy) e potências (x²) estragam a linearidade.\n\n### Matriz de uma transformação\nToda transformação linear T: ℝⁿ → ℝᵐ pode ser escrita como T(x) = Ax, em que A é m×n. As **colunas de A** são as imagens dos vetores da base canônica: T(e₁), T(e₂), ... Ex.: T(x, y) = (2x + y, x − y) tem matriz com linhas (2, 1) e (1, −1).\n\n### Núcleo e imagem\n- **Núcleo** N(T) = {v : T(v) = 0}. É um subespaço do domínio. Para achá-lo, resolva o sistema homogêneo Av = 0.\n- **Imagem** Im(T) = {T(v)}. É um subespaço do contradomínio, gerado pelas colunas da matriz.\n\n### Teorema do núcleo e da imagem\nSe V tem dimensão finita: **dim N(T) + dim Im(T) = dim V**. A dimensão do domínio é a que conta, não a do contradomínio.\n\n### Injetividade e sobrejetividade\n- T é **injetora** ⇔ N(T) = {0}.\n- T é **sobrejetora** ⇔ Im(T) = W.\n- Se dim V = dim W, injetora ⇔ sobrejetora ⇔ isomorfismo (matriz com det ≠ 0).\n\n### Exemplos geométricos em ℝ²\nRotações, reflexões (por exemplo, em torno da reta y = x: T(x, y) = (y, x)), projeções (T(x, y) = (x, 0)) e dilatações são transformações lineares.",
+      "revisao": "**Lembre:**\n- Linear: preserva soma e multiplicação por escalar; logo T(0) = 0.\n- Colunas da matriz = imagens dos vetores canônicos.\n- Núcleo: resolva T(v) = 0.\n- dim N(T) + dim Im(T) = dim do domínio.\n- Injetora ⇔ núcleo só com o vetor nulo.\n\n**Erros comuns:** achar que T(x) = x + 1 é linear por ter gráfico reto; usar a dimensão do contradomínio no teorema do núcleo e da imagem.\n\n**Mini exemplo:** T: ℝ³ → ℝ², T(x, y, z) = (x, y). O núcleo é o eixo z (dimensão 1) e a imagem é ℝ² (dimensão 2). Confere: 1 + 2 = 3."
+    },
+    {
+      "id": "autovalores",
+      "nome": "Autovalores e autovetores",
+      "resumo": "Seja A uma matriz n×n. Um vetor **v ≠ 0** é **autovetor** de A associado ao **autovalor** λ se **Av = λv**. Ou seja, A apenas estica, encolhe ou inverte o sentido de v, sem mudar sua direção.\n\n### Como calcular\n1. Monte o **polinômio característico** p(λ) = det(A − λI).\n2. Os autovalores são as raízes de p(λ) = 0.\n3. Para cada λ, resolva o sistema homogêneo (A − λI)v = 0. As soluções não nulas são os autovetores, e junto com o vetor nulo formam o **autoespaço** de λ.\n\n### Atalhos úteis\n- Em matriz **triangular** ou diagonal, os autovalores são os elementos da diagonal principal.\n- **Soma dos autovalores = traço** de A (soma da diagonal).\n- **Produto dos autovalores = det(A)**.\n- Para 2×2: p(λ) = λ² − (traço)·λ + det.\n- λ = 0 é autovalor ⇔ det(A) = 0 ⇔ A não é invertível.\n- Se v é autovetor, qualquer múltiplo não nulo kv também é, com o mesmo autovalor.\n\n### Diagonalização\nA é **diagonalizável** se existe P invertível com P⁻¹AP = D diagonal. Isso ocorre quando A tem n autovetores LI; as colunas de P são esses autovetores e D traz os autovalores na diagonal. Autovalores distintos geram autovetores LI, então uma matriz n×n com n autovalores distintos é sempre diagonalizável. Matrizes simétricas reais também são sempre diagonalizáveis.\n\n### Para que serve\nDiagonalizar facilita calcular potências (Aᵏ = P·Dᵏ·P⁻¹), resolver sistemas de equações diferenciais e analisar processos que se repetem no tempo.",
+      "revisao": "**Lembre:**\n- Av = λv com v ≠ 0.\n- Autovalores: raízes de det(A − λI) = 0.\n- Triangular: autovalores na diagonal.\n- Soma = traço, produto = determinante.\n- n autovalores distintos ⇒ diagonalizável.\n\n**Erros comuns:** aceitar v = 0 como autovetor; esquecer de subtrair λ só da diagonal; achar que os autovalores de uma matriz qualquer são os elementos da diagonal.\n\n**Mini exemplo:** A com linhas (3, 0) e (0, 5). É diagonal, logo os autovalores são 3 e 5, com autovetores (1, 0) e (0, 1). Confere: traço 8 = 3 + 5 e det 15 = 3·5."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "algebra-linear-1",
+      "topico": "matrizes",
+      "nivel": "conceitual",
+      "pergunta": "Se A é uma matriz 2×3 e B é uma matriz 3×4, qual é o tamanho do produto AB?",
+      "opcoes": ["2×4", "3×3", "4×2", "AB não está definido"],
+      "correta": 0,
+      "explicacao": "O produto existe porque A tem 3 colunas e B tem 3 linhas, e o resultado tem as linhas de A e as colunas de B: 2×4. O erro comum é achar que o produto não existe porque A e B têm tamanhos diferentes, mas só é preciso que colunas de A coincidam com linhas de B."
+    },
+    {
+      "id": "algebra-linear-2",
+      "topico": "matrizes",
+      "nivel": "aplicacao",
+      "pergunta": "Sejam A a matriz com linhas (1, 2) e (3, 4) e B a matriz com linhas (0, 1) e (1, 0). Qual é o produto AB?",
+      "opcoes": ["Linhas (3, 4) e (1, 2)", "Linhas (2, 1) e (4, 3)", "Linhas (0, 2) e (3, 0)", "Linhas (1, 2) e (3, 4)"],
+      "correta": 1,
+      "explicacao": "Linha 1 de A vezes as colunas de B dá (1·0 + 2·1, 1·1 + 2·0) = (2, 1), e a linha 2 dá (4, 3); multiplicar por B à direita troca as colunas de A. O erro comum é calcular BA, que troca as linhas e dá (3, 4) e (1, 2), ou multiplicar elemento a elemento."
+    },
+    {
+      "id": "algebra-linear-3",
+      "topico": "matrizes",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a transposta da matriz 2×3 com linhas (1, 2, 3) e (4, 5, 6)?",
+      "opcoes": ["2×3, com linhas (4, 5, 6) e (1, 2, 3)", "3×2, com linhas (1, 2), (3, 4) e (5, 6)", "3×2, com linhas (1, 4), (2, 5) e (3, 6)", "3×2, com linhas (3, 6), (2, 5) e (1, 4)"],
+      "correta": 2,
+      "explicacao": "Na transposta, a linha i vira a coluna i, então as colunas (1, 4), (2, 5) e (3, 6) da original viram as linhas da nova matriz 3×2. O erro comum é apenas reorganizar os números em ordem, como em (1, 2), (3, 4), (5, 6), sem trocar linhas por colunas."
+    },
+    {
+      "id": "algebra-linear-4",
+      "topico": "matrizes",
+      "nivel": "analise",
+      "pergunta": "Para matrizes quadradas A e B quaisquer de mesma ordem, qual afirmação é sempre verdadeira?",
+      "opcoes": ["AB = BA, ou seja, o produto é comutativo", "(A + B)² = A² + 2AB + B²", "Se AB = 0, então A = 0 ou B = 0", "A transposta de AB é BᵀAᵀ"],
+      "correta": 3,
+      "explicacao": "A propriedade (AB)ᵀ = BᵀAᵀ vale sempre, com a ordem dos fatores invertida. O erro comum é tratar matrizes como números: o produto não é comutativo, por isso (A + B)² = A² + AB + BA + B², e existem matrizes não nulas com AB = 0."
+    },
+    {
+      "id": "algebra-linear-5",
+      "topico": "matrizes",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a inversa da matriz A com linhas (2, 1) e (5, 3)?",
+      "opcoes": ["Linhas (3, −1) e (−5, 2)", "Linhas (2, 5) e (1, 3)", "Linhas (1/2, 1) e (1/5, 1/3)", "Linhas (3, 5) e (1, 2)"],
+      "correta": 0,
+      "explicacao": "det A = 2·3 − 1·5 = 1; trocando a e d, mudando o sinal de b e c e dividindo por 1, obtemos linhas (3, −1) e (−5, 2), e de fato A·A⁻¹ = I. O erro comum é inverter cada elemento (1/2, 1, 1/5, 1/3), o que não produz a matriz inversa."
+    },
+    {
+      "id": "algebra-linear-6",
+      "topico": "determinantes",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o determinante da matriz com linhas (3, 2) e (1, 4)?",
+      "opcoes": ["14", "5", "10", "11"],
+      "correta": 2,
+      "explicacao": "Para 2×2, det = ad − bc = 3·4 − 2·1 = 12 − 2 = 10. O erro comum é somar os produtos (12 + 2 = 14) em vez de subtrair."
+    },
+    {
+      "id": "algebra-linear-7",
+      "topico": "determinantes",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o determinante da matriz 3×3 com linhas (1, 2, 0), (0, 1, 3) e (2, 0, 1)?",
+      "opcoes": ["−11", "1", "7", "13"],
+      "correta": 3,
+      "explicacao": "Por Sarrus, as diagonais descendentes somam 1·1·1 + 2·3·2 + 0·0·0 = 13 e as ascendentes somam 0·1·2 + 1·3·0 + 2·0·1 = 0, logo det = 13. O erro comum é errar o sinal de um cofator na expansão de Laplace e chegar a 1 − 12 = −11."
+    },
+    {
+      "id": "algebra-linear-8",
+      "topico": "determinantes",
+      "nivel": "conceitual",
+      "pergunta": "Se A é uma matriz quadrada com det(A) = 0, então:",
+      "opcoes": ["A é a matriz nula", "A não é invertível", "A é invertível e A⁻¹ = Aᵀ", "A é a matriz identidade"],
+      "correta": 1,
+      "explicacao": "Uma matriz quadrada é invertível se e somente se seu determinante é diferente de zero, então det(A) = 0 significa que A não tem inversa. O erro comum é achar que A precisa ser nula, mas a matriz com linhas (1, 2) e (2, 4) tem det 0 e não é nula."
+    },
+    {
+      "id": "algebra-linear-9",
+      "topico": "determinantes",
+      "nivel": "analise",
+      "pergunta": "Seja A uma matriz 3×3 com det(A) = 2. Quanto vale det(2A)?",
+      "opcoes": ["16", "4", "8", "6"],
+      "correta": 0,
+      "explicacao": "Multiplicar A por 2 multiplica cada uma das 3 linhas por 2, então det(2A) = 2³·det(A) = 8·2 = 16. O erro comum é fazer det(2A) = 2·det(A) = 4, esquecendo que o fator aparece uma vez por linha."
+    },
+    {
+      "id": "algebra-linear-10",
+      "topico": "determinantes",
+      "nivel": "aplicacao",
+      "pergunta": "Sejam A e B matrizes 3×3 com det(A) = 3 e det(B) = −2. Quanto vale det(AᵀB)?",
+      "opcoes": ["1", "−5", "−2/3", "−6"],
+      "correta": 3,
+      "explicacao": "Como det(Aᵀ) = det(A) e det(XY) = det(X)·det(Y), temos det(AᵀB) = 3·(−2) = −6. O erro comum é somar os determinantes (3 + (−2) = 1), mas o determinante do produto é o produto dos determinantes."
+    },
+    {
+      "id": "algebra-linear-11",
+      "topico": "sistemas-lineares",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a solução do sistema x + y = 5 e x − y = 1?",
+      "opcoes": ["x = 2 e y = 3", "x = 4 e y = 1", "x = 3 e y = 2", "x = 5 e y = 0"],
+      "correta": 2,
+      "explicacao": "Somando as equações, 2x = 6, logo x = 3, e então y = 5 − 3 = 2. O erro comum é trocar os valores (x = 2, y = 3), que satisfaz a primeira equação mas dá x − y = −1 na segunda."
+    },
+    {
+      "id": "algebra-linear-12",
+      "topico": "sistemas-lineares",
+      "nivel": "conceitual",
+      "pergunta": "O que se pode afirmar sobre todo sistema linear homogêneo Ax = 0?",
+      "opcoes": ["É sempre impossível", "É sempre possível, pois admite ao menos a solução trivial", "Tem sempre infinitas soluções", "Só tem solução se A for invertível"],
+      "correta": 1,
+      "explicacao": "O vetor x = 0 sempre satisfaz Ax = 0, então todo sistema homogêneo é possível; ele terá infinitas soluções apenas quando posto(A) for menor que o número de incógnitas. O erro comum é achar que precisa de A invertível, mas a invertibilidade só garante que a solução trivial é a única."
+    },
+    {
+      "id": "algebra-linear-13",
+      "topico": "sistemas-lineares",
+      "nivel": "analise",
+      "pergunta": "Para que valor de k o sistema x + 2y = 3 e 2x + 4y = k tem infinitas soluções?",
+      "opcoes": ["k = 3", "Qualquer k diferente de 6", "k = 0", "k = 6"],
+      "correta": 3,
+      "explicacao": "A segunda equação tem coeficientes iguais ao dobro dos da primeira, então ela é a mesma equação quando k = 2·3 = 6, gerando infinitas soluções; para k ≠ 6 o sistema é impossível. O erro comum é escolher k ≠ 6, que na verdade leva a uma contradição do tipo 0 = c."
+    },
+    {
+      "id": "algebra-linear-14",
+      "topico": "sistemas-lineares",
+      "nivel": "conceitual",
+      "pergunta": "Um sistema com 3 incógnitas tem posto da matriz dos coeficientes igual a 2 e posto da matriz aumentada também igual a 2. Como ele se classifica?",
+      "opcoes": ["Possível e indeterminado", "Possível e determinado", "Impossível", "Não é possível classificar sem resolver"],
+      "correta": 0,
+      "explicacao": "Pelo teorema de Rouché–Capelli, postos iguais garantem que o sistema é possível, e como o posto 2 é menor que as 3 incógnitas, há 3 − 2 = 1 variável livre e infinitas soluções. O erro comum é achar que postos iguais sempre dão solução única, o que só acontece quando o posto é igual ao número de incógnitas."
+    },
+    {
+      "id": "algebra-linear-15",
+      "topico": "sistemas-lineares",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a solução do sistema escalonado x + y + z = 6, y + z = 5, z = 3?",
+      "opcoes": ["x = 3, y = 2, z = 1", "x = 1, y = 5, z = 3", "x = 1, y = 2, z = 3", "x = 6, y = 5, z = 3"],
+      "correta": 2,
+      "explicacao": "Resolvendo de baixo para cima: z = 3, depois y = 5 − 3 = 2 e por fim x = 6 − 2 − 3 = 1. O erro comum é copiar os termos independentes como valores das variáveis (x = 6, y = 5) sem fazer a substituição regressiva."
+    },
+    {
+      "id": "algebra-linear-16",
+      "topico": "espacos-vetoriais",
+      "nivel": "conceitual",
+      "pergunta": "Qual dos conjuntos abaixo NÃO é subespaço vetorial de ℝ²?",
+      "opcoes": ["{(x, y) : y = 2x}", "{(x, y) : x + y = 1}", "{(x, y) : x = 0}", "{(0, 0)}"],
+      "correta": 1,
+      "explicacao": "O conjunto x + y = 1 não contém o vetor nulo, pois 0 + 0 ≠ 1, então não pode ser subespaço. O erro comum é achar que toda reta é subespaço, mas só as retas que passam pela origem são."
+    },
+    {
+      "id": "algebra-linear-17",
+      "topico": "espacos-vetoriais",
+      "nivel": "aplicacao",
+      "pergunta": "Qual dos conjuntos abaixo é uma base de ℝ²?",
+      "opcoes": ["{(1, 2), (2, 4)}", "{(0, 0), (1, 0)}", "{(1, 0)}", "{(1, 2), (3, 1)}"],
+      "correta": 3,
+      "explicacao": "Os vetores (1, 2) e (3, 1) não são proporcionais e o determinante da matriz formada por eles é 1·1 − 2·3 = −5 ≠ 0, então são LI e, sendo dois em ℝ², formam base. O erro comum é aceitar (1, 2) e (2, 4), que são proporcionais e portanto LD."
+    },
+    {
+      "id": "algebra-linear-18",
+      "topico": "espacos-vetoriais",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a dimensão do subespaço W = {(x, y, z) ∈ ℝ³ : x + y + z = 0}?",
+      "opcoes": ["1", "2", "3", "0"],
+      "correta": 1,
+      "explicacao": "Isolando x = −y − z, todo vetor de W é y(−1, 1, 0) + z(−1, 0, 1), com dois vetores LI gerando W, logo dim W = 2 (é um plano pela origem). O erro comum é responder 3 por W estar dentro de ℝ³, esquecendo que a equação tira um grau de liberdade."
+    },
+    {
+      "id": "algebra-linear-19",
+      "topico": "espacos-vetoriais",
+      "nivel": "analise",
+      "pergunta": "O que se pode afirmar sobre qualquer conjunto de 4 vetores em ℝ³?",
+      "opcoes": ["São sempre linearmente independentes", "Formam sempre uma base de ℝ³", "São sempre linearmente dependentes", "São LI desde que nenhum deles seja nulo"],
+      "correta": 2,
+      "explicacao": "Como dim ℝ³ = 3, qualquer conjunto com mais de 3 vetores é necessariamente LD. O erro comum é achar que vetores não nulos e diferentes são automaticamente LI, mas o número de vetores acima da dimensão já força a dependência."
+    },
+    {
+      "id": "algebra-linear-20",
+      "topico": "espacos-vetoriais",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a definição de base de um espaço vetorial V?",
+      "opcoes": ["Um conjunto de vetores LI que gera V", "Qualquer conjunto de vetores que gera V", "Qualquer conjunto de vetores LI de V", "Um conjunto formado apenas por vetores unitários"],
+      "correta": 0,
+      "explicacao": "Base exige as duas condições ao mesmo tempo: ser linearmente independente e gerar todo o espaço. O erro comum é exigir só uma delas, mas um conjunto gerador pode ter vetores sobrando (LD) e um conjunto LI pode não alcançar todo o espaço."
+    },
+    {
+      "id": "algebra-linear-21",
+      "topico": "transformacoes-lineares",
+      "nivel": "conceitual",
+      "pergunta": "Qual das funções de ℝ² em ℝ² abaixo NÃO é uma transformação linear?",
+      "opcoes": ["T(x, y) = (2x, 3y)", "T(x, y) = (x + y, x − y)", "T(x, y) = (y, x)", "T(x, y) = (x + 1, y)"],
+      "correta": 3,
+      "explicacao": "Toda transformação linear leva o vetor nulo no vetor nulo, mas T(0, 0) = (1, 0) na função (x + 1, y), então ela não é linear. O erro comum é achar que basta a expressão ser do primeiro grau, mas o termo constante +1 quebra a linearidade."
+    },
+    {
+      "id": "algebra-linear-22",
+      "topico": "transformacoes-lineares",
+      "nivel": "aplicacao",
+      "pergunta": "Seja T(x, y) = (2x + y, x − y). Quanto vale T(1, 2)?",
+      "opcoes": ["(3, 0)", "(4, −1)", "(5, 1)", "(4, 3)"],
+      "correta": 1,
+      "explicacao": "Substituindo x = 1 e y = 2: 2·1 + 2 = 4 e 1 − 2 = −1, então T(1, 2) = (4, −1). O erro comum é trocar os papéis de x e y, calculando T(2, 1) = (5, 1)."
+    },
+    {
+      "id": "algebra-linear-23",
+      "topico": "transformacoes-lineares",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o núcleo da transformação T(x, y) = (x − y, 2x − 2y)?",
+      "opcoes": ["A reta gerada por (1, 1)", "A reta gerada por (1, 2)", "Apenas o vetor nulo", "Todo o ℝ²"],
+      "correta": 0,
+      "explicacao": "T(x, y) = (0, 0) exige x − y = 0, ou seja, x = y, então o núcleo é {(t, t)}, a reta gerada por (1, 1). O erro comum é concluir que o núcleo é só o vetor nulo sem resolver o sistema, mas as duas equações são proporcionais e sobra uma variável livre."
+    },
+    {
+      "id": "algebra-linear-24",
+      "topico": "transformacoes-lineares",
+      "nivel": "analise",
+      "pergunta": "Uma transformação linear T: ℝ⁴ → ℝ³ tem núcleo de dimensão 2. Qual é a dimensão da imagem de T?",
+      "opcoes": ["1", "3", "2", "4"],
+      "correta": 2,
+      "explicacao": "Pelo teorema do núcleo e da imagem, dim N(T) + dim Im(T) = dim do domínio = 4, logo dim Im(T) = 4 − 2 = 2. O erro comum é usar a dimensão do contradomínio e fazer 3 − 2 = 1."
+    },
+    {
+      "id": "algebra-linear-25",
+      "topico": "transformacoes-lineares",
+      "nivel": "aplicacao",
+      "pergunta": "A reflexão em torno da reta y = x, dada por T(x, y) = (y, x), leva o vetor (3, 5) em qual vetor?",
+      "opcoes": ["(3, 5)", "(3, 0)", "(4, 4)", "(5, 3)"],
+      "correta": 3,
+      "explicacao": "A reflexão na reta y = x troca as coordenadas, então T(3, 5) = (5, 3). O erro comum é confundir com a projeção sobre a reta y = x, que daria (4, 4), ou com a projeção sobre o eixo x, que daria (3, 0)."
+    },
+    {
+      "id": "algebra-linear-26",
+      "topico": "autovalores",
+      "nivel": "conceitual",
+      "pergunta": "Um vetor v é autovetor da matriz A, associado ao autovalor λ, quando:",
+      "opcoes": ["det(A) = λ", "Av = λv para algum vetor v não nulo", "Av = λv com v = 0", "A·λ = 0"],
+      "correta": 1,
+      "explicacao": "A definição exige Av = λv com v ≠ 0, isto é, A apenas multiplica v por um escalar. O erro comum é aceitar v = 0, mas como A·0 = λ·0 para qualquer λ, o vetor nulo é excluído por definição."
+    },
+    {
+      "id": "algebra-linear-27",
+      "topico": "autovalores",
+      "nivel": "aplicacao",
+      "pergunta": "Quais são os autovalores da matriz com linhas (2, 1) e (1, 2)?",
+      "opcoes": ["2 e 2", "0 e 4", "3 e 4", "1 e 3"],
+      "correta": 3,
+      "explicacao": "det(A − λI) = (2 − λ)² − 1 = λ² − 4λ + 3 = (λ − 1)(λ − 3), logo os autovalores são 1 e 3 (soma 4 = traço, produto 3 = det). O erro comum é achar que os autovalores são os elementos da diagonal (2 e 2), o que só vale para matrizes triangulares."
+    },
+    {
+      "id": "algebra-linear-28",
+      "topico": "autovalores",
+      "nivel": "aplicacao",
+      "pergunta": "Quais são os autovalores da matriz triangular com linhas (4, 7) e (0, −1)?",
+      "opcoes": ["4 e 7", "4 e −1", "7 e 0", "3 e −4"],
+      "correta": 1,
+      "explicacao": "Em matriz triangular, det(A − λI) = (4 − λ)(−1 − λ), então os autovalores são os elementos da diagonal principal: 4 e −1. O erro comum é usar a primeira linha (4 e 7) ou confundir os autovalores com o traço 3 e o determinante −4."
+    },
+    {
+      "id": "algebra-linear-29",
+      "topico": "autovalores",
+      "nivel": "aplicacao",
+      "pergunta": "Qual vetor é autovetor da matriz com linhas (2, 1) e (1, 2) associado ao autovalor 3?",
+      "opcoes": ["(1, 2)", "(1, 0)", "(1, 1)", "(2, 1)"],
+      "correta": 2,
+      "explicacao": "A·(1, 1) = (2 + 1, 1 + 2) = (3, 3) = 3·(1, 1), então (1, 1) é autovetor com autovalor 3. O erro comum é testar só a primeira coordenada; por exemplo, A·(1, 2) = (4, 5), que não é múltiplo de (1, 2)."
+    },
+    {
+      "id": "algebra-linear-30",
+      "topico": "autovalores",
+      "nivel": "analise",
+      "pergunta": "Uma matriz 2×2 tem traço 5 e determinante 6. Quais são seus autovalores?",
+      "opcoes": ["2 e 3", "1 e 6", "5 e 6", "1 e 5"],
+      "correta": 0,
+      "explicacao": "A soma dos autovalores é o traço e o produto é o determinante, então eles são raízes de λ² − 5λ + 6 = 0, ou seja, 2 e 3. O erro comum é pegar o próprio traço e o determinante como autovalores (5 e 6), ou escolher 1 e 6, que têm produto 6 mas soma 7."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "introducao-economia",
+  "nome": "Introdução à Economia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "problema-economico",
+      "nome": "Problema econômico e custo de oportunidade",
+      "resumo": "## Escassez: o ponto de partida\n\nA Economia estuda como a sociedade usa **recursos escassos** para atender **necessidades ilimitadas**. Como não dá para produzir tudo, toda sociedade precisa responder a três perguntas:\n\n- **O que** e quanto produzir?\n- **Como** produzir (quais técnicas e recursos)?\n- **Para quem** produzir (como distribuir o resultado)?\n\nOs **fatores de produção** são terra (recursos naturais), trabalho, capital (máquinas, equipamentos, instalações) e capacidade empresarial.\n\n### Custo de oportunidade\n\nEscolher uma opção significa abrir mão de outra. O **custo de oportunidade** é o valor da **melhor alternativa renunciada**, e não a soma de todas as alternativas. Se você passa a noite estudando em vez de trabalhar como garçom por R$ 120,00, o custo de oportunidade do estudo é R$ 120,00.\n\n### Fronteira de possibilidades de produção (FPP)\n\nA FPP mostra as combinações máximas de dois bens que a economia consegue produzir com os recursos e a tecnologia disponíveis.\n\n| Posição do ponto | Significado |\n|---|---|\n| Sobre a curva | Produção eficiente |\n| Dentro da curva | Recursos ociosos ou mal usados |\n| Fora da curva | Inatingível no momento |\n\nA FPP costuma ser **côncava** (curvada para fora) porque os recursos não são igualmente adequados a todas as produções: o **custo de oportunidade é crescente**. Mais recursos ou tecnologia melhor geram **crescimento econômico**, que desloca a FPP para fora.\n\n### Divisões da Economia\n\n- **Microeconomia**: decisões de consumidores, empresas e mercados específicos.\n- **Macroeconomia**: agregados como PIB, inflação e desemprego.\n- **Economia positiva** descreve o que é; **economia normativa** opina sobre o que deveria ser.",
+      "revisao": "**Pontos-chave**\n- Escassez obriga a escolher; toda escolha tem custo de oportunidade.\n- Custo de oportunidade = melhor alternativa renunciada (só uma, não a soma).\n- Ponto na FPP = eficiente; dentro = ineficiente; fora = inatingível.\n- FPP côncava indica custo de oportunidade crescente.\n\n**Erros comuns**\n- Somar todas as alternativas abandonadas.\n- Achar que custo de oportunidade é só dinheiro gasto.\n\n**Mini exemplo**: um país passa de 80 para 50 toneladas de trigo para ganhar 10 máquinas. Cada máquina custou 30 / 10 = **3 toneladas de trigo**."
+    },
+    {
+      "id": "oferta-demanda",
+      "nome": "Oferta, demanda e equilíbrio",
+      "resumo": "## Demanda\n\nA **lei da demanda** diz que, mantido tudo o mais constante (*coeteris paribus*), quando o preço de um bem sobe a quantidade demandada cai. A curva de demanda é negativamente inclinada.\n\n- Mudança no **preço do próprio bem**: **movimento ao longo** da curva (muda a quantidade demandada).\n- Mudança em outros fatores: **deslocamento** da curva (muda a demanda).\n\nFatores que deslocam a demanda: renda, preços de bens relacionados, gostos, expectativas e número de consumidores.\n\n- **Bem normal**: demanda sobe quando a renda sobe. **Bem inferior**: demanda cai quando a renda sobe.\n- **Substitutos** (manteiga e margarina): o preço de um sobe, a demanda do outro sobe.\n- **Complementares** (café e açúcar): o preço de um sobe, a demanda do outro cai.\n\n## Oferta\n\nA **lei da oferta** diz que preço maior leva a maior quantidade ofertada. A curva de oferta desloca com custos dos insumos, tecnologia, expectativas, impostos e número de vendedores.\n\n## Equilíbrio\n\nO **equilíbrio** ocorre onde quantidade demandada = quantidade ofertada.\n\n- Preço **abaixo** do equilíbrio: **excesso de demanda** (escassez), pressão para o preço subir.\n- Preço **acima** do equilíbrio: **excesso de oferta** (excedente), pressão para o preço cair.\n\n### Exemplo de cálculo\n\nCom Qd = 100 − 2P e Qs = 20 + 2P: 100 − 2P = 20 + 2P, logo P = 20 e Q = 60.\n\n### Controles de preço\n\n- **Preço máximo (teto)** abaixo do equilíbrio gera escassez.\n- **Preço mínimo (piso)** acima do equilíbrio gera excedente.\n\nQuando oferta e demanda mudam ao mesmo tempo, uma das variáveis (preço ou quantidade) fica **indeterminada** sem saber a intensidade de cada deslocamento.",
+      "revisao": "**Pontos-chave**\n- Preço do próprio bem: movimento ao longo da curva. Outros fatores: deslocamento.\n- Equilíbrio: Qd = Qs.\n- Preço abaixo do equilíbrio: escassez. Acima: excedente.\n- Complementares andam juntos na demanda; substitutos, em sentido oposto ao preço do outro.\n\n**Erros comuns**\n- Dizer que a demanda caiu quando só o preço do próprio bem subiu.\n- Esquecer que teto de preço só tem efeito se estiver abaixo do equilíbrio.\n\n**Mini exemplo**: Qd = 100 − 2P e Qs = 20 + 2P. Equilíbrio em P = 20 e Q = 60. Com teto em P = 15, Qd = 70 e Qs = 50: escassez de 20 unidades."
+    },
+    {
+      "id": "elasticidade",
+      "nome": "Elasticidade",
+      "resumo": "## O que mede a elasticidade\n\n**Elasticidade** mede a sensibilidade de uma variável a mudanças em outra, em termos percentuais.\n\n### Elasticidade-preço da demanda (Epd)\n\nEpd = variação % da quantidade demandada / variação % do preço\n\nCostuma-se analisar o valor em módulo:\n\n| Valor em módulo | Classificação |\n|---|---|\n| Maior que 1 | Demanda **elástica** |\n| Igual a 1 | **Unitária** |\n| Menor que 1 | Demanda **inelástica** |\n\n**Determinantes**: existência de **substitutos** (mais substitutos, mais elástica), se o bem é **necessidade ou luxo**, o **peso no orçamento** e o **horizonte de tempo** (no longo prazo a demanda costuma ser mais elástica, pois as pessoas têm tempo de se adaptar).\n\n### Elasticidade e receita total\n\nReceita total = preço × quantidade.\n\n- Demanda **inelástica**: aumentar o preço **aumenta** a receita.\n- Demanda **elástica**: aumentar o preço **reduz** a receita.\n- **Unitária**: a receita não muda.\n\n### Elasticidade-renda\n\n- Positiva: **bem normal** (acima de 1, bem de luxo; entre 0 e 1, bem necessário).\n- Negativa: **bem inferior**.\n\n### Elasticidade-preço cruzada\n\n- Positiva: bens **substitutos**.\n- Negativa: bens **complementares**.\n\n### Exemplo\n\nO preço sobe 10% e a quantidade cai 25%: Epd = −25 / 10 = −2,5. Em módulo, 2,5 > 1: demanda elástica, e a receita cai.",
+      "revisao": "**Pontos-chave**\n- Epd = %ΔQ / %ΔP; analise em módulo.\n- Módulo > 1 elástica; < 1 inelástica; = 1 unitária.\n- Inelástica: preço e receita andam juntos. Elástica: andam em sentidos opostos.\n- Renda negativa = bem inferior; cruzada positiva = substitutos.\n\n**Erros comuns**\n- Inverter a fórmula (dividir preço por quantidade).\n- Confundir \"inelástica\" com \"a quantidade não muda nada\".\n\n**Mini exemplo**: Epd = −0,4 e o preço sobe 10%. A quantidade cai 4%. Nova receita = 1,10 × 0,96 = 1,056 da original: alta de cerca de 5,6%."
+    },
+    {
+      "id": "estruturas-mercado",
+      "nome": "Estruturas de mercado",
+      "resumo": "## Comparando as estruturas\n\n| Estrutura | Nº de vendedores | Produto | Entrada |\n|---|---|---|---|\n| Concorrência perfeita | Muitos | Homogêneo | Livre |\n| Concorrência monopolística | Muitos | Diferenciado | Livre |\n| Oligopólio | Poucos | Homogêneo ou diferenciado | Difícil |\n| Monopólio | Um | Sem substituto próximo | Bloqueada |\n\n### Concorrência perfeita\n\nAs empresas são **tomadoras de preço**: nenhuma consegue alterar o preço de mercado. A receita marginal é igual ao preço, e a empresa maximiza lucro produzindo onde **P = CMg** (custo marginal). Com livre entrada, o **lucro econômico tende a zero no longo prazo**.\n\n### Monopólio\n\nUm único vendedor, protegido por **barreiras à entrada**: patentes, concessão legal, controle de insumo essencial ou **economias de escala** (o caso do **monopólio natural**, como redes de água). O monopolista escolhe a quantidade onde **RMg = CMg** e cobra o preço que a demanda aceita para essa quantidade. Como a RMg fica abaixo do preço, o resultado é **preço maior e quantidade menor** que na concorrência, gerando **perda de peso morto**.\n\n### Concorrência monopolística\n\nMuitas empresas com produtos **diferenciados** (marca, localização, qualidade). Cada uma tem algum poder sobre o preço, mas a livre entrada leva o lucro econômico a zero no longo prazo. Exemplos: restaurantes, salões de beleza.\n\n### Oligopólio\n\nPoucas empresas, com forte **interdependência**: a decisão de uma afeta as outras. Podem formar **cartel** (acordo de preços ou cotas), prática ilegal no Brasil e combatida pelo CADE. Cartéis tendem a ser instáveis, pois cada membro tem incentivo a vender mais que a cota.\n\nDo lado da compra, **monopsônio** é o mercado com um único comprador.",
+      "revisao": "**Pontos-chave**\n- Concorrência perfeita: tomadora de preço, produz onde P = CMg.\n- Qualquer empresa maximiza lucro onde RMg = CMg.\n- Monopólio: preço maior, quantidade menor, peso morto.\n- Concorrência monopolística: produto diferenciado e entrada livre.\n- Oligopólio: poucos vendedores e interdependência.\n\n**Erros comuns**\n- Achar que o monopolista cobra \"qualquer preço\": ele está limitado pela curva de demanda.\n- Confundir concorrência monopolística com monopólio.\n\n**Mini exemplo**: P = 100 − Q, RMg = 100 − 2Q e CMg = 20. RMg = CMg dá Q = 40 e P = 100 − 40 = 60."
+    },
+    {
+      "id": "macroeconomia-indicadores",
+      "nome": "Macroeconomia: PIB, inflação e desemprego",
+      "resumo": "## PIB\n\nO **Produto Interno Bruto** é o valor de mercado de todos os **bens e serviços finais** produzidos **dentro do país** em um período. **Bens intermediários** ficam de fora para evitar **dupla contagem**.\n\nPela ótica da despesa:\n\n**PIB = C + I + G + (X − M)**\n\n- C: consumo das famílias\n- I: investimento (máquinas, construções, variação de estoques)\n- G: gastos do governo com bens e serviços\n- X − M: exportações menos importações\n\n**PIB nominal** usa preços correntes; **PIB real** desconta a variação de preços e mede a variação da quantidade produzida. **PIB per capita** = PIB / população. No Brasil, o PIB é calculado pelo **IBGE**.\n\n## Inflação\n\n**Inflação** é o aumento **generalizado e contínuo** dos preços, que reduz o poder de compra da moeda. O índice oficial do sistema de metas é o **IPCA**, do IBGE. Tipos de causa:\n\n- **De demanda**: gasto agregado maior que a capacidade de produção.\n- **De custos**: alta de insumos, salários, câmbio.\n- **Inercial**: reajustes que repetem a inflação passada.\n\nO contrário é **deflação** (queda generalizada de preços).\n\n## Desemprego\n\n**Taxa de desocupação** = desocupados / força de trabalho, em que força de trabalho = ocupados + desocupados. É **desocupado** quem não trabalha, procurou trabalho e está disponível. Quem desistiu de procurar (**desalentado**) fica **fora da força de trabalho**. No Brasil, a fonte é a **PNAD Contínua** (IBGE).\n\n- **Friccional**: transição entre empregos.\n- **Estrutural**: descompasso entre qualificações e vagas.\n- **Cíclico** (conjuntural): causado por recessões.",
+      "revisao": "**Pontos-chave**\n- PIB conta só bens e serviços finais produzidos no país.\n- PIB = C + I + G + (X − M).\n- PIB real ≈ crescimento nominal menos inflação (aproximação).\n- IPCA é o índice oficial das metas de inflação.\n- Taxa de desocupação = desocupados / (ocupados + desocupados).\n\n**Erros comuns**\n- Somar bens intermediários ao PIB.\n- Dividir os desocupados pela população total.\n\n**Mini exemplo**: 90 mil ocupados e 10 mil desocupados. Taxa = 10 / 100 = **10%**. Se o PIB nominal cresce 8% com inflação de 5%, o real cresce cerca de 3% (exatamente 1,08 / 1,05 − 1 ≈ 2,9%)."
+    },
+    {
+      "id": "politicas-economicas",
+      "nome": "Políticas monetária e fiscal",
+      "resumo": "## Política monetária\n\nConduzida pelo **Banco Central do Brasil**, atua sobre moeda, crédito e juros. O **Conselho Monetário Nacional (CMN)** fixa a **meta de inflação**, e o **Copom** (Comitê de Política Monetária do BC) define a meta da **taxa Selic**, a taxa básica de juros.\n\nInstrumentos principais:\n\n- **Operações de mercado aberto**: compra e venda de títulos públicos para manter a Selic na meta.\n- **Depósito compulsório**: parcela dos depósitos que os bancos devem manter no BC.\n- **Redesconto**: empréstimos do BC aos bancos.\n\n| Tipo | O que faz | Efeito esperado |\n|---|---|---|\n| Expansionista | Reduz juros ou compulsório | Mais crédito e demanda; risco de inflação |\n| Contracionista | Eleva a Selic ou o compulsório | Menos demanda; inflação menor |\n\nInflação acima da meta costuma levar o BC a **elevar a Selic**.\n\n## Política fiscal\n\nConduzida pelo governo, por meio de **gastos públicos** e **tributos**.\n\n- **Expansionista**: aumentar gastos ou reduzir impostos para estimular a economia.\n- **Contracionista**: cortar gastos ou elevar impostos para conter a demanda ou ajustar as contas.\n\n### Resultado das contas públicas\n\n- **Resultado primário** = receitas − despesas, **sem contar os juros** da dívida.\n- **Resultado nominal** = resultado primário − juros.\n\nDéficits são financiados com aumento da **dívida pública**.\n\n### Interação\n\nAs duas políticas afetam a **demanda agregada**. Se o governo expande gastos enquanto o BC sobe juros, os efeitos se contrapõem, e juros maiores também encarecem a dívida pública. Ambas agem com **defasagem**: os efeitos levam meses para aparecer.",
+      "revisao": "**Pontos-chave**\n- CMN fixa a meta de inflação; Copom fixa a meta da Selic.\n- Subir Selic = política monetária contracionista.\n- Mais gasto ou menos imposto = política fiscal expansionista.\n- Primário exclui juros; nominal inclui.\n\n**Erros comuns**\n- Atribuir a Selic ao Ministério da Fazenda.\n- Confundir política fiscal (governo, orçamento) com monetária (BC, juros).\n\n**Mini exemplo**: receitas de R$ 1.800 bilhões, despesas primárias de R$ 1.900 bilhões e juros de R$ 300 bilhões. Déficit primário de R$ 100 bilhões; déficit nominal de R$ 400 bilhões."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "introducao-economia-1",
+      "topico": "problema-economico",
+      "nivel": "conceitual",
+      "pergunta": "O que é custo de oportunidade?",
+      "opcoes": [
+        "A soma de todas as alternativas abandonadas em uma decisão",
+        "O valor da melhor alternativa de que se abre mão ao fazer uma escolha",
+        "O preço pago em dinheiro pelo bem escolhido",
+        "O custo total de produção de um bem dividido pela quantidade"
+      ],
+      "correta": 1,
+      "explicacao": "O custo de oportunidade considera apenas a melhor opção sacrificada, que pode ou não envolver dinheiro. O erro mais comum é somar todas as alternativas renunciadas, quando só uma delas poderia de fato ser escolhida."
+    },
+    {
+      "id": "introducao-economia-2",
+      "topico": "problema-economico",
+      "nivel": "conceitual",
+      "pergunta": "Um ponto localizado dentro (abaixo) da fronteira de possibilidades de produção indica que a economia:",
+      "opcoes": [
+        "Está produzindo com a máxima eficiência",
+        "Atingiu uma produção impossível com os recursos atuais",
+        "Passou por crescimento econômico recente",
+        "Tem recursos ociosos ou usados de forma ineficiente"
+      ],
+      "correta": 3,
+      "explicacao": "Dentro da FPP seria possível produzir mais de um bem sem reduzir o outro, sinal de desemprego ou mau uso de recursos. Muitos confundem esse ponto com o que fica fora da curva, que é o inatingível."
+    },
+    {
+      "id": "introducao-economia-3",
+      "topico": "problema-economico",
+      "nivel": "aplicacao",
+      "pergunta": "Ana tem 4 horas livres no sábado. Poderia trabalhar como freelancer ganhando R$ 50,00 por hora ou dar aulas particulares ganhando R$ 40,00 por hora, mas decide estudar para a prova. Qual é o custo de oportunidade de estudar?",
+      "opcoes": [
+        "R$ 200,00",
+        "R$ 360,00",
+        "R$ 160,00",
+        "Zero, pois estudar não custa dinheiro"
+      ],
+      "correta": 0,
+      "explicacao": "A melhor alternativa renunciada é o freelance: 4 × R$ 50,00 = R$ 200,00. Somar as duas opções (R$ 360,00) é o erro típico, pois Ana não poderia fazer as duas coisas nas mesmas 4 horas."
+    },
+    {
+      "id": "introducao-economia-4",
+      "topico": "problema-economico",
+      "nivel": "aplicacao",
+      "pergunta": "Na FPP de um país, o ponto B tem 80 toneladas de trigo e 10 máquinas, e o ponto C tem 50 toneladas de trigo e 20 máquinas. Ao passar de B para C, qual é o custo de oportunidade de cada máquina adicional?",
+      "opcoes": [
+        "2 toneladas de trigo",
+        "5 toneladas de trigo",
+        "3 toneladas de trigo",
+        "30 toneladas de trigo"
+      ],
+      "correta": 2,
+      "explicacao": "O país abre mão de 30 toneladas de trigo para ganhar 10 máquinas, ou seja, 30 / 10 = 3 toneladas por máquina. Um erro comum é responder 30, que é o custo do conjunto de 10 máquinas, e não de cada uma."
+    },
+    {
+      "id": "introducao-economia-5",
+      "topico": "problema-economico",
+      "nivel": "analise",
+      "pergunta": "Por que a fronteira de possibilidades de produção costuma ser côncava (curvada para fora da origem)?",
+      "opcoes": [
+        "Porque o custo de oportunidade é constante ao longo da curva",
+        "Porque os recursos não são igualmente adequados a todas as produções, o que torna o custo de oportunidade crescente",
+        "Porque a demanda dos consumidores muda conforme a produção",
+        "Porque a tecnologia melhora à medida que se produz mais de um bem"
+      ],
+      "correta": 1,
+      "explicacao": "Ao especializar-se em um bem, a economia passa a usar recursos cada vez menos aptos para ele, e cada unidade extra custa mais do outro bem. Custo de oportunidade constante geraria uma FPP reta, não côncava."
+    },
+    {
+      "id": "introducao-economia-6",
+      "topico": "oferta-demanda",
+      "nivel": "conceitual",
+      "pergunta": "Mantidos os demais fatores constantes, uma queda no preço de um bem provoca:",
+      "opcoes": [
+        "Um aumento da quantidade demandada, com movimento ao longo da curva de demanda",
+        "Um deslocamento da curva de demanda para a direita",
+        "Um deslocamento da curva de oferta para a esquerda",
+        "Uma redução da demanda, com deslocamento da curva para a esquerda"
+      ],
+      "correta": 0,
+      "explicacao": "Mudança no preço do próprio bem altera a quantidade demandada, o que é um movimento sobre a curva. O erro frequente é falar em deslocamento da curva, que só ocorre com mudança de renda, gostos, preços de outros bens etc."
+    },
+    {
+      "id": "introducao-economia-7",
+      "topico": "oferta-demanda",
+      "nivel": "aplicacao",
+      "pergunta": "Em um mercado, Qd = 100 − 2P e Qs = 20 + 2P. Quais são o preço e a quantidade de equilíbrio?",
+      "opcoes": [
+        "P = R$ 30,00 e Q = 40",
+        "P = R$ 25,00 e Q = 50",
+        "P = R$ 20,00 e Q = 60",
+        "P = R$ 20,00 e Q = 80"
+      ],
+      "correta": 2,
+      "explicacao": "Igualando 100 − 2P = 20 + 2P, obtém-se 4P = 80, P = 20 e Q = 100 − 40 = 60. Um erro comum é testar um preço só na demanda (como P = 30, Qd = 40) sem conferir que a oferta seria diferente."
+    },
+    {
+      "id": "introducao-economia-8",
+      "topico": "oferta-demanda",
+      "nivel": "aplicacao",
+      "pergunta": "No mercado com Qd = 100 − 2P e Qs = 20 + 2P, o governo fixa um preço máximo de R$ 15,00. O que acontece?",
+      "opcoes": [
+        "Surge um excesso de oferta de 20 unidades",
+        "Surge uma escassez de 10 unidades",
+        "Nada muda, pois o teto não afeta o equilíbrio",
+        "Surge um excesso de demanda (escassez) de 20 unidades"
+      ],
+      "correta": 3,
+      "explicacao": "Com P = 15, Qd = 70 e Qs = 50, faltando 20 unidades. O erro típico é achar que preço máximo gera excedente: isso ocorre com preço mínimo acima do equilíbrio."
+    },
+    {
+      "id": "introducao-economia-9",
+      "topico": "oferta-demanda",
+      "nivel": "aplicacao",
+      "pergunta": "Café e açúcar são bens complementares. Se o preço do café sobe bastante, o que tende a ocorrer no mercado de açúcar?",
+      "opcoes": [
+        "A demanda por açúcar aumenta, deslocando a curva para a direita",
+        "A demanda por açúcar diminui, deslocando a curva para a esquerda",
+        "A oferta de açúcar aumenta",
+        "Apenas a quantidade demandada de açúcar cai, sem deslocar a curva"
+      ],
+      "correta": 1,
+      "explicacao": "Com café mais caro, consome-se menos café e, junto, menos açúcar, então a demanda por açúcar cai em qualquer preço. Muitos aplicam a lógica dos substitutos, em que a demanda do outro bem aumentaria."
+    },
+    {
+      "id": "introducao-economia-10",
+      "topico": "oferta-demanda",
+      "nivel": "analise",
+      "pergunta": "Se, ao mesmo tempo, a demanda e a oferta de um bem aumentam, o que se pode afirmar com certeza sobre o novo equilíbrio?",
+      "opcoes": [
+        "O preço e a quantidade de equilíbrio aumentam",
+        "O preço cai e a quantidade fica constante",
+        "A quantidade de equilíbrio aumenta, mas o efeito sobre o preço é indeterminado",
+        "O preço aumenta, mas o efeito sobre a quantidade é indeterminado"
+      ],
+      "correta": 2,
+      "explicacao": "Os dois deslocamentos empurram a quantidade para cima, mas o da demanda eleva o preço e o da oferta o reduz, então o preço depende da intensidade de cada um. O erro comum é cravar uma direção para o preço sem conhecer os tamanhos dos deslocamentos."
+    },
+    {
+      "id": "introducao-economia-11",
+      "topico": "elasticidade",
+      "nivel": "conceitual",
+      "pergunta": "A demanda por um bem é classificada como inelástica quando a elasticidade-preço, em módulo, é:",
+      "opcoes": [
+        "Menor que 1",
+        "Maior que 1",
+        "Igual a 1",
+        "Igual a zero, necessariamente"
+      ],
+      "correta": 0,
+      "explicacao": "Inelástica significa que a quantidade varia proporcionalmente menos que o preço, ou seja, módulo menor que 1. Confundir inelástica com elasticidade zero é um erro: zero é apenas o caso extremo (perfeitamente inelástica)."
+    },
+    {
+      "id": "introducao-economia-12",
+      "topico": "elasticidade",
+      "nivel": "conceitual",
+      "pergunta": "Um bem cuja elasticidade-renda da demanda é negativa é classificado como:",
+      "opcoes": [
+        "Bem de luxo",
+        "Bem normal necessário",
+        "Bem complementar",
+        "Bem inferior"
+      ],
+      "correta": 3,
+      "explicacao": "Elasticidade-renda negativa significa que o consumo cai quando a renda sobe, definição de bem inferior. A confusão comum é com a elasticidade cruzada, que é a que classifica complementares e substitutos."
+    },
+    {
+      "id": "introducao-economia-13",
+      "topico": "elasticidade",
+      "nivel": "aplicacao",
+      "pergunta": "O preço de um produto sobe 10% e a quantidade demandada cai 25%. Qual é a elasticidade-preço da demanda e como ela se classifica?",
+      "opcoes": [
+        "−0,4; demanda inelástica",
+        "−2,5; demanda elástica",
+        "−2,5; demanda inelástica",
+        "−0,4; demanda elástica"
+      ],
+      "correta": 1,
+      "explicacao": "Epd = −25% / 10% = −2,5, e como o módulo é maior que 1 a demanda é elástica. Quem divide o preço pela quantidade chega a −0,4, invertendo a fórmula."
+    },
+    {
+      "id": "introducao-economia-14",
+      "topico": "elasticidade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa enfrenta elasticidade-preço da demanda de −0,4 e aumenta seu preço em 10%. O que acontece, aproximadamente, com sua receita total?",
+      "opcoes": [
+        "Aumenta cerca de 5,6%",
+        "Cai cerca de 4%",
+        "Aumenta exatamente 10%",
+        "Cai cerca de 5,6%"
+      ],
+      "correta": 0,
+      "explicacao": "A quantidade cai 0,4 × 10% = 4%, e a nova receita é 1,10 × 0,96 = 1,056 da original, alta de cerca de 5,6%. Achar que a receita cai porque a quantidade caiu ignora que, na demanda inelástica, o efeito do preço predomina."
+    },
+    {
+      "id": "introducao-economia-15",
+      "topico": "elasticidade",
+      "nivel": "analise",
+      "pergunta": "Após uma alta forte no preço da gasolina, o consumo cai pouco no primeiro mês, mas cai bem mais depois de dois anos. Qual é a melhor explicação?",
+      "opcoes": [
+        "A demanda por gasolina se torna mais inelástica com o passar do tempo",
+        "A oferta de gasolina deixa de responder ao preço no longo prazo",
+        "No longo prazo os consumidores têm mais tempo para encontrar substitutos e mudar hábitos, o que torna a demanda mais elástica",
+        "A gasolina passa de bem normal a bem inferior ao longo do tempo"
+      ],
+      "correta": 2,
+      "explicacao": "Com tempo, as pessoas trocam de carro, usam transporte público ou mudam a rotina, então a resposta ao preço aumenta. O erro comum é supor que a elasticidade é fixa, quando o horizonte de tempo é um dos seus determinantes."
+    },
+    {
+      "id": "introducao-economia-16",
+      "topico": "estruturas-mercado",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica define as empresas em concorrência perfeita?",
+      "opcoes": [
+        "Vendem produtos diferenciados por marca",
+        "Enfrentam fortes barreiras à entrada",
+        "Definem o preço onde a receita marginal supera o custo marginal",
+        "São tomadoras de preço, sem capacidade de alterar o preço de mercado"
+      ],
+      "correta": 3,
+      "explicacao": "Com muitas empresas e produto homogêneo, cada uma é pequena demais para influenciar o preço e apenas o aceita. Produto diferenciado é característica da concorrência monopolística, um erro de associação frequente."
+    },
+    {
+      "id": "introducao-economia-17",
+      "topico": "estruturas-mercado",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa em concorrência perfeita vende a R$ 10,00 por unidade. Seu custo marginal é: 1ª unidade R$ 4,00; 2ª R$ 6,00; 3ª R$ 8,00; 4ª R$ 9,00; 5ª R$ 12,00. Quantas unidades maximizam o lucro?",
+      "opcoes": [
+        "3 unidades",
+        "4 unidades",
+        "5 unidades",
+        "1 unidade"
+      ],
+      "correta": 1,
+      "explicacao": "Vale produzir enquanto o preço cobre o custo marginal: a 4ª unidade ainda rende R$ 10,00 − R$ 9,00 = R$ 1,00, mas a 5ª custaria R$ 12,00 e reduziria o lucro. O erro comum é parar na unidade de menor custo ou produzir o máximo possível, em vez de comparar P com CMg."
+    },
+    {
+      "id": "introducao-economia-18",
+      "topico": "estruturas-mercado",
+      "nivel": "aplicacao",
+      "pergunta": "Um bairro tem dezenas de restaurantes, cada um com cardápio e ambiente próprios, e abrir um novo restaurante é relativamente fácil. Esse mercado se aproxima de:",
+      "opcoes": [
+        "Concorrência perfeita",
+        "Oligopólio",
+        "Concorrência monopolística",
+        "Monopólio natural"
+      ],
+      "correta": 2,
+      "explicacao": "Há muitos vendedores, produtos diferenciados e entrada livre, as três marcas da concorrência monopolística. O erro comum é escolher concorrência perfeita só por haver muitas empresas, esquecendo que lá o produto é homogêneo."
+    },
+    {
+      "id": "introducao-economia-19",
+      "topico": "estruturas-mercado",
+      "nivel": "aplicacao",
+      "pergunta": "Um monopolista tem demanda P = 100 − Q, receita marginal RMg = 100 − 2Q e custo marginal constante de 20. Qual quantidade e qual preço maximizam seu lucro?",
+      "opcoes": [
+        "Q = 40 e P = 60",
+        "Q = 80 e P = 20",
+        "Q = 40 e P = 40",
+        "Q = 60 e P = 40"
+      ],
+      "correta": 0,
+      "explicacao": "RMg = CMg dá 100 − 2Q = 20, Q = 40, e o preço vem da demanda: P = 100 − 40 = 60. O resultado Q = 80 e P = 20 seria o de concorrência perfeita (P = CMg), e outro erro comum é tirar o preço da RMg em vez da demanda."
+    },
+    {
+      "id": "introducao-economia-20",
+      "topico": "estruturas-mercado",
+      "nivel": "analise",
+      "pergunta": "Por que cartéis entre empresas de um oligopólio tendem a ser instáveis?",
+      "opcoes": [
+        "Porque as empresas de um oligopólio não têm qualquer poder sobre o preço",
+        "Porque o produto do oligopólio é sempre homogêneo",
+        "Porque a livre entrada de novas empresas elimina o lucro imediatamente",
+        "Porque cada membro tem incentivo a vender acima da sua cota para lucrar mais com o preço alto combinado"
+      ],
+      "correta": 3,
+      "explicacao": "Com o preço elevado pelo acordo, cada empresa ganha mais se produzir escondido além da cota, e quando todas fazem isso o acordo se desfaz. Atribuir a instabilidade à livre entrada é erro, pois oligopólios têm barreiras à entrada."
+    },
+    {
+      "id": "introducao-economia-21",
+      "topico": "macroeconomia-indicadores",
+      "nivel": "conceitual",
+      "pergunta": "Qual dos itens abaixo NÃO entra diretamente no cálculo do PIB?",
+      "opcoes": [
+        "Um automóvel novo comprado por uma família",
+        "Um corte de cabelo pago por um cliente",
+        "O aço vendido a uma montadora para fabricar automóveis",
+        "Uma máquina nova comprada por uma fábrica"
+      ],
+      "correta": 2,
+      "explicacao": "O aço é bem intermediário, e seu valor já está incluído no preço final do carro; contá-lo de novo seria dupla contagem. A máquina comprada pela fábrica entra como investimento, e muitos a excluem por engano."
+    },
+    {
+      "id": "introducao-economia-22",
+      "topico": "macroeconomia-indicadores",
+      "nivel": "conceitual",
+      "pergunta": "Qual índice é usado como referência oficial para o sistema de metas de inflação no Brasil?",
+      "opcoes": [
+        "IPCA, calculado pelo IBGE",
+        "IGP-M, calculado pela FGV",
+        "INPC, calculado pelo IBGE",
+        "IPA, calculado pela FGV"
+      ],
+      "correta": 0,
+      "explicacao": "O IPCA, do IBGE, mede a inflação para famílias com renda de 1 a 40 salários mínimos e é o índice das metas. O IGP-M é muito usado em contratos de aluguel, o que leva muitos a confundi-lo com o índice oficial."
+    },
+    {
+      "id": "introducao-economia-23",
+      "topico": "macroeconomia-indicadores",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma economia, consumo = R$ 600 bilhões, investimento = R$ 200 bilhões, gastos do governo = R$ 250 bilhões, exportações = R$ 100 bilhões e importações = R$ 150 bilhões. Qual é o PIB?",
+      "opcoes": [
+        "R$ 1.300 bilhões",
+        "R$ 1.000 bilhões",
+        "R$ 1.150 bilhões",
+        "R$ 900 bilhões"
+      ],
+      "correta": 1,
+      "explicacao": "PIB = C + I + G + (X − M) = 600 + 200 + 250 + (100 − 150) = R$ 1.000 bilhões. O erro comum é somar as importações (R$ 1.300 bilhões) em vez de subtraí-las."
+    },
+    {
+      "id": "introducao-economia-24",
+      "topico": "macroeconomia-indicadores",
+      "nivel": "aplicacao",
+      "pergunta": "Uma cidade tem 200 mil pessoas em idade de trabalhar: 90 mil ocupadas, 10 mil desocupadas (procurando emprego) e 100 mil fora da força de trabalho. Qual é a taxa de desocupação?",
+      "opcoes": [
+        "5%",
+        "11,1%",
+        "50%",
+        "10%"
+      ],
+      "correta": 3,
+      "explicacao": "A taxa é desocupados / força de trabalho = 10 / (90 + 10) = 10%. Dividir pela população em idade de trabalhar (5%) ou só pelos ocupados (11,1%) são os erros mais frequentes."
+    },
+    {
+      "id": "introducao-economia-25",
+      "topico": "macroeconomia-indicadores",
+      "nivel": "analise",
+      "pergunta": "Durante uma crise, muitos desempregados desistem de procurar trabalho, sem que nenhum novo emprego seja criado. O que tende a acontecer com a taxa de desocupação?",
+      "opcoes": [
+        "Ela cai, porque essas pessoas saem da força de trabalho, embora o mercado de trabalho não tenha melhorado",
+        "Ela sobe, porque essas pessoas continuam sem trabalho",
+        "Ela não muda, porque o número de ocupados ficou igual",
+        "Ela sobe, porque a força de trabalho aumenta"
+      ],
+      "correta": 0,
+      "explicacao": "Os desalentados deixam de contar como desocupados e saem do numerador e do denominador, o que reduz a taxa. Interpretar essa queda como melhora do mercado é o erro típico, por isso se analisam também a ocupação e o desalento."
+    },
+    {
+      "id": "introducao-economia-26",
+      "topico": "politicas-economicas",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, quem define a meta da taxa Selic?",
+      "opcoes": [
+        "O Conselho Monetário Nacional",
+        "O Ministério da Fazenda",
+        "O Copom, comitê do Banco Central",
+        "O Congresso Nacional"
+      ],
+      "correta": 2,
+      "explicacao": "O Copom, formado pela diretoria do Banco Central, se reúne periodicamente para fixar a meta da Selic. O CMN define a meta de inflação, e não a taxa de juros, uma confusão comum em provas."
+    },
+    {
+      "id": "introducao-economia-27",
+      "topico": "politicas-economicas",
+      "nivel": "aplicacao",
+      "pergunta": "A inflação está bem acima da meta e a economia está aquecida. Qual medida de política monetária é a mais coerente?",
+      "opcoes": [
+        "Reduzir a taxa Selic",
+        "Elevar a taxa Selic",
+        "Reduzir o depósito compulsório dos bancos",
+        "Aumentar os gastos do governo"
+      ],
+      "correta": 1,
+      "explicacao": "Juros mais altos encarecem o crédito, reduzem a demanda e ajudam a trazer a inflação de volta à meta. Aumentar gastos do governo é política fiscal, e expansionista, o que pioraria a inflação."
+    },
+    {
+      "id": "introducao-economia-28",
+      "topico": "politicas-economicas",
+      "nivel": "aplicacao",
+      "pergunta": "Em plena recessão, o governo reduz impostos sobre o consumo e amplia investimentos em obras públicas. Essa é uma política:",
+      "opcoes": [
+        "Fiscal contracionista",
+        "Monetária expansionista",
+        "Monetária contracionista",
+        "Fiscal expansionista"
+      ],
+      "correta": 3,
+      "explicacao": "Mexer em tributos e gastos públicos é política fiscal, e as duas medidas estimulam a demanda agregada. O erro comum é chamar de monetária qualquer medida de estímulo, mas a monetária atua por juros e crédito."
+    },
+    {
+      "id": "introducao-economia-29",
+      "topico": "politicas-economicas",
+      "nivel": "aplicacao",
+      "pergunta": "Em um ano, o governo teve receitas de R$ 1.800 bilhões, despesas primárias (sem juros) de R$ 1.900 bilhões e pagou R$ 300 bilhões de juros da dívida. Quais foram os resultados primário e nominal?",
+      "opcoes": [
+        "Déficit primário de R$ 100 bilhões e déficit nominal de R$ 400 bilhões",
+        "Superávit primário de R$ 200 bilhões e déficit nominal de R$ 100 bilhões",
+        "Déficit primário de R$ 400 bilhões e déficit nominal de R$ 100 bilhões",
+        "Déficit primário de R$ 100 bilhões e déficit nominal de R$ 100 bilhões"
+      ],
+      "correta": 0,
+      "explicacao": "Primário = 1.800 − 1.900 = −100, e nominal = −100 − 300 = −400 bilhões. O erro mais comum é incluir os juros no resultado primário, que por definição os exclui."
+    },
+    {
+      "id": "introducao-economia-30",
+      "topico": "politicas-economicas",
+      "nivel": "analise",
+      "pergunta": "O governo amplia fortemente seus gastos enquanto o Banco Central eleva a Selic para combater a inflação. Qual é a consequência mais provável dessa combinação?",
+      "opcoes": [
+        "As duas políticas se reforçam e reduzem a inflação mais rápido",
+        "A alta da Selic reduz automaticamente os gastos do governo",
+        "Os efeitos sobre a demanda agregada se contrapõem, e os juros maiores ainda elevam o custo da dívida pública",
+        "Os gastos maiores fazem a Selic cair sem decisão do Copom"
+      ],
+      "correta": 2,
+      "explicacao": "A política fiscal expansionista estimula a demanda enquanto a monetária contracionista a freia, e o BC pode precisar de juros ainda mais altos, o que aumenta a conta de juros da dívida. Achar que as políticas se somam ignora que elas apontam em direções opostas."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "anatomia-humana",
+  "nome": "Anatomia Humana",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "planos-termos",
+      "nome": "Planos e termos anatômicos",
+      "resumo": "## Posição anatômica\n\nToda descrição anatômica parte da **posição anatômica**: corpo **ereto**, cabeça e olhar voltados para a frente, **membros superiores ao lado do corpo com as palmas voltadas para a frente** e membros inferiores juntos, com os pés apontados para a frente. Mesmo que o paciente esteja deitado, os termos se referem a essa posição.\n\n## Planos de secção\n\n- **Plano sagital**: vertical, divide o corpo em partes **direita e esquerda**. O **plano mediano** é o sagital que passa exatamente no meio.\n- **Plano frontal (coronal)**: vertical, divide o corpo em partes **anterior e posterior**.\n- **Plano transversal (horizontal ou axial)**: divide o corpo em partes **superior e inferior**; é o plano típico dos cortes de tomografia.\n\n## Termos de relação\n\n- **Superior (cranial)** e **inferior (caudal)**.\n- **Anterior (ventral)** e **posterior (dorsal)**.\n- **Medial**: mais próximo do plano mediano; **lateral**: mais afastado dele.\n- **Proximal** e **distal**: usados nos membros, indicam proximidade ou afastamento em relação à **raiz do membro** (ombro ou quadril).\n- **Superficial** e **profundo**: em relação à superfície do corpo.\n- **Ipsilateral** (mesmo lado) e **contralateral** (lado oposto).\n\n## Termos de movimento\n\n- **Flexão** diminui o ângulo da articulação; **extensão** aumenta.\n- **Abdução** afasta do plano mediano; **adução** aproxima.\n- **Rotação medial e lateral**, **pronação** (palma para trás) e **supinação** (palma para a frente).",
+      "revisao": "**Pontos-chave**\n- Posição anatômica: ereto, olhar à frente, palmas voltadas para a frente.\n- Sagital: direita/esquerda; frontal: anterior/posterior; transversal: superior/inferior.\n- Proximal/distal só para membros, em relação à raiz do membro.\n\n**Erros comuns**\n- Descrever estruturas pela posição real do paciente, e não pela anatômica.\n- Achar que o polegar é medial: na posição anatômica ele é **lateral**.\n\n**Mini exemplo**\nO joelho é proximal ao tornozelo e distal ao quadril; o nariz é medial aos olhos."
+    },
+    {
+      "id": "esqueletico-articulacoes",
+      "nome": "Sistema esquelético e articulações",
+      "resumo": "## Funções do esqueleto\n\nO esqueleto **sustenta** o corpo, **protege** órgãos (crânio, caixa torácica), serve de alavanca para os **músculos**, armazena **cálcio e fósforo** e abriga a **medula óssea vermelha**, onde ocorre a **hematopoese**. O esqueleto adulto tem cerca de **206 ossos**, divididos em **axial** (crânio, coluna, costelas, esterno) e **apendicular** (membros e cinturas).\n\n## Classificação dos ossos pela forma\n\n- **Longos**: comprimento maior que largura e espessura (fêmur, úmero).\n- **Curtos**: dimensões semelhantes (ossos do carpo).\n- **Planos**: finos e achatados (escápula, ossos do crânio).\n- **Irregulares**: forma complexa (vértebras).\n- **Sesamoides**: desenvolvem-se dentro de tendões (patela).\n\n## Células ósseas\n\n- **Osteoblastos**: produzem a matriz óssea.\n- **Osteócitos**: osteoblastos maduros presos na matriz, mantêm o tecido.\n- **Osteoclastos**: **reabsorvem** a matriz, participando da remodelação.\n\n## Articulações\n\n- **Fibrosas**: unidas por tecido conjuntivo denso, quase imóveis (ex.: **suturas do crânio**).\n- **Cartilagíneas**: unidas por cartilagem, pouco móveis (ex.: **sínfise púbica**, discos intervertebrais).\n- **Sinoviais**: têm **cavidade articular**, **cápsula**, **membrana sinovial**, **líquido sinovial** e **cartilagem articular**; são as mais móveis.\n\n### Tipos de articulação sinovial\n\n- **Gínglimo** (dobradiça, uniaxial): articulação umeroulnar do cotovelo.\n- **Esferóidea** (multiaxial): ombro e quadril.\n- **Trocóidea** (pivô): radioulnar proximal.\n- **Selar**: carpometacarpal do polegar.\n- **Plana**: entre ossos do carpo.",
+      "revisao": "**Pontos-chave**\n- Esqueleto axial x apendicular; cerca de 206 ossos no adulto.\n- Osteoblasto forma, osteócito mantém, osteoclasto reabsorve.\n- Articulações fibrosas, cartilagíneas e sinoviais (as mais móveis).\n\n**Erros comuns**\n- Classificar osso pelo tamanho, e não pela proporção: um osso pequeno da mão (falange) é longo.\n- Trocar osteoblasto com osteoclasto.\n\n**Mini exemplo**\nO ombro é sinovial esferóidea e permite flexão, extensão, abdução, adução e rotações; a umeroulnar só permite flexão e extensão."
+    },
+    {
+      "id": "sistema-muscular",
+      "nome": "Sistema muscular",
+      "resumo": "## Tipos de tecido muscular\n\n- **Estriado esquelético**: contração **voluntária**, fibras longas e **multinucleadas**, com núcleos periféricos. Forma os músculos ligados aos ossos.\n- **Estriado cardíaco**: contração **involuntária**, células ramificadas com um ou dois núcleos centrais, unidas por **discos intercalares**.\n- **Liso**: contração **involuntária** e lenta, células fusiformes sem estrias; presente na parede de vísceras e vasos.\n\n## Organização do músculo esquelético\n\nO músculo é envolvido pelo **epimísio**; os **fascículos**, pelo **perimísio**; cada **fibra muscular**, pelo **endomísio**. Dentro da fibra estão as **miofibrilas**, formadas por unidades repetidas chamadas **sarcômeros**, delimitadas por **linhas Z**.\n\n## Mecanismo de contração\n\n- O impulso nervoso chega pela **junção neuromuscular**, onde é liberada **acetilcolina**.\n- O potencial de ação se propaga e o **retículo sarcoplasmático** libera **íons cálcio**.\n- O cálcio liga-se à **troponina**, que desloca a **tropomiosina** e expõe os sítios da **actina**.\n- As cabeças de **miosina** se ligam à actina e puxam os filamentos, usando **ATP**.\n\nPela **teoria do filamento deslizante**, os filamentos **não encurtam**: a actina desliza sobre a miosina, o **sarcômero encurta**, a **banda I** e a **zona H** diminuem e a **banda A** mantém seu comprimento.\n\n## Ação muscular\n\n- **Agonista**: principal responsável por um movimento.\n- **Antagonista**: realiza o movimento oposto e relaxa de forma controlada.\n- **Sinergista**: auxilia o agonista.\n\nExemplo: na flexão do cotovelo, o **bíceps braquial** atua como agonista e o **tríceps braquial** como antagonista.",
+      "revisao": "**Pontos-chave**\n- Esquelético: voluntário, estriado; cardíaco: involuntário, estriado, discos intercalares; liso: involuntário, sem estrias.\n- Sarcômero é a unidade contrátil; o cálcio libera os sítios da actina.\n- Filamentos deslizam, não encurtam.\n\n**Erros comuns**\n- Dizer que a banda A encurta na contração.\n- Achar que o antagonista contrai junto com o agonista no mesmo movimento.\n\n**Mini exemplo**\nNa extensão do cotovelo (empurrar uma porta), o tríceps braquial é agonista e o bíceps braquial, antagonista."
+    },
+    {
+      "id": "cardiovascular",
+      "nome": "Sistema cardiovascular",
+      "resumo": "## Coração\n\nO coração fica no **mediastino**, envolvido pelo **pericárdio**. Sua parede tem **endocárdio**, **miocárdio** e **epicárdio**. Possui quatro câmaras: **átrios direito e esquerdo**, que recebem sangue, e **ventrículos direito e esquerdo**, que bombeiam sangue.\n\n### Valvas\n\n- **Tricúspide**: entre átrio direito e ventrículo direito.\n- **Mitral (bicúspide)**: entre átrio esquerdo e ventrículo esquerdo.\n- **Pulmonar**: na saída do ventrículo direito para o tronco pulmonar.\n- **Aórtica**: na saída do ventrículo esquerdo para a aorta.\n\n## Circulações\n\n- **Pulmonar (pequena circulação)**: ventrículo direito → tronco e artérias pulmonares → pulmões → **veias pulmonares** → átrio esquerdo. As artérias pulmonares levam **sangue pobre em O2**; as veias pulmonares trazem **sangue oxigenado**.\n- **Sistêmica (grande circulação)**: ventrículo esquerdo → **aorta** → tecidos → **veias cavas** → átrio direito.\n\nO **ventrículo esquerdo** tem parede bem mais **espessa** porque precisa gerar pressão maior para vencer a resistência da circulação sistêmica.\n\n## Vasos sanguíneos\n\n- **Artérias**: levam sangue **a partir do coração**; paredes espessas e elásticas.\n- **Veias**: levam sangue **ao coração**; paredes mais finas e, nos membros, **válvulas** que impedem o refluxo.\n- **Capilares**: parede de uma camada de células, local das **trocas** com os tecidos.\n\n## Condução elétrica\n\nO **nó sinoatrial** é o marca-passo natural. O impulso segue para o **nó atrioventricular**, o **feixe atrioventricular (de His)** e as **fibras de Purkinje**, coordenando a contração.",
+      "revisao": "**Pontos-chave**\n- Artéria sai do coração; veia chega ao coração, independentemente do teor de O2.\n- Lado direito: sangue pobre em O2, para os pulmões; lado esquerdo: sangue oxigenado, para o corpo.\n- Nó sinoatrial é o marca-passo.\n\n**Erros comuns**\n- Dizer que toda artéria leva sangue oxigenado: as artérias pulmonares levam sangue pobre em O2.\n- Trocar a posição das valvas tricúspide e mitral.\n\n**Mini exemplo**\nVeia cava → átrio direito → tricúspide → ventrículo direito → valva pulmonar → tronco pulmonar."
+    },
+    {
+      "id": "respiratorio",
+      "nome": "Sistema respiratório",
+      "resumo": "## Divisão\n\n- **Porção condutora**: **cavidade nasal**, **faringe**, **laringe**, **traqueia**, **brônquios** e **bronquíolos**. Conduz, filtra, aquece e umedece o ar.\n- **Porção respiratória**: **bronquíolos respiratórios**, ductos e **alvéolos**, onde ocorrem as **trocas gasosas** com os capilares por **difusão**.\n\n## Estruturas importantes\n\n- **Faringe**: via comum ao ar e ao alimento.\n- **Laringe**: contém as **pregas vocais** (fonação). A **epiglote** fecha a entrada da laringe durante a deglutição, impedindo a passagem de alimento para as vias aéreas.\n- **Traqueia**: sustentada por **anéis cartilagíneos em forma de C**, abertos posteriormente, junto ao esôfago.\n- **Brônquios principais**: o **direito** é mais **curto, largo e vertical** que o esquerdo, por isso corpos estranhos aspirados tendem a ir para ele.\n\n## Pulmões e pleura\n\n- **Pulmão direito**: **3 lobos** (superior, médio e inferior), separados pelas fissuras oblíqua e horizontal.\n- **Pulmão esquerdo**: **2 lobos** (superior e inferior), com a **incisura cardíaca**, que acomoda o coração.\n- A **pleura** tem folheto **visceral** (sobre o pulmão) e **parietal** (na parede torácica); entre eles está a **cavidade pleural**, com pequena quantidade de líquido.\n\n## Mecânica da ventilação\n\n- **Inspiração** (ativa): o **diafragma contrai e desce** e os **intercostais externos** elevam as costelas; o volume torácico aumenta, a pressão intrapulmonar cai abaixo da atmosférica e o ar entra.\n- **Expiração** em repouso (passiva): os músculos relaxam, o diafragma sobe, o volume diminui e o ar sai.",
+      "revisao": "**Pontos-chave**\n- Trocas gasosas ocorrem nos alvéolos, por difusão.\n- Pulmão direito: 3 lobos; esquerdo: 2 lobos e incisura cardíaca.\n- Inspiração: diafragma contrai e desce; volume aumenta, pressão cai.\n\n**Erros comuns**\n- Achar que o diafragma sobe na inspiração.\n- Pensar que há trocas gasosas na traqueia ou nos brônquios.\n\n**Mini exemplo**\nUma criança que aspira um grão de feijão tem mais chance de alojá-lo no brônquio principal direito."
+    },
+    {
+      "id": "nervoso",
+      "nome": "Sistema nervoso",
+      "resumo": "## Divisão anatômica\n\n- **Sistema nervoso central (SNC)**: **encéfalo** (cérebro, cerebelo e tronco encefálico) e **medula espinal**, protegidos por ossos, **meninges** (dura-máter, aracnoide e pia-máter) e **líquido cerebrospinal**.\n- **Sistema nervoso periférico (SNP)**: **nervos** (12 pares cranianos e 31 pares espinais) e **gânglios**.\n\n## Neurônio\n\nFormado por **corpo celular**, **dendritos** (recebem estímulos) e **axônio** (conduz o impulso). A **bainha de mielina** acelera a condução. A comunicação entre neurônios ocorre nas **sinapses**, com **neurotransmissores**.\n\n## Substância cinzenta e branca\n\n- **Cinzenta**: rica em corpos de neurônios. No cérebro e no cerebelo forma o **córtex**, na superfície; na medula espinal fica **no centro**, em forma de **H**.\n- **Branca**: rica em axônios mielinizados; na medula, fica na periferia.\n\n## Lobos cerebrais\n\n- **Frontal**: planejamento, comportamento e **motricidade voluntária** (giro pré-central).\n- **Parietal**: **sensibilidade somática** (giro pós-central).\n- **Temporal**: **audição** e memória.\n- **Occipital**: **visão**.\n\nO **cerebelo** coordena movimentos e equilíbrio; o **tronco encefálico** controla funções vitais como respiração e ritmo cardíaco.\n\n## Sistema nervoso autônomo\n\n- **Simpático**: luta ou fuga; **aumenta a frequência cardíaca**, causa **midríase**, dilata brônquios e reduz a atividade digestiva.\n- **Parassimpático**: repouso e digestão; reduz a frequência cardíaca, causa **miose** e estimula a digestão.\n\n## Arco reflexo\n\nReceptor → **neurônio sensitivo** → medula espinal → **neurônio motor** → efetor. No reflexo patelar, a resposta ocorre sem depender do córtex.",
+      "revisao": "**Pontos-chave**\n- SNC: encéfalo e medula; SNP: nervos e gânglios.\n- Lobos: frontal (motricidade), parietal (sensibilidade), temporal (audição), occipital (visão).\n- Simpático acelera; parassimpático favorece repouso e digestão.\n\n**Erros comuns**\n- Incluir nervos no SNC.\n- Achar que a substância cinzenta é sempre externa: na medula ela é central.\n\n**Mini exemplo**\nUm susto aumenta a frequência cardíaca e dilata as pupilas por ação do simpático; após o almoço, o parassimpático predomina."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "anatomia-humana-1",
+      "topico": "planos-termos",
+      "nivel": "conceitual",
+      "pergunta": "Qual descrição corresponde à posição anatômica?",
+      "opcoes": [
+        "Corpo ereto, olhar para a frente, membros superiores ao lado do corpo com as palmas voltadas para a frente",
+        "Corpo ereto, olhar para a frente, palmas das mãos voltadas para trás",
+        "Corpo deitado de costas, com os braços estendidos acima da cabeça",
+        "Corpo sentado, com a coluna reta e as mãos apoiadas nas coxas"
+      ],
+      "correta": 0,
+      "explicacao": "A posição anatômica padroniza a descrição: corpo ereto, cabeça e olhar à frente e palmas voltadas anteriormente. O erro comum é imaginar as palmas voltadas para o corpo ou para trás, o que muda a referência de medial e lateral no antebraço."
+    },
+    {
+      "id": "anatomia-humana-2",
+      "topico": "planos-termos",
+      "nivel": "conceitual",
+      "pergunta": "Qual plano divide o corpo em partes direita e esquerda?",
+      "opcoes": [
+        "Plano frontal (coronal)",
+        "Plano sagital",
+        "Plano transversal",
+        "Plano horizontal"
+      ],
+      "correta": 1,
+      "explicacao": "O plano sagital é vertical e separa lados direito e esquerdo; quando passa exatamente na linha média, é chamado mediano. Confunde-se com o frontal, que separa partes anterior e posterior."
+    },
+    {
+      "id": "anatomia-humana-3",
+      "topico": "planos-termos",
+      "nivel": "aplicacao",
+      "pergunta": "Ao descrever o membro superior, qual termo completa corretamente a frase: o cotovelo é ______ em relação ao punho?",
+      "opcoes": [
+        "Distal",
+        "Medial",
+        "Proximal",
+        "Lateral"
+      ],
+      "correta": 2,
+      "explicacao": "Proximal indica maior proximidade da raiz do membro (o ombro), e o cotovelo está mais perto do ombro que o punho. O erro comum é inverter proximal e distal ou usar medial e lateral, que se referem ao plano mediano."
+    },
+    {
+      "id": "anatomia-humana-4",
+      "topico": "planos-termos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma tomografia apresenta cortes que dividem o abdome em partes superior e inferior, como fatias empilhadas. Qual é o plano desses cortes?",
+      "opcoes": [
+        "Sagital",
+        "Frontal",
+        "Mediano",
+        "Transversal (axial)"
+      ],
+      "correta": 3,
+      "explicacao": "O plano transversal, também chamado horizontal ou axial, separa partes superior e inferior e é o padrão das imagens de tomografia. O erro comum é escolher o frontal, que é vertical e separa anterior de posterior."
+    },
+    {
+      "id": "anatomia-humana-5",
+      "topico": "planos-termos",
+      "nivel": "analise",
+      "pergunta": "Considerando a posição anatômica, qual afirmação sobre o polegar e o dedo mínimo da mesma mão está correta?",
+      "opcoes": [
+        "O polegar é lateral em relação ao dedo mínimo",
+        "O polegar é medial em relação ao dedo mínimo",
+        "O polegar é posterior em relação ao dedo mínimo",
+        "Ambos estão sobre o plano mediano do corpo"
+      ],
+      "correta": 0,
+      "explicacao": "Com as palmas voltadas para a frente, o polegar fica do lado afastado do plano mediano, portanto é lateral. O erro mais comum é pensar com a mão em pronação ou em posição de descanso, o que leva a dizer que o polegar é medial."
+    },
+    {
+      "id": "anatomia-humana-6",
+      "topico": "esqueletico-articulacoes",
+      "nivel": "conceitual",
+      "pergunta": "Como o fêmur é classificado quanto à forma?",
+      "opcoes": [
+        "Osso curto",
+        "Osso longo",
+        "Osso plano",
+        "Osso sesamoide"
+      ],
+      "correta": 1,
+      "explicacao": "O fêmur tem comprimento muito maior que largura e espessura, com diáfise e epífises, o que o define como osso longo. A patela, que fica próxima ao fêmur, é o exemplo clássico de sesamoide, e isso costuma confundir."
+    },
+    {
+      "id": "anatomia-humana-7",
+      "topico": "esqueletico-articulacoes",
+      "nivel": "conceitual",
+      "pergunta": "Quais células são responsáveis pela reabsorção da matriz óssea?",
+      "opcoes": [
+        "Osteoblastos",
+        "Osteócitos",
+        "Osteoclastos",
+        "Condrócitos"
+      ],
+      "correta": 2,
+      "explicacao": "Os osteoclastos são células multinucleadas que degradam a matriz, participando da remodelação óssea. O erro comum é trocar com os osteoblastos, que fazem o contrário e produzem a matriz."
+    },
+    {
+      "id": "anatomia-humana-8",
+      "topico": "esqueletico-articulacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente com inflamação do joelho apresenta aumento do líquido articular. Esse líquido indica que o joelho é uma articulação do tipo:",
+      "opcoes": [
+        "Fibrosa do tipo sutura",
+        "Cartilagínea do tipo sínfise",
+        "Fibrosa do tipo sindesmose",
+        "Sinovial"
+      ],
+      "correta": 3,
+      "explicacao": "Somente as articulações sinoviais têm cavidade articular com membrana e líquido sinovial, como o joelho. O erro comum é achar que toda articulação tem líquido, mas fibrosas e cartilagíneas não possuem cavidade."
+    },
+    {
+      "id": "anatomia-humana-9",
+      "topico": "esqueletico-articulacoes",
+      "nivel": "aplicacao",
+      "pergunta": "No crânio de um adulto, os ossos parietais estão unidos por suturas. Como se classificam essas articulações?",
+      "opcoes": [
+        "Fibrosas, praticamente imóveis",
+        "Sinoviais, com cavidade articular",
+        "Cartilagíneas, com disco de fibrocartilagem",
+        "Sinoviais do tipo esferóidea"
+      ],
+      "correta": 0,
+      "explicacao": "As suturas unem os ossos do crânio por tecido conjuntivo fibroso e quase não permitem movimento no adulto. Um erro frequente é classificá-las como cartilagíneas, que são exemplificadas pela sínfise púbica e pelos discos intervertebrais."
+    },
+    {
+      "id": "anatomia-humana-10",
+      "topico": "esqueletico-articulacoes",
+      "nivel": "analise",
+      "pergunta": "Comparando a articulação do ombro (glenoumeral) com a umeroulnar do cotovelo, qual afirmação é correta?",
+      "opcoes": [
+        "A umeroulnar é multiaxial e mais móvel que o ombro",
+        "O ombro é esferóideo e multiaxial, enquanto a umeroulnar é um gínglimo, essencialmente uniaxial",
+        "Ambas são gínglimos e só permitem flexão e extensão",
+        "O ombro é uma articulação fibrosa, por isso tem grande estabilidade"
+      ],
+      "correta": 1,
+      "explicacao": "A cabeça do úmero na cavidade glenoidal forma uma articulação esferóidea, com movimentos em vários eixos, enquanto a umeroulnar funciona como dobradiça. O erro comum é supor que articulações grandes são necessariamente as mais estáveis, quando o ombro troca estabilidade por mobilidade."
+    },
+    {
+      "id": "anatomia-humana-11",
+      "topico": "sistema-muscular",
+      "nivel": "conceitual",
+      "pergunta": "Qual tipo de tecido muscular é estriado, de contração involuntária e tem células unidas por discos intercalares?",
+      "opcoes": [
+        "Estriado esquelético",
+        "Liso visceral",
+        "Estriado cardíaco",
+        "Liso vascular"
+      ],
+      "correta": 2,
+      "explicacao": "O músculo cardíaco combina estrias com contração involuntária, e os discos intercalares permitem a propagação rápida do estímulo entre as células. O erro comum é associar estrias sempre a controle voluntário, o que vale só para o esquelético."
+    },
+    {
+      "id": "anatomia-humana-12",
+      "topico": "sistema-muscular",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a unidade contrátil da fibra muscular estriada, delimitada por duas linhas Z?",
+      "opcoes": [
+        "Miofibrila",
+        "Fascículo",
+        "Endomísio",
+        "Sarcômero"
+      ],
+      "correta": 3,
+      "explicacao": "O sarcômero, entre duas linhas Z, é a menor unidade capaz de contração e se repete ao longo da miofibrila. Muitos marcam miofibrila, mas ela é a cadeia formada por vários sarcômeros."
+    },
+    {
+      "id": "anatomia-humana-13",
+      "topico": "sistema-muscular",
+      "nivel": "aplicacao",
+      "pergunta": "Durante a rosca bíceps, a pessoa flexiona o cotovelo levantando um halter. Qual combinação de papéis musculares está correta?",
+      "opcoes": [
+        "Bíceps braquial como agonista e tríceps braquial como antagonista",
+        "Tríceps braquial como agonista e bíceps braquial como antagonista",
+        "Deltoide como agonista e bíceps braquial como antagonista",
+        "Bíceps e tríceps braquiais contraindo juntos como agonistas"
+      ],
+      "correta": 0,
+      "explicacao": "Na flexão do cotovelo, o bíceps braquial é um dos agonistas principais e o tríceps, extensor do cotovelo, atua como antagonista. O erro comum é inverter os papéis ou citar o deltoide, que move o ombro e não o cotovelo."
+    },
+    {
+      "id": "anatomia-humana-14",
+      "topico": "sistema-muscular",
+      "nivel": "aplicacao",
+      "pergunta": "Uma droga impede a liberação de íons do retículo sarcoplasmático e a fibra muscular deixa de contrair. Qual íon está sendo bloqueado?",
+      "opcoes": [
+        "Sódio",
+        "Cálcio",
+        "Potássio",
+        "Cloreto"
+      ],
+      "correta": 1,
+      "explicacao": "O cálcio liberado pelo retículo sarcoplasmático liga-se à troponina, desloca a tropomiosina e expõe os sítios da actina para a miosina. O sódio é frequentemente marcado porque participa do potencial de ação, mas não é ele que o retículo armazena e libera."
+    },
+    {
+      "id": "anatomia-humana-15",
+      "topico": "sistema-muscular",
+      "nivel": "analise",
+      "pergunta": "Segundo a teoria do filamento deslizante, o que se observa no sarcômero durante a contração?",
+      "opcoes": [
+        "Os filamentos de actina e de miosina encurtam",
+        "A banda A encurta e a banda I permanece igual",
+        "O sarcômero encurta, a banda I e a zona H diminuem e a banda A mantém o comprimento",
+        "Os filamentos de miosina se desfazem e se reorganizam"
+      ],
+      "correta": 2,
+      "explicacao": "A actina desliza sobre a miosina, aproximando as linhas Z, de modo que diminuem as regiões sem sobreposição (banda I e zona H) e a banda A, que corresponde à miosina, não muda. O erro mais comum é afirmar que os próprios filamentos encurtam."
+    },
+    {
+      "id": "anatomia-humana-16",
+      "topico": "cardiovascular",
+      "nivel": "conceitual",
+      "pergunta": "Qual câmara cardíaca bombeia sangue para a aorta?",
+      "opcoes": [
+        "Átrio direito",
+        "Ventrículo direito",
+        "Átrio esquerdo",
+        "Ventrículo esquerdo"
+      ],
+      "correta": 3,
+      "explicacao": "O ventrículo esquerdo ejeta sangue oxigenado na aorta, iniciando a circulação sistêmica. O erro comum é escolher o ventrículo direito, que bombeia para o tronco pulmonar."
+    },
+    {
+      "id": "anatomia-humana-17",
+      "topico": "cardiovascular",
+      "nivel": "aplicacao",
+      "pergunta": "Um contraste é injetado numa veia do braço e chega à veia cava superior. Qual é o trajeto seguinte até sair do coração?",
+      "opcoes": [
+        "Átrio direito, valva tricúspide, ventrículo direito, valva pulmonar e tronco pulmonar",
+        "Átrio esquerdo, valva mitral, ventrículo esquerdo e aorta",
+        "Ventrículo direito, valva aórtica e aorta",
+        "Átrio direito, valva mitral, ventrículo esquerdo e aorta"
+      ],
+      "correta": 0,
+      "explicacao": "As veias cavas desembocam no átrio direito, e o sangue passa pela tricúspide ao ventrículo direito, que o envia pelo tronco pulmonar aos pulmões. O erro comum é colocar a valva mitral no lado direito, quando ela fica entre átrio e ventrículo esquerdos."
+    },
+    {
+      "id": "anatomia-humana-18",
+      "topico": "cardiovascular",
+      "nivel": "aplicacao",
+      "pergunta": "Que tipo de sangue as veias pulmonares transportam e para onde?",
+      "opcoes": [
+        "Sangue pobre em O2, do coração para os pulmões",
+        "Sangue oxigenado, dos pulmões para o átrio esquerdo",
+        "Sangue pobre em O2, dos pulmões para o átrio direito",
+        "Sangue oxigenado, do ventrículo direito para os pulmões"
+      ],
+      "correta": 1,
+      "explicacao": "Veias levam sangue ao coração; as pulmonares trazem sangue recém-oxigenado dos pulmões para o átrio esquerdo. O erro clássico é achar que veia sempre carrega sangue pobre em oxigênio, quando a definição depende do sentido do fluxo."
+    },
+    {
+      "id": "anatomia-humana-19",
+      "topico": "cardiovascular",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente tem estenose (estreitamento) da valva mitral. A passagem de sangue fica dificultada entre quais estruturas?",
+      "opcoes": [
+        "Átrio direito e ventrículo direito",
+        "Ventrículo direito e tronco pulmonar",
+        "Átrio esquerdo e ventrículo esquerdo",
+        "Ventrículo esquerdo e aorta"
+      ],
+      "correta": 2,
+      "explicacao": "A valva mitral, ou bicúspide, separa o átrio esquerdo do ventrículo esquerdo, então seu estreitamento dificulta o enchimento do ventrículo esquerdo. É comum confundi-la com a valva aórtica, que fica na saída do ventrículo esquerdo."
+    },
+    {
+      "id": "anatomia-humana-20",
+      "topico": "cardiovascular",
+      "nivel": "analise",
+      "pergunta": "Por que a parede do ventrículo esquerdo é mais espessa que a do ventrículo direito?",
+      "opcoes": [
+        "Porque recebe maior volume de sangue venoso do corpo",
+        "Porque abriga as maiores valvas cardíacas",
+        "Porque bombeia o sangue diretamente para os pulmões",
+        "Porque precisa gerar pressão maior para impulsionar o sangue pela circulação sistêmica"
+      ],
+      "correta": 3,
+      "explicacao": "A circulação sistêmica oferece resistência muito maior que a pulmonar, e o miocárdio do ventrículo esquerdo é mais desenvolvido para gerar essa pressão. O erro comum é atribuir a diferença ao volume, mas os dois ventrículos ejetam volumes praticamente iguais a cada batimento."
+    },
+    {
+      "id": "anatomia-humana-21",
+      "topico": "respiratorio",
+      "nivel": "conceitual",
+      "pergunta": "Onde ocorrem as trocas gasosas entre o ar e o sangue?",
+      "opcoes": [
+        "Nos alvéolos pulmonares",
+        "Nos brônquios principais",
+        "Na traqueia",
+        "Na laringe"
+      ],
+      "correta": 0,
+      "explicacao": "Os alvéolos têm parede muito fina e estão envolvidos por capilares, permitindo a difusão de O2 e CO2. O erro comum é incluir brônquios e traqueia, que pertencem à porção condutora."
+    },
+    {
+      "id": "anatomia-humana-22",
+      "topico": "respiratorio",
+      "nivel": "aplicacao",
+      "pergunta": "Ao inspirar profundamente, o que acontece com o diafragma e com a pressão dentro dos pulmões?",
+      "opcoes": [
+        "O diafragma relaxa e sobe, e a pressão intrapulmonar aumenta",
+        "O diafragma contrai e desce, o volume torácico aumenta e a pressão intrapulmonar diminui",
+        "O diafragma contrai e sobe, reduzindo o volume torácico",
+        "O diafragma relaxa e desce, e a pressão intrapulmonar não se altera"
+      ],
+      "correta": 1,
+      "explicacao": "Na inspiração, a contração do diafragma o achata e o abaixa, aumentando o volume do tórax e reduzindo a pressão, o que faz o ar entrar. O erro comum é achar que o diafragma sobe ao inspirar, o que ocorre na expiração."
+    },
+    {
+      "id": "anatomia-humana-23",
+      "topico": "respiratorio",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança aspira uma pequena peça de brinquedo. Para qual brônquio principal ela tende a seguir, e por quê?",
+      "opcoes": [
+        "Esquerdo, por ser mais vertical e largo",
+        "Para ambos com a mesma probabilidade, pois são simétricos",
+        "Direito, por ser mais curto, largo e vertical",
+        "Esquerdo, por estar mais próximo do coração"
+      ],
+      "correta": 2,
+      "explicacao": "O brônquio principal direito é mais curto, mais largo e segue mais alinhado à traqueia, favorecendo a entrada de corpos estranhos. O erro comum é supor que os brônquios são simétricos, quando o esquerdo é mais longo e horizontal por contornar o coração."
+    },
+    {
+      "id": "anatomia-humana-24",
+      "topico": "respiratorio",
+      "nivel": "aplicacao",
+      "pergunta": "Durante a deglutição, qual estrutura fecha a entrada da laringe e impede que o alimento siga para as vias aéreas?",
+      "opcoes": [
+        "Úvula",
+        "Palato duro",
+        "Tonsilas palatinas",
+        "Epiglote"
+      ],
+      "correta": 3,
+      "explicacao": "A epiglote se inclina sobre a entrada da laringe durante a deglutição, desviando o bolo alimentar para o esôfago. Confunde-se com a úvula e o palato mole, que ajudam a fechar a nasofaringe, não a laringe."
+    },
+    {
+      "id": "anatomia-humana-25",
+      "topico": "respiratorio",
+      "nivel": "analise",
+      "pergunta": "Qual afirmação explica corretamente a diferença entre os pulmões direito e esquerdo?",
+      "opcoes": [
+        "O direito tem 3 lobos e o esquerdo 2, em parte porque o coração ocupa espaço à esquerda (incisura cardíaca)",
+        "O esquerdo tem 3 lobos porque é maior que o direito",
+        "Ambos têm 3 lobos, separados pelas fissuras oblíqua e horizontal",
+        "O direito tem 2 lobos porque o fígado ocupa espaço sob ele"
+      ],
+      "correta": 0,
+      "explicacao": "O pulmão esquerdo é menor e tem só dois lobos, com a incisura cardíaca acomodando o coração, enquanto o direito tem lobos superior, médio e inferior. O erro comum é inverter o número de lobos ou atribuir a fissura horizontal ao pulmão esquerdo, que só tem a oblíqua."
+    },
+    {
+      "id": "anatomia-humana-26",
+      "topico": "nervoso",
+      "nivel": "conceitual",
+      "pergunta": "Quais estruturas formam o sistema nervoso central?",
+      "opcoes": [
+        "Nervos e gânglios",
+        "Encéfalo e medula espinal",
+        "Medula espinal e nervos espinais",
+        "Cérebro e nervos cranianos"
+      ],
+      "correta": 1,
+      "explicacao": "O SNC é formado pelo encéfalo e pela medula espinal, protegidos por crânio, coluna e meninges. O erro comum é incluir nervos, que pertencem ao sistema nervoso periférico mesmo quando saem do encéfalo."
+    },
+    {
+      "id": "anatomia-humana-27",
+      "topico": "nervoso",
+      "nivel": "aplicacao",
+      "pergunta": "Após um AVC que lesou o lobo occipital, qual alteração é mais esperada?",
+      "opcoes": [
+        "Perda de audição",
+        "Perda do olfato",
+        "Alterações da visão",
+        "Paralisia dos movimentos voluntários"
+      ],
+      "correta": 2,
+      "explicacao": "O lobo occipital abriga o córtex visual primário, e sua lesão causa déficits no campo visual. Um erro frequente é associar o occipital à audição, função do lobo temporal."
+    },
+    {
+      "id": "anatomia-humana-28",
+      "topico": "nervoso",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa leva um susto ao atravessar a rua. Que efeitos são esperados pela ativação do sistema nervoso simpático?",
+      "opcoes": [
+        "Redução da frequência cardíaca e miose",
+        "Aumento da atividade digestiva e da salivação",
+        "Constrição dos brônquios e redução da frequência cardíaca",
+        "Aumento da frequência cardíaca e dilatação das pupilas (midríase)"
+      ],
+      "correta": 3,
+      "explicacao": "O simpático prepara o corpo para luta ou fuga, acelerando o coração, dilatando pupilas e brônquios e reduzindo a digestão. O erro comum é confundir com o parassimpático, responsável pelos efeitos de repouso e digestão."
+    },
+    {
+      "id": "anatomia-humana-29",
+      "topico": "nervoso",
+      "nivel": "aplicacao",
+      "pergunta": "No teste do reflexo patelar, o médico percute o tendão abaixo da patela e a perna se estende. Qual é o caminho do impulso?",
+      "opcoes": [
+        "Receptor, neurônio sensitivo, medula espinal, neurônio motor e músculo quadríceps",
+        "Receptor, córtex motor, cerebelo e músculo quadríceps",
+        "Neurônio motor, medula espinal, neurônio sensitivo e músculo quadríceps",
+        "Receptor, cerebelo, tronco encefálico e músculo quadríceps"
+      ],
+      "correta": 0,
+      "explicacao": "O reflexo patelar é um arco reflexo medular: o estímulo sobe pelo neurônio sensitivo, faz sinapse na medula e retorna pelo neurônio motor ao quadríceps. O erro comum é incluir o córtex ou o cerebelo, mas a resposta acontece sem depender do encéfalo."
+    },
+    {
+      "id": "anatomia-humana-30",
+      "topico": "nervoso",
+      "nivel": "analise",
+      "pergunta": "Comparando a distribuição da substância cinzenta no cérebro e na medula espinal, é correto afirmar que:",
+      "opcoes": [
+        "Nos dois órgãos, a substância cinzenta é sempre externa",
+        "No cérebro ela forma o córtex, na superfície; na medula espinal ocupa a região central, em forma de H",
+        "Na medula a substância cinzenta é externa e no cérebro ela não existe na superfície",
+        "A medula espinal não possui substância cinzenta, apenas branca"
+      ],
+      "correta": 1,
+      "explicacao": "A disposição se inverte: o córtex cerebral é cinzento e superficial, enquanto na medula a substância cinzenta fica no centro, cercada pela branca. O erro comum é generalizar a organização do cérebro para todo o SNC."
+    }
+  ]
+}

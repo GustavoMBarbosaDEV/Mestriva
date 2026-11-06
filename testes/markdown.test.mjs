@@ -39,3 +39,9 @@ test("campo e chips", () => {
   assert.ok(k.includes("&lt;i&gt;") && !k.includes("<i>"));
   assert.ok(chips({ opcoes: ["A"], valor: "A", acao: "c", nome: "n" }).includes('role="radio"'));
 });
+
+test("bloco de código com cercas preserva linhas e escapa", () => {
+  const h = markdownParaHtml("Veja:\n\n```python\nfor i in range(3):\n    print(i < 2)\n```\n\nFim");
+  assert.ok(h.includes("<pre><code>for i in range(3):\n    print(i &lt; 2)</code></pre>"));
+  assert.ok(h.includes("<p>Veja:</p>") && h.includes("<p>Fim</p>"));
+});

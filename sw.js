@@ -5,7 +5,7 @@ const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self
 const CACHE = "mestriva-" + V;
 // Arquivos guardados na instalação. Todo arquivo de js/ precisa estar aqui (testes/pwa.test.mjs confere).
 const SHELL = [
-  "./", "index.html", "style.css", "boot.css", "pre.js", "firebase-config.js", "manifest.webmanifest",
+  "./", "index.html", "style.css", "boot.css", "pre.js", "firebase-config.js", "manifest.webmanifest", "conteudo/indice.json",
   "js/app.js", "js/versao.js", "js/util.js", "js/icones.js", "js/normaliza.js", "js/loja.js", "js/preferencias.js", "js/rotas.js",
   "js/atualizacao.js", "js/ui/dialogo.js", "js/ui/controles.js", "js/ui/acessibilidade.js", "js/ui/casca.js",
   "js/datas.js", "js/eventos.js", "js/curriculo.js", "js/markdown.js", "js/ui/formulario.js", "js/ui/pagina.js", "js/ui/cabecalho.js", "js/ui/dialogo-evento.js", "js/ui/vazio.js", "js/ui/dialogo-materia.js", "js/ui/pomodoro.js", "js/ui/fala.js", "js/ui/leitor.js", "js/ui/foco.js", "js/ui/sino.js", "js/ui/novidades.js", "js/conteudo.js", "js/gerador.js", "js/banco.js", "js/backup.js",

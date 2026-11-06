@@ -1,0 +1,315 @@
+{
+  "id": "estatistica",
+  "nome": "Estatística",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "descritiva",
+      "nome": "Estatística descritiva",
+      "resumo": "A **estatística descritiva** organiza e resume dados por meio de tabelas, gráficos e medidas numéricas.\n\n### Tipos de variáveis\n- **Qualitativa nominal**: categorias sem ordem (cor dos olhos, curso).\n- **Qualitativa ordinal**: categorias com ordem natural (escolaridade, nível de satisfação).\n- **Quantitativa discreta**: contagens (número de filhos).\n- **Quantitativa contínua**: medidas em escala contínua (altura, tempo).\n\n### Medidas de tendência central\n- **Média** x̄ = Σxᵢ/n: soma dos valores dividida pela quantidade. É sensível a valores extremos (outliers).\n- **Mediana**: valor central dos dados **ordenados**. Com n ímpar, é o termo do meio; com n par, a média dos dois centrais. É **robusta** a outliers.\n- **Moda**: valor mais frequente. Pode não existir ou haver mais de uma. É a única que serve para variáveis nominais.\n\n### Forma da distribuição\n- **Simétrica**: média ≈ mediana ≈ moda.\n- **Assimétrica à direita** (cauda longa para valores altos, como renda): média > mediana.\n- **Assimétrica à esquerda**: média < mediana.\n\n### Separatrizes e gráficos\nOs **quartis** Q1, Q2 (mediana) e Q3 dividem os dados ordenados em quatro partes iguais. O **boxplot** mostra mínimo, Q1, mediana, Q3 e máximo e destaca outliers. **Histogramas** mostram a distribuição de variáveis quantitativas; gráficos de barras e de setores, a de variáveis qualitativas.\n\n### Média ponderada\nQuando os valores têm pesos diferentes: x̄ = Σ(pᵢ·xᵢ)/Σpᵢ. É o caso de notas com pesos ou de tabelas de frequência.",
+      "revisao": "**Lembre:**\n- Ordene os dados antes de achar a mediana.\n- n par: mediana = média dos dois valores centrais.\n- Média é puxada por outliers; mediana não.\n- Assimetria à direita: média > mediana.\n- Nominal: só a moda faz sentido.\n\n**Erros comuns:** calcular a mediana sem ordenar; chamar número de filhos de variável contínua (é discreta).\n\n**Mini exemplo:** dados 3, 1, 8, 2, 6. Ordenados: 1, 2, 3, 6, 8. Mediana = 3. Média = 20/5 = 4. Não há moda, pois nenhum valor se repete."
+    },
+    {
+      "id": "dispersao",
+      "nome": "Medidas de dispersão",
+      "resumo": "Medidas de dispersão dizem **quão espalhados** os dados estão em torno do centro. Dois conjuntos podem ter a mesma média e dispersões muito diferentes.\n\n### Principais medidas\n- **Amplitude**: máximo − mínimo. Simples, mas depende só de dois valores.\n- **Variância populacional**: σ² = Σ(xᵢ − μ)²/N.\n- **Variância amostral**: s² = Σ(xᵢ − x̄)²/(n − 1). O divisor n − 1 corrige a tendência de subestimar a variância da população.\n- **Desvio padrão**: raiz quadrada da variância (σ ou s). Tem a **mesma unidade** dos dados, por isso é mais fácil de interpretar.\n- **Coeficiente de variação**: CV = (s/x̄)·100%. É adimensional e permite comparar a variabilidade de conjuntos com médias ou unidades diferentes.\n- **Amplitude interquartil**: Q3 − Q1, robusta a outliers.\n\n### Roteiro para a variância\n1. Calcule a média.\n2. Subtraia a média de cada valor (desvios).\n3. Eleve cada desvio ao quadrado e some.\n4. Divida por n − 1 (amostra) ou N (população).\n\n### Efeito de transformações\nSe cada dado é transformado em Y = aX + b:\n- média de Y = a·(média de X) + b;\n- desvio padrão de Y = |a|·(desvio padrão de X);\n- variância de Y = a²·(variância de X).\n\nSomar uma constante desloca os dados, mas **não muda a dispersão**. Multiplicar por a multiplica o desvio padrão por |a|.\n\n### Propriedades\nVariância e desvio padrão nunca são negativos e valem zero apenas quando todos os dados são iguais.",
+      "revisao": "**Lembre:**\n- Amostra: divida por n − 1; população: por N.\n- Desvio padrão = √variância, na unidade dos dados.\n- CV = s/x̄ em porcentagem, para comparar variabilidades.\n- Y = aX + b: média vira a·x̄ + b; desvio padrão vira |a|·s.\n\n**Erros comuns:** somar os desvios sem elevar ao quadrado (a soma sempre dá zero); achar que somar uma constante aumenta o desvio padrão.\n\n**Mini exemplo:** amostra 1, 3, 5. Média 3. Desvios ao quadrado: 4, 0, 4, soma 8. s² = 8/2 = 4 e s = 2."
+    },
+    {
+      "id": "probabilidade",
+      "nome": "Probabilidade",
+      "resumo": "A **probabilidade** mede a chance de um evento ocorrer, com valores entre 0 e 1. O **espaço amostral** Ω é o conjunto de todos os resultados possíveis; um **evento** é um subconjunto de Ω.\n\n### Definição clássica\nSe os resultados são igualmente prováveis: P(A) = (casos favoráveis)/(casos possíveis). Ao lançar duas moedas, Ω = {CC, CK, KC, KK} (C = cara, K = coroa) tem 4 resultados, e não 3.\n\n### Regras básicas\n- **Complementar**: P(não A) = 1 − P(A). Útil para eventos do tipo pelo menos um.\n- **União**: P(A ou B) = P(A) + P(B) − P(A e B). A subtração evita contar a interseção duas vezes.\n- **Mutuamente exclusivos**: não ocorrem juntos, P(A e B) = 0, e então P(A ou B) = P(A) + P(B).\n\n### Probabilidade condicional\nP(A | B) = P(A e B)/P(B), com P(B) > 0. É a probabilidade de A sabendo que B ocorreu. Daí vem a **regra do produto**: P(A e B) = P(B)·P(A | B).\n\n### Independência\nA e B são **independentes** quando P(A e B) = P(A)·P(B), ou seja, saber de B não altera a chance de A. Não confunda com mutuamente exclusivos: eventos exclusivos com probabilidades positivas são sempre dependentes.\n\n### Teorema de Bayes\nPermite inverter a condicional:\nP(A | B) = P(B | A)·P(A) / P(B), em que P(B) = P(B | A)·P(A) + P(B | não A)·P(não A) (probabilidade total). Em testes diagnósticos, quando a doença é rara, mesmo um bom teste gera muitos falsos positivos, e P(doença | positivo) pode ser baixa.",
+      "revisao": "**Lembre:**\n- P(não A) = 1 − P(A).\n- P(A ou B) = P(A) + P(B) − P(A e B).\n- P(A | B) = P(A e B)/P(B).\n- Independentes: P(A e B) = P(A)·P(B).\n- Bayes inverte a condicional usando a probabilidade total.\n\n**Erros comuns:** esquecer de subtrair a interseção na união; confundir P(A | B) com P(B | A); achar que exclusivos são independentes.\n\n**Mini exemplo:** três moedas, P(pelo menos uma cara). O complementar é nenhuma cara: (1/2)³ = 1/8. Logo P = 1 − 1/8 = 7/8."
+    },
+    {
+      "id": "binomial-normal",
+      "nome": "Distribuições binomial e normal",
+      "resumo": "Uma **variável aleatória** associa números aos resultados de um experimento. Duas distribuições aparecem em quase todo curso introdutório.\n\n### Distribuição binomial\nModela o número X de sucessos em **n ensaios independentes**, cada um com a mesma probabilidade p de sucesso (ensaios de Bernoulli).\n- P(X = k) = C(n, k)·pᵏ·(1 − p)ⁿ⁻ᵏ, com C(n, k) = n!/[k!(n − k)!].\n- **Média**: E(X) = n·p.\n- **Variância**: Var(X) = n·p·(1 − p).\n\nO fator C(n, k) conta de quantas maneiras os k sucessos podem se distribuir entre os n ensaios. Esquecê-lo é o erro mais comum.\n\n### Distribuição normal\nVariável contínua com curva em forma de sino, definida pela média μ e pelo desvio padrão σ.\n- **Simétrica** em torno de μ; média = mediana = moda.\n- A área total sob a curva é 1; probabilidades são áreas.\n- Para variável contínua, P(X = a) = 0.\n\n### Regra empírica (68–95–99,7)\n- Cerca de **68%** dos valores ficam entre μ − σ e μ + σ.\n- Cerca de **95%** entre μ − 2σ e μ + 2σ.\n- Cerca de **99,7%** entre μ − 3σ e μ + 3σ.\n\n### Padronização\nO **escore z** = (x − μ)/σ indica quantos desvios padrão x está acima ou abaixo da média. A variável Z segue a **normal padrão** (média 0, desvio padrão 1), e as probabilidades são consultadas na tabela de Z. Exemplos: P(Z < 1,96) ≈ 0,975 e P(Z < 0) = 0,5.\n\n### Aproximação\nCom n grande (np ≥ 5 e n(1 − p) ≥ 5), a binomial pode ser aproximada por uma normal com μ = np e σ = √(np(1 − p)).",
+      "revisao": "**Lembre:**\n- Binomial: P(X = k) = C(n, k)·pᵏ·(1 − p)ⁿ⁻ᵏ; média np; variância np(1 − p).\n- Normal: simétrica, média = mediana = moda.\n- 68–95–99,7 para 1, 2 e 3 desvios padrão.\n- z = (x − μ)/σ.\n\n**Erros comuns:** esquecer o C(n, k); dividir pela variância em vez do desvio padrão no escore z; achar que P(X = a) > 0 numa variável contínua.\n\n**Mini exemplo:** notas com μ = 60 e σ = 10. A nota 75 tem z = (75 − 60)/10 = 1,5, ou seja, está 1,5 desvio padrão acima da média."
+    },
+    {
+      "id": "amostragem-ic",
+      "nome": "Amostragem e intervalo de confiança",
+      "resumo": "Na prática, raramente se observa a **população** inteira. Estuda-se uma **amostra** e usam-se **estatísticas** (como x̄) para estimar **parâmetros** (como μ).\n\n### Tipos de amostragem probabilística\n- **Aleatória simples**: todo elemento tem a mesma chance de ser sorteado.\n- **Sistemática**: sorteia-se o primeiro e depois pega-se um a cada k elementos de uma lista.\n- **Estratificada**: divide-se a população em grupos homogêneos (estratos, como faixas de renda) e sorteia-se dentro de **cada** estrato.\n- **Por conglomerados**: divide-se em grupos (como bairros ou turmas), sorteiam-se **alguns grupos** e pesquisam-se todos os seus elementos.\n\nAmostras por conveniência (quem estiver por perto) não são probabilísticas e podem gerar **viés**.\n\n### Distribuição amostral da média\nPelo **Teorema Central do Limite**, para n grande (em geral n ≥ 30), x̄ tem distribuição aproximadamente normal com média μ e **erro padrão** σ/√n. Quadruplicar n reduz o erro padrão à metade.\n\n### Intervalo de confiança para a média (σ conhecido)\nx̄ ± z·σ/√n, com z = 1,645 (90%), 1,96 (95%) ou 2,576 (99%). O termo z·σ/√n é a **margem de erro** E. Quando σ é desconhecido e a amostra é pequena, usa-se s e a distribuição t de Student.\n\n### Interpretação correta\nUm IC de 95% significa que, se o procedimento fosse repetido muitas vezes, cerca de 95% dos intervalos obtidos conteriam o verdadeiro μ. Ele **não** diz que 95% dos dados estão no intervalo.\n\n### Tamanho da amostra\nPara obter margem de erro E: n = (z·σ/E)², arredondando **sempre para cima**. Mais confiança ou menor margem exigem amostras maiores.",
+      "revisao": "**Lembre:**\n- Estratificada: sorteio dentro de cada grupo. Conglomerados: sorteio de grupos inteiros.\n- Erro padrão da média = σ/√n.\n- IC: x̄ ± z·σ/√n; z = 1,96 para 95%.\n- n = (z·σ/E)², arredondado para cima.\n\n**Erros comuns:** usar σ em vez de σ/√n na margem de erro; dizer que o IC contém 95% dos dados; arredondar o tamanho da amostra para baixo.\n\n**Mini exemplo:** x̄ = 20, σ = 6, n = 36. Erro padrão = 6/6 = 1. IC de 95%: 20 ± 1,96, ou seja, (18,04; 21,96)."
+    },
+    {
+      "id": "testes-hipotese",
+      "nome": "Testes de hipótese",
+      "resumo": "Um **teste de hipótese** usa dados amostrais para decidir entre duas afirmações sobre um parâmetro.\n\n### Hipóteses\n- **H0 (nula)**: afirmação de igualdade ou de ausência de efeito, como μ = 50.\n- **H1 (alternativa)**: o que se quer evidenciar. Pode ser **bilateral** (μ ≠ 50) ou **unilateral** (μ > 50 ou μ < 50). A direção de H1 vem da pergunta do problema.\n\n### Erros possíveis\n- **Erro tipo I**: rejeitar H0 quando ela é verdadeira. Sua probabilidade é o **nível de significância α** (comum: 5%).\n- **Erro tipo II**: não rejeitar H0 quando ela é falsa. Probabilidade β. O **poder** do teste é 1 − β.\n\n### Teste z para a média (σ conhecido)\n1. Formule H0 e H1 e escolha α.\n2. Calcule a estatística z = (x̄ − μ₀)/(σ/√n).\n3. Compare com o valor crítico (bilateral a 5%: |z| > 1,96; unilateral a 5%: z > 1,645 ou z < −1,645) ou calcule o p-valor.\n4. Conclua no contexto do problema.\n\nCom σ desconhecido e amostra pequena, usa-se o teste t com s no lugar de σ.\n\n### p-valor\nÉ a probabilidade, **supondo H0 verdadeira**, de obter um resultado tão extremo quanto o observado, ou mais. Regra de decisão:\n- p-valor ≤ α: **rejeita-se H0**;\n- p-valor > α: **não se rejeita H0**.\n\nO p-valor **não** é a probabilidade de H0 ser verdadeira.\n\n### Linguagem cuidadosa\nNão rejeitar H0 não prova que H0 é verdadeira; significa apenas que os dados não trazem evidência suficiente contra ela. Por isso se diz não rejeitar, e não aceitar H0.",
+      "revisao": "**Lembre:**\n- Erro tipo I: rejeitar H0 verdadeira (probabilidade α).\n- Erro tipo II: manter H0 falsa (probabilidade β).\n- z = (x̄ − μ₀)/(σ/√n).\n- p-valor ≤ α: rejeita H0; p-valor > α: não rejeita.\n\n**Erros comuns:** interpretar o p-valor como a probabilidade de H0 ser verdadeira; dizer que H0 foi provada; escolher H1 bilateral quando o problema pergunta se a média diminuiu.\n\n**Mini exemplo:** H0: μ = 100, H1: μ ≠ 100, α = 5%. Com σ = 10, n = 25 e x̄ = 103: z = 3/(10/5) = 1,5. Como 1,5 < 1,96, não se rejeita H0."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "estatistica-1",
+      "topico": "descritiva",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a média aritmética dos valores 2, 4, 4, 5 e 10?",
+      "opcoes": ["4", "5", "4,5", "6"],
+      "correta": 1,
+      "explicacao": "A soma é 2 + 4 + 4 + 5 + 10 = 25, e dividindo por 5 valores obtemos média 5. O erro comum é confundir a média com a moda ou a mediana, que nesse conjunto valem 4."
+    },
+    {
+      "id": "estatistica-2",
+      "topico": "descritiva",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a mediana do conjunto 10, 1, 3, 9, 5, 12?",
+      "opcoes": ["6", "7", "6,67", "9,5"],
+      "correta": 1,
+      "explicacao": "Ordenando, temos 1, 3, 5, 9, 10, 12; com n = 6 par, a mediana é a média dos dois centrais: (5 + 9)/2 = 7. O erro comum é não ordenar e fazer a média dos termos do meio na ordem original, (3 + 9)/2 = 6."
+    },
+    {
+      "id": "estatistica-3",
+      "topico": "descritiva",
+      "nivel": "conceitual",
+      "pergunta": "Qual das variáveis abaixo é qualitativa ordinal?",
+      "opcoes": ["Altura em centímetros", "Número de filhos", "Cor dos olhos", "Escolaridade (fundamental, médio, superior)"],
+      "correta": 3,
+      "explicacao": "Escolaridade tem categorias com uma ordem natural, o que a torna qualitativa ordinal. O erro comum é escolher cor dos olhos, que é qualitativa, mas nominal, porque suas categorias não têm ordem."
+    },
+    {
+      "id": "estatistica-4",
+      "topico": "descritiva",
+      "nivel": "analise",
+      "pergunta": "Os salários (em mil reais) de cinco funcionários são 2, 3, 3, 4 e 50. Qual medida de tendência central representa melhor o salário típico?",
+      "opcoes": ["A mediana, que vale 3 mil", "A média, que vale 12,4 mil", "A amplitude, que vale 48 mil", "O desvio padrão dos salários"],
+      "correta": 0,
+      "explicacao": "O valor 50 é um outlier que puxa a média para 12,4 mil, acima de quatro dos cinco salários, enquanto a mediana (3 mil) não é afetada por ele. O erro comum é escolher a média por ser a medida mais conhecida, ou citar amplitude e desvio padrão, que medem dispersão e não tendência central."
+    },
+    {
+      "id": "estatistica-5",
+      "topico": "descritiva",
+      "nivel": "conceitual",
+      "pergunta": "Em uma distribuição assimétrica à direita, como a de renda, qual relação costuma ocorrer?",
+      "opcoes": ["Média menor que a mediana", "Média igual à mediana", "Média maior que a mediana", "Moda maior que a média"],
+      "correta": 2,
+      "explicacao": "A cauda longa à direita contém poucos valores muito altos, que puxam a média para cima, deixando-a maior que a mediana. O erro comum é inverter a relação, que vale para a assimetria à esquerda."
+    },
+    {
+      "id": "estatistica-6",
+      "topico": "dispersao",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a amplitude do conjunto 3, 8, 1, 10, 6?",
+      "opcoes": ["9", "10", "7", "5,6"],
+      "correta": 0,
+      "explicacao": "A amplitude é o maior valor menos o menor: 10 − 1 = 9. O erro comum é responder o maior valor (10) ou confundir com a média, que é 5,6."
+    },
+    {
+      "id": "estatistica-7",
+      "topico": "dispersao",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a variância amostral s² dos dados 2, 4 e 6?",
+      "opcoes": ["2,67", "8", "4", "2"],
+      "correta": 2,
+      "explicacao": "A média é 4, os desvios ao quadrado são 4, 0 e 4 (soma 8) e, por ser amostra, dividimos por n − 1 = 2: s² = 4. O erro comum é dividir por n = 3, obtendo 2,67, que é a variância populacional."
+    },
+    {
+      "id": "estatistica-8",
+      "topico": "dispersao",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação sobre variância e desvio padrão é correta?",
+      "opcoes": ["A variância é a raiz quadrada do desvio padrão", "O desvio padrão pode ser negativo", "A variância tem sempre a mesma unidade dos dados", "O desvio padrão é a raiz quadrada da variância e tem a mesma unidade dos dados"],
+      "correta": 3,
+      "explicacao": "O desvio padrão é a raiz quadrada da variância e por isso volta à unidade original dos dados, o que facilita a interpretação. O erro comum é achar que a variância está na mesma unidade, mas ela está na unidade ao quadrado (por exemplo, cm²)."
+    },
+    {
+      "id": "estatistica-9",
+      "topico": "dispersao",
+      "nivel": "aplicacao",
+      "pergunta": "Um conjunto de dados tem média 50 e desvio padrão 5. Qual é o coeficiente de variação?",
+      "opcoes": ["5%", "10%", "250%", "1%"],
+      "correta": 1,
+      "explicacao": "CV = (desvio padrão/média)·100% = (5/50)·100% = 10%. O erro comum é inverter a divisão (50/5) ou multiplicar média por desvio padrão (250), o que não mede variabilidade relativa."
+    },
+    {
+      "id": "estatistica-10",
+      "topico": "dispersao",
+      "nivel": "analise",
+      "pergunta": "Uma variável X tem média 10 e desvio padrão 2. Se Y = 3X + 2, quais são a média e o desvio padrão de Y?",
+      "opcoes": ["Média 32 e desvio padrão 8", "Média 30 e desvio padrão 6", "Média 32 e desvio padrão 6", "Média 12 e desvio padrão 4"],
+      "correta": 2,
+      "explicacao": "A média sofre toda a transformação (3·10 + 2 = 32), mas o desvio padrão só é afetado pela multiplicação (3·2 = 6), pois somar uma constante não muda a dispersão. O erro comum é também somar 2 ao desvio padrão, chegando a 8."
+    },
+    {
+      "id": "estatistica-11",
+      "topico": "probabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Ao lançar um dado honesto, qual é a probabilidade de sair um número par ou um número maior que 4?",
+      "opcoes": ["5/6", "1/2", "2/3", "1/3"],
+      "correta": 2,
+      "explicacao": "Os resultados favoráveis são {2, 4, 5, 6}, ou seja, 4 de 6, então a probabilidade é 2/3; pela fórmula, 3/6 + 2/6 − 1/6 = 4/6. O erro comum é somar 3/6 + 2/6 = 5/6 sem descontar o 6, que está nos dois eventos."
+    },
+    {
+      "id": "estatistica-12",
+      "topico": "probabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Duas moedas honestas são lançadas. Qual é a probabilidade de sair pelo menos uma cara?",
+      "opcoes": ["1/2", "2/3", "1/4", "3/4"],
+      "correta": 3,
+      "explicacao": "O complementar de pelo menos uma cara é nenhuma cara, com probabilidade (1/2)·(1/2) = 1/4, logo a resposta é 1 − 1/4 = 3/4. O erro comum é considerar só três resultados (duas caras, uma cara, nenhuma) como igualmente prováveis e responder 2/3."
+    },
+    {
+      "id": "estatistica-13",
+      "topico": "probabilidade",
+      "nivel": "conceitual",
+      "pergunta": "Dois eventos A e B são independentes quando:",
+      "opcoes": ["P(A e B) = 0", "P(A e B) = P(A)·P(B)", "P(A ou B) = P(A) + P(B)", "P(A | B) = P(B)"],
+      "correta": 1,
+      "explicacao": "Independência significa que a ocorrência de um não altera a probabilidade do outro, o que equivale a P(A e B) = P(A)·P(B). O erro comum é confundir com eventos mutuamente exclusivos, que têm P(A e B) = 0 e, se tiverem probabilidades positivas, são dependentes."
+    },
+    {
+      "id": "estatistica-14",
+      "topico": "probabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Sabe-se que P(A e B) = 0,2 e P(B) = 0,5. Qual é P(A | B)?",
+      "opcoes": ["0,1", "0,3", "0,4", "0,7"],
+      "correta": 2,
+      "explicacao": "Pela definição, P(A | B) = P(A e B)/P(B) = 0,2/0,5 = 0,4. O erro comum é multiplicar (0,2·0,5 = 0,1) em vez de dividir pela probabilidade da condição."
+    },
+    {
+      "id": "estatistica-15",
+      "topico": "probabilidade",
+      "nivel": "analise",
+      "pergunta": "Uma doença atinge 1% da população. Um teste detecta 90% dos doentes e dá falso positivo em 10% dos sadios. Se uma pessoa testou positivo, qual é, aproximadamente, a probabilidade de ela ter a doença?",
+      "opcoes": ["8,3%", "90%", "9%", "50%"],
+      "correta": 0,
+      "explicacao": "Por Bayes, P(positivo) = 0,9·0,01 + 0,1·0,99 = 0,009 + 0,099 = 0,108, e P(doença | positivo) = 0,009/0,108 ≈ 8,3%. O erro comum é responder 90%, confundindo P(positivo | doença) com P(doença | positivo) e ignorando que a doença é rara."
+    },
+    {
+      "id": "estatistica-16",
+      "topico": "binomial-normal",
+      "nivel": "aplicacao",
+      "pergunta": "Uma moeda honesta é lançada 4 vezes. Qual é a probabilidade de saírem exatamente 2 caras?",
+      "opcoes": ["0,5", "0,25", "0,375", "0,0625"],
+      "correta": 2,
+      "explicacao": "Pela binomial, P(X = 2) = C(4, 2)·(0,5)²·(0,5)² = 6·(1/16) = 6/16 = 0,375. O erro comum é esquecer o coeficiente C(4, 2) = 6 e responder 1/16 = 0,0625."
+    },
+    {
+      "id": "estatistica-17",
+      "topico": "binomial-normal",
+      "nivel": "aplicacao",
+      "pergunta": "X segue distribuição binomial com n = 20 e p = 0,3. Quais são a média e a variância de X?",
+      "opcoes": ["Média 6 e variância 4,2", "Média 6 e variância 1,8", "Média 0,3 e variância 0,21", "Média 14 e variância 4,2"],
+      "correta": 0,
+      "explicacao": "A média é n·p = 20·0,3 = 6 e a variância é n·p·(1 − p) = 20·0,3·0,7 = 4,2. O erro comum é usar 1 − p no lugar de p na média, obtendo 14, que é a média de fracassos."
+    },
+    {
+      "id": "estatistica-18",
+      "topico": "binomial-normal",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica é verdadeira para toda distribuição normal?",
+      "opcoes": ["É assimétrica à direita", "Só assume valores positivos", "Tem média sempre igual a zero", "É simétrica em torno da média, e média, mediana e moda coincidem"],
+      "correta": 3,
+      "explicacao": "A curva normal tem forma de sino simétrica em torno de μ, por isso média, mediana e moda são iguais. O erro comum é achar que a média é sempre zero, o que vale só para a normal padrão Z."
+    },
+    {
+      "id": "estatistica-19",
+      "topico": "binomial-normal",
+      "nivel": "aplicacao",
+      "pergunta": "As notas de uma prova seguem distribuição normal com média 70 e desvio padrão 5. Qual é o escore z de uma nota 80?",
+      "opcoes": ["10", "0,5", "14", "2"],
+      "correta": 3,
+      "explicacao": "z = (x − μ)/σ = (80 − 70)/5 = 2, ou seja, a nota está 2 desvios padrão acima da média. O erro comum é parar na diferença 80 − 70 = 10 sem dividir pelo desvio padrão."
+    },
+    {
+      "id": "estatistica-20",
+      "topico": "binomial-normal",
+      "nivel": "analise",
+      "pergunta": "Uma variável tem distribuição normal com média 100 e desvio padrão 15. Aproximadamente qual porcentagem dos valores fica entre 85 e 115?",
+      "opcoes": ["68%", "95%", "50%", "34%"],
+      "correta": 0,
+      "explicacao": "85 e 115 estão a um desvio padrão da média (100 ± 15), e pela regra empírica cerca de 68% dos valores ficam nessa faixa. O erro comum é responder 95%, que corresponde a dois desvios padrão (de 70 a 130)."
+    },
+    {
+      "id": "estatistica-21",
+      "topico": "amostragem-ic",
+      "nivel": "conceitual",
+      "pergunta": "Uma pesquisa divide a população em grupos homogêneos por faixa de renda e sorteia pessoas dentro de cada grupo. Que tipo de amostragem é essa?",
+      "opcoes": ["Amostragem aleatória simples", "Amostragem estratificada", "Amostragem por conglomerados", "Amostragem sistemática"],
+      "correta": 1,
+      "explicacao": "Na amostragem estratificada, a população é dividida em estratos homogêneos e o sorteio é feito dentro de cada um deles. O erro comum é confundir com conglomerados, em que se sorteiam alguns grupos inteiros e todos os seus elementos são pesquisados."
+    },
+    {
+      "id": "estatistica-22",
+      "topico": "amostragem-ic",
+      "nivel": "aplicacao",
+      "pergunta": "Uma amostra de n = 100 tem média 50, e o desvio padrão populacional é σ = 10. Qual é o intervalo de 95% de confiança para a média?",
+      "opcoes": ["(30,4; 69,6)", "(48,36; 51,64)", "(48,04; 51,96)", "(49,80; 50,20)"],
+      "correta": 2,
+      "explicacao": "O erro padrão é 10/√100 = 1, e a margem é 1,96·1 = 1,96, dando 50 ± 1,96 = (48,04; 51,96). O erro comum é usar σ = 10 sem dividir por √n, obtendo (30,4; 69,6), ou usar z = 1,645, que corresponde a 90%."
+    },
+    {
+      "id": "estatistica-23",
+      "topico": "amostragem-ic",
+      "nivel": "aplicacao",
+      "pergunta": "Com σ = 20, o erro padrão da média para n = 25 é 4. Se o tamanho da amostra passar para n = 100, o erro padrão será:",
+      "opcoes": ["1", "2", "8", "3"],
+      "correta": 1,
+      "explicacao": "O erro padrão é σ/√n = 20/√100 = 20/10 = 2; quadruplicar n reduz o erro padrão pela metade. O erro comum é achar que ele cai na mesma proporção de n e dividir 4 por 4, obtendo 1."
+    },
+    {
+      "id": "estatistica-24",
+      "topico": "amostragem-ic",
+      "nivel": "analise",
+      "pergunta": "Um intervalo de 95% de confiança para a média populacional μ resultou em (12; 18). Qual é a interpretação correta?",
+      "opcoes": ["Há 95% de probabilidade de a média amostral estar entre 12 e 18", "95% dos dados da população estão entre 12 e 18", "A média populacional é 15 com certeza", "Se o procedimento fosse repetido muitas vezes, cerca de 95% dos intervalos obtidos conteriam o verdadeiro μ"],
+      "correta": 3,
+      "explicacao": "O nível de confiança se refere ao método: a longo prazo, 95% dos intervalos construídos assim capturam μ. O erro comum é achar que o intervalo contém 95% dos dados individuais, mas ele estima a média, não a distribuição dos dados."
+    },
+    {
+      "id": "estatistica-25",
+      "topico": "amostragem-ic",
+      "nivel": "aplicacao",
+      "pergunta": "Deseja-se estimar uma média com margem de erro de 2 unidades e 95% de confiança, sabendo que σ = 10. Qual é o tamanho mínimo da amostra?",
+      "opcoes": ["96", "97", "10", "25"],
+      "correta": 1,
+      "explicacao": "n = (z·σ/E)² = (1,96·10/2)² = 9,8² = 96,04, e como n deve ser inteiro e garantir a margem, arredonda-se para cima: 97. O erro comum é arredondar para baixo (96), o que deixa a margem de erro ligeiramente maior que 2."
+    },
+    {
+      "id": "estatistica-26",
+      "topico": "testes-hipotese",
+      "nivel": "conceitual",
+      "pergunta": "O que é o erro do tipo I em um teste de hipótese?",
+      "opcoes": ["Rejeitar H0 quando H0 é verdadeira", "Não rejeitar H0 quando H0 é falsa", "Rejeitar H0 quando H0 é falsa", "Aceitar H1 quando H1 é verdadeira"],
+      "correta": 0,
+      "explicacao": "O erro do tipo I é rejeitar uma hipótese nula verdadeira, e sua probabilidade é o nível de significância α. O erro comum é trocar com o erro do tipo II, que é não rejeitar H0 quando ela é falsa."
+    },
+    {
+      "id": "estatistica-27",
+      "topico": "testes-hipotese",
+      "nivel": "conceitual",
+      "pergunta": "O que é o p-valor de um teste de hipótese?",
+      "opcoes": ["A probabilidade de H0 ser verdadeira", "O nível de significância escolhido", "A probabilidade de cometer erro do tipo II", "A probabilidade de, supondo H0 verdadeira, obter um resultado tão extremo quanto o observado ou mais"],
+      "correta": 3,
+      "explicacao": "O p-valor é calculado supondo H0 verdadeira e mede quão extremo é o resultado observado sob essa hipótese. O erro comum é interpretá-lo como a probabilidade de H0 ser verdadeira, o que o teste clássico não fornece."
+    },
+    {
+      "id": "estatistica-28",
+      "topico": "testes-hipotese",
+      "nivel": "aplicacao",
+      "pergunta": "Testa-se H0: μ = 50 contra H1: μ ≠ 50 com α = 5%. Uma amostra de n = 64 deu média 52, e σ = 8. Qual é a estatística z e a decisão?",
+      "opcoes": ["z = 2; não se rejeita H0", "z = 0,25; não se rejeita H0", "z = 2; rejeita-se H0", "z = 16; rejeita-se H0"],
+      "correta": 2,
+      "explicacao": "O erro padrão é 8/√64 = 1, então z = (52 − 50)/1 = 2, e como |2| > 1,96, rejeita-se H0 ao nível de 5%. O erro comum é dividir pelo desvio padrão σ = 8 em vez do erro padrão, obtendo z = 0,25."
+    },
+    {
+      "id": "estatistica-29",
+      "topico": "testes-hipotese",
+      "nivel": "analise",
+      "pergunta": "Um teste resultou em p-valor = 0,03, e o pesquisador fixou α = 0,01. Qual é a conclusão correta?",
+      "opcoes": ["Rejeita-se H0, pois 0,03 é um valor pequeno", "Não se rejeita H0 ao nível de 1%, pois o p-valor é maior que α", "Rejeita-se H0, pois o p-valor é maior que α", "Conclui-se que H0 é verdadeira"],
+      "correta": 1,
+      "explicacao": "A regra é rejeitar H0 só quando p-valor ≤ α; como 0,03 > 0,01, não se rejeita H0 ao nível de 1%. O erro comum é rejeitar porque 0,03 é menor que 0,05, esquecendo que o nível escolhido foi 1%, ou afirmar que H0 foi provada verdadeira."
+    },
+    {
+      "id": "estatistica-30",
+      "topico": "testes-hipotese",
+      "nivel": "aplicacao",
+      "pergunta": "O tempo médio de um processo era 20 minutos. Uma empresa quer testar se uma nova máquina reduz esse tempo médio. Quais são as hipóteses adequadas?",
+      "opcoes": ["H0: μ = 20; H1: μ menor que 20", "H0: μ = 20; H1: μ maior que 20", "H0: μ = 20; H1: μ diferente de 20", "H0: μ menor que 20; H1: μ = 20"],
+      "correta": 0,
+      "explicacao": "H0 traz a igualdade com o valor antigo e H1 traz o que se quer evidenciar, uma redução, então o teste é unilateral à esquerda: H1: μ < 20. O erro comum é usar H1 bilateral (diferente de 20), que não responde à pergunta sobre redução, ou colocar a afirmação de interesse em H0."
+    }
+  ]
+}

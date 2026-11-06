@@ -8,6 +8,7 @@ import { abreLeitor } from "../ui/leitor.js";
 import { carregaIndice, carregaMateria } from "../banco.js";
 import { achaNoBanco, montaQuiz, embaralhaAlternativas, registraResposta, revisaoDosErros, normalizaNome } from "../conteudo.js";
 import { questoesDoEstudante } from "../gerador.js";
+import { markdownParaHtml } from "../markdown.js";
 
 const CONTATO = "monetra.app26@gmail.com";
 const BOTAO_CONTORNO = "inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 text-sm font-medium text-foreground/75 transition hover:border-electric/50 hover:text-foreground";
@@ -89,9 +90,9 @@ export function desenhaQuestao(e) {
     <div class="mb-3 flex items-center justify-between gap-3"><span class="font-mono text-[11px] uppercase tracking-[0.16em] text-muted-foreground">questão ${e.i + 1} de ${total}</span><span class="truncate rounded-full bg-secondary px-2.5 py-1 font-mono text-[10px] uppercase tracking-wide text-foreground/60">${esc(e.titulo || "quiz")}</span></div>
     <div class="h-1.5 w-full overflow-hidden rounded-full bg-secondary"><div class="h-full rounded-full bg-ink transition-all duration-500 dark:bg-foreground" style="width: ${((e.i + 1) / total) * 100}%"></div></div>
     <div class="mt-4 panel p-6">
-      <h2 class="text-[15px] font-medium leading-relaxed [overflow-wrap:anywhere]">${esc(q.pergunta)}</h2>
+      <div role="heading" aria-level="2" class="study-prose quiz-enunciado text-[15px] font-medium leading-relaxed [overflow-wrap:anywhere]">${markdownParaHtml(q.pergunta)}</div>
       <div class="mt-5 space-y-2.5" role="group" aria-label="Alternativas">${opcoes}</div>
-      ${e.revelada ? `<div class="mt-4 rounded-xl bg-secondary/70 p-4" role="status"><p class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Por que essa é a resposta</p><p class="mt-1.5 text-[13px] leading-relaxed">${esc(q.explicacao)}</p>${q.origem === "banco" ? `<a href="${esc(linkReportar(q))}" data-externo class="mt-2 inline-flex items-center gap-1 text-[11px] font-medium text-muted-foreground underline-offset-2 hover:underline">${icone("AlertTriangle", "h-3 w-3")}Reportar erro nesta questão</a>` : ""}</div>` : ""}
+      ${e.revelada ? `<div class="mt-4 rounded-xl bg-secondary/70 p-4" role="status"><p class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Por que essa é a resposta</p><div class="study-prose quiz-enunciado mt-1.5 text-[13px] leading-relaxed">${markdownParaHtml(q.explicacao)}</div>${q.origem === "banco" ? `<a href="${esc(linkReportar(q))}" data-externo class="mt-2 inline-flex items-center gap-1 text-[11px] font-medium text-muted-foreground underline-offset-2 hover:underline">${icone("AlertTriangle", "h-3 w-3")}Reportar erro nesta questão</a>` : ""}</div>` : ""}
       <div class="mt-5 flex items-center justify-between gap-3">
         <button type="button" data-acao="revelar"${resposta == null || e.revelada ? " disabled" : ""} class="rounded-xl border border-border px-4 py-2.5 text-xs font-medium text-foreground/75 transition hover:bg-secondary disabled:opacity-40">Ver explicação</button>
         <button type="button" data-acao="confirmar"${resposta == null ? " disabled" : ""} class="inline-flex items-center gap-2 rounded-xl bg-ink px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-ink/90 disabled:opacity-40">${e.i === total - 1 ? "Ver resultado" : "Próxima questão"}${icone("ArrowRight", "h-4 w-4 text-neon")}</button>

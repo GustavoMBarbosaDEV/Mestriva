@@ -1,0 +1,465 @@
+{
+  "id": "quimica-geral",
+  "nome": "Química Geral",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "estrutura-atomica",
+      "nome": "Estrutura Atômica e Tabela Periódica",
+      "resumo": "O átomo tem um **núcleo** pequeno e denso, com prótons e nêutrons, cercado por elétrons.\n\n## Números que identificam o átomo\n- **Número atômico (Z)**: quantidade de prótons. Define o elemento.\n- **Número de massa (A)**: prótons + nêutrons. Nêutrons = A − Z.\n- Em átomo neutro, elétrons = Z. Um **cátion** perde elétrons (Fe³⁺ tem Z − 3 elétrons) e um **ânion** ganha.\n- **Isótopos**: mesmo Z, A diferente (¹²C e ¹⁴C). **Isóbaros**: mesmo A. **Isótonos**: mesmo número de nêutrons.\n\n## Configuração eletrônica\nOs elétrons ocupam subníveis em ordem crescente de energia (diagrama de Linus Pauling): 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p... Capacidades: s = 2, p = 6, d = 10, f = 14. Exemplo: Cl (Z = 17) é 1s² 2s² 2p⁶ 3s² 3p⁵, com **7 elétrons de valência**.\n\n## Tabela periódica\n- Organizada por Z crescente. **Períodos** (linhas) indicam o número de camadas; **grupos** (colunas) reúnem elementos com a mesma configuração de valência e propriedades parecidas.\n- Grupo 1: metais alcalinos; 2: alcalino-terrosos; 17: halogênios; 18: gases nobres.\n\n## Propriedades periódicas\n- **Raio atômico**: aumenta ao descer no grupo (mais camadas) e diminui da esquerda para a direita no período (maior **carga nuclear efetiva**).\n- **Energia de ionização** e **eletronegatividade**: tendência oposta à do raio; crescem para a direita e para cima (o flúor é o mais eletronegativo).\n- Retirar um elétron de uma camada interna completa exige muito mais energia, o que gera \"saltos\" nas energias de ionização sucessivas.",
+      "revisao": "- Z = prótons; A = prótons + nêutrons; elétrons do íon = Z − carga.\n- Isótopos têm o mesmo Z.\n- Raio cresce para baixo e para a esquerda; energia de ionização e eletronegatividade crescem para cima e para a direita.\n\n**Erros comuns:** somar a carga de um cátion em vez de subtrair; achar que mais elétrons no mesmo período significam átomo maior; confundir número de massa com massa atômica.\n\n**Mini exemplo:** ²³Na⁺ (Z = 11) tem 11 prótons, 23 − 11 = 12 nêutrons e 11 − 1 = 10 elétrons."
+    },
+    {
+      "id": "ligacoes-quimicas",
+      "nome": "Ligações Químicas",
+      "resumo": "Átomos se ligam para atingir arranjos eletrônicos mais estáveis, muitas vezes com oito elétrons na camada de valência (**regra do octeto**, que tem exceções).\n\n## Tipos de ligação\n- **Iônica**: transferência de elétrons, em geral entre metal e ametal (NaCl). Forma retículos cristalinos, com altos pontos de fusão; conduz eletricidade fundida ou em solução.\n- **Covalente**: compartilhamento de pares de elétrons, em geral entre ametais (H₂O, CO₂). Pode ser simples, dupla ou tripla.\n- **Metálica**: cátions imersos num \"mar\" de elétrons livres; explica condutividade e brilho dos metais.\n\n## Ligações σ e π\nA primeira ligação entre dois átomos é **σ**; as demais são **π**. Dupla = 1σ + 1π; tripla = 1σ + 2π (como no N₂).\n\n## Geometria molecular (VSEPR)\nPares de elétrons ao redor do átomo central se repelem e se afastam ao máximo. A geometria **molecular** considera só a posição dos átomos:\n- 2 pares ligantes, nenhum livre: **linear** (CO₂).\n- 3 ligantes: **trigonal plana** (BF₃).\n- 4 ligantes: **tetraédrica** (CH₄).\n- 3 ligantes + 1 par livre: **piramidal** (NH₃).\n- 2 ligantes + 2 pares livres: **angular** (H₂O).\n\n## Polaridade\nUma ligação é polar quando há diferença de eletronegatividade. A **molécula** é polar se os vetores de polaridade não se anulam: CO₂ tem ligações polares, mas é apolar por ser linear e simétrica.\n\n## Forças intermoleculares\nEm ordem crescente de intensidade típica: **dispersão de London** < **dipolo–dipolo** < **ligação de hidrogênio** (H ligado a F, O ou N). São elas, e não as ligações covalentes, que são vencidas na fusão e na ebulição de substâncias moleculares.",
+      "revisao": "- Iônica: transferência; covalente: compartilhamento; metálica: elétrons livres.\n- Dupla = σ + π; tripla = σ + 2π.\n- Geometria molecular depende dos pares ligantes e livres do átomo central.\n- Ebulição de substâncias moleculares rompe forças intermoleculares, não ligações covalentes.\n\n**Erros comuns:** chamar a água de linear; achar que ligação polar sempre gera molécula polar; dizer que ferver a água quebra a ligação O–H.\n\n**Mini exemplo:** NH₃ tem 3 pares ligantes e 1 par livre no N, por isso é piramidal e polar."
+    },
+    {
+      "id": "estequiometria",
+      "nome": "Estequiometria",
+      "resumo": "A **estequiometria** faz as contas de quantidades em reações químicas a partir da equação balanceada.\n\n## Mol e massa molar\n- **1 mol** contém 6,02×10²³ entidades (constante de Avogadro).\n- **Massa molar (M)**: massa de 1 mol, em g/mol. Soma as massas atômicas: H₂O = 2·1 + 16 = 18 g/mol; CO₂ = 12 + 2·16 = 44 g/mol.\n- Relação central: **n = m/M** (n em mol, m em gramas).\n- Para gases ideais nas CNTP (0 °C e 1 atm), 1 mol ocupa cerca de 22,4 L.\n\n## Balanceamento\nPela conservação da massa (Lavoisier), o número de átomos de cada elemento é igual nos dois lados. Na combustão de hidrocarbonetos, costuma funcionar balancear C, depois H, e por último O. Exemplo: C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O.\n\n## Roteiro de cálculo\n- Balanceie a equação.\n- Converta o dado para **mol**.\n- Use a **proporção dos coeficientes** para achar os mols do que se pede.\n- Converta de volta para a unidade pedida (gramas, litros, moléculas).\n\n## Reagente limitante\nQuando os reagentes não estão na proporção exata, o **limitante** é o que acaba primeiro e determina quanto produto se forma; o outro fica **em excesso**. Para identificá-lo, divida os mols de cada reagente pelo seu coeficiente: o menor resultado indica o limitante.\n\n## Rendimento e pureza\n- **Rendimento** = (quantidade obtida / quantidade teórica) × 100%.\n- Se o reagente tem pureza de 80%, só 80% da massa participa da reação.",
+      "revisao": "- n = m/M; 1 mol = 6,02×10²³ entidades.\n- Sempre balancear antes de calcular.\n- A proporção da equação vale para mols, não para gramas.\n- Limitante: menor razão mols/coeficiente.\n\n**Erros comuns:** usar a proporção dos coeficientes diretamente em massa; esquecer de identificar o reagente limitante; errar a massa molar por esquecer índices.\n\n**Mini exemplo:** em 2 H₂ + O₂ → 2 H₂O, 3 mol de O₂ exigem 6 mol de H₂ e formam 6 mol de H₂O (108 g)."
+    },
+    {
+      "id": "solucoes",
+      "nome": "Soluções e Concentração",
+      "resumo": "Uma **solução** é uma mistura homogênea de **soluto** (o que é dissolvido) e **solvente** (o que dissolve, em geral em maior quantidade).\n\n## Formas de expressar concentração\n- **Concentração comum**: C = m_soluto / V_solução, em g/L.\n- **Concentração em quantidade de matéria (molaridade)**: M = n_soluto / V_solução, em mol/L. O volume é o da **solução**, não o do solvente.\n- **Título em massa**: τ = m_soluto / m_solução (multiplique por 100 para porcentagem).\n- **Molalidade**: mol de soluto por kg de **solvente**; não depende da temperatura.\n- Relação útil: C (g/L) = M (mol/L) × massa molar (g/mol).\n\n## Diluição\nAo acrescentar solvente, a **quantidade de soluto não muda**; só o volume aumenta. Por isso:\n**M₁·V₁ = M₂·V₂**.\n\n## Mistura de soluções do mesmo soluto\nOs mols se somam: M_final = (M₁·V₁ + M₂·V₂)/(V₁ + V₂), supondo volumes aditivos.\n\n## Preparo no laboratório\nPara preparar uma solução de concentração exata, pesa-se o soluto, dissolve-se em parte do solvente e **completa-se o volume** em balão volumétrico até a marca. Dissolver o soluto num volume medido de água dá um volume final diferente e, portanto, outra concentração.\n\n## Solubilidade\nÉ a quantidade máxima de soluto que se dissolve numa quantidade de solvente a dada temperatura. Abaixo dela, a solução é **insaturada**; no limite, **saturada**. A solubilidade de gases em líquidos diminui com o aumento da temperatura.",
+      "revisao": "- M = n/V(solução), em mol/L; C = m/V, em g/L.\n- Diluição: M₁·V₁ = M₂·V₂ (os mols de soluto se mantêm).\n- C = M × massa molar.\n- Para preparar, completa-se o volume final no balão volumétrico.\n\n**Erros comuns:** usar volume em mL sem converter para litros; usar o volume do solvente em vez do volume da solução; achar que diluir muda a quantidade de soluto.\n\n**Mini exemplo:** 50 mL de solução 4 mol/L diluídos até 200 mL: M₂ = 4·50/200 = 1 mol/L."
+    },
+    {
+      "id": "termoquimica",
+      "nome": "Termoquímica",
+      "resumo": "A **termoquímica** estuda o calor trocado nas reações. A grandeza usada é a **variação de entalpia (ΔH)**, que, a pressão constante, é igual ao calor trocado.\n\n## Exotérmica e endotérmica\n- **Exotérmica**: libera calor; ΔH < 0. Os produtos têm entalpia menor que os reagentes. Exemplos: combustões, neutralização.\n- **Endotérmica**: absorve calor; ΔH > 0. Exemplos: fusão do gelo, decomposição do CaCO₃.\n\n## Equação termoquímica\nIndica estados físicos e o ΔH para as quantidades escritas. Se a equação é **multiplicada** por um número, o ΔH também é; se é **invertida**, o sinal do ΔH muda.\n\n## Entalpia de formação\n**ΔH°f** é o ΔH para formar 1 mol da substância a partir de seus elementos no estado padrão. Substâncias simples no estado mais estável (O₂, C grafite) têm ΔH°f = 0. Então:\nΔH = Σ ΔH°f(produtos) − Σ ΔH°f(reagentes).\n\n## Lei de Hess\nO ΔH depende só dos estados inicial e final, não do caminho. Pode-se somar equações conhecidas (invertendo ou multiplicando quando preciso) para obter a desejada.\n\n## Energia de ligação\nRomper ligações **absorve** energia; formar ligações **libera**. Estimativa:\n**ΔH = Σ(ligações rompidas) − Σ(ligações formadas)**.\n\n## Calorimetria\nQ = m·c·ΔT, em que c é o calor específico (água: 1 cal/g·°C ≈ 4,18 J/g·°C). É assim que se mede experimentalmente o calor de uma reação.",
+      "revisao": "- ΔH < 0: exotérmica; ΔH > 0: endotérmica.\n- Inverter a equação troca o sinal do ΔH; multiplicar a equação multiplica o ΔH.\n- Lei de Hess: somar etapas dá o ΔH total.\n- Energia de ligação: ΔH = rompidas − formadas.\n\n**Erros comuns:** esquecer de multiplicar a energia pelo número de ligações; inverter a subtração na energia de ligação; não ajustar o ΔH à quantidade de mols.\n\n**Mini exemplo:** se 1 mol de C queimado libera 394 kJ, 3 mol (36 g) liberam 3·394 = 1182 kJ."
+    },
+    {
+      "id": "equilibrio-e-ph",
+      "nome": "Equilíbrio Químico e pH",
+      "resumo": "Uma reação reversível atinge o **equilíbrio** quando as velocidades direta e inversa se igualam. As concentrações ficam constantes, mas as reações continuam ocorrendo (equilíbrio **dinâmico**).\n\n## Constante de equilíbrio\nPara aA + bB ⇌ cC + dD:\n**Kc = [C]^c·[D]^d / ([A]^a·[B]^b)**, com concentrações no equilíbrio, em mol/L. Sólidos e líquidos puros não entram na expressão.\n- K grande: equilíbrio favorece os produtos.\n- K depende **apenas da temperatura**.\n\n## Princípio de Le Chatelier\nUm sistema em equilíbrio perturbado se desloca para reduzir a perturbação:\n- Aumentar um reagente desloca para os produtos.\n- Aumentar a pressão (diminuindo o volume) desloca para o lado com **menos mols de gás**.\n- Aumentar a temperatura favorece o sentido **endotérmico**; em reação exotérmica, K diminui.\n- **Catalisador** não desloca o equilíbrio; só faz atingi-lo mais rápido.\n\n## Ácidos, bases e pH\n- Arrhenius: ácido libera H⁺ (H₃O⁺) em água; base libera OH⁻.\n- **pH = −log[H⁺]** e **pOH = −log[OH⁻]**. A 25 °C, [H⁺]·[OH⁻] = 10⁻¹⁴, logo **pH + pOH = 14**.\n- pH < 7: ácido; pH = 7: neutro; pH > 7: básico (a 25 °C).\n- Cada unidade de pH corresponde a um fator 10 em [H⁺].\n- Ácidos fortes (HCl, HNO₃) ionizam praticamente 100%: [H⁺] = concentração do ácido. Ácidos fracos (ácido acético) ionizam parcialmente, descritos por Ka.",
+      "revisao": "- Kc = produtos elevados aos coeficientes / reagentes elevados aos coeficientes.\n- K só muda com a temperatura; catalisador não desloca o equilíbrio.\n- pH = −log[H⁺]; pH + pOH = 14 a 25 °C.\n\n**Erros comuns:** esquecer os expoentes no Kc; dizer que mudar concentração altera K; achar que pH 3 é só \"um pouco\" mais ácido que pH 4 (é 10 vezes).\n\n**Mini exemplo:** NaOH 0,001 mol/L tem [OH⁻] = 10⁻³, pOH = 3 e pH = 11."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "quimica-geral-1",
+      "topico": "estrutura-atomica",
+      "nivel": "conceitual",
+      "pergunta": "Os átomos ¹²C e ¹⁴C são isótopos. O que eles têm em comum?",
+      "opcoes": [
+        "O mesmo número de prótons",
+        "O mesmo número de nêutrons",
+        "O mesmo número de massa",
+        "A mesma massa atômica"
+      ],
+      "correta": 0,
+      "explicacao": "Isótopos são átomos do mesmo elemento, logo têm o mesmo número atômico (6 prótons) e diferem no número de nêutrons. O erro comum é confundir isótopos com isótonos, que têm o mesmo número de nêutrons."
+    },
+    {
+      "id": "quimica-geral-2",
+      "topico": "estrutura-atomica",
+      "nivel": "conceitual",
+      "pergunta": "Ao longo de um período da tabela periódica, da esquerda para a direita, o raio atômico em geral:",
+      "opcoes": [
+        "aumenta, porque o átomo tem mais elétrons",
+        "permanece constante, porque o número de camadas é o mesmo",
+        "diminui, porque a carga nuclear efetiva aumenta e atrai mais os elétrons",
+        "diminui, porque o número de camadas eletrônicas diminui"
+      ],
+      "correta": 2,
+      "explicacao": "No mesmo período o número de camadas é o mesmo, mas a carga nuclear efetiva cresce e puxa a eletrosfera para mais perto do núcleo. O erro comum é achar que mais elétrons significam sempre um átomo maior."
+    },
+    {
+      "id": "quimica-geral-3",
+      "topico": "estrutura-atomica",
+      "nivel": "aplicacao",
+      "pergunta": "Quantos prótons, nêutrons e elétrons tem o íon ⁵⁶Fe³⁺ (Z = 26)?",
+      "opcoes": [
+        "26 prótons, 30 nêutrons e 29 elétrons",
+        "26 prótons, 30 nêutrons e 23 elétrons",
+        "23 prótons, 33 nêutrons e 23 elétrons",
+        "26 prótons, 56 nêutrons e 23 elétrons"
+      ],
+      "correta": 1,
+      "explicacao": "Os prótons são Z = 26, os nêutrons são A − Z = 56 − 26 = 30, e o cátion de carga +3 perdeu 3 elétrons, ficando com 23. O erro comum é somar a carga ao número de elétrons (29), como se o cátion tivesse ganhado elétrons."
+    },
+    {
+      "id": "quimica-geral-4",
+      "topico": "estrutura-atomica",
+      "nivel": "aplicacao",
+      "pergunta": "No estado fundamental, qual é a camada de valência do cloro (Z = 17) e quantos elétrons ela tem?",
+      "opcoes": [
+        "3s² 3p⁶, com 8 elétrons de valência",
+        "3p⁵, com 5 elétrons de valência",
+        "3s² 3p⁴, com 6 elétrons de valência",
+        "3s² 3p⁵, com 7 elétrons de valência"
+      ],
+      "correta": 3,
+      "explicacao": "A configuração completa é 1s² 2s² 2p⁶ 3s² 3p⁵, e a camada de valência (n = 3) reúne 3s² e 3p⁵, somando 7 elétrons, como todo halogênio. O erro comum é contar só os elétrons do subnível p (5) ou já considerar o octeto, que o cloro só alcança ao formar o íon Cl⁻."
+    },
+    {
+      "id": "quimica-geral-5",
+      "topico": "estrutura-atomica",
+      "nivel": "analise",
+      "pergunta": "A segunda energia de ionização do sódio (Na, Z = 11) é muito maior que a do magnésio (Mg, Z = 12). Qual é a melhor explicação?",
+      "opcoes": [
+        "O sódio tem mais prótons no núcleo que o magnésio",
+        "O raio atômico do sódio é menor que o do magnésio",
+        "O Mg⁺ já tem configuração de gás nobre, o que torna difícil retirar outro elétron dele",
+        "No Na⁺ o segundo elétron teria de sair de uma camada interna completa (2p⁶), muito mais próxima do núcleo"
+      ],
+      "correta": 3,
+      "explicacao": "O Na⁺ tem configuração de gás nobre (1s² 2s² 2p⁶), e arrancar um elétron dessa camada interna exige muita energia, enquanto o Mg⁺ ainda tem um elétron 3s fácil de retirar. O erro comum é inverter as configurações: é o Na⁺, e não o Mg⁺, que fica com configuração de gás nobre."
+    },
+    {
+      "id": "quimica-geral-6",
+      "topico": "ligacoes-quimicas",
+      "nivel": "conceitual",
+      "pergunta": "Que tipo de ligação existe no cloreto de sódio (NaCl) sólido e como ela se forma?",
+      "opcoes": [
+        "Covalente, por compartilhamento de um par de elétrons",
+        "Iônica, por transferência de elétron do sódio para o cloro",
+        "Metálica, por um mar de elétrons livres",
+        "Covalente polar, com o par de elétrons deslocado para o cloro"
+      ],
+      "correta": 1,
+      "explicacao": "O sódio, metal com baixa energia de ionização, transfere um elétron ao cloro, muito eletronegativo, formando Na⁺ e Cl⁻ unidos por atração eletrostática. O erro comum é tratar o NaCl como molécula covalente polar, esquecendo que há íons num retículo cristalino."
+    },
+    {
+      "id": "quimica-geral-7",
+      "topico": "ligacoes-quimicas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a geometria molecular da água (H₂O) e por quê?",
+      "opcoes": [
+        "Linear, porque há apenas dois átomos ligados ao oxigênio",
+        "Trigonal plana, porque há três átomos na molécula",
+        "Angular, porque o oxigênio tem dois pares de elétrons não ligantes",
+        "Tetraédrica, porque o oxigênio tem quatro átomos ligados a ele"
+      ],
+      "correta": 2,
+      "explicacao": "O oxigênio tem quatro pares ao redor (dois ligantes e dois livres); os pares livres empurram as ligações e a forma molecular fica angular, com cerca de 104,5°. O erro comum é contar só os átomos ligados e concluir que a água é linear, como o CO₂."
+    },
+    {
+      "id": "quimica-geral-8",
+      "topico": "ligacoes-quimicas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual das moléculas abaixo é apolar, embora tenha ligações polares?",
+      "opcoes": [
+        "CO₂",
+        "H₂O",
+        "NH₃",
+        "HCl"
+      ],
+      "correta": 0,
+      "explicacao": "O CO₂ é linear e simétrico, então os dois vetores de polaridade C=O se anulam e a molécula é apolar. O erro comum é concluir que toda molécula com ligações polares é polar, sem olhar a geometria."
+    },
+    {
+      "id": "quimica-geral-9",
+      "topico": "ligacoes-quimicas",
+      "nivel": "aplicacao",
+      "pergunta": "Quantas ligações sigma (σ) e pi (π) existem na molécula de nitrogênio (N₂)?",
+      "opcoes": [
+        "3 σ",
+        "1 σ e 2 π",
+        "2 σ e 1 π",
+        "1 σ e 1 π"
+      ],
+      "correta": 1,
+      "explicacao": "O N₂ tem uma ligação tripla, e numa ligação múltipla apenas a primeira é σ e as demais são π. O erro comum é achar que todas as ligações de uma tripla são do mesmo tipo."
+    },
+    {
+      "id": "quimica-geral-10",
+      "topico": "ligacoes-quimicas",
+      "nivel": "analise",
+      "pergunta": "A água (H₂O) ferve a 100 °C, enquanto o sulfeto de hidrogênio (H₂S), de estrutura parecida, ferve a cerca de −60 °C. Qual é a melhor explicação?",
+      "opcoes": [
+        "O H₂S tem massa molar menor que a da água",
+        "A ligação O–H é mais forte que a S–H e precisa ser rompida na ebulição",
+        "A água é um composto iônico e o H₂S é molecular",
+        "As moléculas de água formam ligações de hidrogênio entre si, que são mais fortes que as forças entre as moléculas de H₂S"
+      ],
+      "correta": 3,
+      "explicacao": "Na ebulição separam-se moléculas, e a água tem ligações de hidrogênio intensas porque o H está ligado ao oxigênio, muito eletronegativo. O erro comum é dizer que a ebulição rompe as ligações covalentes O–H, que permanecem intactas no vapor."
+    },
+    {
+      "id": "quimica-geral-11",
+      "topico": "estequiometria",
+      "nivel": "conceitual",
+      "pergunta": "O que significa dizer que a massa molar da água é 18 g/mol?",
+      "opcoes": [
+        "Um mol de moléculas de água (6,02×10²³ moléculas) tem massa de 18 g",
+        "Uma única molécula de água tem massa de 18 g",
+        "18 mol de água têm massa de 1 g",
+        "Cada molécula de água tem 18 átomos"
+      ],
+      "correta": 0,
+      "explicacao": "A massa molar é a massa de 1 mol de entidades, ou seja, de 6,02×10²³ moléculas. O erro comum é atribuir 18 g a uma única molécula, cuja massa real é cerca de 3×10⁻²³ g."
+    },
+    {
+      "id": "quimica-geral-12",
+      "topico": "estequiometria",
+      "nivel": "aplicacao",
+      "pergunta": "Quantos mols existem em 88 g de CO₂? (Massas atômicas: C = 12, O = 16.)",
+      "opcoes": [
+        "0,5 mol",
+        "44 mol",
+        "2 mol",
+        "4 mol"
+      ],
+      "correta": 2,
+      "explicacao": "A massa molar do CO₂ é 12 + 2·16 = 44 g/mol, e n = m/M = 88/44 = 2 mol. O erro comum é inverter a divisão (M/m = 0,5) ou calcular a massa molar com um só oxigênio."
+    },
+    {
+      "id": "quimica-geral-13",
+      "topico": "estequiometria",
+      "nivel": "aplicacao",
+      "pergunta": "Na reação 2 H₂ + O₂ → 2 H₂O, que massa de água se forma a partir de 8 g de H₂, com O₂ em excesso? (Massas atômicas: H = 1, O = 16.)",
+      "opcoes": [
+        "36 g",
+        "8 g",
+        "72 g",
+        "144 g"
+      ],
+      "correta": 2,
+      "explicacao": "8 g de H₂ são 8/2 = 4 mol; a proporção 2 : 2 dá 4 mol de H₂O, que pesam 4·18 = 72 g. O erro comum é aplicar a proporção dos coeficientes direto às massas ou usar M(H₂) = 1 g/mol, obtendo 144 g."
+    },
+    {
+      "id": "quimica-geral-14",
+      "topico": "estequiometria",
+      "nivel": "aplicacao",
+      "pergunta": "Na combustão completa do propano, C₃H₈ + x O₂ → 3 CO₂ + 4 H₂O, qual é o coeficiente x que balanceia a equação?",
+      "opcoes": [
+        "5",
+        "3",
+        "7",
+        "10"
+      ],
+      "correta": 0,
+      "explicacao": "Do lado dos produtos há 3·2 + 4·1 = 10 átomos de oxigênio, então são necessárias 10/2 = 5 moléculas de O₂. O erro comum é contar os átomos de O (10) e esquecer que cada molécula de O₂ traz dois."
+    },
+    {
+      "id": "quimica-geral-15",
+      "topico": "estequiometria",
+      "nivel": "analise",
+      "pergunta": "Na reação N₂ + 3 H₂ → 2 NH₃, misturam-se 2 mol de N₂ e 3 mol de H₂. Qual é o reagente limitante e quantos mols de NH₃ se formam, no máximo?",
+      "opcoes": [
+        "N₂ é o limitante e formam-se 4 mol de NH₃",
+        "H₂ é o limitante e formam-se 4 mol de NH₃",
+        "Não há limitante e formam-se 5 mol de NH₃",
+        "H₂ é o limitante e formam-se 2 mol de NH₃"
+      ],
+      "correta": 3,
+      "explicacao": "Dividindo mols por coeficientes, N₂ dá 2/1 = 2 e H₂ dá 3/3 = 1, então o H₂ acaba primeiro; 3 mol de H₂ reagem com 1 mol de N₂ e formam 2 mol de NH₃. O erro comum é escolher o limitante pela menor quantidade absoluta de mols ou calcular o produto a partir do reagente em excesso."
+    },
+    {
+      "id": "quimica-geral-16",
+      "topico": "solucoes",
+      "nivel": "conceitual",
+      "pergunta": "A concentração em quantidade de matéria (molaridade) de uma solução é definida como:",
+      "opcoes": [
+        "mols de soluto por litro de solvente",
+        "mols de soluto por litro de solução",
+        "gramas de soluto por quilograma de solvente",
+        "mols de soluto por quilograma de solução"
+      ],
+      "correta": 1,
+      "explicacao": "A molaridade divide os mols de soluto pelo volume total da solução em litros. O erro comum é usar o volume do solvente, que em geral é diferente do volume final da solução."
+    },
+    {
+      "id": "quimica-geral-17",
+      "topico": "solucoes",
+      "nivel": "conceitual",
+      "pergunta": "Ao diluir uma solução aquosa acrescentando apenas água, o que permanece constante?",
+      "opcoes": [
+        "A concentração da solução",
+        "A quantidade de matéria (mols) de soluto",
+        "O volume da solução",
+        "A massa total da solução"
+      ],
+      "correta": 1,
+      "explicacao": "Na diluição só se acrescenta solvente, então os mols de soluto não mudam, o que justifica M₁·V₁ = M₂·V₂. O erro comum é achar que a concentração se mantém, quando na verdade ela diminui."
+    },
+    {
+      "id": "quimica-geral-18",
+      "topico": "solucoes",
+      "nivel": "aplicacao",
+      "pergunta": "Dissolvem-se 0,5 mol de NaCl em água até obter 250 mL de solução. Qual é a concentração em mol/L?",
+      "opcoes": [
+        "0,125 mol/L",
+        "0,5 mol/L",
+        "2 mol/L",
+        "20 mol/L"
+      ],
+      "correta": 2,
+      "explicacao": "Convertendo o volume, 250 mL = 0,25 L, e M = 0,5/0,25 = 2 mol/L. O erro comum é multiplicar em vez de dividir (0,125) ou não converter mL para litros."
+    },
+    {
+      "id": "quimica-geral-19",
+      "topico": "solucoes",
+      "nivel": "aplicacao",
+      "pergunta": "100 mL de uma solução de HCl 2 mol/L são diluídos com água até 500 mL. Qual é a nova concentração?",
+      "opcoes": [
+        "10 mol/L",
+        "1 mol/L",
+        "0,2 mol/L",
+        "0,4 mol/L"
+      ],
+      "correta": 3,
+      "explicacao": "Por M₁·V₁ = M₂·V₂, M₂ = 2·100/500 = 0,4 mol/L. O erro comum é inverter a razão dos volumes e obter 10 mol/L, um valor maior que o original, o que é impossível numa diluição."
+    },
+    {
+      "id": "quimica-geral-20",
+      "topico": "solucoes",
+      "nivel": "analise",
+      "pergunta": "Um estudante precisa preparar 200 mL de solução de NaOH 0,5 mol/L (massa molar 40 g/mol). Qual procedimento está correto?",
+      "opcoes": [
+        "Dissolver 4 g de NaOH em um pouco de água e completar o volume até 200 mL em balão volumétrico",
+        "Dissolver 4 g de NaOH em 200 mL de água medidos à parte",
+        "Dissolver 20 g de NaOH e completar o volume até 200 mL em balão volumétrico",
+        "Dissolver 0,1 g de NaOH e completar o volume até 200 mL em balão volumétrico"
+      ],
+      "correta": 0,
+      "explicacao": "São necessários n = 0,5·0,2 = 0,1 mol, ou 0,1·40 = 4 g, e o volume final da solução deve ser 200 mL, por isso completa-se o balão até a marca. O erro comum é dissolver o soluto em 200 mL de água, o que dá um volume final diferente de 200 mL e outra concentração."
+    },
+    {
+      "id": "quimica-geral-21",
+      "topico": "termoquimica",
+      "nivel": "conceitual",
+      "pergunta": "Uma reação com ΔH = −100 kJ é:",
+      "opcoes": [
+        "endotérmica, absorvendo calor do ambiente",
+        "exotérmica, absorvendo calor do ambiente",
+        "endotérmica, liberando calor para o ambiente",
+        "exotérmica, liberando calor para o ambiente"
+      ],
+      "correta": 3,
+      "explicacao": "ΔH negativo significa que a entalpia dos produtos é menor que a dos reagentes, e a diferença sai como calor: reação exotérmica. O erro comum é trocar os sinais e associar ΔH negativo à absorção de calor."
+    },
+    {
+      "id": "quimica-geral-22",
+      "topico": "termoquimica",
+      "nivel": "conceitual",
+      "pergunta": "A lei de Hess afirma que a variação de entalpia de uma reação:",
+      "opcoes": [
+        "depende apenas dos estados inicial e final, e não das etapas intermediárias",
+        "depende do número de etapas pelas quais a reação ocorre",
+        "é sempre igual à soma das energias de todas as ligações dos reagentes",
+        "muda quando se usa um catalisador"
+      ],
+      "correta": 0,
+      "explicacao": "A entalpia é função de estado, então qualquer caminho entre os mesmos reagentes e produtos tem o mesmo ΔH. O erro comum é achar que um catalisador altera o ΔH, quando ele só muda a energia de ativação."
+    },
+    {
+      "id": "quimica-geral-23",
+      "topico": "termoquimica",
+      "nivel": "aplicacao",
+      "pergunta": "Dadas as reações C(s) + O₂(g) → CO₂(g), ΔH = −394 kJ, e CO(g) + ½ O₂(g) → CO₂(g), ΔH = −283 kJ, qual é o ΔH de C(s) + ½ O₂(g) → CO(g)?",
+      "opcoes": [
+        "ΔH = −677 kJ (exotérmica)",
+        "ΔH = −111 kJ (exotérmica)",
+        "ΔH = +111 kJ (endotérmica)",
+        "ΔH = −283 kJ (exotérmica)"
+      ],
+      "correta": 1,
+      "explicacao": "Mantém-se a primeira equação e inverte-se a segunda (ΔH = +283 kJ); somando, ΔH = −394 + 283 = −111 kJ. O erro comum é somar as duas sem inverter a segunda, obtendo −677 kJ."
+    },
+    {
+      "id": "quimica-geral-24",
+      "topico": "termoquimica",
+      "nivel": "aplicacao",
+      "pergunta": "A combustão do metano (CH₄, massa molar 16 g/mol) tem ΔH = −890 kJ/mol. Quanto calor é liberado na queima completa de 32 g de metano?",
+      "opcoes": [
+        "890 kJ",
+        "445 kJ",
+        "1780 kJ",
+        "28480 kJ"
+      ],
+      "correta": 2,
+      "explicacao": "32 g correspondem a 32/16 = 2 mol, e 2·890 = 1780 kJ são liberados. O erro comum é multiplicar o ΔH pela massa em gramas (28480 kJ) em vez de usar o número de mols."
+    },
+    {
+      "id": "quimica-geral-25",
+      "topico": "termoquimica",
+      "nivel": "analise",
+      "pergunta": "Com as energias de ligação H–H = 436 kJ/mol, Cl–Cl = 243 kJ/mol e H–Cl = 432 kJ/mol, qual é o ΔH estimado da reação H₂ + Cl₂ → 2 HCl?",
+      "opcoes": [
+        "ΔH = −185 kJ (exotérmica)",
+        "ΔH = +185 kJ (endotérmica)",
+        "ΔH = +247 kJ (endotérmica)",
+        "ΔH = −1543 kJ (exotérmica)"
+      ],
+      "correta": 0,
+      "explicacao": "Rompem-se 436 + 243 = 679 kJ e formam-se 2·432 = 864 kJ, então ΔH = 679 − 864 = −185 kJ. Os erros comuns são inverter a subtração (+185 kJ) ou esquecer que se formam duas ligações H–Cl (+247 kJ)."
+    },
+    {
+      "id": "quimica-geral-26",
+      "topico": "equilibrio-e-ph",
+      "nivel": "conceitual",
+      "pergunta": "Num sistema em equilíbrio A(g) + B(g) ⇌ C(g), adiciona-se mais A, mantendo a temperatura. Segundo o princípio de Le Chatelier, o que ocorre?",
+      "opcoes": [
+        "O equilíbrio se desloca no sentido de formar mais A e B",
+        "O valor da constante K aumenta",
+        "Nada muda, pois o sistema já estava em equilíbrio",
+        "O equilíbrio se desloca no sentido de formar mais C, e a constante K não muda"
+      ],
+      "correta": 3,
+      "explicacao": "O sistema consome parte do A adicionado reagindo com B, deslocando-se para os produtos, mas K só depende da temperatura. O erro comum é achar que alterar concentrações muda o valor de K."
+    },
+    {
+      "id": "quimica-geral-27",
+      "topico": "equilibrio-e-ph",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o pH de uma solução aquosa de HCl 0,01 mol/L a 25 °C, considerando ionização total?",
+      "opcoes": [
+        "0,01",
+        "12",
+        "2",
+        "1"
+      ],
+      "correta": 2,
+      "explicacao": "Como o HCl é ácido forte, [H⁺] = 0,01 = 10⁻² mol/L e pH = −log 10⁻² = 2. O erro comum é confundir pH com pOH e responder 12, ou usar a própria concentração como pH."
+    },
+    {
+      "id": "quimica-geral-28",
+      "topico": "equilibrio-e-ph",
+      "nivel": "aplicacao",
+      "pergunta": "Uma solução aquosa a 25 °C tem [OH⁻] = 10⁻³ mol/L. Qual é o seu pH?",
+      "opcoes": [
+        "3",
+        "11",
+        "7",
+        "14"
+      ],
+      "correta": 1,
+      "explicacao": "pOH = −log 10⁻³ = 3 e, como pH + pOH = 14, pH = 14 − 3 = 11, uma solução básica. O erro comum é calcular o pOH e apresentá-lo como pH."
+    },
+    {
+      "id": "quimica-geral-29",
+      "topico": "equilibrio-e-ph",
+      "nivel": "aplicacao",
+      "pergunta": "Para N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), as concentrações no equilíbrio são [N₂] = 0,1 mol/L, [H₂] = 0,2 mol/L e [NH₃] = 0,2 mol/L. Qual é o valor de Kc?",
+      "opcoes": [
+        "10",
+        "50",
+        "0,02",
+        "25"
+      ],
+      "correta": 1,
+      "explicacao": "Kc = [NH₃]²/([N₂]·[H₂]³) = 0,04/(0,1·0,008) = 0,04/0,0008 = 50. O erro comum é ignorar os expoentes (obtendo 10) ou inverter a fração (0,02)."
+    },
+    {
+      "id": "quimica-geral-30",
+      "topico": "equilibrio-e-ph",
+      "nivel": "analise",
+      "pergunta": "A síntese da amônia, N₂ + 3 H₂ ⇌ 2 NH₃, é exotérmica (ΔH < 0). O que acontece ao se aumentar a temperatura do sistema em equilíbrio?",
+      "opcoes": [
+        "O equilíbrio se desloca para os reagentes e o valor de K diminui",
+        "O equilíbrio se desloca para os produtos e o valor de K aumenta",
+        "O equilíbrio se desloca para os reagentes, mas o valor de K não muda",
+        "O equilíbrio não se desloca; só a velocidade da reação aumenta"
+      ],
+      "correta": 0,
+      "explicacao": "Aquecer favorece o sentido endotérmico, que aqui é o inverso, e, como K depende da temperatura, seu valor diminui numa reação exotérmica. O erro comum é achar que K nunca muda; ele não muda com concentração ou pressão, mas muda com a temperatura."
+    }
+  ]
+}

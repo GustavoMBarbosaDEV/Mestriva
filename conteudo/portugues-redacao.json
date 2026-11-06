@@ -1,0 +1,465 @@
+{
+  "id": "portugues-redacao",
+  "nome": "Português e Redação Acadêmica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "generos-academicos",
+      "nome": "Gêneros acadêmicos: resumo, resenha e artigo",
+      "resumo": "## O que são gêneros acadêmicos\nGêneros acadêmicos são formas de texto com finalidade, estrutura e linguagem reconhecidas pela comunidade universitária. Os três mais cobrados na graduação são o **resumo**, a **resenha** e o **artigo científico**.\n\n### Resumo\n- Apresenta, de forma concisa, as **ideias principais** de um texto-fonte, na ordem lógica em que aparecem.\n- Deve ser **fiel ao original**: não traz opinião de quem resume nem informações novas.\n- O **resumo indicativo** apenas aponta os tópicos tratados; o **resumo informativo** expõe objetivo, método, resultados e conclusões, permitindo dispensar a leitura do original em uma primeira aproximação.\n- O resumo que acompanha um artigo é um parágrafo único, em linguagem objetiva, seguido de palavras-chave.\n\n### Resenha\n- Une **síntese** da obra e **avaliação crítica fundamentada**.\n- Costuma trazer: referência da obra, dados sobre o autor, síntese do conteúdo, apreciação crítica e recomendação ao leitor.\n- A crítica deve ser justificada com argumentos, e não com gosto pessoal.\n\n### Artigo científico\n- Divulga os resultados de uma pesquisa de forma completa e verificável.\n- Estrutura frequente **IMRD**: **Introdução** (problema e objetivo), **Métodos** (como a pesquisa foi feita), **Resultados** (o que foi encontrado) e **Discussão** (interpretação e relação com outros estudos), seguida de conclusão e referências.\n\nEm todos eles, a linguagem é **impessoal, precisa e objetiva**, e as ideias de outros autores devem ser **citadas** com indicação da fonte.",
+      "revisao": "**Pontos-chave**\n- Resumo: síntese fiel, sem opinião.\n- Resenha: síntese + crítica argumentada.\n- Artigo: relato de pesquisa; estrutura IMRD (Introdução, Métodos, Resultados, Discussão).\n\n**Erros comuns**\n- Colocar \"eu acho\" em um resumo.\n- Fazer resenha só com elogios ou ataques, sem justificar.\n- Copiar trechos do original sem aspas e sem fonte.\n\n**Mini exemplo**\nResumo: \"O autor analisa a evasão no ensino superior e aponta fatores financeiros como principal causa.\"\nResenha: \"A análise é convincente, mas a amostra restrita a uma única universidade limita a generalização.\""
+    },
+    {
+      "id": "coesao-coerencia",
+      "nome": "Coesão e coerência",
+      "resumo": "## Dois pilares da textualidade\nUm texto não é um amontoado de frases: suas partes precisam estar **ligadas** e fazer **sentido** em conjunto.\n\n### Coesão\nÉ a **conexão linguística** entre as partes do texto, visível na superfície. Principais mecanismos:\n- **Coesão referencial**: retomar ou antecipar elementos. Pode ocorrer por **pronomes** (\"ele\", \"isso\"), por **substituição lexical** (sinônimos, hiperônimos, expressões descritivas: \"Machado de Assis... o escritor carioca\") ou por **elipse** (omissão de termo facilmente recuperável).\n- **Anáfora** retoma algo já dito; **catáfora** antecipa algo que ainda será dito.\n- **Coesão sequencial**: feita por **conectivos**, que indicam a relação lógica entre ideias:\n  - adição: e, além disso, ademais;\n  - oposição: mas, porém, contudo, entretanto;\n  - concessão: embora, ainda que, conquanto, mesmo que;\n  - causa/explicação: porque, pois, visto que, já que;\n  - conclusão: portanto, logo, por isso, assim;\n  - condição: se, caso, desde que.\n\n### Coerência\nÉ a **unidade de sentido** do texto: as ideias não se contradizem, seguem uma progressão lógica e são compatíveis com o conhecimento de mundo do leitor.\n\n### Relação entre as duas\nA coesão costuma favorecer a coerência, mas uma não garante a outra. Um conectivo mal escolhido (por exemplo, \"portanto\" ligando ideias opostas) cria **incoerência**, porque anuncia uma relação lógica que não existe. Escolher o conectivo certo é, portanto, escolher a relação de sentido certa.",
+      "revisao": "**Pontos-chave**\n- Coesão = ligação entre as partes (pronomes, sinônimos, conectivos).\n- Coerência = sentido lógico do todo.\n- Cada conectivo expressa uma relação: oposição, concessão, causa, conclusão etc.\n\n**Erros comuns**\n- Usar \"onde\" para retomar algo que não é lugar.\n- Trocar conclusão por oposição (\"estudou muito; portanto, reprovou\").\n- Repetir o mesmo nome em todas as frases em vez de variar a referência.\n\n**Mini exemplo**\n\"A pesquisa foi ampla. **Esse** estudo, **contudo**, não ouviu professores.\" O pronome retoma \"a pesquisa\" e o conectivo marca oposição."
+    },
+    {
+      "id": "concordancia",
+      "nome": "Concordância verbal e nominal",
+      "resumo": "## Concordância verbal\nO verbo concorda em **número e pessoa** com o sujeito. Casos que mais caem:\n- **Haver** no sentido de existir ou de tempo decorrido é **impessoal**: fica no singular (\"**Houve** muitos problemas\"; \"**Há** dez anos\"). A impessoalidade passa para o auxiliar: \"**Deve haver** soluções\".\n- **Fazer** indicando tempo decorrido também é impessoal: \"**Faz** dois anos que me formei\".\n- **Existir**, **ocorrer** e **acontecer** são pessoais: \"**Existem** dúvidas\"; \"**Ocorreram** falhas\".\n- Sujeito formado por expressão partitiva (**a maioria de**, **grande parte de**) seguida de plural: o verbo pode ficar no **singular** ou ir ao **plural** (\"A maioria dos alunos votou/votaram\").\n- Sujeito composto anteposto ao verbo leva o verbo ao **plural** (\"O diretor e a secretária chegaram\").\n\n## Concordância nominal\nArtigos, adjetivos, pronomes e numerais concordam em **gênero e número** com o substantivo.\n- **Anexo**, **incluso**, **obrigado**, **mesmo** e **quite** são variáveis: \"Seguem **anexas** as planilhas\"; \"Elas **mesmas** assinaram\". Já a locução **em anexo** é invariável.\n- **Meio** como advérbio (= um pouco) é invariável: \"Ela estava **meio** cansada\". Como numeral, varia: \"**meia** hora\".\n- **Bastante** varia quando acompanha substantivo (\"**bastantes** alunos\") e fica invariável quando é advérbio (\"estudaram **bastante**\").\n- Expressões **é proibido**, **é necessário**, **é bom**: ficam invariáveis se o sujeito não tiver determinante (\"É **proibido** entrada\") e concordam se houver (\"É **proibida** a entrada\").",
+      "revisao": "**Pontos-chave**\n- Haver (existir/tempo) e fazer (tempo) são impessoais: singular.\n- Existir e ocorrer concordam com o sujeito.\n- Anexo, mesmo, obrigado variam; \"em anexo\" não varia.\n- Meio advérbio e bastante advérbio não variam.\n\n**Erros comuns**\n- \"Houveram problemas\" (correto: houve).\n- \"Devem haver soluções\" (correto: deve haver).\n- \"Segue anexo as notas\" (correto: seguem anexas).\n\n**Mini exemplo**\n\"Faz três meses que **existem** dúvidas, mas **houve** poucas reuniões.\""
+    },
+    {
+      "id": "regencia-crase",
+      "nome": "Regência e crase",
+      "resumo": "## Regência\n**Regência** é a relação entre um termo (verbo ou nome) e seus complementos, muitas vezes exigindo **preposição**.\n\n### Verbos que mais caem\n- **Assistir** no sentido de *ver, presenciar* é transitivo indireto e pede **a**: \"Assisti **ao** filme\". No sentido de *dar assistência*, é transitivo direto: \"O médico assistiu o paciente\".\n- **Preferir** pede a preposição **a** e rejeita intensificadores e \"do que\": \"Prefiro café **a** chá\" (e não \"prefiro mais café do que chá\").\n- **Obedecer** e **desobedecer** pedem **a**: \"Obedeça **ao** regulamento\".\n- **Visar** no sentido de *ter como objetivo* pede **a**: \"O projeto visa **ao** bem-estar\" (o uso sem preposição também é registrado por gramáticos modernos).\n- **Chegar** e **ir** com ideia de destino pedem **a**: \"Cheguei **a** casa\", \"Fui **ao** cinema\".\n\n## Crase\n**Crase** é a fusão da preposição **a** com o artigo feminino **a(s)** ou com o **a** inicial de *aquele(s), aquela(s), aquilo*. Ela é marcada pelo acento grave (**à**).\n\nPara haver crase, são necessárias duas condições: um termo que **exija a preposição a** e uma palavra que **admita o artigo a**.\n\n### Não há crase\n- antes de **palavras masculinas** (\"a pé\", \"a prazo\");\n- antes de **verbos** (\"começou a chover\");\n- antes da maioria dos **pronomes pessoais e de tratamento** (\"entreguei a ele\", \"a Vossa Senhoria\");\n- entre **palavras repetidas** (\"cara a cara\").\n\n### Dica para nomes de lugar\nTroque o verbo por \"voltar\": se ficar \"volto **da**\", há crase (\"Vou **à** Bahia\" / \"volto da Bahia\"); se ficar \"volto **de**\", não há (\"Vou **a** Brasília\" / \"volto de Brasília\").",
+      "revisao": "**Pontos-chave**\n- Assistir (ver) pede \"a\": assisti ao jogo.\n- Preferir: prefiro X a Y, sem \"mais\" e sem \"do que\".\n- Crase = preposição a + artigo a.\n\n**Erros comuns**\n- Crase antes de verbo (\"começou à chover\").\n- Crase antes de masculino (\"à pé\").\n- \"Prefiro mais isso do que aquilo\".\n\n**Mini exemplo**\n\"Fomos **à** reunião e depois **a** Curitiba; preferimos o trem **ao** ônibus.\" Há crase em \"à reunião\" (a + a), não em \"a Curitiba\" (volto de Curitiba)."
+    },
+    {
+      "id": "pontuacao",
+      "nome": "Pontuação",
+      "resumo": "## Para que serve a pontuação\nA pontuação organiza as relações sintáticas e o sentido da frase. Mudar uma vírgula pode mudar o significado.\n\n### Usos obrigatórios da vírgula\n- Isolar o **vocativo**: \"**Professor,** a prova é amanhã?\"\n- Isolar o **aposto explicativo**: \"Brasília, **a capital federal**, foi inaugurada em 1960.\"\n- Separar **itens de enumeração**: \"Comprou livros, cadernos e canetas.\"\n- Isolar **orações adjetivas explicativas**: \"Os alunos, **que estudaram**, foram aprovados.\"\n- Isolar **conjunções deslocadas**: \"Faltou, **porém**, o orçamento.\"\n- Marcar a **omissão de um verbo** (zeugma): \"Eu prefiro café; ela, chá.\"\n\n### Vírgula proibida\nNão se separa por vírgula o **sujeito do verbo**, nem o **verbo de seus complementos**: \"Os candidatos aprovados devem apresentar os documentos\" (sem vírgula depois de \"aprovados\").\n\n### Orações adjetivas: restritiva x explicativa\n- **Restritiva** (sem vírgulas) limita o grupo: \"Os alunos que estudaram passaram\" — só uma parte estudou.\n- **Explicativa** (com vírgulas) generaliza: \"Os alunos, que estudaram, passaram\" — todos estudaram.\n\n### Outros sinais\n- **Ponto e vírgula**: separa orações coordenadas extensas ou itens de enumeração que já contêm vírgulas.\n- **Dois-pontos**: introduzem citação, enumeração, explicação ou síntese.\n- **Travessão** e **parênteses**: isolam comentários ou intercalações.",
+      "revisao": "**Pontos-chave**\n- Vírgula obrigatória: vocativo, aposto, enumeração, oração explicativa, conjunção deslocada.\n- Nunca separar sujeito e verbo.\n- Restritiva (sem vírgula) x explicativa (com vírgulas) mudam o sentido.\n\n**Erros comuns**\n- \"Os alunos do curso, devem comparecer\" (vírgula entre sujeito e verbo).\n- Esquecer a vírgula do vocativo.\n- Usar ponto e vírgula no lugar de dois-pontos antes de uma lista.\n\n**Mini exemplo**\n\"Os carros, que eram velhos, foram vendidos\" (todos eram velhos) x \"Os carros que eram velhos foram vendidos\" (só os velhos)."
+    },
+    {
+      "id": "argumentacao-paragrafacao",
+      "nome": "Argumentação e paragrafação",
+      "resumo": "## Estrutura do texto dissertativo-argumentativo\nO texto argumentativo defende uma **tese** (ponto de vista) com **argumentos**. Estrutura usual:\n- **Introdução**: contextualiza o tema e apresenta a tese.\n- **Desenvolvimento**: parágrafos que sustentam a tese, cada um com um argumento principal.\n- **Conclusão**: retoma a tese, sintetiza a argumentação e, quando pedido, propõe soluções. **Não** introduz argumento novo.\n\n## O parágrafo\nCada parágrafo deve tratar de **uma ideia central**. Estrutura recomendada:\n- **Tópico frasal**: frase inicial que anuncia a ideia do parágrafo.\n- **Desenvolvimento**: explicações, exemplos, dados.\n- **Fechamento**: conclusão parcial ou ligação com o próximo parágrafo.\n\nParágrafo com duas ideias centrais deve ser dividido.\n\n## Tipos de argumento\n- **Por dados e estatísticas**: números de pesquisas e levantamentos.\n- **De autoridade**: opinião de especialista ou instituição reconhecida na área.\n- **Por exemplificação**: casos concretos que ilustram a tese.\n- **Por analogia**: comparação entre situações semelhantes.\n- **Por causa e consequência**: mostra efeitos de um fato.\n\n## Falácias (argumentos defeituosos)\n- **Ataque à pessoa (ad hominem)**: critica quem fala, não o que é dito.\n- **Generalização apressada**: conclusão geral a partir de poucos casos.\n- **Falso dilema**: apresenta só duas opções quando há outras.\n- **Apelo à autoridade indevida**: cita alguém sem competência no assunto.\n\nArgumentar bem é sustentar a tese com provas relevantes e raciocínio válido, antecipando objeções.",
+      "revisao": "**Pontos-chave**\n- Tese clara na introdução; um argumento por parágrafo; conclusão retoma a tese.\n- Tópico frasal anuncia a ideia do parágrafo.\n- Argumentos: dados, autoridade, exemplo, analogia, causa e consequência.\n\n**Erros comuns**\n- Trazer argumento novo na conclusão.\n- Parágrafo com várias ideias soltas.\n- Cair em falácias: ad hominem, generalização apressada.\n\n**Mini exemplo**\nTópico frasal: \"O transporte público precário agrava a evasão universitária.\" Desenvolvimento: dados de tempo de deslocamento. Fechamento: ligação com a próxima causa."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "portugues-redacao-1",
+      "topico": "generos-academicos",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica distingue a resenha crítica do resumo?",
+      "opcoes": [
+        "A resenha é sempre mais curta que o resumo",
+        "A resenha apresenta, além da síntese, uma avaliação fundamentada da obra",
+        "O resumo admite opiniões pessoais e a resenha não",
+        "O resumo deve reproduzir trechos literais da obra"
+      ],
+      "correta": 1,
+      "explicacao": "A resenha combina a síntese do conteúdo com uma apreciação crítica justificada por argumentos. O erro comum é achar que o resumo também admite opinião, quando ele deve ser fiel ao texto-fonte."
+    },
+    {
+      "id": "portugues-redacao-2",
+      "topico": "generos-academicos",
+      "nivel": "aplicacao",
+      "pergunta": "Ao resumir um artigo para uma disciplina, um estudante escreveu: \"Na minha opinião, o autor exagera ao culpar as redes sociais.\" Como avaliar essa frase no resumo?",
+      "opcoes": [
+        "Adequada, pois todo resumo exige posicionamento crítico de quem o escreve",
+        "Inadequada apenas por estar em primeira pessoa, bastando trocar por \"acredita-se\"",
+        "Adequada, desde que a opinião apareça no último parágrafo",
+        "Inadequada, pois o resumo deve ser fiel às ideias do texto-fonte, sem juízo de valor de quem resume"
+      ],
+      "correta": 3,
+      "explicacao": "O resumo apresenta as ideias principais do original sem acrescentar avaliação, que é próprio da resenha. Trocar a pessoa gramatical não resolve, porque o problema é a presença da opinião, não a forma de expressá-la."
+    },
+    {
+      "id": "portugues-redacao-3",
+      "topico": "generos-academicos",
+      "nivel": "conceitual",
+      "pergunta": "Em um artigo científico organizado na estrutura IMRD, em qual seção o autor descreve como os dados foram coletados e analisados?",
+      "opcoes": [
+        "Métodos",
+        "Introdução",
+        "Resultados",
+        "Discussão"
+      ],
+      "correta": 0,
+      "explicacao": "A seção de Métodos explica os procedimentos da pesquisa, permitindo que outros a avaliem ou repitam. É comum confundi-la com Resultados, que apresenta o que foi encontrado, e não como foi feito."
+    },
+    {
+      "id": "portugues-redacao-4",
+      "topico": "generos-academicos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pesquisadora precisa redigir o resumo que acompanhará seu artigo científico. Qual conteúdo é esperado nesse resumo?",
+      "opcoes": [
+        "A lista completa de referências usadas no artigo",
+        "Os agradecimentos às instituições de fomento",
+        "Objetivo, método, principais resultados e conclusões do trabalho, em parágrafo único",
+        "Longas citações diretas dos autores da fundamentação teórica"
+      ],
+      "correta": 2,
+      "explicacao": "O resumo de um artigo é informativo: condensa objetivo, método, resultados e conclusões para o leitor decidir se lerá o texto completo. Um erro frequente é enchê-lo de citações ou de contexto teórico, que pertencem ao corpo do artigo."
+    },
+    {
+      "id": "portugues-redacao-5",
+      "topico": "generos-academicos",
+      "nivel": "analise",
+      "pergunta": "Leia o trecho: \"O livro de Silva expõe com clareza as causas da evasão. A argumentação é consistente no capítulo 2, mas a falta de dados empíricos no capítulo 4 enfraquece a tese central. Recomenda-se a obra a quem inicia os estudos no tema.\" A que gênero o trecho pertence?",
+      "opcoes": [
+        "Resumo informativo",
+        "Fichamento de citações",
+        "Resenha crítica",
+        "Resumo de artigo científico"
+      ],
+      "correta": 2,
+      "explicacao": "O trecho sintetiza a obra, avalia pontos fortes e fracos com justificativa e faz recomendação ao leitor, traços típicos da resenha crítica. Quem marca resumo ignora que expressões avaliativas como \"enfraquece a tese\" não cabem em um resumo."
+    },
+    {
+      "id": "portugues-redacao-6",
+      "topico": "coesao-coerencia",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação diferencia corretamente coesão e coerência?",
+      "opcoes": [
+        "Coesão é a ligação linguística entre as partes do texto; coerência é a unidade lógica de sentido do todo",
+        "Coesão e coerência são sinônimos e designam a correção gramatical do texto",
+        "Coerência depende apenas do uso de conectivos; coesão depende do conhecimento de mundo",
+        "Coesão se refere ao título do texto; coerência, ao seu tamanho"
+      ],
+      "correta": 0,
+      "explicacao": "A coesão se manifesta na superfície do texto por pronomes, sinônimos e conectivos, enquanto a coerência diz respeito à lógica e à não contradição das ideias. O erro comum é tratá-las como a mesma coisa, mas um texto pode ter conectivos e ainda assim ser incoerente."
+    },
+    {
+      "id": "portugues-redacao-7",
+      "topico": "coesao-coerencia",
+      "nivel": "aplicacao",
+      "pergunta": "Qual conectivo completa a frase de modo coerente? \"Os alunos estudaram muito; ______, foram reprovados.\"",
+      "opcoes": [
+        "portanto",
+        "por isso",
+        "consequentemente",
+        "ainda assim"
+      ],
+      "correta": 3,
+      "explicacao": "A reprovação contraria a expectativa criada pelo estudo, por isso é necessária uma relação de oposição ou concessão, como \"ainda assim\". As demais opções indicam conclusão ou consequência, o que tornaria a frase incoerente."
+    },
+    {
+      "id": "portugues-redacao-8",
+      "topico": "coesao-coerencia",
+      "nivel": "aplicacao",
+      "pergunta": "No trecho \"Machado de Assis publicou Dom Casmurro em 1899. O escritor carioca já era reconhecido na época\", qual mecanismo de coesão é usado em \"O escritor carioca\"?",
+      "opcoes": [
+        "Coesão sequencial por conectivo",
+        "Coesão referencial por substituição lexical",
+        "Elipse do sujeito",
+        "Catáfora por pronome demonstrativo"
+      ],
+      "correta": 1,
+      "explicacao": "A expressão \"O escritor carioca\" retoma \"Machado de Assis\" com outras palavras, o que caracteriza substituição lexical, um tipo de coesão referencial. Não há conectivo ligando as orações, e a retomada é anafórica, não catafórica."
+    },
+    {
+      "id": "portugues-redacao-9",
+      "topico": "coesao-coerencia",
+      "nivel": "conceitual",
+      "pergunta": "Qual relação de sentido é expressa pela conjunção \"conquanto\"?",
+      "opcoes": [
+        "Concessão",
+        "Causa",
+        "Conclusão",
+        "Condição"
+      ],
+      "correta": 0,
+      "explicacao": "\"Conquanto\" equivale a \"embora\" e introduz uma concessão, um fato que não impede o que se afirma na oração principal. É frequente confundi-la com conjunções causais por causa da sonoridade, mas o sentido é de concessão."
+    },
+    {
+      "id": "portugues-redacao-10",
+      "topico": "coesao-coerencia",
+      "nivel": "analise",
+      "pergunta": "Na frase \"Embora o projeto seja caro, ele deve ser aprovado, pois reduz custos a longo prazo\", quais relações são estabelecidas por \"embora\" e \"pois\", respectivamente?",
+      "opcoes": [
+        "Condição e conclusão",
+        "Adição e finalidade",
+        "Concessão e explicação",
+        "Comparação e consequência"
+      ],
+      "correta": 2,
+      "explicacao": "\"Embora\" admite um obstáculo (o custo) que não impede a aprovação, e \"pois\" justifica a afirmação anterior. Um erro comum é ler \"pois\" como conclusivo, valor que ele só tem quando vem depois do verbo e entre vírgulas."
+    },
+    {
+      "id": "portugues-redacao-11",
+      "topico": "concordancia",
+      "nivel": "aplicacao",
+      "pergunta": "Assinale a frase escrita de acordo com a norma-padrão.",
+      "opcoes": [
+        "Fazem dois anos que me formei.",
+        "Faz dois anos que me formei.",
+        "Houveram muitos problemas na reunião.",
+        "Devem haver soluções para o caso."
+      ],
+      "correta": 1,
+      "explicacao": "O verbo \"fazer\" indicando tempo decorrido é impessoal e fica no singular. Os outros erros são clássicos: \"haver\" no sentido de existir também é impessoal, e essa impessoalidade passa para o auxiliar (\"deve haver\")."
+    },
+    {
+      "id": "portugues-redacao-12",
+      "topico": "concordancia",
+      "nivel": "aplicacao",
+      "pergunta": "Em um e-mail profissional, qual frase segue a norma-padrão?",
+      "opcoes": [
+        "Segue anexo as planilhas solicitadas.",
+        "Seguem anexo as planilhas solicitadas.",
+        "Segue anexas as planilhas solicitadas.",
+        "Seguem anexas as planilhas solicitadas."
+      ],
+      "correta": 3,
+      "explicacao": "\"Anexo\" é adjetivo e concorda com o substantivo (\"planilhas anexas\"), e o verbo concorda com o sujeito plural (\"seguem\"). O erro mais comum é deixar \"anexo\" invariável; só a locução \"em anexo\" não varia."
+    },
+    {
+      "id": "portugues-redacao-13",
+      "topico": "concordancia",
+      "nivel": "aplicacao",
+      "pergunta": "Qual frase está correta quanto à concordância nominal?",
+      "opcoes": [
+        "A diretora estava meia cansada após a reunião.",
+        "A diretora estava meio cansada após a reunião.",
+        "Bastante alunos faltaram à reunião.",
+        "Elas mesmo assinaram o documento."
+      ],
+      "correta": 1,
+      "explicacao": "\"Meio\" com sentido de \"um pouco\" é advérbio e não varia. Nas demais, \"bastante\" acompanhando substantivo deveria ir ao plural (\"bastantes alunos\") e \"mesmo\" deveria concordar (\"elas mesmas\")."
+    },
+    {
+      "id": "portugues-redacao-14",
+      "topico": "concordancia",
+      "nivel": "aplicacao",
+      "pergunta": "Assinale a frase correta quanto à concordância das expressões \"é proibido\" e \"é necessário\".",
+      "opcoes": [
+        "É proibido a entrada de pessoas estranhas.",
+        "É necessária paciência para estudar.",
+        "São necessário cuidados redobrados.",
+        "É proibida a entrada de pessoas estranhas."
+      ],
+      "correta": 3,
+      "explicacao": "Quando o sujeito vem determinado por artigo (\"a entrada\"), o adjetivo concorda com ele: \"é proibida a entrada\". Sem determinante, a expressão fica invariável, por isso o correto seria \"é necessário paciência\"."
+    },
+    {
+      "id": "portugues-redacao-15",
+      "topico": "concordancia",
+      "nivel": "analise",
+      "pergunta": "Sobre a frase \"A maioria dos estudantes aprovou a proposta\", é correto afirmar:",
+      "opcoes": [
+        "Com sujeito formado por expressão partitiva seguida de termo no plural, o verbo pode ficar no singular ou ir ao plural",
+        "O verbo deveria ir obrigatoriamente para o plural, concordando com \"estudantes\"",
+        "O verbo deve concordar com o objeto \"proposta\"",
+        "O singular só é aceito na linguagem coloquial, nunca na norma-padrão"
+      ],
+      "correta": 0,
+      "explicacao": "A norma-padrão admite as duas concordâncias com \"a maioria de\", \"grande parte de\" e similares: com o núcleo (singular) ou com o termo no plural. O erro comum é considerar o singular errado, quando ele é a concordância gramatical com o núcleo \"maioria\"."
+    },
+    {
+      "id": "portugues-redacao-16",
+      "topico": "regencia-crase",
+      "nivel": "aplicacao",
+      "pergunta": "Qual frase está de acordo com a regência da norma-padrão?",
+      "opcoes": [
+        "Assistimos o jogo pela televisão.",
+        "Prefiro mais estudar do que trabalhar.",
+        "Assistimos ao jogo pela televisão.",
+        "O motorista não obedeceu o sinal."
+      ],
+      "correta": 2,
+      "explicacao": "\"Assistir\" no sentido de ver é transitivo indireto e exige a preposição \"a\". Os outros erros também são típicos: \"preferir\" pede \"a\" e dispensa \"mais\" e \"do que\", e \"obedecer\" exige \"a\" (\"obedeceu ao sinal\")."
+    },
+    {
+      "id": "portugues-redacao-17",
+      "topico": "regencia-crase",
+      "nivel": "aplicacao",
+      "pergunta": "Em qual frase o acento grave indicativo de crase está corretamente empregado?",
+      "opcoes": [
+        "Começou à chover forte.",
+        "Ele chegou à pé.",
+        "Fui à biblioteca ontem.",
+        "Entreguei o relatório à ele."
+      ],
+      "correta": 2,
+      "explicacao": "\"Ir\" pede a preposição \"a\" e \"biblioteca\" admite o artigo \"a\", formando a crase. Não há crase antes de verbo, de palavra masculina nem de pronome pessoal, que é onde está o erro das demais."
+    },
+    {
+      "id": "portugues-redacao-18",
+      "topico": "regencia-crase",
+      "nivel": "conceitual",
+      "pergunta": "Em que consiste a crase?",
+      "opcoes": [
+        "Na fusão da preposição \"a\" com o artigo feminino \"a\" ou com o \"a\" inicial de \"aquele\", \"aquela\" e \"aquilo\"",
+        "No uso do acento grave antes de qualquer palavra feminina",
+        "No acento usado antes de verbos no infinitivo",
+        "No acento obrigatório sempre que houver a preposição \"a\""
+      ],
+      "correta": 0,
+      "explicacao": "A crase exige dois \"as\": a preposição pedida por um termo e o artigo (ou o \"a\" de aquele, aquela, aquilo). O erro comum é achar que basta a palavra ser feminina, mas sem a preposição não há crase (\"vi a menina\")."
+    },
+    {
+      "id": "portugues-redacao-19",
+      "topico": "regencia-crase",
+      "nivel": "aplicacao",
+      "pergunta": "Qual frase emprega o verbo \"preferir\" conforme a norma-padrão?",
+      "opcoes": [
+        "Prefiro mais café do que chá.",
+        "Prefiro café do que chá.",
+        "Prefiro muito mais café a chá.",
+        "Prefiro café a chá."
+      ],
+      "correta": 3,
+      "explicacao": "\"Preferir\" já contém a ideia de \"querer mais\" e rege a preposição \"a\": prefere-se algo a outra coisa. Usar \"mais\" ou \"do que\" é o erro mais frequente, influenciado pela fala cotidiana."
+    },
+    {
+      "id": "portugues-redacao-20",
+      "topico": "regencia-crase",
+      "nivel": "analise",
+      "pergunta": "Em qual frase o uso do acento grave está correto?",
+      "opcoes": [
+        "Na próxima semana, vou à Portugal.",
+        "Na próxima semana, vou à Bahia.",
+        "Na próxima semana, viajo à Curitiba.",
+        "Na próxima semana, voltarei à Brasília."
+      ],
+      "correta": 1,
+      "explicacao": "Pelo teste do \"voltar\", diz-se \"volto da Bahia\", o que revela o artigo e confirma a crase. Já \"volto de Portugal\", \"volto de Curitiba\" e \"volto de Brasília\" mostram que esses nomes não admitem artigo, então não há crase."
+    },
+    {
+      "id": "portugues-redacao-21",
+      "topico": "pontuacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação sobre o uso da vírgula está de acordo com a norma-padrão?",
+      "opcoes": [
+        "Não se separa por vírgula o sujeito de seu verbo",
+        "A vírgula é obrigatória antes de toda conjunção \"e\"",
+        "O vocativo dispensa vírgula quando aparece no início da frase",
+        "O aposto explicativo nunca deve ficar entre vírgulas"
+      ],
+      "correta": 0,
+      "explicacao": "Sujeito e verbo formam uma unidade sintática que a vírgula não deve romper, mesmo quando o sujeito é longo. É comum colocar vírgula depois de sujeitos extensos (\"Os alunos do primeiro semestre, devem...\"), o que é erro."
+    },
+    {
+      "id": "portugues-redacao-22",
+      "topico": "pontuacao",
+      "nivel": "aplicacao",
+      "pergunta": "Na frase \"Maria, traga os relatórios até sexta-feira\", a vírgula isola qual termo?",
+      "opcoes": [
+        "O sujeito",
+        "O aposto",
+        "O vocativo",
+        "O adjunto adverbial"
+      ],
+      "correta": 2,
+      "explicacao": "\"Maria\" é o termo usado para chamar o interlocutor, ou seja, um vocativo, que sempre vem separado por vírgula. O engano mais comum é tomá-lo por sujeito, mas o sujeito de \"traga\" é \"você\", implícito no imperativo."
+    },
+    {
+      "id": "portugues-redacao-23",
+      "topico": "pontuacao",
+      "nivel": "analise",
+      "pergunta": "Compare: (I) \"Os alunos que estudaram foram aprovados.\" (II) \"Os alunos, que estudaram, foram aprovados.\" Qual interpretação está correta?",
+      "opcoes": [
+        "As duas frases têm exatamente o mesmo sentido, mudando só o estilo",
+        "Em I, apenas parte dos alunos estudou e foi aprovada; em II, todos os alunos estudaram e foram aprovados",
+        "Em I, todos os alunos estudaram; em II, apenas parte deles estudou",
+        "A frase II está incorreta, pois oração com \"que\" nunca leva vírgula"
+      ],
+      "correta": 1,
+      "explicacao": "Sem vírgulas, a oração adjetiva é restritiva e delimita um subgrupo; com vírgulas, é explicativa e se aplica a todos. O erro comum é achar que as vírgulas são opcionais nesse caso, quando elas alteram o sentido."
+    },
+    {
+      "id": "portugues-redacao-24",
+      "topico": "pontuacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é um uso adequado do ponto e vírgula?",
+      "opcoes": [
+        "Separar o sujeito do predicado em frases longas",
+        "Introduzir uma citação direta",
+        "Indicar uma pergunta direta",
+        "Separar itens de uma enumeração longa que já contêm vírgulas internas"
+      ],
+      "correta": 3,
+      "explicacao": "O ponto e vírgula marca uma pausa maior que a vírgula e organiza enumerações complexas ou orações coordenadas extensas. Quem o usa para introduzir citação confunde-o com os dois-pontos."
+    },
+    {
+      "id": "portugues-redacao-25",
+      "topico": "pontuacao",
+      "nivel": "aplicacao",
+      "pergunta": "Na frase \"O projeto foi aprovado; faltou, porém, o orçamento\", por que \"porém\" está entre vírgulas?",
+      "opcoes": [
+        "Porque isola um vocativo",
+        "Porque a conjunção adversativa está deslocada para o interior da oração",
+        "Porque separa o sujeito do verbo",
+        "Porque marca a omissão de um verbo"
+      ],
+      "correta": 1,
+      "explicacao": "Quando conjunções como \"porém\", \"contudo\" e \"entretanto\" aparecem no meio da oração, devem vir isoladas por vírgulas. Não há vocativo nem verbo omitido no trecho, e o sujeito \"o orçamento\" não está separado do verbo por essa razão."
+    },
+    {
+      "id": "portugues-redacao-26",
+      "topico": "argumentacao-paragrafacao",
+      "nivel": "conceitual",
+      "pergunta": "O que é o tópico frasal de um parágrafo?",
+      "opcoes": [
+        "A última frase do texto, que resume a tese",
+        "A citação de autoridade que encerra o parágrafo",
+        "O título dado a cada parágrafo do texto",
+        "A frase, geralmente inicial, que anuncia a ideia central do parágrafo"
+      ],
+      "correta": 3,
+      "explicacao": "O tópico frasal apresenta a ideia que o restante do parágrafo vai desenvolver com explicações e exemplos. É comum confundi-lo com a conclusão do texto, mas ele existe em cada parágrafo, não só no fim."
+    },
+    {
+      "id": "portugues-redacao-27",
+      "topico": "argumentacao-paragrafacao",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma redação, lê-se: \"Uma pesquisa com 2 mil universitários mostrou que 62% deles trabalham durante a graduação.\" Que tipo de argumento é usado?",
+      "opcoes": [
+        "Argumento por dados estatísticos",
+        "Argumento por analogia",
+        "Argumento de autoridade",
+        "Argumento por exemplo histórico"
+      ],
+      "correta": 0,
+      "explicacao": "O trecho sustenta a ideia com números de um levantamento, o que caracteriza argumento por dados. Não é argumento de autoridade, porque não se apoia na opinião de um especialista, e sim em uma medição."
+    },
+    {
+      "id": "portugues-redacao-28",
+      "topico": "argumentacao-paragrafacao",
+      "nivel": "analise",
+      "pergunta": "Em um debate, alguém diz: \"Esse estudo sobre vacinas não vale nada, pois o autor torce para o time rival.\" Qual falha argumentativa ocorre?",
+      "opcoes": [
+        "Apelo à autoridade",
+        "Generalização apressada",
+        "Ataque à pessoa (ad hominem)",
+        "Falsa analogia"
+      ],
+      "correta": 2,
+      "explicacao": "O argumento desqualifica o autor por uma característica irrelevante em vez de discutir o conteúdo do estudo, o que é a falácia ad hominem. A confusão com generalização apressada é comum, mas aqui não há conclusão geral tirada de poucos casos."
+    },
+    {
+      "id": "portugues-redacao-29",
+      "topico": "argumentacao-paragrafacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um texto afirma: \"Conheci dois estagiários que chegavam atrasados; logo, os estagiários são irresponsáveis.\" Qual problema há nesse raciocínio?",
+      "opcoes": [
+        "Ataque à pessoa, pois critica o autor do texto",
+        "Falso dilema, pois apresenta só duas opções",
+        "Generalização apressada, pois tira uma conclusão geral de poucos casos",
+        "Nenhuma falha, pois a conclusão é baseada em experiência real"
+      ],
+      "correta": 2,
+      "explicacao": "Dois casos não bastam para concluir algo sobre todo um grupo, o que configura generalização apressada. Ter vivido a situação não torna a conclusão válida, e esse é justamente o engano que a falácia explora."
+    },
+    {
+      "id": "portugues-redacao-30",
+      "topico": "argumentacao-paragrafacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual atitude é adequada na conclusão de um texto dissertativo-argumentativo?",
+      "opcoes": [
+        "Retomar a tese e sintetizar a argumentação, sem introduzir argumentos novos",
+        "Apresentar pela primeira vez o argumento mais forte",
+        "Repetir literalmente o parágrafo de introdução",
+        "Mudar de posição para demonstrar imparcialidade"
+      ],
+      "correta": 0,
+      "explicacao": "A conclusão fecha o raciocínio, reafirmando a tese à luz dos argumentos desenvolvidos. Um erro frequente é guardar um argumento novo para o fim, o que deixa a ideia sem desenvolvimento."
+    }
+  ]
+}

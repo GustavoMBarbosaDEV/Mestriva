@@ -1,0 +1,465 @@
+{
+  "id": "algoritmos-programacao",
+  "nome": "Algoritmos e Programação",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "logica-algoritmos",
+      "nome": "Lógica e Algoritmos",
+      "resumo": "Um **algoritmo** é uma sequência **finita** e **não ambígua** de passos que resolve um problema. Uma receita de bolo bem escrita é um algoritmo; um programa é um algoritmo escrito numa linguagem que o computador executa.\n\n## Propriedades de um bom algoritmo\n- **Finitude**: termina após um número finito de passos.\n- **Definição**: cada passo tem um único significado.\n- **Entrada e saída**: recebe dados e produz um resultado.\n- **Efetividade**: cada passo pode ser realmente executado.\n\n## Formas de representar\n- **Descrição narrativa** (texto comum, sujeita a ambiguidades).\n- **Fluxograma** (símbolos gráficos para início, processamento, decisão e fim).\n- **Pseudocódigo** (português estruturado, como `leia`, `escreva`, `se ... então`).\n\n## Lógica booleana\nCondições assumem **Verdadeiro** ou **Falso**. Operadores (em Python):\n- `and`: verdadeiro só se os dois lados forem verdadeiros.\n- `or`: verdadeiro se pelo menos um lado for verdadeiro.\n- `not`: inverte o valor.\n\nPrecedência: `not` antes de `and`, que vem antes de `or`. Use parênteses para deixar a intenção clara.\n\n**Leis de De Morgan**:\n- `not (A and B)` equivale a `(not A) or (not B)`\n- `not (A or B)` equivale a `(not A) and (not B)`\n\n## Teste de mesa\nSimular o algoritmo à mão, anotando o valor de cada variável após cada linha, é a melhor forma de achar erros de lógica. Exemplo clássico: trocar os valores de duas variáveis exige uma variável auxiliar (ou um truque aritmético):\n\n```python\naux = a\na = b\nb = aux\n```",
+      "revisao": "- Algoritmo: passos finitos, sem ambiguidade, com entrada e saída.\n- `and` exige os dois verdadeiros; `or` exige pelo menos um.\n- De Morgan: ao negar, troca-se `and` por `or` e nega-se cada parte.\n- Faça teste de mesa linha a linha.\n\n**Erros comuns:** negar só uma parte da condição; esquecer que `not` tem precedência maior que `and`; trocar variáveis sem auxiliar (`a = b` seguido de `b = a` deixa as duas iguais).\n\n**Mini exemplo:** `not (idade >= 18 and tem_cnh)` equivale a `idade < 18 or not tem_cnh`."
+    },
+    {
+      "id": "variaveis-tipos",
+      "nome": "Variáveis, Tipos e Operadores",
+      "resumo": "Uma **variável** é um nome associado a um valor guardado na memória. Em Python, a **atribuição** usa `=`: `x = 10` faz o nome `x` se referir ao valor 10.\n\n## Tipos básicos\n- **Inteiro** (`int`): `42`, `-7`.\n- **Real / ponto flutuante** (`float`): `3.14`, `2.0`.\n- **Texto** (`str`): `\"Olá\"`.\n- **Lógico** (`bool`): `True` ou `False`.\n\nPython tem **tipagem dinâmica** (o tipo vem do valor, não de uma declaração) e **forte** (não mistura tipos incompatíveis sem conversão explícita: `\"5\" + 2` gera erro). Converta com `int()`, `float()` e `str()`. Note que `input()` sempre devolve texto.\n\n## Operadores aritméticos\n- `+  -  *  /`: a divisão `/` sempre dá `float` (`7 / 2` é `3.5`).\n- `//`: divisão inteira (`7 // 2` é `3`).\n- `%`: resto (`7 % 2` é `1`). Útil para testar paridade: `n % 2 == 0`.\n- `**`: potência (`2 ** 3` é `8`).\n\n**Precedência**: `**`, depois `* / // %`, depois `+ -`. Parênteses mudam a ordem.\n\n## Operadores com texto\n`+` concatena textos e `*` repete: `\"ab\" * 3` é `\"ababab\"`.\n\n## Comparação\n`==  !=  <  <=  >  >=` produzem `bool`. Não confunda `=` (atribuição) com `==` (comparação).\n\n## Cuidado com ponto flutuante\nNúmeros reais são guardados em binário com precisão limitada. Por isso `0.1 + 0.2` resulta em `0.30000000000000004`. Para comparar reais, use uma tolerância: `abs(a - b) < 1e-9`.",
+      "revisao": "- Tipos básicos: `int`, `float`, `str`, `bool`.\n- `/` dá real; `//` dá quociente inteiro; `%` dá resto.\n- Precedência: `**` > `* / // %` > `+ -`.\n- `input()` devolve texto; converta antes de fazer contas.\n\n- `=` atribui um valor; `==` compara dois valores.\n\n**Erros comuns:** somar texto com número; esperar que `7 / 2` dê 3; comparar números reais com `==` sem tolerância.\n\n**Mini exemplo:** `idade = int(input())` converte o texto digitado em inteiro; sem o `int()`, `idade + 1` daria erro de tipo."
+    },
+    {
+      "id": "condicionais",
+      "nome": "Estruturas Condicionais",
+      "resumo": "Estruturas **condicionais** escolhem qual trecho executar conforme uma condição booleana.\n\n## Formas em Python\n```python\nif condicao:\n    # executa se for verdadeira\nelif outra_condicao:\n    # testada só se a anterior for falsa\nelse:\n    # executa se nenhuma for verdadeira\n```\n\n- Em Python, o bloco é definido pela **indentação**. Linhas mal indentadas mudam o significado do programa ou geram erro.\n- Numa cadeia `if / elif / else`, **apenas o primeiro bloco** com condição verdadeira é executado; os demais são pulados.\n- Vários `if` independentes, em sequência, são testados **todos**, um a um. Essa diferença é fonte frequente de erros.\n\n## Ordem das condições\nEm faixas de valores, teste do mais restritivo para o mais amplo. Exemplo de conceitos:\n```python\nif nota >= 9:\n    conceito = \"A\"\nelif nota >= 7:\n    conceito = \"B\"\nelse:\n    conceito = \"C\"\n```\nSe `nota >= 7` viesse primeiro, uma nota 9,5 receberia \"B\".\n\n## Condições compostas\nCombine com `and`, `or` e `not`. Exemplo de ano bissexto (divisível por 4 e não por 100, ou divisível por 400):\n```python\nbissexto = (ano % 4 == 0 and ano % 100 != 0) or ano % 400 == 0\n```\n\n## Pseudocódigo\nEm pseudocódigo é comum escrever `se ... então ... senão ... fimse`. A lógica é a mesma.\n\n## Dica\nTeste os **valores de fronteira** (exatamente 7, logo abaixo, logo acima) para conferir se `>` e `>=` estão certos.",
+      "revisao": "- `if / elif / else`: só o primeiro bloco verdadeiro executa.\n- `if` separados: todos são testados.\n- Indentação define o bloco em Python.\n- Em faixas, comece pela condição mais restritiva.\n\n**Erros comuns:** usar `=` no lugar de `==`; ordenar faixas de modo que a primeira capture tudo; associar um `else` ao `if` errado; esquecer de testar valores de fronteira.\n\n**Mini exemplo:** `if n % 2 == 0: print(\"par\")` seguido de `else: print(\"ímpar\")` classifica qualquer inteiro, inclusive zero e negativos."
+    },
+    {
+      "id": "lacos",
+      "nome": "Laços de Repetição",
+      "resumo": "**Laços** repetem um bloco de instruções. Os dois principais em Python são `for` e `while`.\n\n## Laço for\nPercorre uma sequência de valores. Com `range`:\n- `range(n)`: de 0 até n − 1.\n- `range(a, b)`: de a até b − 1 (o limite final **não** entra).\n- `range(a, b, passo)`: de a até antes de b, de passo em passo. `range(10, 0, -2)` gera 10, 8, 6, 4, 2.\n\nTambém percorre listas e textos: `for letra in \"casa\":`.\n\n## Laço while\nRepete **enquanto** a condição for verdadeira. É indicado quando não se sabe de antemão quantas repetições serão necessárias (ler valores até o usuário digitar 0, por exemplo).\n\n```python\ni = 0\nwhile i < 5:\n    print(i)\n    i = i + 1\n```\n\nSe nada dentro do laço tornar a condição falsa, ocorre um **laço infinito**.\n\n## Padrões úteis\n- **Acumulador**: começa em 0 (soma) ou 1 (produto) e é atualizado a cada volta: `soma = soma + x`.\n- **Contador**: `cont = cont + 1` quando uma condição ocorre.\n- **Maior/menor**: inicialize com o primeiro elemento, não com 0, para funcionar com números negativos.\n\n## Laços aninhados\nUm laço dentro de outro: o interno executa por completo a cada volta do externo. Com 3 voltas externas e 4 internas, o corpo interno roda 3 × 4 = 12 vezes.\n\n## break e continue\n- `break` encerra o laço imediatamente.\n- `continue` pula para a próxima repetição.",
+      "revisao": "- `range(a, b)` não inclui b.\n- `for`: número de repetições conhecido; `while`: repete enquanto a condição valer.\n- No `while`, algo dentro do laço precisa alterar a condição.\n- Aninhados: total = voltas externas × voltas internas.\n\n**Erros comuns:** erro de \"um a mais ou a menos\" no `range`; esquecer de atualizar a variável do `while`; inicializar o acumulador dentro do laço.\n\n**Mini exemplo:** `for i in range(1, 4): print(i * i)` imprime 1, 4 e 9."
+    },
+    {
+      "id": "funcoes-recursao",
+      "nome": "Funções e Recursão",
+      "resumo": "Uma **função** é um bloco de código com nome, que recebe **parâmetros** e pode devolver um resultado. Funções evitam repetição e organizam o programa em partes testáveis.\n\n```python\ndef area_retangulo(base, altura):\n    return base * altura\n\na = area_retangulo(3, 4)   # a vale 12\n```\n\n## return x print\n- `return` **devolve** um valor para quem chamou a função e encerra a função.\n- `print` apenas **mostra** algo na tela; o valor não pode ser usado depois.\n- Uma função sem `return` devolve `None`.\n\n## Escopo\nVariáveis criadas dentro da função são **locais**: existem só durante a chamada. Atribuir a um nome dentro da função cria uma variável local, mesmo que exista uma global de mesmo nome; a global não é alterada (a menos que se use `global`, o que em geral se evita).\n\n## Recursão\nUma função **recursiva** chama a si mesma para resolver uma versão menor do problema. Ela precisa de:\n- **Caso base**: situação resolvida diretamente, sem nova chamada. Sem ele, a recursão não termina (em Python, ocorre `RecursionError`).\n- **Passo recursivo**: chamada com uma entrada que se aproxima do caso base.\n\n```python\ndef fatorial(n):\n    if n == 0:\n        return 1\n    return n * fatorial(n - 1)\n```\n\nCada chamada fica na **pilha de execução** até que o caso base seja atingido; então os resultados voltam multiplicando-se.\n\n## Custo da recursão\nRecursão ingênua pode repetir trabalho. O Fibonacci com `fib(n - 1) + fib(n - 2)` recalcula os mesmos valores muitas vezes, e o número de chamadas cresce exponencialmente. Versões iterativas ou com memorização resolvem em tempo linear.",
+      "revisao": "- `return` devolve valor; `print` só exibe.\n- Variáveis atribuídas dentro da função são locais.\n- Recursão = caso base + passo recursivo que se aproxima dele.\n- Fibonacci recursivo ingênuo é exponencial.\n\n**Erros comuns:** esquecer o caso base; passo recursivo que não diminui o problema; usar o resultado de uma função que só faz `print` (ele é `None`).\n\n**Mini exemplo:** `soma(n)` recursiva: se `n == 0`, devolve 0; senão, devolve `n + soma(n - 1)`. Então `soma(3)` = 3 + 2 + 1 + 0 = 6."
+    },
+    {
+      "id": "vetores-complexidade",
+      "nome": "Vetores, Matrizes e Complexidade",
+      "resumo": "**Vetores** (em Python, **listas**) guardam vários valores sob um único nome, acessados por **índice**.\n\n## Vetores\n- Índices começam em **0**: em `v = [4, 7, 1]`, `v[0]` é 4 e `v[2]` é 1.\n- `len(v)` dá o tamanho; o último índice é `len(v) - 1`. Acessar além dele gera `IndexError`.\n- Python aceita índices negativos: `v[-1]` é o último elemento.\n- Percorrer: `for x in v:` ou `for i in range(len(v)):`.\n\n## Matrizes\nSão vetores de vetores. Em `m = [[1, 2, 3], [4, 5, 6]]`, `m[i][j]` é o elemento da linha i e coluna j: `m[1][0]` vale 4. Para percorrer, usam-se dois laços aninhados (linhas por fora, colunas por dentro).\n\n## Complexidade de algoritmos\nA **notação O** descreve como o tempo (ou a memória) cresce com o tamanho n da entrada, em geral no **pior caso**, ignorando constantes:\n- **O(1)**: constante (acessar `v[i]`).\n- **O(log n)**: logarítmica (busca binária).\n- **O(n)**: linear (percorrer o vetor uma vez; busca sequencial).\n- **O(n log n)**: bons algoritmos de ordenação, como merge sort.\n- **O(n²)**: quadrática (dois laços aninhados sobre n; bubble sort).\n- **O(2ⁿ)**: exponencial (Fibonacci recursivo ingênuo).\n\n## Busca sequencial x binária\n- **Sequencial**: compara elemento por elemento; até n comparações. Funciona em qualquer vetor.\n- **Binária**: compara com o elemento do meio e descarta metade a cada passo; cerca de log₂ n comparações. Exige vetor **ordenado**. Com 1.000.000 de elementos, bastam cerca de 20 comparações.",
+      "revisao": "- Índices vão de 0 a `len(v) - 1`; `v[-1]` é o último.\n- `m[i][j]`: linha i, coluna j.\n- Um laço sobre n: O(n); dois aninhados: O(n²).\n- Busca binária: O(log n), mas só em vetor ordenado.\n\n**Erros comuns:** começar a contar índices em 1; usar `range(len(v) + 1)` e estourar o vetor; aplicar busca binária em dados desordenados; achar que O(n) significa exatamente n instruções.\n\n**Mini exemplo:** com 1024 elementos ordenados, a busca binária precisa de no máximo cerca de 10 comparações, pois 2¹⁰ = 1024."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "algoritmos-programacao-1",
+      "topico": "logica-algoritmos",
+      "nivel": "conceitual",
+      "pergunta": "Qual das definições abaixo descreve corretamente um algoritmo?",
+      "opcoes": [
+        "Uma sequência finita e não ambígua de passos que resolve um problema",
+        "Um programa escrito obrigatoriamente em uma linguagem de programação",
+        "Qualquer conjunto de instruções, mesmo que nunca termine",
+        "Um fluxograma que precisa ser desenhado antes de escrever o código"
+      ],
+      "correta": 0,
+      "explicacao": "Um algoritmo é independente de linguagem e precisa ser finito, bem definido e executável. O erro comum é confundir algoritmo com programa, que é apenas uma forma de escrevê-lo para o computador."
+    },
+    {
+      "id": "algoritmos-programacao-2",
+      "topico": "logica-algoritmos",
+      "nivel": "conceitual",
+      "pergunta": "A expressão lógica `A and B` é verdadeira quando:",
+      "opcoes": [
+        "pelo menos um dos dois é verdadeiro",
+        "exatamente um dos dois é verdadeiro",
+        "A e B são ambos verdadeiros",
+        "A e B são ambos falsos"
+      ],
+      "correta": 2,
+      "explicacao": "O operador `and` só resulta em verdadeiro quando as duas condições são verdadeiras. O erro comum é confundi-lo com `or`, que é verdadeiro se pelo menos uma das condições for verdadeira."
+    },
+    {
+      "id": "algoritmos-programacao-3",
+      "topico": "logica-algoritmos",
+      "nivel": "aplicacao",
+      "pergunta": "Se `A = True` e `B = False`, qual é o valor de `(A or B) and not B`?",
+      "opcoes": [
+        "False",
+        "True",
+        "None",
+        "Erro, pois não se pode misturar and e or"
+      ],
+      "correta": 1,
+      "explicacao": "`A or B` vale True e `not B` também vale True, então `True and True` resulta em True. O erro comum é aplicar o `not` à expressão inteira, quando ele atua apenas sobre B."
+    },
+    {
+      "id": "algoritmos-programacao-4",
+      "topico": "logica-algoritmos",
+      "nivel": "aplicacao",
+      "pergunta": "Pelas leis de De Morgan, a expressão `not (x > 5 and y < 3)` é equivalente a:",
+      "opcoes": [
+        "`x <= 5 and y >= 3`",
+        "`not x > 5 and y < 3`",
+        "`not x > 5 or y < 3`",
+        "`x <= 5 or y >= 3`"
+      ],
+      "correta": 3,
+      "explicacao": "Negar um `and` transforma-o em `or` e nega cada parte: `not (x > 5)` é `x <= 5` e `not (y < 3)` é `y >= 3`. O erro comum é negar as comparações mas manter o `and`, ou negar só a primeira parte."
+    },
+    {
+      "id": "algoritmos-programacao-5",
+      "topico": "logica-algoritmos",
+      "nivel": "analise",
+      "pergunta": "Faça o teste de mesa do trecho abaixo. Quais são os valores finais de `a` e `b`?\n```python\na = 3\nb = 5\na = a + b\nb = a - b\na = a - b\n```",
+      "opcoes": [
+        "a = 3 e b = 5",
+        "a = 8 e b = 3",
+        "a = 5 e b = 8",
+        "a = 5 e b = 3"
+      ],
+      "correta": 3,
+      "explicacao": "Linha a linha: a vira 8, b vira 8 − 5 = 3 e a vira 8 − 3 = 5, ou seja, os valores foram trocados sem variável auxiliar. O erro comum é usar o valor antigo de uma variável depois que ela já foi alterada."
+    },
+    {
+      "id": "algoritmos-programacao-6",
+      "topico": "variaveis-tipos",
+      "nivel": "conceitual",
+      "pergunta": "Qual tipo de dado é o mais adequado para guardar se um aluno está ou não matriculado?",
+      "opcoes": [
+        "Inteiro (`int`)",
+        "Lógico (`bool`)",
+        "Real (`float`)",
+        "Texto (`str`)"
+      ],
+      "correta": 1,
+      "explicacao": "Uma informação de sim ou não tem exatamente dois valores possíveis, que é o que o tipo `bool` representa (`True` ou `False`). Usar texto como \"sim\" e \"não\" funciona, mas abre espaço para erros de digitação e comparações falhas."
+    },
+    {
+      "id": "algoritmos-programacao-7",
+      "topico": "variaveis-tipos",
+      "nivel": "aplicacao",
+      "pergunta": "Em Python, quais são os resultados de `7 // 2` e de `7 % 2`, respectivamente?",
+      "opcoes": [
+        "3,5 e 1",
+        "3 e 0,5",
+        "3 e 1",
+        "4 e 1"
+      ],
+      "correta": 2,
+      "explicacao": "`//` dá o quociente inteiro da divisão (3) e `%` dá o resto (1), pois 7 = 2·3 + 1. O erro comum é confundir `//` com `/`, que daria 3,5."
+    },
+    {
+      "id": "algoritmos-programacao-8",
+      "topico": "variaveis-tipos",
+      "nivel": "aplicacao",
+      "pergunta": "O que o código abaixo imprime em Python?\n```python\nx = \"5\"\ny = 2\nprint(x * y)\n```",
+      "opcoes": [
+        "`55`",
+        "`10`",
+        "`52`",
+        "Um erro de tipo (TypeError)"
+      ],
+      "correta": 0,
+      "explicacao": "Como x é texto, o operador `*` com um inteiro repete o texto: `\"5\" * 2` resulta em `\"55\"`. O erro comum é esperar 10, que só sairia convertendo antes com `int(x)`; já `x + y`, esse sim, daria TypeError."
+    },
+    {
+      "id": "algoritmos-programacao-9",
+      "topico": "variaveis-tipos",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o valor da expressão `2 + 3 * 4 ** 2` em Python?",
+      "opcoes": [
+        "80",
+        "50",
+        "196",
+        "146"
+      ],
+      "correta": 1,
+      "explicacao": "A potência vem primeiro (4 ** 2 = 16), depois a multiplicação (3 * 16 = 48) e por fim a soma (2 + 48 = 50). Os erros comuns são somar antes de multiplicar (80) ou elevar ao quadrado o resultado de 2 + 3 * 4 (196)."
+    },
+    {
+      "id": "algoritmos-programacao-10",
+      "topico": "variaveis-tipos",
+      "nivel": "analise",
+      "pergunta": "Em Python, o que a expressão `0.1 + 0.2 == 0.3` produz, e por quê?",
+      "opcoes": [
+        "True, porque a soma é exatamente 0.3",
+        "Um erro, porque não se pode comparar valores float com ==",
+        "False, porque o operador + concatena os números como texto",
+        "False, porque 0.1 e 0.2 não têm representação binária exata e a soma dá 0.30000000000000004"
+      ],
+      "correta": 3,
+      "explicacao": "Números reais são guardados em binário com precisão finita, e pequenos erros de arredondamento fazem a soma diferir de 0.3. O certo é comparar com tolerância, por exemplo `abs(a - b) < 1e-9`, em vez de usar `==` com números reais."
+    },
+    {
+      "id": "algoritmos-programacao-11",
+      "topico": "condicionais",
+      "nivel": "conceitual",
+      "pergunta": "Em Python, qual é a diferença entre `=` e `==`?",
+      "opcoes": [
+        "`=` atribui um valor a uma variável; `==` compara dois valores e resulta em True ou False",
+        "Os dois comparam valores, mas `==` é mais rigoroso",
+        "`=` compara valores e `==` atribui",
+        "`==` é usado apenas com textos e `=` apenas com números"
+      ],
+      "correta": 0,
+      "explicacao": "`x = 5` guarda 5 em x, enquanto `x == 5` pergunta se x vale 5 e devolve um booleano. O erro comum é escrever `if x = 5:`, que em Python é erro de sintaxe."
+    },
+    {
+      "id": "algoritmos-programacao-12",
+      "topico": "condicionais",
+      "nivel": "conceitual",
+      "pergunta": "Numa cadeia `if / elif / else`, quantos blocos podem ser executados em uma única passagem?",
+      "opcoes": [
+        "Todos os blocos cujas condições forem verdadeiras",
+        "Sempre o bloco else, além do primeiro verdadeiro",
+        "No máximo um: o primeiro cuja condição for verdadeira, ou o else se nenhuma for",
+        "Apenas o último bloco cuja condição for verdadeira"
+      ],
+      "correta": 2,
+      "explicacao": "Ao encontrar a primeira condição verdadeira, o Python executa aquele bloco e pula o resto da cadeia. O erro comum é tratar `elif` como uma sequência de `if` independentes, que seriam todos testados."
+    },
+    {
+      "id": "algoritmos-programacao-13",
+      "topico": "condicionais",
+      "nivel": "aplicacao",
+      "pergunta": "O que o código abaixo imprime?\n```python\nnota = 7\nif nota >= 9:\n    print(\"A\")\nelif nota >= 7:\n    print(\"B\")\nelif nota >= 5:\n    print(\"C\")\nelse:\n    print(\"D\")\n```",
+      "opcoes": [
+        "`A`",
+        "`C`",
+        "`B`",
+        "`B` e depois `C`"
+      ],
+      "correta": 2,
+      "explicacao": "A primeira condição (7 >= 9) é falsa e a segunda (7 >= 7) é verdadeira, então imprime B e a cadeia termina. O erro comum é achar que o bloco de `nota >= 5` também executa, já que 7 >= 5."
+    },
+    {
+      "id": "algoritmos-programacao-14",
+      "topico": "condicionais",
+      "nivel": "aplicacao",
+      "pergunta": "Um ano é bissexto se for divisível por 4 e não por 100, ou se for divisível por 400. Qual condição implementa essa regra corretamente?",
+      "opcoes": [
+        "`(ano % 4 == 0 and ano % 100 != 0) or ano % 400 == 0`",
+        "`ano % 4 == 0`",
+        "`ano % 4 == 0 and ano % 400 == 0`",
+        "`(ano % 4 == 0 or ano % 100 != 0) and ano % 400 == 0`"
+      ],
+      "correta": 0,
+      "explicacao": "A regra tem duas formas de ser bissexto, ligadas por \"ou\", e a primeira exige duas condições ligadas por \"e\". O erro comum é testar só a divisibilidade por 4, o que classifica 1900 como bissexto."
+    },
+    {
+      "id": "algoritmos-programacao-15",
+      "topico": "condicionais",
+      "nivel": "analise",
+      "pergunta": "O programador queria imprimir \"positivo\" ou \"não positivo\". Para `x = 5`, o que o código imprime?\n```python\nif x > 0:\n    print(\"positivo\")\nif x > 10:\n    print(\"grande\")\nelse:\n    print(\"não positivo\")\n```",
+      "opcoes": [
+        "Apenas `positivo`",
+        "Apenas `não positivo`",
+        "`positivo` e depois `grande`",
+        "`positivo` e depois `não positivo`"
+      ],
+      "correta": 3,
+      "explicacao": "Os dois `if` são independentes e o `else` pertence ao segundo; como 5 > 10 é falso, o `else` também executa. O erro comum é ler o `else` como ligado ao primeiro `if`; a correção é trocar o segundo `if` por `elif` ou reorganizar os testes."
+    },
+    {
+      "id": "algoritmos-programacao-16",
+      "topico": "lacos",
+      "nivel": "conceitual",
+      "pergunta": "Em qual situação o laço `while` costuma ser mais adequado que o `for`?",
+      "opcoes": [
+        "Quando é preciso percorrer todos os elementos de uma lista",
+        "Quando não se sabe de antemão quantas repetições serão necessárias",
+        "Quando o número de repetições é fixo e conhecido",
+        "Quando o laço não pode ter nenhuma condição de parada"
+      ],
+      "correta": 1,
+      "explicacao": "O `while` repete enquanto uma condição for verdadeira, o que se ajusta a casos como ler dados até o usuário digitar 0. Para contagens conhecidas ou para percorrer sequências, o `for` é mais simples e menos sujeito a laço infinito."
+    },
+    {
+      "id": "algoritmos-programacao-17",
+      "topico": "lacos",
+      "nivel": "aplicacao",
+      "pergunta": "Quais valores são impressos por `for i in range(2, 10, 3): print(i)`?",
+      "opcoes": [
+        "2, 5, 8 e 11",
+        "2, 5 e 8",
+        "3, 6 e 9",
+        "2, 4, 6 e 8"
+      ],
+      "correta": 1,
+      "explicacao": "O `range` começa em 2, avança de 3 em 3 e para antes de 10, gerando 2, 5 e 8. O erro comum é incluir o limite ou ultrapassá-lo; o valor final do `range` nunca entra."
+    },
+    {
+      "id": "algoritmos-programacao-18",
+      "topico": "lacos",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o valor de `s` ao final do código?\n```python\ns = 0\nfor i in range(1, 5):\n    s = s + i\n```",
+      "opcoes": [
+        "15",
+        "4",
+        "10",
+        "6"
+      ],
+      "correta": 2,
+      "explicacao": "`range(1, 5)` gera 1, 2, 3 e 4, e a soma é 1 + 2 + 3 + 4 = 10. O erro comum é incluir o 5 e obter 15."
+    },
+    {
+      "id": "algoritmos-programacao-19",
+      "topico": "lacos",
+      "nivel": "aplicacao",
+      "pergunta": "Quantas vezes a palavra \"oi\" é impressa?\n```python\nfor i in range(3):\n    for j in range(4):\n        print(\"oi\")\n```",
+      "opcoes": [
+        "7",
+        "16",
+        "20",
+        "12"
+      ],
+      "correta": 3,
+      "explicacao": "O laço interno executa por completo, 4 vezes, em cada uma das 3 voltas do externo: 3 × 4 = 12. O erro comum é somar as repetições (3 + 4 = 7) em vez de multiplicá-las."
+    },
+    {
+      "id": "algoritmos-programacao-20",
+      "topico": "lacos",
+      "nivel": "analise",
+      "pergunta": "O que acontece ao executar o código abaixo?\n```python\ni = 0\nwhile i < 5:\n    print(i)\n```",
+      "opcoes": [
+        "O laço nunca termina e imprime 0 indefinidamente, porque i não é alterado dentro dele",
+        "Imprime os números de 0 a 4",
+        "Imprime os números de 0 a 5",
+        "Não imprime nada, porque a condição começa falsa"
+      ],
+      "correta": 0,
+      "explicacao": "Como nada no corpo do laço muda i, a condição `i < 5` continua sempre verdadeira e ocorre um laço infinito. A correção é incluir `i = i + 1` dentro do laço; o erro comum é supor que o `while` incrementa a variável sozinho, como o `for` com `range`."
+    },
+    {
+      "id": "algoritmos-programacao-21",
+      "topico": "funcoes-recursao",
+      "nivel": "conceitual",
+      "pergunta": "Por que toda função recursiva precisa de um caso base?",
+      "opcoes": [
+        "Para que a função possa receber parâmetros",
+        "Para que a função seja executada mais rápido",
+        "Para que a função devolva um valor do tipo inteiro",
+        "Para que exista uma situação resolvida sem nova chamada e a recursão termine"
+      ],
+      "correta": 3,
+      "explicacao": "Sem caso base, a função se chamaria indefinidamente até estourar a pilha de execução (em Python, `RecursionError`). O erro comum é ter um caso base que a entrada nunca alcança, o que causa o mesmo problema."
+    },
+    {
+      "id": "algoritmos-programacao-22",
+      "topico": "funcoes-recursao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença essencial entre usar `return` e usar `print` dentro de uma função?",
+      "opcoes": [
+        "`return` devolve um valor para quem chamou a função; `print` apenas exibe o valor na tela",
+        "Não há diferença: os dois devolvem o valor para o programa",
+        "`print` devolve o valor e `return` apenas o exibe",
+        "`return` só pode ser usado com números e `print` com textos"
+      ],
+      "correta": 0,
+      "explicacao": "Somente o `return` permite guardar o resultado, como em `y = f(x)`; uma função que só faz `print` devolve `None`. O erro comum é testar a função no terminal, ver o valor aparecer e concluir que ele foi devolvido."
+    },
+    {
+      "id": "algoritmos-programacao-23",
+      "topico": "funcoes-recursao",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o valor de `f(4)`?\n```python\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n - 1)\n```",
+      "opcoes": [
+        "10",
+        "24",
+        "4",
+        "120"
+      ],
+      "correta": 1,
+      "explicacao": "A função calcula o fatorial: f(4) = 4 · 3 · 2 · 1 · f(0) = 24, com f(0) = 1. O erro comum é somar em vez de multiplicar (10) ou calcular um passo a mais e obter 120, que é 5!."
+    },
+    {
+      "id": "algoritmos-programacao-24",
+      "topico": "funcoes-recursao",
+      "nivel": "aplicacao",
+      "pergunta": "O que o código abaixo imprime?\n```python\nx = 10\ndef muda():\n    x = 5\nmuda()\nprint(x)\n```",
+      "opcoes": [
+        "5",
+        "None",
+        "10",
+        "Um erro, pois x não foi definido dentro da função"
+      ],
+      "correta": 2,
+      "explicacao": "A atribuição `x = 5` dentro da função cria uma variável local, e a variável global x continua valendo 10. O erro comum é achar que a função altera a variável de fora só por ter o mesmo nome."
+    },
+    {
+      "id": "algoritmos-programacao-25",
+      "topico": "funcoes-recursao",
+      "nivel": "analise",
+      "pergunta": "A função `fib(n)` que devolve `fib(n - 1) + fib(n - 2)`, com casos base para n = 0 e n = 1, fica extremamente lenta para n por volta de 40. Qual é o motivo?",
+      "opcoes": [
+        "Ela recalcula os mesmos valores muitas vezes, e o número de chamadas cresce exponencialmente com n",
+        "Ela tem complexidade O(n), mas as chamadas de função em Python são lentas",
+        "Python não permite funções com duas chamadas recursivas",
+        "O caso base está errado, e por isso a recursão nunca termina"
+      ],
+      "correta": 0,
+      "explicacao": "Cada chamada gera outras duas, e valores como fib(2) são recalculados um número enorme de vezes, o que dá crescimento exponencial. O erro comum é achar que o problema é só a lentidão da linguagem; com memorização ou um laço, o cálculo fica linear."
+    },
+    {
+      "id": "algoritmos-programacao-26",
+      "topico": "vetores-complexidade",
+      "nivel": "conceitual",
+      "pergunta": "O que significa dizer que um algoritmo tem complexidade de tempo O(n)?",
+      "opcoes": [
+        "O algoritmo executa exatamente n instruções",
+        "O algoritmo sempre leva n segundos para terminar",
+        "O tempo é o mesmo para qualquer tamanho de entrada",
+        "O tempo cresce, no pior caso, proporcionalmente ao tamanho n da entrada"
+      ],
+      "correta": 3,
+      "explicacao": "A notação O descreve a taxa de crescimento do tempo e ignora constantes e termos menores, então 3n + 5 operações também é O(n). O erro comum é ler O(n) como uma contagem exata de instruções ou de segundos."
+    },
+    {
+      "id": "algoritmos-programacao-27",
+      "topico": "vetores-complexidade",
+      "nivel": "aplicacao",
+      "pergunta": "Em Python, com `v = [4, 7, 1, 9]`, qual é o valor de `v[1] + v[-1]`?",
+      "opcoes": [
+        "11",
+        "13",
+        "16",
+        "Um erro, pois índices negativos não existem"
+      ],
+      "correta": 2,
+      "explicacao": "Os índices começam em 0, então `v[1]` é 7, e `v[-1]` é o último elemento, 9: a soma é 16. O erro comum é começar a contar do 1 e tomar `v[1]` como 4, obtendo 13."
+    },
+    {
+      "id": "algoritmos-programacao-28",
+      "topico": "vetores-complexidade",
+      "nivel": "aplicacao",
+      "pergunta": "Com `m = [[1, 2, 3], [4, 5, 6]]`, qual é o valor de `m[1][2]`?",
+      "opcoes": [
+        "2",
+        "6",
+        "5",
+        "Um erro de índice, pois a matriz tem só 2 linhas"
+      ],
+      "correta": 1,
+      "explicacao": "`m[1]` é a segunda linha, `[4, 5, 6]`, e o índice 2 dela é o terceiro elemento, 6. O erro comum é inverter linha e coluna ou contar os índices a partir de 1."
+    },
+    {
+      "id": "algoritmos-programacao-29",
+      "topico": "vetores-complexidade",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a complexidade de tempo do trecho abaixo, em função de n = len(v)?\n```python\nfor i in range(len(v)):\n    for j in range(len(v)):\n        if v[i] == v[j] and i != j:\n            print(\"repetido\")\n```",
+      "opcoes": [
+        "O(n), linear",
+        "O(n²), quadrática",
+        "O(log n), logarítmica",
+        "O(1), constante"
+      ],
+      "correta": 1,
+      "explicacao": "Para cada um dos n valores de i, o laço interno roda n vezes, totalizando n · n comparações. O erro comum é olhar apenas para um dos laços e concluir que o trecho é linear."
+    },
+    {
+      "id": "algoritmos-programacao-30",
+      "topico": "vetores-complexidade",
+      "nivel": "analise",
+      "pergunta": "Deseja-se procurar um valor em um vetor de 1.000.000 de elementos usando busca binária. Quantas comparações são necessárias, no máximo, aproximadamente, e sob qual condição?",
+      "opcoes": [
+        "Cerca de 20, desde que o vetor esteja ordenado",
+        "Cerca de 20, mesmo que o vetor não esteja ordenado",
+        "Cerca de 500.000, mesmo com o vetor ordenado",
+        "Cerca de 1.000, a raiz quadrada do tamanho"
+      ],
+      "correta": 0,
+      "explicacao": "A busca binária descarta metade dos elementos a cada comparação, então precisa de cerca de log₂ 1.000.000 ≈ 20 passos, mas só funciona se o vetor estiver ordenado. O erro comum é aplicá-la a dados desordenados, em que descartar metade pode eliminar justamente o valor procurado."
+    }
+  ]
+}

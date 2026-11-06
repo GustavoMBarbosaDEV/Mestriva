@@ -1,0 +1,465 @@
+{
+  "id": "biologia-celular",
+  "nome": "Biologia Celular",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "organizacao-celular",
+      "nome": "Organização celular: procariontes e eucariontes",
+      "resumo": "## A célula como unidade da vida\n\nA **teoria celular** afirma que todos os seres vivos são formados por células, que a célula é a unidade estrutural e funcional da vida e que toda célula surge de outra preexistente. Toda célula tem **membrana plasmática**, **citoplasma**, **ribossomos** e **material genético (DNA)**.\n\n### Células procariontes\n\n- Presentes em **bactérias** e **arqueias**.\n- Não têm **carioteca** (envoltório nuclear): o DNA, geralmente uma molécula circular, fica numa região do citoplasma chamada **nucleoide**.\n- Podem ter **plasmídeos** (pequenos DNAs circulares extras).\n- Não têm organelas membranosas (mitocôndrias, retículo, Golgi).\n- Ribossomos **70S**; nas bactérias, parede celular com **peptidoglicano**.\n\n### Células eucariontes\n\n- Presentes em protozoários, fungos, plantas e animais.\n- Têm **núcleo delimitado pela carioteca** e um sistema de **organelas membranosas**.\n- Ribossomos citoplasmáticos **80S** e **citoesqueleto** desenvolvido.\n- **Células vegetais**: parede de **celulose**, **cloroplastos** e grande **vacúolo central**.\n- **Células animais**: sem parede celular; têm **centríolos** e lisossomos bem evidentes.\n- **Fungos**: parede de **quitina**.\n\n### Teoria endossimbiótica\n\nMitocôndrias e cloroplastos teriam surgido de procariontes englobados por uma célula ancestral. Evidências: possuem **DNA circular próprio**, **ribossomos semelhantes aos bacterianos**, **dupla membrana** e se dividem de forma independente da célula.",
+      "revisao": "**Pontos-chave**\n- Procarionte: sem carioteca, DNA no nucleoide, sem organelas membranosas, ribossomos 70S.\n- Eucarionte: núcleo verdadeiro, organelas membranosas, ribossomos 80S no citoplasma.\n- Parede: peptidoglicano (bactérias), celulose (plantas), quitina (fungos); animais não têm.\n\n**Erros comuns**\n- Dizer que procariontes não têm DNA ou ribossomos: eles têm os dois.\n- Achar que só plantas têm mitocôndrias ou que plantas não as têm: células vegetais têm mitocôndrias e cloroplastos.\n\n**Mini exemplo**\nUma célula com DNA circular solto no citoplasma e parede de peptidoglicano é uma bactéria."
+    },
+    {
+      "id": "membrana-transporte",
+      "nome": "Membrana plasmática e transporte",
+      "resumo": "## Estrutura da membrana\n\nA membrana plasmática segue o **modelo do mosaico fluido**: uma **bicamada de fosfolipídios** (cabeças hidrofílicas voltadas para fora, caudas hidrofóbicas para dentro) com **proteínas** inseridas que podem se deslocar lateralmente. Há também **colesterol** (em células animais), que regula a fluidez, e **glicídios** ligados a proteínas e lipídios, formando o **glicocálix**, importante no reconhecimento celular.\n\nA membrana tem **permeabilidade seletiva**: moléculas pequenas e apolares (O2, CO2) atravessam com facilidade; íons e moléculas grandes polares precisam de proteínas.\n\n### Transporte passivo (sem gasto de ATP, a favor do gradiente)\n\n- **Difusão simples**: passagem direta pela bicamada (ex.: O2 e CO2).\n- **Difusão facilitada**: com auxílio de **proteínas carreadoras ou canais** (ex.: glicose por GLUT); é específica e pode **saturar**.\n- **Osmose**: movimento da **água** do meio **hipotônico** (menos concentrado em soluto) para o **hipertônico**. Em meio hipotônico, a hemácia incha e pode sofrer **hemólise**; em meio hipertônico, murcha (**crenação**).\n\n### Transporte ativo (com gasto de ATP, contra o gradiente)\n\n- **Bomba de sódio e potássio**: expulsa **3 Na+** e coloca **2 K+** para dentro da célula a cada ATP.\n\n### Transporte em massa\n\n- **Endocitose**: **fagocitose** (partículas sólidas) e **pinocitose** (líquidos).\n- **Exocitose**: liberação de substâncias em vesículas que se fundem à membrana.",
+      "revisao": "**Pontos-chave**\n- Mosaico fluido: bicamada lipídica com proteínas móveis.\n- Passivo: difusão simples, facilitada e osmose, sem ATP, a favor do gradiente.\n- Ativo: contra o gradiente, com ATP (bomba Na+/K+: 3 Na+ saem, 2 K+ entram).\n\n**Erros comuns**\n- Confundir difusão facilitada com transporte ativo: usar proteína não significa gastar ATP.\n- Inverter a osmose: a água vai para o meio **mais concentrado** em soluto.\n\n**Mini exemplo**\nHemácia em água destilada (meio hipotônico) ganha água, incha e pode se romper."
+    },
+    {
+      "id": "organelas",
+      "nome": "Organelas citoplasmáticas",
+      "resumo": "## Principais organelas e funções\n\n- **Ribossomos**: síntese de proteínas. Podem estar livres no citosol ou aderidos ao retículo. Não têm membrana.\n- **Retículo endoplasmático rugoso (RER)**: tem ribossomos aderidos; sintetiza proteínas de exportação, de membrana e de lisossomos. Abundante em células **secretoras** (ex.: células pancreáticas que produzem enzimas).\n- **Retículo endoplasmático liso (REL)**: sem ribossomos; produz **lipídios** (incluindo hormônios esteroides), atua na **desintoxicação** de álcool e medicamentos (muito desenvolvido em hepatócitos) e armazena **cálcio** (no músculo, chamado retículo sarcoplasmático).\n- **Complexo de Golgi**: **modifica, empacota e endereça** proteínas e lipídios; forma **lisossomos**, o **acrossomo** do espermatozoide e participa da formação da lamela média em plantas.\n- **Lisossomos**: vesículas com **enzimas hidrolíticas** responsáveis pela **digestão intracelular** (heterofagia e autofagia). Falhas enzimáticas causam **doenças de depósito**, como Tay-Sachs.\n- **Mitocôndrias**: realizam a **respiração celular aeróbia** (ciclo de Krebs e cadeia respiratória), produzindo a maior parte do **ATP**.\n- **Cloroplastos**: realizam a **fotossíntese** (células vegetais e algas).\n- **Peroxissomos**: oxidam substâncias e decompõem **peróxido de hidrogênio** pela catalase.\n- **Centríolos**: participam da organização de cílios e flagelos; em células animais, ficam no centrossomo, de onde parte o fuso.\n- **Vacúolos**: em plantas, o vacúolo central armazena água e solutos e ajuda a manter a turgescência.\n\nA relação **estrutura-função** é central: a organela mais abundante numa célula revela sua atividade principal.",
+      "revisao": "**Pontos-chave**\n- RER: proteínas para exportação; REL: lipídios, desintoxicação, cálcio.\n- Golgi: modifica, empacota, endereça; origina lisossomos e acrossomo.\n- Lisossomo: digestão intracelular; mitocôndria: ATP; cloroplasto: fotossíntese.\n\n**Erros comuns**\n- Atribuir a síntese de proteínas ao Golgi: quem sintetiza são os ribossomos.\n- Confundir lisossomo (digestão) com peroxissomo (decomposição de H2O2).\n\n**Mini exemplo**\nCélulas do pâncreas que secretam enzimas digestivas têm muito RER e Golgi; hepatócitos de quem usa álcool cronicamente têm REL aumentado."
+    },
+    {
+      "id": "nucleo-sintese-proteica",
+      "nome": "Núcleo, DNA e síntese proteica",
+      "resumo": "## Núcleo\n\nO núcleo é delimitado pela **carioteca** (dupla membrana com **poros**) e contém a **cromatina** (DNA associado a proteínas histonas) e o **nucléolo**, onde se formam os componentes dos ribossomos (RNAr).\n\n## DNA e RNA\n\n- **DNA**: dupla-hélice, açúcar **desoxirribose**, bases **A, T, C, G**; pareamento **A-T** e **C-G**; fitas antiparalelas.\n- **RNA**: geralmente fita simples, açúcar **ribose**, bases **A, U, C, G** (uracila no lugar da timina).\n- Tipos de RNA: **mensageiro (RNAm)**, **transportador (RNAt)** e **ribossômico (RNAr)**.\n\n## Fluxo da informação genética\n\n- **Replicação**: duplicação do DNA, **semiconservativa**, na interfase.\n- **Transcrição**: síntese de **RNA a partir de um molde de DNA**, no núcleo (em eucariontes). A fita de RNA é complementar à fita molde (A do DNA pareia com U do RNA).\n- **Tradução**: síntese de **proteína** nos **ribossomos**, lendo o RNAm em **códons** (trincas de nucleotídeos). O RNAt traz o aminoácido e reconhece o códon pelo **anticódon**.\n\n### Código genético\n\n- Cada **códon** (3 nucleotídeos) corresponde a um aminoácido ou a um sinal de parada.\n- **AUG** é o códon de início (metionina).\n- É **degenerado (redundante)**: vários códons podem codificar o mesmo aminoácido.\n- É praticamente **universal** entre os seres vivos.\n\nAssim, uma proteína com n aminoácidos exige pelo menos **3n nucleotídeos** codificantes no RNAm.",
+      "revisao": "**Pontos-chave**\n- Transcrição: DNA → RNA (núcleo); tradução: RNAm → proteína (ribossomo).\n- DNA: desoxirribose e timina; RNA: ribose e uracila.\n- Códon = 3 nucleotídeos; código degenerado e quase universal.\n\n**Erros comuns**\n- Trocar transcrição com tradução.\n- Colocar T no RNA ao fazer a complementaridade: no RNA, o A do DNA pareia com **U**.\n\n**Mini exemplo**\nFita molde 3'-TAC GGA-5' gera o RNAm 5'-AUG CCU-3', que codifica metionina e prolina."
+    },
+    {
+      "id": "metabolismo-energetico",
+      "nome": "Metabolismo energético: respiração e fotossíntese",
+      "resumo": "## Respiração celular aeróbia\n\nProcesso que oxida a glicose para produzir **ATP**. Equação geral: glicose + O2 → CO2 + H2O + energia.\n\n- **Glicólise**: no **citosol**; quebra a glicose em 2 **piruvatos**, com saldo de **2 ATP** e 2 NADH. Não exige O2.\n- **Ciclo de Krebs**: na **matriz mitocondrial**; libera **CO2** e gera NADH e FADH2.\n- **Cadeia transportadora de elétrons e fosforilação oxidativa**: nas **cristas mitocondriais** (membrana interna); os elétrons do NADH e FADH2 passam por proteínas até o **O2**, o **aceptor final**, formando **água**. Essa etapa produz a maior parte do ATP.\n\n## Fermentação\n\nSem O2, a célula faz glicólise e regenera NAD+ por fermentação:\n- **Lática**: piruvato → **lactato** (músculos em esforço intenso, bactérias do iogurte).\n- **Alcoólica**: piruvato → **etanol + CO2** (leveduras).\nO rendimento é baixo: **2 ATP** por glicose.\n\n## Fotossíntese\n\nOcorre nos **cloroplastos**: CO2 + H2O + luz → glicose + O2.\n\n- **Fase fotoquímica (clara)**: nos **tilacoides**; a clorofila absorve luz, ocorre a **fotólise da água**, que libera o **O2**, e são produzidos **ATP e NADPH**.\n- **Fase química (ciclo de Calvin)**: no **estroma**; usa ATP e NADPH para **fixar o CO2** e produzir açúcares.\n\nExperimentos com oxigênio marcado mostraram que o **O2 liberado vem da água**, e não do CO2.",
+      "revisao": "**Pontos-chave**\n- Glicólise (citosol) → Krebs (matriz) → cadeia respiratória (cristas).\n- O2 é o aceptor final de elétrons e forma água.\n- Fotossíntese: fase clara (tilacoides, ATP, NADPH, O2) e ciclo de Calvin (estroma, fixa CO2).\n\n**Erros comuns**\n- Dizer que o O2 da fotossíntese vem do CO2: vem da **água**.\n- Achar que plantas não respiram: elas fazem fotossíntese **e** respiração.\n\n**Mini exemplo**\nNum tiro de 100 m, o músculo com pouco O2 faz fermentação lática e acumula lactato."
+    },
+    {
+      "id": "divisao-celular",
+      "nome": "Divisão celular: mitose e meiose",
+      "resumo": "## Ciclo celular\n\nA **interfase** (G1, S, G2) é a fase mais longa: a célula cresce e, na fase **S**, **duplica o DNA**. Cada cromossomo passa a ter **duas cromátides-irmãs** unidas pelo centrômero.\n\n## Mitose\n\nDivisão que gera **2 células geneticamente idênticas** à original, com o mesmo número de cromossomos. Serve ao crescimento, à reparação de tecidos e à reprodução assexuada.\n\n- **Prófase**: condensação dos cromossomos, formação do fuso, desorganização da carioteca.\n- **Metáfase**: cromossomos muito condensados e **alinhados na placa equatorial**.\n- **Anáfase**: separação das **cromátides-irmãs** para polos opostos.\n- **Telófase**: descondensação e reorganização dos núcleos; segue a **citocinese**.\n\n## Meiose\n\nDivisão que forma **4 células haploides (n)** a partir de uma diploide (2n). Ocorre na formação de gametas (animais) e esporos (plantas).\n\n- **Meiose I (reducional)**: na **prófase I** os homólogos se pareiam e ocorre o **crossing-over** (permutação); na **anáfase I** separam-se os **cromossomos homólogos**.\n- **Meiose II (equacional)**: semelhante à mitose; separam-se as **cromátides-irmãs**.\n\n### Variabilidade genética\n\nA meiose gera variabilidade pelo **crossing-over** e pela **segregação independente** dos homólogos. Na espécie humana (2n = 46), os gametas têm **23 cromossomos**; a fecundação restabelece o número 46.",
+      "revisao": "**Pontos-chave**\n- Mitose: 2 células iguais, mesmo número de cromossomos.\n- Meiose: 4 células haploides; meiose I separa homólogos, meiose II separa cromátides.\n- Variabilidade: crossing-over (prófase I) e segregação independente.\n\n**Erros comuns**\n- Achar que a duplicação do DNA ocorre na prófase: ocorre na fase S da interfase.\n- Confundir cromossomos homólogos com cromátides-irmãs.\n\n**Mini exemplo**\nUma célula 2n = 8 forma, por meiose, 4 células com 4 cromossomos cada; por mitose, 2 células com 8."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "biologia-celular-1",
+      "topico": "organizacao-celular",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica distingue fundamentalmente uma célula procarionte de uma eucarionte?",
+      "opcoes": [
+        "Ausência de carioteca delimitando o material genético",
+        "Ausência de ribossomos",
+        "Ausência de membrana plasmática",
+        "Ausência de DNA"
+      ],
+      "correta": 0,
+      "explicacao": "Procariontes não têm envoltório nuclear: o DNA fica no nucleoide, em contato direto com o citoplasma. O erro comum é pensar que eles não têm ribossomos ou DNA, mas todas as células possuem membrana, ribossomos e DNA."
+    },
+    {
+      "id": "biologia-celular-2",
+      "topico": "organizacao-celular",
+      "nivel": "conceitual",
+      "pergunta": "Qual estrutura está presente em células vegetais e ausente em células animais?",
+      "opcoes": [
+        "Mitocôndria",
+        "Parede celular de celulose",
+        "Complexo de Golgi",
+        "Retículo endoplasmático"
+      ],
+      "correta": 1,
+      "explicacao": "A parede de celulose é exclusiva das células vegetais entre as citadas, junto com cloroplastos e vacúolo central. Muitos estudantes marcam mitocôndria, mas células vegetais também têm mitocôndrias e respiram."
+    },
+    {
+      "id": "biologia-celular-3",
+      "topico": "organizacao-celular",
+      "nivel": "aplicacao",
+      "pergunta": "Ao microscópio eletrônico, observa-se uma célula com DNA circular disperso no citoplasma, ribossomos 70S, parede com peptidoglicano e nenhuma organela membranosa. Essa célula é provavelmente:",
+      "opcoes": [
+        "Uma célula vegetal",
+        "Uma célula de fungo",
+        "Uma bactéria",
+        "Um protozoário"
+      ],
+      "correta": 2,
+      "explicacao": "DNA no nucleoide, ribossomos 70S, peptidoglicano e ausência de organelas membranosas são marcas de bactérias. A confusão comum é com fungos e plantas, que também têm parede, mas de quitina e celulose, e são eucariontes com organelas."
+    },
+    {
+      "id": "biologia-celular-4",
+      "topico": "organizacao-celular",
+      "nivel": "aplicacao",
+      "pergunta": "Um antibiótico age bloqueando a síntese de peptidoglicano. Em qual tipo de organismo esse fármaco tende a ter efeito?",
+      "opcoes": [
+        "Fungos",
+        "Células humanas",
+        "Vírus",
+        "Bactérias"
+      ],
+      "correta": 3,
+      "explicacao": "O peptidoglicano é componente da parede celular bacteriana, por isso inibir sua síntese afeta bactérias sem atingir diretamente as células humanas. O erro comum é incluir fungos, cuja parede é de quitina, ou vírus, que nem têm parede celular."
+    },
+    {
+      "id": "biologia-celular-5",
+      "topico": "organizacao-celular",
+      "nivel": "analise",
+      "pergunta": "Qual observação é usada como evidência a favor da teoria endossimbiótica para a origem de mitocôndrias e cloroplastos?",
+      "opcoes": [
+        "Essas organelas possuem DNA circular próprio e ribossomos semelhantes aos bacterianos",
+        "Mitocôndrias estão presentes em todas as bactérias",
+        "Cloroplastos são produzidos a partir do complexo de Golgi",
+        "Todas as proteínas mitocondriais são codificadas por genes nucleares"
+      ],
+      "correta": 0,
+      "explicacao": "DNA circular, ribossomos do tipo bacteriano, dupla membrana e divisão independente indicam que essas organelas descendem de procariontes englobados. Um erro frequente é supor que bactérias têm mitocôndrias, mas procariontes não possuem organelas membranosas."
+    },
+    {
+      "id": "biologia-celular-6",
+      "topico": "membrana-transporte",
+      "nivel": "conceitual",
+      "pergunta": "Qual modelo descreve a estrutura atualmente aceita da membrana plasmática?",
+      "opcoes": [
+        "Uma camada rígida de proteínas cobrindo uma camada de lipídios",
+        "Mosaico fluido: bicamada de fosfolipídios com proteínas que se deslocam",
+        "Parede de celulose com poros para trocas",
+        "Camada única de fosfolipídios com as caudas voltadas para fora"
+      ],
+      "correta": 1,
+      "explicacao": "No modelo do mosaico fluido, a bicamada fosfolipídica tem proteínas inseridas que podem se mover lateralmente. O erro comum é imaginar a membrana como estrutura rígida ou confundi-la com a parede celular."
+    },
+    {
+      "id": "biologia-celular-7",
+      "topico": "membrana-transporte",
+      "nivel": "conceitual",
+      "pergunta": "Qual dos processos abaixo envolve gasto direto de ATP para mover substâncias através da membrana?",
+      "opcoes": [
+        "Difusão simples",
+        "Difusão facilitada",
+        "Transporte ativo, como a bomba de sódio e potássio",
+        "Osmose"
+      ],
+      "correta": 2,
+      "explicacao": "O transporte ativo move solutos contra o gradiente de concentração e, por isso, consome ATP. Muitos marcam difusão facilitada porque ela usa proteínas, mas ela é passiva e ocorre a favor do gradiente."
+    },
+    {
+      "id": "biologia-celular-8",
+      "topico": "membrana-transporte",
+      "nivel": "aplicacao",
+      "pergunta": "Hemácias humanas são colocadas em água destilada. O que se espera que aconteça?",
+      "opcoes": [
+        "Murcham por perda de água (crenação)",
+        "Permanecem inalteradas, pois o meio é isotônico",
+        "Perdem água por osmose e encolhem",
+        "Ganham água por osmose, incham e podem se romper (hemólise)"
+      ],
+      "correta": 3,
+      "explicacao": "A água destilada é hipotônica em relação à hemácia, então a água entra por osmose e a célula, sem parede, pode se romper. O erro comum é inverter o sentido da osmose: a água vai do meio menos concentrado para o mais concentrado em soluto."
+    },
+    {
+      "id": "biologia-celular-9",
+      "topico": "membrana-transporte",
+      "nivel": "aplicacao",
+      "pergunta": "Um neurônio mantém mais sódio fora e mais potássio dentro da célula. Como a bomba de sódio e potássio contribui para isso?",
+      "opcoes": [
+        "Expulsa 3 Na+ e coloca 2 K+ para dentro, gastando ATP",
+        "Expulsa 3 K+ e coloca 2 Na+ para dentro, gastando ATP",
+        "Move Na+ e K+ a favor do gradiente, sem gasto de energia",
+        "Expulsa 2 Na+ e coloca 3 K+ para dentro, sem gasto de ATP"
+      ],
+      "correta": 0,
+      "explicacao": "A cada ATP hidrolisado, a bomba retira 3 íons sódio e introduz 2 íons potássio, trabalhando contra os gradientes. É comum inverter os números ou os íons, ou esquecer que se trata de transporte ativo."
+    },
+    {
+      "id": "biologia-celular-10",
+      "topico": "membrana-transporte",
+      "nivel": "analise",
+      "pergunta": "A glicose entra em muitas células por proteínas transportadoras (GLUT), a favor do gradiente e sem gasto direto de ATP. Esse processo difere da difusão simples porque:",
+      "opcoes": [
+        "Consome ATP para funcionar",
+        "Depende de proteína específica e pode atingir saturação",
+        "Ocorre contra o gradiente de concentração",
+        "Só ocorre em células procariontes"
+      ],
+      "correta": 1,
+      "explicacao": "Na difusão facilitada, a passagem depende de carreadores específicos, que têm número limitado e podem saturar, ao contrário da difusão simples pela bicamada. O erro comum é achar que usar proteína implica gastar energia, o que define o transporte ativo, não a difusão facilitada."
+    },
+    {
+      "id": "biologia-celular-11",
+      "topico": "organelas",
+      "nivel": "conceitual",
+      "pergunta": "Qual organela é responsável pelo ciclo de Krebs e pela cadeia respiratória, produzindo a maior parte do ATP da célula eucarionte?",
+      "opcoes": [
+        "Lisossomo",
+        "Ribossomo",
+        "Mitocôndria",
+        "Peroxissomo"
+      ],
+      "correta": 2,
+      "explicacao": "O ciclo de Krebs ocorre na matriz mitocondrial e a cadeia respiratória nas cristas, gerando a maior parte do ATP. Alguns confundem com o peroxissomo porque ele também realiza oxidações, mas ele não produz ATP em quantidade relevante."
+    },
+    {
+      "id": "biologia-celular-12",
+      "topico": "organelas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal função do complexo de Golgi?",
+      "opcoes": [
+        "Sintetizar proteínas a partir do RNAm",
+        "Realizar a digestão intracelular",
+        "Realizar a fotossíntese",
+        "Modificar, empacotar e endereçar proteínas e lipídios, formando também lisossomos"
+      ],
+      "correta": 3,
+      "explicacao": "O Golgi recebe produtos do retículo, modifica-os (por exemplo, adicionando glicídios), empacota em vesículas e os direciona, além de originar lisossomos e o acrossomo. O erro comum é atribuir a ele a síntese de proteínas, que é feita pelos ribossomos."
+    },
+    {
+      "id": "biologia-celular-13",
+      "topico": "organelas",
+      "nivel": "aplicacao",
+      "pergunta": "Células do pâncreas que produzem e secretam grande quantidade de enzimas digestivas devem apresentar abundância de quais estruturas?",
+      "opcoes": [
+        "Retículo endoplasmático rugoso e complexo de Golgi",
+        "Cloroplastos e vacúolo central",
+        "Apenas retículo endoplasmático liso",
+        "Peroxissomos e centríolos"
+      ],
+      "correta": 0,
+      "explicacao": "Enzimas são proteínas de exportação: são sintetizadas no RER e processadas e secretadas via Golgi. É comum marcar o REL, mas ele produz lipídios e atua na desintoxicação, não na síntese de proteínas de secreção."
+    },
+    {
+      "id": "biologia-celular-14",
+      "topico": "organelas",
+      "nivel": "aplicacao",
+      "pergunta": "Em pessoas que consomem álcool ou certos medicamentos de forma crônica, os hepatócitos apresentam aumento de qual organela, associada à desintoxicação?",
+      "opcoes": [
+        "Retículo endoplasmático rugoso",
+        "Retículo endoplasmático liso",
+        "Centríolo",
+        "Lisossomo"
+      ],
+      "correta": 1,
+      "explicacao": "O REL contém enzimas que modificam substâncias tóxicas, e sua área aumenta nos hepatócitos expostos a álcool e fármacos. O erro comum é escolher o lisossomo, que faz digestão intracelular e não a desintoxicação de drogas."
+    },
+    {
+      "id": "biologia-celular-15",
+      "topico": "organelas",
+      "nivel": "analise",
+      "pergunta": "Em doenças de depósito, como a de Tay-Sachs, substâncias que deveriam ser degradadas se acumulam dentro de vesículas celulares por falta de uma enzima hidrolítica. Qual organela tem sua função comprometida?",
+      "opcoes": [
+        "Mitocôndria",
+        "Ribossomo",
+        "Lisossomo",
+        "Centríolo"
+      ],
+      "correta": 2,
+      "explicacao": "Lisossomos contêm enzimas hidrolíticas; quando uma delas falta, o material não digerido se acumula, caracterizando as doenças de depósito lisossômico. Um erro frequente é pensar no ribossomo por envolver uma enzima, mas o problema está no local onde a enzima deveria atuar."
+    },
+    {
+      "id": "biologia-celular-16",
+      "topico": "nucleo-sintese-proteica",
+      "nivel": "conceitual",
+      "pergunta": "O que é transcrição?",
+      "opcoes": [
+        "Síntese de proteína a partir do RNAm",
+        "Duplicação do DNA antes da divisão celular",
+        "Transporte de aminoácidos até o ribossomo",
+        "Síntese de RNA a partir de um molde de DNA"
+      ],
+      "correta": 3,
+      "explicacao": "Na transcrição, a RNA polimerase produz uma molécula de RNA complementar a uma fita de DNA. O erro comum é trocar com a tradução, que é a síntese de proteína nos ribossomos."
+    },
+    {
+      "id": "biologia-celular-17",
+      "topico": "nucleo-sintese-proteica",
+      "nivel": "aplicacao",
+      "pergunta": "Um trecho da fita molde de DNA é 3'-TACGGA-5'. Qual é o RNAm transcrito a partir dele?",
+      "opcoes": [
+        "5'-AUGCCU-3'",
+        "5'-ATGCCT-3'",
+        "5'-UACGGA-3'",
+        "5'-AUGGGU-3'"
+      ],
+      "correta": 0,
+      "explicacao": "Pareando T com A, A com U, C com G e G com C, obtém-se AUGCCU, com a orientação invertida em relação ao molde. O erro mais comum é usar timina no RNA, que tem uracila no lugar dela."
+    },
+    {
+      "id": "biologia-celular-18",
+      "topico": "nucleo-sintese-proteica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma proteína tem 150 aminoácidos. Considerando apenas os códons que codificam aminoácidos, quantos nucleotídeos do RNAm são necessários?",
+      "opcoes": [
+        "150",
+        "450",
+        "300",
+        "600"
+      ],
+      "correta": 1,
+      "explicacao": "Cada aminoácido é codificado por um códon de 3 nucleotídeos, então 150 × 3 = 450. O erro comum é associar um nucleotídeo por aminoácido ou multiplicar por 2, pensando nas duas fitas do DNA."
+    },
+    {
+      "id": "biologia-celular-19",
+      "topico": "nucleo-sintese-proteica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mutação troca o códon GAA por GAG, mas a proteína produzida não se altera. Isso é possível porque o código genético é:",
+      "opcoes": [
+        "Universal, igual em todos os seres vivos",
+        "Corrigido pelo ribossomo antes da tradução",
+        "Degenerado, com mais de um códon para o mesmo aminoácido",
+        "Ambíguo, com um códon para vários aminoácidos"
+      ],
+      "correta": 2,
+      "explicacao": "GAA e GAG codificam o mesmo aminoácido (glutamato), o que caracteriza a degeneração ou redundância do código. É comum confundir com universalidade, que significa que o código é praticamente o mesmo entre as espécies, ou com ambiguidade, que o código não tem."
+    },
+    {
+      "id": "biologia-celular-20",
+      "topico": "nucleo-sintese-proteica",
+      "nivel": "analise",
+      "pergunta": "Comparando DNA e RNA, qual afirmação está correta?",
+      "opcoes": [
+        "O DNA tem ribose e uracila; o RNA tem desoxirribose e timina",
+        "O RNA é sempre formado por dupla fita, como o DNA",
+        "Ambos possuem timina como uma de suas bases",
+        "O DNA tem desoxirribose e timina; o RNA tem ribose e uracila e geralmente é fita simples"
+      ],
+      "correta": 3,
+      "explicacao": "A diferença clássica está no açúcar (desoxirribose x ribose), na base exclusiva (timina x uracila) e no número de fitas. O erro comum é inverter os açúcares ou as bases entre as duas moléculas."
+    },
+    {
+      "id": "biologia-celular-21",
+      "topico": "metabolismo-energetico",
+      "nivel": "conceitual",
+      "pergunta": "Em que local da célula eucarionte ocorre a glicólise?",
+      "opcoes": [
+        "No citosol",
+        "Na matriz mitocondrial",
+        "Nas cristas mitocondriais",
+        "No estroma do cloroplasto"
+      ],
+      "correta": 0,
+      "explicacao": "A glicólise ocorre no citosol e não depende de oxigênio, sendo comum à respiração aeróbia e à fermentação. Muitos estudantes a colocam na mitocôndria, onde na verdade ocorrem o ciclo de Krebs e a cadeia respiratória."
+    },
+    {
+      "id": "biologia-celular-22",
+      "topico": "metabolismo-energetico",
+      "nivel": "aplicacao",
+      "pergunta": "Durante uma corrida de 100 metros, as fibras musculares recebem menos oxigênio do que precisam. Que processo garante parte do ATP nessa situação?",
+      "opcoes": [
+        "Fermentação alcoólica, produzindo etanol",
+        "Fermentação lática, que regenera NAD+ e produz lactato",
+        "Aumento do ciclo de Krebs sem participação do oxigênio",
+        "Fotossíntese realizada pelas mitocôndrias"
+      ],
+      "correta": 1,
+      "explicacao": "Com pouco O2, o piruvato é convertido em lactato, o que regenera NAD+ e permite que a glicólise continue produzindo 2 ATP por glicose. O erro comum é citar fermentação alcoólica, que ocorre em leveduras e não em músculos humanos."
+    },
+    {
+      "id": "biologia-celular-23",
+      "topico": "metabolismo-energetico",
+      "nivel": "aplicacao",
+      "pergunta": "O cianeto bloqueia a etapa final da cadeia respiratória, impedindo que os elétrons cheguem ao oxigênio. Qual é o papel normal do O2 nessa etapa?",
+      "opcoes": [
+        "Doar elétrons para o ciclo de Krebs",
+        "Reagir com a glicose no início da glicólise",
+        "Ser o aceptor final de elétrons, formando água",
+        "Fornecer o carbono que sai como CO2"
+      ],
+      "correta": 2,
+      "explicacao": "O oxigênio recebe os elétrons no fim da cadeia transportadora e se combina com H+ formando água, o que permite o fluxo de elétrons e a síntese de ATP. Um erro frequente é achar que o CO2 liberado vem do O2, quando ele vem dos carbonos da glicose no ciclo de Krebs e na formação do acetil-CoA."
+    },
+    {
+      "id": "biologia-celular-24",
+      "topico": "metabolismo-energetico",
+      "nivel": "aplicacao",
+      "pergunta": "Uma planta recebe água com oxigênio marcado (isótopo pesado) e CO2 comum. Onde aparecerá o oxigênio marcado?",
+      "opcoes": [
+        "Apenas na glicose produzida",
+        "Na clorofila dos tilacoides",
+        "Apenas no CO2 liberado pela planta",
+        "No O2 liberado pela fotossíntese"
+      ],
+      "correta": 3,
+      "explicacao": "O O2 liberado na fotossíntese vem da fotólise da água na fase fotoquímica, por isso carrega o isótopo marcado. O erro comum é pensar que o O2 vem do CO2, cujos átomos de oxigênio vão para a glicose e para a água formada."
+    },
+    {
+      "id": "biologia-celular-25",
+      "topico": "metabolismo-energetico",
+      "nivel": "analise",
+      "pergunta": "Sobre a relação entre a fase fotoquímica e o ciclo de Calvin, qual afirmação é correta?",
+      "opcoes": [
+        "A fase fotoquímica, nos tilacoides, produz ATP e NADPH usados no ciclo de Calvin, no estroma, para fixar CO2",
+        "O ciclo de Calvin ocorre nos tilacoides e libera o O2",
+        "A fase fotoquímica fixa o CO2 e o ciclo de Calvin quebra a água",
+        "O ciclo de Calvin produz o ATP que será usado na fase fotoquímica"
+      ],
+      "correta": 0,
+      "explicacao": "As duas fases são interdependentes: a etapa luminosa gera ATP e NADPH, que o ciclo de Calvin consome para transformar CO2 em açúcar. É comum inverter as funções, atribuindo a fixação de CO2 à fase clara ou a liberação de O2 ao ciclo de Calvin."
+    },
+    {
+      "id": "biologia-celular-26",
+      "topico": "divisao-celular",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o resultado de uma mitose seguida de citocinese?",
+      "opcoes": [
+        "Quatro células haploides geneticamente diferentes",
+        "Duas células geneticamente idênticas à célula original",
+        "Duas células com metade do número de cromossomos",
+        "Quatro células diploides idênticas"
+      ],
+      "correta": 1,
+      "explicacao": "A mitose distribui igualmente as cromátides-irmãs, gerando duas células com o mesmo número e tipo de cromossomos da original. O erro comum é confundir com a meiose, que forma quatro células haploides."
+    },
+    {
+      "id": "biologia-celular-27",
+      "topico": "divisao-celular",
+      "nivel": "aplicacao",
+      "pergunta": "Uma célula humana diploide (2n = 46) sofre meiose. Quantos cromossomos terá cada célula formada ao final do processo?",
+      "opcoes": [
+        "46",
+        "92",
+        "23",
+        "12"
+      ],
+      "correta": 2,
+      "explicacao": "A meiose reduz o número de cromossomos à metade, formando células haploides com 23 cromossomos. Um erro frequente é marcar 92, confundindo o número de cromátides após a duplicação com o número de cromossomos das células-filhas."
+    },
+    {
+      "id": "biologia-celular-28",
+      "topico": "divisao-celular",
+      "nivel": "aplicacao",
+      "pergunta": "Numa lâmina de ponta de raiz de cebola, um estudante vê uma célula com cromossomos muito condensados, alinhados no centro e presos às fibras do fuso. Em que fase ela está?",
+      "opcoes": [
+        "Prófase",
+        "Anáfase",
+        "Telófase",
+        "Metáfase"
+      ],
+      "correta": 3,
+      "explicacao": "Na metáfase os cromossomos atingem a condensação máxima e se alinham na placa equatorial, ligados ao fuso pelos centrômeros. O erro comum é marcar anáfase, mas nela as cromátides já estão migrando para os polos."
+    },
+    {
+      "id": "biologia-celular-29",
+      "topico": "divisao-celular",
+      "nivel": "aplicacao",
+      "pergunta": "Irmãos com os mesmos pais são geneticamente diferentes entre si. Quais eventos da meiose explicam essa variabilidade?",
+      "opcoes": [
+        "Crossing-over na prófase I e segregação independente dos cromossomos homólogos",
+        "Duplicação do DNA na fase S da interfase",
+        "Citocinese desigual ao final da telófase",
+        "Separação das cromátides-irmãs na anáfase da mitose"
+      ],
+      "correta": 0,
+      "explicacao": "O crossing-over troca trechos entre homólogos e a segregação independente combina de formas diferentes os cromossomos de origem paterna e materna em cada gameta. O erro comum é citar a duplicação do DNA, que apenas copia a informação e não cria novas combinações."
+    },
+    {
+      "id": "biologia-celular-30",
+      "topico": "divisao-celular",
+      "nivel": "analise",
+      "pergunta": "Comparando a anáfase da mitose com a anáfase I da meiose, é correto afirmar que:",
+      "opcoes": [
+        "Em ambas se separam as cromátides-irmãs",
+        "Na anáfase I separam-se os cromossomos homólogos; na anáfase mitótica, as cromátides-irmãs",
+        "Na anáfase I separam-se as cromátides-irmãs; na anáfase mitótica, os homólogos",
+        "Na anáfase I não há participação do fuso"
+      ],
+      "correta": 1,
+      "explicacao": "A anáfase I é reducional porque separa os homólogos, enquanto a mitose e a meiose II separam cromátides-irmãs. Muitos estudantes invertem esses eventos, por isso vale lembrar que só a meiose I separa homólogos."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "metodologia-cientifica",
+  "nome": "Metodologia Científica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "ciencia-conhecimento",
+      "nome": "Ciência e tipos de conhecimento",
+      "resumo": "## Tipos de conhecimento\n\nÉ comum distinguir quatro formas de conhecer a realidade:\n\n- **Popular (senso comum)**: adquirido pela experiência do dia a dia e transmitido entre pessoas; é **assistemático**, superficial e não passa por verificação metódica. Ex.: “chá de boldo cura ressaca porque sempre funcionou comigo”.\n- **Religioso (teológico)**: baseado em **revelação** e **fé**; suas verdades são aceitas como **dogmas**, sem necessidade de comprovação empírica.\n- **Filosófico**: fruto da **reflexão racional** sobre questões gerais (o ser, o conhecimento, a ética); é sistemático, mas não depende de experimentação.\n- **Científico**: **sistemático**, **metódico**, **verificável** e **falível**. Busca explicar fenômenos com base em evidências e está sempre aberto à revisão.\n\n## Características da ciência\n\nA ciência é **provisória**: suas conclusões valem até que novas evidências as corrijam. Ela usa **método**, ou seja, um conjunto de procedimentos que podem ser descritos e repetidos por outros pesquisadores.\n\n## Métodos de abordagem\n\n- **Dedutivo**: parte de premissas gerais para uma conclusão particular. Ex.: todo mamífero tem pulmões; a baleia é mamífero; logo, a baleia tem pulmões.\n- **Indutivo**: parte de casos particulares observados para uma generalização, que é sempre provável, não certa.\n- **Hipotético-dedutivo**: formula **hipóteses** (conjecturas) e deduz consequências que são testadas, tentando **refutá-las**.\n- **Dialético**: analisa os fenômenos em suas contradições e transformações.\n\n## Critério de Popper\n\nPara Karl Popper, uma teoria é científica quando é **falseável**: precisa ser possível imaginar uma observação que a contradiga. Afirmações que se ajustam a qualquer resultado não são testáveis e, por isso, não são científicas.",
+      "revisao": "**Pontos-chave**\n- Popular: assistemático; religioso: fé e dogma; filosófico: reflexão racional; científico: metódico, verificável, falível.\n- Dedução vai do geral ao particular; indução, do particular ao geral.\n- Popper: científico é o que pode ser falseado.\n\n**Erros comuns**\n- Achar que ciência produz verdades definitivas.\n- Confundir o método indutivo com o dedutivo.\n\n**Mini exemplo**\n“Observei 500 cisnes brancos, logo todos os cisnes são brancos” é indução, e um único cisne negro refuta a conclusão."
+    },
+    {
+      "id": "tipos-pesquisa",
+      "nome": "Tipos de pesquisa",
+      "resumo": "## Quanto à natureza\n\n- **Básica (pura)**: gera conhecimento novo sem aplicação prática imediata.\n- **Aplicada**: busca resolver problemas concretos.\n\n## Quanto à abordagem\n\n- **Quantitativa**: usa **mensuração**, dados numéricos e **análise estatística**; busca generalizar resultados.\n- **Qualitativa**: busca compreender **significados**, experiências e contextos; usa entrevistas, observação e análise de conteúdo, sem foco em medir.\n- **Mista**: combina as duas abordagens.\n\n## Quanto aos objetivos\n\n- **Exploratória**: proporciona **familiaridade** com um problema pouco estudado, tornando-o mais explícito ou ajudando a **construir hipóteses**.\n- **Descritiva**: descreve características de uma população ou fenômeno, frequentemente com técnicas padronizadas de coleta, como questionários.\n- **Explicativa**: identifica os **fatores que causam** ou contribuem para os fenômenos; é a que mais aprofunda o conhecimento.\n\n## Quanto aos procedimentos\n\n- **Bibliográfica**: feita com material **já publicado e analisado**, como livros e artigos.\n- **Documental**: usa documentos que **ainda não receberam tratamento analítico**, como relatórios, prontuários, cartas e documentos oficiais.\n- **Experimental**: o pesquisador **manipula** uma variável, **controla** as demais e compara grupos, geralmente com **distribuição aleatória**.\n- **Levantamento (survey)**: interroga diretamente muitas pessoas sobre o comportamento ou opinião que se quer conhecer.\n- **Estudo de caso**: estudo **profundo** de um ou poucos casos (uma empresa, uma escola, um paciente).\n- **Pesquisa-ação**: o pesquisador e os participantes atuam juntos para resolver um problema coletivo.\n- **Pesquisa de campo**: observação e coleta no local onde os fenômenos ocorrem.\n\nUm mesmo estudo pode ser, ao mesmo tempo, aplicado, qualitativo, exploratório e estudo de caso: as classificações são complementares.",
+      "revisao": "**Pontos-chave**\n- Objetivos: exploratória, descritiva, explicativa.\n- Abordagem: quantitativa (mede) x qualitativa (interpreta significados).\n- Procedimentos: bibliográfica, documental, experimental, levantamento, estudo de caso.\n\n**Erros comuns**\n- Confundir bibliográfica (material já analisado) com documental (material sem tratamento analítico).\n- Chamar de experimental qualquer pesquisa com dados numéricos: sem manipulação e controle de variáveis, não é experimento.\n\n**Mini exemplo**\nAnalisar prontuários de um hospital de 2015 a 2020 é pesquisa documental; revisar artigos sobre o tema é bibliográfica."
+    },
+    {
+      "id": "problema-hipotese-objetivos",
+      "nome": "Problema, hipótese e objetivos",
+      "resumo": "## Do tema ao problema\n\nO **tema** é o assunto amplo que se quer estudar (ex.: sono e desempenho acadêmico). A **delimitação** recorta o tema no espaço, no tempo e na população. O **problema de pesquisa** é a **pergunta** que o estudo pretende responder.\n\nUm bom problema:\n- é formulado como **pergunta**;\n- é **claro e preciso**;\n- é **delimitado** (quem, onde, quando);\n- pode ser investigado com os recursos disponíveis (**viável**);\n- tem relevância teórica ou prática.\n\n## Hipótese\n\nA **hipótese** é uma **resposta provisória** ao problema, que será testada. Deve ser uma **afirmação** verificável, que relaciona variáveis. Ex.: “Estudantes que dormem menos de seis horas obtêm notas menores”.\n\nPesquisas exploratórias e muitas qualitativas podem não ter hipóteses formais; nesse caso, usam **questões norteadoras**.\n\n## Variáveis\n\n- **Independente**: a que se supõe ser a causa ou fator de influência.\n- **Dependente**: a que sofre o efeito e é medida como resultado.\n\nNa hipótese “quanto mais horas de estudo, maior a nota”, horas de estudo é a variável independente e nota é a dependente.\n\n## Objetivos\n\n- **Objetivo geral**: expressa de forma ampla o que se pretende alcançar e responde diretamente ao problema.\n- **Objetivos específicos**: detalham as **etapas** ou aspectos que, alcançados, permitem atingir o objetivo geral.\n\nObjetivos começam com **verbo no infinitivo**: analisar, identificar, descrever, comparar, verificar.\n\n## Justificativa\n\nExplica **por que** a pesquisa é importante: relevância científica, social e pessoal, além da viabilidade.",
+      "revisao": "**Pontos-chave**\n- Problema: pergunta clara e delimitada.\n- Hipótese: afirmação provisória e testável que responde ao problema.\n- Objetivos: verbo no infinitivo; geral amplo, específicos como etapas.\n\n**Erros comuns**\n- Escrever a hipótese como pergunta ou o problema como afirmação.\n- Inverter variável independente (causa) e dependente (efeito).\n\n**Mini exemplo**\nProblema: o uso do celular em aula afeta as notas? Hipótese: quem usa celular em aula tem notas menores. Objetivo geral: analisar a relação entre o uso do celular em aula e as notas."
+    },
+    {
+      "id": "metodos-coleta",
+      "nome": "Métodos e coleta de dados",
+      "resumo": "## População e amostra\n\n- **População (universo)**: conjunto de todos os elementos com as características estudadas.\n- **Amostra**: parte da população efetivamente estudada.\n\n### Amostragem probabilística\n\nTodo elemento tem **chance conhecida** (e, na simples, igual) de ser escolhido. Permite generalizar com base estatística.\n- **Aleatória simples**: sorteio a partir de uma lista completa.\n- **Sistemática**: escolha a intervalos regulares (um a cada dez da lista).\n- **Estratificada**: a população é dividida em grupos (estratos) e sorteia-se dentro de cada um.\n\n### Amostragem não probabilística\n\nA escolha depende do julgamento do pesquisador ou da facilidade de acesso.\n- **Por conveniência**: quem está disponível.\n- **Intencional**: casos escolhidos por serem típicos ou informativos.\n- **Bola de neve**: participantes indicam outros.\nNão permite generalizações estatísticas e tem maior risco de **viés**.\n\n## Instrumentos de coleta\n\n- **Questionário**: série ordenada de perguntas respondidas **por escrito pelo próprio participante**, geralmente sem a presença do pesquisador. Atinge muitas pessoas e facilita a análise quantitativa.\n- **Entrevista**: conversa conduzida pelo pesquisador; pode ser **estruturada**, **semiestruturada** (roteiro flexível) ou **não estruturada**. Adequada para aprofundar experiências e significados.\n- **Observação**: **não participante** (o pesquisador observa de fora) ou **participante** (o pesquisador se integra ao grupo). Esta última aproxima o pesquisador da realidade, mas traz risco de perder o distanciamento e de influenciar o grupo.\n- **Grupo focal**: discussão em grupo guiada por um moderador.\n- **Análise documental**: uso de registros já existentes.\n\nUm **teste piloto** do instrumento ajuda a corrigir perguntas confusas antes da coleta definitiva.",
+      "revisao": "**Pontos-chave**\n- Amostra probabilística permite generalização estatística; não probabilística não.\n- Questionário: respondido pelo participante; entrevista: conduzida pelo pesquisador.\n- Observação participante aproxima, mas pode enviesar.\n\n**Erros comuns**\n- Chamar de aleatória uma amostra de quem estava disponível no corredor: isso é conveniência.\n- Usar questionário fechado quando o objetivo é compreender experiências em profundidade.\n\n**Mini exemplo**\nSortear 100 alunos da lista oficial de matrículas é amostragem aleatória simples; entrevistar os colegas da própria turma é amostragem por conveniência."
+    },
+    {
+      "id": "abnt-citacoes-referencias",
+      "nome": "Normas ABNT: citações e referências",
+      "resumo": "## Citações (NBR 10520)\n\nCitação é a menção, no texto, de uma informação extraída de outra fonte. Toda citação precisa identificar a fonte, que aparece completa na lista de referências.\n\n- **Citação direta**: **transcrição literal** de parte da obra. Exige a indicação da **página** (ou outra localização) de onde o trecho foi retirado.\n  - **Até 3 linhas**: fica no corpo do parágrafo, **entre aspas duplas**.\n  - **Mais de 3 linhas**: em parágrafo destacado, com **recuo de 4 cm** da margem esquerda, **letra menor** que a do texto e **sem aspas**.\n- **Citação indireta**: texto escrito **com as palavras do autor do trabalho**, baseado nas ideias da obra consultada (paráfrase). A indicação da página é opcional.\n- **Citação de citação**: menção a um texto ao qual não se teve acesso direto, apenas por meio de outra obra. Usa-se a expressão **apud** (citado por). Ex.: Freire (1987 apud Silva, 2020). Deve ser usada com moderação.\n\n### Sistema autor-data\n\nA fonte é indicada pelo **sobrenome do autor**, **ano** e, nas citações diretas, **página**. Ex.: Souza (2020, p. 15) afirma que...\n\n## Referências (NBR 6023)\n\nReferência é o conjunto de elementos que permite identificar a obra. Elementos essenciais de um **livro**:\n\n- **SOBRENOME**, Prenome do autor.\n- **Título** em destaque (negrito, itálico ou sublinhado, de forma uniforme): subtítulo sem destaque.\n- **Edição** (a partir da segunda, ex.: 2. ed.).\n- **Local**: **Editora**, **ano**.\n\nModelo: SOUZA, Maria Clara. **Introdução à pesquisa em saúde**. 2. ed. Recife: Editora Exemplo, 2020.\n\nAs referências ficam em **lista própria**, em ordem alfabética quando se usa o sistema autor-data, alinhadas à **margem esquerda**.",
+      "revisao": "**Pontos-chave**\n- Direta curta (até 3 linhas): entre aspas, no texto, com página.\n- Direta longa (mais de 3 linhas): recuo de 4 cm, letra menor, sem aspas.\n- Indireta: paráfrase, página opcional; apud para citação de citação.\n\n**Erros comuns**\n- Esquecer a página em citação direta.\n- Usar apud quando se leu a obra original.\n\n**Mini exemplo**\nSegundo Souza (2020, p. 15), “o método orienta cada etapa da pesquisa”. Na lista: SOUZA, Maria Clara. **Introdução à pesquisa em saúde**. 2. ed. Recife: Editora Exemplo, 2020."
+    },
+    {
+      "id": "estrutura-etica",
+      "nome": "Estrutura de trabalhos acadêmicos, ética e plágio",
+      "resumo": "## Estrutura de trabalhos acadêmicos (NBR 14724)\n\nTrabalhos como TCC, dissertações e teses têm três grupos de elementos:\n\n- **Pré-textuais**: vêm antes do texto. Incluem **capa**, **folha de rosto**, folha de aprovação, dedicatória, agradecimentos, epígrafe, **resumo** em língua vernácula, resumo em língua estrangeira, listas e **sumário**. Alguns são obrigatórios e outros opcionais.\n- **Textuais**: **introdução**, **desenvolvimento** e **conclusão** (ou considerações finais). É onde o trabalho realmente acontece.\n- **Pós-textuais**: **referências** (obrigatórias), glossário, **apêndices**, **anexos** e índice.\n\n### Apêndice x anexo\n\n- **Apêndice**: texto ou documento **elaborado pelo próprio autor** do trabalho (ex.: o questionário que ele criou).\n- **Anexo**: texto ou documento **não elaborado pelo autor**, incluído para complementar (ex.: uma lei, um mapa de outra instituição).\n\n## Ética na pesquisa\n\nNo Brasil, pesquisas com **seres humanos** devem ser submetidas ao **Comitê de Ética em Pesquisa (CEP)**, integrado ao sistema **CEP/Conep**, conforme resoluções do Conselho Nacional de Saúde. Os participantes devem consentir de forma livre e esclarecida, normalmente pelo **Termo de Consentimento Livre e Esclarecido (TCLE)**. Devem ser garantidos **sigilo**, **voluntariedade** e o direito de desistir a qualquer momento.\n\n## Plágio\n\n**Plágio** é apresentar ideias, textos ou dados de outra pessoa como se fossem próprios.\n\n- **Plágio integral ou parcial**: cópia de trechos sem citar a fonte.\n- **Plágio por paráfrase (ou mosaico)**: trocar algumas palavras do original ou misturar trechos de várias fontes sem atribuição.\n- **Autoplágio**: reaproveitar trabalho próprio já publicado ou avaliado, apresentando-o como inédito.\n\nA forma de evitar o plágio é **citar corretamente** todas as fontes e manter a lista de referências completa.",
+      "revisao": "**Pontos-chave**\n- Pré-textuais, textuais (introdução, desenvolvimento, conclusão) e pós-textuais.\n- Apêndice é do autor; anexo é de terceiros.\n- Pesquisa com seres humanos: CEP e TCLE.\n\n**Erros comuns**\n- Achar que trocar algumas palavras de um texto dispensa a citação.\n- Chamar de anexo o questionário criado pelo próprio estudante.\n\n**Mini exemplo**\nNum TCC sobre saúde mental, o roteiro de entrevista criado pelo aluno vai em apêndice, o projeto passa pelo CEP e cada participante assina o TCLE antes da entrevista."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "metodologia-cientifica-1",
+      "topico": "ciencia-conhecimento",
+      "nivel": "conceitual",
+      "pergunta": "Qual conjunto de características descreve o conhecimento científico?",
+      "opcoes": [
+        "Sistemático, metódico, verificável e falível",
+        "Definitivo, infalível e baseado na autoridade",
+        "Baseado na fé e em verdades reveladas",
+        "Assistemático e transmitido pela experiência cotidiana"
+      ],
+      "correta": 0,
+      "explicacao": "A ciência organiza o conhecimento por métodos que podem ser verificados e admite que suas conclusões podem ser corrigidas. O erro comum é considerar a ciência infalível, quando a falibilidade é justamente uma de suas marcas."
+    },
+    {
+      "id": "metodologia-cientifica-2",
+      "topico": "ciencia-conhecimento",
+      "nivel": "conceitual",
+      "pergunta": "Como se caracteriza o conhecimento popular (senso comum)?",
+      "opcoes": [
+        "É obtido por procedimentos rigorosos e replicáveis",
+        "É adquirido pela experiência cotidiana, de forma assistemática e sem verificação metódica",
+        "É fundamentado em dogmas revelados e aceitos pela fé",
+        "É construído por reflexão racional sobre questões gerais, sem experimentação"
+      ],
+      "correta": 1,
+      "explicacao": "O senso comum nasce das vivências e da tradição, sem método nem teste sistemático. Costuma-se confundi-lo com o conhecimento filosófico, que também não experimenta, mas é sistemático e racional."
+    },
+    {
+      "id": "metodologia-cientifica-3",
+      "topico": "ciencia-conhecimento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa afirma: “Chá de boldo cura ressaca, porque minha avó sempre tomou e melhorou”. Que tipo de conhecimento ela expressa?",
+      "opcoes": [
+        "Científico",
+        "Filosófico",
+        "Popular",
+        "Religioso"
+      ],
+      "correta": 2,
+      "explicacao": "A afirmação se baseia em experiência pessoal e transmitida, sem controle ou verificação metódica, o que caracteriza o conhecimento popular. O erro comum é considerá-la científica porque envolve uma observação de efeito, mas não houve método nem teste."
+    },
+    {
+      "id": "metodologia-cientifica-4",
+      "topico": "ciencia-conhecimento",
+      "nivel": "aplicacao",
+      "pergunta": "Qual dos raciocínios abaixo é um exemplo do método dedutivo?",
+      "opcoes": [
+        "Observei muitos cisnes brancos; logo, todos os cisnes são brancos",
+        "Formulo uma conjectura e procuro testes que possam refutá-la",
+        "Analiso como as contradições sociais transformam uma instituição ao longo do tempo",
+        "Todo mamífero tem pulmões; a baleia é um mamífero; logo, a baleia tem pulmões"
+      ],
+      "correta": 3,
+      "explicacao": "A dedução parte de premissas gerais e chega a uma conclusão particular que decorre necessariamente delas. O erro comum é marcar o exemplo dos cisnes, que é indução, pois generaliza a partir de casos observados."
+    },
+    {
+      "id": "metodologia-cientifica-5",
+      "topico": "ciencia-conhecimento",
+      "nivel": "analise",
+      "pergunta": "Alguém afirma que “tudo o que acontece é vontade do destino”, explicação que se ajusta a qualquer resultado possível. Pelo critério de falseabilidade de Popper, essa afirmação:",
+      "opcoes": [
+        "Não é científica, pois nenhuma observação poderia contradizê-la",
+        "É científica, pois todas as observações a confirmam",
+        "É científica, desde que muitas pessoas acreditem nela",
+        "É científica, por ser obtida pelo método dedutivo"
+      ],
+      "correta": 0,
+      "explicacao": "Para Popper, uma teoria científica precisa ser falseável, isto é, deve ser possível imaginar um resultado que a refute. O erro comum é achar que explicar tudo é uma virtude, quando isso indica que a afirmação não pode ser testada."
+    },
+    {
+      "id": "metodologia-cientifica-6",
+      "topico": "tipos-pesquisa",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o objetivo principal de uma pesquisa exploratória?",
+      "opcoes": [
+        "Estabelecer relações de causa e efeito com controle rigoroso de variáveis",
+        "Proporcionar familiaridade com um problema pouco conhecido, tornando-o mais explícito ou ajudando a construir hipóteses",
+        "Descrever com precisão estatística as características de uma população",
+        "Aplicar uma intervenção para resolver um problema coletivo junto aos participantes"
+      ],
+      "correta": 1,
+      "explicacao": "A pesquisa exploratória é usada quando o tema ainda é pouco estudado e serve para levantar ideias e hipóteses. O erro comum é confundi-la com a explicativa, que busca identificar causas."
+    },
+    {
+      "id": "metodologia-cientifica-7",
+      "topico": "tipos-pesquisa",
+      "nivel": "conceitual",
+      "pergunta": "O que caracteriza a abordagem quantitativa?",
+      "opcoes": [
+        "A interpretação de significados sem mensuração",
+        "O uso exclusivo de livros e artigos já publicados",
+        "A mensuração de variáveis e a análise estatística de dados numéricos",
+        "O estudo aprofundado de um único caso"
+      ],
+      "correta": 2,
+      "explicacao": "A pesquisa quantitativa traduz fenômenos em números e os analisa com estatística, buscando generalizar. É comum confundi-la com procedimentos como pesquisa bibliográfica ou estudo de caso, que são outra forma de classificação."
+    },
+    {
+      "id": "metodologia-cientifica-8",
+      "topico": "tipos-pesquisa",
+      "nivel": "aplicacao",
+      "pergunta": "Um pesquisador sorteia ratos em dois grupos: um recebe um novo medicamento e o outro, placebo. Ele mantém iguais alimentação, temperatura e luz, e compara os resultados. Que tipo de pesquisa é essa?",
+      "opcoes": [
+        "Levantamento",
+        "Estudo de caso",
+        "Pesquisa bibliográfica",
+        "Pesquisa experimental"
+      ],
+      "correta": 3,
+      "explicacao": "Há manipulação da variável independente (o medicamento), controle das demais condições e distribuição aleatória, o que define o experimento. O erro comum é chamar de experimental qualquer estudo com medições, mesmo sem manipulação de variáveis."
+    },
+    {
+      "id": "metodologia-cientifica-9",
+      "topico": "tipos-pesquisa",
+      "nivel": "aplicacao",
+      "pergunta": "Uma estudante de Administração investiga em profundidade como uma única empresa familiar fez sua sucessão, usando entrevistas, documentos e observação. Qual procedimento ela adotou?",
+      "opcoes": [
+        "Estudo de caso",
+        "Pesquisa experimental",
+        "Levantamento (survey)",
+        "Pesquisa bibliográfica"
+      ],
+      "correta": 0,
+      "explicacao": "O estudo de caso analisa intensamente um ou poucos casos em seu contexto, combinando várias fontes de dados. O erro comum é escolher levantamento, que coleta informações de muitas pessoas de forma padronizada."
+    },
+    {
+      "id": "metodologia-cientifica-10",
+      "topico": "tipos-pesquisa",
+      "nivel": "analise",
+      "pergunta": "Qual afirmação diferencia corretamente a pesquisa bibliográfica da documental?",
+      "opcoes": [
+        "A bibliográfica usa apenas documentos oficiais, e a documental usa apenas livros",
+        "A bibliográfica usa material já publicado e analisado; a documental usa materiais que ainda não receberam tratamento analítico",
+        "As duas são idênticas e os termos são sinônimos",
+        "A documental só pode ser realizada em laboratório"
+      ],
+      "correta": 1,
+      "explicacao": "Livros e artigos já trazem análise de outros autores, enquanto relatórios, prontuários e cartas são fontes ainda não tratadas analiticamente. Um erro frequente é tratar as duas como sinônimas, pois ambas trabalham com textos escritos."
+    },
+    {
+      "id": "metodologia-cientifica-11",
+      "topico": "problema-hipotese-objetivos",
+      "nivel": "conceitual",
+      "pergunta": "O que é uma hipótese de pesquisa?",
+      "opcoes": [
+        "O tema geral escolhido pelo pesquisador",
+        "A conclusão definitiva do trabalho",
+        "Uma resposta provisória ao problema, que será testada",
+        "A lista de autores que fundamentam o estudo"
+      ],
+      "correta": 2,
+      "explicacao": "A hipótese antecipa uma possível resposta ao problema e precisa ser verificável pelos dados. O erro comum é tratá-la como conclusão, quando ela pode ser confirmada ou refutada."
+    },
+    {
+      "id": "metodologia-cientifica-12",
+      "topico": "problema-hipotese-objetivos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a função dos objetivos específicos em um projeto de pesquisa?",
+      "opcoes": [
+        "Substituir o problema de pesquisa",
+        "Apresentar os resultados obtidos",
+        "Justificar a relevância social do estudo",
+        "Detalhar etapas ou aspectos que, alcançados, permitem atingir o objetivo geral"
+      ],
+      "correta": 3,
+      "explicacao": "Os objetivos específicos desdobram o objetivo geral em ações menores e mais concretas, iniciadas por verbos no infinitivo. É comum confundi-los com a justificativa, que explica por que a pesquisa é importante."
+    },
+    {
+      "id": "metodologia-cientifica-13",
+      "topico": "problema-hipotese-objetivos",
+      "nivel": "aplicacao",
+      "pergunta": "Qual das alternativas é a formulação mais adequada de um problema de pesquisa?",
+      "opcoes": [
+        "Qual é a relação entre horas de sono e desempenho nas provas de estudantes de Enfermagem de uma universidade de Curitiba em 2025?",
+        "O sono dos estudantes.",
+        "Dormir bem é importante para estudar.",
+        "Estudar a educação no Brasil."
+      ],
+      "correta": 0,
+      "explicacao": "Um bom problema é uma pergunta clara, delimitada quanto a população, local e tempo, e que pode ser investigada. O erro comum é apresentar apenas o tema ou uma afirmação, que não indicam o que exatamente será respondido."
+    },
+    {
+      "id": "metodologia-cientifica-14",
+      "topico": "problema-hipotese-objetivos",
+      "nivel": "aplicacao",
+      "pergunta": "Problema: o uso do celular durante as aulas está associado ao rendimento dos estudantes? Qual alternativa é uma hipótese adequada?",
+      "opcoes": [
+        "O celular é ruim.",
+        "Estudantes que usam o celular durante as aulas obtêm notas menores do que os que não usam.",
+        "Qual é o efeito do celular nas notas?",
+        "Investigar o uso do celular em sala de aula."
+      ],
+      "correta": 1,
+      "explicacao": "A hipótese é uma afirmação testável que relaciona variáveis, aqui o uso do celular e as notas. O erro comum é escrever a hipótese como pergunta, que é o próprio problema, ou com verbo no infinitivo, que é um objetivo."
+    },
+    {
+      "id": "metodologia-cientifica-15",
+      "topico": "problema-hipotese-objetivos",
+      "nivel": "analise",
+      "pergunta": "Na hipótese “quanto maior o tempo de exercício físico semanal, menor a pressão arterial de idosos”, quais são as variáveis independente e dependente?",
+      "opcoes": [
+        "Independente: pressão arterial; dependente: tempo de exercício",
+        "Independente e dependente: idade dos participantes",
+        "Independente: tempo de exercício semanal; dependente: pressão arterial",
+        "As duas variáveis são dependentes"
+      ],
+      "correta": 2,
+      "explicacao": "A variável independente é o fator que se supõe influenciar (o exercício), e a dependente é o resultado medido (a pressão arterial). O erro comum é inverter as duas, olhando para a ordem das palavras e não para a relação de causa e efeito."
+    },
+    {
+      "id": "metodologia-cientifica-16",
+      "topico": "metodos-coleta",
+      "nivel": "conceitual",
+      "pergunta": "O que caracteriza o questionário como instrumento de coleta de dados?",
+      "opcoes": [
+        "Uma conversa face a face conduzida pelo pesquisador",
+        "A inserção do pesquisador nas atividades do grupo estudado",
+        "Uma discussão em grupo guiada por um moderador",
+        "Uma série ordenada de perguntas respondidas por escrito pelo participante, geralmente sem a presença do pesquisador"
+      ],
+      "correta": 3,
+      "explicacao": "No questionário, o próprio participante lê e responde às perguntas, o que permite atingir muitas pessoas. O erro comum é tratá-lo como sinônimo de entrevista, na qual o pesquisador conduz a interação."
+    },
+    {
+      "id": "metodologia-cientifica-17",
+      "topico": "metodos-coleta",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pesquisadora quer compreender em profundidade como mães de bebês prematuros vivenciam a internação na UTI neonatal. Qual instrumento é mais adequado?",
+      "opcoes": [
+        "Entrevista semiestruturada",
+        "Questionário fechado com escala de concordância",
+        "Experimento com grupo controle",
+        "Levantamento de dados do censo demográfico"
+      ],
+      "correta": 0,
+      "explicacao": "A entrevista semiestruturada segue um roteiro flexível que permite aprofundar experiências e significados, adequado a objetivos qualitativos. O erro comum é escolher o questionário fechado, que padroniza respostas e não capta a vivência em profundidade."
+    },
+    {
+      "id": "metodologia-cientifica-18",
+      "topico": "metodos-coleta",
+      "nivel": "aplicacao",
+      "pergunta": "A partir da lista completa de matriculados, um pesquisador sorteia 200 estudantes, de modo que todos tenham a mesma chance de ser escolhidos. Que tipo de amostragem foi usado?",
+      "opcoes": [
+        "Por conveniência",
+        "Aleatória simples",
+        "Por cotas",
+        "Bola de neve"
+      ],
+      "correta": 1,
+      "explicacao": "O sorteio a partir de uma lista completa, com probabilidade igual para todos, define a amostragem aleatória simples, que é probabilística. O erro comum é chamar de aleatória qualquer escolha informal, como abordar quem passa pelo corredor, que é conveniência."
+    },
+    {
+      "id": "metodologia-cientifica-19",
+      "topico": "metodos-coleta",
+      "nivel": "aplicacao",
+      "pergunta": "Um estudante aplica sua pesquisa sobre hábitos de leitura apenas aos amigos de sua turma e pretende generalizar para todos os universitários do país. Qual é o principal problema?",
+      "opcoes": [
+        "A amostra é probabilística demais para esse objetivo",
+        "O procedimento aumenta a possibilidade de generalização",
+        "A amostra por conveniência pode ser enviesada e não permite generalização estatística",
+        "A amostra passa a ser estratificada por curso"
+      ],
+      "correta": 2,
+      "explicacao": "Amigos de uma turma não representam a população de universitários, pois foram escolhidos por facilidade de acesso, o que gera viés. O erro comum é achar que basta ter muitos respondentes para generalizar, quando o que importa é como a amostra foi selecionada."
+    },
+    {
+      "id": "metodologia-cientifica-20",
+      "topico": "metodos-coleta",
+      "nivel": "analise",
+      "pergunta": "Um antropólogo passa meses morando numa comunidade de pescadores, participando das atividades diárias e registrando o que observa. Qual técnica ele usa e qual é uma limitação dela?",
+      "opcoes": [
+        "Observação não participante; a limitação é o excesso de distanciamento",
+        "Experimento de campo; a limitação é a falta de controle das variáveis",
+        "Questionário autoaplicado; a limitação é o baixo número de respostas",
+        "Observação participante; a limitação é o risco de perder o distanciamento e influenciar o grupo"
+      ],
+      "correta": 3,
+      "explicacao": "Na observação participante, o pesquisador se integra ao grupo, o que aproxima da realidade estudada, mas pode comprometer o distanciamento crítico e alterar o comportamento observado. O erro comum é chamá-la de não participante só porque o objetivo é observar."
+    },
+    {
+      "id": "metodologia-cientifica-21",
+      "topico": "abnt-citacoes-referencias",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a NBR 10520, o que é uma citação indireta?",
+      "opcoes": [
+        "Texto baseado na obra consultada, mas redigido com as palavras do autor do trabalho",
+        "Transcrição literal de um trecho da obra consultada",
+        "Menção a um texto ao qual não se teve acesso direto",
+        "Nota de rodapé com comentários do autor do trabalho"
+      ],
+      "correta": 0,
+      "explicacao": "Na citação indireta, ou paráfrase, a ideia é do autor consultado, mas a redação é de quem escreve o trabalho, e a fonte continua obrigatória. O erro comum é achar que reescrever com outras palavras dispensa indicar a fonte."
+    },
+    {
+      "id": "metodologia-cientifica-22",
+      "topico": "abnt-citacoes-referencias",
+      "nivel": "aplicacao",
+      "pergunta": "Um estudante quer transcrever literalmente um trecho de cinco linhas de um livro. Segundo a NBR 10520, como esse trecho deve ser apresentado?",
+      "opcoes": [
+        "Entre aspas duplas, no meio do parágrafo, como uma citação curta",
+        "Em parágrafo destacado, com recuo de 4 cm da margem esquerda, letra menor que a do texto e sem aspas",
+        "Em itálico e entre aspas duplas, centralizado na página",
+        "Em negrito, sem indicação de autor, pois o recuo já identifica a citação"
+      ],
+      "correta": 1,
+      "explicacao": "Citações diretas com mais de três linhas são destacadas com recuo de 4 cm, letra menor e sem aspas, sempre com a indicação da fonte. O erro comum é manter as aspas no bloco recuado, que só são usadas nas citações de até três linhas."
+    },
+    {
+      "id": "metodologia-cientifica-23",
+      "topico": "abnt-citacoes-referencias",
+      "nivel": "aplicacao",
+      "pergunta": "Lendo um livro de Silva (2020), uma estudante encontrou uma ideia de Paulo Freire, mas não teve acesso à obra original de Freire. Que expressão ela deve usar ao citar essa ideia?",
+      "opcoes": [
+        "et al.",
+        "ibidem",
+        "apud",
+        "op. cit."
+      ],
+      "correta": 2,
+      "explicacao": "Apud, que significa citado por, indica citação de citação, quando a fonte original foi conhecida por meio de outra obra. O erro comum é citar Freire diretamente, como se a obra original tivesse sido lida, ou usar et al., que serve para obras com vários autores."
+    },
+    {
+      "id": "metodologia-cientifica-24",
+      "topico": "abnt-citacoes-referencias",
+      "nivel": "aplicacao",
+      "pergunta": "Qual referência de livro está de acordo com a NBR 6023? Desconsidere o destaque tipográfico do título, que não aparece aqui.",
+      "opcoes": [
+        "Souza, Maria Clara. Introdução à pesquisa em saúde, 2 ed. Editora Exemplo, Recife.",
+        "Introdução à pesquisa em saúde. SOUZA, M. C. 2020. Recife.",
+        "SOUZA, Maria Clara (2020). Introdução à pesquisa em saúde. Recife.",
+        "SOUZA, Maria Clara. Introdução à pesquisa em saúde. 2. ed. Recife: Editora Exemplo, 2020."
+      ],
+      "correta": 3,
+      "explicacao": "A ordem dos elementos essenciais é SOBRENOME, Prenome, título em destaque, edição, local, editora e ano, com dois-pontos entre local e editora. O erro comum é colocar o ano logo após o autor, como em outros estilos de formatação, ou omitir local e editora."
+    },
+    {
+      "id": "metodologia-cientifica-25",
+      "topico": "abnt-citacoes-referencias",
+      "nivel": "analise",
+      "pergunta": "Em um trabalho, lê-se: Segundo Souza (2020), “o método orienta cada etapa da pesquisa”. Que elemento falta para essa citação estar correta?",
+      "opcoes": [
+        "A página de onde o trecho literal foi retirado",
+        "A retirada das aspas, que não se usam em citações curtas",
+        "A retirada do nome do autor, que deve aparecer só nas referências",
+        "A retirada do ano, que é exigido apenas nas citações indiretas"
+      ],
+      "correta": 0,
+      "explicacao": "Por ser uma transcrição literal, a citação é direta e exige a indicação da página, por exemplo Souza (2020, p. 15). O erro comum é tratar a página como opcional em todos os casos, quando isso só vale para a citação indireta."
+    },
+    {
+      "id": "metodologia-cientifica-26",
+      "topico": "estrutura-etica",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os elementos textuais de um trabalho acadêmico?",
+      "opcoes": [
+        "Capa, folha de rosto e resumo",
+        "Introdução, desenvolvimento e conclusão",
+        "Referências, apêndices e anexos",
+        "Sumário, listas e epígrafe"
+      ],
+      "correta": 1,
+      "explicacao": "Os elementos textuais formam o corpo do trabalho: introdução, desenvolvimento e conclusão. O erro comum é incluir o resumo, que é pré-textual, ou as referências, que são pós-textuais."
+    },
+    {
+      "id": "metodologia-cientifica-27",
+      "topico": "estrutura-etica",
+      "nivel": "aplicacao",
+      "pergunta": "No final do TCC, um estudante incluiu o questionário que ele mesmo elaborou para a coleta de dados. Como esse material deve ser classificado?",
+      "opcoes": [
+        "Anexo",
+        "Glossário",
+        "Apêndice",
+        "Errata"
+      ],
+      "correta": 2,
+      "explicacao": "Apêndice é o material elaborado pelo próprio autor do trabalho, como um questionário ou roteiro de entrevista criado por ele. O erro comum é chamar de anexo, termo reservado a documentos produzidos por terceiros."
+    },
+    {
+      "id": "metodologia-cientifica-28",
+      "topico": "estrutura-etica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma aluna junta trechos de três artigos, troca algumas palavras de cada um e não indica nenhuma fonte. Como essa prática é classificada?",
+      "opcoes": [
+        "Citação indireta correta, pois o texto foi modificado",
+        "Uso permitido, pois artigos publicados são de domínio público",
+        "Autoplágio",
+        "Plágio, na forma de paráfrase sem atribuição ou mosaico"
+      ],
+      "correta": 3,
+      "explicacao": "Apresentar ideias e trechos de outros autores sem atribuição é plágio, mesmo com troca de palavras ou mistura de fontes. O erro comum é pensar que mudar a redação transforma o trecho em citação indireta, que exige sempre a indicação da fonte."
+    },
+    {
+      "id": "metodologia-cientifica-29",
+      "topico": "estrutura-etica",
+      "nivel": "aplicacao",
+      "pergunta": "Um grupo vai entrevistar pacientes de uma unidade básica de saúde para o TCC. O que é exigido antes de iniciar a coleta?",
+      "opcoes": [
+        "Aprovação do projeto por um Comitê de Ética em Pesquisa (sistema CEP/Conep) e consentimento dos participantes, em geral pelo TCLE",
+        "Apenas a autorização verbal do professor orientador",
+        "Apenas o registro do projeto na ABNT",
+        "Apenas a assinatura do coordenador do curso"
+      ],
+      "correta": 0,
+      "explicacao": "Pesquisas com seres humanos no Brasil devem ser avaliadas por um CEP, e os participantes precisam dar consentimento livre e esclarecido. O erro comum é achar que a autorização do orientador basta, mas ela não substitui a avaliação ética formal."
+    },
+    {
+      "id": "metodologia-cientifica-30",
+      "topico": "estrutura-etica",
+      "nivel": "analise",
+      "pergunta": "Um pesquisador envia a uma revista, como se fosse inédito, um artigo com os mesmos resultados que já publicou em outra revista, sem informar isso. Como avaliar essa conduta?",
+      "opcoes": [
+        "Não há problema, pois o texto e os dados são do próprio autor",
+        "É autoplágio (publicação duplicada), uma falta ética por apresentar como inédito um trabalho já publicado",
+        "É plágio de terceiros, pois a revista anterior é a autora do texto",
+        "É aceitável desde que o título seja diferente"
+      ],
+      "correta": 1,
+      "explicacao": "Reaproveitar trabalho próprio já publicado e apresentá-lo como novo engana editores e leitores e configura autoplágio. O erro comum é pensar que só existe plágio quando se copia outra pessoa."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "direito-constitucional",
+  "nome": "Direito Constitucional",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "teoria-constituicao",
+      "nome": "Teoria da Constituição e poder constituinte",
+      "resumo": "## O que é Constituição\nA **Constituição** é a lei fundamental do Estado: organiza o poder, define a estrutura do Estado e assegura direitos fundamentais. Está no **topo do ordenamento** (supremacia constitucional), e todas as demais normas devem ser compatíveis com ela.\n\n### Classificação da CF/88\n- **Escrita** (codificada em um documento) e **dogmática** (elaborada por um órgão constituinte, a partir de ideias da época).\n- **Promulgada** (democrática): feita por representantes do povo, a Assembleia Nacional Constituinte.\n- **Rígida**: sua alteração exige processo **mais difícil** que o das leis comuns.\n- **Analítica**: extensa e detalhada.\n\n### Eficácia das normas constitucionais (classificação de José Afonso da Silva)\n- **Plena**: produz todos os efeitos de imediato.\n- **Contida**: produz efeitos de imediato, mas a lei pode restringi-los (ex.: liberdade de profissão, \"atendidas as qualificações que a lei estabelecer\").\n- **Limitada**: depende de lei para produzir seus efeitos essenciais.\n\n## Poder constituinte\n- **Originário**: cria uma nova Constituição. É **inicial**, **ilimitado juridicamente** e **incondicionado**.\n- **Derivado reformador**: altera a Constituição por **emendas** (art. 60). É limitado e condicionado: a proposta é votada em **dois turnos**, em cada Casa do Congresso, e precisa de **três quintos** dos votos; é promulgada pelas Mesas da Câmara e do Senado, **sem sanção** presidencial.\n- **Cláusulas pétreas** (art. 60, § 4º): não pode ser objeto de deliberação emenda **tendente a abolir** a forma federativa de Estado; o voto direto, secreto, universal e periódico; a separação dos Poderes; os direitos e garantias individuais.\n- **Derivado decorrente**: permite aos Estados elaborar suas próprias Constituições, respeitando a Federal.\n\n### Recepção\nNormas anteriores **materialmente compatíveis** com a nova Constituição são **recepcionadas**; as incompatíveis são revogadas (não recepcionadas).",
+      "revisao": "**Pontos-chave**\n- CF/88: escrita, promulgada, rígida, analítica.\n- Originário: inicial, ilimitado, incondicionado. Derivado: limitado.\n- Emenda: 2 turnos, 3/5, nas duas Casas, sem sanção.\n- Recepção depende de compatibilidade material.\n\n**Erros comuns**\n- Achar que cláusula pétrea impede qualquer emenda sobre o tema (só as que tendam a abolir).\n- Pensar que o Presidente sanciona emendas.\n\n**Mini exemplo**\nO Código Tributário Nacional foi aprovado como lei ordinária em 1966, mas, por tratar de matéria que hoje exige lei complementar, foi recepcionado com status de lei complementar."
+    },
+    {
+      "id": "principios-fundamentais",
+      "nome": "Princípios fundamentais (arts. 1º a 4º)",
+      "resumo": "## Título I da Constituição\nOs arts. 1º a 4º trazem os **princípios fundamentais**, que orientam a leitura de todo o texto constitucional.\n\n### Art. 1º: forma e fundamentos\n- **Forma de governo**: República. **Forma de Estado**: Federação, formada pela **união indissolúvel** dos Estados, Municípios e Distrito Federal. **Sistema de governo**: presidencialismo.\n- O Brasil é um **Estado Democrático de Direito**.\n- **Fundamentos** (dica: \"SoCiDiVaPlu\"):\n  - **So**berania;\n  - **Ci**dadania;\n  - **Di**gnidade da pessoa humana;\n  - **Va**lores sociais do trabalho e da livre iniciativa;\n  - **Plu**ralismo político.\n- Parágrafo único: **todo o poder emana do povo**, que o exerce por meio de representantes eleitos ou diretamente (democracia **semidireta**, com plebiscito, referendo e iniciativa popular).\n\n### Art. 2º: separação dos Poderes\nLegislativo, Executivo e Judiciário são **independentes e harmônicos** entre si.\n\n### Art. 3º: objetivos fundamentais\nComeçam por **verbos de ação**:\n- **construir** uma sociedade livre, justa e solidária;\n- **garantir** o desenvolvimento nacional;\n- **erradicar** a pobreza e a marginalização e **reduzir** as desigualdades sociais e regionais;\n- **promover** o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.\n\n### Art. 4º: relações internacionais\nPrincípios como **independência nacional**, **prevalência dos direitos humanos**, **autodeterminação dos povos**, **não intervenção**, **igualdade entre os Estados**, **defesa da paz**, **solução pacífica dos conflitos**, **repúdio ao terrorismo e ao racismo**, **cooperação entre os povos** e **concessão de asilo político**. O parágrafo único prevê a busca da **integração latino-americana**.",
+      "revisao": "**Pontos-chave**\n- Art. 1º: fundamentos (soberania, cidadania, dignidade, valores sociais do trabalho e da livre iniciativa, pluralismo político).\n- Art. 3º: objetivos, sempre com verbos (construir, garantir, erradicar, promover).\n- Art. 4º: relações internacionais.\n\n**Erros comuns**\n- Colocar \"independência nacional\" entre os fundamentos (é princípio do art. 4º).\n- Confundir objetivo (art. 3º) com fundamento (art. 1º).\n\n**Mini exemplo**\nUm programa para reduzir desigualdades regionais concretiza um **objetivo** (art. 3º). A concessão de asilo a um perseguido político aplica um princípio das **relações internacionais** (art. 4º)."
+    },
+    {
+      "id": "direitos-garantias",
+      "nome": "Direitos e garantias fundamentais e remédios constitucionais",
+      "resumo": "## Direitos x garantias\n- **Direitos** são os bens e vantagens protegidos (vida, liberdade, igualdade, segurança, propriedade).\n- **Garantias** são os instrumentos que asseguram esses direitos.\nO art. 5º lista os direitos e deveres individuais e coletivos. As normas que definem direitos e garantias fundamentais têm **aplicação imediata** (art. 5º, § 1º), e os direitos e garantias individuais são **cláusula pétrea**.\n\n### Exemplos do art. 5º\n- **Legalidade**: ninguém é obrigado a fazer ou deixar de fazer algo senão em virtude de lei.\n- **Inviolabilidade do domicílio**: a casa é asilo inviolável; só se entra sem consentimento do morador em **flagrante delito**, **desastre**, para **prestar socorro** ou, **durante o dia**, por **determinação judicial**.\n- **Anterioridade penal**: não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal; a lei penal não retroage, salvo para beneficiar o réu.\n\n## Remédios constitucionais\n- **Habeas corpus**: protege a **liberdade de locomoção** contra ilegalidade ou abuso de poder. É gratuito.\n- **Habeas data**: garante o **conhecimento** e a **retificação** de informações **pessoais** do impetrante em registros de entidades governamentais ou de caráter público.\n- **Mandado de segurança**: protege **direito líquido e certo** (provado de plano, por documentos), não amparado por habeas corpus ou habeas data, contra ilegalidade ou abuso de poder de autoridade pública ou de quem exerça atribuições do Poder Público. Pode ser **coletivo**.\n- **Mandado de injunção**: cabe quando a **falta de norma regulamentadora** torna inviável o exercício de direitos e liberdades constitucionais e das prerrogativas ligadas à nacionalidade, à soberania e à cidadania.\n- **Ação popular**: qualquer **cidadão** pode propô-la para anular ato **lesivo** ao patrimônio público, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural. O autor fica isento de custas, salvo comprovada má-fé.",
+      "revisao": "**Pontos-chave**\n- Locomoção: habeas corpus.\n- Dados pessoais: habeas data.\n- Direito líquido e certo residual: mandado de segurança.\n- Falta de norma regulamentadora: mandado de injunção.\n- Ato lesivo ao patrimônio público: ação popular (cidadão).\n\n**Erros comuns**\n- Usar habeas data para obter informações de terceiros.\n- Achar que ordem judicial permite entrar em casa à noite.\n\n**Mini exemplo**\nUma universidade pública nega, sem base legal, a matrícula de um aprovado que tem todos os documentos. Ele pode impetrar mandado de segurança, pois seu direito é líquido e certo."
+    },
+    {
+      "id": "organizacao-estado",
+      "nome": "Organização do Estado",
+      "resumo": "## Federação brasileira\nA organização político-administrativa da República compreende a **União**, os **Estados**, o **Distrito Federal** e os **Municípios**, **todos autônomos** (art. 18). Autonomia é diferente de soberania: a **soberania** pertence à República Federativa do Brasil como um todo.\n- Autonomia envolve **auto-organização**, **autogoverno**, **autolegislação** e **autoadministração**.\n- Os **Territórios Federais** integram a União e não são entes federativos.\n- A Federação é **indissolúvel**: não há direito de secessão.\n\n## Repartição de competências\nO critério geral é a **predominância do interesse**: nacional (União), regional (Estados) e local (Municípios).\n- **Competência exclusiva da União** (art. 21): tarefas administrativas, como emitir moeda e manter relações com Estados estrangeiros.\n- **Competência privativa da União para legislar** (art. 22): por exemplo, direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho. Lei complementar pode autorizar os Estados a legislar sobre questões específicas dessas matérias.\n- **Competência comum** (art. 23): tarefas administrativas de todos os entes, como proteger o meio ambiente e cuidar da saúde.\n- **Competência concorrente** (art. 24): União, Estados e DF legislam, por exemplo, sobre direito tributário, financeiro, econômico e urbanístico. A União edita **normas gerais**; os Estados **suplementam**. Sem lei federal, os Estados exercem competência **plena**; a superveniência de lei federal **suspende a eficácia** da lei estadual no que for contrária.\n- **Estados**: têm a competência **remanescente** (o que não lhes for vedado).\n- **Municípios**: legislam sobre **assuntos de interesse local** e suplementam a legislação federal e estadual no que couber.\n- **Distrito Federal**: não pode ser dividido em Municípios e acumula competências legislativas **estaduais e municipais**.",
+      "revisao": "**Pontos-chave**\n- Entes: União, Estados, DF e Municípios, todos autônomos.\n- Art. 22: privativa da União (direito penal, civil, processual...).\n- Art. 24: concorrente; União faz normas gerais.\n- Municípios: interesse local.\n\n**Erros comuns**\n- Dizer que Estados são soberanos.\n- Achar que lei federal posterior revoga a lei estadual na competência concorrente (ela suspende a eficácia).\n\n**Mini exemplo**\nUm Município fixa o horário de funcionamento do comércio local: é assunto de interesse local. Já um Estado não pode criar crimes, porque direito penal é competência privativa da União."
+    },
+    {
+      "id": "organizacao-poderes",
+      "nome": "Organização dos Poderes",
+      "resumo": "## Separação dos Poderes\nLegislativo, Executivo e Judiciário são independentes e harmônicos, e se controlam mutuamente (**freios e contrapesos**). Cada Poder exerce uma **função típica** e também **funções atípicas**:\n- Legislativo: típicas são **legislar** e **fiscalizar**; atipicamente, administra (organiza seus serviços) e julga (o Senado julga o Presidente por crime de responsabilidade).\n- Executivo: típica é **administrar**; atipicamente, legisla (medidas provisórias).\n- Judiciário: típica é **julgar**; atipicamente, administra e edita regimentos internos.\n\n## Poder Legislativo federal\nÉ **bicameral**: o Congresso Nacional compõe-se da Câmara dos Deputados e do Senado Federal.\n- **Câmara**: representantes do **povo**, eleitos pelo sistema **proporcional**, mandato de **4 anos**.\n- **Senado**: representantes dos **Estados e do DF**, eleitos pelo princípio **majoritário**, **três** por unidade, mandato de **8 anos**, com renovação alternada de um terço e dois terços a cada quatro anos.\n- **CPI**: criada a requerimento de **um terço** dos membros, para apurar **fato determinado** por **prazo certo**; tem poderes de investigação próprios das autoridades judiciais, e suas conclusões são enviadas ao Ministério Público, se for o caso.\n\n### Processo legislativo\n- Aprovado o projeto, o Presidente pode **sancionar** ou **vetar** em **15 dias úteis**; o silêncio importa **sanção tácita**.\n- O veto é apreciado em sessão conjunta e pode ser derrubado pela **maioria absoluta** dos Deputados e Senadores.\n\n## Poder Executivo\nExercido pelo **Presidente da República**, auxiliado pelos Ministros de Estado. **Medidas provisórias** exigem **relevância e urgência** e são vedadas em certas matérias, como **direito penal**, processual penal, processual civil, nacionalidade, cidadania e direitos políticos.\n\n## Poder Judiciário\nO **STF** é o guardião da Constituição, composto por **11 ministros** nomeados pelo Presidente após aprovação pela maioria absoluta do Senado. O **STJ** uniformiza a interpretação da lei federal.",
+      "revisao": "**Pontos-chave**\n- Funções típicas e atípicas de cada Poder.\n- Câmara: povo, proporcional, 4 anos. Senado: Estados e DF, majoritário, 3 por unidade, 8 anos.\n- CPI: 1/3, fato determinado, prazo certo.\n- Silêncio do Presidente em 15 dias úteis = sanção tácita.\n\n**Erros comuns**\n- Falar em \"veto tácito\".\n- Achar que medida provisória pode criar crime.\n\n**Mini exemplo**\nO Senado julga o Presidente por crime de responsabilidade: é o Legislativo exercendo função atípica de julgar."
+    },
+    {
+      "id": "controle-constitucionalidade",
+      "nome": "Controle de constitucionalidade",
+      "resumo": "## Ideia central\nComo a Constituição é **suprema e rígida**, normas incompatíveis com ela são inválidas. O **controle de constitucionalidade** é o mecanismo que verifica essa compatibilidade.\n\n### Tipos de vício\n- **Formal**: erro no **processo de elaboração** ou na competência (ex.: matéria reservada a lei complementar aprovada como lei ordinária; lei estadual sobre direito penal).\n- **Material**: o **conteúdo** da norma contraria a Constituição (ex.: lei que institui pena de caráter perpétuo).\n\n### Momento\n- **Preventivo**: antes de a lei existir (ex.: comissões de constituição e justiça, veto presidencial por inconstitucionalidade).\n- **Repressivo**: depois que a norma entra no ordenamento, feito em regra pelo Judiciário.\n\n## Controle difuso\n- Feito por **qualquer juiz ou tribunal**, em um **caso concreto**, como questão **incidental**.\n- Em regra, a decisão vale **entre as partes** do processo.\n- Nos tribunais, a declaração de inconstitucionalidade exige a **maioria absoluta** dos membros ou do órgão especial (**cláusula de reserva de plenário**, art. 97).\n\n## Controle concentrado\n- Feito pelo **STF** (em face da CF), de forma **abstrata**, sem caso concreto.\n- Decisões têm efeito **contra todos** e **vinculante**.\n- Ações:\n  - **ADI**: contra lei ou ato normativo **federal ou estadual**.\n  - **ADC**: para confirmar a constitucionalidade de lei ou ato normativo **federal**.\n  - **ADO**: contra omissão inconstitucional.\n  - **ADPF**: contra lesão a preceito fundamental, de caráter **subsidiário**; alcança, por exemplo, **leis municipais** e normas anteriores à CF/88.\n- **Legitimados** (art. 103): Presidente da República; Mesas do Senado, da Câmara e das Assembleias Legislativas (ou Câmara Legislativa do DF); Governadores; Procurador-Geral da República; Conselho Federal da OAB; partido político com representação no Congresso; confederação sindical ou entidade de classe de âmbito nacional.",
+      "revisao": "**Pontos-chave**\n- Vício formal (processo/competência) x material (conteúdo).\n- Difuso: qualquer juiz, caso concreto, efeito entre as partes.\n- Concentrado: STF, abstrato, efeito contra todos e vinculante.\n- Lei municipal x CF no STF: ADPF, não ADI.\n\n**Erros comuns**\n- Incluir prefeitos entre os legitimados do art. 103.\n- Esquecer a reserva de plenário nos tribunais.\n\n**Mini exemplo**\nEm uma ação de cobrança, o réu alega que a lei aplicada é inconstitucional. O juiz pode deixar de aplicá-la no caso (controle difuso), sem retirar a lei do ordenamento para todos."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-constitucional-1",
+      "topico": "teoria-constituicao",
+      "nivel": "conceitual",
+      "pergunta": "Quanto à estabilidade, a Constituição de 1988 é classificada como rígida porque:",
+      "opcoes": [
+        "não pode ser alterada em hipótese alguma",
+        "exige, para sua alteração, um processo mais solene e difícil que o das leis ordinárias",
+        "pode ser alterada por lei ordinária, como qualquer outra lei",
+        "uma parte pode ser alterada por lei comum e outra exige processo especial"
+      ],
+      "correta": 1,
+      "explicacao": "Constituição rígida é a que pode ser alterada, mas por procedimento mais dificultoso, como o das emendas do art. 60. Rigidez não se confunde com imutabilidade, e a mistura de partes alteráveis por lei comum caracteriza a constituição semirrígida."
+    },
+    {
+      "id": "direito-constitucional-2",
+      "topico": "teoria-constituicao",
+      "nivel": "conceitual",
+      "pergunta": "Quais características são tradicionalmente atribuídas ao poder constituinte originário?",
+      "opcoes": [
+        "Derivado, limitado e condicionado",
+        "Inicial, limitado pelas cláusulas pétreas e condicionado",
+        "Subordinado à Constituição anterior e sujeito a controle do STF",
+        "Inicial, ilimitado juridicamente e incondicionado"
+      ],
+      "correta": 3,
+      "explicacao": "O poder constituinte originário inaugura uma nova ordem jurídica e não se submete às regras da Constituição anterior. Limitação e condicionamento são marcas do poder derivado, como o reformador, que deve respeitar o art. 60."
+    },
+    {
+      "id": "direito-constitucional-3",
+      "topico": "teoria-constituicao",
+      "nivel": "aplicacao",
+      "pergunta": "A Assembleia Legislativa de um Estado elabora a Constituição estadual, respeitando os princípios da Constituição Federal. Que poder ela exerce?",
+      "opcoes": [
+        "Poder constituinte derivado decorrente",
+        "Poder constituinte originário",
+        "Poder constituinte derivado reformador",
+        "Poder constituinte difuso"
+      ],
+      "correta": 0,
+      "explicacao": "O poder decorrente é o que permite aos Estados-membros se auto-organizarem por meio de suas Constituições, dentro dos limites da Constituição Federal. O reformador, frequentemente confundido, é o que altera a própria Constituição Federal por emendas."
+    },
+    {
+      "id": "direito-constitucional-4",
+      "topico": "teoria-constituicao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma proposta de emenda à Constituição foi aprovada, em dois turnos e por três quintos dos votos, na Câmara dos Deputados e no Senado Federal. Qual é o passo seguinte?",
+      "opcoes": [
+        "A proposta segue para sanção ou veto do Presidente da República",
+        "A proposta é submetida a referendo popular obrigatório",
+        "A emenda é promulgada pelas Mesas da Câmara e do Senado, sem sanção ou veto do Presidente",
+        "A proposta precisa ser homologada pelo STF antes da promulgação"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 60, § 3º, determina que a emenda seja promulgada pelas Mesas das duas Casas, com o respectivo número de ordem. O erro comum é aplicar à emenda o rito das leis, em que há sanção ou veto presidencial."
+    },
+    {
+      "id": "direito-constitucional-5",
+      "topico": "teoria-constituicao",
+      "nivel": "analise",
+      "pergunta": "Uma lei ordinária de 1980, de conteúdo compatível com a Constituição de 1988, trata de matéria que a nova Constituição reserva à lei complementar. Qual é a situação dessa lei?",
+      "opcoes": [
+        "É revogada, por incompatibilidade formal com a nova Constituição",
+        "É declarada inconstitucional de forma superveniente pelo STF",
+        "É recepcionada, pois a recepção exige compatibilidade material, e passa a ter status de lei complementar",
+        "Perde a vigência automaticamente cinco anos depois da nova Constituição"
+      ],
+      "correta": 2,
+      "explicacao": "Na recepção, analisa-se o conteúdo da norma anterior; a forma exigida pela nova Constituição apenas define o status com que ela passa a valer, como ocorreu com o Código Tributário Nacional. O erro comum é exigir compatibilidade formal, que só se aplica às normas feitas depois da nova Constituição."
+    },
+    {
+      "id": "direito-constitucional-6",
+      "topico": "principios-fundamentais",
+      "nivel": "conceitual",
+      "pergunta": "Qual alternativa contém apenas fundamentos da República Federativa do Brasil (art. 1º da CF)?",
+      "opcoes": [
+        "Soberania, cidadania e pluralismo político",
+        "Soberania, independência nacional e defesa da paz",
+        "Cidadania, erradicação da pobreza e não intervenção",
+        "Dignidade da pessoa humana, autodeterminação dos povos e concessão de asilo político"
+      ],
+      "correta": 0,
+      "explicacao": "Os fundamentos do art. 1º são soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e pluralismo político. As demais opções misturam fundamentos com objetivos do art. 3º e princípios de relações internacionais do art. 4º."
+    },
+    {
+      "id": "direito-constitucional-7",
+      "topico": "principios-fundamentais",
+      "nivel": "aplicacao",
+      "pergunta": "O governo federal lança um programa para reduzir as desigualdades entre as regiões do país. Esse programa concretiza, de modo mais direto:",
+      "opcoes": [
+        "Um fundamento da República (art. 1º)",
+        "Um princípio das relações internacionais (art. 4º)",
+        "Um remédio constitucional (art. 5º)",
+        "Um objetivo fundamental da República (art. 3º)"
+      ],
+      "correta": 3,
+      "explicacao": "Reduzir as desigualdades sociais e regionais é um dos objetivos fundamentais do art. 3º, que se expressam por verbos de ação. A confusão mais comum é com os fundamentos do art. 1º, que são as bases do Estado, e não metas a alcançar."
+    },
+    {
+      "id": "direito-constitucional-8",
+      "topico": "principios-fundamentais",
+      "nivel": "aplicacao",
+      "pergunta": "O Brasil concede asilo político a um jornalista estrangeiro perseguido em seu país de origem. Essa decisão aplica um dispositivo constitucional que trata de:",
+      "opcoes": [
+        "Objetivos fundamentais da República",
+        "Princípios que regem a República nas relações internacionais",
+        "Fundamentos da República",
+        "Separação dos Poderes"
+      ],
+      "correta": 1,
+      "explicacao": "A concessão de asilo político está entre os princípios das relações internacionais previstos no art. 4º. Muitos a associam aos fundamentos do art. 1º, como a dignidade humana, mas ela está expressamente listada no art. 4º."
+    },
+    {
+      "id": "direito-constitucional-9",
+      "topico": "principios-fundamentais",
+      "nivel": "analise",
+      "pergunta": "Considerando os princípios fundamentais da CF/88, a forma de governo, a forma de Estado e o sistema de governo adotados no Brasil são, respectivamente:",
+      "opcoes": [
+        "República, Federação e presidencialismo",
+        "Federação, República e parlamentarismo",
+        "República, Estado unitário e presidencialismo",
+        "Monarquia constitucional, Federação e presidencialismo"
+      ],
+      "correta": 0,
+      "explicacao": "A forma de governo é a República, a forma de Estado é a Federação, formada pela união indissolúvel dos entes, e o sistema de governo é o presidencialismo. O erro frequente é trocar forma de governo (República x Monarquia) por forma de Estado (Federação x Estado unitário)."
+    },
+    {
+      "id": "direito-constitucional-10",
+      "topico": "direitos-garantias",
+      "nivel": "aplicacao",
+      "pergunta": "Policiais têm uma ordem judicial de busca e apreensão e querem cumpri-la às 23h, sem consentimento do morador e sem situação de flagrante, desastre ou socorro. De acordo com a CF, eles podem entrar na casa?",
+      "opcoes": [
+        "Sim, pois a ordem judicial autoriza a entrada a qualquer hora",
+        "Sim, desde que estejam acompanhados de um advogado",
+        "Não, pois a entrada por determinação judicial só é permitida durante o dia",
+        "Não, pois a casa é inviolável em qualquer hipótese, inclusive em flagrante delito"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 5º, XI, permite a entrada sem consentimento em flagrante delito, desastre ou para prestar socorro a qualquer hora, mas por ordem judicial apenas durante o dia. O erro comum é achar que a ordem judicial supera a restrição de horário."
+    },
+    {
+      "id": "direito-constitucional-11",
+      "topico": "direitos-garantias",
+      "nivel": "conceitual",
+      "pergunta": "Qual remédio constitucional protege o direito de locomoção contra ilegalidade ou abuso de poder?",
+      "opcoes": [
+        "Mandado de segurança",
+        "Habeas corpus",
+        "Habeas data",
+        "Ação popular"
+      ],
+      "correta": 1,
+      "explicacao": "O habeas corpus é concedido sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção. O mandado de segurança é residual e não se aplica quando o direito é amparado por habeas corpus."
+    },
+    {
+      "id": "direito-constitucional-12",
+      "topico": "direitos-garantias",
+      "nivel": "aplicacao",
+      "pergunta": "Uma cidadã deseja ter acesso às informações sobre ela mesma mantidas no banco de dados de um órgão público, que se recusou a fornecê-las. Qual é o remédio adequado?",
+      "opcoes": [
+        "Habeas corpus",
+        "Mandado de injunção",
+        "Ação popular",
+        "Habeas data"
+      ],
+      "correta": 3,
+      "explicacao": "O habeas data assegura o conhecimento e a retificação de informações relativas à pessoa do impetrante em registros de entidades governamentais ou de caráter público. O erro comum é usá-lo para obter dados de terceiros ou informações gerais, para os quais ele não serve."
+    },
+    {
+      "id": "direito-constitucional-13",
+      "topico": "direitos-garantias",
+      "nivel": "aplicacao",
+      "pergunta": "Um direito previsto na Constituição não pode ser exercido porque, passados muitos anos, ainda não foi editada a lei regulamentadora exigida pelo próprio texto constitucional. Qual remédio o titular do direito pode usar?",
+      "opcoes": [
+        "Habeas data",
+        "Mandado de injunção",
+        "Mandado de segurança",
+        "Habeas corpus"
+      ],
+      "correta": 1,
+      "explicacao": "O mandado de injunção é cabível quando a falta de norma regulamentadora torna inviável o exercício de direitos e liberdades constitucionais. O mandado de segurança, frequentemente escolhido por engano, combate ato ilegal de autoridade, e não a ausência de norma."
+    },
+    {
+      "id": "direito-constitucional-14",
+      "topico": "direitos-garantias",
+      "nivel": "aplicacao",
+      "pergunta": "Um eleitor descobre que a prefeitura de sua cidade firmou um contrato superfaturado, lesivo ao patrimônio público. Qual ação constitucional ele pode propor para anular o ato?",
+      "opcoes": [
+        "Habeas data",
+        "Mandado de injunção",
+        "Habeas corpus",
+        "Ação popular"
+      ],
+      "correta": 3,
+      "explicacao": "A ação popular permite a qualquer cidadão buscar a anulação de ato lesivo ao patrimônio público e à moralidade administrativa, com isenção de custas salvo comprovada má-fé. O erro comum é pensar que só o Ministério Público pode questionar esse tipo de ato."
+    },
+    {
+      "id": "direito-constitucional-15",
+      "topico": "direitos-garantias",
+      "nivel": "analise",
+      "pergunta": "Uma empresa teve negada, por ato ilegal de autoridade pública, uma licença à qual comprovadamente tem direito, e possui todos os documentos que demonstram isso. Não há restrição à liberdade de locomoção nem pedido de informações pessoais. Qual remédio é o mais adequado?",
+      "opcoes": [
+        "Mandado de segurança",
+        "Habeas corpus",
+        "Habeas data",
+        "Ação popular"
+      ],
+      "correta": 0,
+      "explicacao": "O mandado de segurança protege direito líquido e certo, demonstrável por prova documental pré-constituída, não amparado por habeas corpus ou habeas data. A ação popular não serve aqui, porque visa proteger o patrimônio público, e não um direito próprio da empresa."
+    },
+    {
+      "id": "direito-constitucional-16",
+      "topico": "organizacao-estado",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Constituição, a organização político-administrativa da República Federativa do Brasil compreende:",
+      "opcoes": [
+        "A União, os Estados, o Distrito Federal, os Municípios e os Territórios, todos soberanos",
+        "Apenas a União e os Estados, sendo os Municípios órgãos estaduais",
+        "A União, os Estados, o Distrito Federal e os Municípios, todos autônomos",
+        "A União, soberana, e os Estados, o DF e os Municípios, subordinados hierarquicamente a ela"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 18 inclui os quatro entes e afirma que todos são autônomos, sem hierarquia entre eles. A soberania pertence à República Federativa como um todo, e os Territórios integram a União, sem serem entes federativos."
+    },
+    {
+      "id": "direito-constitucional-17",
+      "topico": "organizacao-estado",
+      "nivel": "aplicacao",
+      "pergunta": "A Assembleia Legislativa de um Estado aprova uma lei que define um novo crime e sua pena. Essa lei é compatível com a Constituição?",
+      "opcoes": [
+        "Sim, pois direito penal é matéria de competência concorrente",
+        "Sim, desde que o Governador sancione a lei",
+        "Não, pois legislar sobre direito penal é competência privativa da União",
+        "Sim, pois os Estados têm competência remanescente para qualquer matéria"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 22, I, atribui à União a competência privativa para legislar sobre direito penal, o que torna a lei estadual formalmente inconstitucional. A competência remanescente dos Estados só alcança o que não foi atribuído a outro ente nem vedado a eles."
+    },
+    {
+      "id": "direito-constitucional-18",
+      "topico": "organizacao-estado",
+      "nivel": "analise",
+      "pergunta": "Em matéria de competência legislativa concorrente, um Estado editou lei plena porque não havia lei federal de normas gerais. Depois, a União editou essa lei federal. O que acontece com a lei estadual?",
+      "opcoes": [
+        "Tem sua eficácia suspensa no que for contrária à lei federal",
+        "É revogada integralmente pela lei federal",
+        "Prevalece sobre a lei federal, por ser anterior",
+        "Torna-se nula desde a origem, assim como os atos praticados com base nela"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 24, § 4º, determina que a superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual no que lhe for contrário. O erro comum é falar em revogação, mas lei federal não revoga lei estadual, pois são de entes diferentes."
+    },
+    {
+      "id": "direito-constitucional-19",
+      "topico": "organizacao-estado",
+      "nivel": "aplicacao",
+      "pergunta": "Um Município aprova lei fixando o horário de funcionamento dos estabelecimentos comerciais em seu território. Essa lei está de acordo com a repartição de competências?",
+      "opcoes": [
+        "Não, pois é competência privativa da União legislar sobre direito comercial",
+        "Não, pois só o Estado pode regular o comércio em seu território",
+        "Não, pois apenas o Distrito Federal pode legislar sobre esse tema",
+        "Sim, pois trata de assunto de interesse local, de competência do Município"
+      ],
+      "correta": 3,
+      "explicacao": "Os Municípios legislam sobre assuntos de interesse local, e o STF reconhece, em súmula vinculante, sua competência para fixar o horário do comércio. O erro comum é enquadrar o tema como direito comercial, que trata das relações empresariais, e não do funcionamento local dos estabelecimentos."
+    },
+    {
+      "id": "direito-constitucional-20",
+      "topico": "organizacao-estado",
+      "nivel": "conceitual",
+      "pergunta": "Sobre o Distrito Federal, é correto afirmar que:",
+      "opcoes": [
+        "É dividido em Municípios, assim como os Estados",
+        "Não pode ser dividido em Municípios e acumula competências legislativas reservadas aos Estados e aos Municípios",
+        "Não tem autonomia e é administrado diretamente pela União",
+        "É um Território Federal, com governador nomeado pelo Presidente da República"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 32 veda a divisão do DF em Municípios e lhe atribui as competências legislativas de Estados e Municípios. Ele é ente federativo autônomo, com governador eleito, e não se confunde com Território Federal."
+    },
+    {
+      "id": "direito-constitucional-21",
+      "topico": "organizacao-poderes",
+      "nivel": "aplicacao",
+      "pergunta": "Quando o Senado Federal processa e julga o Presidente da República por crime de responsabilidade, ele exerce:",
+      "opcoes": [
+        "Função atípica de natureza jurisdicional",
+        "Função típica de legislar",
+        "Função típica de administrar",
+        "Função atípica de natureza administrativa"
+      ],
+      "correta": 0,
+      "explicacao": "Julgar é a função típica do Judiciário, de modo que, ao julgar o Presidente nos crimes de responsabilidade, o Senado exerce função atípica. O engano comum é considerar a atuação como fiscalização típica, mas o ato final é um julgamento."
+    },
+    {
+      "id": "direito-constitucional-22",
+      "topico": "organizacao-poderes",
+      "nivel": "conceitual",
+      "pergunta": "Sobre a composição do Senado Federal, é correto afirmar:",
+      "opcoes": [
+        "Compõe-se de representantes do povo, eleitos pelo sistema proporcional, com mandato de quatro anos",
+        "Cada Estado elege dois senadores, com mandato de seis anos",
+        "Compõe-se de representantes dos Estados e do DF, eleitos pelo princípio majoritário, três por unidade, com mandato de oito anos",
+        "O número de senadores de cada Estado é proporcional à sua população"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 46 define o Senado como Casa de representação dos Estados e do DF, com três senadores por unidade e mandato de oito anos. Representação do povo, sistema proporcional e mandato de quatro anos são características da Câmara dos Deputados."
+    },
+    {
+      "id": "direito-constitucional-23",
+      "topico": "organizacao-poderes",
+      "nivel": "aplicacao",
+      "pergunta": "Um grupo de deputados federais quer criar uma Comissão Parlamentar de Inquérito. Quais requisitos constitucionais devem ser observados?",
+      "opcoes": [
+        "Aprovação pela maioria absoluta da Casa e autorização prévia do STF",
+        "Requerimento de um terço dos membros da Casa, apuração de fato determinado e prazo certo",
+        "Requerimento de qualquer deputado e investigação genérica de todo o governo",
+        "Iniciativa do Presidente da República e prazo indeterminado"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 58, § 3º, exige requerimento de um terço dos membros, fato determinado e prazo certo, e confere à CPI poderes de investigação próprios das autoridades judiciais. O erro comum é imaginar que a CPI depende de aprovação do plenário, quando o requerimento da minoria qualificada basta."
+    },
+    {
+      "id": "direito-constitucional-24",
+      "topico": "organizacao-poderes",
+      "nivel": "aplicacao",
+      "pergunta": "O Presidente da República recebe um projeto de lei aprovado pelo Congresso e não se manifesta no prazo de quinze dias úteis. Qual é a consequência?",
+      "opcoes": [
+        "Ocorre veto tácito",
+        "O projeto é arquivado",
+        "O projeto volta à Casa iniciadora para nova votação",
+        "Ocorre sanção tácita"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 66, § 3º, estabelece que o silêncio do Presidente no prazo de quinze dias úteis importa sanção. Não existe veto tácito no Brasil: o veto deve ser expresso e motivado."
+    },
+    {
+      "id": "direito-constitucional-25",
+      "topico": "organizacao-poderes",
+      "nivel": "analise",
+      "pergunta": "O Presidente da República edita medida provisória que define um novo crime, alegando relevância e urgência. Essa medida provisória é válida?",
+      "opcoes": [
+        "Sim, desde que presentes a relevância e a urgência",
+        "Não, pois a Constituição veda a edição de medida provisória sobre direito penal",
+        "Sim, desde que seja convertida em lei no prazo constitucional",
+        "Sim, pois a medida provisória tem força de lei em qualquer matéria"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 62, § 1º, proíbe medida provisória sobre direito penal, processual penal e processual civil, entre outras matérias, mesmo com relevância e urgência. O erro comum é achar que a força de lei da medida provisória vale para qualquer tema."
+    },
+    {
+      "id": "direito-constitucional-26",
+      "topico": "controle-constitucionalidade",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação diferencia corretamente o controle difuso do controle concentrado de constitucionalidade?",
+      "opcoes": [
+        "O difuso é exclusivo do STF; o concentrado pode ser feito por qualquer juiz",
+        "Os dois têm sempre efeito contra todos e vinculante",
+        "O difuso só ocorre antes da promulgação da lei; o concentrado, depois",
+        "O difuso é feito por qualquer juiz ou tribunal em um caso concreto; o concentrado é feito pelo STF, em abstrato, com efeito contra todos"
+      ],
+      "correta": 3,
+      "explicacao": "No controle difuso, a inconstitucionalidade é questão incidental em um processo, e a decisão vale, em regra, entre as partes; no concentrado, a própria norma é o objeto da ação. O erro comum é confundir difuso com preventivo, mas o difuso é uma forma de controle repressivo."
+    },
+    {
+      "id": "direito-constitucional-27",
+      "topico": "controle-constitucionalidade",
+      "nivel": "aplicacao",
+      "pergunta": "Um partido político com representação no Congresso quer questionar no STF, de forma abstrata, uma lei municipal que contraria preceito fundamental da Constituição Federal. Qual ação é cabível?",
+      "opcoes": [
+        "Arguição de descumprimento de preceito fundamental (ADPF)",
+        "Ação direta de inconstitucionalidade (ADI)",
+        "Ação declaratória de constitucionalidade (ADC)",
+        "Mandado de injunção"
+      ],
+      "correta": 0,
+      "explicacao": "A ADI no STF só alcança leis e atos normativos federais ou estaduais, por isso a lei municipal é impugnada, de forma abstrata, por ADPF. O erro frequente é propor ADI, que não serve para lei municipal confrontada com a Constituição Federal."
+    },
+    {
+      "id": "direito-constitucional-28",
+      "topico": "controle-constitucionalidade",
+      "nivel": "conceitual",
+      "pergunta": "Qual das autoridades ou entidades abaixo NÃO está entre os legitimados para propor ação direta de inconstitucionalidade no STF?",
+      "opcoes": [
+        "Governador de Estado",
+        "Procurador-Geral da República",
+        "Prefeito de Município",
+        "Conselho Federal da Ordem dos Advogados do Brasil"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 103 lista os legitimados e não inclui prefeitos nem Câmaras Municipais. Governadores, o Procurador-Geral da República e o Conselho Federal da OAB constam expressamente da lista."
+    },
+    {
+      "id": "direito-constitucional-29",
+      "topico": "controle-constitucionalidade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma turma (órgão fracionário) de um Tribunal de Justiça declara inconstitucional uma lei estadual, sem levar a questão ao plenário ou ao órgão especial e sem pronunciamento anterior deles ou do STF sobre o tema. Essa decisão:",
+      "opcoes": [
+        "É válida, pois qualquer órgão do tribunal pode declarar inconstitucionalidade",
+        "É válida, pois a reserva de plenário só se aplica ao STF",
+        "Viola a cláusula de reserva de plenário",
+        "Viola a competência exclusiva do Senado para declarar inconstitucionalidade"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 97 exige a maioria absoluta dos membros do tribunal ou do órgão especial para declarar a inconstitucionalidade de lei. O erro comum é achar que o órgão fracionário pode decidir sozinho; ele só dispensa o plenário quando já houver pronunciamento deste ou do STF sobre a questão."
+    },
+    {
+      "id": "direito-constitucional-30",
+      "topico": "controle-constitucionalidade",
+      "nivel": "analise",
+      "pergunta": "Considere: (I) lei aprovada como ordinária, por maioria simples, sobre matéria que a Constituição reserva à lei complementar; (II) lei aprovada regularmente que institui pena de caráter perpétuo. Quais vícios existem em cada caso?",
+      "opcoes": [
+        "I tem vício formal; II tem vício material",
+        "I tem vício material; II tem vício formal",
+        "As duas têm apenas vício formal",
+        "As duas são constitucionais, pois foram aprovadas pelo Legislativo"
+      ],
+      "correta": 0,
+      "explicacao": "Em I, o problema está no processo de elaboração (espécie normativa e quórum errados), o que é vício formal; em II, o conteúdo viola a proibição de penas de caráter perpétuo, o que é vício material. O erro comum é inverter os conceitos: formal diz respeito à forma de produção, material ao conteúdo."
+    }
+  ]
+}

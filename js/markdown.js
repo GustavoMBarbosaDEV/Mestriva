@@ -19,6 +19,14 @@ export function markdownParaHtml(md) {
   while (i < linhas.length) {
     const l = linhas[i];
     if (!l.trim()) { i += 1; continue; }
+    if (/^\s*```/.test(l)) {
+      const codigo = [];
+      i += 1;
+      while (i < linhas.length && !/^\s*```/.test(linhas[i])) { codigo.push(linhas[i]); i += 1; }
+      i += 1;
+      saida.push(`<pre><code>${codigo.join("\n")}</code></pre>`);
+      continue;
+    }
     const t = /^(#{1,3})\s+(.*)$/.exec(l);
     if (t) { saida.push(`<h${t[1].length}>${inline(t[2])}</h${t[1].length}>`); i += 1; continue; }
     if (/^\s*\|.*\|\s*$/.test(l) && /^\s*\|?\s*:?-{3,}/.test(linhas[i + 1] || "")) {
@@ -44,7 +52,7 @@ export function markdownParaHtml(md) {
       continue;
     }
     const par = [];
-    while (i < linhas.length && linhas[i].trim() && !/^(#{1,3})\s|^\s*[-*]\s+|^\s*\d+[.)]\s+|^&gt;/.test(linhas[i])) { par.push(linhas[i]); i += 1; }
+    while (i < linhas.length && linhas[i].trim() && !/^(#{1,3})\s|^\s*[-*]\s+|^\s*\d+[.)]\s+|^&gt;|^\s*```/.test(linhas[i])) { par.push(linhas[i]); i += 1; }
     if (par.length) saida.push(`<p>${inline(par.join(" "))}</p>`);
     else i += 1;
   }

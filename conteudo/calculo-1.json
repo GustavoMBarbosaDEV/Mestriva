@@ -1,0 +1,465 @@
+{
+  "id": "calculo-1",
+  "nome": "Cálculo I",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "funcoes",
+      "nome": "Funções",
+      "resumo": "Uma **função** f: A → B associa a cada elemento x do **domínio** A exatamente um elemento f(x) do **contradomínio** B. O conjunto dos valores efetivamente atingidos é a **imagem**.\n\n### Domínio\nPara achar o domínio de uma expressão, procure as restrições:\n- denominador diferente de zero: em 1/(x − 2), x ≠ 2;\n- radicando de raiz de índice par maior ou igual a zero: em √(x − 3), x ≥ 3;\n- argumento do logaritmo positivo: em ln(x), x > 0.\n\n### Tipos e propriedades\n- **Injetora**: elementos diferentes do domínio têm imagens diferentes.\n- **Sobrejetora**: a imagem é igual ao contradomínio.\n- **Bijetora**: injetora e sobrejetora; só ela admite **inversa** f⁻¹.\n- **Par**: f(−x) = f(x), gráfico simétrico em relação ao eixo y (ex.: x²).\n- **Ímpar**: f(−x) = −f(x), gráfico simétrico em relação à origem (ex.: x³).\n\n### Composição e inversa\nA **composta** (f∘g)(x) = f(g(x)): aplica-se primeiro g e depois f. Em geral, f∘g ≠ g∘f. Para obter a inversa, escreva y = f(x), isole x e troque as letras. O gráfico de f⁻¹ é o reflexo do gráfico de f na reta y = x.\n\n### Funções elementares\nPolinomiais, racionais, exponenciais (aˣ), logarítmicas (logₐ x, inversa de aˣ) e trigonométricas (sen, cos, tg) são a base de todo o curso. Conhecer bem seus gráficos ajuda a prever limites, continuidade e derivadas.",
+      "revisao": "**Lembre:**\n- Domínio: denominador ≠ 0, raiz par com radicando ≥ 0, logaritmo com argumento > 0.\n- (f∘g)(x) = f(g(x)): a função de dentro é aplicada primeiro.\n- Só funções bijetoras têm inversa.\n- Par: f(−x) = f(x). Ímpar: f(−x) = −f(x).\n\n**Erros comuns:** inverter a ordem da composição; achar que f⁻¹(x) é 1/f(x); esquecer que x² + x não é par nem ímpar.\n\n**Mini exemplo:** f(x) = 3x − 6. Escrevendo y = 3x − 6 e isolando x: x = (y + 6)/3. Logo f⁻¹(x) = (x + 6)/3. Confira: f(f⁻¹(x)) = 3·(x + 6)/3 − 6 = x."
+    },
+    {
+      "id": "limites",
+      "nome": "Limites",
+      "resumo": "O **limite** lim x→a f(x) = L significa que f(x) fica tão próximo de L quanto quisermos quando x se aproxima de a, sem precisar ser igual a a. O valor f(a) nem precisa existir.\n\n### Limites laterais\n- lim x→a⁻ f(x): x se aproxima de a pela esquerda.\n- lim x→a⁺ f(x): x se aproxima pela direita.\n- O limite existe **se e somente se** os dois laterais existem e são iguais.\n\n### Técnicas de cálculo\n- **Substituição direta**: funciona quando f é contínua em a (polinômios, por exemplo).\n- **Indeterminação 0/0**: fatore e simplifique. Ex.: (x² − 4)/(x − 2) = x + 2 para x ≠ 2, logo o limite em 2 é 4.\n- **Racionalização**: multiplique pelo conjugado quando houver raízes.\n- **Limite fundamental trigonométrico**: lim x→0 sen(x)/x = 1.\n- **Limite fundamental exponencial**: lim x→∞ (1 + 1/x)ˣ = e.\n\n### Limites no infinito\nPara funções racionais, divida numerador e denominador pela maior potência de x do denominador:\n- grau do numerador menor: limite 0;\n- graus iguais: razão dos coeficientes líderes;\n- grau do numerador maior: limite infinito (±∞).\n\n### Limites infinitos\nSe o denominador tende a 0 e o numerador a um número não nulo, o limite tende a +∞ ou −∞, indicando uma **assíntota vertical**. Já lim x→±∞ f(x) = L indica uma **assíntota horizontal** y = L.",
+      "revisao": "**Lembre:**\n- O limite depende dos valores perto de a, não de f(a).\n- Limite existe só se os laterais forem iguais.\n- 0/0 é indeterminação: fatore, racionalize ou use limites fundamentais.\n- lim x→0 sen(x)/x = 1.\n\n**Erros comuns:** concluir que 0/0 vale 0 ou 1; esquecer de comparar os limites laterais em funções com módulo ou definidas por partes.\n\n**Mini exemplo:** lim x→3 (x² − 9)/(x − 3). Substituir dá 0/0. Fatorando: (x − 3)(x + 3)/(x − 3) = x + 3. Então o limite é 3 + 3 = 6."
+    },
+    {
+      "id": "continuidade",
+      "nome": "Continuidade",
+      "resumo": "Uma função f é **contínua em x = a** quando três condições valem ao mesmo tempo:\n1. f(a) está definida;\n2. lim x→a f(x) existe;\n3. lim x→a f(x) = f(a).\n\nIntuitivamente, o gráfico pode ser traçado perto de a sem tirar o lápis do papel.\n\n### Tipos de descontinuidade\n- **Removível**: o limite existe, mas f(a) não existe ou é diferente do limite. Basta redefinir f(a).\n- **De salto**: os limites laterais existem e são diferentes.\n- **Infinita**: pelo menos um limite lateral é ±∞ (assíntota vertical).\n\n### Funções contínuas\nPolinômios, exponenciais, seno e cosseno são contínuos em todo ℝ. Funções racionais, raízes e logaritmos são contínuos em seus domínios. Somas, produtos, quocientes (com denominador ≠ 0) e composições de funções contínuas são contínuas.\n\n### Funções definidas por partes\nPara verificar a continuidade no ponto de emenda, calcule os dois limites laterais e compare com o valor da função. Muitos exercícios pedem o valor de uma constante k que torna a função contínua: basta igualar as expressões no ponto de emenda.\n\n### Teorema do Valor Intermediário (TVI)\nSe f é contínua em [a, b] e N está entre f(a) e f(b), então existe c em (a, b) com f(c) = N. Consequência prática: se f(a) e f(b) têm **sinais opostos**, f tem pelo menos uma raiz em (a, b).\n\n### Continuidade e derivada\nToda função **derivável** em a é contínua em a. A recíproca é falsa: |x| é contínua em 0, mas não é derivável lá (o gráfico tem um bico).",
+      "revisao": "**Lembre:**\n- Três condições: f(a) existe, o limite existe, e os dois são iguais.\n- Removível (limite existe), salto (laterais diferentes), infinita (assíntota vertical).\n- TVI: sinais opostos nas pontas de um intervalo onde f é contínua garantem uma raiz.\n- Derivável ⇒ contínua, mas contínua não implica derivável.\n\n**Erros comuns:** verificar só se f(a) existe; aplicar o TVI a função descontínua no intervalo.\n\n**Mini exemplo:** f(x) = kx + 1 para x < 2 e f(x) = x² para x ≥ 2. Contínua em 2 exige 2k + 1 = 4, logo k = 3/2."
+    },
+    {
+      "id": "derivadas",
+      "nome": "Derivadas e regras de derivação",
+      "resumo": "A **derivada** de f em x é f'(x) = lim h→0 [f(x + h) − f(x)]/h. Geometricamente, é a **inclinação da reta tangente** ao gráfico; fisicamente, é a **taxa de variação instantânea** (por exemplo, a velocidade como derivada da posição).\n\n### Derivadas básicas\n- (c)' = 0 para constante c\n- (xⁿ)' = n·xⁿ⁻¹\n- (eˣ)' = eˣ e (ln x)' = 1/x\n- (sen x)' = cos x e (cos x)' = −sen x\n\n### Regras\n- **Soma**: (f + g)' = f' + g'\n- **Produto**: (f·g)' = f'·g + f·g'\n- **Quociente**: (f/g)' = (f'·g − f·g')/g²\n- **Cadeia**: [f(g(x))]' = f'(g(x))·g'(x). Deriva-se a função de fora mantendo a de dentro e multiplica-se pela derivada da de dentro.\n\n### Reta tangente\nA reta tangente ao gráfico de f no ponto (a, f(a)) é y − f(a) = f'(a)·(x − a).\n\n### Derivadas de ordem superior\nf''(x) é a derivada de f'(x). Em movimento, se s(t) é a posição, s'(t) é a velocidade e s''(t) é a aceleração.\n\n### Derivação implícita\nQuando y não está isolado, derive os dois lados em relação a x, lembrando que a derivada de y² é 2y·y' (regra da cadeia), e depois isole y'.",
+      "revisao": "**Lembre:**\n- (xⁿ)' = n·xⁿ⁻¹; (sen x)' = cos x; (cos x)' = −sen x.\n- Produto: f'g + fg'. Quociente: (f'g − fg')/g², com o sinal de menos e o g² embaixo.\n- Cadeia: derivada de fora (com o de dentro intacto) vezes derivada de dentro.\n- Tangente: y − f(a) = f'(a)(x − a).\n\n**Erros comuns:** derivar produto como f'·g'; esquecer o fator g'(x) da regra da cadeia; trocar a ordem no numerador do quociente.\n\n**Mini exemplo:** f(x) = (3x² + 1)⁴. Pela cadeia: f'(x) = 4(3x² + 1)³·6x = 24x(3x² + 1)³."
+    },
+    {
+      "id": "aplicacoes-derivada",
+      "nome": "Aplicações da derivada",
+      "resumo": "A derivada revela o comportamento de uma função sem precisar desenhar o gráfico ponto a ponto.\n\n### Crescimento e pontos críticos\n- f'(x) > 0 num intervalo: f é **crescente** nele.\n- f'(x) < 0: f é **decrescente**.\n- **Ponto crítico**: c no domínio com f'(c) = 0 ou f'(c) inexistente. Extremos locais só ocorrem em pontos críticos.\n\n### Testes de extremos\n- **Teste da primeira derivada**: se f' muda de + para − em c, há máximo local; de − para +, mínimo local.\n- **Teste da segunda derivada**: se f'(c) = 0 e f''(c) > 0, mínimo local; se f''(c) < 0, máximo local; se f''(c) = 0, o teste é inconclusivo.\n\n### Concavidade\n- f'' > 0: concavidade para cima.\n- f'' < 0: concavidade para baixo.\n- **Ponto de inflexão**: onde a concavidade muda de sentido.\n\n### Extremos absolutos em [a, b]\nSe f é contínua em [a, b], compare os valores de f nos pontos críticos internos e nas extremidades a e b. O maior é o máximo absoluto e o menor é o mínimo absoluto.\n\n### Otimização\n1. Escreva a grandeza a otimizar em função de uma variável, usando a restrição do problema.\n2. Derive, iguale a zero e encontre os pontos críticos.\n3. Confirme se é máximo ou mínimo e responda o que foi pedido.\n\n### Regra de L'Hôpital\nPara indeterminações 0/0 ou ∞/∞: lim f(x)/g(x) = lim f'(x)/g'(x), se o segundo limite existir. Deriva-se numerador e denominador **separadamente**, não como quociente.",
+      "revisao": "**Lembre:**\n- Ponto crítico: f'(c) = 0 ou f'(c) inexistente.\n- f'(c) = 0 e f''(c) > 0: mínimo; f''(c) < 0: máximo.\n- Inflexão: f'' muda de sinal.\n- Em [a, b], compare pontos críticos e extremidades.\n- L'Hôpital só para 0/0 ou ∞/∞.\n\n**Erros comuns:** aplicar L'Hôpital sem indeterminação; usar a regra do quociente em L'Hôpital; esquecer as extremidades do intervalo.\n\n**Mini exemplo:** f(x) = x² − 4x + 1. f'(x) = 2x − 4 = 0 dá x = 2. Como f''(x) = 2 > 0, há mínimo em x = 2, com valor f(2) = −3."
+    },
+    {
+      "id": "integrais",
+      "nome": "Integrais e Teorema Fundamental do Cálculo",
+      "resumo": "A **integral indefinida** ∫ f(x) dx = F(x) + C reúne todas as **primitivas** de f, isto é, funções com F'(x) = f(x). A constante C é obrigatória.\n\n### Primitivas básicas\n- ∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C, para n ≠ −1\n- ∫ 1/x dx = ln|x| + C\n- ∫ eˣ dx = eˣ + C\n- ∫ cos x dx = sen x + C e ∫ sen x dx = −cos x + C\n\n### Substituição\nQuando aparece uma função e a derivada dela, faça u = g(x), du = g'(x) dx. Ex.: ∫ 2x·(x² + 1)⁵ dx, com u = x² + 1, vira ∫ u⁵ du = u⁶/6 + C = (x² + 1)⁶/6 + C.\n\n### Integral definida\n∫ₐᵇ f(x) dx é o limite de somas de Riemann Σ f(xᵢ)·Δx. Se f ≥ 0, representa a **área** sob o gráfico entre a e b. Se f muda de sinal, as partes abaixo do eixo contam negativamente.\n\n### Teorema Fundamental do Cálculo (TFC)\n- **Parte 1**: se F(x) = ∫ₐˣ f(t) dt e f é contínua, então F'(x) = f(x). Derivação e integração são operações inversas.\n- **Parte 2**: ∫ₐᵇ f(x) dx = F(b) − F(a), em que F é qualquer primitiva de f.\n\n### Área entre curvas\nSe f(x) ≥ g(x) em [a, b], a área entre as curvas é ∫ₐᵇ [f(x) − g(x)] dx. Os limites a e b costumam ser os pontos de interseção, encontrados resolvendo f(x) = g(x).",
+      "revisao": "**Lembre:**\n- Integral indefinida sempre tem + C.\n- ∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C (n ≠ −1); ∫ 1/x dx = ln|x| + C.\n- TFC: ∫ₐᵇ f(x) dx = F(b) − F(a) e d/dx ∫ₐˣ f(t) dt = f(x).\n- Área entre curvas: integral de (curva de cima − curva de baixo).\n\n**Erros comuns:** esquecer o + C; calcular F(a) − F(b); não ajustar o du na substituição.\n\n**Mini exemplo:** ∫₁³ 2x dx. Uma primitiva é x². Então 3² − 1² = 9 − 1 = 8."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "calculo-1-1",
+      "topico": "funcoes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o domínio real da função f(x) = √(x − 3)?",
+      "opcoes": [
+        "x maior ou igual a 3",
+        "x maior que 3",
+        "x menor ou igual a 3",
+        "Todos os números reais"
+      ],
+      "correta": 0,
+      "explicacao": "O radicando de uma raiz quadrada precisa ser maior ou igual a zero, então x − 3 ≥ 0, ou seja, x ≥ 3. O erro comum é excluir o 3, mas √0 = 0 existe, então x = 3 pertence ao domínio."
+    },
+    {
+      "id": "calculo-1-2",
+      "topico": "funcoes",
+      "nivel": "aplicacao",
+      "pergunta": "Sejam f(x) = 2x + 1 e g(x) = x². Quanto vale (f∘g)(3)?",
+      "opcoes": [
+        "49",
+        "19",
+        "15",
+        "37"
+      ],
+      "correta": 1,
+      "explicacao": "(f∘g)(3) = f(g(3)) = f(9) = 2·9 + 1 = 19. O erro comum é calcular g(f(3)) = g(7) = 49, invertendo a ordem da composição."
+    },
+    {
+      "id": "calculo-1-3",
+      "topico": "funcoes",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a função inversa de f(x) = (x − 5)/2?",
+      "opcoes": [
+        "f⁻¹(x) = (x + 5)/2",
+        "f⁻¹(x) = x/2 + 5",
+        "f⁻¹(x) = 2x + 5",
+        "f⁻¹(x) = 2/(x − 5)"
+      ],
+      "correta": 2,
+      "explicacao": "De y = (x − 5)/2 obtemos 2y = x − 5, logo x = 2y + 5; trocando as letras, f⁻¹(x) = 2x + 5. O erro comum é confundir a inversa com o inverso multiplicativo 1/f(x), que é outra coisa."
+    },
+    {
+      "id": "calculo-1-4",
+      "topico": "funcoes",
+      "nivel": "analise",
+      "pergunta": "Qual das funções abaixo é par?",
+      "opcoes": [
+        "f(x) = x³ + x",
+        "f(x) = x² + 2x",
+        "f(x) = eˣ",
+        "f(x) = x⁴ − 3x²"
+      ],
+      "correta": 3,
+      "explicacao": "Em x⁴ − 3x², trocar x por −x não muda nada, pois as potências são pares, então f(−x) = f(x). O erro comum é achar que x² + 2x é par por conter x², mas o termo 2x muda de sinal, então ela não é par nem ímpar."
+    },
+    {
+      "id": "calculo-1-5",
+      "topico": "funcoes",
+      "nivel": "conceitual",
+      "pergunta": "O que significa dizer que uma função f é injetora?",
+      "opcoes": [
+        "Que sua imagem é igual ao contradomínio",
+        "Que elementos diferentes do domínio têm imagens diferentes",
+        "Que f(−x) = f(x) para todo x",
+        "Que f é crescente em todo o domínio"
+      ],
+      "correta": 1,
+      "explicacao": "Injetora significa que x₁ ≠ x₂ implica f(x₁) ≠ f(x₂), ou seja, nenhum valor da imagem é atingido duas vezes. O erro comum é confundir com sobrejetora, que é a propriedade de a imagem cobrir todo o contradomínio."
+    },
+    {
+      "id": "calculo-1-6",
+      "topico": "limites",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale lim x→2 (x² − 4)/(x − 2)?",
+      "opcoes": [
+        "4",
+        "0",
+        "2",
+        "O limite não existe"
+      ],
+      "correta": 0,
+      "explicacao": "Fatorando, (x² − 4)/(x − 2) = (x − 2)(x + 2)/(x − 2) = x + 2 para x ≠ 2, e o limite é 2 + 2 = 4. O erro comum é concluir que o limite não existe porque a substituição direta dá 0/0, que é apenas uma indeterminação."
+    },
+    {
+      "id": "calculo-1-7",
+      "topico": "limites",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o valor do limite fundamental lim x→0 sen(x)/x, com x em radianos?",
+      "opcoes": [
+        "0",
+        "Infinito",
+        "O limite não existe",
+        "1"
+      ],
+      "correta": 3,
+      "explicacao": "Esse é o limite trigonométrico fundamental, e seu valor é 1, pois perto de 0 o seno de x é praticamente igual a x. O erro comum é responder 0 porque sen(0) = 0, esquecendo que o denominador também tende a 0."
+    },
+    {
+      "id": "calculo-1-8",
+      "topico": "limites",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale lim x→∞ (3x² + 1)/(x² − 5x)?",
+      "opcoes": [
+        "0",
+        "Infinito",
+        "3",
+        "−3/5"
+      ],
+      "correta": 2,
+      "explicacao": "Os graus do numerador e do denominador são iguais (2), então o limite é a razão dos coeficientes líderes: 3/1 = 3. O erro comum é responder infinito só porque numerador e denominador crescem sem limite."
+    },
+    {
+      "id": "calculo-1-9",
+      "topico": "limites",
+      "nivel": "analise",
+      "pergunta": "Sobre lim x→0 |x|/x, é correto afirmar que:",
+      "opcoes": [
+        "vale 1, pois |x| e x têm o mesmo tamanho",
+        "não existe, pois o limite lateral à esquerda é −1 e à direita é 1",
+        "vale 0, pois |0| = 0",
+        "vale −1, pois x pode ser negativo"
+      ],
+      "correta": 1,
+      "explicacao": "Para x > 0, |x|/x = 1, e para x < 0, |x|/x = −1; como os limites laterais são diferentes, o limite bilateral não existe. O erro comum é olhar só para um lado e concluir que o limite vale 1."
+    },
+    {
+      "id": "calculo-1-10",
+      "topico": "limites",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale lim x→0 (√(x + 9) − 3)/x?",
+      "opcoes": [
+        "1/3",
+        "0",
+        "3",
+        "1/6"
+      ],
+      "correta": 3,
+      "explicacao": "Multiplicando pelo conjugado, obtemos x/[x(√(x + 9) + 3)] = 1/(√(x + 9) + 3), que tende a 1/(3 + 3) = 1/6. O erro comum é esquecer de somar as duas parcelas do conjugado e responder 1/3."
+    },
+    {
+      "id": "calculo-1-11",
+      "topico": "continuidade",
+      "nivel": "conceitual",
+      "pergunta": "Para que f seja contínua em x = a, é necessário e suficiente que:",
+      "opcoes": [
+        "f(a) exista",
+        "lim x→a f(x) exista",
+        "f(a) exista, lim x→a f(x) exista e os dois sejam iguais",
+        "f seja derivável em a"
+      ],
+      "correta": 2,
+      "explicacao": "A continuidade exige as três condições juntas: f(a) definida, limite existente e limite igual a f(a). O erro comum é exigir derivabilidade, que é mais forte do que continuidade e não é necessária (|x| é contínua em 0 sem ser derivável)."
+    },
+    {
+      "id": "calculo-1-12",
+      "topico": "continuidade",
+      "nivel": "aplicacao",
+      "pergunta": "Seja f(x) = x² + k para x < 1 e f(x) = 3x para x ≥ 1. Qual valor de k torna f contínua em x = 1?",
+      "opcoes": [
+        "k = 2",
+        "k = 3",
+        "k = 1",
+        "k = 4"
+      ],
+      "correta": 0,
+      "explicacao": "O limite pela esquerda é 1 + k e o valor (e limite pela direita) é 3·1 = 3; igualando, 1 + k = 3, logo k = 2. O erro comum é igualar k diretamente a 3, esquecendo a parcela x² = 1."
+    },
+    {
+      "id": "calculo-1-13",
+      "topico": "continuidade",
+      "nivel": "analise",
+      "pergunta": "Seja f(x) = (x² − 1)/(x − 1) para x ≠ 1 e f(1) = 5. Em x = 1, f apresenta:",
+      "opcoes": [
+        "descontinuidade de salto",
+        "descontinuidade infinita",
+        "continuidade",
+        "descontinuidade removível"
+      ],
+      "correta": 3,
+      "explicacao": "O limite em 1 existe e vale 2, pois (x² − 1)/(x − 1) = x + 1, mas f(1) = 5 é diferente; redefinindo f(1) = 2 a função fica contínua, o que caracteriza descontinuidade removível. O erro comum é chamar de salto, mas no salto os limites laterais são diferentes, o que não ocorre aqui."
+    },
+    {
+      "id": "calculo-1-14",
+      "topico": "continuidade",
+      "nivel": "aplicacao",
+      "pergunta": "Pelo Teorema do Valor Intermediário, em qual intervalo f(x) = x³ + x − 1 certamente tem uma raiz?",
+      "opcoes": [
+        "(−2, −1)",
+        "(0, 1)",
+        "(1, 2)",
+        "(−1, 0)"
+      ],
+      "correta": 1,
+      "explicacao": "f(0) = −1 e f(1) = 1 têm sinais opostos e f é contínua, então existe raiz em (0, 1). Nos outros intervalos f tem o mesmo sinal nas duas pontas (por exemplo f(−1) = −3 e f(0) = −1), e o erro comum é escolher um intervalo sem conferir os sinais."
+    },
+    {
+      "id": "calculo-1-15",
+      "topico": "continuidade",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação sobre continuidade e derivabilidade é verdadeira?",
+      "opcoes": [
+        "Toda função contínua é derivável",
+        "Uma função pode ser derivável sem ser contínua",
+        "Toda função derivável em um ponto é contínua nesse ponto",
+        "Continuidade e derivabilidade são equivalentes"
+      ],
+      "correta": 2,
+      "explicacao": "Derivabilidade em a implica continuidade em a, mas a recíproca falha. O erro comum é achar que toda função contínua é derivável, mas f(x) = |x| é contínua em 0 e não tem derivada lá por causa do bico."
+    },
+    {
+      "id": "calculo-1-16",
+      "topico": "derivadas",
+      "nivel": "conceitual",
+      "pergunta": "Qual expressão define a derivada de f no ponto x?",
+      "opcoes": [
+        "lim h→0 [f(x + h) − f(x)]/h",
+        "lim h→0 [f(x) − f(h)]/h",
+        "[f(b) − f(a)]/(b − a) para quaisquer a e b",
+        "lim h→∞ [f(x + h) − f(x)]/h"
+      ],
+      "correta": 0,
+      "explicacao": "A derivada é o limite da taxa de variação média [f(x + h) − f(x)]/h quando h tende a 0, e dá a inclinação da reta tangente. O erro comum é confundir com a taxa média [f(b) − f(a)]/(b − a), que é a inclinação de uma reta secante, sem limite."
+    },
+    {
+      "id": "calculo-1-17",
+      "topico": "derivadas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a derivada de f(x) = x³·sen(x)?",
+      "opcoes": [
+        "3x²·cos(x)",
+        "3x²·cos(x) + x³·sen(x)",
+        "x³·cos(x)",
+        "3x²·sen(x) + x³·cos(x)"
+      ],
+      "correta": 3,
+      "explicacao": "Pela regra do produto, (f·g)' = f'g + fg' = 3x²·sen(x) + x³·cos(x). O erro comum é multiplicar as derivadas, obtendo 3x²·cos(x), ou trocar qual fator é derivado em cada parcela."
+    },
+    {
+      "id": "calculo-1-18",
+      "topico": "derivadas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a derivada de f(x) = (2x + 1)⁵?",
+      "opcoes": [
+        "5(2x + 1)⁴",
+        "10(2x + 1)⁴",
+        "10x(2x + 1)⁴",
+        "(2x + 1)⁴"
+      ],
+      "correta": 1,
+      "explicacao": "Pela regra da cadeia, f'(x) = 5(2x + 1)⁴·(2x + 1)' = 5(2x + 1)⁴·2 = 10(2x + 1)⁴. O erro comum é esquecer de multiplicar pela derivada da função de dentro e responder 5(2x + 1)⁴."
+    },
+    {
+      "id": "calculo-1-19",
+      "topico": "derivadas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a derivada de f(x) = x²/(x + 1)?",
+      "opcoes": [
+        "2x",
+        "(x² + 2x)/(x + 1)²",
+        "2x/(x + 1)",
+        "(3x² + 2x)/(x + 1)²"
+      ],
+      "correta": 1,
+      "explicacao": "Pela regra do quociente, f'(x) = [2x(x + 1) − x²·1]/(x + 1)² = (x² + 2x)/(x + 1)². O erro comum é derivar numerador e denominador separadamente (2x/1 = 2x), o que não é a regra do quociente."
+    },
+    {
+      "id": "calculo-1-20",
+      "topico": "derivadas",
+      "nivel": "analise",
+      "pergunta": "Qual é a equação da reta tangente ao gráfico de f(x) = x² no ponto de abscissa x = 3?",
+      "opcoes": [
+        "y = 6x − 27",
+        "y = 3x",
+        "y = 6x − 9",
+        "y = 2x + 3"
+      ],
+      "correta": 2,
+      "explicacao": "f(3) = 9 e f'(x) = 2x dá inclinação f'(3) = 6, então y − 9 = 6(x − 3), ou seja, y = 6x − 9. O erro comum é errar o sinal ao passar o 9 para o outro lado, chegando a y = 6x − 27, ou usar a inclinação 2x sem substituir x = 3."
+    },
+    {
+      "id": "calculo-1-21",
+      "topico": "aplicacoes-derivada",
+      "nivel": "conceitual",
+      "pergunta": "Se f'(c) = 0 e f''(c) > 0, o que se conclui sobre o ponto x = c?",
+      "opcoes": [
+        "f tem um máximo local em c",
+        "f tem um ponto de inflexão em c",
+        "Nada pode ser concluído",
+        "f tem um mínimo local em c"
+      ],
+      "correta": 3,
+      "explicacao": "Pelo teste da segunda derivada, f''(c) > 0 indica concavidade para cima, então o ponto crítico c é um mínimo local. O erro comum é associar f'' positivo a máximo; pense na parábola x², que tem f'' = 2 > 0 e mínimo no vértice."
+    },
+    {
+      "id": "calculo-1-22",
+      "topico": "aplicacoes-derivada",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o valor máximo local de f(x) = x³ − 3x?",
+      "opcoes": [
+        "2",
+        "4",
+        "1",
+        "0"
+      ],
+      "correta": 0,
+      "explicacao": "f'(x) = 3x² − 3 = 0 dá x = ±1; como f''(x) = 6x é negativa em x = −1, há máximo local lá, com f(−1) = −1 + 3 = 2. O erro comum é responder a abscissa do ponto (−1 ou 1) em vez do valor da função."
+    },
+    {
+      "id": "calculo-1-23",
+      "topico": "aplicacoes-derivada",
+      "nivel": "aplicacao",
+      "pergunta": "Usando a regra de L'Hôpital, quanto vale lim x→0 (1 − cos x)/x²?",
+      "opcoes": [
+        "0",
+        "1",
+        "1/2",
+        "2"
+      ],
+      "correta": 2,
+      "explicacao": "Há indeterminação 0/0; derivando em cima e embaixo, obtém-se sen(x)/(2x), que tende a 1/2 pelo limite fundamental (ou aplicando L'Hôpital de novo: cos(x)/2 → 1/2). O erro comum é parar em sen(x)/(2x) e substituir x = 0, concluindo 0."
+    },
+    {
+      "id": "calculo-1-24",
+      "topico": "aplicacoes-derivada",
+      "nivel": "analise",
+      "pergunta": "Entre todos os retângulos de perímetro 40 cm, qual é a maior área possível?",
+      "opcoes": [
+        "96 cm²",
+        "100 cm²",
+        "400 cm²",
+        "75 cm²"
+      ],
+      "correta": 1,
+      "explicacao": "Com lados x e 20 − x, a área é A(x) = 20x − x², e A'(x) = 20 − 2x = 0 dá x = 10, um quadrado de área 100 cm². O erro comum é usar 40 − x como o outro lado, esquecendo que o perímetro soma cada lado duas vezes."
+    },
+    {
+      "id": "calculo-1-25",
+      "topico": "aplicacoes-derivada",
+      "nivel": "aplicacao",
+      "pergunta": "Em que valor de x a função f(x) = x³ − 6x² tem ponto de inflexão?",
+      "opcoes": [
+        "x = 0",
+        "x = 4",
+        "x = 6",
+        "x = 2"
+      ],
+      "correta": 3,
+      "explicacao": "f''(x) = 6x − 12 se anula em x = 2 e troca de sinal ali, então a concavidade muda e há inflexão em x = 2. O erro comum é procurar onde f'(x) = 0 (x = 0 e x = 4), que são pontos críticos, não pontos de inflexão."
+    },
+    {
+      "id": "calculo-1-26",
+      "topico": "integrais",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o resultado de ∫ (3x² + 2x) dx?",
+      "opcoes": [
+        "6x + 2 + C",
+        "x³ + x²",
+        "x³ + x² + C",
+        "3x³ + 2x² + C"
+      ],
+      "correta": 2,
+      "explicacao": "Integrando termo a termo, ∫ 3x² dx = x³ e ∫ 2x dx = x², então o resultado é x³ + x² + C. O erro comum é esquecer a constante C ou derivar em vez de integrar."
+    },
+    {
+      "id": "calculo-1-27",
+      "topico": "integrais",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale a integral definida ∫₀² x² dx?",
+      "opcoes": [
+        "8/3",
+        "4",
+        "8",
+        "2/3"
+      ],
+      "correta": 0,
+      "explicacao": "Uma primitiva de x² é x³/3, logo pelo TFC o valor é 2³/3 − 0³/3 = 8/3. O erro comum é esquecer de dividir por 3 e responder 8."
+    },
+    {
+      "id": "calculo-1-28",
+      "topico": "integrais",
+      "nivel": "conceitual",
+      "pergunta": "Pela primeira parte do Teorema Fundamental do Cálculo, se f é contínua e F(x) = ∫ₐˣ f(t) dt, então F'(x) é igual a:",
+      "opcoes": [
+        "f(a)",
+        "f(x) − f(a)",
+        "f'(x), a derivada do integrando",
+        "f(x)"
+      ],
+      "correta": 3,
+      "explicacao": "O TFC diz que derivar a integral com limite superior variável devolve o integrando avaliado em x, isto é, F'(x) = f(x). O erro comum é subtrair f(a), confundindo com a segunda parte do teorema, que trata de F(b) − F(a)."
+    },
+    {
+      "id": "calculo-1-29",
+      "topico": "integrais",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o resultado de ∫ 2x·cos(x²) dx?",
+      "opcoes": [
+        "−cos(x²) + C",
+        "sen(x²) + C",
+        "x²·sen(x²) + C",
+        "2·sen(x²) + C"
+      ],
+      "correta": 1,
+      "explicacao": "Com u = x², du = 2x dx, a integral vira ∫ cos(u) du = sen(u) + C = sen(x²) + C. O erro comum é confundir as primitivas: −cos é a primitiva do seno, não do cosseno."
+    },
+    {
+      "id": "calculo-1-30",
+      "topico": "integrais",
+      "nivel": "analise",
+      "pergunta": "Qual é a área da região limitada pelas curvas y = x e y = x² entre x = 0 e x = 1?",
+      "opcoes": [
+        "1/2",
+        "1/3",
+        "5/6",
+        "1/6"
+      ],
+      "correta": 3,
+      "explicacao": "Em [0, 1] temos x ≥ x², então a área é ∫₀¹ (x − x²) dx = 1/2 − 1/3 = 1/6. O erro comum é somar as integrais (1/2 + 1/3 = 5/6) em vez de subtrair a curva de baixo da curva de cima."
+    }
+  ]
+}

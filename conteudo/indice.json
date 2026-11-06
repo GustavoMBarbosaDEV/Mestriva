@@ -1,0 +1,549 @@
+{
+  "versao": 1,
+  "materias": [
+    {
+      "id": "algebra-linear",
+      "nome": "Álgebra Linear",
+      "apelidos": [
+        "Álgebra Linear I",
+        "Álgebra Linear e Geometria Analítica",
+        "Introdução à Álgebra Linear"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "matrizes",
+          "nome": "Matrizes e operações"
+        },
+        {
+          "id": "determinantes",
+          "nome": "Determinantes"
+        },
+        {
+          "id": "sistemas-lineares",
+          "nome": "Sistemas lineares"
+        },
+        {
+          "id": "espacos-vetoriais",
+          "nome": "Espaços vetoriais, base e dimensão"
+        },
+        {
+          "id": "transformacoes-lineares",
+          "nome": "Transformações lineares"
+        },
+        {
+          "id": "autovalores",
+          "nome": "Autovalores e autovetores"
+        }
+      ]
+    },
+    {
+      "id": "algoritmos-programacao",
+      "nome": "Algoritmos e Programação",
+      "apelidos": [
+        "Algoritmos",
+        "Lógica de Programação",
+        "Introdução à Programação",
+        "Programação I"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "logica-algoritmos",
+          "nome": "Lógica e Algoritmos"
+        },
+        {
+          "id": "variaveis-tipos",
+          "nome": "Variáveis, Tipos e Operadores"
+        },
+        {
+          "id": "condicionais",
+          "nome": "Estruturas Condicionais"
+        },
+        {
+          "id": "lacos",
+          "nome": "Laços de Repetição"
+        },
+        {
+          "id": "funcoes-recursao",
+          "nome": "Funções e Recursão"
+        },
+        {
+          "id": "vetores-complexidade",
+          "nome": "Vetores, Matrizes e Complexidade"
+        }
+      ]
+    },
+    {
+      "id": "anatomia-humana",
+      "nome": "Anatomia Humana",
+      "apelidos": [
+        "Anatomia Sistêmica",
+        "Anatomia Humana Básica",
+        "Anatomia Geral"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "planos-termos",
+          "nome": "Planos e termos anatômicos"
+        },
+        {
+          "id": "esqueletico-articulacoes",
+          "nome": "Sistema esquelético e articulações"
+        },
+        {
+          "id": "sistema-muscular",
+          "nome": "Sistema muscular"
+        },
+        {
+          "id": "cardiovascular",
+          "nome": "Sistema cardiovascular"
+        },
+        {
+          "id": "respiratorio",
+          "nome": "Sistema respiratório"
+        },
+        {
+          "id": "nervoso",
+          "nome": "Sistema nervoso"
+        }
+      ]
+    },
+    {
+      "id": "biologia-celular",
+      "nome": "Biologia Celular",
+      "apelidos": [
+        "Biologia Celular e Molecular",
+        "Citologia",
+        "Biologia Celular e Tecidual"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "organizacao-celular",
+          "nome": "Organização celular: procariontes e eucariontes"
+        },
+        {
+          "id": "membrana-transporte",
+          "nome": "Membrana plasmática e transporte"
+        },
+        {
+          "id": "organelas",
+          "nome": "Organelas citoplasmáticas"
+        },
+        {
+          "id": "nucleo-sintese-proteica",
+          "nome": "Núcleo, DNA e síntese proteica"
+        },
+        {
+          "id": "metabolismo-energetico",
+          "nome": "Metabolismo energético: respiração e fotossíntese"
+        },
+        {
+          "id": "divisao-celular",
+          "nome": "Divisão celular: mitose e meiose"
+        }
+      ]
+    },
+    {
+      "id": "calculo-1",
+      "nome": "Cálculo I",
+      "apelidos": [
+        "Cálculo Diferencial e Integral I",
+        "Cálculo A"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "funcoes",
+          "nome": "Funções"
+        },
+        {
+          "id": "limites",
+          "nome": "Limites"
+        },
+        {
+          "id": "continuidade",
+          "nome": "Continuidade"
+        },
+        {
+          "id": "derivadas",
+          "nome": "Derivadas e regras de derivação"
+        },
+        {
+          "id": "aplicacoes-derivada",
+          "nome": "Aplicações da derivada"
+        },
+        {
+          "id": "integrais",
+          "nome": "Integrais e Teorema Fundamental do Cálculo"
+        }
+      ]
+    },
+    {
+      "id": "contabilidade-introdutoria",
+      "nome": "Contabilidade Introdutória",
+      "apelidos": [
+        "Contabilidade Geral",
+        "Contabilidade Básica",
+        "Contabilidade I",
+        "Fundamentos de Contabilidade"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "patrimonio-equacao",
+          "nome": "Patrimônio e equação patrimonial"
+        },
+        {
+          "id": "contas-plano",
+          "nome": "Contas e plano de contas"
+        },
+        {
+          "id": "debito-credito",
+          "nome": "Débito, crédito e partidas dobradas"
+        },
+        {
+          "id": "balanco-patrimonial",
+          "nome": "Balanço patrimonial"
+        },
+        {
+          "id": "dre",
+          "nome": "Demonstração do Resultado do Exercício (DRE)"
+        },
+        {
+          "id": "competencia-principios",
+          "nome": "Regime de competência e princípios contábeis"
+        }
+      ]
+    },
+    {
+      "id": "direito-constitucional",
+      "nome": "Direito Constitucional",
+      "apelidos": [
+        "Direito Constitucional I",
+        "Teoria da Constituição"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "teoria-constituicao",
+          "nome": "Teoria da Constituição e poder constituinte"
+        },
+        {
+          "id": "principios-fundamentais",
+          "nome": "Princípios fundamentais (arts. 1º a 4º)"
+        },
+        {
+          "id": "direitos-garantias",
+          "nome": "Direitos e garantias fundamentais e remédios constitucionais"
+        },
+        {
+          "id": "organizacao-estado",
+          "nome": "Organização do Estado"
+        },
+        {
+          "id": "organizacao-poderes",
+          "nome": "Organização dos Poderes"
+        },
+        {
+          "id": "controle-constitucionalidade",
+          "nome": "Controle de constitucionalidade"
+        }
+      ]
+    },
+    {
+      "id": "estatistica",
+      "nome": "Estatística",
+      "apelidos": [
+        "Estatística Básica",
+        "Probabilidade e Estatística",
+        "Estatística Aplicada",
+        "Bioestatística"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "descritiva",
+          "nome": "Estatística descritiva"
+        },
+        {
+          "id": "dispersao",
+          "nome": "Medidas de dispersão"
+        },
+        {
+          "id": "probabilidade",
+          "nome": "Probabilidade"
+        },
+        {
+          "id": "binomial-normal",
+          "nome": "Distribuições binomial e normal"
+        },
+        {
+          "id": "amostragem-ic",
+          "nome": "Amostragem e intervalo de confiança"
+        },
+        {
+          "id": "testes-hipotese",
+          "nome": "Testes de hipótese"
+        }
+      ]
+    },
+    {
+      "id": "fisica-1",
+      "nome": "Física I",
+      "apelidos": [
+        "Física Geral I",
+        "Mecânica Clássica"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "cinematica",
+          "nome": "Cinemática"
+        },
+        {
+          "id": "leis-de-newton",
+          "nome": "Leis de Newton"
+        },
+        {
+          "id": "trabalho-e-energia",
+          "nome": "Trabalho e Energia"
+        },
+        {
+          "id": "momento-linear",
+          "nome": "Momento Linear e Colisões"
+        },
+        {
+          "id": "rotacao-e-torque",
+          "nome": "Rotação e Torque"
+        },
+        {
+          "id": "gravitacao",
+          "nome": "Gravitação"
+        }
+      ]
+    },
+    {
+      "id": "introducao-direito",
+      "nome": "Introdução ao Estudo do Direito",
+      "apelidos": [
+        "IED",
+        "Introdução ao Direito",
+        "Teoria Geral do Direito"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "conceito-norma",
+          "nome": "Conceito de Direito e norma jurídica"
+        },
+        {
+          "id": "fontes",
+          "nome": "Fontes do Direito"
+        },
+        {
+          "id": "ramos",
+          "nome": "Ramos do Direito"
+        },
+        {
+          "id": "lindb",
+          "nome": "LINDB: vigência e aplicação da lei no tempo e no espaço"
+        },
+        {
+          "id": "relacao-juridica",
+          "nome": "Relação jurídica e sujeitos de direito"
+        },
+        {
+          "id": "interpretacao-integracao",
+          "nome": "Interpretação e integração do Direito"
+        }
+      ]
+    },
+    {
+      "id": "introducao-economia",
+      "nome": "Introdução à Economia",
+      "apelidos": [
+        "Economia I",
+        "Fundamentos de Economia",
+        "Economia Geral",
+        "Introdução à Teoria Econômica"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "problema-economico",
+          "nome": "Problema econômico e custo de oportunidade"
+        },
+        {
+          "id": "oferta-demanda",
+          "nome": "Oferta, demanda e equilíbrio"
+        },
+        {
+          "id": "elasticidade",
+          "nome": "Elasticidade"
+        },
+        {
+          "id": "estruturas-mercado",
+          "nome": "Estruturas de mercado"
+        },
+        {
+          "id": "macroeconomia-indicadores",
+          "nome": "Macroeconomia: PIB, inflação e desemprego"
+        },
+        {
+          "id": "politicas-economicas",
+          "nome": "Políticas monetária e fiscal"
+        }
+      ]
+    },
+    {
+      "id": "metodologia-cientifica",
+      "nome": "Metodologia Científica",
+      "apelidos": [
+        "Metodologia da Pesquisa",
+        "Metodologia do Trabalho Científico",
+        "Iniciação Científica",
+        "Metodologia da Pesquisa Científica"
+      ],
+      "area": "Multidisciplinar",
+      "topicos": [
+        {
+          "id": "ciencia-conhecimento",
+          "nome": "Ciência e tipos de conhecimento"
+        },
+        {
+          "id": "tipos-pesquisa",
+          "nome": "Tipos de pesquisa"
+        },
+        {
+          "id": "problema-hipotese-objetivos",
+          "nome": "Problema, hipótese e objetivos"
+        },
+        {
+          "id": "metodos-coleta",
+          "nome": "Métodos e coleta de dados"
+        },
+        {
+          "id": "abnt-citacoes-referencias",
+          "nome": "Normas ABNT: citações e referências"
+        },
+        {
+          "id": "estrutura-etica",
+          "nome": "Estrutura de trabalhos acadêmicos, ética e plágio"
+        }
+      ]
+    },
+    {
+      "id": "portugues-redacao",
+      "nome": "Português e Redação Acadêmica",
+      "apelidos": [
+        "Leitura e Produção de Textos",
+        "Comunicação e Expressão",
+        "Língua Portuguesa",
+        "Produção Textual"
+      ],
+      "area": "Letras",
+      "topicos": [
+        {
+          "id": "generos-academicos",
+          "nome": "Gêneros acadêmicos: resumo, resenha e artigo"
+        },
+        {
+          "id": "coesao-coerencia",
+          "nome": "Coesão e coerência"
+        },
+        {
+          "id": "concordancia",
+          "nome": "Concordância verbal e nominal"
+        },
+        {
+          "id": "regencia-crase",
+          "nome": "Regência e crase"
+        },
+        {
+          "id": "pontuacao",
+          "nome": "Pontuação"
+        },
+        {
+          "id": "argumentacao-paragrafacao",
+          "nome": "Argumentação e paragrafação"
+        }
+      ]
+    },
+    {
+      "id": "quimica-geral",
+      "nome": "Química Geral",
+      "apelidos": [
+        "Química Geral I",
+        "Química Básica",
+        "Química Fundamental"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "estrutura-atomica",
+          "nome": "Estrutura Atômica e Tabela Periódica"
+        },
+        {
+          "id": "ligacoes-quimicas",
+          "nome": "Ligações Químicas"
+        },
+        {
+          "id": "estequiometria",
+          "nome": "Estequiometria"
+        },
+        {
+          "id": "solucoes",
+          "nome": "Soluções e Concentração"
+        },
+        {
+          "id": "termoquimica",
+          "nome": "Termoquímica"
+        },
+        {
+          "id": "equilibrio-e-ph",
+          "nome": "Equilíbrio Químico e pH"
+        }
+      ]
+    },
+    {
+      "id": "teoria-geral-administracao",
+      "nome": "Teoria Geral da Administração",
+      "apelidos": [
+        "TGA",
+        "Introdução à Administração",
+        "Fundamentos da Administração",
+        "Teorias da Administração"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "funcoes-administrativas",
+          "nome": "Funções administrativas (PODC)"
+        },
+        {
+          "id": "abordagem-classica",
+          "nome": "Abordagem clássica (Taylor e Fayol)"
+        },
+        {
+          "id": "relacoes-humanas",
+          "nome": "Escola de Relações Humanas"
+        },
+        {
+          "id": "abordagem-burocratica",
+          "nome": "Abordagem burocrática (Weber)"
+        },
+        {
+          "id": "sistemica-contingencial",
+          "nome": "Abordagem sistêmica e contingencial"
+        },
+        {
+          "id": "lideranca-motivacao",
+          "nome": "Liderança e motivação (Maslow e Herzberg)"
+        }
+      ]
+    }
+  ]
+}

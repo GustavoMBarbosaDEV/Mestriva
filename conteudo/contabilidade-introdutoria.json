@@ -1,0 +1,465 @@
+{
+  "id": "contabilidade-introdutoria",
+  "nome": "Contabilidade Introdutória",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "patrimonio-equacao",
+      "nome": "Patrimônio e equação patrimonial",
+      "resumo": "## O objeto da Contabilidade\n\nA Contabilidade registra, controla e informa as mudanças no **patrimônio** de uma entidade. Patrimônio é o conjunto de **bens**, **direitos** e **obrigações** da entidade.\n\n- **Bens**: coisas que a empresa possui e que têm valor (dinheiro em caixa, mercadorias, veículos, imóveis, marcas).\n- **Direitos**: valores a receber de terceiros (clientes a receber, duplicatas a receber, aluguéis a receber).\n- **Obrigações**: dívidas com terceiros (fornecedores, salários a pagar, empréstimos, impostos a recolher).\n\n### Ativo, Passivo e Patrimônio Líquido\n\n- **Ativo**: bens + direitos (aplicação de recursos).\n- **Passivo**: obrigações com terceiros (capital de terceiros).\n- **Patrimônio Líquido (PL)**: recursos próprios, que pertencem aos sócios.\n\nPassivo e PL mostram as **origens** dos recursos; o Ativo mostra onde eles foram **aplicados**.\n\n### Equação patrimonial\n\n**Ativo = Passivo + Patrimônio Líquido**, ou **PL = Ativo − Passivo**.\n\n| Situação | Condição | Nome |\n|---|---|---|\n| PL positivo | Ativo > Passivo | Situação líquida positiva |\n| PL nulo | Ativo = Passivo | Situação líquida nula |\n| PL negativo | Ativo < Passivo | Passivo a descoberto |\n\n### Fatos contábeis\n\nTodo fato contábil mantém a equação em equilíbrio.\n\n- **Permutativos**: trocam elementos sem alterar o PL (comprar mercadoria a prazo, pagar um fornecedor).\n- **Modificativos**: alteram o PL (receitas aumentam, despesas diminuem).\n- **Mistos**: combinam permuta e modificação (receber um cliente com juros).\n\nExemplo: comprar R$ 3.000,00 de mercadorias a prazo aumenta o Ativo (estoque) e o Passivo (fornecedores) no mesmo valor, sem mexer no PL.",
+      "revisao": "**Pontos-chave**\n- Patrimônio = bens + direitos + obrigações.\n- Ativo = Passivo + PL; logo, PL = Ativo − Passivo.\n- PL negativo = passivo a descoberto.\n- Fato permutativo não altera o PL; modificativo altera.\n\n**Erros comuns**\n- Classificar duplicatas a receber como obrigação: são direitos (ativo).\n- Somar o PL ao Ativo ao calcular a situação líquida.\n\n**Mini exemplo**: caixa R$ 5.000,00, estoque R$ 12.000,00, clientes R$ 8.000,00; fornecedores R$ 10.000,00, empréstimos R$ 6.000,00, salários a pagar R$ 2.000,00. Ativo = R$ 25.000,00; Passivo = R$ 18.000,00; PL = **R$ 7.000,00**."
+    },
+    {
+      "id": "contas-plano",
+      "nome": "Contas e plano de contas",
+      "resumo": "## O que é uma conta\n\n**Conta** é o nome técnico que identifica cada elemento do patrimônio ou do resultado, como Caixa, Fornecedores ou Receita de Vendas. Todo registro contábil é feito em contas.\n\n### Tipos de contas\n\n- **Patrimoniais**: representam Ativo, Passivo e Patrimônio Líquido. Seus saldos passam de um exercício para o outro.\n- **De resultado**: **receitas** e **despesas**. Receitas aumentam o PL; despesas o reduzem. No fim do exercício, elas são **encerradas** (zeradas) e o saldo vai para a apuração do resultado, que leva o lucro ou prejuízo ao PL.\n\n### Contas retificadoras (redutoras)\n\nTêm saldo contrário ao do grupo onde aparecem e reduzem seu valor:\n\n- **Depreciação Acumulada**: reduz o Imobilizado.\n- **Perdas Estimadas em Créditos de Liquidação Duvidosa (PECLD)**: reduz Clientes.\n- **Ações em Tesouraria**: reduz o Patrimônio Líquido.\n\nExemplo: Clientes R$ 100.000,00 e PECLD R$ 3.000,00 resultam em R$ 97.000,00 líquidos, o valor que se espera receber.\n\n### Plano de contas\n\nÉ a lista **organizada e codificada** de todas as contas que a empresa usa, com instruções de uso. Uma estrutura comum:\n\n| Código | Conta | Nível |\n|---|---|---|\n| 1 | Ativo | Grupo |\n| 1.1 | Ativo Circulante | Subgrupo |\n| 1.1.1 | Disponível | Sintética |\n| 1.1.1.01 | Caixa | Analítica |\n| 1.1.1.02 | Bancos Conta Movimento | Analítica |\n\nSomente as **contas analíticas** (último nível) recebem lançamentos; as sintéticas apenas somam os saldos das contas abaixo delas. A numeração dos grupos varia entre empresas, mas o padrão mais usado começa por 1 para Ativo e 2 para Passivo e PL.\n\nO plano de contas garante **padronização** e **comparabilidade** dos registros ao longo do tempo.",
+      "revisao": "**Pontos-chave**\n- Contas patrimoniais: Ativo, Passivo e PL. Contas de resultado: receitas e despesas.\n- Contas de resultado são encerradas no fim do exercício.\n- Retificadoras reduzem o grupo em que aparecem.\n- Só contas analíticas recebem lançamentos.\n\n**Erros comuns**\n- Tratar despesa como conta do passivo.\n- Lançar em conta sintética, como \"Disponível\", em vez de \"Caixa\" ou \"Bancos\".\n\n**Mini exemplo**: receitas de R$ 80.000,00 e despesas de R$ 50.000,00 são encerradas; o lucro de R$ 30.000,00 aumenta o PL."
+    },
+    {
+      "id": "debito-credito",
+      "nome": "Débito, crédito e partidas dobradas",
+      "resumo": "## Método das partidas dobradas\n\nDivulgado por Luca Pacioli em 1494, o método estabelece que **para todo débito há um crédito de igual valor**. Assim, a soma dos débitos é sempre igual à soma dos créditos, e a equação patrimonial se mantém equilibrada.\n\n**Débito** e **crédito** são apenas convenções de lado: no razonete (gráfico em T), o débito fica à **esquerda** e o crédito à **direita**. Não significam \"bom\" ou \"ruim\".\n\n### Regras de funcionamento\n\n| Grupo | Aumenta por | Diminui por | Saldo normal |\n|---|---|---|---|\n| Ativo | Débito | Crédito | Devedor |\n| Passivo | Crédito | Débito | Credor |\n| Patrimônio Líquido | Crédito | Débito | Credor |\n| Despesas | Débito | — | Devedor |\n| Receitas | Crédito | — | Credor |\n\nExceção: contas retificadoras têm saldo oposto ao do grupo (a Depreciação Acumulada é credora, mesmo estando no Ativo).\n\n### Lançamento\n\nO **Livro Diário** registra os fatos em ordem cronológica com data, conta debitada, conta creditada, histórico e valor. O **Livro Razão** agrupa os lançamentos por conta, mostrando o saldo de cada uma.\n\nExemplo de compra de mercadorias à vista por R$ 2.000,00:\n\n- D – Mercadorias (estoque) R$ 2.000,00\n- C – Caixa R$ 2.000,00\n\n### Balancete de verificação\n\nLista os saldos de todas as contas; o total dos saldos devedores deve igualar o dos credores. Ele detecta erros de valor desigual, mas **não** detecta lançamentos omitidos, duplicados por inteiro ou feitos em conta errada com o valor certo.",
+      "revisao": "**Pontos-chave**\n- Todo débito tem um crédito de igual valor.\n- Ativo e despesa aumentam a débito; passivo, PL e receita aumentam a crédito.\n- Débito à esquerda, crédito à direita no razonete.\n- Balancete fechado não garante ausência de erros.\n\n**Erros comuns**\n- Achar que \"creditar o Caixa\" significa entrar dinheiro: significa saída.\n- Inverter o lançamento de pagamento de fornecedor.\n\n**Mini exemplo**: pagamento de R$ 1.500,00 a fornecedor por banco: D – Fornecedores R$ 1.500,00; C – Bancos R$ 1.500,00. O passivo e o ativo diminuem no mesmo valor."
+    },
+    {
+      "id": "balanco-patrimonial",
+      "nome": "Balanço patrimonial",
+      "resumo": "## Estrutura pela Lei 6.404/76\n\nO **Balanço Patrimonial** mostra a posição do patrimônio em uma data. No **Ativo**, as contas aparecem em ordem **decrescente de grau de liquidez** (do que vira dinheiro mais rápido para o mais lento). No **Passivo**, por ordem de exigibilidade.\n\n| Ativo | Passivo e Patrimônio Líquido |\n|---|---|\n| Ativo Circulante | Passivo Circulante |\n| Ativo Não Circulante: | Passivo Não Circulante |\n| – Realizável a Longo Prazo | Patrimônio Líquido: |\n| – Investimentos | – Capital Social |\n| – Imobilizado | – Reservas de Capital |\n| – Intangível | – Ajustes de Avaliação Patrimonial |\n| | – Reservas de Lucros |\n| | – (−) Ações em Tesouraria |\n| | – (−) Prejuízos Acumulados |\n\n### Circulante x não circulante\n\nSão **circulantes** os direitos realizáveis e as obrigações vencíveis **até o término do exercício social seguinte** (na prática, em geral, 12 meses após a data do balanço). O que vence depois vai para o **não circulante**.\n\n### Grupos do Ativo Não Circulante\n\n- **Realizável a Longo Prazo**: direitos a receber após o exercício seguinte.\n- **Investimentos**: participações em outras empresas e bens não usados na atividade, como um terreno mantido para valorização.\n- **Imobilizado**: bens tangíveis usados nas operações (máquinas, veículos, prédios).\n- **Intangível**: bens incorpóreos (marcas, softwares, licenças).\n\n### Indicador básico\n\n**Liquidez corrente** = Ativo Circulante / Passivo Circulante. Valor 1,5 indica R$ 1,50 de ativo circulante para cada R$ 1,00 de dívida de curto prazo.\n\n### Exemplo\n\nEmpréstimo de R$ 60.000,00 em 30 parcelas mensais de R$ 2.000,00, a primeira no próximo mês, com exercício coincidindo com o ano civil: as 12 parcelas do ano seguinte (R$ 24.000,00) vão para o Passivo Circulante e as outras 18 (R$ 36.000,00) para o Passivo Não Circulante.",
+      "revisao": "**Pontos-chave**\n- Ativo em ordem decrescente de liquidez.\n- Circulante: até o fim do exercício seguinte.\n- Ativo Não Circulante: Realizável a LP, Investimentos, Imobilizado e Intangível.\n- Ações em tesouraria e prejuízos acumulados reduzem o PL.\n\n**Erros comuns**\n- Classificar terreno sem uso operacional como Imobilizado: é Investimento.\n- Jogar todo o empréstimo de longo prazo no não circulante, esquecendo as parcelas de curto prazo.\n\n**Mini exemplo**: AC = R$ 150.000,00 e PC = R$ 100.000,00. Liquidez corrente = **1,5**."
+    },
+    {
+      "id": "dre",
+      "nome": "Demonstração do Resultado do Exercício (DRE)",
+      "resumo": "## Para que serve a DRE\n\nA **DRE** mostra, de forma dedutiva, como a empresa chegou ao **lucro ou prejuízo** de um período, confrontando receitas e despesas. Sua estrutura básica segue o art. 187 da Lei 6.404/76:\n\n| Linha | Exemplo |\n|---|---|\n| Receita Bruta de Vendas e Serviços | R$ 200.000,00 |\n| (−) Deduções da receita | (R$ 30.000,00) |\n| = Receita Líquida | R$ 170.000,00 |\n| (−) Custo das Mercadorias Vendidas (CMV) | (R$ 90.000,00) |\n| = Lucro Bruto | R$ 80.000,00 |\n| (−) Despesas operacionais | (R$ 40.000,00) |\n| = Resultado antes do IR e CSLL | R$ 40.000,00 |\n| (−) IR e CSLL | (R$ 10.000,00) |\n| = Lucro Líquido do Exercício | R$ 30.000,00 |\n\n### Deduções da receita bruta\n\nDevoluções de vendas, abatimentos, descontos incondicionais e **tributos sobre vendas** (ICMS, ISS, PIS, COFINS).\n\n### Custo das mercadorias vendidas\n\nNo comércio: **CMV = Estoque Inicial + Compras − Estoque Final**. Na indústria, fala-se em CPV (custo dos produtos vendidos); em serviços, CSP.\n\n### Despesas operacionais\n\n- **De vendas**: comissões, propaganda, fretes de entrega.\n- **Administrativas**: salários do escritório, aluguel da sede, material de expediente.\n- **Resultado financeiro**: juros pagos (despesas) e recebidos (receitas).\n- **Outras receitas e despesas**, como ganho ou perda na venda de imobilizado.\n\nDepois do IR e da CSLL podem vir ainda **participações** (de debêntures, empregados, administradores), antes do lucro líquido final.\n\n### DRE e caixa\n\nA DRE é elaborada pelo **regime de competência**: uma venda a prazo entra como receita no mês da venda, mesmo sem dinheiro recebido. Por isso uma empresa pode ter lucro e, ao mesmo tempo, ver o caixa diminuir.",
+      "revisao": "**Pontos-chave**\n- Receita líquida = receita bruta − deduções.\n- Lucro bruto = receita líquida − CMV.\n- CMV = EI + Compras − EF.\n- Lucro líquido vem depois das despesas operacionais, do IR/CSLL e das participações.\n\n**Erros comuns**\n- Calcular lucro bruto a partir da receita bruta, esquecendo as deduções.\n- Tratar ICMS sobre vendas como despesa operacional.\n\n**Mini exemplo**: EI R$ 10.000,00, compras R$ 50.000,00, EF R$ 15.000,00. CMV = 10.000 + 50.000 − 15.000 = **R$ 45.000,00**."
+    },
+    {
+      "id": "competencia-principios",
+      "nome": "Regime de competência e princípios contábeis",
+      "resumo": "## Regime de competência\n\nPelo **regime de competência**, receitas e despesas são reconhecidas no período em que **ocorrem** (quando o fato gerador acontece), **independentemente** de recebimento ou pagamento. É o regime exigido para as demonstrações contábeis das empresas.\n\nNo **regime de caixa**, só se registra quando o dinheiro entra ou sai. Ele aparece em controles simples, mas não representa bem o desempenho do período.\n\nLigada à competência está a **confrontação**: as despesas devem ser registradas no mesmo período das receitas que ajudaram a gerar.\n\n### Exemplo\n\nSeguro anual de R$ 12.000,00 pago em 1º de outubro: no exercício que termina em 31 de dezembro, a despesa é de 3 meses, R$ 3.000,00. Os R$ 9.000,00 restantes ficam no Ativo como despesa antecipada (seguros a apropriar).\n\n## Estrutura Conceitual (CPC 00)\n\nO **Pronunciamento Técnico CPC 00** orienta a contabilidade no Brasil. O objetivo é fornecer **informação útil** a investidores, credores e outros usuários.\n\n- **Características qualitativas fundamentais**: **relevância** e **representação fidedigna** (informação completa, neutra e livre de erros).\n- **Características de melhoria**: comparabilidade, verificabilidade, tempestividade e compreensibilidade.\n- **Premissa subjacente**: **continuidade operacional** (presume-se que a entidade seguirá funcionando).\n\n## Princípios tradicionais\n\nMuito cobrados em provas, os princípios de contabilidade incluem:\n\n- **Entidade**: o patrimônio da empresa não se confunde com o dos sócios.\n- **Continuidade**: a entidade vai operar por tempo indeterminado.\n- **Oportunidade**: registro tempestivo e integral dos fatos.\n- **Registro pelo valor original**: os itens entram pelo valor da transação.\n- **Competência**: como descrito acima.\n- **Prudência**: não superestimar ativos e receitas nem subestimar passivos e despesas, sem criar reservas ocultas.",
+      "revisao": "**Pontos-chave**\n- Competência: reconhece quando o fato ocorre, não quando o dinheiro circula.\n- Despesa paga antecipadamente vira ativo e é apropriada mês a mês.\n- Relevância e representação fidedigna são as características fundamentais.\n- Entidade: patrimônio da empresa separado do dos sócios.\n\n**Erros comuns**\n- Registrar receita só quando o cliente paga.\n- Confundir continuidade com competência.\n\n**Mini exemplo**: serviço de R$ 8.000,00 prestado em dezembro e recebido em janeiro. Pela competência, a receita é de **dezembro**; em janeiro só se baixa o valor de Clientes contra Caixa."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "contabilidade-introdutoria-1",
+      "topico": "patrimonio-equacao",
+      "nivel": "conceitual",
+      "pergunta": "O Patrimônio Líquido de uma empresa representa:",
+      "opcoes": [
+        "A diferença entre o Ativo e o Passivo, ou seja, os recursos próprios",
+        "A soma de todos os bens e direitos da empresa",
+        "O total das dívidas com terceiros",
+        "O saldo disponível em caixa e bancos"
+      ],
+      "correta": 0,
+      "explicacao": "Pela equação patrimonial, PL = Ativo − Passivo, valor que pertence aos sócios. Confundir PL com o total do Ativo é o erro mais comum, pois o ativo inclui recursos financiados por terceiros."
+    },
+    {
+      "id": "contabilidade-introdutoria-2",
+      "topico": "patrimonio-equacao",
+      "nivel": "conceitual",
+      "pergunta": "Como se classifica a conta Duplicatas a Receber no patrimônio?",
+      "opcoes": [
+        "Bem, no Ativo",
+        "Obrigação, no Passivo",
+        "Direito, no Ativo",
+        "Recurso próprio, no Patrimônio Líquido"
+      ],
+      "correta": 2,
+      "explicacao": "Duplicatas a receber são valores que clientes devem à empresa, portanto um direito registrado no Ativo. Muitos a confundem com duplicatas a pagar, que seriam obrigação no Passivo."
+    },
+    {
+      "id": "contabilidade-introdutoria-3",
+      "topico": "patrimonio-equacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa tem: caixa R$ 5.000,00; mercadorias R$ 12.000,00; clientes a receber R$ 8.000,00; fornecedores R$ 10.000,00; empréstimos a pagar R$ 6.000,00; salários a pagar R$ 2.000,00. Qual é o Patrimônio Líquido?",
+      "opcoes": [
+        "R$ 25.000,00",
+        "R$ 15.000,00",
+        "R$ 43.000,00",
+        "R$ 7.000,00"
+      ],
+      "correta": 3,
+      "explicacao": "Ativo = 5.000 + 12.000 + 8.000 = R$ 25.000,00 e Passivo = 10.000 + 6.000 + 2.000 = R$ 18.000,00, logo PL = R$ 7.000,00. Um erro comum é subtrair só os fornecedores (chegando a R$ 15.000,00) e esquecer as demais obrigações."
+    },
+    {
+      "id": "contabilidade-introdutoria-4",
+      "topico": "patrimonio-equacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa possui Ativo total de R$ 50.000,00 e obrigações com terceiros de R$ 70.000,00. Qual é sua situação patrimonial?",
+      "opcoes": [
+        "Situação líquida positiva, com PL de R$ 20.000,00",
+        "Passivo a descoberto, com PL de −R$ 20.000,00",
+        "Situação líquida nula, com PL igual a zero",
+        "Situação líquida positiva, com PL de R$ 120.000,00"
+      ],
+      "correta": 1,
+      "explicacao": "PL = 50.000 − 70.000 = −R$ 20.000,00, e quando as dívidas superam o ativo há passivo a descoberto. O erro típico é inverter a subtração e achar um PL positivo."
+    },
+    {
+      "id": "contabilidade-introdutoria-5",
+      "topico": "patrimonio-equacao",
+      "nivel": "analise",
+      "pergunta": "Uma empresa compra R$ 3.000,00 em mercadorias a prazo. Qual é o efeito na equação patrimonial?",
+      "opcoes": [
+        "O Ativo aumenta e o Patrimônio Líquido diminui R$ 3.000,00",
+        "O Passivo aumenta e o Patrimônio Líquido diminui R$ 3.000,00",
+        "Ativo e Passivo aumentam R$ 3.000,00 cada, e o Patrimônio Líquido não se altera",
+        "O Ativo não muda, pois entra mercadoria e sai dinheiro"
+      ],
+      "correta": 2,
+      "explicacao": "Entra estoque no Ativo e surge a dívida com o fornecedor no Passivo, um fato permutativo que não mexe no PL. Achar que a compra é despesa e reduz o PL é um erro comum, pois a mercadoria ainda é um bem da empresa."
+    },
+    {
+      "id": "contabilidade-introdutoria-6",
+      "topico": "contas-plano",
+      "nivel": "conceitual",
+      "pergunta": "Qual das contas abaixo é uma conta de resultado?",
+      "opcoes": [
+        "Despesa com Aluguel",
+        "Caixa",
+        "Fornecedores",
+        "Capital Social"
+      ],
+      "correta": 0,
+      "explicacao": "Despesas e receitas são contas de resultado, encerradas ao fim do exercício. Caixa (Ativo), Fornecedores (Passivo) e Capital Social (PL) são contas patrimoniais, que mantêm saldo de um ano para o outro."
+    },
+    {
+      "id": "contabilidade-introdutoria-7",
+      "topico": "contas-plano",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa registra a conta Depreciação Acumulada de Veículos. Como essa conta se classifica?",
+      "opcoes": [
+        "Conta do Passivo, com saldo credor",
+        "Despesa operacional, com saldo devedor",
+        "Conta do Ativo, com saldo devedor",
+        "Retificadora do Ativo, com saldo credor"
+      ],
+      "correta": 3,
+      "explicacao": "A depreciação acumulada fica no Ativo reduzindo o valor do Imobilizado, por isso tem saldo credor, contrário ao do grupo. O erro frequente é tratá-la como dívida no Passivo ou confundi-la com a despesa de depreciação do período."
+    },
+    {
+      "id": "contabilidade-introdutoria-8",
+      "topico": "contas-plano",
+      "nivel": "aplicacao",
+      "pergunta": "No fim do exercício, uma empresa tem receitas de R$ 80.000,00 e despesas de R$ 50.000,00. Após o encerramento das contas de resultado, qual é o efeito no Patrimônio Líquido?",
+      "opcoes": [
+        "Aumento de R$ 80.000,00",
+        "Aumento de R$ 30.000,00",
+        "Redução de R$ 50.000,00",
+        "Aumento de R$ 130.000,00"
+      ],
+      "correta": 1,
+      "explicacao": "Os saldos de receitas e despesas são transferidos para a apuração do resultado, que mostra lucro de 80.000 − 50.000 = R$ 30.000,00 levado ao PL. Considerar só as receitas é o erro mais comum, pois as despesas também reduzem o PL."
+    },
+    {
+      "id": "contabilidade-introdutoria-9",
+      "topico": "contas-plano",
+      "nivel": "aplicacao",
+      "pergunta": "O plano de contas de uma empresa tem: 1 Ativo; 1.1 Ativo Circulante; 1.1.1 Disponível; 1.1.1.01 Caixa; 1.1.1.02 Bancos Conta Movimento. Um depósito em conta corrente deve ser lançado em:",
+      "opcoes": [
+        "1.1.1.02 Bancos Conta Movimento",
+        "1.1.1 Disponível",
+        "1.1 Ativo Circulante",
+        "1 Ativo"
+      ],
+      "correta": 0,
+      "explicacao": "Lançamentos são feitos apenas em contas analíticas, o último nível do plano, e o dinheiro em conta corrente pertence a Bancos. Lançar em Disponível é erro, pois essa conta sintética só soma os saldos de Caixa e Bancos."
+    },
+    {
+      "id": "contabilidade-introdutoria-10",
+      "topico": "contas-plano",
+      "nivel": "analise",
+      "pergunta": "Uma empresa tem Clientes de R$ 100.000,00 e estima perdas de R$ 3.000,00 com inadimplência, registradas em Perdas Estimadas em Créditos de Liquidação Duvidosa (PECLD). Como isso aparece no balanço e por quê?",
+      "opcoes": [
+        "Clientes passa a valer R$ 97.000,00 e a PECLD vai para o Passivo como dívida",
+        "A PECLD é somada a Clientes, totalizando R$ 103.000,00",
+        "Clientes aparece por R$ 100.000,00 menos a PECLD, totalizando R$ 97.000,00, mostrando o valor que se espera receber sem apagar o direito total",
+        "Os R$ 3.000,00 são baixados diretamente de Clientes, eliminando o direito contra os devedores"
+      ],
+      "correta": 2,
+      "explicacao": "A PECLD é retificadora do Ativo: reduz Clientes ao valor provável de realização, mas o direito integral continua registrado para cobrança. Classificá-la como dívida no Passivo é o erro mais comum, pois ela não é obrigação com ninguém."
+    },
+    {
+      "id": "contabilidade-introdutoria-11",
+      "topico": "debito-credito",
+      "nivel": "conceitual",
+      "pergunta": "O que estabelece o método das partidas dobradas?",
+      "opcoes": [
+        "Cada fato deve ser registrado duas vezes no mesmo lado da conta",
+        "Débitos representam aumentos e créditos representam reduções em qualquer conta",
+        "Os débitos devem sempre superar os créditos para gerar lucro",
+        "Para cada débito há um ou mais créditos de igual valor total"
+      ],
+      "correta": 3,
+      "explicacao": "Pelo método, a soma dos débitos é sempre igual à soma dos créditos, mantendo a equação patrimonial em equilíbrio. O erro comum é achar que débito sempre significa aumento, quando isso vale só para Ativo e despesas."
+    },
+    {
+      "id": "contabilidade-introdutoria-12",
+      "topico": "debito-credito",
+      "nivel": "conceitual",
+      "pergunta": "Quais grupos de contas têm, normalmente, saldo devedor?",
+      "opcoes": [
+        "Passivo e receitas",
+        "Ativo e despesas",
+        "Patrimônio Líquido e despesas",
+        "Ativo e receitas"
+      ],
+      "correta": 1,
+      "explicacao": "Ativo e despesas aumentam por débito, por isso seu saldo normal é devedor. Receitas, Passivo e PL aumentam por crédito e têm saldo credor, e misturar despesas com receitas é a confusão mais frequente."
+    },
+    {
+      "id": "contabilidade-introdutoria-13",
+      "topico": "debito-credito",
+      "nivel": "aplicacao",
+      "pergunta": "Uma loja compra mercadorias à vista, em dinheiro, por R$ 2.000,00. Qual é o lançamento correto?",
+      "opcoes": [
+        "D – Caixa; C – Mercadorias, R$ 2.000,00",
+        "D – Mercadorias; C – Fornecedores, R$ 2.000,00",
+        "D – Mercadorias; C – Caixa, R$ 2.000,00",
+        "D – Despesa com Mercadorias; C – Caixa, R$ 2.000,00"
+      ],
+      "correta": 2,
+      "explicacao": "O estoque (Ativo) aumenta, logo é debitado, e o Caixa (Ativo) diminui, logo é creditado. Creditar Fornecedores seria correto apenas em compra a prazo, e debitar despesa ignora que a mercadoria ainda está em estoque."
+    },
+    {
+      "id": "contabilidade-introdutoria-14",
+      "topico": "debito-credito",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa presta um serviço de R$ 5.000,00 para receber em 30 dias. Qual é o lançamento na data da prestação?",
+      "opcoes": [
+        "D – Clientes; C – Receita de Serviços, R$ 5.000,00",
+        "D – Receita de Serviços; C – Clientes, R$ 5.000,00",
+        "D – Caixa; C – Receita de Serviços, R$ 5.000,00",
+        "Nenhum lançamento até o recebimento"
+      ],
+      "correta": 0,
+      "explicacao": "Surge um direito a receber (Ativo, débito) e uma receita (crédito), reconhecida já na prestação pelo regime de competência. Debitar Caixa é erro porque o dinheiro ainda não entrou, e esperar o recebimento seria usar o regime de caixa."
+    },
+    {
+      "id": "contabilidade-introdutoria-15",
+      "topico": "debito-credito",
+      "nivel": "analise",
+      "pergunta": "O balancete de verificação de uma empresa fechou, com total de débitos igual ao de créditos. Qual erro ainda pode existir sem ser detectado por ele?",
+      "opcoes": [
+        "Um lançamento com débito de R$ 500,00 e crédito de R$ 50,00",
+        "Um débito registrado sem a contrapartida a crédito",
+        "Uma soma errada do saldo de uma conta no Razão, alterando o total de débitos",
+        "Um pagamento de salários lançado a débito de Despesa de Aluguel, com o valor correto"
+      ],
+      "correta": 3,
+      "explicacao": "Usar a conta errada com o valor certo mantém débitos iguais a créditos, então o balancete continua fechado. As demais situações deixam os totais diferentes, e o erro comum é achar que balancete fechado garante escrituração correta."
+    },
+    {
+      "id": "contabilidade-introdutoria-16",
+      "topico": "balanco-patrimonial",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Lei 6.404/76, em que ordem as contas do Ativo são apresentadas no Balanço Patrimonial?",
+      "opcoes": [
+        "Em ordem crescente de grau de liquidez",
+        "Em ordem decrescente de valor",
+        "Em ordem decrescente de grau de liquidez",
+        "Em ordem alfabética dentro de cada grupo"
+      ],
+      "correta": 2,
+      "explicacao": "Primeiro vêm os itens que se convertem em dinheiro mais rápido, como Caixa e Bancos, e por último os de conversão mais lenta. Inverter a ordem (crescente) é o erro frequente; o Passivo, por sua vez, segue a ordem de exigibilidade."
+    },
+    {
+      "id": "contabilidade-introdutoria-17",
+      "topico": "balanco-patrimonial",
+      "nivel": "aplicacao",
+      "pergunta": "Uma distribuidora compra um caminhão para fazer entregas aos clientes. Em que grupo ele deve ser classificado?",
+      "opcoes": [
+        "Ativo Não Circulante – Imobilizado",
+        "Ativo Circulante – Estoques",
+        "Ativo Não Circulante – Investimentos",
+        "Ativo Não Circulante – Intangível"
+      ],
+      "correta": 0,
+      "explicacao": "É um bem tangível usado nas operações por mais de um exercício, característica do Imobilizado. Classificá-lo como estoque só seria correto se a empresa comprasse caminhões para revender."
+    },
+    {
+      "id": "contabilidade-introdutoria-18",
+      "topico": "balanco-patrimonial",
+      "nivel": "aplicacao",
+      "pergunta": "Em 31/12/X1, uma empresa contrai empréstimo de R$ 60.000,00, a pagar em 30 parcelas mensais de R$ 2.000,00, a primeira em janeiro de X2. O exercício social coincide com o ano civil. Como o empréstimo aparece no balanço de 31/12/X1?",
+      "opcoes": [
+        "R$ 60.000,00 no Passivo Não Circulante",
+        "R$ 24.000,00 no Passivo Circulante e R$ 36.000,00 no Passivo Não Circulante",
+        "R$ 60.000,00 no Passivo Circulante",
+        "R$ 36.000,00 no Passivo Circulante e R$ 24.000,00 no Passivo Não Circulante"
+      ],
+      "correta": 1,
+      "explicacao": "As 12 parcelas que vencem até o fim de X2 (12 × R$ 2.000,00 = R$ 24.000,00) são circulantes, e as 18 restantes (R$ 36.000,00) são não circulantes. O erro comum é jogar todo o empréstimo no longo prazo só porque o prazo total passa de um ano."
+    },
+    {
+      "id": "contabilidade-introdutoria-19",
+      "topico": "balanco-patrimonial",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa tem Ativo Circulante de R$ 150.000,00 e Passivo Circulante de R$ 100.000,00. Qual é a liquidez corrente?",
+      "opcoes": [
+        "0,67",
+        "2,5",
+        "R$ 50.000,00",
+        "1,5"
+      ],
+      "correta": 3,
+      "explicacao": "Liquidez corrente = AC / PC = 150.000 / 100.000 = 1,5, ou seja, R$ 1,50 de ativo de curto prazo para cada R$ 1,00 de dívida de curto prazo. Dividir PC por AC (0,67) ou subtrair (R$ 50.000,00, que é o capital circulante líquido) são os erros mais comuns."
+    },
+    {
+      "id": "contabilidade-introdutoria-20",
+      "topico": "balanco-patrimonial",
+      "nivel": "analise",
+      "pergunta": "Uma indústria compra um terreno apenas para aguardar sua valorização, sem qualquer uso nas operações. Como deve classificá-lo?",
+      "opcoes": [
+        "Ativo Não Circulante – Investimentos",
+        "Ativo Não Circulante – Imobilizado",
+        "Ativo Circulante – Estoques",
+        "Ativo Não Circulante – Intangível"
+      ],
+      "correta": 0,
+      "explicacao": "Bens que não se destinam à manutenção da atividade da empresa, como um terreno mantido para valorização, vão para Investimentos. O erro típico é classificar todo terreno como Imobilizado, o que só vale quando ele é usado nas operações."
+    },
+    {
+      "id": "contabilidade-introdutoria-21",
+      "topico": "dre",
+      "nivel": "conceitual",
+      "pergunta": "Na DRE, como se obtém o lucro bruto?",
+      "opcoes": [
+        "Receita bruta menos o custo das mercadorias vendidas",
+        "Receita líquida menos as despesas operacionais",
+        "Receita líquida menos o custo das mercadorias vendidas",
+        "Receita bruta menos os tributos sobre o lucro"
+      ],
+      "correta": 2,
+      "explicacao": "Primeiro se tiram as deduções da receita bruta para chegar à receita líquida, e dela se subtrai o CMV. Partir da receita bruta é o erro mais comum, pois ignora devoluções e tributos sobre vendas."
+    },
+    {
+      "id": "contabilidade-introdutoria-22",
+      "topico": "dre",
+      "nivel": "conceitual",
+      "pergunta": "Qual dos itens abaixo é uma dedução da receita bruta na DRE?",
+      "opcoes": [
+        "Salários do pessoal administrativo",
+        "ICMS sobre vendas",
+        "Custo das mercadorias vendidas",
+        "Juros pagos sobre empréstimos"
+      ],
+      "correta": 1,
+      "explicacao": "Tributos sobre vendas, como ICMS, ISS, PIS e COFINS, junto com devoluções e abatimentos, são deduzidos para chegar à receita líquida. O CMV vem depois da receita líquida e não é dedução, confusão frequente em provas."
+    },
+    {
+      "id": "contabilidade-introdutoria-23",
+      "topico": "dre",
+      "nivel": "aplicacao",
+      "pergunta": "Uma loja tinha estoque inicial de R$ 10.000,00, comprou R$ 50.000,00 em mercadorias e terminou o período com estoque de R$ 15.000,00. Qual foi o CMV?",
+      "opcoes": [
+        "R$ 55.000,00",
+        "R$ 75.000,00",
+        "R$ 40.000,00",
+        "R$ 45.000,00"
+      ],
+      "correta": 3,
+      "explicacao": "CMV = EI + Compras − EF = 10.000 + 50.000 − 15.000 = R$ 45.000,00. Somar o estoque final em vez de subtraí-lo é o erro típico, mas o que sobrou no estoque não foi vendido."
+    },
+    {
+      "id": "contabilidade-introdutoria-24",
+      "topico": "dre",
+      "nivel": "aplicacao",
+      "pergunta": "Dados de uma empresa: receita bruta R$ 200.000,00; deduções R$ 30.000,00; CMV R$ 90.000,00; despesas operacionais R$ 40.000,00; IR e CSLL R$ 10.000,00. Quais são o lucro bruto e o lucro líquido?",
+      "opcoes": [
+        "Lucro bruto de R$ 80.000,00 e lucro líquido de R$ 30.000,00",
+        "Lucro bruto de R$ 110.000,00 e lucro líquido de R$ 60.000,00",
+        "Lucro bruto de R$ 80.000,00 e lucro líquido de R$ 40.000,00",
+        "Lucro bruto de R$ 170.000,00 e lucro líquido de R$ 30.000,00"
+      ],
+      "correta": 0,
+      "explicacao": "Receita líquida = 200.000 − 30.000 = 170.000; lucro bruto = 170.000 − 90.000 = 80.000; lucro líquido = 80.000 − 40.000 − 10.000 = R$ 30.000,00. Esquecer as deduções leva aos R$ 110.000,00, e esquecer o IR e a CSLL leva aos R$ 40.000,00."
+    },
+    {
+      "id": "contabilidade-introdutoria-25",
+      "topico": "dre",
+      "nivel": "analise",
+      "pergunta": "Uma empresa apresentou lucro líquido de R$ 50.000,00 no ano, mas seu saldo de caixa diminuiu. Qual é a explicação mais provável?",
+      "opcoes": [
+        "A DRE foi elaborada pelo regime de caixa, que ignora os pagamentos",
+        "O lucro líquido sempre é igual à variação do caixa, então há erro na contabilidade",
+        "Grande parte das vendas foi a prazo e ainda não foi recebida, pois a DRE reconhece receitas pelo regime de competência",
+        "As despesas não entram na DRE, apenas no caixa"
+      ],
+      "correta": 2,
+      "explicacao": "Pela competência, a venda a prazo vira receita no ato, mas o dinheiro só entra depois, então lucro e caixa podem andar em sentidos opostos. O erro comum é supor que lucro significa dinheiro em caixa, quando isso é mostrado pela Demonstração dos Fluxos de Caixa."
+    },
+    {
+      "id": "contabilidade-introdutoria-26",
+      "topico": "competencia-principios",
+      "nivel": "conceitual",
+      "pergunta": "O que determina o regime de competência?",
+      "opcoes": [
+        "Receitas e despesas são reconhecidas apenas quando o dinheiro entra ou sai",
+        "Receitas e despesas são reconhecidas no período em que ocorrem, independentemente de recebimento ou pagamento",
+        "Apenas as despesas são reconhecidas quando ocorrem; as receitas, quando recebidas",
+        "Receitas e despesas são reconhecidas no período em que forem aprovadas pela diretoria"
+      ],
+      "correta": 1,
+      "explicacao": "A competência liga o registro ao fato gerador, e não ao movimento de dinheiro, o que permite medir o desempenho real do período. Confundi-la com o regime de caixa, que registra só entradas e saídas de dinheiro, é o erro mais comum."
+    },
+    {
+      "id": "contabilidade-introdutoria-27",
+      "topico": "competencia-principios",
+      "nivel": "aplicacao",
+      "pergunta": "Em 1º de outubro de X1, uma empresa paga R$ 12.000,00 por um seguro com cobertura de 12 meses. O exercício termina em 31 de dezembro. Qual é a despesa de seguro em X1?",
+      "opcoes": [
+        "R$ 12.000,00",
+        "R$ 9.000,00",
+        "R$ 1.000,00",
+        "R$ 3.000,00"
+      ],
+      "correta": 3,
+      "explicacao": "A cobertura custa R$ 1.000,00 por mês, e em X1 foram usados 3 meses (outubro a dezembro), logo R$ 3.000,00 de despesa e R$ 9.000,00 de despesa antecipada no Ativo. Lançar os R$ 12.000,00 como despesa no pagamento é aplicar o regime de caixa."
+    },
+    {
+      "id": "contabilidade-introdutoria-28",
+      "topico": "competencia-principios",
+      "nivel": "aplicacao",
+      "pergunta": "Uma consultoria presta um serviço de R$ 8.000,00 em dezembro de X1 e recebe o valor em janeiro de X2. Quando a receita deve ser reconhecida?",
+      "opcoes": [
+        "Em dezembro de X1",
+        "Em janeiro de X2",
+        "Metade em dezembro de X1 e metade em janeiro de X2",
+        "Somente quando o cliente emitir o comprovante de pagamento"
+      ],
+      "correta": 0,
+      "explicacao": "O serviço foi prestado em dezembro, então a receita pertence a X1, e em janeiro apenas se baixa Clientes contra Caixa. Esperar o recebimento para registrar a receita é o erro típico de quem aplica o regime de caixa."
+    },
+    {
+      "id": "contabilidade-introdutoria-29",
+      "topico": "competencia-principios",
+      "nivel": "aplicacao",
+      "pergunta": "O sócio de uma pequena empresa usa o dinheiro do caixa da empresa para pagar a conta de luz da sua casa e registra o valor como despesa da empresa. Qual princípio foi violado?",
+      "opcoes": [
+        "Continuidade",
+        "Prudência",
+        "Entidade",
+        "Registro pelo valor original"
+      ],
+      "correta": 2,
+      "explicacao": "Pelo princípio da entidade, o patrimônio da empresa não se confunde com o dos sócios, então gastos pessoais não são despesas da empresa. O erro comum é apontar a prudência, que trata de não superestimar ativos e receitas."
+    },
+    {
+      "id": "contabilidade-introdutoria-30",
+      "topico": "competencia-principios",
+      "nivel": "analise",
+      "pergunta": "Para mostrar um resultado melhor aos bancos, uma empresa deixa de registrar uma obrigação provável de R$ 200.000,00 decorrente de um processo trabalhista que deve perder. Qual característica qualitativa da Estrutura Conceitual (CPC 00) fica mais comprometida?",
+      "opcoes": [
+        "Tempestividade, pois a informação chega atrasada aos usuários",
+        "Representação fidedigna, pois a informação deixa de ser completa e neutra",
+        "Comparabilidade, pois a empresa mudou de critério contábil",
+        "Compreensibilidade, pois os relatórios ficam difíceis de ler"
+      ],
+      "correta": 1,
+      "explicacao": "Omitir de propósito uma obrigação relevante torna as demonstrações incompletas e enviesadas, contrariando a representação fidedigna. O erro comum é escolher uma característica de melhoria, quando o problema atinge uma das características fundamentais."
+    }
+  ]
+}

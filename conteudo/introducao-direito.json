@@ -1,0 +1,465 @@
+{
+  "id": "introducao-direito",
+  "nome": "Introdução ao Estudo do Direito",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceito-norma",
+      "nome": "Conceito de Direito e norma jurídica",
+      "resumo": "## O que é Direito\nO Direito é um **sistema de normas de conduta** que organiza a vida em sociedade e cujo cumprimento pode ser **imposto pelo Estado**. Não há definição única, mas algumas ideias são centrais:\n- **Direito objetivo** (*norma agendi*): o conjunto de normas em vigor (\"o Direito brasileiro\").\n- **Direito subjetivo** (*facultas agendi*): a faculdade que a norma confere a alguém de exigir algo (\"o credor tem direito de cobrar\").\n- **Direito positivo**: o direito posto pelo Estado, vigente em certo lugar e tempo.\n- **Direito natural**: ideia de princípios de justiça anteriores e superiores ao Estado, defendida pelo **jusnaturalismo**. O **positivismo jurídico** sustenta que o Direito é o que foi validamente posto.\n\n### Teoria tridimensional\nPara **Miguel Reale**, o Direito é a integração de **fato, valor e norma**: um fato social, valorado pela sociedade, dá origem a uma norma.\n\n## Norma jurídica\nÉ a regra de conduta que prescreve um dever e prevê uma consequência para o descumprimento (sanção). Características mais citadas:\n- **Bilateralidade**: liga dois polos, um com direito e outro com dever.\n- **Generalidade**: dirige-se a todos que estejam na mesma situação.\n- **Abstratividade**: regula hipóteses, não um caso concreto único.\n- **Imperatividade**: impõe um comportamento, não apenas aconselha.\n- **Coercibilidade**: possibilidade de uso da força organizada do Estado para garantir o cumprimento.\n\n### Direito e Moral\nA moral é **autônoma** (o próprio sujeito a adota) e não tem coerção organizada. O Direito é **heterônomo** (imposto de fora) e **coercível**. Muitas normas jurídicas têm conteúdo moral, mas os dois campos não se confundem.",
+      "revisao": "**Pontos-chave**\n- Direito objetivo = normas; direito subjetivo = faculdade de exigir.\n- Reale: fato, valor e norma.\n- Norma jurídica: bilateral, geral, abstrata, imperativa e coercível.\n\n**Erros comuns**\n- Confundir coerção (uso efetivo da força) com coercibilidade (possibilidade).\n- Achar que toda regra moral é jurídica.\n- Trocar direito positivo por \"direito bom\".\n\n**Mini exemplo**\nO Código Civil prevê que o devedor deve pagar (direito objetivo). Maria, credora, pode cobrar João (direito subjetivo). Se ele não pagar, ela pode pedir ao Judiciário que o obrigue (coercibilidade)."
+    },
+    {
+      "id": "fontes",
+      "nome": "Fontes do Direito",
+      "resumo": "## O que são fontes\n**Fontes do Direito** são as origens das normas jurídicas, isto é, de onde o Direito nasce e como ele se manifesta.\n\n### Fontes materiais\nSão os **fatores sociais, econômicos, políticos, religiosos e morais** que levam à criação das normas. Ex.: o aumento de acidentes de trânsito que motiva uma lei mais rigorosa.\n\n### Fontes formais\nSão os **modos pelos quais o Direito se exterioriza** e se torna obrigatório.\n- **Lei**: norma escrita, geral, elaborada pelo órgão competente. No Brasil, filiado à tradição **romano-germânica** (*civil law*), é a **fonte formal principal**.\n- **Costume**: prática **reiterada** (elemento objetivo) acompanhada da **convicção de obrigatoriedade** (elemento subjetivo, *opinio juris*). Pela LINDB, atua na **omissão da lei**.\n  - *Secundum legem*: previsto pela própria lei.\n  - *Praeter legem*: preenche lacunas.\n  - *Contra legem*: contrário à lei; **não a revoga**, pois a lei só deixa de vigorar quando outra a modifica ou revoga.\n- **Jurisprudência**: conjunto de decisões reiteradas dos tribunais no mesmo sentido. A **súmula vinculante** do STF obriga os demais órgãos do Judiciário e a administração pública direta e indireta, em todas as esferas.\n- **Doutrina**: estudos dos juristas. Orienta a interpretação e a criação de leis, mas não tem força obrigatória.\n\n### Comparação com o common law\nEm países de *common law* (como Inglaterra e Estados Unidos), o **precedente judicial** tem papel central. No Brasil, os precedentes ganharam força, mas a lei continua no centro do sistema.",
+      "revisao": "**Pontos-chave**\n- Fontes materiais = fatores que inspiram a norma; formais = formas de expressão (lei, costume).\n- Lei é a fonte formal principal no Brasil.\n- Costume = uso reiterado + convicção de obrigatoriedade.\n\n**Erros comuns**\n- Achar que o desuso revoga a lei.\n- Dar à doutrina força obrigatória.\n- Confundir jurisprudência com uma única decisão.\n\n**Mini exemplo**\nUma onda de golpes digitais (fonte material) leva o Congresso a aprovar lei sobre o tema (fonte formal). Se a lei não cobrir certo ponto, o juiz pode recorrer ao costume."
+    },
+    {
+      "id": "ramos",
+      "nome": "Ramos do Direito",
+      "resumo": "## A grande divisão: público e privado\nA divisão entre **direito público** e **direito privado** vem do Direito Romano e ainda organiza o estudo jurídico. Os critérios mais usados são:\n- **Interesse predominante**: no direito público, prevalece o interesse da coletividade; no privado, o dos particulares.\n- **Posição do Estado**: no direito público, o Estado atua com **supremacia** (poder de império); no privado, as partes estão em **igualdade**.\n\n### Ramos do direito público\n- **Constitucional**: estrutura do Estado, Poderes e direitos fundamentais.\n- **Administrativo**: organização e atuação da Administração Pública.\n- **Tributário**: instituição e cobrança de tributos.\n- **Financeiro**: receitas, despesas e orçamento público.\n- **Penal**: crimes e penas.\n- **Processual** (civil e penal): regras do processo judicial.\n- **Internacional público**: relações entre Estados e organismos internacionais.\n\n### Ramos do direito privado\n- **Civil**: pessoas, bens, contratos, família, sucessões.\n- **Empresarial** (comercial): atividade empresarial e sociedades.\n\n### Ramos com natureza discutida\n- **Direito do Trabalho** e **Direito do Consumidor** têm regras privadas e públicas misturadas, e a doutrina diverge sobre sua classificação.\n- **Direito Internacional Privado**, apesar do nome, trata de **conflitos de leis no espaço**: indica qual lei nacional se aplica a situações com elementos estrangeiros. No Brasil, suas regras básicas estão na **LINDB**.\n\nA divisão é didática: o ordenamento é **uno**, e os ramos se comunicam o tempo todo.",
+      "revisao": "**Pontos-chave**\n- Público: interesse coletivo, Estado com supremacia.\n- Público: Constitucional, Administrativo, Tributário, Penal, Processual.\n- Privado: Civil e Empresarial.\n- Internacional Privado resolve conflito de leis no espaço.\n\n**Erros comuns**\n- Classificar Direito Penal como privado porque a vítima é particular.\n- Achar que Internacional Privado regula relações entre Estados.\n\n**Mini exemplo**\nO Município cobra IPTU de um morador: relação tributária, de direito público. Esse morador vende o imóvel a um vizinho: contrato de compra e venda, de direito civil (privado)."
+    },
+    {
+      "id": "lindb",
+      "nome": "LINDB: vigência e aplicação da lei no tempo e no espaço",
+      "resumo": "## O que é a LINDB\nA **Lei de Introdução às Normas do Direito Brasileiro** (Decreto-Lei 4.657/1942) é uma \"lei sobre leis\": traz regras para **todo o ordenamento**, não só para o Direito Civil.\n\n### Vigência\n- Salvo disposição contrária, a lei começa a vigorar em todo o país **45 dias** depois de oficialmente publicada (art. 1º).\n- Nos Estados estrangeiros, quando admitida, a obrigatoriedade começa **três meses** depois da publicação.\n- O período entre a publicação e a entrada em vigor chama-se ***vacatio legis***.\n- Se o texto for republicado para correção **antes** de entrar em vigor, o prazo recomeça; correções feitas **depois** da vigência são consideradas lei nova.\n\n### Revogação (art. 2º)\n- Não sendo temporária, a lei vigora até que outra a **modifique ou revogue**.\n- A revogação é **expressa** (a lei nova declara) ou **tácita** (a lei nova é incompatível com a anterior ou **regula inteiramente a matéria**).\n- Lei nova com disposições gerais ou especiais **a par** das existentes não revoga nem modifica a anterior.\n- **Repristinação**: a lei revogada **não volta** a vigorar só porque a lei revogadora perdeu a vigência, salvo disposição expressa.\n\n### Obrigatoriedade\nNinguém se escusa de cumprir a lei alegando que não a conhece (art. 3º).\n\n### Aplicação no tempo\nA lei em vigor tem **efeito imediato e geral**, respeitados o **ato jurídico perfeito**, o **direito adquirido** e a **coisa julgada** (art. 6º).\n\n### Aplicação no espaço\n- **Começo e fim da personalidade, nome, capacidade e direitos de família**: lei do país do **domicílio** da pessoa (art. 7º).\n- **Bens**: lei do país onde estão situados.\n- **Obrigações**: lei do país em que se constituírem.\n- **Sucessão**: lei do país do último domicílio do falecido.",
+      "revisao": "**Pontos-chave**\n- Vacatio padrão: 45 dias no Brasil; 3 meses no exterior.\n- Revogação expressa ou tácita (incompatibilidade ou regulação integral).\n- Sem repristinação automática.\n- Lei nova respeita ato jurídico perfeito, direito adquirido e coisa julgada.\n- Capacidade e família: lei do domicílio.\n\n**Erros comuns**\n- Achar que lei revogada \"volta\" quando a revogadora cai.\n- Aplicar a lei da nacionalidade em vez da lei do domicílio.\n\n**Mini exemplo**\nLei publicada sem cláusula de vigência: vigora após 45 dias. Se, antes disso, for republicada com correções, o prazo começa de novo."
+    },
+    {
+      "id": "relacao-juridica",
+      "nome": "Relação jurídica e sujeitos de direito",
+      "resumo": "## Relação jurídica\nÉ o **vínculo entre pessoas** que o Direito reconhece e ao qual atribui consequências. Seus elementos:\n- **Sujeito ativo**: quem tem o direito subjetivo (por exemplo, o credor).\n- **Sujeito passivo**: quem tem o dever jurídico (por exemplo, o devedor).\n- **Objeto**: o bem ou a prestação sobre a qual recai o vínculo (pagar, entregar, fazer).\n- **Vínculo jurídico**: a ligação, criada por um **fato jurídico** previsto na norma, que permite ao sujeito ativo exigir algo do passivo.\n\n## Sujeitos de direito\nSão os entes aos quais a ordem jurídica atribui direitos e deveres.\n\n### Pessoa natural\n- **Toda pessoa é capaz de direitos e deveres** na ordem civil.\n- A **personalidade civil** começa do **nascimento com vida**, mas a lei põe a salvo, desde a concepção, os direitos do **nascituro**.\n- **Capacidade de direito** (ou de gozo): aptidão para ter direitos; todos a têm.\n- **Capacidade de fato** (ou de exercício): aptidão para exercer pessoalmente os atos da vida civil.\n  - **Absolutamente incapazes**: menores de 16 anos; são **representados**.\n  - **Relativamente incapazes**: maiores de 16 e menores de 18; ébrios habituais e viciados em tóxico; quem, por causa transitória ou permanente, não puder exprimir sua vontade; pródigos. São **assistidos**.\n- A menoridade cessa aos **18 anos**. A existência da pessoa natural termina com a **morte**.\n\n### Pessoa jurídica\nEntidade formada por pessoas ou bens, com personalidade distinta da de seus membros.\n- **De direito público interno**: União, Estados, Distrito Federal, Municípios e autarquias.\n- **De direito privado**: associações, sociedades, fundações, organizações religiosas e partidos políticos.",
+      "revisao": "**Pontos-chave**\n- Relação jurídica: sujeito ativo, sujeito passivo, objeto e vínculo.\n- Personalidade começa com o nascimento com vida; nascituro tem direitos resguardados.\n- Absolutamente incapaz: menor de 16 (representado). Relativamente: 16 a 18, entre outros (assistido).\n\n**Erros comuns**\n- Confundir capacidade de direito (todos têm) com capacidade de fato.\n- Dizer que menor de 17 anos é absolutamente incapaz.\n\n**Mini exemplo**\nPaulo, 17 anos, compra um celular a prazo. É relativamente incapaz: deve ser assistido pelos pais. A loja é sujeito ativo quanto ao preço; Paulo é sujeito passivo."
+    },
+    {
+      "id": "interpretacao-integracao",
+      "nome": "Interpretação e integração do Direito",
+      "resumo": "## Interpretação\n**Interpretar** é fixar o **sentido e o alcance** de uma norma existente. A disciplina que estuda os métodos é a **hermenêutica**.\n\n### Métodos (quanto aos meios)\n- **Gramatical ou literal**: analisa o significado das palavras e a sintaxe do texto.\n- **Lógica**: busca a coerência interna do raciocínio da norma.\n- **Sistemática**: lê a norma em conjunto com as demais do ordenamento.\n- **Histórica**: considera o contexto e os debates da época da criação da norma.\n- **Teleológica**: busca a **finalidade** da norma. A LINDB manda o juiz atender aos **fins sociais** da lei e às **exigências do bem comum** (art. 5º).\n\n### Quanto ao resultado\n- **Declarativa**: o texto diz exatamente o que se quis dizer.\n- **Extensiva**: a lei disse **menos** do que queria; amplia-se o alcance.\n- **Restritiva**: a lei disse **mais** do que queria; reduz-se o alcance.\n\n### Quanto à origem\n- **Autêntica**: feita pelo próprio legislador, por outra norma.\n- **Judicial**: feita pelos juízes e tribunais.\n- **Doutrinária**: feita pelos estudiosos.\n\n## Integração\n**Integrar** é **suprir lacunas**, quando não há norma para o caso. O juiz **não pode deixar de decidir** alegando lacuna ou obscuridade. Pela LINDB (art. 4º), quando a lei for omissa, ele decide de acordo com:\n1. **Analogia**: aplica a norma de um caso semelhante.\n2. **Costumes**.\n3. **Princípios gerais de direito**: como \"ninguém pode se beneficiar da própria torpeza\".\n\nA **equidade** só é usada como fundamento da decisão quando a lei autoriza. No **Direito Penal**, a analogia é vedada para **prejudicar** o réu, por força do princípio da legalidade.",
+      "revisao": "**Pontos-chave**\n- Interpretação revela o sentido de norma existente; integração supre a falta de norma.\n- Métodos: gramatical, lógico, sistemático, histórico, teleológico.\n- Lacuna: analogia, costumes e princípios gerais (art. 4º da LINDB).\n\n**Erros comuns**\n- Confundir interpretação extensiva com analogia.\n- Achar que o juiz pode se recusar a julgar por falta de lei.\n- Aplicar analogia para criar crime.\n\n**Mini exemplo**\nUma lei regula contratos de aluguel de imóveis, mas é omissa sobre certa situação semelhante em outro tipo de contrato. O juiz pode aplicar a regra do aluguel por analogia, se os casos tiverem a mesma razão de ser."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "introducao-direito-1",
+      "topico": "conceito-norma",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica é apontada como típica da norma jurídica e ausente na norma moral?",
+      "opcoes": [
+        "A existência de conteúdo ético",
+        "A coercibilidade, isto é, a possibilidade de imposição do cumprimento pela força organizada do Estado",
+        "A autonomia, pois o próprio indivíduo cria a regra para si",
+        "A espontaneidade do cumprimento"
+      ],
+      "correta": 1,
+      "explicacao": "A norma jurídica é heterônoma e coercível: seu cumprimento pode ser exigido com apoio do aparato estatal. Muitos confundem com conteúdo ético, mas Direito e Moral podem ter o mesmo conteúdo; o que os distingue é a coercibilidade."
+    },
+    {
+      "id": "introducao-direito-2",
+      "topico": "conceito-norma",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a teoria tridimensional de Miguel Reale, o Direito resulta da integração de quais elementos?",
+      "opcoes": [
+        "Lei, costume e jurisprudência",
+        "Sujeito, objeto e vínculo",
+        "Legislativo, Executivo e Judiciário",
+        "Fato, valor e norma"
+      ],
+      "correta": 3,
+      "explicacao": "Para Reale, um fato social, valorado pela sociedade, dá origem a uma norma, e os três elementos estão sempre interligados. A confusão com lei, costume e jurisprudência é frequente, mas esses são fontes formais do Direito."
+    },
+    {
+      "id": "introducao-direito-3",
+      "topico": "conceito-norma",
+      "nivel": "aplicacao",
+      "pergunta": "O Código Civil determina que o devedor cumpra a obrigação assumida. Com base nisso, Ana, credora de Bruno, pode exigir dele o pagamento. A possibilidade de Ana exigir o pagamento corresponde a:",
+      "opcoes": [
+        "Direito subjetivo",
+        "Direito objetivo",
+        "Direito natural",
+        "Fonte material"
+      ],
+      "correta": 0,
+      "explicacao": "Direito subjetivo é a faculdade que a norma confere a uma pessoa de exigir um comportamento de outra. O erro comum é chamar isso de direito objetivo, que é a própria norma (o dispositivo do Código Civil), e não a faculdade de Ana."
+    },
+    {
+      "id": "introducao-direito-4",
+      "topico": "conceito-norma",
+      "nivel": "aplicacao",
+      "pergunta": "Uma lei municipal proíbe qualquer pessoa de estacionar em frente a hospitais. O fato de a regra se dirigir a todos os que estiverem nessa situação, e não a uma pessoa determinada, expressa qual característica da norma jurídica?",
+      "opcoes": [
+        "Bilateralidade",
+        "Coercibilidade",
+        "Generalidade",
+        "Retroatividade"
+      ],
+      "correta": 2,
+      "explicacao": "A generalidade significa que a norma vale para todos os que se encontrem na situação prevista. Bilateralidade é outra característica, ligada à existência de dois polos (direito e dever), e não ao alcance sobre os destinatários."
+    },
+    {
+      "id": "introducao-direito-5",
+      "topico": "conceito-norma",
+      "nivel": "analise",
+      "pergunta": "Um grupo de juristas sustenta que uma lei, embora aprovada conforme o processo legislativo, não deveria ser considerada Direito por violar princípios de justiça universais e anteriores ao Estado. Essa posição se aproxima de qual corrente?",
+      "opcoes": [
+        "Positivismo jurídico",
+        "Teoria tridimensional",
+        "Jusnaturalismo",
+        "Realismo jurídico"
+      ],
+      "correta": 2,
+      "explicacao": "O jusnaturalismo afirma a existência de princípios de justiça superiores ao direito posto, capazes de servir como critério de validade. O positivismo jurídico faria a análise oposta, reconhecendo como Direito a lei validamente produzida, ainda que considerada injusta."
+    },
+    {
+      "id": "introducao-direito-6",
+      "topico": "fontes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é um exemplo de fonte material do Direito?",
+      "opcoes": [
+        "As pressões sociais e econômicas que levaram à criação de uma nova lei",
+        "A lei ordinária aprovada pelo Congresso",
+        "O costume jurídico",
+        "A medida provisória editada pelo Presidente"
+      ],
+      "correta": 0,
+      "explicacao": "Fontes materiais são os fatores sociais, econômicos e políticos que motivam a criação das normas. Lei, costume e medida provisória são fontes formais, pois são as formas pelas quais o Direito se manifesta."
+    },
+    {
+      "id": "introducao-direito-7",
+      "topico": "fontes",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma feira, os comerciantes repetem há décadas o hábito de oferecer café aos clientes, por pura cortesia e sem se sentirem obrigados a isso. Essa prática configura costume jurídico?",
+      "opcoes": [
+        "Sim, pois qualquer prática repetida por mais de dez anos é costume jurídico",
+        "Sim, desde que a prática seja registrada em cartório",
+        "Não, pois o costume só existe quando previsto expressamente em lei",
+        "Não, pois, embora exista uso reiterado, falta a convicção de obrigatoriedade"
+      ],
+      "correta": 3,
+      "explicacao": "O costume jurídico exige dois elementos: o uso reiterado e a convicção de que a prática é obrigatória. O erro comum é considerar só a repetição; sem a convicção de obrigatoriedade, há mero hábito social."
+    },
+    {
+      "id": "introducao-direito-8",
+      "topico": "fontes",
+      "nivel": "aplicacao",
+      "pergunta": "Há muitos anos, os moradores de uma cidade ignoram uma lei municipal, que nunca é aplicada. Um cidadão argumenta que o costume contrário revogou a lei. O argumento está correto?",
+      "opcoes": [
+        "Sim, pois o costume contra a lei prevalece quando é mais antigo",
+        "Não, pois a lei só deixa de vigorar quando outra lei a modifica ou revoga; o desuso não a revoga",
+        "Sim, pois a lei não aplicada por mais de cinco anos perde a vigência",
+        "Não, porque o costume só pode revogar leis federais"
+      ],
+      "correta": 1,
+      "explicacao": "Pelo art. 2º da LINDB, a lei não temporária vigora até que outra a modifique ou revogue, de modo que o costume contra legem não tem força revogatória. É comum acreditar que a lei \"caduca\" pelo desuso, mas isso não existe no ordenamento brasileiro."
+    },
+    {
+      "id": "introducao-direito-9",
+      "topico": "fontes",
+      "nivel": "aplicacao",
+      "pergunta": "Um servidor de uma prefeitura pergunta se precisa observar uma súmula vinculante do STF ao decidir um processo administrativo. Qual é a resposta correta?",
+      "opcoes": [
+        "Sim, pois a súmula vinculante obriga os demais órgãos do Judiciário e a administração pública direta e indireta de todas as esferas",
+        "Não, pois a súmula vinculante obriga apenas os juízes federais",
+        "Não, pois a súmula vinculante é mera orientação sem força obrigatória",
+        "Sim, mas somente se a prefeitura tiver aprovado lei aderindo à súmula"
+      ],
+      "correta": 0,
+      "explicacao": "A Constituição atribui à súmula vinculante efeito obrigatório para o Judiciário e para a administração pública direta e indireta nas esferas federal, estadual e municipal. O erro comum é tratá-la como jurisprudência comum, que apenas orienta."
+    },
+    {
+      "id": "introducao-direito-10",
+      "topico": "fontes",
+      "nivel": "analise",
+      "pergunta": "Ao comparar o sistema jurídico brasileiro com o common law, qual afirmação é correta?",
+      "opcoes": [
+        "No Brasil, o costume prevalece sobre a lei sempre que for mais antigo",
+        "No Brasil, a doutrina tem a mesma força obrigatória da lei",
+        "No Brasil, de tradição romano-germânica, a lei é a fonte formal principal, e o costume atua de modo subsidiário, como na omissão legal",
+        "No common law, o precedente judicial não tem relevância como fonte"
+      ],
+      "correta": 2,
+      "explicacao": "O Brasil segue a tradição do civil law, em que a lei escrita ocupa o centro do sistema, e a LINDB coloca o costume como recurso na omissão da lei. No common law ocorre o contrário quanto ao destaque: o precedente judicial é fonte central."
+    },
+    {
+      "id": "introducao-direito-11",
+      "topico": "ramos",
+      "nivel": "conceitual",
+      "pergunta": "Qual critério é tradicionalmente usado para classificar um ramo como de direito público?",
+      "opcoes": [
+        "O número de pessoas envolvidas na relação",
+        "A predominância do interesse público e a atuação do Estado em posição de supremacia",
+        "A existência de contrato escrito entre as partes",
+        "O valor econômico da causa"
+      ],
+      "correta": 1,
+      "explicacao": "No direito público prevalece o interesse coletivo e o Estado atua com poder de império; no privado, as partes se relacionam em igualdade. Quantidade de pessoas ou valor envolvido não definem a natureza do ramo."
+    },
+    {
+      "id": "introducao-direito-12",
+      "topico": "ramos",
+      "nivel": "aplicacao",
+      "pergunta": "Um Município cobra IPTU de um proprietário de imóvel urbano. Essa relação é regida principalmente por qual ramo?",
+      "opcoes": [
+        "Direito Civil, ramo do direito privado",
+        "Direito Empresarial, ramo do direito privado",
+        "Direito Internacional Privado",
+        "Direito Tributário, ramo do direito público"
+      ],
+      "correta": 3,
+      "explicacao": "A instituição e a cobrança de tributos são objeto do Direito Tributário, no qual o Estado atua com supremacia. O engano comum é pensar em Direito Civil por envolver um imóvel, mas o que está em jogo é a obrigação tributária."
+    },
+    {
+      "id": "introducao-direito-13",
+      "topico": "ramos",
+      "nivel": "aplicacao",
+      "pergunta": "Um brasileiro domiciliado na Itália morre deixando bens no Brasil, e discute-se qual lei nacional regerá a sucessão. Qual ramo trata desse tipo de questão?",
+      "opcoes": [
+        "Direito Internacional Público",
+        "Direito Internacional Privado",
+        "Direito Administrativo",
+        "Direito Penal"
+      ],
+      "correta": 1,
+      "explicacao": "O Direito Internacional Privado resolve conflitos de leis no espaço, indicando qual ordenamento se aplica a relações com elementos estrangeiros. O erro frequente é escolher Direito Internacional Público, que cuida das relações entre Estados e organismos internacionais."
+    },
+    {
+      "id": "introducao-direito-14",
+      "topico": "ramos",
+      "nivel": "analise",
+      "pergunta": "Qual conjunto reúne apenas ramos tradicionalmente classificados como de direito público?",
+      "opcoes": [
+        "Civil, Empresarial e Tributário",
+        "Civil, Penal e Constitucional",
+        "Empresarial, Administrativo e Civil",
+        "Constitucional, Administrativo, Penal e Tributário"
+      ],
+      "correta": 3,
+      "explicacao": "Constitucional, Administrativo, Penal e Tributário envolvem o Estado em posição de supremacia e a tutela de interesses coletivos. Os demais conjuntos misturam ramos públicos com Civil e Empresarial, que são de direito privado."
+    },
+    {
+      "id": "introducao-direito-15",
+      "topico": "lindb",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a LINDB, salvo disposição em contrário, quando uma lei começa a vigorar em todo o país?",
+      "opcoes": [
+        "Quarenta e cinco dias depois de oficialmente publicada",
+        "Na data de sua publicação",
+        "Trinta dias depois de oficialmente publicada",
+        "Noventa dias depois de oficialmente publicada"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 1º da LINDB fixa o prazo de 45 dias como regra quando a própria lei não dispõe de outra forma. O erro comum é achar que toda lei vigora na data da publicação, o que só ocorre se ela assim determinar."
+    },
+    {
+      "id": "introducao-direito-16",
+      "topico": "lindb",
+      "nivel": "aplicacao",
+      "pergunta": "Uma lei brasileira foi publicada sem prever a data de sua entrada em vigor. Nos Estados estrangeiros, quando admitida, em que momento ela se torna obrigatória?",
+      "opcoes": [
+        "Quarenta e cinco dias depois de oficialmente publicada",
+        "Sessenta dias depois de oficialmente publicada",
+        "Três meses depois de oficialmente publicada",
+        "Um ano depois de oficialmente publicada"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 1º, § 1º, da LINDB estabelece o prazo de três meses para a obrigatoriedade da lei brasileira no exterior. É comum aplicar o prazo de 45 dias, que vale para o território nacional."
+    },
+    {
+      "id": "introducao-direito-17",
+      "topico": "lindb",
+      "nivel": "aplicacao",
+      "pergunta": "Uma lei nova passou a regular inteiramente a matéria tratada por uma lei anterior, sem mencionar revogação. O que acontece com a lei anterior?",
+      "opcoes": [
+        "Continua em vigor, porque a revogação exige declaração expressa",
+        "As duas leis vigoram juntas até decisão do STF",
+        "É revogada tacitamente, pois a lei nova regula inteiramente a matéria",
+        "A lei anterior fica suspensa até manifestação do Senado"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 2º, § 1º, da LINDB prevê a revogação tácita quando a lei posterior é incompatível com a anterior ou regula inteiramente a matéria. Muitos acham que só existe revogação expressa, mas a tácita é igualmente prevista."
+    },
+    {
+      "id": "introducao-direito-18",
+      "topico": "lindb",
+      "nivel": "analise",
+      "pergunta": "A Lei A foi revogada pela Lei B. Anos depois, a Lei C revogou a Lei B, sem dizer nada sobre a Lei A. A Lei A volta a vigorar?",
+      "opcoes": [
+        "Não, pois a lei revogada não se restaura por ter a lei revogadora perdido a vigência, salvo disposição expressa",
+        "Sim, automaticamente, pois desapareceu a lei que a revogava",
+        "Sim, mas apenas após 45 dias da publicação da Lei C",
+        "Sim, desde que a Lei A seja mais benéfica ao cidadão"
+      ],
+      "correta": 0,
+      "explicacao": "A LINDB veda a repristinação automática: a Lei A só volta se a Lei C determinar isso expressamente. O erro comum é imaginar que, retirada a lei revogadora, a anterior \"renasce\" sozinha."
+    },
+    {
+      "id": "introducao-direito-19",
+      "topico": "lindb",
+      "nivel": "aplicacao",
+      "pergunta": "Em 2020, duas pessoas celebraram validamente um contrato, conforme a lei então vigente. Em 2023, uma lei nova passou a exigir para esse tipo de contrato uma formalidade que antes não existia. Quanto ao contrato já celebrado:",
+      "opcoes": [
+        "Torna-se nulo, pois a lei nova tem efeito imediato e geral sobre todos os atos",
+        "Torna-se anulável até que as partes cumpram a nova formalidade",
+        "Fica suspenso até que um juiz confirme sua validade",
+        "Permanece válido, pois a lei nova deve respeitar o ato jurídico perfeito"
+      ],
+      "correta": 3,
+      "explicacao": "O ato jurídico perfeito é o já consumado segundo a lei vigente ao tempo em que se efetuou, e o art. 6º da LINDB manda respeitá-lo. O erro é ler o \"efeito imediato e geral\" como retroativo, quando ele vale para os fatos posteriores à lei nova."
+    },
+    {
+      "id": "introducao-direito-20",
+      "topico": "lindb",
+      "nivel": "aplicacao",
+      "pergunta": "Perante um juiz brasileiro, discute-se a capacidade civil de uma pessoa de nacionalidade brasileira domiciliada na Argentina. Segundo a LINDB, qual lei rege a capacidade dessa pessoa?",
+      "opcoes": [
+        "A lei do país de sua nacionalidade",
+        "A lei do país em que a pessoa é domiciliada",
+        "A lei do país onde a pessoa nasceu",
+        "Sempre a lei brasileira, por ser o país do juiz"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 7º da LINDB adota o critério do domicílio para começo e fim da personalidade, nome, capacidade e direitos de família. O erro comum é aplicar a lei da nacionalidade, critério adotado por outros países, mas não pela LINDB."
+    },
+    {
+      "id": "introducao-direito-21",
+      "topico": "relacao-juridica",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os elementos da relação jurídica?",
+      "opcoes": [
+        "Sujeito ativo, sujeito passivo, objeto e vínculo jurídico",
+        "Lei, costume, jurisprudência e doutrina",
+        "Fato, valor e norma",
+        "Generalidade, abstratividade e imperatividade"
+      ],
+      "correta": 0,
+      "explicacao": "A relação jurídica liga quem tem o direito (sujeito ativo) a quem tem o dever (sujeito passivo), em torno de um objeto, por um vínculo reconhecido pela norma. As demais opções descrevem fontes do Direito, a teoria de Reale e características da norma."
+    },
+    {
+      "id": "introducao-direito-22",
+      "topico": "relacao-juridica",
+      "nivel": "aplicacao",
+      "pergunta": "Durante a gravidez, o pai de Lucas morreu. Lucas nasceu com vida dois meses depois. Sobre a situação jurídica de Lucas, é correto afirmar:",
+      "opcoes": [
+        "Lucas não tem direito algum sobre os bens do pai, pois ainda não havia nascido quando ele morreu",
+        "A personalidade civil e a plena capacidade de fato começam na concepção",
+        "A personalidade civil começa do nascimento com vida, e a lei põe a salvo, desde a concepção, os direitos do nascituro",
+        "Lucas só terá direitos se for registrado antes de completar um ano"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 2º do Código Civil fixa o início da personalidade no nascimento com vida e protege os direitos do nascituro desde a concepção, o que permite a Lucas suceder o pai. O erro comum é ignorar essa proteção ao nascituro."
+    },
+    {
+      "id": "introducao-direito-23",
+      "topico": "relacao-juridica",
+      "nivel": "aplicacao",
+      "pergunta": "Ana, de 15 anos, quer assinar sozinha um contrato de prestação de serviços. Como o Código Civil classifica sua capacidade?",
+      "opcoes": [
+        "Relativamente incapaz, devendo ser assistida",
+        "Absolutamente incapaz, devendo ser representada",
+        "Plenamente capaz, por ter mais de 14 anos",
+        "Plenamente capaz, desde que o contrato seja de pequeno valor"
+      ],
+      "correta": 1,
+      "explicacao": "Os menores de 16 anos são absolutamente incapazes e praticam os atos da vida civil por meio de representante. A confusão mais comum é com a faixa de 16 a 18 anos, na qual a pessoa é relativamente incapaz e apenas assistida."
+    },
+    {
+      "id": "introducao-direito-24",
+      "topico": "relacao-juridica",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação sobre a capacidade civil está correta?",
+      "opcoes": [
+        "Só tem capacidade de direito quem completou 18 anos",
+        "Capacidade de direito e capacidade de fato são sinônimos",
+        "Pessoas jurídicas não podem ser titulares de direitos",
+        "Toda pessoa tem capacidade de direito, mas nem toda pessoa tem capacidade de fato"
+      ],
+      "correta": 3,
+      "explicacao": "A capacidade de direito é a aptidão para ter direitos e deveres, reconhecida a toda pessoa; a capacidade de fato é a aptidão para exercê-los pessoalmente. O erro comum é tratá-las como iguais, o que impediria explicar por que uma criança é herdeira, mas não pode vender a herança sozinha."
+    },
+    {
+      "id": "introducao-direito-25",
+      "topico": "relacao-juridica",
+      "nivel": "analise",
+      "pergunta": "Qual alternativa reúne apenas pessoas jurídicas de direito privado?",
+      "opcoes": [
+        "União, Estados e Municípios",
+        "Associações, sociedades e fundações privadas",
+        "Autarquias, associações e Municípios",
+        "Estados, sociedades e autarquias"
+      ],
+      "correta": 1,
+      "explicacao": "Associações, sociedades e fundações estão entre as pessoas jurídicas de direito privado listadas no Código Civil. As demais opções incluem entes de direito público interno, como União, Estados, Municípios e autarquias."
+    },
+    {
+      "id": "introducao-direito-26",
+      "topico": "interpretacao-integracao",
+      "nivel": "conceitual",
+      "pergunta": "A LINDB determina que, na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum. Esse comando se relaciona mais diretamente a qual método de interpretação?",
+      "opcoes": [
+        "Gramatical",
+        "Histórico",
+        "Autêntico",
+        "Teleológico"
+      ],
+      "correta": 3,
+      "explicacao": "O método teleológico busca a finalidade da norma, exatamente o que o art. 5º da LINDB manda considerar. O método gramatical, frequentemente escolhido por engano, se limita ao sentido das palavras do texto."
+    },
+    {
+      "id": "introducao-direito-27",
+      "topico": "interpretacao-integracao",
+      "nivel": "aplicacao",
+      "pergunta": "Ao julgar um caso, o juiz constata que não existe lei que o regule. Qual conduta está de acordo com o ordenamento brasileiro?",
+      "opcoes": [
+        "Decidir com base na analogia, nos costumes e nos princípios gerais de direito",
+        "Extinguir o processo por falta de lei aplicável",
+        "Suspender o processo até que o Legislativo edite lei específica",
+        "Decidir por equidade em qualquer caso, independentemente de autorização legal"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 4º da LINDB manda o juiz, na omissão da lei, recorrer à analogia, aos costumes e aos princípios gerais, pois ele não pode deixar de julgar alegando lacuna. A equidade como fundamento da decisão só é admitida nos casos previstos em lei."
+    },
+    {
+      "id": "introducao-direito-28",
+      "topico": "interpretacao-integracao",
+      "nivel": "aplicacao",
+      "pergunta": "Um regulamento proíbe o uso de \"telefone celular\" durante as provas. A comissão entende que a regra também abrange relógios inteligentes com acesso à internet, porque o texto disse menos do que pretendia. Que tipo de interpretação, quanto ao resultado, foi feita?",
+      "opcoes": [
+        "Restritiva",
+        "Declarativa",
+        "Extensiva",
+        "Autêntica"
+      ],
+      "correta": 2,
+      "explicacao": "Na interpretação extensiva, reconhece-se que o texto disse menos do que queria e amplia-se seu alcance para abranger casos que a finalidade da norma já incluía. Restritiva seria o oposto, e autêntica diz respeito à origem (o próprio legislador), não ao resultado."
+    },
+    {
+      "id": "introducao-direito-29",
+      "topico": "interpretacao-integracao",
+      "nivel": "analise",
+      "pergunta": "Um juiz criminal pretende aplicar por analogia um tipo penal a uma conduta não descrita em lei, a fim de condenar o réu. Essa conduta é possível?",
+      "opcoes": [
+        "Sim, pois o art. 4º da LINDB autoriza a analogia em qualquer ramo, sem exceção",
+        "Sim, desde que exista costume local no mesmo sentido",
+        "Não, pois a analogia em matéria penal é vedada para prejudicar o réu, em razão do princípio da legalidade",
+        "Sim, se o Ministério Público concordar com a aplicação"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição garante que não há crime sem lei anterior que o defina, o que impede criar ou ampliar crimes por analogia. A analogia penal só é admitida em favor do réu; o erro é aplicar a regra geral da LINDB sem considerar essa garantia."
+    },
+    {
+      "id": "introducao-direito-30",
+      "topico": "interpretacao-integracao",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação distingue corretamente interpretação e integração do Direito?",
+      "opcoes": [
+        "A interpretação fixa o sentido e o alcance de uma norma existente; a integração supre a ausência de norma para o caso",
+        "A interpretação supre lacunas; a integração explica o sentido das palavras da lei",
+        "Interpretação e integração são sinônimos usados pela LINDB",
+        "A integração é feita apenas pelo legislador; a interpretação, apenas pela doutrina"
+      ],
+      "correta": 0,
+      "explicacao": "Interpretar pressupõe uma norma cujo sentido se busca; integrar pressupõe uma lacuna a ser preenchida por analogia, costumes ou princípios gerais. É comum inverter os conceitos ou achar que só o legislador pode integrar, quando é tarefa do juiz diante do caso."
+    }
+  ]
+}

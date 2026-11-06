@@ -1,0 +1,465 @@
+{
+  "id": "teoria-geral-administracao",
+  "nome": "Teoria Geral da Administração",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "funcoes-administrativas",
+      "nome": "Funções administrativas (PODC)",
+      "resumo": "## O que é administrar\n\n**Administrar** é planejar, organizar, dirigir e controlar o uso de recursos (pessoas, dinheiro, materiais, informação) para alcançar objetivos. Essas quatro funções formam o **processo administrativo**, conhecido pela sigla **PODC**, uma adaptação dos elementos propostos por Fayol (prever, organizar, comandar, coordenar e controlar).\n\n### As quatro funções\n\n- **Planejamento**: definir objetivos e escolher os meios para alcançá-los.\n- **Organização**: dividir o trabalho, desenhar a estrutura, distribuir autoridade e recursos.\n- **Direção**: conduzir as pessoas, com liderança, comunicação e motivação.\n- **Controle**: estabelecer padrões, medir o desempenho, comparar com o planejado e tomar **ação corretiva**.\n\nAs funções formam um ciclo: o controle alimenta um novo planejamento.\n\n### Níveis de planejamento\n\n| Nível | Prazo | Quem | Abrangência |\n|---|---|---|---|\n| Estratégico | Longo | Alta direção | Empresa toda |\n| Tático | Médio | Gerência intermediária | Departamentos |\n| Operacional | Curto | Supervisão | Tarefas e rotinas |\n\n### Eficiência, eficácia e efetividade\n\n- **Eficiência**: uso adequado dos recursos, \"fazer certo as coisas\" (foco nos meios).\n- **Eficácia**: alcance dos objetivos, \"fazer as coisas certas\" (foco nos resultados).\n- **Efetividade**: impacto real e duradouro dos resultados no ambiente.\n\n### Habilidades do administrador (Katz)\n\n- **Técnicas**: conhecimento de métodos e ferramentas; pesam mais na supervisão.\n- **Humanas**: lidar com pessoas; importantes em todos os níveis.\n- **Conceituais**: visão do todo e pensamento estratégico; pesam mais na alta direção.\n\nMintzberg acrescenta que o gestor exerce **papéis** interpessoais, informacionais e decisórios.",
+      "revisao": "**Pontos-chave**\n- PODC: planejar, organizar, dirigir, controlar.\n- Controle compara o realizado com o planejado e corrige desvios.\n- Estratégico = longo prazo e empresa toda; operacional = curto prazo e tarefas.\n- Eficiência = meios; eficácia = resultados.\n- Alta direção depende mais de habilidades conceituais.\n\n**Erros comuns**\n- Confundir eficiência com eficácia.\n- Chamar de planejamento a etapa de medir e corrigir resultados (isso é controle).\n\n**Mini exemplo**: uma fábrica produz com o menor custo do setor, mas o produto encalha. Ela é **eficiente**, mas não é **eficaz**."
+    },
+    {
+      "id": "abordagem-classica",
+      "nome": "Abordagem clássica (Taylor e Fayol)",
+      "resumo": "## Administração Científica (Taylor)\n\nFrederick Taylor, engenheiro norte-americano, buscou aumentar a produtividade aplicando método científico ao trabalho operário. A ênfase está nas **tarefas**, e a análise vai **de baixo para cima** (do operário para a gerência).\n\n- **Estudo de tempos e movimentos** para encontrar a melhor maneira (*the one best way*) de executar cada tarefa.\n- **Seleção científica** e **treinamento** do trabalhador.\n- **Incentivos salariais** ligados à produção, baseados na ideia do **homo economicus** (motivado apenas por dinheiro).\n- **Separação entre planejamento e execução**: a gerência planeja, o operário executa.\n- **Supervisão funcional**: vários supervisores especializados.\n\nHenry Ford levou essas ideias à **linha de montagem** e à produção em massa.\n\n## Teoria Clássica (Fayol)\n\nHenri Fayol, engenheiro francês, deu ênfase à **estrutura** da organização, com análise **de cima para baixo**.\n\n**Seis funções da empresa**: técnicas, comerciais, financeiras, de segurança, contábeis e **administrativas**. As administrativas coordenam as demais e são formadas por **prever, organizar, comandar, coordenar e controlar**.\n\n### Alguns dos 14 princípios de Fayol\n\n- **Divisão do trabalho**\n- **Autoridade e responsabilidade**\n- **Unidade de comando**: cada empregado recebe ordens de um só chefe.\n- **Unidade de direção**: um chefe e um plano para cada conjunto de atividades com o mesmo objetivo.\n- **Cadeia escalar**: linha de autoridade do topo à base.\n- **Centralização**, **disciplina**, **ordem**, **equidade**, **estabilidade do pessoal**, **iniciativa** e **espírito de equipe**.\n\n## Críticas à abordagem clássica\n\n- Visão **mecanicista** da organização e do trabalhador.\n- Tratamento da empresa como **sistema fechado**, sem considerar o ambiente.\n- Pouca atenção a aspectos humanos e sociais.",
+      "revisao": "**Pontos-chave**\n- Taylor: ênfase nas tarefas, tempos e movimentos, incentivo salarial.\n- Fayol: ênfase na estrutura, seis funções, POCCC e 14 princípios.\n- Unidade de comando: um só chefe por subordinado.\n- Ambos viam a empresa como sistema fechado.\n\n**Erros comuns**\n- Atribuir a Fayol o estudo de tempos e movimentos.\n- Confundir unidade de comando (um chefe) com unidade de direção (um plano).\n\n**Mini exemplo**: um operador recebe ordens contraditórias do gerente de produção e do gerente de qualidade. Isso viola a **unidade de comando**."
+    },
+    {
+      "id": "relacoes-humanas",
+      "nome": "Escola de Relações Humanas",
+      "resumo": "## Origem\n\nA **Escola de Relações Humanas** surgiu nos Estados Unidos, nos anos 1930, como reação à visão mecanicista da abordagem clássica. Seu marco é a **Experiência de Hawthorne** (1927–1932), realizada na fábrica da **Western Electric**, em Chicago, e coordenada por **Elton Mayo**.\n\n### Fases da experiência\n\n- **Iluminação**: pretendia medir o efeito da luz sobre a produção. A produção variou mesmo sem mudança real de iluminação, revelando o peso do **fator psicológico**.\n- **Sala de montagem de relés**: um pequeno grupo de operárias produziu mais com supervisão amigável e sentimento de grupo, independentemente de pausas ou horários.\n- **Programa de entrevistas**: revelou a existência de uma **organização informal** entre os operários.\n- **Sala de montagem de terminais**: o grupo fixava sua própria produção \"normal\" e pressionava quem produzia demais ou de menos.\n\n### Conclusões principais\n\n- O nível de produção depende das **normas sociais** do grupo, e não só da capacidade física.\n- O trabalhador age como **membro de grupo**, e não isoladamente.\n- **Recompensas e sanções sociais** (aceitação, rejeição) pesam tanto quanto as financeiras.\n- Existe uma **organização informal** paralela à formal.\n- Importam as **relações humanas**, a comunicação e a liderança.\n\nA visão do ser humano passa do **homo economicus** ao **homo social**.\n\n### Críticas\n\n- Oposição exagerada à abordagem clássica.\n- Visão **ingênua** de que trabalhador satisfeito é sempre produtivo.\n- Foco quase só no grupo informal, ignorando outras variáveis.\n- Possível uso **manipulativo** das relações humanas para elevar a produção.",
+      "revisao": "**Pontos-chave**\n- Marco: Experiência de Hawthorne, coordenada por Elton Mayo.\n- Fatores sociais e psicológicos influenciam a produtividade.\n- O grupo informal define normas de produção.\n- Conceito de homem: homo social.\n\n**Erros comuns**\n- Achar que a experiência provou que mais luz gera mais produção.\n- Confundir a organização informal com o organograma oficial.\n\n**Mini exemplo**: um operário que produz muito acima da média é apelidado e isolado pelos colegas até reduzir o ritmo. É a **norma do grupo informal** controlando a produção."
+    },
+    {
+      "id": "abordagem-burocratica",
+      "nome": "Abordagem burocrática (Weber)",
+      "resumo": "## Tipos de autoridade\n\nO sociólogo alemão **Max Weber** classificou a autoridade (dominação) legítima em três tipos:\n\n| Tipo | Base da legitimidade | Exemplo |\n|---|---|---|\n| Tradicional | Costumes e tradição | Empresa familiar, monarquia |\n| Carismática | Qualidades pessoais do líder | Líderes religiosos ou políticos |\n| Racional-legal | Normas impessoais e legais | Burocracia, Estado moderno |\n\nA **burocracia** é a forma de organização baseada na autoridade **racional-legal**.\n\n### Características da burocracia\n\n- **Caráter legal** das normas e regulamentos.\n- **Caráter formal** das comunicações (tudo por escrito).\n- **Divisão do trabalho** racional.\n- **Impessoalidade** nas relações: obedece-se ao cargo, não à pessoa.\n- **Hierarquia** da autoridade.\n- **Rotinas e procedimentos padronizados**.\n- **Competência técnica e meritocracia** na escolha e promoção.\n- **Separação entre propriedade e administração**.\n- **Profissionalização** dos participantes.\n- **Previsibilidade** do funcionamento.\n\nPara Weber, esse modelo oferece precisão, rapidez, uniformidade, continuidade e redução de conflitos.\n\n### Disfunções (Merton)\n\nRobert Merton mostrou que, na prática, o modelo gera **consequências imprevistas**, porque as pessoas não se comportam como o modelo supõe:\n\n- **Internalização das regras** e apego aos regulamentos: a regra vira fim em si.\n- **Excesso de formalismo** e de papelório.\n- **Resistência a mudanças**.\n- **Despersonalização** do relacionamento.\n- **Categorização** como base das decisões.\n- **Superconformidade** às rotinas.\n- **Exibição de sinais de autoridade**.\n- **Dificuldade no atendimento** a clientes.\n\nNo uso popular, \"burocracia\" virou sinônimo dessas disfunções, mas no sentido weberiano ela é um modelo de **eficiência**.",
+      "revisao": "**Pontos-chave**\n- Três autoridades: tradicional, carismática e racional-legal.\n- Burocracia = autoridade racional-legal.\n- Impessoalidade, hierarquia, formalismo e meritocracia são características.\n- Disfunções (Merton) são efeitos imprevistos do modelo.\n\n**Erros comuns**\n- Achar que Weber defendia a lentidão e o papelório.\n- Confundir autoridade carismática com tradicional.\n\n**Mini exemplo**: um atendente recusa resolver um pedido simples porque \"não há campo no formulário\", embora nenhuma regra proíba. É a **internalização das regras**, uma disfunção."
+    },
+    {
+      "id": "sistemica-contingencial",
+      "nome": "Abordagem sistêmica e contingencial",
+      "resumo": "## Teoria Geral dos Sistemas\n\nProposta pelo biólogo **Ludwig von Bertalanffy**, vê a realidade como **sistemas**: conjuntos de partes **interdependentes** que formam um todo com um objetivo. Aplicada à administração (por Katz e Kahn, entre outros), mostra a empresa como um **sistema aberto**, em troca constante com o ambiente.\n\n### Elementos do sistema\n\n- **Entradas** (*inputs*): recursos, informações, energia.\n- **Processamento**: transformação das entradas.\n- **Saídas** (*outputs*): produtos, serviços, resultados.\n- **Retroação** (*feedback*): informação sobre as saídas que volta para ajustar o sistema.\n- **Ambiente**: tudo o que está fora e influencia o sistema.\n\n### Conceitos importantes\n\n- **Sinergia**: o todo produz mais que a soma das partes isoladas.\n- **Entropia**: tendência à desorganização; **entropia negativa** é o esforço para evitá-la, importando energia do ambiente.\n- **Homeostase**: busca de equilíbrio dinâmico.\n- **Equifinalidade**: é possível chegar ao mesmo resultado por caminhos diferentes.\n\n## Teoria da Contingência\n\nAfirma que **não existe uma única melhor forma** de administrar: tudo depende da situação, especialmente do **ambiente** e da **tecnologia**.\n\n- **Burns e Stalker**: ambiente estável favorece estruturas **mecanísticas** (rígidas, hierárquicas); ambiente instável e inovador pede estruturas **orgânicas** (flexíveis, descentralizadas).\n- **Joan Woodward**: o tipo de tecnologia de produção (unitária, em massa, processo contínuo) influencia a estrutura.\n- **Lawrence e Lorsch**: ambientes diferentes exigem graus diferentes de **diferenciação** e **integração** entre departamentos.\n- **Chandler**: a **estrutura segue a estratégia**.\n\n| Abordagem clássica | Contingência |\n|---|---|\n| Melhor maneira única | Depende da situação |\n| Sistema fechado | Sistema aberto |",
+      "revisao": "**Pontos-chave**\n- Organização é sistema aberto: entradas, processamento, saídas e retroação.\n- Sinergia: o todo vale mais que a soma das partes.\n- Equifinalidade: vários caminhos para o mesmo resultado.\n- Contingência: não há forma única de administrar.\n- Ambiente instável pede estrutura orgânica.\n\n**Erros comuns**\n- Confundir entropia (desorganização) com homeostase (equilíbrio).\n- Achar que estrutura mecanística é sempre pior: em ambiente estável ela funciona bem.\n\n**Mini exemplo**: uma startup de tecnologia em mercado que muda todo mês adota equipes autônomas e poucos níveis hierárquicos: estrutura **orgânica**."
+    },
+    {
+      "id": "lideranca-motivacao",
+      "nome": "Liderança e motivação (Maslow e Herzberg)",
+      "resumo": "## Hierarquia das necessidades (Maslow)\n\nAbraham Maslow organizou as necessidades humanas em uma pirâmide, da base ao topo:\n\n1. **Fisiológicas**: alimento, sono, abrigo.\n2. **Segurança**: estabilidade, proteção, emprego seguro.\n3. **Sociais**: amizade, aceitação, pertencimento ao grupo.\n4. **Estima**: reconhecimento, status, autoconfiança.\n5. **Autorrealização**: desenvolver o próprio potencial.\n\nEm geral, as necessidades de um nível passam a motivar quando as anteriores estão razoavelmente atendidas. **Necessidade satisfeita deixa de motivar**.\n\n## Teoria dos dois fatores (Herzberg)\n\n| Fatores higiênicos (extrínsecos) | Fatores motivacionais (intrínsecos) |\n|---|---|\n| Salário e benefícios | Realização |\n| Condições de trabalho | Reconhecimento |\n| Políticas da empresa | O trabalho em si |\n| Supervisão e relacionamento | Responsabilidade |\n| Segurança no emprego | Crescimento e progresso |\n\n- **Higiênicos** evitam a **insatisfação**, mas não geram motivação duradoura.\n- **Motivacionais** geram **satisfação** e motivação.\n\nPara Herzberg, o oposto de satisfação é \"nenhuma satisfação\", e o oposto de insatisfação é \"nenhuma insatisfação\". Por isso, **enriquecer o cargo** motiva mais do que só aumentar o salário.\n\nMcGregor completa o quadro com a **Teoria X** (pessoas evitam o trabalho e precisam de controle) e a **Teoria Y** (pessoas buscam responsabilidade quando bem motivadas).\n\n## Liderança\n\n**Liderança** é a influência sobre pessoas para alcançar objetivos; não depende apenas do cargo formal.\n\n- **Autocrático**: o líder decide sozinho.\n- **Democrático** (participativo): decisões discutidas com o grupo.\n- **Liberal** (*laissez-faire*): o grupo decide com mínima participação do líder.\n\nA **liderança situacional** (Hersey e Blanchard) ajusta o estilo à **maturidade** do liderado: **determinar** (baixa maturidade), **persuadir**, **compartilhar** e **delegar** (alta competência e alto comprometimento).",
+      "revisao": "**Pontos-chave**\n- Maslow: fisiológicas, segurança, sociais, estima, autorrealização.\n- Herzberg: higiênicos evitam insatisfação; motivacionais geram satisfação.\n- Salário é fator higiênico.\n- Estilos: autocrático, democrático e liberal.\n- Liderança situacional: liderado maduro, líder delega.\n\n**Erros comuns**\n- Classificar salário como fator motivacional de Herzberg.\n- Achar que existe um único estilo de liderança ideal para qualquer situação.\n\n**Mini exemplo**: a empresa dá aumento geral e as reclamações diminuem, mas o empenho não muda. Pela teoria de Herzberg, o salário **reduziu a insatisfação** sem criar motivação."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "teoria-geral-administracao-1",
+      "topico": "funcoes-administrativas",
+      "nivel": "conceitual",
+      "pergunta": "Em administração, o que significa eficácia?",
+      "opcoes": [
+        "Usar os recursos com o menor desperdício possível",
+        "Cumprir as normas e procedimentos internos",
+        "Reduzir custos em todas as áreas da empresa",
+        "Alcançar os objetivos e resultados pretendidos"
+      ],
+      "correta": 3,
+      "explicacao": "Eficácia está ligada aos resultados, a fazer as coisas certas. O erro comum é confundi-la com eficiência, que trata do bom uso dos recursos e dos meios."
+    },
+    {
+      "id": "teoria-geral-administracao-2",
+      "topico": "funcoes-administrativas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Robert Katz, qual habilidade tem maior peso para os administradores da alta direção?",
+      "opcoes": [
+        "Habilidade técnica",
+        "Habilidade conceitual",
+        "Habilidade humana",
+        "Habilidade operacional"
+      ],
+      "correta": 1,
+      "explicacao": "Na alta direção predomina a visão do todo e o pensamento estratégico, que compõem a habilidade conceitual. A técnica pesa mais na supervisão e a humana é importante em todos os níveis, e trocar essas ênfases é o erro mais frequente."
+    },
+    {
+      "id": "teoria-geral-administracao-3",
+      "topico": "funcoes-administrativas",
+      "nivel": "aplicacao",
+      "pergunta": "Ao fim do trimestre, uma gerente compara as vendas realizadas com as metas, identifica uma queda em uma região e define ações para corrigir o desvio. Qual função administrativa ela exerce?",
+      "opcoes": [
+        "Controle",
+        "Planejamento",
+        "Organização",
+        "Direção"
+      ],
+      "correta": 0,
+      "explicacao": "Medir o desempenho, comparar com o padrão e tomar ação corretiva é a essência do controle. Muitos marcam planejamento por causa das ações futuras, mas elas aqui decorrem da comparação com o que foi planejado."
+    },
+    {
+      "id": "teoria-geral-administracao-4",
+      "topico": "funcoes-administrativas",
+      "nivel": "aplicacao",
+      "pergunta": "A diretoria de uma rede de lojas define a expansão para outros três estados nos próximos cinco anos, envolvendo toda a empresa. Esse é um exemplo de planejamento:",
+      "opcoes": [
+        "Tático",
+        "Operacional",
+        "Estratégico",
+        "Departamental"
+      ],
+      "correta": 2,
+      "explicacao": "Longo prazo, decisão da alta direção e abrangência da empresa toda caracterizam o planejamento estratégico. O planejamento tático trata de departamentos no médio prazo, confusão comum quando o plano envolve várias áreas."
+    },
+    {
+      "id": "teoria-geral-administracao-5",
+      "topico": "funcoes-administrativas",
+      "nivel": "analise",
+      "pergunta": "Uma fábrica produz cadeiras com o menor custo por unidade do setor, mas o modelo não agrada aos clientes e o estoque encalha. Como avaliar seu desempenho?",
+      "opcoes": [
+        "É eficaz, mas não é eficiente",
+        "É eficiente e eficaz",
+        "Não é eficiente nem eficaz",
+        "É eficiente, mas não é eficaz"
+      ],
+      "correta": 3,
+      "explicacao": "Produzir com baixo custo mostra bom uso de recursos (eficiência), mas o objetivo de vender não foi atingido (falta de eficácia). Inverter os conceitos é o erro típico, por isso vale lembrar: eficiência olha os meios e eficácia olha os resultados."
+    },
+    {
+      "id": "teoria-geral-administracao-6",
+      "topico": "abordagem-classica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ênfase principal da Administração Científica de Taylor e da Teoria Clássica de Fayol, respectivamente?",
+      "opcoes": [
+        "Estrutura organizacional; tarefas",
+        "Tarefas; estrutura organizacional",
+        "Pessoas; ambiente",
+        "Tecnologia; pessoas"
+      ],
+      "correta": 1,
+      "explicacao": "Taylor partiu do trabalho do operário e de suas tarefas, enquanto Fayol olhou a organização como um todo e sua estrutura. Inverter os autores é o erro mais comum nessa questão."
+    },
+    {
+      "id": "teoria-geral-administracao-7",
+      "topico": "abordagem-classica",
+      "nivel": "aplicacao",
+      "pergunta": "Um operador de máquina recebe ordens diretas do gerente de produção e também do gerente de qualidade, que muitas vezes se contradizem. Qual princípio de Fayol está sendo violado?",
+      "opcoes": [
+        "Unidade de direção",
+        "Divisão do trabalho",
+        "Unidade de comando",
+        "Estabilidade do pessoal"
+      ],
+      "correta": 2,
+      "explicacao": "Pela unidade de comando, cada empregado deve receber ordens de apenas um superior. Unidade de direção, com a qual muitos confundem, se refere a um só plano e um só chefe para um conjunto de atividades com o mesmo objetivo."
+    },
+    {
+      "id": "teoria-geral-administracao-8",
+      "topico": "abordagem-classica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma fábrica cronometra cada operação, define um método padrão para executá-la, treina os operários nesse método e paga bônus a quem superar a produção-padrão. Essas práticas se baseiam em:",
+      "opcoes": [
+        "Administração Científica de Taylor",
+        "Teoria Clássica de Fayol",
+        "Escola de Relações Humanas",
+        "Teoria da Contingência"
+      ],
+      "correta": 0,
+      "explicacao": "Estudo de tempos e movimentos, método padronizado e incentivo salarial são marcas de Taylor. Atribuí-las a Fayol é erro frequente, já que ele se concentrou na estrutura e nas funções administrativas."
+    },
+    {
+      "id": "teoria-geral-administracao-9",
+      "topico": "abordagem-classica",
+      "nivel": "aplicacao",
+      "pergunta": "Na classificação de Fayol das seis funções básicas da empresa, as atividades de compra, venda e permuta pertencem às funções:",
+      "opcoes": [
+        "Técnicas",
+        "Financeiras",
+        "Administrativas",
+        "Comerciais"
+      ],
+      "correta": 3,
+      "explicacao": "As funções comerciais tratam de comprar, vender e trocar. O erro comum é marcar funções administrativas, que para Fayol são as de prever, organizar, comandar, coordenar e controlar as demais."
+    },
+    {
+      "id": "teoria-geral-administracao-10",
+      "topico": "abordagem-classica",
+      "nivel": "analise",
+      "pergunta": "Qual é uma crítica comum feita às abordagens de Taylor e Fayol?",
+      "opcoes": [
+        "Davam atenção excessiva aos grupos informais e às emoções dos trabalhadores",
+        "Defendiam que não existe uma única melhor maneira de administrar",
+        "Tratavam a organização como sistema fechado e viam o trabalhador como motivado apenas por dinheiro",
+        "Rejeitavam a divisão do trabalho e a especialização"
+      ],
+      "correta": 2,
+      "explicacao": "A abordagem clássica ignorava o ambiente externo e partia do homo economicus, com visão mecanicista do trabalho. Atenção aos grupos informais é marca da Escola de Relações Humanas, justamente a reação às ideias clássicas."
+    },
+    {
+      "id": "teoria-geral-administracao-11",
+      "topico": "relacoes-humanas",
+      "nivel": "conceitual",
+      "pergunta": "Qual concepção de ser humano caracteriza a Escola de Relações Humanas?",
+      "opcoes": [
+        "Homo social",
+        "Homo economicus",
+        "Homem organizacional",
+        "Homem administrativo"
+      ],
+      "correta": 0,
+      "explicacao": "A Escola de Relações Humanas vê o trabalhador motivado por necessidades sociais, como aceitação e pertencimento ao grupo. Homo economicus é a visão de Taylor, que essa escola criticou."
+    },
+    {
+      "id": "teoria-geral-administracao-12",
+      "topico": "relacoes-humanas",
+      "nivel": "conceitual",
+      "pergunta": "Qual foi a principal conclusão da Experiência de Hawthorne, coordenada por Elton Mayo?",
+      "opcoes": [
+        "A iluminação adequada é o principal fator de aumento da produtividade",
+        "Fatores sociais e psicológicos influenciam fortemente a produtividade dos trabalhadores",
+        "Incentivos salariais individuais são a única forma de motivar",
+        "A produtividade depende apenas da capacidade física do trabalhador"
+      ],
+      "correta": 1,
+      "explicacao": "A experiência mostrou que normas do grupo, atenção recebida e relações humanas pesam na produção. O erro comum é lembrar só da fase de iluminação e achar que ela provou o efeito da luz, quando provou o contrário."
+    },
+    {
+      "id": "teoria-geral-administracao-13",
+      "topico": "relacoes-humanas",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma linha de produção, um novo funcionário produz muito acima da média e passa a ser ignorado e ironizado pelos colegas, até reduzir o ritmo. Esse comportamento ilustra:",
+      "opcoes": [
+        "A aplicação do princípio da unidade de comando",
+        "O funcionamento da cadeia escalar formal",
+        "A eficácia dos incentivos salariais individuais",
+        "A ação da organização informal e das normas do grupo"
+      ],
+      "correta": 3,
+      "explicacao": "O grupo informal define o que considera uma produção aceitável e usa sanções sociais para impor essa norma, como observado em Hawthorne. Associar o caso à estrutura formal é erro, pois nenhuma ordem oficial foi dada."
+    },
+    {
+      "id": "teoria-geral-administracao-14",
+      "topico": "relacoes-humanas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa melhora a iluminação de um setor e a produção sobe; no setor de comparação, onde nada mudou, a produção também sobe. Segundo a Escola de Relações Humanas, a explicação mais provável é:",
+      "opcoes": [
+        "Os trabalhadores reagiram à atenção recebida e ao sentimento de grupo, e não à luz",
+        "A luz de um setor iluminou indiretamente o outro",
+        "A produção subiu por causa de incentivos salariais",
+        "O resultado prova que a iluminação é o fator decisivo"
+      ],
+      "correta": 0,
+      "explicacao": "Foi o que ocorreu em Hawthorne: os dois grupos melhoraram porque se sentiam observados e valorizados, o fator psicológico. Concluir que a luz foi decisiva ignora que o grupo de comparação também melhorou sem mudança alguma."
+    },
+    {
+      "id": "teoria-geral-administracao-15",
+      "topico": "relacoes-humanas",
+      "nivel": "analise",
+      "pergunta": "Qual é uma crítica frequente à Escola de Relações Humanas?",
+      "opcoes": [
+        "Ignora completamente os aspectos sociais do trabalho",
+        "Considera o trabalhador motivado apenas por dinheiro",
+        "Tem uma visão ingênua de que o trabalhador satisfeito é sempre produtivo e pode ser usada de forma manipulativa",
+        "Enfatiza demais a estrutura formal e os regulamentos"
+      ],
+      "correta": 2,
+      "explicacao": "Os críticos apontam que satisfação não garante produtividade e que a atenção às relações pode servir só para elevar a produção. As outras críticas cabem à abordagem clássica ou à burocracia, e não à escola que valorizou o lado social."
+    },
+    {
+      "id": "teoria-geral-administracao-16",
+      "topico": "abordagem-burocratica",
+      "nivel": "conceitual",
+      "pergunta": "Em qual tipo de autoridade se baseia o modelo burocrático de Max Weber?",
+      "opcoes": [
+        "Tradicional",
+        "Racional-legal",
+        "Carismática",
+        "Hereditária"
+      ],
+      "correta": 1,
+      "explicacao": "A burocracia se apoia em normas impessoais, escritas e aceitas como legítimas, base da autoridade racional-legal. A autoridade tradicional se apoia nos costumes, e confundi-las é um erro comum."
+    },
+    {
+      "id": "teoria-geral-administracao-17",
+      "topico": "abordagem-burocratica",
+      "nivel": "aplicacao",
+      "pergunta": "Um órgão público seleciona servidores por concurso e só promove quem demonstra qualificação em avaliações técnicas. Que característica da burocracia isso representa?",
+      "opcoes": [
+        "Caráter carismático da liderança",
+        "Autoridade tradicional",
+        "Exibição de sinais de autoridade",
+        "Competência técnica e meritocracia"
+      ],
+      "correta": 3,
+      "explicacao": "Weber previa escolha e promoção baseadas em mérito e qualificação, não em relações pessoais. Exibição de sinais de autoridade é uma disfunção apontada por Merton, e não uma característica do modelo."
+    },
+    {
+      "id": "teoria-geral-administracao-18",
+      "topico": "abordagem-burocratica",
+      "nivel": "aplicacao",
+      "pergunta": "Um atendente se recusa a resolver um pedido simples de um cliente porque \"o formulário não tem campo para isso\", embora nenhuma regra proíba o atendimento. Essa situação ilustra:",
+      "opcoes": [
+        "A internalização das regras, uma disfunção da burocracia",
+        "A impessoalidade, uma vantagem da burocracia",
+        "A autoridade carismática do atendente",
+        "A aplicação correta da competência técnica"
+      ],
+      "correta": 0,
+      "explicacao": "O funcionário passou a tratar o regulamento como um fim em si mesmo, uma das disfunções descritas por Merton. Chamar isso de impessoalidade é erro, pois impessoalidade significa tratar todos pelas mesmas regras, e não deixar de atender."
+    },
+    {
+      "id": "teoria-geral-administracao-19",
+      "topico": "abordagem-burocratica",
+      "nivel": "aplicacao",
+      "pergunta": "Um líder religioso é seguido por milhares de pessoas por suas qualidades pessoais extraordinárias, sem ocupar cargo formal ou herdar posição. Segundo Weber, essa é uma autoridade:",
+      "opcoes": [
+        "Racional-legal",
+        "Tradicional",
+        "Carismática",
+        "Burocrática"
+      ],
+      "correta": 2,
+      "explicacao": "A autoridade carismática se apoia na devoção às qualidades pessoais do líder. Ela difere da tradicional, que vem do costume ou da herança, e da racional-legal, que vem de normas e do cargo."
+    },
+    {
+      "id": "teoria-geral-administracao-20",
+      "topico": "abordagem-burocratica",
+      "nivel": "analise",
+      "pergunta": "Weber via a burocracia como modelo de eficiência, mas Merton apontou várias disfunções. Qual é a melhor explicação para esse contraste?",
+      "opcoes": [
+        "Weber defendia a lentidão e o excesso de papéis como forma de controle",
+        "As disfunções são consequências imprevistas, que surgem porque o modelo não considera a variabilidade do comportamento humano",
+        "Merton provou que a burocracia não tem nenhuma vantagem",
+        "As disfunções ocorrem apenas em organizações que não seguem nenhuma regra"
+      ],
+      "correta": 1,
+      "explicacao": "O modelo ideal supõe pessoas agindo de modo previsível, mas na prática surgem apego às regras, rigidez e formalismo excessivo. O erro comum é achar que Weber pregava a ineficiência, confundindo o sentido técnico da palavra com o sentido popular."
+    },
+    {
+      "id": "teoria-geral-administracao-21",
+      "topico": "sistemica-contingencial",
+      "nivel": "conceitual",
+      "pergunta": "Na Teoria Geral dos Sistemas, o que é sinergia?",
+      "opcoes": [
+        "A tendência natural do sistema à desorganização",
+        "A busca do sistema por equilíbrio dinâmico",
+        "A possibilidade de atingir o mesmo resultado por caminhos diferentes",
+        "O efeito em que o todo produz mais do que a soma das partes isoladas"
+      ],
+      "correta": 3,
+      "explicacao": "Sinergia ocorre quando partes integradas geram um resultado superior ao que gerariam separadas. As demais definições correspondem a entropia, homeostase e equifinalidade, conceitos que costumam ser trocados entre si."
+    },
+    {
+      "id": "teoria-geral-administracao-22",
+      "topico": "sistemica-contingencial",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ideia central da Teoria da Contingência?",
+      "opcoes": [
+        "Não existe uma única melhor forma de administrar; ela depende do ambiente e da tecnologia",
+        "Existe uma melhor maneira de executar cada tarefa, que deve ser descoberta cientificamente",
+        "A organização deve seguir rigidamente normas escritas e impessoais",
+        "A produtividade depende principalmente das relações informais do grupo"
+      ],
+      "correta": 0,
+      "explicacao": "Para a contingência, estrutura e práticas eficazes variam conforme a situação enfrentada pela organização. A busca da melhor maneira única é de Taylor, justamente a ideia que a contingência rejeita."
+    },
+    {
+      "id": "teoria-geral-administracao-23",
+      "topico": "sistemica-contingencial",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa de aplicativos atua em um mercado que muda a cada poucos meses, com novos concorrentes e tecnologias. Segundo Burns e Stalker, qual estrutura tende a funcionar melhor?",
+      "opcoes": [
+        "Mecanística, rígida e centralizada",
+        "Funcional de Taylor, com vários supervisores especializados",
+        "Orgânica, flexível e descentralizada",
+        "Burocrática, com rotinas fixas para todas as situações"
+      ],
+      "correta": 2,
+      "explicacao": "Ambientes instáveis exigem adaptação rápida, o que favorece estruturas orgânicas, com comunicação lateral e decisões descentralizadas. A estrutura mecanística funciona bem em ambientes estáveis, e o erro é considerá-la boa em qualquer contexto."
+    },
+    {
+      "id": "teoria-geral-administracao-24",
+      "topico": "sistemica-contingencial",
+      "nivel": "aplicacao",
+      "pergunta": "Uma rede de restaurantes aplica pesquisas de satisfação após cada atendimento e usa as respostas para ajustar cardápio e serviço. Na visão sistêmica, essas pesquisas funcionam como:",
+      "opcoes": [
+        "Entrada de matéria-prima",
+        "Retroação (feedback)",
+        "Entropia",
+        "Sinergia"
+      ],
+      "correta": 1,
+      "explicacao": "A retroação é a informação sobre as saídas que volta ao sistema para corrigir e ajustar o processo. Chamar isso de entrada é um erro comum, pois a pesquisa nasce do resultado entregue ao cliente."
+    },
+    {
+      "id": "teoria-geral-administracao-25",
+      "topico": "sistemica-contingencial",
+      "nivel": "analise",
+      "pergunta": "Duas filiais de uma empresa partem de situações parecidas: uma investe em automação, a outra em treinamento intensivo da equipe, e ambas atingem a mesma produtividade. Para a abordagem sistêmica, isso ilustra:",
+      "opcoes": [
+        "Equifinalidade",
+        "Entropia",
+        "Homeostase",
+        "Sinergia"
+      ],
+      "correta": 0,
+      "explicacao": "Equifinalidade é a propriedade dos sistemas abertos de chegar ao mesmo resultado por caminhos diferentes. O erro comum é escolher sinergia, que trata do ganho da integração entre as partes, e não da diversidade de caminhos."
+    },
+    {
+      "id": "teoria-geral-administracao-26",
+      "topico": "lideranca-motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Na hierarquia de necessidades de Maslow, qual necessidade está no topo da pirâmide?",
+      "opcoes": [
+        "Estima",
+        "Segurança",
+        "Autorrealização",
+        "Sociais"
+      ],
+      "correta": 2,
+      "explicacao": "A autorrealização, o desenvolvimento do próprio potencial, fica no topo, acima da estima. Muitos marcam estima por envolver reconhecimento e status, mas ela é o quarto nível."
+    },
+    {
+      "id": "teoria-geral-administracao-27",
+      "topico": "lideranca-motivacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um funcionário tem salário suficiente para suas despesas e um emprego estável. Segundo Maslow, que tipo de necessidade tende a motivá-lo a seguir?",
+      "opcoes": [
+        "Fisiológicas, como alimentação e descanso",
+        "Segurança, como estabilidade no emprego",
+        "Autorrealização, pulando as etapas intermediárias",
+        "Sociais, como aceitação e pertencimento ao grupo"
+      ],
+      "correta": 3,
+      "explicacao": "Com as necessidades fisiológicas e de segurança atendidas, o próximo nível é o das necessidades sociais. Indicar segurança é erro, pois necessidade já satisfeita deixa de motivar."
+    },
+    {
+      "id": "teoria-geral-administracao-28",
+      "topico": "lideranca-motivacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma gerente define sozinha as metas, distribui as tarefas e comunica as decisões à equipe, sem ouvir opiniões. Qual é o seu estilo de liderança?",
+      "opcoes": [
+        "Democrático",
+        "Autocrático",
+        "Liberal (laissez-faire)",
+        "Situacional, no estilo compartilhar"
+      ],
+      "correta": 1,
+      "explicacao": "No estilo autocrático, o líder centraliza as decisões e apenas comunica o que foi decidido. No democrático o grupo participa das decisões, e no liberal as decisões ficam com o próprio grupo, por isso confundi-los é o erro mais comum."
+    },
+    {
+      "id": "teoria-geral-administracao-29",
+      "topico": "lideranca-motivacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa concede aumento salarial geral; as reclamações caem, mas o empenho e a iniciativa da equipe continuam iguais. Segundo Herzberg, isso ocorre porque o salário é um fator:",
+      "opcoes": [
+        "Motivacional, que gera satisfação apenas no longo prazo",
+        "Motivacional, que só funciona com reconhecimento público",
+        "Higiênico, que evita a insatisfação mas não gera motivação duradoura",
+        "Higiênico, que gera motivação apenas para cargos de chefia"
+      ],
+      "correta": 2,
+      "explicacao": "Para Herzberg, salário, condições e políticas são fatores higiênicos: reduzem a insatisfação, mas a motivação vem do trabalho em si, da realização e do reconhecimento. O erro mais comum é classificar o salário como fator motivacional."
+    },
+    {
+      "id": "teoria-geral-administracao-30",
+      "topico": "lideranca-motivacao",
+      "nivel": "analise",
+      "pergunta": "Segundo a liderança situacional de Hersey e Blanchard, qual estilo é mais adequado para um colaborador com alta competência e alto comprometimento com a tarefa?",
+      "opcoes": [
+        "Delegar",
+        "Determinar",
+        "Persuadir",
+        "Compartilhar"
+      ],
+      "correta": 0,
+      "explicacao": "Com alta maturidade, o liderado sabe e quer fazer, então o líder pode delegar com pouca orientação e pouco apoio. Determinar é indicado para baixa maturidade, e o erro comum é achar que um único estilo serve para todos os liderados."
+    }
+  ]
+}

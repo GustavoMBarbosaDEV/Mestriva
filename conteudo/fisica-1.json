@@ -1,0 +1,465 @@
+{
+  "id": "fisica-1",
+  "nome": "Física I",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "cinematica",
+      "nome": "Cinemática",
+      "resumo": "A **cinemática** descreve o movimento sem se preocupar com suas causas. As grandezas centrais são posição, deslocamento, velocidade e aceleração.\n\n## Grandezas básicas\n- **Deslocamento** (Δs): variação da posição, com sentido. Não é o mesmo que distância percorrida.\n- **Velocidade média**: v = Δs/Δt. Em uma volta completa, o deslocamento é nulo e a velocidade média vetorial também.\n- **Aceleração média**: a = Δv/Δt. Mede quanto a velocidade muda por unidade de tempo.\n\n## Movimento uniforme (MU)\nVelocidade constante e aceleração nula. A posição varia linearmente com o tempo: s = s₀ + v·t.\n\n## Movimento uniformemente variado (MUV)\nAceleração constante. As equações mais usadas são:\n- v = v₀ + a·t\n- s = s₀ + v₀·t + a·t²/2\n- **Torricelli**: v² = v₀² + 2·a·Δs (útil quando o tempo não é dado)\n\n## Queda livre e lançamento vertical\nDesprezando a resistência do ar, todo corpo perto da superfície tem aceleração **g**, vertical e para baixo, independentemente da massa. Adotando g = 10 m/s², um corpo solto do repouso cai 5 m no primeiro segundo e atinge 10 m/s. No ponto mais alto de um lançamento vertical, a velocidade é zero, mas a aceleração continua sendo g.\n\n## Dicas de resolução\n- Escolha um **sentido positivo** e mantenha os sinais coerentes.\n- Converta unidades: km/h ÷ 3,6 = m/s.\n- Em gráficos v × t, a **área** sob a curva é o deslocamento e a **inclinação** é a aceleração.\n- Em gráficos s × t, a inclinação é a velocidade.",
+      "revisao": "- v = Δs/Δt; a = Δv/Δt.\n- MUV: v = v₀ + a·t; s = s₀ + v₀·t + a·t²/2; v² = v₀² + 2·a·Δs.\n- Em queda livre, a aceleração é g para baixo o tempo todo, inclusive no topo.\n\n**Erros comuns:** confundir distância com deslocamento; achar que velocidade zero implica aceleração zero; esquecer de converter km/h para m/s.\n\n**Mini exemplo:** carro a 72 km/h (20 m/s) freia com 4 m/s² até parar. Por Torricelli: 0 = 20² − 2·4·Δs, logo Δs = 400/8 = 50 m."
+    },
+    {
+      "id": "leis-de-newton",
+      "nome": "Leis de Newton",
+      "resumo": "As **leis de Newton** relacionam forças e movimento. Elas valem em referenciais inerciais (não acelerados).\n\n## 1ª lei — Inércia\nSe a **força resultante** sobre um corpo é nula, ele permanece em repouso ou em **movimento retilíneo uniforme**. Não é preciso força para manter o movimento, só para alterá-lo.\n\n## 2ª lei — Princípio fundamental\n**F = m·a**, em que F é a força resultante (soma vetorial de todas as forças). A aceleração tem a mesma direção e sentido da resultante. Unidade: 1 N = 1 kg·m/s².\n\n## 3ª lei — Ação e reação\nSe A exerce força sobre B, B exerce sobre A uma força de mesma intensidade, mesma direção e sentido oposto. Essas forças **atuam em corpos diferentes** e por isso não se anulam.\n\n## Forças comuns\n- **Peso**: P = m·g, vertical para baixo.\n- **Normal** (N): perpendicular à superfície de contato. Não é sempre igual ao peso.\n- **Atrito cinético**: f = μc·N, oposto ao deslizamento.\n- **Atrito estático**: f ≤ μe·N; ajusta-se até o limite para impedir o deslizamento.\n- **Tração**: força transmitida por fios.\n\n## Roteiro de resolução\n- Isole cada corpo e desenhe o **diagrama de corpo livre**.\n- Escolha eixos (um deles na direção da aceleração).\n- Aplique F = m·a em cada eixo.\n- Em elevadores: subindo acelerado ou descendo freando, N = m·(g + a); no caso oposto, N = m·(g − a).",
+      "revisao": "- 1ª lei: resultante nula significa repouso ou MRU.\n- 2ª lei: F_resultante = m·a.\n- 3ª lei: ação e reação atuam em corpos diferentes.\n- Atrito cinético: f = μc·N.\n\n**Erros comuns:** usar uma força isolada em vez da resultante; supor N = P em planos inclinados ou elevadores; achar que ação e reação se anulam.\n\n**Mini exemplo:** bloco de 5 kg puxado por 30 N num piso com atrito de 10 N. Resultante = 20 N, então a = 20/5 = 4 m/s²."
+    },
+    {
+      "id": "trabalho-e-energia",
+      "nome": "Trabalho e Energia",
+      "resumo": "**Energia** é a capacidade de realizar trabalho, e **trabalho** é a forma de transferir energia por meio de uma força.\n\n## Trabalho de uma força constante\nW = F·d·cos θ, em que θ é o ângulo entre a força e o deslocamento. Unidade: joule (J).\n- θ = 0°: trabalho positivo (a força ajuda o movimento).\n- θ = 90°: trabalho **nulo** (por exemplo, a normal num piso horizontal).\n- θ = 180°: trabalho negativo (por exemplo, o atrito).\n\n## Teorema trabalho–energia cinética\nO trabalho da **força resultante** é igual à variação da energia cinética: W_res = ΔEc, com **Ec = m·v²/2**.\n\n## Energia potencial\n- **Gravitacional**: Ep = m·g·h (h medido a partir de um nível de referência escolhido).\n- **Elástica**: Ep = k·x²/2, em que x é a deformação da mola.\n\n## Conservação da energia mecânica\nSe apenas **forças conservativas** (peso, força elástica) realizam trabalho, a energia mecânica Em = Ec + Ep se conserva. Com atrito, parte da energia mecânica vira energia térmica: W_atrito = ΔEm.\n\n## Potência\n**P = W/Δt** (watt, W). Para força constante na direção do movimento, P = F·v.\n\n## Dicas\n- Problemas sem tempo e com alturas e velocidades costumam sair mais rápido por energia do que por F = m·a.\n- A massa se cancela em quedas sem atrito: v = √(2·g·h).",
+      "revisao": "- W = F·d·cos θ; força perpendicular ao deslocamento não realiza trabalho.\n- W_res = ΔEc, com Ec = m·v²/2.\n- Ep = m·g·h; Ep elástica = k·x²/2.\n- Só forças conservativas: Ec + Ep constante.\n\n**Erros comuns:** esquecer o cos θ; esquecer de elevar a velocidade ao quadrado; usar conservação de energia quando há atrito.\n\n**Mini exemplo:** pedra solta de 20 m (g = 10 m/s²): m·g·h = m·v²/2, então v = √(2·10·20) = 20 m/s."
+    },
+    {
+      "id": "momento-linear",
+      "nome": "Momento Linear e Colisões",
+      "resumo": "O **momento linear** (ou quantidade de movimento) é **p = m·v**, uma grandeza vetorial medida em kg·m/s.\n\n## Impulso\nO **impulso** de uma força é I = F·Δt (para força constante) e é igual à variação do momento: **I = Δp**. Isso explica airbags e joelhos dobrados ao pousar: aumentar Δt reduz a força média para a mesma variação de momento.\n\nAtenção ao sentido: uma bola que bate numa parede a 10 m/s e volta a 10 m/s tem Δv = 20 m/s, não zero.\n\n## Conservação do momento\nEm um **sistema isolado** (resultante das forças externas nula ou desprezível durante a interação), o momento total se conserva:\n- m₁·v₁ + m₂·v₂ = m₁·v₁' + m₂·v₂'\n\nEm colisões e explosões, as forças internas são muito maiores que as externas durante o choque, então a conservação vale com boa aproximação.\n\n## Tipos de colisão\n- **Elástica**: conservam-se o momento e a energia cinética. Entre massas iguais com uma parada, as velocidades se trocam.\n- **Inelástica**: conserva-se o momento; parte da energia cinética vira calor, som e deformação.\n- **Perfeitamente inelástica**: os corpos seguem juntos; é a maior perda possível de energia cinética. Velocidade final: v = (m₁·v₁ + m₂·v₂)/(m₁ + m₂).\n\n## Coeficiente de restituição\ne = (velocidade relativa de afastamento)/(velocidade relativa de aproximação). Vale 1 na elástica e 0 na perfeitamente inelástica.\n\n## Dica\nSempre adote um sentido positivo e coloque o sinal em cada velocidade antes de somar momentos.",
+      "revisao": "- p = m·v (vetor); impulso I = F·Δt = Δp.\n- Sistema isolado: momento total conservado em qualquer colisão.\n- Energia cinética só se conserva na colisão elástica.\n- Perfeitamente inelástica: corpos juntos, v = (m₁v₁ + m₂v₂)/(m₁ + m₂).\n\n**Erros comuns:** ignorar sinais das velocidades; supor que a energia cinética sempre se conserva.\n\n**Mini exemplo:** bala de 0,01 kg a 400 m/s crava num bloco de 1,99 kg em repouso. v = (0,01·400)/2 = 2 m/s."
+    },
+    {
+      "id": "rotacao-e-torque",
+      "nome": "Rotação e Torque",
+      "resumo": "A rotação de corpos rígidos tem grandezas análogas às do movimento linear.\n\n## Cinemática da rotação\n- **Velocidade angular**: ω = Δθ/Δt, em rad/s. Também ω = 2π·f, com f em hertz.\n- Conversão: rpm ÷ 60 = Hz. Exemplo: 60 rpm = 1 Hz = 2π rad/s.\n- Relação com grandezas lineares de um ponto a uma distância R do eixo: **v = ω·R** e aceleração centrípeta a = ω²·R = v²/R.\n\n## Torque\nO **torque** (momento de uma força) mede a tendência de girar: **τ = r·F·sen θ**, em que r é a distância do eixo ao ponto de aplicação e θ o ângulo entre r e F. Unidade: N·m.\n- Quanto maior o **braço de alavanca**, maior o torque para a mesma força: por isso a maçaneta fica longe das dobradiças.\n- Força apontada para o eixo (θ = 0°) não gera torque.\n\n## Momento de inércia\nO **momento de inércia** I é a \"inércia de rotação\" e depende da massa e de como ela está distribuída em relação ao eixo. Massa mais longe do eixo significa I maior. Para uma partícula, I = m·r².\n\n## Segunda lei da rotação\n**τ_resultante = I·α**, em que α é a aceleração angular.\n\n## Momento angular\n**L = I·ω**. Sem torque externo resultante, L se conserva. Uma patinadora que fecha os braços diminui I e, portanto, aumenta ω.\n\n## Equilíbrio de corpo rígido\nExige resultante das forças nula **e** torque resultante nulo em relação a qualquer ponto.",
+      "revisao": "- ω = 2π·f; v = ω·R.\n- τ = r·F·sen θ; maior braço, maior torque.\n- τ_res = I·α; L = I·ω conservado sem torque externo.\n- Equilíbrio: ΣF = 0 e Στ = 0.\n\n**Erros comuns:** esquecer de converter rpm para rad/s; usar a distância errada no torque; achar que a energia cinética de rotação se conserva quando a patinadora fecha os braços (ela aumenta, graças ao trabalho muscular).\n\n**Mini exemplo:** chave de 0,25 m com força perpendicular de 40 N: τ = 0,25·40 = 10 N·m."
+    },
+    {
+      "id": "gravitacao",
+      "nome": "Gravitação",
+      "resumo": "A **gravitação universal** explica tanto a queda dos corpos quanto o movimento dos planetas.\n\n## Lei da gravitação universal\nDois corpos de massas m₁ e m₂ separados por uma distância d se atraem com força **F = G·m₁·m₂/d²**, com G ≈ 6,67×10⁻¹¹ N·m²/kg². A força é proporcional às massas e inversamente proporcional ao **quadrado** da distância: dobrar d reduz F a um quarto.\n\n## Gravidade na superfície\nNa superfície de um planeta de massa M e raio R: **g = G·M/R²**. O valor depende do planeta, não do corpo que cai. Na Terra, usamos g ≈ 10 m/s²; na Lua, cerca de 1,6 m/s².\n\n## Massa e peso\n- **Massa** (kg) é a quantidade de matéria e não muda de lugar para lugar.\n- **Peso** (N) é a força gravitacional: P = m·g. Muda conforme o local.\n\n## Leis de Kepler\n- **1ª lei**: as órbitas são elipses, com o Sol em um dos focos.\n- **2ª lei**: o raio vetor varre áreas iguais em tempos iguais; o planeta é mais rápido perto do Sol.\n- **3ª lei**: T² é proporcional a r³ (r = semieixo maior). Para órbitas em torno do mesmo astro, T²/r³ é constante.\n\n## Órbitas e imponderabilidade\nEm órbita circular, a gravidade faz o papel de **força centrípeta**: G·M·m/r² = m·v²/r. Astronautas numa estação espacial \"flutuam\" porque eles e a estação estão em **queda livre** contínua, e não porque a gravidade some: a 400 km de altitude ela ainda vale cerca de 90% da gravidade na superfície.",
+      "revisao": "- F = G·m₁·m₂/d²: força cai com o quadrado da distância.\n- g = G·M/R² na superfície do planeta.\n- Massa não muda; peso P = m·g muda conforme o local.\n- Kepler: T² ∝ r³.\n\n**Erros comuns:** esquecer de elevar a distância ao quadrado; confundir massa com peso; dizer que não há gravidade em órbita.\n\n**Mini exemplo:** se um satélite fica 3 vezes mais longe do centro da Terra, a força gravitacional sobre ele fica 3² = 9 vezes menor."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "fisica-1-1",
+      "topico": "cinematica",
+      "nivel": "conceitual",
+      "pergunta": "Um carro dá uma volta completa em uma pista circular e para exatamente no ponto de partida. Qual é a sua velocidade média vetorial no percurso?",
+      "opcoes": [
+        "Zero, porque o deslocamento total é nulo",
+        "Igual à rapidez média (distância percorrida dividida pelo tempo)",
+        "Igual à maior velocidade atingida na volta",
+        "Não pode ser calculada em trajetórias curvas"
+      ],
+      "correta": 0,
+      "explicacao": "A velocidade média vetorial é o deslocamento dividido pelo tempo, e voltar ao ponto inicial significa deslocamento nulo. O erro comum é usar a distância percorrida, que dá a rapidez média, e não a velocidade média vetorial."
+    },
+    {
+      "id": "fisica-1-2",
+      "topico": "cinematica",
+      "nivel": "conceitual",
+      "pergunta": "Uma bola é lançada verticalmente para cima. Desprezando a resistência do ar, qual é a sua aceleração no ponto mais alto da trajetória?",
+      "opcoes": [
+        "Zero, porque a bola está parada naquele instante",
+        "g, vertical e para cima",
+        "g, vertical e para baixo",
+        "Depende da massa da bola"
+      ],
+      "correta": 2,
+      "explicacao": "Durante todo o voo a única força é o peso, então a aceleração é sempre g para baixo, inclusive no topo. O erro mais comum é confundir velocidade nula com aceleração nula."
+    },
+    {
+      "id": "fisica-1-3",
+      "topico": "cinematica",
+      "nivel": "aplicacao",
+      "pergunta": "Um carro parte do repouso com aceleração constante de 2 m/s². Que distância ele percorre nos primeiros 5 s?",
+      "opcoes": [
+        "10 m",
+        "25 m",
+        "50 m",
+        "5 m"
+      ],
+      "correta": 1,
+      "explicacao": "Com v₀ = 0, Δs = a·t²/2 = 2·25/2 = 25 m. O erro frequente é esquecer a divisão por 2 e obter 50 m."
+    },
+    {
+      "id": "fisica-1-4",
+      "topico": "cinematica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pedra é solta do repouso do alto de um prédio. Usando g = 10 m/s² e desprezando a resistência do ar, qual é a sua velocidade após 3 s de queda?",
+      "opcoes": [
+        "15 m/s",
+        "45 m/s",
+        "90 m/s",
+        "30 m/s"
+      ],
+      "correta": 3,
+      "explicacao": "Em queda livre a partir do repouso, v = g·t = 10·3 = 30 m/s. Um erro comum é responder 45, que é a distância caída em metros (g·t²/2), e não a velocidade."
+    },
+    {
+      "id": "fisica-1-5",
+      "topico": "cinematica",
+      "nivel": "analise",
+      "pergunta": "Um carro freia com desaceleração constante até parar. Se a velocidade inicial fosse o dobro, mantendo a mesma desaceleração, o que aconteceria com a distância de frenagem?",
+      "opcoes": [
+        "Ficaria 2 vezes maior",
+        "Permaneceria a mesma",
+        "Ficaria 8 vezes maior",
+        "Ficaria 4 vezes maior"
+      ],
+      "correta": 3,
+      "explicacao": "Por Torricelli, 0 = v₀² − 2·a·Δs, logo Δs = v₀²/(2a): a distância é proporcional ao quadrado da velocidade, e dobrar v₀ multiplica Δs por 4. O erro comum é supor proporcionalidade direta e responder que a distância apenas dobra."
+    },
+    {
+      "id": "fisica-1-6",
+      "topico": "leis-de-newton",
+      "nivel": "conceitual",
+      "pergunta": "Um bloco desliza em linha reta com velocidade constante sobre uma superfície. O que se pode afirmar sobre a força resultante sobre ele?",
+      "opcoes": [
+        "É constante e aponta no sentido do movimento",
+        "É nula",
+        "É proporcional à velocidade do bloco",
+        "É igual ao peso do bloco"
+      ],
+      "correta": 1,
+      "explicacao": "Pela 1ª lei de Newton, movimento retilíneo uniforme ocorre quando a resultante é nula; as forças presentes se equilibram. O erro comum é achar que é preciso uma força resultante no sentido do movimento para mantê-lo."
+    },
+    {
+      "id": "fisica-1-7",
+      "topico": "leis-de-newton",
+      "nivel": "conceitual",
+      "pergunta": "Pela 3ª lei de Newton, as forças de ação e reação têm mesma intensidade e sentidos opostos. Por que elas não se anulam?",
+      "opcoes": [
+        "Porque têm intensidades ligeiramente diferentes",
+        "Porque a reação surge um pouco depois da ação",
+        "Porque atuam em corpos diferentes",
+        "Porque têm o mesmo sentido em alguns casos"
+      ],
+      "correta": 2,
+      "explicacao": "Forças só se somam (e podem se anular) quando atuam no mesmo corpo, e o par ação–reação atua sempre em corpos distintos. O erro comum é confundir o par ação–reação com duas forças que se equilibram sobre um mesmo corpo, como peso e normal."
+    },
+    {
+      "id": "fisica-1-8",
+      "topico": "leis-de-newton",
+      "nivel": "aplicacao",
+      "pergunta": "Uma força horizontal de 20 N é aplicada a um bloco de 4 kg sobre uma superfície sem atrito. Qual é a aceleração do bloco?",
+      "opcoes": [
+        "5 m/s²",
+        "80 m/s²",
+        "0,2 m/s²",
+        "24 m/s²"
+      ],
+      "correta": 0,
+      "explicacao": "Pela 2ª lei, a = F/m = 20/4 = 5 m/s². Os erros comuns são multiplicar força por massa (80) ou inverter a divisão (0,2)."
+    },
+    {
+      "id": "fisica-1-9",
+      "topico": "leis-de-newton",
+      "nivel": "aplicacao",
+      "pergunta": "Um bloco de 10 kg é puxado por uma força horizontal de 50 N sobre um piso horizontal com coeficiente de atrito cinético 0,3. Usando g = 10 m/s², qual é a aceleração do bloco?",
+      "opcoes": [
+        "5 m/s²",
+        "2 m/s²",
+        "3 m/s²",
+        "8 m/s²"
+      ],
+      "correta": 1,
+      "explicacao": "A normal vale N = m·g = 100 N, o atrito vale 0,3·100 = 30 N e a resultante é 50 − 30 = 20 N, logo a = 20/10 = 2 m/s². O erro comum é ignorar o atrito e obter 5 m/s²."
+    },
+    {
+      "id": "fisica-1-10",
+      "topico": "leis-de-newton",
+      "nivel": "analise",
+      "pergunta": "Uma pessoa de 60 kg está sobre uma balança dentro de um elevador que sobe acelerando a 2 m/s². Usando g = 10 m/s², qual é a força normal que a balança exerce sobre a pessoa?",
+      "opcoes": [
+        "600 N",
+        "480 N",
+        "120 N",
+        "720 N"
+      ],
+      "correta": 3,
+      "explicacao": "Com aceleração para cima, N − m·g = m·a, então N = 60·(10 + 2) = 720 N, e a pessoa se sente mais pesada. O erro comum é supor N = P = 600 N ou subtrair a aceleração e obter 480 N."
+    },
+    {
+      "id": "fisica-1-11",
+      "topico": "trabalho-e-energia",
+      "nivel": "conceitual",
+      "pergunta": "Um bloco desliza sobre uma mesa horizontal. Qual é o trabalho realizado pela força normal sobre ele?",
+      "opcoes": [
+        "Nulo, pois a normal é perpendicular ao deslocamento",
+        "Positivo, pois a normal sustenta o bloco",
+        "Negativo, pois a normal se opõe ao peso",
+        "Igual ao módulo da normal vezes a distância percorrida"
+      ],
+      "correta": 0,
+      "explicacao": "Como W = F·d·cos θ e θ = 90°, o cosseno é zero e o trabalho da normal é nulo. O erro comum é multiplicar força por distância sem considerar o ângulo entre elas."
+    },
+    {
+      "id": "fisica-1-12",
+      "topico": "trabalho-e-energia",
+      "nivel": "conceitual",
+      "pergunta": "Em qual situação a energia mecânica (cinética + potencial) de um sistema se conserva?",
+      "opcoes": [
+        "Sempre que o corpo estiver em movimento",
+        "Quando atua um atrito de valor constante",
+        "Quando apenas forças conservativas, como o peso e a força elástica, realizam trabalho",
+        "Somente quando o corpo estiver em repouso"
+      ],
+      "correta": 2,
+      "explicacao": "A energia mecânica se conserva quando não há trabalho de forças dissipativas, como atrito e resistência do ar. O erro comum é aplicar a conservação em problemas com atrito, em que parte da energia vira calor."
+    },
+    {
+      "id": "fisica-1-13",
+      "topico": "trabalho-e-energia",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a energia cinética de um corpo de 2 kg que se move a 3 m/s?",
+      "opcoes": [
+        "6 J",
+        "18 J",
+        "9 J",
+        "3 J"
+      ],
+      "correta": 2,
+      "explicacao": "Ec = m·v²/2 = 2·9/2 = 9 J. Os erros comuns são não elevar a velocidade ao quadrado (3 J ou 6 J) ou esquecer a divisão por 2 (18 J)."
+    },
+    {
+      "id": "fisica-1-14",
+      "topico": "trabalho-e-energia",
+      "nivel": "aplicacao",
+      "pergunta": "Um objeto é solto do repouso de uma altura de 5 m. Usando g = 10 m/s² e desprezando a resistência do ar, com que velocidade ele chega ao solo?",
+      "opcoes": [
+        "10 m/s",
+        "50 m/s",
+        "5 m/s",
+        "100 m/s"
+      ],
+      "correta": 0,
+      "explicacao": "Pela conservação da energia, m·g·h = m·v²/2, logo v = √(2·g·h) = √100 = 10 m/s. O erro comum é esquecer a raiz quadrada e responder 100 m/s, ou multiplicar g·h e responder 50."
+    },
+    {
+      "id": "fisica-1-15",
+      "topico": "trabalho-e-energia",
+      "nivel": "analise",
+      "pergunta": "Um bloco de 2 kg desliza a 10 m/s num piso horizontal e para após percorrer 20 m, apenas pela ação do atrito. Qual é o módulo da força de atrito, suposta constante?",
+      "opcoes": [
+        "10 N",
+        "2 N",
+        "20 N",
+        "5 N"
+      ],
+      "correta": 3,
+      "explicacao": "Pelo teorema trabalho–energia, o trabalho do atrito é ΔEc = 0 − 2·10²/2 = −100 J, e então f = 100/20 = 5 N. O erro comum é usar Ec = m·v (20 J) ou esquecer a divisão por 2 na energia cinética, obtendo 10 N."
+    },
+    {
+      "id": "fisica-1-16",
+      "topico": "momento-linear",
+      "nivel": "conceitual",
+      "pergunta": "O impulso da força resultante que atua sobre um corpo durante um intervalo de tempo é igual a:",
+      "opcoes": [
+        "a variação da energia cinética do corpo",
+        "a variação da quantidade de movimento do corpo",
+        "o produto da massa pela aceleração",
+        "o trabalho realizado pela força resultante"
+      ],
+      "correta": 1,
+      "explicacao": "O teorema do impulso diz que I = F·Δt = Δp, ou seja, a variação do momento linear. O erro comum é confundir com o teorema trabalho–energia, que relaciona trabalho com variação da energia cinética."
+    },
+    {
+      "id": "fisica-1-17",
+      "topico": "momento-linear",
+      "nivel": "conceitual",
+      "pergunta": "Em uma colisão perfeitamente inelástica entre dois carrinhos, num sistema isolado, o que se conserva?",
+      "opcoes": [
+        "Apenas a energia cinética total",
+        "Apenas a quantidade de movimento total",
+        "A quantidade de movimento e a energia cinética",
+        "Nenhuma das duas grandezas"
+      ],
+      "correta": 1,
+      "explicacao": "Em sistema isolado o momento total sempre se conserva, mas na colisão perfeitamente inelástica a perda de energia cinética é a maior possível. O erro comum é achar que a energia cinética se conserva em toda colisão."
+    },
+    {
+      "id": "fisica-1-18",
+      "topico": "momento-linear",
+      "nivel": "aplicacao",
+      "pergunta": "Um carrinho de 2 kg a 6 m/s colide com outro de 1 kg em repouso, e os dois seguem grudados. Qual é a velocidade do conjunto logo após a colisão?",
+      "opcoes": [
+        "3 m/s",
+        "6 m/s",
+        "4 m/s",
+        "2 m/s"
+      ],
+      "correta": 2,
+      "explicacao": "Conservando o momento, 2·6 = (2 + 1)·v, então v = 12/3 = 4 m/s. O erro comum é dividir o momento só pela massa do carrinho que estava parado ou fazer a média simples das velocidades (3 m/s)."
+    },
+    {
+      "id": "fisica-1-19",
+      "topico": "momento-linear",
+      "nivel": "aplicacao",
+      "pergunta": "Uma bola de 0,5 kg atinge uma parede perpendicularmente a 10 m/s e volta na mesma direção, também a 10 m/s. Qual é o módulo do impulso que a parede exerce sobre a bola?",
+      "opcoes": [
+        "Zero",
+        "5 N·s",
+        "20 N·s",
+        "10 N·s"
+      ],
+      "correta": 3,
+      "explicacao": "Tomando o sentido de retorno como positivo, Δp = 0,5·10 − 0,5·(−10) = 10 N·s, pois a velocidade inverte de sentido. O erro comum é subtrair os módulos e concluir que o impulso é zero."
+    },
+    {
+      "id": "fisica-1-20",
+      "topico": "momento-linear",
+      "nivel": "analise",
+      "pergunta": "Uma bola de bilhar A, a 2 m/s, colide frontalmente e de forma elástica com uma bola B idêntica, que estava em repouso. O que acontece logo após a colisão?",
+      "opcoes": [
+        "A fica em repouso e B segue a 2 m/s",
+        "As duas seguem juntas a 1 m/s",
+        "A volta a 2 m/s e B fica parada",
+        "A segue a 0,5 m/s e B a 1,5 m/s, no mesmo sentido"
+      ],
+      "correta": 0,
+      "explicacao": "Só a troca de velocidades conserva ao mesmo tempo o momento (m·2) e a energia cinética (m·2²/2) entre massas iguais. Seguir juntas a 1 m/s conserva o momento, mas perde metade da energia cinética, o que caracterizaria uma colisão perfeitamente inelástica."
+    },
+    {
+      "id": "fisica-1-21",
+      "topico": "rotacao-e-torque",
+      "nivel": "conceitual",
+      "pergunta": "Por que é mais fácil abrir uma porta empurrando perto da maçaneta do que perto das dobradiças?",
+      "opcoes": [
+        "Porque o momento de inércia da porta diminui longe das dobradiças",
+        "Porque a força aplicada longe do eixo realiza menos trabalho",
+        "Porque perto das dobradiças o atrito da porta com o chão é maior",
+        "Porque um braço de alavanca maior produz um torque maior com a mesma força"
+      ],
+      "correta": 3,
+      "explicacao": "O torque é τ = r·F·sen θ, então aumentar a distância r ao eixo aumenta o torque para a mesma força. O erro comum é atribuir o efeito ao momento de inércia, que é uma propriedade da porta e do eixo e não depende de onde se empurra."
+    },
+    {
+      "id": "fisica-1-22",
+      "topico": "rotacao-e-torque",
+      "nivel": "aplicacao",
+      "pergunta": "Uma força de 20 N é aplicada perpendicularmente à extremidade de uma chave de boca de 0,5 m. Qual é o torque em relação ao parafuso?",
+      "opcoes": [
+        "10 N·m",
+        "40 N·m",
+        "20,5 N·m",
+        "5 N·m"
+      ],
+      "correta": 0,
+      "explicacao": "Com força perpendicular, sen 90° = 1 e τ = r·F = 0,5·20 = 10 N·m. O erro comum é dividir a força pela distância (40) em vez de multiplicar."
+    },
+    {
+      "id": "fisica-1-23",
+      "topico": "rotacao-e-torque",
+      "nivel": "aplicacao",
+      "pergunta": "Uma roda gira a 120 rpm. Qual é a sua velocidade angular em rad/s?",
+      "opcoes": [
+        "2π rad/s",
+        "4π rad/s",
+        "120π rad/s",
+        "60 rad/s"
+      ],
+      "correta": 1,
+      "explicacao": "120 rpm equivalem a 120/60 = 2 voltas por segundo, e ω = 2π·f = 2π·2 = 4π rad/s (cerca de 12,6 rad/s). O erro comum é esquecer de dividir por 60 ou de multiplicar por 2π."
+    },
+    {
+      "id": "fisica-1-24",
+      "topico": "rotacao-e-torque",
+      "nivel": "aplicacao",
+      "pergunta": "Um disco gira com velocidade angular de 5 rad/s. Qual é a velocidade linear de um ponto na borda, a 0,4 m do eixo?",
+      "opcoes": [
+        "12,5 m/s",
+        "0,08 m/s",
+        "2 m/s",
+        "5,4 m/s"
+      ],
+      "correta": 2,
+      "explicacao": "A relação é v = ω·R = 5·0,4 = 2 m/s. O erro comum é dividir ω por R (12,5) em vez de multiplicar."
+    },
+    {
+      "id": "fisica-1-25",
+      "topico": "rotacao-e-torque",
+      "nivel": "analise",
+      "pergunta": "Uma patinadora gira com os braços abertos e, sem tocar em nada, fecha os braços junto ao corpo. Desprezando o atrito, o que acontece com sua velocidade angular?",
+      "opcoes": [
+        "Aumenta, porque L = I·ω se conserva e o momento de inércia diminui",
+        "Diminui, porque o momento de inércia diminui",
+        "Não muda, porque não há torque externo",
+        "Aumenta, porque a energia cinética de rotação se conserva"
+      ],
+      "correta": 0,
+      "explicacao": "Sem torque externo o momento angular L = I·ω é constante; fechar os braços reduz I, então ω precisa aumentar. O erro comum é justificar pela conservação da energia cinética, que na verdade aumenta por causa do trabalho feito pelos músculos."
+    },
+    {
+      "id": "fisica-1-26",
+      "topico": "gravitacao",
+      "nivel": "aplicacao",
+      "pergunta": "Dois corpos se atraem gravitacionalmente com força F. Se a distância entre seus centros dobrar, qual será a nova força?",
+      "opcoes": [
+        "F/2",
+        "2F",
+        "4F",
+        "F/4"
+      ],
+      "correta": 3,
+      "explicacao": "A força gravitacional é inversamente proporcional ao quadrado da distância, então dobrar d divide F por 2² = 4. O erro comum é esquecer o quadrado e responder F/2."
+    },
+    {
+      "id": "fisica-1-27",
+      "topico": "gravitacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um planeta tem o dobro da massa e o dobro do raio da Terra. Considerando g = 10 m/s² na superfície terrestre, qual é a gravidade na superfície desse planeta?",
+      "opcoes": [
+        "20 m/s²",
+        "10 m/s²",
+        "5 m/s²",
+        "2,5 m/s²"
+      ],
+      "correta": 2,
+      "explicacao": "Como g = G·M/R², o novo valor é 10·2/2² = 5 m/s². O erro comum é achar que dobrar massa e raio se compensa e manter 10 m/s², esquecendo que o raio entra ao quadrado."
+    },
+    {
+      "id": "fisica-1-28",
+      "topico": "gravitacao",
+      "nivel": "aplicacao",
+      "pergunta": "Dois planetas orbitam a mesma estrela. O raio orbital médio do planeta B é 4 vezes o do planeta A. Pela 3ª lei de Kepler, quantas vezes o período de B é maior que o de A?",
+      "opcoes": [
+        "4 vezes",
+        "8 vezes",
+        "16 vezes",
+        "2 vezes"
+      ],
+      "correta": 1,
+      "explicacao": "Como T² ∝ r³, T_B²/T_A² = 4³ = 64 e, portanto, T_B/T_A = √64 = 8. O erro comum é usar proporcionalidade direta (4 vezes) ou elevar ao quadrado em vez de usar a potência 3/2 (16 vezes)."
+    },
+    {
+      "id": "fisica-1-29",
+      "topico": "gravitacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um astronauta tem massa de 70 kg. Na Lua, onde g ≈ 1,6 m/s², quais são sua massa e seu peso?",
+      "opcoes": [
+        "11,2 kg e 112 N",
+        "70 kg e 112 N",
+        "70 kg e 700 N",
+        "112 kg e 70 N"
+      ],
+      "correta": 1,
+      "explicacao": "A massa não depende do local e continua 70 kg, enquanto o peso é P = m·g = 70·1,6 = 112 N. O erro comum é achar que a massa também diminui na Lua."
+    },
+    {
+      "id": "fisica-1-30",
+      "topico": "gravitacao",
+      "nivel": "analise",
+      "pergunta": "Astronautas na Estação Espacial Internacional, a cerca de 400 km de altitude, parecem flutuar. Qual é a explicação correta?",
+      "opcoes": [
+        "Eles e a estação estão em queda livre contínua ao redor da Terra",
+        "Não existe gravidade naquela altitude",
+        "A gravidade ali é menor que 1% da gravidade na superfície",
+        "Uma força centrífuga real anula a gravidade, e a força resultante sobre eles é zero"
+      ],
+      "correta": 0,
+      "explicacao": "A gravidade a 400 km ainda vale cerca de 90% da superfície e atua como força centrípeta; astronautas e estação caem juntos, por isso não há contato entre eles. O erro comum é dizer que a gravidade desaparece no espaço ou que a resultante é nula, quando na verdade ela é a própria força peso."
+    }
+  ]
+}
