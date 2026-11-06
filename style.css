@@ -1238,6 +1238,14 @@ h1, h2, h3, h4 {
   margin-bottom: 0.5rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -1276,6 +1284,13 @@ h1, h2, h3, h4 {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .block {
@@ -1386,6 +1401,10 @@ h1, h2, h3, h4 {
   height: 100%;
 }
 
+.h-px {
+  height: 1px;
+}
+
 .max-h-\[88vh\] {
   max-height: 88vh;
 }
@@ -1406,6 +1425,10 @@ h1, h2, h3, h4 {
   width: 0px;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .w-1\.5 {
   width: 0.375rem;
 }
@@ -1416,6 +1439,10 @@ h1, h2, h3, h4 {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .w-12 {
@@ -1440,6 +1467,10 @@ h1, h2, h3, h4 {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .w-6 {
@@ -1596,6 +1627,10 @@ h1, h2, h3, h4 {
   justify-content: flex-start;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -1676,6 +1711,12 @@ h1, h2, h3, h4 {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -1824,6 +1865,10 @@ h1, h2, h3, h4 {
   background-color: hsl(var(--card));
 }
 
+.bg-card\/60 {
+  background-color: hsl(var(--card) / 0.6);
+}
+
 .bg-card\/70 {
   background-color: hsl(var(--card) / 0.7);
 }
@@ -1855,6 +1900,10 @@ h1, h2, h3, h4 {
 
 .bg-electric\/\[0\.06\] {
   background-color: rgb(59 91 255 / 0.06);
+}
+
+.bg-hair {
+  background-color: hsl(var(--hair));
 }
 
 .bg-ink {
@@ -1943,6 +1992,16 @@ h1, h2, h3, h4 {
   padding-right: 1.25rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-1\.5 {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
@@ -1951,6 +2010,11 @@ h1, h2, h3, h4 {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-2 {
@@ -1984,6 +2048,10 @@ h1, h2, h3, h4 {
 
 .pb-\[env\(safe-area-inset-bottom\)\] {
   padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .pr-8 {
@@ -2186,6 +2254,14 @@ h1, h2, h3, h4 {
   color: hsl(var(--foreground));
 }
 
+.text-foreground\/50 {
+  color: hsl(var(--foreground) / 0.5);
+}
+
+.text-foreground\/60 {
+  color: hsl(var(--foreground) / 0.6);
+}
+
 .text-foreground\/65 {
   color: hsl(var(--foreground) / 0.65);
 }
@@ -2243,6 +2319,10 @@ h1, h2, h3, h4 {
 
 .text-white\/60 {
   color: rgb(255 255 255 / 0.6);
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .opacity-50 {
@@ -2830,6 +2910,10 @@ h1, h2, h3, h4 {
   background-color: hsl(var(--secondary) / 0.5);
 }
 
+.hover\:bg-secondary\/70:hover {
+  background-color: hsl(var(--secondary) / 0.7);
+}
+
 .hover\:text-destructive:hover {
   color: hsl(var(--destructive));
 }
@@ -2840,6 +2924,12 @@ h1, h2, h3, h4 {
 
 .hover\:opacity-100:hover {
   opacity: 1;
+}
+
+.hover\:shadow-sm:hover {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .focus\:not-sr-only:focus {
@@ -2901,6 +2991,10 @@ h1, h2, h3, h4 {
 .focus\:text-white:focus {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.focus\:opacity-100:focus {
+  opacity: 1;
 }
 
 .focus\:outline-none:focus {
@@ -2969,6 +3063,10 @@ h1, h2, h3, h4 {
 
 .disabled\:opacity-60:disabled {
   opacity: 0.6;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
 }
 
 .peer:disabled ~ .peer-disabled\:cursor-not-allowed {
@@ -3091,6 +3189,10 @@ h1, h2, h3, h4 {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-\[0\.85fr_1fr\] {
