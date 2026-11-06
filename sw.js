@@ -1,6 +1,7 @@
 // Service worker do Mestriva: cache por versão, navegação com prazo e arquivos do cache com atualização em segundo plano.
 // Baseado no modelo do Monetra. Toda mudança publicada sobe a versão (ferramentas/bump.mjs).
 const V = "0.1.0";
+const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
 const CACHE = "mestriva-" + V;
 // Arquivos guardados na instalação. Todo arquivo de js/ precisa estar aqui (testes/pwa.test.mjs confere).
 const SHELL = [
@@ -32,14 +33,15 @@ self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys()
       .then((ks) => Promise.all(ks.filter((k) => k.startsWith("mestriva-") && k !== CACHE).map((k) => caches.delete(k))))
-      .then(() => self.clients.claim())
+      .then(() => sw.clients.claim())
   );
 });
 
 self.addEventListener("message", (e) => {
-  const origem = e.source && "url" in e.source ? new URL(e.source.url).origin : e.origin;
+  const fonte = /** @type {Client|null} */ (/** @type {unknown} */ (e.source));
+  const origem = fonte && "url" in fonte ? new URL(fonte.url).origin : e.origin;
   if (origem !== location.origin) return;
-  if (e.data && e.data.tipo === "atualizar") self.skipWaiting();
+  if (e.data && e.data.tipo === "atualizar") sw.skipWaiting();
 });
 
 const guardavel = (r) => r && r.ok && r.status === 200 && r.type === "basic";

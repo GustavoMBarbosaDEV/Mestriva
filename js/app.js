@@ -78,7 +78,7 @@ export function iniciar() {
     rota.caminho = caminho;
     /** @type {Ctx} */
     const ctx = { loja, prefs, usuario: usuario(), navega, anuncia, rota };
-    const pagina = PAGINAS[r.pagina] || provisoria;
+    const pagina = /** @type {Pagina} */ (PAGINAS[r.pagina] || provisoria);
     const conteudo = pagina.render(ctx);
     app.innerHTML = rota.tipo === "protegida" ? casca({ caminho, usuario: ctx.usuario, tema: prefs.tema, conteudo }) : conteudo;
     document.title = r.pagina === "landing" ? rota.titulo : `${rota.titulo} · Mestriva`;

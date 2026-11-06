@@ -153,6 +153,7 @@ export function normCartao(v) {
 /** @typedef {"materias"|"eventos"|"notas"|"sessoes"|"quizzes"|"tentativas"|"materiais"|"cartoes"} Colecao */
 export const COLECOES = /** @type {Colecao[]} */ (["materias", "eventos", "notas", "sessoes", "quizzes", "tentativas", "materiais", "cartoes"]);
 
+/** @type {Record<Colecao, (v: unknown) => any>} */
 export const NORM = {
   materias: normMateria,
   eventos: normEvento,
