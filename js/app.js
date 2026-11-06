@@ -2,7 +2,7 @@
 import { esc } from "./util.js";
 import { criaLoja } from "./loja.js";
 import { lePrefs, gravaPrefs, aplicaPrefs } from "./preferencias.js";
-import { resolve, ligaNavegacao, navega, limpaCaminho } from "./rotas.js";
+import { resolve, ligaNavegacao, navega, limpaCaminho, appInstalado } from "./rotas.js";
 import { abreDialogo, fechaDialogos } from "./ui/dialogo.js";
 import { corpoAcessibilidade, aplicaAcaoA11y } from "./ui/acessibilidade.js";
 import { casca } from "./ui/casca.js";
@@ -22,6 +22,7 @@ import * as landing from "./paginas/landing.js";
 import { abreSino, fechaSino, lembretes, notificaLembretes } from "./ui/sino.js";
 import { abreFoco } from "./ui/foco.js";
 import { mostraNovidades } from "./ui/novidades.js";
+import { tiraAbertura } from "./ui/abertura.js";
 import { VERSAO, NOVIDADES } from "./versao.js";
 
 /**
@@ -78,7 +79,7 @@ export function iniciar() {
 
   const usuario = () => ({ nome: loja.perfil().display_name, email: "" });
   // Modo local: sem conta, o estudante está sempre "logado" no aparelho (o plano 3 liga o Firebase).
-  const estadoAcesso = () => ({ logado: true, perfilCompleto: loja.perfil().onboarding_completed });
+  const estadoAcesso = () => ({ logado: true, perfilCompleto: loja.perfil().onboarding_completed, apresentacao: !appInstalado() });
 
   function desenha(/** @type {string} */ caminhoCompleto) {
     const caminho = limpaCaminho(caminhoCompleto);
@@ -182,6 +183,7 @@ export function iniciar() {
 
   ligaNavegacao(desenha);
   desenha(location.pathname + location.search);
+  tiraAbertura();
   let avisou = false;
   const avisaArmazenamento = () => {
     if (!loja.aviso || avisou) return;

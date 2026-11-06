@@ -3,7 +3,9 @@
   "short_name": "Mestriva",
   "description": "Organize sua grade curricular, acompanhe provas e trabalhos, estude com método — grátis e com seus dados só seus.",
   "lang": "pt-BR",
+  "id": "/",
   "start_url": "/",
+  "categories": ["education", "productivity"],
   "scope": "/",
   "display": "standalone",
   "background_color": "#f7f9fb",
@@ -12,5 +14,11 @@
     { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
     { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Calendário", "short_name": "Calendário", "description": "Provas e trabalhos que vêm por aí", "url": "/calendario", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Fazer um quiz", "short_name": "Quiz", "description": "Questões da próxima prova", "url": "/quiz", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Estudar", "short_name": "Estudar", "description": "Material, Pomodoro e modo foco", "url": "/estudar", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Perguntar ao tutor", "short_name": "Tutor", "description": "Métodos, agenda e médias", "url": "/tutor", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
   ]
 }

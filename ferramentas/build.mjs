@@ -13,8 +13,8 @@ const aqui = path.dirname(fileURLToPath(import.meta.url));
 const raiz = path.join(aqui, "..");
 const dist = path.join(raiz, "dist");
 
-const ARQUIVOS = ["index.html", "pre.js", "boot.css", "style.css", "firebase-config.js", "manifest.webmanifest", "sw.js", "privacidade.html", "termos.html", "robots.txt", "sitemap.xml"];
-const PASTAS = ["js", "icons", "fonts", "conteudo", "vendor"];
+const ARQUIVOS = ["index.html", "pre.js", "boot.css", "style.css", "firebase-config.js", "manifest.webmanifest", "sw.js", "privacidade.html", "faq.html", "termos.html", "robots.txt", "sitemap.xml"];
+const PASTAS = ["js", "icons", "fonts", "conteudo", "vendor", "img"];
 
 const cssAntes = fs.readFileSync(path.join(raiz, "style.css"), "utf8");
 execSync("npx tailwindcss -c tailwind.config.cjs -i ../css/entrada.css -o ../style.css", { cwd: aqui, stdio: "ignore" });

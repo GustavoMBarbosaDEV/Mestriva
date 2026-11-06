@@ -56,7 +56,9 @@ test("manifesto válido", () => {
 
 test("index.html sem script inline", () => {
   const idx = le("index.html");
-  for (const s of idx.match(/<script\b[^>]*>/g)) assert.match(s, /\ssrc=/);
+  // Só scripts de arquivo; o único bloco inline aceito é o JSON-LD do SEO, que é dado e não roda.
+  for (const s of idx.match(/<script\b[^>]*>/g)) assert.ok(/\ssrc=/.test(s) || s === '<script type="application/ld+json">', s);
+  for (const bloco of idx.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g) || []) JSON.parse(bloco.replace(/^<script[^>]*>|<\/script>$/g, ""));
   assert.ok(!/\son[a-z]+=/i.test(idx));
   assert.match(idx, /Content-Security-Policy/);
 });
