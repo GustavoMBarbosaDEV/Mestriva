@@ -5,14 +5,39 @@ const CARTAO =
   "panel fixed inset-x-4 bottom-24 z-[60] mx-auto flex max-w-md items-center gap-3 p-4 animate-in fade-in-0 slide-in-from-bottom-4 lg:bottom-6 lg:left-auto lg:right-6 lg:mx-0";
 const BOTAO = "rounded-xl px-3 py-2 text-sm font-medium transition";
 
+/** Versão escrita no sw.js (aceita o arquivo minificado: const V="x"). @param {string} texto */
+export function versaoDoSw(texto) {
+  return /const V\s*=\s*"([0-9.]+)"/.exec(texto)?.[1] || "";
+}
+
 /** Versão do sw.js em espera, lida do próprio arquivo. @param {ServiceWorker} w */
 async function versaoDe(w) {
   try {
-    const t = await (await fetch(w.scriptURL, { cache: "no-store" })).text();
-    return /const V = "([0-9.]+)"/.exec(t)?.[1] || "";
+    return versaoDoSw(await (await fetch(w.scriptURL, { cache: "no-store" })).text());
   } catch {
     return "";
   }
+}
+
+/**
+ * Recarrega quando o service worker que controla a página troca — mas não na primeira visita,
+ * em que a página passa de "sem controle" para controlada (clients.claim) e nada mudou para a pessoa.
+ * @param {{controller: any, addEventListener: (tipo: string, fn: () => void) => void}} sw @param {() => void} recarrega
+ */
+export function ouveTrocaDeControle(sw, recarrega) {
+  const tinhaControle = !!sw.controller;
+  let recarregando = false;
+  sw.addEventListener("controllerchange", () => {
+    if (!tinhaControle || recarregando) return;
+    recarregando = true;
+    recarrega();
+  });
+}
+
+/** Primeiro elemento que está de fato na tela (o mesmo botão existe no menu lateral e no cabeçalho). @template {{getClientRects: () => ArrayLike<any>}} T @param {Iterable<T>} lista @returns {T|null} */
+export function primeiroVisivel(lista) {
+  for (const el of lista) if (el.getClientRects().length > 0) return el;
+  return null;
 }
 
 /** @param {{anuncia: (t: string) => void}} p */
@@ -21,12 +46,7 @@ export function ligaAtualizacao({ anuncia }) {
   if (location.hostname === "localhost" && new URLSearchParams(location.search).has("semsw")) return;
 
   let adiadoAte = 0;
-  let recarregando = false;
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    if (recarregando) return;
-    recarregando = true;
-    location.reload();
-  });
+  ouveTrocaDeControle(navigator.serviceWorker, () => location.reload());
 
   /** @param {ServiceWorker} w */
   async function mostra(w) {

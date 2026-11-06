@@ -6,7 +6,7 @@ import { resolve, ligaNavegacao, navega, limpaCaminho } from "./rotas.js";
 import { abreDialogo, fechaDialogos } from "./ui/dialogo.js";
 import { corpoAcessibilidade, aplicaAcaoA11y } from "./ui/acessibilidade.js";
 import { casca } from "./ui/casca.js";
-import { ligaAtualizacao } from "./atualizacao.js";
+import { ligaAtualizacao, primeiroVisivel } from "./atualizacao.js";
 import * as provisoria from "./paginas/provisoria.js";
 import * as naoEncontrada from "./paginas/nao-encontrada.js";
 
@@ -138,7 +138,7 @@ export function iniciar() {
     primeiroDesenho = true;
     desenha(location.pathname + location.search);
     window.scrollTo(0, y);
-    if (chave) /** @type {HTMLElement|null} */ (app.querySelector(`[data-acao="${CSS.escape(chave)}"]`))?.focus();
+    if (chave) primeiroVisivel(/** @type {NodeListOf<HTMLElement>} */ (app.querySelectorAll(`[data-acao="${CSS.escape(chave)}"]`)))?.focus();
   }
 
   document.addEventListener("click", (e) => {
