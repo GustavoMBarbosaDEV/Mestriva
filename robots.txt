@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /ajustes
+Disallow: /notas
+Sitemap: https://mestriva.web.app/sitemap.xml

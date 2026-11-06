@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     darkMode: ["class"],
-    content: ["../index.html", "../js/**/*.js"],
+    content: ["../*.html", "../js/**/*.js"],
     // Classes do sistema visual do Mestriva que existem mesmo antes de alguma tela usar.
     safelist: ["dark", "panel", "panel-interactive", "panel-sheen", "panel-ticks", "mono-label", "hover-lift", "bg-grid", "bg-grid-light", "rise", "no-scrollbar", "study-prose"],
   theme: {

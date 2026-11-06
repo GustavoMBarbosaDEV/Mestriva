@@ -13,7 +13,7 @@ const aqui = path.dirname(fileURLToPath(import.meta.url));
 const raiz = path.join(aqui, "..");
 const dist = path.join(raiz, "dist");
 
-const ARQUIVOS = ["index.html", "pre.js", "boot.css", "style.css", "firebase-config.js", "manifest.webmanifest", "sw.js"];
+const ARQUIVOS = ["index.html", "pre.js", "boot.css", "style.css", "firebase-config.js", "manifest.webmanifest", "sw.js", "privacidade.html", "termos.html", "robots.txt", "sitemap.xml"];
 const PASTAS = ["js", "icons", "fonts", "conteudo"];
 
 const cssAntes = fs.readFileSync(path.join(raiz, "style.css"), "utf8");

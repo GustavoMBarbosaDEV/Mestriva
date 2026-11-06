@@ -35,7 +35,9 @@ export function criaServidor(raiz) {
       return responde(400, "pedido inválido");
     }
     const ext = path.extname(caminho).toLowerCase();
-    const alvo = ext ? path.resolve(base, "." + caminho) : path.join(base, "index.html");
+    // Sem extensão: a página .html de mesmo nome, se existir (cleanUrls do Hosting); senão o app (index.html).
+    const pagina = !ext && caminho.length > 1 ? path.resolve(base, "." + caminho.replace(/\/+$/, "") + ".html") : "";
+    const alvo = ext ? path.resolve(base, "." + caminho) : pagina && pagina.startsWith(base + path.sep) && fs.existsSync(pagina) ? pagina : path.join(base, "index.html");
     if (alvo !== base && !alvo.startsWith(base + path.sep)) return responde(404, "não encontrado");
     fs.readFile(alvo, (erro, dados) => {
       if (erro) return responde(404, "não encontrado");
