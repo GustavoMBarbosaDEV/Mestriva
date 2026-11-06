@@ -1,6 +1,6 @@
 // Service worker do Mestriva: cache por versão, navegação com prazo e arquivos do cache com atualização em segundo plano.
 // Baseado no modelo do Monetra. Toda mudança publicada sobe a versão (ferramentas/bump.mjs).
-const V = "0.1.0";
+const V = "0.2.0";
 const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
 const CACHE = "mestriva-" + V;
 // Arquivos guardados na instalação. Todo arquivo de js/ precisa estar aqui (testes/pwa.test.mjs confere).
@@ -8,7 +8,7 @@ const SHELL = [
   "./", "index.html", "style.css", "boot.css", "pre.js", "firebase-config.js", "manifest.webmanifest",
   "js/app.js", "js/versao.js", "js/util.js", "js/icones.js", "js/normaliza.js", "js/loja.js", "js/preferencias.js", "js/rotas.js",
   "js/atualizacao.js", "js/ui/dialogo.js", "js/ui/controles.js", "js/ui/acessibilidade.js", "js/ui/casca.js",
-  "js/datas.js", "js/eventos.js", "js/curriculo.js", "js/markdown.js", "js/ui/formulario.js", "js/ui/pagina.js", "js/ui/cabecalho.js", "js/ui/dialogo-evento.js", "js/ui/vazio.js", "js/ui/dialogo-materia.js", "js/ui/pomodoro.js", "js/ui/fala.js", "js/ui/leitor.js", "js/ui/foco.js", "js/ui/sino.js", "js/backup.js",
+  "js/datas.js", "js/eventos.js", "js/curriculo.js", "js/markdown.js", "js/ui/formulario.js", "js/ui/pagina.js", "js/ui/cabecalho.js", "js/ui/dialogo-evento.js", "js/ui/vazio.js", "js/ui/dialogo-materia.js", "js/ui/pomodoro.js", "js/ui/fala.js", "js/ui/leitor.js", "js/ui/foco.js", "js/ui/sino.js", "js/ui/novidades.js", "js/backup.js",
   "js/paginas/provisoria.js", "js/paginas/nao-encontrada.js", "js/paginas/onboarding.js", "js/paginas/calendario.js", "js/paginas/grade.js", "js/paginas/notas.js", "js/paginas/estudar.js", "js/paginas/hoje.js", "js/paginas/ajustes.js",
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png", "icons/favicon.svg",
   "fonts/space-grotesk-5.1.1/space-grotesk-latin-400-normal.woff2", "fonts/space-grotesk-5.1.1/space-grotesk-latin-500-normal.woff2",

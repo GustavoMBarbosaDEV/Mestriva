@@ -144,7 +144,7 @@ export function montar(raiz, ctx) {
     input.value = "";
     f.text().then((texto) => {
       const r = validaBackup(texto);
-      if (!r.ok) { ctx.toast(r.erro); ctx.anuncia(r.erro); return; }
+      if (!r.ok) { const erro = /** @type {{erro: string}} */ (r).erro; ctx.toast(erro); ctx.anuncia(erro); return; }
       confirma({
         titulo: "Restaurar este backup?",
         descricao: "Os dados atuais deste aparelho serão trocados pelos do backup.",

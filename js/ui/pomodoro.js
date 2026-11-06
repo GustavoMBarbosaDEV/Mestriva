@@ -16,13 +16,13 @@ export function relogio(total) {
 /** @returns {Pomodoro} */
 export const pomodoroInicial = () => ({ fase: "foco", restante: FOCO, rodando: false, ciclos: 0, inicio: 0, base: FOCO });
 
-/** Inicia ou pausa. @param {Pomodoro} p @param {number} agora ms */
+/** Inicia ou pausa. @param {Pomodoro} p @param {number} agora ms @returns {Pomodoro} */
 export function alterna(p, agora) {
   if (p.rodando) return { ...tique(p, agora).estado, rodando: false };
   return { ...p, rodando: true, inicio: agora, base: p.restante };
 }
 
-/** Avança o tempo. @param {Pomodoro} p @param {number} agora */
+/** Avança o tempo. @param {Pomodoro} p @param {number} agora @returns {{estado: Pomodoro, concluiuFoco: boolean}} */
 export function tique(p, agora) {
   if (!p.rodando) return { estado: p, concluiuFoco: false };
   const restante = p.base - Math.floor((agora - p.inicio) / 1000);
@@ -31,11 +31,11 @@ export function tique(p, agora) {
   return { estado: { ...p, fase: "foco", restante: FOCO, base: FOCO, rodando: false }, concluiuFoco: false };
 }
 
-/** @param {Pomodoro} p */
+/** @param {Pomodoro} p @returns {Pomodoro} */
 export const reinicia = (p) => ({ ...p, rodando: false, restante: p.fase === "foco" ? FOCO : PAUSA, base: p.fase === "foco" ? FOCO : PAUSA });
-/** @param {Pomodoro} p */
+/** @param {Pomodoro} p @returns {Pomodoro} */
 export const pula = (p) => {
-  const fase = p.fase === "foco" ? "pausa" : "foco";
+  const fase = /** @type {"foco"|"pausa"} */ (p.fase === "foco" ? "pausa" : "foco");
   const t = fase === "foco" ? FOCO : PAUSA;
   return { ...p, rodando: false, fase, restante: t, base: t };
 };

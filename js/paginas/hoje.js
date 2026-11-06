@@ -133,8 +133,8 @@ export function desenha(r) {
     ${prova(r)}
     <section class="grid gap-3 sm:grid-cols-3">${indicadores}</section>
     <div class="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
-      <section class="panel"><div class="flex items-center justify-between border-b border-hair px-5 py-4"><h2 class="text-sm font-semibold">Próximos na sua agenda</h2><a href="/calendario" class="text-xs font-medium text-electric">Ver tudo</a></div>${agenda}</section>
-      <div class="space-y-5">
+      <section class="panel min-w-0"><div class="flex items-center justify-between border-b border-hair px-5 py-4"><h2 class="text-sm font-semibold">Próximos na sua agenda</h2><a href="/calendario" class="text-xs font-medium text-electric">Ver tudo</a></div>${agenda}</section>
+      <div class="min-w-0 space-y-5">
         <section class="panel p-5"><div class="flex items-center justify-between"><h2 class="text-sm font-semibold">Continuar estudando</h2><a href="/estudar" class="text-xs font-medium text-electric">Estudar</a></div>${materiais}</section>
         ${lateral}
       </div>

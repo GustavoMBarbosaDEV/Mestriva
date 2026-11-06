@@ -18,6 +18,8 @@ import * as hoje from "./paginas/hoje.js";
 import * as ajustes from "./paginas/ajustes.js";
 import { abreSino, fechaSino, lembretes, notificaLembretes } from "./ui/sino.js";
 import { abreFoco } from "./ui/foco.js";
+import { mostraNovidades } from "./ui/novidades.js";
+import { VERSAO, NOVIDADES } from "./versao.js";
 
 /**
  * @typedef {{render: (ctx: Ctx) => string, montar?: (raiz: HTMLElement, ctx: Ctx) => (void | (() => void))}} Pagina
@@ -186,6 +188,7 @@ export function iniciar() {
   loja.assina(avisaArmazenamento);
   ligaAtualizacao({ anuncia });
   notificaLembretes(lembretes(loja.lista("eventos")));
+  if (loja.perfil().onboarding_completed) mostraNovidades(VERSAO, NOVIDADES);
   return { loja, desenha };
 }
 

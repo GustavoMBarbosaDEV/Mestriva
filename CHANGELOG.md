@@ -1,5 +1,29 @@
 # Mudanças
 
+## 0.2.0 — telas reais no modo local (ainda não publicada)
+
+**O que mudou**
+- Onboarding, Hoje, Calendário, Grade curricular, Estudar (com Pomodoro e modo foco), Notas e Ajustes, com o visual do Mestriva.
+- Sino de lembretes dos próximos 7 dias, com notificação do navegador (uma vez por dia por compromisso).
+- Material de estudo do próprio estudante (markdown seguro), leitura em voz alta e ditado por voz.
+- Ajustes: backup (baixar e restaurar, com validação) e apagar os dados do aparelho.
+- Novidades da versão mostradas uma vez para quem já usava.
+- Gerar quiz, gerar revisão, importar grade por arquivo e o tutor aparecem, mas avisam que chegam na próxima etapa.
+
+**Correções**
+- Data só com o dia (notas) não volta mais um dia no fuso do Brasil.
+- Painel do sino não sai da tela no celular; a faixa de avisos (toast) não bloqueia mais os toques no cabeçalho.
+- Painel Hoje sem rolagem horizontal no celular com títulos longos.
+- "Rever o questionário inicial" volta a funcionar com o perfil completo.
+
+**O que foi testado**
+- 143 testes automáticos (`node --test "testes/*.test.mjs"`) e checagem de tipos limpa.
+- No navegador: fluxo completo de cada tela em 390×844 e 1280×800, claro e escuro; com 60 matérias, 200 eventos e 40 notas, sem rolagem horizontal (390, 768, 1280) e sem erros no console; texto com HTML aparece como texto em todas as telas.
+
+**O que não foi testado**
+- Notificações do navegador de verdade (precisa de permissão manual) e ditado por voz (precisa de microfone).
+- Firebase, quiz, tutor e importação por arquivo (próximos planos).
+
 ## 0.1.0 — base do app (ainda não publicada)
 
 **O que mudou**

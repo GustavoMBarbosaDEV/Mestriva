@@ -25,7 +25,7 @@ export function botaoDitar(ouvindo, suportado) {
   )}">${icone(ouvindo ? "Square" : "Mic")}<span class="sr-only">Ditar</span></button>`;
 }
 
-export const temDitado = () => typeof window !== "undefined" && Boolean(window.SpeechRecognition || /** @type {any} */ (window).webkitSpeechRecognition);
+export const temDitado = () => typeof window !== "undefined" && Boolean(/** @type {any} */ (window).SpeechRecognition || /** @type {any} */ (window).webkitSpeechRecognition);
 
 /** Lê o texto em voz alta; devolve uma função que para. @param {string} texto @param {() => void} aoTerminar */
 export function fala(texto, aoTerminar) {
@@ -41,7 +41,7 @@ export function fala(texto, aoTerminar) {
 
 /** Escuta uma frase em pt-BR. @param {(t: string) => void} aoOuvir @param {() => void} aoTerminar */
 export function dita(aoOuvir, aoTerminar) {
-  const R = window.SpeechRecognition || /** @type {any} */ (window).webkitSpeechRecognition;
+  const R = /** @type {any} */ (window).SpeechRecognition || /** @type {any} */ (window).webkitSpeechRecognition;
   if (!R) { aoTerminar(); return () => {}; }
   const r = new R();
   r.lang = "pt-BR";
