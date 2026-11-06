@@ -10,6 +10,21 @@ import { criaTela } from "../ui/pagina.js";
 import { desenhaPomodoro, montaPomodoro, pomodoroInicial } from "../ui/pomodoro.js";
 import { abreLeitor, ROTULO_TIPO } from "../ui/leitor.js";
 import { botaoDitar, temDitado, dita } from "../ui/fala.js";
+import { carregaIndice, carregaMateria } from "../banco.js";
+import { achaNoBanco } from "../conteudo.js";
+
+/** Material de leitura com os resumos de todos os tópicos de uma matéria do banco. */
+export function materialDoBanco(m) {
+  const content = m.topicos.map((t) => `## ${t.nome}\n\n${t.resumo}\n\n### Para revisar\n\n${t.revisao}`).join("\n\n");
+  return { id: `banco:${m.id}`, title: m.nome, subject: m.nome, kind: "resumo", content };
+}
+
+function secaoBanco(itens) {
+  if (!itens.length) return "";
+  return `<section><div class="mb-3 flex items-center justify-between"><h2 class="text-sm font-semibold">Material pronto do banco</h2><span class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">${itens.length} matérias</span></div><ul class="space-y-2">${itens
+    .map((b) => `<li><button type="button" data-acao="abrir-banco" data-valor="${esc(b.id)}" class="flex w-full items-center gap-3 rounded-xl border border-hair bg-card px-4 py-3 text-left transition hover:border-electric/40 hover:shadow-sm"><span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-electric/10">${icone("BookMarked", "h-4 w-4 text-electric")}</span><span class="min-w-0 flex-1"><span class="block truncate text-[13px] font-medium">${esc(b.nome)}</span><span class="mt-0.5 block truncate text-[11px] text-muted-foreground">${b.topicos.length} tópicos · resumos e pontos de revisão</span></span>${icone("ArrowRight", "h-4 w-4 shrink-0 text-muted-foreground/60")}</button></li>`)
+    .join("")}</ul></section>`;
+}
 
 const TIPOS = [
   { value: "resumo", label: "Resumo estruturado" },
@@ -109,7 +124,7 @@ export function desenha(f, materias, materiais, prova, pomodoro, agora = new Dat
       acoes: `<button type="button" data-acao="foco" class="${BOTAO_CONTORNO}">${icone("Sparkles")}Modo foco</button>`,
     })}
     <div class="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
-      <div class="min-w-0 space-y-5"><div data-form>${formulario(f, materias)}</div>${listaMateriais(materiais)}</div>
+      <div class="min-w-0 space-y-5"><div data-form>${formulario(f, materias)}</div>${listaMateriais(materiais)}<div data-banco></div></div>
       <div class="min-w-0 space-y-5">${cartaoProva(prova, agora)}<div data-pomodoro>${desenhaPomodoro(pomodoro, materias, "")}</div>${METODOS}</div>
     </div>
   </div>`;
@@ -163,7 +178,9 @@ export function montar(raiz, ctx) {
     const el = /** @type {HTMLElement|null} */ (/** @type {HTMLElement} */ (e.target).closest("[data-acao]"));
     if (!el) return;
     const acao = el.dataset.acao;
-    if (acao === "abrir") {
+    if (acao === "abrir-banco") {
+      carregaMateria(el.dataset.valor || "").then((m) => m && abreLeitor({ material: materialDoBanco(m), loja: ctx.loja, anuncia: ctx.anuncia, somenteLeitura: true }));
+    } else if (acao === "abrir") {
       const m = ctx.loja.pega("materiais", el.dataset.id);
       if (m) abreLeitor({ material: m, loja: ctx.loja, anuncia: ctx.anuncia, aoExcluir: redesenhaLista });
     } else if (acao === "usar-prova") {
@@ -177,5 +194,10 @@ export function montar(raiz, ctx) {
     e.preventDefault();
   };
   pagina.addEventListener("click", clique);
+  carregaIndice().then((indice) => {
+    const ids = new Set(materias.map((m) => m.banco || achaNoBanco(m.name, indice)).filter(Boolean));
+    const alvo = pagina.querySelector("[data-banco]");
+    if (alvo) alvo.innerHTML = secaoBanco(indice.materias.filter((b) => ids.has(b.id)));
+  });
   return () => { pagina.removeEventListener("click", clique); pararDitado(); pararPomodoro(); form.destroi(); };
 }

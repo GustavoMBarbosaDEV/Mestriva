@@ -6,6 +6,15 @@ import { cabecalho } from "../ui/cabecalho.js";
 import { vazio } from "../ui/vazio.js";
 import { campo, CLASSE_CAMPO, CLASSE_TEXTO } from "../ui/formulario.js";
 import { criaTela } from "../ui/pagina.js";
+import { abreLeitor } from "../ui/leitor.js";
+import { carregaIndice, carregaMateria } from "../banco.js";
+import { achaNoBanco, revisaoDosErros } from "../conteudo.js";
+
+/** Material de revisão a partir do que o estudante errou (banco da matéria, se houver). */
+export function revisaoDaNota(nota, materia) {
+  const texto = nota.wrong_topics || `Pontos fracos em ${nota.activity}`;
+  return { title: `Revisão: ${nota.activity}`, subject: nota.subject, topic: nota.activity, kind: "revisao", content: revisaoDosErros({ materia, erradas: [], texto }) };
+}
 
 export const formInicial = (agora = new Date()) => ({ subject: "", activity: "", value: "", max_value: "10", wrong_topics: "", date: hojeISO(agora), erro: "" });
 
@@ -120,8 +129,13 @@ export function montar(raiz, ctx) {
         t.pinta();
         ctx.anuncia("Nota excluída");
       },
-      revisao() {
-        ctx.toast("A revisão do que você errou chega na próxima etapa.");
+      async revisao(el) {
+        const nota = ctx.loja.pega("notas", el.dataset.id);
+        if (!nota) return;
+        const id = achaNoBanco(nota.subject, await carregaIndice());
+        const materia = id ? await carregaMateria(id) : null;
+        const salvo = ctx.loja.salva("materiais", revisaoDaNota(nota, materia));
+        abreLeitor({ material: salvo, loja: ctx.loja, anuncia: ctx.anuncia });
       },
     },
   });
