@@ -121,11 +121,11 @@ export function abreDialogoImportar({ loja, aoSalvar, anuncia, materiasDoTexto }
 export function corpoArquivo(e) {
   const zona = `<label class="flex cursor-pointer flex-col items-center justify-center rounded-2xl border border-dashed border-border bg-secondary/40 px-4 py-8 text-center transition hover:border-electric/50">
       <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-card">${icone("FileUp", "h-5 w-5 text-electric")}</span>
-      <span class="mt-3 text-sm font-medium">Escolher o PDF da grade</span>
-      <span class="mt-1 text-[11px] text-muted-foreground">PDF com texto · até 10 MB · lido no seu aparelho, nada é enviado</span>
-      <input type="file" accept="application/pdf,.pdf" data-arquivo-grade class="sr-only" />
+      <span class="mt-3 text-sm font-medium">Escolher o PDF ou a foto da grade</span>
+      <span class="mt-1 text-[11px] text-muted-foreground">PDF, JPG, PNG ou WEBP · até 10 MB · lido no seu aparelho, nada é enviado</span>
+      <input type="file" accept="application/pdf,.pdf,image/jpeg,image/png,image/webp" data-arquivo-grade class="sr-only" />
     </label>`;
-  const lendo = `<p role="status" class="flex items-center gap-2 text-xs text-muted-foreground">${icone("Loader2", "h-3.5 w-3.5 animate-spin")}Lendo o arquivo no seu aparelho…</p>`;
+  const lendo = `<p role="status" class="flex items-center gap-2 text-xs text-muted-foreground">${icone("Loader2", "h-3.5 w-3.5 animate-spin")}Lendo o arquivo no seu aparelho…<span data-progresso>${e.progresso ? ` ${Math.round(e.progresso * 100)}%` : ""}</span></p>${e.foto ? `<p class="text-[11px] text-muted-foreground">Na primeira foto o app baixa o leitor de texto (uns 10 MB); depois ele fica guardado no aparelho.</p>` : ""}`;
   const n = e.itens.length;
   const lista = `<div>
       <div class="mb-2 flex items-center justify-between"><p class="text-xs font-semibold">${n} matéria${n === 1 ? "" : "s"} encontrada${n === 1 ? "" : "s"}</p><span class="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">confira antes de salvar</span></div>
@@ -137,11 +137,11 @@ export function corpoArquivo(e) {
       <button type="button" data-acao="outro" class="rounded-xl border border-border px-4 py-2.5 text-sm font-medium text-foreground/70 transition hover:bg-secondary">Escolher outro</button>
       <button type="button" data-acao="salvar-arquivo"${n ? "" : " disabled"} class="${BOTAO}">${icone("Upload", "h-4 w-4 text-neon")}Salvar ${n} matéria${n === 1 ? "" : "s"}</button>
     </div>`;
-  return `<div class="space-y-4">${e.fase === "conferir" ? lista : e.fase === "lendo" ? lendo : zona}${ERRO(e.erro)}<p class="text-[11px] leading-relaxed text-muted-foreground">Grade em foto ou PDF escaneado (sem texto selecionável)? Por enquanto, use "Carregar grade" e cole a lista.</p></div>`;
+  return `<div class="space-y-4">${e.fase === "conferir" ? lista : e.fase === "lendo" ? lendo : zona}${ERRO(e.erro)}<p class="text-[11px] leading-relaxed text-muted-foreground">Foto com sombra, tremida ou torta pode sair com erros — confira a lista antes de salvar. Se não der certo, use "Carregar grade" e cole a lista.</p></div>`;
 }
 
-/** Importar a grade por PDF (texto lido no aparelho com pdf.js). @param {{loja:any, aoSalvar:()=>void, anuncia:(t:string)=>void, lePdf:(f: File) => Promise<string>, extrai:(t: string) => any[]}} p */
-export function abreDialogoArquivo({ loja, aoSalvar, anuncia, lePdf, extrai }) {
+/** Importar a grade por PDF (texto lido no aparelho com pdf.js). @param {{loja:any, aoSalvar:()=>void, anuncia:(t:string)=>void, lePdf:(f: File) => Promise<string>, leFoto:(f: File, p: (n: number) => void) => Promise<string>, extrai:(t: string) => any[]}} p */
+export function abreDialogoArquivo({ loja, aoSalvar, anuncia, lePdf, leFoto, extrai }) {
   const dlg = abreDialogo({
     titulo: "Importar grade por arquivo",
     descricao: "Envie o PDF da grade e o app separa as matérias para você conferir.",
@@ -171,15 +171,24 @@ export function abreDialogoArquivo({ loja, aoSalvar, anuncia, lePdf, extrai }) {
     const f = input.files[0];
     const e = tela.estado;
     if (f.size > 10 * 1024 * 1024) { e.erro = "O arquivo passa de 10 MB. Tente um PDF menor."; tela.pinta(); return; }
-    if (!/pdf$/i.test(f.type) && !/\.pdf$/i.test(f.name)) { e.erro = "Por enquanto só PDF. Para foto, use “Carregar grade” e cole a lista."; tela.pinta(); return; }
-    Object.assign(e, { fase: "lendo", erro: "" });
+    const pdf = /pdf$/i.test(f.type) || /\.pdf$/i.test(f.name);
+    const foto = /^image\/(jpeg|png|webp)$/i.test(f.type);
+    if (!pdf && !foto) { e.erro = "Envie um PDF ou uma foto (JPG, PNG ou WEBP)."; tela.pinta(); return; }
+    Object.assign(e, { fase: "lendo", erro: "", foto, progresso: 0 });
     tela.pinta();
     try {
-      const itens = extrai(await lePdf(f));
-      if (!itens.length) Object.assign(e, { fase: "escolher", erro: "Não encontrei matérias nesse arquivo. Se for um PDF escaneado (imagem), use “Carregar grade” e cole a lista." });
+      const texto = pdf
+        ? await lePdf(f)
+        : await leFoto(f, (p) => {
+            e.progresso = p;
+            const s = area.querySelector("[data-progresso]");
+            if (s) s.textContent = ` ${Math.round(p * 100)}%`;
+          });
+      const itens = extrai(texto);
+      if (!itens.length) Object.assign(e, { fase: "escolher", erro: "Não encontrei matérias nesse arquivo. Tente uma foto mais nítida, de frente e com boa luz, ou use “Carregar grade” e cole a lista." });
       else Object.assign(e, { fase: "conferir", itens });
     } catch {
-      Object.assign(e, { fase: "escolher", erro: "Não consegui ler esse PDF. Tente outro arquivo ou cole a lista em “Carregar grade”." });
+      Object.assign(e, { fase: "escolher", erro: "Não consegui ler esse arquivo. Tente outro ou cole a lista em “Carregar grade”." });
     }
     tela.pinta();
     anuncia(e.fase === "conferir" ? `${e.itens.length} matérias encontradas. Confira antes de salvar.` : e.erro);

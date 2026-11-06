@@ -80,3 +80,28 @@ export async function textoDoPdf(arquivo) {
   await tarefa.destroy();
   return linhas.join("\n");
 }
+
+const TESS = "/vendor/tesseract-7.0.0";
+
+/**
+ * Texto de uma foto da grade, reconhecido no aparelho (Tesseract). Na primeira vez baixa uns 10 MB
+ * (motor e português), que ficam guardados no aparelho. @param {File} arquivo @param {(p: number) => void} [progresso] 0–1
+ */
+export async function textoDaFoto(arquivo, progresso = () => {}) {
+  const mod = await import(`${TESS}/tesseract.esm.min.js`);
+  const createWorker = mod.createWorker || mod.default?.createWorker;
+  const worker = await createWorker("por", 1, {
+    workerPath: `${TESS}/worker.min.js`,
+    corePath: `${TESS}/core`,
+    langPath: `${TESS}/lang`,
+    workerBlobURL: false,
+    gzip: true,
+    logger: (m) => { if (m.status === "recognizing text") progresso(m.progress || 0); },
+  });
+  try {
+    const { data } = await worker.recognize(arquivo);
+    return data.text || "";
+  } finally {
+    await worker.terminate();
+  }
+}
