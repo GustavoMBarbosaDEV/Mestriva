@@ -7,14 +7,15 @@ import { cabecalho } from "../ui/cabecalho.js";
 import { criaTela } from "../ui/pagina.js";
 import { botaoOuvir, botaoDitar, temDitado, dita, fala } from "../ui/fala.js";
 import { carregaIndice, carregaMateria } from "../banco.js";
-import { responde, SUGESTOES } from "../tutor.js";
+import { responde, temConteudo, topicoPeloResumo, respostaDoTopico, SUGESTOES } from "../tutor.js";
+import { achaNoBanco } from "../conteudo.js";
 
 export const BOAS_VINDAS = {
   papel: "tutor",
   texto: "Oi! Sou seu tutor no Mestriva. Respondo aqui mesmo no seu aparelho: explico métodos como Pomodoro, recall ativo e repetição espaçada, monto um plano para a sua semana, calculo médias e abro o resumo dos conteúdos do banco. Por onde começamos?",
 };
 export const NAO_ENTENDI =
-  "Ainda não sei responder isso. Tente perguntar sobre um **método de estudo** (Pomodoro, recall ativo, Feynman), **o que você tem essa semana**, **sua média** ou **quanto precisa tirar**, ou peça para eu **explicar um conteúdo** (ex.: \"explique derivadas\").";
+  "Ainda não sei responder isso. Tente perguntar sobre um **método de estudo** (Pomodoro, recall ativo, Feynman), **o que você tem essa semana**, **sua média** ou **quanto precisa tirar**, ou peça para eu **explicar um conteúdo** (ex.: \"explique derivadas\"). Se for de uma matéria específica, escolha a matéria no seletor acima — eu procuro dentro dos resumos dela.";
 
 const BOTAO_CONTORNO = "inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 text-sm font-medium text-foreground/75 transition hover:border-electric/50 hover:text-foreground";
 
@@ -100,18 +101,29 @@ export function montar(raiz, ctx) {
     rola();
     const d = ctx.loja.dados();
     const indice = await carregaIndice();
-    const contexto = () => ({ perfil: d.perfil, materias: d.materias, eventos: d.eventos, notas: d.notas, indice, carregadas });
-    const comMateria = e.materia ? `${q} ${e.materia}` : q;
-    let r = responde(q, contexto());
-    if (r?.precisaCarregar) {
-      carregadas[r.precisaCarregar] = await carregaMateria(r.precisaCarregar);
-      r = responde(q, contexto());
+    const contexto = (ind = indice) => ({ perfil: d.perfil, materias: d.materias, eventos: d.eventos, notas: d.notas, indice: ind, carregadas });
+    const tenta = async (ind) => {
+      let r = responde(q, contexto(ind));
+      if (r?.precisaCarregar) {
+        carregadas[r.precisaCarregar] = await carregaMateria(r.precisaCarregar);
+        r = responde(q, contexto(ind));
+      }
+      return r;
+    };
+    // Com matéria de contexto, procura primeiro nela (tópicos e depois dentro dos resumos), sem colar o nome
+    // da matéria na pergunta; só então no banco inteiro. Agenda, médias e métodos respondem igual nos dois casos.
+    let r = null;
+    const id = e.materia ? (materias.find((m) => m.name === e.materia)?.banco) || achaNoBanco(e.materia, indice) : null;
+    if (id) {
+      // Num índice com uma matéria só, qualquer palavra de um tópico já é específica daquela matéria.
+      r = await tenta({ ...indice, materias: indice.materias.filter((m) => m.id === id) });
+      if (!r && temConteudo(q)) {
+        const m = carregadas[id] || (carregadas[id] = await carregaMateria(id));
+        const t = topicoPeloResumo(q, m);
+        if (m && t) r = respostaDoTopico(m, t);
+      }
     }
-    if (!r && e.materia) r = responde(comMateria, contexto());
-    if (r?.precisaCarregar) {
-      carregadas[r.precisaCarregar] = await carregaMateria(r.precisaCarregar);
-      r = responde(comMateria, contexto());
-    }
+    if (!r) r = await tenta(indice);
     let resposta = r && r.texto ? { papel: "tutor", texto: r.texto, acoes: r.acoes } : null;
     if (!resposta) resposta = { papel: "tutor", texto: NAO_ENTENDI, acoes: [] };
     e.mensagens.push(resposta);

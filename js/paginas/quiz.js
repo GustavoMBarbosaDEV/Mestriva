@@ -6,22 +6,29 @@ import { campo, CLASSE_CAMPO } from "../ui/formulario.js";
 import { criaTela } from "../ui/pagina.js";
 import { abreLeitor } from "../ui/leitor.js";
 import { carregaIndice, carregaMateria } from "../banco.js";
-import { achaNoBanco, montaQuiz, embaralhaAlternativas, registraResposta, revisaoDosErros, normalizaNome } from "../conteudo.js";
+import { achaNoBanco, montaQuiz, embaralhaAlternativas, registraResposta, revisaoDosErros, topicosCitados } from "../conteudo.js";
 import { questoesDoEstudante } from "../gerador.js";
 import { markdownParaHtml } from "../markdown.js";
 
 const CONTATO = "monetra.app26@gmail.com";
 const BOTAO_CONTORNO = "inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 text-sm font-medium text-foreground/75 transition hover:border-electric/50 hover:text-foreground";
 
-/** Se o texto citar um tópico da matéria, fica só com as questões dele. */
-export function filtraPorTopico(questoes, materia, texto) {
-  const t = ` ${normalizaNome(texto)} `;
-  const ids = new Set(
-    (materia?.topicos || [])
-      .filter((tp) => normalizaNome(tp.nome).split(" ").filter((p) => p.length >= 5).some((p) => t.includes(` ${p.slice(0, 6)}`)))
-      .map((tp) => tp.id)
-  );
+/**
+ * Se o texto citar um tópico da matéria, fica só com as questões dele. O nome da matéria (e apelidos, e o nome
+ * na grade) não conta: "P1 de Cálculo I" não pode virar "só Integrais e Teorema Fundamental do Cálculo".
+ */
+export function filtraPorTopico(questoes, materia, texto, outrosNomes = []) {
+  if (!materia) return questoes;
+  const ignorar = [materia.nome, ...(materia.apelidos || []), ...outrosNomes];
+  const ids = new Set(topicosCitados(texto, { materias: [materia] }, ignorar).map((t) => t.topico));
   return ids.size ? questoes.filter((q) => ids.has(q.topico)) : questoes;
+}
+
+/** "banco:<id>" vira a matéria da grade ligada a esse id, se houver (link do tutor). */
+export function resolveMateria(valor, opcoes) {
+  if (!String(valor).startsWith("banco:")) return valor;
+  const id = String(valor).slice(6);
+  return opcoes.find((o) => o.banco === id && !o.valor.startsWith("banco:"))?.valor || valor;
 }
 
 export function mensagemResultado(acertos, total) {
@@ -108,7 +115,7 @@ export function desenhaResultado(e) {
   const lista = e.questoes
     .map((q, i) => {
       const ok = e.respostas[i] === q.correta;
-      return `<div class="rounded-xl border border-hair bg-card p-4"><div class="flex items-start gap-2.5">${ok ? icone("CheckCircle2", "mt-0.5 h-4 w-4 shrink-0 text-[#12B76A]") : icone("XCircle", "mt-0.5 h-4 w-4 shrink-0 text-destructive")}<div class="min-w-0"><p class="text-[13px] font-medium leading-snug [overflow-wrap:anywhere]">${esc(q.pergunta)}</p><p class="mt-1 text-[11px] text-muted-foreground">Correta: ${esc(q.opcoes[q.correta])}</p><p class="mt-1.5 text-[11px] leading-relaxed text-foreground/70">${esc(q.explicacao)}</p></div></div></div>`;
+      return `<div class="rounded-xl border border-hair bg-card p-4"><div class="flex items-start gap-2.5">${ok ? icone("CheckCircle2", "mt-0.5 h-4 w-4 shrink-0 text-[#12B76A]") : icone("XCircle", "mt-0.5 h-4 w-4 shrink-0 text-destructive")}<div class="min-w-0"><div class="study-prose quiz-enunciado text-[13px] font-medium leading-snug [overflow-wrap:anywhere]">${markdownParaHtml(q.pergunta)}</div><p class="mt-1 text-[11px] text-muted-foreground">Correta: ${esc(q.opcoes[q.correta])}</p><div class="study-prose quiz-enunciado mt-1.5 text-[11px] leading-relaxed text-foreground/70">${markdownParaHtml(q.explicacao)}</div></div></div></div>`;
     })
     .join("");
   return `<section class="mx-auto max-w-2xl space-y-4">
@@ -155,18 +162,21 @@ export function render(ctx) {
 export function montar(raiz, ctx) {
   const area = /** @type {HTMLElement} */ (raiz.querySelector("[data-pagina]"));
   let opcoes = opcoesMateria(ctx.loja.lista("materias"), { materias: [] });
+  let indiceAtual = { materias: [] };
   const tela = criaTela(area, {
     estado: estadoInicial(),
     desenha: (e) => desenha(e, opcoes),
     acoes: {
       async montar(_el, e, t) {
+        e.materia = resolveMateria(e.materia, opcoes);
         const op = opcoes.find((o) => o.valor === e.materia);
         if (!e.materia || !op) { e.erro = "Escolha a matéria do quiz."; t.pinta(); return; }
         e.fase = "carregando";
         t.pinta();
         const materia = op.banco ? await carregaMateria(op.banco) : null;
         const nome = materia?.nome || op.rotulo;
-        const doBanco = filtraPorTopico((materia?.questoes || []).map((q) => ({ ...q, origem: "banco" })), materia, e.topico);
+        const nomeIndice = indiceAtual.materias.find((x) => x.id === op.banco);
+        const doBanco = filtraPorTopico((materia?.questoes || []).map((q) => ({ ...q, origem: "banco" })), materia && { ...materia, apelidos: nomeIndice?.apelidos || [] }, e.topico, [op.rotulo]);
         const cartoes = ctx.loja.lista("cartoes").filter((c) => c.subject === op.rotulo || c.subject === nome);
         const doEstudante = questoesDoEstudante(cartoes);
         const escolhidas = montaQuiz({ questoes: [...doBanco, ...doEstudante], qtd: Number(e.qtd) || 8, erros: ctx.loja.erros() });
@@ -216,9 +226,14 @@ export function montar(raiz, ctx) {
         ctx.anuncia(`Resultado: ${acertos} de ${e.questoes.length} corretas.`);
       },
       revisar(_el, e) {
-        const erradas = e.questoes.filter((q, i) => e.respostas[i] !== q.correta);
-        const conteudo = revisaoDosErros({ materia: e.materiaBanco, erradas, texto: "" });
-        const salvo = ctx.loja.salva("materiais", { title: `Revisão: ${e.titulo}`, subject: e.titulo, topic: e.topico, kind: "revisao", content: conteudo });
+        // Salva a revisão uma vez só por quiz; os cliques seguintes reabrem a mesma.
+        let salvo = e.revisaoId ? ctx.loja.pega("materiais", e.revisaoId) : null;
+        if (!salvo) {
+          const erradas = e.questoes.filter((q, i) => e.respostas[i] !== q.correta);
+          const conteudo = revisaoDosErros({ materia: e.materiaBanco, erradas, texto: "" });
+          salvo = ctx.loja.salva("materiais", { title: `Revisão: ${e.titulo}`, subject: e.titulo, topic: e.topico, kind: "revisao", content: conteudo });
+          e.revisaoId = salvo.id;
+        }
         abreLeitor({ material: salvo, loja: ctx.loja, anuncia: ctx.anuncia });
       },
       novo(_el, e, t) {
@@ -229,6 +244,8 @@ export function montar(raiz, ctx) {
   });
   carregaIndice().then((indice) => {
     opcoes = opcoesMateria(ctx.loja.lista("materias"), indice);
+    indiceAtual = indice;
+    tela.estado.materia = resolveMateria(tela.estado.materia, opcoes);
     if (tela.estado.fase === "config") tela.pinta();
   });
   return () => tela.destroi();

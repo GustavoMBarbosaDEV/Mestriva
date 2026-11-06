@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { responde, achaTopico, notaNecessaria } from "../js/tutor.js";
+import { responde, achaTopico, notaNecessaria, topicoPeloResumo } from "../js/tutor.js";
 
 const agora = new Date(2026, 10, 5, 10);
 const indice = {
@@ -78,4 +78,32 @@ test("conteúdo do banco", () => {
 test("não entendeu devolve null", () => {
   assert.equal(responde("qual a capital da mongólia no século XII", ctx), null);
   assert.equal(responde("", ctx), null);
+});
+
+test("revisão: perguntas de conteúdo não caem em ajuda, média, agenda ou plano", () => {
+  const c2 = { ...ctx, indice: { materias: [...indice.materias, { id: "estatistica", nome: "Estatística", apelidos: [], topicos: [{ id: "descritiva", nome: "Estatística descritiva" }] }, { id: "algebra", nome: "Álgebra Linear", apelidos: [], topicos: [{ id: "sistemas", nome: "Sistemas lineares" }] }, { id: "dir", nome: "Direito", apelidos: [], topicos: [{ id: "rel", nome: "Relação jurídica e sujeitos de direito" }] }] } };
+  assert.equal(responde("me ajuda a entender derivadas", c2).texto.includes("Derivadas e regras"), true);
+  assert.ok(!/Sua média/.test(responde("o que é média aritmética", c2)?.texto || ""));
+  assert.ok(!/Sua média/.test(responde("como calcular a média e a mediana", c2)?.texto || ""));
+  assert.ok(!/próximos 7 dias/.test(responde("o que tenho que saber sobre derivadas", c2)?.texto || ""));
+  assert.ok(!/plano para os próximos/.test(responde("o que é planejar na administração", c2)?.texto || ""));
+  assert.equal(achaTopico("como funciona o sistema de notas", c2.indice), null);
+  assert.equal(achaTopico("qual a relação entre ansiedade e prova", c2.indice), null);
+  assert.match(responde("qual minha média em cálculo?", c2).texto, /6,5/);
+  assert.match(responde("ajuda", c2).texto, /Pomodoro/);
+});
+
+test("revisão: nota-alvo lida do texto original", () => {
+  const c2 = { ...ctx, materias: [{ name: "Cálculo II", status: "cursando" }], notas: [{ subject: "Cálculo II", value: 5, max_value: 10 }, { subject: "Cálculo II", value: 8, max_value: 10 }] };
+  assert.match(responde("quanto preciso tirar em Cálculo II?", c2).texto, /média \*\*6,0\*\*.*\*\*5,0\*\*/s);
+  assert.match(responde("quanto preciso tirar em Cálculo II para média 6,5?", c2).texto, /\*\*6,5\*\*.*\*\*6,5\*\*/s);
+});
+
+test("com matéria de contexto, procura também dentro dos resumos", () => {
+  const est = { id: "estatistica", nome: "Estatística", topicos: [
+    { id: "descritiva", nome: "Estatística descritiva", resumo: "A **mediana** é o valor central dos dados ordenados; a moda é o mais frequente.", revisao: "r" },
+    { id: "prob", nome: "Probabilidade", resumo: "Eventos independentes multiplicam probabilidades.", revisao: "r" },
+  ], questoes: [] };
+  assert.equal(topicoPeloResumo("o que é a mediana", est).id, "descritiva");
+  assert.equal(topicoPeloResumo("qual a melhor forma de estudar", est), null);
 });

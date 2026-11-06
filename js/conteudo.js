@@ -108,13 +108,10 @@ export function embaralhaAlternativas(q, sorteio = Math.random) {
 
 /** Tópicos da matéria citados no texto do estudante. */
 function topicosDoTexto(materia, texto) {
-  const t = ` ${normalizaNome(texto)} `;
-  return (materia?.topicos || []).filter((tp) =>
-    normalizaNome(tp.nome)
-      .split(" ")
-      .filter((p) => p.length >= 5)
-      .some((p) => t.includes(` ${p.slice(0, 6)}`))
-  );
+  if (!materia) return [];
+  // Mesma busca do tutor e do quiz, só nesta matéria e sem contar o nome dela.
+  const ids = new Set(topicosCitados(texto, { materias: [materia] }, [materia.nome]).map((t) => t.topico));
+  return materia.topicos.filter((t) => ids.has(t.id));
 }
 
 /**
@@ -161,4 +158,38 @@ export function revisaoDosErros({ materia, erradas = [], texto = "" }) {
     "- **Dia 3:** um quiz desta matéria no Mestriva; o que errar volta para a revisão."
   );
   return partes.join("\n\n");
+}
+
+// Palavras genéricas que aparecem em nomes de tópico de várias áreas e não identificam conteúdo sozinhas.
+const GENERICAS = new Set(["sistem", "teoria", "relaca", "princi", "estrut", "organi", "aplica", "geral", "concei", "introd", "basica", "fundam", "metodo", "tipos", "regras", "abordag", "aborda", "explic", "entend", "quero", "sobre", "saber", "estuda", "precis", "melhor", "funcio", "pergun", "materi", "conteu", "quanto", "porque", "quais", "forma", "exemp", "exempl", "pratic", "coisas", "calcul", "resolv", "difere", "import"]);
+
+/** Raízes (6 letras) das palavras com 5+ letras, sem as genéricas. */
+export function raizesSignificativas(t) {
+  return [...new Set(normalizaNome(t).split(" ").filter((p) => p.length >= 5).map((p) => p.slice(0, 6)).filter((r) => !GENERICAS.has(r)))];
+}
+
+/**
+ * Tópicos citados no texto. Uma raiz em comum basta só se ela for de uma única matéria do índice
+ * (palavra específica, como "mitose"); senão precisa de duas. Nomes em `ignorar` (ex.: o nome da matéria) não contam.
+ * @param {string} texto @param {{materias:any[]}} indice @param {string[]} [ignorar]
+ * @returns {{materia:string, topico:string, pontos:number}[]} do mais citado para o menos
+ */
+export function topicosCitados(texto, indice, ignorar = []) {
+  const fora = new Set(ignorar.flatMap((n) => raizesSignificativas(n)));
+  const q = new Set(raizesSignificativas(texto).filter((r) => !fora.has(r)));
+  if (!q.size) return [];
+  const materiasPorRaiz = new Map();
+  for (const m of indice?.materias || []) for (const t of m.topicos || []) for (const r of raizesSignificativas(t.nome)) {
+    if (!materiasPorRaiz.has(r)) materiasPorRaiz.set(r, new Set());
+    materiasPorRaiz.get(r).add(m.id);
+  }
+  const achados = [];
+  for (const m of indice?.materias || []) {
+    for (const t of m.topicos || []) {
+      const comuns = raizesSignificativas(t.nome).filter((r) => q.has(r));
+      const especifica = comuns.some((r) => materiasPorRaiz.get(r)?.size === 1);
+      if (comuns.length >= 2 || (comuns.length === 1 && especifica)) achados.push({ materia: m.id, topico: t.id, pontos: comuns.length });
+    }
+  }
+  return achados.sort((a, b) => b.pontos - a.pontos);
 }

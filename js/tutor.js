@@ -1,6 +1,6 @@
 // Tutor por regras (estilo MoneBot): responde no próprio aparelho sobre métodos de estudo, a agenda,
 // as notas e o conteúdo do banco. Sem IA e sem enviar nada para fora. Devolve markdown (o chat escapa tudo).
-import { normalizaNome } from "./conteudo.js";
+import { normalizaNome, topicosCitados, raizesSignificativas } from "./conteudo.js";
 import { mediaNotas } from "./curriculo.js";
 import { parseData, formataData, contagem, diasAte } from "./datas.js";
 import { metaTipo } from "./eventos.js";
@@ -12,17 +12,26 @@ const raizes = (t) => normalizaNome(t).split(" ").filter((p) => p.length >= 5).m
 
 /** Tópico do banco citado na pergunta (o que tiver mais palavras em comum). */
 export function achaTopico(pergunta, indice) {
-  const q = new Set(raizes(pergunta));
+  const [melhor] = topicosCitados(pergunta, indice);
+  return melhor ? { materia: melhor.materia, topico: melhor.topico } : null;
+}
+
+/** Tópico da matéria cujo resumo mais cita as palavras de conteúdo da pergunta (usado com a matéria de contexto). */
+export function topicoPeloResumo(pergunta, materia) {
+  const rq = raizesSignificativas(pergunta);
+  if (!rq.length || !materia) return null;
   let melhor = null;
   let pontos = 0;
-  for (const m of indice?.materias || []) {
-    for (const t of m.topicos || []) {
-      const n = raizes(t.nome).filter((r) => q.has(r)).length;
-      if (n > pontos) { pontos = n; melhor = { materia: m.id, topico: t.id }; }
-    }
+  for (const t of materia.topicos || []) {
+    const doResumo = new Set(raizesSignificativas(`${t.nome} ${t.resumo} ${t.revisao}`));
+    const n = rq.filter((r) => doResumo.has(r)).length;
+    if (n > pontos) { pontos = n; melhor = t; }
   }
   return melhor;
 }
+
+/** A pergunta tem alguma palavra de conteúdo (não só "explique", "quero saber"...)? */
+export const temConteudo = (pergunta) => raizesSignificativas(pergunta).length > 0;
 
 /** Nota que falta na próxima avaliação (pesos iguais, escala 0–10) para chegar ao alvo; null se passar de 10. */
 export function notaNecessaria(notas, alvo) {
@@ -105,14 +114,15 @@ export function responde(pergunta, ctx) {
   const c = { ...ctx, agora: ctx.agora || new Date() };
   const tem = (re) => re.test(q);
 
-  if (tem(/\b(o que (voce|vc) (sabe|faz|pode)|ajuda|como (te|voce) (uso|usar|funciona))\b/)) return { texto: AJUDA };
+  if (tem(/^(ajuda|me ajuda|socorro)$|\bo que (voce|vc) (sabe|faz|pode)\b|\bcomo (te|voce) (uso|usar|funciona)\b/)) return { texto: AJUDA };
   if (q.length <= 20 && tem(/^(oi|ola|bom dia|boa tarde|boa noite|e ai|opa)\b/)) {
     const nome = c.perfil?.display_name;
     return { texto: `Oi${nome ? `, ${nome}` : ""}! Quer montar um plano para a semana, entender um método de estudo ou revisar um conteúdo?` };
   }
   if (tem(/\b(quanto preciso|preciso tirar|quanto (eu )?tenho que tirar)\b/)) {
     const m = materiaCitada(bruto, c.materias);
-    const alvo = Number((/media\s*(?:de\s*)?(\d+(?:[.,]\d+)?)/.exec(q) || /\b(\d+(?:[.,]\d+)?)\s*$/.exec(q) || [])[1]?.replace(",", ".")) || 6;
+    // Lê o alvo do texto original: depois de normalizar, "Cálculo II" viraria "calculo 2" e "6,5" viraria "6 5".
+    const alvo = Number((/m[eé]dia\s*(?:de\s*|final\s*)?(\d+(?:[.,]\d+)?)/i.exec(bruto) || [])[1]?.replace(",", ".")) || 6;
     const notas = notasDa(c, m).filter((n) => typeof n.value === "number" && Number(n.max_value) > 0).map((n) => (n.value / n.max_value) * 10);
     if (!notas.length) return { texto: `Ainda não há notas${m ? ` de ${m.name}` : ""} lançadas. Lance em **Notas** e eu calculo.` };
     const x = notaNecessaria(notas, alvo);
@@ -123,14 +133,16 @@ export function responde(pergunta, ctx) {
           : `Para ficar com média **${br(alvo)}**${m ? ` em ${m.name}` : ""}, você precisa tirar **${br(x)}** na próxima avaliação (considerando pesos iguais e escala de 0 a 10).${x === 0 ? " Você já está acima do alvo." : ""}\n\nSe a sua faculdade usa pesos diferentes, a conta muda — confira o plano de ensino.`,
     };
   }
-  if (tem(/\bmedia\b/)) {
-    const m = materiaCitada(bruto, c.materias);
+  // Só é a média do estudante com "minha média", "média geral" ou "média em <matéria da grade>"; "o que é média" é conteúdo.
+  const mCitada = materiaCitada(bruto, c.materias);
+  if (tem(/\b(minha|meu|minhas) medias?\b|\bmedia geral\b/) || (tem(/\bmedia (em|de|no|na)\b/) && mCitada)) {
+    const m = mCitada;
     const { media, n } = mediaNotas(notasDa(c, m));
     if (media === null) return { texto: `Ainda não há notas${m ? ` de ${m.name}` : ""} lançadas. Lance em **Notas** e eu calculo.` };
     return { texto: `Sua média${m ? ` em **${m.name}**` : " geral"} é **${br(media)}** (de ${n} ${n === 1 ? "nota" : "notas"}, em escala de 0 a 10).` };
   }
-  if (tem(/\b(cronograma|plano de estudo|planejar|organizar (os |meus )?estudos|semana de provas|rotina de estudo)\b/)) return { texto: plano(c) };
-  if (tem(/\b(agenda|essa semana|esta semana|proximos dias|proximas provas|(o que|quais) .*(tenho|provas|entregas))\b/)) return { texto: agenda(c) };
+  if (tem(/\b(cronograma|plano de estudos?|organizar (os |meus )?estudos|semana de provas|rotina de estudos?)\b/)) return { texto: plano(c) };
+  if (tem(/\b(agenda|essa semana|esta semana|proximos dias|proximas provas|quais (provas|entregas|compromissos)|o que (eu )?tenho (para|pra|nessa|nesta|essa|esta|hoje|amanha))\b/)) return { texto: agenda(c) };
 
   const tdah = /tdah|deficit de atencao/.test(q) || /tdah|deficit de atencao/.test(normalizaNome(c.perfil?.accessibility_notes || ""));
   if (tem(/\bpomodoro\b/)) return { texto: METODOS.pomodoro(tdah), acoes: [{ rotulo: "Abrir o Pomodoro", href: "/estudar" }] };
@@ -148,17 +160,20 @@ export function responde(pergunta, ctx) {
     const materia = c.carregadas?.[achado.materia];
     if (!materia) return { texto: "", precisaCarregar: achado.materia };
     const t = materia.topicos.find((x) => x.id === achado.topico);
-    if (t) {
-      return {
-        texto: `### ${t.nome} · ${materia.nome}\n\n${t.resumo}\n\n**Para revisar:** ${t.revisao}`,
-        acoes: [
-          { rotulo: "Fazer quiz deste conteúdo", href: `/quiz?subject=${encodeURIComponent(`banco:${materia.id}`)}&topic=${encodeURIComponent(t.nome)}` },
-          { rotulo: "Ver o material da matéria", href: "/estudar" },
-        ],
-      };
-    }
+    if (t) return respostaDoTopico(materia, t);
   }
   return null;
+}
+
+/** Resposta com o resumo de um tópico do banco e os atalhos para o quiz e o material. */
+export function respostaDoTopico(materia, t) {
+  return {
+    texto: `### ${t.nome} · ${materia.nome}\n\n${t.resumo}\n\n**Para revisar:** ${t.revisao}`,
+    acoes: [
+      { rotulo: "Fazer quiz deste conteúdo", href: `/quiz?subject=${encodeURIComponent(`banco:${materia.id}`)}&topic=${encodeURIComponent(t.nome)}` },
+      { rotulo: "Ver o material da matéria", href: "/estudar" },
+    ],
+  };
 }
 
 export const SUGESTOES = [

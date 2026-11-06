@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { filtraPorTopico, mensagemResultado, linkReportar, desenhaConfig, desenhaQuestao, desenhaResultado, opcoesMateria } from "../js/paginas/quiz.js";
+import { filtraPorTopico, mensagemResultado, linkReportar, desenhaConfig, desenhaQuestao, desenhaResultado, opcoesMateria, resolveMateria } from "../js/paginas/quiz.js";
 
 const materia = {
   id: "calculo-1", nome: "Cálculo I",
@@ -47,4 +47,17 @@ test("telas escapam e não falam de IA", () => {
   assert.ok(h.includes("&lt;P&gt;") && h.includes("&lt;a&gt;") && h.includes("&lt;e&gt;") && h.includes("Reportar erro nesta questão") && h.includes("Ver resultado"));
   const r = desenhaResultado({ questoes: [q, { ...q, id: "x", correta: 1 }], respostas: [0, 0], titulo: "Q" });
   assert.ok(r.includes("50%") && r.includes("1 de 2 corretas") && r.includes("Revisar meus erros"));
+});
+
+test("revisão: nome da matéria no título da prova não vira filtro de tópico", () => {
+  const m = { ...materia, nome: "Cálculo I", apelidos: ["Cálculo 1"], topicos: [{ id: "limites", nome: "Limites" }, { id: "integrais", nome: "Integrais e Teorema Fundamental do Cálculo" }], questoes: [{ id: "a", topico: "limites" }, { id: "b", topico: "integrais" }] };
+  assert.equal(filtraPorTopico(m.questoes, m, "P1 de Cálculo I", ["Cálculo 1"]).length, 2);
+  assert.equal(filtraPorTopico(m.questoes, m, "integrais", []).length, 1);
+});
+
+test("revisão: banco:<id> vira a matéria da grade ligada a ele", () => {
+  const o = opcoesMateria([{ name: "Cálculo 1" }], { materias: [{ id: "calculo-1", nome: "Cálculo I", apelidos: ["Cálculo 1"] }] });
+  assert.equal(resolveMateria("banco:calculo-1", o), "Cálculo 1");
+  assert.equal(resolveMateria("Cálculo 1", o), "Cálculo 1");
+  assert.equal(resolveMateria("banco:fisica-1", o), "banco:fisica-1");
 });
