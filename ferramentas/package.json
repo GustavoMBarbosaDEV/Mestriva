@@ -1,0 +1,26 @@
+{
+  "name": "mestriva-ferramentas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "css": "tailwindcss -c tailwind.config.cjs -i ../css/entrada.css -o ../style.css",
+    "fontes": "node fontes.mjs",
+    "icones": "node icones.mjs",
+    "icones-png": "node icones-png.mjs",
+    "bump": "node bump.mjs",
+    "build": "node build.mjs",
+    "serve": "node servidor.mjs",
+    "testes": "node --test ../testes/"
+  },
+  "devDependencies": {
+    "@fontsource/atkinson-hyperlegible": "5.1.1",
+    "@fontsource/inter": "5.1.1",
+    "@fontsource/jetbrains-mono": "5.1.1",
+    "@fontsource/space-grotesk": "5.1.1",
+    "esbuild": "0.24.2",
+    "lucide-static": "0.477.0",
+    "sharp": "0.33.5",
+    "tailwindcss": "3.4.17",
+    "tailwindcss-animate": "1.0.7"
+  }
+}
