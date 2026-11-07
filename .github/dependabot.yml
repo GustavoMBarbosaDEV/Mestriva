@@ -6,9 +6,15 @@ updates:
       interval: weekly
     commit-message:
       prefix: "Dependências"
+    groups:
+      actions:
+        patterns: ["*"]
   - package-ecosystem: npm
     directory: "/ferramentas"
     schedule:
       interval: weekly
     commit-message:
       prefix: "Dependências"
+    groups:
+      fontes:
+        patterns: ["@fontsource/*"]
