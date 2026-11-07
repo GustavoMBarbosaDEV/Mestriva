@@ -15,7 +15,10 @@
       "**/*.key",
       "**/signing*",
       "**/serviceAccount*.json",
-      "**/*-firebase-adminsdk-*.json"
+      "**/*-firebase-adminsdk-*.json",
+      "**/*-key-info*",
+      "**/google-services.json",
+      "**/*.log"
     ],
     "rewrites": [
       {
