@@ -78,7 +78,7 @@ export function materiasDoTextoExtraido(texto) {
       resto = resto
         .replace(/[\s\-–—:;,.]+$/, "")
         .replace(CODIGOS_NO_FIM, "")
-        .replace(/(?:\s+\d+(?:[.,]\d+)?\s*(?:h|horas?|cr|creditos?|créditos?)?)+\s*$/i, "")
+        .replace(/\s+\d+(?:[.,]\d+)?(?:\s*(?:h|horas?|cr|creditos?|créditos?))?$/i, "") // um número por volta; o laço tira os outros
         .trim();
     }
     const letras = (resto.match(/[A-Za-zÀ-ÿ]/g) || []).length;
