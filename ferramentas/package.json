@@ -22,7 +22,7 @@
     "esbuild": "0.24.2",
     "lucide-static": "0.477.0",
     "pdfjs-dist": "^6.4.299",
-    "sharp": "0.33.5",
+    "sharp": "0.35.5",
     "tailwindcss": "3.4.17",
     "tailwindcss-animate": "1.0.7",
     "tesseract.js": "^7.0.0"
