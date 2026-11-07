@@ -7,7 +7,7 @@
 - Versões exatas das bibliotecas, para o `vendor/` não mudar sem querer.
 - O git e o deploy bloqueiam arquivos de segredo (conta de serviço, chaves, keystore, google-services.json) e pacotes Android.
 - `SECURITY.md` com o contato para relatar falhas e o plano de incidente.
-- Fontes atualizadas para a 5.3.0 e CodeQL para a 4.39.3. O Dependabot agora junta num pedido só as atualizações que precisam andar juntas.
+- Fontes atualizadas para a 5.3.0, ícones para a lucide 1.68 (mesmos desenhos, com retoques) e CodeQL para a 4.39.3. O Dependabot agora junta num pedido só as atualizações que precisam andar juntas.
 
 **O que foi testado**
 - Testes automáticos e build de publicação.
