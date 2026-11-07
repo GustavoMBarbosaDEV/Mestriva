@@ -36,13 +36,10 @@ jobs:
               - vendor
               - dist
               - ferramentas/node_modules
-      # Repositório privado sem plano pago não pode enviar o resultado ao GitHub (code scanning).
-      # Então o relatório fica aqui e o passo seguinte falha se houver qualquer alerta.
+      # Envia o resultado para a aba Security e guarda uma cópia aqui: o passo seguinte falha se houver qualquer alerta.
       - uses: github/codeql-action/analyze@33d7b85da1a04171e211befe2c739303b9a4c066 # v4.39.3
         with:
           category: "/language:${{ matrix.language }}"
-          upload: never
-          upload-database: false
           output: resultados
       - name: Falhar se o CodeQL achou algum problema
         run: |
