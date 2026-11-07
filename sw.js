@@ -11,12 +11,12 @@ const SHELL = [
   "js/datas.js", "js/eventos.js", "js/curriculo.js", "js/markdown.js", "js/ui/formulario.js", "js/ui/pagina.js", "js/ui/cabecalho.js", "js/ui/dialogo-evento.js", "js/ui/vazio.js", "js/ui/dialogo-materia.js", "js/ui/pomodoro.js", "js/ui/fala.js", "js/ui/leitor.js", "js/ui/foco.js", "js/ui/sino.js", "js/ui/novidades.js", "js/ui/marca.js", "js/ui/abertura.js", "js/conteudo.js", "js/gerador.js", "js/banco.js", "js/tutor.js", "js/importar.js", "js/backup.js",
   "js/paginas/provisoria.js", "js/paginas/nao-encontrada.js", "js/paginas/onboarding.js", "js/paginas/calendario.js", "js/paginas/grade.js", "js/paginas/notas.js", "js/paginas/estudar.js", "js/paginas/hoje.js", "js/paginas/ajustes.js", "js/paginas/quiz.js", "js/paginas/tutor.js", "js/paginas/landing.js",
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png", "icons/favicon.svg",
-  "fonts/space-grotesk-5.1.1/space-grotesk-latin-400-normal.woff2", "fonts/space-grotesk-5.1.1/space-grotesk-latin-500-normal.woff2",
-  "fonts/space-grotesk-5.1.1/space-grotesk-latin-600-normal.woff2", "fonts/space-grotesk-5.1.1/space-grotesk-latin-700-normal.woff2",
-  "fonts/inter-5.1.1/inter-latin-300-normal.woff2", "fonts/inter-5.1.1/inter-latin-400-normal.woff2",
-  "fonts/inter-5.1.1/inter-latin-500-normal.woff2", "fonts/inter-5.1.1/inter-latin-600-normal.woff2",
-  "fonts/jetbrains-mono-5.1.1/jetbrains-mono-latin-400-normal.woff2", "fonts/jetbrains-mono-5.1.1/jetbrains-mono-latin-500-normal.woff2",
-  "fonts/atkinson-hyperlegible-5.1.1/atkinson-hyperlegible-latin-400-normal.woff2", "fonts/atkinson-hyperlegible-5.1.1/atkinson-hyperlegible-latin-700-normal.woff2",
+  "fonts/space-grotesk-5.3.0/space-grotesk-latin-400-normal.woff2", "fonts/space-grotesk-5.3.0/space-grotesk-latin-500-normal.woff2",
+  "fonts/space-grotesk-5.3.0/space-grotesk-latin-600-normal.woff2", "fonts/space-grotesk-5.3.0/space-grotesk-latin-700-normal.woff2",
+  "fonts/inter-5.3.0/inter-latin-300-normal.woff2", "fonts/inter-5.3.0/inter-latin-400-normal.woff2",
+  "fonts/inter-5.3.0/inter-latin-500-normal.woff2", "fonts/inter-5.3.0/inter-latin-600-normal.woff2",
+  "fonts/jetbrains-mono-5.3.0/jetbrains-mono-latin-400-normal.woff2", "fonts/jetbrains-mono-5.3.0/jetbrains-mono-latin-500-normal.woff2",
+  "fonts/atkinson-hyperlegible-5.3.0/atkinson-hyperlegible-latin-400-normal.woff2", "fonts/atkinson-hyperlegible-5.3.0/atkinson-hyperlegible-latin-700-normal.woff2",
 ];
 // Estes vão com ?v= no index.html, então são guardados com o mesmo endereço.
 const COM_VERSAO = ["style.css", "boot.css", "pre.js", "js/app.js"];
