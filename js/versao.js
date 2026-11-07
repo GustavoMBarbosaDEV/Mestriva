@@ -1,9 +1,10 @@
 // Versão do app (troque com: cd ferramentas && npm run bump -- X.Y.Z).
-export const VERSAO = "0.5.0";
+export const VERSAO = "0.5.1";
 
 /** Novidades mostradas uma vez por versão (2 a 4 itens, no plano 2 em diante). @type {string[]} */
 export const NOVIDADES = [
   "Logo novo do Mestriva e uma animação de abertura.",
   "Tela inicial nova, com perguntas frequentes e contato.",
   "Segure o ícone do app no celular para ir direto ao Calendário, Quiz, Estudar ou Tutor.",
+  "Leitor de PDF da grade atualizado, com as correções de segurança mais recentes.",
 ];

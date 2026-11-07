@@ -1,5 +1,20 @@
 # Mudanças
 
+## 0.5.1 — segurança (ainda não publicada)
+
+**O que mudou**
+- **Leitor de PDF** (importar grade) atualizado para o pdf.js 6.5.438. As ferramentas de montagem (esbuild 0.28.2, sharp 0.35.5) também foram atualizadas, e o `npm audit` agora não acusa nada.
+- Versões exatas das bibliotecas, para o `vendor/` não mudar sem querer.
+- O git e o deploy bloqueiam arquivos de segredo (conta de serviço, chaves, keystore, google-services.json) e pacotes Android.
+- `SECURITY.md` com o contato para relatar falhas e o plano de incidente.
+
+**O que foi testado**
+- Testes automáticos e build de publicação.
+- O pdf.js novo lendo um PDF de grade de exemplo: as matérias e o período foram reconhecidos.
+
+**O que não foi testado**
+- A importação por PDF no navegador e no celular com o pdf.js novo.
+
 ## 0.5.0 — identidade visual, abertura e tela inicial (ainda não publicada)
 
 **O que mudou**
