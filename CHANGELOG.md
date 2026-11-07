@@ -10,10 +10,10 @@
 
 **O que foi testado**
 - Testes automáticos e build de publicação.
-- O pdf.js novo lendo um PDF de grade de exemplo: as matérias e o período foram reconhecidos.
+- O pdf.js novo lendo um PDF de grade de exemplo, no Node e no navegador do computador (Grade → Enviar PDF ou foto): as matérias e o período foram reconhecidos, sem erros no console.
 
 **O que não foi testado**
-- A importação por PDF no navegador e no celular com o pdf.js novo.
+- A importação por PDF no celular com o pdf.js novo.
 
 ## 0.5.0 — identidade visual, abertura e tela inicial (ainda não publicada)
 
