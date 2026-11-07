@@ -2,7 +2,7 @@
 // PDF: pdf.js (vendor/pdfjs-*). Foto: reconhecimento de texto no aparelho (vendor/tesseract-*), carregado só quando usado.
 import { normalizaNome } from "./conteudo.js";
 
-const PDFJS = "/vendor/pdfjs-6.4.299";
+const PDFJS = "/vendor/pdfjs-6.5.438";
 
 /** Junta os pedaços de texto de uma página do PDF em linhas, pela posição vertical. */
 export function linhasDosItens(itens) {

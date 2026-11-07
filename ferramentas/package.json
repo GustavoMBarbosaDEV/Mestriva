@@ -18,13 +18,13 @@
     "@fontsource/inter": "5.1.1",
     "@fontsource/jetbrains-mono": "5.1.1",
     "@fontsource/space-grotesk": "5.1.1",
-    "@tesseract.js-data/por": "^1.0.0",
-    "esbuild": "0.24.2",
+    "@tesseract.js-data/por": "1.0.0",
+    "esbuild": "0.28.2",
     "lucide-static": "0.477.0",
-    "pdfjs-dist": "^6.4.299",
-    "sharp": "0.33.5",
+    "pdfjs-dist": "6.5.438",
+    "sharp": "0.35.5",
     "tailwindcss": "3.4.17",
     "tailwindcss-animate": "1.0.7",
-    "tesseract.js": "^7.0.0"
+    "tesseract.js": "7.0.0"
   }
 }
