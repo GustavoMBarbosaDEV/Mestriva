@@ -264,6 +264,50 @@ export const EXTRA = {
       "Instituições de Direito Civil",
       "Noções de Direito Civil"
     ]
+  },
+  "bioquimica": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Bioquímica I",
+      "Bioquímica Geral",
+      "Bioquímica Básica",
+      "Bioquímica Humana",
+      "Bioquímica Metabólica",
+      "Bioquímica Aplicada à Nutrição",
+      "Bioquímica Estrutural",
+      "Bioquímica e Biofísica",
+      "Bioquímica Celular",
+      "Metabolismo"
+    ]
+  },
+  "psicologia-desenvolvimento": {
+    "area": "Psicologia",
+    "apelidos": [
+      "Psicologia do Desenvolvimento I",
+      "Psicologia do Desenvolvimento Humano",
+      "Desenvolvimento Humano",
+      "Psicologia do Desenvolvimento e da Aprendizagem",
+      "Psicologia do Desenvolvimento e Aprendizagem",
+      "Psicologia do Ciclo Vital",
+      "Desenvolvimento Humano e Aprendizagem",
+      "Psicologia do Desenvolvimento Infantil",
+      "Psicologia da Infância e Adolescência"
+    ]
+  },
+  "banco-de-dados": {
+    "area": "Exatas",
+    "apelidos": [
+      "Banco de Dados I",
+      "Bancos de Dados",
+      "Sistemas de Banco de Dados",
+      "Modelagem de Dados",
+      "Modelagem de Banco de Dados",
+      "Fundamentos de Banco de Dados",
+      "Introdução a Banco de Dados",
+      "Projeto de Banco de Dados",
+      "Linguagem SQL",
+      "SQL"
+    ]
   }
 };
 

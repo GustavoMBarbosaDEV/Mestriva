@@ -127,6 +127,49 @@
       ]
     },
     {
+      "id": "banco-de-dados",
+      "nome": "Banco de Dados",
+      "apelidos": [
+        "Banco de Dados I",
+        "Bancos de Dados",
+        "Sistemas de Banco de Dados",
+        "Modelagem de Dados",
+        "Modelagem de Banco de Dados",
+        "Fundamentos de Banco de Dados",
+        "Introdução a Banco de Dados",
+        "Projeto de Banco de Dados",
+        "Linguagem SQL",
+        "SQL"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "conceitos-sgbd",
+          "nome": "Conceitos e SGBD"
+        },
+        {
+          "id": "modelo-er",
+          "nome": "Modelo entidade-relacionamento"
+        },
+        {
+          "id": "modelo-relacional",
+          "nome": "Modelo relacional e chaves"
+        },
+        {
+          "id": "sql",
+          "nome": "SQL: consultas"
+        },
+        {
+          "id": "normalizacao",
+          "nome": "Normalização"
+        },
+        {
+          "id": "transacoes-indices",
+          "nome": "Transações, índices e concorrência"
+        }
+      ]
+    },
+    {
       "id": "biologia-celular",
       "nome": "Biologia Celular",
       "apelidos": [
@@ -164,6 +207,49 @@
         {
           "id": "divisao-celular",
           "nome": "Divisão celular: mitose e meiose"
+        }
+      ]
+    },
+    {
+      "id": "bioquimica",
+      "nome": "Bioquímica",
+      "apelidos": [
+        "Bioquímica I",
+        "Bioquímica Geral",
+        "Bioquímica Básica",
+        "Bioquímica Humana",
+        "Bioquímica Metabólica",
+        "Bioquímica Aplicada à Nutrição",
+        "Bioquímica Estrutural",
+        "Bioquímica e Biofísica",
+        "Bioquímica Celular",
+        "Metabolismo"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "agua-ph",
+          "nome": "Água, pH e tampões"
+        },
+        {
+          "id": "proteinas",
+          "nome": "Aminoácidos e proteínas"
+        },
+        {
+          "id": "enzimas",
+          "nome": "Enzimas e cinética"
+        },
+        {
+          "id": "carboidratos-glicolise",
+          "nome": "Carboidratos e glicólise"
+        },
+        {
+          "id": "krebs-cadeia",
+          "nome": "Ciclo de Krebs e cadeia respiratória"
+        },
+        {
+          "id": "lipidios-integracao",
+          "nome": "Lipídios e integração do metabolismo"
         }
       ]
     },
@@ -701,6 +787,48 @@
         {
           "id": "argumentacao-paragrafacao",
           "nome": "Argumentação e paragrafação"
+        }
+      ]
+    },
+    {
+      "id": "psicologia-desenvolvimento",
+      "nome": "Psicologia do Desenvolvimento",
+      "apelidos": [
+        "Psicologia do Desenvolvimento I",
+        "Psicologia do Desenvolvimento Humano",
+        "Desenvolvimento Humano",
+        "Psicologia do Desenvolvimento e da Aprendizagem",
+        "Psicologia do Desenvolvimento e Aprendizagem",
+        "Psicologia do Ciclo Vital",
+        "Desenvolvimento Humano e Aprendizagem",
+        "Psicologia do Desenvolvimento Infantil",
+        "Psicologia da Infância e Adolescência"
+      ],
+      "area": "Psicologia",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos e métodos"
+        },
+        {
+          "id": "piaget",
+          "nome": "Desenvolvimento cognitivo: Piaget"
+        },
+        {
+          "id": "vygotsky-linguagem",
+          "nome": "Vygotsky e o desenvolvimento da linguagem"
+        },
+        {
+          "id": "psicossocial",
+          "nome": "Desenvolvimento psicossocial: Freud e Erikson"
+        },
+        {
+          "id": "apego-moral",
+          "nome": "Apego e desenvolvimento moral"
+        },
+        {
+          "id": "adolescencia-envelhecimento",
+          "nome": "Adolescência, vida adulta e envelhecimento"
         }
       ]
     },

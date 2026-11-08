@@ -7,7 +7,7 @@
 - **Faculdades e cursos do INEP:** 467 instituições (todas as federais, as estaduais de MG, SP e RJ e as particulares com mais alunos nesses estados), com os cursos de graduação de cada uma, a partir do Censo da Educação Superior 2024. A busca aceita nome, sigla ou cidade, sem acento. Quem não acha a faculdade ou o curso digita à mão e pode pedir a inclusão por um e-mail já preenchido.
 - **Grade mais esperta:** "Física Geral e Experimental I", "Anatomia" ou "Português" já acham o conteúdo pronto; níveis diferentes nunca se misturam (Cálculo II não puxa Cálculo I). Mais de 90 apelidos novos tirados de grades reais.
 - **Ligar na mão:** quando a grade não acha o conteúdo, o cartão mostra "Ligar a um conteúdo do Mestriva". Dá para trocar, desligar ou pedir uma matéria que ainda não existe.
-- **Banco com 19 matérias e 570 questões:** entraram Fisiologia Humana, Didática, Direito Civil – Parte Geral e Matemática Financeira.
+- **Banco com 22 matérias e 660 questões:** entraram Fisiologia Humana, Bioquímica, Didática, Psicologia do Desenvolvimento, Direito Civil – Parte Geral, Matemática Financeira e Banco de Dados.
 - O perfil guarda o caminho escolhido e o código INEP da faculdade.
 
 **O que foi testado**
