@@ -1,10 +1,10 @@
 // Versão do app (troque com: cd ferramentas && npm run bump -- X.Y.Z).
-export const VERSAO = "0.5.1";
+export const VERSAO = "0.6.0";
 
 /** Novidades mostradas uma vez por versão (2 a 4 itens, no plano 2 em diante). @type {string[]} */
 export const NOVIDADES = [
-  "Logo novo do Mestriva e uma animação de abertura.",
-  "Tela inicial nova, com perguntas frequentes e contato.",
-  "Segure o ícone do app no celular para ir direto ao Calendário, Quiz, Estudar ou Tutor.",
-  "Leitor de PDF da grade atualizado, com as correções de segurança mais recentes.",
+  "Na primeira tela, conte o que você estuda: faculdade, ensino médio, cursinho, pós, concurso ou ENEM.",
+  "Escolha sua faculdade e seu curso numa lista com 467 instituições; se a sua não estiver lá, peça a inclusão.",
+  "A grade acha o conteúdo pronto mesmo com nomes diferentes, e dá para ligar uma matéria na mão.",
+  "Matérias novas no banco: Fisiologia Humana, Didática, Direito Civil e Matemática Financeira.",
 ];

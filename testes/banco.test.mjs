@@ -33,3 +33,14 @@ for (const item of indice.materias) {
     assert.ok(Math.max(...corretas) <= m.questoes.length * 0.45, `gabarito concentrado demais: ${corretas}`);
   });
 }
+
+test("números do banco na apresentação e no FAQ batem com o índice", () => {
+  const materias = indice.materias.length;
+  const questoes = indice.materias.reduce((s, item) => s + JSON.parse(fs.readFileSync(path.join(dir, `${item.id}.json`), "utf8")).questoes.length, 0);
+  const landing = fs.readFileSync(path.join(raiz, "js", "paginas", "landing.js"), "utf8");
+  const faq = fs.readFileSync(path.join(raiz, "faq.html"), "utf8");
+  assert.ok(landing.includes(`{ n: ${materias}, t: "matérias com conteúdo pronto" }`), `landing: ${materias} matérias`);
+  assert.ok(landing.includes(`{ n: ${questoes}, t: "questões explicadas" }`), `landing: ${questoes} questões`);
+  assert.ok(landing.includes(`"${questoes} questões explicadas`), `landing destaque: ${questoes} questões`);
+  for (const [nome, txt] of [["landing", landing], ["faq", faq]]) assert.ok(txt.includes(`já tem ${materias} matérias`), `${nome}: ${materias} matérias no FAQ`);
+});

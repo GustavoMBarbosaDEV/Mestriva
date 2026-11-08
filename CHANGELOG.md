@@ -1,6 +1,25 @@
 # Mudanças
 
-## 0.5.1 — segurança (ainda não publicada)
+## 0.6.0 — o que você estuda, faculdades e matérias novas (ainda não publicada)
+
+**O que mudou**
+- **Primeira tela nova:** a pessoa diz como quer ser chamada e escolhe o que estuda entre 6 caminhos: faculdade, ensino médio, cursinho, mestrado ou doutorado, concurso e ENEM/medicina. O passo seguinte muda conforme o caminho (ano e escola, cursinho e prova, nível e programa, concurso e banca).
+- **Faculdades e cursos do INEP:** 467 instituições (todas as federais, as estaduais de MG, SP e RJ e as particulares com mais alunos nesses estados), com os cursos de graduação de cada uma, a partir do Censo da Educação Superior 2024. A busca aceita nome, sigla ou cidade, sem acento. Quem não acha a faculdade ou o curso digita à mão e pode pedir a inclusão por um e-mail já preenchido.
+- **Grade mais esperta:** "Física Geral e Experimental I", "Anatomia" ou "Português" já acham o conteúdo pronto; níveis diferentes nunca se misturam (Cálculo II não puxa Cálculo I). Mais de 90 apelidos novos tirados de grades reais.
+- **Ligar na mão:** quando a grade não acha o conteúdo, o cartão mostra "Ligar a um conteúdo do Mestriva". Dá para trocar, desligar ou pedir uma matéria que ainda não existe.
+- **Banco com 19 matérias e 570 questões:** entraram Fisiologia Humana, Didática, Direito Civil – Parte Geral e Matemática Financeira.
+- O perfil guarda o caminho escolhido e o código INEP da faculdade.
+
+**O que foi testado**
+- Testes automáticos (231), inclusive a busca com nomes reais de grades e a conferência de cada matéria nova.
+- No navegador do computador, na largura de celular: a primeira tela completa (UFJF → Ciência da Computação → 3º período, perfil salvo certo) e o "Ligar a um conteúdo" na grade (buscar, escolher, desligar).
+
+**O que não foi testado**
+- Os caminhos de ensino médio, cursinho, pós, concurso e ENEM no navegador (só nos testes automáticos).
+- No celular de verdade.
+- A tela de Ajustes ainda não mostra o caminho escolhido.
+
+## 0.5.1 — segurança (no ar desde 07/11/2026, junto com a 0.5.0)
 
 **O que mudou**
 - **Leitor de PDF** (importar grade) atualizado para o pdf.js 6.5.438. As ferramentas de montagem (esbuild 0.28.2, sharp 0.35.5) também foram atualizadas, e o `npm audit` agora não acusa nada.
@@ -17,7 +36,7 @@
 **O que não foi testado**
 - A importação por PDF no celular com o pdf.js novo.
 
-## 0.5.0 — identidade visual, abertura e tela inicial (ainda não publicada)
+## 0.5.0 — identidade visual, abertura e tela inicial (foi ao ar com a 0.5.1)
 
 **O que mudou**
 - **Logo e identidade visual:** símbolo novo (um "M" que sobe, com o ponto no topo), ícones do app, favicon e guia em IDENTIDADE.md.
