@@ -4,11 +4,20 @@ import { normPerfil, normMateria, normEvento, normNota, normSessao, normQuiz, no
 
 test("perfil vazio vem completo", () => {
   const p = normPerfil(undefined);
-  assert.deepEqual(Object.keys(p).sort(), ["accessibility_notes", "accommodations", "course", "display_name", "goal", "institution",
-    "methods_used", "onboarding_completed", "period", "termos", "weekly_hours"].sort());
+  assert.deepEqual(Object.keys(p).sort(), ["accessibility_notes", "accommodations", "course", "display_name", "goal", "ies", "institution",
+    "methods_used", "onboarding_completed", "period", "publico", "termos", "weekly_hours"].sort());
+  assert.equal(p.publico, "faculdade");
+  assert.equal(p.ies, null);
   assert.equal(p.onboarding_completed, false);
   assert.equal(p.termos, null);
   assert.deepEqual(p.methods_used, []);
+});
+
+test("público e código da faculdade", () => {
+  assert.equal(normPerfil({ publico: "ensino_medio" }).publico, "ensino_medio");
+  assert.equal(normPerfil({ publico: "hacker" }).publico, "faculdade");
+  assert.equal(normPerfil({ ies: "575" }).ies, 575);
+  for (const v of [-1, 1.5, "x", 0]) assert.equal(normPerfil({ ies: v }).ies, null);
 });
 
 test("descarta campo estranho", () => {

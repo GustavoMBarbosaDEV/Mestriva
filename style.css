@@ -1581,10 +1581,6 @@ h1, h2, h3, h4 {
   width: 2.75rem;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
 .w-14 {
   width: 3.5rem;
 }
@@ -1696,6 +1692,10 @@ h1, h2, h3, h4 {
 
 .min-w-0 {
   min-width: 0px;
+}
+
+.min-w-12 {
+  min-width: 3rem;
 }
 
 .min-w-4 {
@@ -2129,6 +2129,10 @@ h1, h2, h3, h4 {
 .border-ink {
   --tw-border-opacity: 1;
   border-color: rgb(11 18 32 / var(--tw-border-opacity, 1));
+}
+
+.border-ink\/15 {
+  border-color: rgb(11 18 32 / 0.15);
 }
 
 .border-input {
@@ -3090,6 +3094,11 @@ h1, h2, h3, h4 {
 
 .ring-offset-background {
   --tw-ring-offset-color: hsl(var(--background));
+}
+
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .blur-3xl {

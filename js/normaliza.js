@@ -29,13 +29,18 @@ const COR = /^#[0-9a-fA-F]{6}$/;
 
 const base = (d) => ({ id: txt(d.id, 40) || uid(), criado_em: iso(d.criado_em), atualizado_em: iso(d.atualizado_em) });
 
+/** O que a pessoa estuda (o primeiro é o padrão de quem veio antes da escolha existir). */
+export const PUBLICOS = ["faculdade", "ensino_medio", "cursinho", "mestrado", "doutorado", "concurso", "enem", "medicina"];
+
 export function normPerfil(v) {
   const d = obj(v);
   const t = obj(d.termos);
   return {
     display_name: txt(d.display_name, 80),
+    publico: um(d.publico, PUBLICOS),
     institution: txt(d.institution, 120),
     course: txt(d.course, 120),
+    ies: Number.isInteger(num(d.ies)) && num(d.ies) > 0 ? num(d.ies) : null,
     period: txt(d.period, 20),
     weekly_hours: txt(d.weekly_hours, 20),
     goal: txt(d.goal, 300),
