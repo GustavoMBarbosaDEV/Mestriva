@@ -5,6 +5,8 @@ import { PERIODOS, lerGradeTexto } from "../curriculo.js";
 import { campo, CLASSE_CAMPO, CLASSE_TEXTO } from "./formulario.js";
 import { abreDialogo } from "./dialogo.js";
 import { criaTela } from "./pagina.js";
+import { CONTATO } from "./marca.js";
+import { SEM_BANCO, bancoDaMateria, filtraBanco } from "../conteudo.js";
 
 const ERRO = (t) => (t ? `<p role="alert" class="rounded-xl bg-destructive/10 px-3.5 py-2.5 text-xs font-medium text-destructive">${esc(t)}</p>` : "");
 const BOTAO = "inline-flex items-center gap-2 rounded-xl bg-ink px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-ink/90 disabled:opacity-50";
@@ -67,6 +69,75 @@ export function abreDialogoMateria({ loja, materia, periodo = "", aoSalvar, anun
     },
   });
   /** @type {HTMLElement|null} */ (area.querySelector("#subject-name"))?.focus();
+}
+
+/** Link de e-mail já preenchido para pedir uma matéria que o banco ainda não tem. */
+export function pedidoDeMateria(nome, contato = CONTATO) {
+  const assunto = `Pedido de matéria: ${nome}`.slice(0, 120);
+  const texto = `Olá! Quero estudar "${nome}" no Mestriva e não achei o conteúdo.\n\nCurso:\nFaculdade:\nPrincipais assuntos da matéria:\n`;
+  return `mailto:${contato}?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(texto)}`;
+}
+
+/** Lista de conteúdos do diálogo "Ligar" (só ela muda enquanto a pessoa digita). */
+export function listaLigar(e) {
+  const item = (m) => {
+    const sel = m.id === e.atual;
+    return `<li><button type="button" data-acao="escolher" data-valor="${esc(m.id)}" aria-pressed="${sel}" class="flex w-full items-center justify-between gap-3 rounded-xl border px-3.5 py-2.5 text-left text-sm transition ${sel ? "border-electric bg-electric/10" : "border-border hover:border-electric/50"}">
+      <span class="min-w-0"><span class="block truncate font-medium">${esc(m.nome)}</span><span class="block truncate text-[11px] text-muted-foreground">${esc(m.area || "")} · ${m.topicos?.length || 0} tópicos</span></span>
+      ${sel ? icone("Check", "h-4 w-4 shrink-0 text-electric") : ""}
+    </button></li>`;
+  };
+  return e.opcoes.length
+    ? `<ul class="max-h-[46vh] space-y-2 overflow-y-auto pr-1" aria-label="Conteúdos do Mestriva">${e.opcoes.map(item).join("")}</ul>`
+    : `<p class="rounded-xl bg-secondary px-3.5 py-3 text-sm text-foreground/70">Nenhum conteúdo com esse nome ainda.</p>`;
+}
+
+/** Corpo do diálogo "Ligar a um conteúdo do Mestriva". e = {nome, busca, atual, opcoes} */
+export function corpoLigar(e) {
+  return `<div class="space-y-4">
+    ${campo({ rotulo: "Procurar no banco", para: "ligar-busca", conteudo: `<input id="ligar-busca" type="search" data-campo="busca" value="${esc(e.busca)}" placeholder="Ex: anatomia, cálculo, direito" class="${CLASSE_CAMPO}" autocomplete="off" />` })}
+    <div data-lista aria-live="polite">${listaLigar(e)}</div>
+    <div class="flex flex-wrap items-center justify-between gap-3 border-t border-hair pt-3 text-xs">
+      <a href="${esc(pedidoDeMateria(e.nome))}" class="inline-flex items-center gap-1.5 font-medium text-electric hover:underline">${icone("Mail", "h-3.5 w-3.5")}Não achei: pedir esta matéria</a>
+      <button type="button" data-acao="escolher" data-valor="${SEM_BANCO}" aria-pressed="${e.atual === SEM_BANCO}" class="font-medium text-muted-foreground hover:text-foreground">Não ligar a nenhum conteúdo</button>
+    </div>
+  </div>`;
+}
+
+/** @param {{loja:any, materia:any, indice:any, aoSalvar:()=>void, anuncia:(t:string)=>void}} p */
+export function abreDialogoLigar({ loja, materia, indice, aoSalvar, anuncia }) {
+  const dlg = abreDialogo({
+    titulo: "Ligar a um conteúdo do Mestriva",
+    descricao: `Escolha o conteúdo pronto (resumos e quiz) que corresponde a "${materia.name}".`,
+    corpo: "",
+    classe: "max-h-[92vh] max-w-lg overflow-y-auto rounded-2xl",
+    classeTitulo: "text-xl",
+  });
+  const area = /** @type {HTMLElement} */ (dlg.elemento.querySelector("[data-corpo]"));
+  const atual = materia.banco === SEM_BANCO ? SEM_BANCO : bancoDaMateria(materia, indice) || "";
+  criaTela(area, {
+    estado: { nome: materia.name, busca: "", filtrado: "", atual, opcoes: filtraBanco(indice, "") },
+    desenha: corpoLigar,
+    aoDigitar(campo, valor, e) {
+      // O "change" do blur chega no meio do clique: redesenhar aí tiraria o botão de baixo do dedo.
+      if (campo !== "busca" || valor === e.filtrado) return;
+      e.filtrado = valor;
+      e.opcoes = filtraBanco(indice, valor);
+      const lista = area.querySelector("[data-lista]");
+      if (lista) lista.innerHTML = listaLigar(e);
+    },
+    acoes: {
+      escolher(el) {
+        const id = el.dataset.valor || "";
+        loja.salva("materias", { ...materia, banco: id });
+        dlg.fecha();
+        const nome = indice.materias.find((m) => m.id === id)?.nome;
+        anuncia(nome ? `${materia.name} ligada a ${nome}` : `${materia.name} sem conteúdo ligado`);
+        aoSalvar();
+      },
+    },
+  });
+  /** @type {HTMLElement|null} */ (area.querySelector("#ligar-busca"))?.focus();
 }
 
 const EXEMPLO = "1º - Cálculo I\n1º - Introdução à Programação\n2º - Cálculo II\n2º - Estrutura de Dados\n3º - Física II";

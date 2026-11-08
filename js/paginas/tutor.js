@@ -8,7 +8,7 @@ import { criaTela } from "../ui/pagina.js";
 import { botaoOuvir, botaoDitar, temDitado, dita, fala } from "../ui/fala.js";
 import { carregaIndice, carregaMateria } from "../banco.js";
 import { responde, temConteudo, topicoPeloResumo, respostaDoTopico, SUGESTOES } from "../tutor.js";
-import { achaNoBanco } from "../conteudo.js";
+import { achaNoBanco, bancoDaMateria } from "../conteudo.js";
 
 export const BOAS_VINDAS = {
   papel: "tutor",
@@ -113,7 +113,8 @@ export function montar(raiz, ctx) {
     // Com matéria de contexto, procura primeiro nela (tópicos e depois dentro dos resumos), sem colar o nome
     // da matéria na pergunta; só então no banco inteiro. Agenda, médias e métodos respondem igual nos dois casos.
     let r = null;
-    const id = e.materia ? (materias.find((m) => m.name === e.materia)?.banco) || achaNoBanco(e.materia, indice) : null;
+    const daGrade = e.materia ? materias.find((m) => m.name === e.materia) : null;
+    const id = daGrade ? bancoDaMateria(daGrade, indice) : e.materia ? achaNoBanco(e.materia, indice) : null;
     if (id) {
       // Num índice com uma matéria só, qualquer palavra de um tópico já é específica daquela matéria.
       r = await tenta({ ...indice, materias: indice.materias.filter((m) => m.id === id) });

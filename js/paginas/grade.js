@@ -2,13 +2,13 @@
 import { esc, cn } from "../util.js";
 import { icone } from "../icones.js";
 import { corDaMateria, agrupaPorPeriodo, lerGradeTexto } from "../curriculo.js";
-import { achaNoBanco } from "../conteudo.js";
+import { bancoDaMateria, normalizaNome } from "../conteudo.js";
 import { carregaIndice } from "../banco.js";
 import { textoDoPdf, textoDaFoto, materiasDoTextoExtraido } from "../importar.js";
 import { cabecalho, BOTAO_PRIMARIO } from "../ui/cabecalho.js";
 import { vazio } from "../ui/vazio.js";
 import { criaTela } from "../ui/pagina.js";
-import { abreDialogoMateria, abreDialogoImportar, abreDialogoArquivo } from "../ui/dialogo-materia.js";
+import { abreDialogoMateria, abreDialogoImportar, abreDialogoArquivo, abreDialogoLigar } from "../ui/dialogo-materia.js";
 
 const BOTAO_CONTORNO =
   "inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 text-sm font-medium text-foreground/75 transition hover:border-electric/50 hover:text-foreground";
@@ -16,6 +16,17 @@ const BOTAO_CONTORNO =
 /** Matérias a importar a partir do texto colado. */
 export function materiasDoTexto(texto, periodoPadrao) {
   return lerGradeTexto(texto).map((m, i) => ({ name: m.name, period: m.period || periodoPadrao, status: "cursando", order: i + 1 }));
+}
+
+/** Conteúdo pronto ligado (clique troca) ou botão para ligar na mão; nada enquanto o índice não chega. */
+function etiquetaBanco(m, indice) {
+  if (!indice?.materias?.length) return "";
+  const id = bancoDaMateria(m, indice);
+  const nome = id && indice.materias.find((x) => x.id === id)?.nome;
+  if (nome) {
+    return `<p class="mt-1.5 pl-2"><button type="button" data-acao="ligar" data-id="${esc(m.id)}" title="Trocar o conteúdo ligado" aria-label="Conteúdo pronto: ${esc(nome)}. Trocar" class="inline-flex max-w-full items-center gap-1 rounded-full bg-electric/10 px-2 py-0.5 text-[10px] font-medium text-electric transition hover:bg-electric/20">${icone("BookMarked", "h-3 w-3 shrink-0")}<span class="truncate">Conteúdo pronto${normalizaNome(nome) === normalizaNome(m.name) ? "" : `: ${esc(nome)}`}</span></button></p>`;
+  }
+  return `<p class="mt-1.5 pl-2"><button type="button" data-acao="ligar" data-id="${esc(m.id)}" class="inline-flex items-center gap-1 rounded-full border border-dashed border-border px-2 py-0.5 text-[10px] font-medium text-muted-foreground transition hover:border-electric/50 hover:text-electric">${icone("Plus", "h-3 w-3")}Ligar a um conteúdo do Mestriva</button></p>`;
 }
 
 function cartao(m, indice) {
@@ -29,7 +40,7 @@ function cartao(m, indice) {
       </div>
       <button type="button" data-acao="editar" data-id="${esc(m.id)}" class="rounded-lg p-1.5 text-muted-foreground opacity-0 transition hover:bg-secondary hover:text-foreground focus:opacity-100 group-hover:opacity-100" aria-label="Editar ${esc(m.name)}">${icone("Pencil", "h-3.5 w-3.5")}</button>
     </div>
-    ${(m.banco || achaNoBanco(m.name, indice)) ? `<p class="mt-1.5 pl-2"><span class="inline-flex items-center gap-1 rounded-full bg-electric/10 px-2 py-0.5 text-[10px] font-medium text-electric">${icone("BookMarked", "h-3 w-3")}Conteúdo pronto</span></p>` : ""}
+    ${etiquetaBanco(m, indice)}
     ${m.topics ? `<p class="mt-2 line-clamp-2 pl-2 text-[11px] leading-relaxed text-muted-foreground">${esc(m.topics)}</p>` : ""}
     <button type="button" data-acao="situacao" data-id="${esc(m.id)}" aria-pressed="${feita}" class="${cn(
       "mt-3 ml-2 rounded-full px-2.5 py-1 text-[10px] font-medium uppercase tracking-wide transition",
@@ -92,6 +103,10 @@ export function montar(raiz, ctx) {
       editar(el, _e, t) {
         const m = ctx.loja.pega("materias", el.dataset.id);
         if (m) abreDialogoMateria({ loja: ctx.loja, materia: m, periodo: m.period, aoSalvar: () => t.pinta(), anuncia: ctx.anuncia });
+      },
+      ligar(el, e, t) {
+        const m = ctx.loja.pega("materias", el.dataset.id);
+        if (m && e.indice.materias.length) abreDialogoLigar({ loja: ctx.loja, materia: m, indice: e.indice, aoSalvar: () => t.pinta(), anuncia: ctx.anuncia });
       },
       situacao(el, _e, t) {
         const m = ctx.loja.pega("materias", el.dataset.id);

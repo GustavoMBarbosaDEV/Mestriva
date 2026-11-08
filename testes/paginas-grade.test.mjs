@@ -39,3 +39,42 @@ test("formulário da matéria", () => {
   const h = corpoMateria({ ...f, name: '"><x>' }, true);
   assert.ok(!h.includes("<x>") && h.includes("Excluir") && h.includes("2º período"));
 });
+
+test("ligar a um conteúdo do Mestriva", async () => {
+  const { bancoDaMateria, filtraBanco, SEM_BANCO } = await import("../js/conteudo.js");
+  const { corpoLigar, pedidoDeMateria } = await import("../js/ui/dialogo-materia.js");
+  const indice = {
+    materias: [
+      { id: "anatomia-humana", nome: "Anatomia Humana", area: "Saúde", apelidos: ["Anatomia Geral"], topicos: [{}, {}] },
+      { id: "calculo-1", nome: "Cálculo I", area: "Exatas", apelidos: [], topicos: [] },
+    ],
+  };
+  // Sem escolha: acha pelo nome. Escolha manual vence. "nenhum" desliga. Id que sumiu do banco volta ao automático.
+  assert.equal(bancoDaMateria({ name: "Anatomia" }, indice), "anatomia-humana");
+  assert.equal(bancoDaMateria({ name: "Morfologia", banco: "anatomia-humana" }, indice), "anatomia-humana");
+  assert.equal(bancoDaMateria({ name: "Anatomia", banco: SEM_BANCO }, indice), null);
+  assert.equal(bancoDaMateria({ name: "Cálculo I", banco: "sumiu" }, indice), "calculo-1");
+
+  assert.deepEqual(filtraBanco(indice, "").map((m) => m.id), ["calculo-1", "anatomia-humana"]);
+  assert.deepEqual(filtraBanco(indice, "saude").map((m) => m.id), ["anatomia-humana"]);
+  assert.deepEqual(filtraBanco(indice, "geral").map((m) => m.id), ["anatomia-humana"]);
+  assert.deepEqual(filtraBanco(indice, "xyz"), []);
+
+  // Cartão: ligado mostra o nome do conteúdo quando difere; não ligado mostra o botão.
+  const h = desenha([
+    { id: "1", name: "Morfologia", period: "1º", status: "cursando", banco: "anatomia-humana", order: 0 },
+    { id: "2", name: "Zoologia", period: "1º", status: "cursando", order: 1 },
+    { id: "3", name: "Cálculo I", period: "1º", status: "cursando", order: 2 },
+  ], indice);
+  assert.ok(h.includes("Conteúdo pronto: Anatomia Humana"));
+  assert.ok(h.includes("Ligar a um conteúdo do Mestriva"));
+  assert.ok(/Conteúdo pronto<\/span>/.test(h), "nome igual não repete");
+  assert.equal((h.match(/data-acao="ligar"/g) || []).length, 3);
+  assert.ok(!desenha([{ id: "2", name: "Zoologia", period: "1º", status: "cursando", order: 1 }]).includes("Ligar a um conteúdo"), "sem índice, sem botão");
+
+  const c = corpoLigar({ nome: '"><x>', busca: "", atual: "calculo-1", opcoes: filtraBanco(indice) });
+  assert.ok(!c.includes("<x>") && c.includes('data-valor="calculo-1" aria-pressed="true"') && c.includes(`data-valor="${SEM_BANCO}"`));
+  assert.ok(corpoLigar({ nome: "Zoo", busca: "zz", atual: "", opcoes: [] }).includes("Nenhum conteúdo com esse nome"));
+  const mail = pedidoDeMateria("Zoologia & Cia", "a@b.c");
+  assert.ok(mail.startsWith("mailto:a@b.c?subject=") && mail.includes(encodeURIComponent("Zoologia & Cia")) && mail.split("&").length === 2);
+});

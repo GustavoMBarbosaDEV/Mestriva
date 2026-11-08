@@ -63,6 +63,29 @@ export function achaNoBanco(nome, indice) {
   return null;
 }
 
+/** Valor de materia.banco quando a pessoa escolheu não ligar a matéria a nenhum conteúdo. */
+export const SEM_BANCO = "nenhum";
+
+/** Conteúdo do banco da matéria da grade: o que a pessoa escolheu ou, sem escolha, o achado pelo nome. */
+export function bancoDaMateria(m, indice) {
+  if (!m) return null;
+  if (m.banco === SEM_BANCO) return null;
+  const lista = indice?.materias || [];
+  if (m.banco && (!lista.length || lista.some((x) => x.id === m.banco))) return m.banco;
+  return achaNoBanco(m.name, indice);
+}
+
+/** Matérias do banco que batem com a busca (nome, apelido ou área), em ordem de área e nome. */
+export function filtraBanco(indice, busca = "") {
+  const palavras = normalizaNome(busca).split(" ").filter(Boolean);
+  return (indice?.materias || [])
+    .filter((m) => {
+      const texto = normalizaNome([m.nome, m.area, ...(m.apelidos || [])].join(" "));
+      return palavras.every((p) => texto.includes(p));
+    })
+    .sort((a, b) => (a.area || "").localeCompare(b.area || "", "pt") || a.nome.localeCompare(b.nome, "pt"));
+}
+
 /** Lista de problemas da matéria do banco (vazia = ok). Regras das checagens automáticas do lançamento. */
 export function validaMateriaBanco(m) {
   const erros = [];

@@ -11,7 +11,7 @@ import { desenhaPomodoro, montaPomodoro, pomodoroInicial } from "../ui/pomodoro.
 import { abreLeitor, ROTULO_TIPO } from "../ui/leitor.js";
 import { botaoDitar, temDitado, dita } from "../ui/fala.js";
 import { carregaIndice, carregaMateria } from "../banco.js";
-import { achaNoBanco } from "../conteudo.js";
+import { bancoDaMateria } from "../conteudo.js";
 
 /** Material de leitura com os resumos de todos os tópicos de uma matéria do banco. */
 export function materialDoBanco(m) {
@@ -195,7 +195,7 @@ export function montar(raiz, ctx) {
   };
   pagina.addEventListener("click", clique);
   carregaIndice().then((indice) => {
-    const ids = new Set(materias.map((m) => m.banco || achaNoBanco(m.name, indice)).filter(Boolean));
+    const ids = new Set(materias.map((m) => bancoDaMateria(m, indice)).filter(Boolean));
     const alvo = pagina.querySelector("[data-banco]");
     if (alvo) alvo.innerHTML = secaoBanco(indice.materias.filter((b) => ids.has(b.id)));
   });

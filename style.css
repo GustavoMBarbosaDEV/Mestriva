@@ -1525,6 +1525,10 @@ h1, h2, h3, h4 {
   max-height: 16rem;
 }
 
+.max-h-\[46vh\] {
+  max-height: 46vh;
+}
+
 .max-h-\[88vh\] {
   max-height: 88vh;
 }
@@ -2107,6 +2111,11 @@ h1, h2, h3, h4 {
 
 .border-destructive\/50 {
   border-color: hsl(var(--destructive) / 0.5);
+}
+
+.border-electric {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 91 255 / var(--tw-border-opacity, 1));
 }
 
 .border-electric\/50 {
@@ -3737,6 +3746,10 @@ details > summary::-webkit-details-marker {
   background-color: hsl(var(--destructive) / 0.9);
 }
 
+.hover\:bg-electric\/20:hover {
+  background-color: rgb(59 91 255 / 0.2);
+}
+
 .hover\:bg-ink\/90:hover {
   background-color: rgb(11 18 32 / 0.9);
 }
@@ -3763,6 +3776,11 @@ details > summary::-webkit-details-marker {
 
 .hover\:text-destructive:hover {
   color: hsl(var(--destructive));
+}
+
+.hover\:text-electric:hover {
+  --tw-text-opacity: 1;
+  color: rgb(59 91 255 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-foreground:hover {

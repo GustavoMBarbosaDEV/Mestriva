@@ -31,5 +31,6 @@ test("material do banco junta os resumos dos tópicos", () => {
 
 test("grade mostra o selo de conteúdo pronto", () => {
   const h = desenhaGrade([{ id: "1", name: "Cálculo 1", period: "1º", status: "cursando" }, { id: "2", name: "Direito Civil", period: "1º", status: "cursando" }], { materias: [{ id: "calculo-1", nome: "Cálculo I", apelidos: ["Cálculo 1"] }] });
-  assert.equal((h.match(/Conteúdo pronto/g) || []).length, 1);
+  assert.equal((h.match(/">Conteúdo pronto/g) || []).length, 1);
+  assert.ok(h.includes("Ligar a um conteúdo do Mestriva"), "Direito Civil ganha o botão");
 });

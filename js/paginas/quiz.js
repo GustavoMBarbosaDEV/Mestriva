@@ -6,7 +6,7 @@ import { campo, CLASSE_CAMPO } from "../ui/formulario.js";
 import { criaTela } from "../ui/pagina.js";
 import { abreLeitor } from "../ui/leitor.js";
 import { carregaIndice, carregaMateria } from "../banco.js";
-import { achaNoBanco, montaQuiz, embaralhaAlternativas, registraResposta, revisaoDosErros, topicosCitados } from "../conteudo.js";
+import { bancoDaMateria, montaQuiz, embaralhaAlternativas, registraResposta, revisaoDosErros, topicosCitados } from "../conteudo.js";
 import { questoesDoEstudante } from "../gerador.js";
 import { markdownParaHtml } from "../markdown.js";
 
@@ -45,7 +45,7 @@ export function linkReportar(q) {
 
 /** Matérias da grade (ligadas ao banco quando o nome bate) e as do banco que não estão na grade. */
 export function opcoesMateria(materiasGrade, indice) {
-  const lista = materiasGrade.map((m) => ({ valor: m.name, rotulo: m.name, banco: m.banco || achaNoBanco(m.name, indice) }));
+  const lista = materiasGrade.map((m) => ({ valor: m.name, rotulo: m.name, banco: bancoDaMateria(m, indice) }));
   const usados = new Set(lista.map((o) => o.banco).filter(Boolean));
   for (const b of indice?.materias || []) if (!usados.has(b.id)) lista.push({ valor: `banco:${b.id}`, rotulo: b.nome, banco: b.id });
   return lista;
