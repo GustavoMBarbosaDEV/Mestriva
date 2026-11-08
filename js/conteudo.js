@@ -16,13 +16,50 @@ export function normalizaNome(s = "") {
     .join(" ");
 }
 
-/** Id da matéria do banco que corresponde ao nome cadastrado na grade, ou null. */
+// Palavras que as grades acrescentam sem mudar a matéria ("Física Geral e Experimental I" = "Física I").
+const VAZIAS = new Set(
+  (
+    "a o e de da do das dos ao aos as os em na no nas nos para com " +
+    "geral gerais experimental basica basico basicas fundamentos fundamental introducao introdutoria elementos nocoes principios humana humano"
+  ).split(" "),
+);
+
+/** Miolo do nome: palavras que importam + o nível (número no fim; sem número = 1). */
+function miolo(nome) {
+  const partes = normalizaNome(nome).split(" ").filter(Boolean);
+  let nivel = 1;
+  if (partes.length > 1 && /^\d+$/.test(partes.at(-1))) nivel = Number(partes.pop());
+  return { palavras: partes.filter((p) => !VAZIAS.has(p)), nivel };
+}
+
+/**
+ * Id da matéria do banco que corresponde ao nome cadastrado na grade, ou null.
+ * 1º nome ou apelido igual; 2º mesmo miolo e mesmo nível; 3º nome curto da grade contido
+ * no nome do banco ("Anatomia" → Anatomia Humana), só se uma matéria servir.
+ * Nunca liga níveis diferentes: "Cálculo II" não puxa Cálculo I.
+ */
 export function achaNoBanco(nome, indice) {
   const alvo = normalizaNome(nome);
   if (!alvo || !indice?.materias) return null;
+  const nomes = (m) => [m.nome, ...(m.apelidos || [])];
   for (const m of indice.materias) {
-    if ([m.nome, ...(m.apelidos || [])].some((n) => normalizaNome(n) === alvo)) return m.id;
+    if (nomes(m).some((n) => normalizaNome(n) === alvo)) return m.id;
   }
+  const g = miolo(nome);
+  if (!g.palavras.length) return null;
+  const chave = g.palavras.join(" ");
+  const iguais = new Set();
+  const contidos = new Set();
+  for (const m of indice.materias) {
+    for (const n of nomes(m)) {
+      const b = miolo(n);
+      if (b.nivel !== g.nivel || !b.palavras.length) continue;
+      if (b.palavras.join(" ") === chave) iguais.add(m.id);
+      else if (g.palavras.every((p) => b.palavras.includes(p)) && g.palavras.some((p) => p.length >= 4)) contidos.add(m.id);
+    }
+  }
+  if (iguais.size === 1) return [...iguais][0];
+  if (!iguais.size && contidos.size === 1) return [...contidos][0];
   return null;
 }
 

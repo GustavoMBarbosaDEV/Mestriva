@@ -26,6 +26,31 @@ test("acha matéria pelo nome, apelido ou número romano", () => {
   assert.equal(achaNoBanco("", indice), null);
 });
 
+test("busca tolerante com nomes reais de grades, usando o índice de verdade", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const real = JSON.parse(await readFile(new URL("../conteudo/indice.json", import.meta.url), "utf8"));
+  const casos = {
+    "Física Geral e Experimental I": "fisica-1",
+    "Química Geral e Experimental": "quimica-geral",
+    "Teoria Geral da Administração I": "teoria-geral-administracao",
+    "Anatomia": "anatomia-humana",
+    "Anatomia Humana I": "anatomia-humana",
+    "Português": "portugues-redacao",
+    "Citologia e Histologia": "biologia-celular",
+    "Geometria Analítica e Álgebra Linear": "algebra-linear",
+    "Algoritmos e Estruturas de Dados I": "algoritmos-programacao",
+    "CALCULO DIFERENCIAL E INTEGRAL I": "calculo-1",
+    "Cálculo": "calculo-1",
+    "Direito": "introducao-direito",
+    "Fundamentos de Anatomia": "anatomia-humana",
+  };
+  for (const [nome, id] of Object.entries(casos)) assert.equal(achaNoBanco(nome, real), id, nome);
+  // Nível diferente ou matéria diferente nunca liga.
+  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil", "Direito Penal", "Teoria", "Anatomia Veterinária", "Estatística II"]) {
+    assert.equal(achaNoBanco(nome, real), null, nome);
+  }
+});
+
 const q = (n, topico = "t1", nivel = "conceitual") => ({ id: `m-${n}`, topico, nivel, pergunta: `Pergunta ${n}?`, opcoes: [`a${n}`, `b${n}`, `c${n}`, `d${n}`], correta: n % 4, explicacao: "Explicação suficiente para passar no mínimo exigido pelo validador." });
 const materia = (questoes) => ({
   id: "m", nome: "M", versao: 1,

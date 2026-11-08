@@ -7,7 +7,11 @@
       "apelidos": [
         "Álgebra Linear I",
         "Álgebra Linear e Geometria Analítica",
-        "Introdução à Álgebra Linear"
+        "Introdução à Álgebra Linear",
+        "Geometria Analítica e Álgebra Linear",
+        "GAAL",
+        "Álgebra Linear Computacional",
+        "Álgebra Linear A"
       ],
       "area": "Exatas",
       "topicos": [
@@ -44,7 +48,15 @@
         "Algoritmos",
         "Lógica de Programação",
         "Introdução à Programação",
-        "Programação I"
+        "Programação I",
+        "Algoritmos e Estruturas de Dados I",
+        "AEDS I",
+        "Programação de Computadores",
+        "Programação de Computadores I",
+        "Algoritmos e Lógica de Programação",
+        "Introdução à Ciência da Computação",
+        "Fundamentos de Programação",
+        "Computação I"
       ],
       "area": "Exatas",
       "topicos": [
@@ -80,7 +92,11 @@
       "apelidos": [
         "Anatomia Sistêmica",
         "Anatomia Humana Básica",
-        "Anatomia Geral"
+        "Anatomia Geral",
+        "Anatomia Humana I",
+        "Anatomia Aplicada",
+        "Anatomia dos Sistemas",
+        "Morfologia Humana"
       ],
       "area": "Biológicas e Saúde",
       "topicos": [
@@ -116,7 +132,12 @@
       "apelidos": [
         "Biologia Celular e Molecular",
         "Citologia",
-        "Biologia Celular e Tecidual"
+        "Biologia Celular e Tecidual",
+        "Citologia e Histologia",
+        "Biologia Celular e Histologia",
+        "Citologia, Histologia e Embriologia",
+        "Biologia Molecular e Celular",
+        "Biologia Celular I"
       ],
       "area": "Biológicas e Saúde",
       "topicos": [
@@ -151,7 +172,13 @@
       "nome": "Cálculo I",
       "apelidos": [
         "Cálculo Diferencial e Integral I",
-        "Cálculo A"
+        "Cálculo A",
+        "Cálculo Diferencial e Integral",
+        "Cálculo I A",
+        "Cálculo de Uma Variável",
+        "Cálculo Diferencial",
+        "Matemática I (Cálculo)",
+        "Cálculo Aplicado I"
       ],
       "area": "Exatas",
       "topicos": [
@@ -188,7 +215,11 @@
         "Contabilidade Geral",
         "Contabilidade Básica",
         "Contabilidade I",
-        "Fundamentos de Contabilidade"
+        "Fundamentos de Contabilidade",
+        "Contabilidade Geral I",
+        "Teoria Contábil Introdutória",
+        "Noções de Contabilidade",
+        "Contabilidade Financeira I"
       ],
       "area": "Negócios",
       "topicos": [
@@ -223,7 +254,9 @@
       "nome": "Direito Constitucional",
       "apelidos": [
         "Direito Constitucional I",
-        "Teoria da Constituição"
+        "Teoria da Constituição",
+        "Direito Constitucional Geral",
+        "Teoria Geral do Direito Constitucional"
       ],
       "area": "Direito",
       "topicos": [
@@ -260,7 +293,15 @@
         "Estatística Básica",
         "Probabilidade e Estatística",
         "Estatística Aplicada",
-        "Bioestatística"
+        "Bioestatística",
+        "Estatística Geral",
+        "Estatística Descritiva",
+        "Probabilidade e Estatística I",
+        "Estatística e Probabilidade",
+        "Estatística Aplicada à Administração",
+        "Estatística Aplicada à Psicologia",
+        "Bioestatística I",
+        "Introdução à Estatística"
       ],
       "area": "Exatas",
       "topicos": [
@@ -295,7 +336,13 @@
       "nome": "Física I",
       "apelidos": [
         "Física Geral I",
-        "Mecânica Clássica"
+        "Mecânica Clássica",
+        "Física Geral e Experimental I",
+        "Física Básica I",
+        "Física Clássica I",
+        "Mecânica Básica",
+        "Física: Mecânica",
+        "Fundamentos de Mecânica"
       ],
       "area": "Exatas",
       "topicos": [
@@ -331,7 +378,10 @@
       "apelidos": [
         "IED",
         "Introdução ao Direito",
-        "Teoria Geral do Direito"
+        "Teoria Geral do Direito",
+        "Introdução ao Estudo do Direito I",
+        "Teoria do Direito",
+        "Propedêutica Jurídica"
       ],
       "area": "Direito",
       "topicos": [
@@ -368,7 +418,11 @@
         "Economia I",
         "Fundamentos de Economia",
         "Economia Geral",
-        "Introdução à Teoria Econômica"
+        "Introdução à Teoria Econômica",
+        "Economia",
+        "Noções de Economia",
+        "Economia Aplicada à Administração",
+        "Princípios de Economia"
       ],
       "area": "Negócios",
       "topicos": [
@@ -405,7 +459,12 @@
         "Metodologia da Pesquisa",
         "Metodologia do Trabalho Científico",
         "Iniciação Científica",
-        "Metodologia da Pesquisa Científica"
+        "Metodologia da Pesquisa Científica",
+        "Metodologia de Pesquisa",
+        "Métodos e Técnicas de Pesquisa",
+        "Seminário de Pesquisa",
+        "Pesquisa e Prática Científica",
+        "Metodologia Científica e Tecnológica"
       ],
       "area": "Multidisciplinar",
       "topicos": [
@@ -442,7 +501,15 @@
         "Leitura e Produção de Textos",
         "Comunicação e Expressão",
         "Língua Portuguesa",
-        "Produção Textual"
+        "Produção Textual",
+        "Português",
+        "Português Instrumental",
+        "Língua Portuguesa I",
+        "Leitura e Produção de Texto",
+        "Produção de Textos Acadêmicos",
+        "Comunicação Oral e Escrita",
+        "Redação Acadêmica",
+        "Português Jurídico"
       ],
       "area": "Letras",
       "topicos": [
@@ -478,7 +545,11 @@
       "apelidos": [
         "Química Geral I",
         "Química Básica",
-        "Química Fundamental"
+        "Química Fundamental",
+        "Química Geral e Experimental",
+        "Química Geral Teórica",
+        "Química Geral e Inorgânica",
+        "Química Geral A"
       ],
       "area": "Exatas",
       "topicos": [
@@ -515,7 +586,12 @@
         "TGA",
         "Introdução à Administração",
         "Fundamentos da Administração",
-        "Teorias da Administração"
+        "Teorias da Administração",
+        "Teoria Geral da Administração I",
+        "TGA I",
+        "Administração Geral",
+        "Introdução à Administração I",
+        "Fundamentos de Administração"
       ],
       "area": "Negócios",
       "topicos": [
