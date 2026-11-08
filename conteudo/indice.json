@@ -250,6 +250,88 @@
       ]
     },
     {
+      "id": "didatica",
+      "nome": "Didática",
+      "apelidos": [
+        "Didática Geral",
+        "Didática I",
+        "Didática e Prática de Ensino",
+        "Fundamentos da Didática",
+        "Didática e Formação de Professores",
+        "Organização do Trabalho Pedagógico",
+        "Planejamento e Avaliação",
+        "Avaliação da Aprendizagem",
+        "Teoria e Prática de Ensino"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Didática: objeto e tendências pedagógicas"
+        },
+        {
+          "id": "planejamento",
+          "nome": "Planejamento de ensino"
+        },
+        {
+          "id": "metodos",
+          "nome": "Métodos e estratégias de ensino"
+        },
+        {
+          "id": "avaliacao",
+          "nome": "Avaliação da aprendizagem"
+        },
+        {
+          "id": "aprendizagem",
+          "nome": "Teorias da aprendizagem na sala de aula"
+        },
+        {
+          "id": "relacao-gestao",
+          "nome": "Relação professor-aluno e gestão da sala"
+        }
+      ]
+    },
+    {
+      "id": "direito-civil-geral",
+      "nome": "Direito Civil – Parte Geral",
+      "apelidos": [
+        "Direito Civil",
+        "Direito Civil I",
+        "Teoria Geral do Direito Civil",
+        "Parte Geral do Direito Civil",
+        "Direito Civil Parte Geral I",
+        "Instituições de Direito Civil",
+        "Noções de Direito Civil"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "pessoa-natural",
+          "nome": "Pessoa natural: personalidade e capacidade"
+        },
+        {
+          "id": "direitos-personalidade",
+          "nome": "Direitos da personalidade, domicílio e ausência"
+        },
+        {
+          "id": "pessoa-juridica",
+          "nome": "Pessoa jurídica"
+        },
+        {
+          "id": "bens",
+          "nome": "Bens"
+        },
+        {
+          "id": "negocio-juridico",
+          "nome": "Negócio jurídico e defeitos"
+        },
+        {
+          "id": "invalidade-prescricao",
+          "nome": "Invalidade, prescrição e decadência"
+        }
+      ]
+    },
+    {
       "id": "direito-constitucional",
       "nome": "Direito Constitucional",
       "apelidos": [
@@ -373,6 +455,49 @@
       ]
     },
     {
+      "id": "fisiologia-humana",
+      "nome": "Fisiologia Humana",
+      "apelidos": [
+        "Fisiologia",
+        "Fisiologia Humana I",
+        "Fisiologia Geral",
+        "Fisiologia Básica",
+        "Fisiologia dos Sistemas",
+        "Fisiologia Humana e Biofísica",
+        "Fisiologia Aplicada à Enfermagem",
+        "Fisiologia Aplicada à Nutrição",
+        "Fisiologia Humana Básica",
+        "Bases Fisiológicas"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "membrana-potencial",
+          "nome": "Membrana, transporte e potencial de ação"
+        },
+        {
+          "id": "sistema-nervoso",
+          "nome": "Sistema nervoso e controle autônomo"
+        },
+        {
+          "id": "cardiovascular",
+          "nome": "Sistema cardiovascular"
+        },
+        {
+          "id": "respiratorio",
+          "nome": "Sistema respiratório"
+        },
+        {
+          "id": "renal",
+          "nome": "Sistema renal e equilíbrio hídrico"
+        },
+        {
+          "id": "endocrino",
+          "nome": "Sistema endócrino"
+        }
+      ]
+    },
+    {
       "id": "introducao-direito",
       "nome": "Introdução ao Estudo do Direito",
       "apelidos": [
@@ -449,6 +574,46 @@
         {
           "id": "politicas-economicas",
           "nome": "Políticas monetária e fiscal"
+        }
+      ]
+    },
+    {
+      "id": "matematica-financeira",
+      "nome": "Matemática Financeira",
+      "apelidos": [
+        "Matemática Financeira I",
+        "Matemática Financeira Aplicada",
+        "Matemática Comercial e Financeira",
+        "Engenharia Econômica",
+        "Cálculo Financeiro",
+        "Matemática Financeira e Análise de Investimentos",
+        "Finanças Pessoais"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "porcentagem",
+          "nome": "Porcentagem, aumentos e descontos"
+        },
+        {
+          "id": "juros-simples",
+          "nome": "Juros simples"
+        },
+        {
+          "id": "juros-compostos",
+          "nome": "Juros compostos"
+        },
+        {
+          "id": "taxas",
+          "nome": "Taxas equivalentes, nominais e reais"
+        },
+        {
+          "id": "series",
+          "nome": "Séries de pagamentos e financiamento"
+        },
+        {
+          "id": "amortizacao",
+          "nome": "Sistemas de amortização (SAC e Price)"
         }
       ]
     },

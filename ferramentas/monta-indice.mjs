@@ -209,10 +209,65 @@ export const EXTRA = {
       "Introdução à Administração I",
       "Fundamentos de Administração"
     ]
+  },
+  "fisiologia-humana": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Fisiologia",
+      "Fisiologia Humana I",
+      "Fisiologia Geral",
+      "Fisiologia Básica",
+      "Fisiologia dos Sistemas",
+      "Fisiologia Humana e Biofísica",
+      "Fisiologia Aplicada à Enfermagem",
+      "Fisiologia Aplicada à Nutrição",
+      "Fisiologia Humana Básica",
+      "Bases Fisiológicas"
+    ]
+  },
+  "didatica": {
+    "area": "Educação",
+    "apelidos": [
+      "Didática Geral",
+      "Didática I",
+      "Didática e Prática de Ensino",
+      "Fundamentos da Didática",
+      "Didática e Formação de Professores",
+      "Organização do Trabalho Pedagógico",
+      "Planejamento e Avaliação",
+      "Avaliação da Aprendizagem",
+      "Teoria e Prática de Ensino"
+    ]
+  },
+  "matematica-financeira": {
+    "area": "Negócios",
+    "apelidos": [
+      "Matemática Financeira I",
+      "Matemática Financeira Aplicada",
+      "Matemática Comercial e Financeira",
+      "Engenharia Econômica",
+      "Cálculo Financeiro",
+      "Matemática Financeira e Análise de Investimentos",
+      "Finanças Pessoais"
+    ]
+  },
+  "direito-civil-geral": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Civil",
+      "Direito Civil I",
+      "Direito Civil: Parte Geral",
+      "Direito Civil - Parte Geral",
+      "Teoria Geral do Direito Civil",
+      "Parte Geral do Direito Civil",
+      "Direito Civil Parte Geral I",
+      "Instituições de Direito Civil",
+      "Noções de Direito Civil"
+    ]
   }
 };
 
-const arquivos = fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "indice.json").sort();
+const arquivos = fs.readdirSync(dir).filter((f) => f.endsWith(".json") && !["indice.json", "faculdades.json"].includes(f)).sort();
 const materias = arquivos.map((f) => {
   const m = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
   const extra = EXTRA[m.id] || { area: "Geral", apelidos: [] };

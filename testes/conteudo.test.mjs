@@ -43,10 +43,12 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
     "Cálculo": "calculo-1",
     "Direito": "introducao-direito",
     "Fundamentos de Anatomia": "anatomia-humana",
+    "Direito Civil I": "direito-civil-geral",
+    "Fisiologia": "fisiologia-humana",
   };
   for (const [nome, id] of Object.entries(casos)) assert.equal(achaNoBanco(nome, real), id, nome);
   // Nível diferente ou matéria diferente nunca liga.
-  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil", "Direito Penal", "Teoria", "Anatomia Veterinária", "Estatística II"]) {
+  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal", "Teoria", "Anatomia Veterinária", "Estatística II"]) {
     assert.equal(achaNoBanco(nome, real), null, nome);
   }
 });
