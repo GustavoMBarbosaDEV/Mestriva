@@ -22,3 +22,6 @@ google-services.json
 
 # Notas só do dono
 SEGURANCA-PAINEIS.md
+
+# Capturas do navegador de teste
+.playwright-mcp/

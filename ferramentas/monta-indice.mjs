@@ -10,45 +10,16 @@ const dir = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "conte
 
 /** @type {Record<string, {area: string, apelidos: string[]}>} */
 export const EXTRA = {
-  "calculo-1": {
-    "area": "Exatas",
-    "apelidos": [
-      "Cálculo 1",
-      "Cálculo Diferencial e Integral I",
-      "Cálculo A"
-    ]
-  },
   "algebra-linear": {
     "area": "Exatas",
     "apelidos": [
       "Álgebra Linear I",
       "Álgebra Linear e Geometria Analítica",
-      "Introdução à Álgebra Linear"
-    ]
-  },
-  "estatistica": {
-    "area": "Exatas",
-    "apelidos": [
-      "Estatística Básica",
-      "Probabilidade e Estatística",
-      "Estatística Aplicada",
-      "Bioestatística"
-    ]
-  },
-  "fisica-1": {
-    "area": "Exatas",
-    "apelidos": [
-      "Física 1",
-      "Física Geral I",
-      "Mecânica Clássica"
-    ]
-  },
-  "quimica-geral": {
-    "area": "Exatas",
-    "apelidos": [
-      "Química Geral I",
-      "Química Básica",
-      "Química Fundamental"
+      "Introdução à Álgebra Linear",
+      "Geometria Analítica e Álgebra Linear",
+      "GAAL",
+      "Álgebra Linear Computacional",
+      "Álgebra Linear A"
     ]
   },
   "algoritmos-programacao": {
@@ -57,15 +28,15 @@ export const EXTRA = {
       "Algoritmos",
       "Lógica de Programação",
       "Introdução à Programação",
-      "Programação I"
-    ]
-  },
-  "biologia-celular": {
-    "area": "Biológicas e Saúde",
-    "apelidos": [
-      "Biologia Celular e Molecular",
-      "Citologia",
-      "Biologia Celular e Tecidual"
+      "Programação I",
+      "Algoritmos e Estruturas de Dados I",
+      "AEDS I",
+      "Programação de Computadores",
+      "Programação de Computadores I",
+      "Algoritmos e Lógica de Programação",
+      "Introdução à Ciência da Computação",
+      "Fundamentos de Programação",
+      "Computação I"
     ]
   },
   "anatomia-humana": {
@@ -73,7 +44,113 @@ export const EXTRA = {
     "apelidos": [
       "Anatomia Sistêmica",
       "Anatomia Humana Básica",
-      "Anatomia Geral"
+      "Anatomia Geral",
+      "Anatomia Humana I",
+      "Anatomia Aplicada",
+      "Anatomia dos Sistemas",
+      "Morfologia Humana"
+    ]
+  },
+  "biologia-celular": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Biologia Celular e Molecular",
+      "Citologia",
+      "Biologia Celular e Tecidual",
+      "Citologia e Histologia",
+      "Biologia Celular e Histologia",
+      "Citologia, Histologia e Embriologia",
+      "Biologia Molecular e Celular",
+      "Biologia Celular I"
+    ]
+  },
+  "calculo-1": {
+    "area": "Exatas",
+    "apelidos": [
+      "Cálculo Diferencial e Integral I",
+      "Cálculo A",
+      "Cálculo Diferencial e Integral",
+      "Cálculo I A",
+      "Cálculo de Uma Variável",
+      "Cálculo Diferencial",
+      "Matemática I (Cálculo)",
+      "Cálculo Aplicado I"
+    ]
+  },
+  "contabilidade-introdutoria": {
+    "area": "Negócios",
+    "apelidos": [
+      "Contabilidade Geral",
+      "Contabilidade Básica",
+      "Contabilidade I",
+      "Fundamentos de Contabilidade",
+      "Contabilidade Geral I",
+      "Teoria Contábil Introdutória",
+      "Noções de Contabilidade",
+      "Contabilidade Financeira I"
+    ]
+  },
+  "direito-constitucional": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Constitucional I",
+      "Teoria da Constituição",
+      "Direito Constitucional Geral",
+      "Teoria Geral do Direito Constitucional"
+    ]
+  },
+  "estatistica": {
+    "area": "Exatas",
+    "apelidos": [
+      "Estatística Básica",
+      "Probabilidade e Estatística",
+      "Estatística Aplicada",
+      "Bioestatística",
+      "Estatística Geral",
+      "Estatística Descritiva",
+      "Probabilidade e Estatística I",
+      "Estatística e Probabilidade",
+      "Estatística Aplicada à Administração",
+      "Estatística Aplicada à Psicologia",
+      "Bioestatística I",
+      "Introdução à Estatística"
+    ]
+  },
+  "fisica-1": {
+    "area": "Exatas",
+    "apelidos": [
+      "Física Geral I",
+      "Mecânica Clássica",
+      "Física Geral e Experimental I",
+      "Física Básica I",
+      "Física Clássica I",
+      "Mecânica Básica",
+      "Física: Mecânica",
+      "Fundamentos de Mecânica"
+    ]
+  },
+  "introducao-direito": {
+    "area": "Direito",
+    "apelidos": [
+      "IED",
+      "Introdução ao Direito",
+      "Teoria Geral do Direito",
+      "Introdução ao Estudo do Direito I",
+      "Teoria do Direito",
+      "Propedêutica Jurídica"
+    ]
+  },
+  "introducao-economia": {
+    "area": "Negócios",
+    "apelidos": [
+      "Economia I",
+      "Fundamentos de Economia",
+      "Economia Geral",
+      "Introdução à Teoria Econômica",
+      "Economia",
+      "Noções de Economia",
+      "Economia Aplicada à Administração",
+      "Princípios de Economia"
     ]
   },
   "metodologia-cientifica": {
@@ -82,15 +159,57 @@ export const EXTRA = {
       "Metodologia da Pesquisa",
       "Metodologia do Trabalho Científico",
       "Iniciação Científica",
-      "Metodologia da Pesquisa Científica"
+      "Metodologia da Pesquisa Científica",
+      "Metodologia de Pesquisa",
+      "Métodos e Técnicas de Pesquisa",
+      "Seminário de Pesquisa",
+      "Pesquisa e Prática Científica",
+      "Metodologia Científica e Tecnológica"
     ]
   },
-  "introducao-economia": { "area": "Negócios", "apelidos": ["Economia I", "Fundamentos de Economia", "Economia Geral", "Introdução à Teoria Econômica"] },
-  "contabilidade-introdutoria": { "area": "Negócios", "apelidos": ["Contabilidade Geral", "Contabilidade Básica", "Contabilidade I", "Fundamentos de Contabilidade"] },
-  "teoria-geral-administracao": { "area": "Negócios", "apelidos": ["TGA", "Introdução à Administração", "Fundamentos da Administração", "Teorias da Administração"] },
-  "portugues-redacao": { "area": "Letras", "apelidos": ["Leitura e Produção de Textos", "Comunicação e Expressão", "Língua Portuguesa", "Produção Textual"] },
-  "introducao-direito": { "area": "Direito", "apelidos": ["IED", "Introdução ao Direito", "Teoria Geral do Direito"] },
-  "direito-constitucional": { "area": "Direito", "apelidos": ["Direito Constitucional I", "Teoria da Constituição"] }
+  "portugues-redacao": {
+    "area": "Letras",
+    "apelidos": [
+      "Leitura e Produção de Textos",
+      "Comunicação e Expressão",
+      "Língua Portuguesa",
+      "Produção Textual",
+      "Português",
+      "Português Instrumental",
+      "Língua Portuguesa I",
+      "Leitura e Produção de Texto",
+      "Produção de Textos Acadêmicos",
+      "Comunicação Oral e Escrita",
+      "Redação Acadêmica",
+      "Português Jurídico"
+    ]
+  },
+  "quimica-geral": {
+    "area": "Exatas",
+    "apelidos": [
+      "Química Geral I",
+      "Química Básica",
+      "Química Fundamental",
+      "Química Geral e Experimental",
+      "Química Geral Teórica",
+      "Química Geral e Inorgânica",
+      "Química Geral A"
+    ]
+  },
+  "teoria-geral-administracao": {
+    "area": "Negócios",
+    "apelidos": [
+      "TGA",
+      "Introdução à Administração",
+      "Fundamentos da Administração",
+      "Teorias da Administração",
+      "Teoria Geral da Administração I",
+      "TGA I",
+      "Administração Geral",
+      "Introdução à Administração I",
+      "Fundamentos de Administração"
+    ]
+  }
 };
 
 const arquivos = fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "indice.json").sort();
