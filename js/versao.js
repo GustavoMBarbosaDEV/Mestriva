@@ -3,6 +3,7 @@ export const VERSAO = "0.6.0";
 
 /** Novidades mostradas uma vez por versão (2 a 4 itens, no plano 2 em diante). @type {string[]} */
 export const NOVIDADES = [
+  "Agora dá para criar sua conta (Google, Microsoft ou e-mail) e usar o Mestriva em qualquer aparelho. O que você já fez vai junto.",
   "Material da aula: em Estudar, mande o PDF do professor ou fotos do quadro e o app monta resumo, conceitos, mapa, perguntas, cartões e plano de revisão.",
   "Na primeira tela, conte o que você estuda (faculdade, ensino médio, cursinho, pós, concurso ou ENEM) e escolha sua faculdade entre 467 instituições.",
   "A grade acha o conteúdo pronto mesmo com nomes diferentes, e dá para ligar uma matéria na mão.",

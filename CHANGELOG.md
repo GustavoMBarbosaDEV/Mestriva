@@ -1,8 +1,12 @@
 # Mudanças
 
-## 0.6.0 — o que você estuda, faculdades e matérias novas (ainda não publicada)
+## 0.6.0 — conta, o que você estuda, faculdades e matérias novas (ainda não publicada)
 
 **O que mudou**
+- **Conta, do mesmo jeito do Monetra:** entrar com Google, Microsoft, e-mail e senha (com confirmação do e-mail, "esqueci a senha" e recusa de senha fraca ou fácil de adivinhar) ou link por e-mail, além de "Testar sem criar conta". Os dados vão para o Firestore, um documento por item em `users/{uid}/...`, com cópia no aparelho para funcionar sem internet. Ao entrar, o que já estava no aparelho vai para a conta; se a conta já tiver dados, o app pergunta se junta tudo. Em Ajustes → Conta: formas de entrar (ligar Google, Microsoft ou criar senha), criar a conta a partir do modo teste, confirmar o e-mail, sair e excluir a conta com todos os dados. Erros em português e aviso para quem abre dentro do Instagram ou do Facebook. **Só liga quando o `firebase-config.js` for preenchido**: até lá, o app continua no modo local, igual a hoje.
+- **Regras do Firestore** (`firestore.rules`): só o dono lê e grava; cada coleção aceita só os campos que o app grava, com os mesmos limites de tamanho. Testes no emulador (`testes-regras/`, no CI pelo `regras.yml`) e um teste que confere as regras contra o `js/normaliza.js`.
+- SDK do Firebase 13.2.0 no próprio site (`vendor/`), carregado só quando o login está ligado; o Firestore (550 KB) só depois de entrar. App Check com reCAPTCHA Enterprise pronto, desligado até existir a chave.
+- A política de segurança de conteúdo (CSP) do `index.html` agora é igual à do cabeçalho do Hosting (um teste confere). Política de privacidade e termos na versão 2, com a conta.
 - **Material da aula (PDF ou foto do quadro):** em Estudar, "Enviar aula" recebe o PDF do professor (com texto ou escaneado) e fotos do quadro ou do caderno, até 10 por vez. Tudo é lido no aparelho, sem enviar nada e sem IA. O estudante confere e corrige o texto, e o app monta resumo, palavras-chave, conceitos, mapa do conteúdo, perguntas para treinar, plano de revisão (1, 3, 7 e 15 dias) e os cartões, que entram no quiz da matéria. As fotos não são guardadas, só o texto.
 - **Primeira tela nova:** a pessoa diz como quer ser chamada e escolhe o que estuda entre 6 caminhos: faculdade, ensino médio, cursinho, mestrado ou doutorado, concurso e ENEM/medicina. O passo seguinte muda conforme o caminho (ano e escola, cursinho e prova, nível e programa, concurso e banca).
 - **Faculdades e cursos do INEP:** 467 instituições (todas as federais, as estaduais de MG, SP e RJ e as particulares com mais alunos nesses estados), com os cursos de graduação de cada uma, a partir do Censo da Educação Superior 2024. A busca aceita nome, sigla ou cidade, sem acento. Quem não acha a faculdade ou o curso digita à mão e pode pedir a inclusão por um e-mail já preenchido.
@@ -12,10 +16,12 @@
 - O perfil guarda o caminho escolhido e o código INEP da faculdade.
 
 **O que foi testado**
-- Testes automáticos (258), inclusive a busca com nomes reais de grades, a conferência de cada matéria nova e a montagem do material da aula.
+- A tela de login no navegador, na largura de celular, com uma configuração falsa do Firebase: quem não entrou e abre /notas vai para o login com a volta guardada; abas, recusa de senha óbvia, link por e-mail e o erro traduzido ao tentar entrar. Sem configuração, o app segue no modo local (Ajustes mostra "sem conta").
+- Testes automáticos (287), inclusive a busca com nomes reais de grades, a conferência de cada matéria nova e a montagem do material da aula.
 - No navegador do computador, na largura de celular: a primeira tela completa (UFJF → Ciência da Computação → 3º período, perfil salvo certo) e o "Ligar a um conteúdo" na grade (buscar, escolher, desligar). Também o material da aula: PDF com texto + foto juntos, e PDF escaneado, até o leitor aberto com os cartões criados.
 
 **O que não foi testado**
+- O login de verdade (Google, Microsoft, e-mail, link, modo teste), a gravação no Firestore, a migração dos dados do aparelho e a exclusão da conta: dependem do app web criado no console do Firebase. Os testes das regras no emulador rodam só no CI (esta máquina não tem Java).
 - O material da aula com foto de quadro de verdade (letra à mão, luz ruim) e no celular: no computador foi testado com um PDF com texto, um PDF escaneado e uma imagem de quadro gerada, todos lidos certo. Letra cursiva deve sair com erros; por isso o texto aparece para corrigir antes de montar.
 - Os caminhos de ensino médio, cursinho, pós, concurso e ENEM no navegador (só nos testes automáticos).
 - No celular de verdade.
