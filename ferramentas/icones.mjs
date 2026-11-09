@@ -12,7 +12,7 @@ export const NOMES = ["Accessibility", "AlertTriangle", "ArrowLeft", "ArrowRight
   "Copy", "ExternalLink", "FileUp", "Focus", "GraduationCap", "LayoutDashboard", "Loader2", "Lock", "LogIn", "LogOut", "Mail",
   "MessageSquare", "Mic", "Moon", "Palette", "Pause", "Pencil", "Play", "Plus", "RefreshCw", "RotateCcw", "Send", "Settings",
   "ShieldCheck", "SkipForward", "Smartphone", "Sparkles", "Square", "Sun", "Target", "Trash2", "Upload", "UserPlus", "Volume2",
-  "Wand2", "X", "XCircle", "Download", "Users", "School", "Library", "Landmark", "Stethoscope", "FlaskConical", "Search", "Building2"];
+  "Wand2", "X", "XCircle", "Download", "Users", "School", "Library", "Landmark", "Stethoscope", "FlaskConical", "Search", "Building2", "Camera"];
 
 // Nomes antigos que mudaram de arquivo na lucide-static.
 const APELIDO = {

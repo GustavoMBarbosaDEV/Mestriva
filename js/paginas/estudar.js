@@ -8,7 +8,7 @@ import { vazio } from "../ui/vazio.js";
 import { campo, CLASSE_CAMPO, CLASSE_TEXTO } from "../ui/formulario.js";
 import { criaTela } from "../ui/pagina.js";
 import { desenhaPomodoro, montaPomodoro, pomodoroInicial } from "../ui/pomodoro.js";
-import { abreLeitor, ROTULO_TIPO } from "../ui/leitor.js";
+import { abreLeitor, ROTULO_TIPO, salvaCartoesDoMaterial } from "../ui/leitor.js";
 import { botaoDitar, temDitado, dita } from "../ui/fala.js";
 import { carregaIndice, carregaMateria } from "../banco.js";
 import { bancoDaMateria } from "../conteudo.js";
@@ -73,6 +73,16 @@ function formulario(f, materias) {
   </section>`;
 }
 
+/** Chamada para o material da aula: PDF do professor ou foto do quadro. */
+export const CARTAO_AULA = `<section class="panel flex flex-col gap-3 p-5 sm:flex-row sm:items-center">
+  <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-electric/10">${icone("Camera", "h-5 w-5 text-electric")}</span>
+  <div class="min-w-0 flex-1">
+    <h2 class="text-sm font-semibold">Material da aula: PDF ou foto do quadro</h2>
+    <p class="mt-1 text-xs text-muted-foreground">Envie o que o professor passou. O app lê no seu aparelho e monta resumo, conceitos, mapa, perguntas, cartões e plano de revisão.</p>
+  </div>
+  <button type="button" data-acao="aula" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-ink px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-ink/90">${icone("FileUp", "h-4 w-4 text-neon")}Enviar aula</button>
+</section>`;
+
 function listaMateriais(materiais) {
   const corpo = materiais.length
     ? `<ul class="space-y-2">${materiais
@@ -124,7 +134,7 @@ export function desenha(f, materias, materiais, prova, pomodoro, agora = new Dat
       acoes: `<button type="button" data-acao="foco" class="${BOTAO_CONTORNO}">${icone("Sparkles")}Modo foco</button>`,
     })}
     <div class="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
-      <div class="min-w-0 space-y-5"><div data-form>${formulario(f, materias)}</div>${listaMateriais(materiais)}<div data-banco></div></div>
+      <div class="min-w-0 space-y-5">${CARTAO_AULA}<div data-form>${formulario(f, materias)}</div>${listaMateriais(materiais)}<div data-banco></div></div>
       <div class="min-w-0 space-y-5">${cartaoProva(prova, agora)}<div data-pomodoro>${desenhaPomodoro(pomodoro, materias, "")}</div>${METODOS}</div>
     </div>
   </div>`;
@@ -183,6 +193,26 @@ export function montar(raiz, ctx) {
     } else if (acao === "abrir") {
       const m = ctx.loja.pega("materiais", el.dataset.id);
       if (m) abreLeitor({ material: m, loja: ctx.loja, anuncia: ctx.anuncia, aoExcluir: redesenhaLista });
+    } else if (acao === "aula") {
+      // Leitores de PDF e de foto só carregam quando usados.
+      Promise.all([import("../importar.js"), import("../ui/dialogo-aula.js")]).then(([imp, dlg]) =>
+        dlg.abreDialogoAula({
+          loja: ctx.loja,
+          anuncia: ctx.anuncia,
+          materias,
+          subject: form.estado.subject,
+          lePdf: imp.textoDoPdfDaAula,
+          leImagens: imp.textoDasImagens,
+          prepara: imp.preparaFoto,
+          aoMontar(m) {
+            redesenhaLista();
+            const n = salvaCartoesDoMaterial(ctx.loja, m);
+            const aviso = `Material montado${n ? ` e ${n} cartões criados para o quiz${m.subject ? ` de ${m.subject}` : ""}` : ""}.${m.cortado ? " O texto era longo: só o começo entrou." : ""}`;
+            abreLeitor({ material: m, loja: ctx.loja, anuncia: ctx.anuncia, aoExcluir: redesenhaLista, aviso });
+            ctx.anuncia(aviso);
+          },
+        })
+      );
     } else if (acao === "usar-prova") {
       const p = proximaProva(ctx.loja.lista("eventos"));
       if (!p) return;

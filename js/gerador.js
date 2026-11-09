@@ -7,12 +7,14 @@ const ponto = (t) => (/[.!?]$/.test(t) ? t : `${t}.`);
 /** Primeira letra minúscula, a não ser em sigla (ATP, DNA). */
 const termo = (t) => (t.length > 1 && t[1] === t[1].toLowerCase() ? t[0].toLowerCase() + t.slice(1) : t);
 const ARTIGO = /^(o|a|os|as|um|uma)\s+/i;
+/** Marcador de lista no começo da linha ("- ", "* ", "1. "), que não faz parte da frase. */
+const MARCADOR = /^(?:[-*]\s+|\d{1,2}[.)]\s+)/;
 
 function frases(texto) {
   return String(texto)
     .replace(/\r\n?/g, "\n")
     .split(/(?<=[.!?])\s+|\n+/)
-    .map((f) => f.trim())
+    .map((f) => f.trim().replace(MARCADOR, ""))
     .filter(Boolean);
 }
 
@@ -37,12 +39,13 @@ export function cartoesDoTexto(texto) {
       continue;
     }
     if (/^#/.test(l)) continue;
-    const doisPontos = /^([^:.—]{2,60}?)\s*(?::|\s—\s|\s–\s)\s*(.{8,})$/.exec(l);
+    const item = l.replace(MARCADOR, "");
+    const doisPontos = /^([^:.—]{2,60}?)\s*(?::|\s—\s|\s–\s)\s*(.{8,})$/.exec(item);
     if (doisPontos && doisPontos[1].trim().split(/\s+/).length <= 5) {
       add(`O que é ${termo(semMarcacao(doisPontos[1]).replace(ARTIGO, ""))}?`, doisPontos[2]);
       continue;
     }
-    for (const f of frases(l)) {
+    for (const f of frases(item)) {
       const def = /^(.{2,60}?)\s+(?:é|são)\s+(.{8,})$/.exec(semMarcacao(f));
       if (!def) continue;
       const t = def[1].replace(ARTIGO, "").trim();

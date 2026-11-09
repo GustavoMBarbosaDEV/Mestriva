@@ -3,6 +3,7 @@
 ## 0.6.0 — o que você estuda, faculdades e matérias novas (ainda não publicada)
 
 **O que mudou**
+- **Material da aula (PDF ou foto do quadro):** em Estudar, "Enviar aula" recebe o PDF do professor (com texto ou escaneado) e fotos do quadro ou do caderno, até 10 por vez. Tudo é lido no aparelho, sem enviar nada e sem IA. O estudante confere e corrige o texto, e o app monta resumo, palavras-chave, conceitos, mapa do conteúdo, perguntas para treinar, plano de revisão (1, 3, 7 e 15 dias) e os cartões, que entram no quiz da matéria. As fotos não são guardadas, só o texto.
 - **Primeira tela nova:** a pessoa diz como quer ser chamada e escolhe o que estuda entre 6 caminhos: faculdade, ensino médio, cursinho, mestrado ou doutorado, concurso e ENEM/medicina. O passo seguinte muda conforme o caminho (ano e escola, cursinho e prova, nível e programa, concurso e banca).
 - **Faculdades e cursos do INEP:** 467 instituições (todas as federais, as estaduais de MG, SP e RJ e as particulares com mais alunos nesses estados), com os cursos de graduação de cada uma, a partir do Censo da Educação Superior 2024. A busca aceita nome, sigla ou cidade, sem acento. Quem não acha a faculdade ou o curso digita à mão e pode pedir a inclusão por um e-mail já preenchido.
 - **Grade mais esperta:** "Física Geral e Experimental I", "Anatomia" ou "Português" já acham o conteúdo pronto; níveis diferentes nunca se misturam (Cálculo II não puxa Cálculo I), e um nome de uma palavra só, como "Imunologia", não liga por engano a uma matéria que só a cita no apelido. Mais de 90 apelidos novos tirados de grades reais.
@@ -11,10 +12,11 @@
 - O perfil guarda o caminho escolhido e o código INEP da faculdade.
 
 **O que foi testado**
-- Testes automáticos (231), inclusive a busca com nomes reais de grades e a conferência de cada matéria nova.
-- No navegador do computador, na largura de celular: a primeira tela completa (UFJF → Ciência da Computação → 3º período, perfil salvo certo) e o "Ligar a um conteúdo" na grade (buscar, escolher, desligar).
+- Testes automáticos (258), inclusive a busca com nomes reais de grades, a conferência de cada matéria nova e a montagem do material da aula.
+- No navegador do computador, na largura de celular: a primeira tela completa (UFJF → Ciência da Computação → 3º período, perfil salvo certo) e o "Ligar a um conteúdo" na grade (buscar, escolher, desligar). Também o material da aula: PDF com texto + foto juntos, e PDF escaneado, até o leitor aberto com os cartões criados.
 
 **O que não foi testado**
+- O material da aula com foto de quadro de verdade (letra à mão, luz ruim) e no celular: no computador foi testado com um PDF com texto, um PDF escaneado e uma imagem de quadro gerada, todos lidos certo. Letra cursiva deve sair com erros; por isso o texto aparece para corrigir antes de montar.
 - Os caminhos de ensino médio, cursinho, pós, concurso e ENEM no navegador (só nos testes automáticos).
 - No celular de verdade.
 - A tela de Ajustes ainda não mostra o caminho escolhido.

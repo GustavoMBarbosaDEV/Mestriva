@@ -91,29 +91,80 @@ export function materiasDoTextoExtraido(texto) {
   return saida.slice(0, 80);
 }
 
-/** Texto de um PDF (todas as páginas), no aparelho. @param {File} arquivo */
-export async function textoDoPdf(arquivo) {
+async function abrePdf(arquivo) {
   const pdfjs = await import(`${PDFJS}/pdf.min.mjs`);
   pdfjs.GlobalWorkerOptions.workerSrc = `${PDFJS}/pdf.worker.min.mjs`;
-  const tarefa = pdfjs.getDocument({ data: new Uint8Array(await arquivo.arrayBuffer()), isEvalSupported: false });
-  const doc = await tarefa.promise;
-  const linhas = [];
-  for (let i = 1; i <= Math.min(doc.numPages, 30); i += 1) {
-    const pagina = await doc.getPage(i);
-    const conteudo = await pagina.getTextContent();
-    linhas.push(...linhasDosItens(conteudo.items));
+  return pdfjs.getDocument({ data: new Uint8Array(await arquivo.arrayBuffer()), isEvalSupported: false });
+}
+
+/** Texto de um PDF (até `maxPaginas` páginas), no aparelho. @param {File} arquivo @param {number} [maxPaginas] */
+export async function textoDoPdf(arquivo, maxPaginas = 30) {
+  const tarefa = await abrePdf(arquivo);
+  try {
+    const doc = await tarefa.promise;
+    const linhas = [];
+    for (let i = 1; i <= Math.min(doc.numPages, maxPaginas); i += 1) {
+      const pagina = await doc.getPage(i);
+      const conteudo = await pagina.getTextContent();
+      linhas.push(...linhasDosItens(conteudo.items), "");
+    }
+    return linhas.join("\n");
+  } finally {
+    await tarefa.destroy();
   }
-  await tarefa.destroy();
-  return linhas.join("\n");
+}
+
+/** PDF escaneado: quase nenhuma letra por página (o texto está só na imagem). */
+export const pareceEscaneado = (texto, paginas) => (String(texto).match(/\p{L}/gu) || []).length < 40 * Math.max(1, paginas);
+
+/**
+ * Texto de um PDF de aula: lê o texto do arquivo e, se ele for escaneado, reconhece as páginas como fotos.
+ * @param {File} arquivo @param {(p: number) => void} [progresso] 0–1
+ * @returns {Promise<{texto: string, escaneado: boolean, paginas: number}>}
+ */
+export async function textoDoPdfDaAula(arquivo, progresso = () => {}) {
+  const tarefa = await abrePdf(arquivo);
+  try {
+    const doc = await tarefa.promise;
+    const paginas = Math.min(doc.numPages, 60);
+    const linhas = [];
+    for (let i = 1; i <= paginas; i += 1) {
+      const conteudo = await (await doc.getPage(i)).getTextContent();
+      linhas.push(...linhasDosItens(conteudo.items), "");
+      progresso((i / paginas) * 0.2);
+    }
+    const texto = linhas.join("\n");
+    if (!pareceEscaneado(texto, paginas)) return { texto, escaneado: false, paginas };
+    // Escaneado: desenha as páginas (até 20) e lê como fotos.
+    const imagens = [];
+    const ate = Math.min(paginas, 20);
+    for (let i = 1; i <= ate; i += 1) {
+      const pagina = await doc.getPage(i);
+      const base = pagina.getViewport({ scale: 1 });
+      const viewport = pagina.getViewport({ scale: Math.min(2.5, 1800 / base.width) });
+      const canvas = document.createElement("canvas");
+      canvas.width = Math.floor(viewport.width);
+      canvas.height = Math.floor(viewport.height);
+      await pagina.render({ canvas, canvasContext: canvas.getContext("2d"), viewport }).promise;
+      imagens.push(await new Promise((ok) => canvas.toBlob(ok, "image/png")));
+    }
+    const lido = await textoDasImagens(imagens.filter(Boolean), (p) => progresso(0.2 + p * 0.8));
+    return { texto: lido, escaneado: true, paginas: ate };
+  } finally {
+    await tarefa.destroy();
+  }
 }
 
 const TESS = "/vendor/tesseract-7.0.0";
 
 /**
- * Texto de uma foto da grade, reconhecido no aparelho (Tesseract). Na primeira vez baixa uns 10 MB
- * (motor e português), que ficam guardados no aparelho. @param {File} arquivo @param {(p: number) => void} [progresso] 0–1
+ * Texto de várias imagens, reconhecido no aparelho (Tesseract), com um só motor para todas.
+ * Na primeira vez baixa uns 10 MB (motor e português), que ficam guardados no aparelho.
+ * @param {Blob[]} imagens @param {(p: number) => void} [progresso] 0–1 do conjunto
  */
-export async function textoDaFoto(arquivo, progresso = () => {}) {
+export async function textoDasImagens(imagens, progresso = () => {}) {
+  if (!imagens.length) return "";
+  let feitas = 0;
   const mod = await import(`${TESS}/tesseract.esm.min.js`);
   const createWorker = mod.createWorker || mod.default?.createWorker;
   const worker = await createWorker("por", 1, {
@@ -122,12 +173,43 @@ export async function textoDaFoto(arquivo, progresso = () => {}) {
     langPath: `${TESS}/lang`,
     workerBlobURL: false,
     gzip: true,
-    logger: (m) => { if (m.status === "recognizing text") progresso(m.progress || 0); },
+    logger: (m) => { if (m.status === "recognizing text") progresso((feitas + (m.progress || 0)) / imagens.length); },
   });
   try {
-    const { data } = await worker.recognize(arquivo);
-    return data.text || "";
+    const partes = [];
+    for (const img of imagens) {
+      const { data } = await worker.recognize(img);
+      partes.push(data.text || "");
+      feitas += 1;
+      progresso(feitas / imagens.length);
+    }
+    return partes.join("\n\n");
   } finally {
     await worker.terminate();
+  }
+}
+
+/** Texto de uma foto da grade. @param {File} arquivo @param {(p: number) => void} [progresso] 0–1 */
+export const textoDaFoto = (arquivo, progresso = () => {}) => textoDasImagens([arquivo], progresso);
+
+/**
+ * Foto grande do celular (12 MP ou mais) fica lenta para ler; reduz para no máximo `max` pixels no lado maior
+ * e passa para tons de cinza, o que ajuda a leitura de quadro. Se o navegador não conseguir, usa a original.
+ * @param {File} arquivo @param {number} [max]
+ */
+export async function preparaFoto(arquivo, max = 2000) {
+  try {
+    const bmp = await createImageBitmap(arquivo);
+    const escala = Math.min(1, max / Math.max(bmp.width, bmp.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.round(bmp.width * escala);
+    canvas.height = Math.round(bmp.height * escala);
+    const ctx = /** @type {CanvasRenderingContext2D} */ (canvas.getContext("2d"));
+    ctx.filter = "grayscale(1) contrast(1.4)";
+    ctx.drawImage(bmp, 0, 0, canvas.width, canvas.height);
+    bmp.close?.();
+    return (await new Promise((ok) => canvas.toBlob(ok, "image/jpeg", 0.92))) || arquivo;
+  } catch {
+    return arquivo;
   }
 }

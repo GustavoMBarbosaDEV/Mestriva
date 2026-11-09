@@ -145,8 +145,10 @@ export function normMaterial(v) {
     title: txt(d.title, 160),
     subject: txt(d.subject, 120),
     topic: txt(d.topic, 200),
-    kind: um(d.kind, ["resumo", "guia", "mapa", "revisao"]),
+    kind: um(d.kind, ["resumo", "guia", "mapa", "revisao", "aula"]),
     content: txt(d.content, 60000),
+    // Material da aula (PDF ou foto do quadro): o texto lido, organizado, de onde saem os cartões.
+    fonte: txt(d.fonte, 32000),
   };
 }
 

@@ -55,3 +55,8 @@ test("questões de múltipla escolha com distratores dos outros cartões", () =>
   }
   assert.deepEqual(questoesDoEstudante(c.slice(0, 3)), []);
 });
+
+test("marcador de lista não entra na pergunta", () => {
+  const cs = cartoesDoTexto("- Mitose: divisão que gera duas células iguais\n1. A meiose é a divisão que gera gametas.");
+  assert.deepEqual(cs.map((c) => c.frente), ["O que é mitose?", "O que é meiose?"]);
+});

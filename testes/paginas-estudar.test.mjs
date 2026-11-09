@@ -67,3 +67,10 @@ test("próxima prova e página", () => {
   assert.equal(validaMaterial({ ...formMaterial(), topic: "Derivadas", content: "x" }), ""); // matéria é opcional (grade vazia não trava)
   assert.ok(desenha(formMaterial(), [], [], null, pomodoroInicial(), agora).includes("list=\"study-subjects\""));
 });
+
+test("Estudar mostra a chamada do material da aula (PDF ou foto do quadro)", () => {
+  const h = desenha(formMaterial(), [], [{ id: "a", title: "Membrana", kind: "aula", subject: "Bio" }], null, pomodoroInicial());
+  assert.match(h, /data-acao="aula"/);
+  assert.match(h, /foto do quadro/);
+  assert.match(h, /Material da aula/);
+});

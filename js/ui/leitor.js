@@ -4,10 +4,11 @@ import { esc } from "../util.js";
 import { icone } from "../icones.js";
 import { markdownParaHtml } from "../markdown.js";
 import { cartoesDoTexto, lacunasDoTexto } from "../gerador.js";
+import { textoCompleto } from "../aula.js";
 import { abreDialogo } from "./dialogo.js";
 import { botaoOuvir, fala } from "./fala.js";
 
-export const ROTULO_TIPO = { resumo: "Resumo", guia: "Guia de revisão", mapa: "Mapa mental", revisao: "Revisão complementar" };
+export const ROTULO_TIPO = { resumo: "Resumo", guia: "Guia de revisão", mapa: "Mapa mental", revisao: "Revisão complementar", aula: "Material da aula" };
 
 /** @param {any} m @param {boolean} [falando] @param {{somenteLeitura?: boolean, aviso?: string}} [opcoes] */
 export function corpoMaterial(m, falando = false, { somenteLeitura = false, aviso = "" } = {}) {
@@ -18,22 +19,23 @@ export function corpoMaterial(m, falando = false, { somenteLeitura = false, avis
       ${somenteLeitura ? "" : `<button type="button" data-acao="excluir-material" class="inline-flex items-center gap-1.5 text-xs font-medium text-muted-foreground transition hover:text-destructive disabled:opacity-50">${icone("Trash2", "h-3.5 w-3.5")}Excluir</button>`}
     </div>
     ${aviso ? `<p role="status" class="mt-3 rounded-xl bg-secondary/70 px-3.5 py-2.5 text-xs">${esc(aviso)}</p>` : ""}
-    <article class="study-prose mt-4">${markdownParaHtml(m.content || "")}</article>`;
+    <article class="study-prose mt-4">${markdownParaHtml(textoCompleto(m))}</article>`;
 }
 
 /** Salva os cartões das anotações (sem repetir os que já existem na matéria) e diz quantos criou. */
 export function salvaCartoesDoMaterial(loja, material) {
   const existentes = new Set(loja.lista("cartoes").filter((c) => c.subject === (material.subject || "")).map((c) => c.frente));
-  const novos = [...cartoesDoTexto(material.content || ""), ...lacunasDoTexto(material.content || "")].filter((c) => !existentes.has(c.frente));
+  // No material da aula, os cartões saem do texto lido (o resumo montado repetiria as mesmas definições).
+  const base = material.fonte || material.content || "";
+  const novos = [...cartoesDoTexto(base), ...lacunasDoTexto(base)].filter((c) => !existentes.has(c.frente));
   for (const c of novos) loja.salva("cartoes", { ...c, subject: material.subject || "" });
   return novos.length;
 }
 
-/** @param {{material:any, loja:any, aoExcluir?:() => void, anuncia:(t:string)=>void, somenteLeitura?: boolean}} p */
-export function abreLeitor({ material, loja, aoExcluir, anuncia, somenteLeitura = false }) {
+/** @param {{material:any, loja:any, aoExcluir?:() => void, anuncia:(t:string)=>void, somenteLeitura?: boolean, aviso?: string}} p */
+export function abreLeitor({ material, loja, aoExcluir, anuncia, somenteLeitura = false, aviso = "" }) {
   let parar = () => {};
   let falando = false;
-  let aviso = "";
   const corpo = () => corpoMaterial(material, falando, { somenteLeitura, aviso });
   const dlg = abreDialogo({
     titulo: material.title || "Material",
@@ -53,7 +55,7 @@ export function abreLeitor({ material, loja, aoExcluir, anuncia, somenteLeitura 
       if (falando) { parar(); falando = false; }
       else {
         falando = true;
-        parar = fala(material.content || "", () => { falando = false; dlg.atualiza(corpo()); });
+        parar = fala(textoCompleto(material), () => { falando = false; dlg.atualiza(corpo()); });
       }
       dlg.atualiza(corpo());
     } else if (acao === "gerar-cartoes") {
