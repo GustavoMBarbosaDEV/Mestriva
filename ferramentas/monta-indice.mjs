@@ -576,6 +576,88 @@ export const EXTRA = {
       "Alfabetização e Linguagem",
       "Fundamentos e Metodologia da Alfabetização"
     ]
+  },
+  "contabilidade-custos": {
+    "area": "Negócios",
+    "apelidos": [
+      "Custos",
+      "Contabilidade de Custos I",
+      "Contabilidade de Custos II",
+      "Gestão de Custos",
+      "Análise de Custos",
+      "Gestão Estratégica de Custos",
+      "Custos Industriais",
+      "Contabilidade e Análise de Custos",
+      "Formação de Preços",
+      "Custos e Formação de Preços"
+    ]
+  },
+  "marketing": {
+    "area": "Negócios",
+    "apelidos": [
+      "Marketing I",
+      "Marketing II",
+      "Administração de Marketing II",
+      "Administração de Marketing",
+      "Fundamentos de Marketing",
+      "Princípios de Marketing",
+      "Gestão de Marketing",
+      "Marketing Digital",
+      "Comportamento do Consumidor",
+      "Marketing Estratégico"
+    ]
+  },
+  "gestao-pessoas": {
+    "area": "Negócios",
+    "apelidos": [
+      "Gestão de Pessoas I",
+      "Gestão de Pessoas II",
+      "Recursos Humanos",
+      "Administração de Recursos Humanos",
+      "Administração de Recursos Humanos II",
+      "Gestão de Recursos Humanos",
+      "Administração de Pessoal",
+      "Gestão de Pessoas nas Organizações",
+      "Gestão Estratégica de Pessoas",
+      "Recrutamento e Seleção"
+    ]
+  },
+  "microeconomia": {
+    "area": "Negócios",
+    "apelidos": [
+      "Microeconomia I",
+      "Microeconomia II",
+      "Teoria Microeconômica",
+      "Análise Microeconômica",
+      "Teoria Microeconômica II",
+      "Microeconomia Aplicada",
+      "Teoria dos Preços"
+    ]
+  },
+  "macroeconomia": {
+    "area": "Negócios",
+    "apelidos": [
+      "Macroeconomia I",
+      "Macroeconomia II",
+      "Teoria Macroeconômica",
+      "Análise Macroeconômica",
+      "Teoria Macroeconômica II",
+      "Macroeconomia Aplicada",
+      "Contabilidade Social"
+    ]
+  },
+  "matematica-aplicada": {
+    "area": "Negócios",
+    "apelidos": [
+      "Matemática Aplicada",
+      "Matemática Aplicada à Administração",
+      "Matemática Aplicada à Economia",
+      "Matemática Aplicada aos Negócios",
+      "Matemática para Negócios",
+      "Matemática Empresarial",
+      "Matemática Aplicada à Gestão I",
+      "Métodos Quantitativos"
+    ]
   }
 };
 

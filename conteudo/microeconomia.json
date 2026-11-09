@@ -1,0 +1,465 @@
+{
+  "id": "microeconomia",
+  "nome": "Microeconomia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "consumidor",
+      "nome": "Teoria do consumidor",
+      "resumo": "A teoria do consumidor explica como as pessoas escolhem o que comprar com uma renda limitada.\n\n### Utilidade\n- **Utilidade**: satisfação obtida com o consumo.\n- **Utilidade marginal (UMg)**: satisfação extra de uma unidade a mais. Pela **lei da utilidade marginal decrescente**, cada unidade extra traz menos satisfação (o terceiro pedaço de pizza agrada menos que o primeiro).\n\n### Restrição orçamentária\nMostra as combinações que a renda permite comprar: **Px·X + Py·Y = R**.\n- A **inclinação** da reta é **−Px/Py** (o preço relativo).\n- Aumento da **renda** desloca a reta paralelamente para fora; mudança de um **preço** gira a reta.\n\n### Curvas de indiferença\n- Cada curva reúne cestas que dão a **mesma utilidade**.\n- Curvas mais afastadas da origem = mais utilidade. Elas não se cruzam e normalmente são **convexas**.\n- A inclinação é a **taxa marginal de substituição (TMS)**: quanto de Y a pessoa aceita trocar por uma unidade de X. TMS = UMgX/UMgY.\n\n### Equilíbrio do consumidor\nA melhor cesta fica onde a curva de indiferença **tangencia** a reta orçamentária: **TMS = Px/Py**, ou seja, **UMgX/Px = UMgY/Py** (a última moeda gasta em cada bem traz a mesma satisfação).\n\n### Efeitos de uma mudança de preço\n- **Efeito substituição**: o bem que ficou relativamente mais barato passa a ser preferido.\n- **Efeito renda**: a queda de preço aumenta o poder de compra.\n- **Bem normal**: demanda sobe com a renda. **Bem inferior**: demanda cai com a renda. **Bem de Giffen**: caso raro de bem inferior em que a demanda sobe quando o preço sobe.",
+      "revisao": "**Lembre:**\n- UMg decrescente.\n- Reta orçamentária: inclinação −Px/Py.\n- Equilíbrio: TMS = Px/Py, ou UMgX/Px = UMgY/Py.\n- Efeito substituição + efeito renda.\n- Bem inferior: demanda cai quando a renda sobe."
+    },
+    {
+      "id": "producao",
+      "nome": "Produção e custos",
+      "resumo": "### Produção\n- **Curto prazo**: ao menos um fator é **fixo** (por exemplo, o tamanho da fábrica). **Longo prazo**: todos os fatores são variáveis.\n- **Produto marginal (PMg)**: produção extra de mais uma unidade do fator variável.\n- **Lei dos rendimentos decrescentes**: com um fator fixo, acrescentar mais do variável faz o PMg cair a partir de certo ponto.\n- **Produto médio (PMe)** = produção total ÷ quantidade do fator.\n\n### Custos de curto prazo\n- **Custo fixo (CF)**: não muda com a produção. **Custo variável (CV)**: muda.\n- **Custo total**: CT = CF + CV.\n- **Custos médios**: CFMe = CF/Q (sempre cai), CVMe = CV/Q, CTMe = CT/Q.\n- **Custo marginal (CMg)**: custo de produzir uma unidade a mais, ΔCT/ΔQ.\n- A curva de CMg corta as curvas de **CVMe e CTMe nos seus pontos mínimos** (formato de U).\n\n### Longo prazo\n- **Economias de escala**: o custo médio cai quando a produção aumenta (compras maiores, especialização).\n- **Deseconomias de escala**: o custo médio sobe por dificuldades de coordenar uma empresa grande.\n- **Retornos de escala**: dobrar todos os fatores pode mais que dobrar (crescentes), dobrar (constantes) ou menos que dobrar (decrescentes) a produção.\n\n### Custos econômicos × contábeis\nO **custo econômico** inclui o **custo de oportunidade** (o que se deixou de ganhar). Por isso o **lucro econômico** pode ser zero mesmo com lucro contábil positivo; **lucro econômico zero** significa que a empresa ganha o mesmo que ganharia na melhor alternativa (**lucro normal**).",
+      "revisao": "**Lembre:**\n- Curto prazo: algum fator fixo.\n- Rendimentos decrescentes: PMg cai.\n- CT = CF + CV; CMg = ΔCT/ΔQ.\n- CMg corta CVMe e CTMe nos mínimos.\n- Lucro econômico zero = lucro normal."
+    },
+    {
+      "id": "concorrencia",
+      "nome": "Concorrência perfeita",
+      "resumo": "### Hipóteses\n- **Muitos** compradores e vendedores, nenhum capaz de influenciar o preço (são **tomadores de preço**).\n- Produto **homogêneo**.\n- **Livre entrada e saída**.\n- **Informação perfeita**.\n\n### Decisão da empresa\n- O preço é dado pelo mercado, então a **receita marginal (RMg) = preço**.\n- Regra de ouro (vale para qualquer estrutura): produzir onde **RMg = CMg**. Na concorrência perfeita, **P = CMg**.\n- **Lucro** = (P − CTMe) × Q.\n\n### Curto prazo\n- Se **P > CTMe**: lucro econômico.\n- Se **CVMe < P < CTMe**: prejuízo, mas a empresa continua produzindo, porque cobre os custos variáveis e parte dos fixos.\n- Se **P < CVMe mínimo**: a empresa **fecha** (ponto de fechamento), pois perderia menos parando.\n- A **curva de oferta** de curto prazo da empresa é a parte da curva de CMg acima do CVMe mínimo.\n\n### Longo prazo\n- Lucro econômico atrai **novas empresas**; a oferta aumenta e o preço cai.\n- Prejuízo faz empresas saírem; o preço sobe.\n- O equilíbrio de longo prazo tem **P = CMg = CTMe mínimo** e **lucro econômico zero**.\n\n### Eficiência\nA concorrência perfeita é eficiente: **P = CMg** (eficiência alocativa) e produção no **CTMe mínimo** (eficiência produtiva). O **excedente do consumidor** mais o **excedente do produtor** é máximo.",
+      "revisao": "**Lembre:**\n- Tomador de preço: RMg = P.\n- Produzir onde P = CMg.\n- Fecha se P < CVMe mínimo.\n- Longo prazo: lucro econômico zero, P = CTMe mínimo.\n- Excedente total máximo."
+    },
+    {
+      "id": "monopolio",
+      "nome": "Monopólio e concorrência monopolística",
+      "resumo": "### Monopólio\n- **Uma só empresa**, produto **sem substitutos próximos**, **barreiras à entrada**.\n- Barreiras: **patentes**, controle de um insumo essencial, **licença** do governo, **economias de escala** (monopólio natural, como redes de água e esgoto).\n- O monopolista é **formador de preço**: enfrenta a curva de demanda do mercado (negativamente inclinada), então a **RMg é menor que o preço**.\n- Produz onde **RMg = CMg** e cobra o preço que a demanda aceita para essa quantidade, com **P > CMg**.\n- Resultado: produz **menos** e cobra **mais** que na concorrência perfeita, gerando **peso morto** (perda de bem-estar).\n- **Discriminação de preços**: cobrar preços diferentes de grupos diferentes pelo mesmo produto (meia-entrada, tarifas de avião). Pode capturar parte do excedente do consumidor.\n- **Índice de Lerner**: (P − CMg)/P, mede o poder de mercado.\n\n### Monopólio natural\nQuando uma só empresa produz com custo médio menor que várias juntas (custos fixos enormes). O governo costuma **regular** o preço por meio de agências (Aneel, Anatel).\n\n### Concorrência monopolística\n- **Muitas empresas**, produtos **diferenciados** (marca, local, qualidade), **livre entrada**.\n- Cada empresa tem um pequeno poder sobre o próprio preço (restaurantes, salões, roupas).\n- No curto prazo pode lucrar; no longo prazo a entrada de concorrentes leva o **lucro econômico a zero**, mas com **capacidade ociosa** (não produz no CTMe mínimo).",
+      "revisao": "**Lembre:**\n- Monopólio: RMg < P; produz onde RMg = CMg.\n- Monopólio gera peso morto (menos Q, mais P).\n- Barreiras: patentes, licenças, escala.\n- Lerner = (P − CMg)/P.\n- Concorrência monopolística: diferenciação + livre entrada; lucro zero no longo prazo."
+    },
+    {
+      "id": "oligopolio",
+      "nome": "Oligopólio e teoria dos jogos",
+      "resumo": "### Oligopólio\n- **Poucas empresas** grandes, com **interdependência**: a decisão de uma afeta as outras (combustíveis, telefonia, aviação).\n- Barreiras à entrada significativas.\n- Modelos clássicos:\n  - **Cournot**: as empresas escolhem **quantidades** ao mesmo tempo.\n  - **Bertrand**: escolhem **preços**; com produtos iguais, o preço tende ao custo marginal (paradoxo de Bertrand).\n  - **Stackelberg**: uma empresa **líder** decide primeiro a quantidade e as seguidoras reagem.\n- **Cartel**: empresas combinam preços ou quantidades para agir como monopólio. É **ilegal** no Brasil (o **Cade** investiga). Cartéis são instáveis, porque cada membro tem incentivo a trapacear.\n\n### Teoria dos jogos\n- Estuda decisões em que o resultado de cada um depende da escolha dos outros.\n- **Estratégia dominante**: é a melhor, qualquer que seja a escolha do outro.\n- **Equilíbrio de Nash**: situação em que **nenhum jogador quer mudar** sua escolha, dado o que o outro faz.\n- **Dilema dos prisioneiros**: cada um, buscando o melhor para si, leva os dois a um resultado **pior** do que se cooperassem. Explica por que cartéis se desfazem e por que empresas entram em guerras de preços.\n- **Jogos repetidos**: quando o jogo se repete, a cooperação fica mais fácil (estratégia \"olho por olho\").\n\n### Indicadores de concentração\n- **Razão de concentração (CR4)**: participação somada das 4 maiores empresas.\n- **Índice HHI** (Herfindahl-Hirschman): soma dos quadrados das participações (em %). Vai até 10.000 (monopólio). Quanto maior, mais concentrado.",
+      "revisao": "**Lembre:**\n- Oligopólio: poucas empresas interdependentes.\n- Cournot (quantidades), Bertrand (preços), Stackelberg (líder).\n- Nash: ninguém quer mudar sozinho.\n- Dilema dos prisioneiros: individual racional, coletivo pior.\n- HHI = soma dos quadrados das participações."
+    },
+    {
+      "id": "falhas",
+      "nome": "Falhas de mercado",
+      "resumo": "Nem sempre o mercado sozinho leva ao melhor resultado para a sociedade. As **falhas de mercado** justificam, em alguns casos, a atuação do governo.\n\n### Externalidades\nEfeitos de uma atividade sobre terceiros que **não são pagos** nem recebidos no preço.\n- **Negativa**: poluição de uma fábrica, barulho. O mercado produz **demais**, porque o custo social é maior que o custo privado.\n- **Positiva**: vacinação, educação, um jardim bonito. O mercado produz **de menos**.\n- Soluções: **imposto de Pigou** (taxa igual ao dano), **subsídios**, **regulação**, **direitos de propriedade** e negociação (teorema de **Coase**: se os custos de negociar forem baixos, as partes chegam sozinhas à solução eficiente).\n- **Mercado de licenças** de poluição (créditos de carbono).\n\n### Bens públicos\n- **Não rivais** (o uso de um não reduz o do outro) e **não excludentes** (não dá para impedir quem não paga).\n- Exemplos: iluminação pública, defesa nacional.\n- Problema do **carona** (*free rider*): todos querem usar, ninguém quer pagar; o mercado não oferece o suficiente.\n- **Recursos comuns** (rivais, mas não excludentes, como peixes no mar) sofrem a **tragédia dos comuns**: uso excessivo.\n\n### Informação assimétrica\n- Um lado sabe mais que o outro.\n- **Seleção adversa** (antes do contrato): no mercado de carros usados, os bons saem do mercado (Akerlof, \"mercado de limões\").\n- **Risco moral** (depois do contrato): quem tem seguro pode ficar menos cuidadoso.\n- Soluções: **sinalização** (diplomas, garantias), **franquias** e **coparticipação** em seguros.\n\n### Poder de mercado\nMonopólios e cartéis reduzem a quantidade e aumentam o preço; a resposta é a **defesa da concorrência** (Cade) e a **regulação**.",
+      "revisao": "**Lembre:**\n- Externalidade negativa: produção demais; positiva: de menos.\n- Pigou: imposto igual ao dano; Coase: negociação.\n- Bem público: não rival e não excludente; carona.\n- Seleção adversa (antes) × risco moral (depois).\n- Tragédia dos comuns: recurso comum usado demais."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "microeconomia-1",
+      "topico": "consumidor",
+      "nivel": "conceitual",
+      "pergunta": "A lei da utilidade marginal decrescente diz que:",
+      "opcoes": [
+        "Cada unidade extra consumida traz menos satisfação que a anterior",
+        "A satisfação total sempre diminui",
+        "Bens mais caros dão menos satisfação",
+        "A utilidade é igual para todas as pessoas"
+      ],
+      "correta": 0,
+      "explicacao": "A utilidade total ainda pode crescer, mas cresce cada vez menos."
+    },
+    {
+      "id": "microeconomia-2",
+      "topico": "consumidor",
+      "nivel": "conceitual",
+      "pergunta": "No equilíbrio do consumidor, vale a condição:",
+      "opcoes": [
+        "Px = Py",
+        "UMgX/Px = UMgY/Py",
+        "UMgX = UMgY sempre",
+        "A renda é toda gasta em um só bem"
+      ],
+      "correta": 1,
+      "explicacao": "A última moeda gasta em cada bem traz a mesma satisfação; equivale a TMS = Px/Py."
+    },
+    {
+      "id": "microeconomia-3",
+      "topico": "consumidor",
+      "nivel": "conceitual",
+      "pergunta": "Um bem inferior é aquele cuja demanda:",
+      "opcoes": [
+        "Sobe quando a renda aumenta",
+        "Não depende do preço",
+        "Cai quando a renda do consumidor aumenta",
+        "É sempre de baixa qualidade técnica"
+      ],
+      "correta": 2,
+      "explicacao": "Quando a renda sobe, as pessoas trocam o bem inferior por alternativas que preferem."
+    },
+    {
+      "id": "microeconomia-4",
+      "topico": "consumidor",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa tem R$ 100 para gastar com cinema (R$ 20) e lanche (R$ 10). Qual é a inclinação da reta orçamentária, com cinema no eixo X?",
+      "opcoes": [
+        "−0,5",
+        "−10",
+        "−20",
+        "−2"
+      ],
+      "correta": 3,
+      "explicacao": "A inclinação é −Px/Py = −20/10 = −2: cada ida ao cinema custa 2 lanches."
+    },
+    {
+      "id": "microeconomia-5",
+      "topico": "consumidor",
+      "nivel": "analise",
+      "pergunta": "Na cesta escolhida, a UMg do último cinema é 40 (preço R$ 20) e a do último lanche é 30 (preço R$ 10). O que o consumidor deveria fazer para aumentar a satisfação?",
+      "opcoes": [
+        "Comprar mais lanche e menos cinema",
+        "Comprar mais cinema e menos lanche",
+        "Manter a mesma cesta",
+        "Gastar menos dinheiro no total"
+      ],
+      "correta": 0,
+      "explicacao": "Por real gasto: cinema 40/20 = 2; lanche 30/10 = 3. O lanche rende mais satisfação por real, então vale deslocar gasto para ele."
+    },
+    {
+      "id": "microeconomia-6",
+      "topico": "producao",
+      "nivel": "conceitual",
+      "pergunta": "A lei dos rendimentos decrescentes afirma que:",
+      "opcoes": [
+        "A produção total sempre diminui",
+        "Com um fator fixo, adicionar mais do fator variável faz o produto marginal cair a partir de certo ponto",
+        "Todos os fatores são variáveis",
+        "O custo fixo cresce com a produção"
+      ],
+      "correta": 1,
+      "explicacao": "É um fenômeno de curto prazo, quando ao menos um fator está fixo."
+    },
+    {
+      "id": "microeconomia-7",
+      "topico": "producao",
+      "nivel": "conceitual",
+      "pergunta": "A curva de custo marginal corta a de custo total médio:",
+      "opcoes": [
+        "No ponto máximo do custo total médio",
+        "Nunca a corta",
+        "No ponto mínimo do custo total médio",
+        "Só quando a produção é zero"
+      ],
+      "correta": 2,
+      "explicacao": "Enquanto CMg < CTMe, a média cai; quando CMg > CTMe, a média sobe. O cruzamento é no mínimo."
+    },
+    {
+      "id": "microeconomia-8",
+      "topico": "producao",
+      "nivel": "conceitual",
+      "pergunta": "Economias de escala ocorrem quando:",
+      "opcoes": [
+        "O custo fixo desaparece",
+        "O preço de venda sobe com a produção",
+        "A empresa reduz a produção",
+        "O custo médio de longo prazo cai à medida que a produção aumenta"
+      ],
+      "correta": 3,
+      "explicacao": "Compras maiores, especialização e diluição de custos fixos reduzem o custo por unidade."
+    },
+    {
+      "id": "microeconomia-9",
+      "topico": "producao",
+      "nivel": "aplicacao",
+      "pergunta": "Produzir 10 unidades custa R$ 500 e produzir 11 custa R$ 540. Qual é o custo marginal da 11ª unidade?",
+      "opcoes": [
+        "R$ 40",
+        "R$ 49,09",
+        "R$ 50",
+        "R$ 540"
+      ],
+      "correta": 0,
+      "explicacao": "CMg = ΔCT/ΔQ = (540 − 500)/1 = R$ 40. O valor R$ 49,09 seria o custo médio (540 ÷ 11), que é outra coisa."
+    },
+    {
+      "id": "microeconomia-10",
+      "topico": "producao",
+      "nivel": "analise",
+      "pergunta": "Uma pessoa deixa um emprego de R$ 6.000 por mês para abrir um negócio que dá lucro contábil de R$ 6.000 por mês. Qual é o lucro econômico?",
+      "opcoes": [
+        "R$ 6.000",
+        "Zero, pois o custo de oportunidade é o salário que deixou de ganhar",
+        "R$ 12.000",
+        "Negativo em R$ 6.000"
+      ],
+      "correta": 1,
+      "explicacao": "Lucro econômico = lucro contábil − custo de oportunidade = 6.000 − 6.000 = 0 (lucro normal)."
+    },
+    {
+      "id": "microeconomia-11",
+      "topico": "concorrencia",
+      "nivel": "conceitual",
+      "pergunta": "Por que uma empresa em concorrência perfeita é chamada de tomadora de preço?",
+      "opcoes": [
+        "Porque o governo fixa o preço",
+        "Porque pode cobrar o que quiser",
+        "Porque é pequena demais para influenciar o preço do mercado",
+        "Porque vende produtos diferenciados"
+      ],
+      "correta": 2,
+      "explicacao": "Com muitos vendedores de um produto homogêneo, o preço é dado pelo mercado."
+    },
+    {
+      "id": "microeconomia-12",
+      "topico": "concorrencia",
+      "nivel": "conceitual",
+      "pergunta": "No longo prazo, numa concorrência perfeita, as empresas têm:",
+      "opcoes": [
+        "Lucro econômico sempre alto",
+        "Prejuízo permanente",
+        "Poder de monopólio",
+        "Lucro econômico zero"
+      ],
+      "correta": 3,
+      "explicacao": "A livre entrada elimina o lucro econômico: P = CTMe mínimo."
+    },
+    {
+      "id": "microeconomia-13",
+      "topico": "concorrencia",
+      "nivel": "conceitual",
+      "pergunta": "A empresa competitiva deve fechar no curto prazo quando:",
+      "opcoes": [
+        "O preço fica abaixo do custo variável médio mínimo",
+        "O preço fica abaixo do custo total médio",
+        "O lucro contábil é pequeno",
+        "O custo fixo é alto"
+      ],
+      "correta": 0,
+      "explicacao": "Abaixo do CVMe mínimo, nem os custos variáveis são cobertos; parar perde menos."
+    },
+    {
+      "id": "microeconomia-14",
+      "topico": "concorrencia",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa competitiva vende a R$ 20, produz 100 unidades e tem custo total médio de R$ 15. Qual é o lucro?",
+      "opcoes": [
+        "R$ 2.000",
+        "R$ 500",
+        "R$ 1.500",
+        "R$ 35"
+      ],
+      "correta": 1,
+      "explicacao": "Lucro = (P − CTMe) × Q = (20 − 15) × 100 = R$ 500."
+    },
+    {
+      "id": "microeconomia-15",
+      "topico": "concorrencia",
+      "nivel": "analise",
+      "pergunta": "O preço de mercado é R$ 8, o CVMe é R$ 6 e o CTMe é R$ 10. O que a empresa deve fazer no curto prazo?",
+      "opcoes": [
+        "Fechar imediatamente",
+        "Aumentar o preço para R$ 10",
+        "Continuar produzindo, pois cobre os custos variáveis e parte dos fixos",
+        "Produzir o máximo possível"
+      ],
+      "correta": 2,
+      "explicacao": "Com CVMe < P < CTMe, há prejuízo, mas menor do que o custo fixo que perderia parando."
+    },
+    {
+      "id": "microeconomia-16",
+      "topico": "monopolio",
+      "nivel": "conceitual",
+      "pergunta": "Por que, no monopólio, a receita marginal é menor que o preço?",
+      "opcoes": [
+        "Porque o governo cobra impostos",
+        "Porque o custo marginal é zero",
+        "Porque o produto é homogêneo",
+        "Porque, para vender mais, o monopolista precisa baixar o preço de todas as unidades"
+      ],
+      "correta": 3,
+      "explicacao": "A demanda do monopolista é a do mercado, negativamente inclinada."
+    },
+    {
+      "id": "microeconomia-17",
+      "topico": "monopolio",
+      "nivel": "conceitual",
+      "pergunta": "Comparado à concorrência perfeita, o monopólio tende a:",
+      "opcoes": [
+        "Produzir menos e cobrar mais, gerando peso morto",
+        "Produzir mais e cobrar menos",
+        "Produzir o mesmo pelo mesmo preço",
+        "Eliminar o excedente do produtor"
+      ],
+      "correta": 0,
+      "explicacao": "Ao produzir onde RMg = CMg com P > CMg, parte das trocas vantajosas deixa de acontecer."
+    },
+    {
+      "id": "microeconomia-18",
+      "topico": "monopolio",
+      "nivel": "conceitual",
+      "pergunta": "Qual é uma característica da concorrência monopolística?",
+      "opcoes": [
+        "Uma única empresa sem substitutos",
+        "Muitas empresas com produtos diferenciados e livre entrada",
+        "Poucas empresas interdependentes",
+        "Produto homogêneo e tomadoras de preço"
+      ],
+      "correta": 1,
+      "explicacao": "Restaurantes e salões de beleza são exemplos: cada um tem sua marca, mas há muitos concorrentes."
+    },
+    {
+      "id": "microeconomia-19",
+      "topico": "monopolio",
+      "nivel": "aplicacao",
+      "pergunta": "Um monopolista cobra R$ 50 e tem custo marginal de R$ 30. Qual é o índice de Lerner?",
+      "opcoes": [
+        "0,6",
+        "1,67",
+        "0,4",
+        "20"
+      ],
+      "correta": 2,
+      "explicacao": "Lerner = (P − CMg)/P = (50 − 30)/50 = 0,4. Quanto mais perto de 1, maior o poder de mercado."
+    },
+    {
+      "id": "microeconomia-20",
+      "topico": "monopolio",
+      "nivel": "analise",
+      "pergunta": "Um cinema cobra meia-entrada de estudantes e inteira dos demais. Por que isso pode ser vantajoso para ele?",
+      "opcoes": [
+        "Porque reduz o custo marginal",
+        "Porque elimina a demanda",
+        "Porque transforma o cinema em concorrência perfeita",
+        "Porque é discriminação de preços: captura mais excedente de grupos com disposição a pagar diferente"
+      ],
+      "correta": 3,
+      "explicacao": "Cobrar mais de quem paga mais e menos de quem pagaria pouco aumenta a receita total."
+    },
+    {
+      "id": "microeconomia-21",
+      "topico": "oligopolio",
+      "nivel": "conceitual",
+      "pergunta": "O que é um equilíbrio de Nash?",
+      "opcoes": [
+        "Situação em que nenhum jogador quer mudar sua escolha, dado o que os outros fazem",
+        "Situação em que todos cooperam sempre",
+        "O maior lucro possível para todos juntos",
+        "Quando o governo fixa os preços"
+      ],
+      "correta": 0,
+      "explicacao": "No equilíbrio de Nash, cada escolha é a melhor resposta à escolha dos outros."
+    },
+    {
+      "id": "microeconomia-22",
+      "topico": "oligopolio",
+      "nivel": "conceitual",
+      "pergunta": "No modelo de Stackelberg:",
+      "opcoes": [
+        "As empresas escolhem preços ao mesmo tempo",
+        "Uma empresa líder decide primeiro e as seguidoras reagem",
+        "Há uma só empresa no mercado",
+        "As empresas formam um cartel legal"
+      ],
+      "correta": 1,
+      "explicacao": "Cournot: quantidades simultâneas; Bertrand: preços; Stackelberg: líder e seguidoras."
+    },
+    {
+      "id": "microeconomia-23",
+      "topico": "oligopolio",
+      "nivel": "conceitual",
+      "pergunta": "Por que os cartéis tendem a ser instáveis?",
+      "opcoes": [
+        "Porque são legais e fáceis de manter",
+        "Porque os custos são sempre iguais",
+        "Porque cada membro tem incentivo para trapacear e vender mais que o combinado",
+        "Porque os consumidores não compram"
+      ],
+      "correta": 2,
+      "explicacao": "É o dilema dos prisioneiros: trapacear é tentador individualmente, mesmo que todos percam juntos."
+    },
+    {
+      "id": "microeconomia-24",
+      "topico": "oligopolio",
+      "nivel": "aplicacao",
+      "pergunta": "Um mercado tem quatro empresas com participações de 40%, 30%, 20% e 10%. Qual é o índice HHI?",
+      "opcoes": [
+        "100",
+        "1.000",
+        "2.500",
+        "3.000"
+      ],
+      "correta": 3,
+      "explicacao": "HHI = 40² + 30² + 20² + 10² = 1.600 + 900 + 400 + 100 = 3.000, mercado bastante concentrado."
+    },
+    {
+      "id": "microeconomia-25",
+      "topico": "oligopolio",
+      "nivel": "analise",
+      "pergunta": "Dois postos vizinhos: se ambos cobram caro, cada um lucra 10; se ambos baixam, lucram 5; se só um baixa, ele lucra 15 e o outro 2. Qual é o equilíbrio de Nash?",
+      "opcoes": [
+        "Ambos baixam o preço",
+        "Ambos cobram caro",
+        "Só um baixa o preço",
+        "Não existe equilíbrio"
+      ],
+      "correta": 0,
+      "explicacao": "Baixar é estratégia dominante (15 > 10 e 5 > 2). Os dois baixam e lucram 5, menos que os 10 da cooperação: é o dilema dos prisioneiros."
+    },
+    {
+      "id": "microeconomia-26",
+      "topico": "falhas",
+      "nivel": "conceitual",
+      "pergunta": "Uma externalidade negativa faz o mercado:",
+      "opcoes": [
+        "Produzir menos do que seria ideal",
+        "Produzir mais do que seria socialmente ideal",
+        "Produzir exatamente o ideal",
+        "Deixar de existir"
+      ],
+      "correta": 1,
+      "explicacao": "O custo social (com o dano a terceiros) é maior que o custo privado que a empresa considera."
+    },
+    {
+      "id": "microeconomia-27",
+      "topico": "falhas",
+      "nivel": "conceitual",
+      "pergunta": "Um bem público é:",
+      "opcoes": [
+        "Rival e excludente",
+        "Sempre produzido por empresas privadas",
+        "Não rival e não excludente",
+        "Vendido só para quem paga"
+      ],
+      "correta": 2,
+      "explicacao": "Iluminação pública e defesa nacional são exemplos clássicos."
+    },
+    {
+      "id": "microeconomia-28",
+      "topico": "falhas",
+      "nivel": "conceitual",
+      "pergunta": "A seleção adversa é um problema de informação que ocorre:",
+      "opcoes": [
+        "Depois do contrato, quando um lado muda de comportamento",
+        "Só em bens públicos",
+        "Só em monopólios",
+        "Antes do contrato, quando um lado esconde características relevantes"
+      ],
+      "correta": 3,
+      "explicacao": "No 'mercado de limões' de Akerlof, carros bons saem do mercado de usados. Risco moral é o problema depois do contrato."
+    },
+    {
+      "id": "microeconomia-29",
+      "topico": "falhas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma fábrica polui um rio, causando R$ 30 de dano por tonelada produzida. Que medida de Pigou corrigiria a externalidade?",
+      "opcoes": [
+        "Um imposto de R$ 30 por tonelada",
+        "Um subsídio de R$ 30 por tonelada",
+        "Proibir todos os rios",
+        "Tabelar o preço do produto"
+      ],
+      "correta": 0,
+      "explicacao": "O imposto de Pigou faz a empresa considerar o custo que joga sobre os outros."
+    },
+    {
+      "id": "microeconomia-30",
+      "topico": "falhas",
+      "nivel": "analise",
+      "pergunta": "Depois de contratar seguro total, um motorista passa a deixar o carro destrancado. Que falha isso mostra e como a seguradora costuma reduzi-la?",
+      "opcoes": [
+        "Seleção adversa; aumentando a propaganda",
+        "Risco moral; com franquias e coparticipação",
+        "Bem público; com imposto de Pigou",
+        "Externalidade positiva; com subsídio"
+      ],
+      "correta": 1,
+      "explicacao": "A mudança de comportamento depois do contrato é risco moral; a franquia faz o segurado dividir parte do prejuízo."
+    }
+  ]
+}

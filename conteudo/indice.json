@@ -336,6 +336,49 @@
       ]
     },
     {
+      "id": "contabilidade-custos",
+      "nome": "Contabilidade de Custos",
+      "apelidos": [
+        "Custos",
+        "Contabilidade de Custos I",
+        "Contabilidade de Custos II",
+        "Gestão de Custos",
+        "Análise de Custos",
+        "Gestão Estratégica de Custos",
+        "Custos Industriais",
+        "Contabilidade e Análise de Custos",
+        "Formação de Preços",
+        "Custos e Formação de Preços"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "terminologia",
+          "nome": "Terminologia e classificação dos custos"
+        },
+        {
+          "id": "absorcao",
+          "nome": "Custeio por absorção e rateio"
+        },
+        {
+          "id": "variavel",
+          "nome": "Custeio variável e margem de contribuição"
+        },
+        {
+          "id": "cvl",
+          "nome": "Custo-volume-lucro e ponto de equilíbrio"
+        },
+        {
+          "id": "abc-padrao",
+          "nome": "Custeio ABC e custo-padrão"
+        },
+        {
+          "id": "preco",
+          "nome": "Formação de preço e decisões"
+        }
+      ]
+    },
+    {
       "id": "contabilidade-introdutoria",
       "nome": "Contabilidade Introdutória",
       "apelidos": [
@@ -947,6 +990,49 @@
       ]
     },
     {
+      "id": "gestao-pessoas",
+      "nome": "Gestão de Pessoas",
+      "apelidos": [
+        "Gestão de Pessoas I",
+        "Gestão de Pessoas II",
+        "Recursos Humanos",
+        "Administração de Recursos Humanos",
+        "Administração de Recursos Humanos II",
+        "Gestão de Recursos Humanos",
+        "Administração de Pessoal",
+        "Gestão de Pessoas nas Organizações",
+        "Gestão Estratégica de Pessoas",
+        "Recrutamento e Seleção"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "evolucao",
+          "nome": "Evolução e papéis da gestão de pessoas"
+        },
+        {
+          "id": "recrutamento",
+          "nome": "Recrutamento e seleção"
+        },
+        {
+          "id": "treinamento",
+          "nome": "Treinamento e desenvolvimento"
+        },
+        {
+          "id": "desempenho",
+          "nome": "Avaliação de desempenho"
+        },
+        {
+          "id": "remuneracao",
+          "nome": "Remuneração e benefícios"
+        },
+        {
+          "id": "motivacao",
+          "nome": "Motivação, liderança e clima"
+        }
+      ]
+    },
+    {
       "id": "histologia",
       "nome": "Histologia",
       "apelidos": [
@@ -1147,6 +1233,130 @@
       ]
     },
     {
+      "id": "macroeconomia",
+      "nome": "Macroeconomia",
+      "apelidos": [
+        "Macroeconomia I",
+        "Macroeconomia II",
+        "Teoria Macroeconômica",
+        "Análise Macroeconômica",
+        "Teoria Macroeconômica II",
+        "Macroeconomia Aplicada",
+        "Contabilidade Social"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "contas",
+          "nome": "Contas nacionais"
+        },
+        {
+          "id": "demanda",
+          "nome": "Demanda agregada, multiplicador e IS-LM"
+        },
+        {
+          "id": "moeda",
+          "nome": "Moeda e política monetária"
+        },
+        {
+          "id": "inflacao",
+          "nome": "Inflação, desemprego e curva de Phillips"
+        },
+        {
+          "id": "aberta",
+          "nome": "Economia aberta: balanço de pagamentos e câmbio"
+        },
+        {
+          "id": "crescimento",
+          "nome": "Crescimento e desenvolvimento"
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "nome": "Marketing",
+      "apelidos": [
+        "Marketing I",
+        "Marketing II",
+        "Administração de Marketing II",
+        "Administração de Marketing",
+        "Fundamentos de Marketing",
+        "Princípios de Marketing",
+        "Gestão de Marketing",
+        "Marketing Digital",
+        "Comportamento do Consumidor",
+        "Marketing Estratégico"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos e orientações de marketing"
+        },
+        {
+          "id": "ambiente",
+          "nome": "Ambiente de marketing e análise estratégica"
+        },
+        {
+          "id": "stp",
+          "nome": "Segmentação, mercado-alvo e posicionamento"
+        },
+        {
+          "id": "consumidor",
+          "nome": "Comportamento do consumidor"
+        },
+        {
+          "id": "mix",
+          "nome": "Composto de marketing (4 Ps)"
+        },
+        {
+          "id": "digital",
+          "nome": "Marketing digital e relacionamento"
+        }
+      ]
+    },
+    {
+      "id": "matematica-aplicada",
+      "nome": "Matemática Aplicada à Gestão",
+      "apelidos": [
+        "Matemática Aplicada",
+        "Matemática Aplicada à Administração",
+        "Matemática Aplicada à Economia",
+        "Matemática Aplicada aos Negócios",
+        "Matemática para Negócios",
+        "Matemática Empresarial",
+        "Matemática Aplicada à Gestão I",
+        "Métodos Quantitativos"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "porcentagem",
+          "nome": "Porcentagem e variações"
+        },
+        {
+          "id": "primeiro-grau",
+          "nome": "Funções do 1º grau: custo, receita e lucro"
+        },
+        {
+          "id": "segundo-grau",
+          "nome": "Funções do 2º grau e otimização"
+        },
+        {
+          "id": "exponencial",
+          "nome": "Funções exponencial e logarítmica"
+        },
+        {
+          "id": "matrizes",
+          "nome": "Matrizes e sistemas lineares"
+        },
+        {
+          "id": "derivada",
+          "nome": "Derivada e análise marginal"
+        }
+      ]
+    },
+    {
       "id": "matematica-financeira",
       "nome": "Matemática Financeira",
       "apelidos": [
@@ -1267,6 +1477,46 @@
         {
           "id": "patogenicidade-antimicrobianos",
           "nome": "Patogenicidade e antimicrobianos"
+        }
+      ]
+    },
+    {
+      "id": "microeconomia",
+      "nome": "Microeconomia",
+      "apelidos": [
+        "Microeconomia I",
+        "Microeconomia II",
+        "Teoria Microeconômica",
+        "Análise Microeconômica",
+        "Teoria Microeconômica II",
+        "Microeconomia Aplicada",
+        "Teoria dos Preços"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "consumidor",
+          "nome": "Teoria do consumidor"
+        },
+        {
+          "id": "producao",
+          "nome": "Produção e custos"
+        },
+        {
+          "id": "concorrencia",
+          "nome": "Concorrência perfeita"
+        },
+        {
+          "id": "monopolio",
+          "nome": "Monopólio e concorrência monopolística"
+        },
+        {
+          "id": "oligopolio",
+          "nome": "Oligopólio e teoria dos jogos"
+        },
+        {
+          "id": "falhas",
+          "nome": "Falhas de mercado"
         }
       ]
     },

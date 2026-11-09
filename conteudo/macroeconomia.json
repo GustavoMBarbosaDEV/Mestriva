@@ -1,0 +1,465 @@
+{
+  "id": "macroeconomia",
+  "nome": "Macroeconomia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "contas",
+      "nome": "Contas nacionais",
+      "resumo": "### PIB\nO **Produto Interno Bruto** é o valor de mercado de todos os **bens e serviços finais** produzidos **dentro do país** num período. No Brasil, quem calcula é o **IBGE**.\n- Só bens **finais**: contar os intermediários seria **dupla contagem** (o trigo e depois o pão).\n- Três óticas que dão o mesmo resultado:\n  - **Produção**: soma do **valor adicionado** de cada setor.\n  - **Despesa**: **PIB = C + I + G + (X − M)** (consumo das famílias, investimento, gastos do governo e exportações líquidas).\n  - **Renda**: salários, lucros, juros e aluguéis.\n\n### Conceitos ligados\n- **PIB × PNB** (ou **PIB × RNB**): o PIB conta o que é produzido no território; o **PNB** soma a renda recebida do exterior e tira a enviada ao exterior. **PNB = PIB + renda líquida do exterior**. No Brasil, que envia mais renda do que recebe, o PNB é menor que o PIB.\n- **Bruto × líquido**: o líquido desconta a **depreciação**.\n- **A preços de mercado × a custo de fatores**: a diferença são os impostos indiretos menos subsídios.\n\n### Nominal × real\n- **PIB nominal**: a preços correntes do ano.\n- **PIB real**: a preços de um ano-base, para medir só a mudança na **quantidade** produzida.\n- **Deflator do PIB** = (PIB nominal ÷ PIB real) × 100.\n\n### Identidade poupança = investimento\nNuma economia fechada, **S = I**. Em economia aberta, **I = S privada + S do governo + S externa** (o déficit em conta corrente é poupança vinda de fora).\n\n### Limites do PIB\nNão mede distribuição de renda, trabalho doméstico, economia informal completa, qualidade de vida nem danos ambientais. Por isso existem o **PIB per capita** e o **IDH**.",
+      "revisao": "**Lembre:**\n- PIB: bens e serviços finais, dentro do país.\n- PIB = C + I + G + (X − M).\n- PNB = PIB + renda líquida do exterior.\n- Real = a preços do ano-base.\n- Deflator = nominal ÷ real × 100."
+    },
+    {
+      "id": "demanda",
+      "nome": "Demanda agregada, multiplicador e IS-LM",
+      "resumo": "### Modelo keynesiano simples\n- Keynes defendeu que, no curto prazo, a **demanda agregada** determina a produção e o emprego.\n- **Função consumo**: C = a + b·Y, em que **b** é a **propensão marginal a consumir (PMgC)**, a fração da renda extra que vira consumo. A **propensão marginal a poupar** é PMgS = 1 − PMgC.\n\n### Multiplicador\n- Um aumento de gasto autônomo (investimento ou gasto do governo) eleva a renda **mais que proporcionalmente**, porque o gasto de um vira renda de outro.\n- **Multiplicador = 1 ÷ (1 − PMgC) = 1 ÷ PMgS**.\n- Com impostos proporcionais e importações, o multiplicador fica menor (vazamentos).\n- **Teorema do orçamento equilibrado** (Haavelmo): aumentar gasto e impostos no mesmo valor eleva a renda exatamente nesse valor (multiplicador igual a 1).\n\n### Modelo IS-LM (Hicks)\n- **Curva IS**: combinações de juros e renda que equilibram o **mercado de bens** (investimento = poupança). É **negativamente inclinada**: juros menores estimulam o investimento e a renda.\n- **Curva LM**: combinações que equilibram o **mercado monetário** (demanda por moeda = oferta). É **positivamente inclinada**.\n- **Política fiscal expansionista** (mais gastos, menos impostos) desloca a **IS para a direita**: sobem renda e juros.\n- **Política monetária expansionista** (mais moeda) desloca a **LM para a direita**: a renda sobe e os juros caem.\n- **Efeito deslocamento** (*crowding out*): o aumento dos juros causado pela política fiscal reduz parte do investimento privado.\n- **Armadilha da liquidez**: com juros muito baixos, a LM fica horizontal e a política monetária perde força.",
+      "revisao": "**Lembre:**\n- PMgC + PMgS = 1.\n- Multiplicador = 1/(1 − PMgC).\n- Fiscal expansionista: IS → direita (renda e juros sobem).\n- Monetária expansionista: LM → direita (renda sobe, juros caem).\n- Crowding out: juros maiores tiram investimento privado."
+    },
+    {
+      "id": "moeda",
+      "nome": "Moeda e política monetária",
+      "resumo": "### Funções da moeda\n**Meio de troca**, **unidade de conta** e **reserva de valor**.\n\n### Agregados monetários\n- **Base monetária**: papel-moeda emitido + reservas dos bancos no Banco Central.\n- **M1**: papel-moeda em poder do público + **depósitos à vista**. Os agregados mais amplos (M2, M3...) incluem aplicações menos líquidas.\n\n### Criação de moeda pelos bancos\n- Os bancos guardam só uma parte dos depósitos como **reservas** e emprestam o resto, que vira novo depósito.\n- **Multiplicador monetário** (versão simples) = 1 ÷ taxa de reservas. Com reservas de 20%, cada R$ 1 de base pode gerar até R$ 5 de meios de pagamento.\n\n### Instrumentos do Banco Central\n- **Operações de mercado aberto** (*open market*): comprar títulos injeta dinheiro; vender retira. É o instrumento do dia a dia para manter a **Selic** na meta.\n- **Depósito compulsório**: parte dos depósitos que os bancos devem recolher ao BC. Aumentar o compulsório **reduz** a moeda.\n- **Redesconto**: empréstimos do BC aos bancos.\n\n### Sistema de metas de inflação (Brasil, desde 1999)\n- O **Conselho Monetário Nacional (CMN)** define a meta de inflação, medida pelo **IPCA**.\n- O **Copom** (Comitê de Política Monetária do BC) define a **taxa Selic** em reuniões periódicas.\n- **Selic mais alta**: crédito mais caro, menos consumo e investimento, menos pressão sobre os preços. **Mais baixa**: estimula a economia.\n- **Política expansionista** (juros menores, mais moeda) × **contracionista** (juros maiores, menos moeda).\n\n### Teoria quantitativa da moeda\n**M·V = P·Y** (moeda × velocidade = preços × produto). Se V e Y forem estáveis, aumentar a moeda aumenta os preços.",
+      "revisao": "**Lembre:**\n- Moeda: meio de troca, unidade de conta, reserva de valor.\n- M1 = papel-moeda com o público + depósitos à vista.\n- Multiplicador monetário = 1/reservas.\n- Copom define a Selic; CMN define a meta (IPCA).\n- MV = PY."
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação, desemprego e curva de Phillips",
+      "resumo": "### Inflação\n**Aumento contínuo e generalizado** dos preços, que reduz o poder de compra da moeda.\n- **De demanda**: a procura cresce mais que a capacidade de produzir.\n- **De custos** (de oferta): sobem salários, energia, combustíveis, matérias-primas, e as empresas repassam.\n- **Inercial**: os preços sobem porque contratos e salários são reajustados pela inflação passada (indexação). Foi o grande problema do Brasil até o **Plano Real** (1994), que usou a **URV** para quebrar a inércia.\n- **Deflação**: queda geral de preços. **Desinflação**: a inflação continua positiva, mas menor.\n- Índices: **IPCA** (oficial, IBGE), **INPC**, **IGP-M** (FGV, usado em aluguéis).\n\n### Custos da inflação\nPerda do poder de compra de quem tem renda fixa, incerteza, distorção dos preços relativos, **imposto inflacionário** (perda de quem guarda dinheiro).\n\n### Desemprego\n- **Friccional**: tempo de transição entre empregos.\n- **Estrutural**: falta de compatibilidade entre as habilidades dos trabalhadores e as vagas (por mudança tecnológica).\n- **Cíclico** (conjuntural): causado por recessões.\n- **Taxa natural de desemprego**: friccional + estrutural, quando não há desemprego cíclico.\n- **Taxa de desemprego** = desocupados ÷ força de trabalho (medida pela PNAD Contínua).\n\n### Curva de Phillips\n- Original: relação **inversa** entre inflação e desemprego no curto prazo (menos desemprego, mais inflação).\n- Com **expectativas** (Friedman e Phelps): no **longo prazo** a curva é **vertical** na taxa natural; tentar reduzir o desemprego abaixo dela só gera inflação cada vez maior.\n\n### Estagflação\nInflação alta **com** recessão e desemprego, típica de **choques de oferta** (crises do petróleo dos anos 1970).",
+      "revisao": "**Lembre:**\n- Inflação de demanda, de custos e inercial.\n- Plano Real (1994) e URV contra a inércia.\n- Desemprego friccional, estrutural e cíclico.\n- Phillips: trade-off no curto prazo; vertical no longo prazo.\n- Estagflação: inflação + recessão."
+    },
+    {
+      "id": "aberta",
+      "nome": "Economia aberta: balanço de pagamentos e câmbio",
+      "resumo": "### Balanço de pagamentos (BP)\nRegistra todas as transações de um país com o exterior.\n- **Conta corrente** (transações correntes):\n  - **Balança comercial**: exportações − importações de bens.\n  - **Serviços**: viagens, fretes, aluguel de equipamentos, seguros.\n  - **Renda primária**: juros, lucros e dividendos, salários.\n  - **Renda secundária**: transferências sem contrapartida (remessas de imigrantes, doações).\n- **Conta capital**: transferências de capital e ativos não financeiros não produzidos.\n- **Conta financeira**: **investimento direto** (IDP, de longo prazo, como abrir uma fábrica), **investimento em carteira** (ações e títulos), derivativos e outros investimentos.\n- **Reservas internacionais**: o que sobra de entrada ou saída de dólares altera as reservas do BC.\n\n### Taxa de câmbio\n- No Brasil, cotada como **reais por dólar** (R$ 5,00 por US$ 1).\n- **Depreciação** (desvalorização) do real: o dólar fica mais caro. Ajuda **exportações** e encarece **importações**.\n- **Apreciação** (valorização): o dólar fica mais barato. Barateia importados, prejudica exportadores.\n- **Câmbio real**: ajusta o nominal pelos preços dos dois países; mede a competitividade.\n\n### Regimes cambiais\n- **Fixo**: o BC mantém a taxa, usando reservas.\n- **Flutuante**: o mercado define. O Brasil adota o **flutuante** (com intervenções eventuais do BC) desde 1999.\n- **Bandas**: flutua dentro de limites.\n\n### Paridade de poder de compra\nEm longo prazo, o câmbio tende a igualar o poder de compra das moedas (índice **Big Mac** como ilustração).\n\n### Modelo Mundell-Fleming\nCom câmbio flutuante e livre mobilidade de capitais, a **política monetária** é eficaz e a **fiscal** perde força; com câmbio fixo, ocorre o contrário.",
+      "revisao": "**Lembre:**\n- Conta corrente: comércio, serviços, rendas.\n- Conta financeira: investimento direto e em carteira.\n- Depreciação do real: dólar mais caro, ajuda exportações.\n- Brasil: câmbio flutuante desde 1999.\n- Mundell-Fleming: flutuante → monetária eficaz."
+    },
+    {
+      "id": "crescimento",
+      "nome": "Crescimento e desenvolvimento",
+      "resumo": "### Crescimento × desenvolvimento\n- **Crescimento econômico**: aumento do **PIB real** (ou do PIB per capita) ao longo do tempo.\n- **Desenvolvimento**: inclui melhora na **qualidade de vida**, saúde, educação, distribuição de renda. Medido, por exemplo, pelo **IDH** (renda, educação e longevidade).\n\n### Fontes do crescimento\n- **Capital físico** (máquinas, infraestrutura).\n- **Capital humano** (educação, saúde, qualificação).\n- **Tecnologia** e **produtividade**.\n- **Instituições**: segurança jurídica, direitos de propriedade, estabilidade.\n\n### Modelo de Solow\n- A produção depende de **capital** e **trabalho**, com **rendimentos decrescentes** do capital.\n- Mais **poupança** (investimento) eleva o capital por trabalhador, mas só até um **estado estacionário**; depois disso o capital novo só repõe a depreciação.\n- No longo prazo, o crescimento **contínuo** da renda per capita só vem do **progresso tecnológico**.\n- **Convergência**: países mais pobres tendem a crescer mais rápido, se tiverem condições parecidas (convergência condicional).\n\n### Crescimento endógeno\nRomer e Lucas: o progresso técnico resulta de decisões econômicas (pesquisa, educação, ideias), que podem gerar crescimento sustentado.\n\n### Regra dos 70\nO número de anos para uma variável **dobrar** é aproximadamente **70 ÷ taxa de crescimento anual** (em %). Uma economia que cresce 2% ao ano dobra em cerca de 35 anos.\n\n### Desigualdade\n- **Índice de Gini**: de 0 (igualdade total) a 1 (um só tem tudo). O Brasil tem um dos mais altos do mundo.\n- **Curva de Lorenz**: mostra a fatia acumulada da renda por fatia acumulada da população.",
+      "revisao": "**Lembre:**\n- Crescimento: PIB real; desenvolvimento: qualidade de vida (IDH).\n- Solow: poupança leva ao estado estacionário; tecnologia sustenta o crescimento.\n- Convergência condicional.\n- Regra dos 70: anos para dobrar ≈ 70 ÷ taxa.\n- Gini: 0 igualdade, 1 desigualdade máxima."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "macroeconomia-1",
+      "topico": "contas",
+      "nivel": "conceitual",
+      "pergunta": "Por que o cálculo do PIB considera só bens e serviços finais?",
+      "opcoes": [
+        "Para evitar a dupla contagem dos bens intermediários",
+        "Porque bens intermediários não têm preço",
+        "Porque só bens finais pagam impostos",
+        "Para incluir a produção no exterior"
+      ],
+      "correta": 0,
+      "explicacao": "O valor do trigo já está dentro do preço do pão; contar os dois inflaria o PIB."
+    },
+    {
+      "id": "macroeconomia-2",
+      "topico": "contas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre PIB nominal e PIB real?",
+      "opcoes": [
+        "O nominal desconta a depreciação",
+        "O real usa preços de um ano-base e mede só a variação de quantidades",
+        "O real inclui a renda do exterior",
+        "Não há diferença"
+      ],
+      "correta": 1,
+      "explicacao": "O PIB nominal sobe também por causa da inflação; o real isola a produção."
+    },
+    {
+      "id": "macroeconomia-3",
+      "topico": "contas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a relação entre PNB e PIB?",
+      "opcoes": [
+        "PNB = PIB − depreciação",
+        "PNB = PIB + impostos indiretos",
+        "PNB = PIB + renda líquida recebida do exterior",
+        "PNB = PIB × deflator"
+      ],
+      "correta": 2,
+      "explicacao": "O PNB considera a renda dos fatores nacionais, onde quer que estejam."
+    },
+    {
+      "id": "macroeconomia-4",
+      "topico": "contas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma economia tem C = 600, I = 200, G = 250, X = 100 e M = 150. Qual é o PIB pela ótica da despesa?",
+      "opcoes": [
+        "1.300",
+        "1.150",
+        "950",
+        "1.000"
+      ],
+      "correta": 3,
+      "explicacao": "PIB = C + I + G + (X − M) = 600 + 200 + 250 + (100 − 150) = 1.000."
+    },
+    {
+      "id": "macroeconomia-5",
+      "topico": "contas",
+      "nivel": "analise",
+      "pergunta": "O PIB nominal de um país passou de 1.000 para 1.100, e os preços subiram 10% no período. O que aconteceu com a produção real?",
+      "opcoes": [
+        "Ficou praticamente estável: o aumento foi só de preços",
+        "Cresceu 10%",
+        "Cresceu 21%",
+        "Caiu 10%"
+      ],
+      "correta": 0,
+      "explicacao": "1.100 ÷ 1,10 = 1.000. Todo o aumento nominal veio da inflação."
+    },
+    {
+      "id": "macroeconomia-6",
+      "topico": "demanda",
+      "nivel": "conceitual",
+      "pergunta": "Se a propensão marginal a consumir é 0,8, quanto vale o multiplicador keynesiano simples?",
+      "opcoes": [
+        "0,8",
+        "5",
+        "1,25",
+        "8"
+      ],
+      "correta": 1,
+      "explicacao": "Multiplicador = 1/(1 − 0,8) = 1/0,2 = 5."
+    },
+    {
+      "id": "macroeconomia-7",
+      "topico": "demanda",
+      "nivel": "conceitual",
+      "pergunta": "No modelo IS-LM, uma política fiscal expansionista:",
+      "opcoes": [
+        "Desloca a LM para a direita, reduzindo juros",
+        "Desloca a IS para a esquerda",
+        "Desloca a IS para a direita, elevando renda e juros",
+        "Não altera a renda"
+      ],
+      "correta": 2,
+      "explicacao": "Mais gastos do governo ou menos impostos aumentam a demanda por bens."
+    },
+    {
+      "id": "macroeconomia-8",
+      "topico": "demanda",
+      "nivel": "conceitual",
+      "pergunta": "O efeito deslocamento (crowding out) ocorre quando:",
+      "opcoes": [
+        "O governo reduz impostos sem efeito nenhum",
+        "O banco central imprime moeda demais",
+        "As exportações caem por causa do câmbio",
+        "O aumento dos juros causado pelo gasto público reduz o investimento privado"
+      ],
+      "correta": 3,
+      "explicacao": "Parte do estímulo fiscal é anulada pelo investimento privado que deixa de acontecer."
+    },
+    {
+      "id": "macroeconomia-9",
+      "topico": "demanda",
+      "nivel": "aplicacao",
+      "pergunta": "Com PMgC de 0,75, o governo aumenta os gastos em R$ 10 bilhões. Qual é o aumento esperado da renda no modelo simples?",
+      "opcoes": [
+        "R$ 40 bilhões",
+        "R$ 7,5 bilhões",
+        "R$ 13,3 bilhões",
+        "R$ 10 bilhões"
+      ],
+      "correta": 0,
+      "explicacao": "Multiplicador = 1/(1 − 0,75) = 4. ΔY = 4 × 10 = R$ 40 bilhões."
+    },
+    {
+      "id": "macroeconomia-10",
+      "topico": "demanda",
+      "nivel": "analise",
+      "pergunta": "Num cenário de armadilha da liquidez, por que a política monetária perde força?",
+      "opcoes": [
+        "Porque o governo proíbe empréstimos",
+        "Porque, com juros já muito baixos, mais moeda não reduz os juros nem estimula o investimento",
+        "Porque a curva IS fica vertical",
+        "Porque a inflação é alta demais"
+      ],
+      "correta": 1,
+      "explicacao": "A LM fica horizontal: as pessoas retêm a moeda extra em vez de investir, e a renda não sobe."
+    },
+    {
+      "id": "macroeconomia-11",
+      "topico": "moeda",
+      "nivel": "conceitual",
+      "pergunta": "Quem define a taxa Selic no Brasil?",
+      "opcoes": [
+        "O Congresso Nacional",
+        "O Ministério da Fazenda",
+        "O Copom, do Banco Central",
+        "O IBGE"
+      ],
+      "correta": 2,
+      "explicacao": "O CMN define a meta de inflação; o Copom ajusta a Selic para cumpri-la."
+    },
+    {
+      "id": "macroeconomia-12",
+      "topico": "moeda",
+      "nivel": "conceitual",
+      "pergunta": "O agregado M1 é formado por:",
+      "opcoes": [
+        "Só as reservas dos bancos",
+        "Títulos públicos e ações",
+        "Papel-moeda mais poupança e fundos",
+        "Papel-moeda em poder do público mais depósitos à vista"
+      ],
+      "correta": 3,
+      "explicacao": "M1 reúne os meios de pagamento de liquidez imediata."
+    },
+    {
+      "id": "macroeconomia-13",
+      "topico": "moeda",
+      "nivel": "conceitual",
+      "pergunta": "Para reduzir a quantidade de moeda, o Banco Central pode:",
+      "opcoes": [
+        "Vender títulos públicos no mercado aberto",
+        "Comprar títulos públicos",
+        "Reduzir o depósito compulsório",
+        "Baixar a Selic"
+      ],
+      "correta": 0,
+      "explicacao": "Ao vender títulos, o BC recolhe dinheiro dos bancos e do público."
+    },
+    {
+      "id": "macroeconomia-14",
+      "topico": "moeda",
+      "nivel": "aplicacao",
+      "pergunta": "Com taxa de reservas de 10%, qual é o multiplicador monetário simples?",
+      "opcoes": [
+        "0,1",
+        "10",
+        "1,1",
+        "100"
+      ],
+      "correta": 1,
+      "explicacao": "Multiplicador = 1 ÷ 0,10 = 10: cada real de base pode gerar até 10 em depósitos."
+    },
+    {
+      "id": "macroeconomia-15",
+      "topico": "moeda",
+      "nivel": "analise",
+      "pergunta": "A inflação está acima da meta e subindo. Qual decisão do Copom é coerente com o sistema de metas?",
+      "opcoes": [
+        "Baixar a Selic para estimular o consumo",
+        "Imprimir mais moeda",
+        "Elevar a Selic para desacelerar a demanda",
+        "Reduzir o depósito compulsório"
+      ],
+      "correta": 2,
+      "explicacao": "Juros mais altos encarecem o crédito, reduzem consumo e investimento e aliviam a pressão sobre os preços."
+    },
+    {
+      "id": "macroeconomia-16",
+      "topico": "inflacao",
+      "nivel": "conceitual",
+      "pergunta": "Inflação inercial é aquela causada por:",
+      "opcoes": [
+        "Excesso de demanda",
+        "Choques no preço do petróleo",
+        "Queda geral dos preços",
+        "Reajustes automáticos de preços e salários com base na inflação passada"
+      ],
+      "correta": 3,
+      "explicacao": "A indexação faz a inflação passada se repetir; o Plano Real usou a URV para quebrar essa inércia."
+    },
+    {
+      "id": "macroeconomia-17",
+      "topico": "inflacao",
+      "nivel": "conceitual",
+      "pergunta": "O desemprego causado pela mudança tecnológica, que deixa trabalhadores sem as habilidades exigidas, é:",
+      "opcoes": [
+        "Estrutural",
+        "Friccional",
+        "Cíclico",
+        "Sazonal"
+      ],
+      "correta": 0,
+      "explicacao": "Friccional é a troca de emprego; cíclico vem das recessões."
+    },
+    {
+      "id": "macroeconomia-18",
+      "topico": "inflacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a versão com expectativas, a curva de Phillips no longo prazo é:",
+      "opcoes": [
+        "Horizontal",
+        "Vertical, na taxa natural de desemprego",
+        "Negativamente inclinada para sempre",
+        "Positivamente inclinada"
+      ],
+      "correta": 1,
+      "explicacao": "No longo prazo, não há troca permanente entre inflação e desemprego."
+    },
+    {
+      "id": "macroeconomia-19",
+      "topico": "inflacao",
+      "nivel": "aplicacao",
+      "pergunta": "A força de trabalho de um país tem 100 milhões de pessoas, das quais 8 milhões procuram emprego sem encontrar. Qual é a taxa de desemprego?",
+      "opcoes": [
+        "92%",
+        "12,5%",
+        "8%",
+        "0,08%"
+      ],
+      "correta": 2,
+      "explicacao": "Taxa = desocupados ÷ força de trabalho = 8 ÷ 100 = 8%."
+    },
+    {
+      "id": "macroeconomia-20",
+      "topico": "inflacao",
+      "nivel": "analise",
+      "pergunta": "Uma alta forte do petróleo eleva os preços e, ao mesmo tempo, a produção cai e o desemprego sobe. Como se chama essa situação?",
+      "opcoes": [
+        "Inflação de demanda",
+        "Deflação",
+        "Desinflação",
+        "Estagflação, causada por um choque de oferta"
+      ],
+      "correta": 3,
+      "explicacao": "O choque de custos reduz a oferta: os preços sobem enquanto a atividade cai."
+    },
+    {
+      "id": "macroeconomia-21",
+      "topico": "aberta",
+      "nivel": "conceitual",
+      "pergunta": "Uma depreciação do real em relação ao dólar tende a:",
+      "opcoes": [
+        "Estimular exportações e encarecer importações",
+        "Baratear viagens ao exterior",
+        "Reduzir o preço dos importados",
+        "Prejudicar todos os exportadores"
+      ],
+      "correta": 0,
+      "explicacao": "Com o dólar mais caro, os produtos brasileiros ficam mais baratos lá fora."
+    },
+    {
+      "id": "macroeconomia-22",
+      "topico": "aberta",
+      "nivel": "conceitual",
+      "pergunta": "Em qual conta do balanço de pagamentos entram os lucros e dividendos enviados por multinacionais às matrizes?",
+      "opcoes": [
+        "Balança comercial",
+        "Renda primária, na conta corrente",
+        "Conta capital",
+        "Reservas internacionais"
+      ],
+      "correta": 1,
+      "explicacao": "Juros, lucros e dividendos são renda primária, dentro das transações correntes."
+    },
+    {
+      "id": "macroeconomia-23",
+      "topico": "aberta",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o regime cambial adotado no Brasil desde 1999?",
+      "opcoes": [
+        "Fixo, com paridade de um para um",
+        "Bandas cambiais rígidas",
+        "Flutuante, com intervenções eventuais do Banco Central",
+        "Padrão-ouro"
+      ],
+      "correta": 2,
+      "explicacao": "Em 1999 o país abandonou as bandas e passou a deixar o mercado definir a taxa."
+    },
+    {
+      "id": "macroeconomia-24",
+      "topico": "aberta",
+      "nivel": "aplicacao",
+      "pergunta": "Um país exportou US$ 300 bilhões e importou US$ 250 bilhões em bens. Qual é o saldo da balança comercial?",
+      "opcoes": [
+        "Déficit de US$ 50 bilhões",
+        "Superávit de US$ 550 bilhões",
+        "Equilíbrio",
+        "Superávit de US$ 50 bilhões"
+      ],
+      "correta": 3,
+      "explicacao": "Saldo = exportações − importações = 300 − 250 = US$ 50 bilhões."
+    },
+    {
+      "id": "macroeconomia-25",
+      "topico": "aberta",
+      "nivel": "analise",
+      "pergunta": "Pelo modelo Mundell-Fleming, num país com câmbio flutuante e livre fluxo de capitais, por que a política fiscal expansionista perde força?",
+      "opcoes": [
+        "Porque os juros maiores atraem capital, apreciam a moeda e reduzem as exportações líquidas",
+        "Porque o banco central fixa o câmbio",
+        "Porque o gasto público não entra no PIB",
+        "Porque a moeda se deprecia e as exportações explodem"
+      ],
+      "correta": 0,
+      "explicacao": "A apreciação cambial anula o estímulo; com câmbio flutuante, a política monetária é a mais eficaz."
+    },
+    {
+      "id": "macroeconomia-26",
+      "topico": "crescimento",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre crescimento e desenvolvimento econômico?",
+      "opcoes": [
+        "São sinônimos",
+        "Crescimento é aumento do PIB real; desenvolvimento inclui melhora da qualidade de vida",
+        "Desenvolvimento é só industrialização",
+        "Crescimento mede educação e saúde"
+      ],
+      "correta": 1,
+      "explicacao": "Um país pode crescer sem melhorar saúde, educação ou distribuição de renda."
+    },
+    {
+      "id": "macroeconomia-27",
+      "topico": "crescimento",
+      "nivel": "conceitual",
+      "pergunta": "No modelo de Solow, o que sustenta o crescimento da renda per capita no longo prazo?",
+      "opcoes": [
+        "A poupança cada vez maior",
+        "O aumento da população",
+        "O progresso tecnológico",
+        "A impressão de moeda"
+      ],
+      "correta": 2,
+      "explicacao": "Pelos rendimentos decrescentes do capital, a poupança leva só a um estado estacionário."
+    },
+    {
+      "id": "macroeconomia-28",
+      "topico": "crescimento",
+      "nivel": "conceitual",
+      "pergunta": "O índice de Gini igual a zero indica:",
+      "opcoes": [
+        "Desigualdade máxima",
+        "PIB igual a zero",
+        "Inflação nula",
+        "Igualdade total na distribuição de renda"
+      ],
+      "correta": 3,
+      "explicacao": "O Gini vai de 0 (todos têm a mesma renda) a 1 (uma só pessoa tem toda a renda)."
+    },
+    {
+      "id": "macroeconomia-29",
+      "topico": "crescimento",
+      "nivel": "aplicacao",
+      "pergunta": "Pela regra dos 70, em quantos anos dobra a renda de um país que cresce 3,5% ao ano?",
+      "opcoes": [
+        "Cerca de 20 anos",
+        "Cerca de 35 anos",
+        "Cerca de 70 anos",
+        "Cerca de 7 anos"
+      ],
+      "correta": 0,
+      "explicacao": "Anos para dobrar ≈ 70 ÷ taxa = 70 ÷ 3,5 = 20. Pequenas diferenças na taxa mudam muito o tempo: a 2% ao ano seriam 35 anos."
+    },
+    {
+      "id": "macroeconomia-30",
+      "topico": "crescimento",
+      "nivel": "analise",
+      "pergunta": "Um país pobre, com instituições e taxa de poupança parecidas com as de um rico, cresce mais rápido que ele. O que explica isso no modelo de Solow?",
+      "opcoes": [
+        "Rendimentos crescentes do capital",
+        "Convergência condicional: com pouco capital, cada unidade extra rende mais",
+        "A falta de tecnologia",
+        "O estado estacionário já alcançado"
+      ],
+      "correta": 1,
+      "explicacao": "Os rendimentos decrescentes fazem o capital render mais onde ele é escasso."
+    }
+  ]
+}

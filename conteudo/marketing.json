@@ -1,0 +1,465 @@
+{
+  "id": "marketing",
+  "nome": "Marketing",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos e orientações de marketing",
+      "resumo": "**Marketing** é o processo de criar, comunicar e entregar **valor** para os clientes e construir relacionamentos lucrativos com eles. Philip Kotler é o autor de referência.\n\n### Conceitos básicos\n- **Necessidade**: estado de privação (fome, segurança, pertencimento).\n- **Desejo**: a forma que a necessidade toma, moldada pela cultura (a fome vira desejo de um hambúrguer).\n- **Demanda**: desejo com **poder de compra**.\n- **Valor para o cliente**: benefícios percebidos menos os custos (dinheiro, tempo, esforço).\n- **Troca**: obter algo desejado oferecendo algo em retorno.\n\n### Orientações das empresas ao longo do tempo\n- **Produção**: o consumidor quer produtos baratos e disponíveis; foco em eficiência.\n- **Produto**: o consumidor quer qualidade e inovação; risco de **miopia de marketing** (Levitt): olhar o produto e esquecer a necessidade (a ferrovia que se via no \"negócio de trens\", não no de transporte).\n- **Vendas**: é preciso empurrar o produto com esforço de venda.\n- **Marketing**: entender as necessidades do mercado-alvo e entregar valor melhor que a concorrência.\n- **Marketing societal** (ou holístico): também considera o bem-estar da sociedade e o longo prazo.\n\n### Evolução\nKotler descreve o **Marketing 1.0** (centrado no produto), **2.0** (no consumidor), **3.0** (nos valores e no ser humano), **4.0** (digital e conectado) e **5.0** (tecnologia a serviço das pessoas).",
+      "revisao": "**Lembre:**\n- Necessidade → desejo → demanda (com poder de compra).\n- Valor = benefícios − custos percebidos.\n- Orientações: produção, produto, vendas, marketing, societal.\n- Miopia de marketing: foco no produto, não na necessidade."
+    },
+    {
+      "id": "ambiente",
+      "nome": "Ambiente de marketing e análise estratégica",
+      "resumo": "### Microambiente\nAtores próximos que afetam a empresa: **fornecedores**, **intermediários**, **clientes**, **concorrentes** e **públicos** (imprensa, governo, comunidade).\n\n### Macroambiente (PESTAL)\nForças amplas: **P**olíticas, **E**conômicas, **S**ocioculturais, **T**ecnológicas, **A**mbientais e **L**egais (ex.: Código de Defesa do Consumidor, LGPD).\n\n### Análise SWOT (FOFA)\n- **Internas**: **forças** (*strengths*) e **fraquezas** (*weaknesses*), que a empresa controla.\n- **Externas**: **oportunidades** (*opportunities*) e **ameaças** (*threats*), que vêm do ambiente.\n- Cruzar os quadrantes gera estratégias (usar forças para aproveitar oportunidades, reduzir fraquezas diante de ameaças).\n\n### Cinco forças de Porter\nIntensidade da **rivalidade** entre concorrentes, ameaça de **novos entrantes**, ameaça de **produtos substitutos**, poder de barganha dos **fornecedores** e poder de barganha dos **clientes**.\n\n### Matriz de Ansoff (crescimento)\n- **Penetração de mercado**: produto atual, mercado atual.\n- **Desenvolvimento de mercado**: produto atual, mercado novo.\n- **Desenvolvimento de produto**: produto novo, mercado atual.\n- **Diversificação**: produto novo, mercado novo (mais arriscada).\n\n### Pesquisa de marketing\n**Exploratória** (entender o problema, muitas vezes qualitativa), **descritiva** (medir, quantitativa) e **causal** (experimentos). Dados **primários** (coletados para a pesquisa) e **secundários** (já existentes).",
+      "revisao": "**Lembre:**\n- SWOT: forças/fraquezas internas; oportunidades/ameaças externas.\n- PESTAL: macroambiente.\n- Porter: rivalidade, entrantes, substitutos, fornecedores, clientes.\n- Ansoff: penetração, desenvolvimento de mercado/produto, diversificação.\n- Dados primários × secundários."
+    },
+    {
+      "id": "stp",
+      "nome": "Segmentação, mercado-alvo e posicionamento",
+      "resumo": "Nenhuma empresa atende bem a todos. O processo **STP** organiza essa escolha.\n\n### Segmentação\nDividir o mercado em grupos com necessidades parecidas. Bases:\n- **Geográfica**: região, cidade, clima.\n- **Demográfica**: idade, renda, gênero, escolaridade, tamanho da família.\n- **Psicográfica**: estilo de vida, personalidade, valores.\n- **Comportamental**: frequência de uso, benefício buscado, lealdade, ocasião de compra.\nUm bom segmento é **mensurável**, **acessível**, **substancial** (grande o bastante), **diferenciável** e **acionável**.\n\n### Escolha do mercado-alvo (*targeting*)\n- **Marketing indiferenciado** (de massa): uma oferta para todos.\n- **Diferenciado**: ofertas diferentes para vários segmentos.\n- **Concentrado** (de nicho): foco em um segmento pequeno.\n- **Micromarketing**: local ou individual (personalização).\n\n### Posicionamento\n- O **lugar** que a marca ocupa na mente do consumidor, em relação aos concorrentes (Ries e Trout).\n- Baseia-se em uma **proposta de valor** e em **diferenciais** (produto, serviço, pessoas, imagem, canal).\n- **Mapa perceptual**: gráfico com dois atributos (preço e qualidade, por exemplo) mostrando como os consumidores veem as marcas.\n- Erros: **subposicionamento** (ninguém sabe o que a marca representa), **superposicionamento** (imagem estreita demais), **posicionamento confuso** e **duvidoso**.",
+      "revisao": "**Lembre:**\n- STP: segmentar, escolher o alvo, posicionar.\n- Bases: geográfica, demográfica, psicográfica, comportamental.\n- Indiferenciado, diferenciado, concentrado, micromarketing.\n- Posicionamento = lugar na mente do consumidor.\n- Mapa perceptual compara marcas por atributos."
+    },
+    {
+      "id": "consumidor",
+      "nome": "Comportamento do consumidor",
+      "resumo": "### Fatores que influenciam a compra\n- **Culturais**: cultura, subcultura, classe social.\n- **Sociais**: **grupos de referência**, família, papéis e status, **influenciadores**.\n- **Pessoais**: idade, ciclo de vida, ocupação, situação financeira, estilo de vida, personalidade.\n- **Psicológicos**: **motivação** (Maslow), **percepção** (atenção, distorção e retenção seletivas), **aprendizagem** e **crenças e atitudes**.\n\n### Processo de decisão de compra\n1. **Reconhecimento do problema** (necessidade).\n2. **Busca de informações** (pessoais, comerciais, públicas, experiência).\n3. **Avaliação de alternativas**.\n4. **Decisão de compra** (pode ser afetada pela opinião dos outros e por imprevistos).\n5. **Comportamento pós-compra**: satisfação ou **dissonância cognitiva** (a dúvida \"fiz a escolha certa?\").\n\n### Tipos de compra\n- **Complexa**: alto envolvimento e marcas bem diferentes (carro, imóvel).\n- **Com redução de dissonância**: alto envolvimento, marcas parecidas.\n- **Habitual**: baixo envolvimento, marcas parecidas (sal, açúcar).\n- **Em busca de variedade**: baixo envolvimento, marcas diferentes (biscoitos).\n\n### Papéis na compra\n**Iniciador**, **influenciador**, **decisor**, **comprador** e **usuário** podem ser pessoas diferentes (o filho pede, a mãe decide, o pai paga).\n\n### Mercado organizacional (B2B)\nMenos compradores, compras maiores, decisões técnicas e em grupo (**centro de compras**), relacionamento de longo prazo.",
+      "revisao": "**Lembre:**\n- Fatores: culturais, sociais, pessoais, psicológicos.\n- Processo: problema → busca → avaliação → compra → pós-compra.\n- Dissonância cognitiva: dúvida depois da compra.\n- Habitual: baixo envolvimento, marcas parecidas.\n- Papéis: iniciador, influenciador, decisor, comprador, usuário."
+    },
+    {
+      "id": "mix",
+      "nome": "Composto de marketing (4 Ps)",
+      "resumo": "O **composto de marketing** (McCarthy) reúne as decisões sobre **produto**, **preço**, **praça** e **promoção**.\n\n### Produto\n- **Níveis**: benefício central (o que realmente se compra), produto básico (real) e produto ampliado (garantia, entrega, assistência).\n- **Ciclo de vida**: **introdução** (vendas baixas, custos altos), **crescimento** (vendas sobem rápido, entram concorrentes), **maturidade** (vendas estabilizam, concorrência forte) e **declínio**.\n- **Matriz BCG** (participação relativa × crescimento do mercado): **estrela** (alta participação, alto crescimento), **vaca leiteira** (alta participação, baixo crescimento, gera caixa), **ponto de interrogação** (baixa participação, alto crescimento) e **abacaxi** ou cão (baixa e baixo).\n- **Marca**: nome, símbolo e significado; **brand equity** é o valor que a marca acrescenta.\n\n### Preço\n- Métodos: baseado no **custo** (markup), na **concorrência** e no **valor percebido**.\n- Estratégias de lançamento: **desnatamento** (*skimming*, preço alto no início) e **penetração** (preço baixo para ganhar mercado).\n- Preço **psicológico** (R$ 9,99) e de **prestígio**.\n\n### Praça (distribuição)\n- Canais **diretos** (fabricante → consumidor) e **indiretos** (com atacadista e varejista).\n- Cobertura **intensiva** (em todo lugar: refrigerante), **seletiva** (alguns revendedores: eletrodomésticos) e **exclusiva** (poucos: carros de luxo).\n\n### Promoção (comunicação)\n**Propaganda**, **promoção de vendas** (cupons, amostras), **relações públicas**, **venda pessoal** e **marketing direto/digital**. Modelo **AIDA**: Atenção, Interesse, Desejo, Ação.\n\n### Serviços\nAcrescentam **pessoas**, **processos** e **evidência física** (7 Ps). Serviços são **intangíveis**, **inseparáveis** (produzidos e consumidos ao mesmo tempo), **variáveis** e **perecíveis**.",
+      "revisao": "**Lembre:**\n- 4 Ps: produto, preço, praça, promoção.\n- Ciclo de vida: introdução, crescimento, maturidade, declínio.\n- BCG: estrela, vaca leiteira, interrogação, abacaxi.\n- Desnatamento (alto) × penetração (baixo).\n- Serviços: intangíveis, inseparáveis, variáveis, perecíveis."
+    },
+    {
+      "id": "digital",
+      "nome": "Marketing digital e relacionamento",
+      "resumo": "### Marketing de relacionamento\n- Conquistar um cliente novo costuma custar **mais** do que manter um atual.\n- **CRM** (*customer relationship management*): gestão das informações e do relacionamento com cada cliente.\n- **Valor do tempo de vida do cliente** (*lifetime value*, **LTV**): quanto um cliente gera de lucro ao longo do relacionamento.\n- **Fidelização**: programas de pontos, atendimento, experiência.\n- **NPS** (*Net Promoter Score*): \"de 0 a 10, quanto você recomendaria?\". Promotores (9 e 10) menos detratores (0 a 6), em percentual.\n\n### Marketing digital\n- **Inbound marketing**: atrair o cliente com conteúdo útil (blog, vídeos, redes) em vez de interromper.\n- **Funil de vendas**: **topo** (atração, descoberta), **meio** (consideração), **fundo** (decisão).\n- **SEO**: otimizar para aparecer na busca orgânica; **links patrocinados** (SEM): pagar para aparecer.\n- **Persona**: perfil semifictício do cliente ideal.\n\n### Métricas\n- **CAC** (custo de aquisição de cliente) = investimento em marketing e vendas ÷ clientes conquistados.\n- **Taxa de conversão** = conversões ÷ visitantes.\n- **CTR** (taxa de cliques) = cliques ÷ impressões.\n- **ROI** = (retorno − investimento) ÷ investimento.\n- Regra de saúde do negócio: **LTV** bem maior que o **CAC**.\n\n### Ética e lei\nCódigo de Defesa do Consumidor (propaganda enganosa e abusiva), CONAR (autorregulamentação publicitária) e **LGPD** (consentimento para usar dados pessoais).",
+      "revisao": "**Lembre:**\n- Manter cliente costuma ser mais barato que conquistar.\n- NPS = % promotores − % detratores.\n- Funil: topo, meio, fundo.\n- CAC = investimento ÷ novos clientes; LTV > CAC.\n- CTR = cliques ÷ impressões."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "marketing-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre desejo e demanda?",
+      "opcoes": [
+        "Demanda é o desejo com poder de compra",
+        "São a mesma coisa",
+        "Desejo é sempre maior que a necessidade",
+        "Demanda é a necessidade sem forma definida"
+      ],
+      "correta": 0,
+      "explicacao": "Desejos são moldados pela cultura; viram demanda quando há dinheiro e disposição para comprar."
+    },
+    {
+      "id": "marketing-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O que é miopia de marketing, segundo Levitt?",
+      "opcoes": [
+        "Fazer pouca propaganda",
+        "Focar no produto e esquecer a necessidade que ele atende",
+        "Cobrar preço baixo demais",
+        "Pesquisar demais o mercado"
+      ],
+      "correta": 1,
+      "explicacao": "O exemplo clássico é a ferrovia que se via no negócio de trens, e não no de transporte."
+    },
+    {
+      "id": "marketing-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A orientação de marketing societal acrescenta à orientação de marketing:",
+      "opcoes": [
+        "O foco exclusivo na produção barata",
+        "O esforço agressivo de vendas",
+        "A preocupação com o bem-estar da sociedade no longo prazo",
+        "A redução de qualidade"
+      ],
+      "correta": 2,
+      "explicacao": "Além de satisfazer o cliente, considera os efeitos sociais e ambientais."
+    },
+    {
+      "id": "marketing-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma fábrica diz: 'nosso produto é ótimo, só precisamos de vendedores mais insistentes'. Que orientação ela mostra?",
+      "opcoes": [
+        "Orientação para marketing",
+        "Marketing societal",
+        "Marketing de relacionamento",
+        "Orientação para vendas"
+      ],
+      "correta": 3,
+      "explicacao": "A orientação para vendas acredita que o cliente só compra se for empurrado pela venda."
+    },
+    {
+      "id": "marketing-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Uma pessoa troca um notebook mais barato por outro mais caro porque ele demora menos para ligar e dura mais. Que conceito explica a escolha?",
+      "opcoes": [
+        "Valor percebido: benefícios menos custos",
+        "Miopia de marketing",
+        "Demanda sem poder de compra",
+        "Orientação para a produção"
+      ],
+      "correta": 0,
+      "explicacao": "O cliente compara benefícios (tempo, durabilidade) com custos (preço); o valor percebido foi maior no mais caro."
+    },
+    {
+      "id": "marketing-6",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Na análise SWOT, quais elementos são internos à empresa?",
+      "opcoes": [
+        "Oportunidades e ameaças",
+        "Forças e fraquezas",
+        "Forças e ameaças",
+        "Oportunidades e fraquezas"
+      ],
+      "correta": 1,
+      "explicacao": "Forças e fraquezas estão sob controle da empresa; oportunidades e ameaças vêm do ambiente."
+    },
+    {
+      "id": "marketing-7",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Qual NÃO é uma das cinco forças de Porter?",
+      "opcoes": [
+        "Ameaça de produtos substitutos",
+        "Poder de barganha dos clientes",
+        "Satisfação dos funcionários",
+        "Ameaça de novos entrantes"
+      ],
+      "correta": 2,
+      "explicacao": "As cinco forças: rivalidade, novos entrantes, substitutos, fornecedores e clientes."
+    },
+    {
+      "id": "marketing-8",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Na matriz de Ansoff, vender um produto novo para um mercado novo é:",
+      "opcoes": [
+        "Penetração de mercado",
+        "Desenvolvimento de produto",
+        "Desenvolvimento de mercado",
+        "Diversificação"
+      ],
+      "correta": 3,
+      "explicacao": "É a estratégia mais arriscada, porque a empresa não conhece nem o produto nem o mercado."
+    },
+    {
+      "id": "marketing-9",
+      "topico": "ambiente",
+      "nivel": "aplicacao",
+      "pergunta": "Uma rede de academias percebe que a nova lei de proteção de dados exige mudar o cadastro dos alunos. Em qual força do macroambiente isso se encaixa?",
+      "opcoes": [
+        "Legal",
+        "Tecnológica",
+        "Sociocultural",
+        "Concorrencial"
+      ],
+      "correta": 0,
+      "explicacao": "Mudanças na legislação, como a LGPD, são forças legais."
+    },
+    {
+      "id": "marketing-10",
+      "topico": "ambiente",
+      "nivel": "analise",
+      "pergunta": "Uma padaria tem uma receita famosa (força) e vê crescer a procura por produtos sem glúten (oportunidade). Qual estratégia da SWOT cruzada se aplica?",
+      "opcoes": [
+        "Reduzir fraquezas diante das ameaças",
+        "Usar a força para aproveitar a oportunidade, criando uma linha sem glúten",
+        "Ignorar o ambiente externo",
+        "Fechar a loja para evitar riscos"
+      ],
+      "correta": 1,
+      "explicacao": "O cruzamento força × oportunidade gera estratégias ofensivas."
+    },
+    {
+      "id": "marketing-11",
+      "topico": "stp",
+      "nivel": "conceitual",
+      "pergunta": "Segmentar o mercado pelo estilo de vida e pelos valores dos consumidores é segmentação:",
+      "opcoes": [
+        "Geográfica",
+        "Demográfica",
+        "Psicográfica",
+        "Comportamental"
+      ],
+      "correta": 2,
+      "explicacao": "Psicográfica usa estilo de vida, personalidade e valores."
+    },
+    {
+      "id": "marketing-12",
+      "topico": "stp",
+      "nivel": "conceitual",
+      "pergunta": "O que é posicionamento?",
+      "opcoes": [
+        "A posição da loja no shopping",
+        "O lugar do produto na prateleira",
+        "A classificação da empresa na bolsa",
+        "O lugar que a marca ocupa na mente do consumidor em relação aos concorrentes"
+      ],
+      "correta": 3,
+      "explicacao": "Posicionar é definir como se quer ser lembrado e por qual diferencial."
+    },
+    {
+      "id": "marketing-13",
+      "topico": "stp",
+      "nivel": "conceitual",
+      "pergunta": "Uma empresa que atende só a um segmento pequeno e bem definido pratica marketing:",
+      "opcoes": [
+        "Concentrado (de nicho)",
+        "Indiferenciado",
+        "Diferenciado",
+        "De massa"
+      ],
+      "correta": 0,
+      "explicacao": "Marketing concentrado foca recursos em um segmento específico."
+    },
+    {
+      "id": "marketing-14",
+      "topico": "stp",
+      "nivel": "aplicacao",
+      "pergunta": "Uma marca de chocolates cria linhas para crianças, para quem faz dieta e para presentes de luxo. Que estratégia de mercado-alvo ela usa?",
+      "opcoes": [
+        "Marketing indiferenciado",
+        "Marketing diferenciado",
+        "Micromarketing individual",
+        "Marketing concentrado"
+      ],
+      "correta": 1,
+      "explicacao": "Ofertas diferentes para vários segmentos caracterizam o marketing diferenciado."
+    },
+    {
+      "id": "marketing-15",
+      "topico": "stp",
+      "nivel": "analise",
+      "pergunta": "Segmentar clientes pela frequência de compra e pela lealdade à marca é útil porque:",
+      "opcoes": [
+        "Mostra a idade de cada cliente",
+        "Substitui a pesquisa de mercado",
+        "Permite tratar de forma diferente quem compra muito e quem compra pouco, conforme o comportamento real",
+        "Elimina a necessidade de posicionamento"
+      ],
+      "correta": 2,
+      "explicacao": "A segmentação comportamental usa o que o cliente faz, não só quem ele é."
+    },
+    {
+      "id": "marketing-16",
+      "topico": "consumidor",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ordem do processo de decisão de compra?",
+      "opcoes": [
+        "Compra, busca, avaliação e problema",
+        "Avaliação, problema, compra e busca",
+        "Busca, compra, problema e avaliação",
+        "Reconhecimento do problema, busca, avaliação, compra e pós-compra"
+      ],
+      "correta": 3,
+      "explicacao": "O processo começa com a percepção de uma necessidade e termina no comportamento pós-compra."
+    },
+    {
+      "id": "marketing-17",
+      "topico": "consumidor",
+      "nivel": "conceitual",
+      "pergunta": "A dissonância cognitiva após a compra é:",
+      "opcoes": [
+        "A dúvida ou o desconforto sobre ter feito a escolha certa",
+        "A satisfação total com o produto",
+        "A falta de dinheiro para comprar",
+        "A propaganda enganosa"
+      ],
+      "correta": 0,
+      "explicacao": "Ela é comum em compras caras e de alto envolvimento; o pós-venda ajuda a reduzi-la."
+    },
+    {
+      "id": "marketing-18",
+      "topico": "consumidor",
+      "nivel": "conceitual",
+      "pergunta": "Comprar sempre o mesmo sal, sem pensar muito, é um exemplo de compra:",
+      "opcoes": [
+        "Complexa",
+        "Habitual",
+        "Com redução de dissonância",
+        "Organizacional"
+      ],
+      "correta": 1,
+      "explicacao": "Baixo envolvimento e marcas parecidas levam à compra por hábito."
+    },
+    {
+      "id": "marketing-19",
+      "topico": "consumidor",
+      "nivel": "aplicacao",
+      "pergunta": "Um filho pede um videogame, a avó recomenda um modelo, a mãe decide e o pai paga. O avô vai jogar junto. Quem é o decisor?",
+      "opcoes": [
+        "O filho",
+        "O pai",
+        "A mãe",
+        "A avó"
+      ],
+      "correta": 2,
+      "explicacao": "O filho é iniciador, a avó influenciadora, a mãe decisora, o pai comprador; filho e avô são usuários."
+    },
+    {
+      "id": "marketing-20",
+      "topico": "consumidor",
+      "nivel": "analise",
+      "pergunta": "Por que uma marca de roupas contrata influenciadores digitais para mostrar seus produtos?",
+      "opcoes": [
+        "Porque fatores pessoais não importam",
+        "Porque elimina a necessidade de preço",
+        "Porque substitui a distribuição",
+        "Porque grupos de referência e influenciadores afetam o comportamento de compra"
+      ],
+      "correta": 3,
+      "explicacao": "Influenciadores atuam como grupo de referência, um fator social na decisão."
+    },
+    {
+      "id": "marketing-21",
+      "topico": "mix",
+      "nivel": "conceitual",
+      "pergunta": "Na matriz BCG, um produto com alta participação em mercado de baixo crescimento é:",
+      "opcoes": [
+        "Vaca leiteira",
+        "Estrela",
+        "Ponto de interrogação",
+        "Abacaxi"
+      ],
+      "correta": 0,
+      "explicacao": "Gera caixa com pouco investimento, que pode financiar estrelas e interrogações."
+    },
+    {
+      "id": "marketing-22",
+      "topico": "mix",
+      "nivel": "conceitual",
+      "pergunta": "A estratégia de lançar com preço alto para depois baixar se chama:",
+      "opcoes": [
+        "Penetração",
+        "Desnatamento (skimming)",
+        "Preço psicológico",
+        "Preço de custo"
+      ],
+      "correta": 1,
+      "explicacao": "Desnatamento captura primeiro os consumidores dispostos a pagar mais; penetração começa com preço baixo."
+    },
+    {
+      "id": "marketing-23",
+      "topico": "mix",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica dos serviços significa que eles não podem ser estocados?",
+      "opcoes": [
+        "Intangibilidade",
+        "Inseparabilidade",
+        "Perecibilidade",
+        "Variabilidade"
+      ],
+      "correta": 2,
+      "explicacao": "Uma poltrona vazia num voo não pode ser vendida depois: o serviço perece."
+    },
+    {
+      "id": "marketing-24",
+      "topico": "mix",
+      "nivel": "aplicacao",
+      "pergunta": "Um refrigerante quer estar em bares, supermercados, padarias e máquinas automáticas. Que cobertura de distribuição ele busca?",
+      "opcoes": [
+        "Exclusiva",
+        "Seletiva",
+        "Direta",
+        "Intensiva"
+      ],
+      "correta": 3,
+      "explicacao": "Produtos de conveniência buscam o maior número possível de pontos de venda."
+    },
+    {
+      "id": "marketing-25",
+      "topico": "mix",
+      "nivel": "analise",
+      "pergunta": "As vendas de um produto se estabilizaram, a concorrência está forte e as empresas brigam por preço e diferenciação. Em que fase do ciclo de vida ele está?",
+      "opcoes": [
+        "Maturidade",
+        "Introdução",
+        "Crescimento",
+        "Declínio"
+      ],
+      "correta": 0,
+      "explicacao": "Na maturidade, as vendas param de crescer e a competição se intensifica."
+    },
+    {
+      "id": "marketing-26",
+      "topico": "digital",
+      "nivel": "conceitual",
+      "pergunta": "O que é inbound marketing?",
+      "opcoes": [
+        "Telefonar para clientes sem aviso",
+        "Atrair clientes com conteúdo útil, em vez de interrompê-los com anúncios",
+        "Distribuir panfletos na rua",
+        "Vender só para empresas"
+      ],
+      "correta": 1,
+      "explicacao": "O cliente encontra a marca ao buscar informação, no blog, nos vídeos ou nas redes."
+    },
+    {
+      "id": "marketing-27",
+      "topico": "digital",
+      "nivel": "conceitual",
+      "pergunta": "Como se calcula o CAC (custo de aquisição de cliente)?",
+      "opcoes": [
+        "Receita total dividida pelos clientes",
+        "Lucro dividido pelo investimento",
+        "Investimento em marketing e vendas dividido pelo número de clientes novos",
+        "Cliques divididos pelas impressões"
+      ],
+      "correta": 2,
+      "explicacao": "O CAC deve ser bem menor que o valor do tempo de vida do cliente (LTV)."
+    },
+    {
+      "id": "marketing-28",
+      "topico": "digital",
+      "nivel": "conceitual",
+      "pergunta": "No NPS, quais respostas contam como promotores?",
+      "opcoes": [
+        "Notas 7 e 8",
+        "Notas de 0 a 6",
+        "Qualquer nota acima de 5",
+        "Notas 9 e 10"
+      ],
+      "correta": 3,
+      "explicacao": "NPS = % de promotores (9–10) − % de detratores (0–6). Notas 7 e 8 são neutras."
+    },
+    {
+      "id": "marketing-29",
+      "topico": "digital",
+      "nivel": "aplicacao",
+      "pergunta": "Uma campanha gastou R$ 5.000 e trouxe 100 clientes novos. Qual foi o CAC?",
+      "opcoes": [
+        "R$ 50",
+        "R$ 500",
+        "R$ 5",
+        "R$ 100"
+      ],
+      "correta": 0,
+      "explicacao": "CAC = investimento ÷ clientes novos = 5.000 ÷ 100 = R$ 50 por cliente. Para valer a pena, cada cliente precisa gerar bem mais que isso ao longo do tempo (LTV)."
+    },
+    {
+      "id": "marketing-30",
+      "topico": "digital",
+      "nivel": "analise",
+      "pergunta": "Numa pesquisa de NPS com 200 respostas, 120 deram 9 ou 10, 50 deram 7 ou 8 e 30 deram de 0 a 6. Qual é o NPS?",
+      "opcoes": [
+        "60",
+        "45",
+        "75",
+        "85"
+      ],
+      "correta": 1,
+      "explicacao": "Promotores = 120 ÷ 200 = 60%; detratores = 30 ÷ 200 = 15%. NPS = 60 − 15 = 45."
+    }
+  ]
+}

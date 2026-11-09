@@ -1,0 +1,465 @@
+{
+  "id": "contabilidade-custos",
+  "nome": "Contabilidade de Custos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "terminologia",
+      "nome": "Terminologia e classificação dos custos",
+      "resumo": "A Contabilidade de Custos mede quanto custa produzir um bem ou prestar um serviço, para **avaliar estoques**, **apurar o resultado** e **apoiar decisões**.\n\n### Terminologia\n- **Gasto**: sacrifício financeiro para obter um bem ou serviço (sentido amplo).\n- **Investimento**: gasto **ativado** porque traz benefício futuro (máquina, estoque de matéria-prima).\n- **Custo**: gasto com bens e serviços usados **na produção** (matéria-prima, mão de obra da fábrica, energia da fábrica).\n- **Despesa**: bem ou serviço consumido para **obter receita**, fora da produção (comissões de vendas, salários da administração, propaganda).\n- **Perda**: consumo **anormal e involuntário** (incêndio, greve, material estragado por acidente). Vai direto para o resultado.\n- **Desembolso**: o **pagamento** em si, que pode ocorrer antes, durante ou depois do gasto.\n\n### Classificações\n- Em relação ao **produto**: **diretos** (medidos sem rateio no produto, como matéria-prima e mão de obra direta) e **indiretos** (precisam de **rateio**, como aluguel da fábrica, supervisão e depreciação de máquinas usadas por vários produtos).\n- Em relação ao **volume**: **variáveis** (total varia com a produção) e **fixos** (total não varia dentro de uma faixa de produção). Unitariamente, ocorre o inverso: o custo fixo **por unidade** cai quando a produção aumenta.\n- **Semivariáveis** e **semifixos**: têm uma parte fixa e outra variável (ex.: conta de energia com taxa mínima).\n\n### Custo de produção\n**Custo de produção = MD (materiais diretos) + MOD (mão de obra direta) + CIF (custos indiretos de fabricação)**. Custo de transformação = MOD + CIF; custo primário = MD + MOD.",
+      "revisao": "**Lembre:**\n- Custo = produção; despesa = obter receita; perda = anormal.\n- Investimento é gasto ativado.\n- Diretos (sem rateio) × indiretos (com rateio).\n- Fixo total constante; fixo unitário cai com o volume.\n- Primário = MD + MOD; transformação = MOD + CIF."
+    },
+    {
+      "id": "absorcao",
+      "nome": "Custeio por absorção e rateio",
+      "resumo": "### Custeio por absorção\n- Todos os **custos de produção**, fixos e variáveis, diretos e indiretos, vão para os **produtos**.\n- As **despesas** vão direto para o resultado do período.\n- É o método aceito pela legislação fiscal e pelas normas contábeis (**CPC 16**, estoques) para os relatórios externos.\n- Fluxo: custos → **estoque de produtos em elaboração** → **produtos acabados** → **custo dos produtos vendidos (CPV)** quando vendidos.\n- **CPV = estoque inicial + custo da produção acabada − estoque final** (de produtos acabados).\n\n### Rateio dos custos indiretos\n- Os **CIF** são distribuídos aos produtos por um **critério de rateio** (base): horas-máquina, horas de mão de obra direta, quantidade produzida, área ocupada, consumo de material.\n- A base deve ter **relação de causa** com o custo (energia por horas-máquina, aluguel por área).\n- Todo rateio tem certa **arbitrariedade**: produtos podem parecer mais ou menos lucrativos só por causa do critério.\n\n### Departamentalização\n- A fábrica é dividida em **departamentos**: **produtivos** (onde o produto passa, como corte e montagem) e **de serviços** (apoiam, como manutenção e almoxarifado).\n- Os custos dos departamentos de serviço são rateados para os produtivos e, depois, para os produtos. Isso deixa o rateio mais preciso.",
+      "revisao": "**Lembre:**\n- Absorção: todo custo de produção vai para o produto.\n- Aceito pelo fisco e pelo CPC 16.\n- CPV = EI + produção acabada − EF.\n- CIF por rateio com base de causa.\n- Departamentos de serviço → produtivos → produtos."
+    },
+    {
+      "id": "variavel",
+      "nome": "Custeio variável e margem de contribuição",
+      "resumo": "### Custeio variável (ou direto)\n- Só os **custos variáveis** vão para os produtos.\n- Os **custos fixos** são tratados como **despesa do período**, sem passar pelo estoque.\n- **Não** é aceito para relatórios externos e fiscais, mas é muito útil para **decisões**.\n\n### Margem de contribuição\n- **Margem de contribuição unitária (MCu) = preço de venda − custos variáveis unitários − despesas variáveis unitárias** (comissões, impostos sobre vendas).\n- É quanto cada unidade **contribui** para pagar os gastos fixos e gerar lucro.\n- Para decidir qual produto incentivar, olha-se a MC; havendo um **fator limitante** (horas de máquina, matéria-prima escassa), escolhe-se a maior **MC por unidade do fator limitante**.\n\n### Absorção × variável\n- Se a empresa **produz mais do que vende**, a absorção mostra **lucro maior**, porque parte dos custos fixos fica \"guardada\" no estoque.\n- Se **vende mais do que produz**, a absorção mostra lucro menor (custos fixos de períodos anteriores saem do estoque).\n- Quando produção = vendas, os dois métodos dão o mesmo lucro.\n- Por isso, a absorção pode estimular a **superprodução** só para \"melhorar\" o resultado.",
+      "revisao": "**Lembre:**\n- Variável: fixos vão direto para o resultado.\n- MCu = preço − custos e despesas variáveis unitários.\n- Fator limitante: maior MC por unidade do fator.\n- Produziu mais que vendeu → absorção mostra mais lucro.\n- Variável não vale para o fisco."
+    },
+    {
+      "id": "cvl",
+      "nome": "Custo-volume-lucro e ponto de equilíbrio",
+      "resumo": "A análise **custo-volume-lucro** mostra como o lucro muda quando volume, preço e custos mudam.\n\n### Pontos de equilíbrio (em unidades)\n- **Contábil**: **(custos fixos + despesas fixas) ÷ MCu**. Lucro contábil zero.\n- **Econômico**: **(gastos fixos + lucro desejado ou custo de oportunidade) ÷ MCu**.\n- **Financeiro**: **(gastos fixos − gastos não desembolsáveis, como depreciação) ÷ MCu**. Caixa zero.\n- Em valor (R$): gastos fixos ÷ **índice de margem de contribuição** (MCu ÷ preço).\n\n### Margem de segurança\n**MS = (vendas atuais − vendas no ponto de equilíbrio) ÷ vendas atuais**. Quanto as vendas podem cair antes de dar prejuízo.\n\n### Alavancagem operacional\n- **Grau de alavancagem operacional (GAO) = variação % do lucro ÷ variação % das vendas** = **margem de contribuição total ÷ lucro operacional**.\n- Empresas com muitos custos fixos têm GAO alto: o lucro sobe muito quando as vendas crescem e cai muito quando elas caem.\n\n### Exemplo\nPreço R$ 50, custo variável R$ 30, gastos fixos de R$ 40.000 por mês. MCu = 20. PE contábil = 40.000 ÷ 20 = **2.000 unidades**. Vendendo 2.500, o lucro é 500 × 20 = R$ 10.000 e a MS é 500 ÷ 2.500 = **20%**.",
+      "revisao": "**Lembre:**\n- PE contábil = fixos ÷ MCu.\n- PE econômico soma o lucro desejado.\n- PE financeiro tira a depreciação.\n- MS = (atual − PE) ÷ atual.\n- GAO = MC total ÷ lucro."
+    },
+    {
+      "id": "abc-padrao",
+      "nome": "Custeio ABC e custo-padrão",
+      "resumo": "### Custeio baseado em atividades (ABC)\n- Parte da ideia de que **produtos consomem atividades**, e **atividades consomem recursos**.\n- Passos: identificar as **atividades** (comprar material, preparar máquinas, inspecionar qualidade), atribuir a elas os recursos e levá-las aos produtos por **direcionadores de custo** (*cost drivers*): número de pedidos de compra, número de *setups*, número de inspeções.\n- Reduz a arbitrariedade do rateio tradicional por volume, especialmente com muitos **custos indiretos** e grande **variedade de produtos**.\n- Mostra que produtos de baixo volume e alta complexidade costumam custar mais do que o rateio por horas indica.\n- Desvantagem: mais caro e trabalhoso de implantar e manter.\n\n### Custo-padrão\n- É o **custo que deveria ocorrer** numa produção eficiente: uma **meta** de quantidade e de preço para material, mão de obra e CIF.\n- Serve para **controle**: comparar o custo **real** com o **padrão** e analisar as **variações**.\n- **Variação de quantidade** (ou de eficiência): usou-se mais ou menos material ou horas do que o previsto.\n- **Variação de preço** (ou de taxa): pagou-se mais ou menos por unidade de material ou por hora.\n- Variação **favorável**: real menor que o padrão; **desfavorável**: real maior.\n- Tipos: **ideal** (perfeição, quase inalcançável) e **corrente** (exigente, mas alcançável), este o mais usado.",
+      "revisao": "**Lembre:**\n- ABC: produtos consomem atividades; atividades, recursos.\n- Direcionadores: pedidos, setups, inspeções.\n- ABC útil com muito CIF e muitos produtos.\n- Padrão = custo que deveria ocorrer.\n- Variações de quantidade e de preço; favorável se real < padrão."
+    },
+    {
+      "id": "preco",
+      "nome": "Formação de preço e decisões",
+      "resumo": "### Preço com base no custo: markup\n- **Markup** é o índice aplicado sobre o custo para chegar ao preço, cobrindo **despesas variáveis** (impostos sobre vendas, comissões), **despesas fixas** (em %) e o **lucro**.\n- **Markup divisor = 1 − (soma dos percentuais sobre o preço)**; **preço = custo ÷ markup divisor**.\n- **Markup multiplicador = 1 ÷ markup divisor**; **preço = custo × multiplicador**.\n- Exemplo: custo R$ 60; impostos e comissões de 20% e lucro de 20% sobre o preço. Divisor = 1 − 0,40 = 0,60. Preço = 60 ÷ 0,60 = **R$ 100**.\n- Erro comum: somar 40% sobre o custo (60 × 1,4 = 84), o que não cobre os percentuais calculados sobre o preço.\n\n### Outras referências\n- Preço também depende do **mercado** (concorrência, valor percebido pelo cliente) e da **elasticidade** da demanda.\n- **Custo-meta** (*target costing*): parte-se do preço que o mercado aceita, tira-se o lucro desejado, e chega-se ao custo máximo permitido.\n\n### Decisões com margem de contribuição\n- **Pedido especial** com preço abaixo do custo total: vale aceitar se houver **capacidade ociosa** e o preço for maior que o **custo variável**, desde que não afete as vendas normais.\n- **Fazer ou comprar**: comparar o custo de comprar fora com os custos que **deixariam de existir** se a empresa parasse de produzir (custos **evitáveis**).\n- **Eliminar um produto**: só se a margem de contribuição dele for negativa ou se os fixos evitáveis forem maiores que a margem; o fixo comum continua existindo.",
+      "revisao": "**Lembre:**\n- Preço = custo ÷ (1 − % sobre o preço).\n- Não somar a % ao custo.\n- Custo-meta: preço de mercado − lucro.\n- Pedido especial: capacidade ociosa e preço > custo variável.\n- Fazer ou comprar: olhar os custos evitáveis."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "contabilidade-custos-1",
+      "topico": "terminologia",
+      "nivel": "conceitual",
+      "pergunta": "A comissão paga aos vendedores é classificada como:",
+      "opcoes": [
+        "Despesa variável",
+        "Custo direto de produção",
+        "Investimento",
+        "Perda"
+      ],
+      "correta": 0,
+      "explicacao": "Comissão não faz parte da produção: é gasto para obter receita e varia com as vendas."
+    },
+    {
+      "id": "contabilidade-custos-2",
+      "topico": "terminologia",
+      "nivel": "conceitual",
+      "pergunta": "A matéria-prima usada na fabricação de um produto é, em geral:",
+      "opcoes": [
+        "Custo indireto e fixo",
+        "Custo direto e variável",
+        "Despesa administrativa",
+        "Perda"
+      ],
+      "correta": 1,
+      "explicacao": "Ela é medida no produto sem rateio e seu total cresce com a produção."
+    },
+    {
+      "id": "contabilidade-custos-3",
+      "topico": "terminologia",
+      "nivel": "conceitual",
+      "pergunta": "O que acontece com o custo fixo por unidade quando a produção aumenta?",
+      "opcoes": [
+        "Aumenta na mesma proporção",
+        "Fica igual",
+        "Diminui, porque o mesmo total é dividido por mais unidades",
+        "Vira custo variável"
+      ],
+      "correta": 2,
+      "explicacao": "O total fixo não muda dentro da faixa de produção; dividido por mais unidades, o valor unitário cai."
+    },
+    {
+      "id": "contabilidade-custos-4",
+      "topico": "terminologia",
+      "nivel": "aplicacao",
+      "pergunta": "Um lote de matéria-prima foi destruído por uma enchente no depósito. Como esse valor é classificado?",
+      "opcoes": [
+        "Custo de produção do período",
+        "Investimento",
+        "Despesa de vendas",
+        "Perda, lançada direto no resultado"
+      ],
+      "correta": 3,
+      "explicacao": "Perda é consumo anormal e involuntário; não vai para o custo dos produtos."
+    },
+    {
+      "id": "contabilidade-custos-5",
+      "topico": "terminologia",
+      "nivel": "analise",
+      "pergunta": "Uma fábrica tem MD de R$ 40.000, MOD de R$ 25.000 e CIF de R$ 15.000. Qual é o custo de transformação?",
+      "opcoes": [
+        "R$ 40.000",
+        "R$ 65.000",
+        "R$ 80.000",
+        "R$ 55.000"
+      ],
+      "correta": 0,
+      "explicacao": "Custo de transformação = MOD + CIF = 25.000 + 15.000 = R$ 40.000. O custo primário seria MD + MOD = R$ 65.000."
+    },
+    {
+      "id": "contabilidade-custos-6",
+      "topico": "absorcao",
+      "nivel": "conceitual",
+      "pergunta": "No custeio por absorção, o que vai para o custo dos produtos?",
+      "opcoes": [
+        "Só os custos variáveis",
+        "Todos os custos de produção, fixos e variáveis",
+        "Custos e despesas de vendas",
+        "Só a matéria-prima"
+      ],
+      "correta": 1,
+      "explicacao": "Na absorção, todos os custos de fabricação são absorvidos pelos produtos; despesas vão para o resultado."
+    },
+    {
+      "id": "contabilidade-custos-7",
+      "topico": "absorcao",
+      "nivel": "conceitual",
+      "pergunta": "Por que o custeio por absorção é o usado nos relatórios externos no Brasil?",
+      "opcoes": [
+        "Porque é o mais simples de todos",
+        "Porque ignora os custos fixos",
+        "Porque é o aceito pela legislação fiscal e pelas normas contábeis (CPC 16)",
+        "Porque é obrigatório só para bancos"
+      ],
+      "correta": 2,
+      "explicacao": "O custeio variável é gerencial; para estoques e resultado oficiais usa-se a absorção."
+    },
+    {
+      "id": "contabilidade-custos-8",
+      "topico": "absorcao",
+      "nivel": "conceitual",
+      "pergunta": "Uma boa base de rateio para a energia elétrica das máquinas é:",
+      "opcoes": [
+        "Número de vendedores",
+        "Área do escritório",
+        "Faturamento de cada cliente",
+        "Horas-máquina"
+      ],
+      "correta": 3,
+      "explicacao": "A base deve ter relação de causa com o custo: as máquinas consomem energia conforme as horas trabalhadas."
+    },
+    {
+      "id": "contabilidade-custos-9",
+      "topico": "absorcao",
+      "nivel": "aplicacao",
+      "pergunta": "Os CIF de R$ 30.000 são rateados por horas-máquina. O produto A usou 600 horas e o B, 400. Quanto vai para A?",
+      "opcoes": [
+        "R$ 18.000",
+        "R$ 15.000",
+        "R$ 12.000",
+        "R$ 20.000"
+      ],
+      "correta": 0,
+      "explicacao": "A usou 600 de 1.000 horas (60%): 0,6 × 30.000 = R$ 18.000. B recebe R$ 12.000."
+    },
+    {
+      "id": "contabilidade-custos-10",
+      "topico": "absorcao",
+      "nivel": "analise",
+      "pergunta": "Estoque inicial de produtos acabados R$ 10.000, produção acabada no mês R$ 50.000 e estoque final R$ 15.000. Qual é o CPV?",
+      "opcoes": [
+        "R$ 55.000",
+        "R$ 45.000",
+        "R$ 75.000",
+        "R$ 35.000"
+      ],
+      "correta": 1,
+      "explicacao": "CPV = EI + produção acabada − EF = 10.000 + 50.000 − 15.000 = R$ 45.000."
+    },
+    {
+      "id": "contabilidade-custos-11",
+      "topico": "variavel",
+      "nivel": "conceitual",
+      "pergunta": "No custeio variável, os custos fixos de produção são:",
+      "opcoes": [
+        "Distribuídos aos produtos por rateio",
+        "Guardados no estoque",
+        "Lançados como despesa do período",
+        "Ignorados"
+      ],
+      "correta": 2,
+      "explicacao": "Só os custos variáveis vão para os produtos; os fixos vão inteiros para o resultado do período."
+    },
+    {
+      "id": "contabilidade-custos-12",
+      "topico": "variavel",
+      "nivel": "conceitual",
+      "pergunta": "A margem de contribuição unitária é:",
+      "opcoes": [
+        "Preço de venda menos todos os custos",
+        "Lucro líquido dividido pelas vendas",
+        "Custo fixo dividido pela produção",
+        "Preço de venda menos custos e despesas variáveis por unidade"
+      ],
+      "correta": 3,
+      "explicacao": "É o que cada unidade sobra para pagar os gastos fixos e gerar lucro."
+    },
+    {
+      "id": "contabilidade-custos-13",
+      "topico": "variavel",
+      "nivel": "conceitual",
+      "pergunta": "Quando a produção é maior que as vendas, como o lucro na absorção se compara ao do custeio variável?",
+      "opcoes": [
+        "É maior na absorção, porque parte dos custos fixos fica no estoque",
+        "É menor na absorção",
+        "É sempre igual",
+        "Não dá para comparar"
+      ],
+      "correta": 0,
+      "explicacao": "Na absorção, custos fixos dos produtos não vendidos ficam ativados no estoque."
+    },
+    {
+      "id": "contabilidade-custos-14",
+      "topico": "variavel",
+      "nivel": "aplicacao",
+      "pergunta": "Um produto é vendido por R$ 80, com custo variável de R$ 45 e comissão de 5% sobre o preço. Qual é a margem de contribuição unitária?",
+      "opcoes": [
+        "R$ 35",
+        "R$ 31",
+        "R$ 40",
+        "R$ 26"
+      ],
+      "correta": 1,
+      "explicacao": "Comissão = 5% de 80 = R$ 4. MCu = 80 − 45 − 4 = R$ 31."
+    },
+    {
+      "id": "contabilidade-custos-15",
+      "topico": "variavel",
+      "nivel": "analise",
+      "pergunta": "A máquina é o fator limitante. O produto X tem MCu de R$ 30 e usa 3 horas de máquina; o Y tem MCu de R$ 20 e usa 1 hora. Qual priorizar?",
+      "opcoes": [
+        "X, porque tem a maior MCu",
+        "Os dois igualmente",
+        "Y, porque dá R$ 20 por hora contra R$ 10 por hora de X",
+        "Nenhum dos dois"
+      ],
+      "correta": 2,
+      "explicacao": "Com fator limitante, compara-se a margem por unidade do fator: X = 30 ÷ 3 = 10; Y = 20 ÷ 1 = 20."
+    },
+    {
+      "id": "contabilidade-custos-16",
+      "topico": "cvl",
+      "nivel": "conceitual",
+      "pergunta": "Como se calcula o ponto de equilíbrio contábil em unidades?",
+      "opcoes": [
+        "Custos variáveis divididos pelo preço",
+        "Lucro dividido pelas vendas",
+        "Preço dividido pelos gastos fixos",
+        "Gastos fixos divididos pela margem de contribuição unitária"
+      ],
+      "correta": 3,
+      "explicacao": "No ponto de equilíbrio contábil, a margem total cobre exatamente os gastos fixos e o lucro é zero."
+    },
+    {
+      "id": "contabilidade-custos-17",
+      "topico": "cvl",
+      "nivel": "conceitual",
+      "pergunta": "O ponto de equilíbrio financeiro difere do contábil porque:",
+      "opcoes": [
+        "Exclui os gastos que não saem do caixa, como a depreciação",
+        "Inclui o lucro desejado",
+        "Usa o preço com impostos",
+        "Considera só os custos variáveis"
+      ],
+      "correta": 0,
+      "explicacao": "Ele mostra o volume em que o caixa fica em zero."
+    },
+    {
+      "id": "contabilidade-custos-18",
+      "topico": "cvl",
+      "nivel": "conceitual",
+      "pergunta": "O que mede a margem de segurança?",
+      "opcoes": [
+        "O lucro máximo possível",
+        "Quanto as vendas podem cair antes de a empresa ter prejuízo",
+        "A diferença entre preço e custo variável",
+        "O estoque mínimo"
+      ],
+      "correta": 1,
+      "explicacao": "MS = (vendas atuais − vendas no ponto de equilíbrio) ÷ vendas atuais."
+    },
+    {
+      "id": "contabilidade-custos-19",
+      "topico": "cvl",
+      "nivel": "aplicacao",
+      "pergunta": "Preço R$ 50, custo variável R$ 30 e gastos fixos de R$ 40.000, dos quais R$ 10.000 são depreciação. Qual é o ponto de equilíbrio financeiro?",
+      "opcoes": [
+        "2.000 unidades",
+        "2.500 unidades",
+        "1.500 unidades",
+        "500 unidades"
+      ],
+      "correta": 2,
+      "explicacao": "MCu = 20. PE financeiro = (40.000 − 10.000) ÷ 20 = 1.500 unidades. O contábil seria 2.000."
+    },
+    {
+      "id": "contabilidade-custos-20",
+      "topico": "cvl",
+      "nivel": "analise",
+      "pergunta": "Uma empresa tem margem de contribuição total de R$ 60.000 e lucro operacional de R$ 20.000. Se as vendas subirem 10%, quanto o lucro deve subir?",
+      "opcoes": [
+        "10%",
+        "20%",
+        "60%",
+        "30%"
+      ],
+      "correta": 3,
+      "explicacao": "GAO = MC ÷ lucro = 60.000 ÷ 20.000 = 3. Variação do lucro = 3 × 10% = 30%."
+    },
+    {
+      "id": "contabilidade-custos-21",
+      "topico": "abc-padrao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ideia central do custeio ABC?",
+      "opcoes": [
+        "Produtos consomem atividades, e atividades consomem recursos",
+        "Só os custos variáveis vão para os produtos",
+        "Todos os custos são rateados por horas de mão de obra",
+        "O custo é definido pelo preço de mercado"
+      ],
+      "correta": 0,
+      "explicacao": "O ABC liga os custos indiretos aos produtos por meio das atividades e de seus direcionadores."
+    },
+    {
+      "id": "contabilidade-custos-22",
+      "topico": "abc-padrao",
+      "nivel": "conceitual",
+      "pergunta": "No ABC, o número de setups (preparações de máquina) é exemplo de:",
+      "opcoes": [
+        "Custo direto",
+        "Direcionador de custo",
+        "Margem de contribuição",
+        "Variação de preço"
+      ],
+      "correta": 1,
+      "explicacao": "Direcionadores (cost drivers) medem quanto cada produto usa de cada atividade."
+    },
+    {
+      "id": "contabilidade-custos-23",
+      "topico": "abc-padrao",
+      "nivel": "conceitual",
+      "pergunta": "O custo-padrão é:",
+      "opcoes": [
+        "O custo real do mês passado",
+        "O preço de venda menos o lucro",
+        "O custo que deveria ocorrer numa produção eficiente, usado como meta",
+        "O custo fixo total"
+      ],
+      "correta": 2,
+      "explicacao": "Ele serve para controle: compara-se o real com o padrão e analisam-se as variações."
+    },
+    {
+      "id": "contabilidade-custos-24",
+      "topico": "abc-padrao",
+      "nivel": "aplicacao",
+      "pergunta": "O padrão era usar 2 kg de material por unidade; a fábrica usou 2,3 kg pagando o preço previsto. Que variação aparece?",
+      "opcoes": [
+        "Variação de preço favorável",
+        "Variação de quantidade favorável",
+        "Nenhuma variação",
+        "Variação de quantidade desfavorável"
+      ],
+      "correta": 3,
+      "explicacao": "Usou mais do que o padrão (2,3 > 2), e o preço foi o previsto: a variação é de quantidade e é desfavorável."
+    },
+    {
+      "id": "contabilidade-custos-25",
+      "topico": "abc-padrao",
+      "nivel": "analise",
+      "pergunta": "Uma empresa faz muitos produtos diferentes, alguns em lotes pequenos, e tem custos indiretos altos. Por que o ABC tende a ser mais útil para ela do que o rateio por volume?",
+      "opcoes": [
+        "Porque o rateio por volume subestima o custo dos produtos de baixo volume e alta complexidade",
+        "Porque o ABC elimina todos os custos indiretos",
+        "Porque o ABC é mais barato de implantar",
+        "Porque o rateio por volume é proibido por lei"
+      ],
+      "correta": 0,
+      "explicacao": "Produtos complexos e de lote pequeno consomem muitas atividades (setups, inspeções) que o rateio por volume não capta."
+    },
+    {
+      "id": "contabilidade-custos-26",
+      "topico": "preco",
+      "nivel": "conceitual",
+      "pergunta": "O markup é:",
+      "opcoes": [
+        "O lucro líquido do ano",
+        "Um índice aplicado sobre o custo para chegar ao preço de venda",
+        "O custo fixo por unidade",
+        "O ponto de equilíbrio em reais"
+      ],
+      "correta": 1,
+      "explicacao": "Ele cobre despesas variáveis, despesas fixas em percentual e o lucro desejado."
+    },
+    {
+      "id": "contabilidade-custos-27",
+      "topico": "preco",
+      "nivel": "conceitual",
+      "pergunta": "No custo-meta (target costing), o ponto de partida é:",
+      "opcoes": [
+        "O custo atual de produção",
+        "O salário dos funcionários",
+        "O preço que o mercado aceita pagar",
+        "O ponto de equilíbrio financeiro"
+      ],
+      "correta": 2,
+      "explicacao": "Custo máximo permitido = preço de mercado − lucro desejado."
+    },
+    {
+      "id": "contabilidade-custos-28",
+      "topico": "preco",
+      "nivel": "conceitual",
+      "pergunta": "Ao decidir entre fabricar uma peça ou comprá-la pronta, que custos devem ser comparados com o preço do fornecedor?",
+      "opcoes": [
+        "Todos os custos fixos da fábrica",
+        "Só o custo da matéria-prima",
+        "O custo de comprar mais o de fabricar",
+        "Os custos que deixariam de existir se a empresa parasse de fabricar (evitáveis)"
+      ],
+      "correta": 3,
+      "explicacao": "Custos fixos que continuam existindo de qualquer jeito não mudam a decisão."
+    },
+    {
+      "id": "contabilidade-custos-29",
+      "topico": "preco",
+      "nivel": "aplicacao",
+      "pergunta": "Um produto custa R$ 60. Impostos e comissões somam 20% do preço, e a empresa quer lucro de 20% sobre o preço. Qual deve ser o preço?",
+      "opcoes": [
+        "R$ 100",
+        "R$ 84",
+        "R$ 72",
+        "R$ 120"
+      ],
+      "correta": 0,
+      "explicacao": "Markup divisor = 1 − 0,40 = 0,60. Preço = 60 ÷ 0,60 = R$ 100. Somar 40% sobre o custo (R$ 84) não cobriria os percentuais sobre o preço."
+    },
+    {
+      "id": "contabilidade-custos-30",
+      "topico": "preco",
+      "nivel": "analise",
+      "pergunta": "Uma fábrica com capacidade ociosa recebe um pedido especial a R$ 35 por unidade. O custo total unitário é R$ 40, sendo R$ 28 variável. O pedido não afeta as vendas normais. Ela deve aceitar?",
+      "opcoes": [
+        "Não, porque o preço é menor que o custo total",
+        "Sim, porque cada unidade gera R$ 7 de margem e os fixos já estão cobertos",
+        "Não, porque nunca se vende abaixo do custo",
+        "Só se o preço subir para R$ 40"
+      ],
+      "correta": 1,
+      "explicacao": "Com capacidade ociosa, os custos fixos não mudam; o pedido acrescenta 35 − 28 = R$ 7 de margem por unidade."
+    }
+  ]
+}

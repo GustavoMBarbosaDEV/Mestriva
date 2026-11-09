@@ -1,0 +1,465 @@
+{
+  "id": "gestao-pessoas",
+  "nome": "Gestão de Pessoas",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "evolucao",
+      "nome": "Evolução e papéis da gestão de pessoas",
+      "resumo": "### Do departamento pessoal à gestão estratégica\n- **Departamento pessoal**: foco burocrático em folha de pagamento, admissões, férias e obrigações trabalhistas (CLT).\n- **Recursos humanos** (relações industriais e depois RH): começa a cuidar de treinamento, cargos e salários, benefícios.\n- **Gestão de pessoas** estratégica: as pessoas são **parceiras** e fonte de **vantagem competitiva**, não só um custo. Chiavenato fala em tratar as pessoas como **talentos** e **capital humano**.\n\n### Os papéis do RH (Dave Ulrich)\n1. **Parceiro estratégico**: alinhar as práticas de pessoas à estratégia do negócio.\n2. **Especialista administrativo**: processos eficientes (folha, sistemas, registros).\n3. **Defensor dos funcionários** (*employee champion*): ouvir e representar as pessoas, cuidar do comprometimento.\n4. **Agente de mudança**: conduzir transformações culturais e organizacionais.\n\n### Os processos de gestão de pessoas (Chiavenato)\n- **Agregar** (recrutar e selecionar).\n- **Aplicar** (desenho de cargos, avaliação de desempenho).\n- **Recompensar** (remuneração, benefícios, incentivos).\n- **Desenvolver** (treinamento, desenvolvimento, educação corporativa).\n- **Manter** (higiene, segurança, qualidade de vida, relações sindicais).\n- **Monitorar** (bancos de dados, sistemas de informação de RH).\n\n### Ideias atuais\n- **Gestão por competências**: competência = **CHA** (conhecimentos, habilidades e atitudes).\n- **Endomarketing** e **employer branding**: cuidar da imagem da empresa como lugar para trabalhar.\n- **Indicadores**: **turnover** (rotatividade), **absenteísmo**, custo por contratação, tempo de preenchimento de vaga.",
+      "revisao": "**Lembre:**\n- DP (burocrático) → RH → gestão estratégica de pessoas.\n- Ulrich: parceiro estratégico, especialista administrativo, defensor dos funcionários, agente de mudança.\n- Chiavenato: agregar, aplicar, recompensar, desenvolver, manter, monitorar.\n- Competência = CHA."
+    },
+    {
+      "id": "recrutamento",
+      "nome": "Recrutamento e seleção",
+      "resumo": "### Recrutamento\nAtrair candidatos para uma vaga. Começa pela **descrição do cargo** (tarefas) e pelo **perfil** desejado (competências).\n- **Interno**: candidatos de dentro da empresa (promoção, transferência). Vantagens: mais barato, rápido, motiva e aproveita quem já conhece a cultura. Desvantagens: pouca renovação de ideias, pode gerar conflito e deixa outra vaga aberta.\n- **Externo**: candidatos de fora (anúncios, sites de vagas, indicações, consultorias, universidades). Vantagens: traz ideias e competências novas. Desvantagens: mais caro, mais demorado e com mais risco de adaptação.\n- **Misto**: combina os dois.\n\n### Seleção\nEscolher entre os candidatos quem melhor atende ao perfil. Técnicas:\n- **Triagem de currículos**.\n- **Entrevista**: pode ser **estruturada** (perguntas padronizadas, mais comparável) ou livre. A **entrevista por competências** pede exemplos reais de comportamentos passados (\"conte uma situação em que...\").\n- **Provas de conhecimento** e **testes práticos**.\n- **Testes psicológicos** (aplicados por psicólogos).\n- **Dinâmicas de grupo**.\n\n### Cuidados\n- **Validade** (o teste mede o que deve medir?) e **fidedignidade** (dá resultados consistentes?).\n- Evitar **discriminação** (gênero, raça, idade, religião, deficiência). A Lei de Cotas (8.213/1991) exige percentual de pessoas com deficiência em empresas com 100 ou mais empregados.\n\n### Integração (onboarding)\nAcolher e ensinar o novo colaborador sobre a cultura, as regras e as pessoas. Uma boa integração reduz o **turnover** dos primeiros meses.",
+      "revisao": "**Lembre:**\n- Recrutar = atrair; selecionar = escolher.\n- Interno: barato e motivador, pouca renovação.\n- Externo: ideias novas, mais caro e demorado.\n- Entrevista por competências: exemplos do passado.\n- Validade e fidedignidade dos instrumentos."
+    },
+    {
+      "id": "treinamento",
+      "nome": "Treinamento e desenvolvimento",
+      "resumo": "### Diferenças\n- **Treinamento**: foco no cargo **atual**, curto prazo (aprender a usar um sistema novo).\n- **Desenvolvimento**: foco no **futuro** e na carreira, longo prazo (preparar um líder).\n- **Educação corporativa**: universidades corporativas ligadas à estratégia.\n\n### O ciclo do treinamento\n1. **Levantamento de necessidades de treinamento (LNT)**: diagnóstico da diferença entre o desempenho esperado e o atual. Fontes: avaliação de desempenho, mudanças de processo, reclamações de clientes, entrevistas.\n2. **Planejamento** (programa): objetivos, conteúdo, método, público, carga horária, instrutor.\n3. **Execução**.\n4. **Avaliação** dos resultados.\n\n### Modelo de Kirkpatrick (4 níveis de avaliação)\n1. **Reação**: os participantes gostaram? (questionário de satisfação).\n2. **Aprendizagem**: aprenderam? (provas, testes).\n3. **Comportamento**: aplicam no trabalho? (observação, avaliação do gestor depois de algum tempo).\n4. **Resultados**: o negócio melhorou? (menos erros, mais vendas, menos acidentes).\nPhillips acrescentou um quinto nível: o **ROI** do treinamento.\n\n### Métodos\n- **No trabalho** (*on the job*): rodízio de cargos, instrução pelo colega, **mentoria** e **coaching**.\n- **Fora do trabalho**: aulas, cursos a distância (EAD), simulações, estudos de caso.\n\n### Aprendizagem de adultos (andragogia)\nAdultos aprendem melhor quando veem **aplicação prática**, usam a própria **experiência** e entendem o **porquê** do que estão aprendendo.",
+      "revisao": "**Lembre:**\n- Treinamento: cargo atual; desenvolvimento: futuro.\n- Ciclo: LNT → planejamento → execução → avaliação.\n- Kirkpatrick: reação, aprendizagem, comportamento, resultados.\n- Andragogia: prática, experiência e propósito."
+    },
+    {
+      "id": "desempenho",
+      "nome": "Avaliação de desempenho",
+      "resumo": "A avaliação de desempenho compara o desempenho de cada pessoa com o esperado, para dar **feedback**, orientar **treinamento**, **promoções** e **remuneração**.\n\n### Métodos\n- **Escalas gráficas**: fatores (qualidade, pontualidade) com notas numa escala.\n- **Escolha forçada**: o avaliador escolhe a frase que mais e a que menos descreve a pessoa, o que reduz a complacência.\n- **Incidentes críticos**: registra comportamentos muito bons ou muito ruins que aconteceram de fato.\n- **Comparação** ou **ranking**: ordena os funcionários.\n- **Distribuição forçada**: obriga a distribuir as notas por uma curva (por exemplo, 20% alto, 70% médio, 10% baixo).\n- **Avaliação por objetivos** (APO): compara metas combinadas com resultados alcançados.\n- **Autoavaliação**.\n- **Avaliação 360°**: a pessoa recebe retorno do **gestor**, dos **colegas**, dos **subordinados**, de **clientes** e de si mesma.\n\n### Erros comuns do avaliador\n- **Efeito halo**: uma característica marcante (boa ou ruim) contamina a nota de todas as outras.\n- **Tendência central**: dar nota média a todos para evitar se comprometer.\n- **Complacência** (leniência) ou **rigor excessivo**: notas altas ou baixas demais para todos.\n- **Recência**: considerar só os fatos mais recentes e esquecer o resto do período.\n- **Semelhança** (*similar to me*): favorecer quem é parecido com o avaliador.\n\n### Feedback\nDeve ser **específico**, sobre **comportamentos** (não sobre a personalidade), **oportuno** (próximo do fato) e acompanhado de um **plano de desenvolvimento**.",
+      "revisao": "**Lembre:**\n- 360°: gestor, colegas, subordinados, clientes e autoavaliação.\n- Incidentes críticos: fatos reais marcantes.\n- Halo: um traço contamina tudo.\n- Tendência central: todo mundo na média.\n- Recência: só o fim do período."
+    },
+    {
+      "id": "remuneracao",
+      "nome": "Remuneração e benefícios",
+      "resumo": "### Remuneração total\n- **Remuneração fixa** (salário-base): definida pelo cargo.\n- **Remuneração variável**: comissões, bônus, **participação nos lucros e resultados** (PLR, regida pela Lei 10.101/2000, sem encargos trabalhistas sobre ela), prêmios por metas.\n- **Benefícios**: vale-transporte (obrigatório), vale-refeição/alimentação, plano de saúde, previdência privada, auxílio-creche, seguro de vida.\n- **Remuneração não financeira**: reconhecimento, ambiente, flexibilidade, oportunidades de carreira.\n\n### Plano de cargos e salários\n1. **Descrição e análise de cargos**.\n2. **Avaliação de cargos**: definir o valor relativo de cada cargo dentro da empresa. Métodos: **escalonamento** (ordenar), **categorias predeterminadas**, **comparação por fatores** e **pontos** (o mais usado: fatores como instrução, experiência, responsabilidade, recebem pontos).\n3. **Pesquisa salarial**: comparar com o mercado.\n4. **Faixas salariais** para cada classe de cargo, com degraus.\n\n### Equilíbrio\n- **Equilíbrio interno**: cargos de valor parecido recebem salários parecidos dentro da empresa.\n- **Equilíbrio externo**: salários competitivos em relação ao mercado.\n\n### Outras formas\n- **Remuneração por competências** ou por habilidades: paga pelo que a pessoa sabe e aplica.\n- **Remuneração estratégica**: combina várias formas alinhadas aos objetivos.\n\n### Teoria da equidade (Adams)\nAs pessoas comparam a razão **contribuição ÷ recompensa** com a dos colegas. Se se sentem prejudicadas, podem diminuir o esforço ou sair.",
+      "revisao": "**Lembre:**\n- Remuneração total: fixa + variável + benefícios.\n- PLR: Lei 10.101/2000.\n- Método de pontos: o mais usado para avaliar cargos.\n- Equilíbrio interno (dentro) × externo (mercado).\n- Equidade de Adams: comparação com os colegas."
+    },
+    {
+      "id": "motivacao",
+      "nome": "Motivação, liderança e clima",
+      "resumo": "### Teorias de motivação\n- **Maslow**: pirâmide de necessidades: fisiológicas, segurança, sociais, estima e autorrealização. Só depois de atender as de baixo as de cima motivam.\n- **Herzberg** (dois fatores): **fatores higiênicos** (salário, condições, chefia, políticas) evitam a **insatisfação** mas não motivam; **fatores motivacionais** (reconhecimento, responsabilidade, o próprio trabalho, crescimento) geram **satisfação**.\n- **McClelland**: necessidades de **realização**, **afiliação** e **poder**.\n- **Vroom** (expectância): motivação = **expectativa** (vou conseguir?) × **instrumentalidade** (vou ser recompensado?) × **valência** (quero essa recompensa?).\n\n### Teoria X e Y (McGregor)\n- **X**: o gestor acredita que as pessoas não gostam de trabalhar e precisam ser controladas.\n- **Y**: acredita que as pessoas podem gostar do trabalho, assumem responsabilidades e se autodirigem.\n\n### Liderança\n- **Estilos clássicos** (Lewin): **autocrático**, **democrático** e **liberal** (*laissez-faire*).\n- **Liderança situacional** (Hersey e Blanchard): o estilo depende da **maturidade** (competência e motivação) do liderado: **determinar** (E1, pouca maturidade), **persuadir** (E2), **compartilhar** (E3) e **delegar** (E4, muita maturidade).\n- **Transformacional**: inspira, dá visão e desenvolve pessoas; **transacional**: troca recompensas por resultados.\n\n### Clima e cultura\n- **Clima organizacional**: a percepção dos funcionários sobre o ambiente num dado momento; medido por **pesquisa de clima**. Muda mais rápido.\n- **Cultura organizacional**: valores, crenças e hábitos compartilhados (Schein: **artefatos**, **valores declarados** e **pressupostos básicos**). Muda devagar.",
+      "revisao": "**Lembre:**\n- Herzberg: higiênicos evitam insatisfação; motivacionais motivam.\n- Vroom: expectativa × instrumentalidade × valência.\n- McGregor: X (controle) × Y (autonomia).\n- Hersey-Blanchard: determinar, persuadir, compartilhar, delegar.\n- Clima (percepção, muda rápido) × cultura (valores, muda devagar)."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "gestao-pessoas-1",
+      "topico": "evolucao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal diferença entre o antigo departamento pessoal e a gestão de pessoas estratégica?",
+      "opcoes": [
+        "A gestão estratégica vê as pessoas como parceiras e fonte de vantagem competitiva, não só como rotina burocrática",
+        "O departamento pessoal cuidava da estratégia da empresa",
+        "A gestão estratégica eliminou a folha de pagamento",
+        "Não há diferença, só mudou o nome"
+      ],
+      "correta": 0,
+      "explicacao": "O DP era focado em folha, admissões e obrigações legais; a gestão estratégica liga as práticas de pessoas aos objetivos do negócio."
+    },
+    {
+      "id": "gestao-pessoas-2",
+      "topico": "evolucao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Dave Ulrich, o papel de 'agente de mudança' do RH consiste em:",
+      "opcoes": [
+        "Processar a folha de pagamento",
+        "Conduzir transformações culturais e organizacionais",
+        "Representar apenas a diretoria",
+        "Fazer apenas recrutamento"
+      ],
+      "correta": 1,
+      "explicacao": "Os quatro papéis: parceiro estratégico, especialista administrativo, defensor dos funcionários e agente de mudança."
+    },
+    {
+      "id": "gestao-pessoas-3",
+      "topico": "evolucao",
+      "nivel": "conceitual",
+      "pergunta": "Na gestão por competências, a sigla CHA significa:",
+      "opcoes": [
+        "Cargos, horários e avaliações",
+        "Custos, horas e atividades",
+        "Conhecimentos, habilidades e atitudes",
+        "Controle, hierarquia e autoridade"
+      ],
+      "correta": 2,
+      "explicacao": "Competência reúne o saber (conhecimento), o saber fazer (habilidade) e o querer fazer (atitude)."
+    },
+    {
+      "id": "gestao-pessoas-4",
+      "topico": "evolucao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa contratou 50 pessoas no ano e 30 saíram, com média de 300 empregados. Qual indicador mede esse movimento de entrada e saída?",
+      "opcoes": [
+        "Absenteísmo",
+        "Clima organizacional",
+        "Remuneração variável",
+        "Turnover (rotatividade)"
+      ],
+      "correta": 3,
+      "explicacao": "Turnover mede a rotatividade; absenteísmo mede faltas e atrasos."
+    },
+    {
+      "id": "gestao-pessoas-5",
+      "topico": "evolucao",
+      "nivel": "analise",
+      "pergunta": "O RH de uma empresa só processa folha e férias e nunca participa das decisões de expansão. Pelo modelo de Ulrich, que papel está faltando?",
+      "opcoes": [
+        "Parceiro estratégico",
+        "Especialista administrativo",
+        "Processamento de folha",
+        "Controle de ponto"
+      ],
+      "correta": 0,
+      "explicacao": "Ele já cumpre o papel administrativo; falta alinhar as pessoas à estratégia do negócio."
+    },
+    {
+      "id": "gestao-pessoas-6",
+      "topico": "recrutamento",
+      "nivel": "conceitual",
+      "pergunta": "Qual é uma vantagem do recrutamento interno?",
+      "opcoes": [
+        "Traz muitas ideias novas de fora",
+        "É mais barato e motiva os funcionários com chances de crescer",
+        "Nunca deixa outra vaga aberta",
+        "Elimina conflitos entre colegas"
+      ],
+      "correta": 1,
+      "explicacao": "O recrutamento interno aproveita quem já conhece a cultura, mas traz pouca renovação."
+    },
+    {
+      "id": "gestao-pessoas-7",
+      "topico": "recrutamento",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre recrutamento e seleção?",
+      "opcoes": [
+        "São a mesma etapa",
+        "Selecionar vem antes de recrutar",
+        "Recrutar é atrair candidatos; selecionar é escolher entre eles",
+        "Recrutar é demitir; selecionar é contratar"
+      ],
+      "correta": 2,
+      "explicacao": "O recrutamento forma o grupo de candidatos; a seleção escolhe quem mais se aproxima do perfil."
+    },
+    {
+      "id": "gestao-pessoas-8",
+      "topico": "recrutamento",
+      "nivel": "conceitual",
+      "pergunta": "A entrevista por competências se caracteriza por:",
+      "opcoes": [
+        "Perguntar só sobre o salário desejado",
+        "Não ter roteiro nenhum",
+        "Ser feita apenas por testes escritos",
+        "Pedir exemplos reais de comportamentos passados do candidato"
+      ],
+      "correta": 3,
+      "explicacao": "A ideia é que o comportamento passado ajuda a prever o comportamento futuro."
+    },
+    {
+      "id": "gestao-pessoas-9",
+      "topico": "recrutamento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma startup precisa de alguém que domine uma tecnologia que ninguém da equipe conhece. Qual recrutamento faz mais sentido?",
+      "opcoes": [
+        "Externo, para trazer a competência que falta",
+        "Interno, por ser mais barato",
+        "Nenhum, basta esperar",
+        "Interno, para evitar novas ideias"
+      ],
+      "correta": 0,
+      "explicacao": "Quando a competência não existe dentro da empresa, o recrutamento externo é o caminho."
+    },
+    {
+      "id": "gestao-pessoas-10",
+      "topico": "recrutamento",
+      "nivel": "analise",
+      "pergunta": "Um teste de seleção dá notas muito diferentes ao mesmo candidato em dias seguidos. Que problema ele tem?",
+      "opcoes": [
+        "Excesso de validade",
+        "Falta de fidedignidade (consistência)",
+        "Discriminação por idade",
+        "Recrutamento interno demais"
+      ],
+      "correta": 1,
+      "explicacao": "Fidedignidade é a consistência dos resultados; validade é medir aquilo que se propõe a medir."
+    },
+    {
+      "id": "gestao-pessoas-11",
+      "topico": "treinamento",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre treinamento e desenvolvimento?",
+      "opcoes": [
+        "São sinônimos",
+        "Desenvolvimento é só para operários",
+        "Treinamento foca o cargo atual; desenvolvimento foca o futuro e a carreira",
+        "Treinamento é sempre de longo prazo"
+      ],
+      "correta": 2,
+      "explicacao": "Treinar é preparar para o agora; desenvolver é preparar para responsabilidades futuras."
+    },
+    {
+      "id": "gestao-pessoas-12",
+      "topico": "treinamento",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a primeira etapa do ciclo de treinamento?",
+      "opcoes": [
+        "Avaliação dos resultados",
+        "Execução das aulas",
+        "Contratação do instrutor",
+        "Levantamento de necessidades de treinamento (LNT)"
+      ],
+      "correta": 3,
+      "explicacao": "Sem diagnosticar a diferença entre o esperado e o real, o treinamento pode não resolver nada."
+    },
+    {
+      "id": "gestao-pessoas-13",
+      "topico": "treinamento",
+      "nivel": "conceitual",
+      "pergunta": "No modelo de Kirkpatrick, o nível 'comportamento' avalia:",
+      "opcoes": [
+        "Se os participantes aplicam no trabalho o que aprenderam",
+        "Se gostaram do curso",
+        "Se acertaram a prova final",
+        "Quanto o curso custou"
+      ],
+      "correta": 0,
+      "explicacao": "Os níveis são reação, aprendizagem, comportamento e resultados."
+    },
+    {
+      "id": "gestao-pessoas-14",
+      "topico": "treinamento",
+      "nivel": "aplicacao",
+      "pergunta": "Depois de um curso de atendimento, a empresa mede que as reclamações de clientes caíram 30%. Qual nível de Kirkpatrick foi avaliado?",
+      "opcoes": [
+        "Reação",
+        "Resultados",
+        "Aprendizagem",
+        "Comportamento"
+      ],
+      "correta": 1,
+      "explicacao": "A queda nas reclamações é um efeito no negócio, o quarto nível."
+    },
+    {
+      "id": "gestao-pessoas-15",
+      "topico": "treinamento",
+      "nivel": "analise",
+      "pergunta": "Um curso teve ótima avaliação de satisfação, mas três meses depois ninguém usava o que foi ensinado. O que isso mostra?",
+      "opcoes": [
+        "Que o curso foi um sucesso completo",
+        "Que o LNT foi desnecessário",
+        "Que avaliar só a reação não basta; é preciso medir o comportamento no trabalho",
+        "Que a andragogia não vale para adultos"
+      ],
+      "correta": 2,
+      "explicacao": "Gostar do curso (nível 1) não garante mudança de comportamento (nível 3)."
+    },
+    {
+      "id": "gestao-pessoas-16",
+      "topico": "desempenho",
+      "nivel": "conceitual",
+      "pergunta": "Na avaliação 360°, a pessoa recebe retorno de:",
+      "opcoes": [
+        "Apenas do gestor direto",
+        "Apenas dos clientes",
+        "Apenas do RH",
+        "Gestor, colegas, subordinados, clientes e de si mesma"
+      ],
+      "correta": 3,
+      "explicacao": "A ideia é ter vários pontos de vista sobre o mesmo desempenho."
+    },
+    {
+      "id": "gestao-pessoas-17",
+      "topico": "desempenho",
+      "nivel": "conceitual",
+      "pergunta": "O efeito halo acontece quando:",
+      "opcoes": [
+        "Uma característica marcante contamina a avaliação de todas as outras",
+        "O avaliador dá nota média para todos",
+        "Só os fatos recentes são considerados",
+        "Todos recebem notas altas"
+      ],
+      "correta": 0,
+      "explicacao": "Um funcionário muito simpático pode receber notas altas em tudo, mesmo onde não vai bem."
+    },
+    {
+      "id": "gestao-pessoas-18",
+      "topico": "desempenho",
+      "nivel": "conceitual",
+      "pergunta": "O método de incidentes críticos se baseia em:",
+      "opcoes": [
+        "Ordenar todos os funcionários do melhor ao pior",
+        "Registrar comportamentos muito bons ou muito ruins que aconteceram de fato",
+        "Dar notas numa escala de 1 a 5",
+        "Comparar metas e resultados"
+      ],
+      "correta": 1,
+      "explicacao": "Ele exige que o avaliador anote fatos concretos ao longo do período."
+    },
+    {
+      "id": "gestao-pessoas-19",
+      "topico": "desempenho",
+      "nivel": "aplicacao",
+      "pergunta": "Um gestor avalia o ano inteiro de um funcionário só pelo erro grave que ele cometeu em dezembro. Que erro de avaliação é esse?",
+      "opcoes": [
+        "Tendência central",
+        "Complacência",
+        "Recência",
+        "Efeito de semelhança"
+      ],
+      "correta": 2,
+      "explicacao": "O erro de recência dá peso excessivo aos fatos mais próximos da avaliação."
+    },
+    {
+      "id": "gestao-pessoas-20",
+      "topico": "desempenho",
+      "nivel": "analise",
+      "pergunta": "Um gestor dá nota 3, numa escala de 1 a 5, para todos os 12 funcionários da equipe. Qual é o erro e o que ajudaria a reduzi-lo?",
+      "opcoes": [
+        "Efeito halo; dar notas mais altas a todos",
+        "Recência; avaliar só dezembro",
+        "Rigor excessivo; eliminar a avaliação",
+        "Tendência central; métodos como escolha forçada ou incidentes críticos"
+      ],
+      "correta": 3,
+      "explicacao": "Dar a mesma nota média evita compromisso, mas não diferencia ninguém; métodos que exigem fatos ou escolhas ajudam."
+    },
+    {
+      "id": "gestao-pessoas-21",
+      "topico": "remuneracao",
+      "nivel": "conceitual",
+      "pergunta": "O que é equilíbrio interno num plano de salários?",
+      "opcoes": [
+        "Cargos de valor parecido recebem salários parecidos dentro da empresa",
+        "Pagar igual ao mercado",
+        "Dar o mesmo salário a todos",
+        "Pagar só remuneração variável"
+      ],
+      "correta": 0,
+      "explicacao": "O equilíbrio externo compara com o mercado; o interno compara cargos da própria empresa."
+    },
+    {
+      "id": "gestao-pessoas-22",
+      "topico": "remuneracao",
+      "nivel": "conceitual",
+      "pergunta": "Qual método de avaliação de cargos atribui pontos a fatores como instrução, experiência e responsabilidade?",
+      "opcoes": [
+        "Escalonamento simples",
+        "Método de pontos",
+        "Distribuição forçada",
+        "Incidentes críticos"
+      ],
+      "correta": 1,
+      "explicacao": "É o método mais usado para definir o valor relativo dos cargos."
+    },
+    {
+      "id": "gestao-pessoas-23",
+      "topico": "remuneracao",
+      "nivel": "conceitual",
+      "pergunta": "A participação nos lucros e resultados (PLR) é um exemplo de:",
+      "opcoes": [
+        "Salário-base",
+        "Benefício obrigatório",
+        "Remuneração variável",
+        "Remuneração não financeira"
+      ],
+      "correta": 2,
+      "explicacao": "A PLR depende do desempenho da empresa ou da equipe e é regulada pela Lei 10.101/2000."
+    },
+    {
+      "id": "gestao-pessoas-24",
+      "topico": "remuneracao",
+      "nivel": "aplicacao",
+      "pergunta": "A pesquisa salarial mostra que a empresa paga 25% abaixo do mercado para analistas, que estão pedindo demissão. Qual equilíbrio está comprometido?",
+      "opcoes": [
+        "Equilíbrio interno",
+        "Equilíbrio de benefícios",
+        "Equilíbrio de cargos",
+        "Equilíbrio externo"
+      ],
+      "correta": 3,
+      "explicacao": "A comparação com o mercado é o equilíbrio externo; a defasagem estimula a saída para concorrentes."
+    },
+    {
+      "id": "gestao-pessoas-25",
+      "topico": "remuneracao",
+      "nivel": "analise",
+      "pergunta": "Duas analistas fazem o mesmo trabalho com a mesma qualidade, mas uma descobre que ganha bem menos e reduz o esforço. Que teoria explica a reação?",
+      "opcoes": [
+        "Teoria da equidade de Adams",
+        "Teoria X de McGregor",
+        "Pirâmide de Maslow",
+        "Liderança situacional"
+      ],
+      "correta": 0,
+      "explicacao": "Ela comparou contribuição e recompensa com a colega e percebeu injustiça."
+    },
+    {
+      "id": "gestao-pessoas-26",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Herzberg, o salário é um fator:",
+      "opcoes": [
+        "Motivacional: gera satisfação duradoura",
+        "Higiênico: evita a insatisfação, mas sozinho não motiva",
+        "Irrelevante para o trabalho",
+        "De autorrealização"
+      ],
+      "correta": 1,
+      "explicacao": "Fatores higiênicos (salário, condições, chefia) impedem a insatisfação; os motivacionais estão no próprio trabalho."
+    },
+    {
+      "id": "gestao-pessoas-27",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Um gestor que acredita que as pessoas não gostam de trabalhar e precisam ser vigiadas segue a:",
+      "opcoes": [
+        "Teoria Y de McGregor",
+        "Teoria dos dois fatores",
+        "Teoria X de McGregor",
+        "Liderança transformacional"
+      ],
+      "correta": 2,
+      "explicacao": "Na teoria Y, as pessoas podem gostar do trabalho e se autodirigir."
+    },
+    {
+      "id": "gestao-pessoas-28",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre clima e cultura organizacional?",
+      "opcoes": [
+        "São a mesma coisa",
+        "Cultura muda mais rápido que clima",
+        "Clima só existe em empresas grandes",
+        "Clima é a percepção do ambiente num momento; cultura são valores e hábitos profundos que mudam devagar"
+      ],
+      "correta": 3,
+      "explicacao": "O clima é medido em pesquisas; a cultura tem artefatos, valores declarados e pressupostos básicos (Schein)."
+    },
+    {
+      "id": "gestao-pessoas-29",
+      "topico": "motivacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma funcionária experiente, competente e motivada assume um projeto. Pela liderança situacional, qual estilo o gestor deve usar?",
+      "opcoes": [
+        "Delegar",
+        "Determinar",
+        "Persuadir",
+        "Controlar de perto"
+      ],
+      "correta": 0,
+      "explicacao": "Alta maturidade (competência e motivação) pede o estilo delegar (E4)."
+    },
+    {
+      "id": "gestao-pessoas-30",
+      "topico": "motivacao",
+      "nivel": "analise",
+      "pergunta": "Um vendedor sabe que consegue bater a meta e que ganhará o bônus, mas o prêmio é uma viagem que ele não quer fazer. Pela teoria de Vroom, o que reduz a motivação?",
+      "opcoes": [
+        "A expectativa baixa: ele acha que não consegue",
+        "A valência baixa: ele não valoriza a recompensa",
+        "A instrumentalidade baixa: não confia no pagamento",
+        "O fator higiênico salário"
+      ],
+      "correta": 1,
+      "explicacao": "Motivação = expectativa × instrumentalidade × valência; se a recompensa não tem valor, o produto cai."
+    }
+  ]
+}

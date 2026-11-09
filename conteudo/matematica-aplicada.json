@@ -1,0 +1,465 @@
+{
+  "id": "matematica-aplicada",
+  "nome": "Matemática Aplicada à Gestão",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "porcentagem",
+      "nome": "Porcentagem e variações",
+      "resumo": "### O básico\n- **x%** = x/100. Calcular 15% de 200: 0,15 × 200 = **30**.\n- **Fator de aumento**: aumentar 20% é multiplicar por **1,20**.\n- **Fator de desconto**: diminuir 20% é multiplicar por **0,80**.\n\n### Variação percentual\n**Variação = (valor novo − valor antigo) ÷ valor antigo × 100**.\nDe R$ 80 para R$ 100: (100 − 80)/80 = 0,25 = **25%** de aumento.\n\n### Aumentos e descontos sucessivos\n- Multiplicam-se os fatores, **não** se somam as porcentagens.\n- Aumento de 10% seguido de outro de 10%: 1,1 × 1,1 = 1,21, ou seja, **21%**.\n- Aumento de 20% seguido de desconto de 20%: 1,2 × 0,8 = 0,96, ou seja, **queda de 4%**.\n\n### Pontos percentuais\nSe a taxa de juros vai de 10% para 12%, subiu **2 pontos percentuais** (p.p.), mas **20%** em termos relativos.\n\n### Markup e margem\n- **Markup sobre o custo**: preço = custo × (1 + markup). Custo de R$ 50 com markup de 40%: preço de R$ 70.\n- **Margem sobre o preço**: (preço − custo) ÷ preço. No mesmo exemplo: 20/70 ≈ **28,6%**.\n- Markup e margem **não são iguais**: o markup usa o custo como base; a margem, o preço.\n\n### Descobrir o valor original\nSe um produto custa R$ 120 depois de um aumento de 20%, o original era 120 ÷ 1,2 = **R$ 100** (e não 120 − 24).",
+      "revisao": "**Lembre:**\n- Aumento de x%: × (1 + x/100); desconto: × (1 − x/100).\n- Sucessivos: multiplicar fatores.\n- Variação = (novo − antigo)/antigo.\n- Pontos percentuais ≠ porcentagem.\n- Markup (sobre custo) ≠ margem (sobre preço)."
+    },
+    {
+      "id": "primeiro-grau",
+      "nome": "Funções do 1º grau: custo, receita e lucro",
+      "resumo": "Uma **função do 1º grau** tem a forma **f(x) = a·x + b**. O gráfico é uma **reta**.\n- **a** (coeficiente angular): taxa de variação. a > 0, função crescente; a < 0, decrescente.\n- **b** (coeficiente linear): valor quando x = 0, onde a reta corta o eixo y.\n- **Raiz** (zero): x = −b/a.\n\n### Funções da empresa\n- **Custo total**: **C(q) = CF + cv·q** (custo fixo mais custo variável por unidade vezes a quantidade).\n- **Receita**: **R(q) = p·q** (preço vezes quantidade).\n- **Lucro**: **L(q) = R(q) − C(q)**.\n\n### Ponto de equilíbrio (*break-even*)\nQuantidade em que **R = C**, ou seja, **lucro zero**:\n**q = CF ÷ (p − cv)**.\nO termo **p − cv** é a **margem de contribuição unitária**. Acima do ponto de equilíbrio há lucro; abaixo, prejuízo.\n\n### Exemplo\nCF = R$ 2.000, cv = R$ 10, p = R$ 30.\n- C(q) = 2.000 + 10q; R(q) = 30q; L(q) = 20q − 2.000.\n- Equilíbrio: q = 2.000/20 = **100 unidades**.\n- Com 150 unidades: L = 20 × 150 − 2.000 = **R$ 1.000**.\n\n### Oferta e demanda lineares\n- Demanda: q = a − b·p (cai com o preço). Oferta: q = c + d·p (sobe com o preço).\n- O **equilíbrio de mercado** é onde as duas se igualam.\n\n### Depreciação linear\nUm bem de R$ 10.000 com vida útil de 5 anos e sem valor residual perde R$ 2.000 por ano: V(t) = 10.000 − 2.000·t.",
+      "revisao": "**Lembre:**\n- f(x) = ax + b; a é a inclinação.\n- C = CF + cv·q; R = p·q; L = R − C.\n- Equilíbrio: q = CF/(p − cv).\n- p − cv = margem de contribuição unitária."
+    },
+    {
+      "id": "segundo-grau",
+      "nome": "Funções do 2º grau e otimização",
+      "resumo": "Uma **função do 2º grau** tem a forma **f(x) = a·x² + b·x + c**, com a ≠ 0. O gráfico é uma **parábola**.\n- **a > 0**: concavidade para **cima**, tem ponto de **mínimo**.\n- **a < 0**: concavidade para **baixo**, tem ponto de **máximo**.\n\n### Vértice\n- **xv = −b ÷ (2a)**.\n- **yv = f(xv)**, ou −Δ/(4a), com **Δ = b² − 4ac**.\nO vértice dá o valor **máximo** ou **mínimo** da função.\n\n### Raízes (Bhaskara)\n**x = (−b ± √Δ) ÷ (2a)**.\n- Δ > 0: duas raízes reais diferentes.\n- Δ = 0: uma raiz (duas iguais).\n- Δ < 0: nenhuma raiz real.\n\n### Aplicações em gestão\n- Quando o preço depende da quantidade vendida (para vender mais, é preciso baixar o preço), a **receita** vira uma parábola: se p = 100 − 2q, então **R(q) = 100q − 2q²**.\n- **Receita máxima**: no vértice: q = −100/(2·(−2)) = **25**; R = 100·25 − 2·625 = **R$ 1.250**.\n- **Lucro máximo**: L(q) = R(q) − C(q) também pode ser uma parábola com a < 0; o vértice dá a quantidade ótima.\n- As **raízes** da função lucro são os **pontos de equilíbrio**: entre elas, há lucro.",
+      "revisao": "**Lembre:**\n- a < 0: parábola para baixo, tem máximo.\n- Vértice: xv = −b/(2a).\n- Δ = b² − 4ac; Bhaskara para as raízes.\n- Receita com preço que cai: R(q) = p(q)·q.\n- Raízes do lucro = pontos de equilíbrio."
+    },
+    {
+      "id": "exponencial",
+      "nome": "Funções exponencial e logarítmica",
+      "resumo": "### Função exponencial\n**f(x) = a·bˣ**, com b > 0 e b ≠ 1.\n- **b > 1**: **crescimento** exponencial (população, juros compostos, vendas de um produto viral).\n- **0 < b < 1**: **decrescimento** exponencial (depreciação percentual, perda de clientes).\n- Crescimento a uma taxa **i** por período: **V(t) = V₀·(1 + i)ᵗ**. Juros compostos: **M = C·(1 + i)ⁿ**.\n- Diferença para o crescimento linear: o linear soma o **mesmo valor** a cada período; o exponencial multiplica pelo **mesmo fator**.\n\n### Depreciação exponencial\nUm carro que perde 15% do valor ao ano: V(t) = V₀ × 0,85ᵗ.\n\n### Logaritmo\n- **log_b(x) = y** significa **bʸ = x**. Exemplo: log₁₀(1.000) = 3.\n- É a **inversa** da exponencial: serve para descobrir o **tempo** (o expoente).\n- Propriedades:\n  - log(a·b) = log a + log b;\n  - log(a/b) = log a − log b;\n  - log(aⁿ) = n·log a.\n- **Logaritmo natural** (ln): base **e ≈ 2,718**.\n\n### Descobrindo o tempo\nEm quanto tempo um capital dobra a 10% ao mês?\n(1,1)ⁿ = 2 → n = log 2 ÷ log 1,1 ≈ 0,301 ÷ 0,0414 ≈ **7,3 meses**.\n\n### Crescimento contínuo\n**V(t) = V₀·e^(k·t)**. Usado em modelos de população e de juros compostos continuamente.",
+      "revisao": "**Lembre:**\n- Exponencial: multiplica pelo mesmo fator; linear: soma o mesmo valor.\n- V(t) = V₀(1 + i)ᵗ.\n- 0 < b < 1: decrescimento.\n- Logaritmo é a inversa: acha o expoente (tempo).\n- log(aⁿ) = n·log a."
+    },
+    {
+      "id": "matrizes",
+      "nome": "Matrizes e sistemas lineares",
+      "resumo": "### Matrizes\nTabela de números organizada em **linhas** e **colunas**. Uma matriz m×n tem m linhas e n colunas.\n- **Soma**: elemento a elemento, só entre matrizes do mesmo tamanho.\n- **Multiplicação**: A (m×n) × B (n×p) dá uma matriz m×p. O número de **colunas de A** deve ser igual ao de **linhas de B**. Cada elemento é a soma dos produtos linha × coluna.\n- A multiplicação de matrizes **não é comutativa** (A×B pode ser diferente de B×A).\n- **Matriz identidade**: 1 na diagonal e 0 fora; não altera a matriz multiplicada.\n- **Determinante** de 2×2: ad − bc.\n\n### Aplicação típica\nUma loja vende 3 produtos em 2 filiais. A matriz de **quantidades** (filial × produto) multiplicada pela matriz de **preços** (produto × 1) dá a **receita** de cada filial.\n\n### Sistemas lineares\nConjunto de equações do 1º grau com as mesmas incógnitas.\n- **Métodos**: substituição, adição (eliminação), **escalonamento** e **regra de Cramer** (determinantes).\n- Classificação:\n  - **Possível e determinado** (SPD): uma única solução (determinante ≠ 0).\n  - **Possível e indeterminado** (SPI): infinitas soluções.\n  - **Impossível** (SI): nenhuma solução.\n\n### Exemplo\nUma empresa produz cadeiras (x) e mesas (y). Cada cadeira usa 2 h e cada mesa 3 h de trabalho, total de 120 h; são 50 peças no total.\nx + y = 50 e 2x + 3y = 120 → y = 20 e x = 30.",
+      "revisao": "**Lembre:**\n- A(m×n)·B(n×p) = m×p; colunas de A = linhas de B.\n- A·B ≠ B·A em geral.\n- Det 2×2 = ad − bc.\n- SPD (uma solução), SPI (infinitas), SI (nenhuma).\n- Det ≠ 0: solução única."
+    },
+    {
+      "id": "derivada",
+      "nome": "Derivada e análise marginal",
+      "resumo": "### O que é a derivada\n- A **derivada** mede a **taxa de variação instantânea** de uma função: quanto ela muda quando x muda um pouquinho.\n- Geometricamente, é a **inclinação da reta tangente** ao gráfico.\n\n### Regras básicas\n- Derivada de uma constante: **0**.\n- **Potência**: (xⁿ)' = n·xⁿ⁻¹. Exemplos: (x²)' = 2x; (x³)' = 3x².\n- **Constante vezes função**: (k·f)' = k·f'.\n- **Soma**: (f + g)' = f' + g'.\n- Exemplo: f(x) = 3x² + 5x + 7 → f'(x) = 6x + 5.\n\n### Análise marginal\n- **Custo marginal**: CMg(q) = C'(q), custo aproximado de produzir **uma unidade a mais**.\n- **Receita marginal**: RMg(q) = R'(q).\n- **Lucro marginal**: L'(q) = R'(q) − C'(q).\n\n### Máximos e mínimos\n- Num ponto de máximo ou mínimo, a **derivada é zero** (reta tangente horizontal).\n- **Lucro máximo**: L'(q) = 0, o que equivale a **RMg = CMg**.\n- **Segunda derivada**: f'' < 0 indica **máximo**; f'' > 0 indica **mínimo**.\n\n### Exemplo\nL(q) = −2q² + 80q − 300.\nL'(q) = −4q + 80 = 0 → **q = 20**. L''(q) = −4 < 0, então é máximo.\nL(20) = −800 + 1.600 − 300 = **R$ 500**.\n\n### Elasticidade com derivada\n**E = (dq/dp) × (p/q)**. Se |E| > 1, a demanda é elástica; aumentar o preço reduz a receita.",
+      "revisao": "**Lembre:**\n- Derivada = taxa de variação = inclinação da tangente.\n- (xⁿ)' = n·xⁿ⁻¹.\n- CMg = C'(q); RMg = R'(q).\n- Lucro máximo: L'(q) = 0, ou RMg = CMg.\n- f'' < 0: máximo; f'' > 0: mínimo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "matematica-aplicada-1",
+      "topico": "porcentagem",
+      "nivel": "conceitual",
+      "pergunta": "Um aumento de 10% seguido de outro aumento de 10% equivale a um aumento total de:",
+      "opcoes": [
+        "21%",
+        "20%",
+        "11%",
+        "100%"
+      ],
+      "correta": 0,
+      "explicacao": "Multiplicam-se os fatores: 1,1 × 1,1 = 1,21, ou seja, 21%."
+    },
+    {
+      "id": "matematica-aplicada-2",
+      "topico": "porcentagem",
+      "nivel": "conceitual",
+      "pergunta": "Se a taxa de desemprego passou de 8% para 10%, ela subiu:",
+      "opcoes": [
+        "2%, ou 25 pontos percentuais",
+        "2 pontos percentuais, ou 25% em termos relativos",
+        "10 pontos percentuais",
+        "20% e 2 pontos percentuais"
+      ],
+      "correta": 1,
+      "explicacao": "A diferença absoluta é 2 p.p.; em termos relativos, 2/8 = 25%."
+    },
+    {
+      "id": "matematica-aplicada-3",
+      "topico": "porcentagem",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre markup e margem?",
+      "opcoes": [
+        "São a mesma coisa",
+        "Markup é sempre menor que a margem",
+        "Markup é calculado sobre o custo; margem é calculada sobre o preço de venda",
+        "Margem é calculada sobre o custo fixo"
+      ],
+      "correta": 2,
+      "explicacao": "Custo R$ 50 e preço R$ 70: markup de 40% (20/50) e margem de cerca de 28,6% (20/70)."
+    },
+    {
+      "id": "matematica-aplicada-4",
+      "topico": "porcentagem",
+      "nivel": "aplicacao",
+      "pergunta": "Um produto custa R$ 132 depois de um aumento de 10%. Qual era o preço antes do aumento?",
+      "opcoes": [
+        "R$ 118,80",
+        "R$ 122",
+        "R$ 145,20",
+        "R$ 120"
+      ],
+      "correta": 3,
+      "explicacao": "Preço original = 132 ÷ 1,10 = R$ 120. Tirar 10% de 132 daria R$ 118,80, o que está errado."
+    },
+    {
+      "id": "matematica-aplicada-5",
+      "topico": "porcentagem",
+      "nivel": "analise",
+      "pergunta": "Uma loja aumenta um preço em 25% e depois anuncia 20% de desconto. Em relação ao preço inicial, o preço final é:",
+      "opcoes": [
+        "Igual ao inicial",
+        "5% maior",
+        "5% menor",
+        "45% maior"
+      ],
+      "correta": 0,
+      "explicacao": "1,25 × 0,80 = 1,00. O desconto incide sobre o preço já aumentado, por isso volta ao valor original."
+    },
+    {
+      "id": "matematica-aplicada-6",
+      "topico": "primeiro-grau",
+      "nivel": "conceitual",
+      "pergunta": "Na função custo C(q) = 5.000 + 20q, o que representa o número 20?",
+      "opcoes": [
+        "O custo fixo",
+        "O custo variável por unidade",
+        "O preço de venda",
+        "A quantidade de equilíbrio"
+      ],
+      "correta": 1,
+      "explicacao": "5.000 é o custo fixo (não depende de q) e 20 é o custo variável de cada unidade."
+    },
+    {
+      "id": "matematica-aplicada-7",
+      "topico": "primeiro-grau",
+      "nivel": "conceitual",
+      "pergunta": "O ponto de equilíbrio de uma empresa é a quantidade em que:",
+      "opcoes": [
+        "O custo fixo é zero",
+        "O lucro é máximo",
+        "A receita total é igual ao custo total",
+        "O preço é igual ao custo fixo"
+      ],
+      "correta": 2,
+      "explicacao": "No ponto de equilíbrio o lucro é zero; acima dele, a empresa lucra."
+    },
+    {
+      "id": "matematica-aplicada-8",
+      "topico": "primeiro-grau",
+      "nivel": "conceitual",
+      "pergunta": "Numa função f(x) = ax + b com a < 0, a função é:",
+      "opcoes": [
+        "Crescente",
+        "Constante",
+        "Uma parábola",
+        "Decrescente"
+      ],
+      "correta": 3,
+      "explicacao": "O coeficiente angular negativo faz a reta descer da esquerda para a direita."
+    },
+    {
+      "id": "matematica-aplicada-9",
+      "topico": "primeiro-grau",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa tem custo fixo de R$ 6.000, custo variável de R$ 15 por unidade e vende cada uma a R$ 45. Qual é o ponto de equilíbrio?",
+      "opcoes": [
+        "200 unidades",
+        "400 unidades",
+        "133 unidades",
+        "100 unidades"
+      ],
+      "correta": 0,
+      "explicacao": "q = CF ÷ (p − cv) = 6.000 ÷ (45 − 15) = 6.000 ÷ 30 = 200 unidades."
+    },
+    {
+      "id": "matematica-aplicada-10",
+      "topico": "primeiro-grau",
+      "nivel": "analise",
+      "pergunta": "Com custo fixo de R$ 6.000, custo variável de R$ 15 e preço de R$ 45, quantas unidades a empresa precisa vender para ter lucro de R$ 3.000?",
+      "opcoes": [
+        "200 unidades",
+        "300 unidades",
+        "250 unidades",
+        "400 unidades"
+      ],
+      "correta": 1,
+      "explicacao": "L = 30q − 6.000 = 3.000 → 30q = 9.000 → q = 300."
+    },
+    {
+      "id": "matematica-aplicada-11",
+      "topico": "segundo-grau",
+      "nivel": "conceitual",
+      "pergunta": "Uma parábola com coeficiente a negativo tem:",
+      "opcoes": [
+        "Concavidade para cima e um ponto de mínimo",
+        "Nenhum vértice",
+        "Concavidade para baixo e um ponto de máximo",
+        "Sempre duas raízes reais"
+      ],
+      "correta": 2,
+      "explicacao": "Funções de lucro e receita com a < 0 têm um máximo no vértice."
+    },
+    {
+      "id": "matematica-aplicada-12",
+      "topico": "segundo-grau",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a fórmula do x do vértice de f(x) = ax² + bx + c?",
+      "opcoes": [
+        "xv = b ÷ a",
+        "xv = −Δ ÷ (4a)",
+        "xv = c ÷ (2a)",
+        "xv = −b ÷ (2a)"
+      ],
+      "correta": 3,
+      "explicacao": "O x do vértice é −b/(2a); a fórmula −Δ/(4a) dá o y do vértice, que é o valor máximo ou mínimo da função."
+    },
+    {
+      "id": "matematica-aplicada-13",
+      "topico": "segundo-grau",
+      "nivel": "conceitual",
+      "pergunta": "Se o discriminante Δ de uma equação do 2º grau é negativo, a equação:",
+      "opcoes": [
+        "Não tem raízes reais",
+        "Tem duas raízes reais diferentes",
+        "Tem uma raiz real dupla",
+        "Tem infinitas raízes"
+      ],
+      "correta": 0,
+      "explicacao": "A raiz quadrada de um número negativo não é real."
+    },
+    {
+      "id": "matematica-aplicada-14",
+      "topico": "segundo-grau",
+      "nivel": "aplicacao",
+      "pergunta": "A receita de uma empresa é R(q) = 200q − 4q². Que quantidade maximiza a receita?",
+      "opcoes": [
+        "50 unidades",
+        "25 unidades",
+        "100 unidades",
+        "12,5 unidades"
+      ],
+      "correta": 1,
+      "explicacao": "xv = −b/(2a) = −200/(2 × (−4)) = 25 unidades."
+    },
+    {
+      "id": "matematica-aplicada-15",
+      "topico": "segundo-grau",
+      "nivel": "analise",
+      "pergunta": "O lucro de uma empresa é L(q) = −q² + 30q − 200. Entre quais quantidades ela tem lucro?",
+      "opcoes": [
+        "Entre 0 e 15 unidades",
+        "Acima de 20 unidades",
+        "Entre 10 e 20 unidades",
+        "Entre 15 e 30 unidades"
+      ],
+      "correta": 2,
+      "explicacao": "Δ = 900 − 800 = 100; raízes q = (−30 ± 10)/(−2), ou seja, 10 e 20. Como a parábola é para baixo, o lucro é positivo entre elas."
+    },
+    {
+      "id": "matematica-aplicada-16",
+      "topico": "exponencial",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal diferença entre crescimento linear e exponencial?",
+      "opcoes": [
+        "O exponencial sempre cresce menos",
+        "O linear usa logaritmos",
+        "Não há diferença no longo prazo",
+        "O linear soma o mesmo valor a cada período; o exponencial multiplica pelo mesmo fator"
+      ],
+      "correta": 3,
+      "explicacao": "No longo prazo, o crescimento exponencial supera qualquer crescimento linear."
+    },
+    {
+      "id": "matematica-aplicada-17",
+      "topico": "exponencial",
+      "nivel": "conceitual",
+      "pergunta": "O logaritmo é útil em problemas de juros compostos para descobrir:",
+      "opcoes": [
+        "O tempo necessário para atingir um valor",
+        "O capital inicial sempre",
+        "A taxa de inflação",
+        "O custo fixo"
+      ],
+      "correta": 0,
+      "explicacao": "O tempo está no expoente de (1 + i)ⁿ; o logaritmo traz o expoente para baixo."
+    },
+    {
+      "id": "matematica-aplicada-18",
+      "topico": "exponencial",
+      "nivel": "conceitual",
+      "pergunta": "A função f(x) = 500 × 0,9ˣ representa:",
+      "opcoes": [
+        "Um crescimento de 90% por período",
+        "Um decrescimento de 10% por período",
+        "Um crescimento de 10% por período",
+        "Uma função linear"
+      ],
+      "correta": 1,
+      "explicacao": "Base entre 0 e 1 indica decrescimento; 0,9 = 1 − 0,10."
+    },
+    {
+      "id": "matematica-aplicada-19",
+      "topico": "exponencial",
+      "nivel": "aplicacao",
+      "pergunta": "Uma base de clientes de 1.000 pessoas cresce 20% ao mês. Quantos clientes haverá depois de 2 meses?",
+      "opcoes": [
+        "1.400",
+        "1.200",
+        "1.440",
+        "1.240"
+      ],
+      "correta": 2,
+      "explicacao": "V = 1.000 × 1,2² = 1.000 × 1,44 = 1.440 clientes."
+    },
+    {
+      "id": "matematica-aplicada-20",
+      "topico": "exponencial",
+      "nivel": "analise",
+      "pergunta": "Usando log 2 ≈ 0,301 e log 1,05 ≈ 0,0212, em quantos períodos um capital dobra a 5% por período?",
+      "opcoes": [
+        "Cerca de 20 períodos",
+        "Cerca de 10 períodos",
+        "Cerca de 7 períodos",
+        "Cerca de 14,2 períodos"
+      ],
+      "correta": 3,
+      "explicacao": "(1,05)ⁿ = 2 → n = 0,301 ÷ 0,0212 ≈ 14,2. A regra dos 70 dá uma estimativa parecida (70 ÷ 5 = 14)."
+    },
+    {
+      "id": "matematica-aplicada-21",
+      "topico": "matrizes",
+      "nivel": "conceitual",
+      "pergunta": "Para multiplicar uma matriz A (2×3) por uma matriz B, B precisa ter:",
+      "opcoes": [
+        "3 linhas",
+        "2 linhas",
+        "3 colunas",
+        "2 colunas"
+      ],
+      "correta": 0,
+      "explicacao": "O número de colunas de A deve ser igual ao número de linhas de B; o resultado terá 2 linhas."
+    },
+    {
+      "id": "matematica-aplicada-22",
+      "topico": "matrizes",
+      "nivel": "conceitual",
+      "pergunta": "Um sistema linear possível e determinado tem:",
+      "opcoes": [
+        "Nenhuma solução",
+        "Uma única solução",
+        "Infinitas soluções",
+        "Exatamente duas soluções"
+      ],
+      "correta": 1,
+      "explicacao": "SPD tem solução única; SPI, infinitas; SI, nenhuma."
+    },
+    {
+      "id": "matematica-aplicada-23",
+      "topico": "matrizes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o determinante da matriz [[3, 2], [1, 4]]?",
+      "opcoes": [
+        "14",
+        "12",
+        "10",
+        "5"
+      ],
+      "correta": 2,
+      "explicacao": "Det = ad − bc = 3 × 4 − 2 × 1 = 12 − 2 = 10."
+    },
+    {
+      "id": "matematica-aplicada-24",
+      "topico": "matrizes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma filial vendeu 10 camisas (R$ 40) e 5 calças (R$ 90). Multiplicando a linha de quantidades pela coluna de preços, qual é a receita?",
+      "opcoes": [
+        "R$ 650",
+        "R$ 130",
+        "R$ 1.300",
+        "R$ 850"
+      ],
+      "correta": 3,
+      "explicacao": "Linha × coluna: soma dos produtos quantidade × preço = 10 × 40 + 5 × 90 = 400 + 450 = R$ 850."
+    },
+    {
+      "id": "matematica-aplicada-25",
+      "topico": "matrizes",
+      "nivel": "analise",
+      "pergunta": "Uma fábrica faz cadeiras e mesas: 40 peças no total, usando 2 h por cadeira e 4 h por mesa, total de 110 h. Quantas mesas foram feitas?",
+      "opcoes": [
+        "15",
+        "25",
+        "20",
+        "10"
+      ],
+      "correta": 0,
+      "explicacao": "x + y = 40 e 2x + 4y = 110. Substituindo x = 40 − y: 80 − 2y + 4y = 110 → y = 15 mesas (e 25 cadeiras)."
+    },
+    {
+      "id": "matematica-aplicada-26",
+      "topico": "derivada",
+      "nivel": "conceitual",
+      "pergunta": "Geometricamente, a derivada de uma função num ponto é:",
+      "opcoes": [
+        "A área sob a curva",
+        "A inclinação da reta tangente ao gráfico nesse ponto",
+        "O valor máximo da função",
+        "A raiz da função"
+      ],
+      "correta": 1,
+      "explicacao": "Ela mede a taxa de variação instantânea; a área sob a curva é a integral."
+    },
+    {
+      "id": "matematica-aplicada-27",
+      "topico": "derivada",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a derivada de f(x) = 4x³ − 2x + 9?",
+      "opcoes": [
+        "4x² − 2",
+        "12x² − 2x",
+        "12x² − 2",
+        "12x³ − 2 + 9"
+      ],
+      "correta": 2,
+      "explicacao": "Pela regra da potência: (4x³)' = 12x², (−2x)' = −2 e a constante 9 tem derivada 0."
+    },
+    {
+      "id": "matematica-aplicada-28",
+      "topico": "derivada",
+      "nivel": "conceitual",
+      "pergunta": "Na análise marginal, o lucro é máximo quando:",
+      "opcoes": [
+        "A receita total é igual ao custo total",
+        "O custo fixo é zero",
+        "O preço é igual ao custo médio",
+        "A receita marginal é igual ao custo marginal"
+      ],
+      "correta": 3,
+      "explicacao": "L'(q) = R'(q) − C'(q) = 0 leva a RMg = CMg. Receita igual a custo é o ponto de equilíbrio, não o máximo."
+    },
+    {
+      "id": "matematica-aplicada-29",
+      "topico": "derivada",
+      "nivel": "aplicacao",
+      "pergunta": "O custo de uma empresa é C(q) = 0,5q² + 10q + 800. Qual é o custo marginal quando q = 40?",
+      "opcoes": [
+        "R$ 50",
+        "R$ 30",
+        "R$ 40",
+        "R$ 2.000"
+      ],
+      "correta": 0,
+      "explicacao": "C'(q) = q + 10. Para q = 40, CMg = 40 + 10 = R$ 50."
+    },
+    {
+      "id": "matematica-aplicada-30",
+      "topico": "derivada",
+      "nivel": "analise",
+      "pergunta": "O lucro é L(q) = −3q² + 120q − 500. Qual quantidade maximiza o lucro e qual é esse lucro máximo?",
+      "opcoes": [
+        "q = 40 e L = R$ 500",
+        "q = 20 e L = R$ 700",
+        "q = 20 e L = R$ 1.200",
+        "q = 60 e L = −R$ 500"
+      ],
+      "correta": 1,
+      "explicacao": "L'(q) = −6q + 120 = 0 → q = 20. L(20) = −1.200 + 2.400 − 500 = R$ 700. Como L'' = −6 < 0, é máximo."
+    }
+  ]
+}
