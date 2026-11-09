@@ -1,0 +1,81 @@
+rules_version = '2';
+// Regras do Mestriva: cada pessoa só lê e grava o que é dela, em users/{uid}/...
+// Os campos e tamanhos seguem js/normaliza.js (testes/regras-campos.test.mjs confere se batem).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function dono(uid) { return request.auth != null && request.auth.uid == uid; }
+    function texto(d, k, max) { return d[k] is string && d[k].size() <= max; }
+    function numero(d, k) { return d[k] is number; }
+    function numeroOuNulo(d, k) { return d[k] == null || d[k] is number; }
+    function lista(d, k, max) { return d[k] is list && d[k].size() <= max; }
+    function datas(d) { return texto(d, 'criado_em', 40) && texto(d, 'atualizado_em', 40); }
+    function idOk(id) { return id.matches('[A-Za-z0-9_-]{1,40}'); }
+
+    function materia(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'name', 'period', 'professor', 'status', 'order', 'topics', 'color', 'banco'])
+        && datas(d) && texto(d, 'name', 120) && texto(d, 'period', 20) && texto(d, 'professor', 120) && texto(d, 'status', 20)
+        && numero(d, 'order') && texto(d, 'topics', 2000) && texto(d, 'color', 20) && texto(d, 'banco', 60);
+    }
+    function evento(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'title', 'type', 'date', 'subject', 'notes', 'done'])
+        && datas(d) && texto(d, 'title', 160) && texto(d, 'type', 20) && texto(d, 'date', 40) && texto(d, 'subject', 120)
+        && texto(d, 'notes', 2000) && d.done is bool;
+    }
+    function nota(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'subject', 'activity', 'value', 'max_value', 'wrong_topics', 'notes', 'date'])
+        && datas(d) && texto(d, 'subject', 120) && texto(d, 'activity', 160) && numeroOuNulo(d, 'value') && numeroOuNulo(d, 'max_value')
+        && texto(d, 'wrong_topics', 2000) && texto(d, 'notes', 2000) && texto(d, 'date', 40);
+    }
+    function sessao(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'subject', 'method', 'minutes'])
+        && datas(d) && texto(d, 'subject', 120) && texto(d, 'method', 20) && numero(d, 'minutes');
+    }
+    function quiz(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'title', 'subject', 'topic', 'questions', 'last_score', 'last_total'])
+        && datas(d) && texto(d, 'title', 160) && texto(d, 'subject', 120) && texto(d, 'topic', 200) && lista(d, 'questions', 50)
+        && numeroOuNulo(d, 'last_score') && numeroOuNulo(d, 'last_total');
+    }
+    function tentativa(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'quiz_title', 'subject', 'score', 'total', 'wrong_topics'])
+        && datas(d) && texto(d, 'quiz_title', 160) && texto(d, 'subject', 120) && numero(d, 'score') && numero(d, 'total')
+        && lista(d, 'wrong_topics', 100);
+    }
+    function material(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'title', 'subject', 'topic', 'kind', 'content', 'fonte'])
+        && datas(d) && texto(d, 'title', 160) && texto(d, 'subject', 120) && texto(d, 'topic', 200) && texto(d, 'kind', 20)
+        && texto(d, 'content', 60000) && texto(d, 'fonte', 32000);
+    }
+    function cartao(d) {
+      return d.keys().hasOnly(['criado_em', 'atualizado_em', 'subject', 'tipo', 'frente', 'verso'])
+        && datas(d) && texto(d, 'subject', 120) && texto(d, 'tipo', 20) && texto(d, 'frente', 600) && texto(d, 'verso', 2000);
+    }
+    function perfil(d) {
+      return d.keys().hasOnly(['display_name', 'publico', 'institution', 'course', 'ies', 'period', 'weekly_hours', 'goal', 'methods_used', 'accommodations', 'accessibility_notes', 'onboarding_completed', 'termos'])
+        && texto(d, 'display_name', 80) && texto(d, 'publico', 20) && texto(d, 'institution', 120) && texto(d, 'course', 120)
+        && numeroOuNulo(d, 'ies') && texto(d, 'period', 20) && texto(d, 'weekly_hours', 20) && texto(d, 'goal', 300)
+        && lista(d, 'methods_used', 20) && lista(d, 'accommodations', 20) && texto(d, 'accessibility_notes', 600)
+        && d.onboarding_completed is bool && (d.termos == null || (d.termos is map && d.termos.keys().hasOnly(['v', 'em'])));
+    }
+    function erros(d) { return d.keys().hasOnly(['erros']) && d.erros is map && d.erros.size() <= 5000; }
+
+    function valido(col, d) {
+      return (col == 'materias' && materia(d)) || (col == 'eventos' && evento(d)) || (col == 'notas' && nota(d))
+        || (col == 'sessoes' && sessao(d)) || (col == 'quizzes' && quiz(d)) || (col == 'tentativas' && tentativa(d))
+        || (col == 'materiais' && material(d)) || (col == 'cartoes' && cartao(d));
+    }
+
+    match /users/{uid}/meta/{nome} {
+      allow read, delete: if dono(uid);
+      allow create, update: if dono(uid)
+        && ((nome == 'perfil' && perfil(request.resource.data)) || (nome == 'erros' && erros(request.resource.data)));
+    }
+
+    match /users/{uid}/{col}/{id} {
+      allow read, delete: if dono(uid) && col != 'meta';
+      allow create, update: if dono(uid) && col != 'meta' && idOk(id) && valido(col, request.resource.data);
+    }
+
+    // Todo o resto fica fechado.
+  }
+}
