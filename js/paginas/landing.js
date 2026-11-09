@@ -37,7 +37,7 @@ const NUMEROS = [
 /** Perguntas da landing (a página /faq.html tem estas e mais algumas). */
 export const FAQ = [
   ["O Mestriva é grátis?", "Sim. Não tem plano pago, anúncio nem cartão de crédito. Você usa tudo de graça."],
-  ["Onde ficam os meus dados?", "Neste aparelho, no seu navegador. Nada é vendido nem usado para propaganda. Em Ajustes você baixa um backup, restaura ou apaga tudo."],
+  ["Onde ficam os meus dados?", "Com conta, na sua conta, protegida para só você ver, e com uma cópia no aparelho para funcionar sem internet. Testando sem conta, ficam só neste aparelho. Nada é vendido nem usado para propaganda. Em Ajustes você baixa um backup, restaura, apaga tudo ou exclui a conta."],
   ["Funciona sem internet?", "Sim. Depois da primeira abertura, o app e o banco de conteúdo ficam guardados no aparelho, e você estuda mesmo offline."],
   ["Serve para o meu curso?", "Sim. A grade, o calendário, as notas e as suas anotações funcionam em qualquer curso. O banco pronto já tem 37 matérias comuns a muitos cursos e cresce a cada versão."],
   ["Como instalo no celular?", "Abra o site no navegador do celular e toque em \"Adicionar à tela inicial\" (ou \"Instalar app\"). Ele abre como um app, em tela cheia."],
@@ -143,7 +143,7 @@ function destaques() {
     ${destaque("GraduationCap", "grade sem digitar", "A grade do curso pronta em minutos", "Cole a lista, mande o PDF ou tire uma foto da grade. O app lê tudo no próprio aparelho, separa as matérias por período e liga cada uma ao conteúdo pronto do banco.", grade, false)}
     ${destaque("CalendarDays", "nenhum prazo perdido", "Provas e trabalhos com contagem regressiva", "O calendário mostra o que vem pela frente e o sino avisa dos compromissos dos próximos 7 dias, com notificação do navegador se você quiser.", agenda, true)}
     ${destaque("Sparkles", "estudo que fixa", "Quiz com explicação e repetição espaçada", "1.110 questões explicadas nas matérias do banco, mais cartões feitos das suas anotações. O que você erra volta antes da prova.", quiz, false)}
-    ${destaque("Lock", "privado por padrão", "Seus dados são seus", "Tudo fica no seu aparelho: sem anúncio, sem venda de dados, sem rastreio. Você baixa um backup ou apaga tudo quando quiser.", cadeado, true)}
+    ${destaque("Lock", "privado por padrão", "Seus dados são seus", "Só você vê o que guarda: sem anúncio, sem venda de dados, sem rastreio. Você baixa um backup, apaga tudo ou exclui a conta quando quiser.", cadeado, true)}
   </div>`;
 }
 
@@ -241,7 +241,7 @@ export const semMovimento = () =>
 /** @param {any} ctx */
 function opcoesDe(ctx) {
   return {
-    inicio: ctx.loja?.perfil?.().onboarding_completed ? "/" : "/onboarding",
+    inicio: ctx.usuario?.modo === "nuvem" && !ctx.usuario?.conta ? "/register" : ctx.loja?.perfil?.().onboarding_completed ? "/" : "/onboarding",
     android: typeof navigator !== "undefined" && /Android/i.test(navigator.userAgent),
   };
 }

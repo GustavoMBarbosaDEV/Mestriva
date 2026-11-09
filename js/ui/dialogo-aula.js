@@ -128,7 +128,7 @@ export function abreDialogoAula({ loja, anuncia, materias, subject = "", lePdf, 
       colar(_el, e, t) { Object.assign(e, { fase: "revisar", erro: "" }); t.pinta(); /** @type {HTMLElement|null} */ (area.querySelector("#aula-texto"))?.focus(); },
       recomecar(_el, e, t) { Object.assign(e, estadoAula(e.subject)); t.pinta(); },
       montar(_el, e, t) {
-        const r = montaMaterialDaAula({ texto: e.texto, titulo: e.titulo.trim(), origem: descreveOrigem(e.origens) });
+        const r = /** @type {any} */ (montaMaterialDaAula({ texto: e.texto, titulo: e.titulo.trim(), origem: descreveOrigem(e.origens) }));
         if (r.erro) { e.erro = r.erro; t.pinta(); anuncia(r.erro); return; }
         const titulo = e.titulo.trim() || `Aula de ${new Date().toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" })}`;
         const salvo = loja.salva("materiais", { title: titulo, subject: e.subject.trim(), topic: titulo, kind: "aula", content: r.content, fonte: r.fonte });

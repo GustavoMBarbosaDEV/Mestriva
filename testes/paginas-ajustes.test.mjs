@@ -46,3 +46,19 @@ test("lembretes dos próximos 7 dias (por horário)", () => {
   assert.ok(desenhaLembretes([], "granted", true, agora).includes("Nenhum compromisso nos próximos 7 dias") && desenhaLembretes([], "granted", true, agora).includes("Notificações do navegador ativas"));
   assert.ok(desenhaLembretes([], "unsupported", false, agora).includes("não suporta notificações"));
 });
+
+test("conta: modo local, modo teste e conta de verdade", async () => {
+  const { secaoConta } = await import("../js/paginas/ajustes.js");
+  const f = formDoPerfil({});
+  const local = secaoConta(f, { nome: "Ana", email: "", modo: "local", conta: null });
+  assert.ok(local.includes("sem conta") && !local.includes("Excluir conta"));
+  const teste = secaoConta({ ...f, contaForm: true }, { nome: "Ana", modo: "nuvem", conta: { anonimo: true, provedores: [] } });
+  assert.ok(teste.includes("Modo teste") && teste.includes("Criar com o Google") && teste.includes("Criar com a Microsoft") && teste.includes('id="conta-email"') && teste.includes("Sair do modo teste"));
+  const conta = secaoConta(f, { nome: "Ana", email: "ana@x.com", modo: "nuvem", conta: { anonimo: false, provedores: ["google.com"], precisaConfirmar: false } });
+  assert.ok(conta.includes("Formas de entrar") && conta.includes("ligado") && conta.includes("Criar senha") && conta.includes("Excluir conta") && conta.includes("Sair da conta"));
+  assert.ok(conta.includes('data-acao="ligar" data-valor="microsoft"') && !conta.includes('data-valor="google"'));
+  const nova = secaoConta(f, { nome: "", email: "a@x.com", modo: "nuvem", conta: { anonimo: false, provedores: ["password"], precisaConfirmar: true } });
+  assert.ok(nova.includes("Confirme seu e-mail") && nova.includes("Mandar o link de novo"));
+  const h = desenha(f, { nome: "", email: "", modo: "nuvem", conta: { anonimo: false, provedores: ["password"] } }, false);
+  assert.ok(h.includes("Apagar todos os meus dados") && h.includes("salvo na sua conta"));
+});

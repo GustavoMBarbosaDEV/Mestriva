@@ -68,3 +68,15 @@ test("ícones do index existem", () => {
     assert.ok(fs.existsSync(path.join(raiz, f)), f);
   }
 });
+
+test("CSP do index.html é a mesma do cabeçalho (o navegador aplica as duas)", () => {
+  const fj = fs.readFileSync("firebase.json", "utf8");
+  const cab = /"Content-Security-Policy",\s*"value":\s*"([^"]*)"/.exec(fj)[1];
+  const meta = /<meta http-equiv="Content-Security-Policy" content="([^"]*)"/.exec(fs.readFileSync("index.html", "utf8"))[1];
+  const partes = (c) => Object.fromEntries(c.split(";").map((x) => x.trim()).filter(Boolean).map((x) => [x.split(" ")[0], x]));
+  const a = partes(cab);
+  const b = partes(meta);
+  for (const k of ["frame-ancestors", "upgrade-insecure-requests"]) delete a[k];
+  assert.deepEqual(b, a);
+  assert.match(a["connect-src"], /googleapis\.com/);
+});
