@@ -469,6 +469,30 @@ export const EXTRA = {
       "Direito Administrativo e Licitações",
       "Teoria Geral do Direito Administrativo"
     ]
+  },
+  "processo-civil": {
+    "area": "Direito",
+    "apelidos": [
+      "Processo Civil",
+      "Processo Civil I",
+      "Direito Processual Civil I",
+      "Teoria Geral do Processo Civil",
+      "Direito Processual Civil: Parte Geral",
+      "Processo Civil e Procedimento Comum",
+      "Processo de Conhecimento"
+    ]
+  },
+  "direito-trabalho": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito do Trabalho I",
+      "Direito Individual do Trabalho",
+      "Direito do Trabalho e Legislação Social",
+      "Legislação Trabalhista",
+      "Legislação Social e Trabalhista",
+      "Noções de Direito do Trabalho",
+      "Relações de Trabalho e Legislação"
+    ]
   }
 };
 

@@ -1,0 +1,465 @@
+{
+  "id": "direito-trabalho",
+  "nome": "Direito do Trabalho",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "principios-fontes",
+      "nome": "Princípios e fontes do Direito do Trabalho",
+      "resumo": "O Direito do Trabalho existe para equilibrar uma relação **desigual**: o empregado depende do salário e está subordinado ao empregador.\n\n### Princípio da proteção e seus desdobramentos\n- **In dubio pro operario**: diante de uma norma com mais de um sentido, escolhe-se o mais favorável ao trabalhador (não vale para avaliar provas).\n- **Norma mais favorável**: havendo várias normas aplicáveis, aplica-se a que for melhor para o empregado, independentemente da hierarquia.\n- **Condição mais benéfica**: vantagens já conquistadas no contrato não podem ser retiradas (Súmula 51 do TST).\n\n### Outros princípios\n- **Primazia da realidade**: vale o que acontece de fato, não o que está no papel (ex.: \"PJ\" que trabalha como empregado é empregado).\n- **Irrenunciabilidade (indisponibilidade)**: o empregado não pode abrir mão de direitos trabalhistas mínimos.\n- **Continuidade da relação de emprego**: presume-se o contrato por prazo indeterminado; o ônus de provar o fim do contrato é do empregador (Súmula 212 do TST).\n- **Inalterabilidade contratual lesiva** (art. 468 da CLT).\n\n### Fontes\n- **Materiais**: os fatos sociais que geram as normas (greves, crises).\n- **Formais heterônomas**: Constituição (art. 7º traz os direitos dos trabalhadores), CLT, leis, decretos.\n- **Formais autônomas**: **convenção coletiva** (sindicato dos empregados + sindicato da categoria econômica) e **acordo coletivo** (sindicato dos empregados + uma ou mais empresas).\n\n### Reforma Trabalhista (Lei 13.467/2017)\n- **Negociado sobre o legislado** (art. 611-A): a convenção e o acordo coletivo prevalecem sobre a lei em temas como jornada, banco de horas anual, intervalo intrajornada (mínimo de 30 minutos para jornadas acima de 6 horas), plano de cargos e teletrabalho.\n- Mas há um núcleo intocável (art. 611-B): não se pode suprimir ou reduzir, por exemplo, salário mínimo, 13º, FGTS, férias e seu terço, licença-maternidade, normas de saúde e segurança.\n- O acordo coletivo **prevalece** sobre a convenção coletiva (art. 620).",
+      "revisao": "**Lembre:**\n- Proteção: in dubio pro operario, norma mais favorável, condição mais benéfica.\n- Primazia da realidade: os fatos valem mais que os documentos.\n- Convenção: sindicato × sindicato. Acordo: sindicato × empresa.\n- Art. 611-A permite negociar; art. 611-B lista o que não pode ser reduzido.\n- Acordo coletivo prevalece sobre a convenção.\n\n**Erros comuns:** dizer que in dubio pro operario serve para decidir dúvida sobre provas; achar que a negociação coletiva pode reduzir o FGTS.\n\n**Mini exemplo:** a empresa registra o trabalhador como \"autônomo\", mas ele cumpre horário e recebe ordens todos os dias: pela primazia da realidade, ele é empregado."
+    },
+    {
+      "id": "relacao-emprego",
+      "nome": "Relação de emprego, empregado e empregador",
+      "resumo": "### Requisitos da relação de emprego (arts. 2º e 3º da CLT)\nPara haver vínculo de emprego, o trabalho precisa ser:\n- prestado por **pessoa física**;\n- com **pessoalidade** (o empregado não pode se fazer substituir livremente);\n- **não eventual** (habitual, ligado à rotina do negócio);\n- **oneroso** (com salário);\n- **subordinado** (o empregador dirige o modo de trabalhar).\nAlém disso, o empregador assume os **riscos da atividade** (**alteridade**).\n\n### Quem não é empregado\n- **Autônomo**: trabalha por conta própria, sem subordinação. A contratação de autônomo, cumpridas as formalidades, afasta a qualidade de empregado (art. 442-B), mas a primazia da realidade continua valendo.\n- **Eventual**: trabalho esporádico, ligado a evento certo.\n- **Estagiário** (Lei 11.788/2008): ato educativo; se descumpridos os requisitos, forma-se vínculo.\n- **Voluntário**: sem salário.\n- **Doméstico** é empregado, mas com lei própria (LC 150/2015): trabalho para pessoa ou família, sem fins lucrativos, **mais de 2 dias por semana**.\n\n### Empregador\n- **Grupo econômico** (art. 2º, §2º): empresas sob direção, controle ou administração de outra, ou com interesse integrado; respondem **solidariamente**.\n- **Sucessão de empregadores** (arts. 10 e 448): a mudança na propriedade ou estrutura da empresa **não afeta** os contratos e direitos dos empregados; o sucessor responde, e o sucedido responde solidariamente se houver fraude (art. 448-A).\n\n### Terceirização (Lei 6.019/1974, alterada em 2017)\n- É lícita a terceirização de **qualquer atividade**, inclusive a **atividade-fim** (STF, ADPF 324 e Tema 725).\n- A empresa **tomadora** responde **subsidiariamente** pelas obrigações trabalhistas do período em que recebeu os serviços.\n- A Administração Pública só responde subsidiariamente se ficar provada sua **falha na fiscalização** (STF, Tema 246).",
+      "revisao": "**Lembre:**\n- Requisitos: pessoa física, pessoalidade, não eventualidade, onerosidade, subordinação (+ alteridade).\n- Doméstico: mais de 2 dias por semana para pessoa ou família.\n- Grupo econômico: responsabilidade solidária.\n- Sucessão: os contratos continuam.\n- Terceirização: lícita até na atividade-fim; tomadora responde subsidiariamente.\n\n**Erros comuns:** dizer que a terceirização de atividade-fim é proibida (era a antiga Súmula 331, superada pelo STF); confundir responsabilidade solidária (grupo econômico) com subsidiária (tomadora).\n\n**Mini exemplo:** a diarista que vai a uma casa duas vezes por semana não é empregada doméstica; se passar a ir três vezes, passa a ser."
+    },
+    {
+      "id": "contrato-trabalho",
+      "nome": "Contrato de trabalho e alterações",
+      "resumo": "### Formas de contrato\n- O contrato pode ser **tácito ou expresso**, verbal ou escrito (art. 443). A regra é o prazo **indeterminado**.\n- **Prazo determinado** (art. 443, §2º): só para serviço cuja natureza justifique a predeterminação do prazo, atividades empresariais transitórias ou **contrato de experiência**. Duração máxima de **2 anos**, com **uma** prorrogação dentro desse limite (arts. 445 e 451).\n- **Contrato de experiência**: no máximo **90 dias**, podendo ser prorrogado **uma vez** dentro desse total (Súmula 188 do TST).\n- Novo contrato a prazo com o mesmo empregado só depois de **6 meses**, salvo exceções (art. 452).\n\n### Modalidades criadas ou reguladas pela Reforma\n- **Trabalho intermitente** (arts. 443, §3º, e 452-A): prestação de serviço com alternância de períodos de atividade e inatividade; o empregado é convocado com pelo menos **3 dias corridos** de antecedência e recebe, ao final de cada período, as verbas proporcionais.\n- **Teletrabalho** (arts. 75-A a 75-F): prestação de serviço preponderantemente fora das dependências do empregador, com uso de tecnologia; deve constar do contrato. Desde 2022, pode ser por **jornada, produção ou tarefa**.\n\n### Alteração do contrato (art. 468)\nSó é lícita a alteração por **mútuo consentimento** e que **não cause prejuízo** ao empregado, direta ou indiretamente; senão, é **nula**.\n- **Jus variandi**: o empregador pode fazer pequenas mudanças de rotina, sem prejuízo (ex.: mudar a mesa de lugar).\n- Reverter o empregado de **função de confiança** ao cargo efetivo não é alteração ilícita, e ele **não** tem direito a manter a gratificação, qualquer que seja o tempo na função (art. 468, §§1º e 2º).\n\n### Transferência (art. 469)\n- É proibido transferir o empregado, sem sua anuência, para localidade que exija **mudança de domicílio**.\n- Exceções: cargos de confiança, contratos com condição de transferência por necessidade do serviço, extinção do estabelecimento.\n- Na transferência **provisória**, o empregado recebe adicional de **25%** do salário enquanto durar.",
+      "revisao": "**Lembre:**\n- Regra: prazo indeterminado. Determinado: até 2 anos. Experiência: até 90 dias, uma prorrogação.\n- Intermitente: convocação com 3 dias corridos.\n- Art. 468: mútuo consentimento e sem prejuízo.\n- Transferência provisória: adicional de 25%.\n\n**Erros comuns:** dizer que o contrato de experiência pode durar 6 meses; achar que o empregador pode reduzir o salário com a concordância do empregado.\n\n**Mini exemplo:** contrato de experiência de 45 dias prorrogado por mais 45: válido (90 dias, uma prorrogação). Uma segunda prorrogação o tornaria por prazo indeterminado."
+    },
+    {
+      "id": "jornada",
+      "nome": "Jornada de trabalho, intervalos e horas extras",
+      "resumo": "### Limites (art. 7º, XIII, da CF)\n**8 horas diárias** e **44 semanais**, facultada a compensação e a redução por acordo ou convenção coletiva. Turnos ininterruptos de revezamento: 6 horas, salvo negociação coletiva.\n\n### Horas extras\n- Adicional mínimo de **50%** sobre a hora normal (art. 7º, XVI, da CF).\n- Limite de **2 horas extras por dia** (art. 59).\n- **Banco de horas**: por **acordo individual escrito**, com compensação em até **6 meses** (art. 59, §5º); por negociação coletiva, em até **1 ano**. A compensação no **mesmo mês** pode ser ajustada até por acordo tácito (art. 59, §6º).\n- **Jornada 12×36**: pode ser fixada por acordo individual escrito ou negociação coletiva (art. 59-A).\n\n### Intervalos\n- **Intrajornada** (art. 71): jornada acima de **6 horas**: mínimo de **1 hora** e máximo de 2 horas; jornada de **4 a 6 horas**: **15 minutos**. Não contam na jornada.\n- Se o intervalo não for concedido, paga-se **só o período suprimido**, com acréscimo de 50%, de **natureza indenizatória** (art. 71, §4º, após a Reforma).\n- **Interjornada** (art. 66): mínimo de **11 horas** consecutivas entre duas jornadas.\n- **Descanso semanal remunerado**: 24 horas consecutivas, **preferencialmente aos domingos** (art. 7º, XV, da CF).\n\n### Trabalho noturno urbano (art. 73)\n- Das **22h às 5h**.\n- Adicional de pelo menos **20%**.\n- **Hora noturna reduzida**: 52 minutos e 30 segundos (7 horas de relógio valem 8 horas noturnas).\n- No trabalho **rural**: lavoura das 21h às 5h; pecuária das 20h às 4h; adicional de 25%.\n\n### Quem não tem controle de jornada (art. 62)\nEmpregados em atividade externa incompatível com horário fixo, **gerentes** com poder de gestão (com gratificação de pelo menos 40%) e empregados em teletrabalho por produção ou tarefa não têm direito a horas extras.\n\n### Tempo à disposição\nDesde a Reforma, o tempo de deslocamento de casa ao trabalho (**horas in itinere**) **não** conta como jornada (art. 58, §2º).",
+      "revisao": "**Lembre:**\n- 8h por dia, 44h por semana; extras com no mínimo 50%, até 2h por dia.\n- Banco de horas: individual escrito em 6 meses; coletivo em 1 ano.\n- Intervalo: >6h → 1 a 2h; 4–6h → 15 min; interjornada 11h.\n- Noturno urbano: 22h–5h, adicional de 20%, hora de 52'30\".\n- Intervalo suprimido: paga só o tempo suprimido + 50%, natureza indenizatória.\n\n**Erros comuns:** dizer que o adicional de hora extra é de 100% por lei (o mínimo é 50%); achar que horas in itinere ainda contam após 2017.\n\n**Mini exemplo:** um vigia trabalha das 22h às 5h: são 7 horas de relógio, mas 8 horas noturnas, pagas com adicional de 20%."
+    },
+    {
+      "id": "remuneracao-ferias",
+      "nome": "Salário, remuneração, 13º e férias",
+      "resumo": "### Salário e remuneração\n- **Salário**: pago diretamente pelo empregador, pela contraprestação do serviço.\n- **Remuneração** = salário + **gorjetas** (pagas por terceiros) (art. 457).\n- Integram o salário a importância fixa, as **gratificações legais** e as **comissões**. Depois da Reforma, **não integram** (mesmo que habituais): ajuda de custo, auxílio-alimentação (não pago em dinheiro), diárias para viagem, **prêmios** e abonos (art. 457, §2º).\n- **Equiparação salarial** (art. 461): mesma função, trabalho de igual valor, mesmo empregador e mesmo estabelecimento, com diferença de tempo na função de até 2 anos e de tempo no emprego de até 4 anos.\n- O salário é **irredutível**, salvo por convenção ou acordo coletivo (art. 7º, VI, da CF).\n\n### 13º salário (Lei 4.090/1962)\nCorresponde a **1/12 da remuneração de dezembro por mês trabalhado** (fração de 15 dias ou mais conta como mês). Pago em duas parcelas: a primeira entre fevereiro e **30 de novembro**; a segunda até **20 de dezembro**.\n\n### Férias\n- **Período aquisitivo**: a cada **12 meses** de trabalho, o empregado tem direito a férias.\n- **Período concessivo**: o empregador deve concedê-las nos **12 meses seguintes**; se não conceder, paga **em dobro** (art. 137).\n- Duração: **30 dias corridos**, reduzidos conforme as **faltas injustificadas** no período aquisitivo (art. 130): até 5 faltas, 30 dias; de 6 a 14, 24 dias; de 15 a 23, 18 dias; de 24 a 32, 12 dias; mais de 32, perde o direito.\n- **Terço constitucional**: as férias são pagas com acréscimo de **1/3** (art. 7º, XVII, da CF), até **2 dias antes** do início (art. 145).\n- **Fracionamento** (art. 134, §1º): com a concordância do empregado, em até **3 períodos**, sendo um de pelo menos **14 dias corridos** e os outros de pelo menos **5 dias** cada.\n- **Abono pecuniário** (art. 143): o empregado pode **vender 1/3** das férias, pedindo até 15 dias antes do fim do período aquisitivo.\n- As férias não podem começar nos **2 dias que antecedem feriado ou descanso semanal** (art. 134, §3º).",
+      "revisao": "**Lembre:**\n- Remuneração = salário + gorjetas.\n- Prêmios, abonos, diárias e ajuda de custo não integram o salário.\n- 13º: 1ª parcela até 30/11, 2ª até 20/12.\n- Férias: 12 meses para adquirir, 12 para conceder; fora do prazo, em dobro; + 1/3.\n- Fracionar em até 3: um período ≥ 14 dias, os outros ≥ 5.\n- Pode vender 1/3 (abono pecuniário).\n\n**Erros comuns:** dizer que as férias podem ser divididas em períodos de 3 dias; confundir período aquisitivo com concessivo.\n\n**Mini exemplo:** com 10 faltas injustificadas no período aquisitivo, o empregado tem direito a 24 dias de férias, não 30."
+    },
+    {
+      "id": "extincao-contrato",
+      "nome": "Extinção do contrato, estabilidades e prescrição",
+      "resumo": "### Dispensa sem justa causa\nO empregado recebe: saldo de salário, **aviso prévio** (30 dias + **3 dias por ano** de serviço, até **90 dias**, Lei 12.506/2011), 13º proporcional, férias vencidas e proporcionais com 1/3, **multa de 40% do FGTS**, saque do FGTS e guias do **seguro-desemprego**.\n\n### Dispensa por justa causa (art. 482)\nExemplos: ato de improbidade, desídia, embriaguez em serviço, violação de segredo da empresa, indisciplina e insubordinação, abandono de emprego (presumido após 30 dias, Súmula 32 do TST), ofensas físicas, perda da habilitação profissional por dolo.\nO empregado recebe só o **saldo de salário** e as **férias vencidas com 1/3**. Perde aviso prévio, 13º proporcional, férias proporcionais, multa do FGTS, saque e seguro-desemprego.\nRequisitos da justa causa: gravidade, **imediatidade** (punição logo após saber da falta), proporcionalidade e não punir duas vezes pela mesma falta.\n\n### Pedido de demissão\nRecebe saldo, 13º proporcional e férias vencidas e proporcionais com 1/3; **deve** cumprir ou indenizar o aviso prévio; **não** saca o FGTS nem recebe a multa ou o seguro-desemprego.\n\n### Extinção por acordo (art. 484-A)\nMetade do **aviso prévio** indenizado, **multa de 20%** do FGTS, as demais verbas por inteiro, saque de até **80%** do FGTS e **sem seguro-desemprego**.\n\n### Rescisão indireta (art. 483)\nÉ a \"justa causa do empregador\" (ex.: não pagar salários, exigir serviços superiores às forças, tratar com rigor excessivo). O empregado recebe as mesmas verbas da dispensa sem justa causa.\n\n### Estabilidades provisórias\n- **Gestante**: da **confirmação da gravidez até 5 meses após o parto** (art. 10, II, b, do ADCT). O desconhecimento do estado pelo empregador não afasta o direito (Súmula 244 do TST).\n- **Membro eleito da CIPA** (cipeiro): do registro da candidatura até 1 ano após o fim do mandato.\n- **Acidentado**: **12 meses** após o fim do auxílio-doença acidentário (art. 118 da Lei 8.213/1991).\n- **Dirigente sindical**: do registro da candidatura até 1 ano após o mandato.\n\n### Prescrição (art. 7º, XXIX, da CF)\nO empregado pode cobrar os últimos **5 anos**, desde que proponha a ação em até **2 anos** após o fim do contrato.",
+      "revisao": "**Lembre:**\n- Aviso prévio: 30 dias + 3 por ano, até 90.\n- Sem justa causa: multa de 40% + saque + seguro-desemprego.\n- Justa causa: só saldo de salário e férias vencidas + 1/3.\n- Acordo: metade do aviso, multa de 20%, saque de 80%, sem seguro.\n- Gestante: da confirmação até 5 meses após o parto.\n- Prescrição: 5 anos, com ação até 2 anos após o fim do contrato.\n\n**Erros comuns:** dizer que, no pedido de demissão, o empregado saca o FGTS; achar que a gestante só tem estabilidade se avisou o empregador.\n\n**Mini exemplo:** o contrato acabou em março de 2024. O ex-empregado pode entrar com ação até março de 2026, cobrando direitos dos 5 anos anteriores à data da ação."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-trabalho-1",
+      "topico": "principios-fontes",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da primazia da realidade significa que:",
+      "opcoes": [
+        "Os fatos realmente ocorridos na relação de trabalho prevalecem sobre o que está nos documentos",
+        "O contrato escrito sempre prevalece",
+        "A lei mais recente sempre prevalece",
+        "O empregador define a realidade do contrato"
+      ],
+      "correta": 0,
+      "explicacao": "Na Justiça do Trabalho, vale o que acontece de fato. Um contrato de autônomo não afasta o vínculo se, na prática, há subordinação."
+    },
+    {
+      "id": "direito-trabalho-2",
+      "topico": "principios-fontes",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre convenção coletiva e acordo coletivo de trabalho?",
+      "opcoes": [
+        "Não há diferença",
+        "A convenção é firmada entre sindicatos (empregados e categoria econômica); o acordo, entre o sindicato dos empregados e uma ou mais empresas",
+        "O acordo é firmado pelo Ministério do Trabalho",
+        "A convenção vale só para uma empresa"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 611 da CLT. Pelo art. 620, as condições do acordo coletivo sempre prevalecem sobre as da convenção."
+    },
+    {
+      "id": "direito-trabalho-3",
+      "topico": "principios-fontes",
+      "nivel": "conceitual",
+      "pergunta": "Depois da Reforma Trabalhista, qual destes direitos NÃO pode ser reduzido por negociação coletiva?",
+      "opcoes": [
+        "Banco de horas anual",
+        "Intervalo intrajornada, respeitado o mínimo de 30 minutos",
+        "Valor dos depósitos do FGTS",
+        "Plano de cargos e salários"
+      ],
+      "correta": 2,
+      "explicacao": "O FGTS está no rol do art. 611-B, que lista os direitos que não podem ser suprimidos ou reduzidos. Os outros temas estão no art. 611-A."
+    },
+    {
+      "id": "direito-trabalho-4",
+      "topico": "principios-fontes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa pagou por anos um auxílio por escrito no regulamento interno e depois o retirou para os empregados antigos. Qual princípio foi violado?",
+      "opcoes": [
+        "Primazia da realidade",
+        "In dubio pro operario",
+        "Continuidade",
+        "Condição mais benéfica"
+      ],
+      "correta": 3,
+      "explicacao": "Vantagens incorporadas ao contrato não podem ser suprimidas para quem já as tinha (Súmula 51 do TST). As novas regras só valem para os admitidos depois."
+    },
+    {
+      "id": "direito-trabalho-5",
+      "topico": "principios-fontes",
+      "nivel": "analise",
+      "pergunta": "Num processo, as provas sobre as horas extras ficaram empatadas. O juiz pode decidir pelo empregado com base no in dubio pro operario?",
+      "opcoes": [
+        "Não: esse princípio é regra de interpretação das normas; dúvida sobre fatos se resolve pelo ônus da prova",
+        "Sim, sempre que houver dúvida",
+        "Sim, mas só se o empregado for menor de idade",
+        "Não, porque o princípio foi revogado"
+      ],
+      "correta": 0,
+      "explicacao": "O in dubio pro operario orienta a interpretação de normas. A dúvida probatória se resolve pelas regras de distribuição do ônus da prova (art. 818 da CLT)."
+    },
+    {
+      "id": "direito-trabalho-6",
+      "topico": "relacao-emprego",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os requisitos da relação de emprego na CLT?",
+      "opcoes": [
+        "Carteira assinada, salário mínimo e jornada de 8 horas",
+        "Pessoa física, pessoalidade, não eventualidade, onerosidade e subordinação",
+        "Contrato escrito, exclusividade e subordinação",
+        "Pessoa física ou jurídica, onerosidade e exclusividade"
+      ],
+      "correta": 1,
+      "explicacao": "Arts. 2º e 3º da CLT. A carteira assinada é obrigação do empregador, não requisito do vínculo, e a exclusividade não é exigida."
+    },
+    {
+      "id": "direito-trabalho-7",
+      "topico": "relacao-emprego",
+      "nivel": "conceitual",
+      "pergunta": "Como responde a empresa tomadora pelas dívidas trabalhistas dos terceirizados?",
+      "opcoes": [
+        "Solidariamente, sempre",
+        "Não responde",
+        "Subsidiariamente, pelo período em que recebeu os serviços",
+        "Só se for empresa pública"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 5º-A, §5º, da Lei 6.019/1974: a contratante é subsidiariamente responsável pelas obrigações trabalhistas referentes ao período da prestação de serviços."
+    },
+    {
+      "id": "direito-trabalho-8",
+      "topico": "relacao-emprego",
+      "nivel": "aplicacao",
+      "pergunta": "Uma diarista trabalha numa casa toda segunda e quinta-feira há 3 anos. Ela é empregada doméstica?",
+      "opcoes": [
+        "Sim, porque o trabalho é habitual",
+        "Sim, porque já passou de 2 anos",
+        "Só se tiver carteira assinada",
+        "Não, porque a LC 150/2015 exige trabalho por mais de 2 dias por semana"
+      ],
+      "correta": 3,
+      "explicacao": "A LC 150/2015 define como doméstico quem trabalha para pessoa ou família por mais de 2 dias por semana. Com dois dias, ela é diarista sem vínculo."
+    },
+    {
+      "id": "direito-trabalho-9",
+      "topico": "relacao-emprego",
+      "nivel": "aplicacao",
+      "pergunta": "Um banco contrata uma empresa para fornecer operadores que fazem a atividade principal do banco. Segundo o STF, essa terceirização é:",
+      "opcoes": [
+        "Lícita, porque é permitida inclusive na atividade-fim",
+        "Ilícita, porque é atividade-fim",
+        "Lícita só por 6 meses",
+        "Ilícita, salvo autorização do sindicato"
+      ],
+      "correta": 0,
+      "explicacao": "Na ADPF 324 e no Tema 725, o STF declarou lícita a terceirização de qualquer atividade, mantida a responsabilidade subsidiária da contratante."
+    },
+    {
+      "id": "direito-trabalho-10",
+      "topico": "relacao-emprego",
+      "nivel": "analise",
+      "pergunta": "Uma empresa é vendida para outra, que mantém o negócio funcionando. Um empregado contratado antes da venda cobra verbas antigas. Quem responde?",
+      "opcoes": [
+        "Só o antigo dono, porque a dívida é anterior",
+        "O sucessor, porque a mudança na propriedade não afeta os contratos e direitos dos empregados",
+        "Ninguém, porque houve mudança de CNPJ",
+        "Só o Estado"
+      ],
+      "correta": 1,
+      "explicacao": "Arts. 10 e 448 da CLT. O sucessor responde; pelo art. 448-A, o sucedido responde solidariamente se houver fraude na transferência."
+    },
+    {
+      "id": "direito-trabalho-11",
+      "topico": "contrato-trabalho",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a duração máxima do contrato de experiência?",
+      "opcoes": [
+        "30 dias",
+        "60 dias",
+        "90 dias",
+        "2 anos"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 445, parágrafo único, da CLT: o contrato de experiência não pode passar de 90 dias, admitida uma prorrogação dentro desse limite."
+    },
+    {
+      "id": "direito-trabalho-12",
+      "topico": "contrato-trabalho",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o art. 468 da CLT, uma alteração no contrato de trabalho é lícita quando:",
+      "opcoes": [
+        "O empregador decide sozinho",
+        "O sindicato autoriza",
+        "O empregado concorda, mesmo com prejuízo",
+        "Há mútuo consentimento e não causa prejuízo ao empregado"
+      ],
+      "correta": 3,
+      "explicacao": "Os dois requisitos são cumulativos: concordância e ausência de prejuízo direto ou indireto. Sem eles, a cláusula é nula."
+    },
+    {
+      "id": "direito-trabalho-13",
+      "topico": "contrato-trabalho",
+      "nivel": "conceitual",
+      "pergunta": "No contrato de trabalho intermitente, com que antecedência mínima o empregado deve ser convocado?",
+      "opcoes": [
+        "3 dias corridos",
+        "24 horas",
+        "1 semana",
+        "1 mês"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 452-A, §1º, da CLT: o empregador convoca com pelo menos 3 dias corridos de antecedência, informando a jornada."
+    },
+    {
+      "id": "direito-trabalho-14",
+      "topico": "contrato-trabalho",
+      "nivel": "aplicacao",
+      "pergunta": "Um empregado de São Paulo é transferido temporariamente para trabalhar em Manaus por 4 meses, com mudança de domicílio. O que ele deve receber?",
+      "opcoes": [
+        "Nada, porque a transferência é do interesse da empresa",
+        "Um adicional de pelo menos 25% do salário enquanto durar a transferência",
+        "O dobro do salário",
+        "Só as despesas da mudança"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 469, §3º: na transferência provisória, o empregador paga adicional nunca inferior a 25% do salário enquanto ela durar, além das despesas de transferência (art. 470)."
+    },
+    {
+      "id": "direito-trabalho-15",
+      "topico": "contrato-trabalho",
+      "nivel": "analise",
+      "pergunta": "Um contrato de experiência de 30 dias foi prorrogado por 30 e depois por mais 30 dias. Qual a consequência?",
+      "opcoes": [
+        "É válido, porque somou 90 dias",
+        "Vira contrato de prazo determinado de 2 anos",
+        "A segunda prorrogação o transforma em contrato por prazo indeterminado",
+        "Fica nulo e o empregado não recebe nada"
+      ],
+      "correta": 2,
+      "explicacao": "Só se admite uma prorrogação (art. 451 e Súmula 188 do TST). Prorrogado mais de uma vez, passa a vigorar sem prazo."
+    },
+    {
+      "id": "direito-trabalho-16",
+      "topico": "jornada",
+      "nivel": "conceitual",
+      "pergunta": "Qual o adicional mínimo da hora extra previsto na Constituição?",
+      "opcoes": [
+        "20%",
+        "25%",
+        "100%",
+        "50%"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 7º, XVI, da CF: remuneração do serviço extraordinário superior, no mínimo, em 50% à do normal."
+    },
+    {
+      "id": "direito-trabalho-17",
+      "topico": "jornada",
+      "nivel": "conceitual",
+      "pergunta": "Qual o intervalo intrajornada para quem trabalha mais de 6 horas por dia?",
+      "opcoes": [
+        "No mínimo 1 hora e, em regra, no máximo 2 horas",
+        "15 minutos",
+        "30 minutos, sempre",
+        "11 horas"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 71 da CLT. Para jornadas de 4 a 6 horas, o intervalo é de 15 minutos. As 11 horas são o intervalo entre jornadas."
+    },
+    {
+      "id": "direito-trabalho-18",
+      "topico": "jornada",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o horário do trabalho noturno urbano?",
+      "opcoes": [
+        "Das 20h às 4h",
+        "Das 22h às 5h",
+        "Das 21h às 5h",
+        "Das 18h às 6h"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 73, §2º, da CLT. No campo, a lavoura vai das 21h às 5h e a pecuária das 20h às 4h."
+    },
+    {
+      "id": "direito-trabalho-19",
+      "topico": "jornada",
+      "nivel": "aplicacao",
+      "pergunta": "Um empregado com jornada de 8 horas tem só 30 minutos de almoço, sem negociação coletiva que permita isso. O que ele deve receber?",
+      "opcoes": [
+        "Uma hora inteira extra, com natureza salarial",
+        "Nada, porque almoçou",
+        "Os 30 minutos suprimidos, com acréscimo de 50%, de natureza indenizatória",
+        "O dobro do salário do dia"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 71, §4º, após a Reforma: paga-se só o período suprimido, com 50%, e a verba é indenizatória. Por negociação coletiva, o intervalo poderia ser de 30 minutos (art. 611-A, III)."
+    },
+    {
+      "id": "direito-trabalho-20",
+      "topico": "jornada",
+      "nivel": "analise",
+      "pergunta": "Um vigia trabalha das 22h às 5h. Quantas horas de trabalho noturno ele cumpre, para fins de pagamento?",
+      "opcoes": [
+        "7 horas",
+        "6 horas",
+        "9 horas",
+        "8 horas, porque a hora noturna tem 52 minutos e 30 segundos"
+      ],
+      "correta": 3,
+      "explicacao": "Pela hora noturna reduzida (art. 73, §1º), 7 horas de relógio correspondem a 8 horas noturnas, todas com adicional de pelo menos 20%."
+    },
+    {
+      "id": "direito-trabalho-21",
+      "topico": "remuneracao-ferias",
+      "nivel": "conceitual",
+      "pergunta": "Se o empregador não concede as férias dentro do período concessivo, ele deve:",
+      "opcoes": [
+        "Pagá-las em dobro",
+        "Pagá-las normalmente",
+        "Dar 60 dias de descanso, sem pagamento",
+        "Nada, porque o empregado não pediu"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 137 da CLT: as férias concedidas depois do prazo do art. 134 são pagas em dobro."
+    },
+    {
+      "id": "direito-trabalho-22",
+      "topico": "remuneracao-ferias",
+      "nivel": "conceitual",
+      "pergunta": "Como as férias podem ser divididas, com a concordância do empregado?",
+      "opcoes": [
+        "Em até 2 períodos de 15 dias",
+        "Em até 3 períodos, um de pelo menos 14 dias corridos e os outros de pelo menos 5 dias cada",
+        "Em quantos períodos o empregador quiser",
+        "Em até 4 períodos de 7 dias"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 134, §1º, da CLT, após a Reforma Trabalhista."
+    },
+    {
+      "id": "direito-trabalho-23",
+      "topico": "remuneracao-ferias",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre salário e remuneração?",
+      "opcoes": [
+        "São sinônimos",
+        "Remuneração é só o valor fixo",
+        "Remuneração é o salário somado às gorjetas, que são pagas por terceiros",
+        "Salário inclui as gorjetas"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 457 da CLT: compreendem-se na remuneração, além do salário pago pelo empregador, as gorjetas que o empregado receber."
+    },
+    {
+      "id": "direito-trabalho-24",
+      "topico": "remuneracao-ferias",
+      "nivel": "aplicacao",
+      "pergunta": "No período aquisitivo, um empregado teve 10 faltas injustificadas. Quantos dias de férias ele terá?",
+      "opcoes": [
+        "30 dias",
+        "18 dias",
+        "12 dias",
+        "24 dias"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 130 da CLT: de 6 a 14 faltas injustificadas, 24 dias corridos de férias."
+    },
+    {
+      "id": "direito-trabalho-25",
+      "topico": "remuneracao-ferias",
+      "nivel": "analise",
+      "pergunta": "Uma empresa paga todo mês um 'prêmio' fixo, igual para todos, sem nenhuma meta. Pode alegar que, por ser prêmio, ele não integra o salário?",
+      "opcoes": [
+        "Não: prêmio é liberalidade por desempenho superior ao esperado; valor fixo e sem condição é salário disfarçado",
+        "Sim, qualquer valor chamado de prêmio fica fora do salário",
+        "Sim, desde que pago em dinheiro",
+        "Não, porque prêmios sempre integram o salário"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 457, §4º, define prêmio como liberalidade em razão de desempenho superior ao ordinariamente esperado. Pela primazia da realidade, valor fixo e incondicionado tem natureza salarial."
+    },
+    {
+      "id": "direito-trabalho-26",
+      "topico": "extincao-contrato",
+      "nivel": "conceitual",
+      "pergunta": "Quanto tempo de aviso prévio tem um empregado com 5 anos completos na empresa, dispensado sem justa causa?",
+      "opcoes": [
+        "30 dias",
+        "45 dias",
+        "60 dias",
+        "90 dias"
+      ],
+      "correta": 1,
+      "explicacao": "Lei 12.506/2011: 30 dias + 3 dias por ano completo de serviço (5 × 3 = 15), totalizando 45 dias, até o máximo de 90."
+    },
+    {
+      "id": "direito-trabalho-27",
+      "topico": "extincao-contrato",
+      "nivel": "conceitual",
+      "pergunta": "Quais verbas o empregado dispensado por justa causa recebe?",
+      "opcoes": [
+        "Todas as verbas, menos a multa do FGTS",
+        "Saldo de salário, aviso prévio e 13º proporcional",
+        "Só o saldo de salário e as férias vencidas com 1/3",
+        "Nenhuma verba"
+      ],
+      "correta": 2,
+      "explicacao": "Na justa causa, o empregado perde aviso prévio, 13º proporcional, férias proporcionais, multa e saque do FGTS e seguro-desemprego. Mantém o saldo e as férias vencidas."
+    },
+    {
+      "id": "direito-trabalho-28",
+      "topico": "extincao-contrato",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o prazo de estabilidade da empregada gestante?",
+      "opcoes": [
+        "Da comunicação ao empregador até o parto",
+        "Do parto até 120 dias depois",
+        "1 ano após o parto",
+        "Da confirmação da gravidez até 5 meses após o parto"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 10, II, b, do ADCT. O desconhecimento da gravidez pelo empregador não afasta o direito (Súmula 244, I, do TST)."
+    },
+    {
+      "id": "direito-trabalho-29",
+      "topico": "extincao-contrato",
+      "nivel": "aplicacao",
+      "pergunta": "Empregado e empresa decidem encerrar o contrato em comum acordo (art. 484-A). O que o empregado recebe quanto ao FGTS?",
+      "opcoes": [
+        "Multa de 20% e saque de até 80% do saldo, sem seguro-desemprego",
+        "Multa de 40% e saque total",
+        "Nada do FGTS",
+        "Saque total, sem multa, com seguro-desemprego"
+      ],
+      "correta": 0,
+      "explicacao": "Na extinção por acordo, paga-se metade do aviso indenizado e da multa (20%), o saque é limitado a 80% e não há seguro-desemprego."
+    },
+    {
+      "id": "direito-trabalho-30",
+      "topico": "extincao-contrato",
+      "nivel": "analise",
+      "pergunta": "Um contrato terminou em junho de 2022 e a ação foi proposta em julho de 2024. O que acontece?",
+      "opcoes": [
+        "O empregado cobra os últimos 5 anos normalmente",
+        "A pretensão está prescrita, porque a ação veio depois de 2 anos do fim do contrato",
+        "Ele pode cobrar só os últimos 2 anos",
+        "Não há prescrição na Justiça do Trabalho"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 7º, XXIX, da CF: o prazo para ajuizar é de 2 anos após a extinção do contrato. Passado esse prazo, todas as pretensões prescrevem."
+    }
+  ]
+}

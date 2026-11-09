@@ -62,11 +62,13 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
     "Direito Penal I": "direito-penal-geral",
     "Direito Penal - Parte Geral": "direito-penal-geral",
     "Direito Administrativo I": "direito-administrativo",
+    "Direito Processual Civil I": "processo-civil",
+    "Direito do Trabalho": "direito-trabalho",
     "Processos Patológicos Gerais": "patologia",
   };
   for (const [nome, id] of Object.entries(casos)) assert.equal(achaNoBanco(nome, real), id, nome);
   // Nível diferente ou matéria diferente nunca liga.
-  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II"]) {
+  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Direito Processual Civil II", "Processo do Trabalho", "Direito Coletivo do Trabalho", "Segurança do Trabalho", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II"]) {
     assert.equal(achaNoBanco(nome, real), null, nome);
   }
 });

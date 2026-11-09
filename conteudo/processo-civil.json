@@ -1,0 +1,465 @@
+{
+  "id": "processo-civil",
+  "nome": "Direito Processual Civil",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "normas-fundamentais",
+      "nome": "Normas fundamentais do processo civil",
+      "resumo": "O **Código de Processo Civil de 2015** (Lei 13.105/2015) abre com normas fundamentais (arts. 1º a 12) que orientam todo o processo.\n\n### As principais\n- **Constitucionalização**: o processo é ordenado e interpretado conforme a Constituição (art. 1º).\n- **Inércia e impulso oficial**: o processo começa por iniciativa da parte, mas anda por impulso do juiz (art. 2º).\n- **Inafastabilidade**: não se exclui da apreciação do Judiciário ameaça ou lesão a direito (art. 3º). A arbitragem é permitida.\n- **Estímulo à autocomposição**: o Estado promove a solução consensual; juízes, advogados, defensores e MP devem estimular conciliação e mediação (art. 3º, §§2º e 3º).\n- **Duração razoável** e **primazia do mérito**: as partes têm direito à solução integral do mérito, incluída a atividade satisfativa, em prazo razoável (art. 4º). Vícios sanáveis devem ser corrigidos.\n- **Boa-fé** (art. 5º) e **cooperação** (art. 6º): todos os sujeitos do processo devem cooperar.\n- **Contraditório efetivo** e **vedação à decisão surpresa**: o juiz não decide contra uma parte sem ouvi-la antes (art. 9º), nem com base em fundamento sobre o qual as partes não puderam se manifestar, **ainda que possa decidir de ofício** (art. 10).\n- **Publicidade e fundamentação** das decisões, sob pena de nulidade (art. 11; art. 93, IX, da CF).\n- **Ordem cronológica**: juízes e tribunais atenderão **preferencialmente** à ordem cronológica de conclusão para proferir sentença ou acórdão (art. 12).\n\n### Prazos\nOs prazos processuais em dias contam **só os dias úteis** (art. 219). Ficam suspensos de **20 de dezembro a 20 de janeiro** (art. 220).",
+      "revisao": "**Lembre:**\n- Inércia: a parte provoca; depois o processo anda por impulso oficial.\n- Art. 10: nada de decisão surpresa, nem em matéria que o juiz pode conhecer de ofício.\n- Primazia do mérito: corrigir vícios sanáveis em vez de extinguir o processo.\n- Prazos em dias úteis; recesso de 20/12 a 20/1.\n\n**Erros comuns:** achar que o juiz pode reconhecer a prescrição de ofício sem ouvir as partes; contar prazo processual em dias corridos.\n\n**Mini exemplo:** o juiz percebe que pode haver prescrição, que ninguém alegou. Antes de decidir, ele deve intimar as partes para se manifestarem."
+    },
+    {
+      "id": "jurisdicao-competencia",
+      "nome": "Jurisdição e competência",
+      "resumo": "### Jurisdição\nFunção do Estado de **aplicar o direito ao caso concreto**, substituindo a vontade das partes e com força de definitividade. Características: **substitutividade**, **inércia**, **definitividade** (coisa julgada) e imparcialidade.\n\n### Competência: absoluta × relativa\n- **Absoluta**: fixada por interesse público: **matéria**, **pessoa** e **funcional** (hierarquia). Não pode ser alterada pelas partes. Pode ser alegada **a qualquer tempo e grau** e deve ser declarada **de ofício** (art. 64, §1º).\n- **Relativa**: fixada no interesse das partes: **território** e **valor da causa**. Deve ser alegada como **preliminar de contestação** (art. 64); se não for, **prorroga-se** (art. 65), e o juiz **não pode declará-la de ofício** (Súmula 33 do STJ). O MP também pode alegá-la nas causas em que atua.\n- A cláusula de **foro de eleição** abusiva pode ser declarada ineficaz de ofício antes da citação (art. 63, §3º).\n\n### Regras de foro\n- Regra geral: **domicílio do réu** nas ações fundadas em direito pessoal ou real sobre móveis (art. 46).\n- Ações reais imobiliárias: foro da **situação da coisa** (art. 47).\n- Alimentos: domicílio do **alimentando** (art. 53, II).\n- Reparação de dano por acidente de veículo: domicílio do autor ou local do fato (art. 53, V).\n- Causas em que a **União** é parte: **Justiça Federal** (art. 109 da CF).\n\n### Modificação da competência\n- **Conexão** (art. 55): ações com o mesmo **pedido** ou a mesma **causa de pedir**; são reunidas para decisão conjunta, se uma ainda não foi sentenciada.\n- **Continência** (art. 56): mesmas partes e mesma causa de pedir, e o pedido de uma abrange o da outra.\n- Só a competência **relativa** se modifica por conexão ou continência.\n- **Prevenção**: o registro ou a distribuição da petição inicial torna prevento o juízo (art. 59).",
+      "revisao": "**Lembre:**\n- Absoluta: matéria, pessoa, função; de ofício, a qualquer tempo.\n- Relativa: território e valor; preliminar de contestação; prorroga se ninguém alegar; Súmula 33 do STJ.\n- Regra: domicílio do réu. Imóvel: situação da coisa. Alimentos: domicílio do alimentando.\n- Conexão: mesmo pedido ou causa de pedir.\n\n**Erros comuns:** dizer que o juiz declara de ofício a incompetência territorial; achar que conexão modifica competência absoluta.\n\n**Mini exemplo:** o autor processa o réu em comarca diferente do domicílio dele. Se o réu não alegar na contestação, aquele juízo passa a ser competente."
+    },
+    {
+      "id": "partes-acao",
+      "nome": "Ação, partes e intervenção de terceiros",
+      "resumo": "### Ação\n- **Direito de ação**: direito de provocar o Judiciário para obter uma decisão.\n- **Requisitos** (art. 17): para postular em juízo é necessário ter **interesse** e **legitimidade**. A \"possibilidade jurídica do pedido\" deixou de ser condição autônoma no CPC/2015 e passou a ser analisada no mérito.\n  - **Interesse**: necessidade e adequação da tutela pedida.\n  - **Legitimidade**: em regra, só o titular do direito pode pleiteá-lo em nome próprio; a **legitimação extraordinária** (substituição processual) depende de autorização do ordenamento (art. 18).\n- **Elementos da ação** (identificam a demanda): **partes**, **causa de pedir** (fatos e fundamentos jurídicos) e **pedido**. Ações com os três elementos iguais geram **litispendência** ou **coisa julgada**.\n\n### Litisconsórcio\n- **Facultativo** × **necessário** (exigido por lei ou pela natureza da relação jurídica, art. 114).\n- **Simples** (a decisão pode ser diferente para cada litisconsorte) × **unitário** (a decisão deve ser igual para todos, art. 116).\n- O juiz pode limitar o **litisconsórcio multitudinário** facultativo quando comprometer a defesa ou a rápida solução (art. 113, §1º).\n\n### Intervenção de terceiros no CPC/2015\n- **Assistência** (simples ou litisconsorcial): terceiro com interesse jurídico em que uma parte vença.\n- **Denunciação da lide**: traz ao processo quem deve indenizar, em regresso, quem perder (ex.: seguradora).\n- **Chamamento ao processo**: o devedor chama os coobrigados, como o fiador chamando o devedor principal ou outros fiadores.\n- **Incidente de desconsideração da personalidade jurídica** (arts. 133 a 137).\n- **Amicus curiae** (art. 138): entidade com representatividade que contribui em causas relevantes; não pode recorrer, salvo embargos de declaração e no IRDR.\n- A **oposição** deixou de ser intervenção de terceiros e virou procedimento especial; a **nomeação à autoria** foi extinta.",
+      "revisao": "**Lembre:**\n- Art. 17: interesse e legitimidade.\n- Elementos: partes, causa de pedir, pedido.\n- Litisconsórcio necessário × facultativo; unitário × simples.\n- Intervenções: assistência, denunciação, chamamento, desconsideração, amicus curiae.\n\n**Erros comuns:** citar a possibilidade jurídica do pedido como condição da ação no CPC/2015; confundir denunciação da lide (regresso) com chamamento ao processo (coobrigados).\n\n**Mini exemplo:** o motorista processado por um acidente traz a própria seguradora para o processo: é denunciação da lide."
+    },
+    {
+      "id": "procedimento-comum",
+      "nome": "Procedimento comum: da petição à sentença",
+      "resumo": "### Petição inicial (art. 319)\nIndica o juízo, as partes, os **fatos e fundamentos jurídicos**, o **pedido** com suas especificações, o **valor da causa**, as provas e a opção pela audiência de conciliação ou mediação.\n- Se tiver defeitos sanáveis, o juiz manda **emendar em 15 dias** (art. 321), indicando o que corrigir.\n- **Indeferimento** (art. 330): inépcia, ilegitimidade manifesta, falta de interesse, entre outros.\n- **Improcedência liminar** (art. 332): nas causas que dispensam instrução, o juiz julga improcedente, **antes da citação**, o pedido que contraria súmula do STF ou do STJ, julgamento de recursos repetitivos, IRDR ou súmula de tribunal de justiça sobre direito local, ou quando verifica **prescrição ou decadência**.\n\n### Audiência de conciliação ou mediação (art. 334)\nDesignada com antecedência mínima de **30 dias**, com citação do réu pelo menos **20 dias** antes. Não acontece se **as duas partes** manifestarem desinteresse, ou se o direito não admitir autocomposição. Faltar sem justificativa é **ato atentatório à dignidade da justiça**, com multa de até 2%.\n\n### Contestação (arts. 335 a 342)\n- Prazo de **15 dias úteis**, em regra contados da audiência de conciliação (ou do protocolo do pedido de cancelamento).\n- **Concentração da defesa**: toda a matéria de defesa vai na contestação, incluídas as **preliminares** (art. 337) e a **reconvenção**, na mesma peça (art. 343).\n- **Impugnação especificada**: fatos não impugnados presumem-se verdadeiros (art. 341).\n\n### Revelia (art. 344)\nSe o réu não contesta, presumem-se verdadeiras as alegações de fato do autor. **Não** há esse efeito (art. 345) se: um dos litisconsortes contestar; o direito for **indisponível**; faltar instrumento que a lei considere indispensável; ou as alegações forem inverossímeis ou contrariadas pela prova.\n\n### Depois da defesa\nProvidências preliminares → **julgamento conforme o estado do processo** (extinção, julgamento antecipado total ou parcial do mérito) → **saneamento e organização** (art. 357) → instrução e audiência → **sentença**.",
+      "revisao": "**Lembre:**\n- Emenda da inicial: 15 dias.\n- Improcedência liminar (art. 332): antes da citação, contra precedentes ou por prescrição/decadência.\n- Audiência do art. 334: só não ocorre se as duas partes recusarem.\n- Contestação: 15 dias úteis; reconvenção na mesma peça.\n- Revelia: presunção de veracidade, com as exceções do art. 345.\n\n**Erros comuns:** dizer que basta o autor recusar a audiência para cancelá-la; dizer que a revelia vale mesmo em direito indisponível.\n\n**Mini exemplo:** numa ação de alimentos, o réu não contesta. O juiz não presume verdadeiros todos os fatos, porque o direito a alimentos é indisponível."
+    },
+    {
+      "id": "tutelas-provisorias",
+      "nome": "Tutelas provisórias",
+      "resumo": "### Espécies (art. 294)\nA tutela provisória se fundamenta em **urgência** ou **evidência**. A de urgência pode ser **cautelar** (protege o resultado útil do processo) ou **antecipada** (satisfaz desde logo o direito), e pode ser pedida em caráter **antecedente** ou **incidental**.\n\n### Tutela de urgência (art. 300)\nRequisitos: **probabilidade do direito** e **perigo de dano** ou **risco ao resultado útil do processo**.\n- Pode ser concedida **liminarmente** ou após justificação prévia.\n- O juiz pode exigir **caução**.\n- A tutela **antecipada** não é concedida se houver **perigo de irreversibilidade** dos efeitos (§3º).\n\n### Tutela antecipada antecedente e estabilização\nQuando a urgência já existe ao propor a ação, o autor pode pedir só a tutela antecipada, indicando o pedido final (art. 303). Se ela for concedida e o réu **não interpuser recurso**, a decisão **se estabiliza** e o processo é extinto (art. 304). Qualquer das partes pode propor ação para rever, reformar ou invalidar a tutela em **2 anos**. A estabilização **não** faz coisa julgada.\n\n### Tutela cautelar antecedente (arts. 305 a 310)\nEfetivada a cautelar, o **pedido principal** deve ser formulado em **30 dias**, nos mesmos autos.\n\n### Tutela de evidência (art. 311)\nIndepende de perigo de dano. Cabe quando:\n1. ficar caracterizado **abuso do direito de defesa** ou manifesto propósito protelatório;\n2. as alegações de fato puderem ser comprovadas só por documentos e houver **tese firmada em casos repetitivos ou súmula vinculante**;\n3. for pedido reipersecutório fundado em prova documental do **contrato de depósito**;\n4. a inicial vier com prova documental suficiente a que o réu não oponha prova capaz de gerar dúvida razoável.\nNas hipóteses 2 e 3, o juiz pode decidir **liminarmente**.\n\n### Regras gerais\nA tutela provisória conserva a eficácia durante o processo, mas pode ser **revogada ou modificada** a qualquer tempo (art. 296). A decisão que a concede ou nega é atacada por **agravo de instrumento** (art. 1.015, I).",
+      "revisao": "**Lembre:**\n- Urgência: probabilidade do direito + perigo de dano ou risco ao resultado útil.\n- Antecipada não cabe com perigo de irreversibilidade.\n- Antecedente antecipada estabiliza se o réu não recorrer; revisão em 2 anos; sem coisa julgada.\n- Cautelar antecedente: pedido principal em 30 dias.\n- Evidência: dispensa o perigo.\n\n**Erros comuns:** exigir perigo de dano na tutela de evidência; dizer que a estabilização gera coisa julgada.\n\n**Mini exemplo:** um paciente precisa de uma cirurgia urgente negada pelo plano de saúde. Ele pede tutela antecipada antecedente; se o plano não recorrer da liminar, a decisão se estabiliza."
+    },
+    {
+      "id": "sentenca-recursos",
+      "nome": "Sentença, coisa julgada e recursos",
+      "resumo": "### Sentença\n- **Sem resolução do mérito** (art. 485, sentença terminativa): indeferimento da inicial, abandono, falta de pressupostos, ilegitimidade ou falta de interesse, litispendência ou coisa julgada, desistência etc. Em regra, a ação pode ser proposta de novo.\n- **Com resolução do mérito** (art. 487, sentença definitiva): acolher ou rejeitar o pedido, decidir sobre prescrição ou decadência, homologar reconhecimento do pedido, transação ou renúncia.\n- **Coisa julgada material**: a autoridade que torna **imutável e indiscutível** a decisão de mérito não mais sujeita a recurso (art. 502). Pode ser desfeita por **ação rescisória** em até **2 anos** (art. 975).\n\n### Recursos: regras gerais\n- Prazo de **15 dias úteis** para todos os recursos, **exceto os embargos de declaração (5 dias)** (art. 1.003, §5º).\n- Fazenda Pública, MP e Defensoria têm prazo em **dobro**.\n\n### Principais recursos\n- **Apelação** (art. 1.009): contra a sentença. Em regra tem **efeito suspensivo** (art. 1.012), com exceções (ex.: sentença que condena a pagar alimentos, que confirma tutela provisória).\n- **Agravo de instrumento** (art. 1.015): contra decisões interlocutórias listadas na lei (ex.: tutelas provisórias, mérito do processo, rejeição da alegação de convenção de arbitragem). O STJ fixou a **taxatividade mitigada** (Tema 988): cabe também quando houver **urgência** que torne inútil esperar a apelação. As outras interlocutórias são impugnadas na apelação ou nas contrarrazões.\n- **Embargos de declaração** (art. 1.022): contra qualquer decisão com **obscuridade, contradição, omissão** ou **erro material**. **Interrompem** o prazo dos outros recursos (art. 1.026).\n- **Recurso especial** (ao **STJ**): contra decisão de tribunal que contrariar lei federal ou der a ela interpretação divergente.\n- **Recurso extraordinário** (ao **STF**): contra decisão que contrariar a Constituição; exige **repercussão geral**.\n\n### Cumprimento de sentença (art. 523)\nCondenado a pagar quantia, o devedor é intimado para pagar em **15 dias**. Se não pagar, o débito ganha **multa de 10%** e **honorários de 10%**, e seguem a penhora e a expropriação.",
+      "revisao": "**Lembre:**\n- Art. 485: sem mérito (pode repropor). Art. 487: com mérito (coisa julgada).\n- Recursos: 15 dias; embargos de declaração: 5 dias e interrompem o prazo.\n- Apelação: efeito suspensivo em regra.\n- Agravo de instrumento: rol do art. 1.015 com taxatividade mitigada.\n- REsp ao STJ (lei federal); RE ao STF (Constituição, repercussão geral).\n- Cumprimento: 15 dias; depois, multa de 10% + honorários de 10%.\n\n**Erros comuns:** dizer que os embargos de declaração suspendem (eles interrompem) o prazo; mandar ao STF uma ofensa a lei federal.\n\n**Mini exemplo:** o réu é condenado a pagar R$ 10.000 e não paga em 15 dias após a intimação: a dívida vai a R$ 12.000 (multa e honorários) e começa a penhora."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "processo-civil-1",
+      "topico": "normas-fundamentais",
+      "nivel": "conceitual",
+      "pergunta": "O que proíbe o art. 10 do CPC/2015, conhecido como vedação à decisão surpresa?",
+      "opcoes": [
+        "Que o juiz decida com base em fundamento sobre o qual as partes não tiveram oportunidade de se manifestar, ainda que seja matéria que ele pode conhecer de ofício",
+        "Que o juiz julgue fora da ordem cronológica",
+        "Que o juiz decida sem audiência de conciliação",
+        "Que o juiz julgue sem perícia"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 10 concretiza o contraditório efetivo: mesmo em matéria de ordem pública, as partes devem ser ouvidas antes da decisão."
+    },
+    {
+      "id": "processo-civil-2",
+      "topico": "normas-fundamentais",
+      "nivel": "conceitual",
+      "pergunta": "Como se contam os prazos processuais fixados em dias no CPC/2015?",
+      "opcoes": [
+        "Em dias corridos",
+        "Somente em dias úteis",
+        "Em dias úteis só para a Fazenda Pública",
+        "Em horas"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 219: na contagem de prazo em dias, computam-se somente os dias úteis."
+    },
+    {
+      "id": "processo-civil-3",
+      "topico": "normas-fundamentais",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da primazia do julgamento de mérito orienta o juiz a:",
+      "opcoes": [
+        "Extinguir o processo diante de qualquer vício",
+        "Julgar sempre a favor do autor",
+        "Permitir a correção de vícios sanáveis para chegar à decisão de mérito",
+        "Dispensar a citação do réu"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 4º garante o direito à solução integral do mérito, e várias regras (como os arts. 139, IX, e 321) mandam corrigir vícios em vez de extinguir o processo."
+    },
+    {
+      "id": "processo-civil-4",
+      "topico": "normas-fundamentais",
+      "nivel": "aplicacao",
+      "pergunta": "Uma advogada recebe intimação numa sexta-feira, 19 de dezembro, para recurso com prazo de 15 dias. O que acontece com o prazo?",
+      "opcoes": [
+        "Corre normalmente, inclusive nos fins de semana",
+        "Começa a contar só em fevereiro",
+        "Fica perdido por causa das férias",
+        "Fica suspenso de 20 de dezembro a 20 de janeiro e depois corre em dias úteis"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 220 suspende o curso dos prazos de 20/12 a 20/1, e o art. 219 manda contar só os dias úteis."
+    },
+    {
+      "id": "processo-civil-5",
+      "topico": "normas-fundamentais",
+      "nivel": "analise",
+      "pergunta": "O juiz percebe a prescrição, que nenhuma parte alegou, e a declara direto na sentença. Qual o problema?",
+      "opcoes": [
+        "Violou o contraditório: devia ouvir as partes antes, mesmo podendo reconhecer a prescrição de ofício",
+        "Nenhum, a prescrição é matéria de ordem pública",
+        "Só o réu pode alegar prescrição",
+        "A prescrição só pode ser reconhecida por tribunal"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 487, parágrafo único, e art. 10: ressalvada a improcedência liminar, a prescrição e a decadência não serão reconhecidas sem que antes seja dada às partes oportunidade de manifestar-se."
+    },
+    {
+      "id": "processo-civil-6",
+      "topico": "jurisdicao-competencia",
+      "nivel": "conceitual",
+      "pergunta": "Qual destes critérios gera competência relativa?",
+      "opcoes": [
+        "Matéria",
+        "Território",
+        "Função (hierarquia)",
+        "Pessoa"
+      ],
+      "correta": 1,
+      "explicacao": "Território e valor da causa são critérios relativos. Matéria, pessoa e função são absolutos."
+    },
+    {
+      "id": "processo-civil-7",
+      "topico": "jurisdicao-competencia",
+      "nivel": "conceitual",
+      "pergunta": "O que acontece se o réu não alegar a incompetência relativa na contestação?",
+      "opcoes": [
+        "O juiz deve declará-la de ofício",
+        "O processo é extinto",
+        "A competência se prorroga e o juízo passa a ser competente",
+        "O réu pode alegá-la a qualquer tempo"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 65: prorroga-se a competência relativa se o réu não alegar a incompetência em preliminar de contestação. A Súmula 33 do STJ proíbe declará-la de ofício."
+    },
+    {
+      "id": "processo-civil-8",
+      "topico": "jurisdicao-competencia",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a regra geral de foro para ações fundadas em direito pessoal?",
+      "opcoes": [
+        "Domicílio do autor",
+        "Lugar do contrato",
+        "Capital do estado",
+        "Domicílio do réu"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 46: a ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu."
+    },
+    {
+      "id": "processo-civil-9",
+      "topico": "jurisdicao-competencia",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança, representada pela mãe, quer cobrar alimentos do pai, que mora em outro estado. Onde a ação pode ser proposta?",
+      "opcoes": [
+        "No domicílio do alimentando (da criança)",
+        "Obrigatoriamente no domicílio do pai",
+        "Em Brasília",
+        "No local onde os pais se casaram"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 53, II: é competente o foro do domicílio ou residência do alimentando, para facilitar o acesso de quem precisa dos alimentos."
+    },
+    {
+      "id": "processo-civil-10",
+      "topico": "jurisdicao-competencia",
+      "nivel": "analise",
+      "pergunta": "Duas ações têm a mesma causa de pedir, mas uma já tem sentença. Elas devem ser reunidas por conexão?",
+      "opcoes": [
+        "Sim, sempre",
+        "Não, porque a reunião por conexão não ocorre se um dos processos já foi sentenciado",
+        "Sim, se o réu pedir",
+        "Não, porque conexão exige partes idênticas"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 55, §1º: os processos conexos são reunidos para decisão conjunta, salvo se um deles já houver sido sentenciado (Súmula 235 do STJ)."
+    },
+    {
+      "id": "processo-civil-11",
+      "topico": "partes-acao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o art. 17 do CPC/2015, para postular em juízo é necessário ter:",
+      "opcoes": [
+        "Possibilidade jurídica, interesse e legitimidade",
+        "Advogado e custas pagas",
+        "Interesse e legitimidade",
+        "Prova pré-constituída"
+      ],
+      "correta": 2,
+      "explicacao": "O CPC/2015 menciona só interesse e legitimidade. A possibilidade jurídica do pedido passou a ser questão de mérito."
+    },
+    {
+      "id": "processo-civil-12",
+      "topico": "partes-acao",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os elementos que identificam uma ação?",
+      "opcoes": [
+        "Juiz, autor e réu",
+        "Petição, contestação e sentença",
+        "Interesse, legitimidade e possibilidade jurídica",
+        "Partes, causa de pedir e pedido"
+      ],
+      "correta": 3,
+      "explicacao": "Os três elementos identificam a demanda. Se forem iguais aos de outra ação em curso, há litispendência; se ela já tiver transitado em julgado, coisa julgada."
+    },
+    {
+      "id": "processo-civil-13",
+      "topico": "partes-acao",
+      "nivel": "aplicacao",
+      "pergunta": "Numa ação de indenização por acidente, o réu quer trazer sua seguradora ao processo para que ela o reembolse se ele perder. Qual intervenção é a adequada?",
+      "opcoes": [
+        "Denunciação da lide",
+        "Chamamento ao processo",
+        "Assistência simples",
+        "Amicus curiae"
+      ],
+      "correta": 0,
+      "explicacao": "A denunciação da lide (art. 125, II) traz ao processo quem está obrigado, por lei ou contrato, a indenizar em ação regressiva quem perder a demanda."
+    },
+    {
+      "id": "processo-civil-14",
+      "topico": "partes-acao",
+      "nivel": "aplicacao",
+      "pergunta": "Um fiador é cobrado sozinho e quer incluir no processo o devedor principal. Ele deve usar:",
+      "opcoes": [
+        "Denunciação da lide",
+        "Chamamento ao processo",
+        "Oposição",
+        "Nomeação à autoria"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 130, I, admite o chamamento ao processo do afiançado pelo fiador. A nomeação à autoria não existe mais e a oposição virou procedimento especial."
+    },
+    {
+      "id": "processo-civil-15",
+      "topico": "partes-acao",
+      "nivel": "analise",
+      "pergunta": "Numa ação para anular um casamento proposta pelo Ministério Público, os dois cônjuges devem ser réus e a decisão será igual para ambos. Esse litisconsórcio é:",
+      "opcoes": [
+        "Facultativo e simples",
+        "Facultativo e unitário",
+        "Necessário e unitário",
+        "Necessário e simples"
+      ],
+      "correta": 2,
+      "explicacao": "A natureza da relação jurídica exige a presença dos dois (necessário) e impõe decisão uniforme (unitário): não dá para anular o casamento para um e não para o outro."
+    },
+    {
+      "id": "processo-civil-16",
+      "topico": "procedimento-comum",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o prazo, em regra, para o réu contestar no procedimento comum?",
+      "opcoes": [
+        "5 dias",
+        "10 dias",
+        "30 dias",
+        "15 dias úteis"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 335: o réu pode oferecer contestação no prazo de 15 dias, contados em dias úteis."
+    },
+    {
+      "id": "processo-civil-17",
+      "topico": "procedimento-comum",
+      "nivel": "conceitual",
+      "pergunta": "Quando a audiência de conciliação ou mediação do art. 334 deixa de ser realizada?",
+      "opcoes": [
+        "Quando as duas partes manifestam expressamente desinteresse, ou o direito não admite autocomposição",
+        "Quando só o autor declara não ter interesse",
+        "Quando o réu não comparece",
+        "Nunca, ela é sempre obrigatória"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 334, §4º: a audiência não ocorre se ambas as partes manifestarem desinteresse na composição consensual, ou quando não se admitir a autocomposição."
+    },
+    {
+      "id": "processo-civil-18",
+      "topico": "procedimento-comum",
+      "nivel": "conceitual",
+      "pergunta": "O que o juiz deve fazer diante de uma petição inicial com defeito que pode ser corrigido?",
+      "opcoes": [
+        "Indeferi-la imediatamente",
+        "Determinar a emenda em 15 dias, indicando com precisão o que corrigir",
+        "Julgar o pedido improcedente",
+        "Mandar citar o réu mesmo assim"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 321: o juiz determina que o autor emende ou complete a inicial em 15 dias, indicando o que deve ser corrigido."
+    },
+    {
+      "id": "processo-civil-19",
+      "topico": "procedimento-comum",
+      "nivel": "aplicacao",
+      "pergunta": "O autor pede algo contrário a uma súmula do STJ, numa causa que dispensa produção de provas. O juiz pode:",
+      "opcoes": [
+        "Julgar procedente, porque súmula não vincula",
+        "Remeter o processo ao STJ",
+        "Julgar liminarmente improcedente o pedido, antes de citar o réu",
+        "Apenas indeferir a petição inicial por inépcia"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 332, I: nas causas que dispensem a fase instrutória, o juiz julga liminarmente improcedente o pedido que contrariar enunciado de súmula do STF ou do STJ."
+    },
+    {
+      "id": "processo-civil-20",
+      "topico": "procedimento-comum",
+      "nivel": "analise",
+      "pergunta": "Numa ação com dois réus, só um contesta, impugnando fatos comuns aos dois. O réu que não contestou:",
+      "opcoes": [
+        "Sofre todos os efeitos da revelia",
+        "É excluído do processo",
+        "Perde automaticamente a ação",
+        "É revel, mas a presunção de veracidade não se aplica aos fatos comuns contestados pelo outro"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 345, I: a revelia não produz a presunção de veracidade se, havendo pluralidade de réus, algum deles contestar a ação."
+    },
+    {
+      "id": "processo-civil-21",
+      "topico": "tutelas-provisorias",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os requisitos da tutela de urgência?",
+      "opcoes": [
+        "Probabilidade do direito e perigo de dano ou risco ao resultado útil do processo",
+        "Prova documental e caução",
+        "Abuso do direito de defesa",
+        "Sentença favorável em primeiro grau"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 300 do CPC: probabilidade do direito e perigo de dano ou risco ao resultado útil do processo."
+    },
+    {
+      "id": "processo-civil-22",
+      "topico": "tutelas-provisorias",
+      "nivel": "conceitual",
+      "pergunta": "O que distingue a tutela de evidência da tutela de urgência?",
+      "opcoes": [
+        "A de evidência só pode ser concedida na sentença",
+        "A de evidência dispensa a demonstração de perigo de dano",
+        "A de evidência exige caução sempre",
+        "Não há diferença"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 311: a tutela de evidência será concedida independentemente da demonstração de perigo de dano ou de risco ao resultado útil do processo."
+    },
+    {
+      "id": "processo-civil-23",
+      "topico": "tutelas-provisorias",
+      "nivel": "conceitual",
+      "pergunta": "Depois de efetivada a tutela cautelar requerida em caráter antecedente, em quanto tempo o autor deve formular o pedido principal?",
+      "opcoes": [
+        "5 dias",
+        "15 dias",
+        "30 dias",
+        "2 anos"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 308: efetivada a tutela cautelar, o pedido principal terá de ser formulado em 30 dias, nos mesmos autos."
+    },
+    {
+      "id": "processo-civil-24",
+      "topico": "tutelas-provisorias",
+      "nivel": "aplicacao",
+      "pergunta": "O juiz concede tutela antecipada antecedente e o réu não interpõe recurso. O que acontece?",
+      "opcoes": [
+        "O processo continua até a sentença normalmente",
+        "A tutela perde a eficácia",
+        "Forma-se coisa julgada material",
+        "A decisão se estabiliza e o processo é extinto, podendo qualquer parte pedir revisão em 2 anos"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 304: a tutela antecipada se estabiliza se não for interposto o respectivo recurso; a ação de revisão pode ser proposta em 2 anos, e não há coisa julgada."
+    },
+    {
+      "id": "processo-civil-25",
+      "topico": "tutelas-provisorias",
+      "nivel": "analise",
+      "pergunta": "Um autor pede, como tutela antecipada, a demolição imediata de um prédio do réu. O que pode impedir a concessão, mesmo com probabilidade do direito e perigo?",
+      "opcoes": [
+        "O perigo de irreversibilidade dos efeitos da decisão",
+        "A falta de audiência de conciliação",
+        "A ausência de prova pericial já pronta",
+        "O valor elevado da causa"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 300, §3º: a tutela de urgência de natureza antecipada não será concedida quando houver perigo de irreversibilidade dos efeitos da decisão."
+    },
+    {
+      "id": "processo-civil-26",
+      "topico": "sentenca-recursos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o prazo dos embargos de declaração?",
+      "opcoes": [
+        "15 dias",
+        "5 dias",
+        "10 dias",
+        "30 dias"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 1.003, §5º, e art. 1.023: todos os recursos têm 15 dias, exceto os embargos de declaração, que têm 5 dias."
+    },
+    {
+      "id": "processo-civil-27",
+      "topico": "sentenca-recursos",
+      "nivel": "conceitual",
+      "pergunta": "Contra que tipo de decisão cabe recurso especial ao STJ?",
+      "opcoes": [
+        "Decisão que contraria a Constituição",
+        "Sentença de primeiro grau",
+        "Decisão de tribunal que contraria lei federal ou lhe dá interpretação divergente",
+        "Decisão administrativa"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 105, III, da CF: o REsp protege a lei federal. Ofensa à Constituição vai ao STF, por recurso extraordinário."
+    },
+    {
+      "id": "processo-civil-28",
+      "topico": "sentenca-recursos",
+      "nivel": "aplicacao",
+      "pergunta": "Condenado a pagar R$ 20.000, o devedor é intimado e não paga em 15 dias. Qual o valor a que a dívida passa?",
+      "opcoes": [
+        "R$ 20.000, sem acréscimos",
+        "R$ 22.000",
+        "R$ 30.000",
+        "R$ 24.000, com multa de 10% e honorários de 10%"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 523, §1º: não ocorrendo o pagamento voluntário no prazo de 15 dias, o débito será acrescido de multa de 10% e de honorários advocatícios de 10%."
+    },
+    {
+      "id": "processo-civil-29",
+      "topico": "sentenca-recursos",
+      "nivel": "aplicacao",
+      "pergunta": "O juiz nega uma tutela de urgência no meio do processo. Qual recurso a parte deve interpor?",
+      "opcoes": [
+        "Agravo de instrumento",
+        "Apelação",
+        "Embargos de declaração, obrigatoriamente",
+        "Recurso extraordinário"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 1.015, I: cabe agravo de instrumento contra decisões interlocutórias que versem sobre tutelas provisórias."
+    },
+    {
+      "id": "processo-civil-30",
+      "topico": "sentenca-recursos",
+      "nivel": "analise",
+      "pergunta": "Uma decisão interlocutória fora do rol do art. 1.015 causa dano urgente, e esperar a apelação a tornaria inútil. Segundo o STJ (Tema 988):",
+      "opcoes": [
+        "Não há recurso possível",
+        "Cabe agravo de instrumento, pela taxatividade mitigada do rol",
+        "Cabe apelação imediata",
+        "Só cabe mandado de segurança"
+      ],
+      "correta": 1,
+      "explicacao": "O STJ entende que o rol é de taxatividade mitigada: cabe agravo de instrumento quando houver urgência decorrente da inutilidade do julgamento da questão no recurso de apelação."
+    }
+  ]
+}
