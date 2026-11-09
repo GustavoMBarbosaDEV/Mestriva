@@ -48,10 +48,13 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
     "Bioquímica I": "bioquimica",
     "Banco de Dados": "banco-de-dados",
     "Desenvolvimento Humano": "psicologia-desenvolvimento",
+    "Histologia": "histologia",
+    "Microbiologia Clínica": "microbiologia",
+    "Farmacologia Aplicada à Enfermagem": "farmacologia",
   };
   for (const [nome, id] of Object.entries(casos)) assert.equal(achaNoBanco(nome, real), id, nome);
   // Nível diferente ou matéria diferente nunca liga.
-  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web"]) {
+  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Imunologia", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária"]) {
     assert.equal(achaNoBanco(nome, real), null, nome);
   }
 });

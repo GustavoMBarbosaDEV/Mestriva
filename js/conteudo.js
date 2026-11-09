@@ -55,7 +55,8 @@ export function achaNoBanco(nome, indice) {
       const b = miolo(n);
       if (b.nivel !== g.nivel || !b.palavras.length) continue;
       if (b.palavras.join(" ") === chave) iguais.add(m.id);
-      else if (g.palavras.every((p) => b.palavras.includes(p)) && g.palavras.some((p) => p.length >= 4)) contidos.add(m.id);
+      // Uma palavra solta ("Imunologia", "Engenharia") é pouco para afirmar que é a mesma matéria.
+      else if (g.palavras.length >= 2 && g.palavras.every((p) => b.palavras.includes(p)) && g.palavras.some((p) => p.length >= 4)) contidos.add(m.id);
     }
   }
   if (iguais.size === 1) return [...iguais][0];

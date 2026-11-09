@@ -500,6 +500,48 @@
       ]
     },
     {
+      "id": "farmacologia",
+      "nome": "Farmacologia",
+      "apelidos": [
+        "Farmacologia I",
+        "Farmacologia Geral",
+        "Farmacologia Básica",
+        "Farmacologia Clínica",
+        "Farmacologia Aplicada",
+        "Farmacologia Aplicada à Enfermagem",
+        "Farmacologia Médica",
+        "Farmacocinética e Farmacodinâmica",
+        "Fundamentos de Farmacologia"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "conceitos-vias",
+          "nome": "Conceitos básicos e vias de administração"
+        },
+        {
+          "id": "farmacocinetica",
+          "nome": "Farmacocinética: absorção, distribuição, metabolismo e excreção"
+        },
+        {
+          "id": "farmacodinamica",
+          "nome": "Farmacodinâmica: receptores e dose-resposta"
+        },
+        {
+          "id": "seguranca",
+          "nome": "Segurança: janela terapêutica, reações adversas e interações"
+        },
+        {
+          "id": "autonomo",
+          "nome": "Sistema nervoso autônomo"
+        },
+        {
+          "id": "classes-principais",
+          "nome": "Classes muito usadas: analgésicos, anti-inflamatórios e outros"
+        }
+      ]
+    },
+    {
       "id": "fisica-1",
       "nome": "Física I",
       "apelidos": [
@@ -508,9 +550,7 @@
         "Física Geral e Experimental I",
         "Física Básica I",
         "Física Clássica I",
-        "Mecânica Básica",
-        "Física: Mecânica",
-        "Fundamentos de Mecânica"
+        "Física: Mecânica"
       ],
       "area": "Exatas",
       "topicos": [
@@ -580,6 +620,47 @@
         {
           "id": "endocrino",
           "nome": "Sistema endócrino"
+        }
+      ]
+    },
+    {
+      "id": "histologia",
+      "nome": "Histologia",
+      "apelidos": [
+        "Histologia I",
+        "Histologia Geral",
+        "Histologia Básica",
+        "Histologia Humana",
+        "Histologia dos Tecidos",
+        "Histologia e Embriologia",
+        "Histologia Geral e Embriologia",
+        "Morfologia Microscópica"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "tecnicas-tecidos",
+          "nome": "Técnicas histológicas e os quatro tecidos"
+        },
+        {
+          "id": "epitelial",
+          "nome": "Tecido epitelial e glândulas"
+        },
+        {
+          "id": "conjuntivo",
+          "nome": "Tecido conjuntivo propriamente dito e adiposo"
+        },
+        {
+          "id": "cartilagem-osso",
+          "nome": "Cartilagem e osso"
+        },
+        {
+          "id": "muscular",
+          "nome": "Tecido muscular"
+        },
+        {
+          "id": "nervoso-sangue",
+          "nome": "Tecido nervoso e sangue"
         }
       ]
     },
@@ -742,6 +823,48 @@
         {
           "id": "estrutura-etica",
           "nome": "Estrutura de trabalhos acadêmicos, ética e plágio"
+        }
+      ]
+    },
+    {
+      "id": "microbiologia",
+      "nome": "Microbiologia",
+      "apelidos": [
+        "Microbiologia I",
+        "Microbiologia Geral",
+        "Microbiologia Básica",
+        "Microbiologia Humana",
+        "Microbiologia Clínica",
+        "Microbiologia e Imunologia",
+        "Microbiologia Médica",
+        "Microbiologia Aplicada à Enfermagem",
+        "Bacteriologia"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "historia-classificacao",
+          "nome": "História e classificação dos micro-organismos"
+        },
+        {
+          "id": "bacterias",
+          "nome": "Estrutura bacteriana e coloração de Gram"
+        },
+        {
+          "id": "crescimento-controle",
+          "nome": "Crescimento bacteriano e controle microbiano"
+        },
+        {
+          "id": "virus",
+          "nome": "Vírus"
+        },
+        {
+          "id": "fungos-parasitas",
+          "nome": "Fungos e protozoários"
+        },
+        {
+          "id": "patogenicidade-antimicrobianos",
+          "nome": "Patogenicidade e antimicrobianos"
         }
       ]
     },

@@ -124,9 +124,7 @@ export const EXTRA = {
       "Física Geral e Experimental I",
       "Física Básica I",
       "Física Clássica I",
-      "Mecânica Básica",
-      "Física: Mecânica",
-      "Fundamentos de Mecânica"
+      "Física: Mecânica"
     ]
   },
   "introducao-direito": {
@@ -307,6 +305,47 @@ export const EXTRA = {
       "Projeto de Banco de Dados",
       "Linguagem SQL",
       "SQL"
+    ]
+  },
+  "histologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Histologia I",
+      "Histologia Geral",
+      "Histologia Básica",
+      "Histologia Humana",
+      "Histologia dos Tecidos",
+      "Histologia e Embriologia",
+      "Histologia Geral e Embriologia",
+      "Morfologia Microscópica"
+    ]
+  },
+  "microbiologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Microbiologia I",
+      "Microbiologia Geral",
+      "Microbiologia Básica",
+      "Microbiologia Humana",
+      "Microbiologia Clínica",
+      "Microbiologia e Imunologia",
+      "Microbiologia Médica",
+      "Microbiologia Aplicada à Enfermagem",
+      "Bacteriologia"
+    ]
+  },
+  "farmacologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Farmacologia I",
+      "Farmacologia Geral",
+      "Farmacologia Básica",
+      "Farmacologia Clínica",
+      "Farmacologia Aplicada",
+      "Farmacologia Aplicada à Enfermagem",
+      "Farmacologia Médica",
+      "Farmacocinética e Farmacodinâmica",
+      "Fundamentos de Farmacologia"
     ]
   }
 };
