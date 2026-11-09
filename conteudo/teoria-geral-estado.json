@@ -1,0 +1,465 @@
+{
+  "id": "teoria-geral-estado",
+  "nome": "Teoria Geral do Estado e Ciência Política",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "estado-elementos",
+      "nome": "O Estado e seus elementos",
+      "resumo": "O **Estado** é a sociedade política organizada que exerce, com exclusividade, o poder sobre um povo num território, para alcançar o bem comum.\n\n### Elementos clássicos\n- **Povo**: o conjunto de pessoas ligadas ao Estado pelo vínculo jurídico da **nacionalidade** (cidadãos e nacionais).\n- **Território**: o espaço onde o Estado exerce sua soberania: solo, subsolo, mar territorial, espaço aéreo e as extensões (navios e aeronaves públicos).\n- **Soberania** (ou poder político): poder supremo dentro do território e independente perante os outros Estados.\n- Muitos autores (como Dalmo Dallari) acrescentam a **finalidade**: o bem comum.\n\n### Conceitos que se confundem\n- **População**: todas as pessoas presentes no território num momento, inclusive estrangeiros e turistas. É um dado numérico, não jurídico.\n- **Nação**: comunidade ligada por laços culturais, de história, língua e costumes. Pode existir sem Estado (ex.: curdos).\n- **Povo**: vínculo jurídico com o Estado.\n\n### Soberania\n- Interna: supremacia sobre qualquer outro poder no território.\n- Externa: igualdade e independência entre os Estados.\n- Jean **Bodin** (século XVI) a definiu como o poder absoluto e perpétuo de uma República.",
+      "revisao": "**Lembre:**\n- Elementos: povo, território, soberania (e finalidade, para parte da doutrina).\n- Povo = vínculo jurídico; população = dado numérico; nação = laço cultural.\n- Soberania: interna (supremacia) e externa (independência). Bodin.\n\n**Erros comuns:** chamar de povo todo mundo que está no território (isso é população); achar que nação e Estado são sempre a mesma coisa.\n\n**Mini exemplo:** um turista francês em Salvador faz parte da população do Brasil, mas não do povo brasileiro."
+    },
+    {
+      "id": "origem-estado",
+      "nome": "Origem do Estado e legitimidade do poder",
+      "resumo": "### Teorias sobre a origem\n- **Origem familiar (patriarcal)**: o Estado seria a ampliação da família.\n- **Origem pela força**: um grupo domina outro e organiza o poder (Oppenheimer).\n- **Origem econômica**: o Estado surge para proteger a propriedade e a divisão de classes (Marx e Engels).\n- **Contratualismo**: o Estado nasce de um **pacto** entre as pessoas que viviam num **estado de natureza**.\n\n### Os contratualistas\n- **Thomas Hobbes** (*Leviatã*, 1651): no estado de natureza há \"guerra de todos contra todos\"; as pessoas entregam a liberdade a um soberano forte em troca de **segurança**.\n- **John Locke** (*Segundo Tratado*, 1689): o estado de natureza já tem direitos naturais (**vida, liberdade e propriedade**); o governo existe para protegê-los e, se os viola, o povo tem **direito de resistência**. Base do liberalismo.\n- **Jean-Jacques Rousseau** (*Do Contrato Social*, 1762): o pacto forma a **vontade geral**, e a soberania pertence ao **povo** e é inalienável.\n\n### Maquiavel\n*O Príncipe* (1513) separa a política da moral religiosa: o governante deve manter o poder e o Estado, usando **virtù** diante da **fortuna**. Foi quem popularizou a palavra \"Estado\" no sentido moderno.\n\n### Max Weber: tipos de dominação legítima\n- **Tradicional**: baseada nos costumes e na tradição (ex.: monarquias hereditárias).\n- **Carismática**: baseada nas qualidades extraordinárias de um líder.\n- **Racional-legal**: baseada em regras impessoais e na burocracia (o Estado moderno).\nWeber define o Estado como quem detém o **monopólio do uso legítimo da força física** num território.",
+      "revisao": "**Lembre:**\n- Hobbes: medo e segurança, soberano forte.\n- Locke: vida, liberdade e propriedade; direito de resistência.\n- Rousseau: vontade geral, soberania popular.\n- Weber: tradicional, carismática e racional-legal; monopólio da força legítima.\n\n**Erros comuns:** atribuir a Hobbes o direito de resistência (é de Locke); confundir vontade geral (Rousseau) com a soma das vontades individuais.\n\n**Mini exemplo:** um governo que obedece a leis gerais e a uma burocracia profissional, e não ao carisma do líder, exerce dominação racional-legal."
+    },
+    {
+      "id": "formas-estado-governo",
+      "nome": "Formas de Estado, formas e sistemas de governo",
+      "resumo": "### Forma de Estado (como o poder se distribui no território)\n- **Estado unitário**: um só centro de poder político; pode haver descentralização administrativa (ex.: França, Uruguai).\n- **Estado federal (federação)**: entes com **autonomia** política (auto-organização, autogoverno, autoadministração e competência legislativa) unidos de forma **indissolúvel**; só o Estado federal é **soberano**. Nasceu nos EUA (1787). O Brasil é federação desde 1889; a CF/88 inclui **União, estados, Distrito Federal e municípios** (art. 1º e 18).\n- **Confederação**: união de Estados **soberanos** por tratado, com direito de **secessão**.\n\n### Forma de governo (quem governa e como se escolhe)\n- **Monarquia**: chefe vitalício, hereditário e, tradicionalmente, sem responsabilidade política.\n- **República**: governantes **eleitos**, por **mandato temporário** e **responsáveis** pelos seus atos.\n- No Brasil, o plebiscito de **1993** manteve a república e o presidencialismo.\n\n### Sistema de governo (relação entre Executivo e Legislativo)\n- **Presidencialismo**: o presidente acumula **chefia de Estado e de governo**, tem mandato fixo e não depende da confiança do Parlamento.\n- **Parlamentarismo**: chefia de Estado (rei ou presidente) separada da chefia de governo (**primeiro-ministro**), que depende da **confiança do Parlamento** (moção de desconfiança; dissolução do Parlamento).\n- **Semipresidencialismo**: presidente eleito com poderes reais e primeiro-ministro responsável perante o Parlamento (ex.: França).",
+      "revisao": "**Lembre:**\n- Forma de Estado: unitário, federal, confederação.\n- Forma de governo: monarquia ou república.\n- Sistema de governo: presidencialismo, parlamentarismo, semipresidencialismo.\n- Federação: autonomia dos entes, soberania só do todo, sem secessão.\n\n**Erros comuns:** chamar a federação de \"forma de governo\"; dizer que estados-membros são soberanos (são autônomos).\n\n**Mini exemplo:** no Reino Unido, o rei é chefe de Estado e o primeiro-ministro, que precisa da maioria da Câmara dos Comuns, é chefe de governo."
+    },
+    {
+      "id": "separacao-poderes",
+      "nome": "Separação dos poderes",
+      "resumo": "### Origem\n- **Aristóteles** já distinguia funções de deliberar, mandar e julgar.\n- **John Locke** falava em Legislativo, Executivo e Federativo.\n- **Montesquieu** (*O Espírito das Leis*, 1748) formulou a teoria clássica: **Legislativo, Executivo e Judiciário** em mãos diferentes, porque \"só o poder freia o poder\". Quem concentra tudo tende ao abuso.\n\n### Freios e contrapesos (*checks and balances*)\nCada poder controla os outros para manter o equilíbrio. Exemplos na CF/88:\n- O presidente pode **vetar** projetos de lei; o Congresso pode **derrubar o veto**.\n- O Senado **aprova** ministros do STF indicados pelo presidente.\n- O Judiciário controla a **constitucionalidade** das leis.\n- O Congresso julga o presidente por **crime de responsabilidade** (impeachment).\n\n### Funções típicas e atípicas\nO poder é uno; o que se separa são as **funções**.\n- **Legislativo**: típica legislar e fiscalizar; atípica administrar (organizar seus servidores) e julgar (impeachment no Senado).\n- **Executivo**: típica administrar; atípica legislar (**medidas provisórias**, art. 62) e julgar processos administrativos.\n- **Judiciário**: típica julgar; atípica administrar (concursos, licitações próprias) e legislar (regimentos internos dos tribunais).\n\nNa CF/88, os poderes são **independentes e harmônicos** (art. 2º), e a separação é **cláusula pétrea** (art. 60, §4º, III).",
+      "revisao": "**Lembre:**\n- Montesquieu: três poderes; \"o poder freia o poder\".\n- Freios e contrapesos: veto, derrubada de veto, aprovação de ministros, controle de constitucionalidade, impeachment.\n- Funções típicas e atípicas; medida provisória é função atípica do Executivo.\n- Art. 2º e cláusula pétrea do art. 60, §4º, III.\n\n**Erros comuns:** dizer que cada poder só exerce a sua função típica; atribuir a Locke a tripartição clássica com o Judiciário.\n\n**Mini exemplo:** quando o Senado julga o presidente num impeachment, o Legislativo exerce uma função atípica de julgar."
+    },
+    {
+      "id": "democracia",
+      "nome": "Democracia e sistemas eleitorais",
+      "resumo": "### Tipos de democracia\n- **Direta**: o povo decide sem intermediários (ex.: assembleias da Atenas antiga, alguns cantões suíços).\n- **Representativa (indireta)**: o povo elege representantes que decidem.\n- **Semidireta (participativa)**: representação combinada com instrumentos de decisão direta. É o modelo da CF/88: \"todo o poder emana do povo, que o exerce por meio de representantes eleitos ou **diretamente**\" (art. 1º, parágrafo único).\n\n### Instrumentos diretos (art. 14 da CF/88)\n- **Plebiscito**: consulta **antes** do ato; o povo aprova ou rejeita uma proposta (ex.: 1993, forma e sistema de governo).\n- **Referendo**: consulta **depois** do ato; o povo confirma ou rejeita (ex.: 2005, comércio de armas).\n- **Iniciativa popular**: projeto de lei apresentado por pelo menos **1% do eleitorado nacional**, distribuído em ao menos **5 estados**, com não menos de 0,3% dos eleitores de cada um (art. 61, §2º). Ex.: Lei da Ficha Limpa.\n\n### Sistemas eleitorais no Brasil\n- **Majoritário**: vence quem tem mais votos. Presidente, governadores e prefeitos de municípios com mais de **200 mil eleitores** exigem **maioria absoluta** (dois turnos se preciso); senadores e prefeitos de cidades menores, **maioria simples**.\n- **Proporcional**: as cadeiras são divididas conforme os votos de cada partido ou federação (quociente eleitoral). Vale para **deputados federais, estaduais e distritais e vereadores**.\n\n### Sufrágio e voto\n**Sufrágio** é o direito de votar e ser votado; **voto** é o exercício dele. No Brasil o voto é **direto, secreto, universal e periódico** (cláusula pétrea) e obrigatório para maiores de 18 anos (facultativo para 16 e 17, maiores de 70 e analfabetos).",
+      "revisao": "**Lembre:**\n- CF/88: democracia semidireta (art. 1º, parágrafo único).\n- Plebiscito antes; referendo depois; iniciativa popular 1% do eleitorado em 5 estados.\n- Majoritário: Executivo e Senado. Proporcional: deputados e vereadores.\n- Voto direto, secreto, universal e periódico é cláusula pétrea; a obrigatoriedade não é.\n\n**Erros comuns:** trocar plebiscito por referendo; achar que senador é eleito pelo sistema proporcional.\n\n**Mini exemplo:** se o Congresso aprova uma lei e só depois a submete à aprovação do povo, isso é referendo."
+    },
+    {
+      "id": "ciencia-politica",
+      "nome": "Poder, regimes políticos e modelos de Estado",
+      "resumo": "### Poder político\n- **Poder** é a capacidade de impor a própria vontade, mesmo contra resistências (Weber).\n- **Legitimidade**: o poder é aceito como justo pelos governados. **Legalidade**: o poder segue as normas jurídicas. Um governo pode ser legal e pouco legítimo, ou o contrário.\n\n### Formas de governo em Aristóteles\n- **Puras** (visam ao bem comum): **monarquia** (um), **aristocracia** (poucos) e **politeia** (muitos).\n- **Impuras** (visam ao interesse de quem governa): **tirania**, **oligarquia** e **democracia** (no sentido de governo da massa, também chamada demagogia).\n\n### Regimes políticos\n- **Democrático**: eleições livres, pluralismo, direitos e garantias, alternância.\n- **Autoritário**: poder concentrado, oposição limitada, mas sem controle total da vida privada.\n- **Totalitário**: partido único, ideologia oficial, controle de todas as esferas da vida, propaganda e terror (Hannah Arendt: nazismo e stalinismo).\n\n### Modelos de Estado\n- **Estado absolutista**: o rei concentra o poder (séculos XVI–XVIII).\n- **Estado liberal**: mínimo, garante liberdades individuais (direitos de 1ª dimensão), após as revoluções do século XVIII.\n- **Estado social (de bem-estar)**: intervém na economia e garante direitos sociais (2ª dimensão): saúde, educação, previdência. Marcos: Constituição do México (1917) e de Weimar (1919).\n- **Estado democrático de direito**: une a submissão à lei e a participação popular, com proteção de direitos fundamentais. É o que a CF/88 adota (art. 1º).\n\n### Partidos políticos\nNa CF/88 (art. 17), a criação é **livre**, com caráter **nacional**, sem receber recursos estrangeiros, com prestação de contas e **autonomia** para se organizar. Adquirem personalidade jurídica pelo registro civil e registram o estatuto no **TSE**.",
+      "revisao": "**Lembre:**\n- Legitimidade (aceitação) ≠ legalidade (conformidade com a lei).\n- Aristóteles: monarquia, aristocracia, politeia (puras) × tirania, oligarquia, democracia/demagogia (impuras).\n- Totalitário controla todas as esferas; autoritário, não.\n- Liberal (1ª dimensão) → social (2ª dimensão; México 1917, Weimar 1919) → democrático de direito.\n\n**Erros comuns:** tratar autoritarismo e totalitarismo como sinônimos; esquecer que, em Aristóteles, a palavra \"democracia\" aparece entre as formas impuras.\n\n**Mini exemplo:** um governo que proíbe partidos de oposição mas não tenta controlar a vida privada e a cultura de todos é autoritário, não totalitário."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "teoria-geral-estado-1",
+      "topico": "estado-elementos",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os elementos clássicos do Estado?",
+      "opcoes": [
+        "Povo, território e soberania",
+        "Nação, governo e economia",
+        "População, Constituição e exército",
+        "Povo, partidos e eleições"
+      ],
+      "correta": 0,
+      "explicacao": "A doutrina clássica aponta povo, território e soberania (poder soberano); parte dos autores acrescenta a finalidade, o bem comum."
+    },
+    {
+      "id": "teoria-geral-estado-2",
+      "topico": "estado-elementos",
+      "nivel": "conceitual",
+      "pergunta": "O que distingue o povo da população?",
+      "opcoes": [
+        "O povo inclui os turistas presentes no país",
+        "O povo é ligado ao Estado pelo vínculo jurídico da nacionalidade; a população é todo mundo presente no território",
+        "A população é o conjunto de pessoas com a mesma cultura",
+        "Não há diferença: são sinônimos"
+      ],
+      "correta": 1,
+      "explicacao": "Povo é um conceito jurídico (nacionalidade). População é um dado numérico: todos os que estão no território, inclusive estrangeiros."
+    },
+    {
+      "id": "teoria-geral-estado-3",
+      "topico": "estado-elementos",
+      "nivel": "aplicacao",
+      "pergunta": "Um grupo com língua, história e costumes comuns vive espalhado por vários países, sem Estado próprio. Esse grupo é melhor descrito como:",
+      "opcoes": [
+        "Um povo",
+        "Uma população",
+        "Uma nação",
+        "Uma federação"
+      ],
+      "correta": 2,
+      "explicacao": "Nação é a comunidade unida por laços culturais e históricos, e pode existir sem Estado, como os curdos."
+    },
+    {
+      "id": "teoria-geral-estado-4",
+      "topico": "estado-elementos",
+      "nivel": "conceitual",
+      "pergunta": "A soberania externa significa que o Estado:",
+      "opcoes": [
+        "Pode intervir em outros Estados quando quiser",
+        "Está subordinado às organizações internacionais",
+        "Tem supremacia sobre os poderes locais",
+        "É independente e está em pé de igualdade com os outros Estados"
+      ],
+      "correta": 3,
+      "explicacao": "A face externa da soberania é a independência e a igualdade entre os Estados. A supremacia sobre os poderes internos é a face interna."
+    },
+    {
+      "id": "teoria-geral-estado-5",
+      "topico": "estado-elementos",
+      "nivel": "analise",
+      "pergunta": "Um navio de guerra brasileiro está ancorado num porto estrangeiro. Pela teoria do território, o navio:",
+      "opcoes": [
+        "É considerado extensão do território brasileiro",
+        "Passa a ser território do país onde está ancorado",
+        "Não pertence ao território de nenhum Estado",
+        "Só é território brasileiro em alto-mar"
+      ],
+      "correta": 0,
+      "explicacao": "Navios e aeronaves públicos (de guerra ou a serviço do governo) são considerados extensão do território do Estado onde quer que estejam."
+    },
+    {
+      "id": "teoria-geral-estado-6",
+      "topico": "origem-estado",
+      "nivel": "conceitual",
+      "pergunta": "Para Thomas Hobbes, por que as pessoas aceitam o pacto que cria o Estado?",
+      "opcoes": [
+        "Para proteger a propriedade contra o rei",
+        "Para escapar da guerra de todos contra todos e obter segurança",
+        "Para expressar a vontade geral do povo",
+        "Para obedecer à vontade divina do monarca"
+      ],
+      "correta": 1,
+      "explicacao": "Em Leviatã, o estado de natureza é de medo e conflito constante; as pessoas entregam sua liberdade a um soberano forte em troca de segurança."
+    },
+    {
+      "id": "teoria-geral-estado-7",
+      "topico": "origem-estado",
+      "nivel": "conceitual",
+      "pergunta": "Qual contratualista defendeu os direitos naturais à vida, à liberdade e à propriedade e o direito de resistência contra o governo que os viola?",
+      "opcoes": [
+        "Hobbes",
+        "Rousseau",
+        "John Locke",
+        "Maquiavel"
+      ],
+      "correta": 2,
+      "explicacao": "Locke, no Segundo Tratado sobre o Governo, afirma que o governo existe para proteger esses direitos, e o povo pode resistir quando ele os viola. É uma das bases do liberalismo."
+    },
+    {
+      "id": "teoria-geral-estado-8",
+      "topico": "origem-estado",
+      "nivel": "conceitual",
+      "pergunta": "Em Rousseau, a soberania:",
+      "opcoes": [
+        "Pertence ao rei, escolhido por Deus",
+        "Pode ser transferida definitivamente aos representantes",
+        "É dividida entre os três poderes",
+        "Pertence ao povo e se expressa na vontade geral"
+      ],
+      "correta": 3,
+      "explicacao": "Para Rousseau, a soberania é do povo, inalienável e indivisível, e se manifesta pela vontade geral, que visa ao bem comum."
+    },
+    {
+      "id": "teoria-geral-estado-9",
+      "topico": "origem-estado",
+      "nivel": "aplicacao",
+      "pergunta": "Um líder religioso conquista seguidores fiéis por suas qualidades extraordinárias e passa a governar a comunidade. Segundo Weber, esse é um exemplo de dominação:",
+      "opcoes": [
+        "Carismática",
+        "Tradicional",
+        "Racional-legal",
+        "Burocrática"
+      ],
+      "correta": 0,
+      "explicacao": "A dominação carismática se apoia nas qualidades excepcionais atribuídas ao líder. A tradicional se baseia no costume e a racional-legal em regras impessoais."
+    },
+    {
+      "id": "teoria-geral-estado-10",
+      "topico": "origem-estado",
+      "nivel": "analise",
+      "pergunta": "Por que Max Weber diz que o Estado detém o monopólio do uso legítimo da força?",
+      "opcoes": [
+        "Porque só o Estado tem armas",
+        "Porque só o Estado pode autorizar ou exercer a violência física de forma reconhecida como válida no seu território",
+        "Porque a força é sempre ilegítima",
+        "Porque o Estado nunca precisa usar a força"
+      ],
+      "correta": 1,
+      "explicacao": "Outros podem usar força, mas só o Estado a exerce (ou autoriza, como na legítima defesa) de modo reconhecido como legítimo no território."
+    },
+    {
+      "id": "teoria-geral-estado-11",
+      "topico": "formas-estado-governo",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a característica que diferencia a federação da confederação?",
+      "opcoes": [
+        "Na federação os entes podem se separar quando quiserem",
+        "Na confederação existe uma Constituição comum",
+        "Na federação os entes são autônomos e a união é indissolúvel; na confederação os Estados são soberanos e podem se retirar",
+        "Não há diferença prática"
+      ],
+      "correta": 2,
+      "explicacao": "Federação: autonomia dos entes e soberania só do Estado federal, sem direito de secessão. Confederação: Estados soberanos unidos por tratado, com direito de saída."
+    },
+    {
+      "id": "teoria-geral-estado-12",
+      "topico": "formas-estado-governo",
+      "nivel": "conceitual",
+      "pergunta": "No presidencialismo, o presidente:",
+      "opcoes": [
+        "Divide a chefia do governo com um primeiro-ministro",
+        "Pode dissolver o Congresso",
+        "Depende da confiança do Parlamento para continuar",
+        "Acumula a chefia de Estado e a chefia de governo, com mandato fixo"
+      ],
+      "correta": 3,
+      "explicacao": "No presidencialismo, o presidente é chefe de Estado e de governo, com mandato fixo, sem depender da confiança do Legislativo."
+    },
+    {
+      "id": "teoria-geral-estado-13",
+      "topico": "formas-estado-governo",
+      "nivel": "conceitual",
+      "pergunta": "Monarquia e república são exemplos de:",
+      "opcoes": [
+        "Formas de governo",
+        "Formas de Estado",
+        "Sistemas de governo",
+        "Regimes eleitorais"
+      ],
+      "correta": 0,
+      "explicacao": "Monarquia e república são formas de governo. Unitário e federal são formas de Estado; presidencialismo e parlamentarismo, sistemas de governo."
+    },
+    {
+      "id": "teoria-geral-estado-14",
+      "topico": "formas-estado-governo",
+      "nivel": "aplicacao",
+      "pergunta": "Num país, o primeiro-ministro perdeu uma moção de desconfiança e teve de deixar o cargo, mas o rei continuou no trono. Esse país adota:",
+      "opcoes": [
+        "Presidencialismo e república",
+        "Parlamentarismo e monarquia",
+        "Presidencialismo e monarquia",
+        "Confederação e república"
+      ],
+      "correta": 1,
+      "explicacao": "A moção de desconfiança derrubando o chefe de governo é típica do parlamentarismo; o rei como chefe de Estado indica monarquia."
+    },
+    {
+      "id": "teoria-geral-estado-15",
+      "topico": "formas-estado-governo",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que os estados-membros da federação brasileira são autônomos, mas não soberanos?",
+      "opcoes": [
+        "Porque não têm Constituição própria",
+        "Porque não elegem seus governadores",
+        "Porque se auto-organizam e se governam dentro dos limites da Constituição Federal, e não podem se separar",
+        "Porque dependem de autorização da União para legislar"
+      ],
+      "correta": 2,
+      "explicacao": "Os estados têm auto-organização (Constituição estadual), autogoverno e autoadministração, mas dentro da CF; soberania é só da República Federativa, e não há direito de secessão."
+    },
+    {
+      "id": "teoria-geral-estado-16",
+      "topico": "separacao-poderes",
+      "nivel": "conceitual",
+      "pergunta": "Quem formulou a teoria clássica da tripartição dos poderes em Legislativo, Executivo e Judiciário?",
+      "opcoes": [
+        "Hobbes",
+        "Rousseau",
+        "Bodin",
+        "Montesquieu"
+      ],
+      "correta": 3,
+      "explicacao": "Montesquieu, em O Espírito das Leis (1748), defendeu as três funções em mãos diferentes para evitar o abuso: o poder freia o poder."
+    },
+    {
+      "id": "teoria-geral-estado-17",
+      "topico": "separacao-poderes",
+      "nivel": "conceitual",
+      "pergunta": "O sistema de freios e contrapesos serve para:",
+      "opcoes": [
+        "Garantir que cada poder controle os outros, mantendo o equilíbrio",
+        "Dar ao Executivo a palavra final em todos os conflitos",
+        "Impedir qualquer contato entre os poderes",
+        "Concentrar as decisões no Judiciário"
+      ],
+      "correta": 0,
+      "explicacao": "Freios e contrapesos são controles recíprocos (veto, derrubada de veto, controle de constitucionalidade, impeachment) que evitam a supremacia de um poder."
+    },
+    {
+      "id": "teoria-geral-estado-18",
+      "topico": "separacao-poderes",
+      "nivel": "aplicacao",
+      "pergunta": "Quando o presidente da República edita uma medida provisória, ele exerce:",
+      "opcoes": [
+        "Uma função típica do Executivo",
+        "Uma função atípica de legislar",
+        "Uma função atípica de julgar",
+        "Uma função que viola a separação dos poderes"
+      ],
+      "correta": 1,
+      "explicacao": "Legislar é função típica do Legislativo. A medida provisória (art. 62) é exercício atípico dessa função pelo Executivo, previsto na própria Constituição."
+    },
+    {
+      "id": "teoria-geral-estado-19",
+      "topico": "separacao-poderes",
+      "nivel": "aplicacao",
+      "pergunta": "Um tribunal faz um concurso para contratar servidores. Ele está exercendo:",
+      "opcoes": [
+        "Função típica de julgar",
+        "Função atípica de legislar",
+        "Função atípica de administrar",
+        "Função que cabe só ao Executivo"
+      ],
+      "correta": 2,
+      "explicacao": "Organizar concursos, licitações e seus servidores é função administrativa, atípica para o Judiciário."
+    },
+    {
+      "id": "teoria-geral-estado-20",
+      "topico": "separacao-poderes",
+      "nivel": "analise",
+      "pergunta": "Uma emenda constitucional pretende permitir que o presidente anule decisões do STF. Ela é:",
+      "opcoes": [
+        "Válida, se aprovada por três quintos do Congresso",
+        "Válida, porque o presidente é o chefe de Estado",
+        "Válida apenas em estado de sítio",
+        "Inconstitucional, pois tende a abolir a separação dos poderes, que é cláusula pétrea"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 60, §4º, III, proíbe emenda tendente a abolir a separação dos poderes. Submeter o Judiciário ao Executivo atingiria esse núcleo."
+    },
+    {
+      "id": "teoria-geral-estado-21",
+      "topico": "democracia",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre plebiscito e referendo?",
+      "opcoes": [
+        "O plebiscito é consulta prévia ao ato; o referendo confirma ou rejeita um ato já aprovado",
+        "O plebiscito é sobre leis e o referendo sobre emendas constitucionais",
+        "O referendo é feito antes e o plebiscito depois",
+        "Só o referendo é previsto na Constituição"
+      ],
+      "correta": 0,
+      "explicacao": "Plebiscito: o povo decide antes, aprovando ou não uma proposta. Referendo: o povo ratifica ou rejeita um ato já editado. Ambos estão no art. 14 da CF."
+    },
+    {
+      "id": "teoria-geral-estado-22",
+      "topico": "democracia",
+      "nivel": "conceitual",
+      "pergunta": "Que modelo de democracia a Constituição de 1988 adota?",
+      "opcoes": [
+        "Democracia direta",
+        "Democracia semidireta (participativa)",
+        "Democracia puramente representativa",
+        "Democracia corporativa"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 1º, parágrafo único, diz que o poder é exercido por representantes eleitos ou diretamente (plebiscito, referendo e iniciativa popular)."
+    },
+    {
+      "id": "teoria-geral-estado-23",
+      "topico": "democracia",
+      "nivel": "conceitual",
+      "pergunta": "Quais cargos são eleitos pelo sistema proporcional no Brasil?",
+      "opcoes": [
+        "Presidente e governadores",
+        "Senadores e prefeitos",
+        "Deputados e vereadores",
+        "Todos os cargos eletivos"
+      ],
+      "correta": 2,
+      "explicacao": "O sistema proporcional (quociente eleitoral) vale para deputados federais, estaduais e distritais e vereadores. Os cargos do Executivo e o Senado são majoritários."
+    },
+    {
+      "id": "teoria-geral-estado-24",
+      "topico": "democracia",
+      "nivel": "aplicacao",
+      "pergunta": "Cidadãos querem apresentar um projeto de lei federal sem depender de um parlamentar. Do que precisam, segundo a Constituição?",
+      "opcoes": [
+        "Assinaturas de 5% dos eleitores de um único estado",
+        "Autorização do presidente da República",
+        "Aprovação prévia em plebiscito",
+        "Assinaturas de pelo menos 1% do eleitorado nacional, em ao menos cinco estados, com 0,3% dos eleitores de cada um"
+      ],
+      "correta": 3,
+      "explicacao": "É a iniciativa popular do art. 61, §2º. Foi assim que nasceu a Lei da Ficha Limpa."
+    },
+    {
+      "id": "teoria-geral-estado-25",
+      "topico": "democracia",
+      "nivel": "analise",
+      "pergunta": "Uma proposta de emenda pretende tornar o voto facultativo para todos. Ela fere cláusula pétrea?",
+      "opcoes": [
+        "Não, porque a obrigatoriedade do voto não está entre as cláusulas pétreas, que protegem o voto direto, secreto, universal e periódico",
+        "Sim, porque o voto obrigatório é cláusula pétrea",
+        "Sim, porque qualquer mudança no voto é proibida",
+        "Não, porque não existem cláusulas pétreas sobre o voto"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 60, §4º, II, protege o voto direto, secreto, universal e periódico. A obrigatoriedade pode ser mudada por emenda."
+    },
+    {
+      "id": "teoria-geral-estado-26",
+      "topico": "ciencia-politica",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre legitimidade e legalidade do poder?",
+      "opcoes": [
+        "São a mesma coisa",
+        "Legitimidade é a aceitação do poder como justo pelos governados; legalidade é a conformidade com as normas jurídicas",
+        "Legalidade depende de eleições; legitimidade, de tribunais",
+        "Só governos ditatoriais são legais"
+      ],
+      "correta": 1,
+      "explicacao": "Um poder pode seguir as leis (legal) e ainda assim não ser aceito como justo (pouco legítimo), e vice-versa."
+    },
+    {
+      "id": "teoria-geral-estado-27",
+      "topico": "ciencia-politica",
+      "nivel": "conceitual",
+      "pergunta": "Para Aristóteles, qual é a forma impura correspondente à monarquia?",
+      "opcoes": [
+        "Oligarquia",
+        "Aristocracia",
+        "Tirania",
+        "Politeia"
+      ],
+      "correta": 2,
+      "explicacao": "A tirania é o governo de um só voltado ao próprio interesse, a degeneração da monarquia. A oligarquia degenera a aristocracia, e a democracia (demagogia) degenera a politeia."
+    },
+    {
+      "id": "teoria-geral-estado-28",
+      "topico": "ciencia-politica",
+      "nivel": "conceitual",
+      "pergunta": "O Estado social (de bem-estar) se caracteriza por:",
+      "opcoes": [
+        "Não intervir na economia",
+        "Garantir apenas a liberdade individual e a propriedade",
+        "Concentrar todo o poder no rei",
+        "Intervir na economia e garantir direitos sociais como saúde, educação e previdência"
+      ],
+      "correta": 3,
+      "explicacao": "O Estado social surge no século XX (México 1917, Weimar 1919) para garantir os direitos de segunda dimensão, superando o Estado liberal mínimo."
+    },
+    {
+      "id": "teoria-geral-estado-29",
+      "topico": "ciencia-politica",
+      "nivel": "aplicacao",
+      "pergunta": "Um regime tem partido único, ideologia oficial, propaganda permanente e tenta controlar a vida privada, a cultura e o trabalho de todos. Ele é:",
+      "opcoes": [
+        "Totalitário",
+        "Autoritário",
+        "Democrático",
+        "Liberal"
+      ],
+      "correta": 0,
+      "explicacao": "O controle de todas as esferas da vida, com ideologia oficial e terror, caracteriza o totalitarismo (Arendt). O autoritarismo concentra o poder, mas não busca controle total."
+    },
+    {
+      "id": "teoria-geral-estado-30",
+      "topico": "ciencia-politica",
+      "nivel": "analise",
+      "pergunta": "Um partido político quer receber doações de um governo estrangeiro e atuar só em um estado. Segundo a Constituição:",
+      "opcoes": [
+        "Pode, se registrar o estatuto no TSE",
+        "Não pode: os partidos devem ter caráter nacional e não podem receber recursos de entidade ou governo estrangeiro",
+        "Pode receber os recursos, mas precisa ter caráter nacional",
+        "Pode atuar só em um estado, mas não pode receber os recursos"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 17 da CF exige caráter nacional e proíbe o recebimento de recursos financeiros de entidade ou governo estrangeiros."
+    }
+  ]
+}

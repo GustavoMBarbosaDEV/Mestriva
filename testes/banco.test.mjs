@@ -41,6 +41,6 @@ test("números do banco na apresentação e no FAQ batem com o índice", () => {
   const faq = fs.readFileSync(path.join(raiz, "faq.html"), "utf8");
   assert.ok(landing.includes(`{ n: ${materias}, t: "matérias com conteúdo pronto" }`), `landing: ${materias} matérias`);
   assert.ok(landing.includes(`{ n: ${questoes}, t: "questões explicadas" }`), `landing: ${questoes} questões`);
-  assert.ok(landing.includes(`"${questoes} questões explicadas`), `landing destaque: ${questoes} questões`);
+  assert.ok(landing.includes(`"${questoes.toLocaleString("pt-BR")} questões explicadas`), `landing destaque: ${questoes} questões`);
   for (const [nome, txt] of [["landing", landing], ["faq", faq]]) assert.ok(txt.includes(`já tem ${materias} matérias`), `${nome}: ${materias} matérias no FAQ`);
 });

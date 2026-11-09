@@ -39,7 +39,7 @@ test("link do APK só no Android e só se existir", () => {
 
 test("números contam até o valor e a barra fixa do celular existe", () => {
   const h = desenha({ foco: false }, "light", OP);
-  assert.ok(h.includes('data-conta="930"') && h.includes('data-conta="31"'));
+  assert.ok(h.includes('data-conta="1020"') && h.includes('data-conta="34"'));
   assert.ok(h.includes("data-barra-fixa") && h.includes("data-parallax"));
 });
 

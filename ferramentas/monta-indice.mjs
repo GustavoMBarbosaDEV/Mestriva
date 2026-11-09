@@ -429,6 +429,46 @@ export const EXTRA = {
       "Anatomia Patológica",
       "Bases da Patologia"
     ]
+  },
+  "teoria-geral-estado": {
+    "area": "Direito",
+    "apelidos": [
+      "Teoria Geral do Estado",
+      "TGE",
+      "Teoria do Estado",
+      "Teoria Geral do Estado I",
+      "Ciência Política",
+      "Ciência Política I",
+      "Teoria Geral do Estado e Ciência Política",
+      "Ciência Política e Teoria Geral do Estado",
+      "Ciência Política e Teoria do Estado",
+      "Introdução à Ciência Política",
+      "Teoria Política"
+    ]
+  },
+  "direito-penal-geral": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Penal",
+      "Direito Penal I",
+      "Direito Penal: Parte Geral",
+      "Direito Penal - Parte Geral",
+      "Direito Penal Parte Geral I",
+      "Teoria Geral do Crime",
+      "Teoria do Crime",
+      "Teoria da Pena",
+      "Teoria do Crime e da Pena"
+    ]
+  },
+  "direito-administrativo": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Administrativo I",
+      "Direito Administrativo Geral",
+      "Noções de Direito Administrativo",
+      "Direito Administrativo e Licitações",
+      "Teoria Geral do Direito Administrativo"
+    ]
   }
 };
 

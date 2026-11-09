@@ -378,6 +378,44 @@
       ]
     },
     {
+      "id": "direito-administrativo",
+      "nome": "Direito Administrativo",
+      "apelidos": [
+        "Direito Administrativo I",
+        "Direito Administrativo Geral",
+        "Noções de Direito Administrativo",
+        "Direito Administrativo e Licitações",
+        "Teoria Geral do Direito Administrativo"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "principios-adm",
+          "nome": "Princípios da Administração Pública"
+        },
+        {
+          "id": "organizacao-adm",
+          "nome": "Organização da Administração Pública"
+        },
+        {
+          "id": "atos-administrativos",
+          "nome": "Atos administrativos"
+        },
+        {
+          "id": "poderes-adm",
+          "nome": "Poderes administrativos e abuso de poder"
+        },
+        {
+          "id": "licitacoes-contratos",
+          "nome": "Licitações e contratos (Lei 14.133/2021)"
+        },
+        {
+          "id": "responsabilidade-servidores",
+          "nome": "Responsabilidade do Estado e agentes públicos"
+        }
+      ]
+    },
+    {
       "id": "direito-civil-geral",
       "nome": "Direito Civil – Parte Geral",
       "apelidos": [
@@ -451,6 +489,46 @@
         {
           "id": "controle-constitucionalidade",
           "nome": "Controle de constitucionalidade"
+        }
+      ]
+    },
+    {
+      "id": "direito-penal-geral",
+      "nome": "Direito Penal – Parte Geral",
+      "apelidos": [
+        "Direito Penal",
+        "Direito Penal I",
+        "Direito Penal Parte Geral I",
+        "Teoria Geral do Crime",
+        "Teoria do Crime",
+        "Teoria da Pena",
+        "Teoria do Crime e da Pena"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "principios-lei-penal",
+          "nome": "Princípios e aplicação da lei penal"
+        },
+        {
+          "id": "teoria-crime",
+          "nome": "Teoria do crime: fato típico"
+        },
+        {
+          "id": "iter-criminis",
+          "nome": "Iter criminis, tentativa e institutos próximos"
+        },
+        {
+          "id": "ilicitude",
+          "nome": "Ilicitude e suas excludentes"
+        },
+        {
+          "id": "culpabilidade",
+          "nome": "Culpabilidade e erro"
+        },
+        {
+          "id": "penas-concurso",
+          "nome": "Penas, dosimetria e concurso de crimes"
         }
       ]
     },
@@ -1284,6 +1362,49 @@
         {
           "id": "lideranca-motivacao",
           "nome": "Liderança e motivação (Maslow e Herzberg)"
+        }
+      ]
+    },
+    {
+      "id": "teoria-geral-estado",
+      "nome": "Teoria Geral do Estado e Ciência Política",
+      "apelidos": [
+        "Teoria Geral do Estado",
+        "TGE",
+        "Teoria do Estado",
+        "Teoria Geral do Estado I",
+        "Ciência Política",
+        "Ciência Política I",
+        "Ciência Política e Teoria Geral do Estado",
+        "Ciência Política e Teoria do Estado",
+        "Introdução à Ciência Política",
+        "Teoria Política"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "estado-elementos",
+          "nome": "O Estado e seus elementos"
+        },
+        {
+          "id": "origem-estado",
+          "nome": "Origem do Estado e legitimidade do poder"
+        },
+        {
+          "id": "formas-estado-governo",
+          "nome": "Formas de Estado, formas e sistemas de governo"
+        },
+        {
+          "id": "separacao-poderes",
+          "nome": "Separação dos poderes"
+        },
+        {
+          "id": "democracia",
+          "nome": "Democracia e sistemas eleitorais"
+        },
+        {
+          "id": "ciencia-politica",
+          "nome": "Poder, regimes políticos e modelos de Estado"
         }
       ]
     }

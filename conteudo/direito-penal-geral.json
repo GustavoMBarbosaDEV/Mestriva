@@ -1,0 +1,465 @@
+{
+  "id": "direito-penal-geral",
+  "nome": "Direito Penal – Parte Geral",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "principios-lei-penal",
+      "nome": "Princípios e aplicação da lei penal",
+      "resumo": "### Princípios\n- **Legalidade (reserva legal e anterioridade)**: \"Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal\" (art. 1º do CP; art. 5º, XXXIX, da CF). Só **lei em sentido estrito** cria crime e pena; medida provisória não.\n- **Irretroatividade**: a lei penal **mais grave** não retroage; a **mais benéfica** retroage, mesmo depois da condenação definitiva (art. 2º, parágrafo único; art. 5º, XL, da CF).\n- **Intervenção mínima**: o Direito Penal é a *ultima ratio*, usado só quando os outros ramos não bastam (fragmentariedade e subsidiariedade).\n- **Insignificância**: exclui a tipicidade material de lesões mínimas. O STF exige: mínima ofensividade, nenhuma periculosidade social, reduzido grau de reprovabilidade e inexpressividade da lesão.\n- **Culpabilidade**: não há pena sem dolo ou culpa (sem responsabilidade objetiva).\n- **Individualização** e **humanidade das penas**: proíbe penas de morte (salvo guerra declarada), perpétuas, de trabalhos forçados, de banimento e cruéis.\n\n### Lei penal no tempo\n- **Abolitio criminis**: lei nova deixa de considerar o fato crime; cessam a execução e os efeitos **penais** da sentença (os civis, como reparar o dano, continuam).\n- **Novatio legis in mellius**: lei nova mais benéfica retroage.\n- **Lei excepcional ou temporária** (art. 3º): aplica-se aos fatos praticados durante sua vigência, mesmo depois de terminada (**ultratividade**).\n- **Tempo do crime** (art. 4º): teoria da **atividade**, o momento da ação ou omissão, ainda que outro seja o do resultado.\n\n### Lei penal no espaço\n- **Territorialidade** (art. 5º): aplica-se a lei brasileira ao crime cometido no território nacional.\n- **Lugar do crime** (art. 6º): teoria da **ubiquidade**, onde ocorreu a ação ou omissão **ou** onde se produziu ou deveria produzir-se o resultado.\n- Memória: **LUTA** — Lugar = Ubiquidade; Tempo = Atividade.",
+      "revisao": "**Lembre:**\n- Sem lei anterior, não há crime; MP não cria crime.\n- Lei mais benéfica retroage, até após o trânsito em julgado.\n- Abolitio criminis apaga os efeitos penais, não os civis.\n- LUTA: lugar = ubiquidade; tempo = atividade.\n- Lei temporária e excepcional têm ultratividade.\n\n**Erros comuns:** achar que a lei benéfica só retroage antes da sentença; confundir tempo do crime com o momento do resultado.\n\n**Mini exemplo:** alguém atira em outra pessoa em janeiro e a vítima morre em março; para saber a lei aplicável, vale janeiro (atividade)."
+    },
+    {
+      "id": "teoria-crime",
+      "nome": "Teoria do crime: fato típico",
+      "resumo": "### Conceito analítico (teoria tripartida)\nCrime é **fato típico, ilícito (antijurídico) e culpável**. A maior parte da doutrina adota esse conceito.\n\n### Elementos do fato típico\n1. **Conduta**: ação ou omissão humana, voluntária, dolosa ou culposa. Atos reflexos, coação física irresistível e sonambulismo não são condutas.\n2. **Resultado**: naturalístico (modificação no mundo) ou jurídico (lesão ou perigo ao bem).\n3. **Nexo causal**: o CP adota a teoria da **equivalência dos antecedentes** (*conditio sine qua non*, art. 13): causa é tudo aquilo sem o que o resultado não teria ocorrido. A **causa superveniente relativamente independente** que por si só produziu o resultado rompe o nexo (art. 13, §1º): o agente responde só pelo que já fez.\n4. **Tipicidade**: adequação do fato ao modelo da lei (formal) e lesão relevante ao bem jurídico (material).\n\n### Dolo e culpa (art. 18)\n- **Dolo direto**: o agente **quer** o resultado.\n- **Dolo eventual**: o agente **assume o risco** de produzi-lo (\"seja o que for, eu continuo\").\n- **Culpa**: o resultado vem de **imprudência** (agir sem cautela), **negligência** (deixar de agir com cautela) ou **imperícia** (falta de aptidão técnica na profissão).\n- **Culpa consciente**: o agente prevê o resultado, mas acredita sinceramente que não vai acontecer.\n- Crime culposo só existe quando a lei prevê expressamente (art. 18, parágrafo único).\n\n### Omissão\n- **Própria**: o tipo descreve um não fazer (ex.: omissão de socorro, art. 135).\n- **Imprópria (comissiva por omissão)**: quem tem o **dever de agir** e podia agir responde pelo resultado (art. 13, §2º): quem tem obrigação legal de cuidado, proteção ou vigilância (pais), quem assumiu a responsabilidade de impedir o resultado (salva-vidas, babá) e quem criou o risco com seu comportamento anterior.",
+      "revisao": "**Lembre:**\n- Crime = fato típico + ilícito + culpável.\n- Fato típico: conduta, resultado, nexo causal e tipicidade.\n- Nexo: conditio sine qua non; a causa superveniente que por si só produz o resultado rompe o nexo.\n- Dolo eventual: assume o risco. Culpa consciente: prevê, mas confia que não ocorrerá.\n- Garantidor (art. 13, §2º) responde pelo resultado na omissão.\n\n**Erros comuns:** confundir dolo eventual com culpa consciente; achar que todo crime admite forma culposa.\n\n**Mini exemplo:** a mãe que deixa de alimentar o bebê de propósito, e ele morre, responde por homicídio por omissão imprópria, porque tinha o dever legal de agir."
+    },
+    {
+      "id": "iter-criminis",
+      "nome": "Iter criminis, tentativa e institutos próximos",
+      "resumo": "### Etapas do crime (*iter criminis*)\n1. **Cogitação**: só na mente; nunca é punida.\n2. **Preparação**: atos preparatórios; em regra **não** são puníveis, salvo quando a lei os torna crime autônomo (ex.: associação criminosa, art. 288).\n3. **Execução**: começa a realizar o verbo do tipo.\n4. **Consumação**: reúnem-se todos os elementos do tipo (art. 14, I).\n\n### Tentativa (art. 14, II)\nIniciada a execução, o crime não se consuma **por circunstâncias alheias à vontade** do agente. A pena é a do crime consumado **diminuída de 1/3 a 2/3**; quanto mais perto da consumação, menor a redução. Não admitem tentativa: crimes culposos, contravenções, crimes omissivos próprios, preterdolosos e habituais.\n\n### Desistência voluntária e arrependimento eficaz (art. 15)\n- **Desistência voluntária**: o agente **para** de executar por vontade própria (podia continuar, mas não quer).\n- **Arrependimento eficaz**: o agente já terminou a execução e **age para impedir** o resultado, com sucesso.\n- Em ambos, responde **só pelos atos já praticados** (a chamada \"ponte de ouro\"). Fórmula de Frank: \"posso, mas não quero\" (desistência); \"quero, mas não posso\" (tentativa).\n\n### Arrependimento posterior (art. 16)\nNos crimes **sem violência ou grave ameaça à pessoa**, se o agente **repara o dano ou restitui a coisa** voluntariamente **até o recebimento da denúncia ou queixa**, a pena é reduzida de **1/3 a 2/3**. O crime já se consumou.\n\n### Crime impossível (art. 17)\nNão se pune a tentativa quando, por **ineficácia absoluta do meio** (arma de brinquedo para matar) ou **absoluta impropriedade do objeto** (atirar em quem já estava morto), é impossível consumar o crime. Súmula 145 do STF: flagrante **preparado** pela polícia torna o crime impossível.",
+      "revisao": "**Lembre:**\n- Cogitação nunca é punida; preparação em regra não.\n- Tentativa: circunstâncias alheias à vontade; redução de 1/3 a 2/3.\n- Desistência voluntária e arrependimento eficaz: responde só pelos atos já praticados.\n- Arrependimento posterior: sem violência, repara até o recebimento da denúncia; redução de 1/3 a 2/3.\n- Crime impossível: meio absolutamente ineficaz ou objeto absolutamente impróprio.\n\n**Erros comuns:** confundir arrependimento eficaz (evita o resultado) com arrependimento posterior (o crime já se consumou); achar que ineficácia relativa do meio gera crime impossível.\n\n**Mini exemplo:** alguém envenena a bebida da vítima, se arrepende e a leva ao hospital, onde ela é salva: arrependimento eficaz; responde só pela lesão causada."
+    },
+    {
+      "id": "ilicitude",
+      "nome": "Ilicitude e suas excludentes",
+      "resumo": "Todo fato típico é, em princípio, ilícito. A ilicitude é afastada pelas **excludentes** do art. 23: não há crime quando o agente pratica o fato em:\n\n### Estado de necessidade (art. 24)\nPratica o fato para salvar **direito próprio ou alheio** de **perigo atual**, que **não provocou por sua vontade**, nem podia de outro modo evitar, e cujo sacrifício não era razoável exigir. Quem tem o **dever legal** de enfrentar o perigo (bombeiro, policial) não pode alegá-lo.\n\n### Legítima defesa (art. 25)\nUsa **moderadamente** os **meios necessários** para repelir **injusta agressão, atual ou iminente**, a direito seu ou de outrem. Desde 2019, inclui o agente de segurança pública que repele agressão a **vítima mantida refém** durante a prática de crimes.\n- Não há legítima defesa contra ataque de animal (é estado de necessidade, salvo se alguém o atiçou) nem contra agressão **futura** ou **passada**.\n- **Legítima defesa putativa**: o agente imagina uma agressão que não existe (erro).\n\n### Estrito cumprimento do dever legal\nO agente público que cumpre um dever imposto por **lei** (ex.: policial que prende em flagrante, oficial de justiça que arromba uma porta com ordem judicial).\n\n### Exercício regular de direito\nQuem exerce um direito previsto no ordenamento (ex.: lesões em esportes violentos dentro das regras; intervenção médica consentida).\n\n### Excesso\nEm qualquer excludente, o agente **responde pelo excesso doloso ou culposo** (art. 23, parágrafo único).\n\n### Consentimento do ofendido\nÉ causa **supralegal** de exclusão da ilicitude quando o bem é **disponível** e a vítima é capaz.",
+      "revisao": "**Lembre:**\n- Art. 23: estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito.\n- Estado de necessidade: perigo atual não provocado; quem tem dever legal de enfrentar o perigo não alega.\n- Legítima defesa: injusta agressão atual ou iminente; meios necessários, com moderação.\n- Excesso doloso ou culposo é punido.\n\n**Erros comuns:** falar em legítima defesa contra agressão futura; aplicar legítima defesa contra ataque espontâneo de animal.\n\n**Mini exemplo:** durante um naufrágio, duas pessoas disputam a única boia e uma empurra a outra: estado de necessidade, porque o perigo é atual e ninguém o provocou."
+    },
+    {
+      "id": "culpabilidade",
+      "nome": "Culpabilidade e erro",
+      "resumo": "A culpabilidade é o **juízo de reprovação** sobre o agente. Pela teoria normativa pura (finalista), tem três elementos:\n\n### 1. Imputabilidade\n- **Inimputáveis** (art. 26): por doença mental ou desenvolvimento mental incompleto ou retardado, eram **inteiramente incapazes** de entender o caráter ilícito ou de se determinar. São **isentos de pena** e podem receber **medida de segurança**.\n- **Semi-imputáveis** (art. 26, parágrafo único): capacidade reduzida; pena reduzida de 1/3 a 2/3.\n- **Menores de 18 anos** (art. 27; art. 228 da CF): inimputáveis pelo critério **biológico**; respondem pelo ECA.\n- **Emoção e paixão** não excluem a imputabilidade (art. 28, I).\n- **Embriaguez**: a voluntária ou culposa **não** exclui (teoria da *actio libera in causa*); só a **completa**, vinda de **caso fortuito ou força maior**, isenta de pena.\n\n### 2. Potencial consciência da ilicitude\n- **Erro de proibição** (art. 21): o agente sabe o que faz, mas acha que é permitido. Se **inevitável**, isenta de pena; se **evitável**, reduz de 1/6 a 1/3. O desconhecimento da lei é inescusável, mas o erro sobre a ilicitude do fato pode não ser.\n\n### 3. Exigibilidade de conduta diversa (art. 22)\n- **Coação moral irresistível**: só é punido o autor da coação.\n- **Obediência hierárquica** a ordem **não manifestamente ilegal** de superior: só é punido o autor da ordem.\n\n### Erro de tipo (art. 20)\nO agente se engana sobre um **elemento do tipo** (não sabe o que faz): ex.: leva a mala de outra pessoa achando que é a sua. **Sempre exclui o dolo**; se o erro era evitável, responde por culpa, quando houver forma culposa.",
+      "revisao": "**Lembre:**\n- Culpabilidade: imputabilidade, potencial consciência da ilicitude, exigibilidade de conduta diversa.\n- Menor de 18: inimputável, critério biológico.\n- Embriaguez voluntária não exclui; só a completa por caso fortuito ou força maior.\n- Erro de tipo exclui o dolo; erro de proibição afeta a culpabilidade.\n- Coação moral irresistível e obediência hierárquica: pune-se o coator ou quem deu a ordem.\n\n**Erros comuns:** confundir coação física irresistível (exclui a conduta) com coação moral irresistível (exclui a culpabilidade); achar que emoção forte exclui o crime.\n\n**Mini exemplo:** um caçador atira num vulto achando que é um animal, mas era uma pessoa: erro de tipo; não há dolo, e pode responder por homicídio culposo se o erro era evitável."
+    },
+    {
+      "id": "penas-concurso",
+      "nome": "Penas, dosimetria e concurso de crimes",
+      "resumo": "### Espécies de pena (art. 32)\n- **Privativas de liberdade**: **reclusão** (pode começar em regime fechado) e **detenção** (começa no semiaberto ou aberto).\n- **Restritivas de direitos** (art. 43): prestação pecuniária, perda de bens, prestação de serviços à comunidade, interdição temporária de direitos e limitação de fim de semana.\n- **Multa**: calculada em dias-multa.\n\n### Substituição por restritiva de direitos (art. 44)\nCabe quando: pena **não superior a 4 anos** e crime **sem violência ou grave ameaça**, **ou** crime **culposo** (qualquer pena); réu **não reincidente em crime doloso**; e circunstâncias judiciais favoráveis.\n\n### Regime inicial (art. 33)\n- Pena **superior a 8 anos**: **fechado**.\n- Não reincidente, pena **acima de 4 e até 8 anos**: pode começar no **semiaberto**.\n- Não reincidente, pena **até 4 anos**: pode começar no **aberto**.\n\n### Dosimetria: critério trifásico (art. 68)\n1. **Pena-base**, pelas circunstâncias judiciais do **art. 59** (culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias, consequências e comportamento da vítima).\n2. **Agravantes e atenuantes** (arts. 61 a 66), como reincidência e confissão espontânea. Nesta fase a pena não sai dos limites da lei (Súmula 231 do STJ).\n3. **Causas de aumento e de diminuição** (frações), que podem levar a pena acima do máximo ou abaixo do mínimo.\n\n### Concurso de crimes\n- **Material** (art. 69): mais de uma ação, dois ou mais crimes; **somam-se** as penas.\n- **Formal** (art. 70): **uma só ação**, dois ou mais crimes; aplica-se a pena mais grave aumentada de **1/6 até metade**. Se os desígnios eram autônomos (formal impróprio), somam-se as penas.\n- **Crime continuado** (art. 71): várias ações, crimes da mesma espécie, com as mesmas condições de tempo, lugar e modo de execução; pena de um só aumentada de **1/6 a 2/3**.",
+      "revisao": "**Lembre:**\n- Restritiva de direitos: até 4 anos sem violência ou grave ameaça, ou crime culposo; não reincidente em doloso.\n- Regime: mais de 8 anos fechado; 4 a 8 semiaberto; até 4 aberto (não reincidente).\n- Dosimetria trifásica: art. 59 → agravantes/atenuantes → causas de aumento/diminuição.\n- Concurso material soma; formal: +1/6 a metade; continuado: +1/6 a 2/3.\n\n**Erros comuns:** reduzir a pena abaixo do mínimo na segunda fase por causa de atenuante; confundir concurso formal (uma ação) com crime continuado (várias ações).\n\n**Mini exemplo:** um motorista, numa só manobra imprudente, fere três pessoas: concurso formal; aplica-se a pena de uma lesão culposa aumentada de 1/6 até a metade."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-penal-geral-1",
+      "topico": "principios-lei-penal",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da legalidade penal significa que:",
+      "opcoes": [
+        "Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal",
+        "O juiz pode punir condutas imorais mesmo sem lei",
+        "Medida provisória pode criar crimes em caso de urgência",
+        "Os costumes podem criar crimes novos"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 1º do CP e art. 5º, XXXIX, da CF. Só lei em sentido estrito, anterior ao fato, define crimes e penas."
+    },
+    {
+      "id": "direito-penal-geral-2",
+      "topico": "principios-lei-penal",
+      "nivel": "conceitual",
+      "pergunta": "Qual teoria o Código Penal adota para o tempo do crime?",
+      "opcoes": [
+        "Teoria do resultado",
+        "Teoria da atividade",
+        "Teoria da ubiquidade",
+        "Teoria mista"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 4º: considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado (atividade). Para o lugar, vale a ubiquidade."
+    },
+    {
+      "id": "direito-penal-geral-3",
+      "topico": "principios-lei-penal",
+      "nivel": "aplicacao",
+      "pergunta": "Fulano foi condenado definitivamente por um fato que uma lei nova deixou de considerar crime. O que acontece?",
+      "opcoes": [
+        "Nada, porque a condenação já transitou em julgado",
+        "A pena é apenas reduzida",
+        "Cessam a execução e os efeitos penais da condenação, mas os efeitos civis continuam",
+        "Ele deve pedir indulto ao presidente"
+      ],
+      "correta": 2,
+      "explicacao": "É abolitio criminis (art. 2º): a lei benéfica retroage mesmo após o trânsito em julgado, apagando os efeitos penais; a obrigação de reparar o dano permanece."
+    },
+    {
+      "id": "direito-penal-geral-4",
+      "topico": "principios-lei-penal",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa atira em outra na fronteira, do lado paraguaio, e a vítima morre num hospital brasileiro. Pelo Código Penal, o crime se considera praticado:",
+      "opcoes": [
+        "Só no Paraguai, onde houve a ação",
+        "Só no Brasil, onde houve o resultado",
+        "Em nenhum dos dois países",
+        "Tanto no Paraguai quanto no Brasil, pela teoria da ubiquidade"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 6º: o lugar do crime é onde ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado."
+    },
+    {
+      "id": "direito-penal-geral-5",
+      "topico": "principios-lei-penal",
+      "nivel": "analise",
+      "pergunta": "Uma lei temporária, que vigorou só durante uma epidemia, punia a venda de remédios acima de certo preço. Quem vendeu acima do preço durante a epidemia, e foi processado depois que a lei perdeu a vigência:",
+      "opcoes": [
+        "Continua respondendo, porque a lei temporária tem ultratividade",
+        "É absolvido, porque a lei não vale mais",
+        "Responde só se a lei for renovada",
+        "Responde apenas na esfera civil"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 3º: a lei excepcional ou temporária, embora decorrido o período de sua duração, aplica-se ao fato praticado durante sua vigência. Senão, ninguém a respeitaria perto do fim."
+    },
+    {
+      "id": "direito-penal-geral-6",
+      "topico": "teoria-crime",
+      "nivel": "conceitual",
+      "pergunta": "Pelo conceito analítico tripartido, crime é:",
+      "opcoes": [
+        "Fato típico e culpável",
+        "Fato típico, ilícito e culpável",
+        "Fato ilícito e punível",
+        "Conduta dolosa prevista em lei"
+      ],
+      "correta": 1,
+      "explicacao": "A teoria tripartida, majoritária, define crime como fato típico, ilícito (antijurídico) e culpável."
+    },
+    {
+      "id": "direito-penal-geral-7",
+      "topico": "teoria-crime",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre dolo eventual e culpa consciente?",
+      "opcoes": [
+        "No dolo eventual o agente quer o resultado; na culpa consciente, não prevê nada",
+        "Não há diferença",
+        "No dolo eventual o agente assume o risco do resultado; na culpa consciente, prevê o resultado, mas acredita sinceramente que não ocorrerá",
+        "A culpa consciente é punida mais gravemente"
+      ],
+      "correta": 2,
+      "explicacao": "Nos dois casos o resultado é previsto. No dolo eventual o agente aceita o risco; na culpa consciente, confia que conseguirá evitá-lo."
+    },
+    {
+      "id": "direito-penal-geral-8",
+      "topico": "teoria-crime",
+      "nivel": "conceitual",
+      "pergunta": "Qual teoria de causalidade o Código Penal adota como regra no art. 13?",
+      "opcoes": [
+        "Causalidade adequada",
+        "Imputação objetiva pura",
+        "Teoria da relevância",
+        "Equivalência dos antecedentes (conditio sine qua non)"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 13: considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. A exceção é a causa superveniente relativamente independente (§1º)."
+    },
+    {
+      "id": "direito-penal-geral-9",
+      "topico": "teoria-crime",
+      "nivel": "aplicacao",
+      "pergunta": "Um salva-vidas contratado vê um banhista se afogando e, podendo agir sem risco, não faz nada. O banhista morre. O salva-vidas:",
+      "opcoes": [
+        "Responde pelo resultado morte, por ser garantidor",
+        "Responde só por omissão de socorro",
+        "Não responde, porque não fez nada",
+        "Responde só se tiver desejado a morte por escrito"
+      ],
+      "correta": 0,
+      "explicacao": "Quem assumiu a responsabilidade de impedir o resultado é garantidor (art. 13, §2º, b) e responde pelo resultado na omissão imprópria."
+    },
+    {
+      "id": "direito-penal-geral-10",
+      "topico": "teoria-crime",
+      "nivel": "analise",
+      "pergunta": "A vítima de um tiro leve é levada ao hospital e morre num incêndio que atinge o prédio. Quanto ao autor do tiro:",
+      "opcoes": [
+        "Responde por homicídio consumado",
+        "Responde só pelos atos já praticados (tentativa ou lesão), porque o incêndio por si só produziu o resultado",
+        "Não responde por nada",
+        "Responde por homicídio culposo"
+      ],
+      "correta": 1,
+      "explicacao": "O incêndio é causa superveniente relativamente independente que, por si só, produziu a morte (art. 13, §1º). O nexo se rompe e o autor responde pelo que já fez."
+    },
+    {
+      "id": "direito-penal-geral-11",
+      "topico": "iter-criminis",
+      "nivel": "conceitual",
+      "pergunta": "Em regra, quais fases do iter criminis não são puníveis?",
+      "opcoes": [
+        "Execução e consumação",
+        "Preparação e execução",
+        "Cogitação e preparação",
+        "Só a consumação"
+      ],
+      "correta": 2,
+      "explicacao": "A cogitação nunca é punida e os atos preparatórios, em regra, também não, salvo quando a lei os define como crime autônomo."
+    },
+    {
+      "id": "direito-penal-geral-12",
+      "topico": "iter-criminis",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a redução de pena prevista para a tentativa?",
+      "opcoes": [
+        "Metade da pena, sempre",
+        "De 1/6 a 1/3",
+        "Nenhuma redução",
+        "De 1/3 a 2/3"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 14, parágrafo único: pune-se a tentativa com a pena do crime consumado diminuída de 1/3 a 2/3; quanto mais perto da consumação, menor a redução."
+    },
+    {
+      "id": "direito-penal-geral-13",
+      "topico": "iter-criminis",
+      "nivel": "aplicacao",
+      "pergunta": "Um ladrão começa a arrombar uma casa, mas desiste por conta própria, embora pudesse continuar sem problemas. Ele responde:",
+      "opcoes": [
+        "Só pelos atos já praticados, como o dano à porta",
+        "Por tentativa de furto",
+        "Por furto consumado",
+        "Por nada, nem pelo dano"
+      ],
+      "correta": 0,
+      "explicacao": "É desistência voluntária (art. 15): podia prosseguir, mas não quis. Responde só pelos atos já praticados. A tentativa exige interrupção por circunstâncias alheias à vontade."
+    },
+    {
+      "id": "direito-penal-geral-14",
+      "topico": "iter-criminis",
+      "nivel": "aplicacao",
+      "pergunta": "Após furtar um celular, sem violência, o agente se arrepende e devolve o aparelho à vítima antes do recebimento da denúncia. Qual é a consequência?",
+      "opcoes": [
+        "Fica isento de pena",
+        "Tem a pena reduzida de 1/3 a 2/3, por arrependimento posterior",
+        "Responde só por tentativa",
+        "Nenhuma, porque o crime já se consumou"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 16: crime sem violência ou grave ameaça, reparação ou restituição voluntária até o recebimento da denúncia: redução de 1/3 a 2/3."
+    },
+    {
+      "id": "direito-penal-geral-15",
+      "topico": "iter-criminis",
+      "nivel": "analise",
+      "pergunta": "Alguém tenta matar outra pessoa com uma arma que, sem ele saber, estava sem nenhuma munição. Tecnicamente, isso é:",
+      "opcoes": [
+        "Tentativa de homicídio, com redução mínima",
+        "Desistência voluntária",
+        "Crime impossível por absoluta ineficácia do meio, sem punição pela tentativa",
+        "Arrependimento eficaz"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 17: não se pune a tentativa quando, por ineficácia absoluta do meio, é impossível consumar o crime. Se a ineficácia fosse só relativa (munição falhou), haveria tentativa."
+    },
+    {
+      "id": "direito-penal-geral-16",
+      "topico": "ilicitude",
+      "nivel": "conceitual",
+      "pergunta": "Quais são as excludentes de ilicitude previstas no art. 23 do Código Penal?",
+      "opcoes": [
+        "Coação moral irresistível e obediência hierárquica",
+        "Embriaguez completa e menoridade",
+        "Erro de tipo e erro de proibição",
+        "Estado de necessidade, legítima defesa, estrito cumprimento do dever legal e exercício regular de direito"
+      ],
+      "correta": 3,
+      "explicacao": "Essas quatro afastam a ilicitude. Coação moral irresistível e obediência hierárquica afastam a culpabilidade; erro de tipo afasta o dolo."
+    },
+    {
+      "id": "direito-penal-geral-17",
+      "topico": "ilicitude",
+      "nivel": "conceitual",
+      "pergunta": "Um dos requisitos da legítima defesa é:",
+      "opcoes": [
+        "Agressão injusta, atual ou iminente",
+        "Perigo atual não provocado pelo agente",
+        "Agressão que já terminou",
+        "Ordem de superior hierárquico"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 25: repelir injusta agressão, atual ou iminente, usando moderadamente os meios necessários. Perigo atual não provocado é requisito do estado de necessidade."
+    },
+    {
+      "id": "direito-penal-geral-18",
+      "topico": "ilicitude",
+      "nivel": "aplicacao",
+      "pergunta": "Um cão bravo, sem dono por perto, ataca uma pessoa, que mata o animal para se salvar. Ela agiu em:",
+      "opcoes": [
+        "Legítima defesa",
+        "Estado de necessidade",
+        "Exercício regular de direito",
+        "Estrito cumprimento do dever legal"
+      ],
+      "correta": 1,
+      "explicacao": "Ataque espontâneo de animal não é agressão humana injusta; é perigo atual, e quem o afasta age em estado de necessidade. Se alguém tivesse atiçado o cão, seria legítima defesa contra essa pessoa."
+    },
+    {
+      "id": "direito-penal-geral-19",
+      "topico": "ilicitude",
+      "nivel": "aplicacao",
+      "pergunta": "Um policial cumpre um mandado de prisão e usa só a força necessária para conter o preso que resiste. Sua conduta está amparada pelo:",
+      "opcoes": [
+        "Estado de necessidade",
+        "Exercício regular de direito",
+        "Estrito cumprimento do dever legal",
+        "Consentimento do ofendido"
+      ],
+      "correta": 2,
+      "explicacao": "O agente público que cumpre um dever imposto por lei, sem excessos, age no estrito cumprimento do dever legal."
+    },
+    {
+      "id": "direito-penal-geral-20",
+      "topico": "ilicitude",
+      "nivel": "analise",
+      "pergunta": "Depois de desarmar e imobilizar o agressor, a vítima continua a espancá-lo. Como fica a situação?",
+      "opcoes": [
+        "Tudo continua amparado pela legítima defesa",
+        "A vítima fica isenta de pena por emoção",
+        "Nada muda, porque a agressão inicial foi injusta",
+        "A vítima responde pelo excesso, porque a agressão já tinha cessado"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 23, parágrafo único: o agente responde pelo excesso doloso ou culposo. Cessada a agressão, não há mais legítima defesa."
+    },
+    {
+      "id": "direito-penal-geral-21",
+      "topico": "culpabilidade",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os elementos da culpabilidade na teoria finalista?",
+      "opcoes": [
+        "Imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa",
+        "Dolo, culpa e resultado",
+        "Conduta, nexo causal e tipicidade",
+        "Ilicitude, punibilidade e tipicidade"
+      ],
+      "correta": 0,
+      "explicacao": "Na teoria normativa pura, dolo e culpa ficam no fato típico; a culpabilidade tem imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
+    },
+    {
+      "id": "direito-penal-geral-22",
+      "topico": "culpabilidade",
+      "nivel": "conceitual",
+      "pergunta": "A embriaguez voluntária completa exclui a imputabilidade?",
+      "opcoes": [
+        "Sim, sempre",
+        "Não; só a embriaguez completa por caso fortuito ou força maior isenta de pena",
+        "Sim, se o agente não se lembrar do fato",
+        "Só nos crimes culposos"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 28, II: a embriaguez voluntária ou culposa não exclui a imputabilidade (actio libera in causa). Só a completa, de caso fortuito ou força maior, isenta."
+    },
+    {
+      "id": "direito-penal-geral-23",
+      "topico": "culpabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Ao sair de uma festa, Ana leva um casaco idêntico ao seu achando que era o dela. Ela cometeu:",
+      "opcoes": [
+        "Furto doloso",
+        "Erro de proibição",
+        "Erro de tipo, que exclui o dolo, e não há furto culposo",
+        "Furto culposo"
+      ],
+      "correta": 2,
+      "explicacao": "Ana errou sobre um elemento do tipo (coisa alheia). O erro de tipo exclui o dolo, e o furto não tem forma culposa, então não há crime."
+    },
+    {
+      "id": "direito-penal-geral-24",
+      "topico": "culpabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Um gerente de banco abre o cofre porque criminosos ameaçam matar sua família. Quem responde pelo crime?",
+      "opcoes": [
+        "O gerente e os criminosos, igualmente",
+        "Só o gerente",
+        "Ninguém",
+        "Só os autores da coação, por coação moral irresistível"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 22: na coação moral irresistível, só é punível o autor da coação; não se podia exigir do gerente conduta diversa."
+    },
+    {
+      "id": "direito-penal-geral-25",
+      "topico": "culpabilidade",
+      "nivel": "analise",
+      "pergunta": "Por que o menor de 18 anos é inimputável mesmo que entenda perfeitamente o que faz?",
+      "opcoes": [
+        "Porque a lei adota o critério biológico para a idade, sem examinar a capacidade de entendimento",
+        "Porque menores nunca entendem o caráter ilícito dos fatos",
+        "Porque o ECA revogou o Código Penal",
+        "Porque a menoridade é excludente de ilicitude"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 27 do CP e art. 228 da CF: a idade é critério biológico absoluto. O adolescente responde por ato infracional, conforme o ECA."
+    },
+    {
+      "id": "direito-penal-geral-26",
+      "topico": "penas-concurso",
+      "nivel": "conceitual",
+      "pergunta": "Em regra, qual o regime inicial para um condenado a mais de 8 anos?",
+      "opcoes": [
+        "Aberto",
+        "Fechado",
+        "Semiaberto",
+        "Domiciliar"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 33, §2º, a: pena superior a 8 anos deve começar a ser cumprida em regime fechado."
+    },
+    {
+      "id": "direito-penal-geral-27",
+      "topico": "penas-concurso",
+      "nivel": "conceitual",
+      "pergunta": "Como funciona a dosimetria da pena no Código Penal?",
+      "opcoes": [
+        "Em uma fase única, à escolha do juiz",
+        "Em duas fases: pena-base e agravantes",
+        "Em três fases: pena-base pelo art. 59, agravantes e atenuantes, e causas de aumento e diminuição",
+        "Pela soma de todas as circunstâncias"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 68: critério trifásico de Nelson Hungria."
+    },
+    {
+      "id": "direito-penal-geral-28",
+      "topico": "penas-concurso",
+      "nivel": "aplicacao",
+      "pergunta": "Réu não reincidente foi condenado a 3 anos por furto simples, sem violência, com boas circunstâncias judiciais. Cabe substituir a pena por restritiva de direitos?",
+      "opcoes": [
+        "Não, furto nunca admite substituição",
+        "Não, só crimes culposos admitem",
+        "Só se a pena fosse de até 1 ano",
+        "Sim, pois a pena não passa de 4 anos e o crime não teve violência ou grave ameaça"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 44: pena até 4 anos, crime sem violência ou grave ameaça, réu não reincidente em crime doloso e circunstâncias favoráveis permitem a substituição."
+    },
+    {
+      "id": "direito-penal-geral-29",
+      "topico": "penas-concurso",
+      "nivel": "aplicacao",
+      "pergunta": "Com um único disparo, alguém fere duas pessoas, sem desígnios autônomos. Como se aplica a pena?",
+      "opcoes": [
+        "Pela regra do concurso formal: a pena mais grave aumentada de 1/6 até a metade",
+        "Somam-se as duas penas (concurso material)",
+        "Aplica-se só uma pena, sem aumento",
+        "Pela regra do crime continuado"
+      ],
+      "correta": 0,
+      "explicacao": "Uma só ação e dois crimes: concurso formal próprio (art. 70). Se houvesse desígnios autônomos, as penas seriam somadas."
+    },
+    {
+      "id": "direito-penal-geral-30",
+      "topico": "penas-concurso",
+      "nivel": "analise",
+      "pergunta": "Na segunda fase da dosimetria, o réu tem a atenuante da confissão espontânea, mas a pena-base já está no mínimo legal. Segundo a Súmula 231 do STJ:",
+      "opcoes": [
+        "A pena pode ficar abaixo do mínimo",
+        "A atenuante não pode levar a pena abaixo do mínimo legal",
+        "A atenuante se converte em causa de diminuição",
+        "A confissão anula a condenação"
+      ],
+      "correta": 1,
+      "explicacao": "Súmula 231 do STJ: a incidência de circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal. Só as causas de diminuição da terceira fase podem."
+    }
+  ]
+}

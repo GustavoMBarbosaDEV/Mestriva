@@ -1,0 +1,465 @@
+{
+  "id": "direito-administrativo",
+  "nome": "Direito Administrativo",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "principios-adm",
+      "nome": "Princípios da Administração Pública",
+      "resumo": "### Princípios expressos (art. 37, caput, da CF): **LIMPE**\n- **Legalidade**: o particular pode fazer tudo o que a lei não proíbe; a Administração só pode fazer o que a **lei autoriza**.\n- **Impessoalidade**: a atuação visa ao interesse público, sem favorecer nem perseguir ninguém; a publicidade dos atos não pode ter nomes, símbolos ou imagens que promovam autoridades (art. 37, §1º). A Súmula Vinculante 13 proíbe o **nepotismo**.\n- **Moralidade**: além de legal, o ato deve ser ético, honesto e de boa-fé.\n- **Publicidade**: os atos devem ser divulgados, como condição de eficácia e de controle; a exceção é o sigilo para segurança da sociedade e do Estado ou intimidade.\n- **Eficiência**: incluído pela **EC 19/1998**; busca de resultados com qualidade e economia de recursos.\n\n### Princípios implícitos (supraprincípios)\n- **Supremacia do interesse público** sobre o privado: justifica prerrogativas, como desapropriar e alterar contratos.\n- **Indisponibilidade do interesse público**: o administrador gere bens que não são dele; daí a exigência de licitação e concurso.\n\n### Outros princípios importantes\n- **Autotutela**: a Administração pode **anular** seus atos ilegais e **revogar** os inconvenientes, sem precisar do Judiciário (**Súmula 473 do STF**).\n- **Razoabilidade e proporcionalidade**: a medida deve ser adequada, necessária e proporcional.\n- **Motivação**: os atos devem indicar os fatos e fundamentos jurídicos (Lei 9.784/1999, art. 50).\n- **Continuidade do serviço público**: o serviço não pode parar sem razão.\n- **Segurança jurídica**: protege a confiança legítima e veda aplicar nova interpretação de forma retroativa.",
+      "revisao": "**Lembre:**\n- LIMPE: legalidade, impessoalidade, moralidade, publicidade, eficiência (EC 19/1998).\n- Administração só faz o que a lei autoriza.\n- Supremacia e indisponibilidade do interesse público são os pilares implícitos.\n- Autotutela: anula o ilegal e revoga o inconveniente (Súmula 473 do STF).\n\n**Erros comuns:** aplicar à Administração a lógica do particular (\"o que não é proibido é permitido\"); dizer que a eficiência estava no texto original da CF/88.\n\n**Mini exemplo:** um prefeito que coloca o próprio nome e foto nas placas de obras públicas viola a impessoalidade."
+    },
+    {
+      "id": "organizacao-adm",
+      "nome": "Organização da Administração Pública",
+      "resumo": "### Desconcentração × descentralização\n- **Desconcentração**: distribuição de competências **dentro da mesma pessoa jurídica**, criando **órgãos** (ex.: ministérios, secretarias). Há hierarquia. Órgãos **não têm personalidade jurídica**.\n- **Descentralização**: a atividade passa para **outra pessoa**, física ou jurídica.\n  - **Por outorga (por serviço)**: a lei cria uma entidade e transfere a titularidade e a execução (ex.: autarquias).\n  - **Por delegação (por colaboração)**: transfere só a execução, por contrato ou ato (ex.: concessionárias e permissionárias).\n- Entre o ente e a entidade descentralizada não há hierarquia, mas **controle finalístico (tutela, supervisão ministerial)**.\n\n### Administração direta\nUnião, estados, Distrito Federal e municípios, com seus órgãos.\n\n### Administração indireta (art. 37, XIX)\n- **Autarquia**: pessoa jurídica de **direito público**, **criada por lei**, para atividades típicas de Estado (ex.: INSS, Banco Central, universidades federais). Tem as prerrogativas da Fazenda Pública (bens públicos, prazos maiores, imunidade tributária).\n- **Fundação pública**: patrimônio personalizado com fim social; se de direito público, é uma espécie de autarquia (fundação autárquica).\n- **Empresa pública**: direito privado, **criação autorizada por lei**, capital **100% público**, **qualquer forma societária** (ex.: Caixa, Correios).\n- **Sociedade de economia mista**: direito privado, criação autorizada por lei, capital público e privado com a **maioria das ações com direito a voto** do poder público, sempre **sociedade anônima** (ex.: Banco do Brasil, Petrobras).\n- As estatais seguem a **Lei 13.303/2016**.\n\n### Terceiro setor\nEntidades privadas sem fins lucrativos que colaboram com o Estado: **OS** (organizações sociais, contrato de gestão), **OSCIP** (termo de parceria) e serviços sociais autônomos (Sistema S).",
+      "revisao": "**Lembre:**\n- Desconcentração: órgãos, mesma pessoa, hierarquia. Descentralização: outra pessoa, controle finalístico.\n- Autarquia: criada por lei, direito público.\n- Empresa pública e sociedade de economia mista: criação autorizada por lei, direito privado.\n- Empresa pública: 100% público, qualquer forma. Economia mista: S.A., maioria do capital votante público.\n\n**Erros comuns:** dizer que órgão público tem personalidade jurídica; dizer que a lei \"cria\" a empresa pública (ela autoriza a criação).\n\n**Mini exemplo:** quando o Ministério da Saúde cria uma nova secretaria interna, há desconcentração; quando a lei cria uma agência reguladora autárquica, há descentralização por outorga."
+    },
+    {
+      "id": "atos-administrativos",
+      "nome": "Atos administrativos",
+      "resumo": "### Elementos (requisitos) — \"COFIFOMOB\"\n- **Competência**: quem pode praticar o ato, definida em lei.\n- **Finalidade**: o interesse público e a finalidade específica prevista em lei.\n- **Forma**: o modo de exteriorização (em regra escrita).\n- **Motivo**: a situação de fato e de direito que leva ao ato.\n- **Objeto**: o conteúdo, o efeito jurídico imediato.\nCompetência, finalidade e forma são sempre **vinculados**; nos atos discricionários, **motivo e objeto** formam o **mérito administrativo** (conveniência e oportunidade).\n\n### Teoria dos motivos determinantes\nSe a Administração declara um motivo, o ato fica preso a ele: se o motivo for **falso ou inexistente**, o ato é inválido, mesmo que a motivação fosse dispensável.\n\n### Atributos — \"PATI\"\n- **Presunção de legitimidade e veracidade**: o ato vale até prova em contrário.\n- **Autoexecutoriedade**: pode ser executado sem ordem judicial (ex.: apreender mercadoria estragada).\n- **Tipicidade**: corresponde a figuras previstas em lei.\n- **Imperatividade**: impõe obrigações a terceiros independentemente da concordância deles.\n\n### Extinção\n- **Anulação**: por **ilegalidade**; pode ser feita pela **Administração ou pelo Judiciário**; efeitos **ex tunc** (retroativos). Prazo de **5 anos** para a Administração anular atos que beneficiam pessoas de boa-fé (Lei 9.784/1999, art. 54).\n- **Revogação**: por **conveniência e oportunidade**; só a **própria Administração**; efeitos **ex nunc**; respeita direitos adquiridos. Atos vinculados não podem ser revogados.\n- **Cassação**: o beneficiário descumpre as condições (ex.: licença cassada).\n- **Caducidade**: norma posterior torna o ato incompatível.\n- **Convalidação**: corrige vícios sanáveis (de competência não exclusiva e de forma não essencial).",
+      "revisao": "**Lembre:**\n- Elementos: competência, finalidade, forma (vinculados), motivo e objeto (mérito).\n- Atributos: presunção de legitimidade, autoexecutoriedade, tipicidade, imperatividade.\n- Anulação: ilegalidade, ex tunc, Administração ou Judiciário, 5 anos.\n- Revogação: conveniência, ex nunc, só a Administração.\n- Motivos determinantes: motivo falso invalida o ato.\n\n**Erros comuns:** dizer que o Judiciário pode revogar ato de outro poder por inconveniência; achar que revogação tem efeito retroativo.\n\n**Mini exemplo:** um servidor é exonerado \"por falta de verba\", mas logo depois outro é nomeado para o mesmo cargo: o motivo declarado era falso, e o ato pode ser anulado."
+    },
+    {
+      "id": "poderes-adm",
+      "nome": "Poderes administrativos e abuso de poder",
+      "resumo": "Os poderes são **instrumentos** para atingir o interesse público; são **poderes-deveres**, irrenunciáveis.\n\n### Poderes\n- **Vinculado**: a lei define todos os elementos do ato, sem margem de escolha (ex.: aposentadoria compulsória).\n- **Discricionário**: a lei deixa margem de **conveniência e oportunidade**, dentro dos limites legais (ex.: autorização de uso de bem público).\n- **Hierárquico**: ordenar, coordenar, controlar e corrigir os subordinados; inclui **delegar** e **avocar** competências. Não há hierarquia entre a Administração direta e a indireta.\n- **Disciplinar**: apurar infrações e aplicar penalidades a servidores e a quem tem **vínculo especial** com a Administração (ex.: empresa contratada).\n- **Regulamentar (normativo)**: o chefe do Executivo edita decretos e regulamentos para a **fiel execução das leis** (art. 84, IV, da CF), sem inovar no ordenamento. O decreto autônomo só cabe nos casos do art. 84, VI.\n- **De polícia**: limitar e condicionar o exercício de direitos individuais em favor do interesse público (art. 78 do CTN). Ex.: fiscalização sanitária, vigilância de trânsito, licença para construir. Atributos: **discricionariedade, autoexecutoriedade e coercibilidade**. Pode ser remunerado por **taxa**.\n\n### Ciclo de polícia\nOrdem, consentimento, fiscalização e sanção. O STF admite delegar a pessoas de direito privado da Administração indireta (de capital majoritariamente público e que prestem serviço público exclusivamente) as fases de consentimento, fiscalização e sanção; a **ordem** (legislar) é indelegável.\n\n### Abuso de poder\n- **Excesso de poder**: o agente vai **além da sua competência**.\n- **Desvio de poder (de finalidade)**: o agente age dentro da competência, mas para **fim diverso** do previsto em lei (ex.: remover um servidor para puni-lo).\n- **Omissão**: deixar de agir quando devia também é abuso.",
+      "revisao": "**Lembre:**\n- Poderes: vinculado, discricionário, hierárquico, disciplinar, regulamentar, de polícia.\n- Regulamentar: fiel execução das leis, sem inovar (art. 84, IV).\n- Polícia: limita direitos em favor do interesse coletivo; atributos discricionariedade, autoexecutoriedade, coercibilidade.\n- Abuso: excesso (fora da competência) ou desvio (fim diverso).\n\n**Erros comuns:** confundir poder disciplinar (vínculo especial) com poder de polícia (sobre todos os particulares); dizer que decreto regulamentar pode criar obrigação não prevista em lei.\n\n**Mini exemplo:** um chefe transfere um servidor para uma cidade distante só porque ele o criticou: desvio de finalidade, pois a remoção não serve para punir."
+    },
+    {
+      "id": "licitacoes-contratos",
+      "nome": "Licitações e contratos (Lei 14.133/2021)",
+      "resumo": "A **Lei 14.133/2021** é a nova Lei de Licitações e Contratos e substituiu a Lei 8.666/1993, a Lei do Pregão e o RDC.\n\n### Modalidades (art. 28)\n- **Pregão**: bens e serviços **comuns** (inclusive serviços comuns de engenharia); critério menor preço ou maior desconto.\n- **Concorrência**: bens e serviços especiais e obras e serviços de engenharia.\n- **Concurso**: trabalho técnico, científico ou artístico, com prêmio ou remuneração.\n- **Leilão**: **alienação** de bens imóveis ou móveis inservíveis ou apreendidos; vence o maior lance.\n- **Diálogo competitivo**: contratações de inovação, em que a Administração dialoga com licitantes previamente selecionados para desenvolver alternativas.\n- **Tomada de preços e convite** foram **extintos**. É proibido criar outras modalidades ou combiná-las.\n\n### Contratação direta\n- **Dispensa** (art. 75): a competição seria **possível**, mas a lei permite não licitar (ex.: valores baixos, emergência ou calamidade, licitação deserta).\n- **Inexigibilidade** (art. 74): a competição é **inviável** (ex.: fornecedor exclusivo, artista consagrado, serviços técnicos especializados de notória especialização). O rol é **exemplificativo**.\n\n### Fases (regra)\nPreparatória → edital → propostas e lances → **julgamento** → **habilitação** → recursos → homologação. A habilitação, em regra, vem **depois** do julgamento.\n\n### Cláusulas exorbitantes (art. 104)\nPrerrogativas da Administração no contrato administrativo: **modificar unilateralmente** (respeitando o equilíbrio econômico-financeiro), **extinguir unilateralmente**, **fiscalizar**, **aplicar sanções** e **ocupar provisoriamente** bens e pessoal em serviços essenciais.\n\n### Sanções ao contratado (art. 156)\nAdvertência, multa, impedimento de licitar e contratar (até 3 anos, no ente) e declaração de inidoneidade (3 a 6 anos, em todos os entes).",
+      "revisao": "**Lembre:**\n- Modalidades: pregão, concorrência, concurso, leilão e diálogo competitivo. Tomada de preços e convite acabaram.\n- Dispensa: competição possível, mas a lei libera. Inexigibilidade: competição inviável.\n- Em regra, julgamento antes da habilitação.\n- Cláusulas exorbitantes: alterar e extinguir unilateralmente, fiscalizar, punir, ocupar.\n\n**Erros comuns:** chamar de dispensa a contratação de fornecedor exclusivo (é inexigibilidade); citar convite e tomada de preços como modalidades atuais.\n\n**Mini exemplo:** um município que quer comprar resmas de papel A4 usa o pregão, porque é um bem comum."
+    },
+    {
+      "id": "responsabilidade-servidores",
+      "nome": "Responsabilidade do Estado e agentes públicos",
+      "resumo": "### Responsabilidade civil do Estado (art. 37, §6º, da CF)\n- As pessoas jurídicas de direito público e as de direito privado **prestadoras de serviço público** respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros.\n- A responsabilidade é **objetiva**, pela teoria do **risco administrativo**: basta provar **conduta, dano e nexo causal**, sem discutir culpa.\n- **Excludentes**: culpa exclusiva da vítima, caso fortuito ou força maior e fato exclusivo de terceiro. Culpa concorrente **atenua** a indenização.\n- **Ação regressiva**: o Estado cobra do agente que agiu com **dolo ou culpa**. Para o STF (Tema 940), a vítima deve processar o **Estado**, não o agente diretamente (dupla garantia).\n- Nos danos por **omissão**, a doutrina tradicional exige a prova da falha do serviço (responsabilidade subjetiva); o STF aplica a responsabilidade objetiva quando havia **dever específico** de agir (ex.: morte de preso sob custódia).\n- O **risco integral** (sem excludentes) aparece em casos especiais, como dano ambiental e nuclear.\n\n### Agentes públicos e acesso a cargos\n- Cargo efetivo exige **concurso público** de provas ou de provas e títulos (art. 37, II), válido por até **2 anos, prorrogável uma vez por igual período**.\n- **Cargos em comissão** são de livre nomeação e exoneração e só servem para direção, chefia e assessoramento.\n- **Estabilidade** (art. 41): após **3 anos de efetivo exercício**, com aprovação em **avaliação especial de desempenho**. O estável só perde o cargo por sentença judicial transitada em julgado, processo administrativo com ampla defesa, avaliação periódica de desempenho ou excesso de despesa com pessoal.\n\n### Improbidade administrativa (Lei 8.429/1992, alterada pela Lei 14.230/2021)\n- Tipos: **enriquecimento ilícito**, **dano ao erário** e **violação de princípios**.\n- Depois de 2021, todas exigem **dolo**; não há mais improbidade culposa.\n- Sanções (art. 37, §4º, da CF): suspensão dos direitos políticos, perda da função, indisponibilidade de bens e ressarcimento ao erário, além de multa e proibição de contratar com o poder público.",
+      "revisao": "**Lembre:**\n- Art. 37, §6º: responsabilidade objetiva; risco administrativo; excludentes.\n- Regressiva contra o agente só com dolo ou culpa; a vítima processa o Estado.\n- Concurso: validade de até 2 anos, prorrogável uma vez.\n- Estabilidade: 3 anos de efetivo exercício + avaliação especial.\n- Improbidade: exige dolo desde a Lei 14.230/2021.\n\n**Erros comuns:** achar que a vítima precisa provar a culpa do servidor; confundir estabilidade (no serviço público) com efetividade (no cargo); falar em improbidade culposa.\n\n**Mini exemplo:** um ônibus de concessionária de transporte público atropela um pedestre; a empresa responde objetivamente, sem que a vítima precise provar a culpa do motorista."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-administrativo-1",
+      "topico": "principios-adm",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os princípios expressos no caput do art. 37 da Constituição?",
+      "opcoes": [
+        "Legalidade, impessoalidade, moralidade, publicidade e eficiência",
+        "Supremacia, indisponibilidade, legalidade, moralidade e razoabilidade",
+        "Legalidade, autotutela, publicidade, motivação e eficiência",
+        "Impessoalidade, continuidade, segurança jurídica, moralidade e publicidade"
+      ],
+      "correta": 0,
+      "explicacao": "O caput do art. 37 traz o LIMPE. Supremacia, indisponibilidade, autotutela e motivação são princípios implícitos ou de outras leis."
+    },
+    {
+      "id": "direito-administrativo-2",
+      "topico": "principios-adm",
+      "nivel": "conceitual",
+      "pergunta": "Como o princípio da legalidade se aplica à Administração Pública?",
+      "opcoes": [
+        "Ela pode fazer tudo o que a lei não proíbe",
+        "Ela só pode fazer o que a lei autoriza",
+        "Ela pode agir livremente em nome do interesse público",
+        "Ela segue a lei só quando o Judiciário manda"
+      ],
+      "correta": 1,
+      "explicacao": "Para o particular vale a autonomia da vontade (o que não é proibido é permitido). Para a Administração, a legalidade é estrita: só o que a lei autoriza."
+    },
+    {
+      "id": "direito-administrativo-3",
+      "topico": "principios-adm",
+      "nivel": "conceitual",
+      "pergunta": "Qual emenda constitucional incluiu o princípio da eficiência no art. 37?",
+      "opcoes": [
+        "EC 45/2004",
+        "EC 1/1992",
+        "EC 19/1998",
+        "EC 32/2001"
+      ],
+      "correta": 2,
+      "explicacao": "A EC 19/1998, da reforma administrativa, acrescentou a eficiência aos princípios expressos."
+    },
+    {
+      "id": "direito-administrativo-4",
+      "topico": "principios-adm",
+      "nivel": "aplicacao",
+      "pergunta": "Um prefeito nomeia o próprio irmão para um cargo em comissão de assessor na prefeitura. Esse ato:",
+      "opcoes": [
+        "É válido, porque cargo em comissão é de livre nomeação",
+        "É válido se o irmão tiver diploma",
+        "É válido se aprovado pela Câmara Municipal",
+        "Viola a Súmula Vinculante 13, que proíbe o nepotismo"
+      ],
+      "correta": 3,
+      "explicacao": "A SV 13 proíbe a nomeação de parentes até o terceiro grau da autoridade nomeante para cargos em comissão e funções de confiança, por ofensa à moralidade e à impessoalidade."
+    },
+    {
+      "id": "direito-administrativo-5",
+      "topico": "principios-adm",
+      "nivel": "analise",
+      "pergunta": "A Administração descobre que concedeu, por erro, uma licença ilegal. Ela pode desfazer o ato sem ir ao Judiciário?",
+      "opcoes": [
+        "Sim, pela autotutela pode anular o ato ilegal, respeitando o contraditório e o prazo legal",
+        "Não, só o Judiciário pode anular atos administrativos",
+        "Sim, mas apenas revogando, nunca anulando",
+        "Não, porque o ato administrativo é irrevogável"
+      ],
+      "correta": 0,
+      "explicacao": "Súmula 473 do STF: a Administração pode anular seus atos ilegais e revogar os inconvenientes. Se o ato afeta terceiros, deve haver contraditório, e há o prazo de 5 anos da Lei 9.784."
+    },
+    {
+      "id": "direito-administrativo-6",
+      "topico": "organizacao-adm",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre desconcentração e descentralização?",
+      "opcoes": [
+        "Não há diferença",
+        "Desconcentração distribui competências entre órgãos da mesma pessoa jurídica; descentralização transfere a atividade para outra pessoa",
+        "Desconcentração cria autarquias; descentralização cria ministérios",
+        "Descentralização acontece só entre municípios"
+      ],
+      "correta": 1,
+      "explicacao": "Na desconcentração surgem órgãos, sem personalidade jurídica, com hierarquia. Na descentralização, outra pessoa recebe a atividade, sob controle finalístico."
+    },
+    {
+      "id": "direito-administrativo-7",
+      "topico": "organizacao-adm",
+      "nivel": "conceitual",
+      "pergunta": "Como nasce uma autarquia?",
+      "opcoes": [
+        "Por decreto do presidente",
+        "Por registro na junta comercial depois de lei autorizativa",
+        "Diretamente por lei específica",
+        "Por contrato de gestão"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 37, XIX: somente por lei específica pode ser criada autarquia. Para empresa pública, sociedade de economia mista e fundação, a lei autoriza a criação."
+    },
+    {
+      "id": "direito-administrativo-8",
+      "topico": "organizacao-adm",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica é exclusiva da sociedade de economia mista, em comparação com a empresa pública?",
+      "opcoes": [
+        "Personalidade de direito privado",
+        "Criação autorizada por lei",
+        "Integrar a Administração indireta",
+        "Ser obrigatoriamente uma sociedade anônima, com capital público e privado"
+      ],
+      "correta": 3,
+      "explicacao": "A economia mista é sempre S.A., com maioria do capital votante público e participação privada. A empresa pública tem capital 100% público e pode ter qualquer forma societária."
+    },
+    {
+      "id": "direito-administrativo-9",
+      "topico": "organizacao-adm",
+      "nivel": "aplicacao",
+      "pergunta": "Um estado firma contrato de concessão para que uma empresa privada opere uma rodovia, cobrando pedágio. Trata-se de:",
+      "opcoes": [
+        "Descentralização por delegação (colaboração)",
+        "Desconcentração",
+        "Descentralização por outorga",
+        "Criação de uma autarquia"
+      ],
+      "correta": 0,
+      "explicacao": "Na concessão, transfere-se só a execução do serviço por contrato; a titularidade continua com o Estado. É descentralização por delegação."
+    },
+    {
+      "id": "direito-administrativo-10",
+      "topico": "organizacao-adm",
+      "nivel": "analise",
+      "pergunta": "Um cidadão quer processar a Secretaria Municipal de Saúde, como se ela fosse uma pessoa jurídica. O que está errado?",
+      "opcoes": [
+        "Nada, secretarias têm personalidade jurídica própria",
+        "A secretaria é órgão sem personalidade jurídica; a ação deve ser proposta contra o município",
+        "Só o Ministério Público pode processar uma secretaria",
+        "A ação deve ser contra o secretário pessoalmente"
+      ],
+      "correta": 1,
+      "explicacao": "Órgãos públicos são frutos da desconcentração e não têm personalidade jurídica; quem responde é a pessoa jurídica a que pertencem, o município."
+    },
+    {
+      "id": "direito-administrativo-11",
+      "topico": "atos-administrativos",
+      "nivel": "conceitual",
+      "pergunta": "Quais elementos do ato administrativo são sempre vinculados?",
+      "opcoes": [
+        "Motivo e objeto",
+        "Objeto, forma e motivo",
+        "Competência, finalidade e forma",
+        "Todos são discricionários"
+      ],
+      "correta": 2,
+      "explicacao": "Competência, finalidade e forma são vinculados. Nos atos discricionários, motivo e objeto compõem o mérito administrativo."
+    },
+    {
+      "id": "direito-administrativo-12",
+      "topico": "atos-administrativos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre anulação e revogação de um ato administrativo?",
+      "opcoes": [
+        "A revogação tem efeitos retroativos e a anulação não",
+        "Só o Judiciário pode revogar",
+        "Ambas se baseiam em conveniência",
+        "A anulação retira ato ilegal, com efeitos ex tunc; a revogação retira ato legal por conveniência e oportunidade, com efeitos ex nunc"
+      ],
+      "correta": 3,
+      "explicacao": "Anulação: ilegalidade, efeito retroativo, pela Administração ou pelo Judiciário. Revogação: mérito, efeito para o futuro, só pela própria Administração."
+    },
+    {
+      "id": "direito-administrativo-13",
+      "topico": "atos-administrativos",
+      "nivel": "conceitual",
+      "pergunta": "Qual atributo permite à Administração executar seus atos sem precisar de ordem judicial?",
+      "opcoes": [
+        "Autoexecutoriedade",
+        "Tipicidade",
+        "Presunção de legitimidade",
+        "Imperatividade"
+      ],
+      "correta": 0,
+      "explicacao": "A autoexecutoriedade permite executar o ato diretamente, como na apreensão de alimentos estragados, quando a lei permite ou em situação urgente."
+    },
+    {
+      "id": "direito-administrativo-14",
+      "topico": "atos-administrativos",
+      "nivel": "aplicacao",
+      "pergunta": "Um servidor em cargo de comissão é exonerado com a justificativa escrita de 'corte de gastos', mas, no dia seguinte, outra pessoa é nomeada para o mesmo cargo. Pela teoria dos motivos determinantes:",
+      "opcoes": [
+        "O ato é válido, porque cargo em comissão dispensa motivação",
+        "O ato é inválido, porque o motivo declarado é falso",
+        "O ato só é inválido se o servidor for estável",
+        "O ato deve ser revogado pelo Judiciário"
+      ],
+      "correta": 1,
+      "explicacao": "Mesmo quando a motivação é dispensável, se a Administração declara um motivo, fica vinculada a ele. Motivo falso ou inexistente invalida o ato."
+    },
+    {
+      "id": "direito-administrativo-15",
+      "topico": "atos-administrativos",
+      "nivel": "analise",
+      "pergunta": "Um ato ilegal que beneficiou um particular de boa-fé foi praticado há 7 anos. Pela Lei 9.784/1999, a Administração federal:",
+      "opcoes": [
+        "Pode anulá-lo a qualquer tempo",
+        "Pode revogá-lo por conveniência",
+        "Em regra não pode mais anulá-lo, porque decaiu o prazo de 5 anos",
+        "Deve convalidá-lo obrigatoriamente"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 54 da Lei 9.784/1999: decai em 5 anos o direito de anular atos de que decorram efeitos favoráveis aos destinatários, salvo comprovada má-fé."
+    },
+    {
+      "id": "direito-administrativo-16",
+      "topico": "poderes-adm",
+      "nivel": "conceitual",
+      "pergunta": "O poder regulamentar permite ao chefe do Executivo:",
+      "opcoes": [
+        "Criar crimes por decreto",
+        "Revogar leis aprovadas pelo Legislativo",
+        "Criar obrigações não previstas em lei",
+        "Editar decretos para a fiel execução das leis, sem inovar no ordenamento"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 84, IV, da CF. O decreto regulamentar detalha a lei; não pode criar direitos ou obrigações novos. O decreto autônomo só cabe nas hipóteses do art. 84, VI."
+    },
+    {
+      "id": "direito-administrativo-17",
+      "topico": "poderes-adm",
+      "nivel": "conceitual",
+      "pergunta": "O poder de polícia consiste em:",
+      "opcoes": [
+        "Limitar e condicionar direitos individuais em favor do interesse público",
+        "Punir servidores públicos por faltas funcionais",
+        "Organizar a hierarquia entre os órgãos",
+        "Investigar crimes, pela polícia judiciária"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 78 do CTN. O poder de polícia administrativa atinge os particulares em geral (fiscalização sanitária, licenças). Punir servidores é poder disciplinar."
+    },
+    {
+      "id": "direito-administrativo-18",
+      "topico": "poderes-adm",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa contratada pela prefeitura atrasa a obra e recebe multa prevista no contrato. A prefeitura exerceu o poder:",
+      "opcoes": [
+        "De polícia",
+        "Disciplinar",
+        "Regulamentar",
+        "Hierárquico"
+      ],
+      "correta": 1,
+      "explicacao": "O poder disciplinar alcança servidores e particulares com vínculo especial com a Administração, como os contratados."
+    },
+    {
+      "id": "direito-administrativo-19",
+      "topico": "poderes-adm",
+      "nivel": "aplicacao",
+      "pergunta": "Um fiscal municipal interdita um prédio estadual, o que está fora de suas atribuições legais. Houve:",
+      "opcoes": [
+        "Desvio de finalidade",
+        "Exercício regular do poder de polícia",
+        "Excesso de poder",
+        "Poder discricionário válido"
+      ],
+      "correta": 2,
+      "explicacao": "Agir além da própria competência é excesso de poder. O desvio de finalidade ocorre quando o agente, dentro da competência, busca fim diverso do previsto."
+    },
+    {
+      "id": "direito-administrativo-20",
+      "topico": "poderes-adm",
+      "nivel": "analise",
+      "pergunta": "Um chefe remove um servidor para outra cidade como forma de punição, sem processo disciplinar. Esse ato:",
+      "opcoes": [
+        "É válido, porque a remoção é ato discricionário",
+        "É válido, pelo poder hierárquico",
+        "Só é inválido se o servidor for estável",
+        "É inválido por desvio de finalidade, porque a remoção não serve para punir"
+      ],
+      "correta": 3,
+      "explicacao": "A remoção serve à necessidade do serviço. Usá-la como punição é desvio de finalidade, forma de abuso de poder, e torna o ato nulo."
+    },
+    {
+      "id": "direito-administrativo-21",
+      "topico": "licitacoes-contratos",
+      "nivel": "conceitual",
+      "pergunta": "Quais são as modalidades de licitação da Lei 14.133/2021?",
+      "opcoes": [
+        "Pregão, concorrência, concurso, leilão e diálogo competitivo",
+        "Concorrência, tomada de preços, convite, concurso e leilão",
+        "Pregão, convite, leilão, consulta e concurso",
+        "Concorrência, pregão, RDC e convite"
+      ],
+      "correta": 0,
+      "explicacao": "A nova lei extinguiu a tomada de preços e o convite e criou o diálogo competitivo. O art. 28 proíbe criar outras modalidades ou combiná-las."
+    },
+    {
+      "id": "direito-administrativo-22",
+      "topico": "licitacoes-contratos",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre dispensa e inexigibilidade de licitação?",
+      "opcoes": [
+        "Na dispensa a competição é inviável",
+        "Na dispensa a competição seria possível, mas a lei libera a licitação; na inexigibilidade a competição é inviável",
+        "São a mesma coisa",
+        "A inexigibilidade só vale para obras"
+      ],
+      "correta": 1,
+      "explicacao": "Dispensa (art. 75): poderia haver disputa, mas a lei autoriza não licitar. Inexigibilidade (art. 74): não há como competir, como no fornecedor exclusivo."
+    },
+    {
+      "id": "direito-administrativo-23",
+      "topico": "licitacoes-contratos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma prefeitura quer comprar canetas, papel e grampeadores com especificações usuais de mercado. Qual modalidade é a adequada?",
+      "opcoes": [
+        "Concurso",
+        "Leilão",
+        "Pregão",
+        "Diálogo competitivo"
+      ],
+      "correta": 2,
+      "explicacao": "O pregão serve para bens e serviços comuns, cujos padrões de desempenho e qualidade podem ser definidos objetivamente no edital."
+    },
+    {
+      "id": "direito-administrativo-24",
+      "topico": "licitacoes-contratos",
+      "nivel": "aplicacao",
+      "pergunta": "Um município quer contratar um cantor famoso para o show de aniversário da cidade. A contratação é feita por:",
+      "opcoes": [
+        "Pregão",
+        "Concorrência",
+        "Dispensa por valor",
+        "Inexigibilidade, por se tratar de artista consagrado pela crítica ou pela opinião pública"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 74, II: é inexigível a contratação de profissional do setor artístico consagrado, diretamente ou por empresário exclusivo, porque a competição é inviável."
+    },
+    {
+      "id": "direito-administrativo-25",
+      "topico": "licitacoes-contratos",
+      "nivel": "analise",
+      "pergunta": "A Administração decide aumentar unilateralmente a quantidade de um serviço contratado, dentro dos limites legais. O que o contratado pode exigir?",
+      "opcoes": [
+        "O reequilíbrio econômico-financeiro do contrato",
+        "A extinção imediata do contrato sem compensação",
+        "Nada, porque a cláusula exorbitante não tem limites",
+        "Que o Judiciário proíba a alteração"
+      ],
+      "correta": 0,
+      "explicacao": "A alteração unilateral é cláusula exorbitante, mas a Administração deve manter o equilíbrio econômico-financeiro, ajustando o pagamento ao novo encargo."
+    },
+    {
+      "id": "direito-administrativo-26",
+      "topico": "responsabilidade-servidores",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a regra da responsabilidade civil do Estado na Constituição de 1988?",
+      "opcoes": [
+        "Responsabilidade subjetiva, com prova de culpa do servidor",
+        "Responsabilidade objetiva, pela teoria do risco administrativo",
+        "Irresponsabilidade do Estado",
+        "Responsabilidade objetiva pelo risco integral, sem excludentes"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 37, §6º: basta provar conduta, dano e nexo causal. Por ser risco administrativo, admite excludentes como culpa exclusiva da vítima e força maior."
+    },
+    {
+      "id": "direito-administrativo-27",
+      "topico": "responsabilidade-servidores",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os requisitos para o servidor adquirir estabilidade?",
+      "opcoes": [
+        "2 anos de exercício",
+        "Aprovação em concurso e posse",
+        "3 anos de efetivo exercício e aprovação em avaliação especial de desempenho",
+        "5 anos de serviço público em qualquer cargo"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 41 da CF, com a redação da EC 19/1998: três anos de efetivo exercício e avaliação especial de desempenho por comissão instituída para esse fim."
+    },
+    {
+      "id": "direito-administrativo-28",
+      "topico": "responsabilidade-servidores",
+      "nivel": "aplicacao",
+      "pergunta": "Uma viatura policial, em serviço, bate num carro particular. O dono do carro quer ser indenizado. Contra quem deve propor a ação, segundo o STF?",
+      "opcoes": [
+        "Contra o policial que dirigia",
+        "Contra o policial e o Estado, obrigatoriamente juntos",
+        "Contra o Ministério Público",
+        "Contra o Estado, que depois pode cobrar do policial se ele agiu com dolo ou culpa"
+      ],
+      "correta": 3,
+      "explicacao": "No Tema 940, o STF fixou a tese da dupla garantia: a vítima processa a pessoa jurídica, e esta tem ação regressiva contra o agente que agiu com dolo ou culpa."
+    },
+    {
+      "id": "direito-administrativo-29",
+      "topico": "responsabilidade-servidores",
+      "nivel": "aplicacao",
+      "pergunta": "Depois da Lei 14.230/2021, um servidor que causou prejuízo ao erário por simples descuido, sem intenção, responde por improbidade?",
+      "opcoes": [
+        "Não, porque todas as modalidades de improbidade passaram a exigir dolo",
+        "Sim, porque o dano ao erário admite culpa",
+        "Sim, se o prejuízo passar de 100 salários mínimos",
+        "Só se for servidor estável"
+      ],
+      "correta": 0,
+      "explicacao": "A reforma de 2021 acabou com a improbidade culposa. O servidor pode responder em outras esferas (civil e disciplinar), mas não por improbidade."
+    },
+    {
+      "id": "direito-administrativo-30",
+      "topico": "responsabilidade-servidores",
+      "nivel": "analise",
+      "pergunta": "Um preso é morto por outro detento dentro do presídio. Como fica a responsabilidade do Estado?",
+      "opcoes": [
+        "Não há responsabilidade, porque o autor foi um terceiro",
+        "O Estado responde, porque tinha o dever específico de proteger quem está sob sua custódia",
+        "Só o detento autor responde",
+        "O Estado só responde se ficar provada a culpa do diretor do presídio"
+      ],
+      "correta": 1,
+      "explicacao": "O STF entende que, na custódia, o Estado tem dever específico de proteção (art. 5º, XLIX, da CF) e responde objetivamente pela morte do preso."
+    }
+  ]
+}

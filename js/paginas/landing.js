@@ -30,8 +30,8 @@ const LINHAS = [
 ];
 const NUMEROS = [
   { n: 0, t: "reais por mês: é grátis" },
-  { n: 31, t: "matérias com conteúdo pronto" },
-  { n: 930, t: "questões explicadas" },
+  { n: 34, t: "matérias com conteúdo pronto" },
+  { n: 1020, t: "questões explicadas" },
   { n: 2, t: "temas, claro e escuro" },
 ];
 /** Perguntas da landing (a página /faq.html tem estas e mais algumas). */
@@ -39,7 +39,7 @@ export const FAQ = [
   ["O Mestriva é grátis?", "Sim. Não tem plano pago, anúncio nem cartão de crédito. Você usa tudo de graça."],
   ["Onde ficam os meus dados?", "Neste aparelho, no seu navegador. Nada é vendido nem usado para propaganda. Em Ajustes você baixa um backup, restaura ou apaga tudo."],
   ["Funciona sem internet?", "Sim. Depois da primeira abertura, o app e o banco de conteúdo ficam guardados no aparelho, e você estuda mesmo offline."],
-  ["Serve para o meu curso?", "Sim. A grade, o calendário, as notas e as suas anotações funcionam em qualquer curso. O banco pronto já tem 31 matérias comuns a muitos cursos e cresce a cada versão."],
+  ["Serve para o meu curso?", "Sim. A grade, o calendário, as notas e as suas anotações funcionam em qualquer curso. O banco pronto já tem 34 matérias comuns a muitos cursos e cresce a cada versão."],
   ["Como instalo no celular?", "Abra o site no navegador do celular e toque em \"Adicionar à tela inicial\" (ou \"Instalar app\"). Ele abre como um app, em tela cheia."],
   ["Encontrei um erro numa questão. E agora?", "Toque em \"Reportar erro nesta questão\" no quiz, ou escreva para o e-mail de contato. Toda mensagem é lida."],
 ];
@@ -109,7 +109,7 @@ function heroi(op) {
 }
 
 const numeros = () => `<section class="mx-auto max-w-6xl px-4 pt-4 sm:px-6"><div class="revela panel grid grid-cols-2 divide-hair lg:grid-cols-4">${NUMEROS.map(
-  (x) => `<div class="min-w-0 p-5 text-center sm:p-6"><b class="block font-heading text-3xl font-semibold tabular-nums tracking-tight text-foreground sm:text-4xl" data-conta="${x.n}">${x.n}</b><span class="mt-1 block text-xs text-muted-foreground">${x.t}</span></div>`
+  (x) => `<div class="min-w-0 p-5 text-center sm:p-6"><b class="block font-heading text-3xl font-semibold tabular-nums tracking-tight text-foreground sm:text-4xl" data-conta="${x.n}">${x.n.toLocaleString("pt-BR")}</b><span class="mt-1 block text-xs text-muted-foreground">${x.t}</span></div>`
 ).join("")}</div></section>`;
 
 function recursos() {
@@ -142,7 +142,7 @@ function destaques() {
   return `<div class="mx-auto flex max-w-6xl flex-col gap-16 px-4 pb-16 sm:px-6">
     ${destaque("GraduationCap", "grade sem digitar", "A grade do curso pronta em minutos", "Cole a lista, mande o PDF ou tire uma foto da grade. O app lê tudo no próprio aparelho, separa as matérias por período e liga cada uma ao conteúdo pronto do banco.", grade, false)}
     ${destaque("CalendarDays", "nenhum prazo perdido", "Provas e trabalhos com contagem regressiva", "O calendário mostra o que vem pela frente e o sino avisa dos compromissos dos próximos 7 dias, com notificação do navegador se você quiser.", agenda, true)}
-    ${destaque("Sparkles", "estudo que fixa", "Quiz com explicação e repetição espaçada", "930 questões explicadas nas matérias do banco, mais cartões feitos das suas anotações. O que você erra volta antes da prova.", quiz, false)}
+    ${destaque("Sparkles", "estudo que fixa", "Quiz com explicação e repetição espaçada", "1.020 questões explicadas nas matérias do banco, mais cartões feitos das suas anotações. O que você erra volta antes da prova.", quiz, false)}
     ${destaque("Lock", "privado por padrão", "Seus dados são seus", "Tudo fica no seu aparelho: sem anúncio, sem venda de dados, sem rastreio. Você baixa um backup ou apaga tudo quando quiser.", cadeado, true)}
   </div>`;
 }
@@ -273,7 +273,7 @@ export function montar(raiz, ctx) {
       const t0 = performance.now();
       const passo = (/** @type {number} */ t) => {
         const p = Math.min(1, (t - t0) / 1200);
-        b.textContent = String(Math.round(alvo * (1 - Math.pow(1 - p, 3))));
+        b.textContent = Math.round(alvo * (1 - Math.pow(1 - p, 3))).toLocaleString("pt-BR");
         if (p < 1) requestAnimationFrame(passo);
       };
       b.textContent = "0";
