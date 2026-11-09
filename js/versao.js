@@ -6,5 +6,5 @@ export const NOVIDADES = [
   "Na primeira tela, conte o que você estuda: faculdade, ensino médio, cursinho, pós, concurso ou ENEM.",
   "Escolha sua faculdade e seu curso numa lista com 467 instituições; se a sua não estiver lá, peça a inclusão.",
   "A grade acha o conteúdo pronto mesmo com nomes diferentes, e dá para ligar uma matéria na mão.",
-  "Matérias novas no banco: Fisiologia Humana, Bioquímica, Histologia, Microbiologia, Farmacologia, Imunologia, Genética, Saúde Coletiva, Didática, Psicologia do Desenvolvimento, Direito Civil, Matemática Financeira e Banco de Dados.",
+  "Matérias novas no banco: Fisiologia Humana, Bioquímica, Histologia, Microbiologia, Farmacologia, Imunologia, Genética, Patologia, Parasitologia, Saúde Coletiva, Epidemiologia, Didática, Psicologia do Desenvolvimento, Direito Civil, Matemática Financeira e Banco de Dados.",
 ];

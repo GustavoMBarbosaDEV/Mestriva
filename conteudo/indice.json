@@ -455,6 +455,48 @@
       ]
     },
     {
+      "id": "epidemiologia",
+      "nome": "Epidemiologia",
+      "apelidos": [
+        "Epidemiologia I",
+        "Epidemiologia Geral",
+        "Epidemiologia Básica",
+        "Epidemiologia Clínica",
+        "Epidemiologia e Bioestatística",
+        "Epidemiologia e Saúde",
+        "Epidemiologia Descritiva",
+        "Introdução à Epidemiologia",
+        "Fundamentos de Epidemiologia"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "conceitos-processo",
+          "nome": "Conceitos e processo saúde-doença"
+        },
+        {
+          "id": "medidas",
+          "nome": "Medidas de frequência: incidência e prevalência"
+        },
+        {
+          "id": "estudos",
+          "nome": "Desenhos de estudo"
+        },
+        {
+          "id": "associacao",
+          "nome": "Medidas de associação e causalidade"
+        },
+        {
+          "id": "vieses-testes",
+          "nome": "Vieses, confundimento e testes diagnósticos"
+        },
+        {
+          "id": "investigacao-controle",
+          "nome": "Investigação de surtos, rastreamento e transição"
+        }
+      ]
+    },
+    {
       "id": "estatistica",
       "nome": "Estatística",
       "apelidos": [
@@ -948,6 +990,88 @@
         {
           "id": "patogenicidade-antimicrobianos",
           "nome": "Patogenicidade e antimicrobianos"
+        }
+      ]
+    },
+    {
+      "id": "parasitologia",
+      "nome": "Parasitologia",
+      "apelidos": [
+        "Parasitologia I",
+        "Parasitologia Humana",
+        "Parasitologia Geral",
+        "Parasitologia Básica",
+        "Parasitologia Médica",
+        "Parasitologia Clínica",
+        "Parasitologia Aplicada",
+        "Parasitologia e Entomologia"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos de parasitologia"
+        },
+        {
+          "id": "protozoarios-intestinais",
+          "nome": "Protozoários intestinais e de transmissão sexual"
+        },
+        {
+          "id": "protozoarios-sangue-tecidos",
+          "nome": "Protozoários do sangue e dos tecidos"
+        },
+        {
+          "id": "nematodeos",
+          "nome": "Nematódeos (vermes cilíndricos)"
+        },
+        {
+          "id": "platelmintos",
+          "nome": "Platelmintos: esquistossomose e teníases"
+        },
+        {
+          "id": "artropodes-controle",
+          "nome": "Artrópodes, vetores e controle"
+        }
+      ]
+    },
+    {
+      "id": "patologia",
+      "nome": "Patologia",
+      "apelidos": [
+        "Patologia I",
+        "Patologia Geral",
+        "Patologia Básica",
+        "Patologia Humana",
+        "Processos Patológicos Gerais",
+        "Processos Patológicos",
+        "Anatomia Patológica",
+        "Bases da Patologia"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "adaptacoes-lesao",
+          "nome": "Adaptações celulares e lesão reversível"
+        },
+        {
+          "id": "necrose-apoptose",
+          "nome": "Morte celular: necrose e apoptose"
+        },
+        {
+          "id": "inflamacao-reparo",
+          "nome": "Inflamação e reparo"
+        },
+        {
+          "id": "hemodinamica",
+          "nome": "Distúrbios hemodinâmicos"
+        },
+        {
+          "id": "neoplasias",
+          "nome": "Neoplasias"
+        },
+        {
+          "id": "carcinogenese",
+          "nome": "Carcinogênese e bases moleculares do câncer"
         }
       ]
     },

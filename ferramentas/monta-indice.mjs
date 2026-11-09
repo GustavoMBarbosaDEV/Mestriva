@@ -389,6 +389,46 @@ export const EXTRA = {
       "Genética Mendeliana",
       "Fundamentos de Genética"
     ]
+  },
+  "epidemiologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Epidemiologia I",
+      "Epidemiologia Geral",
+      "Epidemiologia Básica",
+      "Epidemiologia Clínica",
+      "Epidemiologia e Bioestatística",
+      "Epidemiologia e Saúde",
+      "Epidemiologia Descritiva",
+      "Introdução à Epidemiologia",
+      "Fundamentos de Epidemiologia"
+    ]
+  },
+  "parasitologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Parasitologia I",
+      "Parasitologia Humana",
+      "Parasitologia Geral",
+      "Parasitologia Básica",
+      "Parasitologia Médica",
+      "Parasitologia Clínica",
+      "Parasitologia Aplicada",
+      "Parasitologia e Entomologia"
+    ]
+  },
+  "patologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Patologia I",
+      "Patologia Geral",
+      "Patologia Básica",
+      "Patologia Humana",
+      "Processos Patológicos Gerais",
+      "Processos Patológicos",
+      "Anatomia Patológica",
+      "Bases da Patologia"
+    ]
   }
 };
 
