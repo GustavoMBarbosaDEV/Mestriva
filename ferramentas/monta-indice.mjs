@@ -347,6 +347,48 @@ export const EXTRA = {
       "Farmacocinética e Farmacodinâmica",
       "Fundamentos de Farmacologia"
     ]
+  },
+  "saude-coletiva": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Saúde Coletiva I",
+      "Saúde Pública",
+      "Saúde Pública I",
+      "Políticas de Saúde",
+      "Políticas Públicas de Saúde",
+      "Sistema Único de Saúde",
+      "Saúde Coletiva e SUS",
+      "Saúde e Sociedade",
+      "Atenção Primária à Saúde",
+      "Saúde da Família"
+    ]
+  },
+  "imunologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Imunologia I",
+      "Imunologia Geral",
+      "Imunologia Básica",
+      "Imunologia Clínica",
+      "Imunologia Humana",
+      "Imunologia Médica",
+      "Imunologia Aplicada",
+      "Fundamentos de Imunologia"
+    ]
+  },
+  "genetica": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Genética I",
+      "Genética Geral",
+      "Genética Básica",
+      "Genética Humana",
+      "Genética Médica",
+      "Genética Clínica",
+      "Genética e Evolução",
+      "Genética Mendeliana",
+      "Fundamentos de Genética"
+    ]
   }
 };
 

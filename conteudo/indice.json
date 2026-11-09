@@ -624,6 +624,48 @@
       ]
     },
     {
+      "id": "genetica",
+      "nome": "Genética",
+      "apelidos": [
+        "Genética I",
+        "Genética Geral",
+        "Genética Básica",
+        "Genética Humana",
+        "Genética Médica",
+        "Genética Clínica",
+        "Genética e Evolução",
+        "Genética Mendeliana",
+        "Fundamentos de Genética"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "dna-expressao",
+          "nome": "DNA, replicação e expressão gênica"
+        },
+        {
+          "id": "divisao-celular",
+          "nome": "Cromossomos, mitose e meiose"
+        },
+        {
+          "id": "mendel",
+          "nome": "Herança mendeliana"
+        },
+        {
+          "id": "heredogramas",
+          "nome": "Heredogramas e tipos de herança"
+        },
+        {
+          "id": "cromossomopatias",
+          "nome": "Alterações cromossômicas"
+        },
+        {
+          "id": "populacoes-biotecnologia",
+          "nome": "Genética de populações e biotecnologia"
+        }
+      ]
+    },
+    {
       "id": "histologia",
       "nome": "Histologia",
       "apelidos": [
@@ -661,6 +703,47 @@
         {
           "id": "nervoso-sangue",
           "nome": "Tecido nervoso e sangue"
+        }
+      ]
+    },
+    {
+      "id": "imunologia",
+      "nome": "Imunologia",
+      "apelidos": [
+        "Imunologia I",
+        "Imunologia Geral",
+        "Imunologia Básica",
+        "Imunologia Clínica",
+        "Imunologia Humana",
+        "Imunologia Médica",
+        "Imunologia Aplicada",
+        "Fundamentos de Imunologia"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "inata",
+          "nome": "Imunidade inata"
+        },
+        {
+          "id": "adaptativa-celulas",
+          "nome": "Imunidade adaptativa, linfócitos e órgãos linfoides"
+        },
+        {
+          "id": "anticorpos-mhc",
+          "nome": "Anticorpos e apresentação de antígenos (MHC)"
+        },
+        {
+          "id": "vacinas",
+          "nome": "Vacinas e imunização"
+        },
+        {
+          "id": "hipersensibilidade",
+          "nome": "Hipersensibilidades"
+        },
+        {
+          "id": "autoimunidade-imunodeficiencias",
+          "nome": "Autoimunidade, imunodeficiências e transplantes"
         }
       ]
     },
@@ -992,6 +1075,49 @@
         {
           "id": "equilibrio-e-ph",
           "nome": "Equilíbrio Químico e pH"
+        }
+      ]
+    },
+    {
+      "id": "saude-coletiva",
+      "nome": "Saúde Coletiva",
+      "apelidos": [
+        "Saúde Coletiva I",
+        "Saúde Pública",
+        "Saúde Pública I",
+        "Políticas de Saúde",
+        "Políticas Públicas de Saúde",
+        "Sistema Único de Saúde",
+        "Saúde Coletiva e SUS",
+        "Saúde e Sociedade",
+        "Atenção Primária à Saúde",
+        "Saúde da Família"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "conceitos-determinantes",
+          "nome": "Conceitos de saúde e determinantes sociais"
+        },
+        {
+          "id": "historia-sus",
+          "nome": "História das políticas de saúde e criação do SUS"
+        },
+        {
+          "id": "principios-sus",
+          "nome": "Princípios e diretrizes do SUS"
+        },
+        {
+          "id": "atencao-primaria",
+          "nome": "Atenção primária e Estratégia Saúde da Família"
+        },
+        {
+          "id": "vigilancia",
+          "nome": "Vigilância em saúde"
+        },
+        {
+          "id": "indicadores-financiamento",
+          "nome": "Indicadores de saúde e financiamento"
         }
       ]
     },
