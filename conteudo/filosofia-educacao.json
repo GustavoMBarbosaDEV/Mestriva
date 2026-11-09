@@ -1,0 +1,465 @@
+{
+  "id": "filosofia-educacao",
+  "nome": "Filosofia da Educação",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "O que é Filosofia da Educação",
+      "resumo": "A Filosofia da Educação reflete sobre os **fins**, os **valores** e os **fundamentos** do ato de educar. Ela pergunta **para que** educar, **que ser humano** se quer formar e **com que direito** se educa.\n\n### Três tarefas\n- **Epistemológica**: o que é conhecer e como se conhece (base dos métodos de ensino).\n- **Antropológica**: que concepção de ser humano orienta a educação.\n- **Axiológica** (ética e política): que valores e que sociedade a educação deve promover.\n\n### Filosofia, ciência e pedagogia\n- As **ciências da educação** (psicologia, sociologia, história) descrevem e explicam como a educação **é**.\n- A **filosofia** discute como a educação **deve ser** e examina criticamente os pressupostos das teorias e práticas.\n- **Pedagogia** é a teoria e a prática da educação; a filosofia é um dos seus fundamentos.\n\n### Atitude filosófica\nPara Saviani, a reflexão filosófica é **radical** (vai à raiz), **rigorosa** (com método) e **de conjunto** (vê o problema em relação ao todo). Todo professor tem uma filosofia da educação, mesmo sem saber: a tarefa é torná-la **consciente** e **crítica**.",
+      "revisao": "**Lembre:**\n- Filosofia da Educação = fins, valores e fundamentos.\n- Epistemológica, antropológica e axiológica.\n- Ciências descrevem como é; filosofia pergunta como deve ser.\n- Saviani: radical, rigorosa e de conjunto."
+    },
+    {
+      "id": "antigos",
+      "nome": "Educação na Grécia: Sócrates, Platão e Aristóteles",
+      "resumo": "A palavra **pedagogia** vem do grego: o **paidagogós** era o escravo que conduzia a criança à escola. Os gregos criaram o ideal de **paideia**: a formação integral do cidadão.\n\n### Sofistas\nEnsinavam **retórica** e a arte de convencer, mediante pagamento. Protágoras: \"o homem é a medida de todas as coisas\" (relativismo).\n\n### Sócrates\n- \"Conhece-te a ti mesmo\" e \"só sei que nada sei\".\n- **Método socrático**: diálogo com perguntas. Primeiro a **ironia** (mostrar que o outro não sabe o que pensava saber), depois a **maiêutica** (\"parto das ideias\": ajudar o outro a dar à luz o conhecimento).\n\n### Platão\n- **Mundo das ideias** (verdadeiro) e **mundo sensível** (cópia). Conhecer é **recordar** (reminiscência).\n- **Alegoria da caverna** (*A República*): a educação é a saída das sombras para a luz, uma conversão do olhar.\n- Educação diferente para cada classe; os **filósofos** deveriam governar.\n\n### Aristóteles\n- O conhecimento começa pelos **sentidos** e pela experiência.\n- **Ato e potência**: educar é atualizar as potencialidades.\n- **Virtude** como hábito e **justo meio** entre extremos; a educação forma o hábito.\n- O ser humano é um **animal político**.",
+      "revisao": "**Lembre:**\n- Paideia: formação integral do cidadão.\n- Sócrates: ironia e maiêutica.\n- Platão: caverna; conhecer é recordar.\n- Aristóteles: sentidos, ato e potência, virtude como hábito."
+    },
+    {
+      "id": "modernos",
+      "nome": "Modernidade: Comenius, Locke, Rousseau e Kant",
+      "resumo": "Na Idade Moderna, a educação passa a ser pensada a partir da razão, da ciência e do indivíduo.\n\n### Comenius (1592–1670)\n- *Didática Magna*: \"ensinar **tudo a todos**\".\n- Defendeu escola para todos, inclusive meninas e pobres, ensino em língua materna, uso de imagens e organização por séries. É considerado o pai da **Didática**.\n\n### Locke (1632–1704)\n- A mente é uma **tábula rasa**: o conhecimento vem da **experiência** (empirismo).\n- Valorizava a formação do caráter e do corpo.\n\n### Rousseau (1712–1778)\n- *Emílio, ou Da Educação*: o ser humano nasce bom; a sociedade o corrompe.\n- **Educação natural** e **negativa** na infância: proteger a criança, respeitar seu ritmo, aprender pela experiência.\n- **Descoberta da infância**: a criança não é um adulto em miniatura. Inspirou a Escola Nova.\n\n### Kant (1724–1804)\n- \"O homem só pode tornar-se homem pela educação.\"\n- **Esclarecimento** (*Aufklärung*): saída da **menoridade**, ter coragem de usar o próprio entendimento.\n- Educação envolve disciplina, cultura e formação moral, rumo à **autonomia**.",
+      "revisao": "**Lembre:**\n- Comenius: ensinar tudo a todos; pai da Didática.\n- Locke: tábula rasa, empirismo.\n- Rousseau: Emílio, educação natural, descoberta da infância.\n- Kant: esclarecimento = sair da menoridade; autonomia."
+    },
+    {
+      "id": "dewey-escola-nova",
+      "nome": "Dewey e o pragmatismo",
+      "resumo": "John Dewey (1859–1952), filósofo estadunidense, é a principal referência do movimento da **Escola Nova**.\n\n### Ideias centrais\n- **Pragmatismo**: o valor de uma ideia está nas suas consequências práticas.\n- **Aprender fazendo** (*learning by doing*): a experiência é a base da aprendizagem.\n- **Educação é vida**, não preparação para a vida; é **reconstrução contínua da experiência**.\n- A escola deve ser uma **comunidade democrática** em miniatura.\n- Pensamento reflexivo: a aprendizagem parte de **problemas** reais, levanta hipóteses e as testa.\n\n### No Brasil\nO **Manifesto dos Pioneiros da Educação Nova** (1932), com Anísio Teixeira (aluno de Dewey), Fernando de Azevedo e Lourenço Filho, defendeu escola **pública, gratuita, laica e obrigatória**.\n\n### Críticas\nA Escola Nova foi criticada por deixar o conteúdo em segundo plano e por funcionar melhor em escolas com mais recursos, o que podia aumentar as diferenças entre os alunos (crítica de Saviani).",
+      "revisao": "**Lembre:**\n- Dewey: pragmatismo e aprender fazendo.\n- Educação é vida, reconstrução da experiência.\n- Escola como comunidade democrática.\n- Manifesto dos Pioneiros (1932): pública, gratuita, laica, obrigatória.\n- Crítica: conteúdo em segundo plano."
+    },
+    {
+      "id": "critica-contemporanea",
+      "nome": "Pensamento crítico e contemporâneo",
+      "resumo": "No século XX, a filosofia questionou a razão, o poder e a própria escola.\n\n### Escola de Frankfurt\n- Adorno e Horkheimer criticaram a **razão instrumental** e a **indústria cultural**, que padroniza o gosto.\n- Adorno, *Educação e emancipação*: a primeira exigência da educação é que **Auschwitz não se repita**. Educar para a **emancipação** e a autorreflexão crítica.\n\n### Habermas\n**Ação comunicativa**: entendimento pelo diálogo racional, sem coerção, o que inspira práticas pedagógicas democráticas.\n\n### Foucault\n- *Vigiar e Punir*: a escola é uma instituição **disciplinar**, como a prisão e o quartel.\n- **Poder disciplinar**: vigilância hierárquica, sanção normalizadora e **exame**, que produzem \"corpos dóceis\".\n- Poder não é só repressão: também **produz** saberes e sujeitos.\n\n### Hannah Arendt\n*A crise na educação*: o educador assume **responsabilidade pelo mundo** diante dos novos. A educação é conservadora no sentido de proteger a criança e apresentar o mundo; a autoridade do professor vem dessa responsabilidade.\n\n### Paulo Freire\nEducação como **prática da liberdade**: diálogo, conscientização e esperança (*Pedagogia do Oprimido*, *Pedagogia da Autonomia*).",
+      "revisao": "**Lembre:**\n- Adorno: educar para que Auschwitz não se repita; emancipação.\n- Habermas: ação comunicativa, diálogo.\n- Foucault: escola disciplinar, vigilância, exame.\n- Arendt: responsabilidade pelo mundo e autoridade.\n- Freire: educação como prática da liberdade."
+    },
+    {
+      "id": "etica",
+      "nome": "Ética, valores e educação",
+      "resumo": "Toda educação carrega valores. A questão é se eles são assumidos de forma consciente e discutidos.\n\n### Conceitos\n- **Moral**: conjunto de regras e costumes de um grupo.\n- **Ética**: reflexão crítica sobre a moral, sobre o que é bom e justo.\n- **Heteronomia**: seguir regras impostas de fora, por obediência ou medo.\n- **Autonomia**: agir segundo regras que a própria pessoa reconhece como válidas.\n\n### Desenvolvimento moral\n- **Piaget**: da moral heterônoma (regras sagradas, respeito unilateral) à **moral autônoma** (cooperação, respeito mútuo).\n- **Kohlberg**: níveis **pré-convencional** (castigo e recompensa), **convencional** (aprovação social e leis) e **pós-convencional** (princípios universais).\n\n### Na escola\n- Moralizar com sermões tende a gerar obediência, não autonomia.\n- **Assembleias**, construção coletiva de regras e discussão de **dilemas morais** favorecem a autonomia.\n- Educar para os **direitos humanos**, a diversidade e a convivência democrática.\n- **Laicidade**: a escola pública não pode impor uma religião; o ensino religioso é **facultativo** para o aluno (Constituição, art. 210).",
+      "revisao": "**Lembre:**\n- Moral = regras; ética = reflexão sobre elas.\n- Heteronomia (de fora) × autonomia (reconhecida por si).\n- Kohlberg: pré-convencional, convencional, pós-convencional.\n- Assembleias e dilemas favorecem a autonomia.\n- Ensino religioso é facultativo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "filosofia-educacao-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a pergunta típica da Filosofia da Educação, que a diferencia das ciências da educação?",
+      "opcoes": [
+        "Para que e com que valores se deve educar",
+        "Quantos alunos estão matriculados",
+        "Qual é a média de notas da turma",
+        "Como funciona o cérebro na leitura"
+      ],
+      "correta": 0,
+      "explicacao": "As ciências descrevem como a educação é; a filosofia discute fins e valores, como ela deve ser."
+    },
+    {
+      "id": "filosofia-educacao-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A dimensão axiológica da Filosofia da Educação trata:",
+      "opcoes": [
+        "Da origem do conhecimento",
+        "Dos valores que a educação deve promover",
+        "Da concepção de corpo humano",
+        "Da estrutura dos prédios escolares"
+      ],
+      "correta": 1,
+      "explicacao": "Axiologia é o estudo dos valores (ética, política, estética)."
+    },
+    {
+      "id": "filosofia-educacao-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Para Saviani, a reflexão filosófica é:",
+      "opcoes": [
+        "Rápida, prática e individual",
+        "Neutra, técnica e objetiva",
+        "Radical, rigorosa e de conjunto",
+        "Religiosa, dogmática e tradicional"
+      ],
+      "correta": 2,
+      "explicacao": "Radical vai à raiz, rigorosa usa método, e de conjunto relaciona o problema com o todo."
+    },
+    {
+      "id": "filosofia-educacao-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um professor diz que 'não tem filosofia nenhuma, só ensina'. Qual seria a resposta da Filosofia da Educação?",
+      "opcoes": [
+        "Ele está certo: ensinar dispensa reflexão",
+        "Só filósofos profissionais têm filosofia",
+        "A filosofia só serve para o ensino superior",
+        "Toda prática pressupõe ideias sobre ser humano e sociedade; a tarefa é torná-las conscientes"
+      ],
+      "correta": 3,
+      "explicacao": "Toda prática educativa carrega concepções; a filosofia ajuda a torná-las críticas."
+    },
+    {
+      "id": "filosofia-educacao-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Uma escola decide adotar um método só porque 'dá resultado nas provas'. Que questão filosófica fica sem resposta?",
+      "opcoes": [
+        "Que ser humano e que sociedade esse método ajuda a formar",
+        "Quanto custa o método",
+        "Quem inventou o método",
+        "Quantas horas o método exige"
+      ],
+      "correta": 0,
+      "explicacao": "Eficácia técnica não responde à pergunta sobre os fins e os valores da educação."
+    },
+    {
+      "id": "filosofia-educacao-6",
+      "topico": "antigos",
+      "nivel": "conceitual",
+      "pergunta": "A maiêutica de Sócrates consiste em:",
+      "opcoes": [
+        "Transmitir verdades prontas para serem decoradas",
+        "Ajudar o interlocutor, por perguntas, a dar à luz as próprias ideias",
+        "Ensinar retórica mediante pagamento",
+        "Aprender só pelos sentidos"
+      ],
+      "correta": 1,
+      "explicacao": "Maiêutica significa a arte do parto: o conhecimento nasce do próprio interlocutor guiado por perguntas."
+    },
+    {
+      "id": "filosofia-educacao-7",
+      "topico": "antigos",
+      "nivel": "conceitual",
+      "pergunta": "Na alegoria da caverna, de Platão, a educação é:",
+      "opcoes": [
+        "A adaptação à vida dentro da caverna",
+        "O treino da força física",
+        "A saída das sombras para a luz, uma conversão do olhar",
+        "A transmissão de opiniões comuns"
+      ],
+      "correta": 2,
+      "explicacao": "Os prisioneiros só veem sombras; educar é voltar-se para a verdade, o mundo das ideias."
+    },
+    {
+      "id": "filosofia-educacao-8",
+      "topico": "antigos",
+      "nivel": "conceitual",
+      "pergunta": "Para Aristóteles, a virtude é:",
+      "opcoes": [
+        "Um dom inato que não se aprende",
+        "O conhecimento das sombras",
+        "O sucesso na retórica",
+        "Um hábito, o justo meio entre extremos"
+      ],
+      "correta": 3,
+      "explicacao": "A virtude ética se adquire pela prática repetida e consiste no meio-termo, como a coragem entre a covardia e a temeridade."
+    },
+    {
+      "id": "filosofia-educacao-9",
+      "topico": "antigos",
+      "nivel": "aplicacao",
+      "pergunta": "Um professor responde à pergunta de um aluno com outras perguntas, até que o aluno perceba sozinho a contradição do que pensava. Ele usa:",
+      "opcoes": [
+        "O método socrático",
+        "A educação bancária",
+        "A tábula rasa de Locke",
+        "O poder disciplinar"
+      ],
+      "correta": 0,
+      "explicacao": "A ironia mostra a contradição e a maiêutica ajuda a construir a resposta."
+    },
+    {
+      "id": "filosofia-educacao-10",
+      "topico": "antigos",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença central entre Platão e Aristóteles quanto à origem do conhecimento?",
+      "opcoes": [
+        "Os dois achavam que o conhecimento vem só dos sentidos",
+        "Platão: recordar as ideias; Aristóteles: partir da experiência dos sentidos",
+        "Platão valorizava a experiência e Aristóteles a reminiscência",
+        "Nenhum dos dois falou sobre conhecimento"
+      ],
+      "correta": 1,
+      "explicacao": "Platão defende a reminiscência das ideias; Aristóteles diz que nada está no intelecto sem antes passar pelos sentidos."
+    },
+    {
+      "id": "filosofia-educacao-11",
+      "topico": "modernos",
+      "nivel": "conceitual",
+      "pergunta": "Quem escreveu a Didática Magna e propôs 'ensinar tudo a todos'?",
+      "opcoes": [
+        "Rousseau",
+        "Kant",
+        "Comenius",
+        "Locke"
+      ],
+      "correta": 2,
+      "explicacao": "Comenius defendeu escola universal, em língua materna e organizada em séries."
+    },
+    {
+      "id": "filosofia-educacao-12",
+      "topico": "modernos",
+      "nivel": "conceitual",
+      "pergunta": "Para Locke, a mente ao nascer é:",
+      "opcoes": [
+        "Cheia de ideias inatas",
+        "Determinada pela classe social",
+        "Perfeita e sem necessidade de educação",
+        "Uma tábula rasa, preenchida pela experiência"
+      ],
+      "correta": 3,
+      "explicacao": "O empirismo de Locke afirma que o conhecimento vem da experiência."
+    },
+    {
+      "id": "filosofia-educacao-13",
+      "topico": "modernos",
+      "nivel": "conceitual",
+      "pergunta": "Para Kant, o esclarecimento é:",
+      "opcoes": [
+        "A saída do ser humano da menoridade, usando o próprio entendimento",
+        "Obedecer às autoridades sem questionar",
+        "Decorar os textos clássicos",
+        "Voltar ao estado de natureza"
+      ],
+      "correta": 0,
+      "explicacao": "'Ousa saber': ter coragem de pensar por si mesmo, rumo à autonomia."
+    },
+    {
+      "id": "filosofia-educacao-14",
+      "topico": "modernos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma educadora defende que a criança pequena aprenda explorando a natureza, no seu ritmo, sem lições precoces de livros. Ela se inspira em:",
+      "opcoes": [
+        "Comenius",
+        "Rousseau",
+        "Foucault",
+        "Kant"
+      ],
+      "correta": 1,
+      "explicacao": "No Emílio, Rousseau propõe uma educação natural e negativa na infância, respeitando o desenvolvimento."
+    },
+    {
+      "id": "filosofia-educacao-15",
+      "topico": "modernos",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que Rousseau 'descobriu a infância'?",
+      "opcoes": [
+        "Porque fundou as primeiras creches",
+        "Porque inventou os brinquedos educativos",
+        "Porque defendeu que a criança tem um modo próprio de ser e não é um adulto em miniatura",
+        "Porque escreveu o primeiro livro para crianças"
+      ],
+      "correta": 2,
+      "explicacao": "Rousseau valorizou a infância como fase própria, ideia que influenciou a Escola Nova."
+    },
+    {
+      "id": "filosofia-educacao-16",
+      "topico": "dewey-escola-nova",
+      "nivel": "conceitual",
+      "pergunta": "Para Dewey, a educação é:",
+      "opcoes": [
+        "Preparação para a vida adulta, só",
+        "Transmissão de conteúdos clássicos",
+        "Disciplina do corpo",
+        "Vida e reconstrução contínua da experiência"
+      ],
+      "correta": 3,
+      "explicacao": "Dewey rejeita ver a escola só como preparação: ela já é vida."
+    },
+    {
+      "id": "filosofia-educacao-17",
+      "topico": "dewey-escola-nova",
+      "nivel": "conceitual",
+      "pergunta": "O Manifesto dos Pioneiros da Educação Nova (1932) defendia escola:",
+      "opcoes": [
+        "Pública, gratuita, laica e obrigatória",
+        "Privada e religiosa",
+        "Só para as elites",
+        "Técnica e paga"
+      ],
+      "correta": 0,
+      "explicacao": "Assinado por Anísio Teixeira, Fernando de Azevedo e outros, o manifesto propôs a reconstrução da educação nacional."
+    },
+    {
+      "id": "filosofia-educacao-18",
+      "topico": "dewey-escola-nova",
+      "nivel": "conceitual",
+      "pergunta": "O pragmatismo afirma que o valor de uma ideia está:",
+      "opcoes": [
+        "Na sua origem divina",
+        "Nas suas consequências práticas",
+        "Na autoridade de quem a diz",
+        "Na sua antiguidade"
+      ],
+      "correta": 1,
+      "explicacao": "Para o pragmatismo, ideias são instrumentos para resolver problemas."
+    },
+    {
+      "id": "filosofia-educacao-19",
+      "topico": "dewey-escola-nova",
+      "nivel": "aplicacao",
+      "pergunta": "Uma turma organiza uma horta para estudar plantas, medidas e alimentação. A proposta segue qual princípio?",
+      "opcoes": [
+        "Educação bancária",
+        "Tábula rasa",
+        "Aprender fazendo, de Dewey",
+        "Reminiscência platônica"
+      ],
+      "correta": 2,
+      "explicacao": "A aprendizagem a partir da experiência e de problemas reais é central na Escola Nova."
+    },
+    {
+      "id": "filosofia-educacao-20",
+      "topico": "dewey-escola-nova",
+      "nivel": "analise",
+      "pergunta": "Qual foi a crítica de Saviani à Escola Nova?",
+      "opcoes": [
+        "Deu atenção demais aos conteúdos clássicos",
+        "Era autoritária e centrada no professor",
+        "Proibia a experiência dos alunos",
+        "Deixou o conteúdo em segundo plano e beneficiou mais as escolas com recursos"
+      ],
+      "correta": 3,
+      "explicacao": "Para Saviani, ao secundarizar o saber sistematizado, a Escola Nova prejudicou as classes populares."
+    },
+    {
+      "id": "filosofia-educacao-21",
+      "topico": "critica-contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Para Adorno, qual é a primeira exigência da educação?",
+      "opcoes": [
+        "Que Auschwitz não se repita",
+        "Que todos aprendam a ler até os 7 anos",
+        "Que a escola prepare para o mercado",
+        "Que o aluno obedeça sem questionar"
+      ],
+      "correta": 0,
+      "explicacao": "Em Educação e emancipação, Adorno defende uma educação para a autorreflexão crítica contra a barbárie."
+    },
+    {
+      "id": "filosofia-educacao-22",
+      "topico": "critica-contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Em Vigiar e Punir, Foucault descreve a escola como:",
+      "opcoes": [
+        "Um espaço livre de relações de poder",
+        "Uma instituição disciplinar, com vigilância e exame",
+        "Uma comunidade democrática",
+        "Um lugar de ação comunicativa"
+      ],
+      "correta": 1,
+      "explicacao": "A escola, como a prisão e o quartel, usa vigilância hierárquica, sanção normalizadora e exame."
+    },
+    {
+      "id": "filosofia-educacao-23",
+      "topico": "critica-contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Para Hannah Arendt, a autoridade do professor vem:",
+      "opcoes": [
+        "Do medo que impõe aos alunos",
+        "Apenas do cargo e do salário",
+        "Da responsabilidade que ele assume pelo mundo diante dos novos",
+        "Da vontade dos alunos"
+      ],
+      "correta": 2,
+      "explicacao": "Em A crise na educação, Arendt liga autoridade à responsabilidade de apresentar o mundo às novas gerações."
+    },
+    {
+      "id": "filosofia-educacao-24",
+      "topico": "critica-contemporanea",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola usa ranking público de notas, fila e controle de cada movimento dos alunos. Que autor ajuda a analisar essas práticas?",
+      "opcoes": [
+        "Rousseau, com a educação natural",
+        "Dewey, com a escola democrática",
+        "Sócrates, com a maiêutica",
+        "Foucault, com o poder disciplinar"
+      ],
+      "correta": 3,
+      "explicacao": "Ranking, vigilância e exame são técnicas do poder disciplinar descritas por Foucault."
+    },
+    {
+      "id": "filosofia-educacao-25",
+      "topico": "critica-contemporanea",
+      "nivel": "analise",
+      "pergunta": "O que aproxima Adorno e Paulo Freire?",
+      "opcoes": [
+        "Os dois defendem uma educação crítica, voltada para a emancipação",
+        "Os dois defendem a educação bancária",
+        "Os dois rejeitam qualquer reflexão sobre a sociedade",
+        "Os dois defendem a obediência à autoridade"
+      ],
+      "correta": 0,
+      "explicacao": "Adorno fala em emancipação; Freire, em educação como prática da liberdade e conscientização."
+    },
+    {
+      "id": "filosofia-educacao-26",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre moral e ética?",
+      "opcoes": [
+        "São a mesma coisa",
+        "Moral é o conjunto de regras; ética é a reflexão crítica sobre elas",
+        "Ética é só religiosa",
+        "Moral é universal e ética é individual"
+      ],
+      "correta": 1,
+      "explicacao": "A ética examina e justifica (ou critica) as normas morais."
+    },
+    {
+      "id": "filosofia-educacao-27",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "A autonomia moral, segundo Piaget, se caracteriza por:",
+      "opcoes": [
+        "Obediência às regras por medo do castigo",
+        "Seguir o que o adulto manda sem discutir",
+        "Respeito mútuo e regras reconhecidas como válidas pela cooperação",
+        "Ausência de qualquer regra"
+      ],
+      "correta": 2,
+      "explicacao": "A moral autônoma nasce da cooperação entre iguais; a heterônoma, do respeito unilateral à autoridade."
+    },
+    {
+      "id": "filosofia-educacao-28",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "No nível pré-convencional de Kohlberg, a pessoa julga o certo e o errado por:",
+      "opcoes": [
+        "Princípios universais",
+        "Aprovação do grupo e das leis",
+        "Reflexão sobre direitos humanos",
+        "Castigo e recompensa"
+      ],
+      "correta": 3,
+      "explicacao": "Os níveis são pré-convencional (consequências), convencional (normas sociais) e pós-convencional (princípios)."
+    },
+    {
+      "id": "filosofia-educacao-29",
+      "topico": "etica",
+      "nivel": "aplicacao",
+      "pergunta": "Para favorecer a autonomia moral, uma professora deveria:",
+      "opcoes": [
+        "Construir as regras da turma com os alunos em assembleia",
+        "Ler uma lista de regras e punir quem descumprir",
+        "Dar sermões diários sobre bom comportamento",
+        "Deixar a turma sem nenhuma regra"
+      ],
+      "correta": 0,
+      "explicacao": "Participar da construção das regras ajuda os alunos a reconhecê-las como válidas."
+    },
+    {
+      "id": "filosofia-educacao-30",
+      "topico": "etica",
+      "nivel": "analise",
+      "pergunta": "Uma escola pública obriga todos os alunos a assistir a uma aula de uma religião específica. Qual é o problema?",
+      "opcoes": [
+        "Nenhum, a escola pode escolher a religião",
+        "Fere a laicidade: o ensino religioso é facultativo e não pode impor uma religião",
+        "O problema é só a duração da aula",
+        "Só seria problema em escola privada"
+      ],
+      "correta": 1,
+      "explicacao": "A Constituição (art. 210) prevê ensino religioso de matrícula facultativa, e o Estado é laico."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "politica-educacional",
+  "nome": "Política Educacional",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "estado-politicas",
+      "nome": "Estado e políticas públicas de educação",
+      "resumo": "**Política pública** é o conjunto de ações e decisões do Estado para enfrentar um problema público. A **política educacional** trata do direito à educação: acesso, permanência, qualidade e financiamento.\n\n### Conceitos\n- **Política de Estado**: prevista em lei ou na Constituição, atravessa governos (ex.: vinculação de recursos, FUNDEB).\n- **Política de governo**: programa de uma gestão, que pode acabar com a troca de governo.\n- **Universal**: para todos (ex.: ensino fundamental gratuito).\n- **Focalizada**: para um grupo específico, para corrigir desigualdades (ex.: cotas, transporte escolar rural).\n\n### Ciclo das políticas\nFormação da **agenda** → **formulação** → **tomada de decisão** → **implementação** → **avaliação**. Atores: governos, parlamento, movimentos sociais, sindicatos, organismos internacionais, empresas e fundações.\n\n### Direito à educação\n- Constituição, art. 205: **direito de todos e dever do Estado e da família**.\n- Art. 208: ensino obrigatório e gratuito é **direito público subjetivo**; o não oferecimento ou a oferta irregular importa **responsabilidade da autoridade competente**.\n- Estatuto da Criança e do Adolescente (ECA, Lei 8.069/1990) reforça o direito à escola e obriga os pais a matricular os filhos.",
+      "revisao": "**Lembre:**\n- Política de Estado (dura) × de governo (gestão).\n- Universal (todos) × focalizada (grupos).\n- Ciclo: agenda, formulação, decisão, implementação, avaliação.\n- Ensino obrigatório = direito público subjetivo."
+    },
+    {
+      "id": "organizacao",
+      "nome": "Organização da educação nacional",
+      "resumo": "A LDB (Lei 9.394/1996) organiza a educação brasileira.\n\n### Níveis e etapas (art. 21)\n- **Educação básica**: educação infantil (creche, 0 a 3 anos; pré-escola, 4 e 5), ensino fundamental (9 anos) e ensino médio.\n- **Educação superior**.\n- **Modalidades**: educação de jovens e adultos (EJA), educação especial, profissional e tecnológica, do campo, escolar indígena, quilombola, a distância, bilíngue de surdos.\n\n### Regime de colaboração (arts. 8 a 11)\n- **União**: coordena a política nacional, organiza o sistema federal e presta assistência técnica e financeira (função **redistributiva e supletiva**).\n- **Estados**: asseguram o ensino fundamental e oferecem, **com prioridade**, o **ensino médio**.\n- **Municípios**: oferecem a **educação infantil** e, **com prioridade**, o **ensino fundamental**.\n- Cada esfera tem seu **sistema de ensino**; o município pode se integrar ao sistema estadual.\n\n### Regras comuns da educação básica (art. 24)\n- Pelo menos **800 horas** anuais em, no mínimo, **200 dias letivos** (o ensino médio teve a carga ampliada).\n- Frequência mínima de **75%** do total de horas letivas.\n\n### Órgãos normativos\n**Conselho Nacional de Educação** (CNE), conselhos estaduais e municipais.",
+      "revisao": "**Lembre:**\n- Básica = infantil + fundamental + médio.\n- Municípios: infantil e, com prioridade, fundamental.\n- Estados: com prioridade, médio.\n- União: coordena, redistribui e supre.\n- 800 horas, 200 dias, 75% de frequência."
+    },
+    {
+      "id": "financiamento",
+      "nome": "Financiamento da educação",
+      "resumo": "### Vinculação constitucional (art. 212)\n- A **União** aplica pelo menos **18%** da receita de impostos em manutenção e desenvolvimento do ensino (**MDE**).\n- **Estados, DF e municípios** aplicam pelo menos **25%**.\n- **Salário-educação**: contribuição social das empresas (2,5% sobre a folha de pagamento) que financia a educação básica pública.\n\n### FUNDEB\n- **Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação**.\n- Um fundo por estado, formado por **20%** de vários impostos e transferências de estados e municípios, redistribuído conforme o **número de matrículas** na educação básica.\n- A **União complementa** os fundos dos estados mais pobres. Com a **Emenda Constitucional 108/2020**, o FUNDEB virou **permanente** e a complementação subiu de forma gradual até **23%** (em 2026).\n- Pelo menos **70%** dos recursos vão para a remuneração dos profissionais da educação básica em efetivo exercício (Lei 14.113/2020).\n- Antecessor: **FUNDEF** (1996–2006), só para o ensino fundamental.\n\n### Outros pontos\n- **Piso salarial** nacional do magistério (Lei 11.738/2008), para jornada de 40 horas; no máximo **2/3** da jornada em interação com os alunos.\n- Programas federais: merenda (**PNAE**), livro didático (**PNLD**), transporte (**PNATE**), dinheiro direto na escola (**PDDE**).\n- Controle social: conselhos de acompanhamento do FUNDEB.",
+      "revisao": "**Lembre:**\n- União 18%; estados e municípios 25%.\n- FUNDEB: 20% de impostos, por matrícula, permanente desde 2020.\n- Complementação da União até 23%.\n- 70% para profissionais da educação.\n- Piso: Lei 11.738/2008; 2/3 com alunos."
+    },
+    {
+      "id": "planos",
+      "nome": "Planos e metas: o PNE",
+      "resumo": "### Plano Nacional de Educação\n- Previsto na Constituição (art. 214): plano **decenal**, para articular o sistema nacional de educação.\n- **PNE 2014–2024** (Lei 13.005/2014), com **20 metas** e diretrizes como erradicar o analfabetismo, universalizar o atendimento escolar e valorizar os profissionais. Teve a vigência prorrogada até o fim de 2025 (Lei 14.934/2024).\n- Estados e municípios devem ter **planos** próprios, alinhados ao nacional.\n\n### Algumas metas do PNE 2014–2024\n- **Meta 1**: universalizar a pré-escola (4 e 5 anos) e ampliar a creche para atender pelo menos **50%** das crianças de até 3 anos.\n- **Meta 5**: alfabetizar todas as crianças até o fim do **3º ano** do ensino fundamental.\n- **Meta 6**: educação em **tempo integral** em pelo menos 50% das escolas públicas.\n- **Meta 7**: elevar a qualidade, com metas de **IDEB**.\n- **Meta 20**: investimento público em educação pública de **10% do PIB** até o fim do decênio.\n\n### Balanço\nBoa parte das metas não foi cumprida no prazo, principalmente as de financiamento (meta 20) e de creche. O teto de gastos de 2016 (EC 95) e a pandemia agravaram o cenário. O acompanhamento é feito pelo INEP e pela sociedade civil.",
+      "revisao": "**Lembre:**\n- PNE: decenal, art. 214 da CF.\n- Lei 13.005/2014, 20 metas.\n- Meta 1: pré-escola universal e 50% em creche.\n- Meta 5: alfabetizar até o fim do 3º ano.\n- Meta 20: 10% do PIB."
+    },
+    {
+      "id": "avaliacao",
+      "nome": "Avaliação em larga escala",
+      "resumo": "O Brasil criou, desde os anos 1990, um sistema de avaliações externas coordenado pelo **INEP** (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira).\n\n### Educação básica\n- **SAEB** (Sistema de Avaliação da Educação Básica): provas de **Língua Portuguesa** e **Matemática** aplicadas a cada **dois anos** em séries finais de etapa, com questionários de contexto.\n- **IDEB** (Índice de Desenvolvimento da Educação Básica), criado em **2007**: junta **fluxo escolar** (taxa de aprovação, do Censo Escolar) e **desempenho** no SAEB, em escala de 0 a 10. A meta nacional era chegar a **6** nos anos iniciais, média de países desenvolvidos.\n- **Censo Escolar**: levantamento anual de matrículas, escolas e docentes.\n- **ENEM** (1998): avaliação do fim do ensino médio que, desde **2009**, é a principal porta de entrada no ensino superior (**SISU**, **ProUni**, **FIES**).\n- **PISA** (OCDE): avaliação internacional de estudantes de 15 anos em leitura, matemática e ciências.\n\n### Ensino superior\n**SINAES** (Lei 10.861/2004): avaliação das instituições, dos cursos e dos estudantes (**ENADE**).\n\n### Debate\n- Avaliações dão diagnóstico e transparência.\n- Críticas: **estreitamento do currículo** (ensinar só para a prova), **ranqueamento** de escolas e responsabilização sem considerar o contexto socioeconômico.",
+      "revisao": "**Lembre:**\n- SAEB: português e matemática, a cada 2 anos.\n- IDEB = fluxo (aprovação) × desempenho (SAEB), 0 a 10.\n- ENEM → SISU, ProUni, FIES.\n- SINAES e ENADE no superior.\n- Crítica: ensinar só para a prova."
+    },
+    {
+      "id": "gestao-curriculo",
+      "nome": "Gestão democrática e currículo",
+      "resumo": "### Gestão democrática\n- Princípio do ensino público na **Constituição** (art. 206, VI) e na LDB.\n- LDB, art. 14: participação dos **profissionais da educação** na elaboração do projeto pedagógico e das **comunidades escolar e local** em **conselhos escolares** ou equivalentes.\n- Art. 15: progressivos graus de **autonomia pedagógica, administrativa e financeira** das escolas.\n- Instrumentos: **projeto político-pedagógico** (PPP), conselho escolar, grêmio estudantil, associação de pais, eleição ou processo seletivo de diretores.\n\n### Projeto político-pedagógico\n- A LDB (art. 12) atribui à escola elaborar e executar sua **proposta pedagógica**.\n- É **político** porque expressa um compromisso com um tipo de formação e de sociedade, e **pedagógico** porque organiza o trabalho educativo.\n\n### Currículo nacional\n- LDB, art. 26: currículos com **base nacional comum**, complementada por uma **parte diversificada** conforme características regionais e locais.\n- **BNCC** (Base Nacional Comum Curricular): homologada em **2017** (educação infantil e ensino fundamental) e em **2018** (ensino médio). Define **aprendizagens essenciais** e **10 competências gerais**. Não é currículo pronto: as redes e as escolas elaboram seus currículos a partir dela.\n- **Reforma do Ensino Médio** (Lei 13.415/2017): formação geral básica + **itinerários formativos**; revista pela **Lei 14.945/2024**, que ampliou a formação geral básica para 2.400 horas.",
+      "revisao": "**Lembre:**\n- Gestão democrática: CF art. 206 e LDB art. 14.\n- PPP: elaborado com participação; político e pedagógico.\n- Base comum + parte diversificada (LDB art. 26).\n- BNCC: 2017 (infantil e fundamental) e 2018 (médio), 10 competências.\n- Ensino médio: Lei 13.415/2017, revista em 2024."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "politica-educacional-1",
+      "topico": "estado-politicas",
+      "nivel": "conceitual",
+      "pergunta": "O que diferencia uma política de Estado de uma política de governo?",
+      "opcoes": [
+        "A política de Estado está prevista em lei ou na Constituição e atravessa governos",
+        "A política de governo vale para sempre",
+        "Só a política de Estado é financiada",
+        "Não há diferença"
+      ],
+      "correta": 0,
+      "explicacao": "Políticas de governo dependem de uma gestão; as de Estado estão institucionalizadas e continuam com a troca de governo."
+    },
+    {
+      "id": "politica-educacional-2",
+      "topico": "estado-politicas",
+      "nivel": "conceitual",
+      "pergunta": "Uma política focalizada é aquela que:",
+      "opcoes": [
+        "Vale igualmente para toda a população",
+        "Atende a um grupo específico para corrigir desigualdades",
+        "É decidida só pelo município",
+        "Não usa recursos públicos"
+      ],
+      "correta": 1,
+      "explicacao": "Exemplos: cotas, transporte escolar rural, programas para comunidades indígenas."
+    },
+    {
+      "id": "politica-educacional-3",
+      "topico": "estado-politicas",
+      "nivel": "conceitual",
+      "pergunta": "Pela Constituição, o acesso ao ensino obrigatório e gratuito é:",
+      "opcoes": [
+        "Um favor do governo",
+        "Responsabilidade só da família",
+        "Direito público subjetivo",
+        "Um serviço opcional do Estado"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 208, §1º: o cidadão pode exigir judicialmente a vaga, e a autoridade responde pelo não oferecimento."
+    },
+    {
+      "id": "politica-educacional-4",
+      "topico": "estado-politicas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mãe não consegue vaga na pré-escola pública para o filho de 4 anos. O que ela pode fazer?",
+      "opcoes": [
+        "Nada, porque a pré-escola não é obrigatória",
+        "Apenas esperar o ano seguinte",
+        "Pagar uma escola privada, que é a única saída legal",
+        "Exigir a vaga, inclusive na Justiça, porque é direito público subjetivo"
+      ],
+      "correta": 3,
+      "explicacao": "A educação é obrigatória dos 4 aos 17 anos, e o ensino obrigatório é direito público subjetivo."
+    },
+    {
+      "id": "politica-educacional-5",
+      "topico": "estado-politicas",
+      "nivel": "analise",
+      "pergunta": "Um programa de reforço escolar acaba toda vez que o prefeito muda. Do ponto de vista da política educacional, qual é o problema?",
+      "opcoes": [
+        "É política de governo, sem institucionalização que garanta continuidade",
+        "É uma política universal",
+        "É uma política de Estado bem consolidada",
+        "O problema é ser focalizado"
+      ],
+      "correta": 0,
+      "explicacao": "Sem previsão legal e orçamentária estável, ações educativas ficam sujeitas à descontinuidade."
+    },
+    {
+      "id": "politica-educacional-6",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a LDB, a educação básica é formada por:",
+      "opcoes": [
+        "Ensino fundamental e superior",
+        "Educação infantil, ensino fundamental e ensino médio",
+        "Creche e pré-escola",
+        "Ensino médio e técnico"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 21: a educação escolar se compõe de educação básica (infantil, fundamental e médio) e educação superior."
+    },
+    {
+      "id": "politica-educacional-7",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a responsabilidade prioritária dos municípios, segundo a LDB?",
+      "opcoes": [
+        "Ensino médio",
+        "Ensino superior",
+        "Educação infantil e, com prioridade, ensino fundamental",
+        "Pós-graduação"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 11, V: os municípios oferecem a educação infantil e, com prioridade, o ensino fundamental."
+    },
+    {
+      "id": "politica-educacional-8",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a carga horária mínima anual da educação básica prevista na LDB?",
+      "opcoes": [
+        "600 horas em 180 dias",
+        "1.000 horas em 150 dias",
+        "400 horas em 100 dias",
+        "800 horas em pelo menos 200 dias letivos"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 24, I. O ensino médio teve a carga horária ampliada pela reforma de 2017."
+    },
+    {
+      "id": "politica-educacional-9",
+      "topico": "organizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um aluno faltou a 30% das aulas do ano. Pela regra da LDB, o que acontece?",
+      "opcoes": [
+        "Fica abaixo dos 75% de frequência mínima exigida para aprovação",
+        "Está dentro do limite, que é 50%",
+        "Não há regra de frequência na educação básica",
+        "Só perde a nota de participação"
+      ],
+      "correta": 0,
+      "explicacao": "A LDB exige frequência mínima de 75% do total de horas letivas."
+    },
+    {
+      "id": "politica-educacional-10",
+      "topico": "organizacao",
+      "nivel": "analise",
+      "pergunta": "O que significa dizer que a União tem função 'redistributiva e supletiva' na educação?",
+      "opcoes": [
+        "Ela administra todas as escolas do país",
+        "Ela repassa recursos e apoio técnico para reduzir desigualdades entre as redes",
+        "Ela só cuida das universidades privadas",
+        "Ela substitui os municípios na educação infantil"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 9: a União coordena a política nacional e presta assistência técnica e financeira a estados e municípios."
+    },
+    {
+      "id": "politica-educacional-11",
+      "topico": "financiamento",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o percentual mínimo da receita de impostos que a União deve aplicar em educação?",
+      "opcoes": [
+        "25%",
+        "10%",
+        "18%",
+        "30%"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 212 da Constituição: União 18%; estados, DF e municípios 25%."
+    },
+    {
+      "id": "politica-educacional-12",
+      "topico": "financiamento",
+      "nivel": "conceitual",
+      "pergunta": "Como os recursos do FUNDEB são distribuídos dentro de cada estado?",
+      "opcoes": [
+        "Igualmente entre todos os municípios",
+        "Conforme a população total",
+        "Conforme as notas no ENEM",
+        "Conforme o número de matrículas na educação básica pública"
+      ],
+      "correta": 3,
+      "explicacao": "O fundo redistribui recursos por matrícula, com fatores de ponderação por etapa e modalidade."
+    },
+    {
+      "id": "politica-educacional-13",
+      "topico": "financiamento",
+      "nivel": "conceitual",
+      "pergunta": "O que a Emenda Constitucional 108/2020 mudou no FUNDEB?",
+      "opcoes": [
+        "Tornou-o permanente e aumentou a complementação da União",
+        "Extinguiu o fundo",
+        "Restringiu-o ao ensino fundamental",
+        "Transferiu-o para o ensino superior"
+      ],
+      "correta": 0,
+      "explicacao": "A complementação da União sobe de forma gradual até 23% em 2026."
+    },
+    {
+      "id": "politica-educacional-14",
+      "topico": "financiamento",
+      "nivel": "aplicacao",
+      "pergunta": "Um município recebeu recursos do FUNDEB. Pelo menos que parte deve ir para a remuneração dos profissionais da educação básica?",
+      "opcoes": [
+        "25%",
+        "70%",
+        "50%",
+        "100%"
+      ],
+      "correta": 1,
+      "explicacao": "A Lei 14.113/2020 fixou o mínimo de 70% para profissionais da educação básica em efetivo exercício."
+    },
+    {
+      "id": "politica-educacional-15",
+      "topico": "financiamento",
+      "nivel": "analise",
+      "pergunta": "Um professor com jornada de 40 horas fica 36 horas por semana dando aula. Isso respeita a Lei do Piso?",
+      "opcoes": [
+        "Sim, não há limite",
+        "Sim, porque a lei exige pelo menos 90% em sala",
+        "Não, porque no máximo 2/3 da jornada podem ser de interação com os alunos",
+        "Depende só do diretor"
+      ],
+      "correta": 2,
+      "explicacao": "A Lei 11.738/2008 reserva pelo menos 1/3 da jornada para atividades extraclasse (planejamento, correção, formação)."
+    },
+    {
+      "id": "politica-educacional-16",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Qual lei aprovou o Plano Nacional de Educação 2014–2024?",
+      "opcoes": [
+        "Lei 9.394/1996",
+        "Lei 11.738/2008",
+        "Lei 10.861/2004",
+        "Lei 13.005/2014"
+      ],
+      "correta": 3,
+      "explicacao": "O PNE 2014–2024 tem 20 metas e foi prorrogado até o fim de 2025."
+    },
+    {
+      "id": "politica-educacional-17",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "A Meta 20 do PNE 2014–2024 previa:",
+      "opcoes": [
+        "Investimento público em educação pública de 10% do PIB",
+        "Alfabetização de todas as crianças até o 3º ano",
+        "Universalização da pré-escola",
+        "Tempo integral em 50% das escolas"
+      ],
+      "correta": 0,
+      "explicacao": "A meta de financiamento foi uma das que ficaram mais longe de ser cumpridas."
+    },
+    {
+      "id": "politica-educacional-18",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a duração do Plano Nacional de Educação previsto na Constituição?",
+      "opcoes": [
+        "Quatro anos",
+        "Dez anos",
+        "Um ano",
+        "Vinte anos"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 214 da Constituição: o PNE tem duração decenal e deve articular o sistema nacional de educação em regime de colaboração."
+    },
+    {
+      "id": "politica-educacional-19",
+      "topico": "planos",
+      "nivel": "aplicacao",
+      "pergunta": "Um município quer saber se precisa ter um plano de educação próprio. A resposta é:",
+      "opcoes": [
+        "Não, só a União faz plano",
+        "Só se tiver universidade",
+        "Sim, estados e municípios devem ter planos alinhados ao PNE",
+        "Só se a câmara pedir"
+      ],
+      "correta": 2,
+      "explicacao": "A Lei 13.005/2014 determinou a elaboração ou adequação dos planos estaduais e municipais."
+    },
+    {
+      "id": "politica-educacional-20",
+      "topico": "planos",
+      "nivel": "analise",
+      "pergunta": "Por que a Meta 20 (10% do PIB) é considerada decisiva para as outras metas do PNE?",
+      "opcoes": [
+        "Porque é a única meta obrigatória",
+        "Porque trata só do ensino superior privado",
+        "Porque não depende de orçamento",
+        "Porque expandir creches, tempo integral e valorizar professores exige mais recursos"
+      ],
+      "correta": 3,
+      "explicacao": "Sem financiamento, as metas de acesso, qualidade e valorização ficam comprometidas."
+    },
+    {
+      "id": "politica-educacional-21",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "O IDEB combina:",
+      "opcoes": [
+        "Fluxo escolar (aprovação) e desempenho no SAEB",
+        "Notas do ENEM e do ENADE",
+        "Número de matrículas e de professores",
+        "Gasto por aluno e salário docente"
+      ],
+      "correta": 0,
+      "explicacao": "O índice multiplica a taxa de aprovação pela proficiência média, em escala de 0 a 10."
+    },
+    {
+      "id": "politica-educacional-22",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "Quais disciplinas são avaliadas no SAEB?",
+      "opcoes": [
+        "Todas as disciplinas do currículo",
+        "Língua Portuguesa e Matemática",
+        "Apenas Ciências",
+        "Inglês e Espanhol"
+      ],
+      "correta": 1,
+      "explicacao": "O SAEB avalia leitura e matemática, com aplicações a cada dois anos."
+    },
+    {
+      "id": "politica-educacional-23",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "O ENADE faz parte de qual sistema?",
+      "opcoes": [
+        "SAEB",
+        "PISA",
+        "SINAES, de avaliação da educação superior",
+        "Censo Escolar"
+      ],
+      "correta": 2,
+      "explicacao": "A Lei 10.861/2004 criou o SINAES, que avalia instituições, cursos e o desempenho dos estudantes."
+    },
+    {
+      "id": "politica-educacional-24",
+      "topico": "avaliacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola tem ótimas notas no SAEB, mas reprova muitos alunos. O que acontece com o seu IDEB?",
+      "opcoes": [
+        "Fica alto, porque só a nota conta",
+        "Não é calculado",
+        "Fica igual ao de escolas sem reprovação",
+        "Fica mais baixo, porque o fluxo (aprovação) também entra no cálculo"
+      ],
+      "correta": 3,
+      "explicacao": "O IDEB foi pensado para evitar que a escola melhore a nota retendo alunos."
+    },
+    {
+      "id": "politica-educacional-25",
+      "topico": "avaliacao",
+      "nivel": "analise",
+      "pergunta": "Qual é a crítica conhecida como 'estreitamento do currículo'?",
+      "opcoes": [
+        "As escolas passam a ensinar só o que cai nas avaliações externas",
+        "As avaliações aumentam demais o conteúdo",
+        "As escolas ficam sem nenhuma avaliação",
+        "As provas avaliam só artes"
+      ],
+      "correta": 0,
+      "explicacao": "Pressão por resultados pode fazer a escola priorizar português e matemática do formato da prova."
+    },
+    {
+      "id": "politica-educacional-26",
+      "topico": "gestao-curriculo",
+      "nivel": "conceitual",
+      "pergunta": "Onde está previsto o princípio da gestão democrática do ensino público?",
+      "opcoes": [
+        "Só nos regimentos das escolas privadas",
+        "Na Constituição Federal (art. 206) e na LDB",
+        "No Código Civil",
+        "Apenas no PNE"
+      ],
+      "correta": 1,
+      "explicacao": "A gestão democrática é princípio constitucional, detalhado nos arts. 14 e 15 da LDB."
+    },
+    {
+      "id": "politica-educacional-27",
+      "topico": "gestao-curriculo",
+      "nivel": "conceitual",
+      "pergunta": "A BNCC é:",
+      "opcoes": [
+        "O currículo pronto que todas as escolas devem copiar",
+        "Uma avaliação nacional",
+        "Um documento que define aprendizagens essenciais, a partir do qual as redes fazem seus currículos",
+        "Um fundo de financiamento"
+      ],
+      "correta": 2,
+      "explicacao": "A BNCC orienta os currículos; as redes e escolas elaboram os seus com a parte diversificada."
+    },
+    {
+      "id": "politica-educacional-28",
+      "topico": "gestao-curriculo",
+      "nivel": "conceitual",
+      "pergunta": "Pela LDB, os currículos da educação básica têm:",
+      "opcoes": [
+        "Somente base nacional comum",
+        "Somente conteúdos escolhidos pela escola",
+        "Apenas conteúdos do ENEM",
+        "Base nacional comum e parte diversificada"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 26: a parte diversificada atende às características regionais e locais."
+    },
+    {
+      "id": "politica-educacional-29",
+      "topico": "gestao-curriculo",
+      "nivel": "aplicacao",
+      "pergunta": "O diretor escreve sozinho o projeto político-pedagógico e só apresenta pronto. Isso respeita a LDB?",
+      "opcoes": [
+        "Não, porque a LDB prevê a participação dos profissionais da educação na elaboração",
+        "Sim, o PPP é tarefa exclusiva do diretor",
+        "Sim, desde que seja registrado em cartório",
+        "Não, porque o PPP é feito pelo MEC"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 14, I: participação dos profissionais da educação na elaboração do projeto pedagógico da escola."
+    },
+    {
+      "id": "politica-educacional-30",
+      "topico": "gestao-curriculo",
+      "nivel": "analise",
+      "pergunta": "Por que o projeto da escola é chamado de 'político-pedagógico'?",
+      "opcoes": [
+        "Porque é escrito por partidos políticos",
+        "Porque expressa um compromisso com um tipo de formação e de sociedade e organiza o trabalho educativo",
+        "Porque precisa ser aprovado pelo prefeito",
+        "Porque trata só de eleições escolares"
+      ],
+      "correta": 1,
+      "explicacao": "O sentido político é o da intencionalidade social da educação, não o partidário."
+    }
+  ]
+}

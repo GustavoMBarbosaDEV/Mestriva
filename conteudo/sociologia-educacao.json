@@ -1,0 +1,465 @@
+{
+  "id": "sociologia-educacao",
+  "nome": "Sociologia da Educação",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "durkheim",
+      "nome": "Durkheim e a educação como socialização",
+      "resumo": "Émile Durkheim é considerado o fundador da Sociologia da Educação. Para ele, a educação é um **fato social**: existe fora dos indivíduos, é geral e se impõe a eles.\n\n### Ideias centrais\n- Educação é a **ação exercida pelas gerações adultas sobre as que ainda não estão maduras** para a vida social.\n- Seu objetivo é a **socialização metódica** das novas gerações: formar o **ser social** a partir do ser individual.\n- Cada sociedade tem o tipo de educação de que precisa; por isso a educação **varia** com o tempo e o lugar.\n- A escola transmite valores comuns e garante a **coesão social** (solidariedade).\n- **Solidariedade mecânica** (sociedades simples, semelhança) e **orgânica** (sociedades complexas, divisão do trabalho).\n- Defendia a **educação moral laica**: disciplina, apego ao grupo e autonomia da vontade.\n\n### Leitura crítica\nDurkheim é visto como representante de uma visão **funcionalista**: a escola serve para integrar e manter a ordem social. As teorias críticas posteriores vão questionar se essa integração é neutra ou se reproduz desigualdades.",
+      "revisao": "**Lembre:**\n- Educação = fato social.\n- Socialização metódica das novas gerações.\n- Escola garante coesão social.\n- Visão funcionalista: integração e ordem.\n- Cada sociedade, sua educação."
+    },
+    {
+      "id": "weber-marx",
+      "nome": "Weber, Marx e a escola",
+      "resumo": "Outros clássicos ajudam a entender a escola por ângulos diferentes.\n\n### Karl Marx\n- A sociedade capitalista é marcada pela **luta de classes** entre burguesia e proletariado.\n- A **infraestrutura** (economia) condiciona a **superestrutura** (direito, política, educação, ideologia).\n- A educação pode servir à **ideologia dominante**, mas Marx também defendia a união de **ensino e trabalho produtivo** (formação omnilateral, politécnica).\n\n### Max Weber\n- Analisa a **ação social** e a **racionalização** da vida moderna.\n- **Burocracia**: organização baseada em regras, hierarquia e competência técnica; a escola moderna tem traços burocráticos.\n- Os **diplomas** funcionam como credenciais que dão acesso a posições e prestígio (**status**).\n- Tipos de dominação: **tradicional**, **carismática** e **racional-legal**.\n\n### Gramsci\nAntonio Gramsci, marxista italiano, destacou a **hegemonia**: a dominação também se faz pelo consenso cultural. A escola pode reproduzir a hegemonia, mas também formar **intelectuais orgânicos** das classes populares (**escola unitária**).",
+      "revisao": "**Lembre:**\n- Marx: luta de classes; economia condiciona a educação.\n- Weber: racionalização, burocracia, diploma como credencial.\n- Gramsci: hegemonia por consenso; escola unitária.\n- Dominação: tradicional, carismática, racional-legal."
+    },
+    {
+      "id": "reproducao",
+      "nome": "Teorias da reprodução",
+      "resumo": "Nos anos 1960 e 1970, surgiram teorias que mostraram a escola como reprodutora das desigualdades sociais.\n\n### Bourdieu e Passeron\n- **Capital cultural**: conhecimentos, gostos, linguagem e diplomas herdados da família. Pode estar **incorporado** (jeito de falar), **objetivado** (livros, obras) ou **institucionalizado** (diplomas).\n- **Habitus**: disposições duráveis aprendidas no meio social, que orientam o modo de agir e pensar.\n- A escola cobra uma cultura que é a das classes dominantes, como se fosse natural. Quem já traz esse capital de casa parece mais \"dotado\".\n- **Violência simbólica**: imposição de uma cultura como legítima, escondendo que é arbitrária.\n- Resultado: o fracasso escolar dos mais pobres é visto como falta de mérito individual (**ideologia do dom**).\n\n### Althusser\nA escola é um **Aparelho Ideológico de Estado**: transmite a ideologia dominante e prepara as pessoas para ocupar seus lugares na produção.\n\n### Baudelot e Establet, Bowles e Gintis\n- Escola dualista: uma rede para os trabalhadores e outra para as elites.\n- **Princípio da correspondência**: as relações na escola espelham as do trabalho (hierarquia, disciplina).\n\n### Crítica\nEssas teorias mostram limites da escola, mas foram acusadas de **pessimismo**: deixam pouco espaço para a mudança.",
+      "revisao": "**Lembre:**\n- Bourdieu: capital cultural, habitus, violência simbólica.\n- Ideologia do dom esconde a herança social.\n- Althusser: Aparelho Ideológico de Estado.\n- Correspondência escola–trabalho.\n- Crítica: pessimismo, pouca margem para mudança."
+    },
+    {
+      "id": "critica-pedagogia",
+      "nome": "Escola e transformação social",
+      "resumo": "Depois das teorias da reprodução, outras abordagens mostraram que a escola também pode **transformar**.\n\n### Paulo Freire\n- Critica a **educação bancária**, em que o professor \"deposita\" conteúdos em alunos passivos.\n- Propõe a **educação problematizadora** e **dialógica**: partir da realidade do aluno, dos **temas geradores**, para chegar à leitura crítica do mundo.\n- **Conscientização**: passar da consciência ingênua à consciência crítica.\n- \"Ninguém educa ninguém, ninguém se educa sozinho; os homens se educam entre si, mediatizados pelo mundo.\"\n\n### Saviani\nDermeval Saviani classificou as teorias em **não críticas** (tradicional, nova, tecnicista), **crítico-reprodutivistas** (Bourdieu, Althusser) e propôs a **pedagogia histórico-crítica**: a escola deve garantir às classes populares o acesso ao **saber sistematizado**, como instrumento de transformação.\n\n### Libâneo\n**Pedagogia crítico-social dos conteúdos**: conteúdos significativos ligados à realidade social.\n\n### Currículo oculto\nAquilo que a escola ensina sem dizer: normas, valores, atitudes, hierarquias (Jackson, Apple, Giroux).",
+      "revisao": "**Lembre:**\n- Freire: bancária × problematizadora; diálogo; temas geradores.\n- Saviani: não críticas, crítico-reprodutivistas, histórico-crítica.\n- Histórico-crítica: saber sistematizado para as classes populares.\n- Currículo oculto: o que se ensina sem dizer."
+    },
+    {
+      "id": "desigualdades",
+      "nome": "Desigualdades e fracasso escolar",
+      "resumo": "A Sociologia da Educação estuda como origem social, raça, gênero e território influenciam a trajetória escolar.\n\n### Fracasso escolar\n- Durante muito tempo foi explicado pela **carência cultural** do aluno pobre (teoria da privação cultural).\n- Maria Helena Souza Patto (*A produção do fracasso escolar*, 1990) mostrou que o fracasso é **produzido** pela própria escola e pelas suas práticas, não só por características do aluno.\n- **Distorção idade-série**, repetência e evasão afetam mais os pobres, negros e moradores do campo e das periferias.\n\n### Relatório Coleman (EUA, 1966)\nMostrou o peso da **origem familiar** no desempenho, maior que o das diferenças entre escolas. Pesquisas posteriores sobre **efeito-escola** mostraram que a escola também faz diferença.\n\n### Raça e gênero\n- A **Lei 10.639/2003** tornou obrigatório o ensino de história e cultura afro-brasileira; a **Lei 11.645/2008** incluiu a indígena.\n- **Lei de Cotas** (Lei 12.711/2012) reserva vagas nas federais para egressos de escola pública, com recorte de renda e raça.\n\n### Meritocracia\nA ideia de que cada um chega aonde merece ignora que o ponto de partida é desigual.",
+      "revisao": "**Lembre:**\n- Fracasso escolar é produzido também pela escola (Patto).\n- Coleman: peso da origem familiar.\n- Leis 10.639 e 11.645: história afro-brasileira e indígena.\n- Lei de Cotas: 12.711/2012.\n- Meritocracia ignora pontos de partida desiguais."
+    },
+    {
+      "id": "escola-contemporanea",
+      "nome": "Escola, juventude e sociedade contemporânea",
+      "resumo": "A escola de hoje convive com mudanças rápidas na família, no trabalho e na tecnologia.\n\n### Juventudes\n- Não existe uma juventude, mas **juventudes**, marcadas por classe, raça, gênero e território.\n- Muitos jovens conciliam estudo e trabalho; a escola precisa dialogar com seus projetos de vida.\n\n### Escola e família\n- A participação da família é desejada, mas as famílias têm tempos, recursos e capital cultural diferentes.\n- A escola não deve culpar a família pelo que é responsabilidade pedagógica.\n\n### Tecnologia e desigualdade digital\n- Acesso a internet e a aparelhos é desigual; a pandemia de 2020 deixou isso evidente.\n- Tecnologia não resolve sozinha: depende de formação e de proposta pedagógica.\n\n### Violência e convivência\n- **Bullying**: violência repetida e intencional entre pares; a **Lei 13.185/2015** criou o programa de combate à intimidação sistemática.\n- Mediação de conflitos e **justiça restaurativa** buscam reparar danos e reconstruir relações.\n\n### Escola como espaço público\nA escola é lugar de convivência com o diferente e de formação para a **cidadania**, além da transmissão de conteúdos.",
+      "revisao": "**Lembre:**\n- Juventudes no plural.\n- Desigualdade digital ficou evidente na pandemia.\n- Bullying: violência repetida entre pares (Lei 13.185/2015).\n- Justiça restaurativa repara relações.\n- Escola forma para a cidadania."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "sociologia-educacao-1",
+      "topico": "durkheim",
+      "nivel": "conceitual",
+      "pergunta": "Para Durkheim, a educação é:",
+      "opcoes": [
+        "A socialização metódica das novas gerações",
+        "Um direito natural do indivíduo isolado",
+        "Um instrumento de luta de classes",
+        "Um processo só biológico"
+      ],
+      "correta": 0,
+      "explicacao": "Durkheim define a educação como ação das gerações adultas sobre as mais jovens para formar o ser social."
+    },
+    {
+      "id": "sociologia-educacao-2",
+      "topico": "durkheim",
+      "nivel": "conceitual",
+      "pergunta": "Por que Durkheim chama a educação de fato social?",
+      "opcoes": [
+        "Porque depende só da vontade de cada professor",
+        "Porque existe fora dos indivíduos, é geral e se impõe a eles",
+        "Porque é igual em todas as sociedades",
+        "Porque é uma escolha individual"
+      ],
+      "correta": 1,
+      "explicacao": "Fatos sociais são exteriores, gerais e coercitivos."
+    },
+    {
+      "id": "sociologia-educacao-3",
+      "topico": "durkheim",
+      "nivel": "conceitual",
+      "pergunta": "A perspectiva de Durkheim sobre a escola é geralmente classificada como:",
+      "opcoes": [
+        "Crítico-reprodutivista",
+        "Histórico-crítica",
+        "Funcionalista",
+        "Libertadora"
+      ],
+      "correta": 2,
+      "explicacao": "Para Durkheim, a escola cumpre a função de integrar e manter a coesão social."
+    },
+    {
+      "id": "sociologia-educacao-4",
+      "topico": "durkheim",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola ensina regras de convivência e valores comuns a todos os alunos para que vivam bem em sociedade. Na visão de Durkheim, ela está:",
+      "opcoes": [
+        "Reproduzindo a luta de classes",
+        "Praticando educação bancária",
+        "Aplicando o currículo oculto de forma crítica",
+        "Promovendo a coesão social pela socialização"
+      ],
+      "correta": 3,
+      "explicacao": "Transmitir valores comuns para integrar os indivíduos é a função que Durkheim atribui à educação."
+    },
+    {
+      "id": "sociologia-educacao-5",
+      "topico": "durkheim",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal crítica das teorias posteriores à visão de Durkheim sobre a escola?",
+      "opcoes": [
+        "Ela trata a integração como neutra e não discute as desigualdades que a escola reproduz",
+        "Ela dá importância demais ao conflito",
+        "Ela nega que a educação mude com a sociedade",
+        "Ela defende a educação religiosa"
+      ],
+      "correta": 0,
+      "explicacao": "As teorias críticas questionam a ideia de que a socialização escolar seria neutra e igual para todos."
+    },
+    {
+      "id": "sociologia-educacao-6",
+      "topico": "weber-marx",
+      "nivel": "conceitual",
+      "pergunta": "Para Marx, a educação faz parte:",
+      "opcoes": [
+        "Da infraestrutura econômica",
+        "Da superestrutura, condicionada pela base econômica",
+        "De uma esfera independente da economia",
+        "Apenas da vida privada"
+      ],
+      "correta": 1,
+      "explicacao": "No modelo marxista, a superestrutura (direito, política, educação, ideologia) é condicionada pela infraestrutura econômica."
+    },
+    {
+      "id": "sociologia-educacao-7",
+      "topico": "weber-marx",
+      "nivel": "conceitual",
+      "pergunta": "Na análise de Weber, os diplomas funcionam como:",
+      "opcoes": [
+        "Prova de que todos têm as mesmas oportunidades",
+        "Instrumentos da luta de classes",
+        "Credenciais que dão acesso a posições e prestígio",
+        "Documentos sem valor social"
+      ],
+      "correta": 2,
+      "explicacao": "Weber destacou o papel dos títulos escolares na disputa por status e posições."
+    },
+    {
+      "id": "sociologia-educacao-8",
+      "topico": "weber-marx",
+      "nivel": "conceitual",
+      "pergunta": "Para Gramsci, a hegemonia é:",
+      "opcoes": [
+        "O uso exclusivo da força pelo Estado",
+        "A divisão do trabalho na fábrica",
+        "A organização burocrática da escola",
+        "A dominação que se faz também pelo consenso cultural"
+      ],
+      "correta": 3,
+      "explicacao": "Gramsci mostrou que as classes dominantes também dirigem pela cultura e pelo consenso."
+    },
+    {
+      "id": "sociologia-educacao-9",
+      "topico": "weber-marx",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola organizada por regras escritas, hierarquia de cargos e promoção por títulos tem traços do que Weber chamou de:",
+      "opcoes": [
+        "Burocracia",
+        "Dominação carismática",
+        "Educação bancária",
+        "Habitus"
+      ],
+      "correta": 0,
+      "explicacao": "Regras impessoais, hierarquia e competência técnica caracterizam a burocracia weberiana."
+    },
+    {
+      "id": "sociologia-educacao-10",
+      "topico": "weber-marx",
+      "nivel": "analise",
+      "pergunta": "Um projeto de escola que une estudo teórico e trabalho produtivo para formar o ser humano em todas as dimensões se aproxima de qual ideia?",
+      "opcoes": [
+        "Educação moral laica de Durkheim",
+        "Formação omnilateral (politécnica), de inspiração marxista",
+        "Dominação racional-legal de Weber",
+        "Ideologia do dom"
+      ],
+      "correta": 1,
+      "explicacao": "Marx defendia unir ensino e trabalho produtivo para uma formação omnilateral."
+    },
+    {
+      "id": "sociologia-educacao-11",
+      "topico": "reproducao",
+      "nivel": "conceitual",
+      "pergunta": "O que Bourdieu chama de capital cultural?",
+      "opcoes": [
+        "O dinheiro que a família investe na escola",
+        "O prédio e os equipamentos da escola",
+        "Conhecimentos, gostos, linguagem e diplomas herdados do meio familiar",
+        "A soma das notas do aluno"
+      ],
+      "correta": 2,
+      "explicacao": "Capital cultural pode estar incorporado, objetivado ou institucionalizado e é transmitido principalmente pela família."
+    },
+    {
+      "id": "sociologia-educacao-12",
+      "topico": "reproducao",
+      "nivel": "conceitual",
+      "pergunta": "Para Althusser, a escola é:",
+      "opcoes": [
+        "Um espaço neutro de transmissão do saber",
+        "Uma instituição sem relação com a produção",
+        "O principal Aparelho Repressivo de Estado",
+        "Um Aparelho Ideológico de Estado"
+      ],
+      "correta": 3,
+      "explicacao": "Althusser classifica a escola como o principal aparelho ideológico nas sociedades capitalistas."
+    },
+    {
+      "id": "sociologia-educacao-13",
+      "topico": "reproducao",
+      "nivel": "conceitual",
+      "pergunta": "A violência simbólica, para Bourdieu, é:",
+      "opcoes": [
+        "A imposição de uma cultura como legítima, escondendo que é arbitrária",
+        "A agressão física dentro da escola",
+        "O bullying entre alunos",
+        "O uso de castigos pelo professor"
+      ],
+      "correta": 0,
+      "explicacao": "É violência sem força física: impõe significados como naturais e legítimos."
+    },
+    {
+      "id": "sociologia-educacao-14",
+      "topico": "reproducao",
+      "nivel": "aplicacao",
+      "pergunta": "Um aluno filho de professores universitários vai bem na escola e é chamado de 'talentoso'. Para Bourdieu, isso mostra:",
+      "opcoes": [
+        "Que a escola é neutra",
+        "A ideologia do dom, que esconde a herança de capital cultural",
+        "Que o mérito é sempre individual",
+        "A educação problematizadora de Freire"
+      ],
+      "correta": 1,
+      "explicacao": "O sucesso parece talento natural, mas reflete o capital cultural herdado que a escola valoriza."
+    },
+    {
+      "id": "sociologia-educacao-15",
+      "topico": "reproducao",
+      "nivel": "analise",
+      "pergunta": "Qual é a crítica mais comum às teorias da reprodução?",
+      "opcoes": [
+        "Ignoram as desigualdades sociais",
+        "Dão valor demais à integração social",
+        "Deixam pouco espaço para a ação transformadora da escola",
+        "Negam a existência de classes"
+      ],
+      "correta": 2,
+      "explicacao": "As teorias crítico-reprodutivistas foram acusadas de pessimismo por verem a escola só como reprodutora."
+    },
+    {
+      "id": "sociologia-educacao-16",
+      "topico": "critica-pedagogia",
+      "nivel": "conceitual",
+      "pergunta": "Paulo Freire chama de educação bancária aquela em que:",
+      "opcoes": [
+        "O aluno aprende sobre finanças",
+        "Professor e alunos dialogam sobre a realidade",
+        "O conteúdo parte dos temas geradores",
+        "O professor deposita conteúdos em alunos passivos"
+      ],
+      "correta": 3,
+      "explicacao": "Na educação bancária, o educando é visto como recipiente vazio; Freire propõe a educação problematizadora."
+    },
+    {
+      "id": "sociologia-educacao-17",
+      "topico": "critica-pedagogia",
+      "nivel": "conceitual",
+      "pergunta": "A pedagogia histórico-crítica, de Saviani, defende que a escola deve:",
+      "opcoes": [
+        "Garantir às classes populares o acesso ao saber sistematizado",
+        "Abandonar os conteúdos clássicos",
+        "Seguir apenas o interesse imediato do aluno",
+        "Preparar só mão de obra técnica"
+      ],
+      "correta": 0,
+      "explicacao": "Para Saviani, dominar o saber elaborado é condição para a participação e a transformação social."
+    },
+    {
+      "id": "sociologia-educacao-18",
+      "topico": "critica-pedagogia",
+      "nivel": "conceitual",
+      "pergunta": "O currículo oculto é:",
+      "opcoes": [
+        "O currículo secreto do Ministério da Educação",
+        "O que a escola ensina sem declarar: normas, valores e atitudes",
+        "As matérias optativas",
+        "O conteúdo que cai só na prova final"
+      ],
+      "correta": 1,
+      "explicacao": "O currículo oculto aparece nas rotinas, nas regras e nas relações escolares."
+    },
+    {
+      "id": "sociologia-educacao-19",
+      "topico": "critica-pedagogia",
+      "nivel": "aplicacao",
+      "pergunta": "Numa turma de alfabetização de adultos, a professora parte da palavra 'tijolo', ligada ao trabalho dos alunos, para discutir moradia e aprender a ler. Ela usa:",
+      "opcoes": [
+        "Educação bancária",
+        "Ideologia do dom",
+        "Um tema gerador, como propõe Paulo Freire",
+        "A teoria da privação cultural"
+      ],
+      "correta": 2,
+      "explicacao": "Freire parte de palavras e temas geradores da vida dos educandos para chegar à leitura crítica do mundo."
+    },
+    {
+      "id": "sociologia-educacao-20",
+      "topico": "critica-pedagogia",
+      "nivel": "analise",
+      "pergunta": "Saviani classificaria as teorias de Bourdieu e Althusser como:",
+      "opcoes": [
+        "Não críticas",
+        "Histórico-críticas",
+        "Tecnicistas",
+        "Crítico-reprodutivistas"
+      ],
+      "correta": 3,
+      "explicacao": "Elas criticam a escola, mas a veem só como reprodutora, sem propor caminho de transformação pedagógica."
+    },
+    {
+      "id": "sociologia-educacao-21",
+      "topico": "desigualdades",
+      "nivel": "conceitual",
+      "pergunta": "Qual foi a principal tese de Maria Helena Souza Patto em 'A produção do fracasso escolar'?",
+      "opcoes": [
+        "O fracasso escolar é produzido também pela própria escola e suas práticas",
+        "O fracasso se deve só à carência cultural das famílias pobres",
+        "O fracasso é causado por problemas genéticos",
+        "Não existe fracasso escolar no Brasil"
+      ],
+      "correta": 0,
+      "explicacao": "Patto criticou a teoria da carência cultural e mostrou o papel das práticas escolares na produção do fracasso."
+    },
+    {
+      "id": "sociologia-educacao-22",
+      "topico": "desigualdades",
+      "nivel": "conceitual",
+      "pergunta": "A Lei 10.639/2003 tornou obrigatório o ensino de:",
+      "opcoes": [
+        "Língua inglesa",
+        "História e cultura afro-brasileira",
+        "Educação financeira",
+        "Ensino religioso"
+      ],
+      "correta": 1,
+      "explicacao": "Em 2008, a Lei 11.645 ampliou a obrigatoriedade para a história e a cultura indígenas."
+    },
+    {
+      "id": "sociologia-educacao-23",
+      "topico": "desigualdades",
+      "nivel": "conceitual",
+      "pergunta": "O Relatório Coleman (1966) mostrou que:",
+      "opcoes": [
+        "A escola não tem nenhuma relação com o desempenho",
+        "Só os recursos financeiros da escola importam",
+        "A origem familiar pesava mais no desempenho que as diferenças entre escolas",
+        "A raça não influenciava o desempenho"
+      ],
+      "correta": 2,
+      "explicacao": "Coleman destacou o peso da origem social; pesquisas posteriores sobre efeito-escola mostraram que a escola também faz diferença."
+    },
+    {
+      "id": "sociologia-educacao-24",
+      "topico": "desigualdades",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola explica as notas baixas dizendo apenas que 'as famílias desses alunos não ligam para estudo'. Qual conceito critica essa explicação?",
+      "opcoes": [
+        "A solidariedade orgânica",
+        "A dominação carismática",
+        "A educação bancária",
+        "A crítica à teoria da privação cultural"
+      ],
+      "correta": 3,
+      "explicacao": "Atribuir o fracasso só à carência das famílias é a visão criticada por Patto e outros autores."
+    },
+    {
+      "id": "sociologia-educacao-25",
+      "topico": "desigualdades",
+      "nivel": "analise",
+      "pergunta": "Por que a ideia de meritocracia na escola é criticada pela Sociologia da Educação?",
+      "opcoes": [
+        "Porque ignora que os alunos partem de condições desiguais",
+        "Porque todos os alunos têm as mesmas oportunidades",
+        "Porque impede qualquer avaliação",
+        "Porque a escola não tem regras"
+      ],
+      "correta": 0,
+      "explicacao": "Comparar resultados como se o ponto de partida fosse igual transforma desigualdade social em diferença de mérito."
+    },
+    {
+      "id": "sociologia-educacao-26",
+      "topico": "escola-contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Por que se fala em 'juventudes', no plural?",
+      "opcoes": [
+        "Porque existem várias leis da juventude",
+        "Porque ser jovem varia conforme classe, raça, gênero e território",
+        "Porque a juventude dura muitos anos",
+        "Porque todos os jovens são iguais"
+      ],
+      "correta": 1,
+      "explicacao": "A condição juvenil é diversa e marcada por desigualdades."
+    },
+    {
+      "id": "sociologia-educacao-27",
+      "topico": "escola-contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "O bullying se caracteriza por:",
+      "opcoes": [
+        "Uma briga única entre dois alunos",
+        "Uma advertência dada pelo professor",
+        "Violência intencional e repetida entre pares",
+        "Qualquer discussão em sala"
+      ],
+      "correta": 2,
+      "explicacao": "A Lei 13.185/2015 define a intimidação sistemática como violência física ou psicológica intencional e repetitiva."
+    },
+    {
+      "id": "sociologia-educacao-28",
+      "topico": "escola-contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "A justiça restaurativa na escola busca:",
+      "opcoes": [
+        "Aplicar a punição mais dura possível",
+        "Transferir o aluno de escola",
+        "Chamar a polícia em todo conflito",
+        "Reparar danos e reconstruir as relações entre os envolvidos"
+      ],
+      "correta": 3,
+      "explicacao": "Ela foca no diálogo, na responsabilização e na reparação."
+    },
+    {
+      "id": "sociologia-educacao-29",
+      "topico": "escola-contemporanea",
+      "nivel": "aplicacao",
+      "pergunta": "Durante o ensino remoto, alunos sem internet em casa ficaram para trás. Esse problema é um exemplo de:",
+      "opcoes": [
+        "Desigualdade digital",
+        "Currículo oculto",
+        "Solidariedade mecânica",
+        "Violência simbólica"
+      ],
+      "correta": 0,
+      "explicacao": "O acesso desigual a aparelhos e internet amplia as desigualdades escolares."
+    },
+    {
+      "id": "sociologia-educacao-30",
+      "topico": "escola-contemporanea",
+      "nivel": "analise",
+      "pergunta": "Uma escola compra tablets para todos, mas não muda as aulas nem forma os professores. O que a Sociologia da Educação diria?",
+      "opcoes": [
+        "Os tablets resolvem a desigualdade",
+        "Tecnologia sozinha não muda a escola sem proposta pedagógica e formação",
+        "A escola deve proibir tecnologia",
+        "Basta o aluno ter acesso para aprender"
+      ],
+      "correta": 1,
+      "explicacao": "Equipamento sem proposta pedagógica e formação tende a reproduzir as mesmas práticas."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "alfabetizacao-letramento",
+  "nome": "Alfabetização e Letramento",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Alfabetização e letramento",
+      "resumo": "Alfabetizar e letrar são processos **diferentes e inseparáveis**, como mostrou Magda Soares.\n\n### Alfabetização\n- Aprender o **sistema de escrita alfabética** (SEA): entender que as letras representam **sons** da fala (fonemas) e dominar as relações entre **grafemas e fonemas**.\n- Envolve também a grafia, a direção da escrita (da esquerda para a direita, de cima para baixo) e o uso do espaço da folha.\n\n### Letramento\n- Usar a leitura e a escrita nas **práticas sociais**: ler uma receita, escrever um bilhete, entender uma notícia, preencher um formulário.\n- Uma pessoa pode ser **alfabetizada e pouco letrada** (decodifica, mas não compreende um texto) ou **letrada sem ser alfabetizada** (conhece os usos da escrita, como a criança que \"lê\" o rótulo de um produto conhecido).\n\n### Alfabetizar letrando\n- Magda Soares propõe **alfabetizar letrando**: ensinar o sistema de escrita de forma **explícita e sistemática**, dentro de práticas reais de leitura e escrita com textos de verdade.\n- Os dois lados precisam estar presentes: só textos, sem ensino do sistema, deixa crianças sem aprender a ler; só treino de sílabas, sem textos, não forma leitores.\n\n### Analfabetismo funcional\nQuem lê e escreve frases simples, mas não consegue compreender e usar textos no dia a dia. O **INAF** (Indicador de Alfabetismo Funcional) mede isso no Brasil.",
+      "revisao": "**Lembre:**\n- Alfabetização = aprender o sistema alfabético.\n- Letramento = usos sociais da leitura e da escrita.\n- Magda Soares: alfabetizar letrando.\n- Alfabetizado ≠ letrado.\n- Analfabetismo funcional: lê, mas não compreende textos."
+    },
+    {
+      "id": "psicogenese",
+      "nome": "Psicogênese da língua escrita",
+      "resumo": "Emília **Ferreiro** e Ana **Teberosky** (*Psicogênese da língua escrita*) mostraram que a criança elabora **hipóteses** sobre a escrita antes de saber ler, com base na teoria de Piaget.\n\n### Níveis (hipóteses)\n1. **Pré-silábico**: a criança ainda não relaciona a escrita com os sons. Usa letras, números ou rabiscos; acha que precisa de **quantidade mínima** (geralmente 3 letras) e **variedade** de letras. Pode ter **realismo nominal**: palavra de coisa grande teria de ser escrita com mais letras (BOI maior que FORMIGA).\n2. **Silábico**: descobre que a escrita representa a fala e usa **uma letra para cada sílaba**. Pode ser **sem valor sonoro** (qualquer letra, como KTO para gato) ou **com valor sonoro** (letra que tem o som da sílaba, como AO ou GT para GATO).\n3. **Silábico-alfabético**: ora escreve uma letra por sílaba, ora a sílaba completa (GTO, GAO).\n4. **Alfabético**: compreende que cada letra representa, em geral, um **fonema**. Ainda comete erros **ortográficos** (CAZA para casa), que já são outra questão.\n\n### Na prática\n- A **sondagem** (ditado de palavras do mesmo campo semântico, com número diferente de sílabas, e uma frase) mostra a hipótese de cada criança.\n- O erro é **construtivo**: revela o que a criança pensa.\n- O professor agrupa crianças com hipóteses **próximas** para que troquem ideias.",
+      "revisao": "**Lembre:**\n- Ferreiro e Teberosky: hipóteses da criança.\n- Pré-silábico: sem relação com o som; realismo nominal.\n- Silábico: uma letra por sílaba (com ou sem valor sonoro).\n- Silábico-alfabético: mistura.\n- Alfabético: letra ↔ fonema; ainda erra ortografia."
+    },
+    {
+      "id": "consciencia-fonologica",
+      "nome": "Consciência fonológica e princípio alfabético",
+      "resumo": "**Consciência fonológica** é a capacidade de refletir sobre os **sons** da fala, separando-os do significado. É uma das habilidades mais ligadas ao sucesso na alfabetização.\n\n### Níveis, do mais fácil ao mais difícil\n- **Palavras**: perceber que a frase é formada por palavras.\n- **Sílabas**: separar, contar, juntar, tirar sílabas (BO-NE-CA tem três).\n- **Rimas** (sons finais iguais: *pão* e *mão*) e **aliterações** (sons iniciais iguais: *bola* e *bota*).\n- **Fonemas** (consciência **fonêmica**): perceber os menores sons da fala (/g/ /a/ /t/ /o/). É a mais difícil e se desenvolve junto com o aprendizado da escrita.\n\n### Princípio alfabético\n- Compreender que a escrita representa **sons**, e não o significado ou o tamanho do objeto.\n- Na escrita alfabética do português, a relação entre letras e sons não é totalmente regular: uma letra pode ter vários sons (X em *xícara*, *táxi*, *exame*) e um som pode ter várias letras (/s/ em *sapo*, *cedo*, *massa*, *caça*, *próximo*).\n\n### Atividades\nJogos de rimas, parlendas, cantigas, trava-línguas, bingo de letras, palavras dentro de palavras (*sol* em *soldado*), contar sílabas com palmas, montar palavras com letras móveis.",
+      "revisao": "**Lembre:**\n- Consciência fonológica = refletir sobre os sons.\n- Ordem: palavras → sílabas → rimas/aliterações → fonemas.\n- Fonêmica é a mais difícil.\n- Princípio alfabético: escrita representa sons.\n- Português: uma letra, vários sons; um som, várias letras."
+    },
+    {
+      "id": "metodos",
+      "nome": "Métodos de alfabetização",
+      "resumo": "A discussão sobre **como alfabetizar** é antiga no Brasil (Maria do Rosário Mortatti chama de \"querela dos métodos\").\n\n### Métodos sintéticos (das partes para o todo)\n- **Alfabético** (soletração): aprender o nome das letras e juntá-las.\n- **Fônico**: ensinar os **sons** das letras e a junção dos sons para formar palavras.\n- **Silábico**: partir das famílias silábicas (BA, BE, BI, BO, BU).\n- Típico das **cartilhas** (ex.: *Caminho Suave*).\n\n### Métodos analíticos (do todo para as partes)\n- **Palavração**: parte da palavra para chegar às sílabas e letras.\n- **Sentenciação**: parte de frases.\n- **Global** (de contos ou historietas): parte de textos inteiros.\n\n### Construtivismo (anos 1980)\nNão é um método, mas uma teoria sobre **como a criança aprende** (psicogênese). Mudou o foco do \"como ensinar\" para \"como se aprende\". Uma crítica comum é que, em muitas escolas, levou ao abandono do ensino **sistemático** das relações entre letras e sons.\n\n### Hoje\nPesquisas apontam que o ensino **explícito e sistemático** das correspondências grafema-fonema, combinado com leitura e produção de textos reais, dá melhores resultados. Nenhum método sozinho garante a alfabetização: o professor precisa conhecer o processo e as hipóteses das crianças.",
+      "revisao": "**Lembre:**\n- Sintéticos (partes → todo): alfabético, fônico, silábico.\n- Analíticos (todo → partes): palavração, sentenciação, global.\n- Construtivismo: teoria de como se aprende, não método.\n- Ensino explícito do sistema + textos reais."
+    },
+    {
+      "id": "ortografia",
+      "nome": "Ortografia e produção de texto",
+      "resumo": "Depois de chegar à hipótese alfabética, a criança precisa aprender a **norma ortográfica**: a forma convencional de escrever.\n\n### Regularidades e irregularidades (Artur Gomes de Morais)\n- **Regulares diretas**: uma letra para um som, sem concorrência (P, B, T, D, F, V). As trocas P/B e T/D costumam ter relação com sons parecidos (surdos e sonoros).\n- **Regulares contextuais**: a posição na palavra decide (R ou RR; M antes de P e B; G ou GU antes de E e I; O ou U no final da palavra).\n- **Regulares morfológico-gramaticais**: a gramática decide (-OU nos verbos no passado, como *cantou*; -ESA em adjetivos de origem, como *portuguesa*; -EZA em substantivos derivados de adjetivos, como *beleza*).\n- **Irregulares**: não há regra; é preciso memorizar ou consultar o dicionário (*hoje*, *cebola*, *exame*).\n- As regulares se ensinam por **reflexão** e descoberta da regra; as irregulares, por **memorização** das palavras mais usadas.\n\n### Produção de texto\n- Escrever com **função social** e **interlocutor** definidos (para quem, para quê, em que gênero).\n- **Reescrita** e **revisão** fazem parte do processo.\n- O professor pode ser **escriba**: a criança que ainda não escreve alfabeticamente **produz o texto oralmente** e o professor registra. Assim, ela aprende sobre a linguagem escrita antes de dominar o sistema.",
+      "revisao": "**Lembre:**\n- Diretas: P, B, T, D, F, V.\n- Contextuais: R/RR, M antes de P e B.\n- Morfológicas: -OU, -ESA, -EZA.\n- Irregulares: memorizar (hoje, cebola).\n- Professor escriba: a criança produz texto antes de escrever sozinha."
+    },
+    {
+      "id": "politicas-alfa",
+      "nome": "Políticas e avaliação da alfabetização",
+      "resumo": "O Brasil definiu idades e programas para garantir que todas as crianças aprendam a ler e a escrever.\n\n### Prazos\n- **PNE 2014–2024, Meta 5**: alfabetizar todas as crianças até o fim do **3º ano** do ensino fundamental.\n- **BNCC**: a ação pedagógica nos **dois primeiros anos** do fundamental deve ter como foco a alfabetização.\n- **Compromisso Nacional Criança Alfabetizada** (Decreto 11.556/2023): alfabetizar todas as crianças até o fim do **2º ano**, em regime de colaboração com estados e municípios.\n\n### Programas\n- **PNAIC** (Pacto Nacional pela Alfabetização na Idade Certa, 2012): formação continuada de professores alfabetizadores.\n- **PNA** (Política Nacional de Alfabetização, Decreto 9.765/2019): ênfase na instrução **fônica** e na ciência cognitiva da leitura; revogada em 2023.\n\n### Avaliação\n- O **SAEB** do 2º ano avalia leitura e escrita.\n- Com o Compromisso, o INEP passou a divulgar o **Indicador Criança Alfabetizada**.\n- Avaliações estaduais (ex.: **SPAECE**, no Ceará) acompanham a alfabetização nas redes.\n\n### Experiência do Ceará\nO **PAIC** (Programa Alfabetização na Idade Certa, 2007) combinou formação de professores, material estruturado, avaliação externa e **incentivo financeiro** aos municípios por resultados (ICMS), e virou referência nacional.",
+      "revisao": "**Lembre:**\n- PNE Meta 5: até o fim do 3º ano.\n- BNCC e Compromisso: foco nos dois primeiros anos (até o fim do 2º).\n- PNAIC (2012): formação de professores.\n- PNA (2019): fônico; revogada em 2023.\n- Ceará: PAIC e SPAECE."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "alfabetizacao-letramento-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre alfabetização e letramento, segundo Magda Soares?",
+      "opcoes": [
+        "Alfabetização é aprender o sistema de escrita; letramento é usar a leitura e a escrita nas práticas sociais",
+        "São a mesma coisa",
+        "Letramento é só aprender as letras",
+        "Alfabetização é ler livros literários"
+      ],
+      "correta": 0,
+      "explicacao": "Os dois processos são diferentes, mas devem acontecer juntos: alfabetizar letrando."
+    },
+    {
+      "id": "alfabetizacao-letramento-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O que é 'alfabetizar letrando'?",
+      "opcoes": [
+        "Ensinar só com cartilhas",
+        "Ensinar o sistema de escrita de forma sistemática dentro de práticas reais de leitura e escrita",
+        "Ensinar só com textos, sem trabalhar as letras",
+        "Esperar a criança aprender sozinha"
+      ],
+      "correta": 1,
+      "explicacao": "A proposta une o ensino explícito do sistema alfabético com o uso de textos de verdade."
+    },
+    {
+      "id": "alfabetizacao-letramento-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Uma pessoa que lê frases simples, mas não entende um manual de instruções, é considerada:",
+      "opcoes": [
+        "Plenamente letrada",
+        "Pré-silábica",
+        "Analfabeta funcional",
+        "Disléxica, necessariamente"
+      ],
+      "correta": 2,
+      "explicacao": "Analfabetismo funcional é a dificuldade de compreender e usar textos no cotidiano; o INAF mede esse indicador."
+    },
+    {
+      "id": "alfabetizacao-letramento-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança de 4 anos que ainda não lê reconhece o logotipo de um biscoito e diz 'aqui está escrito biscoito'. Isso mostra:",
+      "opcoes": [
+        "Que ela está na hipótese alfabética",
+        "Que ela já domina a ortografia",
+        "Que ela tem dificuldade de aprendizagem",
+        "Contato com práticas de letramento, mesmo sem estar alfabetizada"
+      ],
+      "correta": 3,
+      "explicacao": "A criança conhece usos e funções da escrita antes de compreender o sistema alfabético."
+    },
+    {
+      "id": "alfabetizacao-letramento-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Uma turma passa o ano inteiro só copiando famílias silábicas, sem nunca ler ou escrever textos. Qual é o problema, na visão de Magda Soares?",
+      "opcoes": [
+        "Falta a dimensão do letramento: o sistema é ensinado sem uso social da escrita",
+        "Falta a dimensão da alfabetização",
+        "Nenhum, essa é a forma correta",
+        "O problema é ensinar sílabas"
+      ],
+      "correta": 0,
+      "explicacao": "O ensino do sistema é necessário, mas sem textos reais a criança não se torna leitora e escritora."
+    },
+    {
+      "id": "alfabetizacao-letramento-6",
+      "topico": "psicogenese",
+      "nivel": "conceitual",
+      "pergunta": "Quem escreveu 'Psicogênese da língua escrita'?",
+      "opcoes": [
+        "Magda Soares",
+        "Emília Ferreiro e Ana Teberosky",
+        "Paulo Freire",
+        "Jean Piaget e Lev Vygotsky"
+      ],
+      "correta": 1,
+      "explicacao": "As autoras investigaram, com base em Piaget, as hipóteses das crianças sobre a escrita."
+    },
+    {
+      "id": "alfabetizacao-letramento-7",
+      "topico": "psicogenese",
+      "nivel": "conceitual",
+      "pergunta": "Na hipótese silábica, a criança:",
+      "opcoes": [
+        "Usa uma letra para cada fonema",
+        "Não relaciona a escrita com a fala",
+        "Usa uma letra para representar cada sílaba",
+        "Escreve com ortografia correta"
+      ],
+      "correta": 2,
+      "explicacao": "Ela descobre que a escrita representa a fala, mas faz a correspondência no nível da sílaba."
+    },
+    {
+      "id": "alfabetizacao-letramento-8",
+      "topico": "psicogenese",
+      "nivel": "conceitual",
+      "pergunta": "O realismo nominal, típico do nível pré-silábico, é:",
+      "opcoes": [
+        "Escrever uma letra por sílaba",
+        "Trocar letras com sons parecidos",
+        "Escrever da direita para a esquerda",
+        "Achar que a palavra deve refletir o tamanho ou as características do objeto"
+      ],
+      "correta": 3,
+      "explicacao": "A criança acha, por exemplo, que BOI deve ter mais letras que FORMIGA porque o boi é maior."
+    },
+    {
+      "id": "alfabetizacao-letramento-9",
+      "topico": "psicogenese",
+      "nivel": "aplicacao",
+      "pergunta": "Ditada a palavra BORBOLETA, uma criança escreve OOEA. Em que hipótese ela está?",
+      "opcoes": [
+        "Silábica com valor sonoro",
+        "Pré-silábica",
+        "Alfabética",
+        "Silábico-alfabética"
+      ],
+      "correta": 0,
+      "explicacao": "Ela usa uma letra por sílaba (BOR-BO-LE-TA) e escolhe letras que têm o som de cada sílaba (as vogais)."
+    },
+    {
+      "id": "alfabetizacao-letramento-10",
+      "topico": "psicogenese",
+      "nivel": "analise",
+      "pergunta": "Uma criança escreve CAZA para casa. O que essa escrita mostra?",
+      "opcoes": [
+        "Que ela é pré-silábica",
+        "Que ela já está na hipótese alfabética, com um erro ortográfico",
+        "Que ela tem realismo nominal",
+        "Que ela está na hipótese silábica"
+      ],
+      "correta": 1,
+      "explicacao": "Cada som foi representado por uma letra; a troca de S por Z é questão de ortografia, não de compreensão do sistema."
+    },
+    {
+      "id": "alfabetizacao-letramento-11",
+      "topico": "consciencia-fonologica",
+      "nivel": "conceitual",
+      "pergunta": "Consciência fonológica é:",
+      "opcoes": [
+        "Saber o significado das palavras",
+        "Ter boa caligrafia",
+        "A capacidade de refletir sobre os sons da fala",
+        "Ler em voz alta sem errar"
+      ],
+      "correta": 2,
+      "explicacao": "Ela envolve perceber e manipular palavras, sílabas, rimas e fonemas, separando o som do significado."
+    },
+    {
+      "id": "alfabetizacao-letramento-12",
+      "topico": "consciencia-fonologica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o nível de consciência fonológica mais difícil para a criança?",
+      "opcoes": [
+        "Consciência de palavras",
+        "Consciência de sílabas",
+        "Percepção de rimas",
+        "Consciência fonêmica (perceber os fonemas)"
+      ],
+      "correta": 3,
+      "explicacao": "Fonemas não se pronunciam isolados com facilidade; essa consciência se desenvolve junto com a escrita alfabética."
+    },
+    {
+      "id": "alfabetizacao-letramento-13",
+      "topico": "consciencia-fonologica",
+      "nivel": "conceitual",
+      "pergunta": "Pão e mão são exemplos de:",
+      "opcoes": [
+        "Rima",
+        "Aliteração",
+        "Sílaba tônica",
+        "Ditongo decrescente"
+      ],
+      "correta": 0,
+      "explicacao": "Rima é a semelhança dos sons finais; aliteração, a dos sons iniciais."
+    },
+    {
+      "id": "alfabetizacao-letramento-14",
+      "topico": "consciencia-fonologica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma atividade em que as crianças batem palmas para cada pedaço da palavra BONECA trabalha:",
+      "opcoes": [
+        "Consciência fonêmica",
+        "Consciência silábica",
+        "Ortografia irregular",
+        "Letramento literário"
+      ],
+      "correta": 1,
+      "explicacao": "Cada palma marca uma sílaba: BO-NE-CA. Separar e contar sílabas é um dos primeiros níveis da consciência fonológica."
+    },
+    {
+      "id": "alfabetizacao-letramento-15",
+      "topico": "consciencia-fonologica",
+      "nivel": "analise",
+      "pergunta": "Por que o português não tem uma correspondência perfeita entre letras e sons?",
+      "opcoes": [
+        "Porque o português não é uma língua alfabética",
+        "Porque cada letra tem sempre um único som",
+        "Porque uma letra pode ter vários sons e um som pode ser escrito com várias letras",
+        "Porque a escrita representa o significado, não os sons"
+      ],
+      "correta": 2,
+      "explicacao": "Exemplos: X em xícara, táxi e exame; /s/ em sapo, cedo, massa, caça e próximo."
+    },
+    {
+      "id": "alfabetizacao-letramento-16",
+      "topico": "metodos",
+      "nivel": "conceitual",
+      "pergunta": "Os métodos sintéticos de alfabetização partem:",
+      "opcoes": [
+        "Do texto para as partes",
+        "Do interesse livre da criança",
+        "Da produção de livros",
+        "Das partes (letras, sons ou sílabas) para o todo"
+      ],
+      "correta": 3,
+      "explicacao": "Alfabético, fônico e silábico são sintéticos; palavração, sentenciação e global são analíticos."
+    },
+    {
+      "id": "alfabetizacao-letramento-17",
+      "topico": "metodos",
+      "nivel": "conceitual",
+      "pergunta": "O método fônico ensina principalmente:",
+      "opcoes": [
+        "Os sons das letras e a junção dos sons",
+        "O nome das letras",
+        "Frases inteiras para memorizar",
+        "Histórias completas antes das letras"
+      ],
+      "correta": 0,
+      "explicacao": "O foco é a correspondência entre grafemas e fonemas e a síntese dos sons."
+    },
+    {
+      "id": "alfabetizacao-letramento-18",
+      "topico": "metodos",
+      "nivel": "conceitual",
+      "pergunta": "Por que se diz que o construtivismo não é um método de alfabetização?",
+      "opcoes": [
+        "Porque proíbe o ensino das letras",
+        "Porque é uma teoria sobre como a criança aprende, não um passo a passo de ensino",
+        "Porque é igual ao método silábico",
+        "Porque só serve para adultos"
+      ],
+      "correta": 1,
+      "explicacao": "A psicogênese descreve o processo de aprendizagem; o ensino precisa ser planejado a partir dela."
+    },
+    {
+      "id": "alfabetizacao-letramento-19",
+      "topico": "metodos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma professora começa com a frase 'A menina pula corda', depois destaca as palavras e então as sílabas. Ela usa um método:",
+      "opcoes": [
+        "Sintético alfabético",
+        "Sintético fônico",
+        "Analítico (sentenciação)",
+        "Silábico"
+      ],
+      "correta": 2,
+      "explicacao": "Partir da frase para as palavras e sílabas é caminho do todo para as partes."
+    },
+    {
+      "id": "alfabetizacao-letramento-20",
+      "topico": "metodos",
+      "nivel": "analise",
+      "pergunta": "Qual é a conclusão mais aceita hoje sobre os métodos de alfabetização?",
+      "opcoes": [
+        "Só o método global funciona",
+        "O método não importa, a criança aprende sozinha",
+        "Só a soletração funciona",
+        "O ensino explícito das relações letra-som, junto com textos reais, dá melhores resultados"
+      ],
+      "correta": 3,
+      "explicacao": "As pesquisas apontam para o ensino sistemático do sistema, sem abandonar a leitura e a produção de textos."
+    },
+    {
+      "id": "alfabetizacao-letramento-21",
+      "topico": "ortografia",
+      "nivel": "conceitual",
+      "pergunta": "O uso de M antes de P e B é um exemplo de regularidade:",
+      "opcoes": [
+        "Contextual",
+        "Direta",
+        "Morfológico-gramatical",
+        "Irregular"
+      ],
+      "correta": 0,
+      "explicacao": "A posição na palavra (antes de P e B) define a letra."
+    },
+    {
+      "id": "alfabetizacao-letramento-22",
+      "topico": "ortografia",
+      "nivel": "conceitual",
+      "pergunta": "Como as palavras com grafia irregular, como 'hoje' e 'cebola', devem ser aprendidas?",
+      "opcoes": [
+        "Por uma regra de posição",
+        "Por memorização e consulta ao dicionário",
+        "Pela classe gramatical",
+        "Pela sílaba tônica"
+      ],
+      "correta": 1,
+      "explicacao": "Não há regra que explique o H de hoje ou o C de cebola."
+    },
+    {
+      "id": "alfabetizacao-letramento-23",
+      "topico": "ortografia",
+      "nivel": "conceitual",
+      "pergunta": "Escrever 'cantou' com -OU segue uma regularidade:",
+      "opcoes": [
+        "Direta",
+        "Contextual",
+        "Morfológico-gramatical",
+        "Irregular"
+      ],
+      "correta": 2,
+      "explicacao": "O -OU marca o verbo no pretérito perfeito (3ª pessoa do singular)."
+    },
+    {
+      "id": "alfabetizacao-letramento-24",
+      "topico": "ortografia",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança ainda pré-silábica dita uma história, e a professora registra no quadro. Essa estratégia se chama:",
+      "opcoes": [
+        "Ditado avaliativo",
+        "Cópia",
+        "Método fônico",
+        "Professor escriba"
+      ],
+      "correta": 3,
+      "explicacao": "A criança produz o texto oralmente e aprende sobre a linguagem escrita antes de escrever sozinha."
+    },
+    {
+      "id": "alfabetizacao-letramento-25",
+      "topico": "ortografia",
+      "nivel": "analise",
+      "pergunta": "Qual é a melhor forma de ensinar as regularidades ortográficas?",
+      "opcoes": [
+        "Levar a criança a refletir e descobrir a regra a partir de exemplos",
+        "Mandar copiar a palavra 50 vezes",
+        "Ignorar, porque a ortografia não importa",
+        "Ensinar só no ensino médio"
+      ],
+      "correta": 0,
+      "explicacao": "Regularidades podem ser compreendidas; a memorização fica para as irregulares."
+    },
+    {
+      "id": "alfabetizacao-letramento-26",
+      "topico": "politicas-alfa",
+      "nivel": "conceitual",
+      "pergunta": "Até quando a Meta 5 do PNE 2014–2024 previa alfabetizar todas as crianças?",
+      "opcoes": [
+        "Até o fim do 1º ano",
+        "Até o fim do 3º ano do ensino fundamental",
+        "Até o fim do 5º ano",
+        "Até os 10 anos"
+      ],
+      "correta": 1,
+      "explicacao": "O Compromisso Nacional Criança Alfabetizada (2023) adotou o fim do 2º ano como referência."
+    },
+    {
+      "id": "alfabetizacao-letramento-27",
+      "topico": "politicas-alfa",
+      "nivel": "conceitual",
+      "pergunta": "O PNAIC, criado em 2012, focava principalmente em:",
+      "opcoes": [
+        "Construção de escolas",
+        "Ensino superior",
+        "Formação continuada de professores alfabetizadores",
+        "Avaliação do ensino médio"
+      ],
+      "correta": 2,
+      "explicacao": "O Pacto Nacional pela Alfabetização na Idade Certa ofereceu formação a professores de todo o país."
+    },
+    {
+      "id": "alfabetizacao-letramento-28",
+      "topico": "politicas-alfa",
+      "nivel": "conceitual",
+      "pergunta": "O Compromisso Nacional Criança Alfabetizada (2023) tem como meta:",
+      "opcoes": [
+        "Alfabetizar adultos até os 30 anos",
+        "Universalizar o ensino médio",
+        "Ampliar as vagas em creche",
+        "Alfabetizar todas as crianças até o fim do 2º ano"
+      ],
+      "correta": 3,
+      "explicacao": "O decreto 11.556/2023 organizou o compromisso em regime de colaboração com estados e municípios."
+    },
+    {
+      "id": "alfabetizacao-letramento-29",
+      "topico": "politicas-alfa",
+      "nivel": "aplicacao",
+      "pergunta": "Um município quer melhorar a alfabetização e se inspira no Ceará. Que combinação o PAIC usou?",
+      "opcoes": [
+        "Formação de professores, material estruturado, avaliação externa e incentivo por resultados",
+        "Apenas compra de tablets",
+        "Redução das aulas de português",
+        "Fim das avaliações"
+      ],
+      "correta": 0,
+      "explicacao": "O programa cearense uniu várias ações e o ICMS por resultados educacionais."
+    },
+    {
+      "id": "alfabetizacao-letramento-30",
+      "topico": "politicas-alfa",
+      "nivel": "analise",
+      "pergunta": "Qual era a principal ênfase da Política Nacional de Alfabetização de 2019?",
+      "opcoes": [
+        "Abandono do ensino das letras",
+        "Instrução fônica e ciência cognitiva da leitura",
+        "Método global de contos",
+        "Alfabetização só aos 8 anos"
+      ],
+      "correta": 1,
+      "explicacao": "A PNA valorizava a instrução fônica sistemática; foi revogada em 2023."
+    }
+  ]
+}

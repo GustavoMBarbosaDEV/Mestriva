@@ -1,0 +1,465 @@
+{
+  "id": "psicologia-educacao",
+  "nome": "Psicologia da Educação",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "comportamentalismo",
+      "nome": "Comportamentalismo e aprendizagem",
+      "resumo": "A Psicologia da Educação estuda como as pessoas aprendem e como o ensino pode favorecer a aprendizagem. As primeiras grandes teorias vieram do **comportamentalismo** (behaviorismo), que estuda o comportamento observável.\n\n### Condicionamento clássico (Pavlov, Watson)\n- Um **estímulo neutro** (sino), associado a um **estímulo incondicionado** (comida), passa a provocar a resposta sozinho: vira **estímulo condicionado**.\n- Explica reações emocionais aprendidas, como a ansiedade diante de provas.\n\n### Condicionamento operante (Skinner)\n- O comportamento é controlado por suas **consequências**.\n- **Reforço** aumenta a chance de o comportamento se repetir: **positivo** (acrescenta algo agradável, como um elogio) ou **negativo** (retira algo desagradável, como dispensar de uma tarefa chata).\n- **Punição** diminui a chance de repetição. Reforço negativo **não** é punição.\n- **Extinção**: o comportamento some quando deixa de ser reforçado.\n- **Modelagem**: reforçar aproximações sucessivas do comportamento final.\n- **Instrução programada**: pequenos passos, resposta ativa e retorno imediato, base das máquinas de ensinar.\n\n### Na escola\nRetorno rápido, metas claras e reforço do progresso funcionam. A crítica é que o comportamentalismo deixa de lado os processos mentais e a construção do conhecimento pelo aluno.",
+      "revisao": "**Lembre:**\n- Pavlov: associação entre estímulos (clássico).\n- Skinner: consequências controlam o comportamento (operante).\n- Reforço aumenta; punição diminui.\n- Reforço negativo = retirar algo ruim (não é castigo).\n- Modelagem: reforçar aproximações sucessivas."
+    },
+    {
+      "id": "piaget",
+      "nome": "Piaget e o construtivismo",
+      "resumo": "Jean Piaget estudou como o conhecimento se forma na criança (**epistemologia genética**). Para ele, o sujeito **constrói** o conhecimento agindo sobre o mundo.\n\n### Mecanismos\n- **Esquemas**: estruturas de ação e pensamento.\n- **Assimilação**: encaixar o novo nos esquemas que já existem.\n- **Acomodação**: modificar os esquemas quando o novo não se encaixa.\n- **Equilibração**: busca de equilíbrio entre assimilação e acomodação; o **conflito cognitivo** move o desenvolvimento.\n\n### Estágios\n1. **Sensório-motor** (0 a 2 anos): inteligência prática; surge a **permanência do objeto**.\n2. **Pré-operatório** (2 a 7): função simbólica, linguagem, **egocentrismo**, ainda sem **conservação**.\n3. **Operatório concreto** (7 a 11/12): conservação, classificação, seriação, reversibilidade, ligados ao concreto.\n4. **Operatório formal** (a partir de 11/12): raciocínio hipotético-dedutivo e abstrato.\n\n### Na escola\nO professor propõe **situações-problema** que gerem desequilíbrio, respeita o nível de desenvolvimento e valoriza a ação do aluno. O erro é visto como parte da construção (**erro construtivo**).",
+      "revisao": "**Lembre:**\n- Assimilar = encaixar; acomodar = mudar o esquema.\n- Equilibração e conflito cognitivo movem o desenvolvimento.\n- Estágios: sensório-motor, pré-operatório, operatório concreto, operatório formal.\n- Conservação aparece no operatório concreto.\n- Erro faz parte da construção."
+    },
+    {
+      "id": "vygotsky",
+      "nome": "Vygotsky e a perspectiva histórico-cultural",
+      "resumo": "Lev Vygotsky destacou que o desenvolvimento humano é **social e histórico**: aprendemos com os outros, por meio da cultura.\n\n### Ideias centrais\n- **Mediação**: a relação com o mundo passa por **instrumentos** (ferramentas) e **signos** (sobretudo a **linguagem**).\n- **Funções psicológicas superiores** (atenção voluntária, memória lógica, pensamento abstrato) surgem primeiro **entre pessoas** (interpsicológico) e depois **dentro** da pessoa (intrapsicológico): é a **internalização**.\n- **Zona de Desenvolvimento Proximal (ZDP)**: distância entre o que a criança faz **sozinha** (nível real) e o que faz **com ajuda** de alguém mais experiente (nível potencial).\n- Para Vygotsky, **a aprendizagem puxa o desenvolvimento**: o bom ensino se adianta ao desenvolvimento e atua na ZDP.\n\n### Na escola\n- O professor é **mediador**; o trabalho em grupo e a interação entre colegas importam.\n- **Andaimento** (*scaffolding*, termo de Wood, Bruner e Ross inspirado em Vygotsky): ajuda temporária que vai sendo retirada.\n- O brincar de faz de conta cria uma ZDP na infância.\n\n### Wallon, em uma linha\nHenri Wallon somou a **afetividade** e o movimento à inteligência: emoção e cognição se desenvolvem juntas.",
+      "revisao": "**Lembre:**\n- Mediação por instrumentos e signos (linguagem).\n- ZDP: real (sozinho) → potencial (com ajuda).\n- Aprendizagem puxa o desenvolvimento.\n- Inter → intrapsicológico (internalização).\n- Wallon: afetividade junto com a cognição."
+    },
+    {
+      "id": "cognitivismo",
+      "nome": "Aprendizagem significativa e cognição",
+      "resumo": "As teorias cognitivistas estudam como a informação é organizada na mente.\n\n### Ausubel: aprendizagem significativa\n- A nova informação se **ancora** em conhecimentos que o aluno já tem (**subsunçores**).\n- Oposto: **aprendizagem mecânica**, decorada sem ligação, que se esquece rápido.\n- Condições: material **potencialmente significativo** e **disposição** do aluno para aprender.\n- **Organizadores prévios**: materiais introdutórios que fazem ponte entre o que o aluno sabe e o que vai aprender.\n- \"O fator isolado mais importante que influencia a aprendizagem é aquilo que o aprendiz já sabe.\"\n\n### Bruner\n- **Aprendizagem por descoberta**: o aluno descobre relações.\n- **Currículo em espiral**: o mesmo tema volta em níveis cada vez mais complexos.\n- Representações **enativa** (ação), **icônica** (imagem) e **simbólica** (linguagem).\n\n### Processamento da informação\n- Memória **sensorial** → **de trabalho** (capacidade limitada) → **de longo prazo**.\n- **Carga cognitiva**: excesso de informação ao mesmo tempo atrapalha.\n- **Metacognição**: pensar sobre o próprio pensamento (planejar, monitorar e avaliar como se estuda).\n\n### Gardner\n**Inteligências múltiplas**: linguística, lógico-matemática, espacial, musical, corporal-cinestésica, interpessoal, intrapessoal e naturalista.",
+      "revisao": "**Lembre:**\n- Ausubel: ancorar no que o aluno já sabe (subsunçores).\n- Significativa ≠ mecânica.\n- Organizador prévio faz a ponte.\n- Bruner: descoberta e currículo em espiral.\n- Memória de trabalho é limitada; metacognição = pensar sobre o pensar."
+    },
+    {
+      "id": "motivacao",
+      "nome": "Motivação e afetividade",
+      "resumo": "Sem motivação, quase não há aprendizagem. A Psicologia da Educação estuda de onde ela vem e como o ambiente escolar a afeta.\n\n### Tipos de motivação\n- **Intrínseca**: vem do interesse e do prazer na própria atividade.\n- **Extrínseca**: vem de recompensas ou de evitar punições (nota, prêmio, aprovação).\n- Recompensas externas em excesso podem **diminuir** o interesse por algo que a pessoa já gostava de fazer.\n\n### Teorias\n- **Maslow**: hierarquia de necessidades (fisiológicas, segurança, pertencimento, estima e autorrealização). Um aluno com fome ou com medo tem dificuldade de aprender.\n- **Autodeterminação** (Deci e Ryan): motivação cresce quando há **autonomia**, **competência** e **vínculo**.\n- **Autoeficácia** (Bandura): crença na própria capacidade de realizar algo; cresce com experiências de sucesso, exemplos (modelos) e encorajamento.\n- **Atribuição** (Weiner): o aluno explica sucessos e fracassos por causas internas ou externas, estáveis ou instáveis. Atribuir o fracasso à falta de capacidade (interna e estável) desmotiva; atribuir ao esforço ou à estratégia (instáveis) mantém a vontade de tentar.\n- **Mentalidade de crescimento** (Dweck): ver a inteligência como algo que se desenvolve.\n\n### Bandura: aprendizagem social\nAprendemos observando **modelos** (aprendizagem vicária): atenção, retenção, reprodução e motivação.",
+      "revisao": "**Lembre:**\n- Intrínseca (interesse) × extrínseca (recompensa).\n- Maslow: necessidades básicas antes.\n- Autodeterminação: autonomia, competência e vínculo.\n- Autoeficácia = crença na própria capacidade.\n- Atribuir fracasso ao esforço mantém a motivação."
+    },
+    {
+      "id": "dificuldades",
+      "nome": "Dificuldades de aprendizagem e inclusão",
+      "resumo": "Nem toda dificuldade para aprender é um transtorno. É preciso separar dificuldades **pedagógicas** e **contextuais** dos **transtornos** do desenvolvimento.\n\n### Transtornos específicos de aprendizagem\n- **Dislexia**: dificuldade persistente na leitura (decodificação e fluência), sem relação com inteligência.\n- **Disortografia**: dificuldade na escrita ortográfica.\n- **Discalculia**: dificuldade com número e cálculo.\n\n### Outros quadros comuns\n- **TDAH**: desatenção, hiperatividade e impulsividade em mais de um ambiente.\n- **TEA** (transtorno do espectro autista): diferenças na comunicação e na interação social e interesses restritos ou repetitivos, em graus diferentes.\n\n### Cuidados\n- **Diagnóstico** é feito por profissionais de saúde; o professor observa e encaminha, sem rotular.\n- Evitar a **medicalização** de problemas que são do ensino ou do contexto social.\n- **Profecia autorrealizável** (efeito **Pigmalião**, Rosenthal e Jacobson): expectativas do professor influenciam o desempenho do aluno.\n\n### Educação inclusiva\n- A escola comum recebe **todos** os alunos, com apoio quando preciso.\n- **AEE** (atendimento educacional especializado) complementa, não substitui a sala comum.\n- **Lei Brasileira de Inclusão** (Lei 13.146/2015) garante acessibilidade e adaptações razoáveis.\n- **Desenho Universal para a Aprendizagem**: várias formas de apresentar, de participar e de expressar o que aprendeu.",
+      "revisao": "**Lembre:**\n- Dislexia (leitura), disortografia (escrita), discalculia (números).\n- Professor observa e encaminha; diagnóstico é de saúde.\n- Cuidado com a medicalização.\n- Pigmalião: expectativa influencia o desempenho.\n- AEE complementa a sala comum."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "psicologia-educacao-1",
+      "topico": "comportamentalismo",
+      "nivel": "conceitual",
+      "pergunta": "No condicionamento operante de Skinner, o que controla o comportamento?",
+      "opcoes": [
+        "As consequências que vêm depois dele",
+        "Apenas os reflexos inatos",
+        "A maturação biológica",
+        "O inconsciente"
+      ],
+      "correta": 0,
+      "explicacao": "Para Skinner, comportamentos seguidos de reforço tendem a se repetir; os seguidos de punição tendem a diminuir."
+    },
+    {
+      "id": "psicologia-educacao-2",
+      "topico": "comportamentalismo",
+      "nivel": "conceitual",
+      "pergunta": "O que é reforço negativo?",
+      "opcoes": [
+        "Aplicar um castigo para diminuir um comportamento",
+        "Retirar algo desagradável para aumentar um comportamento",
+        "Ignorar o comportamento até ele sumir",
+        "Dar um prêmio depois do comportamento"
+      ],
+      "correta": 1,
+      "explicacao": "Reforço negativo aumenta o comportamento retirando algo ruim. Castigo é punição, e ignorar leva à extinção."
+    },
+    {
+      "id": "psicologia-educacao-3",
+      "topico": "comportamentalismo",
+      "nivel": "conceitual",
+      "pergunta": "O condicionamento clássico, estudado por Pavlov, se baseia em:",
+      "opcoes": [
+        "Reforço das consequências",
+        "Descoberta de relações pelo aluno",
+        "Associação entre estímulos",
+        "Interação social na ZDP"
+      ],
+      "correta": 2,
+      "explicacao": "Um estímulo neutro, associado a um incondicionado, passa a provocar a resposta sozinho."
+    },
+    {
+      "id": "psicologia-educacao-4",
+      "topico": "comportamentalismo",
+      "nivel": "aplicacao",
+      "pergunta": "Um professor elogia cada pequena melhora na letra de um aluno até chegar à letra legível. Que técnica ele usa?",
+      "opcoes": [
+        "Extinção",
+        "Punição negativa",
+        "Condicionamento clássico",
+        "Modelagem"
+      ],
+      "correta": 3,
+      "explicacao": "Modelagem é reforçar aproximações sucessivas do comportamento final."
+    },
+    {
+      "id": "psicologia-educacao-5",
+      "topico": "comportamentalismo",
+      "nivel": "analise",
+      "pergunta": "Um aluno tem crises de ansiedade sempre que vê uma folha de prova, depois de várias provas ruins. Qual explicação comportamentalista se encaixa melhor?",
+      "opcoes": [
+        "A folha de prova virou estímulo condicionado, associado a experiências ruins",
+        "A ansiedade é um reforço positivo",
+        "É um caso de extinção",
+        "É modelagem feita pelo professor"
+      ],
+      "correta": 0,
+      "explicacao": "No condicionamento clássico, um estímulo neutro (a folha) associado a uma experiência ruim passa a provocar a reação emocional sozinho."
+    },
+    {
+      "id": "psicologia-educacao-6",
+      "topico": "piaget",
+      "nivel": "conceitual",
+      "pergunta": "Para Piaget, o que acontece na acomodação?",
+      "opcoes": [
+        "O novo é encaixado sem mudar o esquema",
+        "O esquema é modificado para dar conta do novo",
+        "A criança copia o adulto",
+        "O conhecimento é transmitido pronto"
+      ],
+      "correta": 1,
+      "explicacao": "Acomodação é mudar o esquema; assimilação é encaixar o novo no esquema que já existe."
+    },
+    {
+      "id": "psicologia-educacao-7",
+      "topico": "piaget",
+      "nivel": "conceitual",
+      "pergunta": "Em que estágio de Piaget a criança passa a dominar a conservação de quantidade?",
+      "opcoes": [
+        "Sensório-motor",
+        "Pré-operatório",
+        "Operatório concreto",
+        "Operatório formal"
+      ],
+      "correta": 2,
+      "explicacao": "A conservação aparece por volta dos 7 anos, no operatório concreto, junto com a reversibilidade."
+    },
+    {
+      "id": "psicologia-educacao-8",
+      "topico": "piaget",
+      "nivel": "conceitual",
+      "pergunta": "O raciocínio hipotético-dedutivo é típico de qual estágio?",
+      "opcoes": [
+        "Operatório concreto",
+        "Pré-operatório",
+        "Sensório-motor",
+        "Operatório formal"
+      ],
+      "correta": 3,
+      "explicacao": "Só no operatório formal o pensamento lida com hipóteses e abstrações sem apoio do concreto."
+    },
+    {
+      "id": "psicologia-educacao-9",
+      "topico": "piaget",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança de 4 anos diz que o copo alto e fino tem mais suco que o largo, embora o suco tenha só mudado de copo. Isso mostra:",
+      "opcoes": [
+        "Ausência de conservação, típica do pré-operatório",
+        "Pensamento formal",
+        "Falta de permanência do objeto",
+        "Dislexia"
+      ],
+      "correta": 0,
+      "explicacao": "No pré-operatório a criança se prende a um aspecto (a altura) e ainda não conserva a quantidade."
+    },
+    {
+      "id": "psicologia-educacao-10",
+      "topico": "piaget",
+      "nivel": "analise",
+      "pergunta": "Uma professora construtivista vê um aluno errar uma conta de forma sistemática. A atitude mais coerente com Piaget é:",
+      "opcoes": [
+        "Mandar repetir a conta certa 20 vezes",
+        "Investigar o raciocínio do aluno e propor uma situação que gere conflito cognitivo",
+        "Tirar ponto para ele não errar mais",
+        "Ignorar, pois o erro não tem importância"
+      ],
+      "correta": 1,
+      "explicacao": "Para o construtivismo, o erro revela a hipótese do aluno; o desequilíbrio provocado pela situação-problema leva à reconstrução."
+    },
+    {
+      "id": "psicologia-educacao-11",
+      "topico": "vygotsky",
+      "nivel": "conceitual",
+      "pergunta": "O que é a Zona de Desenvolvimento Proximal?",
+      "opcoes": [
+        "O estágio em que a criança aprende a falar",
+        "A parte do cérebro ligada à linguagem",
+        "A distância entre o que o aluno faz sozinho e o que faz com ajuda",
+        "O conteúdo que o aluno já domina"
+      ],
+      "correta": 2,
+      "explicacao": "A ZDP fica entre o nível real (sozinho) e o potencial (com ajuda de alguém mais experiente)."
+    },
+    {
+      "id": "psicologia-educacao-12",
+      "topico": "vygotsky",
+      "nivel": "conceitual",
+      "pergunta": "Para Vygotsky, qual é o principal signo mediador do pensamento?",
+      "opcoes": [
+        "O reforço",
+        "O reflexo",
+        "A punição",
+        "A linguagem"
+      ],
+      "correta": 3,
+      "explicacao": "A linguagem é o signo central: primeiro é social, depois vira pensamento interno."
+    },
+    {
+      "id": "psicologia-educacao-13",
+      "topico": "vygotsky",
+      "nivel": "conceitual",
+      "pergunta": "Para Vygotsky, qual é a relação entre aprendizagem e desenvolvimento?",
+      "opcoes": [
+        "A aprendizagem puxa o desenvolvimento",
+        "O desenvolvimento precisa estar completo antes de aprender",
+        "As duas não têm relação",
+        "Só a maturação biológica importa"
+      ],
+      "correta": 0,
+      "explicacao": "O bom ensino se adianta ao desenvolvimento e atua na ZDP."
+    },
+    {
+      "id": "psicologia-educacao-14",
+      "topico": "vygotsky",
+      "nivel": "aplicacao",
+      "pergunta": "Uma professora dá pistas e exemplos a um aluno que ainda não resolve um problema sozinho e vai retirando a ajuda conforme ele avança. Ela está:",
+      "opcoes": [
+        "Usando punição",
+        "Atuando na ZDP com andaimes",
+        "Aplicando condicionamento clássico",
+        "Esperando a maturação"
+      ],
+      "correta": 1,
+      "explicacao": "Ajuda temporária retirada aos poucos é o andaimento, na Zona de Desenvolvimento Proximal."
+    },
+    {
+      "id": "psicologia-educacao-15",
+      "topico": "vygotsky",
+      "nivel": "analise",
+      "pergunta": "Por que, na perspectiva de Vygotsky, colocar alunos em níveis diferentes para trabalhar juntos pode ser bom?",
+      "opcoes": [
+        "Porque assim o professor não precisa ensinar",
+        "Porque todos aprendem o mesmo ao mesmo tempo",
+        "Porque o colega mais experiente pode mediar e atuar na ZDP do outro",
+        "Porque a interação atrapalha a maturação"
+      ],
+      "correta": 2,
+      "explicacao": "A interação com parceiros mais capazes é fonte de aprendizagem; o professor continua organizando a mediação."
+    },
+    {
+      "id": "psicologia-educacao-16",
+      "topico": "cognitivismo",
+      "nivel": "conceitual",
+      "pergunta": "Para Ausubel, a aprendizagem significativa acontece quando:",
+      "opcoes": [
+        "O aluno decora a definição palavra por palavra",
+        "O professor reforça cada resposta certa",
+        "O aluno descobre tudo sozinho, sem orientação",
+        "A nova informação se ancora em conhecimentos que o aluno já tem"
+      ],
+      "correta": 3,
+      "explicacao": "A ideia central de Ausubel é ancorar o novo nos subsunçores que já existem na estrutura cognitiva."
+    },
+    {
+      "id": "psicologia-educacao-17",
+      "topico": "cognitivismo",
+      "nivel": "conceitual",
+      "pergunta": "O que é um organizador prévio?",
+      "opcoes": [
+        "Um material introdutório que liga o que o aluno sabe ao que vai aprender",
+        "A agenda do aluno",
+        "Uma prova feita no início do ano para dar nota",
+        "O plano de ensino da escola"
+      ],
+      "correta": 0,
+      "explicacao": "O organizador prévio faz a ponte entre conhecimentos prévios e o novo conteúdo."
+    },
+    {
+      "id": "psicologia-educacao-18",
+      "topico": "cognitivismo",
+      "nivel": "conceitual",
+      "pergunta": "O currículo em espiral, proposto por Bruner, consiste em:",
+      "opcoes": [
+        "Ensinar cada tema uma única vez",
+        "Retomar os mesmos temas em níveis cada vez mais complexos",
+        "Ensinar primeiro o mais difícil",
+        "Seguir só o interesse do aluno"
+      ],
+      "correta": 1,
+      "explicacao": "Para Bruner, qualquer tema pode ser ensinado em alguma forma honesta e ser retomado com mais profundidade."
+    },
+    {
+      "id": "psicologia-educacao-19",
+      "topico": "cognitivismo",
+      "nivel": "aplicacao",
+      "pergunta": "Um aluno estuda planejando o que vai fazer, confere se está entendendo e muda de estratégia quando não funciona. Ele está usando:",
+      "opcoes": [
+        "Condicionamento clássico",
+        "Aprendizagem mecânica",
+        "Metacognição",
+        "Extinção"
+      ],
+      "correta": 2,
+      "explicacao": "Planejar, monitorar e avaliar a própria aprendizagem é metacognição."
+    },
+    {
+      "id": "psicologia-educacao-20",
+      "topico": "cognitivismo",
+      "nivel": "analise",
+      "pergunta": "Um aluno decorou a fórmula da área do círculo para a prova e esqueceu tudo uma semana depois. Segundo Ausubel, o que provavelmente aconteceu?",
+      "opcoes": [
+        "Aprendizagem significativa",
+        "Acomodação de esquemas",
+        "Excesso de reforço positivo",
+        "Aprendizagem mecânica, sem ligação com o que ele já sabia"
+      ],
+      "correta": 3,
+      "explicacao": "A aprendizagem mecânica não se ancora em subsunçores e é esquecida rapidamente."
+    },
+    {
+      "id": "psicologia-educacao-21",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "A motivação intrínseca é aquela que:",
+      "opcoes": [
+        "Vem do interesse e do prazer na própria atividade",
+        "Depende de nota ou prêmio",
+        "Nasce do medo de castigo",
+        "É imposta pela família"
+      ],
+      "correta": 0,
+      "explicacao": "Intrínseca vem de dentro; extrínseca depende de recompensas ou de evitar punições."
+    },
+    {
+      "id": "psicologia-educacao-22",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Para Bandura, a autoeficácia é:",
+      "opcoes": [
+        "A nota média do aluno",
+        "A crença na própria capacidade de realizar uma tarefa",
+        "A capacidade de memorizar",
+        "O conjunto de reforços recebidos"
+      ],
+      "correta": 1,
+      "explicacao": "Autoeficácia é crença, não habilidade; cresce com experiências de sucesso, modelos e encorajamento."
+    },
+    {
+      "id": "psicologia-educacao-23",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a teoria da autodeterminação, a motivação cresce quando há:",
+      "opcoes": [
+        "Prêmios, castigos e vigilância",
+        "Silêncio, ordem e cópia",
+        "Autonomia, competência e vínculo",
+        "Competição, ranking e punição"
+      ],
+      "correta": 2,
+      "explicacao": "Deci e Ryan apontam três necessidades psicológicas básicas: autonomia, competência e pertencimento."
+    },
+    {
+      "id": "psicologia-educacao-24",
+      "topico": "motivacao",
+      "nivel": "aplicacao",
+      "pergunta": "Depois de ir mal numa prova, um aluno diz: 'não adianta, eu sou burro para matemática'. Como o professor pode ajudar, segundo a teoria da atribuição?",
+      "opcoes": [
+        "Concordar para não criar falsa esperança",
+        "Trocar o aluno de turma",
+        "Dar a mesma prova de novo sem conversar",
+        "Mostrar que o resultado depende de esforço e de estratégias, que podem mudar"
+      ],
+      "correta": 3,
+      "explicacao": "Atribuir o fracasso a uma causa interna e estável (capacidade) desmotiva; causas instáveis, como esforço e estratégia, mantêm a vontade de tentar."
+    },
+    {
+      "id": "psicologia-educacao-25",
+      "topico": "motivacao",
+      "nivel": "analise",
+      "pergunta": "Uma escola passa a pagar prêmios por cada livro lido. Alunos que já gostavam de ler passam a ler só quando há prêmio. O que explica isso?",
+      "opcoes": [
+        "Recompensa externa em excesso pode reduzir a motivação intrínseca",
+        "A hierarquia de Maslow",
+        "O condicionamento clássico",
+        "A Zona de Desenvolvimento Proximal"
+      ],
+      "correta": 0,
+      "explicacao": "Recompensas extrínsecas podem deslocar o motivo da atividade e diminuir o interesse que já existia."
+    },
+    {
+      "id": "psicologia-educacao-26",
+      "topico": "dificuldades",
+      "nivel": "conceitual",
+      "pergunta": "A dislexia é:",
+      "opcoes": [
+        "Falta de interesse pela leitura",
+        "Uma dificuldade persistente na leitura, sem relação com inteligência",
+        "Um problema de visão",
+        "Sinal de baixa inteligência"
+      ],
+      "correta": 1,
+      "explicacao": "Dislexia é um transtorno específico de aprendizagem da leitura (decodificação e fluência)."
+    },
+    {
+      "id": "psicologia-educacao-27",
+      "topico": "dificuldades",
+      "nivel": "conceitual",
+      "pergunta": "O efeito Pigmalião, na escola, mostra que:",
+      "opcoes": [
+        "Alunos aprendem melhor sozinhos",
+        "A nota é sempre objetiva",
+        "As expectativas do professor influenciam o desempenho dos alunos",
+        "A inteligência não muda"
+      ],
+      "correta": 2,
+      "explicacao": "Rosenthal e Jacobson mostraram que expectativas positivas ou negativas tendem a se confirmar."
+    },
+    {
+      "id": "psicologia-educacao-28",
+      "topico": "dificuldades",
+      "nivel": "conceitual",
+      "pergunta": "O AEE (atendimento educacional especializado):",
+      "opcoes": [
+        "Substitui a sala comum para alunos com deficiência",
+        "É uma escola especial separada",
+        "É obrigatório para todos os alunos",
+        "Complementa ou suplementa a sala comum, sem substituí-la"
+      ],
+      "correta": 3,
+      "explicacao": "Na política de educação inclusiva, o AEE é feito em outro turno e não substitui a escolarização na classe comum."
+    },
+    {
+      "id": "psicologia-educacao-29",
+      "topico": "dificuldades",
+      "nivel": "aplicacao",
+      "pergunta": "Uma professora percebe que um aluno troca letras com frequência e lê muito devagar. O que ela deve fazer?",
+      "opcoes": [
+        "Observar, registrar, conversar com a família e encaminhar para avaliação",
+        "Dar o diagnóstico de dislexia ao aluno",
+        "Pedir que a família dê remédio",
+        "Tirar o aluno da sala"
+      ],
+      "correta": 0,
+      "explicacao": "O professor observa e encaminha; o diagnóstico cabe aos profissionais de saúde."
+    },
+    {
+      "id": "psicologia-educacao-30",
+      "topico": "dificuldades",
+      "nivel": "analise",
+      "pergunta": "Uma turma inteira vai mal em frações e vários alunos são encaminhados ao neurologista. Qual é a crítica mais adequada?",
+      "opcoes": [
+        "Encaminhar todos é sempre o correto",
+        "Pode ser medicalização: um problema de ensino tratado como doença individual",
+        "Frações não se aprendem na escola",
+        "É sinal de discalculia coletiva"
+      ],
+      "correta": 1,
+      "explicacao": "Quando a dificuldade é da turma toda, é preciso rever o ensino antes de atribuir o problema a cada aluno."
+    }
+  ]
+}

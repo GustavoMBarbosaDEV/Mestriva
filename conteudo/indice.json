@@ -2,6 +2,47 @@
   "versao": 1,
   "materias": [
     {
+      "id": "alfabetizacao-letramento",
+      "nome": "Alfabetização e Letramento",
+      "apelidos": [
+        "Alfabetização",
+        "Alfabetização e Letramento I",
+        "Alfabetização e Letramento II",
+        "Fundamentos da Alfabetização",
+        "Processos de Alfabetização",
+        "Metodologia da Alfabetização",
+        "Alfabetização e Linguagem",
+        "Fundamentos e Metodologia da Alfabetização"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Alfabetização e letramento"
+        },
+        {
+          "id": "psicogenese",
+          "nome": "Psicogênese da língua escrita"
+        },
+        {
+          "id": "consciencia-fonologica",
+          "nome": "Consciência fonológica e princípio alfabético"
+        },
+        {
+          "id": "metodos",
+          "nome": "Métodos de alfabetização"
+        },
+        {
+          "id": "ortografia",
+          "nome": "Ortografia e produção de texto"
+        },
+        {
+          "id": "politicas-alfa",
+          "nome": "Políticas e avaliação da alfabetização"
+        }
+      ]
+    },
+    {
       "id": "algebra-linear",
       "nome": "Álgebra Linear",
       "apelidos": [
@@ -744,6 +785,44 @@
       ]
     },
     {
+      "id": "filosofia-educacao",
+      "nome": "Filosofia da Educação",
+      "apelidos": [
+        "Filosofia da Educação I",
+        "Filosofia da Educação II",
+        "Filosofia e Educação",
+        "Fundamentos Filosóficos da Educação",
+        "Ética e Educação"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "O que é Filosofia da Educação"
+        },
+        {
+          "id": "antigos",
+          "nome": "Educação na Grécia: Sócrates, Platão e Aristóteles"
+        },
+        {
+          "id": "modernos",
+          "nome": "Modernidade: Comenius, Locke, Rousseau e Kant"
+        },
+        {
+          "id": "dewey-escola-nova",
+          "nome": "Dewey e o pragmatismo"
+        },
+        {
+          "id": "critica-contemporanea",
+          "nome": "Pensamento crítico e contemporâneo"
+        },
+        {
+          "id": "etica",
+          "nome": "Ética, valores e educação"
+        }
+      ]
+    },
+    {
       "id": "fisica-1",
       "nome": "Física I",
       "apelidos": [
@@ -905,6 +984,44 @@
         {
           "id": "nervoso-sangue",
           "nome": "Tecido nervoso e sangue"
+        }
+      ]
+    },
+    {
+      "id": "historia-educacao",
+      "nome": "História da Educação",
+      "apelidos": [
+        "História da Educação I",
+        "História da Educação II",
+        "História da Educação Brasileira",
+        "Fundamentos Históricos da Educação",
+        "História da Educação e da Pedagogia"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "colonia",
+          "nome": "Brasil Colônia: os jesuítas e as reformas pombalinas"
+        },
+        {
+          "id": "imperio",
+          "nome": "Império: Lei de 1827 e Ato Adicional"
+        },
+        {
+          "id": "primeira-republica",
+          "nome": "Primeira República e Era Vargas"
+        },
+        {
+          "id": "1946-1964",
+          "nome": "Redemocratização e LDB de 1961"
+        },
+        {
+          "id": "ditadura",
+          "nome": "Ditadura militar (1964–1985)"
+        },
+        {
+          "id": "redemocratizacao",
+          "nome": "Constituição de 1988 e LDB de 1996"
         }
       ]
     },
@@ -1236,6 +1353,47 @@
       ]
     },
     {
+      "id": "politica-educacional",
+      "nome": "Política Educacional",
+      "apelidos": [
+        "Políticas Educacionais",
+        "Política Educacional Brasileira",
+        "Políticas Públicas em Educação",
+        "Estrutura e Funcionamento da Educação Básica",
+        "Organização da Educação Brasileira",
+        "Legislação Educacional",
+        "Política e Organização da Educação Básica",
+        "Gestão e Políticas Educacionais"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "estado-politicas",
+          "nome": "Estado e políticas públicas de educação"
+        },
+        {
+          "id": "organizacao",
+          "nome": "Organização da educação nacional"
+        },
+        {
+          "id": "financiamento",
+          "nome": "Financiamento da educação"
+        },
+        {
+          "id": "planos",
+          "nome": "Planos e metas: o PNE"
+        },
+        {
+          "id": "avaliacao",
+          "nome": "Avaliação em larga escala"
+        },
+        {
+          "id": "gestao-curriculo",
+          "nome": "Gestão democrática e currículo"
+        }
+      ]
+    },
+    {
       "id": "portugues-redacao",
       "nome": "Português e Redação Acadêmica",
       "apelidos": [
@@ -1363,6 +1521,45 @@
       ]
     },
     {
+      "id": "psicologia-educacao",
+      "nome": "Psicologia da Educação",
+      "apelidos": [
+        "Psicologia da Educação I",
+        "Psicologia da Educação II",
+        "Psicologia Educacional",
+        "Psicologia da Aprendizagem",
+        "Psicologia e Educação",
+        "Teorias da Aprendizagem"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "comportamentalismo",
+          "nome": "Comportamentalismo e aprendizagem"
+        },
+        {
+          "id": "piaget",
+          "nome": "Piaget e o construtivismo"
+        },
+        {
+          "id": "vygotsky",
+          "nome": "Vygotsky e a perspectiva histórico-cultural"
+        },
+        {
+          "id": "cognitivismo",
+          "nome": "Aprendizagem significativa e cognição"
+        },
+        {
+          "id": "motivacao",
+          "nome": "Motivação e afetividade"
+        },
+        {
+          "id": "dificuldades",
+          "nome": "Dificuldades de aprendizagem e inclusão"
+        }
+      ]
+    },
+    {
       "id": "quimica-geral",
       "nome": "Química Geral",
       "apelidos": [
@@ -1442,6 +1639,45 @@
         {
           "id": "indicadores-financiamento",
           "nome": "Indicadores de saúde e financiamento"
+        }
+      ]
+    },
+    {
+      "id": "sociologia-educacao",
+      "nome": "Sociologia da Educação",
+      "apelidos": [
+        "Sociologia da Educação I",
+        "Sociologia da Educação II",
+        "Sociologia Educacional",
+        "Sociologia e Educação",
+        "Educação e Sociedade",
+        "Fundamentos Sociológicos da Educação"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "durkheim",
+          "nome": "Durkheim e a educação como socialização"
+        },
+        {
+          "id": "weber-marx",
+          "nome": "Weber, Marx e a escola"
+        },
+        {
+          "id": "reproducao",
+          "nome": "Teorias da reprodução"
+        },
+        {
+          "id": "critica-pedagogia",
+          "nome": "Escola e transformação social"
+        },
+        {
+          "id": "desigualdades",
+          "nome": "Desigualdades e fracasso escolar"
+        },
+        {
+          "id": "escola-contemporanea",
+          "nome": "Escola, juventude e sociedade contemporânea"
         }
       ]
     },

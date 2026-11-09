@@ -507,6 +507,75 @@ export const EXTRA = {
       "Legislação Comercial",
       "Noções de Direito Empresarial"
     ]
+  },
+  "psicologia-educacao": {
+    "area": "Educação",
+    "apelidos": [
+      "Psicologia da Educação I",
+      "Psicologia da Educação II",
+      "Psicologia Educacional",
+      "Psicologia da Aprendizagem",
+      "Psicologia e Educação",
+      "Teorias da Aprendizagem"
+    ]
+  },
+  "sociologia-educacao": {
+    "area": "Educação",
+    "apelidos": [
+      "Sociologia da Educação I",
+      "Sociologia da Educação II",
+      "Sociologia Educacional",
+      "Sociologia e Educação",
+      "Educação e Sociedade",
+      "Fundamentos Sociológicos da Educação"
+    ]
+  },
+  "filosofia-educacao": {
+    "area": "Educação",
+    "apelidos": [
+      "Filosofia da Educação I",
+      "Filosofia da Educação II",
+      "Filosofia e Educação",
+      "Fundamentos Filosóficos da Educação",
+      "Ética e Educação"
+    ]
+  },
+  "historia-educacao": {
+    "area": "Educação",
+    "apelidos": [
+      "História da Educação I",
+      "História da Educação II",
+      "História da Educação Brasileira",
+      
+      "Fundamentos Históricos da Educação",
+      "História da Educação e da Pedagogia"
+    ]
+  },
+  "politica-educacional": {
+    "area": "Educação",
+    "apelidos": [
+      "Políticas Educacionais",
+      "Política Educacional Brasileira",
+      "Políticas Públicas em Educação",
+      "Estrutura e Funcionamento da Educação Básica",
+      "Organização da Educação Brasileira",
+      "Legislação Educacional",
+      "Política e Organização da Educação Básica",
+      "Gestão e Políticas Educacionais"
+    ]
+  },
+  "alfabetizacao-letramento": {
+    "area": "Educação",
+    "apelidos": [
+      "Alfabetização",
+      "Alfabetização e Letramento I",
+      "Alfabetização e Letramento II",
+      "Fundamentos da Alfabetização",
+      "Processos de Alfabetização",
+      "Metodologia da Alfabetização",
+      "Alfabetização e Linguagem",
+      "Fundamentos e Metodologia da Alfabetização"
+    ]
   }
 };
 

@@ -1,0 +1,465 @@
+{
+  "id": "historia-educacao",
+  "nome": "História da Educação",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "colonia",
+      "nome": "Brasil Colônia: os jesuítas e as reformas pombalinas",
+      "resumo": "A educação escolar no Brasil começa com a chegada dos **jesuítas** (Companhia de Jesus), em **1549**, junto com o primeiro governador-geral, Tomé de Sousa. O grupo era liderado por **Manuel da Nóbrega**; José de Anchieta chegou em 1553.\n\n### Período jesuítico (1549–1759)\n- Objetivos: **catequese** dos indígenas e formação dos filhos dos colonos (e dos futuros padres).\n- **Escolas de ler e escrever** e **colégios**, onde a educação era humanista e religiosa.\n- **Ratio Studiorum** (1599): plano de estudos que padronizava os colégios (gramática, humanidades, retórica, filosofia e teologia), com ênfase em memorização, emulação e disciplina.\n- Os jesuítas aprenderam o **tupi** e Anchieta escreveu uma gramática da língua.\n- A educação era **elitista**: excluía mulheres, escravizados e a maioria da população.\n\n### Reformas pombalinas (1759)\n- O **Marquês de Pombal** expulsou os jesuítas de Portugal e das colônias em **1759**.\n- Criou as **aulas régias**: aulas avulsas de disciplinas isoladas (latim, grego, retórica), pagas pelo Estado com o **subsídio literário** (1772).\n- Primeira tentativa de ensino **estatal e laico**, mas com professores mal preparados e mal pagos. O sistema ficou fragmentado.",
+      "revisao": "**Lembre:**\n- 1549: chegada dos jesuítas (Nóbrega).\n- Ratio Studiorum (1599): plano dos colégios.\n- Educação elitista e religiosa.\n- 1759: Pombal expulsa os jesuítas.\n- Aulas régias + subsídio literário (1772)."
+    },
+    {
+      "id": "imperio",
+      "nome": "Império: Lei de 1827 e Ato Adicional",
+      "resumo": "Com a vinda da família real (1808), surgiram instituições de **ensino superior** voltadas às necessidades da Corte, enquanto o ensino elementar ficou em segundo plano.\n\n### Joanino (1808–1821)\n- Cursos de **medicina** (Bahia e Rio de Janeiro), **Academia Real Militar**, Biblioteca Real, Imprensa Régia.\n- Cursos isolados e profissionais, sem universidade.\n\n### Império (1822–1889)\n- A Constituição de **1824** previa a **instrução primária gratuita** a todos os cidadãos, mas sem meios para isso.\n- **Lei de 15 de outubro de 1827**: mandava criar **escolas de primeiras letras** em todas as cidades, vilas e lugares populosos e adotava o **método lancasteriano** (ensino mútuo: alunos mais adiantados, os monitores, ensinavam os outros). O dia 15 de outubro virou o **Dia do Professor**.\n- Ainda em **1827**, cursos jurídicos em **São Paulo** e **Olinda**.\n- **Ato Adicional de 1834**: passou o ensino **primário e secundário** às **províncias**, e o superior ficou com o governo central. Resultado: grande desigualdade entre as regiões.\n- **Colégio Pedro II** (1837): modelo de ensino secundário.\n- **Escolas Normais** para formar professores (a primeira em Niterói, 1835).\n- A maioria da população, sobretudo a escravizada, seguia sem escola.",
+      "revisao": "**Lembre:**\n- 1808: cursos superiores isolados.\n- Lei de 15/10/1827: escolas de primeiras letras, método lancasteriano.\n- Ato Adicional de 1834: primário e secundário para as províncias.\n- Colégio Pedro II (1837), Escolas Normais."
+    },
+    {
+      "id": "primeira-republica",
+      "nome": "Primeira República e Era Vargas",
+      "resumo": "### Primeira República (1889–1930)\n- A Constituição de **1891** separou Igreja e Estado: **ensino laico** nas escolas públicas.\n- Mantida a descentralização: estados cuidavam do ensino primário.\n- **Grupos escolares** (a partir de 1893, em São Paulo): escolas graduadas, com séries, prédios próprios e vários professores, modelo da escola moderna.\n- Analfabetismo altíssimo (cerca de 65% em 1920).\n- Reformas estaduais nos anos 1920 inspiradas na **Escola Nova** (Lourenço Filho no Ceará, Anísio Teixeira na Bahia, Fernando de Azevedo no Distrito Federal).\n\n### Era Vargas (1930–1945)\n- Criação do **Ministério da Educação e Saúde Pública** (1930), com Francisco Campos.\n- **Reforma Francisco Campos** (1931): organizou o ensino secundário e o superior (Estatuto das Universidades).\n- **Manifesto dos Pioneiros da Educação Nova** (1932): escola pública, gratuita, laica, obrigatória e única.\n- Constituição de **1934**: primeira a prever um **Plano Nacional de Educação** e verbas vinculadas para a educação.\n- Estado Novo (1937): ênfase no **ensino profissional** para as classes populares.\n- **Reformas Capanema** (Leis Orgânicas, 1942–1946): criação do **SENAI** (1942) e do **SENAC** (1946); ensino secundário para as elites e profissional para os pobres (**dualidade**).",
+      "revisao": "**Lembre:**\n- 1891: ensino laico.\n- Grupos escolares: escola graduada.\n- 1930: Ministério da Educação; 1932: Manifesto dos Pioneiros.\n- 1934: Plano Nacional e verbas vinculadas.\n- Capanema: SENAI/SENAC, dualidade."
+    },
+    {
+      "id": "1946-1964",
+      "nome": "Redemocratização e LDB de 1961",
+      "resumo": "### República de 1946 a 1964\n- A Constituição de **1946** retomou a vinculação de recursos e deu à União a competência de fixar as **diretrizes e bases** da educação nacional.\n- O projeto da primeira LDB tramitou por **13 anos**, entre o conflito **escola pública × escola privada** (com a Igreja Católica defendendo os subsídios às particulares).\n- **Campanha em Defesa da Escola Pública** (1959–1961): Florestan Fernandes, Anísio Teixeira e outros.\n\n### LDB de 1961 (Lei 4.024)\n- Primeira Lei de Diretrizes e Bases da Educação Nacional.\n- Permitiu **recursos públicos para escolas privadas**.\n- Deu **equivalência** entre os cursos de nível médio (secundário e técnico) para acesso ao superior.\n- Criou o **Conselho Federal de Educação**.\n\n### Educação popular\n- Início dos anos 1960: **movimentos de cultura popular**, Centros Populares de Cultura (UNE) e **Movimento de Educação de Base** (MEB, Igreja).\n- **Paulo Freire**: experiência de **Angicos** (RN, 1963), com alfabetização de adultos em cerca de 40 horas, e o **Plano Nacional de Alfabetização** (1964), extinto depois do golpe.\n- **Universidade de Brasília** (1961), idealizada por Darcy Ribeiro e Anísio Teixeira.",
+      "revisao": "**Lembre:**\n- LDB de 1961 (Lei 4.024), depois de 13 anos de debate.\n- Disputa escola pública × privada.\n- Paulo Freire: Angicos (1963).\n- Plano Nacional de Alfabetização extinto em 1964.\n- UnB (1961)."
+    },
+    {
+      "id": "ditadura",
+      "nome": "Ditadura militar (1964–1985)",
+      "resumo": "O regime militar reorganizou a educação segundo a lógica do **desenvolvimento econômico** e da **segurança nacional**.\n\n### Acordos MEC-USAID\nConvênios com a agência dos Estados Unidos (USAID) que orientaram reformas com base na **teoria do capital humano** (educação como investimento para a produtividade).\n\n### Reforma universitária (Lei 5.540/1968)\n- Departamentos no lugar das cátedras, **sistema de créditos**, matrícula por disciplina, vestibular classificatório.\n- Expansão do ensino superior **privado**.\n- Repressão: **Decreto-Lei 477/1969** punia professores e alunos por atividades políticas.\n\n### Lei 5.692/1971\n- Criou o **1º grau** (8 anos, unindo primário e ginásio) e o **2º grau**.\n- **Profissionalização compulsória** no 2º grau (revogada em 1982 pela Lei 7.044, por falta de condições).\n- Inclusão de **Educação Moral e Cívica** e **OSPB**.\n\n### Outros pontos\n- **MOBRAL** (1967): alfabetização de adultos sem a dimensão crítica de Freire.\n- **Pedagogia tecnicista**: eficiência, planejamento, objetivos operacionais e instrução programada.\n- Exílio de educadores como Paulo Freire.",
+      "revisao": "**Lembre:**\n- MEC-USAID e teoria do capital humano.\n- Lei 5.540/1968: reforma universitária (créditos, departamentos).\n- Lei 5.692/1971: 1º e 2º graus, profissionalização compulsória.\n- MOBRAL (1967).\n- Pedagogia tecnicista."
+    },
+    {
+      "id": "redemocratizacao",
+      "nome": "Constituição de 1988 e LDB de 1996",
+      "resumo": "### Constituição de 1988\n- Educação como **direito de todos e dever do Estado e da família** (art. 205).\n- Princípios (art. 206): igualdade de acesso e permanência, gratuidade do ensino público, **gestão democrática**, valorização dos profissionais, garantia de padrão de qualidade.\n- **Vinculação de recursos** (art. 212): União aplica pelo menos **18%** e estados e municípios **25%** da receita de impostos na educação.\n\n### LDB de 1996 (Lei 9.394, \"Lei Darcy Ribeiro\")\n- **Educação básica**: educação infantil, ensino fundamental e ensino médio.\n- Formação de professores em nível superior como regra.\n- Base para a gestão democrática e para a autonomia das escolas.\n\n### Depois da LDB\n- **FUNDEF** (1996), depois **FUNDEB** (2007), tornado permanente em **2020**.\n- Ensino fundamental de **9 anos** (Lei 11.274/2006).\n- Obrigatoriedade dos **4 aos 17 anos** (Emenda Constitucional 59/2009).\n- **PNE** 2014–2024 (Lei 13.005/2014), com 20 metas.\n- **BNCC** (2017 e 2018) e **Reforma do Ensino Médio** (Lei 13.415/2017, revista pela Lei 14.945/2024).",
+      "revisao": "**Lembre:**\n- CF/88: direito de todos, gestão democrática.\n- Vinculação: União 18%, estados e municípios 25%.\n- LDB 9.394/1996 (Darcy Ribeiro).\n- FUNDEF → FUNDEB (permanente em 2020).\n- Obrigatória dos 4 aos 17 anos (EC 59/2009)."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "historia-educacao-1",
+      "topico": "colonia",
+      "nivel": "conceitual",
+      "pergunta": "Em que ano chegaram os primeiros jesuítas ao Brasil?",
+      "opcoes": [
+        "1549",
+        "1500",
+        "1759",
+        "1808"
+      ],
+      "correta": 0,
+      "explicacao": "Os jesuítas chegaram em 1549, com Manuel da Nóbrega, junto com o governador-geral Tomé de Sousa."
+    },
+    {
+      "id": "historia-educacao-2",
+      "topico": "colonia",
+      "nivel": "conceitual",
+      "pergunta": "O que era o Ratio Studiorum?",
+      "opcoes": [
+        "Uma lei de Pombal",
+        "O plano de estudos que padronizava os colégios jesuítas",
+        "O método de ensino mútuo",
+        "O primeiro censo escolar"
+      ],
+      "correta": 1,
+      "explicacao": "Publicado em 1599, organizava os estudos de humanidades, filosofia e teologia nos colégios da Companhia de Jesus."
+    },
+    {
+      "id": "historia-educacao-3",
+      "topico": "colonia",
+      "nivel": "conceitual",
+      "pergunta": "O que foram as aulas régias?",
+      "opcoes": [
+        "Aulas dadas pelos jesuítas aos indígenas",
+        "Escolas graduadas por séries",
+        "Aulas avulsas de disciplinas isoladas, pagas pelo Estado depois da expulsão dos jesuítas",
+        "Cursos superiores criados por D. João VI"
+      ],
+      "correta": 2,
+      "explicacao": "Com as reformas pombalinas, o Estado passou a pagar professores de disciplinas isoladas, financiados pelo subsídio literário."
+    },
+    {
+      "id": "historia-educacao-4",
+      "topico": "colonia",
+      "nivel": "aplicacao",
+      "pergunta": "Um historiador diz que a educação colonial era elitista. Que fato sustenta essa afirmação?",
+      "opcoes": [
+        "Todos os indígenas foram alfabetizados",
+        "Havia escola pública em todas as vilas",
+        "O ensino era em tupi para todos",
+        "Mulheres, escravizados e a maioria da população ficavam fora da escola"
+      ],
+      "correta": 3,
+      "explicacao": "A educação jesuítica atendia principalmente aos filhos dos colonos e à formação religiosa."
+    },
+    {
+      "id": "historia-educacao-5",
+      "topico": "colonia",
+      "nivel": "analise",
+      "pergunta": "Qual foi o principal efeito das reformas pombalinas sobre a educação na colônia?",
+      "opcoes": [
+        "Desmontou a estrutura jesuítica e criou um ensino estatal fragmentado e precário",
+        "Criou um sistema nacional organizado e de qualidade",
+        "Fundou as primeiras universidades brasileiras",
+        "Tornou a educação obrigatória para todos"
+      ],
+      "correta": 0,
+      "explicacao": "As aulas régias isoladas, com professores mal pagos, não substituíram a organização dos colégios jesuítas."
+    },
+    {
+      "id": "historia-educacao-6",
+      "topico": "imperio",
+      "nivel": "conceitual",
+      "pergunta": "O que determinou a Lei de 15 de outubro de 1827?",
+      "opcoes": [
+        "A criação da primeira universidade",
+        "A criação de escolas de primeiras letras e o método lancasteriano",
+        "A expulsão dos jesuítas",
+        "A obrigatoriedade do ensino médio"
+      ],
+      "correta": 1,
+      "explicacao": "A lei mandou criar escolas de primeiras letras nos lugares populosos; a data deu origem ao Dia do Professor."
+    },
+    {
+      "id": "historia-educacao-7",
+      "topico": "imperio",
+      "nivel": "conceitual",
+      "pergunta": "No método lancasteriano (ensino mútuo):",
+      "opcoes": [
+        "Cada aluno estudava sozinho em casa",
+        "O professor atendia um aluno por vez",
+        "Alunos mais adiantados, os monitores, ensinavam os demais",
+        "Os alunos escolhiam o que estudar"
+      ],
+      "correta": 2,
+      "explicacao": "O ensino mútuo permitia que um professor atendesse muitos alunos com a ajuda de monitores."
+    },
+    {
+      "id": "historia-educacao-8",
+      "topico": "imperio",
+      "nivel": "conceitual",
+      "pergunta": "O Ato Adicional de 1834 transferiu às províncias a responsabilidade pelo:",
+      "opcoes": [
+        "Ensino superior",
+        "Exército",
+        "Comércio exterior",
+        "Ensino primário e secundário"
+      ],
+      "correta": 3,
+      "explicacao": "O governo central ficou com o ensino superior; o primário e o secundário passaram às províncias."
+    },
+    {
+      "id": "historia-educacao-9",
+      "topico": "imperio",
+      "nivel": "aplicacao",
+      "pergunta": "Por que se diz que a educação no período joanino atendia sobretudo à Corte?",
+      "opcoes": [
+        "Porque foram criados cursos superiores profissionais, e o ensino elementar ficou em segundo plano",
+        "Porque toda a população foi alfabetizada",
+        "Porque foram criadas escolas para os escravizados",
+        "Porque o ensino virou responsabilidade das províncias"
+      ],
+      "correta": 0,
+      "explicacao": "Medicina, academia militar e biblioteca serviam às necessidades da administração e da elite."
+    },
+    {
+      "id": "historia-educacao-10",
+      "topico": "imperio",
+      "nivel": "analise",
+      "pergunta": "Qual foi uma consequência do Ato Adicional de 1834?",
+      "opcoes": [
+        "Unificação de todo o ensino no governo central",
+        "Desigualdade entre as províncias, pois as mais pobres tinham poucos recursos para manter escolas",
+        "Fim do ensino secundário",
+        "Gratuidade efetiva da educação para todos"
+      ],
+      "correta": 1,
+      "explicacao": "A descentralização sem recursos fez a oferta depender da riqueza de cada província."
+    },
+    {
+      "id": "historia-educacao-11",
+      "topico": "primeira-republica",
+      "nivel": "conceitual",
+      "pergunta": "O que eram os grupos escolares?",
+      "opcoes": [
+        "Grupos de estudo de alunos universitários",
+        "Aulas avulsas da época de Pombal",
+        "Escolas graduadas, com séries e vários professores em prédio próprio",
+        "Escolas de catequese jesuítica"
+      ],
+      "correta": 2,
+      "explicacao": "Criados a partir de 1893 em São Paulo, reuniam escolas isoladas em um modelo seriado."
+    },
+    {
+      "id": "historia-educacao-12",
+      "topico": "primeira-republica",
+      "nivel": "conceitual",
+      "pergunta": "A Constituição de 1934 foi a primeira a prever:",
+      "opcoes": [
+        "A expulsão dos jesuítas",
+        "A profissionalização compulsória",
+        "O FUNDEB",
+        "Um Plano Nacional de Educação e verbas vinculadas para a educação"
+      ],
+      "correta": 3,
+      "explicacao": "A Carta de 1934 incorporou ideias do Manifesto dos Pioneiros, como o plano nacional e a vinculação de recursos."
+    },
+    {
+      "id": "historia-educacao-13",
+      "topico": "primeira-republica",
+      "nivel": "conceitual",
+      "pergunta": "As Leis Orgânicas da Reforma Capanema criaram:",
+      "opcoes": [
+        "O SENAI e o SENAC",
+        "O MOBRAL",
+        "A Universidade de Brasília",
+        "O FUNDEF"
+      ],
+      "correta": 0,
+      "explicacao": "O SENAI (1942) e o SENAC (1946) formavam mão de obra para a indústria e o comércio."
+    },
+    {
+      "id": "historia-educacao-14",
+      "topico": "primeira-republica",
+      "nivel": "aplicacao",
+      "pergunta": "Na Reforma Capanema, o secundário preparava as elites para o ensino superior e o ensino profissional era destinado às classes populares. Isso caracteriza:",
+      "opcoes": [
+        "A escola única",
+        "A dualidade do sistema educacional",
+        "A gestão democrática",
+        "O ensino mútuo"
+      ],
+      "correta": 1,
+      "explicacao": "A dualidade estrutural separava percursos para elites e para trabalhadores."
+    },
+    {
+      "id": "historia-educacao-15",
+      "topico": "primeira-republica",
+      "nivel": "analise",
+      "pergunta": "O que mudou na relação entre educação e religião com a Constituição de 1891?",
+      "opcoes": [
+        "O ensino religioso tornou-se obrigatório",
+        "A Igreja passou a administrar as escolas públicas",
+        "O ensino nas escolas públicas passou a ser laico",
+        "As escolas privadas foram proibidas"
+      ],
+      "correta": 2,
+      "explicacao": "Com a separação entre Igreja e Estado, a República determinou ensino leigo nos estabelecimentos públicos."
+    },
+    {
+      "id": "historia-educacao-16",
+      "topico": "1946-1964",
+      "nivel": "conceitual",
+      "pergunta": "Qual foi a primeira Lei de Diretrizes e Bases da Educação Nacional?",
+      "opcoes": [
+        "Lei 5.692/1971",
+        "Lei 9.394/1996",
+        "Lei 5.540/1968",
+        "Lei 4.024/1961"
+      ],
+      "correta": 3,
+      "explicacao": "A Lei 4.024 foi aprovada em 1961, depois de 13 anos de tramitação."
+    },
+    {
+      "id": "historia-educacao-17",
+      "topico": "1946-1964",
+      "nivel": "conceitual",
+      "pergunta": "Onde aconteceu a famosa experiência de alfabetização de adultos de Paulo Freire, em 1963?",
+      "opcoes": [
+        "Angicos, no Rio Grande do Norte",
+        "São Paulo",
+        "Porto Alegre",
+        "Brasília"
+      ],
+      "correta": 0,
+      "explicacao": "Em Angicos, cerca de 300 trabalhadores foram alfabetizados em aproximadamente 40 horas."
+    },
+    {
+      "id": "historia-educacao-18",
+      "topico": "1946-1964",
+      "nivel": "conceitual",
+      "pergunta": "Qual era o centro do debate em torno da LDB de 1961?",
+      "opcoes": [
+        "A criação do SENAI",
+        "A disputa entre escola pública e escola privada",
+        "A expulsão dos jesuítas",
+        "A reforma universitária"
+      ],
+      "correta": 1,
+      "explicacao": "A Campanha em Defesa da Escola Pública se opôs ao repasse de recursos públicos às escolas particulares."
+    },
+    {
+      "id": "historia-educacao-19",
+      "topico": "1946-1964",
+      "nivel": "aplicacao",
+      "pergunta": "Uma das consequências práticas da LDB de 1961 para os estudantes do ensino técnico foi:",
+      "opcoes": [
+        "Ser obrigados a trabalhar na indústria",
+        "Ficar proibidos de entrar na universidade",
+        "Poder prestar vestibular, pela equivalência entre os cursos de nível médio",
+        "Estudar só em escolas religiosas"
+      ],
+      "correta": 2,
+      "explicacao": "A equivalência entre os ramos do ensino médio permitiu o acesso ao superior a partir de qualquer um deles."
+    },
+    {
+      "id": "historia-educacao-20",
+      "topico": "1946-1964",
+      "nivel": "analise",
+      "pergunta": "Por que o Plano Nacional de Alfabetização, inspirado em Freire, foi extinto em 1964?",
+      "opcoes": [
+        "Porque já tinha alfabetizado toda a população",
+        "Porque foi substituído pela LDB de 1996",
+        "Porque os professores pediram o fim",
+        "Porque o golpe militar o via como ameaça, por estimular a consciência crítica dos trabalhadores"
+      ],
+      "correta": 3,
+      "explicacao": "O método associava alfabetização e politização; após o golpe, Freire foi preso e exilado."
+    },
+    {
+      "id": "historia-educacao-21",
+      "topico": "ditadura",
+      "nivel": "conceitual",
+      "pergunta": "A Lei 5.692/1971 instituiu:",
+      "opcoes": [
+        "O 1º e o 2º graus, com profissionalização compulsória no 2º grau",
+        "A primeira LDB",
+        "A educação infantil obrigatória",
+        "O FUNDEB"
+      ],
+      "correta": 0,
+      "explicacao": "A lei uniu primário e ginásio no 1º grau de 8 anos e tornou o 2º grau profissionalizante; a obrigatoriedade caiu em 1982."
+    },
+    {
+      "id": "historia-educacao-22",
+      "topico": "ditadura",
+      "nivel": "conceitual",
+      "pergunta": "Os acordos MEC-USAID se baseavam principalmente na:",
+      "opcoes": [
+        "Pedagogia do oprimido",
+        "Teoria do capital humano",
+        "Escola Nova",
+        "Pedagogia histórico-crítica"
+      ],
+      "correta": 1,
+      "explicacao": "A educação era vista como investimento para aumentar a produtividade e o desenvolvimento econômico."
+    },
+    {
+      "id": "historia-educacao-23",
+      "topico": "ditadura",
+      "nivel": "conceitual",
+      "pergunta": "O MOBRAL, criado em 1967, tinha como objetivo:",
+      "opcoes": [
+        "A formação de professores universitários",
+        "O ensino técnico industrial",
+        "A alfabetização de jovens e adultos",
+        "A educação infantil"
+      ],
+      "correta": 2,
+      "explicacao": "Diferentemente da proposta de Freire, o MOBRAL não tinha a dimensão de conscientização política."
+    },
+    {
+      "id": "historia-educacao-24",
+      "topico": "ditadura",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola dos anos 1970 com objetivos operacionais, planejamento rígido, manuais e instrução programada segue qual tendência?",
+      "opcoes": [
+        "Pedagogia libertadora",
+        "Escola Nova",
+        "Pedagogia histórico-crítica",
+        "Pedagogia tecnicista"
+      ],
+      "correta": 3,
+      "explicacao": "O tecnicismo buscava eficiência e produtividade no ensino, em sintonia com o projeto econômico do regime."
+    },
+    {
+      "id": "historia-educacao-25",
+      "topico": "ditadura",
+      "nivel": "analise",
+      "pergunta": "Por que a profissionalização compulsória da Lei 5.692/1971 fracassou?",
+      "opcoes": [
+        "Faltavam recursos, professores e estrutura para cursos técnicos de qualidade em todas as escolas",
+        "Os alunos já eram todos técnicos",
+        "A Constituição de 1988 a proibiu antes de começar",
+        "O SENAI fechou as escolas"
+      ],
+      "correta": 0,
+      "explicacao": "Sem condições reais, muitos cursos eram só formais; a Lei 7.044/1982 acabou com a obrigatoriedade."
+    },
+    {
+      "id": "historia-educacao-26",
+      "topico": "redemocratizacao",
+      "nivel": "conceitual",
+      "pergunta": "A Constituição de 1988 define a educação como:",
+      "opcoes": [
+        "Responsabilidade exclusiva da família",
+        "Direito de todos e dever do Estado e da família",
+        "Serviço oferecido só pela iniciativa privada",
+        "Obrigação apenas dos municípios"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 205 da Constituição Federal: a educação visa ao pleno desenvolvimento da pessoa, ao preparo para a cidadania e à qualificação para o trabalho, com a colaboração da sociedade."
+    },
+    {
+      "id": "historia-educacao-27",
+      "topico": "redemocratizacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a atual Lei de Diretrizes e Bases da Educação Nacional?",
+      "opcoes": [
+        "Lei 4.024/1961",
+        "Lei 5.692/1971",
+        "Lei 9.394/1996",
+        "Lei 13.005/2014"
+      ],
+      "correta": 2,
+      "explicacao": "A LDB de 1996 é conhecida como Lei Darcy Ribeiro."
+    },
+    {
+      "id": "historia-educacao-28",
+      "topico": "redemocratizacao",
+      "nivel": "conceitual",
+      "pergunta": "Pela Constituição, qual percentual mínimo da receita de impostos estados e municípios devem aplicar em educação?",
+      "opcoes": [
+        "18%",
+        "10%",
+        "50%",
+        "25%"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 212: a União aplica no mínimo 18% e estados, Distrito Federal e municípios, 25%."
+    },
+    {
+      "id": "historia-educacao-29",
+      "topico": "redemocratizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma família de uma criança de 4 anos pergunta se é obrigada a matriculá-la. O que diz a legislação atual?",
+      "opcoes": [
+        "Sim, a educação básica é obrigatória dos 4 aos 17 anos",
+        "Não, a escola só é obrigatória a partir dos 7 anos",
+        "Não, só o ensino médio é obrigatório",
+        "Sim, a partir dos 2 anos"
+      ],
+      "correta": 0,
+      "explicacao": "A Emenda Constitucional 59/2009 estendeu a obrigatoriedade para os 4 aos 17 anos."
+    },
+    {
+      "id": "historia-educacao-30",
+      "topico": "redemocratizacao",
+      "nivel": "analise",
+      "pergunta": "Qual foi a mudança trazida pela Emenda Constitucional 108/2020 em relação ao FUNDEB?",
+      "opcoes": [
+        "Extinguiu o FUNDEB",
+        "Tornou o FUNDEB permanente e aumentou a complementação da União",
+        "Transformou o FUNDEB em FUNDEF",
+        "Passou o FUNDEB para as escolas privadas"
+      ],
+      "correta": 1,
+      "explicacao": "Criado em 2007 com prazo de validade, o FUNDEB virou permanente em 2020, com a complementação da União subindo de forma gradual até 23%."
+    }
+  ]
+}

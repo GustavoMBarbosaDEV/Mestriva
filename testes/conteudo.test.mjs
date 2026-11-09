@@ -65,11 +65,17 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
     "Direito Processual Civil I": "processo-civil",
     "Direito do Trabalho": "direito-trabalho",
     "Direito Comercial": "direito-empresarial",
+    "Psicologia da Aprendizagem": "psicologia-educacao",
+    "Educação e Sociedade": "sociologia-educacao",
+    "Filosofia da Educação I": "filosofia-educacao",
+    "Historia da Educacao": "historia-educacao",
+    "Estrutura e Funcionamento da Educação Básica": "politica-educacional",
+    "Fundamentos e Metodologia da Alfabetização": "alfabetizacao-letramento",
     "Processos Patológicos Gerais": "patologia",
   };
   for (const [nome, id] of Object.entries(casos)) assert.equal(achaNoBanco(nome, real), id, nome);
   // Nível diferente ou matéria diferente nunca liga.
-  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Direito Processual Civil II", "Processo do Trabalho", "Direito Coletivo do Trabalho", "Segurança do Trabalho", "Direito Empresarial II", "Direito Tributário", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II"]) {
+  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Direito Processual Civil II", "Processo do Trabalho", "Direito Coletivo do Trabalho", "Segurança do Trabalho", "Direito Empresarial II", "Direito Tributário", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II", "Filosofia", "Sociologia", "História do Brasil", "Ética Profissional", "Psicologia Geral", "Educação Física", "Letramento Digital", "Política Externa Brasileira"]) {
     assert.equal(achaNoBanco(nome, real), null, nome);
   }
 });
