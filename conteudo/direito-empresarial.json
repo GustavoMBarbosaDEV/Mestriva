@@ -1,0 +1,465 @@
+{
+  "id": "direito-empresarial",
+  "nome": "Direito Empresarial",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "empresario-empresa",
+      "nome": "Empresário e empresa",
+      "resumo": "O Código Civil de 2002 trocou a antiga **teoria dos atos de comércio** pela **teoria da empresa**, de origem italiana. O que importa não é o tipo de ato, mas o modo organizado de exercer a atividade.\n\n### Conceito de empresário (art. 966)\nQuem exerce **profissionalmente** atividade **econômica organizada** para a **produção ou a circulação de bens ou de serviços**.\n- **Profissionalidade**: habitualidade e pessoalidade.\n- **Atividade econômica**: busca de lucro.\n- **Organização**: reúne os fatores de produção (capital, mão de obra, insumos e tecnologia).\n- **Empresa** é a **atividade**; **empresário** é quem a exerce (pessoa física ou jurídica); **estabelecimento** é o conjunto de bens usado.\n\n### Quem não é empresário (art. 966, parágrafo único)\nQuem exerce **profissão intelectual, de natureza científica, literária ou artística**, ainda que com auxiliares, **salvo** se o exercício da profissão constituir **elemento de empresa** (ex.: o médico que monta um hospital em que sua atuação é só uma parte da organização).\n\n### Registro\n- É obrigatória a inscrição no **Registro Público de Empresas Mercantis** (Junta Comercial) **antes** do início da atividade (art. 967).\n- O registro tem natureza **declaratória**: quem exerce atividade empresarial sem registro é empresário **irregular**, sujeito às regras e às consequências negativas (ex.: não pode pedir recuperação judicial).\n- O **produtor rural** pode **optar** por se registrar; se o fizer, é equiparado ao empresário (art. 971).\n\n### Capacidade\n- Pode ser empresário quem está em pleno gozo da **capacidade civil** e não é legalmente **impedido** (art. 972), como servidores públicos, magistrados e militares da ativa. O impedido que exerce a atividade responde pelas obrigações (art. 973).\n- O **incapaz** não pode **começar** uma empresa, mas pode **continuar** a que já existia, por meio de representante ou assistente e com **autorização judicial** (art. 974).\n\n### Empresário individual e EIRELI\nO empresário individual responde com **todo o seu patrimônio**. A **EIRELI** deixou de existir (as existentes viraram sociedades limitadas unipessoais, Lei 14.195/2021). O **MEI** é um empresário individual com tratamento simplificado.",
+      "revisao": "**Lembre:**\n- Art. 966: atividade econômica organizada, profissional, para produzir ou fazer circular bens ou serviços.\n- Profissão intelectual não é empresa, salvo elemento de empresa.\n- Registro antes de começar; é declaratório. Sem registro: empresário irregular.\n- Rural: registro facultativo.\n- Incapaz só continua empresa, com autorização judicial.\n\n**Erros comuns:** achar que o registro cria a condição de empresário (ela vem da atividade); dizer que todo profissional liberal é empresário.\n\n**Mini exemplo:** uma dentista que atende sozinha no consultório não é empresária; uma rede de clínicas em que ela é só uma das profissionais e há gestão organizada é empresa."
+    },
+    {
+      "id": "estabelecimento-nome",
+      "nome": "Estabelecimento, nome empresarial e ponto",
+      "resumo": "### Estabelecimento (art. 1.142)\nTodo **complexo de bens organizado** para o exercício da empresa, por empresário ou sociedade empresária: imóvel ou ponto, máquinas, estoque, marcas, clientela potencial. É uma **universalidade de fato** e pode ser objeto de negócios (venda, arrendamento).\n- O **aviamento** é o valor que a organização agrega ao conjunto (o \"fundo de comércio\").\n\n### Trespasse (venda do estabelecimento)\n- Só produz efeitos perante terceiros depois de **averbado na Junta Comercial e publicado** (art. 1.144).\n- Se ao alienante **não restarem bens suficientes** para pagar o passivo, a venda depende do **pagamento de todos os credores ou do consentimento** deles, expresso ou tácito, em **30 dias** após notificados (art. 1.145). Senão, a venda pode ser ineficaz e caracterizar ato de falência.\n- O **adquirente** responde pelos débitos anteriores **regularmente contabilizados**; o **alienante** continua **solidariamente** obrigado por **1 ano** (art. 1.146).\n- **Cláusula de não concorrência implícita**: o alienante não pode fazer concorrência ao adquirente nos **5 anos** seguintes, salvo autorização expressa (art. 1.147).\n\n### Nome empresarial\n- **Firma**: formada pelo nome civil do empresário ou de sócios; serve também como **assinatura** (ex.: \"João Silva & Cia.\").\n- **Denominação**: pode usar um elemento de fantasia e indicar o objeto (ex.: \"Doce Sabor Alimentos Ltda.\").\n- A proteção vem do registro e vale, em regra, nos limites do **estado** da Junta Comercial (art. 1.166).\n- Nome empresarial (identifica o empresário) ≠ **título do estabelecimento** (o nome de fachada) ≠ **marca** (identifica produtos e serviços, registrada no **INPI**, com proteção nacional).\n\n### Ponto comercial e ação renovatória (Lei 8.245/1991)\nO empresário que aluga o imóvel pode exigir a **renovação compulsória** do contrato se (art. 51):\n1. o contrato for **escrito** e com **prazo determinado**;\n2. o prazo mínimo do contrato, ou a soma dos contratos ininterruptos, for de **5 anos**;\n3. explorar o **mesmo ramo** há pelo menos **3 anos** ininterruptos.\nA ação deve ser proposta entre **1 ano e 6 meses** antes do fim do contrato.",
+      "revisao": "**Lembre:**\n- Estabelecimento: complexo de bens organizado (art. 1.142).\n- Trespasse: averbação e publicação; consentimento dos credores se não restarem bens.\n- Adquirente responde pelos débitos contabilizados; alienante, solidário por 1 ano.\n- Não concorrência: 5 anos.\n- Renovatória: contrato escrito, 5 anos, mesmo ramo há 3 anos; ação entre 1 ano e 6 meses antes do fim.\n\n**Erros comuns:** confundir nome empresarial com marca; achar que o comprador do estabelecimento responde por dívidas que não estavam na contabilidade.\n\n**Mini exemplo:** Ana vende sua padaria a Bruno. No ano seguinte, Ana não pode abrir outra padaria na mesma rua, salvo se o contrato autorizar."
+    },
+    {
+      "id": "sociedades",
+      "nome": "Sociedades: classificação e personalidade",
+      "resumo": "### Conceito (art. 981)\nPessoas que reciprocamente se obrigam a contribuir, com bens ou serviços, para o exercício de atividade econômica e a **partilha dos resultados**.\n\n### Sociedade empresária × simples\n- **Empresária**: tem por objeto atividade própria de empresário sujeito a registro (art. 982). Registra-se na **Junta Comercial**.\n- **Simples**: as demais (ex.: sociedade de profissionais intelectuais, como advogados). Registra-se no **Registro Civil de Pessoas Jurídicas** (a de advogados, na OAB).\n- Independentemente do objeto, a **sociedade por ações** é sempre empresária e a **cooperativa** é sempre simples (art. 982, parágrafo único).\n\n### Sociedades não personificadas\n- **Sociedade em comum** (art. 986): sem registro. Os sócios respondem **solidária e ilimitadamente** pelas obrigações sociais, e o sócio que contratou pela sociedade não tem benefício de ordem (art. 990).\n- **Sociedade em conta de participação** (art. 991): sócio **ostensivo** age em nome próprio e responde perante terceiros; o sócio **participante** (oculto) só responde perante o ostensivo. Não tem personalidade jurídica nem precisa de registro.\n\n### Sociedades personificadas e tipos\nA personalidade jurídica começa com a **inscrição** dos atos constitutivos no registro (art. 985). Tipos: **nome coletivo** (todos respondem ilimitadamente), **comandita simples** (comanditados respondem ilimitadamente e comanditários até o valor da quota), **limitada**, **anônima** e **comandita por ações**.\n\n### Desconsideração da personalidade jurídica\n- **Código Civil, art. 50 (teoria maior)**: em caso de **abuso** da personalidade jurídica, caracterizado por **desvio de finalidade** ou **confusão patrimonial**, o juiz pode estender aos bens dos sócios ou administradores beneficiados certas obrigações da sociedade. A Lei 13.874/2019 definiu esses conceitos e deixou claro que a mera existência de grupo econômico ou a expansão da atividade não bastam.\n- **CDC, art. 28, §5º (teoria menor)**: basta que a personalidade seja **obstáculo** ao ressarcimento do consumidor.\n- **Desconsideração inversa**: atinge o patrimônio da sociedade por dívida do sócio que escondeu bens nela.\n- No processo, exige o **incidente** dos arts. 133 a 137 do CPC, com contraditório.",
+      "revisao": "**Lembre:**\n- Empresária: Junta Comercial. Simples: Registro Civil de PJ.\n- S.A. sempre empresária; cooperativa sempre simples.\n- Sociedade em comum: sócios respondem solidária e ilimitadamente.\n- Conta de participação: só o ostensivo aparece perante terceiros.\n- Desconsideração: CC exige abuso (desvio de finalidade ou confusão patrimonial); CDC basta o obstáculo ao ressarcimento.\n\n**Erros comuns:** achar que a sociedade sem registro protege o patrimônio dos sócios; aplicar a teoria menor fora das relações de consumo.\n\n**Mini exemplo:** os sócios usam a conta da empresa para pagar despesas pessoais, misturando os patrimônios. Um credor pode pedir a desconsideração por confusão patrimonial."
+    },
+    {
+      "id": "limitada-anonima",
+      "nome": "Sociedade limitada e sociedade anônima",
+      "resumo": "### Sociedade limitada (arts. 1.052 a 1.087 do CC)\n- A responsabilidade de cada sócio é **restrita ao valor de suas quotas**, mas **todos respondem solidariamente pela integralização** do capital social (art. 1.052). Integralizado o capital, o patrimônio pessoal fica protegido.\n- Pode ser **unipessoal**, com um só sócio (art. 1.052, §1º, incluído pela Lei 13.874/2019).\n- É **vedada** a contribuição que consista em **prestação de serviços** (art. 1.055, §2º).\n- Administrada por uma ou mais pessoas designadas no contrato social ou em ato separado, sócias ou não.\n- Deliberações importantes (alterar o contrato, incorporação, fusão, dissolução) exigem maioria de mais da metade do capital, ou quóruns específicos (art. 1.076).\n- Na omissão do contrato, aplicam-se as regras da sociedade simples; o contrato pode prever a aplicação **supletiva** da Lei das S.A.\n\n### Sociedade anônima (Lei 6.404/1976)\n- O capital é dividido em **ações**, e a responsabilidade do acionista é limitada ao **preço de emissão** das ações que subscreveu ou adquiriu.\n- É sempre **empresária**.\n- **Aberta**: seus valores mobiliários são negociados no **mercado** (bolsa ou balcão), sob fiscalização da **CVM**. **Fechada**: não negocia no mercado.\n\n### Órgãos da S.A.\n- **Assembleia geral**: órgão máximo, dos acionistas. A **ordinária** acontece nos 4 primeiros meses após o fim do exercício (contas, lucros, eleição de administradores).\n- **Conselho de administração**: obrigatório nas companhias **abertas**, nas de capital autorizado e nas de economia mista; facultativo nas demais.\n- **Diretoria**: representa a companhia e executa a gestão.\n- **Conselho fiscal**: existe em todas, mas o funcionamento pode ser **permanente ou não**.\n\n### Ações\n- **Ordinárias**: dão direito de **voto**.\n- **Preferenciais**: vantagens patrimoniais (prioridade em dividendos ou no reembolso) e podem não ter voto. Não podem passar de **50%** das ações emitidas (art. 15, §2º).\n- **De fruição**: atribuídas aos acionistas cujas ações foram amortizadas.\n\n### Deveres dos administradores\nDiligência, lealdade e informação. O administrador não responde pelas obrigações que assume em nome da companhia em ato regular de gestão, mas responde pelos prejuízos que causar com **culpa ou dolo**, ou com violação da lei ou do estatuto (art. 158).",
+      "revisao": "**Lembre:**\n- Ltda.: responde pelo valor das quotas, solidariamente pela integralização; pode ser unipessoal; não aceita serviços como capital.\n- S.A.: responsabilidade limitada ao preço de emissão; sempre empresária.\n- Aberta (CVM, mercado) × fechada.\n- Conselho de administração obrigatório na aberta; conselho fiscal existe em todas.\n- Preferenciais: até 50% das ações.\n\n**Erros comuns:** dizer que, na limitada, o sócio nunca responde além do que integralizou (responde solidariamente pelo capital não integralizado); achar que toda S.A. precisa de conselho de administração.\n\n**Mini exemplo:** dois sócios abrem uma Ltda. com capital de R$ 100 mil, mas só pagaram R$ 40 mil. Os credores podem cobrar de qualquer um deles os R$ 60 mil que faltam."
+    },
+    {
+      "id": "titulos-credito",
+      "nome": "Títulos de crédito",
+      "resumo": "### Conceito\nNa definição clássica de **Vivante**, adotada pelo art. 887 do CC: título de crédito é o **documento necessário ao exercício do direito literal e autônomo nele mencionado**.\n\n### Princípios\n- **Cartularidade**: o direito está no documento; para cobrar, é preciso apresentar o original (com exceções, como a duplicata virtual).\n- **Literalidade**: vale só o que está escrito no título.\n- **Autonomia**: cada obrigação é independente das outras; o vício de uma não contamina as demais.\n  - **Abstração**: o título se desliga do negócio que o originou quando circula.\n  - **Inoponibilidade das exceções pessoais** ao terceiro de boa-fé: o devedor não pode alegar contra quem recebeu o título por endosso os defeitos do negócio com o credor original.\n\n### Principais títulos\n- **Letra de câmbio**: **ordem de pagamento** do sacador ao sacado em favor do tomador.\n- **Nota promissória**: **promessa de pagamento** feita pelo emitente ao beneficiário.\n- **Cheque** (Lei 7.357/1985): **ordem de pagamento à vista** contra um banco. Prazo de apresentação: **30 dias** (mesma praça de emissão) ou **60 dias** (praça diferente). A cobrança por execução prescreve em **6 meses** após o fim do prazo de apresentação. O cheque \"pré-datado\" pode ser apresentado antes da data, mas a apresentação antecipada gera dano moral (Súmula 370 do STJ).\n- **Duplicata** (Lei 5.474/1968): título **causal**, só pode ser emitido a partir de uma **compra e venda mercantil** ou **prestação de serviços**. O aceite é obrigatório, só podendo ser recusado pelos motivos da lei.\n\n### Endosso e aval\n- **Endosso**: ato que **transfere** o título; o endossante, em regra, também passa a responder pelo pagamento. Endosso **em branco** (só a assinatura) ou **em preto** (indica o endossatário).\n- **Aval**: **garantia** pessoal de pagamento; o avalista responde da mesma forma que o avaliado, de modo autônomo. Diferente da fiança, não tem benefício de ordem. No Código Civil, para títulos regidos por ele, o aval parcial é vedado (art. 897, parágrafo único).\n- Aval e fiança de pessoa casada exigem, em regra, **outorga conjugal** (art. 1.647, III), salvo no regime de separação absoluta.\n\n### Protesto\nAto formal no cartório que prova a falta de pagamento ou de aceite. É necessário para cobrar os **coobrigados** (endossantes e seus avalistas) e para o pedido de falência por impontualidade.",
+      "revisao": "**Lembre:**\n- Vivante: documento necessário ao exercício do direito literal e autônomo.\n- Princípios: cartularidade, literalidade, autonomia (abstração e inoponibilidade).\n- Letra de câmbio: ordem. Nota promissória: promessa. Cheque: ordem à vista. Duplicata: causal.\n- Cheque: 30 dias (mesma praça) ou 60 (outra); execução prescreve em 6 meses após.\n- Endosso transfere; aval garante.\n\n**Erros comuns:** confundir endosso com aval; dizer que nota promissória é ordem de pagamento.\n\n**Mini exemplo:** Carla emite um cheque para Daniel, que o endossa a Eduardo. Se o cheque voltar, Eduardo pode cobrar de Carla e também de Daniel, que se tornou coobrigado."
+    },
+    {
+      "id": "falencia-recuperacao",
+      "nome": "Falência e recuperação de empresas",
+      "resumo": "A **Lei 11.101/2005**, reformada pela **Lei 14.112/2020**, regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária.\n\n### Quem não está sujeito (art. 2º)\nEmpresa pública, sociedade de economia mista, instituições financeiras, cooperativas de crédito, consórcios, planos de saúde, seguradoras e entidades de previdência complementar, entre outras.\n\n### Recuperação judicial\n- Objetivo: permitir que a empresa **viável** supere a crise, preservando empregos e a função social (art. 47).\n- Requisitos (art. 48): exercer regularmente a atividade há **mais de 2 anos**; não ser falido (ou ter as obrigações extintas); não ter obtido recuperação judicial há menos de **5 anos**; não ter sido condenado por crime falimentar.\n- O devedor apresenta o **plano** em **60 dias** após o deferimento do processamento.\n- **Stay period**: as execuções contra o devedor ficam **suspensas por 180 dias**, prorrogáveis **uma vez** por igual período (art. 6º, §4º).\n- Os credores votam o plano em **assembleia geral**, por classes (trabalhistas, com garantia real, quirografários, microempresas e EPPs). O juiz pode conceder a recuperação mesmo sem aprovação de todas as classes, preenchidos os requisitos do **cram down** (art. 58).\n- O **administrador judicial** fiscaliza o devedor.\n- Desde 2020, os credores também podem apresentar plano alternativo.\n\n### Recuperação extrajudicial\nO devedor negocia diretamente com os credores e leva o plano para homologação judicial; vincula todos os credores das espécies abrangidas se assinado por mais da **metade** dos créditos de cada espécie (art. 163).\n\n### Falência: hipóteses (art. 94)\n1. **Impontualidade**: deixar de pagar, sem relevante razão de direito, obrigação líquida em título(s) executivo(s) **protestado(s)** que somem mais de **40 salários mínimos**.\n2. **Execução frustrada**: executado, não paga, não deposita e não nomeia bens à penhora no prazo.\n3. **Atos de falência**: liquidação precipitada, negócio simulado, transferência do estabelecimento sem consentimento dos credores, entre outros.\nO devedor pode evitar a falência fazendo o **depósito elisivo** do valor no prazo da contestação.\n\n### Ordem de pagamento na falência (art. 83, após 2020)\nAntes de tudo, os **créditos extraconcursais** (art. 84, ex.: despesas da própria falência e créditos surgidos durante a recuperação). Depois:\n1. **trabalhistas**, até **150 salários mínimos** por credor, e de acidente de trabalho;\n2. créditos com **garantia real**, até o valor do bem gravado;\n3. **tributários**, exceto multas;\n4. **quirografários** (incluindo o que exceder os limites acima);\n5. **multas**;\n6. **subordinados**.",
+      "revisao": "**Lembre:**\n- Lei 11.101/2005, reformada em 2020.\n- Recuperação judicial: mais de 2 anos de atividade; plano em 60 dias; stay de 180 dias, prorrogável uma vez.\n- Falência por impontualidade: título protestado acima de 40 salários mínimos.\n- Ordem: extraconcursais → trabalhistas (150 SM) → garantia real → tributários → quirografários → multas → subordinados.\n- Empresas públicas e economias mistas não se sujeitam à lei.\n\n**Erros comuns:** pôr os créditos tributários antes dos trabalhistas; achar que qualquer dívida pequena permite pedir falência por impontualidade.\n\n**Mini exemplo:** uma indústria em crise, com 10 anos de atividade, pede recuperação judicial. Deferido o processamento, as execuções contra ela ficam suspensas por 180 dias enquanto ela negocia o plano."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-empresarial-1",
+      "topico": "empresario-empresa",
+      "nivel": "conceitual",
+      "pergunta": "Qual teoria o Código Civil de 2002 adota para definir quem é empresário?",
+      "opcoes": [
+        "Teoria da empresa",
+        "Teoria dos atos de comércio",
+        "Teoria da atividade intelectual",
+        "Teoria do comerciante registrado"
+      ],
+      "correta": 0,
+      "explicacao": "O CC/2002 abandonou a teoria francesa dos atos de comércio e adotou a teoria italiana da empresa, centrada na atividade econômica organizada."
+    },
+    {
+      "id": "direito-empresarial-2",
+      "topico": "empresario-empresa",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o Código Civil, quem exerce profissão intelectual, de natureza científica, literária ou artística:",
+      "opcoes": [
+        "É sempre empresário",
+        "Não é empresário, salvo se o exercício da profissão constituir elemento de empresa",
+        "É empresário se tiver auxiliares",
+        "É empresário se tiver registro"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 966, parágrafo único: mesmo com auxiliares ou colaboradores, não é empresário, salvo quando a profissão é só um elemento de uma organização empresarial maior."
+    },
+    {
+      "id": "direito-empresarial-3",
+      "topico": "empresario-empresa",
+      "nivel": "conceitual",
+      "pergunta": "O registro do empresário na Junta Comercial tem natureza:",
+      "opcoes": [
+        "Constitutiva: sem ele a pessoa não é empresária",
+        "Facultativa para todos",
+        "Declaratória: quem exerce a atividade sem registro é empresário irregular",
+        "Apenas fiscal"
+      ],
+      "correta": 2,
+      "explicacao": "A condição de empresário decorre da atividade. O registro é obrigatório (art. 967), mas sua falta torna o empresário irregular, com consequências como não poder pedir recuperação judicial."
+    },
+    {
+      "id": "direito-empresarial-4",
+      "topico": "empresario-empresa",
+      "nivel": "aplicacao",
+      "pergunta": "Um adolescente de 15 anos herda a loja do pai. O que a lei permite?",
+      "opcoes": [
+        "Fechar a loja obrigatoriamente",
+        "Que ele mesmo administre sozinho",
+        "Vender a loja sem autorização",
+        "Continuar a empresa por meio de representante, com autorização judicial"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 974: o incapaz pode continuar a empresa antes exercida por ele enquanto capaz, por seus pais ou pelo autor de herança, por representante ou assistente, precedendo autorização judicial."
+    },
+    {
+      "id": "direito-empresarial-5",
+      "topico": "empresario-empresa",
+      "nivel": "analise",
+      "pergunta": "Um produtor rural com grande fazenda não se registrou na Junta Comercial. Ele é empresário?",
+      "opcoes": [
+        "Não: para o rural, o registro é facultativo e, se ele não se registrar, não é equiparado ao empresário",
+        "Sim, porque tem atividade organizada",
+        "Sim, mas irregular",
+        "Não, porque a atividade rural nunca pode ser empresarial"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 971: o empresário rural pode optar pelo registro; só depois de inscrito fica equiparado, para todos os efeitos, ao empresário sujeito a registro."
+    },
+    {
+      "id": "direito-empresarial-6",
+      "topico": "estabelecimento-nome",
+      "nivel": "conceitual",
+      "pergunta": "O que é o estabelecimento empresarial, segundo o art. 1.142 do Código Civil?",
+      "opcoes": [
+        "O imóvel onde a empresa funciona",
+        "Todo complexo de bens organizado para o exercício da empresa",
+        "O nome de fachada da loja",
+        "A sociedade empresária"
+      ],
+      "correta": 1,
+      "explicacao": "O estabelecimento reúne bens materiais e imateriais organizados. O imóvel é só um dos elementos, e o nome de fachada é o título do estabelecimento."
+    },
+    {
+      "id": "direito-empresarial-7",
+      "topico": "estabelecimento-nome",
+      "nivel": "conceitual",
+      "pergunta": "Por quanto tempo o alienante do estabelecimento não pode fazer concorrência ao adquirente, se o contrato não disser nada?",
+      "opcoes": [
+        "1 ano",
+        "2 anos",
+        "5 anos",
+        "10 anos"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 1.147: não havendo autorização expressa, o alienante não pode fazer concorrência ao adquirente nos 5 anos subsequentes à transferência."
+    },
+    {
+      "id": "direito-empresarial-8",
+      "topico": "estabelecimento-nome",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre nome empresarial e marca?",
+      "opcoes": [
+        "Não há diferença",
+        "A marca é registrada na Junta Comercial",
+        "O nome empresarial identifica produtos",
+        "O nome empresarial identifica o empresário e é protegido pelo registro na Junta; a marca identifica produtos ou serviços e é registrada no INPI"
+      ],
+      "correta": 3,
+      "explicacao": "São institutos diferentes: o nome empresarial protege-se, em regra, no estado da Junta; a marca, registrada no INPI, tem proteção nacional."
+    },
+    {
+      "id": "direito-empresarial-9",
+      "topico": "estabelecimento-nome",
+      "nivel": "aplicacao",
+      "pergunta": "Ao vender o estabelecimento, o alienante ficou sem bens suficientes para pagar suas dívidas e não notificou os credores. O que pode acontecer?",
+      "opcoes": [
+        "A venda pode ser ineficaz perante os credores e configurar ato de falência",
+        "Nada, a venda é sempre válida",
+        "Os credores perdem os créditos",
+        "O adquirente vira sócio do alienante"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 1.145: sem bens suficientes, a eficácia da alienação depende do pagamento de todos os credores ou do consentimento deles. A transferência irregular é ato de falência (art. 94, III, c, da Lei 11.101/2005)."
+    },
+    {
+      "id": "direito-empresarial-10",
+      "topico": "estabelecimento-nome",
+      "nivel": "analise",
+      "pergunta": "Uma lojista aluga um ponto há 6 anos, com contratos escritos de 3 em 3 anos sem interrupção, e explora o mesmo ramo desde o início. Ela pode propor ação renovatória?",
+      "opcoes": [
+        "Não, porque nenhum contrato isolado tem 5 anos",
+        "Sim, porque a soma dos contratos escritos e ininterruptos chega a 5 anos e ela explora o mesmo ramo há mais de 3 anos",
+        "Não, porque precisa de 10 anos",
+        "Só se o locador concordar"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 51 da Lei 8.245/1991: vale a soma dos prazos ininterruptos dos contratos escritos, desde que alcance 5 anos, e a exploração do mesmo ramo por 3 anos ininterruptos."
+    },
+    {
+      "id": "direito-empresarial-11",
+      "topico": "sociedades",
+      "nivel": "conceitual",
+      "pergunta": "Quando a sociedade adquire personalidade jurídica?",
+      "opcoes": [
+        "Na assinatura do contrato entre os sócios",
+        "No início das atividades",
+        "Com a inscrição dos atos constitutivos no registro próprio",
+        "Quando obtém o primeiro lucro"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 985 do CC: a sociedade adquire personalidade jurídica com a inscrição, no registro próprio e na forma da lei, dos seus atos constitutivos."
+    },
+    {
+      "id": "direito-empresarial-12",
+      "topico": "sociedades",
+      "nivel": "conceitual",
+      "pergunta": "Como respondem os sócios de uma sociedade em comum (sem registro)?",
+      "opcoes": [
+        "Até o valor das quotas",
+        "Não respondem",
+        "Só o sócio administrador responde",
+        "Solidária e ilimitadamente pelas obrigações sociais"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 990: todos os sócios respondem solidária e ilimitadamente, e o sócio que contratou pela sociedade fica excluído do benefício de ordem."
+    },
+    {
+      "id": "direito-empresarial-13",
+      "topico": "sociedades",
+      "nivel": "conceitual",
+      "pergunta": "Qual tipo de sociedade é sempre empresária, independentemente do objeto?",
+      "opcoes": [
+        "A sociedade por ações",
+        "A cooperativa",
+        "A sociedade de advogados",
+        "A sociedade simples"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 982, parágrafo único: considera-se empresária a sociedade por ações, e simples a cooperativa, qualquer que seja o objeto."
+    },
+    {
+      "id": "direito-empresarial-14",
+      "topico": "sociedades",
+      "nivel": "aplicacao",
+      "pergunta": "Os sócios de uma empresa usam a conta bancária dela para pagar despesas pessoais, misturando os patrimônios. Um credor da sociedade, que não é consumidor, quer atingir os bens dos sócios. Qual o fundamento?",
+      "opcoes": [
+        "Teoria menor do CDC",
+        "Desconsideração da personalidade jurídica pelo art. 50 do CC, por confusão patrimonial",
+        "Responsabilidade ilimitada automática de todo sócio",
+        "Não há fundamento possível"
+      ],
+      "correta": 1,
+      "explicacao": "Fora das relações de consumo, aplica-se a teoria maior (art. 50): é preciso provar abuso, por desvio de finalidade ou confusão patrimonial, e seguir o incidente do CPC."
+    },
+    {
+      "id": "direito-empresarial-15",
+      "topico": "sociedades",
+      "nivel": "analise",
+      "pergunta": "Numa sociedade em conta de participação, um terceiro contratou com o sócio ostensivo e quer cobrar o sócio participante. Isso é possível?",
+      "opcoes": [
+        "Sim, todos os sócios respondem igualmente",
+        "Sim, se a sociedade estiver registrada",
+        "Não: perante terceiros obriga-se só o sócio ostensivo; o participante responde apenas perante ele",
+        "Não, porque a sociedade é nula"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 991: a atividade é exercida unicamente pelo sócio ostensivo, em seu nome e sob sua responsabilidade; o participante se obriga só perante o ostensivo."
+    },
+    {
+      "id": "direito-empresarial-16",
+      "topico": "limitada-anonima",
+      "nivel": "conceitual",
+      "pergunta": "Na sociedade limitada, como responde cada sócio?",
+      "opcoes": [
+        "Ilimitadamente, com todo o seu patrimônio",
+        "Só pelo valor que já integralizou, sem nenhuma solidariedade",
+        "Até o dobro das suas quotas",
+        "Pelo valor das suas quotas, mas todos respondem solidariamente pela integralização do capital social"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 1.052 do CC. Depois de integralizado todo o capital, os sócios, em regra, não respondem mais com o patrimônio pessoal."
+    },
+    {
+      "id": "direito-empresarial-17",
+      "topico": "limitada-anonima",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o limite de ações preferenciais sem direito a voto, ou com voto restrito, numa S.A.?",
+      "opcoes": [
+        "50% do total das ações emitidas",
+        "30% do total das ações emitidas",
+        "Dois terços do total",
+        "Não há limite"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 15, §2º, da Lei 6.404/1976: o número de ações preferenciais sem voto, ou sujeitas a restrição no exercício desse direito, não pode ultrapassar 50% do total das ações emitidas."
+    },
+    {
+      "id": "direito-empresarial-18",
+      "topico": "limitada-anonima",
+      "nivel": "conceitual",
+      "pergunta": "Em qual tipo de companhia o conselho de administração é obrigatório?",
+      "opcoes": [
+        "Em todas as S.A.",
+        "Nas companhias abertas, nas de capital autorizado e nas sociedades de economia mista",
+        "Só nas fechadas",
+        "Nunca é obrigatório"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 138, §2º, e art. 239 da Lei 6.404/1976. Nas demais, o conselho é facultativo."
+    },
+    {
+      "id": "direito-empresarial-19",
+      "topico": "limitada-anonima",
+      "nivel": "aplicacao",
+      "pergunta": "Um sócio quer entrar numa sociedade limitada oferecendo só seu trabalho como contribuição ao capital. Isso é permitido?",
+      "opcoes": [
+        "Sim, se os outros sócios concordarem",
+        "Sim, até metade do capital",
+        "Não: na limitada é vedada a contribuição que consista em prestação de serviços",
+        "Sim, desde que o contrato seja registrado"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 1.055, §2º, do CC. O capital da limitada precisa ser formado por bens ou dinheiro, que servem de garantia aos credores."
+    },
+    {
+      "id": "direito-empresarial-20",
+      "topico": "limitada-anonima",
+      "nivel": "analise",
+      "pergunta": "Dois sócios abriram uma limitada com capital de R$ 200 mil, mas integralizaram só R$ 80 mil. Um credor cobra R$ 120 mil de um deles, que só subscreveu 10% das quotas. O que ele pode alegar?",
+      "opcoes": [
+        "Que só responde por 10% da dívida",
+        "Que nunca responde com bens pessoais",
+        "Que a cobrança só pode ser feita à sociedade",
+        "Nada que o livre: os sócios respondem solidariamente pelo capital não integralizado, e ele pode depois cobrar sua parte do outro sócio"
+      ],
+      "correta": 3,
+      "explicacao": "A solidariedade pela integralização (art. 1.052) permite cobrar de qualquer sócio todo o capital que falta; quem paga tem direito de regresso contra o outro."
+    },
+    {
+      "id": "direito-empresarial-21",
+      "topico": "titulos-credito",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da literalidade dos títulos de crédito significa que:",
+      "opcoes": [
+        "Vale apenas o que está escrito no título",
+        "O título precisa ser escrito à mão",
+        "O título deve ser lido em voz alta no cartório",
+        "Qualquer acordo verbal se incorpora ao título"
+      ],
+      "correta": 0,
+      "explicacao": "Pela literalidade, o conteúdo e a extensão do direito são definidos pelo que está escrito no documento."
+    },
+    {
+      "id": "direito-empresarial-22",
+      "topico": "titulos-credito",
+      "nivel": "conceitual",
+      "pergunta": "Qual título é uma promessa de pagamento, e não uma ordem?",
+      "opcoes": [
+        "Cheque",
+        "Nota promissória",
+        "Letra de câmbio",
+        "Duplicata"
+      ],
+      "correta": 1,
+      "explicacao": "Na nota promissória o emitente promete pagar ao beneficiário. A letra de câmbio, o cheque e a duplicata são ordens de pagamento."
+    },
+    {
+      "id": "direito-empresarial-23",
+      "topico": "titulos-credito",
+      "nivel": "conceitual",
+      "pergunta": "Qual a diferença entre endosso e aval?",
+      "opcoes": [
+        "São a mesma coisa",
+        "O aval transfere o título e o endosso garante",
+        "O endosso transfere o título; o aval é uma garantia pessoal de pagamento",
+        "Os dois só existem no cheque"
+      ],
+      "correta": 2,
+      "explicacao": "O endosso faz o título circular (e, em regra, torna o endossante coobrigado); o aval apenas garante o pagamento, de forma autônoma."
+    },
+    {
+      "id": "direito-empresarial-24",
+      "topico": "titulos-credito",
+      "nivel": "aplicacao",
+      "pergunta": "Um cheque foi emitido em Belo Horizonte para ser pago numa agência de Belo Horizonte. Qual é o prazo de apresentação?",
+      "opcoes": [
+        "60 dias",
+        "6 meses",
+        "1 ano",
+        "30 dias"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 33 da Lei 7.357/1985: 30 dias quando emitido no lugar onde deve ser pago; 60 dias quando emitido em outro lugar do país."
+    },
+    {
+      "id": "direito-empresarial-25",
+      "topico": "titulos-credito",
+      "nivel": "analise",
+      "pergunta": "Pedro comprou um carro com defeito e pagou com uma nota promissória, que o vendedor endossou a um banco de boa-fé. O banco cobra Pedro. Ele pode recusar o pagamento alegando o defeito do carro?",
+      "opcoes": [
+        "Não: pela autonomia e pela inoponibilidade das exceções pessoais, não pode opor ao terceiro de boa-fé os problemas do negócio com o vendedor",
+        "Sim, sempre que o negócio original tiver vício",
+        "Sim, porque a nota promissória é causal",
+        "Não, porque o banco pode cobrar mesmo de má-fé"
+      ],
+      "correta": 0,
+      "explicacao": "A defesa ligada ao negócio original só vale contra o vendedor, não contra quem recebeu o título por endosso de boa-fé. Pedro pode cobrar o vendedor depois."
+    },
+    {
+      "id": "direito-empresarial-26",
+      "topico": "falencia-recuperacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual destes NÃO está sujeito à Lei de Falências e Recuperação de Empresas?",
+      "opcoes": [
+        "Sociedade limitada",
+        "Sociedade de economia mista",
+        "Empresário individual",
+        "Sociedade anônima fechada"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 2º da Lei 11.101/2005: a lei não se aplica a empresas públicas e sociedades de economia mista, nem a instituições financeiras e outras entidades listadas."
+    },
+    {
+      "id": "direito-empresarial-27",
+      "topico": "falencia-recuperacao",
+      "nivel": "conceitual",
+      "pergunta": "Por quanto tempo ficam suspensas as execuções contra o devedor em recuperação judicial (stay period)?",
+      "opcoes": [
+        "30 dias, sem prorrogação",
+        "1 ano",
+        "180 dias, prorrogáveis uma vez por igual período",
+        "Até o fim do processo, sem limite"
+      ],
+      "correta": 2,
+      "explicacao": "Art. 6º, §4º, da Lei 11.101/2005, com a redação de 2020."
+    },
+    {
+      "id": "direito-empresarial-28",
+      "topico": "falencia-recuperacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual crédito é pago primeiro na falência, entre os concursais?",
+      "opcoes": [
+        "Créditos tributários",
+        "Créditos quirografários",
+        "Créditos com garantia real",
+        "Créditos trabalhistas, até 150 salários mínimos por credor"
+      ],
+      "correta": 3,
+      "explicacao": "Art. 83, I. Antes dos concursais vêm apenas os extraconcursais (art. 84). O que passar de 150 salários mínimos vira crédito quirografário."
+    },
+    {
+      "id": "direito-empresarial-29",
+      "topico": "falencia-recuperacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa aberta há 1 ano e meio, em crise, quer pedir recuperação judicial. Ela pode?",
+      "opcoes": [
+        "Não, porque precisa exercer regularmente a atividade há mais de 2 anos",
+        "Sim, qualquer empresa pode",
+        "Sim, desde que tenha mais de 10 empregados",
+        "Não, porque só sociedades anônimas podem"
+      ],
+      "correta": 0,
+      "explicacao": "Art. 48 da Lei 11.101/2005: um dos requisitos é exercer regularmente as atividades há mais de 2 anos."
+    },
+    {
+      "id": "direito-empresarial-30",
+      "topico": "falencia-recuperacao",
+      "nivel": "analise",
+      "pergunta": "Um credor tem uma nota promissória protestada de 25 salários mínimos contra uma empresa e quer pedir a falência por impontualidade. Ele pode?",
+      "opcoes": [
+        "Sim, qualquer título protestado basta",
+        "Sozinho não, porque o pedido por impontualidade exige títulos protestados acima de 40 salários mínimos, mas pode se reunir a outros credores para alcançar o valor",
+        "Não, porque nota promissória não serve para falência",
+        "Sim, desde que a empresa tenha mais de 2 anos"
+      ],
+      "correta": 1,
+      "explicacao": "Art. 94, I, e §1º: o limite de 40 salários mínimos pode ser atingido com o litisconsórcio de credores."
+    }
+  ]
+}

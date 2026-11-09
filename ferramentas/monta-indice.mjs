@@ -493,6 +493,20 @@ export const EXTRA = {
       "Noções de Direito do Trabalho",
       "Relações de Trabalho e Legislação"
     ]
+  },
+  "direito-empresarial": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Empresarial I",
+      "Direito Comercial",
+      "Direito Comercial I",
+      "Direito Empresarial e Societário",
+      "Teoria Geral do Direito Empresarial",
+      "Direito de Empresa",
+      "Legislação Empresarial",
+      "Legislação Comercial",
+      "Noções de Direito Empresarial"
+    ]
   }
 };
 

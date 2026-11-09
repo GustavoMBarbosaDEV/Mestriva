@@ -493,6 +493,48 @@
       ]
     },
     {
+      "id": "direito-empresarial",
+      "nome": "Direito Empresarial",
+      "apelidos": [
+        "Direito Empresarial I",
+        "Direito Comercial",
+        "Direito Comercial I",
+        "Direito Empresarial e Societário",
+        "Teoria Geral do Direito Empresarial",
+        "Direito de Empresa",
+        "Legislação Empresarial",
+        "Legislação Comercial",
+        "Noções de Direito Empresarial"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "empresario-empresa",
+          "nome": "Empresário e empresa"
+        },
+        {
+          "id": "estabelecimento-nome",
+          "nome": "Estabelecimento, nome empresarial e ponto"
+        },
+        {
+          "id": "sociedades",
+          "nome": "Sociedades: classificação e personalidade"
+        },
+        {
+          "id": "limitada-anonima",
+          "nome": "Sociedade limitada e sociedade anônima"
+        },
+        {
+          "id": "titulos-credito",
+          "nome": "Títulos de crédito"
+        },
+        {
+          "id": "falencia-recuperacao",
+          "nome": "Falência e recuperação de empresas"
+        }
+      ]
+    },
+    {
       "id": "direito-penal-geral",
       "nome": "Direito Penal – Parte Geral",
       "apelidos": [
