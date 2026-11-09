@@ -20,6 +20,7 @@
     "@fontsource/space-grotesk": "5.3.0",
     "@tesseract.js-data/por": "1.0.0",
     "esbuild": "0.28.2",
+    "firebase": "13.2.0",
     "lucide-static": "1.68.0",
     "pdfjs-dist": "6.5.438",
     "sharp": "0.35.5",
