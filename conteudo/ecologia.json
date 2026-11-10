@@ -1,0 +1,465 @@
+{
+  "id": "ecologia",
+  "nome": "Ecologia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Conceitos e níveis de organização",
+      "resumo": "### O que é ecologia\nEstudo das **relações dos seres vivos entre si e com o ambiente**.\n\n### Níveis de organização\n- **População**: indivíduos da **mesma espécie** na mesma área e ao mesmo tempo.\n- **Comunidade** (biocenose): **todas as populações** de uma área.\n- **Ecossistema**: comunidade + fatores **abióticos** (luz, água, temperatura, solo) interagindo.\n- **Bioma**: grande região com clima, vegetação e fauna característicos.\n- **Biosfera**: todos os ecossistemas do planeta.\n\n### Habitat e nicho\n- **Habitat**: o **\"endereço\"**, o lugar onde a espécie vive.\n- **Nicho ecológico**: a **\"profissão\"**, o papel da espécie: o que come, quando, como se reproduz, que condições tolera.\n- **Princípio da exclusão competitiva (Gause)**: duas espécies com o **mesmo nicho** não convivem indefinidamente no mesmo lugar; uma elimina a outra ou elas se especializam.\n\n### Fatores\n- **Bióticos**: seres vivos e suas interações.\n- **Abióticos**: físicos e químicos.\n- **Fator limitante** (Liebig): o recurso mais escasso controla o crescimento (lei do mínimo).\n- **Tolerância** (Shelford): cada espécie sobrevive numa faixa de condições.\n\n### Ecótono\nZona de transição entre dois ecossistemas, geralmente com **alta biodiversidade** (ex.: entre floresta e campo).",
+      "revisao": "**Lembre:**\n- População: uma espécie; comunidade: todas.\n- Ecossistema: comunidade + abiótico.\n- Habitat = endereço; nicho = profissão.\n- Gause: mesmo nicho, não convivem.\n- Fator limitante: o mais escasso."
+    },
+    {
+      "id": "energia",
+      "nome": "Cadeias alimentares e fluxo de energia",
+      "resumo": "### Níveis tróficos\n- **Produtores** (autótrofos): plantas, algas e cianobactérias; fazem fotossíntese (ou quimiossíntese).\n- **Consumidores primários**: herbívoros.\n- **Consumidores secundários, terciários...**: carnívoros.\n- **Decompositores**: **fungos e bactérias**; devolvem nutrientes ao ambiente.\n\n### Cadeia × teia alimentar\n- **Cadeia**: sequência linear (capim → gafanhoto → sapo → cobra).\n- **Teia**: cadeias interligadas; um mesmo organismo ocupa vários níveis. Mais realista e mais estável.\n\n### Fluxo de energia\n- A energia entra pela **luz solar** e flui em **um só sentido** (é **unidirecional**): não é reciclada.\n- Em cada nível, boa parte se perde como **calor** (respiração) e em restos não aproveitados.\n- Só cerca de **10%** passa para o nível seguinte (regra dos 10%). Por isso as cadeias têm poucos níveis (4 ou 5).\n- **Produtividade primária bruta (PPB)**: total fixado na fotossíntese. **Líquida (PPL) = PPB − respiração**: o que fica disponível aos consumidores.\n\n### Pirâmides ecológicas\n- **De energia**: **nunca invertida**.\n- **De números**: pode ser invertida (uma árvore com muitos insetos; parasitas).\n- **De biomassa**: pode ser invertida em ambientes aquáticos (fitoplâncton se renova rápido).\n\n### Magnificação trófica (bioacumulação)\nSubstâncias **não biodegradáveis** (mercúrio, DDT) se **acumulam** ao longo da cadeia: os **predadores de topo** têm as maiores concentrações.",
+      "revisao": "**Lembre:**\n- Produtor → consumidores → decompositores.\n- Energia: unidirecional; ~10% passa adiante.\n- Pirâmide de energia nunca invertida.\n- PPL = PPB − respiração.\n- Bioacumulação: maior no topo da cadeia."
+    },
+    {
+      "id": "ciclos",
+      "nome": "Ciclos biogeoquímicos",
+      "resumo": "### Ideia geral\nA **matéria é reciclada** (ao contrário da energia): os elementos circulam entre seres vivos e ambiente.\n\n### Ciclo da água\nEvaporação, **transpiração** das plantas (evapotranspiração), condensação, precipitação, infiltração e escoamento. Desmatamento reduz a transpiração e afeta as chuvas (\"rios voadores\" da Amazônia).\n\n### Ciclo do carbono\n- **Fotossíntese** retira CO₂ do ar; **respiração**, **decomposição** e **combustão** devolvem.\n- Combustíveis fósseis guardam carbono por milhões de anos; queimá-los aumenta o CO₂ e o **efeito estufa**.\n- Oceanos são grandes sumidouros de carbono (e acidificam com o excesso).\n\n### Ciclo do nitrogênio\nO N₂ do ar (78%) **não é aproveitado** diretamente pela maioria dos seres.\n- **Fixação**: bactérias (como *Rhizobium*, em nódulos de raízes de **leguminosas**) e cianobactérias transformam N₂ em amônia. Também raios e indústria (adubos).\n- **Nitrificação**: bactérias transformam amônia em **nitrito** (*Nitrosomonas*) e depois em **nitrato** (*Nitrobacter*), absorvido pelas plantas.\n- **Desnitrificação**: bactérias devolvem N₂ à atmosfera.\n- **Adubação verde** e rotação com leguminosas enriquecem o solo.\n\n### Ciclo do fósforo\nSem fase gasosa importante; vem das **rochas**. Excesso de fósforo e nitrogênio em rios e lagos causa **eutrofização**.\n\n### Eutrofização\nExcesso de nutrientes (esgoto, fertilizantes) → **explosão de algas** → luz bloqueada, algas morrem → decompositores aeróbios consomem o **oxigênio** → morte de peixes.",
+      "revisao": "**Lembre:**\n- Matéria cicla; energia flui.\n- Carbono: fotossíntese retira; respiração e combustão devolvem.\n- Fixação de N₂: Rhizobium em leguminosas.\n- Nitrificação: amônia → nitrito → nitrato.\n- Eutrofização: nutrientes → algas → falta de O₂."
+    },
+    {
+      "id": "populacoes",
+      "nome": "Ecologia de populações",
+      "resumo": "### Parâmetros\n- **Densidade**: indivíduos por área ou volume.\n- Aumentam a população: **natalidade** e **imigração**. Diminuem: **mortalidade** e **emigração**.\n\n### Crescimento\n- **Potencial biótico**: crescimento máximo em condições ideais; curva **exponencial (em J)**.\n- **Resistência do meio**: falta de alimento e espaço, predadores, doenças, competição.\n- Crescimento real: curva **logística (em S)**, que se estabiliza na **capacidade de suporte (K)**.\n\n### Estratégias\n- **Estrategistas r**: muitos filhotes, pouco cuidado parental, vida curta (insetos, roedores). Bons colonizadores.\n- **Estrategistas K**: poucos filhotes, muito cuidado parental, vida longa (elefantes, humanos). Típicos de ambientes estáveis.\n\n### Fatores dependentes da densidade\nCompetição, predação e doenças pesam **mais** quando a população é densa. Fatores **independentes** (geada, enchente) atingem a população seja qual for a densidade.\n\n### Predador e presa\nAs populações **oscilam** de forma defasada: mais presas → mais predadores → menos presas → menos predadores.\n\n### Espécies exóticas invasoras\nFora de sua área original, sem predadores naturais, podem crescer sem controle (javali, mexilhão-dourado, caramujo-africano), causando prejuízo ecológico e econômico.",
+      "revisao": "**Lembre:**\n- Natalidade e imigração aumentam; mortalidade e emigração diminuem.\n- Curva J: potencial biótico; curva S: com resistência do meio.\n- K = capacidade de suporte.\n- r: muitos filhotes; K: poucos e com cuidado.\n- Predador e presa oscilam defasados."
+    },
+    {
+      "id": "relacoes",
+      "nome": "Relações ecológicas e sucessão",
+      "resumo": "### Relações harmônicas (ninguém é prejudicado)\n- **Mutualismo**: as duas ganham e dependem uma da outra (**líquen** = fungo + alga; cupim e protozoários da celulose).\n- **Protocooperação**: as duas ganham, mas podem viver separadas (anu e gado; caranguejo-ermitão e anêmona).\n- **Comensalismo**: uma ganha (alimento) e a outra fica indiferente (rêmora e tubarão).\n- **Inquilinismo**: uma ganha abrigo ou suporte, a outra é indiferente (**epífitas**, como bromélias e orquídeas, sobre árvores).\n- **Sociedade** (organização com divisão de trabalho: abelhas, formigas) e **colônia** (indivíduos fisicamente unidos: corais).\n\n### Relações desarmônicas (alguém é prejudicado)\n- **Predação**: um mata e come o outro.\n- **Parasitismo**: o parasita vive à custa do hospedeiro, geralmente **sem matá-lo** rapidamente (carrapato, lombriga, erva-de-passarinho).\n- **Competição**: **intraespecífica** (mesma espécie) ou **interespecífica** (espécies diferentes, mesmo recurso).\n- **Amensalismo (antibiose)**: uma espécie libera substâncias que prejudicam outra (fungo *Penicillium* e bactérias; maré vermelha).\n- **Herbivoria**.\n\n### Sucessão ecológica\nMudança gradual da comunidade ao longo do tempo.\n- **Primária**: em área **sem vida anterior** (rocha nua, lava). Começa com **espécies pioneiras** (líquens, musgos), que formam o solo.\n- **Secundária**: em área que já teve comunidade (lavoura abandonada, área queimada); mais rápida.\n- Tende a uma **comunidade clímax**: mais estável, maior biomassa e biodiversidade, teia complexa.",
+      "revisao": "**Lembre:**\n- Mutualismo: obrigatório; protocooperação: facultativo.\n- Comensalismo: alimento; inquilinismo: abrigo.\n- Parasitismo: vive à custa do hospedeiro.\n- Amensalismo: substância que inibe outra.\n- Sucessão: pioneiras → clímax."
+    },
+    {
+      "id": "biomas",
+      "nome": "Biomas brasileiros e problemas ambientais",
+      "resumo": "### Biomas do Brasil\n- **Amazônia**: floresta tropical úmida, maior biodiversidade do planeta; solo **pobre**, nutrientes reciclados rapidamente pela serapilheira. Ameaça: desmatamento e queimadas.\n- **Mata Atlântica**: floresta tropical costeira; restam cerca de **12%** da cobertura original; muitas espécies endêmicas (mico-leão-dourado).\n- **Cerrado**: savana; árvores de **troncos tortuosos** e casca grossa, raízes profundas; \"berço das águas\" (nascentes de grandes bacias). Ameaçado pela expansão agrícola.\n- **Caatinga**: exclusivamente brasileira; clima semiárido; plantas **xerófitas** (cactos, folhas que caem na seca).\n- **Pantanal**: maior planície alagável do mundo; ciclo de cheias e secas.\n- **Pampa**: campos do Sul; vegetação rasteira (gramíneas); pecuária.\n\n### Problemas ambientais\n- **Efeito estufa** (natural e necessário) intensificado pelo CO₂, metano e óxido nitroso → **aquecimento global**.\n- **Camada de ozônio**: destruída por **CFCs**; filtra radiação **UV**. Protocolo de Montreal reduziu o problema.\n- **Chuva ácida**: óxidos de **enxofre e nitrogênio** (combustíveis, indústrias).\n- **Ilhas de calor** e **inversão térmica** em cidades.\n- **Perda de biodiversidade**: destruição de habitats é a principal causa.\n\n### Conservação\n- **Unidades de conservação** (SNUC): de **proteção integral** (parques nacionais, estações ecológicas) e de **uso sustentável** (APAs, reservas extrativistas).\n- **Corredores ecológicos** ligam fragmentos e permitem o fluxo gênico.",
+      "revisao": "**Lembre:**\n- Amazônia: solo pobre, biodiversidade enorme.\n- Mata Atlântica: ~12% restante.\n- Caatinga: só no Brasil, xerófitas.\n- Efeito estufa ≠ camada de ozônio (CFCs, UV).\n- Chuva ácida: óxidos de S e N."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "ecologia-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O conjunto de todas as populações de diferentes espécies numa área é chamado de:",
+      "opcoes": [
+        "Comunidade",
+        "População",
+        "Ecossistema",
+        "Bioma"
+      ],
+      "correta": 0,
+      "explicacao": "População é de uma só espécie; ecossistema inclui também os fatores abióticos."
+    },
+    {
+      "id": "ecologia-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O nicho ecológico de uma espécie corresponde:",
+      "opcoes": [
+        "Ao local onde ela vive",
+        "Ao papel que ela desempenha no ambiente",
+        "Ao número de indivíduos",
+        "Ao bioma em que ocorre"
+      ],
+      "correta": 1,
+      "explicacao": "O habitat é o endereço; o nicho é a profissão: alimentação, horário de atividade, reprodução e tolerâncias."
+    },
+    {
+      "id": "ecologia-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual destes é um fator abiótico?",
+      "opcoes": [
+        "Predadores",
+        "Parasitas",
+        "Temperatura",
+        "Decompositores"
+      ],
+      "correta": 2,
+      "explicacao": "Fatores abióticos são físicos e químicos: luz, água, temperatura, solo e salinidade."
+    },
+    {
+      "id": "ecologia-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Duas espécies de aves comem os mesmos insetos, na mesma árvore e no mesmo horário. O que se espera a longo prazo?",
+      "opcoes": [
+        "Convivência sem nenhuma mudança",
+        "Formação de mutualismo obrigatório",
+        "Aumento das duas populações",
+        "Exclusão de uma delas ou especialização em nichos diferentes"
+      ],
+      "correta": 3,
+      "explicacao": "Pelo princípio de Gause, nichos idênticos levam à exclusão competitiva ou à separação de nichos."
+    },
+    {
+      "id": "ecologia-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Uma lavoura tem água e luz de sobra, mas pouco fósforo no solo, e cresce pouco. Isso ilustra:",
+      "opcoes": [
+        "A lei do mínimo (fator limitante)",
+        "A sucessão ecológica",
+        "A magnificação trófica",
+        "O mutualismo"
+      ],
+      "correta": 0,
+      "explicacao": "O recurso mais escasso controla o crescimento, mesmo com os outros abundantes; adubar com fósforo resolveria."
+    },
+    {
+      "id": "ecologia-6",
+      "topico": "energia",
+      "nivel": "conceitual",
+      "pergunta": "Qual papel os fungos e bactérias decompositores desempenham?",
+      "opcoes": [
+        "Produzem energia pela fotossíntese",
+        "Devolvem os nutrientes da matéria morta ao ambiente",
+        "São consumidores de topo",
+        "Fixam a energia solar"
+      ],
+      "correta": 1,
+      "explicacao": "Sem eles, a matéria ficaria presa em restos e os nutrientes não voltariam aos produtores."
+    },
+    {
+      "id": "ecologia-7",
+      "topico": "energia",
+      "nivel": "conceitual",
+      "pergunta": "Por que a pirâmide de energia nunca é invertida?",
+      "opcoes": [
+        "Porque há sempre mais predadores que presas",
+        "Porque a energia é reciclada",
+        "Porque a energia diminui a cada nível trófico",
+        "Porque os decompositores ficam no topo"
+      ],
+      "correta": 2,
+      "explicacao": "Cerca de 90% se perde como calor e restos em cada passagem; nenhum nível pode ter mais energia que o anterior."
+    },
+    {
+      "id": "ecologia-8",
+      "topico": "energia",
+      "nivel": "conceitual",
+      "pergunta": "O que diferencia fluxo de energia e ciclo da matéria?",
+      "opcoes": [
+        "Os dois são reciclados",
+        "A energia é reciclada e a matéria não",
+        "Nenhum dos dois circula",
+        "A energia flui num só sentido; a matéria é reciclada"
+      ],
+      "correta": 3,
+      "explicacao": "A energia entra pelo Sol e sai como calor; os átomos voltam ao ambiente pela decomposição."
+    },
+    {
+      "id": "ecologia-9",
+      "topico": "energia",
+      "nivel": "aplicacao",
+      "pergunta": "Numa cadeia, os produtores fixam 10.000 kcal. Pela regra dos 10%, quanto chega aos consumidores secundários?",
+      "opcoes": [
+        "100 kcal",
+        "1.000 kcal",
+        "10 kcal",
+        "5.000 kcal"
+      ],
+      "correta": 0,
+      "explicacao": "Consumidor primário: 1.000 kcal; secundário: 10% disso, 100 kcal."
+    },
+    {
+      "id": "ecologia-10",
+      "topico": "energia",
+      "nivel": "analise",
+      "pergunta": "Num rio contaminado com mercúrio, quem terá maior concentração do metal no corpo?",
+      "opcoes": [
+        "Fitoplâncton",
+        "Peixes predadores de topo",
+        "Zooplâncton",
+        "A água do rio"
+      ],
+      "correta": 1,
+      "explicacao": "Substâncias não biodegradáveis se acumulam ao longo da cadeia (magnificação trófica); quem come muitos organismos contaminados concentra mais."
+    },
+    {
+      "id": "ecologia-11",
+      "topico": "ciclos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o papel das bactérias do gênero Rhizobium?",
+      "opcoes": [
+        "Transformar nitrato em N₂",
+        "Decompor celulose",
+        "Fixar o nitrogênio do ar em nódulos de raízes de leguminosas",
+        "Produzir oxigênio"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso feijão e soja precisam de menos adubo nitrogenado e enriquecem o solo."
+    },
+    {
+      "id": "ecologia-12",
+      "topico": "ciclos",
+      "nivel": "conceitual",
+      "pergunta": "Quais processos devolvem CO₂ à atmosfera?",
+      "opcoes": [
+        "Somente a fotossíntese",
+        "Fotossíntese e quimiossíntese",
+        "Apenas a fixação de nitrogênio",
+        "Respiração, decomposição e combustão"
+      ],
+      "correta": 3,
+      "explicacao": "A fotossíntese é o principal processo que retira CO₂ do ar."
+    },
+    {
+      "id": "ecologia-13",
+      "topico": "ciclos",
+      "nivel": "conceitual",
+      "pergunta": "Na nitrificação, a amônia é transformada em:",
+      "opcoes": [
+        "Nitrito e depois nitrato",
+        "N₂ atmosférico",
+        "Proteínas diretamente",
+        "Fósforo"
+      ],
+      "correta": 0,
+      "explicacao": "Nitrosomonas produzem nitrito e Nitrobacter, nitrato, que é a forma mais absorvida pelas plantas."
+    },
+    {
+      "id": "ecologia-14",
+      "topico": "ciclos",
+      "nivel": "aplicacao",
+      "pergunta": "Um agricultor planta feijão-de-porco antes do milho e incorpora as plantas ao solo. Qual é o objetivo?",
+      "opcoes": [
+        "Aumentar o fósforo do solo",
+        "Aumentar o nitrogênio do solo (adubação verde)",
+        "Reduzir o carbono do solo",
+        "Eliminar as bactérias do solo"
+      ],
+      "correta": 1,
+      "explicacao": "Leguminosas associadas a bactérias fixadoras deixam nitrogênio disponível para a cultura seguinte."
+    },
+    {
+      "id": "ecologia-15",
+      "topico": "ciclos",
+      "nivel": "analise",
+      "pergunta": "Por que o despejo de esgoto e fertilizantes num lago pode matar os peixes?",
+      "opcoes": [
+        "Porque os nutrientes são venenosos para os peixes",
+        "Porque aumenta o oxigênio da água",
+        "Causa eutrofização: excesso de algas e depois falta de oxigênio pela decomposição",
+        "Porque reduz a quantidade de algas"
+      ],
+      "correta": 2,
+      "explicacao": "Algas proliferam, morrem e são decompostas por bactérias aeróbias que esgotam o oxigênio dissolvido."
+    },
+    {
+      "id": "ecologia-16",
+      "topico": "populacoes",
+      "nivel": "conceitual",
+      "pergunta": "A curva de crescimento em forma de S (logística) ocorre porque:",
+      "opcoes": [
+        "Os recursos são ilimitados",
+        "Não há mortalidade",
+        "A natalidade aumenta sem parar",
+        "A resistência do meio limita o crescimento até a capacidade de suporte"
+      ],
+      "correta": 3,
+      "explicacao": "Sem limitação, o crescimento seria exponencial (curva em J)."
+    },
+    {
+      "id": "ecologia-17",
+      "topico": "populacoes",
+      "nivel": "conceitual",
+      "pergunta": "Estrategistas r se caracterizam por:",
+      "opcoes": [
+        "Muitos filhotes e pouco cuidado parental",
+        "Poucos filhotes e muito cuidado parental",
+        "Vida muito longa",
+        "Ambientes sempre estáveis"
+      ],
+      "correta": 0,
+      "explicacao": "Insetos e roedores são exemplos; estrategistas K, como elefantes, investem em poucos filhotes."
+    },
+    {
+      "id": "ecologia-18",
+      "topico": "populacoes",
+      "nivel": "conceitual",
+      "pergunta": "Quais fatores aumentam o tamanho de uma população?",
+      "opcoes": [
+        "Mortalidade e emigração",
+        "Natalidade e imigração",
+        "Natalidade e emigração",
+        "Mortalidade e imigração"
+      ],
+      "correta": 1,
+      "explicacao": "Crescimento = (natalidade + imigração) − (mortalidade + emigração)."
+    },
+    {
+      "id": "ecologia-19",
+      "topico": "populacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma área de 50 hectares tem 200 capivaras. Qual é a densidade populacional?",
+      "opcoes": [
+        "250 capivaras por hectare",
+        "0,25 capivara por hectare",
+        "4 capivaras por hectare",
+        "10.000 capivaras por hectare"
+      ],
+      "correta": 2,
+      "explicacao": "Densidade = indivíduos/área = 200/50 = 4 por hectare."
+    },
+    {
+      "id": "ecologia-20",
+      "topico": "populacoes",
+      "nivel": "analise",
+      "pergunta": "Por que espécies exóticas, como o javali no Brasil, costumam se tornar invasoras?",
+      "opcoes": [
+        "Porque não se reproduzem",
+        "Porque são estrategistas K",
+        "Porque o clima brasileiro as enfraquece",
+        "Faltam predadores, parasitas e competidores naturais que as controlariam"
+      ],
+      "correta": 3,
+      "explicacao": "Sem resistência do meio, a população cresce rápido e prejudica espécies nativas e lavouras."
+    },
+    {
+      "id": "ecologia-21",
+      "topico": "relacoes",
+      "nivel": "conceitual",
+      "pergunta": "O líquen, associação obrigatória entre fungo e alga, é exemplo de:",
+      "opcoes": [
+        "Mutualismo",
+        "Comensalismo",
+        "Parasitismo",
+        "Competição"
+      ],
+      "correta": 0,
+      "explicacao": "A alga fornece alimento pela fotossíntese e o fungo dá proteção e água; nenhum vive bem separado."
+    },
+    {
+      "id": "ecologia-22",
+      "topico": "relacoes",
+      "nivel": "conceitual",
+      "pergunta": "Orquídeas e bromélias que vivem sobre árvores, sem tirar seiva delas, são exemplo de:",
+      "opcoes": [
+        "Parasitismo",
+        "Inquilinismo (epifitismo)",
+        "Predação",
+        "Amensalismo"
+      ],
+      "correta": 1,
+      "explicacao": "Elas usam a árvore só como suporte para alcançar a luz; a erva-de-passarinho, que tira seiva, é parasita."
+    },
+    {
+      "id": "ecologia-23",
+      "topico": "relacoes",
+      "nivel": "conceitual",
+      "pergunta": "A sucessão primária começa:",
+      "opcoes": [
+        "Numa lavoura abandonada",
+        "Numa floresta madura",
+        "Em área sem vida anterior, como rocha nua",
+        "Após uma queimada leve"
+      ],
+      "correta": 2,
+      "explicacao": "As pioneiras, como líquens, começam a formar solo; na secundária, já há solo e sementes."
+    },
+    {
+      "id": "ecologia-24",
+      "topico": "relacoes",
+      "nivel": "aplicacao",
+      "pergunta": "O fungo Penicillium libera uma substância que impede o crescimento de bactérias ao redor. Essa relação é:",
+      "opcoes": [
+        "Mutualismo",
+        "Comensalismo",
+        "Protocooperação",
+        "Amensalismo (antibiose)"
+      ],
+      "correta": 3,
+      "explicacao": "Uma espécie prejudica a outra por substâncias químicas, sem se alimentar dela; daí veio a penicilina."
+    },
+    {
+      "id": "ecologia-25",
+      "topico": "relacoes",
+      "nivel": "analise",
+      "pergunta": "O que tende a acontecer ao longo de uma sucessão ecológica até o clímax?",
+      "opcoes": [
+        "Aumentam a biodiversidade, a biomassa e a complexidade da teia alimentar",
+        "Diminui a biodiversidade",
+        "A comunidade fica mais instável",
+        "Desaparecem os decompositores"
+      ],
+      "correta": 0,
+      "explicacao": "No clímax, a produtividade líquida tende a se aproximar de zero, mas a biomassa e as interações são máximas."
+    },
+    {
+      "id": "ecologia-26",
+      "topico": "biomas",
+      "nivel": "conceitual",
+      "pergunta": "Qual bioma é exclusivamente brasileiro?",
+      "opcoes": [
+        "Amazônia",
+        "Caatinga",
+        "Pampa",
+        "Pantanal"
+      ],
+      "correta": 1,
+      "explicacao": "A Amazônia se estende por vários países; o Pampa chega ao Uruguai e à Argentina; o Pantanal, à Bolívia e ao Paraguai."
+    },
+    {
+      "id": "ecologia-27",
+      "topico": "biomas",
+      "nivel": "conceitual",
+      "pergunta": "A destruição da camada de ozônio está ligada principalmente a:",
+      "opcoes": [
+        "Dióxido de carbono",
+        "Óxidos de enxofre",
+        "CFCs",
+        "Metano de arrozais"
+      ],
+      "correta": 2,
+      "explicacao": "O ozônio filtra a radiação ultravioleta; o CO₂ está ligado ao efeito estufa, não ao buraco na camada."
+    },
+    {
+      "id": "ecologia-28",
+      "topico": "biomas",
+      "nivel": "conceitual",
+      "pergunta": "Por que o solo da Amazônia é pobre, apesar da floresta exuberante?",
+      "opcoes": [
+        "Porque não chove na região",
+        "Porque não há decompositores",
+        "Porque o solo é rico em fósforo",
+        "Os nutrientes estão na biomassa e são reciclados rapidamente pela serapilheira"
+      ],
+      "correta": 3,
+      "explicacao": "Ao desmatar, os nutrientes se perdem com a chuva e o solo se esgota em poucos anos."
+    },
+    {
+      "id": "ecologia-29",
+      "topico": "biomas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual bioma tem árvores de troncos tortuosos, casca grossa e raízes profundas, e abriga nascentes de grandes rios?",
+      "opcoes": [
+        "Cerrado",
+        "Mata Atlântica",
+        "Pampa",
+        "Pantanal"
+      ],
+      "correta": 0,
+      "explicacao": "É chamado de berço das águas; a casca grossa protege do fogo e as raízes alcançam água profunda."
+    },
+    {
+      "id": "ecologia-30",
+      "topico": "biomas",
+      "nivel": "analise",
+      "pergunta": "Qual é a função dos corredores ecológicos entre fragmentos de mata?",
+      "opcoes": [
+        "Aumentar a área de lavoura",
+        "Permitir o deslocamento de animais e o fluxo gênico entre populações",
+        "Isolar as populações para protegê-las",
+        "Facilitar a caça controlada"
+      ],
+      "correta": 1,
+      "explicacao": "Populações isoladas em fragmentos pequenos perdem variabilidade genética e ficam mais sujeitas à extinção."
+    }
+  ]
+}

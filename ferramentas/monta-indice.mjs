@@ -937,6 +937,95 @@ export const EXTRA = {
       "Representação Gráfica",
       "CAD"
     ]
+  },
+  "quimica-organica": {
+    "area": "Exatas",
+    "apelidos": [
+      "Química Orgânica",
+      "Química Orgânica I",
+      "Química Orgânica II",
+      "Química Orgânica Básica",
+      "Química Orgânica Teórica",
+      "Química dos Compostos de Carbono",
+      "Fundamentos de Química Orgânica"
+    ]
+  },
+  "quimica-analitica": {
+    "area": "Exatas",
+    "apelidos": [
+      "Química Analítica",
+      "Química Analítica I",
+      "Química Analítica II",
+      "Química Analítica Qualitativa",
+      "Química Analítica Quantitativa",
+      "Análise Química",
+      "Análise Instrumental",
+      "Química Analítica Instrumental",
+      "Métodos Instrumentais de Análise"
+    ]
+  },
+  "botanica": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Botânica",
+      "Botânica Geral",
+      "Botânica I",
+      "Botânica II",
+      "Morfologia Vegetal",
+      "Anatomia Vegetal",
+      "Biologia Vegetal",
+      "Sistemática Vegetal",
+      "Organografia Vegetal",
+      "Botânica Aplicada"
+    ]
+  },
+  "zoologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Zoologia",
+      "Zoologia Geral",
+      "Zoologia I",
+      "Zoologia II",
+      "Zoologia dos Invertebrados",
+      "Zoologia dos Vertebrados",
+      "Biologia Animal",
+      "Diversidade Animal",
+      "Zoologia Agrícola"
+    ]
+  },
+  "ecologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Ecologia",
+      "Ecologia Geral",
+      "Ecologia I",
+      "Ecologia Básica",
+      "Fundamentos de Ecologia",
+      "Ecologia e Meio Ambiente",
+      "Ecologia de Populações",
+      "Ecologia de Ecossistemas",
+      "Ecologia Aplicada",
+      "Ciências do Ambiente"
+    ]
+  },
+  "ciencia-solo": {
+    "area": "Agrárias",
+    "apelidos": [
+      "Ciência do Solo",
+      "Ciência do Solo I",
+      "Solos",
+      "Pedologia",
+      "Gênese e Classificação de Solos",
+      "Gênese, Morfologia e Classificação de Solos",
+      "Fertilidade do Solo",
+      "Fertilidade do Solo e Nutrição de Plantas",
+      "Física do Solo",
+      "Química do Solo",
+      "Manejo e Conservação do Solo",
+      "Conservação do Solo",
+      "Solos Agrícolas",
+      "Edafologia"
+    ]
   }
 };
 

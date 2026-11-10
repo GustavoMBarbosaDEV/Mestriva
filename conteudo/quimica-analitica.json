@@ -1,0 +1,465 @@
+{
+  "id": "quimica-analitica",
+  "nome": "Química Analítica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos, erros e tratamento de dados",
+      "resumo": "### O que é\nCiência que **identifica** (análise **qualitativa**: o que tem) e **quantifica** (análise **quantitativa**: quanto tem) os componentes de uma amostra.\n\n### Etapas de uma análise\nDefinir o problema → **amostragem** (amostra **representativa**) → preparo (secagem, dissolução, digestão) → eliminação de **interferentes** → medida → cálculo → avaliação dos resultados.\n\n### Concentração\n- **Molaridade**: mol/L. **Concentração comum**: g/L.\n- **ppm** (mg/kg ou mg/L em água) e **ppb** (µg/L).\n- **Diluição**: **C₁V₁ = C₂V₂**.\n\n### Erros\n- **Sistemáticos (determinados)**: têm causa identificável e afetam a **exatidão** sempre no mesmo sentido (equipamento descalibrado, método falho, erro do analista). Corrigem-se com calibração, brancos e padrões.\n- **Aleatórios (indeterminados)**: flutuações imprevisíveis; afetam a **precisão**; são tratados com estatística.\n- **Grosseiros**: enganos (anotação errada, perda de amostra); descartam-se.\n\n### Exatidão × precisão\n- **Exatidão**: proximidade do **valor verdadeiro** (erro relativo).\n- **Precisão**: proximidade **entre as medidas repetidas** (desvio padrão, coeficiente de variação).\n- Pode haver precisão sem exatidão (todos os tiros agrupados, longe do alvo).\n\n### Estatística\n- **Média**, **desvio padrão (s)**, **coeficiente de variação** CV = s/média × 100%.\n- **Teste Q** ou de Grubbs: decidir se um valor discrepante pode ser descartado.\n- **Intervalo de confiança**: média ± t·s/√n.\n- **Algarismos significativos**: o resultado não pode ter mais precisão que a medida menos precisa.",
+      "revisao": "**Lembre:**\n- Qualitativa: o quê; quantitativa: quanto.\n- C₁V₁ = C₂V₂.\n- Sistemático afeta exatidão; aleatório afeta precisão.\n- Precisão: medidas próximas entre si.\n- CV = s/média × 100%."
+    },
+    {
+      "id": "equilibrio",
+      "nome": "Equilíbrio químico e ácido-base",
+      "resumo": "### Equilíbrio\n- **Constante de equilíbrio**: para aA + bB ⇌ cC + dD, **K = [C]ᶜ[D]ᵈ/([A]ᵃ[B]ᵇ)**. Sólidos e água pura não entram.\n- **Le Chatelier**: o sistema desloca-se para **compensar** uma perturbação (adição de reagente, retirada de produto, pressão, temperatura).\n- **Efeito do íon comum**: adicionar um íon já presente desloca o equilíbrio e diminui a dissociação/solubilidade.\n\n### Ácidos e bases\n- **Brønsted-Lowry**: ácido **doa** H⁺; base **recebe** H⁺. Pares conjugados.\n- **pH = −log[H⁺]**; **pOH = −log[OH⁻]**; a 25 °C, **pH + pOH = 14** (Kw = 10⁻¹⁴).\n- **Ácido forte** (HCl, HNO₃, H₂SO₄): dissocia totalmente; pH = −log C.\n- **Ácido fraco**: dissocia parcialmente; **Ka** pequeno; **[H⁺] ≈ √(Ka·C)**. Quanto **menor o pKa**, **mais forte** o ácido.\n\n### Soluções-tampão\nMistura de **ácido fraco + sua base conjugada** (ou base fraca + ácido conjugado); **resistem a variações de pH**.\n- **Henderson-Hasselbalch**: **pH = pKa + log([A⁻]/[HA])**.\n- Máxima capacidade tamponante quando [A⁻] = [HA], ou seja, **pH = pKa**.\n- Exemplos: acetato/ácido acético; **bicarbonato/ácido carbônico** no sangue (pH ≈ 7,4).\n\n### Hidrólise de sais\n- Sal de ácido forte + base forte (NaCl): neutro.\n- Ácido fraco + base forte (acetato de sódio): **básico**.\n- Ácido forte + base fraca (NH₄Cl): **ácido**.\n\n### Exemplo\nHCl 0,01 mol/L: pH = **2**. NaOH 0,001 mol/L: pOH = 3, pH = **11**.",
+      "revisao": "**Lembre:**\n- Le Chatelier: o equilíbrio compensa a perturbação.\n- pH = −log[H⁺]; pH + pOH = 14.\n- Ácido fraco: [H⁺] ≈ √(Ka·C).\n- Tampão: pH = pKa + log([A⁻]/[HA]).\n- Menor pKa, ácido mais forte."
+    },
+    {
+      "id": "volumetria",
+      "nome": "Volumetria (titulação)",
+      "resumo": "### Princípio\nDeterminar a concentração de um **analito** pela reação com uma solução de concentração conhecida (**titulante**), adicionada com **bureta**.\n- **Ponto de equivalência**: quantidade de titulante estequiometricamente igual à do analito (teórico).\n- **Ponto final**: onde se observa a mudança (indicador). A diferença entre eles é o **erro de titulação**.\n- **Padrão primário**: substância de alta pureza, estável, não higroscópica e de massa molar alta, usada para **padronizar** soluções (biftalato de potássio para bases; carbonato de sódio para ácidos).\n- NaOH **não é padrão primário** (absorve água e CO₂); precisa ser padronizado.\n\n### Cálculo básico\nNo ponto de equivalência (estequiometria 1:1): **n_titulante = n_analito** → **C₁·V₁ = C₂·V₂**.\n\n### Tipos de volumetria\n- **Neutralização (ácido-base)**: indicadores como **fenolftaleína** (incolor em ácido, rosa acima de pH ≈ 8,2) e **alaranjado de metila** (vira em pH ≈ 3,1–4,4). Escolhe-se o indicador cuja faixa de viragem contenha o pH do ponto de equivalência.\n  - Ácido forte × base forte: equivalência em pH **7**.\n  - Ácido fraco × base forte: equivalência em pH **> 7** (fenolftaleína).\n  - Base fraca × ácido forte: pH **< 7** (alaranjado de metila).\n- **Precipitação**: argentometria (Ag⁺ com Cl⁻): métodos de **Mohr** (cromato), **Volhard** e **Fajans**.\n- **Complexação**: **EDTA** com íons metálicos; determinação de **dureza da água** (Ca²⁺ e Mg²⁺) com negro de eriocromo T.\n- **Oxirredução**: **permanganometria** (KMnO₄, autoindicador: rosa), **iodometria** (amido como indicador), dicromatometria.\n\n### Curva de titulação\nGráfico pH × volume; há um **salto** brusco perto do ponto de equivalência. No meio do caminho da titulação de ácido fraco, **pH = pKa**.",
+      "revisao": "**Lembre:**\n- Equivalência: n titulante = n analito.\n- Padrão primário: puro, estável, não higroscópico.\n- NaOH precisa ser padronizado.\n- Fenolftaleína: rosa em meio básico.\n- EDTA: dureza da água."
+    },
+    {
+      "id": "gravimetria",
+      "nome": "Gravimetria e solubilidade",
+      "resumo": "### Produto de solubilidade (Kps)\nPara um sal pouco solúvel AₓBᵧ(s) ⇌ xA⁺ + yB⁻: **Kps = [A]ˣ[B]ʸ**.\n- Para AB: solubilidade **s = √Kps**.\n- **Precipita** quando o produto iônico **Q > Kps**; Q < Kps: solução insaturada.\n- **Íon comum** **diminui** a solubilidade (útil para precipitar totalmente o analito).\n\n### Gravimetria\nDetermina o analito pela **massa** de um produto puro e de composição conhecida.\n- **Por precipitação**: o analito é precipitado, filtrado, lavado, seco ou **calcinado** e pesado. Ex.: sulfato como **BaSO₄**; cloreto como AgCl; ferro como Fe₂O₃.\n- **Por volatilização**: mede-se a perda de massa (umidade, cinzas) ou a massa do gás absorvido.\n\n### Características de um bom precipitado\nBaixa solubilidade, **fácil filtração** (partículas grandes), pureza, composição conhecida.\n- Para cristais grandes: precipitar de soluções **diluídas e quentes**, adicionar o reagente **devagar** e com agitação, e fazer a **digestão** (deixar o precipitado em repouso aquecido).\n- **Coprecipitação**: impurezas arrastadas com o precipitado.\n\n### Fator gravimétrico\nConverte a massa pesada na massa do analito: **m_analito = m_precipitado × (M_analito/M_precipitado) × (razão estequiométrica)**.\n\n### Exemplo\n0,233 g de BaSO₄ (M = 233 g/mol) correspondem a 0,001 mol de sulfato; em 100 mL de amostra, [SO₄²⁻] = **0,01 mol/L**.\n\n### Vantagens e limites\nMétodo **absoluto** e muito exato (não precisa de curva de calibração), mas **lento** e trabalhoso.",
+      "revisao": "**Lembre:**\n- Kps = produto das concentrações dos íons.\n- AB: s = √Kps.\n- Precipita se Q > Kps.\n- Íon comum reduz a solubilidade.\n- Gravimetria: exata, absoluta e lenta."
+    },
+    {
+      "id": "espectro",
+      "nome": "Métodos espectroscópicos",
+      "resumo": "### Princípio\nInteração da **radiação eletromagnética** com a matéria: absorção ou emissão em comprimentos de onda característicos.\n\n### Lei de Lambert-Beer\n**A = ε·b·c**\n- **A** = absorbância; **ε** = absortividade molar (característica da substância no comprimento de onda); **b** = caminho óptico (cubeta, geralmente 1 cm); **c** = concentração.\n- **Transmitância**: T = I/I₀; **A = −log T**. Se T = 10%, A = 1.\n- A absorbância é **proporcional à concentração** (dentro da faixa linear; desvios em concentrações altas).\n- Mede-se no comprimento de onda de **máxima absorção** (λ_máx) para maior sensibilidade.\n\n### Curva de calibração (analítica)\nMede-se a resposta de **padrões** de concentração conhecida, ajusta-se uma **reta** (mínimos quadrados) e interpola-se a amostra. Avalia-se pelo coeficiente de correlação (r² próximo de 1).\n- **Branco**: amostra sem o analito, para descontar o sinal de fundo.\n- **Limite de detecção (LD)** e **de quantificação (LQ)**.\n\n### Técnicas\n- **UV-Vis (espectrofotometria)**: absorção por moléculas em solução; cor complementar à absorvida.\n- **Absorção atômica (AAS)**: **metais** (chama ou forno de grafite); lâmpada de cátodo oco específica do elemento.\n- **Emissão atômica (ICP-OES)**, fotometria de chama (Na, K).\n- **Infravermelho (IV)**: identifica **grupos funcionais** (vibrações das ligações).\n- **Fluorescência**: muito sensível.\n\n### Exemplo\nPadrão de 2 mg/L dá A = 0,200; amostra dá A = 0,350 → c = **3,5 mg/L** (linearidade).",
+      "revisao": "**Lembre:**\n- A = εbc.\n- A = −log T.\n- Mede-se em λ máximo.\n- Curva de calibração com padrões e branco.\n- Absorção atômica: metais; IV: grupos funcionais."
+    },
+    {
+      "id": "separacao",
+      "nome": "Cromatografia e eletroanalítica",
+      "resumo": "### Cromatografia\nSeparação baseada na distribuição dos componentes entre uma **fase estacionária** e uma **fase móvel**. Componentes com mais afinidade pela fase estacionária são **retidos** por mais tempo.\n- **Em camada delgada (CCD)** e em papel: qualitativa e barata; **fator de retenção Rf** = distância da mancha / distância da frente do solvente.\n- **Em coluna** (clássica).\n- **Gasosa (CG)**: fase móvel é um **gás** (He, N₂, H₂); para substâncias **voláteis** e termicamente estáveis (resíduos de solventes, perfil de ácidos graxos, etanol no sangue).\n- **Líquida de alta eficiência (CLAE/HPLC)**: fase móvel líquida sob alta pressão; para compostos **não voláteis** ou que se degradam com calor (fármacos, vitaminas, agrotóxicos).\n  - **Fase normal**: estacionária polar. **Fase reversa** (a mais usada): estacionária **apolar** (C18) e móvel polar (água/metanol/acetonitrila).\n- **Tempo de retenção** identifica; **área do pico** quantifica.\n- Acoplamento com **espectrometria de massas** (CG-EM, CL-EM) identifica com alta segurança.\n\n### Métodos eletroanalíticos\n- **Potenciometria**: mede o **potencial** de um eletrodo sem passar corrente. O **pHmetro** usa eletrodo de **vidro** (sensível a H⁺) e eletrodo de referência; calibrado com **tampões**.\n- **Equação de Nernst**: E = E° − (0,0592/n)·log Q (a 25 °C); cerca de **59 mV por unidade de pH**.\n- **Eletrodos íon-seletivos**: fluoreto, nitrato, cálcio.\n- **Condutimetria**: mede a **condutividade** (pureza da água, titulações condutimétricas).\n- **Voltametria**: mede corrente em função do potencial aplicado; metais traço.\n- **Coulometria** e **eletrogravimetria**.",
+      "revisao": "**Lembre:**\n- Mais afinidade pela fase estacionária: mais retido.\n- Rf = distância da mancha / do solvente.\n- CG: voláteis; HPLC: não voláteis.\n- Fase reversa: estacionária apolar (C18).\n- pHmetro: eletrodo de vidro, ~59 mV por pH."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "quimica-analitica-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Um erro sistemático afeta principalmente:",
+      "opcoes": [
+        "A exatidão do resultado",
+        "Apenas a precisão",
+        "Somente o número de algarismos significativos",
+        "Nenhum aspecto do resultado"
+      ],
+      "correta": 0,
+      "explicacao": "Ele desloca todas as medidas no mesmo sentido; erros aleatórios é que afetam a precisão."
+    },
+    {
+      "id": "quimica-analitica-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Medidas repetidas muito próximas entre si, mas distantes do valor verdadeiro, são:",
+      "opcoes": [
+        "Exatas, mas não precisas",
+        "Precisas, mas não exatas",
+        "Exatas e precisas",
+        "Nem exatas nem precisas"
+      ],
+      "correta": 1,
+      "explicacao": "Precisão é a concordância entre medidas; exatidão é a proximidade do valor real. Indica erro sistemático."
+    },
+    {
+      "id": "quimica-analitica-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o objetivo da análise qualitativa?",
+      "opcoes": [
+        "Determinar a quantidade exata de cada componente",
+        "Calcular o desvio padrão",
+        "Identificar quais componentes estão presentes",
+        "Padronizar soluções"
+      ],
+      "correta": 2,
+      "explicacao": "A quantitativa é que determina quanto há de cada componente."
+    },
+    {
+      "id": "quimica-analitica-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Quantos mililitros de solução 2 mol/L são necessários para preparar 500 mL de solução 0,1 mol/L?",
+      "opcoes": [
+        "50 mL",
+        "10 mL",
+        "250 mL",
+        "25 mL"
+      ],
+      "correta": 3,
+      "explicacao": "C₁V₁ = C₂V₂ → 2 · V₁ = 0,1 · 500 → V₁ = 25 mL, completados com água até 500 mL."
+    },
+    {
+      "id": "quimica-analitica-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Uma análise tem média 50 mg/L e desvio padrão 2 mg/L. Qual é o coeficiente de variação?",
+      "opcoes": [
+        "4%",
+        "25%",
+        "2%",
+        "0,04%"
+      ],
+      "correta": 0,
+      "explicacao": "CV = s/média × 100 = 2/50 × 100 = 4%, o que indica boa precisão relativa."
+    },
+    {
+      "id": "quimica-analitica-6",
+      "topico": "equilibrio",
+      "nivel": "conceitual",
+      "pergunta": "Uma solução-tampão é formada tipicamente por:",
+      "opcoes": [
+        "Um ácido forte e uma base forte",
+        "Um ácido fraco e sua base conjugada",
+        "Água pura",
+        "Um sal neutro e água"
+      ],
+      "correta": 1,
+      "explicacao": "O par conjugado consome tanto H⁺ quanto OH⁻ adicionados, mantendo o pH quase constante."
+    },
+    {
+      "id": "quimica-analitica-7",
+      "topico": "equilibrio",
+      "nivel": "conceitual",
+      "pergunta": "Entre dois ácidos fracos, é mais forte aquele que tem:",
+      "opcoes": [
+        "Maior pKa",
+        "Maior massa molar",
+        "Menor pKa",
+        "Menor solubilidade"
+      ],
+      "correta": 2,
+      "explicacao": "pKa = −log Ka; pKa menor significa Ka maior, ou seja, maior dissociação."
+    },
+    {
+      "id": "quimica-analitica-8",
+      "topico": "equilibrio",
+      "nivel": "conceitual",
+      "pergunta": "O cloreto de amônio (NH₄Cl) dissolvido em água forma uma solução:",
+      "opcoes": [
+        "Básica",
+        "Neutra",
+        "Tampão sempre",
+        "Ácida"
+      ],
+      "correta": 3,
+      "explicacao": "É sal de ácido forte (HCl) com base fraca (NH₃); o íon amônio hidrolisa liberando H⁺."
+    },
+    {
+      "id": "quimica-analitica-9",
+      "topico": "equilibrio",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o pH de uma solução de NaOH 0,01 mol/L a 25 °C?",
+      "opcoes": [
+        "12",
+        "2",
+        "10",
+        "14"
+      ],
+      "correta": 0,
+      "explicacao": "Base forte: [OH⁻] = 0,01 → pOH = 2 → pH = 14 − 2 = 12."
+    },
+    {
+      "id": "quimica-analitica-10",
+      "topico": "equilibrio",
+      "nivel": "analise",
+      "pergunta": "Um tampão acetato tem pKa 4,76 e concentrações iguais de ácido acético e acetato. Qual é o pH?",
+      "opcoes": [
+        "7,00",
+        "4,76",
+        "2,38",
+        "9,24"
+      ],
+      "correta": 1,
+      "explicacao": "Henderson-Hasselbalch: pH = pKa + log(1) = pKa. É também a condição de máxima capacidade tamponante."
+    },
+    {
+      "id": "quimica-analitica-11",
+      "topico": "volumetria",
+      "nivel": "conceitual",
+      "pergunta": "Por que o NaOH não é um padrão primário?",
+      "opcoes": [
+        "Porque é um ácido",
+        "Porque é muito caro",
+        "Absorve água e CO₂ do ar, alterando sua massa e composição",
+        "Porque não reage com ácidos"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso a solução de NaOH é padronizada com um padrão primário, como o biftalato de potássio."
+    },
+    {
+      "id": "quimica-analitica-12",
+      "topico": "volumetria",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre ponto de equivalência e ponto final?",
+      "opcoes": [
+        "São sinônimos",
+        "O ponto final é sempre antes do início",
+        "O de equivalência depende do indicador",
+        "O de equivalência é teórico (estequiométrico); o final é onde se observa a viragem"
+      ],
+      "correta": 3,
+      "explicacao": "A diferença entre os dois é o erro de titulação, minimizado pela escolha correta do indicador."
+    },
+    {
+      "id": "quimica-analitica-13",
+      "topico": "volumetria",
+      "nivel": "conceitual",
+      "pergunta": "Qual titulação é usada para determinar a dureza da água (Ca²⁺ e Mg²⁺)?",
+      "opcoes": [
+        "Complexométrica com EDTA",
+        "Permanganometria",
+        "Argentometria",
+        "Neutralização com HCl"
+      ],
+      "correta": 0,
+      "explicacao": "O EDTA forma complexos estáveis com os íons metálicos; o negro de eriocromo T indica o ponto final."
+    },
+    {
+      "id": "quimica-analitica-14",
+      "topico": "volumetria",
+      "nivel": "aplicacao",
+      "pergunta": "25 mL de HCl foram neutralizados por 20 mL de NaOH 0,1 mol/L. Qual é a concentração do HCl?",
+      "opcoes": [
+        "0,125 mol/L",
+        "0,08 mol/L",
+        "0,1 mol/L",
+        "0,05 mol/L"
+      ],
+      "correta": 1,
+      "explicacao": "n(NaOH) = 0,1 · 0,020 = 0,002 mol = n(HCl); C = 0,002/0,025 = 0,08 mol/L."
+    },
+    {
+      "id": "quimica-analitica-15",
+      "topico": "volumetria",
+      "nivel": "analise",
+      "pergunta": "Na titulação de ácido acético (fraco) com NaOH, qual indicador é adequado?",
+      "opcoes": [
+        "Alaranjado de metila, pois vira em pH ácido",
+        "Nenhum indicador funciona",
+        "Fenolftaleína, pois a equivalência ocorre em pH acima de 7",
+        "Qualquer indicador dá o mesmo resultado"
+      ],
+      "correta": 2,
+      "explicacao": "O acetato formado deixa o meio básico no ponto de equivalência; a fenolftaleína vira em pH ≈ 8,2 a 10."
+    },
+    {
+      "id": "quimica-analitica-16",
+      "topico": "gravimetria",
+      "nivel": "conceitual",
+      "pergunta": "Um precipitado se forma quando:",
+      "opcoes": [
+        "O produto iônico é menor que o Kps",
+        "O Kps é zero",
+        "A solução está insaturada",
+        "O produto iônico (Q) supera o Kps"
+      ],
+      "correta": 3,
+      "explicacao": "Q > Kps indica solução supersaturada em relação ao sal, que então precipita."
+    },
+    {
+      "id": "quimica-analitica-17",
+      "topico": "gravimetria",
+      "nivel": "conceitual",
+      "pergunta": "O efeito do íon comum sobre a solubilidade de um sal pouco solúvel é:",
+      "opcoes": [
+        "Diminuí-la",
+        "Aumentá-la",
+        "Não alterá-la",
+        "Torná-la infinita"
+      ],
+      "correta": 0,
+      "explicacao": "Pelo princípio de Le Chatelier, o equilíbrio de dissolução se desloca para o sólido."
+    },
+    {
+      "id": "quimica-analitica-18",
+      "topico": "gravimetria",
+      "nivel": "conceitual",
+      "pergunta": "Para obter cristais grandes e fáceis de filtrar na gravimetria, deve-se:",
+      "opcoes": [
+        "Precipitar em solução concentrada e fria rapidamente",
+        "Precipitar em solução diluída e quente, adicionando o reagente devagar",
+        "Não agitar nunca",
+        "Filtrar antes de precipitar"
+      ],
+      "correta": 1,
+      "explicacao": "Baixa supersaturação favorece o crescimento de cristais em vez da formação de muitos núcleos pequenos."
+    },
+    {
+      "id": "quimica-analitica-19",
+      "topico": "gravimetria",
+      "nivel": "aplicacao",
+      "pergunta": "O Kps de um sal AB é 1,0 × 10⁻¹⁰. Qual é sua solubilidade molar?",
+      "opcoes": [
+        "1,0 × 10⁻¹⁰ mol/L",
+        "1,0 × 10⁻²⁰ mol/L",
+        "1,0 × 10⁻⁵ mol/L",
+        "1,0 × 10⁻² mol/L"
+      ],
+      "correta": 2,
+      "explicacao": "Para AB, Kps = s², então s = √(10⁻¹⁰) = 10⁻⁵ mol/L."
+    },
+    {
+      "id": "quimica-analitica-20",
+      "topico": "gravimetria",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal vantagem e a principal desvantagem da gravimetria?",
+      "opcoes": [
+        "Rápida, mas pouco exata",
+        "Barata, mas exige curva de calibração",
+        "Detecta traços, mas só serve para gases",
+        "Muito exata e absoluta, mas lenta e trabalhosa"
+      ],
+      "correta": 3,
+      "explicacao": "Como depende só de pesagem e estequiometria, não precisa de padrões de calibração, porém exige muitas etapas."
+    },
+    {
+      "id": "quimica-analitica-21",
+      "topico": "espectro",
+      "nivel": "conceitual",
+      "pergunta": "Pela lei de Lambert-Beer, a absorbância é diretamente proporcional:",
+      "opcoes": [
+        "À concentração e ao caminho óptico",
+        "Somente à temperatura",
+        "À transmitância",
+        "Ao volume total da solução"
+      ],
+      "correta": 0,
+      "explicacao": "A = εbc: dobrando a concentração ou o caminho óptico, a absorbância dobra (na faixa linear)."
+    },
+    {
+      "id": "quimica-analitica-22",
+      "topico": "espectro",
+      "nivel": "conceitual",
+      "pergunta": "Qual técnica é mais indicada para determinar chumbo e cádmio em água?",
+      "opcoes": [
+        "Infravermelho",
+        "Absorção atômica",
+        "Cromatografia em papel",
+        "Titulação ácido-base"
+      ],
+      "correta": 1,
+      "explicacao": "A absorção atômica usa lâmpadas específicas de cada elemento e mede metais em baixas concentrações."
+    },
+    {
+      "id": "quimica-analitica-23",
+      "topico": "espectro",
+      "nivel": "conceitual",
+      "pergunta": "Para que serve o branco numa análise espectrofotométrica?",
+      "opcoes": [
+        "Aumentar a absorbância da amostra",
+        "Substituir a curva de calibração",
+        "Descontar o sinal de fundo de reagentes e da cubeta",
+        "Diluir a amostra"
+      ],
+      "correta": 2,
+      "explicacao": "O branco contém tudo, menos o analito; zera-se o aparelho com ele."
+    },
+    {
+      "id": "quimica-analitica-24",
+      "topico": "espectro",
+      "nivel": "aplicacao",
+      "pergunta": "Uma solução tem transmitância de 10%. Qual é sua absorbância?",
+      "opcoes": [
+        "0,1",
+        "10",
+        "2",
+        "1"
+      ],
+      "correta": 3,
+      "explicacao": "A = −log T = −log 0,1 = 1. Com T = 1%, a absorbância seria 2."
+    },
+    {
+      "id": "quimica-analitica-25",
+      "topico": "espectro",
+      "nivel": "analise",
+      "pergunta": "Um padrão de 4 mg/L dá absorbância 0,400 e uma amostra dá 0,300, nas mesmas condições. Qual é a concentração da amostra?",
+      "opcoes": [
+        "3 mg/L",
+        "4 mg/L",
+        "1,2 mg/L",
+        "5,3 mg/L"
+      ],
+      "correta": 0,
+      "explicacao": "Como A é proporcional a c: c = 4 · 0,300/0,400 = 3 mg/L, supondo a faixa linear e o branco descontado."
+    },
+    {
+      "id": "quimica-analitica-26",
+      "topico": "separacao",
+      "nivel": "conceitual",
+      "pergunta": "Na cromatografia, um componente fica mais tempo retido quando:",
+      "opcoes": [
+        "Tem maior afinidade pela fase móvel",
+        "Tem maior afinidade pela fase estacionária",
+        "É mais volátil sempre",
+        "Está em maior concentração"
+      ],
+      "correta": 1,
+      "explicacao": "Ele passa mais tempo interagindo com a fase estacionária e sai depois."
+    },
+    {
+      "id": "quimica-analitica-27",
+      "topico": "separacao",
+      "nivel": "conceitual",
+      "pergunta": "A cromatografia gasosa é adequada para substâncias:",
+      "opcoes": [
+        "Que se decompõem com calor",
+        "Proteínas grandes",
+        "Voláteis e termicamente estáveis",
+        "Sais inorgânicos não voláteis"
+      ],
+      "correta": 2,
+      "explicacao": "Para compostos não voláteis ou sensíveis ao calor, usa-se a cromatografia líquida de alta eficiência (HPLC)."
+    },
+    {
+      "id": "quimica-analitica-28",
+      "topico": "separacao",
+      "nivel": "conceitual",
+      "pergunta": "Na cromatografia líquida de fase reversa, a fase estacionária é:",
+      "opcoes": [
+        "Polar e a fase móvel é apolar",
+        "Um gás",
+        "Papel de filtro",
+        "Apolar (como C18) e a fase móvel é polar"
+      ],
+      "correta": 3,
+      "explicacao": "É a modalidade mais usada em HPLC; os compostos mais polares saem primeiro."
+    },
+    {
+      "id": "quimica-analitica-29",
+      "topico": "separacao",
+      "nivel": "aplicacao",
+      "pergunta": "Numa placa de CCD, a mancha percorreu 3 cm e o solvente 6 cm. Qual é o Rf?",
+      "opcoes": [
+        "0,5",
+        "2",
+        "3",
+        "0,2"
+      ],
+      "correta": 0,
+      "explicacao": "Rf = 3/6 = 0,5; o Rf é sempre entre 0 e 1 e ajuda a identificar a substância comparando com padrões."
+    },
+    {
+      "id": "quimica-analitica-30",
+      "topico": "separacao",
+      "nivel": "analise",
+      "pergunta": "Um pHmetro marcou valores errados após meses sem uso. Qual é o procedimento correto antes de medir?",
+      "opcoes": [
+        "Medir só água destilada",
+        "Calibrar com soluções-tampão de pH conhecido",
+        "Aquecer o eletrodo",
+        "Lavar o eletrodo com ácido forte e medir direto"
+      ],
+      "correta": 1,
+      "explicacao": "O eletrodo de vidro muda de resposta com o tempo; a calibração com pelo menos dois tampões ajusta a inclinação e o zero."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "botanica",
+  "nome": "Botânica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "grupos",
+      "nome": "Grupos de plantas e evolução",
+      "resumo": "### Características das plantas\nEucariontes, **multicelulares**, **autótrofas** (fotossíntese, clorofilas a e b), parede celular de **celulose**, reserva de **amido**. Ciclo de vida com **alternância de gerações** (gametófito haploide e esporófito diploide).\n\n### Os quatro grandes grupos\n- **Briófitas** (musgos, hepáticas): **avasculares** (sem vasos condutores), pequenas, dependem de **água** para a fecundação. Fase **dominante: gametófito**.\n- **Pteridófitas** (samambaias, avencas, cavalinhas): primeiras **vasculares** (xilema e floema), sem sementes; esporos nos **soros** sob as folhas. Fase dominante: **esporófito**. Ainda dependem de água para a fecundação.\n- **Gimnospermas** (pinheiros, araucária, cicas): têm **sementes**, mas **nuas** (sem fruto). Grão de **pólen** e **tubo polínico**: a fecundação deixa de depender da água. Estróbilos (pinhas).\n- **Angiospermas**: **flores** e **frutos** que envolvem as sementes; o grupo mais diverso. **Dupla fecundação**.\n\n### Sequência evolutiva (novidades)\nVasos condutores (pteridófitas) → sementes e pólen (gimnospermas) → flores e frutos (angiospermas).\n\n### Monocotiledôneas × eudicotiledôneas\n- **Monocotiledôneas** (gramíneas, milho, arroz, cana, palmeiras, orquídeas): 1 cotilédone, nervuras **paralelas**, raiz **fasciculada** (cabeleira), feixes vasculares **dispersos** no caule, flores em múltiplos de **3**.\n- **Eudicotiledôneas** (feijão, roseira, ipê, laranjeira): 2 cotilédones, nervuras **reticuladas**, raiz **pivotante** (axial), feixes em **anel**, flores em múltiplos de 4 ou 5; podem ter crescimento em espessura.",
+      "revisao": "**Lembre:**\n- Briófitas: sem vasos; gametófito dominante.\n- Pteridófitas: vasos, sem sementes.\n- Gimnospermas: sementes nuas, pólen.\n- Angiospermas: flores e frutos.\n- Mono: nervuras paralelas, raiz fasciculada; eudicot: reticuladas, pivotante."
+    },
+    {
+      "id": "histologia",
+      "nome": "Tecidos vegetais",
+      "resumo": "### Meristemas (tecidos de formação)\nCélulas indiferenciadas que se **dividem** ativamente.\n- **Primários (apicais)**: nas pontas de raiz e caule; crescimento em **comprimento**.\n- **Secundários (laterais)**: **câmbio vascular** (forma xilema e floema secundários) e **felogênio** (forma a casca, súber). Crescimento em **espessura**, típico de eudicotiledôneas lenhosas e gimnospermas.\n\n### Revestimento\n- **Epiderme**: camada externa; coberta por **cutícula** (cera) que reduz a perda de água. Tem **estômatos** (trocas gasosas e transpiração) e **tricomas** (pelos).\n- **Periderme** (súber, cortiça): substitui a epiderme em caules e raízes que engrossam.\n\n### Preenchimento\n- **Parênquimas**: clorofiliano (fotossíntese, nas folhas), de reserva (amilífero na batata), aquífero (água, em cactos), aerífero (ar, em plantas aquáticas).\n\n### Sustentação\n- **Colênquima**: células **vivas**, paredes de celulose espessadas; em órgãos jovens, flexível.\n- **Esclerênquima**: células geralmente **mortas** com **lignina**; rígido (fibras e esclereídes, como a \"areia\" da pera).\n\n### Condução\n- **Xilema (lenho)**: conduz **seiva bruta** (água e sais) da **raiz para as folhas**; células mortas e lignificadas (traqueídes e elementos de vaso). A madeira é xilema secundário.\n- **Floema (líber)**: conduz **seiva elaborada** (açúcares) das folhas para o resto da planta; células **vivas** (elementos crivados e células companheiras).\n- **Anel de Malpighi**: retirar um anel da casca remove o **floema**; as raízes deixam de receber açúcar e a planta morre lentamente.",
+      "revisao": "**Lembre:**\n- Meristema apical: comprimento; câmbio: espessura.\n- Epiderme com cutícula e estômatos.\n- Colênquima vivo; esclerênquima morto com lignina.\n- Xilema: seiva bruta, para cima.\n- Floema: seiva elaborada, das folhas."
+    },
+    {
+      "id": "orgaos",
+      "nome": "Raiz, caule e folha",
+      "resumo": "### Raiz\nFixação e **absorção** de água e sais (pelos absorventes, na zona pilífera).\n- Zonas: coifa (protege a ponta), meristemática, de alongamento, **pilífera**, de ramificação.\n- **Pivotante** (eudicot) e **fasciculada** (mono).\n- Adaptações: **tuberosas** (reserva: cenoura, mandioca, beterraba), **respiratórias** (pneumatóforos do mangue), **escoras** (milho), **sugadoras** (haustórios de parasitas), **tabulares**.\n\n### Caule\nSustentação, condução e eixo das folhas; tem **nós**, **entrenós** e **gemas**.\n- Tipos: tronco (árvores), estipe (palmeiras), colmo (cana, bambu), haste (plantas herbáceas).\n- Subterrâneos: **tubérculo** (batata-inglesa — por isso tem \"olhos\", que são gemas), **rizoma** (gengibre, bananeira), **bulbo** (cebola, alho).\n- Outros: **cladódio** (cactos, caule fotossintetizante), gavinhas, estolão (morango).\n\n### Folha\nPrincipal órgão da **fotossíntese** e da transpiração.\n- Partes: **limbo** (lâmina), **pecíolo**, bainha e estípulas.\n- Mesofilo: parênquima **paliçádico** (muita fotossíntese, face superior) e **lacunoso** (espaços de ar).\n- **Estômatos**: duas **células-guarda**; abrem quando ganham água (túrgidas) e fecham na falta de água (hormônio **ácido abscísico**).\n- Modificações: **espinhos** (cactos, reduzem a perda de água), gavinhas (ervilha), brácteas coloridas (primavera, bico-de-papagaio), folhas carnívoras.",
+      "revisao": "**Lembre:**\n- Raiz absorve pela zona pilífera.\n- Batata-inglesa é caule (tubérculo); mandioca é raiz.\n- Cebola: bulbo; gengibre: rizoma.\n- Folha: paliçádico e lacunoso.\n- Estômato fecha na falta de água (ácido abscísico)."
+    },
+    {
+      "id": "fisiologia",
+      "nome": "Fisiologia: transporte, fotossíntese e hormônios",
+      "resumo": "### Transporte de água\n- **Absorção** pela raiz (osmose).\n- **Teoria da coesão-tensão (Dixon)**: a **transpiração** nas folhas \"puxa\" a coluna de água do xilema; as moléculas de água se mantêm unidas por **coesão**. É o principal mecanismo de subida da seiva bruta.\n- **Pressão de raiz**: empurra a água em menor escala (gutação: gotas na borda das folhas de manhã).\n\n### Transporte de seiva elaborada\n**Hipótese do fluxo em massa (Münch)**: açúcares carregados no floema na **fonte** (folhas) atraem água por osmose e a seiva flui para os **drenos** (raízes, frutos, órgãos em crescimento).\n\n### Fotossíntese\n**6 CO₂ + 6 H₂O + luz → C₆H₁₂O₆ + 6 O₂**, nos **cloroplastos**.\n- **Fase clara** (tilacoides): a luz quebra a água (**fotólise**), libera **O₂** e produz ATP e NADPH.\n- **Fase escura (ciclo de Calvin)** (estroma): fixa o CO₂ usando ATP e NADPH, formando açúcar. Enzima **rubisco**.\n- **Ponto de compensação luminoso**: intensidade de luz em que fotossíntese = respiração.\n- Plantas **C4** (milho, cana) e **CAM** (cactos, abacaxi: abrem estômatos à noite) economizam água em climas quentes.\n\n### Hormônios vegetais\n- **Auxina**: alongamento celular, **fototropismo**, dominância apical (podar a ponta estimula ramos laterais), enraizamento de estacas.\n- **Giberelina**: crescimento do caule, germinação, frutos sem semente.\n- **Citocinina**: divisão celular, retarda o envelhecimento.\n- **Etileno**: gás que **amadurece os frutos** (fruta madura perto acelera as outras) e provoca queda de folhas.\n- **Ácido abscísico**: dormência e **fechamento dos estômatos** no estresse hídrico.\n\n### Fotoperiodismo\nFloração controlada pelo comprimento da noite (plantas de dia curto e de dia longo), via **fitocromo**.",
+      "revisao": "**Lembre:**\n- Seiva bruta sobe por coesão-tensão (transpiração).\n- Fotossíntese: fase clara libera O₂; Calvin fixa CO₂.\n- Auxina: fototropismo e dominância apical.\n- Etileno: amadurecimento.\n- Ácido abscísico: fecha estômatos."
+    },
+    {
+      "id": "reproducao",
+      "nome": "Reprodução das angiospermas",
+      "resumo": "### A flor\n- **Cálice** (sépalas) e **corola** (pétalas): proteção e atração de polinizadores.\n- **Androceu** (parte **masculina**): **estames** = filete + **antera** (onde se forma o **pólen**).\n- **Gineceu** (parte **feminina**): **pistilo/carpelo** = **estigma** (recebe o pólen) + estilete + **ovário** (com os **óvulos**).\n- Flor **hermafrodita** (monoclina) tem os dois; flores separadas podem estar na mesma planta (monoica, como o milho) ou em plantas diferentes (dioica, como o mamoeiro).\n\n### Polinização\nTransporte do pólen até o estigma: pelo **vento** (anemofilia: flores discretas, muito pólen, como gramíneas), por **insetos** (entomofilia: flores coloridas, perfumadas, com néctar), aves (beija-flor), morcegos, água.\n- **Polinização cruzada** aumenta a variabilidade genética.\n\n### Dupla fecundação (exclusiva das angiospermas)\nO tubo polínico leva **dois núcleos espermáticos** ao óvulo:\n- um fecunda a **oosfera** → **zigoto (2n)** → embrião;\n- o outro se une aos **dois núcleos polares** → **endosperma (3n)**, tecido de reserva (ex.: a parte branca do coco, a farinha do trigo).\n\n### Fruto e semente\n- **Semente**: desenvolve-se do **óvulo** (tegumento + embrião + reserva).\n- **Fruto**: desenvolve-se do **ovário**; protege e ajuda a **dispersar** a semente.\n- **Pseudofrutos**: parte carnosa vem de outra estrutura (caju: pedúnculo; maçã e morango: receptáculo).\n- **Partenocarpia**: fruto sem fecundação, sem sementes (banana).\n- Dispersão: animais (zoocoria), vento (anemocoria), água.",
+      "revisao": "**Lembre:**\n- Androceu: estames e pólen; gineceu: estigma, estilete, ovário.\n- Dupla fecundação: zigoto 2n + endosperma 3n.\n- Óvulo → semente; ovário → fruto.\n- Caju, maçã e morango: pseudofrutos.\n- Banana: partenocarpia."
+    },
+    {
+      "id": "aplicada",
+      "nome": "Botânica aplicada e sistemática",
+      "resumo": "### Nomenclatura\n**Binomial** (Lineu): gênero + epíteto específico, em itálico; gênero com maiúscula. Ex.: *Zea mays* (milho), *Phaseolus vulgaris* (feijão).\n\n### Famílias de importância econômica\n- **Poaceae (gramíneas)**: arroz, trigo, milho, cana-de-açúcar, pastagens. Base da alimentação mundial.\n- **Fabaceae (leguminosas)**: feijão, soja, amendoim, ervilha; fixação de nitrogênio com rizóbios.\n- **Solanaceae**: tomate, batata, pimentão, berinjela, tabaco.\n- **Rutaceae**: laranja, limão.\n- **Rubiaceae**: café.\n- **Euphorbiaceae**: mandioca, seringueira, mamona.\n- **Myrtaceae**: eucalipto, goiaba, jabuticaba.\n- **Asteraceae**: girassol, alface; a maior família de eudicotiledôneas.\n\n### Propagação vegetativa (assexuada)\nGera **clones** (plantas geneticamente iguais à mãe).\n- **Estaquia**: pedaço de caule enraizado (cana, mandioca, roseira). Auxinas ajudam.\n- **Enxertia**: une uma parte (enxerto/cavaleiro) a outra planta com raiz (porta-enxerto/cavalo); comum em citros e frutíferas.\n- **Mergulhia** e **alporquia**: enraizar o ramo ainda ligado à planta-mãe.\n- **Cultura de tecidos** (micropropagação): muitas mudas sadias a partir de pequenos pedaços em laboratório.\n- Vantagem: mantém as características desejadas; desvantagem: **pouca variabilidade**, toda a lavoura vulnerável à mesma doença.\n\n### Germinação\nPrecisa de **água** (embebição), oxigênio e temperatura adequada; algumas sementes precisam de luz. **Dormência** pode ser quebrada por escarificação, frio ou lavagem de inibidores.",
+      "revisao": "**Lembre:**\n- Nome científico: Gênero espécie, em itálico.\n- Poaceae: cereais e cana; Fabaceae: leguminosas.\n- Solanaceae: tomate e batata.\n- Propagação vegetativa: clones.\n- Germinação: água, O₂ e temperatura."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "botanica-1",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "Qual grupo de plantas não possui vasos condutores?",
+      "opcoes": [
+        "Briófitas",
+        "Pteridófitas",
+        "Gimnospermas",
+        "Angiospermas"
+      ],
+      "correta": 0,
+      "explicacao": "Por não terem xilema e floema, os musgos são pequenos e vivem em lugares úmidos."
+    },
+    {
+      "id": "botanica-2",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "A principal novidade evolutiva das gimnospermas em relação às pteridófitas é:",
+      "opcoes": [
+        "O vaso condutor",
+        "A semente e o grão de pólen",
+        "A flor e o fruto",
+        "A clorofila"
+      ],
+      "correta": 1,
+      "explicacao": "O tubo polínico tornou a fecundação independente da água; flor e fruto surgem nas angiospermas."
+    },
+    {
+      "id": "botanica-3",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica é típica das monocotiledôneas?",
+      "opcoes": [
+        "Raiz pivotante",
+        "Folhas com nervuras reticuladas",
+        "Folhas com nervuras paralelas e raiz fasciculada",
+        "Feixes vasculares em anel"
+      ],
+      "correta": 2,
+      "explicacao": "Milho, arroz e cana são monocotiledôneas; feijão e roseira são eudicotiledôneas."
+    },
+    {
+      "id": "botanica-4",
+      "topico": "grupos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma planta tem vasos condutores, esporos em soros sob as folhas e nenhuma semente. A qual grupo pertence?",
+      "opcoes": [
+        "Briófitas",
+        "Gimnospermas",
+        "Angiospermas",
+        "Pteridófitas"
+      ],
+      "correta": 3,
+      "explicacao": "Samambaias e avencas formam soros; são vasculares, mas ainda sem sementes."
+    },
+    {
+      "id": "botanica-5",
+      "topico": "grupos",
+      "nivel": "analise",
+      "pergunta": "Por que o pinheiro-do-paraná (araucária) é gimnosperma, se o pinhão parece um fruto?",
+      "opcoes": [
+        "O pinhão é uma semente nua, sem ovário desenvolvido em fruto",
+        "Porque não tem vasos condutores",
+        "Porque se reproduz só por esporos",
+        "Porque tem flores com pétalas"
+      ],
+      "correta": 0,
+      "explicacao": "Gimnospermas não formam frutos; as sementes ficam expostas nas escamas da pinha."
+    },
+    {
+      "id": "botanica-6",
+      "topico": "histologia",
+      "nivel": "conceitual",
+      "pergunta": "O xilema conduz:",
+      "opcoes": [
+        "Seiva elaborada, das folhas para a raiz",
+        "Seiva bruta, da raiz para as folhas",
+        "Somente açúcares",
+        "Gases da respiração"
+      ],
+      "correta": 1,
+      "explicacao": "O floema é que conduz a seiva elaborada, rica em açúcares."
+    },
+    {
+      "id": "botanica-7",
+      "topico": "histologia",
+      "nivel": "conceitual",
+      "pergunta": "Qual meristema é responsável pelo crescimento em espessura do caule?",
+      "opcoes": [
+        "Meristema apical",
+        "Epiderme",
+        "Câmbio vascular",
+        "Colênquima"
+      ],
+      "correta": 2,
+      "explicacao": "O câmbio forma xilema e floema secundários; o felogênio forma a casca."
+    },
+    {
+      "id": "botanica-8",
+      "topico": "histologia",
+      "nivel": "conceitual",
+      "pergunta": "O esclerênquima se caracteriza por:",
+      "opcoes": [
+        "Células vivas que fazem fotossíntese",
+        "Células que armazenam ar",
+        "Células que se dividem sem parar",
+        "Células geralmente mortas com paredes lignificadas, dando rigidez"
+      ],
+      "correta": 3,
+      "explicacao": "O colênquima, ao contrário, tem células vivas e é flexível."
+    },
+    {
+      "id": "botanica-9",
+      "topico": "histologia",
+      "nivel": "aplicacao",
+      "pergunta": "Um agricultor retira um anel completo da casca de uma árvore (anel de Malpighi). O que acontece?",
+      "opcoes": [
+        "A planta morre aos poucos porque as raízes deixam de receber açúcar",
+        "A planta morre na hora por falta de água",
+        "Nada muda",
+        "A planta cresce mais rápido"
+      ],
+      "correta": 0,
+      "explicacao": "O floema, retirado com a casca, levava a seiva elaborada; o xilema continua levando água por um tempo."
+    },
+    {
+      "id": "botanica-10",
+      "topico": "histologia",
+      "nivel": "analise",
+      "pergunta": "Por que plantas de regiões secas costumam ter cutícula grossa e poucos estômatos?",
+      "opcoes": [
+        "Para aumentar a fotossíntese à noite",
+        "Para reduzir a perda de água por transpiração",
+        "Para absorver mais sais",
+        "Para facilitar a polinização"
+      ],
+      "correta": 1,
+      "explicacao": "A cutícula de cera impermeabiliza e os estômatos são a principal via de saída de vapor de água."
+    },
+    {
+      "id": "botanica-11",
+      "topico": "orgaos",
+      "nivel": "conceitual",
+      "pergunta": "A batata-inglesa é um:",
+      "opcoes": [
+        "Raiz tuberosa",
+        "Fruto",
+        "Caule (tubérculo)",
+        "Bulbo"
+      ],
+      "correta": 2,
+      "explicacao": "Os olhos da batata são gemas, que só existem em caules; a mandioca e a cenoura são raízes."
+    },
+    {
+      "id": "botanica-12",
+      "topico": "orgaos",
+      "nivel": "conceitual",
+      "pergunta": "Onde ocorre a maior parte da absorção de água na raiz?",
+      "opcoes": [
+        "Na coifa",
+        "Na zona meristemática",
+        "No caule",
+        "Na zona pilífera"
+      ],
+      "correta": 3,
+      "explicacao": "Os pelos absorventes aumentam muito a superfície de contato com o solo."
+    },
+    {
+      "id": "botanica-13",
+      "topico": "orgaos",
+      "nivel": "conceitual",
+      "pergunta": "Os espinhos dos cactos são:",
+      "opcoes": [
+        "Folhas modificadas",
+        "Raízes modificadas",
+        "Flores modificadas",
+        "Frutos secos"
+      ],
+      "correta": 0,
+      "explicacao": "Reduzem a perda de água e protegem; a fotossíntese é feita pelo caule verde (cladódio)."
+    },
+    {
+      "id": "botanica-14",
+      "topico": "orgaos",
+      "nivel": "aplicacao",
+      "pergunta": "Raízes que crescem para cima, saindo da lama no mangue, servem para:",
+      "opcoes": [
+        "Reserva de amido",
+        "Trocas gasosas, pois o solo é pobre em oxigênio",
+        "Sugar a seiva de outras plantas",
+        "Fixar a planta em rochas"
+      ],
+      "correta": 1,
+      "explicacao": "São os pneumatóforos, com aberturas que permitem a respiração das raízes."
+    },
+    {
+      "id": "botanica-15",
+      "topico": "orgaos",
+      "nivel": "analise",
+      "pergunta": "Uma planta murcha num dia quente e seco. Que mecanismo das folhas ajuda a evitar mais perda de água?",
+      "opcoes": [
+        "Abertura total dos estômatos",
+        "Aumento da transpiração",
+        "Fechamento dos estômatos, comandado pelo ácido abscísico",
+        "Produção de etileno para amadurecer"
+      ],
+      "correta": 2,
+      "explicacao": "Com pouca água, as células-guarda perdem turgor e o ácido abscísico sinaliza o fechamento."
+    },
+    {
+      "id": "botanica-16",
+      "topico": "fisiologia",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o principal mecanismo que faz a seiva bruta subir até o topo de árvores altas?",
+      "opcoes": [
+        "A pressão positiva da raiz apenas",
+        "A gravidade",
+        "O bombeamento pelo floema",
+        "A transpiração nas folhas e a coesão entre as moléculas de água"
+      ],
+      "correta": 3,
+      "explicacao": "É a teoria da coesão-tensão de Dixon: a transpiração puxa a coluna contínua de água."
+    },
+    {
+      "id": "botanica-17",
+      "topico": "fisiologia",
+      "nivel": "conceitual",
+      "pergunta": "O oxigênio liberado na fotossíntese vem:",
+      "opcoes": [
+        "Da quebra da água (fotólise)",
+        "Do CO₂",
+        "Da glicose",
+        "Do ar do solo"
+      ],
+      "correta": 0,
+      "explicacao": "Experimentos com isótopos mostraram que o O₂ vem da água, na fase clara."
+    },
+    {
+      "id": "botanica-18",
+      "topico": "fisiologia",
+      "nivel": "conceitual",
+      "pergunta": "Qual hormônio vegetal acelera o amadurecimento dos frutos?",
+      "opcoes": [
+        "Auxina",
+        "Etileno",
+        "Citocinina",
+        "Ácido abscísico"
+      ],
+      "correta": 1,
+      "explicacao": "É um gás; por isso uma fruta madura num saco fechado acelera o amadurecimento das outras."
+    },
+    {
+      "id": "botanica-19",
+      "topico": "fisiologia",
+      "nivel": "aplicacao",
+      "pergunta": "Ao podar a ponta do caule de uma planta, ela produz mais ramos laterais. Por quê?",
+      "opcoes": [
+        "Aumenta a produção de etileno",
+        "Diminui a fotossíntese",
+        "Remove-se a fonte de auxina que causava a dominância apical",
+        "Acelera a floração"
+      ],
+      "correta": 2,
+      "explicacao": "A auxina da gema apical inibe as gemas laterais; sem ela, essas gemas se desenvolvem."
+    },
+    {
+      "id": "botanica-20",
+      "topico": "fisiologia",
+      "nivel": "analise",
+      "pergunta": "Por que o abacaxi e os cactos abrem os estômatos principalmente à noite?",
+      "opcoes": [
+        "Porque não fazem fotossíntese",
+        "Porque a luz fecha a clorofila",
+        "Porque respiram só de dia",
+        "São plantas CAM: fixam CO₂ à noite e perdem menos água"
+      ],
+      "correta": 3,
+      "explicacao": "À noite a temperatura é menor e a transpiração cai; o CO₂ guardado é usado no ciclo de Calvin durante o dia."
+    },
+    {
+      "id": "botanica-21",
+      "topico": "reproducao",
+      "nivel": "conceitual",
+      "pergunta": "O fruto se desenvolve a partir:",
+      "opcoes": [
+        "Do ovário da flor",
+        "Do óvulo",
+        "Da antera",
+        "Das pétalas"
+      ],
+      "correta": 0,
+      "explicacao": "Após a fecundação, a parede do ovário cresce e forma o fruto; o óvulo é que forma a semente."
+    },
+    {
+      "id": "botanica-22",
+      "topico": "reproducao",
+      "nivel": "conceitual",
+      "pergunta": "Na dupla fecundação, o endosperma resulta da união de um núcleo espermático com:",
+      "opcoes": [
+        "A oosfera, formando tecido 2n",
+        "Os dois núcleos polares, formando tecido 3n",
+        "A antera",
+        "O estigma"
+      ],
+      "correta": 1,
+      "explicacao": "O outro núcleo espermático fecunda a oosfera e forma o zigoto, que origina o embrião."
+    },
+    {
+      "id": "botanica-23",
+      "topico": "reproducao",
+      "nivel": "conceitual",
+      "pergunta": "Flores polinizadas pelo vento costumam ser:",
+      "opcoes": [
+        "Muito coloridas e perfumadas",
+        "Ricas em néctar",
+        "Discretas, sem perfume e com muito pólen leve",
+        "Grandes e vermelhas"
+      ],
+      "correta": 2,
+      "explicacao": "Gramíneas como milho e trigo não precisam atrair animais; produzem pólen em grande quantidade."
+    },
+    {
+      "id": "botanica-24",
+      "topico": "reproducao",
+      "nivel": "aplicacao",
+      "pergunta": "No caju, a parte carnosa que comemos se origina do pedúnculo. Ele é considerado:",
+      "opcoes": [
+        "Fruto verdadeiro",
+        "Semente",
+        "Raiz modificada",
+        "Pseudofruto, e o fruto verdadeiro é a castanha"
+      ],
+      "correta": 3,
+      "explicacao": "O fruto verdadeiro vem do ovário; no caju, é a castanha. Maçã e morango também são pseudofrutos."
+    },
+    {
+      "id": "botanica-25",
+      "topico": "reproducao",
+      "nivel": "analise",
+      "pergunta": "Por que as bananas cultivadas não têm sementes desenvolvidas?",
+      "opcoes": [
+        "Formam-se por partenocarpia, sem fecundação",
+        "Porque são raízes",
+        "Porque o vento retira as sementes",
+        "Porque são gimnospermas"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso as bananeiras são propagadas vegetativamente, por mudas, e são clones entre si."
+    },
+    {
+      "id": "botanica-26",
+      "topico": "aplicada",
+      "nivel": "conceitual",
+      "pergunta": "Qual regra vale para escrever um nome científico, como o do feijão?",
+      "opcoes": [
+        "Tudo em letras maiúsculas",
+        "Gênero com inicial maiúscula, epíteto em minúscula, tudo em itálico",
+        "Gênero e epíteto com iniciais maiúsculas, sem itálico",
+        "Apenas o nome popular entre parênteses"
+      ],
+      "correta": 1,
+      "explicacao": "Gênero com inicial maiúscula, epíteto em minúscula e os dois em itálico (ou sublinhados à mão)."
+    },
+    {
+      "id": "botanica-27",
+      "topico": "aplicada",
+      "nivel": "conceitual",
+      "pergunta": "A família Fabaceae (leguminosas) é importante na agricultura porque:",
+      "opcoes": [
+        "Inclui o café e o cacau",
+        "Inclui todos os cereais",
+        "Inclui feijão e soja e se associa a bactérias fixadoras de nitrogênio",
+        "Não precisa de água"
+      ],
+      "correta": 2,
+      "explicacao": "Os nódulos com rizóbios reduzem a necessidade de adubo nitrogenado."
+    },
+    {
+      "id": "botanica-28",
+      "topico": "aplicada",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal desvantagem de uma lavoura formada só por clones?",
+      "opcoes": [
+        "Plantas sempre menos produtivas",
+        "Impossibilidade de colher frutos",
+        "Necessidade de polinização manual",
+        "Baixa variabilidade genética, o que deixa todas as plantas vulneráveis à mesma praga"
+      ],
+      "correta": 3,
+      "explicacao": "Se uma doença atinge uma planta, tende a atingir todas, como aconteceu em bananais com o mal-do-panamá."
+    },
+    {
+      "id": "botanica-29",
+      "topico": "aplicada",
+      "nivel": "aplicacao",
+      "pergunta": "Um produtor quer laranjas de uma variedade saborosa sobre uma raiz resistente a doenças. Qual técnica usar?",
+      "opcoes": [
+        "Enxertia",
+        "Estaquia",
+        "Semeadura direta",
+        "Alporquia"
+      ],
+      "correta": 0,
+      "explicacao": "O enxerto (cavaleiro) da variedade desejada é unido ao porta-enxerto (cavalo) resistente."
+    },
+    {
+      "id": "botanica-30",
+      "topico": "aplicada",
+      "nivel": "analise",
+      "pergunta": "Tomate, batata e pimentão pertencem à mesma família. Qual é a implicação prática disso?",
+      "opcoes": [
+        "Podem ser cruzados livremente entre si",
+        "Compartilham pragas e doenças, por isso não se deve fazer rotação entre eles",
+        "Têm o mesmo ciclo de vida",
+        "Não precisam de adubação"
+      ],
+      "correta": 1,
+      "explicacao": "São solanáceas; plantar uma após a outra no mesmo solo favorece doenças comuns, como a requeima."
+    }
+  ]
+}

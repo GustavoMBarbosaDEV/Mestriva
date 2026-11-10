@@ -337,6 +337,48 @@
       ]
     },
     {
+      "id": "botanica",
+      "nome": "Botânica",
+      "apelidos": [
+        "Botânica Geral",
+        "Botânica I",
+        "Botânica II",
+        "Morfologia Vegetal",
+        "Anatomia Vegetal",
+        "Biologia Vegetal",
+        "Sistemática Vegetal",
+        "Organografia Vegetal",
+        "Botânica Aplicada"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "grupos",
+          "nome": "Grupos de plantas e evolução"
+        },
+        {
+          "id": "histologia",
+          "nome": "Tecidos vegetais"
+        },
+        {
+          "id": "orgaos",
+          "nome": "Raiz, caule e folha"
+        },
+        {
+          "id": "fisiologia",
+          "nome": "Fisiologia: transporte, fotossíntese e hormônios"
+        },
+        {
+          "id": "reproducao",
+          "nome": "Reprodução das angiospermas"
+        },
+        {
+          "id": "aplicada",
+          "nome": "Botânica aplicada e sistemática"
+        }
+      ]
+    },
+    {
       "id": "calculo-1",
       "nome": "Cálculo I",
       "apelidos": [
@@ -452,6 +494,52 @@
         {
           "id": "vetorial",
           "nome": "Cálculo vetorial"
+        }
+      ]
+    },
+    {
+      "id": "ciencia-solo",
+      "nome": "Ciência do Solo",
+      "apelidos": [
+        "Ciência do Solo I",
+        "Solos",
+        "Pedologia",
+        "Gênese e Classificação de Solos",
+        "Gênese, Morfologia e Classificação de Solos",
+        "Fertilidade do Solo",
+        "Fertilidade do Solo e Nutrição de Plantas",
+        "Física do Solo",
+        "Química do Solo",
+        "Manejo e Conservação do Solo",
+        "Conservação do Solo",
+        "Solos Agrícolas",
+        "Edafologia"
+      ],
+      "area": "Agrárias",
+      "topicos": [
+        {
+          "id": "formacao",
+          "nome": "Formação do solo (pedogênese)"
+        },
+        {
+          "id": "perfil",
+          "nome": "Perfil do solo e classificação"
+        },
+        {
+          "id": "fisica",
+          "nome": "Física do solo"
+        },
+        {
+          "id": "quimica",
+          "nome": "Química e acidez do solo"
+        },
+        {
+          "id": "fertilidade",
+          "nome": "Nutrientes e adubação"
+        },
+        {
+          "id": "conservacao",
+          "nome": "Manejo e conservação do solo"
         }
       ]
     },
@@ -897,6 +985,48 @@
         {
           "id": "extincao-contrato",
           "nome": "Extinção do contrato, estabilidades e prescrição"
+        }
+      ]
+    },
+    {
+      "id": "ecologia",
+      "nome": "Ecologia",
+      "apelidos": [
+        "Ecologia Geral",
+        "Ecologia I",
+        "Ecologia Básica",
+        "Fundamentos de Ecologia",
+        "Ecologia e Meio Ambiente",
+        "Ecologia de Populações",
+        "Ecologia de Ecossistemas",
+        "Ecologia Aplicada",
+        "Ciências do Ambiente"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos e níveis de organização"
+        },
+        {
+          "id": "energia",
+          "nome": "Cadeias alimentares e fluxo de energia"
+        },
+        {
+          "id": "ciclos",
+          "nome": "Ciclos biogeoquímicos"
+        },
+        {
+          "id": "populacoes",
+          "nome": "Ecologia de populações"
+        },
+        {
+          "id": "relacoes",
+          "nome": "Relações ecológicas e sucessão"
+        },
+        {
+          "id": "biomas",
+          "nome": "Biomas brasileiros e problemas ambientais"
         }
       ]
     },
@@ -2462,6 +2592,47 @@
       ]
     },
     {
+      "id": "quimica-analitica",
+      "nome": "Química Analítica",
+      "apelidos": [
+        "Química Analítica I",
+        "Química Analítica II",
+        "Química Analítica Qualitativa",
+        "Química Analítica Quantitativa",
+        "Análise Química",
+        "Análise Instrumental",
+        "Química Analítica Instrumental",
+        "Métodos Instrumentais de Análise"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos, erros e tratamento de dados"
+        },
+        {
+          "id": "equilibrio",
+          "nome": "Equilíbrio químico e ácido-base"
+        },
+        {
+          "id": "volumetria",
+          "nome": "Volumetria (titulação)"
+        },
+        {
+          "id": "gravimetria",
+          "nome": "Gravimetria e solubilidade"
+        },
+        {
+          "id": "espectro",
+          "nome": "Métodos espectroscópicos"
+        },
+        {
+          "id": "separacao",
+          "nome": "Cromatografia e eletroanalítica"
+        }
+      ]
+    },
+    {
       "id": "quimica-geral",
       "nome": "Química Geral",
       "apelidos": [
@@ -2498,6 +2669,45 @@
         {
           "id": "equilibrio-e-ph",
           "nome": "Equilíbrio Químico e pH"
+        }
+      ]
+    },
+    {
+      "id": "quimica-organica",
+      "nome": "Química Orgânica",
+      "apelidos": [
+        "Química Orgânica I",
+        "Química Orgânica II",
+        "Química Orgânica Básica",
+        "Química Orgânica Teórica",
+        "Química dos Compostos de Carbono",
+        "Fundamentos de Química Orgânica"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "carbono",
+          "nome": "O carbono e as cadeias carbônicas"
+        },
+        {
+          "id": "hidrocarbonetos",
+          "nome": "Hidrocarbonetos e nomenclatura"
+        },
+        {
+          "id": "funcoes",
+          "nome": "Funções orgânicas"
+        },
+        {
+          "id": "propriedades",
+          "nome": "Propriedades físicas e acidez/basicidade"
+        },
+        {
+          "id": "isomeria",
+          "nome": "Isomeria"
+        },
+        {
+          "id": "reacoes",
+          "nome": "Reações orgânicas e polímeros"
         }
       ]
     },
@@ -2868,6 +3078,47 @@
         {
           "id": "refrigeracao",
           "nome": "Refrigeração e psicrometria"
+        }
+      ]
+    },
+    {
+      "id": "zoologia",
+      "nome": "Zoologia",
+      "apelidos": [
+        "Zoologia Geral",
+        "Zoologia I",
+        "Zoologia II",
+        "Zoologia dos Invertebrados",
+        "Zoologia dos Vertebrados",
+        "Biologia Animal",
+        "Diversidade Animal",
+        "Zoologia Agrícola"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "classificacao",
+          "nome": "Classificação e características dos animais"
+        },
+        {
+          "id": "invertebrados1",
+          "nome": "Poríferos, cnidários e vermes"
+        },
+        {
+          "id": "invertebrados2",
+          "nome": "Anelídeos, moluscos, artrópodes e equinodermos"
+        },
+        {
+          "id": "peixes-anfibios",
+          "nome": "Cordados, peixes e anfíbios"
+        },
+        {
+          "id": "repteis-aves-mamiferos",
+          "nome": "Répteis, aves e mamíferos"
+        },
+        {
+          "id": "fisiologia-comparada",
+          "nome": "Fisiologia comparada"
         }
       ]
     }

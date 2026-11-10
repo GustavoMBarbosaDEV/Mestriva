@@ -1,0 +1,465 @@
+{
+  "id": "zoologia",
+  "nome": "Zoologia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "classificacao",
+      "nome": "Classificação e características dos animais",
+      "resumo": "### O que é um animal\nEucarionte, **multicelular**, **heterótrofo** (alimenta-se de outros seres), sem parede celular; reserva de **glicogênio**; quase todos se desenvolvem a partir de uma **blástula**.\n\n### Critérios de classificação\n- **Simetria**: ausente (poríferos), **radial** (cnidários, equinodermos adultos) ou **bilateral** (a maioria; associada à cefalização, cabeça com órgãos dos sentidos).\n- **Folhetos embrionários**: **diblásticos** (ectoderme e endoderme: cnidários) ou **triblásticos** (com **mesoderme**: os demais).\n- **Celoma** (cavidade revestida de mesoderme): **acelomados** (platelmintos), **pseudocelomados** (nematoides), **celomados** (anelídeos, moluscos, artrópodes, equinodermos, cordados).\n- **Destino do blastóporo**: **protostômios** (blastóporo vira **boca**: moluscos, anelídeos, artrópodes) × **deuterostômios** (vira **ânus**: **equinodermos e cordados**).\n- **Segmentação (metameria)**: anelídeos, artrópodes, cordados.\n\n### Hierarquia taxonômica\nReino → Filo → Classe → Ordem → Família → Gênero → Espécie. Nome científico **binomial** (*Homo sapiens*).\n\n### Espécie\nGrupo de indivíduos que se cruzam e geram **descendentes férteis**. Cavalo e jumenta geram a **mula**, estéril: são espécies diferentes.\n\n### Filos principais\nPoríferos, cnidários, platelmintos, nematelmintos, anelídeos, moluscos, artrópodes, equinodermos e cordados.",
+      "revisao": "**Lembre:**\n- Animal: multicelular, heterótrofo, glicogênio.\n- Diblásticos: cnidários; os demais são triblásticos.\n- Acelomados: platelmintos; pseudocelomados: nematoides.\n- Deuterostômios: equinodermos e cordados.\n- Espécie: descendentes férteis."
+    },
+    {
+      "id": "invertebrados1",
+      "nome": "Poríferos, cnidários e vermes",
+      "resumo": "### Poríferos (esponjas)\n- Os animais mais simples: **sem tecidos verdadeiros**, sem órgãos, sem simetria.\n- Corpo cheio de **poros**; a água entra pelos poros e sai pelo **ósculo**.\n- **Coanócitos** (células com flagelo) movem a água e capturam alimento: digestão **intracelular**.\n- Sésseis (fixos), quase todos marinhos; filtradores.\n\n### Cnidários (águas-vivas, corais, anêmonas, hidras)\n- Simetria **radial**; **diblásticos**.\n- **Cnidócitos**: células urticantes com **nematocisto**, usadas na defesa e captura (queimadura de água-viva).\n- Cavidade gastrovascular com **uma só abertura** (boca e ânus juntos).\n- Duas formas: **pólipo** (fixo) e **medusa** (livre); alguns alternam as duas (metagênese).\n- **Corais** formam recifes com esqueleto calcário; vivem com algas simbiontes (o branqueamento ocorre quando as perdem pelo aquecimento).\n\n### Platelmintos (vermes achatados)\n- **Achatados**, triblásticos, **acelomados**, simetria bilateral.\n- Planárias (vida livre, grande poder de regeneração).\n- Parasitas: **esquistossomo** (esquistossomose, barriga-d'água; caramujo *Biomphalaria* como hospedeiro intermediário), **tênias** (teníase pela carne mal cozida com cisticercos; **cisticercose** pela ingestão dos **ovos**).\n\n### Nematelmintos (vermes cilíndricos)\n- **Cilíndricos**, **pseudocelomados**; **tubo digestório completo** (boca e ânus) — novidade evolutiva.\n- Parasitas: **lombriga** (*Ascaris*), **ancilóstomo** (amarelão: larva penetra pela pele; prevenção com calçado), oxiúro, filária (elefantíase, transmitida por mosquito).",
+      "revisao": "**Lembre:**\n- Esponjas: sem tecidos; coanócitos.\n- Cnidários: cnidócitos; uma abertura digestiva.\n- Platelmintos: achatados, acelomados.\n- Nematelmintos: cilíndricos, tubo digestório completo.\n- Amarelão: larva entra pela pele."
+    },
+    {
+      "id": "invertebrados2",
+      "nome": "Anelídeos, moluscos, artrópodes e equinodermos",
+      "resumo": "### Anelídeos (minhoca, sanguessuga, poliquetos)\n- Corpo dividido em **anéis (metâmeros)**; celomados.\n- Sistema circulatório **fechado**.\n- **Minhocas**: respiração **cutânea** (pele úmida), **hermafroditas** com fecundação cruzada; abrem galerias e **aeram e adubam o solo** (húmus).\n\n### Moluscos (caramujos, mexilhões, polvos, lulas)\n- Corpo **mole**, geralmente com **concha** calcária; **pé** muscular; **manto**.\n- **Gastrópodes** (caracóis, lesmas): rádula para raspar alimento.\n- **Bivalves** (ostras, mexilhões): concha de duas valvas, **filtradores**.\n- **Cefalópodes** (polvo, lula): pé transformado em tentáculos; sistema circulatório **fechado**, sistema nervoso desenvolvido; os mais inteligentes dos invertebrados.\n\n### Artrópodes (o maior filo)\n- **Exoesqueleto de quitina**; crescem por **mudas (ecdise)**.\n- **Patas articuladas**; corpo segmentado.\n- Circulação **aberta**.\n- **Insetos**: cabeça, tórax e abdome; **3 pares de patas**; 1 par de antenas; geralmente asas; respiração **traqueal**. Metamorfose completa (ovo → larva → **pupa** → adulto: borboleta, mosca) ou incompleta (ninfa: gafanhoto, barata).\n- **Aracnídeos** (aranhas, escorpiões, carrapatos): cefalotórax e abdome; **4 pares de patas**; **sem antenas**.\n- **Crustáceos** (camarão, caranguejo): 2 pares de antenas; respiração **branquial**.\n- **Miriápodes**: quilópodes (lacraia: 1 par de patas por segmento, venenosa) e diplópodes (piolho-de-cobra: 2 pares).\n\n### Equinodermos (estrela-do-mar, ouriço, pepino-do-mar)\n- Exclusivamente **marinhos**; **deuterostômios** (mais próximos dos cordados).\n- Simetria radial (pentarradial) no adulto; endoesqueleto calcário com espinhos.\n- **Sistema hidrovascular (ambulacrário)**: pés ambulacrários para locomoção.",
+      "revisao": "**Lembre:**\n- Minhoca: anéis, respiração cutânea, aera o solo.\n- Moluscos: corpo mole, concha, pé.\n- Inseto: 3 pares de patas; aracnídeo: 4 pares, sem antenas.\n- Artrópodes crescem por mudas.\n- Equinodermos: marinhos, sistema ambulacrário."
+    },
+    {
+      "id": "peixes-anfibios",
+      "nome": "Cordados, peixes e anfíbios",
+      "resumo": "### Características dos cordados (em alguma fase da vida)\n1. **Notocorda** (bastão de sustentação dorsal).\n2. **Tubo nervoso dorsal**.\n3. **Fendas faríngeas**.\n4. **Cauda pós-anal**.\n- Subfilos: urocordados (ascídias), cefalocordados (anfioxo) e **vertebrados** (notocorda substituída pela **coluna vertebral**; crânio).\n\n### Peixes\n- **Ágnatos** (sem mandíbula): lampreias e feiticeiras.\n- **Condrictes** (cartilaginosos): **tubarões e raias**; esqueleto de **cartilagem**; sem bexiga natatória (usam o fígado rico em óleo); fendas branquiais expostas; fecundação **interna**.\n- **Osteíctes** (ósseos): a maioria; esqueleto ósseo; **opérculo** cobrindo as brânquias; **bexiga natatória** controla a flutuação.\n- Respiração **branquial**; circulação **simples** (o sangue passa uma vez pelo coração, que tem **2 cavidades**); **linha lateral** detecta vibrações na água.\n- Pecilotérmicos (temperatura varia com o ambiente; \"sangue frio\").\n\n### Anfíbios (sapos, rãs, pererecas, salamandras, cobras-cegas)\n- Vida **dupla**: larva aquática (**girino**, com brânquias) e adulto geralmente terrestre (pulmões + **pele**).\n- Pele fina, úmida e **permeável**: respiração cutânea importante; por isso são **bioindicadores** de poluição.\n- Ovos **sem casca**, postos na água; fecundação geralmente **externa**.\n- **Metamorfose** controlada pelo hormônio da tireoide.\n- Coração com **3 cavidades** (2 átrios e 1 ventrículo); circulação dupla e incompleta (mistura de sangue).\n- Pecilotérmicos.",
+      "revisao": "**Lembre:**\n- Cordados: notocorda, tubo nervoso dorsal, fendas faríngeas, cauda.\n- Tubarões: cartilaginosos, sem bexiga natatória.\n- Peixes: coração com 2 cavidades, circulação simples.\n- Anfíbios: girino aquático, pele permeável.\n- Anfíbio: coração com 3 cavidades."
+    },
+    {
+      "id": "repteis-aves-mamiferos",
+      "nome": "Répteis, aves e mamíferos",
+      "resumo": "### Répteis (lagartos, serpentes, tartarugas, jacarés)\n- Primeiros vertebrados **totalmente terrestres** na reprodução.\n- **Ovo amniótico** com **casca** e anexos embrionários (âmnio, alantoide, córion, saco vitelínico): o embrião se desenvolve fora da água.\n- Pele seca com **escamas** de queratina (reduz a perda de água).\n- Fecundação **interna**; respiração **pulmonar**.\n- Coração com 3 cavidades e septo parcial (crocodilianos têm 4).\n- Excretam **ácido úrico** (economiza água).\n- Pecilotérmicos (ectotérmicos): regulam a temperatura pelo comportamento (tomar sol).\n- Serpentes peçonhentas brasileiras (jararaca, cascavel, surucucu) têm **fosseta loreal**; coral-verdadeira é exceção.\n\n### Aves\n- **Homeotérmicas** (endotérmicas): temperatura constante.\n- **Penas**; bico sem dentes; ossos **pneumáticos** (ocos, leves); **sacos aéreos** ligados aos pulmões (respiração eficiente para o voo).\n- Músculos do voo presos à **quilha** do esterno.\n- Coração com **4 cavidades**: circulação dupla e **completa** (sem mistura).\n- Ovo com casca calcária; fecundação interna.\n- Moela tritura o alimento; excretam ácido úrico.\n\n### Mamíferos\n- **Glândulas mamárias** e **pelos**; homeotérmicos.\n- **Diafragma** (músculo que separa tórax e abdome); dentes diferenciados; coração com 4 cavidades.\n- **Monotremados**: põem ovos (ornitorrinco, équidna).\n- **Marsupiais**: filhote nasce prematuro e completa o desenvolvimento no **marsúpio** (gambá, canguru).\n- **Placentários**: desenvolvimento no útero com **placenta** (a maioria, inclusive humanos).\n- Excretam **ureia**.",
+      "revisao": "**Lembre:**\n- Répteis: ovo amniótico com casca, escamas.\n- Aves e mamíferos: homeotérmicos, coração com 4 cavidades.\n- Aves: penas, ossos pneumáticos, sacos aéreos.\n- Mamíferos: mamas, pelos, diafragma.\n- Monotremados põem ovos; marsupiais têm bolsa."
+    },
+    {
+      "id": "fisiologia-comparada",
+      "nome": "Fisiologia comparada",
+      "resumo": "### Digestão\n- **Intracelular** (esponjas) → **mista** (cnidários, platelmintos) → **extracelular** com tubo completo (a partir dos nematoides).\n- **Ruminantes** (boi, cabra): estômago com 4 compartimentos (**rúmen**, retículo, omaso, abomaso); microrganismos digerem a **celulose**.\n\n### Respiração\n- **Cutânea** (minhoca, anfíbios), **traqueal** (insetos: o ar vai direto às células), **branquial** (peixes, crustáceos, girinos), **pulmonar** (répteis, aves, mamíferos).\n- Brânquias usam o sistema **contracorrente** (sangue e água em sentidos opostos) para extrair mais oxigênio.\n\n### Circulação\n- **Aberta** (artrópodes e a maioria dos moluscos): o sangue (hemolinfa) sai dos vasos para lacunas.\n- **Fechada** (anelídeos, cefalópodes, vertebrados).\n- Evolução do coração dos vertebrados: **2 cavidades** (peixes) → **3** (anfíbios, a maioria dos répteis) → **4** (crocodilianos, aves e mamíferos).\n\n### Excreção (resíduos nitrogenados)\n- **Amônia**: muito tóxica, exige muita água; animais **aquáticos** (peixes ósseos, larvas de anfíbios).\n- **Ureia**: menos tóxica; mamíferos, anfíbios adultos, peixes cartilaginosos.\n- **Ácido úrico**: pouco tóxico, quase sem água; **aves, répteis e insetos** (adaptação a ovos com casca e ambiente seco).\n- Órgãos: protonefrídios com células-flama (platelmintos), nefrídios (anelídeos), **túbulos de Malpighi** (insetos), rins (vertebrados).\n\n### Regulação da temperatura\n- **Ectotérmicos** (pecilotérmicos): dependem do ambiente; gastam menos energia.\n- **Endotérmicos** (homeotérmicos): aves e mamíferos; ativos em climas frios, mas gastam muito mais alimento.",
+      "revisao": "**Lembre:**\n- Ruminantes: rúmen e microrganismos para celulose.\n- Insetos: respiração traqueal; peixes: brânquias em contracorrente.\n- Coração: 2 (peixes), 3 (anfíbios), 4 (aves e mamíferos).\n- Amônia (aquáticos), ureia (mamíferos), ácido úrico (aves, répteis, insetos).\n- Endotérmicos gastam mais energia."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "zoologia-1",
+      "topico": "classificacao",
+      "nivel": "conceitual",
+      "pergunta": "Animais deuterostômios, nos quais o blastóporo origina o ânus, são:",
+      "opcoes": [
+        "Equinodermos e cordados",
+        "Moluscos e anelídeos",
+        "Artrópodes e moluscos",
+        "Cnidários e poríferos"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso a estrela-do-mar é, evolutivamente, mais próxima dos vertebrados que dos insetos."
+    },
+    {
+      "id": "zoologia-2",
+      "topico": "classificacao",
+      "nivel": "conceitual",
+      "pergunta": "Os cnidários são diblásticos, o que significa que:",
+      "opcoes": [
+        "Têm três folhetos embrionários",
+        "Têm apenas ectoderme e endoderme, sem mesoderme",
+        "Têm celoma verdadeiro",
+        "Não têm nenhum tecido"
+      ],
+      "correta": 1,
+      "explicacao": "A partir dos platelmintos, os animais são triblásticos."
+    },
+    {
+      "id": "zoologia-3",
+      "topico": "classificacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual critério define duas populações como espécies diferentes?",
+      "opcoes": [
+        "Têm cores diferentes",
+        "Vivem em lugares diferentes",
+        "Não produzem descendentes férteis entre si",
+        "Têm tamanhos diferentes"
+      ],
+      "correta": 2,
+      "explicacao": "Cavalo e jumenta geram a mula, que é estéril; por isso são espécies distintas."
+    },
+    {
+      "id": "zoologia-4",
+      "topico": "classificacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um verme achatado, sem cavidade corporal entre o tubo digestório e a parede do corpo, é classificado como:",
+      "opcoes": [
+        "Pseudocelomado (nematoide)",
+        "Celomado (anelídeo)",
+        "Diblástico (cnidário)",
+        "Acelomado (platelminto)"
+      ],
+      "correta": 3,
+      "explicacao": "Planárias e tênias são platelmintos: triblásticos, mas sem celoma."
+    },
+    {
+      "id": "zoologia-5",
+      "topico": "classificacao",
+      "nivel": "analise",
+      "pergunta": "Qual vantagem a simetria bilateral trouxe aos animais?",
+      "opcoes": [
+        "Permitiu a cefalização e o deslocamento orientado para a frente",
+        "Permitiu a vida fixa no fundo do mar",
+        "Eliminou a necessidade de sistema nervoso",
+        "Permitiu a fotossíntese"
+      ],
+      "correta": 0,
+      "explicacao": "Com uma extremidade anterior, os órgãos dos sentidos se concentram na cabeça, que encontra primeiro o ambiente."
+    },
+    {
+      "id": "zoologia-6",
+      "topico": "invertebrados1",
+      "nivel": "conceitual",
+      "pergunta": "As células urticantes dos cnidários, usadas na defesa e na captura de presas, são os:",
+      "opcoes": [
+        "Coanócitos",
+        "Cnidócitos",
+        "Nefrídios",
+        "Túbulos de Malpighi"
+      ],
+      "correta": 1,
+      "explicacao": "Contêm o nematocisto, que dispara um filamento com toxina; daí a queimadura das águas-vivas."
+    },
+    {
+      "id": "zoologia-7",
+      "topico": "invertebrados1",
+      "nivel": "conceitual",
+      "pergunta": "Qual novidade evolutiva aparece nos nematelmintos?",
+      "opcoes": [
+        "Coluna vertebral",
+        "Células urticantes",
+        "Tubo digestório completo, com boca e ânus",
+        "Simetria radial"
+      ],
+      "correta": 2,
+      "explicacao": "Em cnidários e platelmintos, a cavidade digestiva tem só uma abertura."
+    },
+    {
+      "id": "zoologia-8",
+      "topico": "invertebrados1",
+      "nivel": "conceitual",
+      "pergunta": "Como a água circula no corpo de uma esponja?",
+      "opcoes": [
+        "Entra pela boca e sai pelo ânus",
+        "Não há circulação de água",
+        "Entra pelas brânquias",
+        "Entra pelos poros e sai pelo ósculo, movida pelos coanócitos"
+      ],
+      "correta": 3,
+      "explicacao": "Os flagelos dos coanócitos criam a corrente e capturam partículas de alimento."
+    },
+    {
+      "id": "zoologia-9",
+      "topico": "invertebrados1",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa andou descalça em solo contaminado e desenvolveu anemia (amarelão). Qual parasita é provável?",
+      "opcoes": [
+        "Ancilóstomo",
+        "Tênia",
+        "Esquistossomo",
+        "Lombriga"
+      ],
+      "correta": 0,
+      "explicacao": "As larvas do ancilóstomo penetram pela pele; no intestino, sugam sangue. Usar calçado previne."
+    },
+    {
+      "id": "zoologia-10",
+      "topico": "invertebrados1",
+      "nivel": "analise",
+      "pergunta": "Por que comer carne de porco mal cozida pode causar teníase, mas a cisticercose humana vem de outra forma?",
+      "opcoes": [
+        "As duas vêm só da carne",
+        "Teníase vem dos cisticercos na carne; cisticercose, da ingestão dos ovos da tênia",
+        "As duas vêm da água do mar",
+        "Cisticercose vem da picada de mosquito"
+      ],
+      "correta": 1,
+      "explicacao": "Ovos em água ou verduras contaminadas com fezes formam cisticercos nos tecidos humanos, inclusive no cérebro."
+    },
+    {
+      "id": "zoologia-11",
+      "topico": "invertebrados2",
+      "nivel": "conceitual",
+      "pergunta": "Quantos pares de patas tem um inseto adulto?",
+      "opcoes": [
+        "4",
+        "5",
+        "3",
+        "Muitos"
+      ],
+      "correta": 2,
+      "explicacao": "Aracnídeos têm 4 pares; crustáceos costumam ter 5 ou mais; miriápodes, dezenas."
+    },
+    {
+      "id": "zoologia-12",
+      "topico": "invertebrados2",
+      "nivel": "conceitual",
+      "pergunta": "Como os artrópodes crescem, se têm exoesqueleto rígido?",
+      "opcoes": [
+        "O exoesqueleto cresce junto com o corpo",
+        "Não crescem após nascer",
+        "Dissolvendo o exoesqueleto em água",
+        "Por mudas (ecdise), trocando o exoesqueleto"
+      ],
+      "correta": 3,
+      "explicacao": "Logo após a muda, com a nova cutícula ainda mole, o animal aumenta de tamanho e fica vulnerável."
+    },
+    {
+      "id": "zoologia-13",
+      "topico": "invertebrados2",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a importância das minhocas para a agricultura?",
+      "opcoes": [
+        "Abrem galerias que arejam o solo e produzem húmus",
+        "Fixam nitrogênio do ar",
+        "Fazem fotossíntese no solo",
+        "Eliminam todos os fungos"
+      ],
+      "correta": 0,
+      "explicacao": "As galerias melhoram a infiltração de água e o húmus enriquece o solo em nutrientes."
+    },
+    {
+      "id": "zoologia-14",
+      "topico": "invertebrados2",
+      "nivel": "aplicacao",
+      "pergunta": "Um animal tem 4 pares de patas, corpo dividido em cefalotórax e abdome e nenhuma antena. É um:",
+      "opcoes": [
+        "Inseto",
+        "Aracnídeo",
+        "Crustáceo",
+        "Miriápode"
+      ],
+      "correta": 1,
+      "explicacao": "Aranhas, escorpiões e carrapatos são aracnídeos; insetos têm 3 pares de patas e um par de antenas."
+    },
+    {
+      "id": "zoologia-15",
+      "topico": "invertebrados2",
+      "nivel": "analise",
+      "pergunta": "Por que polvos e lulas são considerados os invertebrados mais complexos?",
+      "opcoes": [
+        "Têm coluna vertebral",
+        "Fazem fotossíntese",
+        "Têm sistema nervoso desenvolvido, olhos complexos e circulação fechada",
+        "São diblásticos"
+      ],
+      "correta": 2,
+      "explicacao": "Os cefalópodes aprendem, resolvem problemas e são predadores ativos, ao contrário da maioria dos moluscos."
+    },
+    {
+      "id": "zoologia-16",
+      "topico": "peixes-anfibios",
+      "nivel": "conceitual",
+      "pergunta": "Qual estrutura está presente em todos os cordados, ao menos no embrião?",
+      "opcoes": [
+        "Coluna vertebral",
+        "Pulmões",
+        "Penas",
+        "Notocorda"
+      ],
+      "correta": 3,
+      "explicacao": "Nos vertebrados, a notocorda é substituída pela coluna vertebral durante o desenvolvimento."
+    },
+    {
+      "id": "zoologia-17",
+      "topico": "peixes-anfibios",
+      "nivel": "conceitual",
+      "pergunta": "Tubarões e raias diferem dos peixes ósseos por:",
+      "opcoes": [
+        "Terem esqueleto cartilaginoso e não terem bexiga natatória",
+        "Terem pulmões",
+        "Respirarem pela pele",
+        "Terem penas"
+      ],
+      "correta": 0,
+      "explicacao": "Sem bexiga natatória, muitos tubarões precisam nadar para não afundar; o fígado oleoso ajuda na flutuação."
+    },
+    {
+      "id": "zoologia-18",
+      "topico": "peixes-anfibios",
+      "nivel": "conceitual",
+      "pergunta": "Por que os anfíbios são bons bioindicadores de poluição?",
+      "opcoes": [
+        "Vivem só em desertos",
+        "Têm pele fina e permeável, que absorve substâncias do ambiente",
+        "Têm escamas impermeáveis",
+        "Não dependem da água em nenhuma fase"
+      ],
+      "correta": 1,
+      "explicacao": "A pele participa da respiração e absorve poluentes facilmente; o desaparecimento de sapos e rãs é sinal de alerta."
+    },
+    {
+      "id": "zoologia-19",
+      "topico": "peixes-anfibios",
+      "nivel": "aplicacao",
+      "pergunta": "Quantas cavidades tem o coração de um peixe e como é sua circulação?",
+      "opcoes": [
+        "3 cavidades; circulação dupla incompleta",
+        "4 cavidades; circulação dupla completa",
+        "2 cavidades; circulação simples",
+        "1 cavidade; circulação aberta"
+      ],
+      "correta": 2,
+      "explicacao": "O sangue passa pelo coração, vai às brânquias e segue direto para o corpo, passando uma só vez pelo coração."
+    },
+    {
+      "id": "zoologia-20",
+      "topico": "peixes-anfibios",
+      "nivel": "analise",
+      "pergunta": "Por que os anfíbios ainda dependem de ambientes úmidos para se reproduzir?",
+      "opcoes": [
+        "Porque têm ovo amniótico",
+        "Porque fazem fecundação interna sempre",
+        "Porque respiram só por pulmões",
+        "Seus ovos não têm casca e o girino é aquático"
+      ],
+      "correta": 3,
+      "explicacao": "O ovo sem casca resseca fora da água; o ovo amniótico dos répteis resolveu esse problema."
+    },
+    {
+      "id": "zoologia-21",
+      "topico": "repteis-aves-mamiferos",
+      "nivel": "conceitual",
+      "pergunta": "Qual novidade permitiu aos répteis se reproduzirem longe da água?",
+      "opcoes": [
+        "O ovo amniótico com casca",
+        "As brânquias",
+        "A metamorfose",
+        "A pele permeável"
+      ],
+      "correta": 0,
+      "explicacao": "Âmnio, alantoide, córion e saco vitelínico protegem, nutrem e permitem trocas do embrião em ambiente seco."
+    },
+    {
+      "id": "zoologia-22",
+      "topico": "repteis-aves-mamiferos",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica é exclusiva dos mamíferos?",
+      "opcoes": [
+        "Coração com 4 cavidades",
+        "Glândulas mamárias",
+        "Homeotermia",
+        "Fecundação interna"
+      ],
+      "correta": 1,
+      "explicacao": "Aves também têm coração com 4 cavidades e são homeotérmicas; répteis também têm fecundação interna."
+    },
+    {
+      "id": "zoologia-23",
+      "topico": "repteis-aves-mamiferos",
+      "nivel": "conceitual",
+      "pergunta": "Ossos pneumáticos e sacos aéreos nas aves estão ligados a:",
+      "opcoes": [
+        "Excreção de ureia",
+        "Produção de leite",
+        "Adaptações ao voo: leveza e respiração eficiente",
+        "Respiração cutânea"
+      ],
+      "correta": 2,
+      "explicacao": "Os sacos aéreos mantêm um fluxo de ar contínuo pelos pulmões, suprindo a alta demanda de oxigênio do voo."
+    },
+    {
+      "id": "zoologia-24",
+      "topico": "repteis-aves-mamiferos",
+      "nivel": "aplicacao",
+      "pergunta": "O ornitorrinco tem pelos e amamenta, mas põe ovos. Como é classificado?",
+      "opcoes": [
+        "Ave",
+        "Réptil",
+        "Mamífero marsupial",
+        "Mamífero monotremado"
+      ],
+      "correta": 3,
+      "explicacao": "Monotremados são mamíferos que botam ovos; marsupiais, como o gambá, têm bolsa."
+    },
+    {
+      "id": "zoologia-25",
+      "topico": "repteis-aves-mamiferos",
+      "nivel": "analise",
+      "pergunta": "Por que um lagarto passa parte da manhã parado ao sol?",
+      "opcoes": [
+        "É ectotérmico e precisa aquecer o corpo para ficar ativo",
+        "Para fazer fotossíntese",
+        "Para produzir leite",
+        "Porque é homeotérmico"
+      ],
+      "correta": 0,
+      "explicacao": "Répteis regulam a temperatura pelo comportamento, o que exige menos alimento que a endotermia."
+    },
+    {
+      "id": "zoologia-26",
+      "topico": "fisiologia-comparada",
+      "nivel": "conceitual",
+      "pergunta": "Qual resíduo nitrogenado é excretado por aves, répteis e insetos?",
+      "opcoes": [
+        "Amônia",
+        "Ácido úrico",
+        "Ureia",
+        "Gás carbônico"
+      ],
+      "correta": 1,
+      "explicacao": "É pouco tóxico e eliminado quase sem água, o que favorece a vida em ambientes secos e o desenvolvimento dentro de ovos com casca."
+    },
+    {
+      "id": "zoologia-27",
+      "topico": "fisiologia-comparada",
+      "nivel": "conceitual",
+      "pergunta": "Nos insetos, o oxigênio chega às células por meio de:",
+      "opcoes": [
+        "Brânquias",
+        "Pulmões",
+        "Traqueias que levam o ar diretamente aos tecidos",
+        "Hemoglobina do sangue apenas"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso a hemolinfa dos insetos tem pouco papel no transporte de oxigênio."
+    },
+    {
+      "id": "zoologia-28",
+      "topico": "fisiologia-comparada",
+      "nivel": "conceitual",
+      "pergunta": "Como os ruminantes conseguem aproveitar a celulose do capim?",
+      "opcoes": [
+        "Produzem a enzima celulase no fígado",
+        "Não aproveitam a celulose",
+        "Mastigam até a celulose virar glicose",
+        "Microrganismos do rúmen digerem a celulose"
+      ],
+      "correta": 3,
+      "explicacao": "Bactérias e protozoários do rúmen quebram a celulose; o boi aproveita os produtos e os próprios microrganismos."
+    },
+    {
+      "id": "zoologia-29",
+      "topico": "fisiologia-comparada",
+      "nivel": "aplicacao",
+      "pergunta": "Um animal tem coração com 4 cavidades, circulação dupla completa e penas. Que tipo de sangue chega ao seu corpo?",
+      "opcoes": [
+        "Só arterial, sem mistura com venoso",
+        "Mistura de arterial e venoso",
+        "Só venoso",
+        "Hemolinfa sem oxigênio"
+      ],
+      "correta": 0,
+      "explicacao": "É uma ave: a separação total dos ventrículos mantém o sangue oxigenado separado, sustentando a endotermia."
+    },
+    {
+      "id": "zoologia-30",
+      "topico": "fisiologia-comparada",
+      "nivel": "analise",
+      "pergunta": "Por que peixes ósseos de água doce podem excretar amônia, que é muito tóxica?",
+      "opcoes": [
+        "Porque a amônia não é tóxica para eles",
+        "Ela é diluída e eliminada rapidamente na grande quantidade de água ao redor",
+        "Porque não produzem resíduos nitrogenados",
+        "Porque convertem tudo em ácido úrico"
+      ],
+      "correta": 1,
+      "explicacao": "Animais aquáticos dispõem de água à vontade; em terra, compensa gastar energia para formar ureia ou ácido úrico."
+    }
+  ]
+}

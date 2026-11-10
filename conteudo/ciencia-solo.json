@@ -1,0 +1,465 @@
+{
+  "id": "ciencia-solo",
+  "nome": "Ciência do Solo",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "formacao",
+      "nome": "Formação do solo (pedogênese)",
+      "resumo": "### O que é solo\nCorpo natural formado por **minerais, matéria orgânica, água e ar**, resultado da alteração das rochas. Num solo típico: cerca de **45% minerais**, **5% matéria orgânica**, **25% água** e **25% ar** (em volume).\n\n### Intemperismo\nAlteração das rochas na superfície.\n- **Físico**: fragmentação sem mudar a composição (variação de temperatura, congelamento, raízes). Predomina em climas **secos ou frios**.\n- **Químico**: transforma os minerais (**hidrólise**, oxidação, dissolução). Predomina em climas **quentes e úmidos**, como no Brasil, formando solos **profundos e muito intemperizados**.\n- **Biológico**: ação de organismos (líquens, raízes, microrganismos).\n\n### Fatores de formação (Jenny)\n**Solo = f(clima, organismos, relevo, material de origem, tempo)**.\n- **Clima** (chuva e temperatura) é geralmente o mais importante.\n- **Material de origem**: basalto gera solos argilosos e férteis (a \"terra roxa\"); arenito gera solos arenosos.\n- **Relevo**: em encostas íngremes, solos rasos (erosão); em baixadas, solos mal drenados.\n\n### Processos pedogenéticos\n- **Laterização (latolização)**: perda intensa de bases e sílica, acúmulo de óxidos de **ferro e alumínio** (solos tropicais).\n- **Podzolização**: migração de argila ou matéria orgânica para camadas inferiores.\n- **Gleização**: ambiente **encharcado** (redução do ferro), cores acinzentadas.\n- **Salinização**: acúmulo de sais em regiões secas.",
+      "revisao": "**Lembre:**\n- Solo: minerais, matéria orgânica, água e ar.\n- Intemperismo químico domina em clima quente e úmido.\n- Fatores: clima, organismos, relevo, material de origem, tempo.\n- Laterização: acúmulo de óxidos de Fe e Al.\n- Gleização: solo encharcado, cinza."
+    },
+    {
+      "id": "perfil",
+      "nome": "Perfil do solo e classificação",
+      "resumo": "### Horizontes\nCamadas aproximadamente paralelas à superfície, formadas pela pedogênese:\n- **O**: orgânico (serapilheira), em florestas.\n- **A**: superficial, **mais escuro**, rico em **matéria orgânica** e atividade biológica.\n- **E**: de **perda** (eluviação) de argila ou ferro; mais claro.\n- **B**: de **acúmulo** (iluviação) de argila e óxidos; horizonte diagnóstico mais importante.\n- **C**: rocha alterada (saprolito), pouco afetada pela pedogênese.\n- **R**: rocha inalterada.\n\n### Sistema Brasileiro de Classificação de Solos (SiBCS — Embrapa)\n13 ordens. As mais importantes:\n- **Latossolos**: os mais comuns no Brasil (cerca de 1/3); **muito profundos**, muito intemperizados, bem drenados, ácidos e de **baixa fertilidade natural**, mas com ótimas propriedades físicas. Base da agricultura do **Cerrado** após correção.\n- **Argissolos**: acúmulo de argila no horizonte B (B textural); mais suscetíveis à **erosão**.\n- **Neossolos**: pouco desenvolvidos (rasos, arenosos ou de sedimentos de rios).\n- **Gleissolos**: mal drenados, em várzeas.\n- **Nitossolos**: argilosos, estruturados, muitas vezes de basalto (antiga \"terra roxa estruturada\").\n- **Cambissolos**: horizonte B incipiente, pouco desenvolvido.\n- **Vertissolos**: argilas expansivas que **racham** na seca.\n- **Organossolos**: muito ricos em matéria orgânica (turfas).\n\n### Descrição morfológica no campo\nCor (carta de **Munsell**), textura, estrutura, consistência, porosidade, raízes e transição entre horizontes.",
+      "revisao": "**Lembre:**\n- A: escuro, matéria orgânica; B: acúmulo; C: rocha alterada.\n- Latossolos: os mais comuns, profundos, pouco férteis.\n- Argissolos: B textural, sujeitos à erosão.\n- Gleissolos: mal drenados.\n- Cor pela carta de Munsell."
+    },
+    {
+      "id": "fisica",
+      "nome": "Física do solo",
+      "resumo": "### Textura\nProporção de **areia** (2 a 0,05 mm), **silte** (0,05 a 0,002 mm) e **argila** (< 0,002 mm). Determinada em laboratório (análise granulométrica) e classificada no **triângulo textural**.\n- **Arenosos**: muitos **macroporos**, drenagem rápida, pouca retenção de água e nutrientes, mais sujeitos à erosão; fáceis de trabalhar.\n- **Argilosos**: muitos **microporos**, retêm mais água e nutrientes; podem compactar e ficar pegajosos quando molhados.\n- A textura **não muda** com o manejo.\n\n### Estrutura\nArranjo das partículas em **agregados** (granular, em blocos, prismática, laminar). Pode ser **melhorada ou degradada** pelo manejo. A matéria orgânica e as raízes estabilizam os agregados.\n\n### Densidade e porosidade\n- **Densidade do solo** (aparente): massa seca / volume total (com poros). Aumenta com a **compactação**.\n- **Densidade de partículas**: ≈ 2,65 g/cm³ (minerais).\n- **Porosidade total** = 1 − (Ds/Dp).\n- **Compactação** (tráfego de máquinas, pisoteio): reduz macroporos, infiltração e crescimento de raízes. Correção: subsolagem, plantas de raiz profunda, plantio direto bem manejado.\n\n### Água no solo\n- **Capacidade de campo**: umidade após a drenagem do excesso (o solo \"segura\").\n- **Ponto de murcha permanente**: umidade abaixo da qual a planta não consegue retirar água.\n- **Água disponível** = capacidade de campo − ponto de murcha. Maior em solos de textura média a argilosa.\n- **Infiltração**: entrada de água; baixa infiltração aumenta a **enxurrada** e a erosão.",
+      "revisao": "**Lembre:**\n- Argila < 0,002 mm; areia > 0,05 mm.\n- Arenoso: drena rápido, retém pouco.\n- Textura não muda; estrutura muda com o manejo.\n- Compactação aumenta a densidade do solo.\n- Água disponível = CC − PMP."
+    },
+    {
+      "id": "quimica",
+      "nome": "Química e acidez do solo",
+      "resumo": "### Coloides e CTC\n- As **argilas** e a **matéria orgânica** têm cargas **negativas** na superfície e retêm **cátions** trocáveis (Ca²⁺, Mg²⁺, K⁺, H⁺, Al³⁺).\n- **CTC (capacidade de troca de cátions)**: quantidade de cátions que o solo consegue reter; maior em solos argilosos e ricos em **matéria orgânica**.\n- Em solos tropicais intemperizados (argilas **caulinita** e óxidos), a CTC é baixa e a **matéria orgânica** responde por grande parte dela.\n- **Soma de bases (SB)** = Ca + Mg + K (+ Na).\n- **Saturação por bases (V%)** = SB/CTC × 100. Solos **eutróficos** (V ≥ 50%) são mais férteis; **distróficos** (V < 50%).\n- **Saturação por alumínio (m%)**: alta = solo **álico**, tóxico às raízes.\n\n### Acidez\n- A maioria dos solos brasileiros é **ácida** (chuva lixivia as bases; sobram H⁺ e Al³⁺).\n- Em pH baixo (< 5,5), o **alumínio** se torna solúvel e **tóxico**, prejudicando as raízes; reduz-se a disponibilidade de **fósforo**, cálcio e magnésio.\n- pH ideal para a maioria das culturas: **5,5 a 6,5** (em água).\n\n### Calagem\nAplicação de **calcário** (CaCO₃ e MgCO₃) para:\n- **elevar o pH**;\n- **neutralizar o Al³⁺** tóxico;\n- **fornecer Ca e Mg**.\n- Método da saturação por bases: **NC = CTC·(V₂ − V₁)/PRNT** (t/ha), com V₂ desejado pela cultura.\n- **PRNT**: poder relativo de neutralização total do calcário (qualidade e finura).\n- Aplicar com antecedência (2 a 3 meses) e incorporar, pois o calcário reage devagar e é pouco solúvel.\n- **Gessagem** (gesso agrícola, CaSO₄): leva Ca às camadas **profundas** e reduz o Al em subsuperfície; **não corrige o pH**.",
+      "revisao": "**Lembre:**\n- CTC: cátions retidos por argila e matéria orgânica.\n- V% = SB/CTC × 100; eutrófico ≥ 50%.\n- pH baixo: alumínio tóxico, menos fósforo.\n- Calagem: eleva pH, neutraliza Al, fornece Ca e Mg.\n- Gesso: Ca em profundidade, não corrige pH."
+    },
+    {
+      "id": "fertilidade",
+      "nome": "Nutrientes e adubação",
+      "resumo": "### Nutrientes essenciais\n- **Macronutrientes primários**: **N, P, K** (NPK).\n- **Macronutrientes secundários**: **Ca, Mg, S**.\n- **Micronutrientes**: B, Cl, Cu, Fe, Mn, Mo, Ni, Zn (necessários em pequenas quantidades, mas igualmente essenciais).\n- **Lei do mínimo (Liebig)**: a produção é limitada pelo nutriente mais escasso.\n\n### Funções e sintomas de deficiência\n- **Nitrogênio**: proteínas e clorofila; deficiência causa **amarelecimento das folhas velhas** (é **móvel** na planta). Muito sujeito a perdas (lixiviação de nitrato, volatilização da ureia).\n- **Fósforo**: energia (ATP), raízes, floração; pouco móvel no solo e fortemente **fixado** por óxidos de Fe e Al em solos ácidos; deficiência: folhas arroxeadas.\n- **Potássio**: regulação dos estômatos, qualidade de frutos; deficiência: queima das bordas das folhas velhas.\n- **Cálcio e boro**: pouco móveis na planta; deficiência aparece em **folhas novas** e pontos de crescimento.\n\n### Adubação\n- **Análise de solo** (amostra representativa: 15 a 20 subamostras por talhão homogêneo, de 0 a 20 cm) + **recomendação** por cultura e produtividade esperada.\n- **Fórmulas NPK**: os números indicam % de **N, P₂O₅ e K₂O** (ex.: 04-14-08).\n- **Parcelamento** do N e do K reduz perdas.\n- **Adubos orgânicos** (esterco, composto): fornecem nutrientes e **matéria orgânica**, melhoram estrutura e CTC.\n- **Adubação verde** com leguminosas: fixação biológica de N.\n- **Inoculação** da soja com *Bradyrhizobium*: dispensa adubo nitrogenado.\n\n### Exemplo\nUm saco de 50 kg de 20-05-20 contém 10 kg de N, 2,5 kg de P₂O₅ e 10 kg de K₂O.",
+      "revisao": "**Lembre:**\n- NPK primários; Ca, Mg, S secundários.\n- N móvel: amarelece folhas velhas.\n- P fixado em solos ácidos.\n- Fórmula NPK: % de N, P₂O₅ e K₂O.\n- Análise de solo antes de adubar."
+    },
+    {
+      "id": "conservacao",
+      "nome": "Manejo e conservação do solo",
+      "resumo": "### Erosão\nDesgaste e transporte do solo, principalmente pela **água** (erosão hídrica) e pelo vento.\n- **Laminar**: remove camadas finas e uniformes; pouco visível, mas leva a camada mais fértil.\n- **Em sulcos**: pequenos canais.\n- **Voçorocas**: grandes crateras; difíceis de recuperar.\n- Fatores (**Equação Universal de Perda de Solo, EUPS**): erosividade da chuva, erodibilidade do solo, **comprimento e declividade** da rampa, **cobertura e manejo**, práticas conservacionistas.\n- O impacto da **gota de chuva** em solo descoberto desagrega os agregados e sela a superfície.\n\n### Práticas conservacionistas\n- **Vegetativas**: manter o solo **coberto** (palhada, plantas de cobertura), **plantio direto**, cordões de vegetação, reflorestamento, **rotação de culturas**.\n- **Edáficas**: correção e adubação adequadas, controle de queimadas.\n- **Mecânicas**: **plantio em nível** (curvas de nível), **terraceamento**, bacias de captação.\n\n### Sistema de Plantio Direto (SPD)\nSemear sobre a **palhada** da cultura anterior, **sem arar nem gradear**, com rotação de culturas.\n- Reduz muito a erosão, aumenta a matéria orgânica e a infiltração, economiza combustível.\n- Grande parte da área de grãos do Brasil usa SPD.\n\n### Integração lavoura-pecuária-floresta (ILPF)\nCombina culturas, pastagem e árvores na mesma área; recupera **pastagens degradadas** e aumenta o carbono no solo.\n\n### Qualidade do solo\nIndicadores: matéria orgânica, estrutura, infiltração, atividade biológica (minhocas, microrganismos, fungos micorrízicos), fertilidade.",
+      "revisao": "**Lembre:**\n- Erosão laminar leva a camada fértil sem ser notada.\n- Solo coberto é a melhor proteção.\n- Plantio em nível e terraços contêm a enxurrada.\n- Plantio direto: sobre a palhada, sem arar.\n- ILPF recupera pastagens degradadas."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "ciencia-solo-1",
+      "topico": "formacao",
+      "nivel": "conceitual",
+      "pergunta": "Em climas quentes e úmidos, como grande parte do Brasil, predomina o intemperismo:",
+      "opcoes": [
+        "Químico",
+        "Físico",
+        "Glacial",
+        "Eólico"
+      ],
+      "correta": 0,
+      "explicacao": "Calor e água aceleram reações como a hidrólise, formando solos profundos e muito alterados."
+    },
+    {
+      "id": "ciencia-solo-2",
+      "topico": "formacao",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os fatores de formação do solo?",
+      "opcoes": [
+        "Apenas a rocha de origem",
+        "Clima, organismos, relevo, material de origem e tempo",
+        "Apenas o clima",
+        "Adubação e irrigação"
+      ],
+      "correta": 1,
+      "explicacao": "É a equação de Jenny; o clima costuma ter o papel mais forte."
+    },
+    {
+      "id": "ciencia-solo-3",
+      "topico": "formacao",
+      "nivel": "conceitual",
+      "pergunta": "O processo de gleização ocorre em solos:",
+      "opcoes": [
+        "Muito secos e salinos",
+        "De encostas íngremes",
+        "Encharcados, com redução do ferro e cores acinzentadas",
+        "Ricos em calcário"
+      ],
+      "correta": 2,
+      "explicacao": "A falta de oxigênio reduz o ferro, que fica solúvel e sai, deixando cores cinza ou azuladas."
+    },
+    {
+      "id": "ciencia-solo-4",
+      "topico": "formacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um solo argiloso, vermelho-escuro e fértil foi formado a partir de basalto. Isso mostra a influência de qual fator?",
+      "opcoes": [
+        "Tempo apenas",
+        "Relevo apenas",
+        "Ação do vento",
+        "Material de origem"
+      ],
+      "correta": 3,
+      "explicacao": "O basalto é rico em ferro e minerais que geram argila; originou a conhecida terra roxa do Paraná e de São Paulo."
+    },
+    {
+      "id": "ciencia-solo-5",
+      "topico": "formacao",
+      "nivel": "analise",
+      "pergunta": "Por que solos em encostas muito íngremes costumam ser rasos?",
+      "opcoes": [
+        "A erosão remove o material quase tão rápido quanto ele se forma",
+        "Porque o clima é diferente na encosta",
+        "Porque não há rocha embaixo",
+        "Porque recebem muita matéria orgânica"
+      ],
+      "correta": 0,
+      "explicacao": "O relevo controla o escoamento da água; em baixadas, ao contrário, o material se acumula."
+    },
+    {
+      "id": "ciencia-solo-6",
+      "topico": "perfil",
+      "nivel": "conceitual",
+      "pergunta": "O horizonte A do solo se caracteriza por:",
+      "opcoes": [
+        "Ser rocha inalterada",
+        "Cor mais escura e maior teor de matéria orgânica",
+        "Ser camada de acúmulo de argila",
+        "Não ter atividade biológica"
+      ],
+      "correta": 1,
+      "explicacao": "O horizonte B é o de acúmulo, C é rocha alterada e R é a rocha inalterada."
+    },
+    {
+      "id": "ciencia-solo-7",
+      "topico": "perfil",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ordem de solos mais comum no Brasil?",
+      "opcoes": [
+        "Vertissolos",
+        "Organossolos",
+        "Latossolos",
+        "Gleissolos"
+      ],
+      "correta": 2,
+      "explicacao": "Ocupam cerca de um terço do território, sobretudo no Cerrado e na Amazônia."
+    },
+    {
+      "id": "ciencia-solo-8",
+      "topico": "perfil",
+      "nivel": "conceitual",
+      "pergunta": "Os Argissolos se caracterizam por:",
+      "opcoes": [
+        "Serem sempre encharcados",
+        "Serem muito ricos em matéria orgânica",
+        "Serem rasos sobre rocha",
+        "Acúmulo de argila no horizonte B, o que aumenta o risco de erosão"
+      ],
+      "correta": 3,
+      "explicacao": "A diferença de textura entre A e B reduz a infiltração no B e favorece a enxurrada."
+    },
+    {
+      "id": "ciencia-solo-9",
+      "topico": "perfil",
+      "nivel": "aplicacao",
+      "pergunta": "Um solo profundo, bem drenado, ácido e pouco fértil, no Cerrado, é provavelmente um:",
+      "opcoes": [
+        "Latossolo",
+        "Gleissolo",
+        "Neossolo litólico",
+        "Organossolo"
+      ],
+      "correta": 0,
+      "explicacao": "Latossolos têm ótimas propriedades físicas; com calagem e adubação tornaram o Cerrado um grande polo agrícola."
+    },
+    {
+      "id": "ciencia-solo-10",
+      "topico": "perfil",
+      "nivel": "analise",
+      "pergunta": "Por que a carta de Munsell é usada na descrição de solos?",
+      "opcoes": [
+        "Para medir o pH",
+        "Para padronizar a descrição da cor, que indica matéria orgânica, drenagem e óxidos",
+        "Para determinar a textura",
+        "Para calcular a adubação"
+      ],
+      "correta": 1,
+      "explicacao": "Cores vermelhas indicam óxidos de ferro e boa drenagem; cinzentas, encharcamento; escuras, matéria orgânica."
+    },
+    {
+      "id": "ciencia-solo-11",
+      "topico": "fisica",
+      "nivel": "conceitual",
+      "pergunta": "Qual fração do solo tem as menores partículas?",
+      "opcoes": [
+        "Silte",
+        "Areia fina",
+        "Argila",
+        "Areia grossa"
+      ],
+      "correta": 2,
+      "explicacao": "Argila tem partículas menores que 0,002 mm; por isso retém mais água e nutrientes."
+    },
+    {
+      "id": "ciencia-solo-12",
+      "topico": "fisica",
+      "nivel": "conceitual",
+      "pergunta": "Qual propriedade física do solo não muda com o manejo?",
+      "opcoes": [
+        "Estrutura",
+        "Densidade do solo",
+        "Porosidade",
+        "Textura"
+      ],
+      "correta": 3,
+      "explicacao": "A proporção de areia, silte e argila é praticamente fixa; estrutura e porosidade melhoram ou pioram com o manejo."
+    },
+    {
+      "id": "ciencia-solo-13",
+      "topico": "fisica",
+      "nivel": "conceitual",
+      "pergunta": "A compactação do solo provoca:",
+      "opcoes": [
+        "Aumento da densidade e redução de macroporos e infiltração",
+        "Aumento da porosidade",
+        "Aumento da infiltração",
+        "Redução da densidade"
+      ],
+      "correta": 0,
+      "explicacao": "Raízes crescem menos e a água escorre na superfície, aumentando a erosão."
+    },
+    {
+      "id": "ciencia-solo-14",
+      "topico": "fisica",
+      "nivel": "aplicacao",
+      "pergunta": "Um solo tem densidade de 1,325 g/cm³ e densidade de partículas de 2,65 g/cm³. Qual é a porosidade total?",
+      "opcoes": [
+        "25%",
+        "50%",
+        "75%",
+        "2%"
+      ],
+      "correta": 1,
+      "explicacao": "Porosidade = 1 − Ds/Dp = 1 − 1,325/2,65 = 1 − 0,5 = 0,5, ou seja, 50% do volume é poro."
+    },
+    {
+      "id": "ciencia-solo-15",
+      "topico": "fisica",
+      "nivel": "analise",
+      "pergunta": "Por que culturas em solos arenosos sofrem mais em veranicos (períodos curtos sem chuva)?",
+      "opcoes": [
+        "Porque têm muita matéria orgânica",
+        "Porque são compactados demais",
+        "Retêm pouca água disponível por terem poucos microporos",
+        "Porque têm alta CTC"
+      ],
+      "correta": 2,
+      "explicacao": "A água drena rápido pelos macroporos e a capacidade de campo é baixa; aumentar a matéria orgânica ajuda."
+    },
+    {
+      "id": "ciencia-solo-16",
+      "topico": "quimica",
+      "nivel": "conceitual",
+      "pergunta": "O que é a CTC do solo?",
+      "opcoes": [
+        "A quantidade de argila",
+        "O teor de água",
+        "A taxa de crescimento das culturas",
+        "A capacidade de reter cátions trocáveis nas cargas negativas de argilas e matéria orgânica"
+      ],
+      "correta": 3,
+      "explicacao": "Ca²⁺, Mg²⁺ e K⁺ retidos não são lavados facilmente pela chuva e ficam disponíveis às plantas."
+    },
+    {
+      "id": "ciencia-solo-17",
+      "topico": "quimica",
+      "nivel": "conceitual",
+      "pergunta": "Em solos muito ácidos, o principal problema para as raízes é:",
+      "opcoes": [
+        "A toxidez do alumínio solúvel",
+        "O excesso de cálcio",
+        "A falta de hidrogênio",
+        "O excesso de fósforo disponível"
+      ],
+      "correta": 0,
+      "explicacao": "Em pH abaixo de cerca de 5,5, o Al³⁺ fica solúvel e impede o crescimento das raízes."
+    },
+    {
+      "id": "ciencia-solo-18",
+      "topico": "quimica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a função do gesso agrícola em comparação com o calcário?",
+      "opcoes": [
+        "Corrigir o pH da superfície",
+        "Levar cálcio às camadas profundas e reduzir o alumínio lá, sem corrigir o pH",
+        "Fornecer nitrogênio",
+        "Aumentar a acidez"
+      ],
+      "correta": 1,
+      "explicacao": "O gesso é mais solúvel e desce no perfil; o calcário corrige o pH principalmente onde é incorporado."
+    },
+    {
+      "id": "ciencia-solo-19",
+      "topico": "quimica",
+      "nivel": "aplicacao",
+      "pergunta": "Um solo tem CTC = 8 cmolc/dm³, V₁ = 30% e a cultura exige V₂ = 70%. Com calcário de PRNT 100%, qual é a necessidade de calagem?",
+      "opcoes": [
+        "5,6 t/ha",
+        "2,4 t/ha",
+        "3,2 t/ha",
+        "0,4 t/ha"
+      ],
+      "correta": 2,
+      "explicacao": "NC = CTC·(V₂ − V₁)/PRNT = 8 · (70 − 30)/100 = 3,2 t/ha."
+    },
+    {
+      "id": "ciencia-solo-20",
+      "topico": "quimica",
+      "nivel": "analise",
+      "pergunta": "Em solos tropicais muito intemperizados, por que a matéria orgânica é tão importante para a fertilidade?",
+      "opcoes": [
+        "Porque fornece alumínio",
+        "Porque aumenta a acidez",
+        "Porque reduz a infiltração",
+        "Ela responde por grande parte da CTC, já que as argilas desses solos têm poucas cargas"
+      ],
+      "correta": 3,
+      "explicacao": "Caulinita e óxidos têm baixa CTC; perder a matéria orgânica (por queimadas ou aração excessiva) reduz muito a retenção de nutrientes."
+    },
+    {
+      "id": "ciencia-solo-21",
+      "topico": "fertilidade",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os macronutrientes primários?",
+      "opcoes": [
+        "Nitrogênio, fósforo e potássio",
+        "Cálcio, magnésio e enxofre",
+        "Ferro, zinco e boro",
+        "Carbono, hidrogênio e oxigênio"
+      ],
+      "correta": 0,
+      "explicacao": "São os nutrientes mais exigidos e aplicados nas fórmulas NPK."
+    },
+    {
+      "id": "ciencia-solo-22",
+      "topico": "fertilidade",
+      "nivel": "conceitual",
+      "pergunta": "O amarelecimento que começa nas folhas mais velhas é sintoma típico de falta de:",
+      "opcoes": [
+        "Cálcio",
+        "Nitrogênio",
+        "Boro",
+        "Ferro"
+      ],
+      "correta": 1,
+      "explicacao": "O nitrogênio é móvel na planta e é deslocado das folhas velhas para as novas; Ca e B, pouco móveis, mostram sintomas nas folhas novas."
+    },
+    {
+      "id": "ciencia-solo-23",
+      "topico": "fertilidade",
+      "nivel": "conceitual",
+      "pergunta": "Num adubo com fórmula 10-10-10, os números indicam as porcentagens de:",
+      "opcoes": [
+        "N, P e K elementares",
+        "Ca, Mg e S",
+        "N, P₂O₅ e K₂O",
+        "Matéria orgânica, água e areia"
+      ],
+      "correta": 2,
+      "explicacao": "É a convenção brasileira de garantia dos fertilizantes."
+    },
+    {
+      "id": "ciencia-solo-24",
+      "topico": "fertilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto de N há em 200 kg de adubo 20-00-20?",
+      "opcoes": [
+        "20 kg",
+        "10 kg",
+        "200 kg",
+        "40 kg"
+      ],
+      "correta": 3,
+      "explicacao": "20% de 200 kg = 40 kg de N; o mesmo para K₂O, e nenhum fósforo."
+    },
+    {
+      "id": "ciencia-solo-25",
+      "topico": "fertilidade",
+      "nivel": "analise",
+      "pergunta": "Por que a soja bem inoculada com Bradyrhizobium dispensa adubo nitrogenado?",
+      "opcoes": [
+        "As bactérias fixam o nitrogênio do ar nos nódulos das raízes",
+        "Porque a soja não precisa de nitrogênio",
+        "Porque o calcário fornece nitrogênio",
+        "Porque o fósforo substitui o nitrogênio"
+      ],
+      "correta": 0,
+      "explicacao": "A fixação biológica supre praticamente todo o N da soja, gerando grande economia ao produtor brasileiro."
+    },
+    {
+      "id": "ciencia-solo-26",
+      "topico": "conservacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a forma de erosão menos visível, mas que remove a camada mais fértil?",
+      "opcoes": [
+        "Voçoroca",
+        "Laminar",
+        "Em sulcos profundos",
+        "Eólica em dunas"
+      ],
+      "correta": 1,
+      "explicacao": "Ela tira camadas finas e uniformes; quando se percebe, boa parte do horizonte A já foi perdida."
+    },
+    {
+      "id": "ciencia-solo-27",
+      "topico": "conservacao",
+      "nivel": "conceitual",
+      "pergunta": "O sistema de plantio direto consiste em:",
+      "opcoes": [
+        "Arar o solo várias vezes antes do plantio",
+        "Queimar a palha antes de semear",
+        "Semear sobre a palhada da cultura anterior, sem arar nem gradear",
+        "Plantar sem nenhuma rotação de culturas"
+      ],
+      "correta": 2,
+      "explicacao": "Mantém o solo coberto, aumenta a matéria orgânica e reduz muito a erosão."
+    },
+    {
+      "id": "ciencia-solo-28",
+      "topico": "conservacao",
+      "nivel": "conceitual",
+      "pergunta": "Por que se planta em curvas de nível em terrenos inclinados?",
+      "opcoes": [
+        "Para facilitar a colheita morro abaixo",
+        "Para aumentar a declividade",
+        "Para drenar mais rápido a água",
+        "As linhas de plantio funcionam como barreiras que reduzem a velocidade da enxurrada"
+      ],
+      "correta": 3,
+      "explicacao": "Plantar morro abaixo cria canais para a água; em nível, a água infiltra mais."
+    },
+    {
+      "id": "ciencia-solo-29",
+      "topico": "conservacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pastagem degradada, com solo exposto e compactado, precisa ser recuperada. Qual estratégia é recomendada?",
+      "opcoes": [
+        "Integração lavoura-pecuária-floresta, com correção do solo e cobertura permanente",
+        "Queimar a área todo ano",
+        "Aumentar o número de animais",
+        "Deixar o solo descoberto para secar"
+      ],
+      "correta": 0,
+      "explicacao": "A ILPF alterna culturas, pasto e árvores, aumenta a matéria orgânica e melhora a estrutura do solo."
+    },
+    {
+      "id": "ciencia-solo-30",
+      "topico": "conservacao",
+      "nivel": "analise",
+      "pergunta": "Por que o impacto das gotas de chuva em solo descoberto aumenta a erosão?",
+      "opcoes": [
+        "Porque a água da chuva é ácida demais",
+        "Desagrega a superfície e forma uma crosta que reduz a infiltração",
+        "Porque aumenta a matéria orgânica",
+        "Porque compacta só as camadas profundas"
+      ],
+      "correta": 1,
+      "explicacao": "Com menos infiltração, mais água escorre carregando partículas; a palhada amortece as gotas."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "quimica-organica",
+  "nome": "Química Orgânica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "carbono",
+      "nome": "O carbono e as cadeias carbônicas",
+      "resumo": "### Por que o carbono\nQuímica orgânica estuda os **compostos de carbono** (com exceções como CO₂, CO, carbonatos e cianetos, tratados como inorgânicos).\n- O carbono é **tetravalente**: faz **4 ligações**.\n- Liga-se a outros carbonos formando **cadeias** longas e estáveis.\n- Hidrogênio faz 1 ligação; oxigênio, 2; nitrogênio, 3; halogênios, 1.\n\n### Hibridização\n- **sp³**: 4 ligações simples, geometria **tetraédrica** (109,5°). Ex.: metano.\n- **sp²**: uma ligação dupla, geometria **trigonal plana** (120°). Ex.: eteno.\n- **sp**: uma tripla ou duas duplas, geometria **linear** (180°). Ex.: etino.\n- Ligação dupla = 1 σ + 1 π; tripla = 1 σ + 2 π.\n\n### Classificação do carbono\n**Primário** (ligado a 1 carbono), **secundário** (2), **terciário** (3), **quaternário** (4).\n\n### Classificação das cadeias\n- **Aberta** (acíclica) × **fechada** (cíclica).\n- **Normal** (reta) × **ramificada**.\n- **Saturada** (só simples) × **insaturada** (dupla ou tripla entre carbonos).\n- **Homogênea** × **heterogênea** (heteroátomo, como O ou N, **entre** carbonos).\n- **Aromática**: tem anel benzênico (6 carbonos com elétrons π deslocalizados, ressonância).\n\n### Fórmulas\nMolecular (C₂H₆O), estrutural, condensada (CH₃CH₂OH) e de **bastão** (linhas; cada vértice é um carbono e os hidrogênios ficam implícitos).",
+      "revisao": "**Lembre:**\n- Carbono faz 4 ligações.\n- sp³ tetraédrico; sp² trigonal; sp linear.\n- Dupla: 1σ + 1π.\n- Heterogênea: heteroátomo entre carbonos.\n- Aromático: anel benzênico."
+    },
+    {
+      "id": "hidrocarbonetos",
+      "nome": "Hidrocarbonetos e nomenclatura",
+      "resumo": "### Hidrocarbonetos\nCompostos só de **C e H**. Principal fonte: **petróleo** e gás natural.\n- **Alcanos**: só ligações simples; **CₙH₂ₙ₊₂** (metano, etano, propano, butano). Pouco reativos.\n- **Alcenos**: uma dupla; **CₙH₂ₙ** (eteno/etileno).\n- **Alcinos**: uma tripla; **CₙH₂ₙ₋₂** (etino/acetileno, usado em maçaricos).\n- **Alcadienos**: duas duplas.\n- **Cicloalcanos**: cadeia fechada saturada, CₙH₂ₙ.\n- **Aromáticos**: benzeno (C₆H₆), tolueno, naftaleno.\n\n### Nomenclatura IUPAC\n**Prefixo (nº de carbonos) + infixo (tipo de ligação) + sufixo (função)**.\n- Prefixos: **met** (1), **et** (2), **prop** (3), **but** (4), **pent** (5), **hex** (6), hept (7), oct (8), non (9), dec (10).\n- Infixos: **an** (só simples), **en** (dupla), **in** (tripla).\n- Sufixo do hidrocarboneto: **o**. Ex.: prop + en + o = **propeno**.\n\n### Cadeias ramificadas\n1. Escolha a **cadeia principal**: a mais longa que contenha as insaturações e o grupo funcional.\n2. Numere pela extremidade mais próxima do grupo funcional, depois das insaturações, depois das ramificações (**menores números**).\n3. Nomeie os radicais (metil, etil, isopropil...) em **ordem alfabética**, com posições.\n- Ex.: CH₃–CH(CH₃)–CH₂–CH₃ = **2-metilbutano**.\n\n### Propriedades\nHidrocarbonetos são **apolares**, insolúveis em água e menos densos que ela (óleo flutua). O ponto de ebulição **aumenta com o tamanho** da cadeia e **diminui com as ramificações**.",
+      "revisao": "**Lembre:**\n- Alcano CₙH₂ₙ₊₂; alceno CₙH₂ₙ; alcino CₙH₂ₙ₋₂.\n- met, et, prop, but, pent, hex.\n- an/en/in + o.\n- Cadeia principal: a maior com a função e as insaturações.\n- Apolares; PE cresce com a cadeia."
+    },
+    {
+      "id": "funcoes",
+      "nome": "Funções orgânicas",
+      "resumo": "### Oxigenadas\n- **Álcool**: –OH ligado a carbono saturado. Sufixo **-ol** (etanol). Fenol: –OH direto no anel aromático.\n- **Aldeído**: –CHO na ponta da cadeia. Sufixo **-al** (metanal = formol).\n- **Cetona**: C=O **entre** carbonos. Sufixo **-ona** (propanona = acetona).\n- **Ácido carboxílico**: –COOH. \"Ácido ...-**oico**\" (ácido etanoico = acético, do vinagre).\n- **Éster**: –COO– entre carbonos; \"...-**oato** de ...-**ila**\" (aromas de frutas, gorduras).\n- **Éter**: –O– entre carbonos (etoxietano, o éter comum).\n\n### Nitrogenadas\n- **Amina**: derivada da amônia (NH₃); caráter **básico** (metilamina; cheiro de peixe).\n- **Amida**: –CONH₂ (ureia; ligação peptídica das proteínas).\n- **Nitrila**: –C≡N.\n- **Nitrocomposto**: –NO₂ (TNT).\n\n### Outras\n- **Haletos orgânicos**: halogênio ligado ao carbono (clorofórmio, CFCs).\n\n### Como reconhecer\nProcure o **grupo funcional**: é ele que define a família e as propriedades químicas. Moléculas com várias funções (**mistas**) são comuns em fármacos e biomoléculas (aminoácidos têm amina + ácido carboxílico).\n\n### Exemplos do dia a dia\nEtanol (combustível e bebida), acetona (removedor), ácido acético (vinagre), formol (conservante), acetato de etila (removedor de esmalte), aspirina (éster + ácido).",
+      "revisao": "**Lembre:**\n- Álcool -ol; aldeído -al; cetona -ona.\n- Ácido -oico; éster -oato de -ila.\n- Aldeído na ponta; cetona no meio.\n- Amina: básica; amida: ligação peptídica.\n- O grupo funcional define a família."
+    },
+    {
+      "id": "propriedades",
+      "nome": "Propriedades físicas e acidez/basicidade",
+      "resumo": "### Polaridade e forças intermoleculares\n- **Dipolo induzido (London)**: entre moléculas apolares (hidrocarbonetos); fracas.\n- **Dipolo-dipolo**: moléculas polares (aldeídos, cetonas, éteres).\n- **Ligação de hidrogênio**: H ligado a **F, O ou N** (álcoois, ácidos, aminas, água); as mais fortes.\n\n### Ponto de ebulição\n- Quanto **mais fortes** as forças intermoleculares, **maior** o PE.\n- Para massas parecidas: **ácido carboxílico > álcool > aldeído/cetona > éter > hidrocarboneto**.\n- Cadeia maior → PE maior; mais ramificações → PE menor (menos superfície de contato).\n\n### Solubilidade\n**Semelhante dissolve semelhante**.\n- Álcoois e ácidos **pequenos** dissolvem em água (fazem ligações de hidrogênio).\n- À medida que a cadeia carbônica cresce, a parte apolar domina e a solubilidade cai.\n- **Sabões**: sal de ácido graxo com cabeça polar e cauda apolar; formam **micelas** que envolvem a gordura.\n\n### Acidez\n- **Ácidos carboxílicos** > **fenóis** > água > **álcoois**.\n- Grupos que **atraem elétrons** (como Cl, F) perto do –COOH **aumentam** a acidez (ácido tricloroacético é muito mais forte que o acético).\n- Grupos alquila (doadores) diminuem a acidez.\n\n### Basicidade\n- **Aminas** são bases (o par de elétrons do N aceita H⁺).\n- Aminas alifáticas são mais básicas que a amônia; aminas aromáticas (anilina) são menos básicas.",
+      "revisao": "**Lembre:**\n- Ligação de H: H com F, O ou N.\n- PE: ácido > álcool > aldeído/cetona > hidrocarboneto.\n- Semelhante dissolve semelhante.\n- Acidez: ácido carboxílico > fenol > álcool.\n- Aminas são bases."
+    },
+    {
+      "id": "isomeria",
+      "nome": "Isomeria",
+      "resumo": "### Conceito\n**Isômeros**: mesma **fórmula molecular**, estruturas diferentes.\n\n### Isomeria plana (constitucional)\n- **De cadeia**: cadeias diferentes (butano × metilpropano).\n- **De posição**: mesmo grupo em posições diferentes (propan-1-ol × propan-2-ol).\n- **De função**: funções diferentes (etanol × metoximetano; aldeído × cetona; ácido × éster).\n- **De compensação (metameria)**: heteroátomo em posições diferentes.\n- **Tautomeria**: equilíbrio dinâmico entre isômeros (enol ⇌ aldeído/cetona).\n\n### Isomeria espacial (estereoisomeria)\n**Geométrica (cis-trans)**:\n- Exige **dupla ligação** (ou anel) que impede a rotação e **ligantes diferentes** em cada carbono da dupla.\n- **Cis**: grupos iguais do mesmo lado; **trans**: lados opostos. Gorduras **trans** fazem mal à saúde.\n\n**Óptica**:\n- Exige **carbono quiral (assimétrico)**: ligado a **4 grupos diferentes**.\n- Gera **enantiômeros**: imagens especulares não sobreponíveis (como mão direita e esquerda).\n- Desviam a luz polarizada em sentidos opostos: **dextrogiro (+)** e **levogiro (−)**.\n- **Mistura racêmica**: 50% de cada; opticamente **inativa**.\n- Número máximo de estereoisômeros ópticos: **2ⁿ** (n = carbonos quirais).\n- Importância: enantiômeros podem ter efeitos biológicos diferentes (caso da **talidomida**).",
+      "revisao": "**Lembre:**\n- Isômeros: mesma fórmula molecular.\n- Plana: cadeia, posição, função, compensação, tautomeria.\n- Cis-trans: dupla + ligantes diferentes.\n- Carbono quiral: 4 grupos diferentes.\n- 2ⁿ isômeros ópticos; racêmico é inativo."
+    },
+    {
+      "id": "reacoes",
+      "nome": "Reações orgânicas e polímeros",
+      "resumo": "### Substituição\nUm átomo ou grupo é **trocado** por outro.\n- Típica de **alcanos** (halogenação com luz: CH₄ + Cl₂ → CH₃Cl + HCl).\n- Típica de **aromáticos** (nitração, halogenação, alquilação de Friedel-Crafts): o anel se mantém.\n\n### Adição\nQuebra da ligação **π** e entrada de átomos na dupla ou tripla.\n- Típica de **alcenos e alcinos**: hidrogenação (H₂), halogenação (Br₂: descora a água de bromo, teste de insaturação), hidratação (H₂O).\n- **Regra de Markovnikov**: na adição de HX, o **H entra no carbono mais hidrogenado** da dupla.\n- Hidrogenação de óleos vegetais produz **margarina** (e pode gerar gorduras trans).\n\n### Eliminação\nSaída de átomos formando dupla ligação (desidratação de álcoois com H₂SO₄ e calor dá alcenos).\n\n### Oxirredução\n- Álcool **primário** → aldeído → ácido carboxílico.\n- Álcool **secundário** → cetona.\n- Álcool **terciário**: não oxida em condições brandas.\n- **Combustão**: completa gera CO₂ + H₂O; incompleta gera CO ou fuligem.\n\n### Outras\n- **Esterificação**: ácido + álcool ⇌ éster + água.\n- **Saponificação**: éster (gordura) + base forte → sabão + glicerol.\n\n### Polímeros\nMacromoléculas formadas por **monômeros**.\n- **De adição**: polietileno (sacolas), PVC, polipropileno, poliestireno (isopor).\n- **De condensação**: liberam molécula pequena (água); poliésteres (PET), poliamidas (náilon).\n- Naturais: amido, celulose, proteínas, borracha natural.",
+      "revisao": "**Lembre:**\n- Alcano e aromático: substituição.\n- Alceno e alcino: adição (Markovnikov).\n- Álcool 1º → aldeído → ácido; 2º → cetona.\n- Esterificação: ácido + álcool; saponificação: gordura + base.\n- Polímeros de adição e de condensação."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "quimica-organica-1",
+      "topico": "carbono",
+      "nivel": "conceitual",
+      "pergunta": "Quantas ligações covalentes o carbono costuma fazer?",
+      "opcoes": [
+        "4",
+        "2",
+        "3",
+        "6"
+      ],
+      "correta": 0,
+      "explicacao": "O carbono é tetravalente; isso permite cadeias longas e uma variedade enorme de compostos."
+    },
+    {
+      "id": "quimica-organica-2",
+      "topico": "carbono",
+      "nivel": "conceitual",
+      "pergunta": "Um carbono que faz uma ligação dupla e duas simples tem hibridização:",
+      "opcoes": [
+        "sp³",
+        "sp²",
+        "sp",
+        "sp³d"
+      ],
+      "correta": 1,
+      "explicacao": "sp² tem geometria trigonal plana com ângulos de 120°; a dupla tem uma ligação σ e uma π."
+    },
+    {
+      "id": "quimica-organica-3",
+      "topico": "carbono",
+      "nivel": "conceitual",
+      "pergunta": "Uma cadeia é heterogênea quando:",
+      "opcoes": [
+        "Tem ramificações",
+        "Tem ligação dupla",
+        "Tem um heteroátomo entre dois carbonos",
+        "Tem anel aromático"
+      ],
+      "correta": 2,
+      "explicacao": "No etoxietano (éter) o oxigênio está entre carbonos; no etanol, o O está na ponta e a cadeia é homogênea."
+    },
+    {
+      "id": "quimica-organica-4",
+      "topico": "carbono",
+      "nivel": "aplicacao",
+      "pergunta": "Em CH₃–C(CH₃)₂–CH₃, como se classifica o carbono central?",
+      "opcoes": [
+        "Terciário",
+        "Secundário",
+        "Primário",
+        "Quaternário"
+      ],
+      "correta": 3,
+      "explicacao": "Ele está ligado a quatro outros carbonos, por isso é quaternário."
+    },
+    {
+      "id": "quimica-organica-5",
+      "topico": "carbono",
+      "nivel": "analise",
+      "pergunta": "Quantas ligações π há na molécula de etino (HC≡CH)?",
+      "opcoes": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "correta": 0,
+      "explicacao": "A tripla ligação tem uma σ e duas π; as ligações C–H são todas σ."
+    },
+    {
+      "id": "quimica-organica-6",
+      "topico": "hidrocarbonetos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a fórmula geral dos alcanos?",
+      "opcoes": [
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ₋₂",
+        "CₙHₙ"
+      ],
+      "correta": 1,
+      "explicacao": "Alcenos e cicloalcanos são CₙH₂ₙ; alcinos, CₙH₂ₙ₋₂."
+    },
+    {
+      "id": "quimica-organica-7",
+      "topico": "hidrocarbonetos",
+      "nivel": "conceitual",
+      "pergunta": "Na nomenclatura IUPAC, o infixo \"en\" indica:",
+      "opcoes": [
+        "Apenas ligações simples",
+        "Uma ligação tripla",
+        "Uma ligação dupla entre carbonos",
+        "Um anel aromático"
+      ],
+      "correta": 2,
+      "explicacao": "an indica só simples, en indica dupla e in indica tripla."
+    },
+    {
+      "id": "quimica-organica-8",
+      "topico": "hidrocarbonetos",
+      "nivel": "conceitual",
+      "pergunta": "Por que o óleo não se mistura com a água?",
+      "opcoes": [
+        "O óleo é mais denso que a água",
+        "A água é apolar",
+        "O óleo forma ligações de hidrogênio fortes",
+        "Os hidrocarbonetos são apolares e a água é polar"
+      ],
+      "correta": 3,
+      "explicacao": "Semelhante dissolve semelhante; e por ser menos denso, o óleo fica por cima."
+    },
+    {
+      "id": "quimica-organica-9",
+      "topico": "hidrocarbonetos",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o nome do composto CH₂=CH–CH₃?",
+      "opcoes": [
+        "Propeno",
+        "Propano",
+        "Propino",
+        "Eteno"
+      ],
+      "correta": 0,
+      "explicacao": "Três carbonos (prop) + dupla (en) + hidrocarboneto (o) = propeno."
+    },
+    {
+      "id": "quimica-organica-10",
+      "topico": "hidrocarbonetos",
+      "nivel": "analise",
+      "pergunta": "Entre pentano e 2,2-dimetilpropano (mesma fórmula C₅H₁₂), qual tem maior ponto de ebulição?",
+      "opcoes": [
+        "2,2-dimetilpropano, por ser ramificado",
+        "Pentano, pois a cadeia reta tem mais superfície de contato",
+        "Os dois são iguais, pois têm a mesma massa",
+        "Nenhum deles ferve"
+      ],
+      "correta": 1,
+      "explicacao": "Ramificações deixam a molécula mais compacta e enfraquecem as forças de London."
+    },
+    {
+      "id": "quimica-organica-11",
+      "topico": "funcoes",
+      "nivel": "conceitual",
+      "pergunta": "O sufixo \"-ona\" indica qual função?",
+      "opcoes": [
+        "Aldeído",
+        "Álcool",
+        "Cetona",
+        "Ácido carboxílico"
+      ],
+      "correta": 2,
+      "explicacao": "-ol é álcool, -al é aldeído e ácido ...-oico é ácido carboxílico."
+    },
+    {
+      "id": "quimica-organica-12",
+      "topico": "funcoes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre aldeído e cetona?",
+      "opcoes": [
+        "Aldeído tem –OH e cetona não",
+        "Cetona tem nitrogênio",
+        "Não há diferença",
+        "No aldeído o C=O fica na ponta da cadeia; na cetona, entre dois carbonos"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso aldeído e cetona com o mesmo número de carbonos são isômeros de função."
+    },
+    {
+      "id": "quimica-organica-13",
+      "topico": "funcoes",
+      "nivel": "conceitual",
+      "pergunta": "Ésteres são responsáveis principalmente por:",
+      "opcoes": [
+        "Aromas de frutas e composição das gorduras",
+        "O cheiro de peixe",
+        "A acidez do vinagre",
+        "A cor dos vegetais"
+      ],
+      "correta": 0,
+      "explicacao": "Acetato de isoamila tem cheiro de banana; óleos e gorduras são ésteres de glicerol."
+    },
+    {
+      "id": "quimica-organica-14",
+      "topico": "funcoes",
+      "nivel": "aplicacao",
+      "pergunta": "O composto CH₃–COOH pertence a qual função e qual é seu nome oficial?",
+      "opcoes": [
+        "Álcool; etanol",
+        "Ácido carboxílico; ácido etanoico",
+        "Aldeído; etanal",
+        "Éster; etanoato"
+      ],
+      "correta": 1,
+      "explicacao": "É o ácido acético, presente no vinagre (cerca de 4%)."
+    },
+    {
+      "id": "quimica-organica-15",
+      "topico": "funcoes",
+      "nivel": "analise",
+      "pergunta": "Um aminoácido como a glicina (H₂N–CH₂–COOH) apresenta quais funções?",
+      "opcoes": [
+        "Amida e éster",
+        "Álcool e cetona",
+        "Amina e ácido carboxílico",
+        "Nitrila e aldeído"
+      ],
+      "correta": 2,
+      "explicacao": "É uma função mista; a ligação entre aminoácidos (peptídica) forma uma amida."
+    },
+    {
+      "id": "quimica-organica-16",
+      "topico": "propriedades",
+      "nivel": "conceitual",
+      "pergunta": "Ligações de hidrogênio ocorrem quando o hidrogênio está ligado a:",
+      "opcoes": [
+        "Carbono",
+        "Qualquer metal",
+        "Cloro ou bromo",
+        "F, O ou N"
+      ],
+      "correta": 3,
+      "explicacao": "Esses átomos muito eletronegativos deixam o H bem positivo; daí a interação forte com pares de elétrons vizinhos."
+    },
+    {
+      "id": "quimica-organica-17",
+      "topico": "propriedades",
+      "nivel": "conceitual",
+      "pergunta": "Por que o etanol se dissolve em água e o octano não?",
+      "opcoes": [
+        "O etanol faz ligações de hidrogênio com a água; o octano é apolar",
+        "O etanol é apolar",
+        "O octano é mais leve",
+        "A água é apolar"
+      ],
+      "correta": 0,
+      "explicacao": "Semelhante dissolve semelhante: o –OH do etanol interage com a água."
+    },
+    {
+      "id": "quimica-organica-18",
+      "topico": "propriedades",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ordem crescente de acidez?",
+      "opcoes": [
+        "Ácido carboxílico < fenol < álcool",
+        "Álcool < fenol < ácido carboxílico",
+        "Fenol < álcool < ácido carboxílico",
+        "Todos têm a mesma acidez"
+      ],
+      "correta": 1,
+      "explicacao": "O ânion carboxilato é muito estabilizado por ressonância, por isso os ácidos carboxílicos são os mais ácidos."
+    },
+    {
+      "id": "quimica-organica-19",
+      "topico": "propriedades",
+      "nivel": "aplicacao",
+      "pergunta": "Entre etanol, etanal e etano (massas parecidas), qual tem o maior ponto de ebulição?",
+      "opcoes": [
+        "Etanal",
+        "Etano",
+        "Etanol",
+        "Todos iguais"
+      ],
+      "correta": 2,
+      "explicacao": "O etanol faz ligações de hidrogênio; o etanal, dipolo-dipolo; o etano, só forças de London."
+    },
+    {
+      "id": "quimica-organica-20",
+      "topico": "propriedades",
+      "nivel": "analise",
+      "pergunta": "Como o sabão remove a gordura da louça?",
+      "opcoes": [
+        "Ele dissolve a gordura por ser apolar por inteiro",
+        "Ele reage com a água formando gordura",
+        "Ele evapora a gordura",
+        "A cauda apolar se liga à gordura e a cabeça polar à água, formando micelas"
+      ],
+      "correta": 3,
+      "explicacao": "As micelas envolvem a gordura e são arrastadas pela água no enxágue."
+    },
+    {
+      "id": "quimica-organica-21",
+      "topico": "isomeria",
+      "nivel": "conceitual",
+      "pergunta": "Dois compostos são isômeros quando têm:",
+      "opcoes": [
+        "A mesma fórmula molecular e estruturas diferentes",
+        "A mesma estrutura e fórmulas diferentes",
+        "O mesmo nome",
+        "A mesma massa e elementos diferentes"
+      ],
+      "correta": 0,
+      "explicacao": "Etanol e metoximetano, ambos C₂H₆O, são isômeros de função."
+    },
+    {
+      "id": "quimica-organica-22",
+      "topico": "isomeria",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a condição para um carbono ser quiral?",
+      "opcoes": [
+        "Ter uma dupla ligação",
+        "Estar ligado a quatro grupos diferentes",
+        "Estar num anel aromático",
+        "Ter dois hidrogênios"
+      ],
+      "correta": 1,
+      "explicacao": "O carbono quiral dá origem a duas formas que são imagens especulares não sobreponíveis."
+    },
+    {
+      "id": "quimica-organica-23",
+      "topico": "isomeria",
+      "nivel": "conceitual",
+      "pergunta": "Uma mistura racêmica é:",
+      "opcoes": [
+        "Um único enantiômero puro",
+        "Mistura de isômeros cis e trans",
+        "Mistura de 50% de cada enantiômero, opticamente inativa",
+        "Uma substância sem carbono quiral"
+      ],
+      "correta": 2,
+      "explicacao": "Os desvios da luz polarizada em sentidos opostos se cancelam."
+    },
+    {
+      "id": "quimica-organica-24",
+      "topico": "isomeria",
+      "nivel": "aplicacao",
+      "pergunta": "Propan-1-ol e propan-2-ol são isômeros de:",
+      "opcoes": [
+        "Função",
+        "Cadeia",
+        "Compensação",
+        "Posição"
+      ],
+      "correta": 3,
+      "explicacao": "Mesma cadeia e mesma função; só muda a posição do –OH."
+    },
+    {
+      "id": "quimica-organica-25",
+      "topico": "isomeria",
+      "nivel": "analise",
+      "pergunta": "Uma molécula tem 3 carbonos quirais diferentes. Qual é o número máximo de estereoisômeros ópticos?",
+      "opcoes": [
+        "8",
+        "6",
+        "3",
+        "9"
+      ],
+      "correta": 0,
+      "explicacao": "Pela regra 2ⁿ: 2³ = 8 isômeros ópticos (4 pares de enantiômeros)."
+    },
+    {
+      "id": "quimica-organica-26",
+      "topico": "reacoes",
+      "nivel": "conceitual",
+      "pergunta": "A reação característica dos alcenos é a de:",
+      "opcoes": [
+        "Substituição",
+        "Adição",
+        "Saponificação",
+        "Esterificação"
+      ],
+      "correta": 1,
+      "explicacao": "A ligação π se rompe e novos átomos entram nos carbonos da dupla."
+    },
+    {
+      "id": "quimica-organica-27",
+      "topico": "reacoes",
+      "nivel": "conceitual",
+      "pergunta": "A oxidação branda de um álcool secundário produz:",
+      "opcoes": [
+        "Aldeído",
+        "Ácido carboxílico",
+        "Cetona",
+        "Nada, não oxida"
+      ],
+      "correta": 2,
+      "explicacao": "Álcool primário vira aldeído e depois ácido; o terciário não oxida em condições brandas."
+    },
+    {
+      "id": "quimica-organica-28",
+      "topico": "reacoes",
+      "nivel": "conceitual",
+      "pergunta": "A reação de um éster (gordura) com base forte, produzindo sabão e glicerol, chama-se:",
+      "opcoes": [
+        "Esterificação",
+        "Hidrogenação",
+        "Polimerização",
+        "Saponificação"
+      ],
+      "correta": 3,
+      "explicacao": "É a forma tradicional de fazer sabão com óleo usado e soda cáustica."
+    },
+    {
+      "id": "quimica-organica-29",
+      "topico": "reacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Pela regra de Markovnikov, o HBr adicionado ao propeno (CH₂=CH–CH₃) forma principalmente:",
+      "opcoes": [
+        "2-bromopropano",
+        "1-bromopropano",
+        "Propano",
+        "1,2-dibromopropano"
+      ],
+      "correta": 0,
+      "explicacao": "O H entra no carbono mais hidrogenado (CH₂) e o Br no carbono do meio."
+    },
+    {
+      "id": "quimica-organica-30",
+      "topico": "reacoes",
+      "nivel": "analise",
+      "pergunta": "O PET das garrafas é um poliéster. Que tipo de polimerização o forma?",
+      "opcoes": [
+        "Adição, sem perda de moléculas",
+        "Condensação, com liberação de água",
+        "Saponificação",
+        "Combustão"
+      ],
+      "correta": 1,
+      "explicacao": "Ácido e álcool bifuncionais se unem por ligações éster, liberando água a cada ligação, como na esterificação."
+    }
+  ]
+}
