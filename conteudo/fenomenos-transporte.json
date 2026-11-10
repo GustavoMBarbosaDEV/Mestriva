@@ -1,0 +1,465 @@
+{
+  "id": "fenomenos-transporte",
+  "nome": "Fenômenos de Transporte",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "propriedades",
+      "nome": "Fluidos e suas propriedades",
+      "resumo": "### O que é fluido\nSubstância que se **deforma continuamente** sob tensão de cisalhamento, por menor que seja (líquidos e gases). Um sólido resiste ao cisalhamento com uma deformação finita.\n\n### Propriedades\n- **Massa específica** ρ = m/V (kg/m³). Água ≈ 1000; ar ≈ 1,2.\n- **Peso específico** γ = ρ·g (N/m³). Água ≈ 9.810 N/m³ (≈ 10⁴).\n- **Densidade relativa**: d = ρ/ρ_água (adimensional).\n- **Viscosidade dinâmica** μ (Pa·s): resistência ao escoamento.\n- **Viscosidade cinemática** **ν = μ/ρ** (m²/s).\n\n### Lei de Newton da viscosidade\n**τ = μ·du/dy**: a tensão de cisalhamento é proporcional ao gradiente de velocidade.\n- **Fluidos newtonianos**: μ constante (água, ar, óleos simples).\n- **Não newtonianos**: μ varia com a taxa de deformação (sangue, tintas, ketchup, lama).\n- **Condição de não escorregamento**: o fluido junto a uma parede tem a velocidade da parede.\n\n### Efeito da temperatura\n- **Líquidos**: viscosidade **diminui** com o aumento da temperatura (óleo quente escorre mais).\n- **Gases**: viscosidade **aumenta** com a temperatura.\n\n### Outras\n- **Compressibilidade**: líquidos geralmente tratados como incompressíveis; gases a baixas velocidades (Mach < 0,3) também.\n- **Tensão superficial** e capilaridade.\n- **Pressão de vapor**: abaixo dela o líquido ferve; em bombas, causa **cavitação**.",
+      "revisao": "**Lembre:**\n- Fluido: deforma continuamente sob cisalhamento.\n- γ = ρg; ν = μ/ρ.\n- τ = μ du/dy (newtoniano).\n- Temperatura sobe: μ de líquido cai, de gás sobe.\n- Cavitação: pressão abaixo da de vapor."
+    },
+    {
+      "id": "estatica",
+      "nome": "Estática dos fluidos e manometria",
+      "resumo": "### Pressão num fluido em repouso\n- Atua igualmente em todas as direções num ponto (Pascal).\n- **Lei de Stevin**: **p = p₀ + γ·h** (h = profundidade).\n- **Carga de pressão**: h = p/γ (pressão expressa em altura de coluna de fluido, ex.: mca).\n\n### Pressão absoluta e efetiva\n- **p_abs = p_atm + p_efetiva** (manométrica).\n- Manômetros comuns medem a **efetiva**; o **barômetro** mede a atmosférica.\n- Pressão efetiva negativa = **vácuo parcial**.\n- 1 atm = 101,3 kPa = 760 mmHg = **10,33 mca**.\n\n### Manometria\n- **Piezômetro**: tubo vertical aberto; mede pressão pela altura.\n- **Tubo em U**: equação manométrica: partindo de um ponto, **soma γh ao descer** e **subtrai ao subir** até o outro ponto.\n- Pontos no **mesmo nível** e no **mesmo fluido contínuo** têm a mesma pressão.\n\n### Forças em superfícies submersas\n- **Plana**: F = γ·h_cg·A (h_cg = profundidade do centroide).\n- O **centro de pressão** fica **abaixo** do centroide: y_cp = y_cg + I_cg/(y_cg·A).\n- Por isso barragens são mais grossas embaixo.\n\n### Empuxo\nE = γ_fluido · V_submerso. Estabilidade de corpos flutuantes depende do **metacentro** estar acima do centro de gravidade.",
+      "revisao": "**Lembre:**\n- p = p₀ + γh.\n- p_abs = p_atm + p_efetiva.\n- 1 atm ≈ 10,33 mca.\n- Manômetro em U: desce soma, sobe subtrai.\n- F = γ h_cg A; centro de pressão abaixo do centroide."
+    },
+    {
+      "id": "cinematica",
+      "nome": "Escoamentos, continuidade e Reynolds",
+      "resumo": "### Classificação dos escoamentos\n- **Permanente** (propriedades não mudam com o tempo num ponto) × transiente.\n- **Uniforme** × variado (ao longo do espaço).\n- **Laminar** (camadas ordenadas) × **turbulento** (mistura caótica).\n- Incompressível × compressível.\n\n### Vazão\n- **Volumétrica**: **Q = V·A** (m³/s), com V = velocidade média.\n- **Mássica**: ṁ = ρ·Q (kg/s).\n\n### Equação da continuidade (conservação da massa)\n- Regime permanente: ρ₁V₁A₁ = ρ₂V₂A₂.\n- Incompressível: **V₁A₁ = V₂A₂**. Reduzir o diâmetro à metade **quadruplica** a velocidade (área cai a 1/4).\n\n### Número de Reynolds\n**Re = ρ·V·D/μ = V·D/ν** (adimensional): razão entre forças de inércia e forças viscosas.\n- Em tubos: **Re < 2.000 (ou 2.300) laminar**; entre 2.000 e 4.000 transição; **Re > 4.000 turbulento**.\n- A maioria dos escoamentos de engenharia (água em tubulações) é **turbulenta**.\n\n### Perfil de velocidades em tubo\n- **Laminar**: parabólico; V_máx = **2·V_média**.\n- **Turbulento**: mais achatado; V_máx ≈ 1,2·V_média.\n\n### Exemplo\nÁgua (ν = 10⁻⁶ m²/s) a 1 m/s num tubo de 5 cm: Re = 1 · 0,05/10⁻⁶ = **50.000**, turbulento.",
+      "revisao": "**Lembre:**\n- Q = VA; ṁ = ρQ.\n- Incompressível: V₁A₁ = V₂A₂.\n- Re = VD/ν.\n- Tubo: Re < 2.000 laminar; > 4.000 turbulento.\n- Laminar: V_máx = 2V_média."
+    },
+    {
+      "id": "energia",
+      "nome": "Equação da energia e perda de carga",
+      "resumo": "### Bernoulli (fluido ideal, permanente, incompressível)\n**z + p/γ + V²/(2g) = constante** ao longo de uma linha de corrente.\n- z: **carga de posição** (potencial).\n- p/γ: **carga de pressão**.\n- V²/(2g): **carga cinética**.\n- A soma é a **carga total** H (em metros).\n\n### Equação da energia com perdas e máquinas\n**H₁ + H_bomba = H₂ + H_turbina + h_p**\n- **Bomba** fornece energia ao fluido; **turbina** retira.\n- **h_p**: **perda de carga** (energia dissipada por atrito, em metros).\n- Potência da bomba: **P = γ·Q·H_B/η**.\n\n### Perda de carga distribuída (ao longo do tubo)\n**Darcy-Weisbach**: **h_f = f·(L/D)·V²/(2g)**.\n- **f** = fator de atrito: laminar **f = 64/Re**; turbulento, pelo **diagrama de Moody** ou Colebrook (depende de Re e da **rugosidade relativa** ε/D).\n- Dobrar a velocidade quadruplica (aproximadamente) a perda de carga.\n- Fórmula empírica muito usada no Brasil para água: **Hazen-Williams**.\n\n### Perda de carga localizada (singular)\n**h_s = K·V²/(2g)** em curvas, válvulas, registros, entradas, saídas e mudanças de seção. Também por **comprimento equivalente**.\n\n### Aplicações\nTubo de **Venturi** e **Pitot** (medir vazão e velocidade); dimensionamento de bombas e redes de água.",
+      "revisao": "**Lembre:**\n- z + p/γ + V²/2g = cte (ideal).\n- H₁ + H_B = H₂ + H_T + h_p.\n- Darcy: h_f = f (L/D) V²/2g.\n- Laminar: f = 64/Re.\n- Localizada: h_s = K V²/2g."
+    },
+    {
+      "id": "calor",
+      "nome": "Transferência de calor",
+      "resumo": "### Condução\nTransferência por contato molecular, sem movimento macroscópico.\n- **Lei de Fourier**: **q = −k·A·dT/dx**; parede plana: **q = k·A·ΔT/L**.\n- **k** = condutividade térmica (W/m·K): metais altos (cobre ≈ 400), isolantes baixos (isopor ≈ 0,03).\n- **Resistência térmica**: R = L/(k·A). Paredes em camadas: resistências em **série** se somam, como em circuitos (q = ΔT/R_total).\n\n### Convecção\nEntre uma superfície e um fluido em movimento.\n- **Lei de Newton do resfriamento**: **q = h·A·(T_s − T_∞)**.\n- **h** = coeficiente de convecção (W/m²·K): depende do escoamento.\n- **Natural** (movida por diferença de densidade) × **forçada** (ventilador, bomba). Forçada tem h bem maior.\n- Resistência de convecção: R = 1/(h·A).\n- Números adimensionais: **Nusselt** (Nu = hL/k), Prandtl, Reynolds, Grashof.\n\n### Radiação\nEmissão de ondas eletromagnéticas; não precisa de meio.\n- **Stefan-Boltzmann**: **q = ε·σ·A·T⁴** (T em kelvin; σ = 5,67 × 10⁻⁸ W/m²·K⁴).\n- **ε** (emissividade) entre 0 e 1; corpo negro: ε = 1.\n- Troca líquida: q = εσA(T_s⁴ − T_viz⁴).\n\n### Aletas e trocadores de calor\n- **Aletas** aumentam a área para melhorar a troca (dissipadores de processador, motores de moto).\n- **Trocadores de calor**: escoamento em **contracorrente** é mais eficiente que em paralelo. Método **LMTD** (média logarítmica das diferenças de temperatura).",
+      "revisao": "**Lembre:**\n- Fourier: q = kAΔT/L.\n- Convecção: q = hA(T_s − T_∞).\n- Radiação: q = εσAT⁴ (kelvin).\n- Resistências térmicas em série somam.\n- Contracorrente é mais eficiente."
+    },
+    {
+      "id": "massa",
+      "nome": "Transferência de massa e análise dimensional",
+      "resumo": "### Transferência de massa\nMovimento de uma espécie química por diferença de **concentração**.\n- **Difusão** (molecular): **Lei de Fick**: **J = −D_AB·dC/dx**, com D_AB = coeficiente de difusão (m²/s). Ex.: perfume se espalhando no ar parado, oxigênio nos pulmões.\n- **Convecção mássica**: N = h_m·A·(C_s − C_∞), com h_m = coeficiente de transferência de massa. Ex.: secagem de roupa ao vento, evaporação.\n- Difusão em gases é muito mais rápida que em líquidos, e em líquidos muito mais rápida que em sólidos.\n\n### Analogia entre os fenômenos\nOs três transportes seguem leis do mesmo tipo (fluxo proporcional a um gradiente):\n- **Quantidade de movimento**: τ = μ·du/dy (Newton).\n- **Calor**: q = −k·dT/dx (Fourier).\n- **Massa**: J = −D·dC/dx (Fick).\nPor isso a disciplina estuda os três juntos.\n\n### Análise dimensional\n- **Teorema dos Pi de Buckingham**: um problema com **n variáveis** e **k dimensões** fundamentais (M, L, T) pode ser descrito por **n − k grupos adimensionais**.\n- Grupos importantes: **Reynolds** (inércia/viscosidade), **Froude** (inércia/gravidade, usado em canais e navios), **Euler** (pressão/inércia), **Mach** (velocidade/som).\n\n### Semelhança e modelos\nUm modelo reduzido representa o protótipo se tiver semelhança **geométrica**, **cinemática** e **dinâmica** (mesmos números adimensionais relevantes). Túneis de vento e modelos de barragens usam isso.",
+      "revisao": "**Lembre:**\n- Fick: J = −D dC/dx.\n- Newton, Fourier e Fick: fluxo proporcional a gradiente.\n- Buckingham: n − k grupos adimensionais.\n- Froude: superfície livre; Mach: compressibilidade.\n- Semelhança: mesmos adimensionais."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "fenomenos-transporte-1",
+      "topico": "propriedades",
+      "nivel": "conceitual",
+      "pergunta": "O que caracteriza um fluido?",
+      "opcoes": [
+        "Deforma-se continuamente sob qualquer tensão de cisalhamento",
+        "Tem volume sempre variável",
+        "Não tem massa específica",
+        "Resiste ao cisalhamento com deformação finita"
+      ],
+      "correta": 0,
+      "explicacao": "Um sólido se deforma um pouco e para; o fluido continua escoando enquanto houver cisalhamento."
+    },
+    {
+      "id": "fenomenos-transporte-2",
+      "topico": "propriedades",
+      "nivel": "conceitual",
+      "pergunta": "A viscosidade cinemática é definida como:",
+      "opcoes": [
+        "A massa específica vezes a gravidade",
+        "A viscosidade dinâmica dividida pela massa específica",
+        "A tensão dividida pela velocidade",
+        "A viscosidade dinâmica vezes a velocidade"
+      ],
+      "correta": 1,
+      "explicacao": "ν = μ/ρ, em m²/s; aparece no número de Reynolds."
+    },
+    {
+      "id": "fenomenos-transporte-3",
+      "topico": "propriedades",
+      "nivel": "conceitual",
+      "pergunta": "Ao aquecer um óleo lubrificante, sua viscosidade:",
+      "opcoes": [
+        "Aumenta",
+        "Não muda",
+        "Diminui",
+        "Fica negativa"
+      ],
+      "correta": 2,
+      "explicacao": "Em líquidos, o calor enfraquece as forças entre as moléculas; nos gases, ao contrário, a viscosidade aumenta com a temperatura."
+    },
+    {
+      "id": "fenomenos-transporte-4",
+      "topico": "propriedades",
+      "nivel": "aplicacao",
+      "pergunta": "Um líquido tem massa específica de 800 kg/m³. Qual é o peso específico (g = 10 m/s²)?",
+      "opcoes": [
+        "80 N/m³",
+        "800 N/m³",
+        "0,8 N/m³",
+        "8.000 N/m³"
+      ],
+      "correta": 3,
+      "explicacao": "γ = ρ·g = 800 · 10 = 8.000 N/m³; a densidade relativa é 0,8."
+    },
+    {
+      "id": "fenomenos-transporte-5",
+      "topico": "propriedades",
+      "nivel": "analise",
+      "pergunta": "Duas placas paralelas separadas por 2 mm de óleo (μ = 0,1 Pa·s); a de cima se move a 1 m/s. Qual é a tensão de cisalhamento?",
+      "opcoes": [
+        "50 Pa",
+        "0,2 Pa",
+        "5 Pa",
+        "500 Pa"
+      ],
+      "correta": 0,
+      "explicacao": "Perfil linear: τ = μ·V/h = 0,1 · 1/0,002 = 50 Pa."
+    },
+    {
+      "id": "fenomenos-transporte-6",
+      "topico": "estatica",
+      "nivel": "conceitual",
+      "pergunta": "A pressão absoluta é igual a:",
+      "opcoes": [
+        "Pressão efetiva menos atmosférica",
+        "Pressão atmosférica mais pressão efetiva",
+        "Somente a pressão atmosférica",
+        "Pressão efetiva vezes a gravidade"
+      ],
+      "correta": 1,
+      "explicacao": "Manômetros comuns marcam a efetiva; somando a atmosférica, obtém-se a absoluta."
+    },
+    {
+      "id": "fenomenos-transporte-7",
+      "topico": "estatica",
+      "nivel": "conceitual",
+      "pergunta": "Num manômetro em U, dois pontos no mesmo nível e no mesmo fluido contínuo têm:",
+      "opcoes": [
+        "Pressões opostas",
+        "Pressão zero",
+        "A mesma pressão",
+        "Pressões proporcionais à área"
+      ],
+      "correta": 2,
+      "explicacao": "É a base da equação manométrica, que percorre o tubo somando γh ao descer e subtraindo ao subir."
+    },
+    {
+      "id": "fenomenos-transporte-8",
+      "topico": "estatica",
+      "nivel": "conceitual",
+      "pergunta": "Numa comporta plana vertical, o centro de pressão fica:",
+      "opcoes": [
+        "Exatamente no centroide",
+        "Acima do centroide",
+        "Na superfície livre",
+        "Abaixo do centroide da área"
+      ],
+      "correta": 3,
+      "explicacao": "A pressão cresce com a profundidade, então a resultante se desloca para baixo."
+    },
+    {
+      "id": "fenomenos-transporte-9",
+      "topico": "estatica",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a pressão efetiva no fundo de um reservatório com 5 m de água (γ = 10⁴ N/m³)?",
+      "opcoes": [
+        "50 kPa",
+        "5 kPa",
+        "500 kPa",
+        "150 kPa"
+      ],
+      "correta": 0,
+      "explicacao": "p = γ·h = 10.000 · 5 = 50.000 Pa = 50 kPa, cerca de meia atmosfera."
+    },
+    {
+      "id": "fenomenos-transporte-10",
+      "topico": "estatica",
+      "nivel": "analise",
+      "pergunta": "Uma comporta retangular vertical de 2 m × 3 m (altura 3 m) tem o topo na superfície da água. Qual é a força resultante?",
+      "opcoes": [
+        "60 kN",
+        "90 kN",
+        "180 kN",
+        "30 kN"
+      ],
+      "correta": 1,
+      "explicacao": "F = γ·h_cg·A = 10.000 · 1,5 · 6 = 90.000 N = 90 kN, com o centro de pressão a 2 m de profundidade."
+    },
+    {
+      "id": "fenomenos-transporte-11",
+      "topico": "cinematica",
+      "nivel": "conceitual",
+      "pergunta": "O número de Reynolds representa a razão entre:",
+      "opcoes": [
+        "Forças de pressão e gravidade",
+        "Velocidade e velocidade do som",
+        "Forças de inércia e forças viscosas",
+        "Calor e trabalho"
+      ],
+      "correta": 2,
+      "explicacao": "Re alto: inércia domina e o escoamento tende a turbulento; Re baixo: viscosidade domina e ele é laminar."
+    },
+    {
+      "id": "fenomenos-transporte-12",
+      "topico": "cinematica",
+      "nivel": "conceitual",
+      "pergunta": "Em tubos, um escoamento com Re = 1.000 é:",
+      "opcoes": [
+        "Turbulento",
+        "De transição",
+        "Supersônico",
+        "Laminar"
+      ],
+      "correta": 3,
+      "explicacao": "Abaixo de cerca de 2.000 o escoamento em tubos é laminar."
+    },
+    {
+      "id": "fenomenos-transporte-13",
+      "topico": "cinematica",
+      "nivel": "conceitual",
+      "pergunta": "No escoamento laminar em tubo circular, a velocidade máxima no centro é:",
+      "opcoes": [
+        "O dobro da velocidade média",
+        "Igual à velocidade média",
+        "Metade da velocidade média",
+        "Zero"
+      ],
+      "correta": 0,
+      "explicacao": "O perfil é parabólico; no turbulento, mais achatado, V_máx fica perto de 1,2 vez a média."
+    },
+    {
+      "id": "fenomenos-transporte-14",
+      "topico": "cinematica",
+      "nivel": "aplicacao",
+      "pergunta": "Água escoa a 2 m/s num tubo de 10 cm de diâmetro que se reduz para 5 cm. Qual é a velocidade no trecho estreito?",
+      "opcoes": [
+        "4 m/s",
+        "8 m/s",
+        "1 m/s",
+        "16 m/s"
+      ],
+      "correta": 1,
+      "explicacao": "A área é proporcional a D²; com D pela metade, a área cai a 1/4 e a velocidade quadruplica: 8 m/s."
+    },
+    {
+      "id": "fenomenos-transporte-15",
+      "topico": "cinematica",
+      "nivel": "analise",
+      "pergunta": "Óleo (ν = 10⁻⁴ m²/s) escoa a 1 m/s num tubo de 10 cm. Como é o escoamento?",
+      "opcoes": [
+        "Turbulento, com Re = 100.000",
+        "Turbulento, com Re = 10.000",
+        "Laminar, com Re = 1.000",
+        "Laminar, com Re = 10"
+      ],
+      "correta": 2,
+      "explicacao": "Re = VD/ν = 1 · 0,1/10⁻⁴ = 1.000 < 2.000. Óleos viscosos costumam escoar em regime laminar."
+    },
+    {
+      "id": "fenomenos-transporte-16",
+      "topico": "energia",
+      "nivel": "conceitual",
+      "pergunta": "Na equação de Bernoulli, o termo V²/(2g) representa:",
+      "opcoes": [
+        "A carga de pressão",
+        "A carga de posição",
+        "A perda de carga",
+        "A carga cinética"
+      ],
+      "correta": 3,
+      "explicacao": "Todos os termos são energias por unidade de peso, em metros: z (posição), p/γ (pressão) e V²/2g (velocidade)."
+    },
+    {
+      "id": "fenomenos-transporte-17",
+      "topico": "energia",
+      "nivel": "conceitual",
+      "pergunta": "No regime laminar, o fator de atrito de Darcy vale:",
+      "opcoes": [
+        "64/Re",
+        "0,02 sempre",
+        "Re/64",
+        "Depende só da rugosidade"
+      ],
+      "correta": 0,
+      "explicacao": "No turbulento, f depende de Re e da rugosidade relativa, e se obtém pelo diagrama de Moody."
+    },
+    {
+      "id": "fenomenos-transporte-18",
+      "topico": "energia",
+      "nivel": "conceitual",
+      "pergunta": "Perdas de carga localizadas ocorrem em:",
+      "opcoes": [
+        "Apenas em tubos retos longos",
+        "Curvas, válvulas, registros e mudanças de seção",
+        "Somente em reservatórios",
+        "Apenas em bombas"
+      ],
+      "correta": 1,
+      "explicacao": "São calculadas por h_s = K·V²/(2g) ou pelo comprimento equivalente de tubo reto."
+    },
+    {
+      "id": "fenomenos-transporte-19",
+      "topico": "energia",
+      "nivel": "aplicacao",
+      "pergunta": "Uma bomba eleva 0,01 m³/s de água com altura manométrica de 20 m e rendimento de 80%. Qual é a potência consumida (γ = 10⁴ N/m³)?",
+      "opcoes": [
+        "2 kW",
+        "1,6 kW",
+        "2,5 kW",
+        "25 kW"
+      ],
+      "correta": 2,
+      "explicacao": "P = γQH/η = 10.000 · 0,01 · 20/0,8 = 2.500 W."
+    },
+    {
+      "id": "fenomenos-transporte-20",
+      "topico": "energia",
+      "nivel": "analise",
+      "pergunta": "Se a vazão numa tubulação dobra (escoamento turbulento, f quase constante), a perda de carga distribuída:",
+      "opcoes": [
+        "Dobra",
+        "Cai à metade",
+        "Não muda",
+        "Fica cerca de quatro vezes maior"
+      ],
+      "correta": 3,
+      "explicacao": "h_f = f(L/D)V²/2g; com a vazão dobrada, a velocidade dobra e V² quadruplica."
+    },
+    {
+      "id": "fenomenos-transporte-21",
+      "topico": "calor",
+      "nivel": "conceitual",
+      "pergunta": "A lei de Fourier descreve a transferência de calor por:",
+      "opcoes": [
+        "Condução",
+        "Convecção",
+        "Radiação",
+        "Evaporação"
+      ],
+      "correta": 0,
+      "explicacao": "q = −kA dT/dx: o calor flui do quente para o frio através do material."
+    },
+    {
+      "id": "fenomenos-transporte-22",
+      "topico": "calor",
+      "nivel": "conceitual",
+      "pergunta": "Qual mecanismo de transferência de calor depende da quarta potência da temperatura absoluta?",
+      "opcoes": [
+        "Condução",
+        "Radiação",
+        "Convecção natural",
+        "Convecção forçada"
+      ],
+      "correta": 1,
+      "explicacao": "q = εσAT⁴; por isso a radiação domina em temperaturas muito altas, como em fornos."
+    },
+    {
+      "id": "fenomenos-transporte-23",
+      "topico": "calor",
+      "nivel": "conceitual",
+      "pergunta": "Numa parede composta de várias camadas, as resistências térmicas de condução:",
+      "opcoes": [
+        "Combinam-se como resistores em paralelo",
+        "Multiplicam-se",
+        "Somam-se, como resistores em série",
+        "Só vale a maior"
+      ],
+      "correta": 2,
+      "explicacao": "O mesmo fluxo de calor atravessa todas as camadas: q = ΔT/(R₁ + R₂ + ...)."
+    },
+    {
+      "id": "fenomenos-transporte-24",
+      "topico": "calor",
+      "nivel": "aplicacao",
+      "pergunta": "Uma parede de 2 m², 0,1 m de espessura e k = 0,5 W/m·K tem 20 °C de diferença entre as faces. Qual é o fluxo de calor?",
+      "opcoes": [
+        "20 W",
+        "2.000 W",
+        "100 W",
+        "200 W"
+      ],
+      "correta": 3,
+      "explicacao": "Pela lei de Fourier para parede plana: q = kAΔT/L = 0,5 · 2 · 20/0,1 = 200 W. Uma parede duas vezes mais grossa deixaria passar metade."
+    },
+    {
+      "id": "fenomenos-transporte-25",
+      "topico": "calor",
+      "nivel": "analise",
+      "pergunta": "Por que dissipadores de processadores têm muitas aletas e um ventilador?",
+      "opcoes": [
+        "Aletas aumentam a área e o ventilador aumenta h (convecção forçada)",
+        "Aletas reduzem a condutividade",
+        "O ventilador aumenta a emissividade",
+        "As aletas armazenam calor permanentemente"
+      ],
+      "correta": 0,
+      "explicacao": "q = hA(T_s − T_∞): aumentam-se A (aletas) e h (ar forçado) para retirar mais calor com a mesma diferença de temperatura."
+    },
+    {
+      "id": "fenomenos-transporte-26",
+      "topico": "massa",
+      "nivel": "conceitual",
+      "pergunta": "A lei de Fick relaciona o fluxo de massa com:",
+      "opcoes": [
+        "O gradiente de temperatura",
+        "O gradiente de concentração",
+        "O gradiente de velocidade",
+        "A pressão atmosférica"
+      ],
+      "correta": 1,
+      "explicacao": "J = −D dC/dx: a espécie se move da região mais concentrada para a menos concentrada."
+    },
+    {
+      "id": "fenomenos-transporte-27",
+      "topico": "massa",
+      "nivel": "conceitual",
+      "pergunta": "As leis de Newton (viscosidade), Fourier e Fick são análogas porque:",
+      "opcoes": [
+        "Todas valem só para gases",
+        "Todas envolvem radiação",
+        "Todas relacionam um fluxo a um gradiente",
+        "Todas são equações de estado"
+      ],
+      "correta": 2,
+      "explicacao": "Quantidade de movimento, calor e massa são transportados de forma parecida, o que justifica estudá-los juntos."
+    },
+    {
+      "id": "fenomenos-transporte-28",
+      "topico": "massa",
+      "nivel": "conceitual",
+      "pergunta": "Em ensaios de modelos de navios e canais (superfície livre), o adimensional mais importante é o número de:",
+      "opcoes": [
+        "Mach",
+        "Prandtl",
+        "Nusselt",
+        "Froude"
+      ],
+      "correta": 3,
+      "explicacao": "Fr relaciona inércia e gravidade, que governam as ondas na superfície livre."
+    },
+    {
+      "id": "fenomenos-transporte-29",
+      "topico": "massa",
+      "nivel": "aplicacao",
+      "pergunta": "Um problema envolve 6 variáveis e 3 dimensões fundamentais (M, L, T). Quantos grupos adimensionais o descrevem?",
+      "opcoes": [
+        "3",
+        "6",
+        "9",
+        "2"
+      ],
+      "correta": 0,
+      "explicacao": "Pelo teorema dos Pi de Buckingham: n − k = 6 − 3 = 3 grupos adimensionais."
+    },
+    {
+      "id": "fenomenos-transporte-30",
+      "topico": "massa",
+      "nivel": "analise",
+      "pergunta": "Por que a roupa seca mais rápido num dia de vento?",
+      "opcoes": [
+        "O vento aumenta a pressão de vapor da água",
+        "O vento aumenta a convecção mássica e mantém baixa a umidade junto ao tecido",
+        "O vento esfria a roupa e isso acelera a evaporação",
+        "O vento reduz a difusão"
+      ],
+      "correta": 1,
+      "explicacao": "N = h_m·A·(C_s − C_∞): o vento aumenta h_m e renova o ar úmido perto do tecido, mantendo a diferença de concentração."
+    }
+  ]
+}

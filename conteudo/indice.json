@@ -456,6 +456,47 @@
       ]
     },
     {
+      "id": "circuitos-eletricos",
+      "nome": "Circuitos Elétricos",
+      "apelidos": [
+        "Circuitos Elétricos I",
+        "Circuitos Elétricos II",
+        "Análise de Circuitos",
+        "Análise de Circuitos Elétricos",
+        "Eletricidade Básica",
+        "Eletricidade Aplicada",
+        "Eletrotécnica",
+        "Eletricidade"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "grandezas",
+          "nome": "Grandezas elétricas e lei de Ohm"
+        },
+        {
+          "id": "kirchhoff",
+          "nome": "Leis de Kirchhoff e associações"
+        },
+        {
+          "id": "metodos",
+          "nome": "Métodos de análise e teoremas"
+        },
+        {
+          "id": "capacitores",
+          "nome": "Capacitores, indutores e transitórios"
+        },
+        {
+          "id": "ca",
+          "nome": "Corrente alternada e fasores"
+        },
+        {
+          "id": "potencia-ca",
+          "nome": "Potência em CA e circuitos trifásicos"
+        }
+      ]
+    },
+    {
       "id": "contabilidade-custos",
       "nome": "Contabilidade de Custos",
       "apelidos": [
@@ -536,6 +577,47 @@
         {
           "id": "competencia-principios",
           "nome": "Regime de competência e princípios contábeis"
+        }
+      ]
+    },
+    {
+      "id": "desenho-tecnico",
+      "nome": "Desenho Técnico",
+      "apelidos": [
+        "Desenho Técnico I",
+        "Desenho Técnico Mecânico",
+        "Expressão Gráfica",
+        "Desenho Técnico e CAD",
+        "Desenho Assistido por Computador",
+        "Desenho Arquitetônico",
+        "Representação Gráfica",
+        "CAD"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "normas",
+          "nome": "Normas, formatos, linhas e escalas"
+        },
+        {
+          "id": "projecoes",
+          "nome": "Projeções ortogonais e vistas"
+        },
+        {
+          "id": "perspectivas",
+          "nome": "Perspectivas"
+        },
+        {
+          "id": "cotagem",
+          "nome": "Cotagem"
+        },
+        {
+          "id": "cortes",
+          "nome": "Cortes e seções"
+        },
+        {
+          "id": "arquitetonico",
+          "nome": "Desenho arquitetônico e CAD"
         }
       ]
     },
@@ -1072,6 +1154,45 @@
       ]
     },
     {
+      "id": "fenomenos-transporte",
+      "nome": "Fenômenos de Transporte",
+      "apelidos": [
+        "Fenômenos de Transporte I",
+        "Mecânica dos Fluidos",
+        "Mecânica dos Fluidos I",
+        "Transferência de Calor",
+        "Transferência de Calor e Massa",
+        "Hidráulica Geral"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "propriedades",
+          "nome": "Fluidos e suas propriedades"
+        },
+        {
+          "id": "estatica",
+          "nome": "Estática dos fluidos e manometria"
+        },
+        {
+          "id": "cinematica",
+          "nome": "Escoamentos, continuidade e Reynolds"
+        },
+        {
+          "id": "energia",
+          "nome": "Equação da energia e perda de carga"
+        },
+        {
+          "id": "calor",
+          "nome": "Transferência de calor"
+        },
+        {
+          "id": "massa",
+          "nome": "Transferência de massa e análise dimensional"
+        }
+      ]
+    },
+    {
       "id": "filosofia-educacao",
       "nome": "Filosofia da Educação",
       "apelidos": [
@@ -1145,6 +1266,46 @@
         {
           "id": "gravitacao",
           "nome": "Gravitação"
+        }
+      ]
+    },
+    {
+      "id": "fisica-2",
+      "nome": "Física II",
+      "apelidos": [
+        "Física Geral II",
+        "Física Geral e Experimental II",
+        "Física Básica II",
+        "Física Teórica II",
+        "Física: Fluidos, Oscilações e Ondas",
+        "Oscilações e Ondas",
+        "Física Térmica"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "fluidos",
+          "nome": "Fluidos: hidrostática e hidrodinâmica"
+        },
+        {
+          "id": "oscilacoes",
+          "nome": "Oscilações e movimento harmônico simples"
+        },
+        {
+          "id": "ondas",
+          "nome": "Ondas mecânicas e som"
+        },
+        {
+          "id": "temperatura",
+          "nome": "Temperatura, calor e dilatação"
+        },
+        {
+          "id": "gases",
+          "nome": "Gases ideais e teoria cinética"
+        },
+        {
+          "id": "termodinamica",
+          "nome": "Leis da termodinâmica"
         }
       ]
     },
@@ -1719,6 +1880,47 @@
         {
           "id": "amortizacao",
           "nome": "Sistemas de amortização (SAC e Price)"
+        }
+      ]
+    },
+    {
+      "id": "mecanica-geral",
+      "nome": "Mecânica Geral (Estática)",
+      "apelidos": [
+        "Mecânica Geral",
+        "Mecânica Geral I",
+        "Estática",
+        "Mecânica Vetorial",
+        "Mecânica Vetorial: Estática",
+        "Estática dos Corpos Rígidos",
+        "Mecânica dos Sólidos I",
+        "Isostática"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "forcas",
+          "nome": "Forças e resultantes"
+        },
+        {
+          "id": "momentos",
+          "nome": "Momento de uma força e binários"
+        },
+        {
+          "id": "equilibrio",
+          "nome": "Equilíbrio de corpos rígidos e apoios"
+        },
+        {
+          "id": "trelicas",
+          "nome": "Treliças"
+        },
+        {
+          "id": "centroides",
+          "nome": "Centroides e momentos de inércia"
+        },
+        {
+          "id": "atrito",
+          "nome": "Atrito e esforços internos"
         }
       ]
     },
@@ -2342,6 +2544,45 @@
       ]
     },
     {
+      "id": "resistencia-materiais",
+      "nome": "Resistência dos Materiais",
+      "apelidos": [
+        "Resistência dos Materiais I",
+        "Resistência dos Materiais II",
+        "Mecânica dos Sólidos",
+        "Mecânica dos Sólidos II",
+        "Mecânica dos Materiais",
+        "Resmat"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "tensao",
+          "nome": "Tensão e deformação"
+        },
+        {
+          "id": "materiais",
+          "nome": "Diagrama tensão-deformação e propriedades"
+        },
+        {
+          "id": "flexao",
+          "nome": "Flexão em vigas"
+        },
+        {
+          "id": "torcao",
+          "nome": "Torção"
+        },
+        {
+          "id": "flambagem",
+          "nome": "Flambagem de colunas"
+        },
+        {
+          "id": "combinadas",
+          "nome": "Estado de tensões e critérios de falha"
+        }
+      ]
+    },
+    {
       "id": "saude-coletiva",
       "nome": "Saúde Coletiva",
       "apelidos": [
@@ -2588,6 +2829,45 @@
         {
           "id": "avaliacao",
           "nome": "Avaliação da personalidade"
+        }
+      ]
+    },
+    {
+      "id": "termodinamica",
+      "nome": "Termodinâmica",
+      "apelidos": [
+        "Termodinâmica I",
+        "Termodinâmica Aplicada",
+        "Termodinâmica Técnica",
+        "Termodinâmica para Engenharia",
+        "Termodinâmica Clássica",
+        "Máquinas Térmicas"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos, sistemas e propriedades"
+        },
+        {
+          "id": "substancias",
+          "nome": "Substâncias puras e tabelas"
+        },
+        {
+          "id": "primeira-lei",
+          "nome": "Primeira lei: sistemas e volumes de controle"
+        },
+        {
+          "id": "segunda-lei",
+          "nome": "Segunda lei e entropia"
+        },
+        {
+          "id": "ciclos-potencia",
+          "nome": "Ciclos de potência"
+        },
+        {
+          "id": "refrigeracao",
+          "nome": "Refrigeração e psicrometria"
         }
       ]
     }

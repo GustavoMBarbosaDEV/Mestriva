@@ -1,0 +1,465 @@
+{
+  "id": "mecanica-geral",
+  "nome": "Mecânica Geral (Estática)",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "forcas",
+      "nome": "Forças e resultantes",
+      "resumo": "### Força como vetor\nForça tem módulo, direção e sentido; unidade **newton (N)**.\n- **Decomposição**: F_x = F cos θ, F_y = F sen θ (θ medido a partir do eixo x).\n- **Resultante**: soma vetorial de todas as forças: R_x = ΣF_x, R_y = ΣF_y, |R| = √(R_x² + R_y²).\n- Forças no espaço: F = F_x i + F_y j + F_z k, com cossenos diretores (cos α, cos β, cos γ) cuja soma dos quadrados é 1.\n\n### Leis de Newton na estática\n- Estática estuda corpos em **equilíbrio**: em repouso ou em movimento retilíneo uniforme.\n- **Terceira lei**: ação e reação têm mesmo módulo e sentidos opostos, aplicadas em corpos **diferentes**.\n\n### Equilíbrio de uma partícula\n**ΣF = 0** → ΣF_x = 0, ΣF_y = 0 (e ΣF_z = 0 no espaço).\n- Para três forças concorrentes em equilíbrio, vale a **lei dos senos (Lamy)**: F₁/sen α₁ = F₂/sen α₂ = F₃/sen α₃.\n\n### Diagrama de corpo livre (DCL)\nO passo mais importante: isolar o corpo e desenhar **todas** as forças externas (peso, normais, trações, reações de apoio), com sentidos assumidos. Se o resultado der negativo, o sentido real é o oposto.\n\n### Exemplo\nPeso de 100 N pendurado por dois cabos simétricos a 30° da horizontal: 2T sen 30° = 100 → **T = 100 N** em cada cabo.",
+      "revisao": "**Lembre:**\n- F_x = F cos θ, F_y = F sen θ.\n- Equilíbrio de partícula: ΣF = 0.\n- Sempre comece pelo diagrama de corpo livre.\n- Resultado negativo: sentido contrário ao assumido."
+    },
+    {
+      "id": "momentos",
+      "nome": "Momento de uma força e binários",
+      "resumo": "### Momento (torque)\nTendência de uma força girar o corpo em torno de um ponto.\n- **M = F · d**, com **d = braço de alavanca** (distância perpendicular do ponto à linha de ação da força). Unidade: **N·m**.\n- Forma vetorial: **M = r × F**.\n- Convenção usual: anti-horário positivo.\n- Força cuja linha de ação passa pelo ponto tem **momento zero** em relação a ele.\n\n### Teorema de Varignon\nO momento da resultante é igual à soma dos momentos das componentes. Permite decompor a força e somar F_x·d_y e F_y·d_x.\n\n### Binário (conjugado)\nDuas forças de mesmo módulo, direções paralelas e sentidos opostos, separadas por uma distância d.\n- Resultante **nula**, mas momento **M = F·d**.\n- O momento de um binário é o **mesmo em relação a qualquer ponto** (vetor livre).\n- Exemplo: girar um volante com as duas mãos.\n\n### Sistemas equivalentes\nQualquer sistema de forças pode ser reduzido a **uma força resultante + um binário** num ponto escolhido. Mover uma força para outro ponto exige somar o binário F·d.\n\n### Exemplo\nChave de 0,25 m com força de 40 N perpendicular: M = 40 · 0,25 = **10 N·m**. Se a força for aplicada a 60° com a chave, M = 40 · 0,25 · sen 60° ≈ 8,7 N·m.",
+      "revisao": "**Lembre:**\n- M = F·d (d perpendicular).\n- M = r × F.\n- Força pela origem: momento zero.\n- Binário: resultante nula, momento F·d igual em qualquer ponto.\n- Sistema = resultante + binário."
+    },
+    {
+      "id": "equilibrio",
+      "nome": "Equilíbrio de corpos rígidos e apoios",
+      "resumo": "### Condições de equilíbrio (no plano)\n**ΣF_x = 0, ΣF_y = 0 e ΣM = 0** (em relação a qualquer ponto). São **três equações** independentes.\n- Escolha o ponto dos momentos onde passam incógnitas: elas somem da equação.\n\n### Tipos de apoio (vínculos) no plano\n- **Apoio móvel (rolete, 1º gênero)**: 1 reação, perpendicular à superfície.\n- **Apoio fixo (articulação/pino, 2º gênero)**: 2 reações (horizontal e vertical).\n- **Engaste (3º gênero)**: 3 reações (horizontal, vertical e momento).\n- **Cabo**: tração ao longo do cabo, sempre puxando.\n\n### Classificação da estrutura\n- **Isostática**: número de reações = número de equações (3), e a estrutura é estável. Resolve-se só com equilíbrio.\n- **Hiperestática**: mais reações que equações; exige compatibilidade de deformações.\n- **Hipostática**: menos reações; a estrutura é instável (mecanismo).\n\n### Cargas distribuídas\nSubstitui-se pela **resultante** = área do diagrama de carga, aplicada no **centroide** dessa área.\n- Uniforme w em comprimento L: resultante wL no meio.\n- Triangular: resultante wL/2 a 1/3 do lado maior.\n\n### Exemplo\nViga de 6 m biapoiada com 12 kN no meio: por simetria, **6 kN em cada apoio**. Com a carga a 2 m do apoio A: ΣM_A = 0 → R_B · 6 = 12 · 2 → R_B = 4 kN e R_A = 8 kN.",
+      "revisao": "**Lembre:**\n- ΣFx = 0, ΣFy = 0, ΣM = 0.\n- Rolete: 1 reação; pino: 2; engaste: 3.\n- Isostática: reações = equações.\n- Carga distribuída: resultante = área, no centroide."
+    },
+    {
+      "id": "trelicas",
+      "nome": "Treliças",
+      "resumo": "### O que é\nEstrutura de barras retas ligadas por **nós** articulados, com cargas aplicadas **só nos nós**. Cada barra trabalha apenas a **tração** ou **compressão** (força axial).\n- Treliça simples plana: formada por triângulos; vale **b = 2n − 3** (b = barras, n = nós) para ser isostática.\n\n### Método dos nós\n- Calcule as reações de apoio.\n- Equilíbrio de cada nó: ΣF_x = 0 e ΣF_y = 0 (duas equações por nó).\n- Comece por um nó com **no máximo duas incógnitas**.\n- Assuma as barras tracionadas (força \"saindo\" do nó); resultado negativo indica **compressão**.\n\n### Método das seções (Ritter)\n- Corte a treliça por **até três barras** desconhecidas e aplique as três equações a uma das partes.\n- Ótimo para achar a força em **uma barra específica** sem resolver a treliça inteira.\n- Faça momentos num ponto onde se cruzam duas das forças desconhecidas.\n\n### Barras de força zero\n- Nó com **duas barras não colineares** e sem carga: as duas têm força zero.\n- Nó com **três barras**, duas colineares e sem carga: a terceira tem força zero.\n- Servem para estabilidade e para reduzir o comprimento de flambagem.\n\n### Aplicações\nTelhados, pontes, torres de transmissão, guindastes.",
+      "revisao": "**Lembre:**\n- Barras só com força axial; cargas nos nós.\n- Método dos nós: 2 equações por nó.\n- Seções: corte até 3 barras.\n- Negativo (assumindo tração) = compressão.\n- Nó em L sem carga: barras com força zero."
+    },
+    {
+      "id": "centroides",
+      "nome": "Centroides e momentos de inércia",
+      "resumo": "### Centro de gravidade e centroide\n- **Centro de gravidade**: ponto de aplicação da resultante do peso.\n- **Centroide**: centro geométrico de uma área (coincide com o CG se o material é homogêneo).\n- Fórmulas para áreas compostas: **x̄ = Σ(Aᵢ·xᵢ)/ΣAᵢ**, ȳ = Σ(Aᵢ·yᵢ)/ΣAᵢ. Furos entram com **área negativa**.\n- Se a figura tem **eixo de simetria**, o centroide está sobre ele.\n- Retângulo: no centro; triângulo: a **1/3 da base** (h/3); semicírculo: 4r/(3π) do diâmetro.\n\n### Momento de inércia de área (segundo momento)\nMede a resistência de uma seção à **flexão**: I = ∫y² dA, em m⁴ (ou cm⁴, mm⁴).\n- **Retângulo** em relação ao eixo centroidal paralelo à base: **I = b·h³/12**.\n- Círculo: I = πd⁴/64 = πr⁴/4.\n- Como h aparece ao **cubo**, uma viga é muito mais rígida \"em pé\" que \"deitada\".\n\n### Teorema dos eixos paralelos (Steiner)\n**I = I_c + A·d²**, onde I_c é em relação ao eixo centroidal e d a distância entre os eixos. O menor momento de inércia é sempre o do eixo que passa pelo centroide.\n\n### Momento polar e raio de giração\n- Polar: J = I_x + I_y (usado em torção).\n- Raio de giração: k = √(I/A).\n\n### Exemplo\nViga 10 × 30 cm: em pé, I = 10·30³/12 = 22.500 cm⁴; deitada, I = 30·10³/12 = 2.500 cm⁴: **9 vezes menor**.",
+      "revisao": "**Lembre:**\n- x̄ = ΣAx/ΣA; furo = área negativa.\n- Triângulo: centroide a h/3 da base.\n- Retângulo: I = bh³/12.\n- Steiner: I = I_c + Ad².\n- Viga em pé resiste muito mais."
+    },
+    {
+      "id": "atrito",
+      "nome": "Atrito e esforços internos",
+      "resumo": "### Atrito seco (Coulomb)\n- **Estático**: impede o início do movimento; vale até **F_at,máx = μₑ·N**.\n- **Cinético**: durante o deslizamento, F_at = μ_c·N, com μ_c < μₑ geralmente.\n- O atrito estático **não** é sempre μₑN: ele é só o necessário para o equilíbrio, até esse limite.\n- Não depende da área de contato (modelo de Coulomb).\n- **Ângulo de atrito**: tg φ = μₑ. Um bloco num plano inclinado fica parado enquanto **tg θ ≤ μₑ**.\n\n### Situações típicas\n- Tombamento × deslizamento: verifica-se qual ocorre primeiro comparando a força necessária para cada um.\n- Correias e cordas em polias: T₂ = T₁·e^(μβ) (β em radianos).\n\n### Esforços internos em vigas\nCortando a viga numa seção, aparecem:\n- **Esforço normal (N)**: ao longo do eixo (tração ou compressão).\n- **Esforço cortante (V)**: perpendicular ao eixo.\n- **Momento fletor (M)**: tende a curvar a viga.\n\n### Relações e diagramas\n- **dV/dx = −w** e **dM/dx = V**.\n- O momento fletor é **máximo onde o cortante é zero**.\n- Carga concentrada: salto no diagrama de cortante. Carga uniforme: cortante linear e momento parabólico.\n- Viga biapoiada com carga uniforme w em vão L: **M_máx = wL²/8** no meio. Com carga P no meio: M_máx = PL/4.",
+      "revisao": "**Lembre:**\n- F_at ≤ μₑN (estático); μ_c N (cinético).\n- Plano inclinado: parado se tg θ ≤ μₑ.\n- Esforços internos: N, V e M.\n- dM/dx = V: M máximo onde V = 0.\n- Biapoiada uniforme: M_máx = wL²/8."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "mecanica-geral-1",
+      "topico": "forcas",
+      "nivel": "conceitual",
+      "pergunta": "A condição de equilíbrio de uma partícula é:",
+      "opcoes": [
+        "A soma vetorial das forças é nula",
+        "Todas as forças são iguais",
+        "Não há forças agindo",
+        "A soma dos módulos é nula"
+      ],
+      "correta": 0,
+      "explicacao": "ΣF = 0, ou seja, ΣF_x = 0 e ΣF_y = 0; pode haver muitas forças, desde que se anulem."
+    },
+    {
+      "id": "mecanica-geral-2",
+      "topico": "forcas",
+      "nivel": "conceitual",
+      "pergunta": "Ao resolver um problema, uma força desconhecida resultou negativa. Isso significa que:",
+      "opcoes": [
+        "O problema está errado",
+        "O sentido real é o oposto do assumido no diagrama",
+        "A força não existe",
+        "A força é de atrito"
+      ],
+      "correta": 1,
+      "explicacao": "O sinal só indica se o sentido arbitrado no diagrama de corpo livre estava certo; o módulo continua válido."
+    },
+    {
+      "id": "mecanica-geral-3",
+      "topico": "forcas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o primeiro passo recomendado para analisar o equilíbrio de um corpo?",
+      "opcoes": [
+        "Calcular os momentos de inércia",
+        "Escolher o material",
+        "Desenhar o diagrama de corpo livre",
+        "Medir a temperatura"
+      ],
+      "correta": 2,
+      "explicacao": "Isolar o corpo e desenhar todas as forças externas evita esquecer reações e trocar sentidos."
+    },
+    {
+      "id": "mecanica-geral-4",
+      "topico": "forcas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma força de 200 N forma 30° com o eixo x. Quais são suas componentes?",
+      "opcoes": [
+        "F_x = 100 N e F_y ≈ 173 N",
+        "F_x = 200 N e F_y = 0",
+        "F_x = F_y ≈ 141 N",
+        "F_x ≈ 173 N e F_y = 100 N"
+      ],
+      "correta": 3,
+      "explicacao": "F_x = 200 cos 30° ≈ 173 N; F_y = 200 sen 30° = 100 N."
+    },
+    {
+      "id": "mecanica-geral-5",
+      "topico": "forcas",
+      "nivel": "analise",
+      "pergunta": "Um peso de 300 N está pendurado por dois cabos simétricos, cada um a 30° da horizontal. Qual é a tração em cada cabo?",
+      "opcoes": [
+        "300 N",
+        "150 N",
+        "173 N",
+        "600 N"
+      ],
+      "correta": 0,
+      "explicacao": "Vertical: 2T sen 30° = 300 → 2T · 0,5 = 300 → T = 300 N. Cabos quase horizontais exigem trações muito grandes."
+    },
+    {
+      "id": "mecanica-geral-6",
+      "topico": "momentos",
+      "nivel": "conceitual",
+      "pergunta": "O braço de alavanca no cálculo do momento é:",
+      "opcoes": [
+        "O comprimento total da peça",
+        "A distância perpendicular do ponto à linha de ação da força",
+        "A distância até o ponto de aplicação, em qualquer direção",
+        "O ângulo da força"
+      ],
+      "correta": 1,
+      "explicacao": "Só a distância perpendicular conta; por isso uma força pela linha do ponto não gira o corpo."
+    },
+    {
+      "id": "mecanica-geral-7",
+      "topico": "momentos",
+      "nivel": "conceitual",
+      "pergunta": "Um binário (conjugado) produz:",
+      "opcoes": [
+        "Força resultante sem momento",
+        "Força e momento nulos",
+        "Momento sem força resultante",
+        "Apenas tração"
+      ],
+      "correta": 2,
+      "explicacao": "Duas forças iguais e opostas paralelas se anulam como força, mas geram rotação de módulo F·d."
+    },
+    {
+      "id": "mecanica-geral-8",
+      "topico": "momentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação sobre o momento de um binário está correta?",
+      "opcoes": [
+        "Depende do ponto escolhido",
+        "É sempre nulo",
+        "Só existe em três dimensões",
+        "Tem o mesmo valor em relação a qualquer ponto"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso o momento de um binário é chamado de vetor livre."
+    },
+    {
+      "id": "mecanica-geral-9",
+      "topico": "momentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma força de 50 N é aplicada perpendicularmente na ponta de uma chave de 0,3 m. Qual é o momento?",
+      "opcoes": [
+        "15 N·m",
+        "150 N·m",
+        "1,5 N·m",
+        "166 N·m"
+      ],
+      "correta": 0,
+      "explicacao": "M = F · d = 50 · 0,3 = 15 N·m. Uma chave mais comprida dá mais momento com a mesma força."
+    },
+    {
+      "id": "mecanica-geral-10",
+      "topico": "momentos",
+      "nivel": "analise",
+      "pergunta": "Para afrouxar um parafuso emperrado, qual opção dá mais momento com a mesma força?",
+      "opcoes": [
+        "Puxar paralelamente à chave",
+        "Usar chave mais longa e puxar perpendicularmente a ela",
+        "Usar chave mais curta",
+        "Puxar na direção do parafuso"
+      ],
+      "correta": 1,
+      "explicacao": "M = F · d · sen θ: máximo com braço maior e θ = 90°. Puxar ao longo da chave dá momento zero."
+    },
+    {
+      "id": "mecanica-geral-11",
+      "topico": "equilibrio",
+      "nivel": "conceitual",
+      "pergunta": "Quantas reações um engaste oferece numa estrutura plana?",
+      "opcoes": [
+        "Uma",
+        "Duas: horizontal e vertical",
+        "Três: horizontal, vertical e momento",
+        "Nenhuma"
+      ],
+      "correta": 2,
+      "explicacao": "Rolete dá uma reação, articulação (pino) dá duas e engaste dá três, inclusive um momento."
+    },
+    {
+      "id": "mecanica-geral-12",
+      "topico": "equilibrio",
+      "nivel": "conceitual",
+      "pergunta": "Uma estrutura plana é isostática quando:",
+      "opcoes": [
+        "Tem mais reações que equações",
+        "Tem menos reações que equações",
+        "Não tem apoios",
+        "O número de reações é igual ao de equações de equilíbrio e ela é estável"
+      ],
+      "correta": 3,
+      "explicacao": "Com três reações bem dispostas, as três equações de equilíbrio resolvem tudo. Mais reações: hiperestática; menos: hipostática."
+    },
+    {
+      "id": "mecanica-geral-13",
+      "topico": "equilibrio",
+      "nivel": "conceitual",
+      "pergunta": "Uma carga uniformemente distribuída sobre um trecho pode ser substituída por:",
+      "opcoes": [
+        "Uma força igual à área do diagrama, aplicada no centroide",
+        "Uma força igual à carga por metro, na ponta",
+        "Um binário",
+        "Nada, pois não gera reações"
+      ],
+      "correta": 0,
+      "explicacao": "Para w kN/m em L metros, a resultante é wL aplicada no meio do trecho."
+    },
+    {
+      "id": "mecanica-geral-14",
+      "topico": "equilibrio",
+      "nivel": "aplicacao",
+      "pergunta": "Uma viga biapoiada de 10 m tem carga de 20 kN a 4 m do apoio A. Qual é a reação no apoio B?",
+      "opcoes": [
+        "12 kN",
+        "8 kN",
+        "10 kN",
+        "20 kN"
+      ],
+      "correta": 1,
+      "explicacao": "ΣM_A = 0: R_B · 10 = 20 · 4 → R_B = 8 kN; então R_A = 12 kN. O apoio mais perto da carga recebe mais."
+    },
+    {
+      "id": "mecanica-geral-15",
+      "topico": "equilibrio",
+      "nivel": "analise",
+      "pergunta": "Uma viga em balanço (engastada numa ponta) tem 3 m e carga de 5 kN na ponta livre. Quais são as reações no engaste?",
+      "opcoes": [
+        "Só vertical de 5 kN",
+        "Vertical de 2,5 kN e momento de 7,5 kN·m",
+        "Vertical de 5 kN e momento de 15 kN·m",
+        "Só momento de 15 kN·m"
+      ],
+      "correta": 2,
+      "explicacao": "ΣF_y = 0 → V = 5 kN; ΣM = 0 → M = 5 · 3 = 15 kN·m. Sem o momento do engaste, a viga giraria."
+    },
+    {
+      "id": "mecanica-geral-16",
+      "topico": "trelicas",
+      "nivel": "conceitual",
+      "pergunta": "Numa treliça ideal, as barras ficam submetidas a:",
+      "opcoes": [
+        "Flexão e cisalhamento",
+        "Torção",
+        "Apenas momento fletor",
+        "Apenas forças axiais (tração ou compressão)"
+      ],
+      "correta": 3,
+      "explicacao": "Como as cargas são aplicadas nos nós e as ligações são articuladas, cada barra só puxa ou empurra."
+    },
+    {
+      "id": "mecanica-geral-17",
+      "topico": "trelicas",
+      "nivel": "conceitual",
+      "pergunta": "O método das seções é mais vantajoso quando:",
+      "opcoes": [
+        "Se quer a força em poucas barras específicas",
+        "Se quer as reações de apoio",
+        "A treliça tem só um nó",
+        "Não há cargas"
+      ],
+      "correta": 0,
+      "explicacao": "Corta-se por até três barras desconhecidas e resolve-se com as três equações, sem passar nó a nó."
+    },
+    {
+      "id": "mecanica-geral-18",
+      "topico": "trelicas",
+      "nivel": "conceitual",
+      "pergunta": "Num nó sem carga externa ligado a apenas duas barras não colineares, as forças nessas barras são:",
+      "opcoes": [
+        "Iguais e de tração",
+        "Nulas",
+        "Iguais e de compressão",
+        "Iguais à reação de apoio"
+      ],
+      "correta": 1,
+      "explicacao": "Duas forças em direções diferentes só se equilibram se ambas forem zero."
+    },
+    {
+      "id": "mecanica-geral-19",
+      "topico": "trelicas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma treliça plana simples tem 7 nós. Quantas barras ela deve ter para ser isostática?",
+      "opcoes": [
+        "14",
+        "7",
+        "11",
+        "10"
+      ],
+      "correta": 2,
+      "explicacao": "b = 2n − 3 = 2 · 7 − 3 = 11 barras: partindo de um triângulo, cada nó novo entra com duas barras."
+    },
+    {
+      "id": "mecanica-geral-20",
+      "topico": "trelicas",
+      "nivel": "analise",
+      "pergunta": "No método dos nós, todas as barras foram assumidas tracionadas e uma deu −12 kN. A interpretação correta é:",
+      "opcoes": [
+        "A barra está tracionada com 12 kN",
+        "Houve erro e a barra deve ser retirada",
+        "A barra tem força zero",
+        "A barra está comprimida com 12 kN"
+      ],
+      "correta": 3,
+      "explicacao": "O sinal negativo inverte o sentido assumido: a barra empurra o nó, ou seja, está em compressão."
+    },
+    {
+      "id": "mecanica-geral-21",
+      "topico": "centroides",
+      "nivel": "conceitual",
+      "pergunta": "Se uma figura plana tem um eixo de simetria, o centroide:",
+      "opcoes": [
+        "Está sobre o eixo de simetria",
+        "Está fora da figura sempre",
+        "Está num dos vértices",
+        "Não pode ser calculado"
+      ],
+      "correta": 0,
+      "explicacao": "As contribuições dos dois lados se anulam em relação ao eixo de simetria."
+    },
+    {
+      "id": "mecanica-geral-22",
+      "topico": "centroides",
+      "nivel": "conceitual",
+      "pergunta": "O momento de inércia de um retângulo em relação ao eixo centroidal paralelo à base é:",
+      "opcoes": [
+        "bh²/6",
+        "bh³/12",
+        "b³h/3",
+        "bh/2"
+      ],
+      "correta": 1,
+      "explicacao": "A altura entra ao cubo, por isso ela tem muito mais influência que a largura na rigidez à flexão."
+    },
+    {
+      "id": "mecanica-geral-23",
+      "topico": "centroides",
+      "nivel": "conceitual",
+      "pergunta": "O teorema dos eixos paralelos (Steiner) diz que:",
+      "opcoes": [
+        "I = I_c − A·d",
+        "I = A·d",
+        "I = I_c + A·d²",
+        "I = I_c/d²"
+      ],
+      "correta": 2,
+      "explicacao": "O momento de inércia é mínimo no eixo centroidal e cresce com o quadrado da distância."
+    },
+    {
+      "id": "mecanica-geral-24",
+      "topico": "centroides",
+      "nivel": "aplicacao",
+      "pergunta": "Onde está o centroide de um triângulo de altura 9 cm, medido a partir da base?",
+      "opcoes": [
+        "A 4,5 cm da base",
+        "A 6 cm da base",
+        "A 9 cm da base",
+        "A 3 cm da base"
+      ],
+      "correta": 3,
+      "explicacao": "O centroide do triângulo fica a h/3 da base: 9/3 = 3 cm, que é o encontro das medianas."
+    },
+    {
+      "id": "mecanica-geral-25",
+      "topico": "centroides",
+      "nivel": "analise",
+      "pergunta": "Uma tábua de 5 cm × 20 cm vai ser usada como viga. Qual posição resiste melhor à flexão vertical?",
+      "opcoes": [
+        "Em pé (altura 20 cm), com I 16 vezes maior",
+        "Deitada (altura 5 cm)",
+        "Tanto faz, a área é a mesma",
+        "Em pé, com I só 4 vezes maior"
+      ],
+      "correta": 0,
+      "explicacao": "Em pé: 5·20³/12 ≈ 3.333 cm⁴; deitada: 20·5³/12 ≈ 208 cm⁴. A razão é (20/5)² = 16."
+    },
+    {
+      "id": "mecanica-geral-26",
+      "topico": "atrito",
+      "nivel": "conceitual",
+      "pergunta": "A força de atrito estático sobre um bloco parado é:",
+      "opcoes": [
+        "Sempre igual a μₑN",
+        "A necessária para o equilíbrio, até o limite μₑN",
+        "Sempre zero",
+        "Maior que μₑN"
+      ],
+      "correta": 1,
+      "explicacao": "Se ninguém empurra o bloco num piso horizontal, o atrito é zero; ele cresce com o empurrão até μₑN."
+    },
+    {
+      "id": "mecanica-geral-27",
+      "topico": "atrito",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os esforços internos numa seção de viga plana?",
+      "opcoes": [
+        "Só momento fletor",
+        "Pressão e temperatura",
+        "Normal, cortante e momento fletor",
+        "Tração e torque apenas"
+      ],
+      "correta": 2,
+      "explicacao": "N atua ao longo do eixo, V perpendicular a ele e M tende a curvar a viga."
+    },
+    {
+      "id": "mecanica-geral-28",
+      "topico": "atrito",
+      "nivel": "conceitual",
+      "pergunta": "Ao longo de uma viga, o momento fletor máximo ocorre onde:",
+      "opcoes": [
+        "O esforço cortante é máximo",
+        "Há um apoio sempre",
+        "A carga é nula",
+        "O esforço cortante é zero"
+      ],
+      "correta": 3,
+      "explicacao": "Como dM/dx = V, o momento tem máximo ou mínimo onde V troca de sinal."
+    },
+    {
+      "id": "mecanica-geral-29",
+      "topico": "atrito",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o momento fletor máximo numa viga biapoiada de 4 m com carga uniforme de 10 kN/m?",
+      "opcoes": [
+        "20 kN·m",
+        "40 kN·m",
+        "10 kN·m",
+        "160 kN·m"
+      ],
+      "correta": 0,
+      "explicacao": "M_máx = wL²/8 = 10 · 16/8 = 20 kN·m, no meio do vão."
+    },
+    {
+      "id": "mecanica-geral-30",
+      "topico": "atrito",
+      "nivel": "analise",
+      "pergunta": "Um bloco está parado num plano inclinado com μₑ = 0,5. Até que ângulo ele fica parado?",
+      "opcoes": [
+        "Até 45°",
+        "Até cerca de 26,6°, quando tg θ = 0,5",
+        "Até 60°",
+        "Qualquer ângulo"
+      ],
+      "correta": 1,
+      "explicacao": "O bloco escorrega quando tg θ > μₑ; arctg 0,5 ≈ 26,6°. Note que não depende do peso do bloco."
+    }
+  ]
+}

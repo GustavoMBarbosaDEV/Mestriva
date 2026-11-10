@@ -1,0 +1,465 @@
+{
+  "id": "resistencia-materiais",
+  "nome": "Resistência dos Materiais",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "tensao",
+      "nome": "Tensão e deformação",
+      "resumo": "### Tensão\nForça interna por unidade de área: unidade **pascal** (N/m²); na prática **MPa** (N/mm²).\n- **Tensão normal**: **σ = N/A** (perpendicular à seção). Tração positiva, compressão negativa.\n- **Tensão de cisalhamento (média)**: **τ = V/A** (paralela à seção). Ex.: parafusos e pinos.\n- **Tensão de esmagamento** (contato): σ = F/(d·t) em furos de chapas.\n\n### Deformação\n- **Deformação normal** (específica): **ε = ΔL/L₀** (adimensional, ou em %).\n- **Deformação de cisalhamento** γ: variação do ângulo reto, em radianos.\n- **Coeficiente de Poisson**: ν = −ε_transversal/ε_longitudinal. Quando a barra estica, ela afina. Aço: ν ≈ 0,3.\n\n### Lei de Hooke\nNo regime elástico: **σ = E·ε** e τ = G·γ.\n- **E** = módulo de elasticidade (Young): aço ≈ **200 GPa**, alumínio ≈ 70 GPa, concreto ≈ 25 a 30 GPa.\n- **Alongamento de barra**: **δ = N·L/(E·A)**.\n\n### Tensão admissível e segurança\n- **Coeficiente de segurança**: CS = tensão de falha/tensão admissível (> 1).\n- Dimensionar: A ≥ N/σ_adm.\n\n### Exemplo\nBarra de aço de 2 m, área 100 mm², carga de 20 kN: σ = 20.000/100 = **200 MPa**; δ = 20.000·2.000/(200.000·100) = **2 mm**.",
+      "revisao": "**Lembre:**\n- σ = N/A; τ = V/A.\n- ε = ΔL/L₀.\n- Hooke: σ = Eε; δ = NL/(EA).\n- Aço: E ≈ 200 GPa, ν ≈ 0,3.\n- CS = tensão de falha/admissível."
+    },
+    {
+      "id": "materiais",
+      "nome": "Diagrama tensão-deformação e propriedades",
+      "resumo": "### Ensaio de tração\nUm corpo de prova é tracionado até romper; registra-se σ × ε.\n\n### Pontos do diagrama (aço dúctil)\n- **Limite de proporcionalidade**: até aqui σ e ε são proporcionais (Hooke). A inclinação é E.\n- **Limite elástico**: ao descarregar, o material volta ao tamanho original.\n- **Escoamento** (σ_e): grande deformação quase sem aumento de carga; começa a deformação **plástica** (permanente). Muitas vezes é a referência de projeto.\n- **Encruamento**: após o escoamento, o material volta a ganhar resistência.\n- **Limite de resistência** (σ_u ou σ_r): tensão máxima do diagrama.\n- **Estricção**: redução localizada da seção (\"pescoço\") antes da ruptura.\n- **Ruptura**.\n\n### Materiais dúcteis e frágeis\n- **Dúcteis** (aço doce, alumínio, cobre): grande deformação antes de romper; avisam antes de falhar.\n- **Frágeis** (ferro fundido, concreto, vidro, cerâmica): rompem com pouca deformação; resistem muito melhor à **compressão** que à tração (por isso o concreto leva armadura de aço).\n- Materiais sem patamar de escoamento definido: usa-se o **limite convencional de 0,2%**.\n\n### Outras propriedades\n- **Resiliência**: energia absorvida no regime elástico (área sob a parte elástica).\n- **Tenacidade**: energia absorvida até a ruptura (área total sob a curva).\n- **Fadiga**: falha sob cargas **cíclicas** com tensões abaixo do limite de resistência.\n- **Fluência**: deformação lenta ao longo do tempo sob carga constante (importante em altas temperaturas e no concreto).",
+      "revisao": "**Lembre:**\n- Proporcionalidade → escoamento → resistência máxima → estricção → ruptura.\n- Escoamento: início da deformação permanente.\n- Dúctil avisa; frágil rompe de repente.\n- Frágeis resistem mais à compressão.\n- Fadiga: cargas cíclicas; fluência: carga constante no tempo."
+    },
+    {
+      "id": "flexao",
+      "nome": "Flexão em vigas",
+      "resumo": "### Tensões normais na flexão\nNuma viga que se curva, as fibras de um lado são **comprimidas** e as do outro **tracionadas**. Entre elas fica a **linha neutra** (tensão zero), que passa pelo **centroide** da seção.\n- **Fórmula da flexão**: **σ = M·y/I**.\n  - M = momento fletor na seção.\n  - y = distância da fibra até a linha neutra.\n  - I = momento de inércia da seção em relação à linha neutra.\n- A tensão é **máxima nas fibras extremas**: σ_máx = M·c/I = **M/W**, com **W = I/c** (módulo resistente).\n- Retângulo: **W = b·h²/6**.\n\n### Viga biapoiada com carga para baixo\n- Fibras de **cima comprimidas**, fibras de **baixo tracionadas**. Por isso, no concreto armado, a armadura principal fica embaixo.\n- Em balanço (marquise), é o contrário: tração em cima.\n\n### Seções eficientes\nComo a tensão é maior longe da linha neutra, vale concentrar material nas extremidades: **perfil I**, perfis caixão. A alma (meio) trabalha pouco à flexão e mais ao cisalhamento.\n\n### Cisalhamento na flexão\n**τ = V·Q/(I·b)** (Q = momento estático da área acima do ponto). Em seção retangular, τ_máx = 1,5·V/A, na **linha neutra**.\n\n### Exemplo\nViga 10 × 20 cm com M = 4 kN·m: W = 10·20²/6 ≈ 667 cm³; σ = 400.000 N·cm/667 cm³ ≈ 600 N/cm² = **6 MPa**.",
+      "revisao": "**Lembre:**\n- σ = My/I; máxima nas fibras extremas.\n- Linha neutra pelo centroide, tensão zero.\n- W = I/c; retângulo: bh²/6.\n- Biapoiada: tração embaixo.\n- Perfil I: material longe da linha neutra."
+    },
+    {
+      "id": "torcao",
+      "nome": "Torção",
+      "resumo": "### Eixos circulares\nUm eixo submetido a um **torque T** sofre tensões de cisalhamento.\n- **τ = T·ρ/J**, com ρ = distância ao centro e J = momento polar de inércia.\n- A tensão é **zero no centro** e **máxima na superfície**: τ_máx = T·c/J.\n- **Eixo maciço**: J = π·d⁴/32 → τ_máx = 16T/(π·d³).\n- **Eixo vazado**: J = π(D⁴ − d⁴)/32. Como o centro trabalha pouco, eixos vazados economizam material com perda pequena de resistência.\n\n### Ângulo de torção\n**φ = T·L/(G·J)** (em radianos). G = módulo de cisalhamento; aço ≈ 80 GPa. Relação: G = E/[2(1 + ν)].\n\n### Potência transmitida\n**P = T·ω = 2π·f·T** (P em W, T em N·m, f em Hz). Com a mesma potência, um eixo que gira **mais rápido** transmite **menos torque** e pode ser mais fino.\n- rpm para Hz: f = rpm/60.\n\n### Exemplo\nMotor de 10 kW a 1.800 rpm (30 Hz): T = 10.000/(2π·30) ≈ **53 N·m**.\n\n### Ruptura\n- Materiais dúcteis rompem por cisalhamento numa seção **transversal** (plana).\n- Materiais frágeis rompem numa hélice a **45°**, pela tração máxima (experimente torcer giz).",
+      "revisao": "**Lembre:**\n- τ = Tρ/J; zero no centro, máxima na superfície.\n- Maciço: J = πd⁴/32.\n- φ = TL/(GJ).\n- P = 2πfT.\n- Frágil rompe a 45°."
+    },
+    {
+      "id": "flambagem",
+      "nome": "Flambagem de colunas",
+      "resumo": "### O que é\n**Instabilidade** de peças **comprimidas** e esbeltas: a coluna de repente se curva lateralmente, mesmo com tensão abaixo da de escoamento. É falha por **geometria**, não só por resistência.\n\n### Carga crítica de Euler\n**P_cr = π²·E·I/(L_e)²**\n- **I** = menor momento de inércia da seção (a coluna flamba no eixo \"mais fraco\").\n- **L_e = K·L** = comprimento efetivo de flambagem, que depende dos apoios:\n  - biarticulada: **K = 1**;\n  - engastada e livre: **K = 2** (a pior);\n  - engastada e articulada: K ≈ 0,7;\n  - biengastada: **K = 0,5** (a melhor).\n- Dobrar o comprimento reduz a carga crítica a **1/4**.\n\n### Esbeltez\n- **Índice de esbeltez**: λ = L_e/r, com r = √(I/A) (raio de giração).\n- Tensão crítica: σ_cr = π²E/λ².\n- Colunas **curtas** (λ pequeno) falham por esmagamento/escoamento; **longas**, por flambagem. A fórmula de Euler só vale no regime elástico (colunas longas).\n\n### Como aumentar a resistência à flambagem\n- Diminuir o comprimento ou travar lateralmente (contraventamento).\n- Melhorar os apoios (engastar).\n- Usar seções com **I alto em todas as direções**: tubos circulares ou quadrados.\n- Material com E maior.\n\n### Exemplo\nUma régua comprimida pelas pontas se curva no lado mais fino, nunca no mais largo.",
+      "revisao": "**Lembre:**\n- Flambagem: instabilidade em compressão.\n- P_cr = π²EI/(KL)².\n- K: 2 (balanço), 1 (biarticulada), 0,7, 0,5 (biengastada).\n- Usa-se o menor I.\n- λ = L_e/r; colunas longas flambam."
+    },
+    {
+      "id": "combinadas",
+      "nome": "Estado de tensões e critérios de falha",
+      "resumo": "### Estado plano de tensões\nNum ponto, as tensões dependem da **orientação** do plano considerado: σ_x, σ_y e τ_xy.\n\n### Tensões principais\n- Existem dois planos perpendiculares sem cisalhamento: neles agem as **tensões principais** σ₁ (máxima) e σ₂ (mínima).\n- **σ₁,₂ = (σ_x + σ_y)/2 ± √[((σ_x − σ_y)/2)² + τ_xy²]**.\n- O cisalhamento máximo no plano: **τ_máx = (σ₁ − σ₂)/2**, em planos a **45°** dos principais.\n\n### Círculo de Mohr\nRepresentação gráfica: centro em ((σ_x + σ_y)/2, 0) e raio R = √[((σ_x − σ_y)/2)² + τ_xy²]. As tensões principais são os pontos onde o círculo corta o eixo σ; o raio é τ_máx.\n- Um ângulo θ na peça corresponde a **2θ** no círculo.\n\n### Carregamentos combinados\nSomam-se os efeitos (superposição, no regime elástico): σ = N/A ± M·y/I, por exemplo, em pilares com carga **excêntrica**.\n\n### Critérios de falha\n- **Materiais dúcteis**:\n  - **Tresca** (cisalhamento máximo): falha quando τ_máx atinge σ_e/2.\n  - **von Mises** (energia de distorção): σ_eq = √(σ₁² − σ₁σ₂ + σ₂²) ≤ σ_e. É o mais usado em projeto e em softwares de elementos finitos.\n- **Materiais frágeis**: **Rankine** (tensão normal máxima) ou Mohr-Coulomb.\n\n### Vasos de pressão de parede fina\n- Tensão **circunferencial**: σ = p·r/t.\n- Tensão **longitudinal**: σ = p·r/(2t), a metade. Por isso cilindros sob pressão rasgam no sentido do comprimento.",
+      "revisao": "**Lembre:**\n- Tensões principais: planos sem cisalhamento.\n- τ_máx = (σ₁ − σ₂)/2, a 45°.\n- Mohr: θ na peça = 2θ no círculo.\n- Dúcteis: von Mises ou Tresca; frágeis: Rankine.\n- Vaso fino: circunferencial pr/t, o dobro da longitudinal."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "resistencia-materiais-1",
+      "topico": "tensao",
+      "nivel": "conceitual",
+      "pergunta": "A tensão normal média numa barra tracionada é calculada por:",
+      "opcoes": [
+        "σ = N/A",
+        "σ = N·A",
+        "σ = A/N",
+        "σ = N·L/A"
+      ],
+      "correta": 0,
+      "explicacao": "Força axial dividida pela área da seção transversal; com N em newtons e A em mm², o resultado sai em MPa."
+    },
+    {
+      "id": "resistencia-materiais-2",
+      "topico": "tensao",
+      "nivel": "conceitual",
+      "pergunta": "O módulo de elasticidade (E) de um material representa:",
+      "opcoes": [
+        "A tensão de ruptura",
+        "Sua rigidez no regime elástico (inclinação de σ × ε)",
+        "A densidade do material",
+        "A deformação máxima"
+      ],
+      "correta": 1,
+      "explicacao": "Quanto maior E, menos o material se deforma para a mesma tensão; aço é cerca de três vezes mais rígido que alumínio."
+    },
+    {
+      "id": "resistencia-materiais-3",
+      "topico": "tensao",
+      "nivel": "conceitual",
+      "pergunta": "O coeficiente de Poisson relaciona:",
+      "opcoes": [
+        "A tensão com a deformação",
+        "O cisalhamento com a torção",
+        "A deformação transversal com a longitudinal",
+        "A carga com a área"
+      ],
+      "correta": 2,
+      "explicacao": "Ao esticar uma barra, ela afina: ν = −ε_trans/ε_long, cerca de 0,3 para o aço."
+    },
+    {
+      "id": "resistencia-materiais-4",
+      "topico": "tensao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma barra de 50 mm² suporta 10 kN de tração. Qual é a tensão normal?",
+      "opcoes": [
+        "500 MPa",
+        "20 MPa",
+        "5 MPa",
+        "200 MPa"
+      ],
+      "correta": 3,
+      "explicacao": "σ = N/A = 10.000 N/50 mm² = 200 N/mm² = 200 MPa."
+    },
+    {
+      "id": "resistencia-materiais-5",
+      "topico": "tensao",
+      "nivel": "analise",
+      "pergunta": "Uma barra de aço (E = 200 GPa) de 1 m e 100 mm² recebe 10 kN. Quanto ela se alonga?",
+      "opcoes": [
+        "0,5 mm",
+        "5 mm",
+        "0,05 mm",
+        "50 mm"
+      ],
+      "correta": 0,
+      "explicacao": "δ = NL/(EA) = 10.000 · 1.000/(200.000 · 100) = 0,5 mm (com E em N/mm² e L em mm)."
+    },
+    {
+      "id": "resistencia-materiais-6",
+      "topico": "materiais",
+      "nivel": "conceitual",
+      "pergunta": "No diagrama tensão-deformação, o escoamento marca:",
+      "opcoes": [
+        "A ruptura do material",
+        "O início da deformação plástica (permanente)",
+        "O fim da estricção",
+        "O ponto de tensão zero"
+      ],
+      "correta": 1,
+      "explicacao": "Depois do escoamento, ao retirar a carga, a peça não volta ao tamanho original."
+    },
+    {
+      "id": "resistencia-materiais-7",
+      "topico": "materiais",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a característica típica de um material frágil?",
+      "opcoes": [
+        "Deforma muito antes de romper",
+        "Tem patamar de escoamento bem definido",
+        "Rompe com pouca deformação e resiste mais à compressão que à tração",
+        "Resiste igualmente a tração e compressão sempre"
+      ],
+      "correta": 2,
+      "explicacao": "Concreto, vidro e ferro fundido são exemplos; por isso o concreto recebe aço nas regiões tracionadas."
+    },
+    {
+      "id": "resistencia-materiais-8",
+      "topico": "materiais",
+      "nivel": "conceitual",
+      "pergunta": "Falha de uma peça sob cargas repetidas, com tensões abaixo do limite de resistência, chama-se:",
+      "opcoes": [
+        "Fluência",
+        "Flambagem",
+        "Escoamento",
+        "Fadiga"
+      ],
+      "correta": 3,
+      "explicacao": "Eixos, molas e asas de avião são projetados contra fadiga; trincas crescem um pouco a cada ciclo."
+    },
+    {
+      "id": "resistencia-materiais-9",
+      "topico": "materiais",
+      "nivel": "aplicacao",
+      "pergunta": "Um aço tem tensão de escoamento de 250 MPa e o projeto usa coeficiente de segurança 2. Qual é a tensão admissível?",
+      "opcoes": [
+        "125 MPa",
+        "500 MPa",
+        "250 MPa",
+        "62,5 MPa"
+      ],
+      "correta": 0,
+      "explicacao": "σ_adm = σ_e/CS = 250/2 = 125 MPa; a peça é dimensionada para trabalhar abaixo desse valor."
+    },
+    {
+      "id": "resistencia-materiais-10",
+      "topico": "materiais",
+      "nivel": "analise",
+      "pergunta": "Por que se prefere material dúctil em estruturas sujeitas a sobrecargas inesperadas?",
+      "opcoes": [
+        "Porque é sempre mais barato",
+        "Porque deforma visivelmente antes de romper, dando aviso e absorvendo energia",
+        "Porque não sofre fadiga",
+        "Porque tem módulo de elasticidade infinito"
+      ],
+      "correta": 1,
+      "explicacao": "A tenacidade alta e o escoamento permitem redistribuir esforços e perceber o problema antes da ruptura."
+    },
+    {
+      "id": "resistencia-materiais-11",
+      "topico": "flexao",
+      "nivel": "conceitual",
+      "pergunta": "Na flexão de uma viga, a linha neutra é onde:",
+      "opcoes": [
+        "A tensão normal é máxima",
+        "O cisalhamento é zero",
+        "A tensão normal é zero",
+        "A viga está apoiada"
+      ],
+      "correta": 2,
+      "explicacao": "Ela passa pelo centroide da seção e separa a região tracionada da comprimida."
+    },
+    {
+      "id": "resistencia-materiais-12",
+      "topico": "flexao",
+      "nivel": "conceitual",
+      "pergunta": "Numa viga biapoiada com cargas para baixo, as fibras inferiores ficam:",
+      "opcoes": [
+        "Comprimidas",
+        "Sem tensão",
+        "Torcidas",
+        "Tracionadas"
+      ],
+      "correta": 3,
+      "explicacao": "A viga se curva como um sorriso: a parte de baixo estica. Por isso a armadura do concreto vai embaixo."
+    },
+    {
+      "id": "resistencia-materiais-13",
+      "topico": "flexao",
+      "nivel": "conceitual",
+      "pergunta": "Por que o perfil I é tão usado em vigas de aço?",
+      "opcoes": [
+        "Concentra material longe da linha neutra, aumentando I com pouco peso",
+        "Porque é mais fácil de soldar",
+        "Porque não tem linha neutra",
+        "Porque resiste melhor à torção que um tubo"
+      ],
+      "correta": 0,
+      "explicacao": "A tensão de flexão cresce com a distância à linha neutra; as mesas trabalham muito e a alma liga as duas."
+    },
+    {
+      "id": "resistencia-materiais-14",
+      "topico": "flexao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma viga retangular de 6 cm × 10 cm (altura) sofre M = 1.000 N·m. Qual é a tensão máxima?",
+      "opcoes": [
+        "1 MPa",
+        "10 MPa",
+        "100 MPa",
+        "6 MPa"
+      ],
+      "correta": 1,
+      "explicacao": "W = bh²/6 = 6 · 100/6 = 100 cm³ = 100.000 mm³; σ = 1.000.000 N·mm/100.000 mm³ = 10 MPa."
+    },
+    {
+      "id": "resistencia-materiais-15",
+      "topico": "flexao",
+      "nivel": "analise",
+      "pergunta": "Se a altura de uma viga retangular dobra (mesma largura e mesmo momento), a tensão máxima de flexão:",
+      "opcoes": [
+        "Cai para 1/2",
+        "Cai para 1/8",
+        "Cai para 1/4",
+        "Não muda"
+      ],
+      "correta": 2,
+      "explicacao": "σ = M/W e W = bh²/6; com h dobrado, W fica 4 vezes maior e a tensão 4 vezes menor."
+    },
+    {
+      "id": "resistencia-materiais-16",
+      "topico": "torcao",
+      "nivel": "conceitual",
+      "pergunta": "Num eixo circular maciço sob torção, a tensão de cisalhamento é:",
+      "opcoes": [
+        "Igual em toda a seção",
+        "Máxima no centro",
+        "Zero na superfície",
+        "Zero no centro e máxima na superfície"
+      ],
+      "correta": 3,
+      "explicacao": "τ = Tρ/J cresce linearmente com a distância ao centro; por isso eixos vazados são eficientes."
+    },
+    {
+      "id": "resistencia-materiais-17",
+      "topico": "torcao",
+      "nivel": "conceitual",
+      "pergunta": "Com a mesma potência, se a rotação de um eixo aumenta, o torque transmitido:",
+      "opcoes": [
+        "Diminui",
+        "Aumenta",
+        "Não muda",
+        "Fica zero"
+      ],
+      "correta": 0,
+      "explicacao": "P = 2πfT: para P fixo, mais rotação significa menos torque, e o eixo pode ter diâmetro menor."
+    },
+    {
+      "id": "resistencia-materiais-18",
+      "topico": "torcao",
+      "nivel": "conceitual",
+      "pergunta": "Ao torcer um giz (material frágil) até quebrar, a fratura aparece:",
+      "opcoes": [
+        "Perfeitamente transversal ao eixo",
+        "Numa hélice a 45°",
+        "Ao longo do comprimento",
+        "Só nas pontas"
+      ],
+      "correta": 1,
+      "explicacao": "Materiais frágeis falham pela tração máxima, que na torção pura ocorre em planos a 45°."
+    },
+    {
+      "id": "resistencia-materiais-19",
+      "topico": "torcao",
+      "nivel": "aplicacao",
+      "pergunta": "Um motor de 6,28 kW gira a 600 rpm. Qual é o torque no eixo?",
+      "opcoes": [
+        "10 N·m",
+        "1.000 N·m",
+        "100 N·m",
+        "628 N·m"
+      ],
+      "correta": 2,
+      "explicacao": "f = 600/60 = 10 Hz; T = P/(2πf) = 6.280/(2π · 10) ≈ 100 N·m."
+    },
+    {
+      "id": "resistencia-materiais-20",
+      "topico": "torcao",
+      "nivel": "analise",
+      "pergunta": "Se o diâmetro de um eixo maciço dobra (mesmo torque), a tensão máxima de cisalhamento:",
+      "opcoes": [
+        "Cai para 1/2",
+        "Cai para 1/4",
+        "Cai para 1/16",
+        "Cai para 1/8"
+      ],
+      "correta": 3,
+      "explicacao": "τ_máx = 16T/(πd³); com d dobrado, d³ fica 8 vezes maior."
+    },
+    {
+      "id": "resistencia-materiais-21",
+      "topico": "flambagem",
+      "nivel": "conceitual",
+      "pergunta": "Flambagem é um fenômeno típico de:",
+      "opcoes": [
+        "Peças esbeltas comprimidas",
+        "Peças curtas tracionadas",
+        "Eixos sob torção",
+        "Cabos de aço"
+      ],
+      "correta": 0,
+      "explicacao": "É uma instabilidade lateral que pode ocorrer com tensões abaixo do escoamento."
+    },
+    {
+      "id": "resistencia-materiais-22",
+      "topico": "flambagem",
+      "nivel": "conceitual",
+      "pergunta": "Na fórmula de Euler, que momento de inércia da seção se usa?",
+      "opcoes": [
+        "O maior",
+        "O menor, pois a coluna flamba no eixo mais fraco",
+        "O polar",
+        "A média dos dois"
+      ],
+      "correta": 1,
+      "explicacao": "Uma régua comprimida se curva sempre para o lado mais fino."
+    },
+    {
+      "id": "resistencia-materiais-23",
+      "topico": "flambagem",
+      "nivel": "conceitual",
+      "pergunta": "Qual condição de apoio dá a MAIOR carga crítica para a mesma coluna?",
+      "opcoes": [
+        "Engastada e livre (K = 2)",
+        "Biarticulada (K = 1)",
+        "Biengastada (K = 0,5)",
+        "Todas dão a mesma"
+      ],
+      "correta": 2,
+      "explicacao": "P_cr é inversamente proporcional a (KL)²; K = 0,5 dá carga 4 vezes maior que a biarticulada."
+    },
+    {
+      "id": "resistencia-materiais-24",
+      "topico": "flambagem",
+      "nivel": "aplicacao",
+      "pergunta": "Uma coluna biarticulada tem P_cr = 80 kN. Se o comprimento dobrar, qual será a nova carga crítica?",
+      "opcoes": [
+        "40 kN",
+        "160 kN",
+        "320 kN",
+        "20 kN"
+      ],
+      "correta": 3,
+      "explicacao": "P_cr ∝ 1/L²; com L dobrado, a carga crítica cai para 1/4: 80/4 = 20 kN."
+    },
+    {
+      "id": "resistencia-materiais-25",
+      "topico": "flambagem",
+      "nivel": "analise",
+      "pergunta": "Para a mesma quantidade de material, qual seção resiste melhor à flambagem em qualquer direção?",
+      "opcoes": [
+        "Tubo circular",
+        "Chapa retangular fina",
+        "Barra maciça muito achatada",
+        "Perfil em T assimétrico"
+      ],
+      "correta": 0,
+      "explicacao": "O tubo tem I igual e alto em todas as direções; seções achatadas têm um eixo muito fraco."
+    },
+    {
+      "id": "resistencia-materiais-26",
+      "topico": "combinadas",
+      "nivel": "conceitual",
+      "pergunta": "As tensões principais atuam em planos onde:",
+      "opcoes": [
+        "O cisalhamento é máximo",
+        "O cisalhamento é zero",
+        "A tensão normal é zero",
+        "Não há tensões"
+      ],
+      "correta": 1,
+      "explicacao": "σ₁ e σ₂ são a maior e a menor tensão normal no ponto; nesses planos não há cisalhamento."
+    },
+    {
+      "id": "resistencia-materiais-27",
+      "topico": "combinadas",
+      "nivel": "conceitual",
+      "pergunta": "No círculo de Mohr, um giro de θ na peça corresponde a:",
+      "opcoes": [
+        "Um giro de θ/2",
+        "Um giro de θ",
+        "Um giro de 2θ no círculo",
+        "Nenhum giro"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso os planos principais (90° entre si na peça) aparecem em pontos opostos (180°) do círculo."
+    },
+    {
+      "id": "resistencia-materiais-28",
+      "topico": "combinadas",
+      "nivel": "conceitual",
+      "pergunta": "Qual critério de falha é o mais usado para materiais dúcteis em projeto?",
+      "opcoes": [
+        "Rankine (tensão normal máxima)",
+        "Coulomb para solos",
+        "Euler",
+        "von Mises (energia de distorção)"
+      ],
+      "correta": 3,
+      "explicacao": "Para dúcteis usam-se von Mises ou Tresca; Rankine serve melhor a materiais frágeis."
+    },
+    {
+      "id": "resistencia-materiais-29",
+      "topico": "combinadas",
+      "nivel": "aplicacao",
+      "pergunta": "Num ponto, σ_x = 80 MPa, σ_y = 20 MPa e τ_xy = 40 MPa. Qual é a tensão principal máxima?",
+      "opcoes": [
+        "100 MPa",
+        "80 MPa",
+        "50 MPa",
+        "140 MPa"
+      ],
+      "correta": 0,
+      "explicacao": "Centro = (80 + 20)/2 = 50; R = √(30² + 40²) = 50. σ₁ = 50 + 50 = 100 MPa e σ₂ = 0."
+    },
+    {
+      "id": "resistencia-materiais-30",
+      "topico": "combinadas",
+      "nivel": "analise",
+      "pergunta": "Por que salsichas cozidas e canos congelados costumam rachar no sentido do comprimento?",
+      "opcoes": [
+        "A tensão longitudinal é o dobro da circunferencial",
+        "A tensão circunferencial é o dobro da longitudinal",
+        "Não há tensão circunferencial",
+        "Por causa da flambagem"
+      ],
+      "correta": 1,
+      "explicacao": "Num cilindro de parede fina, σ_circ = pr/t e σ_long = pr/(2t); a trinca abre perpendicular à maior tensão."
+    }
+  ]
+}

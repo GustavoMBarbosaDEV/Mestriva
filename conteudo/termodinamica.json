@@ -1,0 +1,465 @@
+{
+  "id": "termodinamica",
+  "nome": "Termodinâmica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Conceitos, sistemas e propriedades",
+      "resumo": "### Sistema e vizinhança\n- **Sistema fechado** (massa de controle): **não troca massa**, mas pode trocar energia (gás num cilindro com pistão).\n- **Volume de controle** (sistema aberto): massa atravessa a fronteira (turbina, bomba, compressor, bocal).\n- **Sistema isolado**: não troca massa nem energia.\n\n### Propriedades\n- **Intensivas**: não dependem da quantidade de massa (T, p, ρ).\n- **Extensivas**: dependem (V, U, massa). Dividindo pela massa, obtêm-se as **específicas** (v, u, h, s), que são intensivas.\n- **Estado**: definido por propriedades; para uma substância pura simples, **duas propriedades intensivas independentes** bastam.\n\n### Processos\n- **Processo quase-estático** (quase em equilíbrio a cada instante).\n- Prefixo **iso**: isotérmico (T), isobárico (p), isocórico (v), isentrópico (s).\n- **Ciclo**: estado final igual ao inicial; a variação de qualquer propriedade é zero.\n\n### Lei zero\nSe A e B estão em equilíbrio térmico com C, estão em equilíbrio entre si. Base dos termômetros.\n\n### Energia\n- **Calor (Q)** e **trabalho (W)** são energia **em trânsito**; dependem do caminho (não são propriedades).\n- **Energia interna (U)** e **entalpia (H = U + pV)** são propriedades.\n- **Trabalho de fronteira**: W = ∫p dV (área sob a curva no diagrama p-v).\n- Convenção comum: Q > 0 entrando no sistema; W > 0 realizado pelo sistema.",
+      "revisao": "**Lembre:**\n- Fechado: sem troca de massa; volume de controle: com.\n- Intensiva não depende da massa.\n- Duas propriedades independentes fixam o estado.\n- Q e W dependem do caminho; U e H são propriedades.\n- W de fronteira = ∫p dV."
+    },
+    {
+      "id": "substancias",
+      "nome": "Substâncias puras e tabelas",
+      "resumo": "### Fases e mudança de fase\n- **Líquido comprimido** (sub-resfriado): abaixo da temperatura de saturação.\n- **Líquido saturado**: prestes a vaporizar.\n- **Mistura saturada** líquido-vapor: p e T **não são independentes** (cada pressão tem uma T de saturação).\n- **Vapor saturado**: prestes a condensar.\n- **Vapor superaquecido**: acima da temperatura de saturação.\n- Água a 1 atm: T_sat = 100 °C; em panela de pressão (≈ 2 atm), ≈ 120 °C.\n\n### Título (qualidade)\n**x = m_vapor/m_total** (0 = líquido saturado; 1 = vapor saturado).\n- Propriedades da mistura: **v = v_l + x·(v_v − v_l)**, e o mesmo para u, h, s.\n\n### Ponto crítico e ponto triplo\n- **Ponto crítico**: acima dele não há distinção entre líquido e vapor (água: 374 °C, 22 MPa).\n- **Ponto triplo**: três fases coexistem (água: 0,01 °C, 0,6 kPa).\n\n### Uso das tabelas\n1. Com p (ou T), procure a saturação.\n2. Compare a propriedade dada (v, h...) com v_l e v_v: se estiver **entre** eles, é mistura (calcule x); se **maior** que v_v, vapor superaquecido; se **menor** que v_l, líquido comprimido (aproxima-se pelo líquido saturado na mesma T).\n\n### Gás ideal\n**pv = RT** (R = R_u/M; ar: R ≈ 0,287 kJ/kg·K). Vale bem a baixa pressão e alta temperatura em relação ao ponto crítico.\n- Δu = c_v·ΔT e Δh = c_p·ΔT; c_p − c_v = R; k = c_p/c_v (ar ≈ 1,4).",
+      "revisao": "**Lembre:**\n- Mistura saturada: p e T dependentes.\n- x = m_vapor/m_total.\n- v = v_l + x(v_v − v_l).\n- Comparar v com v_l e v_v define a fase.\n- Gás ideal: pv = RT; c_p − c_v = R."
+    },
+    {
+      "id": "primeira-lei",
+      "nome": "Primeira lei: sistemas e volumes de controle",
+      "resumo": "### Sistema fechado\n**Q − W = ΔU + ΔEc + ΔEp** (normalmente só ΔU importa).\n- Num ciclo: Q_líquido = W_líquido.\n\n### Volume de controle em regime permanente\nBalanço de energia por unidade de tempo:\n**Q̇ − Ẇ = ṁ·[(h₂ − h₁) + (V₂² − V₁²)/2 + g(z₂ − z₁)]**\n- Usa **entalpia** (h) porque inclui o trabalho de fluxo (pv) de empurrar o fluido.\n- Conservação da massa: ṁ_entra = ṁ_sai.\n\n### Dispositivos típicos (simplificações)\n- **Turbina**: produz trabalho; geralmente adiabática: **Ẇ = ṁ(h₁ − h₂)**.\n- **Compressor/bomba**: consome trabalho: Ẇ_consumido = ṁ(h₂ − h₁). Bomba de líquido: **w ≈ v·Δp**.\n- **Bocal**: aumenta a velocidade à custa da entalpia; sem trabalho.\n- **Difusor**: o oposto do bocal.\n- **Válvula de estrangulamento** (expansão): **h₁ = h₂** (isentálpica); a pressão e geralmente a temperatura caem. Usada em geladeiras.\n- **Trocador de calor**: sem trabalho; o calor que um fluido perde o outro ganha.\n- **Câmara de mistura**: Σṁh entrando = Σṁh saindo.\n\n### Exemplo\nTurbina com 2 kg/s de vapor, h₁ = 3.200 kJ/kg e h₂ = 2.600 kJ/kg: Ẇ = 2 · 600 = **1.200 kW**.",
+      "revisao": "**Lembre:**\n- Fechado: Q − W = ΔU.\n- Volume de controle: usa entalpia.\n- Turbina: Ẇ = ṁ(h₁ − h₂).\n- Válvula: h₁ = h₂.\n- Bomba: w ≈ vΔp."
+    },
+    {
+      "id": "segunda-lei",
+      "nome": "Segunda lei e entropia",
+      "resumo": "### Enunciados\n- **Kelvin-Planck**: nenhuma máquina operando em ciclo pode receber calor de **um único** reservatório e convertê-lo **integralmente** em trabalho.\n- **Clausius**: calor não passa espontaneamente do frio para o quente; refrigerar exige trabalho.\n\n### Máquinas e refrigeradores\n- **Rendimento térmico**: **η = W_líq/Q_H = 1 − Q_L/Q_H**.\n- **Refrigerador**: COP_R = Q_L/W. **Bomba de calor**: COP_BC = Q_H/W = COP_R + 1.\n- **Carnot** (ciclo reversível, limite máximo): **η = 1 − T_L/T_H**; COP_R,Carnot = T_L/(T_H − T_L). Temperaturas em **kelvin**.\n\n### Irreversibilidades\nAtrito, transferência de calor com diferença finita de temperatura, mistura, expansão livre, reações químicas. Todo processo real é irreversível.\n\n### Entropia\n- **dS = δQ_rev/T**.\n- **Desigualdade de Clausius**: ∮δQ/T ≤ 0.\n- **Princípio do aumento da entropia**: S_gerada ≥ 0; num sistema isolado, **ΔS ≥ 0** (igual a zero só se reversível).\n- Processo **adiabático e reversível = isentrópico** (s constante).\n\n### Eficiência isentrópica\nCompara o real ao ideal isentrópico:\n- **Turbina**: η_T = (h₁ − h₂,real)/(h₁ − h₂s).\n- **Compressor**: η_C = (h₂s − h₁)/(h₂,real − h₁).\n\n### Exemplo\nFontes a 800 K e 300 K: η_Carnot = 1 − 300/800 = **62,5%**.",
+      "revisao": "**Lembre:**\n- Kelvin-Planck: nada de 100% de rendimento.\n- Clausius: frio → quente só com trabalho.\n- Carnot: η = 1 − T_L/T_H (kelvin).\n- Isolado: ΔS ≥ 0.\n- Adiabático reversível = isentrópico."
+    },
+    {
+      "id": "ciclos-potencia",
+      "nome": "Ciclos de potência",
+      "resumo": "### Ciclo Rankine (usinas a vapor)\nQuatro processos ideais:\n1. **Bomba**: compressão isentrópica do líquido.\n2. **Caldeira**: aquecimento a pressão constante até vapor (superaquecido).\n3. **Turbina**: expansão isentrópica, gera trabalho.\n4. **Condensador**: rejeita calor a pressão constante até líquido saturado.\n- η = (W_turbina − W_bomba)/Q_caldeira. O trabalho da bomba é pequeno porque bombeia **líquido**.\n- Melhoram o rendimento: **aumentar a pressão da caldeira**, **superaquecer** o vapor, **reduzir a pressão do condensador**, **reaquecimento** e **regeneração** (aquecer a água com vapor extraído da turbina).\n\n### Ciclo Brayton (turbinas a gás)\nCompressor → câmara de combustão (p constante) → turbina → escape. Usado em aviões a jato e usinas a gás.\n- η = 1 − 1/r_p^((k−1)/k), com r_p = razão de pressões.\n- **Ciclo combinado**: o calor do escape do Brayton alimenta um Rankine (rendimentos acima de 55%).\n\n### Ciclo Otto (motor a gasolina, ignição por centelha)\nCompressão isentrópica → calor a **volume constante** → expansão → rejeição a volume constante.\n- **η = 1 − 1/r^(k−1)**, com r = taxa de compressão. Maior r, maior rendimento, limitado pela **detonação** (batida de pino).\n\n### Ciclo Diesel (ignição por compressão)\nCalor fornecido a **pressão constante**. Opera com taxas de compressão maiores (15 a 22), por isso costuma ter rendimento real maior que o Otto. Para a mesma taxa r, porém, o Otto ideal é mais eficiente.",
+      "revisao": "**Lembre:**\n- Rankine: bomba, caldeira, turbina, condensador.\n- Melhorar Rankine: mais pressão, superaquecer, condensador a menor pressão.\n- Brayton: turbina a gás; depende de r_p.\n- Otto: calor a volume constante; η = 1 − 1/r^(k−1).\n- Diesel: calor a pressão constante; r maior."
+    },
+    {
+      "id": "refrigeracao",
+      "nome": "Refrigeração e psicrometria",
+      "resumo": "### Ciclo de refrigeração por compressão de vapor\n1. **Compressor**: vapor de baixa pressão vira vapor de **alta pressão e temperatura**.\n2. **Condensador**: rejeita calor ao ambiente (a grade quente atrás da geladeira); o fluido condensa.\n3. **Válvula de expansão** (ou tubo capilar): h constante; pressão e temperatura caem bruscamente.\n4. **Evaporador**: o fluido evapora a baixa temperatura, **retirando calor** do espaço refrigerado.\n- **COP_R = Q_L/W = (h₁ − h₄)/(h₂ − h₁)**; costuma ser **maior que 1**.\n- **Bomba de calor**: mesmo ciclo, aproveitando o calor do condensador (ar-condicionado \"quente/frio\" inverte o sentido com uma válvula reversora).\n- **Tonelada de refrigeração** (TR) ≈ 3,52 kW; BTU/h é a unidade comercial dos aparelhos de ar-condicionado (12.000 BTU/h = 1 TR).\n\n### Fluidos refrigerantes\nOs CFCs foram banidos (camada de ozônio, Protocolo de Montreal); HFCs estão sendo reduzidos pelo efeito estufa (Emenda de Kigali). Alternativas: R-290 (propano), R-600a (isobutano), CO₂, amônia.\n\n### Psicrometria (ar úmido)\n- **Umidade absoluta** (ω): kg de vapor por kg de ar seco.\n- **Umidade relativa** (φ): pressão parcial do vapor / pressão de saturação na mesma T.\n- **Temperatura de orvalho**: abaixo dela o vapor condensa (vidro gelado \"suando\").\n- **Temperatura de bulbo úmido**: medida com termômetro envolto em pano molhado; menor que a de bulbo seco, exceto com φ = 100%.\n- **Carta psicrométrica**: relaciona essas grandezas; usada em ar-condicionado (resfriar e desumidificar).",
+      "revisao": "**Lembre:**\n- Compressor → condensador → válvula → evaporador.\n- Evaporador retira calor do ambiente frio.\n- COP_R = Q_L/W, pode passar de 1.\n- 12.000 BTU/h = 1 TR ≈ 3,5 kW.\n- Orvalho: temperatura em que o vapor condensa."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "termodinamica-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Uma turbina a vapor, na qual o fluido entra e sai continuamente, é analisada como:",
+      "opcoes": [
+        "Volume de controle (sistema aberto)",
+        "Sistema fechado",
+        "Sistema isolado",
+        "Reservatório térmico"
+      ],
+      "correta": 0,
+      "explicacao": "Há massa atravessando a fronteira; num sistema fechado, só a energia atravessa."
+    },
+    {
+      "id": "termodinamica-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual das propriedades abaixo é intensiva?",
+      "opcoes": [
+        "Volume",
+        "Temperatura",
+        "Massa",
+        "Energia interna total"
+      ],
+      "correta": 1,
+      "explicacao": "Dividir o sistema ao meio não muda a temperatura, mas divide volume, massa e energia."
+    },
+    {
+      "id": "termodinamica-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Por que calor e trabalho não são propriedades termodinâmicas?",
+      "opcoes": [
+        "Porque são sempre nulos",
+        "Porque só existem em gases",
+        "Porque dependem do caminho do processo, não só dos estados",
+        "Porque são medidos em kelvin"
+      ],
+      "correta": 2,
+      "explicacao": "Entre os mesmos estados inicial e final, processos diferentes trocam calor e trabalho diferentes; já ΔU é sempre a mesma."
+    },
+    {
+      "id": "termodinamica-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Um gás se expande a pressão constante de 200 kPa de 0,1 m³ para 0,4 m³. Qual é o trabalho de fronteira?",
+      "opcoes": [
+        "80 kJ",
+        "20 kJ",
+        "100 kJ",
+        "60 kJ"
+      ],
+      "correta": 3,
+      "explicacao": "W = p·ΔV = 200 kPa · 0,3 m³ = 60 kJ, realizado pelo gás."
+    },
+    {
+      "id": "termodinamica-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Num ciclo termodinâmico completo, o que se pode afirmar?",
+      "opcoes": [
+        "A variação de todas as propriedades é zero e o calor líquido é igual ao trabalho líquido",
+        "O trabalho líquido é sempre zero",
+        "A entropia do sistema sempre aumenta",
+        "O calor líquido é sempre zero"
+      ],
+      "correta": 0,
+      "explicacao": "Voltando ao estado inicial, ΔU = 0; pela primeira lei, Q_líq = W_líq."
+    },
+    {
+      "id": "termodinamica-6",
+      "topico": "substancias",
+      "nivel": "conceitual",
+      "pergunta": "Numa mistura saturada de líquido e vapor de água:",
+      "opcoes": [
+        "A temperatura pode variar livremente a pressão fixa",
+        "Pressão e temperatura não são independentes",
+        "Só existe vapor",
+        "O título é sempre 1"
+      ],
+      "correta": 1,
+      "explicacao": "A cada pressão corresponde uma única temperatura de saturação; é preciso outra propriedade, como o título."
+    },
+    {
+      "id": "termodinamica-7",
+      "topico": "substancias",
+      "nivel": "conceitual",
+      "pergunta": "O título (x) de uma mistura saturada é:",
+      "opcoes": [
+        "A fração de volume ocupada pelo líquido",
+        "A temperatura de saturação",
+        "A fração de massa que está na fase vapor",
+        "A pressão relativa"
+      ],
+      "correta": 2,
+      "explicacao": "x = 0 é líquido saturado e x = 1 é vapor saturado."
+    },
+    {
+      "id": "termodinamica-8",
+      "topico": "substancias",
+      "nivel": "conceitual",
+      "pergunta": "Por que a comida cozinha mais rápido na panela de pressão?",
+      "opcoes": [
+        "A pressão maior reduz a temperatura de ebulição",
+        "O vapor tem mais calor latente",
+        "A panela isola melhor",
+        "A pressão maior eleva a temperatura de ebulição da água"
+      ],
+      "correta": 3,
+      "explicacao": "A cerca de 2 atm a água ferve perto de 120 °C, em vez de 100 °C."
+    },
+    {
+      "id": "termodinamica-9",
+      "topico": "substancias",
+      "nivel": "aplicacao",
+      "pergunta": "Numa pressão em que v_l = 0,001 m³/kg e v_v = 1,0 m³/kg, a mistura tem v = 0,3 m³/kg. Qual é o título aproximado?",
+      "opcoes": [
+        "0,3",
+        "0,7",
+        "0,03",
+        "3"
+      ],
+      "correta": 0,
+      "explicacao": "x = (v − v_l)/(v_v − v_l) = (0,3 − 0,001)/(0,999) ≈ 0,3."
+    },
+    {
+      "id": "termodinamica-10",
+      "topico": "substancias",
+      "nivel": "analise",
+      "pergunta": "A uma dada pressão, o volume específico encontrado é maior que v_v (vapor saturado). O estado é:",
+      "opcoes": [
+        "Líquido comprimido",
+        "Vapor superaquecido",
+        "Mistura saturada",
+        "Ponto triplo"
+      ],
+      "correta": 1,
+      "explicacao": "Acima de v_v já não há líquido e o vapor está acima da temperatura de saturação: consulta-se a tabela de vapor superaquecido."
+    },
+    {
+      "id": "termodinamica-11",
+      "topico": "primeira-lei",
+      "nivel": "conceitual",
+      "pergunta": "Numa válvula de estrangulamento (expansão), o que se mantém constante?",
+      "opcoes": [
+        "A pressão",
+        "A temperatura sempre",
+        "A entalpia",
+        "A entropia"
+      ],
+      "correta": 2,
+      "explicacao": "Sem trabalho, sem calor e com variações desprezíveis de energia cinética, h₁ = h₂; a pressão cai."
+    },
+    {
+      "id": "termodinamica-12",
+      "topico": "primeira-lei",
+      "nivel": "conceitual",
+      "pergunta": "Por que se usa a entalpia, e não a energia interna, no balanço de volumes de controle?",
+      "opcoes": [
+        "Porque é sempre zero",
+        "Porque não depende da temperatura",
+        "Porque só vale para sólidos",
+        "Porque inclui o trabalho de fluxo (pv) necessário para empurrar o fluido"
+      ],
+      "correta": 3,
+      "explicacao": "h = u + pv: o termo pv representa a energia para fazer a massa entrar e sair do volume de controle."
+    },
+    {
+      "id": "termodinamica-13",
+      "topico": "primeira-lei",
+      "nivel": "conceitual",
+      "pergunta": "Num bocal adiabático, a energia que aumenta é a:",
+      "opcoes": [
+        "Energia cinética do fluido",
+        "Energia potencial",
+        "Pressão",
+        "Entalpia"
+      ],
+      "correta": 0,
+      "explicacao": "O bocal converte entalpia em velocidade; o difusor faz o contrário."
+    },
+    {
+      "id": "termodinamica-14",
+      "topico": "primeira-lei",
+      "nivel": "aplicacao",
+      "pergunta": "Vapor entra numa turbina adiabática com h = 3.000 kJ/kg e sai com h = 2.400 kJ/kg, vazão de 5 kg/s. Qual é a potência?",
+      "opcoes": [
+        "600 kW",
+        "3.000 kW",
+        "12.000 kW",
+        "15.000 kW"
+      ],
+      "correta": 1,
+      "explicacao": "Ẇ = ṁ(h₁ − h₂) = 5 · 600 = 3.000 kW = 3 MW."
+    },
+    {
+      "id": "termodinamica-15",
+      "topico": "primeira-lei",
+      "nivel": "analise",
+      "pergunta": "Num ciclo Rankine, por que o trabalho da bomba é muito menor que o da turbina?",
+      "opcoes": [
+        "A bomba trabalha com vapor",
+        "A turbina recebe mais calor",
+        "A bomba comprime líquido, de volume específico muito pequeno (w ≈ vΔp)",
+        "A bomba é sempre mais eficiente"
+      ],
+      "correta": 2,
+      "explicacao": "Comprimir líquido exige pouca energia; comprimir gás, como no Brayton, consome boa parte do trabalho da turbina."
+    },
+    {
+      "id": "termodinamica-16",
+      "topico": "segunda-lei",
+      "nivel": "conceitual",
+      "pergunta": "O enunciado de Clausius da segunda lei afirma que:",
+      "opcoes": [
+        "A energia se conserva",
+        "Todo calor pode virar trabalho",
+        "A entropia de um sistema isolado diminui",
+        "O calor não passa espontaneamente de um corpo frio para um quente"
+      ],
+      "correta": 3,
+      "explicacao": "Para tirar calor do frio e jogar no quente, como numa geladeira, é preciso fornecer trabalho."
+    },
+    {
+      "id": "termodinamica-17",
+      "topico": "segunda-lei",
+      "nivel": "conceitual",
+      "pergunta": "Um processo adiabático e reversível é:",
+      "opcoes": [
+        "Isentrópico",
+        "Isotérmico",
+        "Isobárico",
+        "Isentálpico"
+      ],
+      "correta": 0,
+      "explicacao": "Sem calor e sem geração de entropia, s permanece constante; é o processo ideal de turbinas e compressores."
+    },
+    {
+      "id": "termodinamica-18",
+      "topico": "segunda-lei",
+      "nivel": "conceitual",
+      "pergunta": "Para um sistema isolado, a variação de entropia é:",
+      "opcoes": [
+        "Sempre negativa",
+        "Maior ou igual a zero",
+        "Sempre igual a zero",
+        "Qualquer valor"
+      ],
+      "correta": 1,
+      "explicacao": "É o princípio do aumento da entropia; igual a zero só em processos reversíveis ideais."
+    },
+    {
+      "id": "termodinamica-19",
+      "topico": "segunda-lei",
+      "nivel": "aplicacao",
+      "pergunta": "Uma geladeira retira 300 W do interior e consome 100 W de trabalho. Qual é o seu COP?",
+      "opcoes": [
+        "0,33",
+        "4",
+        "3",
+        "400"
+      ],
+      "correta": 2,
+      "explicacao": "COP_R = Q_L/W = 300/100 = 3; o condensador rejeita Q_H = 400 W."
+    },
+    {
+      "id": "termodinamica-20",
+      "topico": "segunda-lei",
+      "nivel": "analise",
+      "pergunta": "Uma turbina tem queda real de entalpia de 540 kJ/kg, e a ideal isentrópica seria 600 kJ/kg. Qual é a eficiência isentrópica?",
+      "opcoes": [
+        "111%",
+        "54%",
+        "60%",
+        "90%"
+      ],
+      "correta": 3,
+      "explicacao": "η_T = real/ideal = 540/600 = 0,9. Atrito e outras irreversibilidades reduzem o trabalho obtido."
+    },
+    {
+      "id": "termodinamica-21",
+      "topico": "ciclos-potencia",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os quatro componentes básicos do ciclo Rankine?",
+      "opcoes": [
+        "Bomba, caldeira, turbina e condensador",
+        "Compressor, câmara de combustão, turbina e bocal",
+        "Compressor, condensador, válvula e evaporador",
+        "Pistão, vela, válvula e escape"
+      ],
+      "correta": 0,
+      "explicacao": "O segundo grupo é o Brayton; o terceiro, o ciclo de refrigeração."
+    },
+    {
+      "id": "termodinamica-22",
+      "topico": "ciclos-potencia",
+      "nivel": "conceitual",
+      "pergunta": "No ciclo Otto ideal, o rendimento aumenta com:",
+      "opcoes": [
+        "A temperatura do ambiente",
+        "A taxa de compressão",
+        "A redução da taxa de compressão",
+        "O aumento das perdas de calor"
+      ],
+      "correta": 1,
+      "explicacao": "η = 1 − 1/r^(k−1); o limite prático é a detonação do combustível."
+    },
+    {
+      "id": "termodinamica-23",
+      "topico": "ciclos-potencia",
+      "nivel": "conceitual",
+      "pergunta": "Num ciclo combinado, o que se aproveita?",
+      "opcoes": [
+        "O vapor do condensador para mover o compressor",
+        "A água da caldeira para resfriar o motor",
+        "O calor dos gases de escape da turbina a gás para gerar vapor num ciclo Rankine",
+        "O trabalho da bomba para acionar a turbina"
+      ],
+      "correta": 2,
+      "explicacao": "Os gases do Brayton saem muito quentes; usá-los na caldeira de um Rankine eleva o rendimento global para acima de 55%."
+    },
+    {
+      "id": "termodinamica-24",
+      "topico": "ciclos-potencia",
+      "nivel": "aplicacao",
+      "pergunta": "Um ciclo Otto ideal tem taxa de compressão 8 e k = 1,4 (8^0,4 ≈ 2,3). Qual é o rendimento aproximado?",
+      "opcoes": [
+        "87%",
+        "40%",
+        "23%",
+        "56%"
+      ],
+      "correta": 3,
+      "explicacao": "η = 1 − 1/8^0,4 ≈ 1 − 1/2,3 ≈ 0,56. Motores reais ficam bem abaixo disso por causa de atrito e perdas de calor."
+    },
+    {
+      "id": "termodinamica-25",
+      "topico": "ciclos-potencia",
+      "nivel": "analise",
+      "pergunta": "Qual medida reduz o rendimento de um ciclo Rankine?",
+      "opcoes": [
+        "Aumentar a pressão do condensador",
+        "Superaquecer o vapor",
+        "Aumentar a pressão da caldeira",
+        "Usar regeneração"
+      ],
+      "correta": 0,
+      "explicacao": "Pressão de condensação maior significa temperatura de rejeição de calor maior, reduzindo o trabalho e o rendimento."
+    },
+    {
+      "id": "termodinamica-26",
+      "topico": "refrigeracao",
+      "nivel": "conceitual",
+      "pergunta": "No ciclo de refrigeração, em qual componente o fluido retira calor do espaço refrigerado?",
+      "opcoes": [
+        "Condensador",
+        "Evaporador",
+        "Compressor",
+        "Válvula de expansão"
+      ],
+      "correta": 1,
+      "explicacao": "O fluido evapora a baixa pressão e baixa temperatura, absorvendo calor do interior."
+    },
+    {
+      "id": "termodinamica-27",
+      "topico": "refrigeracao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a função da válvula de expansão no ciclo de refrigeração?",
+      "opcoes": [
+        "Aumentar a pressão do vapor",
+        "Rejeitar calor ao ambiente",
+        "Reduzir bruscamente a pressão e a temperatura do fluido",
+        "Gerar trabalho"
+      ],
+      "correta": 2,
+      "explicacao": "É um processo isentálpico; o fluido sai como mistura fria, pronto para o evaporador."
+    },
+    {
+      "id": "termodinamica-28",
+      "topico": "refrigeracao",
+      "nivel": "conceitual",
+      "pergunta": "A temperatura de orvalho é aquela em que:",
+      "opcoes": [
+        "A água ferve",
+        "O ar fica totalmente seco",
+        "O termômetro de bulbo úmido marca zero",
+        "O vapor de água do ar começa a condensar"
+      ],
+      "correta": 3,
+      "explicacao": "Um copo gelado abaixo do ponto de orvalho fica molhado por fora."
+    },
+    {
+      "id": "termodinamica-29",
+      "topico": "refrigeracao",
+      "nivel": "aplicacao",
+      "pergunta": "Um ar-condicionado de 24.000 BTU/h corresponde a quantas toneladas de refrigeração?",
+      "opcoes": [
+        "2 TR",
+        "24 TR",
+        "1 TR",
+        "0,5 TR"
+      ],
+      "correta": 0,
+      "explicacao": "1 TR = 12.000 BTU/h; 24.000/12.000 = 2 TR, cerca de 7 kW de capacidade de resfriamento."
+    },
+    {
+      "id": "termodinamica-30",
+      "topico": "refrigeracao",
+      "nivel": "analise",
+      "pergunta": "Por que uma bomba de calor pode entregar mais energia térmica do que a elétrica que consome?",
+      "opcoes": [
+        "Porque viola a primeira lei",
+        "Porque ela transporta calor do ambiente externo, além de converter o trabalho",
+        "Porque gera calor por combustão",
+        "Porque o compressor tem rendimento acima de 100%"
+      ],
+      "correta": 1,
+      "explicacao": "Q_H = Q_L + W: o calor retirado do ar externo soma-se ao trabalho; COP_BC = COP_R + 1 > 1."
+    }
+  ]
+}

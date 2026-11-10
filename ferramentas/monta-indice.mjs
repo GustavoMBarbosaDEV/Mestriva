@@ -847,6 +847,96 @@ export const EXTRA = {
       "Geometria Analítica Plana",
       "Álgebra Vetorial"
     ]
+  },
+  "fisica-2": {
+    "area": "Exatas",
+    "apelidos": [
+      "Física II",
+      "Física 2",
+      "Física Geral II",
+      "Física Geral e Experimental II",
+      "Física Básica II",
+      "Física Teórica II",
+      "Física: Fluidos, Oscilações e Ondas",
+      "Oscilações e Ondas",
+      "Física Térmica"
+    ]
+  },
+  "mecanica-geral": {
+    "area": "Exatas",
+    "apelidos": [
+      "Mecânica Geral",
+      "Mecânica Geral I",
+      "Estática",
+      "Mecânica Vetorial",
+      "Mecânica Vetorial: Estática",
+      "Estática dos Corpos Rígidos",
+      "Mecânica dos Sólidos I",
+      "Isostática"
+    ]
+  },
+  "resistencia-materiais": {
+    "area": "Exatas",
+    "apelidos": [
+      "Resistência dos Materiais I",
+      "Resistência dos Materiais II",
+      "Resistência dos Materiais",
+      "Mecânica dos Sólidos",
+      "Mecânica dos Sólidos II",
+      "Mecânica dos Materiais",
+      "Resmat"
+    ]
+  },
+  "fenomenos-transporte": {
+    "area": "Exatas",
+    "apelidos": [
+      "Fenômenos de Transporte I",
+      "Fenômenos de Transporte",
+      "Mecânica dos Fluidos",
+      "Mecânica dos Fluidos I",
+      "Transferência de Calor",
+      "Transferência de Calor e Massa",
+      "Hidráulica Geral"
+    ]
+  },
+  "termodinamica": {
+    "area": "Exatas",
+    "apelidos": [
+      "Termodinâmica I",
+      "Termodinâmica Aplicada",
+      "Termodinâmica Técnica",
+      "Termodinâmica para Engenharia",
+      "Termodinâmica Clássica",
+      "Máquinas Térmicas"
+    ]
+  },
+  "circuitos-eletricos": {
+    "area": "Exatas",
+    "apelidos": [
+      "Circuitos Elétricos I",
+      "Circuitos Elétricos II",
+      "Circuitos Elétricos",
+      "Análise de Circuitos",
+      "Análise de Circuitos Elétricos",
+      "Eletricidade Básica",
+      "Eletricidade Aplicada",
+      "Eletrotécnica",
+      "Eletricidade"
+    ]
+  },
+  "desenho-tecnico": {
+    "area": "Exatas",
+    "apelidos": [
+      "Desenho Técnico I",
+      "Desenho Técnico",
+      "Desenho Técnico Mecânico",
+      "Expressão Gráfica",
+      "Desenho Técnico e CAD",
+      "Desenho Assistido por Computador",
+      "Desenho Arquitetônico",
+      "Representação Gráfica",
+      "CAD"
+    ]
   }
 };
 

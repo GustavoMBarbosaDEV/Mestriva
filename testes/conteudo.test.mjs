@@ -65,6 +65,21 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
     "Direito Processual Civil I": "processo-civil",
     "Direito do Trabalho": "direito-trabalho",
     "Direito Comercial": "direito-empresarial",
+    "Física II": "fisica-2",
+    "FISICA GERAL E EXPERIMENTAL II": "fisica-2",
+    "Física I": "fisica-1",
+    "Mecânica Geral": "mecanica-geral",
+    "Estática": "mecanica-geral",
+    "Resistência dos Materiais II": "resistencia-materiais",
+    "Mecânica dos Sólidos": "resistencia-materiais",
+    "Fenômenos de Transporte": "fenomenos-transporte",
+    "Mecânica dos Fluidos": "fenomenos-transporte",
+    "Termodinâmica": "termodinamica",
+    "Termodinâmica Aplicada": "termodinamica",
+    "Circuitos Elétricos I": "circuitos-eletricos",
+    "Análise de Circuitos": "circuitos-eletricos",
+    "Desenho Técnico": "desenho-tecnico",
+    "Expressão Gráfica": "desenho-tecnico",
     "Cálculo II": "calculo-2",
     "Cálculo Diferencial e Integral II": "calculo-2",
     "CALCULO 2": "calculo-2",
@@ -124,7 +139,7 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
   };
   for (const [nome, id] of Object.entries(casos)) assert.equal(achaNoBanco(nome, real), id, nome);
   // Nível diferente ou matéria diferente nunca liga.
-  for (const nome of ["Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Direito Processual Civil II", "Processo do Trabalho", "Direito Coletivo do Trabalho", "Segurança do Trabalho", "Direito Empresarial II", "Direito Tributário", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II", "Filosofia", "Sociologia", "História do Brasil", "Ética Profissional", "Psicologia Geral", "Educação Física", "Letramento Digital", "Política Externa Brasileira", "Economia Brasileira", "Marketing Pessoal", "Gestão Ambiental", "Matemática Discreta", "Contabilidade Tributária", "Gestão de Projetos", "Comportamento Organizacional", "Matemática Básica", "Programação Orientada a Objetos", "Sistemas Operacionais", "Arquitetura e Urbanismo", "Redes Sociais", "Compiladores", "Arquitetura de Software", "Estrutura de Concreto", "Computação Gráfica", "Inteligência Artificial", "Psicologia Clínica", "Psicofarmacologia", "Neurologia", "Psiquiatria", "Psicologia Organizacional", "Psicologia Hospitalar", "Avaliação Psicológica", "Enfermagem em Saúde Mental", "Enfermagem Obstétrica", "Semiologia Veterinária", "Enfermagem Pediátrica", "Administração em Enfermagem", "Propedêutica Cirúrgica", "Equações Diferenciais Parciais", "Geometria Descritiva", "Cálculo Numérico"]) {
+  for (const nome of ["Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Direito Processual Civil II", "Processo do Trabalho", "Direito Coletivo do Trabalho", "Segurança do Trabalho", "Direito Empresarial II", "Direito Tributário", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II", "Filosofia", "Sociologia", "História do Brasil", "Ética Profissional", "Psicologia Geral", "Educação Física", "Letramento Digital", "Política Externa Brasileira", "Economia Brasileira", "Marketing Pessoal", "Gestão Ambiental", "Matemática Discreta", "Contabilidade Tributária", "Gestão de Projetos", "Comportamento Organizacional", "Matemática Básica", "Programação Orientada a Objetos", "Sistemas Operacionais", "Arquitetura e Urbanismo", "Redes Sociais", "Compiladores", "Arquitetura de Software", "Estrutura de Concreto", "Computação Gráfica", "Inteligência Artificial", "Psicologia Clínica", "Psicofarmacologia", "Neurologia", "Psiquiatria", "Psicologia Organizacional", "Psicologia Hospitalar", "Avaliação Psicológica", "Enfermagem em Saúde Mental", "Enfermagem Obstétrica", "Semiologia Veterinária", "Enfermagem Pediátrica", "Administração em Enfermagem", "Propedêutica Cirúrgica", "Equações Diferenciais Parciais", "Geometria Descritiva", "Cálculo Numérico", "Física III", "Mecânica dos Solos", "Hidrologia", "Eletrônica Analógica", "Máquinas Elétricas", "Desenho Artístico", "Termodinâmica Química"]) {
     assert.equal(achaNoBanco(nome, real), null, nome);
   }
 });

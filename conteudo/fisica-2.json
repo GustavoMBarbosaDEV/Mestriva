@@ -1,0 +1,465 @@
+{
+  "id": "fisica-2",
+  "nome": "Física II",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fluidos",
+      "nome": "Fluidos: hidrostática e hidrodinâmica",
+      "resumo": "### Pressão e densidade\n- **Densidade** (massa específica): ρ = m/V. Água: 1000 kg/m³.\n- **Pressão**: p = F/A, em pascal (Pa = N/m²). 1 atm ≈ 1,013 × 10⁵ Pa.\n\n### Hidrostática\n- **Teorema de Stevin**: p = p₀ + ρgh. A pressão cresce com a profundidade e **não depende da forma do recipiente** (vasos comunicantes).\n- A cada **10 m de água**, a pressão sobe cerca de **1 atm**.\n- **Princípio de Pascal**: um acréscimo de pressão se transmite integralmente a todo o fluido. Prensa hidráulica: F₁/A₁ = F₂/A₂ (multiplica a força, não a energia).\n- **Empuxo (Arquimedes)**: E = ρ_fluido · g · V_deslocado. Um corpo **flutua** se sua densidade média é menor que a do fluido.\n- **Peso aparente** = peso − empuxo.\n\n### Hidrodinâmica (fluido ideal)\n- **Vazão**: Q = A·v (m³/s).\n- **Continuidade**: A₁v₁ = A₂v₂. Onde o cano estreita, a velocidade aumenta.\n- **Bernoulli**: p + ½ρv² + ρgh = constante ao longo de uma linha de corrente. Onde a velocidade é maior, a pressão é menor.\n- Aplicações: sustentação de asas, tubo de Venturi, Torricelli (v = √(2gh) na saída de um furo).\n\n### Exemplo\nMangueira com área reduzida à metade na ponta: a velocidade **dobra** (continuidade).",
+      "revisao": "**Lembre:**\n- p = p₀ + ρgh (Stevin).\n- Pascal: F₁/A₁ = F₂/A₂.\n- Empuxo = ρ_fluido g V_deslocado.\n- A₁v₁ = A₂v₂.\n- Bernoulli: mais velocidade, menos pressão."
+    },
+    {
+      "id": "oscilacoes",
+      "nome": "Oscilações e movimento harmônico simples",
+      "resumo": "### MHS\nMovimento em que a força restauradora é proporcional ao deslocamento: **F = −kx**.\n- Posição: **x(t) = A cos(ωt + φ)**, com **A** = amplitude, **ω** = frequência angular, **φ** = fase inicial.\n- **Período** T = 2π/ω; **frequência** f = 1/T (em hertz).\n- Velocidade máxima no **centro** (v_máx = ωA); aceleração máxima nos **extremos** (a_máx = ω²A).\n\n### Sistemas típicos\n- **Massa-mola**: ω = √(k/m), **T = 2π√(m/k)**. Não depende da amplitude nem da gravidade.\n- **Pêndulo simples** (pequenas oscilações): **T = 2π√(L/g)**. Não depende da massa nem da amplitude (se pequena).\n\n### Energia no MHS\n- E = ½kA² (constante sem atrito).\n- No centro: toda cinética; nos extremos: toda potencial.\n\n### Amortecimento e ressonância\n- **Amortecido**: a amplitude diminui com o tempo (atrito, resistência do ar).\n- **Forçado**: uma força externa periódica mantém a oscilação.\n- **Ressonância**: quando a frequência da força externa coincide com a **frequência natural**, a amplitude fica muito grande (ponte de Tacoma, taça que quebra com som).\n\n### Exemplo\nPêndulo de 1 m na Terra: T = 2π√(1/9,8) ≈ **2 s**. Com fio 4 vezes maior, o período **dobra**.",
+      "revisao": "**Lembre:**\n- F = −kx; x = A cos(ωt + φ).\n- Massa-mola: T = 2π√(m/k).\n- Pêndulo: T = 2π√(L/g).\n- E = ½kA².\n- Ressonância: frequência externa = natural."
+    },
+    {
+      "id": "ondas",
+      "nome": "Ondas mecânicas e som",
+      "resumo": "### Conceitos\nOnda transporta **energia** sem transportar matéria.\n- **Mecânicas** precisam de meio (som, ondas na corda); **eletromagnéticas** não (luz).\n- **Transversais**: vibração perpendicular à propagação (corda, luz). **Longitudinais**: vibração na mesma direção (som no ar).\n- **Equação fundamental**: **v = λ·f** (velocidade = comprimento de onda × frequência).\n- Na corda: v = √(T/μ) (tração sobre densidade linear).\n- Ao mudar de meio, a **frequência não muda**; mudam velocidade e comprimento de onda.\n\n### Fenômenos\n- **Reflexão**, **refração**, **difração** (contornar obstáculos; grande quando o obstáculo tem tamanho parecido com λ) e **interferência** (construtiva ou destrutiva).\n- **Ondas estacionárias**: superposição de ondas iguais em sentidos opostos, com **nós** e **ventres**. Corda fixa nas pontas: λₙ = 2L/n, fₙ = n·v/(2L).\n\n### Som\n- Onda mecânica longitudinal; no ar, ~**340 m/s**; mais rápido em líquidos e sólidos.\n- **Altura** depende da frequência (grave/agudo); **intensidade** depende da amplitude (forte/fraco); **timbre** depende da forma da onda (distingue instrumentos).\n- Audição humana: **20 Hz a 20 kHz**; abaixo, infrassom; acima, ultrassom.\n- **Nível sonoro**: β = 10·log(I/I₀) em decibéis; +10 dB = intensidade 10 vezes maior.\n- **Efeito Doppler**: fonte se aproximando → frequência percebida **maior** (mais agudo); afastando → menor.",
+      "revisao": "**Lembre:**\n- v = λf; a frequência não muda ao trocar de meio.\n- Som: longitudinal, precisa de meio.\n- Altura = frequência; intensidade = amplitude; timbre = forma.\n- +10 dB = 10× a intensidade.\n- Doppler: aproximando, mais agudo."
+    },
+    {
+      "id": "temperatura",
+      "nome": "Temperatura, calor e dilatação",
+      "resumo": "### Temperatura e escalas\nTemperatura mede a agitação média das partículas.\n- **Celsius e Kelvin**: T(K) = T(°C) + 273. Zero absoluto: 0 K.\n- **Fahrenheit**: T_C/5 = (T_F − 32)/9.\n- **Equilíbrio térmico** (lei zero): corpos em contato chegam à mesma temperatura.\n\n### Calor\n**Calor** é energia em trânsito por diferença de temperatura.\n- **Calor sensível** (muda a temperatura): **Q = m·c·ΔT** (c = calor específico; água: 1 cal/g·°C).\n- **Capacidade térmica**: C = m·c.\n- **Calor latente** (muda o estado, temperatura constante): **Q = m·L**. Fusão do gelo: 80 cal/g; vaporização da água: 540 cal/g.\n- Em sistema isolado: **soma dos calores trocados = 0**.\n\n### Transmissão de calor\n- **Condução**: contato, típica de sólidos. Lei de Fourier: Φ = k·A·ΔT/L.\n- **Convecção**: movimento do fluido (correntes de ar, brisa marítima, ar-condicionado no alto).\n- **Radiação**: ondas eletromagnéticas, inclusive no vácuo (Sol). Corpos escuros absorvem e emitem mais.\n\n### Dilatação térmica\n- **Linear**: ΔL = L₀·α·ΔT.\n- **Superficial**: β = 2α; **volumétrica**: γ = 3α.\n- **Anomalia da água**: entre 0 °C e 4 °C ela **contrai** ao aquecer; tem densidade máxima a 4 °C (por isso lagos congelam só na superfície).\n- Juntas de dilatação em pontes e trilhos.",
+      "revisao": "**Lembre:**\n- K = °C + 273.\n- Q = mcΔT (sensível); Q = mL (latente).\n- Condução, convecção, radiação (só esta no vácuo).\n- ΔL = L₀αΔT; γ = 3α.\n- Água: densidade máxima a 4 °C."
+    },
+    {
+      "id": "gases",
+      "nome": "Gases ideais e teoria cinética",
+      "resumo": "### Variáveis de estado\nPressão (p), volume (V) e temperatura **absoluta** (T, em kelvin).\n\n### Equação de Clapeyron\n**pV = nRT**, com n = número de mols e R ≈ 8,31 J/(mol·K) ≈ 0,082 atm·L/(mol·K).\n- **Lei geral**: p₁V₁/T₁ = p₂V₂/T₂ (mesma quantidade de gás).\n\n### Transformações\n- **Isotérmica** (T constante): **pV = constante** (Boyle-Mariotte); gráfico p × V é uma hipérbole.\n- **Isobárica** (p constante): **V/T = constante** (Charles/Gay-Lussac).\n- **Isocórica/isovolumétrica** (V constante): **p/T = constante**.\n- **Adiabática**: sem troca de calor; pV^γ = constante.\n\n### Teoria cinética\n- Pressão resulta das colisões das moléculas com as paredes.\n- **Energia cinética média** por molécula = (3/2)kT: depende **só da temperatura**.\n- Gás ideal: moléculas sem volume próprio e sem interação, exceto colisões.\n- Gases reais se aproximam do ideal em **baixa pressão e alta temperatura**.\n\n### CNTP\n1 mol de gás ideal a 0 °C e 1 atm ocupa **22,4 L**.\n\n### Exemplo\nPneu a 27 °C (300 K) e 30 psi, volume constante, aquecido a 57 °C (330 K): p = 30·330/300 = **33 psi**.",
+      "revisao": "**Lembre:**\n- pV = nRT, T em kelvin.\n- Isotérmica: pV = cte; isobárica: V/T = cte; isocórica: p/T = cte.\n- Energia cinética média depende só de T.\n- CNTP: 22,4 L/mol."
+    },
+    {
+      "id": "termodinamica",
+      "nome": "Leis da termodinâmica",
+      "resumo": "### Trabalho de um gás\n- Em pressão constante: **W = p·ΔV**. Expansão: W > 0 (o gás realiza trabalho); compressão: W < 0.\n- No diagrama p × V, o trabalho é a **área sob a curva**; num ciclo, é a área interna.\n\n### Primeira lei\n**ΔU = Q − W** (conservação da energia).\n- Q > 0: o gás recebe calor; W > 0: o gás realiza trabalho.\n- Energia interna do gás ideal depende **só da temperatura**: isotérmica → ΔU = 0, logo Q = W.\n- Isocórica: W = 0, então ΔU = Q.\n- Adiabática: Q = 0, então ΔU = −W (expansão adiabática resfria o gás).\n\n### Segunda lei\n- O calor flui espontaneamente do **quente para o frio**.\n- **Nenhuma máquina térmica** converte todo o calor em trabalho (Kelvin-Planck).\n- **Entropia** de um sistema isolado nunca diminui.\n\n### Máquinas térmicas\n- **Rendimento**: η = W/Q_quente = 1 − Q_frio/Q_quente.\n- **Ciclo de Carnot** (máximo teórico): **η = 1 − T_fria/T_quente** (em kelvin).\n- **Refrigeradores**: usam trabalho para tirar calor da fonte fria; eficiência (COP) = Q_frio/W.\n\n### Exemplo\nMáquina entre 600 K e 300 K: rendimento máximo = 1 − 300/600 = **50%**.",
+      "revisao": "**Lembre:**\n- W = pΔV; área no diagrama p × V.\n- ΔU = Q − W.\n- Isotérmica: ΔU = 0; adiabática: Q = 0.\n- Carnot: η = 1 − T_fria/T_quente.\n- Nenhuma máquina tem rendimento de 100%."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "fisica-2-1",
+      "topico": "fluidos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o teorema de Stevin, a pressão num líquido em repouso depende:",
+      "opcoes": [
+        "Da profundidade e da densidade do líquido",
+        "Da forma do recipiente",
+        "Da área do fundo do recipiente",
+        "Do volume total de líquido"
+      ],
+      "correta": 0,
+      "explicacao": "p = p₀ + ρgh: recipientes de formatos diferentes, com o mesmo líquido e a mesma altura, têm a mesma pressão no fundo."
+    },
+    {
+      "id": "fisica-2-2",
+      "topico": "fluidos",
+      "nivel": "conceitual",
+      "pergunta": "O princípio de Arquimedes afirma que o empuxo é igual:",
+      "opcoes": [
+        "Ao peso do corpo",
+        "Ao peso do fluido deslocado pelo corpo",
+        "À massa do corpo",
+        "À pressão no fundo do recipiente"
+      ],
+      "correta": 1,
+      "explicacao": "E = ρ_fluido · g · V_deslocado; por isso um navio de aço flutua: desloca muita água."
+    },
+    {
+      "id": "fisica-2-3",
+      "topico": "fluidos",
+      "nivel": "conceitual",
+      "pergunta": "Pela equação de Bernoulli, onde um fluido escoa mais rápido:",
+      "opcoes": [
+        "A pressão é maior",
+        "A densidade aumenta",
+        "A pressão é menor",
+        "A vazão diminui"
+      ],
+      "correta": 2,
+      "explicacao": "p + ½ρv² + ρgh é constante; se a parcela da velocidade aumenta, a da pressão diminui. É o que explica a sustentação das asas."
+    },
+    {
+      "id": "fisica-2-4",
+      "topico": "fluidos",
+      "nivel": "aplicacao",
+      "pergunta": "Numa prensa hidráulica, o êmbolo menor tem 10 cm² e o maior 500 cm². Que força no menor levanta 10.000 N no maior?",
+      "opcoes": [
+        "500 N",
+        "2.000 N",
+        "50 N",
+        "200 N"
+      ],
+      "correta": 3,
+      "explicacao": "F₁/A₁ = F₂/A₂ → F₁ = 10.000 · 10/500 = 200 N. A força é multiplicada por 50, mas o deslocamento no êmbolo menor é 50 vezes maior."
+    },
+    {
+      "id": "fisica-2-5",
+      "topico": "fluidos",
+      "nivel": "analise",
+      "pergunta": "Água passa por um cano de 4 cm² a 2 m/s e entra num trecho de 1 cm². O que acontece?",
+      "opcoes": [
+        "A velocidade sobe para 8 m/s e a pressão cai",
+        "A velocidade cai para 0,5 m/s e a pressão sobe",
+        "A velocidade não muda",
+        "A vazão diminui quatro vezes"
+      ],
+      "correta": 0,
+      "explicacao": "Continuidade: 4 · 2 = 1 · v → v = 8 m/s. Por Bernoulli, mais velocidade significa menos pressão. A vazão é a mesma."
+    },
+    {
+      "id": "fisica-2-6",
+      "topico": "oscilacoes",
+      "nivel": "conceitual",
+      "pergunta": "O período de um pêndulo simples, em pequenas oscilações, depende:",
+      "opcoes": [
+        "Da massa pendurada",
+        "Do comprimento do fio e da gravidade",
+        "Da amplitude",
+        "Da massa e da amplitude"
+      ],
+      "correta": 1,
+      "explicacao": "T = 2π√(L/g); a massa não aparece na fórmula."
+    },
+    {
+      "id": "fisica-2-7",
+      "topico": "oscilacoes",
+      "nivel": "conceitual",
+      "pergunta": "No movimento harmônico simples, a velocidade é máxima:",
+      "opcoes": [
+        "Nos extremos",
+        "Em qualquer ponto igualmente",
+        "Na posição de equilíbrio (centro)",
+        "Apenas no início"
+      ],
+      "correta": 2,
+      "explicacao": "No centro toda a energia é cinética; nos extremos a velocidade é zero e a aceleração é máxima."
+    },
+    {
+      "id": "fisica-2-8",
+      "topico": "oscilacoes",
+      "nivel": "conceitual",
+      "pergunta": "O que é ressonância?",
+      "opcoes": [
+        "Diminuição da amplitude por atrito",
+        "Oscilação sem nenhuma força",
+        "Mudança da frequência natural com a massa",
+        "Aumento grande da amplitude quando a frequência externa coincide com a natural do sistema"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso tropas não marcham em passo sincronizado sobre pontes e uma cantora pode quebrar uma taça."
+    },
+    {
+      "id": "fisica-2-9",
+      "topico": "oscilacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma massa de 2 kg presa a uma mola de constante 200 N/m oscila. Qual é o período aproximado?",
+      "opcoes": [
+        "0,63 s",
+        "6,3 s",
+        "0,1 s",
+        "10 s"
+      ],
+      "correta": 0,
+      "explicacao": "T = 2π√(m/k) = 2π√(2/200) = 2π · 0,1 ≈ 0,63 s."
+    },
+    {
+      "id": "fisica-2-10",
+      "topico": "oscilacoes",
+      "nivel": "analise",
+      "pergunta": "Um pêndulo de 1 m é levado para a Lua, onde g é cerca de 1/6 do da Terra. Seu período:",
+      "opcoes": [
+        "Diminui 6 vezes",
+        "Aumenta cerca de 2,4 vezes",
+        "Não muda",
+        "Aumenta 6 vezes"
+      ],
+      "correta": 1,
+      "explicacao": "T é proporcional a 1/√g; com g seis vezes menor, T fica √6 ≈ 2,4 vezes maior."
+    },
+    {
+      "id": "fisica-2-11",
+      "topico": "ondas",
+      "nivel": "conceitual",
+      "pergunta": "Quando uma onda passa de um meio para outro, o que permanece igual?",
+      "opcoes": [
+        "A velocidade",
+        "O comprimento de onda",
+        "A frequência",
+        "A amplitude sempre"
+      ],
+      "correta": 2,
+      "explicacao": "A frequência é imposta pela fonte; velocidade e comprimento de onda mudam juntos (v = λf)."
+    },
+    {
+      "id": "fisica-2-12",
+      "topico": "ondas",
+      "nivel": "conceitual",
+      "pergunta": "O som no ar é uma onda:",
+      "opcoes": [
+        "Eletromagnética e transversal",
+        "Mecânica e transversal",
+        "Eletromagnética e longitudinal",
+        "Mecânica e longitudinal"
+      ],
+      "correta": 3,
+      "explicacao": "Precisa de meio material e as partículas vibram na direção da propagação (compressões e rarefações)."
+    },
+    {
+      "id": "fisica-2-13",
+      "topico": "ondas",
+      "nivel": "conceitual",
+      "pergunta": "A característica que permite distinguir a mesma nota tocada num violão e num piano é:",
+      "opcoes": [
+        "O timbre",
+        "A altura",
+        "A intensidade",
+        "A frequência fundamental"
+      ],
+      "correta": 0,
+      "explicacao": "Mesma nota tem a mesma frequência fundamental; o timbre depende dos harmônicos, ou seja, da forma da onda."
+    },
+    {
+      "id": "fisica-2-14",
+      "topico": "ondas",
+      "nivel": "aplicacao",
+      "pergunta": "Um som de 680 Hz se propaga no ar a 340 m/s. Qual é o comprimento de onda?",
+      "opcoes": [
+        "2 m",
+        "0,5 m",
+        "231 m",
+        "1.020 m"
+      ],
+      "correta": 1,
+      "explicacao": "Da equação fundamental v = λf, isolamos λ = v/f = 340/680 = 0,5 m. Frequências maiores têm comprimentos de onda menores."
+    },
+    {
+      "id": "fisica-2-15",
+      "topico": "ondas",
+      "nivel": "analise",
+      "pergunta": "Uma ambulância se aproxima e depois se afasta de você. O que você percebe?",
+      "opcoes": [
+        "Som mais grave na aproximação",
+        "Som com a mesma altura o tempo todo",
+        "Som mais agudo na aproximação e mais grave no afastamento",
+        "Apenas mudança de volume, sem mudança de altura"
+      ],
+      "correta": 2,
+      "explicacao": "É o efeito Doppler: na aproximação as frentes de onda chegam mais juntas, aumentando a frequência percebida."
+    },
+    {
+      "id": "fisica-2-16",
+      "topico": "temperatura",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre calor e temperatura?",
+      "opcoes": [
+        "São a mesma coisa",
+        "Temperatura é energia; calor é a escala",
+        "Calor só existe nos sólidos",
+        "Calor é energia em trânsito; temperatura mede a agitação média das partículas"
+      ],
+      "correta": 3,
+      "explicacao": "Um corpo não 'tem' calor; ele tem energia interna. Calor é a energia que passa por causa de uma diferença de temperatura."
+    },
+    {
+      "id": "fisica-2-17",
+      "topico": "temperatura",
+      "nivel": "conceitual",
+      "pergunta": "Qual forma de transmissão de calor ocorre também no vácuo?",
+      "opcoes": [
+        "Radiação",
+        "Condução",
+        "Convecção",
+        "Nenhuma delas"
+      ],
+      "correta": 0,
+      "explicacao": "Condução e convecção precisam de matéria; a radiação são ondas eletromagnéticas, como a luz do Sol."
+    },
+    {
+      "id": "fisica-2-18",
+      "topico": "temperatura",
+      "nivel": "conceitual",
+      "pergunta": "Durante a mudança de estado de uma substância pura, sob pressão constante:",
+      "opcoes": [
+        "A temperatura sobe sempre",
+        "A temperatura fica constante",
+        "Não há troca de calor",
+        "A massa diminui"
+      ],
+      "correta": 1,
+      "explicacao": "O calor recebido (Q = mL) rompe as ligações entre as partículas em vez de aumentar a agitação."
+    },
+    {
+      "id": "fisica-2-19",
+      "topico": "temperatura",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto calor é preciso para aquecer 500 g de água de 20 °C a 80 °C (c = 1 cal/g·°C)?",
+      "opcoes": [
+        "10.000 cal",
+        "40.000 cal",
+        "30.000 cal",
+        "60.000 cal"
+      ],
+      "correta": 2,
+      "explicacao": "Q = m·c·ΔT = 500 · 1 · 60 = 30.000 cal (30 kcal)."
+    },
+    {
+      "id": "fisica-2-20",
+      "topico": "temperatura",
+      "nivel": "analise",
+      "pergunta": "Por que um lago congela só na superfície e a vida continua no fundo?",
+      "opcoes": [
+        "O fundo recebe calor do Sol",
+        "O gelo é mais denso e afunda",
+        "A pressão impede o congelamento em qualquer profundidade",
+        "A água tem densidade máxima a 4 °C, então a água mais fria e o gelo ficam em cima"
+      ],
+      "correta": 3,
+      "explicacao": "Pela anomalia da água, abaixo de 4 °C ela fica menos densa e sobe; o gelo flutua e isola a água de baixo."
+    },
+    {
+      "id": "fisica-2-21",
+      "topico": "gases",
+      "nivel": "conceitual",
+      "pergunta": "Numa transformação isotérmica de um gás ideal:",
+      "opcoes": [
+        "O produto pV permanece constante",
+        "A pressão é constante",
+        "O volume é constante",
+        "Não há troca de calor"
+      ],
+      "correta": 0,
+      "explicacao": "É a lei de Boyle-Mariotte: se o volume cai à metade, a pressão dobra."
+    },
+    {
+      "id": "fisica-2-22",
+      "topico": "gases",
+      "nivel": "conceitual",
+      "pergunta": "A energia cinética média das moléculas de um gás ideal depende:",
+      "opcoes": [
+        "Apenas do volume",
+        "Apenas da temperatura absoluta",
+        "Da pressão e do volume, mas não da temperatura",
+        "Do tipo de recipiente"
+      ],
+      "correta": 1,
+      "explicacao": "E = (3/2)kT: duas amostras de gases diferentes à mesma temperatura têm a mesma energia cinética média por molécula."
+    },
+    {
+      "id": "fisica-2-23",
+      "topico": "gases",
+      "nivel": "conceitual",
+      "pergunta": "Nas equações dos gases, a temperatura deve estar em:",
+      "opcoes": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Qualquer escala"
+      ],
+      "correta": 2,
+      "explicacao": "Só na escala absoluta as razões V/T e p/T fazem sentido; 0 °C não é ausência de agitação."
+    },
+    {
+      "id": "fisica-2-24",
+      "topico": "gases",
+      "nivel": "aplicacao",
+      "pergunta": "Um gás ocupa 10 L a 2 atm. Mantida a temperatura, qual será o volume a 5 atm?",
+      "opcoes": [
+        "25 L",
+        "5 L",
+        "2 L",
+        "4 L"
+      ],
+      "correta": 3,
+      "explicacao": "p₁V₁ = p₂V₂ → 2 · 10 = 5 · V₂ → V₂ = 4 L."
+    },
+    {
+      "id": "fisica-2-25",
+      "topico": "gases",
+      "nivel": "analise",
+      "pergunta": "Um botijão rígido com gás a 300 K é aquecido até 450 K. O que acontece com a pressão?",
+      "opcoes": [
+        "Aumenta 50%",
+        "Dobra",
+        "Não muda, pois o volume é fixo",
+        "Diminui"
+      ],
+      "correta": 0,
+      "explicacao": "Isocórica: p/T constante; p₂ = p₁ · 450/300 = 1,5 p₁. Por isso botijões não devem ficar perto do fogo."
+    },
+    {
+      "id": "fisica-2-26",
+      "topico": "termodinamica",
+      "nivel": "conceitual",
+      "pergunta": "A primeira lei da termodinâmica é uma expressão:",
+      "opcoes": [
+        "Do aumento da entropia",
+        "Da conservação da energia",
+        "Do zero absoluto",
+        "Do equilíbrio térmico"
+      ],
+      "correta": 1,
+      "explicacao": "ΔU = Q − W: a energia recebida como calor vira trabalho ou aumento de energia interna."
+    },
+    {
+      "id": "fisica-2-27",
+      "topico": "termodinamica",
+      "nivel": "conceitual",
+      "pergunta": "Numa transformação adiabática:",
+      "opcoes": [
+        "A temperatura é constante",
+        "O volume é constante",
+        "Não há troca de calor com o ambiente",
+        "O trabalho é zero"
+      ],
+      "correta": 2,
+      "explicacao": "Com Q = 0, ΔU = −W: se o gás se expande, ele esfria (como o spray que sai gelado)."
+    },
+    {
+      "id": "fisica-2-28",
+      "topico": "termodinamica",
+      "nivel": "conceitual",
+      "pergunta": "O que a segunda lei da termodinâmica proíbe?",
+      "opcoes": [
+        "Que a energia se conserve",
+        "Que o calor vá do quente para o frio",
+        "Que um gás se expanda",
+        "Uma máquina térmica que transforme todo o calor recebido em trabalho"
+      ],
+      "correta": 3,
+      "explicacao": "Sempre há calor rejeitado para a fonte fria; nenhuma máquina tem rendimento de 100%."
+    },
+    {
+      "id": "fisica-2-29",
+      "topico": "termodinamica",
+      "nivel": "aplicacao",
+      "pergunta": "Um gás recebe 500 J de calor e realiza 200 J de trabalho. Qual é a variação da energia interna?",
+      "opcoes": [
+        "300 J",
+        "700 J",
+        "−300 J",
+        "200 J"
+      ],
+      "correta": 0,
+      "explicacao": "ΔU = Q − W = 500 − 200 = 300 J; a temperatura do gás aumenta."
+    },
+    {
+      "id": "fisica-2-30",
+      "topico": "termodinamica",
+      "nivel": "analise",
+      "pergunta": "Um inventor afirma ter uma máquina com rendimento de 60% operando entre 500 K e 300 K. Isso é possível?",
+      "opcoes": [
+        "Sim, pois 60% é menor que 100%",
+        "Não, pois o máximo (Carnot) seria 40%",
+        "Sim, se o combustível for bom",
+        "Não, pois o máximo seria 20%"
+      ],
+      "correta": 1,
+      "explicacao": "η_Carnot = 1 − 300/500 = 0,4 = 40%. Nenhuma máquina real supera Carnot."
+    }
+  ]
+}

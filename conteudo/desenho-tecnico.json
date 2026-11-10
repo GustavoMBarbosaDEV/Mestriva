@@ -1,0 +1,465 @@
+{
+  "id": "desenho-tecnico",
+  "nome": "Desenho Técnico",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "normas",
+      "nome": "Normas, formatos, linhas e escalas",
+      "resumo": "### Para que serve\nDesenho técnico é uma **linguagem gráfica normalizada**: qualquer profissional deve interpretar o desenho do mesmo jeito. No Brasil, as normas são da **ABNT** (NBRs), baseadas nas ISO.\n\n### Formatos de papel (série A)\n- **A0** = 1 m² (841 × 1189 mm). Cada formato seguinte é **metade** do anterior: A1, A2, A3 (297 × 420), **A4 (210 × 297)**.\n- **Legenda** (carimbo) no canto **inferior direito**: título, escala, autor, data, unidade, número da folha.\n- Dobra-se a folha para o tamanho A4 com a legenda visível.\n\n### Tipos de linha (NBR 8403)\n- **Contínua larga**: arestas e contornos **visíveis**.\n- **Tracejada**: arestas e contornos **não visíveis** (ocultos).\n- **Traço e ponto estreita**: **linhas de centro** e eixos de simetria.\n- **Contínua estreita**: linhas de **cota**, de chamada, hachuras.\n- **Traço e ponto larga nas extremidades**: indica o **plano de corte**.\n- **Contínua estreita à mão livre ou em zigue-zague**: limites de vistas parciais ou interrompidas.\n\n### Escalas (NBR 8196)\n**Escala = tamanho no desenho : tamanho real**.\n- **Natural**: 1:1.\n- **Redução**: 1:2, 1:5, 1:10, 1:50, 1:100 (plantas de casas), 1:500...\n- **Ampliação**: 2:1, 5:1, 10:1 (peças pequenas).\n- **As cotas indicam sempre a medida real**, qualquer que seja a escala.\n\n### Exemplo\nUma parede de 5 m na escala 1:50 aparece com 5.000/50 = **100 mm** (10 cm) no papel.",
+      "revisao": "**Lembre:**\n- A4 = 210 × 297 mm; A0 = 1 m².\n- Legenda no canto inferior direito.\n- Contínua larga: visível; tracejada: oculta; traço-ponto: centro.\n- 1:50 é redução; 2:1 é ampliação.\n- A cota mostra a medida real."
+    },
+    {
+      "id": "projecoes",
+      "nome": "Projeções ortogonais e vistas",
+      "resumo": "### Projeção ortogonal\nProjeta-se a peça em planos perpendiculares, com raios projetantes **paralelos entre si e perpendiculares** ao plano. Cada **vista** mostra a peça olhada de uma direção.\n\n### As três vistas principais\n- **Vista frontal** (elevação): a principal; escolha a que mostra **mais detalhes** e a forma característica.\n- **Vista superior** (planta).\n- **Vista lateral** (esquerda ou direita, de perfil).\n- Há ao todo seis vistas possíveis, mas usa-se o **mínimo necessário** para definir a peça.\n\n### Diedros\n- **1º diedro** (adotado no **Brasil** e na Europa, NBR 10067): a peça fica **entre** o observador e o plano. A **vista superior fica abaixo** da frontal, e a **lateral esquerda fica à direita** da frontal.\n- **3º diedro** (EUA): o plano fica entre o observador e a peça; a vista superior fica **acima** da frontal.\n- O diedro usado deve ser indicado pelo **símbolo** (tronco de cone) na legenda.\n\n### Correspondência entre vistas\n- Frontal e superior têm a mesma **largura** (alinhadas verticalmente).\n- Frontal e lateral têm a mesma **altura** (alinhadas horizontalmente).\n- Superior e lateral têm a mesma **profundidade**.\n\n### Exemplo\nUm cilindro deitado aparece como **retângulo** na vista frontal e como **círculo** na lateral.",
+      "revisao": "**Lembre:**\n- Brasil: 1º diedro.\n- 1º diedro: superior abaixo da frontal; lateral esquerda à direita.\n- Frontal: a vista com mais informação.\n- Mesma largura: frontal e superior; mesma altura: frontal e lateral.\n- Use o mínimo de vistas necessário."
+    },
+    {
+      "id": "perspectivas",
+      "nome": "Perspectivas",
+      "resumo": "### Para que servem\nMostram a peça em **três dimensões** num só desenho, facilitando a visualização. Não substituem as vistas ortogonais para fabricação.\n\n### Perspectiva isométrica\n- Os três eixos formam **120°** entre si; os eixos de largura e profundidade fazem **30° com a horizontal**.\n- As medidas nos três eixos são marcadas **em verdadeira grandeza** (na isométrica simplificada).\n- Linhas paralelas na peça continuam paralelas no desenho.\n- Círculos aparecem como **elipses** (traçadas por um método aproximado de quatro centros).\n- É a mais usada em desenho técnico e esboços.\n\n### Perspectiva cavaleira\n- Face frontal em **verdadeira grandeza** (sem distorção).\n- Profundidade traçada a **30°, 45° ou 60°**, com **redução** (por exemplo, metade a 45°).\n- Boa para peças com detalhes circulares na face frontal.\n\n### Perspectiva cônica (com pontos de fuga)\n- Linhas paralelas convergem para **pontos de fuga** na linha do horizonte.\n- Mais realista, como a visão humana ou a fotografia; muito usada em **arquitetura**.\n- Pode ter 1, 2 ou 3 pontos de fuga.\n\n### Esboço à mão livre\nPrimeiro passo do projeto: traçar com lápis, sem instrumentos, mantendo **proporções**. Começa-se pelas caixas envolventes e depois detalham-se as formas.",
+      "revisao": "**Lembre:**\n- Isométrica: eixos a 120°, medidas reais, círculos viram elipses.\n- Cavaleira: frente em verdadeira grandeza, profundidade inclinada e reduzida.\n- Cônica: pontos de fuga, mais realista.\n- Perspectiva ajuda a ver; vistas servem para fabricar."
+    },
+    {
+      "id": "cotagem",
+      "nome": "Cotagem",
+      "resumo": "### Elementos da cota (NBR 10126)\n- **Linha de cota**: contínua estreita, paralela à medida, com **setas** (ou traços oblíquos em arquitetura) nas pontas.\n- **Linha de chamada (extensão)**: contínua estreita, prolonga a aresta até a cota, com pequena folga da peça e ultrapassando um pouco a linha de cota.\n- **Valor numérico**: **acima** da linha de cota (e legível de baixo ou da direita da folha).\n\n### Regras básicas\n- Unidade padrão em mecânica: **milímetro**, sem escrever \"mm\" em cada cota.\n- **Cada medida aparece uma só vez**: nada de cotas repetidas.\n- Evite cotar **arestas ocultas** (linhas tracejadas).\n- Cotas fora da vista, de preferência; das menores (mais perto) para as maiores (mais longe), para evitar cruzamento.\n- Não use linhas de centro ou contornos como linhas de cota.\n\n### Símbolos\n- **⌀**: diâmetro. **R**: raio. **□**: quadrado. **SR / S⌀**: raio e diâmetro esféricos.\n- Chanfros: por exemplo, 2 × 45°.\n\n### Sistemas de cotagem\n- **Em série (cadeia)**: uma cota após a outra; os erros se acumulam.\n- **Em paralelo (por referência/linha de base)**: todas partindo de uma mesma referência; evita acúmulo de erros.\n- **Por coordenadas**: tabela com x, y (usinagem CNC).\n\n### Tolerâncias\nNenhuma peça sai com medida exata: indica-se a variação permitida (ex.: 50 ± 0,1). Ajustes ISO (como H7/g6) definem folga ou interferência entre furo e eixo.",
+      "revisao": "**Lembre:**\n- Linha de cota e de chamada: contínuas estreitas.\n- Mecânica: mm, sem escrever a unidade.\n- Cada medida uma só vez.\n- ⌀ diâmetro; R raio.\n- Cotagem em paralelo evita acúmulo de erros."
+    },
+    {
+      "id": "cortes",
+      "nome": "Cortes e seções",
+      "resumo": "### Por que cortar\nPeças com muitos detalhes **internos** ficariam cheias de linhas tracejadas. O corte imagina a peça **cortada por um plano** e a parte da frente removida, mostrando o interior com linhas **visíveis**.\n\n### Representação\n- O **plano de corte** é indicado na vista adjacente por linha **traço e ponto**, larga nas extremidades, com **setas** (sentido de observação) e **letras** (Corte AA).\n- As superfícies que o plano toca recebem **hachuras**: linhas finas paralelas, geralmente a **45°**.\n- Em uma mesma peça, as hachuras seguem **mesmo ângulo e espaçamento** em todas as vistas; peças diferentes de um conjunto recebem hachuras com inclinações ou espaçamentos diferentes.\n\n### Tipos de corte\n- **Corte total**: o plano atravessa a peça inteira.\n- **Meio-corte**: em peças **simétricas**, corta-se só um quarto; metade da vista mostra o exterior e a outra o interior.\n- **Corte parcial**: só um trecho, limitado por linha à mão livre.\n- **Corte em desvio (composto)**: o plano muda de direção para passar por vários detalhes.\n\n### Elementos que não se hachuram no corte longitudinal\n**Eixos, parafusos, porcas, pinos, rebites, chavetas, nervuras e raios de rodas** (para não confundir a leitura), salvo quando cortados transversalmente.\n\n### Seção\nMostra **só a superfície** atingida pelo plano (sem o que está atrás). Útil para perfis de barras, braços e nervuras. Pode ser rebatida sobre a vista ou desenhada fora dela.",
+      "revisao": "**Lembre:**\n- Corte mostra o interior com linhas visíveis.\n- Hachura: linhas finas a 45°.\n- Meio-corte: só em peças simétricas.\n- Não se hachuram eixos, parafusos e nervuras no corte longitudinal.\n- Seção: só a superfície cortada."
+    },
+    {
+      "id": "arquitetonico",
+      "nome": "Desenho arquitetônico e CAD",
+      "resumo": "### Desenhos de um projeto de edificação (NBR 6492, substituída pela NBR 16752)\n- **Planta baixa**: corte **horizontal** imaginário a cerca de **1,50 m** do piso, visto de cima. Mostra paredes, portas (com o arco de abertura), janelas, ambientes e áreas.\n- **Cortes** (AA, BB): cortes **verticais** mostrando pé-direito, alturas de janelas, lajes, telhado. Pelo menos um corte deve passar pela **escada** e por áreas molhadas.\n- **Fachadas** (elevações): vistas externas.\n- **Planta de situação**: o terreno no quarteirão. **Planta de locação**: a construção dentro do terreno, com recuos.\n- **Planta de cobertura**: telhado, caimentos e calhas.\n\n### Convenções\n- Escalas usuais: planta baixa e cortes em **1:50** ou 1:100; situação em 1:500 ou 1:1000.\n- Cotas em **metros** (ou centímetros) em arquitetura; cotagem com **traços oblíquos** em vez de setas.\n- **Níveis** indicados com símbolo e valor (ex.: +0,15).\n- Paredes cortadas: traço **mais grosso**; elementos vistos além do corte: traço mais fino.\n- Janelas: indicação de largura × altura / peitoril.\n\n### CAD e BIM\n- **CAD** (AutoCAD, LibreCAD, QCAD): desenho vetorial 2D e 3D. Trabalha-se em **escala real 1:1** no espaço do modelo e define-se a escala na hora de **plotar** (layout).\n- **Camadas (layers)** organizam elementos por tipo (paredes, cotas, textos), cada uma com cor e espessura.\n- **Modelagem 3D paramétrica** (SolidWorks, Inventor, FreeCAD): peças definidas por cotas e restrições; vistas geradas automaticamente.\n- **BIM** (Revit, ArchiCAD): modelo com **informações** dos elementos (materiais, quantidades); obrigatório em obras públicas federais de forma gradual no Brasil.",
+      "revisao": "**Lembre:**\n- Planta baixa: corte horizontal a ~1,50 m.\n- Corte AA: vertical; passar pela escada.\n- Arquitetura: 1:50 ou 1:100, cotas em metros, traços oblíquos.\n- CAD: desenha em 1:1, escala na plotagem.\n- BIM: modelo com informação."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "desenho-tecnico-1",
+      "topico": "normas",
+      "nivel": "conceitual",
+      "pergunta": "Qual tipo de linha representa arestas não visíveis de uma peça?",
+      "opcoes": [
+        "Tracejada",
+        "Contínua larga",
+        "Traço e ponto estreita",
+        "Contínua estreita"
+      ],
+      "correta": 0,
+      "explicacao": "Contínua larga é para arestas visíveis; traço e ponto, para linhas de centro; contínua estreita, para cotas e hachuras."
+    },
+    {
+      "id": "desenho-tecnico-2",
+      "topico": "normas",
+      "nivel": "conceitual",
+      "pergunta": "Num desenho em escala 1:20, as cotas indicam:",
+      "opcoes": [
+        "As medidas no papel",
+        "As medidas reais da peça",
+        "As medidas divididas por 20",
+        "As medidas multiplicadas por 20"
+      ],
+      "correta": 1,
+      "explicacao": "A escala muda só o tamanho do traçado; o número escrito é sempre a medida verdadeira."
+    },
+    {
+      "id": "desenho-tecnico-3",
+      "topico": "normas",
+      "nivel": "conceitual",
+      "pergunta": "Onde fica a legenda (carimbo) numa folha de desenho técnico?",
+      "opcoes": [
+        "No canto superior esquerdo",
+        "No centro da folha",
+        "No canto inferior direito",
+        "No verso da folha"
+      ],
+      "correta": 2,
+      "explicacao": "Assim ela fica visível mesmo com a folha dobrada no formato A4."
+    },
+    {
+      "id": "desenho-tecnico-4",
+      "topico": "normas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma peça de 15 mm é desenhada na escala 4:1. Qual será o tamanho no papel?",
+      "opcoes": [
+        "3,75 mm",
+        "15 mm",
+        "19 mm",
+        "60 mm"
+      ],
+      "correta": 3,
+      "explicacao": "Escala de ampliação: desenho = 4 × real = 4 · 15 = 60 mm. A cota continua sendo 15."
+    },
+    {
+      "id": "desenho-tecnico-5",
+      "topico": "normas",
+      "nivel": "analise",
+      "pergunta": "Um ambiente de 4 m × 6 m precisa caber numa folha A4 (210 × 297 mm) com margem. Qual escala serve?",
+      "opcoes": [
+        "1:50, que dá 80 × 120 mm",
+        "1:10, que dá 400 × 600 mm",
+        "1:1",
+        "2:1"
+      ],
+      "correta": 0,
+      "explicacao": "4.000/50 = 80 mm e 6.000/50 = 120 mm cabem folgadamente; em 1:10, o desenho ficaria maior que a folha."
+    },
+    {
+      "id": "desenho-tecnico-6",
+      "topico": "projecoes",
+      "nivel": "conceitual",
+      "pergunta": "Qual sistema de projeção é adotado como padrão no Brasil?",
+      "opcoes": [
+        "3º diedro",
+        "1º diedro",
+        "Perspectiva cônica",
+        "2º diedro"
+      ],
+      "correta": 1,
+      "explicacao": "A NBR 10067 adota o 1º diedro; os EUA usam o 3º. O símbolo na legenda indica qual foi usado."
+    },
+    {
+      "id": "desenho-tecnico-7",
+      "topico": "projecoes",
+      "nivel": "conceitual",
+      "pergunta": "No 1º diedro, a vista superior é desenhada:",
+      "opcoes": [
+        "Acima da vista frontal",
+        "À direita da vista frontal",
+        "Abaixo da vista frontal",
+        "Sobreposta à vista frontal"
+      ],
+      "correta": 2,
+      "explicacao": "No 1º diedro a peça fica entre o observador e o plano; no 3º diedro, a superior fica acima."
+    },
+    {
+      "id": "desenho-tecnico-8",
+      "topico": "projecoes",
+      "nivel": "conceitual",
+      "pergunta": "Como escolher a vista frontal de uma peça?",
+      "opcoes": [
+        "Sempre a menor face",
+        "A que tem mais linhas tracejadas",
+        "Qualquer uma, ao acaso",
+        "A que mostra mais detalhes e a forma característica da peça"
+      ],
+      "correta": 3,
+      "explicacao": "Uma boa vista frontal reduz a necessidade de outras vistas e de linhas ocultas."
+    },
+    {
+      "id": "desenho-tecnico-9",
+      "topico": "projecoes",
+      "nivel": "aplicacao",
+      "pergunta": "Um cilindro em pé (eixo vertical) aparece como o quê na vista superior?",
+      "opcoes": [
+        "Círculo",
+        "Retângulo",
+        "Triângulo",
+        "Elipse"
+      ],
+      "correta": 0,
+      "explicacao": "Olhando de cima, vê-se a base circular; nas vistas frontal e lateral ele aparece como retângulo."
+    },
+    {
+      "id": "desenho-tecnico-10",
+      "topico": "projecoes",
+      "nivel": "analise",
+      "pergunta": "Quais duas vistas compartilham a mesma altura e por isso ficam alinhadas horizontalmente?",
+      "opcoes": [
+        "Frontal e superior",
+        "Frontal e lateral",
+        "Superior e lateral",
+        "Nenhuma"
+      ],
+      "correta": 1,
+      "explicacao": "Frontal e superior dividem a largura (alinhadas na vertical); superior e lateral dividem a profundidade."
+    },
+    {
+      "id": "desenho-tecnico-11",
+      "topico": "perspectivas",
+      "nivel": "conceitual",
+      "pergunta": "Na perspectiva isométrica, os três eixos formam entre si ângulos de:",
+      "opcoes": [
+        "90°",
+        "45°",
+        "120°",
+        "60°"
+      ],
+      "correta": 2,
+      "explicacao": "Largura e profundidade ficam a 30° da horizontal e a altura na vertical, dividindo o espaço em três partes iguais."
+    },
+    {
+      "id": "desenho-tecnico-12",
+      "topico": "perspectivas",
+      "nivel": "conceitual",
+      "pergunta": "Na perspectiva cavaleira:",
+      "opcoes": [
+        "Todas as faces sofrem a mesma redução",
+        "As linhas convergem para pontos de fuga",
+        "Os eixos formam 120°",
+        "A face frontal aparece em verdadeira grandeza"
+      ],
+      "correta": 3,
+      "explicacao": "A profundidade é traçada inclinada (30°, 45° ou 60°) e com redução."
+    },
+    {
+      "id": "desenho-tecnico-13",
+      "topico": "perspectivas",
+      "nivel": "conceitual",
+      "pergunta": "Qual perspectiva usa pontos de fuga e é a mais realista?",
+      "opcoes": [
+        "Cônica",
+        "Isométrica",
+        "Cavaleira",
+        "Ortogonal"
+      ],
+      "correta": 0,
+      "explicacao": "Imita a visão humana: linhas paralelas convergem no horizonte, por isso é muito usada em arquitetura."
+    },
+    {
+      "id": "desenho-tecnico-14",
+      "topico": "perspectivas",
+      "nivel": "aplicacao",
+      "pergunta": "Na isométrica simplificada, um cubo de 30 mm de aresta é desenhado com arestas de:",
+      "opcoes": [
+        "15 mm na profundidade apenas",
+        "30 mm em todos os eixos",
+        "21 mm em todos os eixos",
+        "45 mm na altura"
+      ],
+      "correta": 1,
+      "explicacao": "Na isométrica simplificada as medidas nos eixos são marcadas sem redução."
+    },
+    {
+      "id": "desenho-tecnico-15",
+      "topico": "perspectivas",
+      "nivel": "analise",
+      "pergunta": "Por que a perspectiva não basta para fabricar uma peça complexa?",
+      "opcoes": [
+        "Porque não pode ter cotas",
+        "Porque só existe em CAD",
+        "Porque distorce ângulos e formas e esconde detalhes; a fabricação exige vistas ortogonais cotadas",
+        "Porque usa linhas tracejadas demais"
+      ],
+      "correta": 2,
+      "explicacao": "Círculos viram elipses e ângulos retos aparecem a 120° ou 60°; as vistas ortogonais mostram as formas sem distorção."
+    },
+    {
+      "id": "desenho-tecnico-16",
+      "topico": "cotagem",
+      "nivel": "conceitual",
+      "pergunta": "Em desenho mecânico, as cotas sem unidade indicada estão em:",
+      "opcoes": [
+        "Centímetros",
+        "Metros",
+        "Polegadas",
+        "Milímetros"
+      ],
+      "correta": 3,
+      "explicacao": "O milímetro é a unidade padrão; outras unidades devem ser indicadas."
+    },
+    {
+      "id": "desenho-tecnico-17",
+      "topico": "cotagem",
+      "nivel": "conceitual",
+      "pergunta": "Qual regra de cotagem está correta?",
+      "opcoes": [
+        "Cada medida deve aparecer uma única vez",
+        "Repetir as cotas em todas as vistas",
+        "Cotar de preferência as linhas ocultas",
+        "Usar a linha de centro como linha de cota"
+      ],
+      "correta": 0,
+      "explicacao": "Cotas repetidas geram dúvida se forem alteradas; cota-se a vista em que o detalhe aparece melhor."
+    },
+    {
+      "id": "desenho-tecnico-18",
+      "topico": "cotagem",
+      "nivel": "conceitual",
+      "pergunta": "O símbolo ⌀ antes de uma cota indica:",
+      "opcoes": [
+        "Raio",
+        "Diâmetro",
+        "Quadrado",
+        "Ângulo"
+      ],
+      "correta": 1,
+      "explicacao": "R indica raio e □ indica seção quadrada."
+    },
+    {
+      "id": "desenho-tecnico-19",
+      "topico": "cotagem",
+      "nivel": "aplicacao",
+      "pergunta": "Furos devem ser posicionados com precisão em relação a uma face de referência. Qual sistema de cotagem é mais indicado?",
+      "opcoes": [
+        "Em série, um furo após o outro",
+        "Sem cotas, só na escala",
+        "Em paralelo, a partir da linha de base",
+        "Por perspectiva"
+      ],
+      "correta": 2,
+      "explicacao": "Na cotagem em série, os erros de cada medida se somam; em paralelo, cada furo depende só da referência."
+    },
+    {
+      "id": "desenho-tecnico-20",
+      "topico": "cotagem",
+      "nivel": "analise",
+      "pergunta": "Uma cota indica 40 ± 0,05. Qual peça seria aceita?",
+      "opcoes": [
+        "Uma com 40,08 mm",
+        "Uma com 39,90 mm",
+        "Uma com 40,10 mm",
+        "Uma com 40,03 mm"
+      ],
+      "correta": 3,
+      "explicacao": "A medida deve ficar entre 39,95 e 40,05 mm; só 40,03 está dentro da tolerância."
+    },
+    {
+      "id": "desenho-tecnico-21",
+      "topico": "cortes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal finalidade de um corte em desenho técnico?",
+      "opcoes": [
+        "Mostrar detalhes internos com linhas visíveis",
+        "Reduzir o tamanho do desenho",
+        "Indicar a escala",
+        "Mostrar a peça em perspectiva"
+      ],
+      "correta": 0,
+      "explicacao": "Sem o corte, o interior apareceria cheio de linhas tracejadas, difíceis de ler."
+    },
+    {
+      "id": "desenho-tecnico-22",
+      "topico": "cortes",
+      "nivel": "conceitual",
+      "pergunta": "O meio-corte é indicado para peças:",
+      "opcoes": [
+        "Assimétricas",
+        "Simétricas",
+        "Sem detalhes internos",
+        "Muito pequenas apenas"
+      ],
+      "correta": 1,
+      "explicacao": "Metade da vista mostra o exterior e a outra metade o interior, aproveitando a simetria."
+    },
+    {
+      "id": "desenho-tecnico-23",
+      "topico": "cortes",
+      "nivel": "conceitual",
+      "pergunta": "Num corte longitudinal de um conjunto, qual elemento normalmente NÃO recebe hachura?",
+      "opcoes": [
+        "Uma carcaça",
+        "Uma flange",
+        "Um parafuso",
+        "Uma tampa"
+      ],
+      "correta": 2,
+      "explicacao": "Eixos, parafusos, pinos e nervuras não se hachuram no sentido longitudinal, para não confundir a leitura."
+    },
+    {
+      "id": "desenho-tecnico-24",
+      "topico": "cortes",
+      "nivel": "aplicacao",
+      "pergunta": "Como se indicam as superfícies atingidas pelo plano de corte?",
+      "opcoes": [
+        "Com linhas tracejadas",
+        "Com linhas grossas cruzadas",
+        "Pintadas de preto sempre",
+        "Com hachuras de linhas finas, geralmente a 45°"
+      ],
+      "correta": 3,
+      "explicacao": "A mesma peça mantém o mesmo padrão de hachura em todas as vistas; peças vizinhas usam inclinação diferente."
+    },
+    {
+      "id": "desenho-tecnico-25",
+      "topico": "cortes",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre corte e seção?",
+      "opcoes": [
+        "A seção mostra só a superfície cortada; o corte mostra também o que está além do plano",
+        "Não há diferença",
+        "A seção só existe em arquitetura",
+        "O corte não usa hachura"
+      ],
+      "correta": 0,
+      "explicacao": "A seção é útil para perfis de barras e braços, quando o que está atrás não interessa."
+    },
+    {
+      "id": "desenho-tecnico-26",
+      "topico": "arquitetonico",
+      "nivel": "conceitual",
+      "pergunta": "A planta baixa é um corte:",
+      "opcoes": [
+        "Vertical, passando pela escada",
+        "Horizontal, a cerca de 1,50 m do piso",
+        "Horizontal, rente ao telhado",
+        "Vertical, pela fachada"
+      ],
+      "correta": 1,
+      "explicacao": "Assim aparecem paredes, portas e janelas; os cortes AA e BB é que são verticais."
+    },
+    {
+      "id": "desenho-tecnico-27",
+      "topico": "arquitetonico",
+      "nivel": "conceitual",
+      "pergunta": "Em programas CAD, a prática recomendada é desenhar:",
+      "opcoes": [
+        "Já reduzido na escala final",
+        "Sempre em polegadas",
+        "Em escala real (1:1) no espaço do modelo e definir a escala na impressão",
+        "Sem camadas"
+      ],
+      "correta": 2,
+      "explicacao": "Desenhar em tamanho real evita conversões; a escala é aplicada no layout de plotagem."
+    },
+    {
+      "id": "desenho-tecnico-28",
+      "topico": "arquitetonico",
+      "nivel": "conceitual",
+      "pergunta": "O que diferencia o BIM do CAD tradicional?",
+      "opcoes": [
+        "O BIM só faz desenhos 2D",
+        "O CAD gera automaticamente orçamentos",
+        "Não há diferença",
+        "O modelo BIM guarda informações dos elementos, como materiais e quantidades"
+      ],
+      "correta": 3,
+      "explicacao": "No BIM, uma parede é um objeto com propriedades; no CAD 2D, são apenas linhas."
+    },
+    {
+      "id": "desenho-tecnico-29",
+      "topico": "arquitetonico",
+      "nivel": "aplicacao",
+      "pergunta": "Numa planta 1:100, uma sala aparece com 4 cm × 5 cm. Qual é a área real?",
+      "opcoes": [
+        "20 m²",
+        "200 m²",
+        "2 m²",
+        "0,2 m²"
+      ],
+      "correta": 0,
+      "explicacao": "4 cm × 100 = 4 m e 5 cm × 100 = 5 m; área = 4 · 5 = 20 m²."
+    },
+    {
+      "id": "desenho-tecnico-30",
+      "topico": "arquitetonico",
+      "nivel": "analise",
+      "pergunta": "Por que se recomenda que um dos cortes de uma casa passe pela escada?",
+      "opcoes": [
+        "Para economizar papel",
+        "Para mostrar alturas dos degraus, pé-direito e a relação entre pavimentos",
+        "Porque a escada é sempre a parte mais bonita",
+        "Porque a norma proíbe cortes nos banheiros"
+      ],
+      "correta": 1,
+      "explicacao": "A escada só é bem compreendida em corte vertical, onde aparecem espelhos, pisos e o desnível entre andares."
+    }
+  ]
+}

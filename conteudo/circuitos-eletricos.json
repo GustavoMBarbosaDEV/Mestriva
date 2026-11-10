@@ -1,0 +1,465 @@
+{
+  "id": "circuitos-eletricos",
+  "nome": "Circuitos Elétricos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "grandezas",
+      "nome": "Grandezas elétricas e lei de Ohm",
+      "resumo": "### Grandezas básicas\n- **Carga** (q): coulomb (C).\n- **Corrente** (i): fluxo de carga, **i = dq/dt**, em ampère (A). Sentido convencional: do + para o − por fora da fonte.\n- **Tensão** (v, ddp): energia por unidade de carga, em volt (V). É sempre medida **entre dois pontos**.\n- **Potência**: **p = v·i**, em watt (W). Energia: E = P·t (kWh na conta de luz).\n- **Convenção do receptor (sinal passivo)**: corrente entrando pelo terminal +: p > 0, o elemento **absorve** energia; p < 0, **fornece**.\n\n### Lei de Ohm\n**v = R·i** (resistor linear). R em ohm (Ω).\n- Potência no resistor: **P = R·i² = v²/R** (sempre dissipada como calor, efeito Joule).\n- **Condutância**: G = 1/R, em siemens (S).\n- **Resistência de um fio**: R = ρ·L/A (cresce com o comprimento, cai com a área).\n\n### Elementos ideais\n- **Fonte de tensão ideal**: mantém v fixa, qualquer corrente.\n- **Fonte de corrente ideal**: mantém i fixa, qualquer tensão.\n- **Fontes dependentes**: valor controlado por outra tensão ou corrente do circuito (modelam transistores e amplificadores).\n- **Curto-circuito**: R = 0 (v = 0). **Circuito aberto**: R = ∞ (i = 0).\n\n### Instrumentos\n- **Amperímetro** em **série** (resistência interna quase zero).\n- **Voltímetro** em **paralelo** (resistência interna muito alta).\n\n### Exemplo\nChuveiro de 5.500 W em 220 V: i = P/v = **25 A**; R = v²/P ≈ **8,8 Ω**.",
+      "revisao": "**Lembre:**\n- v = Ri; p = vi = Ri² = v²/R.\n- Convenção passiva: p > 0 absorve.\n- Amperímetro em série; voltímetro em paralelo.\n- Curto: v = 0; aberto: i = 0."
+    },
+    {
+      "id": "kirchhoff",
+      "nome": "Leis de Kirchhoff e associações",
+      "resumo": "### Leis de Kirchhoff\n- **Lei das correntes (LKC)**: a soma das correntes que **entram** num nó é igual à soma das que **saem** (conservação da carga).\n- **Lei das tensões (LKT)**: a soma algébrica das tensões ao longo de qualquer **malha fechada** é zero (conservação da energia).\n\n### Série\nMesma corrente em todos os elementos.\n- **R_eq = R₁ + R₂ + ...**\n- **Divisor de tensão**: v₁ = v · R₁/(R₁ + R₂). O maior resistor fica com a maior tensão.\n\n### Paralelo\nMesma tensão em todos os elementos.\n- **1/R_eq = 1/R₁ + 1/R₂ + ...**; para dois: R_eq = R₁R₂/(R₁ + R₂).\n- R_eq é sempre **menor que o menor** resistor.\n- **Divisor de corrente**: i₁ = i · R₂/(R₁ + R₂). A corrente prefere o caminho de **menor** resistência.\n- Tomadas de uma casa são ligadas em **paralelo** (todas com 127 ou 220 V).\n\n### Transformação estrela-triângulo (Y-Δ)\nPara redes que não são nem série nem paralelo. Com três resistores iguais: R_Y = R_Δ/3.\n\n### Fontes\n- Fontes de tensão em série somam; em paralelo, só se forem iguais.\n- Fontes de corrente em paralelo somam.\n\n### Exemplo\nDois resistores de 6 Ω em paralelo: **3 Ω**. Em série com mais 3 Ω: **6 Ω**. Ligados a 12 V: corrente total **2 A**.",
+      "revisao": "**Lembre:**\n- LKC: entra = sai.\n- LKT: soma na malha = 0.\n- Série: soma; mesma corrente.\n- Paralelo: R₁R₂/(R₁ + R₂); mesma tensão.\n- Divisor de tensão: v·R₁/(R₁ + R₂)."
+    },
+    {
+      "id": "metodos",
+      "nome": "Métodos de análise e teoremas",
+      "resumo": "### Análise nodal (tensões de nó)\n1. Escolha um nó de **referência** (terra, 0 V).\n2. Atribua tensões aos demais nós.\n3. Aplique a **LKC** em cada nó, escrevendo correntes como (v_a − v_b)/R.\n- Fonte de tensão entre dois nós: **supernó**.\n- Quantidade de equações: (número de nós − 1).\n\n### Análise de malhas (correntes de malha)\n1. Atribua uma corrente a cada malha.\n2. Aplique a **LKT** em cada malha.\n- Fonte de corrente compartilhada por duas malhas: **supermalha**.\n\n### Superposição\nEm circuitos **lineares** com várias fontes independentes, a resposta é a **soma** das respostas a cada fonte sozinha.\n- Para \"desligar\" uma fonte: tensão vira **curto**; corrente vira **aberto**.\n- Não vale diretamente para **potência** (que é quadrática).\n\n### Thévenin e Norton\nQualquer circuito linear visto de dois terminais equivale a:\n- **Thévenin**: fonte **V_th** (tensão em aberto) em série com **R_th**.\n- **Norton**: fonte **I_N** (corrente de curto) em paralelo com R_N = R_th.\n- R_th: desligue as fontes independentes e calcule a resistência vista dos terminais. Também **R_th = V_th/I_N**.\n\n### Máxima transferência de potência\nA carga recebe potência máxima quando **R_L = R_th**; então P_máx = V_th²/(4R_th). Nesse ponto o rendimento é só 50%.",
+      "revisao": "**Lembre:**\n- Nodal: LKC nos nós; malhas: LKT nas malhas.\n- Superposição: tensão → curto; corrente → aberto.\n- Thévenin: V_th (aberto) + R_th em série.\n- R_th = V_th/I_N.\n- Máxima potência: R_L = R_th."
+    },
+    {
+      "id": "capacitores",
+      "nome": "Capacitores, indutores e transitórios",
+      "resumo": "### Capacitor\nArmazena energia no **campo elétrico**.\n- **q = C·v**; **i = C·dv/dt**. Unidade: farad (F).\n- Energia: **W = ½Cv²**.\n- A **tensão não varia instantaneamente**.\n- Em regime **CC permanente**, comporta-se como **circuito aberto**.\n- Série: 1/C_eq = Σ1/C; paralelo: C_eq = ΣC (o oposto dos resistores).\n\n### Indutor\nArmazena energia no **campo magnético**.\n- **v = L·di/dt**. Unidade: henry (H).\n- Energia: **W = ½Li²**.\n- A **corrente não varia instantaneamente** (abrir uma chave com indutor gera faísca).\n- Em regime **CC permanente**: **curto-circuito**.\n- Série soma como resistores; paralelo, como resistores em paralelo.\n\n### Circuitos de primeira ordem\n- **RC**: constante de tempo **τ = R·C**.\n- **RL**: **τ = L/R**.\n- Resposta: **x(t) = x(∞) + [x(0) − x(∞)]·e^(−t/τ)**.\n- Após **1τ**: 63% da variação; após **5τ**: praticamente regime permanente (> 99%).\n\n### Segunda ordem (RLC)\nEquação com dois armazenadores; resposta **superamortecida**, **criticamente amortecida** ou **subamortecida** (oscilatória), conforme o amortecimento. Frequência de ressonância: ω₀ = 1/√(LC).\n\n### Exemplo\nR = 10 kΩ e C = 100 µF: τ = 1 s. O capacitor carrega praticamente em **5 s**.",
+      "revisao": "**Lembre:**\n- Capacitor: i = C dv/dt; aberto em CC.\n- Indutor: v = L di/dt; curto em CC.\n- τ = RC ou L/R.\n- 5τ ≈ regime permanente.\n- x(t) = x(∞) + [x(0) − x(∞)]e^(−t/τ)."
+    },
+    {
+      "id": "ca",
+      "nome": "Corrente alternada e fasores",
+      "resumo": "### Sinal senoidal\n**v(t) = V_m·cos(ωt + φ)**, com ω = 2πf. No Brasil, **f = 60 Hz**.\n- **Valor eficaz (RMS)**: **V_ef = V_m/√2**. Os 127 V e 220 V da tomada são valores **eficazes** (pico de 220 V ≈ 311 V).\n\n### Fasores\nRepresentam a senoide por um número complexo com módulo e ângulo: V = V_m∠φ. Derivar no tempo vira multiplicar por **jω**.\n\n### Impedância (Z = V/I)\n- **Resistor**: Z = R (tensão e corrente **em fase**).\n- **Indutor**: **Z = jωL** (corrente **atrasada** 90° da tensão).\n- **Capacitor**: **Z = 1/(jωC) = −j/(ωC)** (corrente **adiantada** 90°).\n- Reatâncias: X_L = ωL (cresce com f) e X_C = 1/(ωC) (cai com f).\n- As impedâncias se associam como resistores; todos os métodos (nodal, malhas, Thévenin) valem com números complexos.\n\n### Ressonância série RLC\nQuando X_L = X_C: **ω₀ = 1/√(LC)**; a impedância é mínima (só R) e a corrente é máxima. Base de filtros e sintonizadores de rádio.\n\n### Filtros simples\n- **RC passa-baixas**: deixa passar frequências baixas; corte em f_c = 1/(2πRC).\n- **Passa-altas**: o contrário.",
+      "revisao": "**Lembre:**\n- V_ef = V_m/√2.\n- Z_L = jωL (corrente atrasada); Z_C = 1/(jωC) (adiantada).\n- X_L sobe com f; X_C cai com f.\n- Ressonância: ω₀ = 1/√(LC).\n- No Brasil, 60 Hz."
+    },
+    {
+      "id": "potencia-ca",
+      "nome": "Potência em CA e circuitos trifásicos",
+      "resumo": "### Potências\n- **Ativa (P)**: realiza trabalho útil, em **W**. P = V_ef·I_ef·cos θ.\n- **Reativa (Q)**: troca de energia com indutores e capacitores, em **var**. Q = V_ef·I_ef·sen θ.\n- **Aparente (S)**: **S = V_ef·I_ef**, em **VA**. S² = P² + Q² (**triângulo de potências**).\n- **Fator de potência**: **FP = cos θ = P/S** (θ = ângulo entre tensão e corrente).\n\n### Correção do fator de potência\n- Cargas **indutivas** (motores) têm FP atrasado; a corrente é maior que o necessário.\n- No Brasil, a concessionária cobra multa abaixo de **FP = 0,92**.\n- Correção: **capacitores em paralelo** com a carga, que fornecem reativo e reduzem a corrente da linha.\n\n### Sistemas trifásicos\nTrês tensões de mesma amplitude defasadas de **120°**. Transmitem mais potência com menos material e produzem campo girante (motores de indução).\n- **Estrela (Y)**: V_linha = **√3·V_fase**; I_linha = I_fase. Permite neutro (ex.: 127/220 V).\n- **Triângulo (Δ)**: V_linha = V_fase; I_linha = **√3·I_fase**.\n- **Potência trifásica**: **P = √3·V_L·I_L·cos θ**.\n- Carga **equilibrada** em Y: corrente no neutro é **zero**.\n\n### Exemplo\nMotor de 10 kW com FP 0,8: S = 10/0,8 = **12,5 kVA**; Q = √(12,5² − 10²) = **7,5 kvar**.",
+      "revisao": "**Lembre:**\n- P (W), Q (var), S (VA); S² = P² + Q².\n- FP = P/S; mínimo exigido 0,92.\n- Corrige-se FP indutivo com capacitores.\n- Y: V_L = √3 V_F; Δ: I_L = √3 I_F.\n- P₃φ = √3 V_L I_L cos θ."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "circuitos-eletricos-1",
+      "topico": "grandezas",
+      "nivel": "conceitual",
+      "pergunta": "Como um amperímetro deve ser ligado no circuito?",
+      "opcoes": [
+        "Em série com o elemento",
+        "Em paralelo com o elemento",
+        "Entre o elemento e o terra, em paralelo",
+        "Em qualquer posição"
+      ],
+      "correta": 0,
+      "explicacao": "A corrente precisa passar por ele; por isso a resistência interna do amperímetro é quase zero."
+    },
+    {
+      "id": "circuitos-eletricos-2",
+      "topico": "grandezas",
+      "nivel": "conceitual",
+      "pergunta": "Pela convenção passiva, se a potência calculada para um elemento é negativa, ele está:",
+      "opcoes": [
+        "Absorvendo energia",
+        "Fornecendo energia ao circuito",
+        "Em curto-circuito",
+        "Desligado"
+      ],
+      "correta": 1,
+      "explicacao": "p = vi com a corrente entrando pelo terminal +; p < 0 indica que o elemento age como fonte."
+    },
+    {
+      "id": "circuitos-eletricos-3",
+      "topico": "grandezas",
+      "nivel": "conceitual",
+      "pergunta": "Num curto-circuito ideal:",
+      "opcoes": [
+        "A corrente é zero",
+        "A resistência é infinita",
+        "A tensão entre os terminais é zero",
+        "A potência é máxima no próprio curto"
+      ],
+      "correta": 2,
+      "explicacao": "R = 0 implica v = Ri = 0 para qualquer corrente; no circuito aberto é a corrente que é zero."
+    },
+    {
+      "id": "circuitos-eletricos-4",
+      "topico": "grandezas",
+      "nivel": "aplicacao",
+      "pergunta": "Um resistor de 10 Ω é percorrido por 2 A. Qual é a potência dissipada?",
+      "opcoes": [
+        "20 W",
+        "5 W",
+        "200 W",
+        "40 W"
+      ],
+      "correta": 3,
+      "explicacao": "P = R·i² = 10 · 4 = 40 W; também pode-se fazer v = 20 V e P = vi = 40 W."
+    },
+    {
+      "id": "circuitos-eletricos-5",
+      "topico": "grandezas",
+      "nivel": "analise",
+      "pergunta": "Um chuveiro de 4.400 W em 220 V é ligado por engano em 110 V. Qual será a potência?",
+      "opcoes": [
+        "1.100 W",
+        "2.200 W",
+        "4.400 W",
+        "8.800 W"
+      ],
+      "correta": 0,
+      "explicacao": "R = 220²/4.400 = 11 Ω; em 110 V, P = 110²/11 = 1.100 W. Metade da tensão dá um quarto da potência."
+    },
+    {
+      "id": "circuitos-eletricos-6",
+      "topico": "kirchhoff",
+      "nivel": "conceitual",
+      "pergunta": "A lei das correntes de Kirchhoff é consequência da:",
+      "opcoes": [
+        "Conservação da energia",
+        "Conservação da carga",
+        "Lei de Ohm",
+        "Lei de Faraday"
+      ],
+      "correta": 1,
+      "explicacao": "A carga não se acumula num nó: tudo o que entra sai. A lei das tensões vem da conservação da energia."
+    },
+    {
+      "id": "circuitos-eletricos-7",
+      "topico": "kirchhoff",
+      "nivel": "conceitual",
+      "pergunta": "Em resistores ligados em paralelo, é igual para todos:",
+      "opcoes": [
+        "A corrente",
+        "A potência",
+        "A tensão",
+        "A resistência"
+      ],
+      "correta": 2,
+      "explicacao": "Todos estão ligados aos mesmos dois nós; as correntes se dividem conforme as resistências."
+    },
+    {
+      "id": "circuitos-eletricos-8",
+      "topico": "kirchhoff",
+      "nivel": "conceitual",
+      "pergunta": "A resistência equivalente de resistores em paralelo é:",
+      "opcoes": [
+        "Maior que a maior das resistências",
+        "A média das resistências",
+        "A soma das resistências",
+        "Menor que a menor das resistências"
+      ],
+      "correta": 3,
+      "explicacao": "Cada resistor a mais abre um novo caminho para a corrente, reduzindo a resistência total."
+    },
+    {
+      "id": "circuitos-eletricos-9",
+      "topico": "kirchhoff",
+      "nivel": "aplicacao",
+      "pergunta": "Um divisor de tensão tem R₁ = 2 kΩ e R₂ = 8 kΩ em série com 10 V. Qual é a tensão em R₂?",
+      "opcoes": [
+        "8 V",
+        "2 V",
+        "5 V",
+        "10 V"
+      ],
+      "correta": 0,
+      "explicacao": "v₂ = 10 · 8/(2 + 8) = 8 V. Em série, o maior resistor fica com a maior parte da tensão."
+    },
+    {
+      "id": "circuitos-eletricos-10",
+      "topico": "kirchhoff",
+      "nivel": "analise",
+      "pergunta": "Resistores de 3 Ω e 6 Ω em paralelo são ligados a 12 V. Qual é a corrente total da fonte?",
+      "opcoes": [
+        "4 A",
+        "6 A",
+        "2 A",
+        "1,33 A"
+      ],
+      "correta": 1,
+      "explicacao": "R_eq = 3·6/(3 + 6) = 2 Ω; i = 12/2 = 6 A (4 A pelo de 3 Ω e 2 A pelo de 6 Ω)."
+    },
+    {
+      "id": "circuitos-eletricos-11",
+      "topico": "metodos",
+      "nivel": "conceitual",
+      "pergunta": "No teorema da superposição, para desligar uma fonte de tensão independente, ela é substituída por:",
+      "opcoes": [
+        "Um circuito aberto",
+        "Um resistor de 1 Ω",
+        "Um curto-circuito",
+        "Uma fonte de corrente"
+      ],
+      "correta": 2,
+      "explicacao": "Tensão zero equivale a um fio; já a fonte de corrente desligada vira circuito aberto."
+    },
+    {
+      "id": "circuitos-eletricos-12",
+      "topico": "metodos",
+      "nivel": "conceitual",
+      "pergunta": "O equivalente de Thévenin de um circuito linear é:",
+      "opcoes": [
+        "Uma fonte de corrente em série com uma resistência",
+        "Apenas uma resistência",
+        "Uma fonte de tensão em paralelo com uma resistência",
+        "Uma fonte de tensão em série com uma resistência"
+      ],
+      "correta": 3,
+      "explicacao": "O de Norton é que usa fonte de corrente em paralelo com a resistência."
+    },
+    {
+      "id": "circuitos-eletricos-13",
+      "topico": "metodos",
+      "nivel": "conceitual",
+      "pergunta": "Na análise nodal, quais leis se aplicam em cada nó?",
+      "opcoes": [
+        "Lei das correntes de Kirchhoff",
+        "Lei das tensões de Kirchhoff",
+        "Lei de Faraday",
+        "Lei de Lenz"
+      ],
+      "correta": 0,
+      "explicacao": "Escrevem-se as correntes que saem do nó em função das tensões nodais e iguala-se a soma a zero."
+    },
+    {
+      "id": "circuitos-eletricos-14",
+      "topico": "metodos",
+      "nivel": "aplicacao",
+      "pergunta": "Um circuito tem V_th = 12 V e R_th = 4 Ω. Qual é a máxima potência que pode entregar a uma carga?",
+      "opcoes": [
+        "36 W",
+        "9 W",
+        "3 W",
+        "18 W"
+      ],
+      "correta": 1,
+      "explicacao": "Com R_L = R_th = 4 Ω, P_máx = V_th²/(4R_th) = 144/16 = 9 W."
+    },
+    {
+      "id": "circuitos-eletricos-15",
+      "topico": "metodos",
+      "nivel": "analise",
+      "pergunta": "A tensão em aberto de um circuito é 10 V e a corrente de curto é 2 A. Qual é o equivalente de Thévenin?",
+      "opcoes": [
+        "10 V em série com 20 Ω",
+        "2 A em série com 5 Ω",
+        "10 V em série com 5 Ω",
+        "5 V em série com 2 Ω"
+      ],
+      "correta": 2,
+      "explicacao": "V_th = tensão em aberto = 10 V; R_th = V_th/I_N = 10/2 = 5 Ω."
+    },
+    {
+      "id": "circuitos-eletricos-16",
+      "topico": "capacitores",
+      "nivel": "conceitual",
+      "pergunta": "Em regime permanente de corrente contínua, um capacitor se comporta como:",
+      "opcoes": [
+        "Curto-circuito",
+        "Resistor de 1 Ω",
+        "Fonte de corrente",
+        "Circuito aberto"
+      ],
+      "correta": 3,
+      "explicacao": "Com tensão constante, dv/dt = 0 e i = C·dv/dt = 0. O indutor, ao contrário, vira curto."
+    },
+    {
+      "id": "circuitos-eletricos-17",
+      "topico": "capacitores",
+      "nivel": "conceitual",
+      "pergunta": "Qual grandeza de um indutor não pode variar instantaneamente?",
+      "opcoes": [
+        "A corrente",
+        "A tensão",
+        "A resistência",
+        "A frequência"
+      ],
+      "correta": 0,
+      "explicacao": "v = L·di/dt: um salto de corrente exigiria tensão infinita; por isso aparecem faíscas ao abrir chaves de cargas indutivas."
+    },
+    {
+      "id": "circuitos-eletricos-18",
+      "topico": "capacitores",
+      "nivel": "conceitual",
+      "pergunta": "Após quantas constantes de tempo um circuito RC é considerado em regime permanente?",
+      "opcoes": [
+        "1",
+        "Cerca de 5",
+        "2",
+        "100"
+      ],
+      "correta": 1,
+      "explicacao": "Em 5τ a resposta atinge mais de 99% do valor final; em 1τ, cerca de 63%."
+    },
+    {
+      "id": "circuitos-eletricos-19",
+      "topico": "capacitores",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a constante de tempo de um circuito RL com L = 0,5 H e R = 100 Ω?",
+      "opcoes": [
+        "50 s",
+        "200 s",
+        "5 ms",
+        "0,5 s"
+      ],
+      "correta": 2,
+      "explicacao": "τ = L/R = 0,5/100 = 0,005 s = 5 ms. No RC seria τ = RC."
+    },
+    {
+      "id": "circuitos-eletricos-20",
+      "topico": "capacitores",
+      "nivel": "analise",
+      "pergunta": "Um capacitor de 100 µF está carregado com 20 V. Quanta energia ele armazena?",
+      "opcoes": [
+        "2 J",
+        "0,002 J",
+        "0,2 J",
+        "0,02 J"
+      ],
+      "correta": 3,
+      "explicacao": "W = ½Cv² = 0,5 · 100 × 10⁻⁶ · 400 = 0,02 J."
+    },
+    {
+      "id": "circuitos-eletricos-21",
+      "topico": "ca",
+      "nivel": "conceitual",
+      "pergunta": "Os 220 V informados para a tomada correspondem a qual valor da senoide?",
+      "opcoes": [
+        "Valor eficaz (RMS)",
+        "Valor de pico",
+        "Valor médio",
+        "Valor pico a pico"
+      ],
+      "correta": 0,
+      "explicacao": "O pico é 220·√2 ≈ 311 V; o eficaz é o que produz o mesmo aquecimento que uma tensão contínua de 220 V."
+    },
+    {
+      "id": "circuitos-eletricos-22",
+      "topico": "ca",
+      "nivel": "conceitual",
+      "pergunta": "Num indutor ideal em CA, a corrente em relação à tensão está:",
+      "opcoes": [
+        "Adiantada 90°",
+        "Atrasada 90°",
+        "Em fase",
+        "Defasada 180°"
+      ],
+      "correta": 1,
+      "explicacao": "Z_L = jωL; no capacitor a corrente fica adiantada 90°."
+    },
+    {
+      "id": "circuitos-eletricos-23",
+      "topico": "ca",
+      "nivel": "conceitual",
+      "pergunta": "Ao aumentar a frequência, a reatância de um capacitor:",
+      "opcoes": [
+        "Aumenta",
+        "Não muda",
+        "Diminui",
+        "Vira infinita"
+      ],
+      "correta": 2,
+      "explicacao": "X_C = 1/(ωC): em alta frequência o capacitor se aproxima de um curto, em CC de um aberto."
+    },
+    {
+      "id": "circuitos-eletricos-24",
+      "topico": "ca",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a reatância de um indutor de 0,1 H em 60 Hz?",
+      "opcoes": [
+        "6 Ω",
+        "377 Ω",
+        "0,0027 Ω",
+        "Cerca de 37,7 Ω"
+      ],
+      "correta": 3,
+      "explicacao": "Reatância indutiva: X_L = ωL = 2πfL = 2π · 60 · 0,1 ≈ 37,7 Ω. Ela cresce em proporção à frequência."
+    },
+    {
+      "id": "circuitos-eletricos-25",
+      "topico": "ca",
+      "nivel": "analise",
+      "pergunta": "Num RLC série em ressonância, o que acontece?",
+      "opcoes": [
+        "As reatâncias se cancelam e a corrente é máxima",
+        "A impedância é máxima e a corrente é mínima",
+        "A corrente é zero",
+        "Só o capacitor conduz"
+      ],
+      "correta": 0,
+      "explicacao": "Com X_L = X_C, a impedância vale só R. É o princípio da sintonia de rádio."
+    },
+    {
+      "id": "circuitos-eletricos-26",
+      "topico": "potencia-ca",
+      "nivel": "conceitual",
+      "pergunta": "O fator de potência é a razão entre:",
+      "opcoes": [
+        "Potência reativa e ativa",
+        "Potência ativa e potência aparente",
+        "Tensão e corrente",
+        "Potência aparente e reativa"
+      ],
+      "correta": 1,
+      "explicacao": "FP = P/S = cos θ; vale 1 quando tensão e corrente estão em fase."
+    },
+    {
+      "id": "circuitos-eletricos-27",
+      "topico": "potencia-ca",
+      "nivel": "conceitual",
+      "pergunta": "Como se corrige o baixo fator de potência de uma instalação com muitos motores?",
+      "opcoes": [
+        "Instalando indutores em série",
+        "Aumentando a tensão",
+        "Instalando capacitores em paralelo com a carga",
+        "Desligando o neutro"
+      ],
+      "correta": 2,
+      "explicacao": "Os capacitores fornecem a potência reativa que os motores consomem, reduzindo a corrente na rede."
+    },
+    {
+      "id": "circuitos-eletricos-28",
+      "topico": "potencia-ca",
+      "nivel": "conceitual",
+      "pergunta": "Numa ligação em estrela (Y) equilibrada, a tensão de linha é:",
+      "opcoes": [
+        "Igual à tensão de fase",
+        "3 vezes a tensão de fase",
+        "Metade da tensão de fase",
+        "√3 vezes a tensão de fase"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso o sistema 127/220 V: 127 · √3 ≈ 220 V."
+    },
+    {
+      "id": "circuitos-eletricos-29",
+      "topico": "potencia-ca",
+      "nivel": "aplicacao",
+      "pergunta": "Uma carga consome 8 kW com fator de potência 0,8. Qual é a potência aparente?",
+      "opcoes": [
+        "10 kVA",
+        "6,4 kVA",
+        "8 kVA",
+        "12 kVA"
+      ],
+      "correta": 0,
+      "explicacao": "S = P/FP = 8/0,8 = 10 kVA; a reativa é √(10² − 8²) = 6 kvar."
+    },
+    {
+      "id": "circuitos-eletricos-30",
+      "topico": "potencia-ca",
+      "nivel": "analise",
+      "pergunta": "Por que a concessionária cobra multa de indústrias com fator de potência baixo?",
+      "opcoes": [
+        "Porque a indústria consome menos energia",
+        "Porque a corrente na rede fica maior para a mesma potência útil, aumentando perdas",
+        "Porque a tensão cai a zero",
+        "Porque o neutro fica sobrecarregado sempre"
+      ],
+      "correta": 1,
+      "explicacao": "Com FP baixo, S = P/FP cresce; mais corrente circula nos cabos e transformadores, gerando perdas sem trabalho útil."
+    }
+  ]
+}
