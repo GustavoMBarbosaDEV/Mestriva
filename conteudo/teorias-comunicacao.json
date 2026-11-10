@@ -1,0 +1,465 @@
+{
+  "id": "teorias-comunicacao",
+  "nome": "Teorias da Comunicação",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Processo e elementos da comunicação",
+      "resumo": "### O que é comunicar\nDo latim *communicare*: **tornar comum**, partilhar. Comunicação é o processo de **troca de mensagens e produção de sentido** entre pessoas, grupos ou instituições.\n\n### Elementos do processo\n- **Emissor** (fonte): quem produz a mensagem.\n- **Receptor** (destinatário): quem a recebe e interpreta.\n- **Mensagem**: o conteúdo transmitido.\n- **Código**: sistema de sinais comum (a língua, por exemplo).\n- **Canal** (meio): suporte por onde a mensagem passa.\n- **Contexto** (referente): situação e assunto a que a mensagem se refere.\n- **Ruído**: qualquer interferência que atrapalha a transmissão ou a compreensão.\n- **Feedback** (retroalimentação): a resposta do receptor, que torna o processo circular.\n\n### Modelos clássicos\n- **Modelo de Lasswell (1948)**: **quem** diz **o quê**, em que **canal**, **para quem**, com que **efeito**. Cada pergunta abre um campo de pesquisa (emissor, conteúdo, meios, audiência, efeitos).\n- **Modelo de Shannon e Weaver (1949)**: a **teoria matemática da comunicação** (teoria da informação). Fonte, transmissor, canal, receptor e destino, com o **ruído**. Linear, pensada para a engenharia de telecomunicações; mede a informação e não o sentido.\n- **Modelo de Schramm**: circular; emissor e receptor **codificam e decodificam** e precisam de um **campo de experiência comum**.\n\n### Funções da linguagem (Jakobson)\nCada função enfatiza um elemento:\n- **Emotiva** (expressiva): o **emissor**.\n- **Conativa** (apelativa): o **receptor**; típica da publicidade.\n- **Referencial** (informativa): o **contexto**; típica do jornalismo.\n- **Fática**: o **canal**; testa o contato (\"alô?\").\n- **Metalinguística**: o **código** (a língua falando da língua).\n- **Poética**: a **mensagem** em sua forma.\n\n### Tipos de comunicação\n- **Intrapessoal**, **interpessoal**, **grupal**, **organizacional** e **de massa**.\n- **Verbal** (oral e escrita) e **não verbal** (gestos, imagens, tom de voz).\n- **Comunicação de massa**: um emissor institucional, mensagem padronizada, audiência ampla, heterogênea e anônima, com pouco feedback imediato.",
+      "revisao": "**Lembre:**\n- Emissor, receptor, mensagem, código, canal, contexto.\n- Lasswell: quem, diz o quê, em que canal, para quem, com que efeito.\n- Shannon e Weaver: modelo linear com ruído.\n- Conativa: receptor (publicidade); referencial: contexto (jornalismo).\n- Feedback torna o processo circular."
+    },
+    {
+      "id": "efeitos",
+      "nome": "Pesquisa norte-americana e teorias dos efeitos",
+      "resumo": "### Teoria hipodérmica (bala mágica)\nAnos 1920 e 1930. Via a audiência como **massa passiva e homogênea**: a mensagem atingiria todos **direta e igualmente**, como uma injeção. Ligada ao medo da propaganda de guerra e à psicologia behaviorista (estímulo e resposta). Hoje é considerada **superada**.\n\n### Mass Communication Research\nCorrente funcionalista e empírica dos Estados Unidos, com pesquisas de campo sobre os efeitos dos meios.\n\n### Teoria da persuasão (abordagem empírico-experimental)\nHovland e colaboradores. Os efeitos dependem de **fatores psicológicos**: a audiência se **expõe, percebe e memoriza de forma seletiva**, preferindo o que confirma suas opiniões.\n\n### Efeitos limitados (abordagem empírica de campo)\n**Lazarsfeld**, anos 1940. Os meios têm influência **limitada**, filtrada pelas relações sociais.\n- **Fluxo de comunicação em duas etapas** (two-step flow): a informação vai dos meios para os **líderes de opinião** e destes para os demais.\n- Os meios mais **reforçam** opiniões do que as mudam.\n\n### Teoria funcionalista\nPergunta **que funções** os meios cumprem na sociedade. Lasswell: vigilância do ambiente, correlação das partes da sociedade e transmissão da herança cultural; Wright acrescentou o **entretenimento**. Lazarsfeld e Merton apontaram a **disfunção narcotizante**: o excesso de informação gera apatia.\n\n### Usos e gratificações\nInverte a pergunta: não \"o que os meios fazem com as pessoas\", mas **\"o que as pessoas fazem com os meios\"**. A audiência é **ativa** e busca satisfazer necessidades (informação, diversão, identidade, convívio).\n\n### Agenda-setting (agendamento)\n**McCombs e Shaw**, 1972. Os meios não dizem **como** pensar, mas **sobre o que** pensar: os temas destacados pela mídia tendem a virar os temas considerados importantes pelo público.\n- **Enquadramento (framing)**: o modo de apresentar o tema influencia a interpretação.\n\n### Espiral do silêncio\n**Noelle-Neumann**. Por **medo do isolamento**, quem percebe sua opinião como minoritária tende a **se calar**, o que faz a opinião dominante parecer ainda mais forte.\n\n### Teoria do cultivo\n**Gerbner**. A exposição prolongada à televisão **cultiva** uma visão de mundo; quem assiste muito tende a achar o mundo mais violento do que é.\n\n### Gatekeeper e newsmaking\n- **Gatekeeper** (White): o jornalista é o \"porteiro\" que seleciona o que vira notícia.\n- **Newsmaking**: a notícia é resultado das rotinas de produção e dos **critérios de noticiabilidade** (valores-notícia), como atualidade, proximidade, impacto e notoriedade.",
+      "revisao": "**Lembre:**\n- Hipodérmica: audiência passiva, efeito direto (superada).\n- Lazarsfeld: duas etapas, líderes de opinião.\n- Usos e gratificações: audiência ativa.\n- Agenda-setting: sobre o que pensar.\n- Espiral do silêncio: medo do isolamento cala a minoria."
+    },
+    {
+      "id": "critica",
+      "nome": "Teoria crítica e Escola de Frankfurt",
+      "resumo": "### Escola de Frankfurt\nGrupo de pensadores alemães ligados ao Instituto de Pesquisa Social (fundado em 1923): **Adorno**, **Horkheimer**, **Benjamin**, **Marcuse** e, na segunda geração, **Habermas**. De base **marxista**, com influência de Freud. Opõe-se à pesquisa \"administrativa\" norte-americana: em vez de medir efeitos, **critica o papel dos meios na dominação**.\n\n### Indústria cultural\nConceito de **Adorno e Horkheimer** em *Dialética do Esclarecimento* (1947).\n- A cultura passa a ser produzida como **mercadoria**, em série, com **padronização**.\n- O objetivo é o **lucro** e a manutenção do sistema; o público é tratado como **consumidor**.\n- Gera **conformismo** e **alienação**: diverte para que não se pense.\n- Preferem \"indústria cultural\" a \"cultura de massa\", porque esta cultura **não nasce das massas**, é imposta a elas.\n- **Pseudoindividualidade**: produtos parecem diferentes, mas seguem a mesma fórmula.\n\n### Walter Benjamin\nEm *A obra de arte na era de sua reprodutibilidade técnica* (1936):\n- A reprodução técnica (fotografia, cinema) faz a obra perder a **aura**, isto é, sua **unicidade e autenticidade** no aqui e agora.\n- Visão mais **otimista** que a de Adorno: a reprodução pode **democratizar** o acesso à arte e ter uso político.\n\n### Marcuse\nEm *O homem unidimensional*: a sociedade industrial cria **falsas necessidades** e integra a oposição, produzindo um pensamento sem crítica.\n\n### Habermas\n- **Esfera pública**: espaço de debate racional entre cidadãos, que formaria a opinião pública; para ele, foi **colonizada** pelo mercado e pela mídia.\n- **Agir comunicativo**: a comunicação voltada ao **entendimento**, oposta ao agir estratégico.\n\n### Apocalípticos e integrados\n**Umberto Eco** (1964) descreveu duas posturas diante da cultura de massa:\n- **Apocalípticos**: veem nela decadência (como os frankfurtianos).\n- **Integrados**: veem democratização do acesso.\n\n### Críticas à teoria crítica\nConsiderada **elitista** e pessimista, por subestimar a capacidade do público de reinterpretar as mensagens.\n\n### Outras correntes críticas\n- **Economia política da comunicação**: estuda a propriedade e a concentração dos meios.\n- **Teoria da dependência** e debates sobre o **imperialismo cultural**; o Relatório MacBride (Unesco, 1980) defendeu uma nova ordem da informação.",
+      "revisao": "**Lembre:**\n- Frankfurt: Adorno, Horkheimer, Benjamin, Marcuse, Habermas.\n- Indústria cultural: cultura como mercadoria padronizada.\n- Benjamin: reprodução técnica e perda da aura.\n- Habermas: esfera pública.\n- Eco: apocalípticos e integrados."
+    },
+    {
+      "id": "cultura",
+      "nome": "Estudos culturais, recepção e América Latina",
+      "resumo": "### Estudos culturais britânicos\nNascem em **Birmingham** (Centro de Estudos Culturais Contemporâneos, 1964), com **Richard Hoggart**, **Raymond Williams**, **E. P. Thompson** e **Stuart Hall**.\n- Ampliam o conceito de **cultura**: não só a erudita, mas o **modo de vida** e as práticas do cotidiano, incluindo a cultura popular.\n- Usam o conceito de **hegemonia**, de **Gramsci**: a dominação se dá também pelo **consenso**, e é sempre disputada.\n- A audiência **negocia** sentidos; não é mera vítima.\n\n### Codificação e decodificação (Stuart Hall)\nA mensagem é **codificada** na produção e **decodificada** na recepção, e os dois momentos não coincidem necessariamente. Três leituras possíveis:\n- **Dominante** (hegemônica): aceita o sentido proposto.\n- **Negociada**: aceita em parte e adapta.\n- **De oposição**: entende, mas rejeita e reinterpreta.\n\n### Estudos de recepção\nDeslocam o foco do emissor e do texto para **o que o público faz** com as mensagens, em seu contexto.\n\n### Pensamento latino-americano\n- **Jesús Martín-Barbero**: *Dos meios às mediações* (1987). Propõe estudar as **mediações** (família, bairro, cultura, cotidiano) que se interpõem entre os meios e o público.\n- **Néstor García Canclini**: **culturas híbridas**, a mistura de tradicional e moderno, culto, popular e massivo; consumo como espaço de cidadania.\n- **Paulo Freire**: comunicação como **diálogo**; critica a \"extensão\" como transmissão vertical; base da **comunicação popular** e da educomunicação.\n- **Luiz Beltrão**: **folkcomunicação**, a comunicação por meio das manifestações da cultura popular; pioneiro da pesquisa em comunicação no Brasil.\n- **José Marques de Melo**: sistematizou os estudos de jornalismo e os gêneros jornalísticos no Brasil.\n\n### Semiótica e semiologia\n- **Saussure**: o **signo** une **significante** (forma) e **significado** (conceito); a relação é arbitrária. Semiologia.\n- **Peirce**: semiótica. O signo se classifica em **ícone** (semelhança, como uma foto), **índice** (ligação de fato, como a fumaça para o fogo) e **símbolo** (convenção, como as palavras).\n- **Roland Barthes**: **denotação** (sentido literal) e **conotação** (sentidos culturais); analisou os **mitos** da cultura de massa.\n\n### Escola de Palo Alto\n**Bateson**, **Watzlawick**: a comunicação como processo **relacional e circular**. Axioma central: **\"é impossível não comunicar\"**; todo comportamento comunica.",
+      "revisao": "**Lembre:**\n- Estudos culturais: Birmingham, Stuart Hall, hegemonia.\n- Leituras: dominante, negociada e de oposição.\n- Martín-Barbero: dos meios às mediações.\n- Canclini: culturas híbridas.\n- Peirce: ícone, índice e símbolo."
+    },
+    {
+      "id": "meios",
+      "nome": "Meios, tecnologia e cibercultura",
+      "resumo": "### Escola de Toronto\n- **Harold Innis**: os meios moldam as civilizações; meios pesados favorecem o **tempo** (tradição) e meios leves, o **espaço** (expansão).\n- **Marshall McLuhan**:\n  - **\"O meio é a mensagem\"**: a forma do meio transforma a sociedade mais do que o conteúdo que ele transmite.\n  - Os meios são **extensões do homem** (a roda estende o pé; o livro, o olho).\n  - **Aldeia global**: os meios eletrônicos aproximam o mundo.\n  - **Meios quentes** (alta definição, pouca participação: rádio, cinema, imprensa) e **meios frios** (baixa definição, mais participação: televisão, telefone).\n  - Três eras: **oral**, **tipográfica** (galáxia de Gutenberg) e **eletrônica**.\n- Críticas: **determinismo tecnológico**.\n\n### Sociedade em rede\n**Manuel Castells**: a sociedade contemporânea se organiza em **redes** apoiadas nas tecnologias da informação. **Autocomunicação de massa**: qualquer pessoa pode produzir e distribuir mensagens para muitos.\n\n### Cibercultura\n**Pierre Lévy**:\n- **Ciberespaço**: o espaço de comunicação aberto pela interconexão dos computadores.\n- **Cibercultura**: as práticas e os valores que nele se desenvolvem.\n- **Inteligência coletiva**: o saber distribuído e construído em colaboração.\n- Passagem do modelo **um para todos** (massa) para **todos para todos**.\n\n### Convergência\n**Henry Jenkins**: *Cultura da convergência*.\n- **Convergência midiática**: conteúdos circulam por várias plataformas.\n- **Cultura participativa**: o público produz e compartilha (fãs, memes).\n- **Narrativa transmídia**: uma história contada em várias mídias, cada uma acrescentando algo próprio.\n- **Prosumidor** (Toffler): quem produz e consome ao mesmo tempo.\n\n### Características da comunicação digital\n**Interatividade**, **hipertextualidade** (links), **multimidialidade**, instantaneidade, personalização e memória.\n\n### Questões atuais\n- **Algoritmos** selecionam o que cada um vê; **filtro-bolha** (Eli Pariser) e **câmaras de eco** reforçam opiniões.\n- **Desinformação** e **fake news**; **pós-verdade**: emoções e crenças pesam mais que os fatos.\n- **Economia da atenção** e **capitalismo de vigilância** (Zuboff): os dados dos usuários como mercadoria.\n- **Sociedade do espetáculo** (Guy Debord, 1967): as relações sociais mediadas por imagens.\n- **Modernidade líquida** (Bauman) e **hiper-realidade** e **simulacro** (Baudrillard).",
+      "revisao": "**Lembre:**\n- McLuhan: o meio é a mensagem; aldeia global.\n- Castells: sociedade em rede.\n- Lévy: cibercultura e inteligência coletiva.\n- Jenkins: convergência e narrativa transmídia.\n- Filtro-bolha: algoritmos reforçam o que já se pensa."
+    },
+    {
+      "id": "areas",
+      "nome": "Jornalismo, publicidade e opinião pública",
+      "resumo": "### Jornalismo\n- **Notícia**: relato de um fato atual e de interesse público. Estrutura clássica: **pirâmide invertida**, do mais importante para o menos importante.\n- **Lide (lead)**: o primeiro parágrafo, que responde a **o quê, quem, quando, onde, como e por quê**.\n- **Valores-notícia**: atualidade, proximidade, impacto, notoriedade, conflito, raridade.\n- **Gêneros**: **informativo** (notícia, reportagem, entrevista, nota), **opinativo** (editorial, artigo, coluna, crônica, charge) e interpretativo.\n- **Editorial**: opinião **do veículo**, sem assinatura.\n- **Objetividade**: ideal de apuração rigorosa, com checagem e pluralidade de fontes; a neutralidade total é discutida.\n- **Teorias do jornalismo**: **espelho** (a notícia reflete a realidade), **gatekeeper**, **organizacional** e **newsmaking** (a notícia como construção).\n- **Ética**: veracidade, interesse público, sigilo da fonte, direito de resposta.\n\n### Publicidade e propaganda\n- **Publicidade**: divulgação com fim **comercial** (vender produto, serviço ou marca).\n- **Propaganda**: difusão de **ideias** (política, religiosa, institucional).\n- No Brasil, os termos se confundem no uso; o **Conar** faz a autorregulamentação e o Código de Defesa do Consumidor proíbe a publicidade **enganosa** e a **abusiva**.\n- **Modelo AIDA**: **Atenção**, **Interesse**, **Desejo** e **Ação**.\n- **Briefing**: documento com as informações e os objetivos que orientam a campanha.\n- **Público-alvo** (target), **posicionamento** e **slogan**.\n- Apelos **racionais** e **emocionais**; recursos retóricos e de persuasão.\n\n### Relações públicas e comunicação organizacional\nGestão do relacionamento da organização com seus **públicos** (internos e externos), cuidando da **imagem** e da **reputação**. **Comunicação integrada** (Margarida Kunsch): institucional, mercadológica, interna e administrativa atuando juntas. **Assessoria de imprensa**: relação com os veículos.\n\n### Opinião pública\n- Conjunto de opiniões sobre temas de interesse comum, formado no debate social.\n- **Walter Lippmann** (1922): as pessoas agem com base em imagens simplificadas na cabeça, os **estereótipos**, formadas pela imprensa.\n- Pesquisas de opinião medem um retrato do momento.\n\n### Regulação e direito à comunicação\n- A Constituição de 1988 garante a **liberdade de expressão** e de imprensa e **veda a censura**, além de proibir o monopólio e o oligopólio dos meios.\n- Rádio e televisão são **concessões públicas**.\n- **Lei Geral de Proteção de Dados (LGPD)** e **Marco Civil da Internet**.",
+      "revisao": "**Lembre:**\n- Lide: o quê, quem, quando, onde, como e por quê.\n- Pirâmide invertida: do mais importante ao menos.\n- Editorial: opinião do veículo.\n- Publicidade vende; propaganda difunde ideias.\n- AIDA: atenção, interesse, desejo, ação."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "teorias-comunicacao-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "No processo de comunicação, o ruído é:",
+      "opcoes": [
+        "Qualquer interferência que prejudica a transmissão ou a compreensão da mensagem",
+        "A resposta do receptor ao emissor",
+        "O sistema de sinais usado na mensagem",
+        "O assunto a que a mensagem se refere"
+      ],
+      "correta": 0,
+      "explicacao": "A resposta do receptor é o feedback; o sistema de sinais é o código."
+    },
+    {
+      "id": "teorias-comunicacao-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O modelo de Lasswell descreve a comunicação pelas perguntas:",
+      "opcoes": [
+        "Onde, quando e por quê apenas",
+        "Quem diz o quê, em que canal, para quem e com que efeito",
+        "Emissor e ruído apenas",
+        "Significante e significado"
+      ],
+      "correta": 1,
+      "explicacao": "Cada pergunta corresponde a uma área de pesquisa: emissor, conteúdo, meios, audiência e efeitos."
+    },
+    {
+      "id": "teorias-comunicacao-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Jakobson, a função da linguagem centrada no receptor, típica dos anúncios, é a:",
+      "opcoes": [
+        "Emotiva",
+        "Fática",
+        "Conativa (apelativa)",
+        "Metalinguística"
+      ],
+      "correta": 2,
+      "explicacao": "Ela busca convencer ou influenciar o comportamento de quem recebe a mensagem."
+    },
+    {
+      "id": "teorias-comunicacao-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Ao atender o telefone, alguém diz \"alô, está me ouvindo?\". Predomina a função:",
+      "opcoes": [
+        "Poética",
+        "Referencial",
+        "Metalinguística",
+        "Fática, que testa o canal de comunicação"
+      ],
+      "correta": 3,
+      "explicacao": "A função fática serve para abrir, manter ou verificar o contato entre os interlocutores."
+    },
+    {
+      "id": "teorias-comunicacao-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal limitação do modelo de Shannon e Weaver para explicar a comunicação humana?",
+      "opcoes": [
+        "É linear e técnico, tratando da transmissão de sinais e não da produção de sentido",
+        "Porque ignora a existência do canal",
+        "Porque não considera o ruído",
+        "Porque foi criado para estudar a literatura"
+      ],
+      "correta": 0,
+      "explicacao": "Foi pensado para a engenharia de telecomunicações, sem considerar contexto e interpretação."
+    },
+    {
+      "id": "teorias-comunicacao-6",
+      "topico": "efeitos",
+      "nivel": "conceitual",
+      "pergunta": "A teoria hipodérmica via a audiência como:",
+      "opcoes": [
+        "Um público ativo que escolhe o que consome",
+        "Uma massa passiva atingida de forma direta e uniforme pelas mensagens",
+        "Um grupo guiado por líderes de opinião",
+        "Uma comunidade que negocia sentidos"
+      ],
+      "correta": 1,
+      "explicacao": "Também chamada de teoria da bala mágica, é hoje considerada superada."
+    },
+    {
+      "id": "teorias-comunicacao-7",
+      "topico": "efeitos",
+      "nivel": "conceitual",
+      "pergunta": "A hipótese do agenda-setting afirma que os meios de comunicação:",
+      "opcoes": [
+        "Determinam exatamente o que cada pessoa pensa",
+        "Não têm nenhuma influência social",
+        "Influenciam os temas sobre os quais o público pensa e conversa",
+        "Só reforçam o silêncio das minorias"
+      ],
+      "correta": 2,
+      "explicacao": "Formulada por McCombs e Shaw, liga o destaque dado pela mídia à importância atribuída pelo público."
+    },
+    {
+      "id": "teorias-comunicacao-8",
+      "topico": "efeitos",
+      "nivel": "conceitual",
+      "pergunta": "No fluxo de comunicação em duas etapas, de Lazarsfeld, a informação passa:",
+      "opcoes": [
+        "Diretamente dos meios a cada indivíduo isolado",
+        "Do público para os meios apenas",
+        "Só entre jornalistas",
+        "Dos meios aos líderes de opinião e deles ao restante do público"
+      ],
+      "correta": 3,
+      "explicacao": "Essa ideia sustenta a tese dos efeitos limitados, filtrados pelas relações pessoais."
+    },
+    {
+      "id": "teorias-comunicacao-9",
+      "topico": "efeitos",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma reunião, uma pessoa percebe que sua opinião é minoritária e prefere não se manifestar. Esse comportamento ilustra:",
+      "opcoes": [
+        "A espiral do silêncio",
+        "A teoria hipodérmica",
+        "Os usos e gratificações",
+        "A teoria do cultivo"
+      ],
+      "correta": 0,
+      "explicacao": "Para Noelle-Neumann, o medo do isolamento leva a minoria a se calar, fortalecendo a opinião dominante."
+    },
+    {
+      "id": "teorias-comunicacao-10",
+      "topico": "efeitos",
+      "nivel": "analise",
+      "pergunta": "O que muda na abordagem dos usos e gratificações em relação às primeiras teorias dos efeitos?",
+      "opcoes": [
+        "A audiência passa a ser vista como totalmente passiva",
+        "O foco passa do que os meios fazem com as pessoas para o que as pessoas fazem com os meios",
+        "Os meios deixam de ser estudados",
+        "O ruído passa a ser o elemento central"
+      ],
+      "correta": 1,
+      "explicacao": "A audiência é tratada como ativa, usando os meios para satisfazer necessidades próprias."
+    },
+    {
+      "id": "teorias-comunicacao-11",
+      "topico": "critica",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de indústria cultural foi formulado por:",
+      "opcoes": [
+        "McLuhan e Innis",
+        "Lazarsfeld e Merton",
+        "Adorno e Horkheimer",
+        "Shannon e Weaver"
+      ],
+      "correta": 2,
+      "explicacao": "Aparece em Dialética do Esclarecimento, de 1947, obra central da Escola de Frankfurt."
+    },
+    {
+      "id": "teorias-comunicacao-12",
+      "topico": "critica",
+      "nivel": "conceitual",
+      "pergunta": "Para Walter Benjamin, a reprodução técnica da obra de arte provoca:",
+      "opcoes": [
+        "O aumento do valor de culto da obra",
+        "O fim do cinema",
+        "A proibição da fotografia",
+        "A perda da aura, isto é, de sua unicidade e autenticidade"
+      ],
+      "correta": 3,
+      "explicacao": "Apesar disso, ele via na reprodução um potencial de democratização da arte."
+    },
+    {
+      "id": "teorias-comunicacao-13",
+      "topico": "critica",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a teoria crítica, a indústria cultural tende a produzir:",
+      "opcoes": [
+        "Padronização e conformismo, tratando a cultura como mercadoria",
+        "Autonomia e pensamento crítico nas massas",
+        "Obras únicas e artesanais",
+        "O fim do consumo"
+      ],
+      "correta": 0,
+      "explicacao": "Os produtos parecem variados, mas seguem as mesmas fórmulas voltadas ao lucro."
+    },
+    {
+      "id": "teorias-comunicacao-14",
+      "topico": "critica",
+      "nivel": "aplicacao",
+      "pergunta": "Um crítico afirma que as séries de streaming, embora pareçam diferentes, repetem as mesmas fórmulas para garantir audiência. Essa análise se aproxima do conceito de:",
+      "opcoes": [
+        "Aldeia global",
+        "Pseudoindividualidade da indústria cultural",
+        "Inteligência coletiva",
+        "Fluxo em duas etapas"
+      ],
+      "correta": 1,
+      "explicacao": "Adorno via nessas diferenças aparentes uma ilusão de escolha dentro da padronização."
+    },
+    {
+      "id": "teorias-comunicacao-15",
+      "topico": "critica",
+      "nivel": "analise",
+      "pergunta": "Por que Adorno e Horkheimer preferiram o termo indústria cultural a cultura de massa?",
+      "opcoes": [
+        "Porque as massas não consomem cultura",
+        "Porque o termo massa era proibido",
+        "Porque essa cultura não nasce espontaneamente das massas, mas é produzida para elas",
+        "Porque defendiam a cultura popular como mercadoria"
+      ],
+      "correta": 2,
+      "explicacao": "O termo destaca a produção planejada e em série, de cima para baixo."
+    },
+    {
+      "id": "teorias-comunicacao-16",
+      "topico": "cultura",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Stuart Hall, a leitura que entende a mensagem, mas a rejeita e reinterpreta, é chamada de:",
+      "opcoes": [
+        "Leitura dominante",
+        "Leitura negociada",
+        "Leitura hipodérmica",
+        "Leitura de oposição"
+      ],
+      "correta": 3,
+      "explicacao": "As outras duas posições são a dominante, que aceita o sentido proposto, e a negociada, que o adapta."
+    },
+    {
+      "id": "teorias-comunicacao-17",
+      "topico": "cultura",
+      "nivel": "conceitual",
+      "pergunta": "Jesús Martín-Barbero propôs deslocar o estudo da comunicação:",
+      "opcoes": [
+        "Dos meios para as mediações culturais e sociais",
+        "Da recepção para a tecnologia",
+        "Da cultura para a engenharia",
+        "Do público para o emissor"
+      ],
+      "correta": 0,
+      "explicacao": "As mediações incluem a família, o bairro e o cotidiano em que as mensagens são recebidas."
+    },
+    {
+      "id": "teorias-comunicacao-18",
+      "topico": "cultura",
+      "nivel": "conceitual",
+      "pergunta": "Na classificação de Peirce, o signo que se liga ao objeto por convenção é o:",
+      "opcoes": [
+        "Ícone",
+        "Símbolo",
+        "Índice",
+        "Significante"
+      ],
+      "correta": 1,
+      "explicacao": "O ícone se liga por semelhança e o índice por uma conexão de fato."
+    },
+    {
+      "id": "teorias-comunicacao-19",
+      "topico": "cultura",
+      "nivel": "aplicacao",
+      "pergunta": "Fumaça saindo de uma casa indica que há fogo. Na semiótica de Peirce, a fumaça é um:",
+      "opcoes": [
+        "Ícone",
+        "Símbolo",
+        "Índice",
+        "Mito"
+      ],
+      "correta": 2,
+      "explicacao": "O índice mantém com o objeto uma relação de causa ou de contiguidade."
+    },
+    {
+      "id": "teorias-comunicacao-20",
+      "topico": "cultura",
+      "nivel": "analise",
+      "pergunta": "Em que os estudos culturais se afastam da visão da Escola de Frankfurt sobre a audiência?",
+      "opcoes": [
+        "Consideram o público totalmente manipulado",
+        "Negam a existência da cultura popular",
+        "Rejeitam o conceito de hegemonia",
+        "Consideram que o público negocia e pode resistir aos sentidos propostos pela mídia"
+      ],
+      "correta": 3,
+      "explicacao": "Apoiados em Gramsci, veem a cultura como espaço de disputa e não só de dominação."
+    },
+    {
+      "id": "teorias-comunicacao-21",
+      "topico": "meios",
+      "nivel": "conceitual",
+      "pergunta": "A frase \"o meio é a mensagem\" é de:",
+      "opcoes": [
+        "Marshall McLuhan",
+        "Theodor Adorno",
+        "Paul Lazarsfeld",
+        "Stuart Hall"
+      ],
+      "correta": 0,
+      "explicacao": "Ela afirma que a forma do meio transforma a sociedade mais do que o conteúdo transmitido."
+    },
+    {
+      "id": "teorias-comunicacao-22",
+      "topico": "meios",
+      "nivel": "conceitual",
+      "pergunta": "Para Pierre Lévy, a inteligência coletiva é:",
+      "opcoes": [
+        "A inteligência de um único gênio",
+        "O saber distribuído e construído em colaboração no ciberespaço",
+        "O controle estatal da internet",
+        "A perda da aura da obra de arte"
+      ],
+      "correta": 1,
+      "explicacao": "Ela se apoia na passagem do modelo um para todos para o modelo todos para todos."
+    },
+    {
+      "id": "teorias-comunicacao-23",
+      "topico": "meios",
+      "nivel": "conceitual",
+      "pergunta": "A narrativa transmídia, descrita por Henry Jenkins, consiste em:",
+      "opcoes": [
+        "Repetir o mesmo conteúdo em todos os canais",
+        "Um texto sem imagens",
+        "Uma história contada em várias mídias, cada uma acrescentando algo próprio",
+        "Uma notícia em pirâmide invertida"
+      ],
+      "correta": 2,
+      "explicacao": "Ela depende da participação do público, que circula entre as plataformas."
+    },
+    {
+      "id": "teorias-comunicacao-24",
+      "topico": "meios",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa percebe que sua rede social só mostra publicações que concordam com suas opiniões. Esse fenômeno é conhecido como:",
+      "opcoes": [
+        "Aldeia global",
+        "Fluxo em duas etapas",
+        "Pirâmide invertida",
+        "Filtro-bolha"
+      ],
+      "correta": 3,
+      "explicacao": "Os algoritmos selecionam conteúdos parecidos com os que a pessoa já consumiu."
+    },
+    {
+      "id": "teorias-comunicacao-25",
+      "topico": "meios",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal crítica feita ao pensamento de McLuhan?",
+      "opcoes": [
+        "O determinismo tecnológico, por atribuir aos meios a causa principal das mudanças sociais",
+        "O excesso de pesquisas de campo",
+        "A defesa da censura",
+        "A negação da existência da televisão"
+      ],
+      "correta": 0,
+      "explicacao": "Os críticos lembram que fatores econômicos, políticos e culturais também moldam o uso da tecnologia."
+    },
+    {
+      "id": "teorias-comunicacao-26",
+      "topico": "areas",
+      "nivel": "conceitual",
+      "pergunta": "No jornalismo, o lide é:",
+      "opcoes": [
+        "A opinião do dono do jornal",
+        "O primeiro parágrafo, que resume as informações essenciais do fato",
+        "O título da matéria",
+        "A legenda da foto"
+      ],
+      "correta": 1,
+      "explicacao": "Ele responde às perguntas o quê, quem, quando, onde, como e por quê."
+    },
+    {
+      "id": "teorias-comunicacao-27",
+      "topico": "areas",
+      "nivel": "conceitual",
+      "pergunta": "O texto que expressa a opinião do veículo de comunicação, sem assinatura, é o:",
+      "opcoes": [
+        "Lide",
+        "Briefing",
+        "Editorial",
+        "Release"
+      ],
+      "correta": 2,
+      "explicacao": "Artigos e colunas são assinados e expressam a opinião de seus autores."
+    },
+    {
+      "id": "teorias-comunicacao-28",
+      "topico": "areas",
+      "nivel": "conceitual",
+      "pergunta": "No modelo AIDA, usado em publicidade, as letras significam:",
+      "opcoes": [
+        "Análise, Ideia, Design e Anúncio",
+        "Alcance, Impacto, Dados e Audiência",
+        "Arte, Imagem, Destaque e Apelo",
+        "Atenção, Interesse, Desejo e Ação"
+      ],
+      "correta": 3,
+      "explicacao": "O modelo descreve as etapas pelas quais a mensagem conduz o consumidor."
+    },
+    {
+      "id": "teorias-comunicacao-29",
+      "topico": "areas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma campanha do governo para incentivar a doação de sangue, sem fins comerciais, é mais bem classificada como:",
+      "opcoes": [
+        "Propaganda",
+        "Publicidade comercial",
+        "Editorial",
+        "Notícia"
+      ],
+      "correta": 0,
+      "explicacao": "A propaganda difunde ideias e comportamentos; a publicidade tem finalidade comercial."
+    },
+    {
+      "id": "teorias-comunicacao-30",
+      "topico": "areas",
+      "nivel": "analise",
+      "pergunta": "Por que a notícia costuma ser escrita em pirâmide invertida?",
+      "opcoes": [
+        "Para esconder o fato principal até o final",
+        "Para apresentar primeiro o mais importante, permitindo ao leitor se informar mesmo sem ler tudo",
+        "Para dar a opinião do repórter no início",
+        "Para aumentar o suspense, como na literatura"
+      ],
+      "correta": 1,
+      "explicacao": "A estrutura também facilita cortes pela edição a partir do fim do texto."
+    }
+  ]
+}

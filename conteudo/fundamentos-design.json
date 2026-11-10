@@ -1,0 +1,465 @@
+{
+  "id": "fundamentos-design",
+  "nome": "Fundamentos do Design",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "O que é design e sua história",
+      "resumo": "### Conceito\n**Design** é a atividade de **projetar** objetos, imagens, sistemas e serviços, unindo **função**, **forma**, técnica e significado para resolver problemas das pessoas. A palavra vem do inglês e tem dois sentidos: **plano/projeto** e **desenho/configuração**. Não é só \"deixar bonito\": é **projeto com intenção**.\n\n### Design, arte e artesanato\n- **Arte**: expressão do artista, sem obrigação de função.\n- **Artesanato**: quem concebe é quem **faz**, peça a peça.\n- **Design**: separa o **projeto** da **fabricação** e pensa na **produção em série** e no usuário.\n\n### Áreas\n**Design gráfico** (comunicação visual), **de produto** (industrial), **de interiores**, **de moda**, **digital** (interfaces, experiência do usuário), **de serviços**, **de embalagem**, **editorial**.\n\n### História\n- **Revolução Industrial** (séculos XVIII e XIX): a produção em série separa projeto e execução; os produtos industriais eram vistos como de baixa qualidade.\n- **Arts and Crafts** (Inglaterra, segunda metade do século XIX): **William Morris** e John Ruskin reagem à indústria e defendem o **artesanato** e a qualidade do trabalho manual.\n- **Art Nouveau** (virada do século XX): linhas **curvas e orgânicas**, inspiradas na natureza. Mucha, Gaudí, Guimard.\n- **Deutscher Werkbund** (1907): aproxima artistas e indústria; Peter Behrens cria a identidade da AEG, um dos primeiros projetos de **identidade corporativa**.\n- **Vanguardas**: **construtivismo russo** (Rodchenko, El Lissitzky), **De Stijl** (Mondrian, Rietveld), futurismo.\n- **Art Déco** (anos 1920 e 1930): geometria, luxo e simetria.\n- **Bauhaus** (Alemanha, **1919-1933**): fundada por **Walter Gropius**; une **arte, artesanato e indústria**; formas simples e funcionais; curso preliminar com Itten, Kandinsky, Klee, Moholy-Nagy.\n- **Funcionalismo**: **\"a forma segue a função\"** (Louis Sullivan).\n- **Styling** (Estados Unidos, anos 1930): mudar a aparência para estimular vendas; Raymond Loewy; formas aerodinâmicas (*streamline*).\n- **Escola de Ulm** (HfG, 1953-1968): continua a Bauhaus com método científico; Max Bill, Tomás Maldonado; parceria com a Braun.\n- **Dieter Rams** e os **dez princípios do bom design** (\"bom design é o mínimo de design possível\").\n- **Estilo Internacional Suíço**: grid, tipos sem serifa, clareza.\n- **Pós-modernismo** (anos 1980): Grupo Memphis; cor, ironia e ornamento.\n\n### No Brasil\n- **ESDI** (Escola Superior de Desenho Industrial, Rio, **1963**): primeira escola superior de design do país, inspirada em Ulm.\n- **Aloísio Magalhães**, **Alexandre Wollner** (identidade visual), **Sérgio Rodrigues** e **Joaquim Tenreiro** (mobiliário), irmãos Campana.",
+      "revisao": "**Lembre:**\n- Design é projeto: função, forma e produção.\n- Arts and Crafts: William Morris, reação à indústria.\n- Bauhaus: Gropius, 1919; arte + indústria.\n- \"A forma segue a função\": funcionalismo.\n- ESDI (1963): primeira escola de design no Brasil."
+    },
+    {
+      "id": "elementos",
+      "nome": "Elementos e princípios da linguagem visual",
+      "resumo": "### Elementos básicos\n- **Ponto**: a unidade mínima; atrai o olhar.\n- **Linha**: ponto em movimento; indica **direção**. Horizontal (calma), vertical (força), diagonal (movimento), curva (suavidade).\n- **Plano e forma**: área delimitada. Formas básicas: **quadrado**, **círculo** e **triângulo**. Geométricas ou orgânicas.\n- **Volume**: a forma em três dimensões.\n- **Textura**: qualidade da superfície; **tátil** ou **visual**.\n- **Cor** e **tom** (claro e escuro).\n- **Escala** (tamanho relativo), **dimensão**, **direção** e **movimento**.\n- Livro de referência: *Sintaxe da Linguagem Visual*, de **Donis A. Dondis**.\n\n### Princípios de composição\n- **Equilíbrio**: distribuição do peso visual. **Simétrico** (formal, estável) ou **assimétrico** (dinâmico, com pesos diferentes que se compensam).\n- **Contraste**: diferença que cria destaque (tamanho, cor, forma, peso).\n- **Hierarquia**: ordem de importância; guia o olhar do mais para o menos importante.\n- **Ênfase** (ponto focal).\n- **Ritmo** e **repetição**: unificam e criam padrão.\n- **Proporção**: relação entre as partes. **Proporção áurea** (cerca de **1,618**) e **regra dos terços** (dividir o campo em nove partes e posicionar o interesse nas interseções).\n- **Unidade e harmonia**: as partes parecem pertencer a um todo.\n- **Alinhamento** e **proximidade**: itens relacionados devem ficar próximos.\n- **Espaço negativo** (espaço em branco): área vazia que dá respiro e destaque; não é espaço desperdiçado.\n- Os quatro princípios de Robin Williams: **contraste, repetição, alinhamento e proximidade**.\n\n### Gestalt\nTeoria da psicologia da forma (Wertheimer, Köhler, Koffka): **o todo é diferente da soma das partes**; percebemos conjuntos organizados. Leis principais:\n- **Proximidade**: elementos próximos são vistos como grupo.\n- **Semelhança**: elementos parecidos são agrupados.\n- **Continuidade**: o olho segue linhas e curvas suaves.\n- **Fechamento**: completamos formas incompletas.\n- **Figura e fundo**: separamos um objeto do que está atrás dele.\n- **Pregnância** (boa forma): tendemos a ver a forma **mais simples** e estável.\n- Também: unidade, segregação, unificação, destino comum.\n\n### Grid\n**Malha** de linhas que organiza o layout: **margens**, **colunas**, **calhas** (espaço entre colunas) e módulos. Dá **consistência** e ritmo. Tipos: de uma coluna (manuscrito), de colunas, **modular** e hierárquico.",
+      "revisao": "**Lembre:**\n- Elementos: ponto, linha, plano, volume, textura, cor.\n- Princípios: equilíbrio, contraste, hierarquia, ritmo, proporção, unidade.\n- Gestalt: proximidade, semelhança, continuidade, fechamento, figura e fundo, pregnância.\n- Proporção áurea ≈ 1,618; regra dos terços.\n- Grid organiza: margens, colunas e calhas."
+    },
+    {
+      "id": "cor",
+      "nome": "Teoria da cor",
+      "resumo": "### Propriedades da cor\n- **Matiz**: a cor em si (vermelho, azul).\n- **Saturação** (croma): a **pureza** ou intensidade; cor pouco saturada tende ao cinza.\n- **Luminosidade** (valor, brilho): o quanto é **clara ou escura**.\n\n### Síntese aditiva: cor-luz\n- Primárias: **vermelho, verde e azul** (**RGB**).\n- Somadas, dão **branco**; ausência de luz é **preto**.\n- Usada em **telas** (monitor, celular, TV).\n\n### Síntese subtrativa: cor-pigmento\n- Primárias: **ciano, magenta e amarelo** (**CMY**); na impressão acrescenta-se o **preto** (K, de *key*): **CMYK**.\n- Somadas, tendem ao **preto**; o branco é o papel.\n- Usada em **impressos**.\n- No ensino de arte, as primárias tradicionais são **vermelho, amarelo e azul**.\n\n### Sistemas e arquivos\n- **RGB** para digital; **CMYK** para impressão em quadricromia.\n- **Pantone**: sistema de **cores especiais** (spot), com tintas pré-misturadas, que garante fidelidade.\n- **Hexadecimal** (#FF0000): código de cor RGB usado na web.\n\n### Círculo cromático\n- **Primárias**, **secundárias** (mistura de duas primárias: laranja, verde, violeta) e **terciárias** (primária + secundária).\n- **Cores quentes** (vermelho, laranja, amarelo): avançam, sugerem energia. **Cores frias** (azul, verde, violeta): recuam, sugerem calma.\n- **Neutras**: preto, branco, cinza.\n\n### Harmonias\n- **Monocromática**: variações de um só matiz.\n- **Análogas**: cores **vizinhas** no círculo; resultado suave.\n- **Complementares**: cores **opostas** no círculo (vermelho e verde, azul e laranja, amarelo e violeta); **máximo contraste**.\n- **Triádica**: três cores equidistantes.\n- **Complementar dividida** e tetrádica.\n\n### Contraste e percepção\n- **Contraste simultâneo**: uma cor parece diferente conforme a cor ao lado (Chevreul; Josef Albers, *A Interação da Cor*).\n- **Johannes Itten** descreveu sete contrastes de cor.\n- **Legibilidade**: texto precisa de bom contraste de luminosidade com o fundo.\n\n### Psicologia e cultura da cor\nAs associações variam com a **cultura** e o contexto: vermelho (urgência, paixão, apetite), azul (confiança, calma), verde (natureza, saúde), amarelo (atenção, alegria), preto (luxo, luto no Ocidente), branco (pureza; luto em algumas culturas orientais).\n\n### Acessibilidade\n- Cerca de 8% dos homens têm **daltonismo**; não se deve passar informação **só pela cor**.\n- As diretrizes **WCAG** pedem contraste mínimo de **4,5:1** para texto normal.",
+      "revisao": "**Lembre:**\n- Matiz, saturação e luminosidade.\n- RGB: aditiva, luz, telas; soma dá branco.\n- CMYK: subtrativa, pigmento, impressão.\n- Complementares: opostas no círculo, máximo contraste.\n- Análogas: vizinhas, harmonia suave."
+    },
+    {
+      "id": "tipografia",
+      "nome": "Tipografia",
+      "resumo": "### Conceitos\n- **Tipografia**: a arte e a técnica de compor texto com tipos.\n- **Tipo** (typeface, família tipográfica): o desenho das letras (Helvetica). **Fonte**: um conjunto específico de caracteres em determinado peso e estilo (Helvetica Bold 12 pt); no uso comum, os termos se confundem.\n- **Família**: variações de peso (light, regular, bold), inclinação (itálico) e largura (condensada, expandida).\n\n### Anatomia\n- **Linha de base**: onde as letras se apoiam.\n- **Altura-x**: altura das minúsculas sem hastes (como o x).\n- **Ascendente** (parte que sobe, como em b, d) e **descendente** (parte que desce, como em p, g).\n- **Serifa**: pequeno traço no fim das hastes.\n- **Caixa-alta** (maiúsculas) e **caixa-baixa** (minúsculas).\n\n### Classificação\n- **Serifadas**: tradicionais; boas para **textos longos impressos**. Times New Roman, Garamond. Subgrupos: humanistas/antigas, transicionais (Baskerville), modernas/didones (Bodoni) e egípcias (serifa grossa, slab).\n- **Sem serifa** (sans-serif, grotescas): limpas e modernas; boas em **telas** e títulos. Helvetica, Arial, Futura.\n- **Cursivas** (script): imitam a escrita à mão.\n- **Display** (decorativas, fantasia): para títulos, não para texto corrido.\n- **Monoespaçadas**: todos os caracteres com a mesma largura (Courier).\n\n### Espaçamentos\n- **Kerning**: ajuste do espaço entre **um par específico** de letras (A e V).\n- **Tracking** (entreletra): espaço **uniforme** entre todas as letras de um trecho.\n- **Entrelinha** (leading): distância entre as linhas de base; em geral, cerca de **120%** do corpo.\n- **Corpo**: o tamanho, medido em **pontos** (pt).\n\n### Alinhamento\n- **À esquerda** (o mais legível em textos ocidentais), **à direita**, **centralizado** e **justificado** (pode criar \"rios\" de espaço em branco).\n- **Viúva**: linha curta sozinha no fim do parágrafo ou no topo da página. **Órfã**: linha isolada no pé da página.\n- Comprimento de linha confortável: cerca de **45 a 75 caracteres**.\n\n### Legibilidade e leiturabilidade\n- **Legibilidade**: facilidade de **reconhecer cada letra**.\n- **Leiturabilidade**: conforto de **ler o texto** como um todo (depende de tamanho, entrelinha, comprimento da linha e contraste).\n- Texto todo em caixa-alta é mais difícil de ler em blocos longos.\n\n### Hierarquia tipográfica\nUsar tamanho, peso, cor e posição para diferenciar **título, subtítulo e corpo**. Regra prática: combinar no máximo **duas ou três famílias** em um projeto, com contraste claro entre elas.\n\n### História\n**Gutenberg** (século XV): a imprensa de **tipos móveis**. Jan Tschichold e a *Nova Tipografia*; Adrian Frutiger; a tipografia digital.",
+      "revisao": "**Lembre:**\n- Serifa: traço no fim das hastes; serifadas para texto impresso longo.\n- Sem serifa: limpas, boas em telas.\n- Kerning: par de letras; tracking: trecho todo; entrelinha: entre linhas.\n- Legibilidade: letra; leiturabilidade: texto.\n- Poucas famílias por projeto."
+    },
+    {
+      "id": "metodologia",
+      "nome": "Metodologia de projeto",
+      "resumo": "### Por que método\nO projeto de design segue etapas para reduzir o erro e fundamentar as decisões. Os métodos não são receitas rígidas: organizam o processo, que costuma ser **iterativo** (volta-se a etapas anteriores).\n\n### Etapas gerais\n1. **Problema e briefing**: entender o que se pede. O **briefing** reúne objetivos, público, prazo, orçamento e restrições.\n2. **Pesquisa** (coleta de dados): usuários, concorrentes, referências, materiais.\n3. **Análise e definição** do problema e dos requisitos.\n4. **Geração de alternativas**: ideias, esboços (**brainstorming**, mapas mentais, painéis semânticos ou *moodboards*).\n5. **Seleção e desenvolvimento** da melhor alternativa.\n6. **Protótipo e testes**: modelo, **mockup**, protótipo.\n7. **Implementação** e produção.\n8. **Avaliação**.\n\n### Autores\n- **Bruno Munari** (*Das Coisas Nascem Coisas*): do **problema** à **solução**, passando por definição do problema, componentes, coleta e análise de dados, **criatividade**, materiais e tecnologia, experimentação, modelo, verificação e desenho de construção. Compara o método a uma receita de arroz verde.\n- **Bernd Löbach**: quatro fases: **análise do problema**, **geração de alternativas**, **avaliação das alternativas** e **realização da solução**. Também define as **funções do produto**: **prática** (uso), **estética** (percepção sensorial) e **simbólica** (significados, status).\n- **Gui Bonsiepe**: método voltado à realidade da América Latina.\n- **Mike Baxter**: projeto de produto com foco no mercado.\n\n### Design thinking\nAbordagem centrada nas pessoas, difundida pela **IDEO** (Tim Brown) e pela d.school de Stanford. Etapas: **empatia**, **definição**, **ideação**, **prototipação** e **teste**.\n- Combina o que é **desejável** para as pessoas, **viável** tecnicamente e **rentável** para o negócio.\n- **Duplo diamante** (Design Council): **descobrir** e **definir** (o problema), **desenvolver** e **entregar** (a solução); alterna pensamento **divergente** (abrir opções) e **convergente** (escolher).\n\n### Ferramentas\n- **Persona**: personagem fictício que representa um grupo de usuários.\n- **Mapa de empatia**, **jornada do usuário**, entrevistas, observação.\n- **Brainstorming**: gerar muitas ideias **sem julgar** no primeiro momento.\n- **Protótipo de baixa fidelidade** (papel, rápido e barato) e de **alta fidelidade** (próximo do final).\n- **MVP** (produto mínimo viável).\n\n### Design centrado no usuário\nO usuário participa de todo o processo; as soluções são testadas com pessoas reais.\n\n### Sustentabilidade\n**Ecodesign**: considerar o **ciclo de vida** do produto (matéria-prima, produção, uso e descarte). Os 3 R: **reduzir, reutilizar e reciclar**. Victor Papanek, em *Design para o Mundo Real*, cobrou a responsabilidade social do designer. **Economia circular** e design para desmontagem.",
+      "revisao": "**Lembre:**\n- Briefing: ponto de partida do projeto.\n- Munari: do problema à solução.\n- Löbach: funções prática, estética e simbólica.\n- Design thinking: empatia, definição, ideação, prototipação, teste.\n- Duplo diamante: divergir e convergir duas vezes."
+    },
+    {
+      "id": "aplicacoes",
+      "nome": "Identidade visual, ergonomia e design digital",
+      "resumo": "### Identidade visual\nConjunto de elementos que representam visualmente uma marca.\n- **Marca**: mais que o desenho; é a percepção que as pessoas têm da empresa (**branding** é a gestão dessa percepção).\n- **Logotipo**: o nome escrito com tipografia característica. **Símbolo**: o sinal gráfico. **Assinatura visual**: a combinação dos dois. No uso comum, tudo vira \"logo\".\n- Elementos: assinatura, **cores institucionais**, **tipografia** padrão e grafismos.\n- **Manual de identidade visual**: regras de uso (versões, cores, **área de proteção**, redução mínima, usos proibidos).\n- Boa marca: **simples, memorável, versátil, atemporal e adequada**.\n- **Naming**: criação do nome.\n\n### Semiótica aplicada\nPeirce: **ícone** (semelhança), **índice** (indício) e **símbolo** (convenção). **Pictograma**: desenho simplificado que comunica sem palavras (placas de banheiro). **Sinalização** e **wayfinding**: orientar as pessoas no espaço.\n\n### Imagem digital\n- **Bitmap** (rastreio, matricial): formada por **pixels**; perde qualidade ao ampliar. Formatos: **JPEG**, **PNG** (aceita transparência), GIF, TIFF. Programa típico: Photoshop.\n- **Vetor**: formada por **curvas matemáticas**; amplia **sem perder qualidade**; ideal para **logotipos**. Formatos: **SVG**, AI, EPS. Programa típico: Illustrator.\n- **Resolução**: **300 dpi** para impressão; **72 ppi** como referência para telas.\n- Impressão: sangria, marcas de corte, CMYK.\n\n### Ergonomia\nEstudo da adaptação do **trabalho e dos produtos às pessoas**.\n- **Física**, **cognitiva** e **organizacional**.\n- **Antropometria**: medidas do corpo humano. Projeta-se usando **percentis** (por exemplo, do 5 ao 95) para atender a maior parte da população, e não a \"média\".\n- **Usabilidade**: facilidade de uso, eficácia, eficiência e satisfação.\n- **Affordance** (Donald Norman, *O Design do Dia a Dia*): a característica do objeto que **sugere como usá-lo** (uma maçaneta convida a girar).\n- **Desenho universal**: produtos e ambientes utilizáveis por **todas as pessoas**, sem adaptação. Sete princípios: uso equitativo, flexível, simples e intuitivo, informação perceptível, tolerância ao erro, baixo esforço físico e espaço adequado.\n\n### Design digital\n- **UX** (experiência do usuário): toda a experiência da pessoa com o produto, incluindo pesquisa e fluxo.\n- **UI** (interface do usuário): a parte **visual e interativa** (telas, botões, cores).\n- **Wireframe**: esqueleto da tela, sem acabamento visual. **Mockup**: aparência final, estática. **Protótipo**: navegável.\n- **Design responsivo**: o layout se adapta a diferentes tamanhos de tela; **mobile first**.\n- **Arquitetura da informação**: organização e rotulagem do conteúdo.\n- **Heurísticas de Nielsen**: dez princípios de usabilidade, como visibilidade do estado do sistema, consistência, prevenção de erros e controle do usuário.\n- **Design system**: biblioteca de componentes e regras que garante consistência.\n- **Acessibilidade**: contraste, texto alternativo em imagens, navegação por teclado.\n\n### Direitos\n**Direito autoral** (Lei 9.610/1998), **registro de marca** e de **desenho industrial** no **INPI**.",
+      "revisao": "**Lembre:**\n- Logotipo: nome; símbolo: sinal gráfico; manual define o uso.\n- Bitmap: pixels, perde qualidade; vetor: amplia sem perder.\n- 300 dpi para impressão.\n- UX: experiência toda; UI: interface visual.\n- Affordance: o objeto sugere o uso (Norman)."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "fundamentos-design-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O que distingue o design do artesanato?",
+      "opcoes": [
+        "No design, o projeto é separado da fabricação e pensado para produção em série",
+        "O design não tem preocupação com a função",
+        "O artesanato usa máquinas industriais",
+        "O design é feito sempre à mão, peça a peça"
+      ],
+      "correta": 0,
+      "explicacao": "No artesanato, quem concebe a peça é normalmente quem a executa."
+    },
+    {
+      "id": "fundamentos-design-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "A Bauhaus, fundada em 1919 por Walter Gropius, propunha:",
+      "opcoes": [
+        "Rejeitar totalmente a produção industrial",
+        "Unir arte, artesanato e indústria em formas simples e funcionais",
+        "Valorizar o ornamento e as curvas inspiradas na natureza",
+        "Imitar os estilos históricos do passado"
+      ],
+      "correta": 1,
+      "explicacao": "A escola foi fechada em 1933, sob pressão do regime nazista."
+    },
+    {
+      "id": "fundamentos-design-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O movimento Arts and Crafts, liderado por William Morris, defendia:",
+      "opcoes": [
+        "A produção em massa de objetos baratos",
+        "O uso exclusivo de formas aerodinâmicas",
+        "A valorização do artesanato diante da baixa qualidade dos produtos industriais",
+        "O fim das artes decorativas"
+      ],
+      "correta": 2,
+      "explicacao": "Surgiu na Inglaterra como reação aos efeitos da Revolução Industrial."
+    },
+    {
+      "id": "fundamentos-design-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Nos anos 1930, fabricantes americanos redesenhavam a carcaça de eletrodomésticos com formas aerodinâmicas, sem mudar o funcionamento, para vender mais. Essa prática é chamada de:",
+      "opcoes": [
+        "Funcionalismo",
+        "Arts and Crafts",
+        "Ecodesign",
+        "Styling"
+      ],
+      "correta": 3,
+      "explicacao": "Raymond Loewy foi um dos principais nomes dessa abordagem voltada ao mercado."
+    },
+    {
+      "id": "fundamentos-design-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "O que significa o lema funcionalista \"a forma segue a função\"?",
+      "opcoes": [
+        "Que a aparência do objeto deve resultar do uso a que ele se destina, sem ornamento supérfluo",
+        "Que a função do objeto não importa",
+        "Que a forma deve imitar a natureza",
+        "Que todo objeto deve ser decorado"
+      ],
+      "correta": 0,
+      "explicacao": "A frase é atribuída ao arquiteto Louis Sullivan e marcou o design moderno."
+    },
+    {
+      "id": "fundamentos-design-6",
+      "topico": "elementos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Gestalt, a tendência de completar mentalmente formas incompletas é a lei de:",
+      "opcoes": [
+        "Proximidade",
+        "Fechamento",
+        "Semelhança",
+        "Continuidade"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso reconhecemos um círculo mesmo quando seu contorno está interrompido."
+    },
+    {
+      "id": "fundamentos-design-7",
+      "topico": "elementos",
+      "nivel": "conceitual",
+      "pergunta": "O equilíbrio assimétrico em uma composição é obtido quando:",
+      "opcoes": [
+        "Os dois lados são idênticos",
+        "Não há nenhum elemento na página",
+        "Elementos de pesos visuais diferentes se compensam, sem espelhamento",
+        "Todos os elementos têm o mesmo tamanho"
+      ],
+      "correta": 2,
+      "explicacao": "Ele costuma gerar composições mais dinâmicas que o equilíbrio simétrico."
+    },
+    {
+      "id": "fundamentos-design-8",
+      "topico": "elementos",
+      "nivel": "conceitual",
+      "pergunta": "Em um layout, o grid serve para:",
+      "opcoes": [
+        "Definir as cores da marca",
+        "Escolher a família tipográfica",
+        "Aumentar a resolução das imagens",
+        "Organizar os elementos com consistência, por meio de margens, colunas e calhas"
+      ],
+      "correta": 3,
+      "explicacao": "Ele cria ritmo e facilita a leitura em peças com várias páginas."
+    },
+    {
+      "id": "fundamentos-design-9",
+      "topico": "elementos",
+      "nivel": "aplicacao",
+      "pergunta": "Em um cartaz, o título é grande e escuro, o subtítulo é médio e o texto é pequeno. O princípio aplicado é o da:",
+      "opcoes": [
+        "Hierarquia visual",
+        "Simetria",
+        "Pregnância",
+        "Textura"
+      ],
+      "correta": 0,
+      "explicacao": "A hierarquia orienta o olhar do elemento mais importante para o menos importante."
+    },
+    {
+      "id": "fundamentos-design-10",
+      "topico": "elementos",
+      "nivel": "analise",
+      "pergunta": "Por que o espaço em branco não deve ser visto como desperdício em um layout?",
+      "opcoes": [
+        "Porque reduz o custo de impressão a zero",
+        "Porque dá respiro, destaca os elementos e melhora a leitura",
+        "Porque substitui a necessidade de texto",
+        "Porque elimina a hierarquia"
+      ],
+      "correta": 1,
+      "explicacao": "Composições muito cheias dificultam a identificação do que é mais importante."
+    },
+    {
+      "id": "fundamentos-design-11",
+      "topico": "cor",
+      "nivel": "conceitual",
+      "pergunta": "As cores primárias da síntese aditiva (cor-luz) são:",
+      "opcoes": [
+        "Ciano, magenta e amarelo",
+        "Vermelho, amarelo e azul",
+        "Vermelho, verde e azul",
+        "Preto, branco e cinza"
+      ],
+      "correta": 2,
+      "explicacao": "Esse é o sistema RGB, usado em telas; a soma das três resulta em branco."
+    },
+    {
+      "id": "fundamentos-design-12",
+      "topico": "cor",
+      "nivel": "conceitual",
+      "pergunta": "A propriedade que indica o quanto uma cor é pura ou acinzentada é a:",
+      "opcoes": [
+        "Matiz",
+        "Luminosidade",
+        "Textura",
+        "Saturação"
+      ],
+      "correta": 3,
+      "explicacao": "O matiz é a cor em si, e a luminosidade indica se ela é clara ou escura."
+    },
+    {
+      "id": "fundamentos-design-13",
+      "topico": "cor",
+      "nivel": "conceitual",
+      "pergunta": "Cores complementares são aquelas que:",
+      "opcoes": [
+        "Ficam em posições opostas no círculo cromático",
+        "Ficam lado a lado no círculo cromático",
+        "Têm o mesmo matiz",
+        "Não têm saturação"
+      ],
+      "correta": 0,
+      "explicacao": "Juntas produzem o máximo contraste, como o azul com o laranja."
+    },
+    {
+      "id": "fundamentos-design-14",
+      "topico": "cor",
+      "nivel": "aplicacao",
+      "pergunta": "Um designer vai enviar um folder para impressão em gráfica offset. O arquivo deve estar no modo de cor:",
+      "opcoes": [
+        "RGB",
+        "CMYK",
+        "Hexadecimal",
+        "Escala de cinza apenas"
+      ],
+      "correta": 1,
+      "explicacao": "O RGB é usado para telas; na impressão as cores são formadas por pigmentos."
+    },
+    {
+      "id": "fundamentos-design-15",
+      "topico": "cor",
+      "nivel": "analise",
+      "pergunta": "Por que não se deve transmitir uma informação importante apenas por meio da cor?",
+      "opcoes": [
+        "Porque as cores não aparecem em telas",
+        "Porque a cor aumenta o tamanho do arquivo",
+        "Porque pessoas com daltonismo podem não distinguir as cores usadas",
+        "Porque as cores não têm significado cultural"
+      ],
+      "correta": 2,
+      "explicacao": "Recomenda-se reforçar a informação com texto, ícones ou formas diferentes."
+    },
+    {
+      "id": "fundamentos-design-16",
+      "topico": "tipografia",
+      "nivel": "conceitual",
+      "pergunta": "Serifa é:",
+      "opcoes": [
+        "O espaço entre duas linhas de texto",
+        "A altura das letras maiúsculas",
+        "O alinhamento do parágrafo",
+        "O pequeno traço no fim das hastes das letras"
+      ],
+      "correta": 3,
+      "explicacao": "Fontes como Times New Roman e Garamond são serifadas."
+    },
+    {
+      "id": "fundamentos-design-17",
+      "topico": "tipografia",
+      "nivel": "conceitual",
+      "pergunta": "O ajuste do espaço entre um par específico de letras é chamado de:",
+      "opcoes": [
+        "Kerning",
+        "Tracking",
+        "Entrelinha",
+        "Corpo"
+      ],
+      "correta": 0,
+      "explicacao": "O tracking altera de modo uniforme o espaço entre todas as letras de um trecho."
+    },
+    {
+      "id": "fundamentos-design-18",
+      "topico": "tipografia",
+      "nivel": "conceitual",
+      "pergunta": "A entrelinha corresponde à distância entre:",
+      "opcoes": [
+        "Duas letras vizinhas",
+        "As linhas de base de duas linhas de texto consecutivas",
+        "Duas colunas do grid",
+        "A margem e o texto"
+      ],
+      "correta": 1,
+      "explicacao": "Um valor em torno de 120% do corpo costuma ser confortável para a leitura."
+    },
+    {
+      "id": "fundamentos-design-19",
+      "topico": "tipografia",
+      "nivel": "aplicacao",
+      "pergunta": "Para o texto corrido de um livro impresso de 300 páginas, a escolha mais adequada costuma ser uma fonte:",
+      "opcoes": [
+        "Display decorativa",
+        "Cursiva",
+        "Serifada, como a Garamond",
+        "Toda em caixa-alta"
+      ],
+      "correta": 2,
+      "explicacao": "As fontes display e cursivas funcionam em títulos, mas cansam em textos longos."
+    },
+    {
+      "id": "fundamentos-design-20",
+      "topico": "tipografia",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre legibilidade e leiturabilidade?",
+      "opcoes": [
+        "São sinônimos exatos",
+        "Legibilidade diz respeito às cores; leiturabilidade, às imagens",
+        "Leiturabilidade é o tamanho do arquivo da fonte",
+        "Legibilidade é reconhecer cada letra; leiturabilidade é o conforto de ler o texto como um todo"
+      ],
+      "correta": 3,
+      "explicacao": "A leiturabilidade depende de fatores como entrelinha, comprimento da linha e contraste."
+    },
+    {
+      "id": "fundamentos-design-21",
+      "topico": "metodologia",
+      "nivel": "conceitual",
+      "pergunta": "O briefing é:",
+      "opcoes": [
+        "O documento que reúne objetivos, público, prazos e restrições do projeto",
+        "O protótipo final do produto",
+        "O manual de uso da marca",
+        "A etapa de impressão"
+      ],
+      "correta": 0,
+      "explicacao": "Ele é o ponto de partida e orienta as decisões ao longo do projeto."
+    },
+    {
+      "id": "fundamentos-design-22",
+      "topico": "metodologia",
+      "nivel": "conceitual",
+      "pergunta": "As etapas do design thinking são:",
+      "opcoes": [
+        "Atenção, interesse, desejo e ação",
+        "Empatia, definição, ideação, prototipação e teste",
+        "Planejar, executar, verificar e agir",
+        "Ponto, linha, plano e volume"
+      ],
+      "correta": 1,
+      "explicacao": "A abordagem é centrada nas pessoas e foi difundida pela IDEO."
+    },
+    {
+      "id": "fundamentos-design-23",
+      "topico": "metodologia",
+      "nivel": "conceitual",
+      "pergunta": "Para Bernd Löbach, as funções de um produto são:",
+      "opcoes": [
+        "Aditiva e subtrativa",
+        "Primária, secundária e terciária",
+        "Prática, estética e simbólica",
+        "Simétrica e assimétrica"
+      ],
+      "correta": 2,
+      "explicacao": "A função simbólica diz respeito aos significados e ao status ligados ao objeto."
+    },
+    {
+      "id": "fundamentos-design-24",
+      "topico": "metodologia",
+      "nivel": "aplicacao",
+      "pergunta": "Antes de programar um aplicativo, a equipe desenha as telas em papel e pede a alguns usuários que simulem o uso. Trata-se de um:",
+      "opcoes": [
+        "Manual de identidade visual",
+        "Arquivo vetorial final",
+        "Briefing",
+        "Protótipo de baixa fidelidade"
+      ],
+      "correta": 3,
+      "explicacao": "Ele é rápido e barato, o que permite corrigir problemas cedo."
+    },
+    {
+      "id": "fundamentos-design-25",
+      "topico": "metodologia",
+      "nivel": "analise",
+      "pergunta": "Por que, em uma sessão de brainstorming, as ideias não devem ser criticadas no primeiro momento?",
+      "opcoes": [
+        "Porque o julgamento precoce inibe a geração de ideias; a seleção vem depois",
+        "Porque todas as ideias serão produzidas",
+        "Porque a crítica é proibida em design",
+        "Porque não existe etapa de avaliação"
+      ],
+      "correta": 0,
+      "explicacao": "O processo alterna um momento divergente, de abrir opções, e um convergente, de escolher."
+    },
+    {
+      "id": "fundamentos-design-26",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "Uma imagem vetorial se caracteriza por:",
+      "opcoes": [
+        "Ser formada por pixels",
+        "Ser formada por curvas matemáticas e poder ser ampliada sem perda de qualidade",
+        "Perder definição ao ser ampliada",
+        "Ser usada apenas em fotografias"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso é o formato indicado para logotipos e ilustrações."
+    },
+    {
+      "id": "fundamentos-design-27",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "O manual de identidade visual serve para:",
+      "opcoes": [
+        "Registrar a marca no INPI",
+        "Calcular o preço do projeto",
+        "Definir as regras de uso da marca, como cores, tipografia e versões da assinatura",
+        "Listar os concorrentes da empresa"
+      ],
+      "correta": 2,
+      "explicacao": "Ele garante que a marca seja aplicada de forma consistente por diferentes pessoas."
+    },
+    {
+      "id": "fundamentos-design-28",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "Em design digital, UI refere-se:",
+      "opcoes": [
+        "À pesquisa com usuários apenas",
+        "Ao código do servidor",
+        "Ao registro de direitos autorais",
+        "À interface: a parte visual e interativa do produto"
+      ],
+      "correta": 3,
+      "explicacao": "UX é mais amplo e envolve toda a experiência da pessoa com o produto."
+    },
+    {
+      "id": "fundamentos-design-29",
+      "topico": "aplicacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma porta tem uma barra horizontal que leva as pessoas a empurrar, sem precisar de placa. Essa característica do objeto é chamada de:",
+      "opcoes": [
+        "Affordance",
+        "Kerning",
+        "Saturação",
+        "Briefing"
+      ],
+      "correta": 0,
+      "explicacao": "O conceito foi difundido por Donald Norman em O Design do Dia a Dia."
+    },
+    {
+      "id": "fundamentos-design-30",
+      "topico": "aplicacoes",
+      "nivel": "analise",
+      "pergunta": "Por que, em ergonomia, não se recomenda projetar apenas para a pessoa de medidas médias?",
+      "opcoes": [
+        "Porque a média não pode ser calculada",
+        "Porque grande parte da população ficaria mal atendida; usam-se percentis para abranger mais pessoas",
+        "Porque todas as pessoas têm as mesmas medidas",
+        "Porque a antropometria não se aplica ao design"
+      ],
+      "correta": 1,
+      "explicacao": "Projetar do percentil 5 ao 95 atende cerca de 90% dos usuários."
+    }
+  ]
+}

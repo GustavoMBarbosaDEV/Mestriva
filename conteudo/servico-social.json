@@ -1,0 +1,465 @@
+{
+  "id": "servico-social",
+  "nome": "Fundamentos do Serviço Social",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "origens",
+      "nome": "Origens e questão social",
+      "resumo": "### Questão social\nÉ o **objeto de trabalho** do assistente social. Conjunto das **expressões das desigualdades** geradas pela sociedade capitalista, a partir da **contradição entre capital e trabalho**: a produção é cada vez mais coletiva, mas a riqueza é apropriada de forma privada.\n- Surge na Europa do século XIX, com a **industrialização** e o pauperismo da classe trabalhadora, que passa a se organizar e a reivindicar.\n- **Expressões**: pobreza, desemprego, fome, violência, falta de moradia, trabalho infantil, discriminações.\n- É também **rebeldia e resistência**: envolve a luta dos trabalhadores por direitos (Iamamoto).\n\n### Protoformas\nAntes da profissão havia a **caridade** e a **filantropia**, ligadas à Igreja e às damas de caridade: ajuda como favor, com tom moralizador.\n\n### Surgimento da profissão\nO Serviço Social nasce quando o **Estado e a burguesia** precisam responder à questão social de forma organizada, no **capitalismo monopolista** (José Paulo Netto). É uma profissão inscrita na **divisão social e técnica do trabalho**.\n- Nos Estados Unidos, **Mary Richmond** sistematizou o **Serviço Social de Caso** em *Diagnóstico Social* (1917).\n\n### No Brasil\n- Surge nos **anos 1930**, ligado à **Igreja Católica** e à ação social católica, no contexto da industrialização e do governo Vargas.\n- **1936**: primeira escola, em **São Paulo** (ligada ao CEAS). **1937**: escola do Rio de Janeiro.\n- Base inicial: a **doutrina social da Igreja** (encíclicas *Rerum Novarum* e *Quadragesimo Anno*) e o neotomismo. A questão social era vista como **problema moral**, a ser tratado ajustando o indivíduo.\n- Anos 1940: grandes instituições, como a **LBA** (Legião Brasileira de Assistência, 1942), o SENAI e o SESI, ampliam o mercado de trabalho.\n- Depois, influência **norte-americana**, com as técnicas de **caso, grupo e comunidade**, de base funcionalista e positivista.\n\n### Serviço Social tradicional\nMarcado pelo **conservadorismo**: ação individualizada, moralizadora e de **ajustamento** da pessoa à ordem social, sem questionar as causas estruturais.\n\n### Assistencialismo e direito\n- **Assistencialismo**: ajuda como **favor**, que gera dependência e não altera a situação.\n- **Assistência social**: **política pública** e **direito** do cidadão, dever do Estado.",
+      "revisao": "**Lembre:**\n- Questão social: desigualdades da contradição capital e trabalho.\n- É o objeto de trabalho do assistente social.\n- Brasil: anos 1930, Igreja Católica; primeira escola em 1936 (SP).\n- Mary Richmond: Serviço Social de Caso.\n- Assistência é direito; assistencialismo é favor."
+    },
+    {
+      "id": "reconceituacao",
+      "nome": "Movimento de Reconceituação e projeto profissional",
+      "resumo": "### Movimento de Reconceituação\nMovimento **latino-americano** dos anos **1960 e 1970** que **questionou o Serviço Social tradicional**: sua base conservadora, a importação de modelos norte-americanos e a suposta neutralidade. Buscou uma profissão comprometida com a realidade do continente.\n\n### No Brasil: a renovação\nJosé Paulo Netto identifica **três direções** durante a ditadura militar:\n1. **Perspectiva modernizadora**: adequa a profissão ao desenvolvimentismo, com base **funcionalista** e técnica. Documentos de **Araxá (1967)** e **Teresópolis (1970)**.\n2. **Reatualização do conservadorismo**: base na **fenomenologia**, com foco na pessoa e no diálogo. Documentos de **Sumaré (1978)** e Alto da Boa Vista.\n3. **Intenção de ruptura**: base no **marxismo**, crítica à ordem social. Marco inicial: o **Método BH** (Belo Horizonte, anos 1970).\n\n### Congresso da Virada\nO **III Congresso Brasileiro de Assistentes Sociais (1979)**, em São Paulo. A categoria destituiu a mesa de honra, composta por representantes da ditadura, e a substituiu por **trabalhadores**. Simboliza o **compromisso da profissão com a classe trabalhadora**.\n\n### Projeto ético-político\nConsolidado nos **anos 1990**, expressa a direção hegemônica da profissão. Apoia-se em três pilares:\n- o **Código de Ética de 1993**;\n- a **Lei de Regulamentação da Profissão** (Lei 8.662/1993);\n- as **Diretrizes Curriculares da ABEPSS (1996)**.\nValores: **liberdade** como valor ético central, defesa dos direitos humanos, democracia, equidade e justiça social, e construção de uma **nova ordem societária, sem exploração e dominação**.\n\n### Referências teóricas\n- **Marilda Iamamoto**: *Relações Sociais e Serviço Social no Brasil* (1982, com Raul de Carvalho). Entende o Serviço Social como **especialização do trabalho coletivo**, inserida na reprodução das relações sociais. A profissão tem **caráter contraditório**: atende, ao mesmo tempo, a interesses do capital e do trabalho.\n- **José Paulo Netto**: *Ditadura e Serviço Social*; *Capitalismo Monopolista e Serviço Social*.\n- **Vicente de Paula Faleiros**, **Maria Carmelita Yazbek**, **Yolanda Guerra**.\n\n### Entidades da categoria\n- **Conjunto CFESS-CRESS**: fiscaliza e orienta o exercício profissional.\n- **ABEPSS**: ensino e pesquisa.\n- **ENESSO**: estudantes.",
+      "revisao": "**Lembre:**\n- Reconceituação: América Latina, anos 1960–70, crítica ao tradicional.\n- Três direções: modernizadora, reatualização do conservadorismo, intenção de ruptura.\n- Congresso da Virada: 1979.\n- Projeto ético-político: Código de 1993, Lei 8.662 e Diretrizes de 1996.\n- Iamamoto: profissão de caráter contraditório."
+    },
+    {
+      "id": "etica",
+      "nome": "Ética e regulamentação da profissão",
+      "resumo": "### Códigos de Ética\nA profissão teve cinco códigos: **1947, 1965, 1975, 1986 e 1993**.\n- Os três primeiros tinham base conservadora e neotomista.\n- O de **1986** rompe com o conservadorismo e assume o compromisso com a classe trabalhadora.\n- O de **1993** (em vigor) aperfeiçoa o anterior.\n\n### Onze princípios fundamentais (Código de 1993)\nEntre eles:\n- **Liberdade como valor ético central**, com autonomia e emancipação dos indivíduos.\n- Defesa intransigente dos **direitos humanos** e recusa do arbítrio e do autoritarismo.\n- Ampliação e consolidação da **cidadania**.\n- Defesa do aprofundamento da **democracia**.\n- **Equidade e justiça social**, com universalidade de acesso aos bens e serviços.\n- Eliminação de todas as formas de **preconceito**; respeito à diversidade.\n- **Pluralismo**.\n- Opção por um projeto vinculado à construção de uma **nova ordem societária**.\n- Articulação com os movimentos de outras categorias e com a luta dos trabalhadores.\n- Compromisso com a **qualidade dos serviços** e com o aprimoramento intelectual.\n- Exercício profissional **sem discriminar nem ser discriminado**.\n\n### Sigilo profissional\nÉ **direito e dever** do assistente social, para proteger o usuário. Em equipe multiprofissional, só se compartilha o **estritamente necessário**. A quebra só se admite em situações de gravidade que possam trazer prejuízo ao usuário, a terceiros ou à coletividade.\n\n### Lei 8.662/1993\nRegulamenta a profissão.\n- Exige diploma de graduação em Serviço Social e **registro no CRESS**.\n- **Competências** (art. 4º): podem ser exercidas também por outros profissionais. Ex.: elaborar e executar políticas sociais, orientar indivíduos e grupos, fazer estudos socioeconômicos.\n- **Atribuições privativas** (art. 5º): **só** do assistente social. Ex.: coordenar e executar atividades em matéria de Serviço Social, **supervisionar estagiários** de Serviço Social, dar aulas das disciplinas específicas, fazer **vistorias, perícias, laudos e pareceres** em matéria de Serviço Social, dirigir cursos e serviços da área.\n- **Jornada de 30 horas semanais**, sem redução de salário (Lei 12.317/2010).\n\n### Dimensões da profissão\nTrês dimensões **indissociáveis**:\n- **Teórico-metodológica**: o conhecimento para ler a realidade.\n- **Ético-política**: os valores e a direção social.\n- **Técnico-operativa**: os instrumentos e as técnicas.\n\n### Projeto societário\nO projeto profissional se liga a um projeto de sociedade. A **neutralidade** é recusada: toda ação tem direção política.",
+      "revisao": "**Lembre:**\n- Código vigente: 1993; liberdade como valor ético central.\n- Lei 8.662/1993 regulamenta a profissão.\n- Atribuições privativas: só do assistente social (laudo, parecer, supervisão de estágio).\n- Jornada de 30 horas.\n- Três dimensões: teórico-metodológica, ético-política, técnico-operativa."
+    },
+    {
+      "id": "seguridade",
+      "nome": "Seguridade social e política de assistência",
+      "resumo": "### Seguridade social\nCriada pela **Constituição de 1988** (art. 194), reúne três políticas, o **tripé**:\n- **Saúde**: **direito de todos** e dever do Estado; **universal**, sem contribuição (SUS).\n- **Previdência social**: **contributiva**; protege quem contribui (aposentadoria, pensão, auxílios).\n- **Assistência social**: **para quem dela necessitar**, **independentemente de contribuição**.\n\n### Assistência social como direito\n- Constituição, artigos 203 e 204.\n- **LOAS** (Lei Orgânica da Assistência Social, **Lei 8.742/1993**).\n- **PNAS** (Política Nacional de Assistência Social, **2004**).\n- **SUAS** (Sistema Único de Assistência Social, 2005): organiza a política de forma **descentralizada e participativa**, com gestão compartilhada entre União, estados e municípios.\n\n### Proteção social no SUAS\n- **Proteção social básica**: **prevenção** de situações de risco e fortalecimento de vínculos. Equipamento: **CRAS** (Centro de Referência de Assistência Social), a porta de entrada, em áreas de vulnerabilidade. Serviço principal: **PAIF** (Proteção e Atendimento Integral à Família).\n- **Proteção social especial**: para quem já teve **direitos violados**.\n  - **Média complexidade**: vínculos familiares mantidos. Equipamento: **CREAS**. Serviço: **PAEFI**. Atende violência, abuso, trabalho infantil, medidas socioeducativas em meio aberto, população de rua (Centro POP).\n  - **Alta complexidade**: vínculos rompidos; **acolhimento** (abrigos, casas-lar, repúblicas, família acolhedora).\n\n### Diretrizes\n- **Matricialidade sociofamiliar**: a **família** como centro da ação.\n- **Territorialização**: atuação a partir do território.\n- **Descentralização** e **controle social**.\n- Primazia da responsabilidade do **Estado**.\n\n### Benefícios\n- **BPC** (Benefício de Prestação Continuada): **um salário mínimo** mensal ao **idoso com 65 anos ou mais** e à **pessoa com deficiência** que comprovem não ter meios de se manter; exige renda familiar per capita baixa (referência de 1/4 do salário mínimo). **Não exige contribuição**, não gera 13º nem pensão por morte. Pago pelo INSS.\n- **Benefícios eventuais**: auxílio-natalidade, auxílio-funeral, situações de vulnerabilidade temporária e calamidade.\n- **Transferência de renda**: Programa Bolsa Família, com condicionalidades de saúde e educação.\n- **CadÚnico**: cadastro das famílias de baixa renda, usado para acesso aos programas.\n\n### Controle social\nParticipação da sociedade na formulação e na fiscalização das políticas, por meio de **conselhos** (paritários e deliberativos) e **conferências**.",
+      "revisao": "**Lembre:**\n- Tripé: saúde (universal), previdência (contributiva), assistência (a quem necessitar).\n- LOAS: Lei 8.742/1993; SUAS organiza a política.\n- CRAS: proteção básica; CREAS: especial de média complexidade.\n- BPC: 1 salário mínimo, idoso 65+ ou pessoa com deficiência, sem contribuição.\n- Conselhos e conferências: controle social."
+    },
+    {
+      "id": "instrumentos",
+      "nome": "Instrumentalidade e instrumentos de trabalho",
+      "resumo": "### Instrumentalidade\nPara **Yolanda Guerra**, é a **capacidade** que a profissão adquire de alcançar seus objetivos; não se reduz ao uso de técnicas. Os instrumentos são meios, escolhidos conforme a **finalidade** e a leitura da realidade. Evita-se o **tecnicismo** (técnica sem reflexão).\n\n### Instrumentos diretos (face a face)\n- **Observação**: olhar atento e orientado por objetivos; pode ser participante.\n- **Entrevista**: diálogo com finalidade, individual ou conjunta; exige **escuta qualificada** e respeito ao sigilo.\n- **Visita domiciliar**: conhecer as condições de vida no espaço do usuário; **não é fiscalização** nem invasão; requer consentimento e objetivo claro.\n- **Visita institucional**.\n- **Reunião** e **trabalho com grupos**: espaço coletivo de reflexão e informação.\n- **Acolhimento** e **abordagem**.\n- **Mobilização de comunidades**.\n\n### Instrumentos indiretos (registros)\n- **Relatório social**: descreve e registra o atendimento e as informações colhidas.\n- **Parecer social**: **opinião técnica conclusiva** do assistente social sobre a situação estudada.\n- **Laudo social**: usado em **perícias**, sobretudo no Judiciário; registra o estudo e traz o parecer.\n- **Estudo social**: o **processo** de conhecer a situação, que fundamenta o parecer e o laudo.\n- **Perícia social**: estudo feito a pedido de autoridade, para subsidiar uma decisão.\n- **Prontuário**, **diário de campo**, **atas**, **livro de registro**.\n- **Encaminhamento**: direciona o usuário a outro serviço da rede, com acompanhamento.\n\n### Estudo socioeconômico\nLevanta as condições de vida da família (renda, moradia, trabalho, saúde) para fins de acesso a benefícios e serviços. É **competência** do assistente social.\n\n### Trabalho em rede\n- **Rede socioassistencial**: os serviços da assistência.\n- **Intersetorialidade**: articulação entre políticas (saúde, educação, habitação, assistência).\n- **Referência e contrarreferência**: encaminhar e receber de volta com informações.\n- **Interdisciplinaridade**: atuação com outras profissões, sem perder a especificidade.\n\n### Planejamento\n- **Plano**: o mais amplo, com diretrizes gerais.\n- **Programa**: detalha o plano por áreas.\n- **Projeto**: a unidade mais específica e operacional, com objetivos, metas, prazos e recursos.\n- **Monitoramento** (acompanha durante) e **avaliação** (julga resultados).\n\n### Mediação\nCategoria central: o profissional articula as demandas **singulares** dos usuários às determinações **universais** da sociedade, passando pelo **particular** (as políticas e instituições).",
+      "revisao": "**Lembre:**\n- Instrumentalidade vai além da técnica (Yolanda Guerra).\n- Diretos: observação, entrevista, visita domiciliar, reunião.\n- Parecer: opinião técnica conclusiva; laudo: usado em perícia.\n- Plano > programa > projeto.\n- Visita domiciliar não é fiscalização."
+    },
+    {
+      "id": "campos",
+      "nome": "Espaços de atuação e direitos sociais",
+      "resumo": "### Onde atua o assistente social\nO maior empregador é o **Estado**, nas políticas sociais. Atua também em empresas, no **terceiro setor** (ONGs) e em movimentos sociais.\n\n### Saúde\n- Atua sobre os **determinantes sociais da saúde**.\n- Os **Parâmetros para Atuação de Assistentes Sociais na Saúde** (CFESS, 2010) definem eixos: atendimento direto, mobilização e controle social, planejamento e gestão, assessoria e formação.\n- **Não é atribuição** do assistente social: marcar consultas, solicitar ambulância, comunicar óbito (tarefa da equipe médica) ou fazer triagem para \"selecionar\" quem tem direito a serviço universal.\n- Projeto da **Reforma Sanitária** (SUS universal) em disputa com o projeto **privatista**.\n\n### Previdência\nServiço Social do INSS: socialização de informações sobre direitos, avaliação social da pessoa com deficiência para o BPC.\n\n### Sociojurídico\nTribunais, Ministério Público, Defensoria, sistema prisional e socioeducativo. Elabora **estudos, laudos e pareceres** que subsidiam decisões sobre guarda, adoção, medidas protetivas e execução penal.\n\n### Educação\nA **Lei 13.935/2019** prevê psicólogos e assistentes sociais nas redes públicas de educação básica. Atua na permanência escolar, na relação com a família e na rede de proteção.\n\n### Legislação de direitos\n- **ECA** (Lei 8.069/1990): **proteção integral** e **prioridade absoluta**. Criança: até **12 anos incompletos**; adolescente: de **12 a 18 anos**. **Conselho Tutelar**: órgão permanente e autônomo, **não jurisdicional**, que zela pelos direitos. **Medidas de proteção** e **medidas socioeducativas** (da advertência à internação).\n- **Estatuto da Pessoa Idosa** (Lei 10.741/2003): pessoa com **60 anos ou mais**.\n- **Lei Brasileira de Inclusão** (Lei 13.146/2015): pessoa com deficiência; adota o **modelo social** da deficiência, que considera as **barreiras**.\n- **Lei Maria da Penha** (Lei 11.340/2006): violência doméstica e familiar contra a mulher; formas física, psicológica, sexual, patrimonial e moral.\n- **Lei 10.216/2001**: reforma psiquiátrica; cuidado em liberdade, CAPS.\n\n### Estado e políticas sociais\n- **Estado de bem-estar social** (Welfare State): ampla proteção social pública, no pós-guerra europeu.\n- **Neoliberalismo**: Estado mínimo, privatização, **focalização** das políticas nos mais pobres e transferência de responsabilidades ao terceiro setor (**refilantropização**).\n- **Universalização** (para todos, como direito) em tensão com **focalização** (só para os mais pobres).\n\n### Desafios atuais\nPrecarização do trabalho, desmonte de direitos, aumento da demanda e condições de trabalho; a defesa do projeto ético-político exige formação continuada e ação coletiva.",
+      "revisao": "**Lembre:**\n- Maior empregador: o Estado.\n- ECA: proteção integral; criança até 12 anos incompletos.\n- Conselho Tutelar: autônomo e não jurisdicional.\n- Pessoa idosa: 60 anos ou mais.\n- Neoliberalismo: Estado mínimo e focalização."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "servico-social-1",
+      "topico": "origens",
+      "nivel": "conceitual",
+      "pergunta": "No Serviço Social, a questão social é entendida como:",
+      "opcoes": [
+        "O conjunto das expressões das desigualdades geradas pela contradição entre capital e trabalho",
+        "Um problema moral de cada indivíduo",
+        "A falta de caridade das elites",
+        "Um fenômeno natural e inevitável"
+      ],
+      "correta": 0,
+      "explicacao": "Ela é considerada o objeto de trabalho do assistente social."
+    },
+    {
+      "id": "servico-social-2",
+      "topico": "origens",
+      "nivel": "conceitual",
+      "pergunta": "O Serviço Social surgiu no Brasil na década de:",
+      "opcoes": [
+        "1890, ligado ao Exército",
+        "1930, com forte ligação com a Igreja Católica",
+        "1960, ligado aos sindicatos",
+        "1990, com a LOAS"
+      ],
+      "correta": 1,
+      "explicacao": "A primeira escola foi criada em São Paulo, em 1936."
+    },
+    {
+      "id": "servico-social-3",
+      "topico": "origens",
+      "nivel": "conceitual",
+      "pergunta": "Mary Richmond é conhecida por ter sistematizado:",
+      "opcoes": [
+        "O Movimento de Reconceituação",
+        "O Código de Ética de 1993",
+        "O Serviço Social de Caso",
+        "O Sistema Único de Assistência Social"
+      ],
+      "correta": 2,
+      "explicacao": "Sua obra Diagnóstico Social, de 1917, é um marco da profissão nos Estados Unidos."
+    },
+    {
+      "id": "servico-social-4",
+      "topico": "origens",
+      "nivel": "aplicacao",
+      "pergunta": "Uma entidade distribui cestas básicas como favor, exigindo gratidão e sem informar as famílias sobre seus direitos. Essa prática caracteriza:",
+      "opcoes": [
+        "Política pública de assistência social",
+        "Controle social",
+        "Proteção social especial",
+        "Assistencialismo"
+      ],
+      "correta": 3,
+      "explicacao": "A assistência social, ao contrário, é direito do cidadão e dever do Estado."
+    },
+    {
+      "id": "servico-social-5",
+      "topico": "origens",
+      "nivel": "analise",
+      "pergunta": "Por que o Serviço Social tradicional é considerado conservador?",
+      "opcoes": [
+        "Porque buscava ajustar o indivíduo à ordem social, sem questionar as causas estruturais dos problemas",
+        "Porque defendia a transformação radical da sociedade",
+        "Porque recusava qualquer ligação com a Igreja",
+        "Porque atuava apenas com movimentos sociais"
+      ],
+      "correta": 0,
+      "explicacao": "A questão social era tratada como problema moral e individual."
+    },
+    {
+      "id": "servico-social-6",
+      "topico": "reconceituacao",
+      "nivel": "conceitual",
+      "pergunta": "O Movimento de Reconceituação foi:",
+      "opcoes": [
+        "A criação da primeira escola de Serviço Social",
+        "Um movimento latino-americano que questionou o Serviço Social tradicional",
+        "Um programa de transferência de renda",
+        "A regulamentação da profissão nos Estados Unidos"
+      ],
+      "correta": 1,
+      "explicacao": "Ocorreu nas décadas de 1960 e 1970, criticando o conservadorismo e os modelos importados."
+    },
+    {
+      "id": "servico-social-7",
+      "topico": "reconceituacao",
+      "nivel": "conceitual",
+      "pergunta": "O Congresso da Virada, de 1979, simboliza:",
+      "opcoes": [
+        "A criação da LBA",
+        "A aprovação da LOAS",
+        "O compromisso da profissão com a classe trabalhadora",
+        "O surgimento do Serviço Social de Caso"
+      ],
+      "correta": 2,
+      "explicacao": "A mesa de honra, com representantes da ditadura, foi substituída por trabalhadores."
+    },
+    {
+      "id": "servico-social-8",
+      "topico": "reconceituacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual direção da renovação do Serviço Social brasileiro se apoiou no marxismo?",
+      "opcoes": [
+        "Perspectiva modernizadora",
+        "Reatualização do conservadorismo",
+        "Serviço Social de Caso",
+        "Intenção de ruptura"
+      ],
+      "correta": 3,
+      "explicacao": "Seu marco inicial foi o Método BH, formulado em Belo Horizonte nos anos 1970."
+    },
+    {
+      "id": "servico-social-9",
+      "topico": "reconceituacao",
+      "nivel": "aplicacao",
+      "pergunta": "Os documentos de Araxá e Teresópolis, que buscavam dar mais eficiência técnica à profissão dentro do projeto desenvolvimentista, expressam a:",
+      "opcoes": [
+        "Perspectiva modernizadora",
+        "Intenção de ruptura",
+        "Reatualização do conservadorismo",
+        "Vertente da fenomenologia"
+      ],
+      "correta": 0,
+      "explicacao": "Essa direção tinha base funcionalista e não questionava a ordem social."
+    },
+    {
+      "id": "servico-social-10",
+      "topico": "reconceituacao",
+      "nivel": "analise",
+      "pergunta": "O que Iamamoto quer dizer ao afirmar que o Serviço Social tem caráter contraditório?",
+      "opcoes": [
+        "Que a profissão não tem objeto de trabalho",
+        "Que a profissão responde, na mesma ação, a interesses do capital e dos trabalhadores",
+        "Que os assistentes sociais não seguem um código de ética",
+        "Que a profissão atua somente para o empresariado"
+      ],
+      "correta": 1,
+      "explicacao": "O profissional é contratado para reproduzir a ordem, mas também viabiliza direitos da classe trabalhadora."
+    },
+    {
+      "id": "servico-social-11",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "O valor ético central do Código de Ética do Assistente Social de 1993 é:",
+      "opcoes": [
+        "A caridade",
+        "A neutralidade",
+        "A liberdade",
+        "A obediência"
+      ],
+      "correta": 2,
+      "explicacao": "A ela se ligam a autonomia, a emancipação e a plena expansão dos indivíduos sociais."
+    },
+    {
+      "id": "servico-social-12",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "A lei que regulamenta a profissão de assistente social é a:",
+      "opcoes": [
+        "Lei 8.742/1993",
+        "Lei 8.069/1990",
+        "Lei 8.080/1990",
+        "Lei 8.662/1993"
+      ],
+      "correta": 3,
+      "explicacao": "A Lei 8.742 é a LOAS, a 8.069 é o ECA e a 8.080 é a lei do SUS."
+    },
+    {
+      "id": "servico-social-13",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "A jornada de trabalho do assistente social, fixada em lei, é de:",
+      "opcoes": [
+        "30 horas semanais",
+        "44 horas semanais",
+        "20 horas semanais",
+        "36 horas semanais"
+      ],
+      "correta": 0,
+      "explicacao": "A Lei 12.317/2010 fixou essa jornada sem redução de salário."
+    },
+    {
+      "id": "servico-social-14",
+      "topico": "etica",
+      "nivel": "aplicacao",
+      "pergunta": "Em um hospital, o gestor pede que uma enfermeira supervisione os estagiários de Serviço Social. Isso é:",
+      "opcoes": [
+        "Regular, pois qualquer profissional de saúde pode supervisionar",
+        "Irregular, pois a supervisão de estágio em Serviço Social é atribuição privativa do assistente social",
+        "Regular, desde que haja autorização do gestor",
+        "Irregular apenas se o estágio for remunerado"
+      ],
+      "correta": 1,
+      "explicacao": "As atribuições privativas estão no artigo 5º da Lei 8.662/1993."
+    },
+    {
+      "id": "servico-social-15",
+      "topico": "etica",
+      "nivel": "analise",
+      "pergunta": "Por que o projeto ético-político recusa a ideia de neutralidade profissional?",
+      "opcoes": [
+        "Porque o assistente social deve se filiar a um partido",
+        "Porque a profissão não segue leis",
+        "Porque toda ação profissional tem uma direção política e favorece algum projeto de sociedade",
+        "Porque o usuário não tem direito a escolha"
+      ],
+      "correta": 2,
+      "explicacao": "Reconhecer isso permite ao profissional escolher de forma consciente o lado dos direitos."
+    },
+    {
+      "id": "servico-social-16",
+      "topico": "seguridade",
+      "nivel": "conceitual",
+      "pergunta": "A seguridade social, na Constituição de 1988, é formada por:",
+      "opcoes": [
+        "Educação, saúde e segurança",
+        "Habitação, trabalho e renda",
+        "Assistência social, educação e cultura",
+        "Saúde, previdência social e assistência social"
+      ],
+      "correta": 3,
+      "explicacao": "A saúde é universal, a previdência é contributiva e a assistência é para quem dela necessitar."
+    },
+    {
+      "id": "servico-social-17",
+      "topico": "seguridade",
+      "nivel": "conceitual",
+      "pergunta": "O equipamento que funciona como porta de entrada da proteção social básica é o:",
+      "opcoes": [
+        "CRAS",
+        "CREAS",
+        "CAPS",
+        "Conselho Tutelar"
+      ],
+      "correta": 0,
+      "explicacao": "O CREAS atende a proteção especial de média complexidade."
+    },
+    {
+      "id": "servico-social-18",
+      "topico": "seguridade",
+      "nivel": "conceitual",
+      "pergunta": "O Benefício de Prestação Continuada (BPC) garante:",
+      "opcoes": [
+        "Aposentadoria a quem contribuiu por 35 anos",
+        "Um salário mínimo mensal ao idoso com 65 anos ou mais e à pessoa com deficiência de baixa renda",
+        "Seguro a quem perdeu o emprego",
+        "Cestas básicas em situação de calamidade"
+      ],
+      "correta": 1,
+      "explicacao": "É um benefício da assistência social e não exige contribuição prévia."
+    },
+    {
+      "id": "servico-social-19",
+      "topico": "seguridade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma adolescente vítima de violência sexual continua morando com a família e precisa de acompanhamento especializado. O serviço indicado é o:",
+      "opcoes": [
+        "CRAS, da proteção social básica",
+        "Acolhimento institucional de alta complexidade",
+        "CREAS, da proteção social especial de média complexidade",
+        "INSS"
+      ],
+      "correta": 2,
+      "explicacao": "Há violação de direitos, mas os vínculos familiares não foram rompidos."
+    },
+    {
+      "id": "servico-social-20",
+      "topico": "seguridade",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença central entre previdência e assistência social?",
+      "opcoes": [
+        "As duas exigem contribuição prévia",
+        "A assistência é restrita a servidores públicos",
+        "A previdência é universal e gratuita",
+        "A previdência depende de contribuição; a assistência é prestada a quem necessitar, sem contribuição"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso o BPC pode ser concedido a quem nunca contribuiu para o INSS."
+    },
+    {
+      "id": "servico-social-21",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "O documento que traz a opinião técnica conclusiva do assistente social sobre uma situação é o:",
+      "opcoes": [
+        "Parecer social",
+        "Diário de campo",
+        "Prontuário",
+        "Cadastro"
+      ],
+      "correta": 0,
+      "explicacao": "Ele se fundamenta no estudo social realizado pelo profissional."
+    },
+    {
+      "id": "servico-social-22",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "Para Yolanda Guerra, a instrumentalidade do Serviço Social é:",
+      "opcoes": [
+        "O conjunto de formulários usados no atendimento",
+        "A capacidade da profissão de alcançar seus objetivos, indo além do uso de técnicas",
+        "A obediência às ordens da instituição",
+        "A aplicação mecânica de instrumentos"
+      ],
+      "correta": 1,
+      "explicacao": "Os instrumentos são meios escolhidos conforme a finalidade e a análise da realidade."
+    },
+    {
+      "id": "servico-social-23",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "No planejamento, a unidade mais específica e operacional é o:",
+      "opcoes": [
+        "Plano",
+        "Programa",
+        "Projeto",
+        "Sistema"
+      ],
+      "correta": 2,
+      "explicacao": "O plano traz as diretrizes gerais e o programa detalha o plano por áreas."
+    },
+    {
+      "id": "servico-social-24",
+      "topico": "instrumentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um juiz solicita ao assistente social do tribunal um estudo sobre as condições de uma família em um processo de guarda. O documento a ser entregue é o:",
+      "opcoes": [
+        "Diário de campo",
+        "Ata de reunião",
+        "Encaminhamento",
+        "Laudo social"
+      ],
+      "correta": 3,
+      "explicacao": "O laudo é usado em perícias e contém o registro do estudo e o parecer do profissional."
+    },
+    {
+      "id": "servico-social-25",
+      "topico": "instrumentos",
+      "nivel": "analise",
+      "pergunta": "Por que a visita domiciliar não deve ter caráter de fiscalização?",
+      "opcoes": [
+        "Porque seu objetivo é conhecer as condições de vida para garantir direitos, respeitando a privacidade",
+        "Porque o assistente social não pode sair da instituição",
+        "Porque a visita só serve para entregar benefícios",
+        "Porque o usuário não pode recusá-la"
+      ],
+      "correta": 0,
+      "explicacao": "O uso policialesco do instrumento fere o Código de Ética e a relação com o usuário."
+    },
+    {
+      "id": "servico-social-26",
+      "topico": "campos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o ECA, criança é a pessoa com:",
+      "opcoes": [
+        "Até 14 anos completos",
+        "Até 12 anos de idade incompletos",
+        "Até 16 anos incompletos",
+        "Até 18 anos"
+      ],
+      "correta": 1,
+      "explicacao": "Adolescente é quem tem entre 12 e 18 anos de idade."
+    },
+    {
+      "id": "servico-social-27",
+      "topico": "campos",
+      "nivel": "conceitual",
+      "pergunta": "O Conselho Tutelar é um órgão:",
+      "opcoes": [
+        "Do Poder Judiciário, que julga processos",
+        "Da polícia, que investiga crimes",
+        "Permanente, autônomo e não jurisdicional, que zela pelos direitos de crianças e adolescentes",
+        "Provisório e subordinado ao prefeito"
+      ],
+      "correta": 2,
+      "explicacao": "Ele aplica medidas de proteção, mas não julga nem aplica penas."
+    },
+    {
+      "id": "servico-social-28",
+      "topico": "campos",
+      "nivel": "conceitual",
+      "pergunta": "Para o Estatuto da Pessoa Idosa, é idosa a pessoa com idade igual ou superior a:",
+      "opcoes": [
+        "65 anos",
+        "70 anos",
+        "55 anos",
+        "60 anos"
+      ],
+      "correta": 3,
+      "explicacao": "A idade de 65 anos é a exigida para o BPC, não a que define a pessoa idosa."
+    },
+    {
+      "id": "servico-social-29",
+      "topico": "campos",
+      "nivel": "aplicacao",
+      "pergunta": "Em um hospital, pedem ao assistente social que comunique aos familiares a morte de um paciente. Segundo os parâmetros do CFESS, essa tarefa:",
+      "opcoes": [
+        "Não é atribuição do assistente social; cabe à equipe médica",
+        "É atribuição privativa do assistente social",
+        "Deve ser feita por telefone pelo Serviço Social",
+        "Cabe ao setor administrativo"
+      ],
+      "correta": 0,
+      "explicacao": "Ao Serviço Social cabe apoiar a família e orientá-la sobre direitos e benefícios."
+    },
+    {
+      "id": "servico-social-30",
+      "topico": "campos",
+      "nivel": "analise",
+      "pergunta": "Qual é o efeito da focalização das políticas sociais, defendida pelo neoliberalismo?",
+      "opcoes": [
+        "Amplia os direitos para toda a população",
+        "Restringe as políticas aos mais pobres, enfraquecendo o caráter universal dos direitos",
+        "Aumenta o investimento público em todas as áreas",
+        "Elimina a necessidade de critérios de renda"
+      ],
+      "correta": 1,
+      "explicacao": "Ela costuma vir acompanhada de cortes de gastos e transferência de responsabilidades ao terceiro setor."
+    }
+  ]
+}

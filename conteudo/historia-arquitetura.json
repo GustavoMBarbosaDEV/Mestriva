@@ -1,0 +1,465 @@
+{
+  "id": "historia-arquitetura",
+  "nome": "História da Arquitetura",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "antiguidade",
+      "nome": "Antiguidade: Egito, Grécia e Roma",
+      "resumo": "### A tríade de Vitrúvio\nO arquiteto romano **Vitrúvio**, no tratado *De Architectura* (século I a.C.), definiu que a boa arquitetura reúne:\n- ***Firmitas***: solidez, estabilidade.\n- ***Utilitas***: utilidade, função.\n- ***Venustas***: beleza.\n\n### Egito\n- Arquitetura **monumental e funerária**, em pedra, voltada à eternidade.\n- **Mastabas**, **pirâmides** (Gizé: Quéops, Quéfren e Miquerinos) e templos (Karnak, Luxor).\n- Sistema **trilítico** (arquitravado): **pilares e vigas**, sem arcos; por isso os vãos são pequenos e há muitas colunas (salas hipostilas).\n\n### Grécia\n- Busca da **proporção**, da harmonia e da **escala humana**.\n- Sistema **arquitravado** (coluna e entablamento).\n- **Templo** como edifício principal; a **ágora** como espaço público; **teatros** apoiados nas encostas.\n- **Partenon** (Atenas, século V a.C.), na Acrópole: templo dórico, de Ictinos e Calícrates.\n- Correções ópticas, como a **êntase** (leve engrossamento do fuste da coluna).\n\n### As ordens clássicas\n- **Dórica**: a mais **simples e robusta**; coluna **sem base**, capitel liso; friso com tríglifos e métopas.\n- **Jônica**: mais esbelta; capitel com **volutas** (espirais); tem base.\n- **Coríntia**: a mais ornamentada; capitel com **folhas de acanto**.\n- Os romanos acrescentaram a **toscana** (dórica simplificada, com base) e a **compósita** (jônica + coríntia).\n- Partes: **coluna** (base, fuste e capitel) e **entablamento** (arquitrave, friso e cornija); no alto, o **frontão** triangular.\n\n### Roma\n- Herda as ordens gregas, mas as usa muitas vezes como decoração.\n- Grandes inovações: o **arco**, a **abóbada** e a **cúpula**, e o **concreto** romano (*opus caementicium*), que permitiram **grandes vãos** e espaços internos amplos.\n- Arquitetura **utilitária e pública**: **aquedutos**, estradas, pontes, **termas**, **basílicas** (edifícios cívicos), anfiteatros, arcos do triunfo, fóruns.\n- **Coliseu**: anfiteatro com arcos e ordens sobrepostas.\n- **Panteão** (século II): cúpula de concreto com cerca de **43 metros** de diâmetro e um **óculo** aberto no topo.\n- Cidade planejada em malha, com dois eixos: **cardo** (norte-sul) e **decumano** (leste-oeste).",
+      "revisao": "**Lembre:**\n- Vitrúvio: firmitas, utilitas, venustas.\n- Dórica simples; jônica com volutas; coríntia com folhas de acanto.\n- Grécia: sistema arquitravado, Partenon.\n- Roma: arco, abóbada, cúpula e concreto.\n- Panteão: cúpula com óculo."
+    },
+    {
+      "id": "medieval",
+      "nome": "Paleocristã, bizantina, românica e gótica",
+      "resumo": "### Paleocristã\nApós a liberação do cristianismo (**Édito de Milão, 313**), as igrejas adotam a planta da **basílica romana**: **nave central** mais alta, naves laterais, **abside** ao fundo e **átrio** na entrada.\n\n### Bizantina\n- Centro em **Constantinopla**.\n- **Planta centralizada** (cruz grega) e grandes **cúpulas** apoiadas em **pendentes**, que fazem a transição do quadrado para o círculo.\n- Interiores revestidos de **mosaicos** dourados.\n- **Santa Sofia** (Hagia Sophia, século VI), de Antêmio de Trales e Isidoro de Mileto.\n\n### Islâmica\nMesquitas com pátio, **minarete** e mihrab; arcos em **ferradura**, decoração geométrica e caligráfica (arabescos). Ex.: Mesquita de Córdoba, Alhambra.\n\n### Românica (séculos XI e XII)\n- Aspecto **pesado e maciço**, de \"fortaleza de Deus\".\n- **Arco pleno** (de volta perfeita, semicircular) e **abóbada de berço** e de aresta.\n- **Paredes grossas**, com **poucas e pequenas aberturas**, pois sustentam o peso; interiores **escuros**. **Contrafortes** reforçam as paredes.\n- Planta em **cruz latina**; **deambulatório** para a circulação de peregrinos.\n- Ligada aos **mosteiros** e às rotas de peregrinação (Santiago de Compostela).\n- Predomínio da **horizontalidade**.\n\n### Gótica (séculos XII a XV)\n- Surge na França, na **Abadia de Saint-Denis** (abade Suger), e se liga ao renascimento das **cidades**: é a época das grandes **catedrais**.\n- Três elementos estruturais:\n  - **Arco ogival** (quebrado, em ponta): conduz melhor os esforços para baixo.\n  - **Abóbada de cruzaria** de ogivas (nervuras): concentra o peso em pontos.\n  - **Arcobotante**: arco externo que leva o empuxo da abóbada até o contraforte.\n- Resultado: as paredes deixam de sustentar e podem ser abertas em grandes **vitrais** e **rosáceas**; interiores **altos e luminosos**.\n- **Verticalidade**: torres, agulhas e pináculos apontam para o céu.\n- Exemplos: **Notre-Dame de Paris**, **Chartres**, Reims, Amiens, Colônia; no gótico tardio, o estilo flamejante e, em Portugal, o **manuelino** (Mosteiro dos Jerônimos).\n\n### Cidade medieval\nTraçado **orgânico** e irregular, cercada por **muralhas**, com a catedral e a praça do mercado no centro.",
+      "revisao": "**Lembre:**\n- Basílica: nave central, laterais e abside.\n- Bizantina: cúpula sobre pendentes, mosaicos; Santa Sofia.\n- Românica: arco pleno, paredes grossas, pouca luz.\n- Gótica: arco ogival, abóbada de cruzaria, arcobotante, vitrais.\n- Românico é horizontal; gótico é vertical."
+    },
+    {
+      "id": "classico",
+      "nome": "Renascimento, barroco e neoclássico",
+      "resumo": "### Renascimento (séculos XV e XVI)\nNasce em **Florença**. Retoma a **Antiguidade clássica**, com base no **humanismo** e no **antropocentrismo**.\n- **Proporção matemática**, **simetria**, clareza e ordem; uso das **ordens clássicas**, do arco pleno e da cúpula.\n- A **perspectiva** linear, sistematizada por Brunelleschi.\n- O arquiteto passa a ser visto como **intelectual e autor**, não mais como mestre de obras anônimo.\n- **Filippo Brunelleschi**: **cúpula da Catedral de Florença** (Santa Maria del Fiore), erguida sem cimbramento, com casca dupla; Hospital dos Inocentes.\n- **Leon Battista Alberti**: tratado *De Re Aedificatoria*; fachada de Santa Maria Novella.\n- **Donato Bramante**: Tempietto; primeiro projeto da nova Basílica de São Pedro.\n- **Michelangelo**: cúpula de São Pedro, Praça do Capitólio.\n- **Andrea Palladio**: as **vilas** do Vêneto (Villa Rotonda) e *Os Quatro Livros da Arquitetura*; origem do **palladianismo**.\n- Ideal da **planta centralizada**.\n\n### Maneirismo (século XVI)\nTransição: quebra intencional das regras clássicas, tensão e artifício. Giulio Romano (Palazzo del Te); Michelangelo na Biblioteca Laurenciana.\n\n### Barroco (séculos XVII e XVIII)\nLigado à **Contrarreforma** católica e ao **absolutismo**: a arquitetura deve **emocionar e convencer**.\n- **Movimento**, **curvas e contracurvas**, plantas **ovais**, fachadas onduladas.\n- **Dramaticidade**: contrastes de **luz e sombra**, efeitos teatrais.\n- **Integração das artes**: arquitetura, escultura e pintura em um conjunto; muita ornamentação e ouro.\n- **Gian Lorenzo Bernini**: colunata da **Praça de São Pedro**, baldaquino.\n- **Francesco Borromini**: San Carlo alle Quattro Fontane.\n- **Palácio de Versalhes**: símbolo do poder de Luís XIV; eixos e jardins de Le Nôtre.\n- **Rococó**: fase final, mais leve, delicada e decorativa, voltada aos interiores.\n\n### Neoclassicismo (segunda metade do século XVIII e século XIX)\nReação aos excessos do barroco e do rococó, sob o **Iluminismo** e com as escavações de **Pompeia e Herculano**.\n- Volta à **sobriedade** e à **racionalidade** da arquitetura grega e romana: **colunas, frontões**, simetria, volumes simples.\n- Exemplos: Panteão de Paris (Soufflot), Portão de Brandemburgo, Capitólio de Washington.\n- Arquitetos visionários: Boullée e Ledoux.\n- No Brasil, chega com a **Missão Artística Francesa (1816)** e **Grandjean de Montigny**.\n\n### Século XIX: ecletismo e novos materiais\n- **Historicismo** e **ecletismo**: mistura de estilos do passado (neogótico, neorrenascimento). Ópera de Paris (Garnier).\n- **Revolução Industrial**: **ferro**, **vidro** e, depois, **aço** e **concreto armado**. **Palácio de Cristal** (Paxton, Londres, 1851), **Torre Eiffel** (1889).\n- **Reforma de Paris** por **Haussmann**: bulevares largos, saneamento e controle urbano.\n- **Escola de Chicago**: os primeiros **arranha-céus**, com estrutura de aço e elevador; Louis Sullivan.\n- **Arts and Crafts** (William Morris): valorização do artesanato contra a indústria.\n- **Art Nouveau**: linhas curvas e orgânicas, inspiradas na natureza (Victor Horta, **Antoni Gaudí**).",
+      "revisao": "**Lembre:**\n- Renascimento: proporção, simetria, retomada do clássico; Brunelleschi e a cúpula de Florença.\n- Palladio: vilas e Os Quatro Livros.\n- Barroco: movimento, curvas, drama; Contrarreforma.\n- Neoclássico: sobriedade, colunas e frontões; Iluminismo.\n- Século XIX: ferro e vidro; Palácio de Cristal."
+    },
+    {
+      "id": "moderno",
+      "nome": "Arquitetura moderna",
+      "resumo": "### Origens\nA arquitetura moderna, na primeira metade do século XX, rejeita os estilos históricos e o ornamento, valoriza os **novos materiais** (aço, vidro, concreto armado), a **função** e a produção industrial.\n- **Louis Sullivan**: **\"a forma segue a função\"**.\n- **Adolf Loos**: *Ornamento e Crime* (1908).\n- **Deutscher Werkbund** (1907): aproximação entre arte e indústria.\n\n### Bauhaus\nEscola alemã fundada por **Walter Gropius** em **Weimar, 1919**; depois em Dessau e Berlim; fechada pelos nazistas em **1933**.\n- Uniu **arte, artesanato e indústria**; design funcional para produção em série.\n- Outros diretores: Hannes Meyer e **Mies van der Rohe**. Professores: Kandinsky, Klee, Moholy-Nagy.\n- Edifício de Dessau: volumes puros, panos de vidro.\n\n### Le Corbusier\nArquiteto franco-suíço, o mais influente do movimento.\n- **Os cinco pontos da nova arquitetura** (1926):\n  1. **Pilotis**: o edifício elevado sobre pilares, liberando o térreo.\n  2. **Planta livre**: a estrutura independente libera as paredes internas.\n  3. **Fachada livre**: a fachada não é estrutural.\n  4. **Janela em fita** (horizontal).\n  5. **Terraço-jardim** na cobertura.\n- **Villa Savoye** (1929): a síntese dos cinco pontos.\n- \"A casa é uma **máquina de morar**.\"\n- **Modulor**: sistema de medidas baseado no corpo humano e na proporção áurea.\n- **Unidade de Habitação** de Marselha; capela de **Ronchamp**; **Chandigarh** (Índia).\n- **Brutalismo**: concreto aparente (*béton brut*).\n\n### Mies van der Rohe\n- **\"Menos é mais\"**. Estrutura de aço e grandes panos de vidro; espaço fluido.\n- **Pavilhão de Barcelona** (1929), Casa Farnsworth, **Edifício Seagram** (Nova York).\n\n### Frank Lloyd Wright\n- **Arquitetura orgânica**: integração do edifício com a **natureza** e o lugar.\n- **Casas da Pradaria**; **Casa da Cascata** (Fallingwater, 1935); **Museu Guggenheim** de Nova York.\n\n### Outros\n- **Alvar Aalto**: modernismo humanizado, com madeira e formas orgânicas.\n- **De Stijl** (Rietveld, Casa Schröder) e **construtivismo russo**.\n- **Estilo Internacional**: nome dado em 1932 à linguagem comum de volumes puros, sem ornamento.\n\n### Urbanismo moderno\n- **CIAM** (Congressos Internacionais de Arquitetura Moderna, a partir de 1928).\n- **Carta de Atenas** (1933): a cidade funcional, separada em quatro funções: **habitar, trabalhar, recrear e circular** (**zoneamento**).\n- **Cidade-jardim** (Ebenezer Howard, 1898): cidades pequenas cercadas por cinturão verde.",
+      "revisao": "**Lembre:**\n- Bauhaus: Gropius, Weimar, 1919; arte + indústria.\n- Le Corbusier: cinco pontos (pilotis, planta livre, fachada livre, janela em fita, terraço-jardim).\n- Mies: \"menos é mais\". Sullivan: \"a forma segue a função\".\n- Wright: arquitetura orgânica, Casa da Cascata.\n- Carta de Atenas: habitar, trabalhar, recrear, circular."
+    },
+    {
+      "id": "brasil",
+      "nome": "Arquitetura no Brasil",
+      "resumo": "### Período colonial\n- Arquitetura portuguesa adaptada: **taipa de pilão**, **pau a pique**, adobe e pedra.\n- Casas com fachadas no alinhamento da rua, lotes estreitos e profundos; **sobrados**; casa-grande e senzala; fortes e igrejas.\n- **Barroco mineiro** (século XVIII), ligado ao ciclo do ouro: **Ouro Preto**, Mariana, Congonhas.\n- **Antônio Francisco Lisboa, o Aleijadinho**: Igreja de **São Francisco de Assis** (Ouro Preto) e os Profetas de Congonhas; uso da pedra-sabão.\n- Missões jesuíticas no Sul.\n\n### Século XIX\n- **Missão Artística Francesa (1816)**: o **neoclassicismo** vira estilo oficial; **Grandjean de Montigny** e a Academia Imperial de Belas-Artes.\n- Depois, o **ecletismo**: Theatro Municipal do Rio e de São Paulo.\n- Reforma urbana do Rio com **Pereira Passos** (início do século XX), inspirada em Paris.\n\n### Início do modernismo\n- **Semana de Arte Moderna de 1922**.\n- **Gregori Warchavchik**: a **Casa Modernista** (São Paulo, 1927-28), a primeira do país.\n- **Neocolonial**: reação nacionalista que buscava raízes na arquitetura colonial.\n\n### Escola carioca\n- **Ministério da Educação e Saúde** (atual **Palácio Gustavo Capanema**, Rio, 1936-43): marco da arquitetura moderna brasileira. Equipe de **Lúcio Costa**, com **Oscar Niemeyer**, Affonso Reidy, Carlos Leão, Jorge Moreira e Ernani Vasconcellos, com consultoria de **Le Corbusier**. Usa pilotis, **brise-soleil**, painéis de azulejos de Portinari e jardins de **Burle Marx**.\n- **Conjunto da Pampulha** (Belo Horizonte, anos 1940), de **Niemeyer**: a **curva** livre em concreto; Igreja de São Francisco de Assis.\n- **Affonso Eduardo Reidy**: Conjunto do Pedregulho e **MAM** do Rio.\n- **Roberto Burle Marx**: paisagismo moderno com flora tropical; Aterro do Flamengo.\n\n### Brasília\n- Inaugurada em **21 de abril de 1960**, no governo de **Juscelino Kubitschek**.\n- **Plano Piloto** de **Lúcio Costa**: dois eixos que se cruzam, o **Eixo Monumental** e o **Eixo Rodoviário**, com as **superquadras** residenciais. Segue os princípios da Carta de Atenas.\n- Edifícios de **Oscar Niemeyer**: Congresso Nacional, Palácio da Alvorada, Palácio do Planalto, Catedral.\n- **Patrimônio Mundial** da Unesco desde 1987.\n\n### Escola paulista\n- **Brutalismo**: **concreto aparente**, grandes vãos, estrutura à mostra.\n- **Vilanova Artigas**: prédio da **FAU-USP**.\n- **Lina Bo Bardi**: **MASP** (vão livre de 74 metros), **SESC Pompeia**, Casa de Vidro.\n- **Paulo Mendes da Rocha**: MuBE, Pinacoteca (reforma); Prêmio Pritzker de 2006. Niemeyer recebeu o Pritzker em 1988.\n\n### Outros nomes\n**João Filgueiras Lima (Lelé)**: pré-fabricação e hospitais da Rede Sarah. **Severiano Porto**: arquitetura adaptada à Amazônia.\n\n### Patrimônio\n**IPHAN**, criado em **1937** (como SPHAN), com Rodrigo Melo Franco de Andrade. **Tombamento**: instrumento de proteção legal do bem cultural.",
+      "revisao": "**Lembre:**\n- Barroco mineiro: Aleijadinho, Ouro Preto.\n- 1816: Missão Francesa, neoclassicismo.\n- Ministério da Educação e Saúde: marco moderno, com Le Corbusier.\n- Brasília (1960): plano de Lúcio Costa, edifícios de Niemeyer.\n- Lina Bo Bardi: MASP; Artigas: FAU-USP."
+    },
+    {
+      "id": "contemporanea",
+      "nome": "Pós-modernismo, contemporânea e cidade",
+      "resumo": "### Crítica ao moderno\nA partir dos anos 1960, critica-se a monotonia, a falta de identidade e os problemas sociais dos grandes conjuntos modernos.\n- **Jane Jacobs**: *Morte e Vida de Grandes Cidades* (1961). Defende a **diversidade de usos**, as ruas vivas, a calçada e os **\"olhos da rua\"**; critica o zoneamento rígido e as vias expressas.\n- **Robert Venturi**: *Complexidade e Contradição em Arquitetura* (1966); responde a Mies com **\"menos é uma chatice\"**; *Aprendendo com Las Vegas*.\n- **Aldo Rossi**: *A Arquitetura da Cidade*; memória e tipologia.\n- **Kevin Lynch**: *A Imagem da Cidade*; elementos: vias, limites, bairros, pontos nodais e marcos.\n\n### Pós-modernismo (anos 1970 e 1980)\n- Volta do **ornamento**, da **citação histórica**, da cor, da ironia e do simbolismo.\n- Charles Moore (Piazza d'Italia), Michael Graves, Philip Johnson (Edifício AT&T).\n\n### High-tech\nEstrutura e instalações **à mostra**, estética da tecnologia. **Centro Pompidou** (Renzo Piano e Richard Rogers, Paris, 1977); Norman Foster.\n\n### Desconstrutivismo (a partir do fim dos anos 1980)\nFormas **fragmentadas**, inclinadas, que parecem instáveis. **Frank Gehry** (**Museu Guggenheim de Bilbao**, 1997), **Zaha Hadid**, Daniel Libeskind, Rem Koolhaas.\n- **Efeito Bilbao**: um edifício icônico usado para revitalizar a cidade.\n\n### Outras tendências\n- **Minimalismo**: Tadao Ando (concreto e luz), Álvaro Siza.\n- **Regionalismo crítico** (Kenneth Frampton): modernidade adaptada ao lugar, ao clima e à cultura local.\n- **Arquitetura paramétrica**: formas geradas por computador. **BIM**: modelagem da informação da construção.\n\n### Sustentabilidade\n- **Arquitetura bioclimática**: aproveita o clima do lugar; **ventilação cruzada**, **iluminação natural**, sombreamento (brises, beirais), orientação solar, inércia térmica.\n- **Eficiência energética**, reúso de água, telhado verde, materiais de baixo impacto.\n- Certificações: **LEED**, AQUA-HQE, Selo Procel Edifica.\n- **Desenho universal** e **acessibilidade** (NBR 9050): espaços utilizáveis por todos.\n\n### Cidade e planejamento\n- **Estatuto da Cidade** (**Lei 10.257/2001**): regulamenta os artigos 182 e 183 da Constituição; **função social da propriedade** e da cidade; gestão democrática.\n- **Plano Diretor**: instrumento básico da política urbana, **obrigatório para cidades com mais de 20 mil habitantes**.\n- Instrumentos: **zoneamento**, IPTU progressivo no tempo, outorga onerosa do direito de construir, **ZEIS** (zonas especiais de interesse social), usucapião especial urbano.\n- Índices: **coeficiente de aproveitamento** (área construída ÷ área do terreno), **taxa de ocupação** (projeção do edifício ÷ área do terreno), recuos e gabarito (altura).\n- Problemas: **espraiamento**, segregação socioespacial, favelização, **gentrificação** (expulsão dos moradores antigos pela valorização).\n- Ideias atuais: **cidade compacta**, uso misto, **desenvolvimento orientado ao transporte**, mobilidade ativa, direito à cidade (Henri Lefebvre).",
+      "revisao": "**Lembre:**\n- Jane Jacobs: diversidade de usos e \"olhos da rua\".\n- Venturi: \"menos é uma chatice\"; pós-modernismo.\n- Gehry: Guggenheim de Bilbao, desconstrutivismo.\n- Estatuto da Cidade: Lei 10.257/2001; função social.\n- Plano Diretor: obrigatório acima de 20 mil habitantes."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "historia-arquitetura-1",
+      "topico": "antiguidade",
+      "nivel": "conceitual",
+      "pergunta": "A tríade de Vitrúvio define que a arquitetura deve ter:",
+      "opcoes": [
+        "Solidez, utilidade e beleza",
+        "Altura, largura e profundidade",
+        "Ferro, vidro e concreto",
+        "Planta, corte e fachada"
+      ],
+      "correta": 0,
+      "explicacao": "Em latim, firmitas, utilitas e venustas."
+    },
+    {
+      "id": "historia-arquitetura-2",
+      "topico": "antiguidade",
+      "nivel": "conceitual",
+      "pergunta": "A ordem clássica cujo capitel tem volutas (espirais) é a:",
+      "opcoes": [
+        "Dórica",
+        "Jônica",
+        "Coríntia",
+        "Toscana"
+      ],
+      "correta": 1,
+      "explicacao": "A dórica tem capitel simples e a coríntia, folhas de acanto."
+    },
+    {
+      "id": "historia-arquitetura-3",
+      "topico": "antiguidade",
+      "nivel": "conceitual",
+      "pergunta": "Qual foi uma das principais contribuições técnicas da arquitetura romana?",
+      "opcoes": [
+        "A invenção do arco ogival",
+        "O uso exclusivo de pilares e vigas de pedra",
+        "O uso do arco, da abóbada, da cúpula e do concreto",
+        "A estrutura de aço"
+      ],
+      "correta": 2,
+      "explicacao": "Essas técnicas permitiram cobrir grandes vãos, como no Panteão."
+    },
+    {
+      "id": "historia-arquitetura-4",
+      "topico": "antiguidade",
+      "nivel": "aplicacao",
+      "pergunta": "Um templo tem colunas sem base, robustas, com capitel liso e friso com tríglifos e métopas. A ordem é a:",
+      "opcoes": [
+        "Jônica",
+        "Coríntia",
+        "Compósita",
+        "Dórica"
+      ],
+      "correta": 3,
+      "explicacao": "O Partenon, em Atenas, é o exemplo mais conhecido dessa ordem."
+    },
+    {
+      "id": "historia-arquitetura-5",
+      "topico": "antiguidade",
+      "nivel": "analise",
+      "pergunta": "Por que os templos egípcios e gregos têm tantas colunas próximas umas das outras?",
+      "opcoes": [
+        "Porque o sistema de pilares e vigas de pedra só vence vãos pequenos",
+        "Porque não conheciam a pedra",
+        "Porque usavam concreto armado",
+        "Porque as colunas eram apenas decorativas"
+      ],
+      "correta": 0,
+      "explicacao": "A pedra resiste mal à flexão; o arco e a abóbada romanos resolveram esse limite."
+    },
+    {
+      "id": "historia-arquitetura-6",
+      "topico": "medieval",
+      "nivel": "conceitual",
+      "pergunta": "São características da arquitetura românica:",
+      "opcoes": [
+        "Arco ogival e grandes vitrais",
+        "Arco pleno, paredes grossas e poucas aberturas",
+        "Estrutura de aço e vidro",
+        "Plantas ovais e fachadas onduladas"
+      ],
+      "correta": 1,
+      "explicacao": "As paredes sustentavam o peso das abóbadas, o que limitava as janelas."
+    },
+    {
+      "id": "historia-arquitetura-7",
+      "topico": "medieval",
+      "nivel": "conceitual",
+      "pergunta": "O elemento externo que conduz o empuxo das abóbadas góticas até o contraforte é o:",
+      "opcoes": [
+        "Pilotis",
+        "Frontão",
+        "Arcobotante",
+        "Pendente"
+      ],
+      "correta": 2,
+      "explicacao": "Ele permitiu aliviar as paredes e abri-las em grandes vitrais."
+    },
+    {
+      "id": "historia-arquitetura-8",
+      "topico": "medieval",
+      "nivel": "conceitual",
+      "pergunta": "A Igreja de Santa Sofia, em Constantinopla, é o principal exemplo da arquitetura:",
+      "opcoes": [
+        "Gótica",
+        "Românica",
+        "Renascentista",
+        "Bizantina"
+      ],
+      "correta": 3,
+      "explicacao": "Sua grande cúpula se apoia em pendentes, e o interior era coberto de mosaicos."
+    },
+    {
+      "id": "historia-arquitetura-9",
+      "topico": "medieval",
+      "nivel": "aplicacao",
+      "pergunta": "Uma catedral tem arcos em ponta, abóbadas com nervuras, torres altas e paredes tomadas por vitrais coloridos. O estilo é o:",
+      "opcoes": [
+        "Gótico",
+        "Românico",
+        "Bizantino",
+        "Neoclássico"
+      ],
+      "correta": 0,
+      "explicacao": "A verticalidade e a luminosidade são as marcas desse estilo."
+    },
+    {
+      "id": "historia-arquitetura-10",
+      "topico": "medieval",
+      "nivel": "analise",
+      "pergunta": "Por que as catedrais góticas puderam ter interiores muito mais iluminados que as igrejas românicas?",
+      "opcoes": [
+        "Porque usavam lâmpadas elétricas",
+        "O arco ogival, a abóbada de cruzaria e o arcobotante concentraram as cargas em pontos, liberando as paredes",
+        "Porque eram muito mais baixas",
+        "Porque não tinham cobertura"
+      ],
+      "correta": 1,
+      "explicacao": "Sem função de sustentar o peso, a parede pôde ser substituída por vitrais."
+    },
+    {
+      "id": "historia-arquitetura-11",
+      "topico": "classico",
+      "nivel": "conceitual",
+      "pergunta": "A cúpula da Catedral de Florença, marco do Renascimento, foi projetada por:",
+      "opcoes": [
+        "Bernini",
+        "Le Corbusier",
+        "Brunelleschi",
+        "Gaudí"
+      ],
+      "correta": 2,
+      "explicacao": "Ela foi erguida sem cimbramento, com uma solução de casca dupla."
+    },
+    {
+      "id": "historia-arquitetura-12",
+      "topico": "classico",
+      "nivel": "conceitual",
+      "pergunta": "A arquitetura barroca se caracteriza por:",
+      "opcoes": [
+        "Sobriedade e volumes puros sem ornamento",
+        "Estrutura de ferro e vidro",
+        "Paredes maciças com poucas janelas",
+        "Movimento, curvas, dramaticidade e integração das artes"
+      ],
+      "correta": 3,
+      "explicacao": "Esteve ligada à Contrarreforma e ao absolutismo, buscando emocionar."
+    },
+    {
+      "id": "historia-arquitetura-13",
+      "topico": "classico",
+      "nivel": "conceitual",
+      "pergunta": "O neoclassicismo surgiu como:",
+      "opcoes": [
+        "Retomada da sobriedade greco-romana, em reação aos excessos do barroco e do rococó",
+        "Continuação do estilo gótico",
+        "Rejeição completa da Antiguidade",
+        "Movimento de arquitetura em concreto aparente"
+      ],
+      "correta": 0,
+      "explicacao": "Foi estimulado pelo Iluminismo e pelas escavações de Pompeia e Herculano."
+    },
+    {
+      "id": "historia-arquitetura-14",
+      "topico": "classico",
+      "nivel": "aplicacao",
+      "pergunta": "Um edifício de 1851, montado com peças pré-fabricadas de ferro e grandes painéis de vidro para uma exposição em Londres, é o:",
+      "opcoes": [
+        "Panteão",
+        "Palácio de Cristal",
+        "Palácio de Versalhes",
+        "Partenon"
+      ],
+      "correta": 1,
+      "explicacao": "Projetado por Joseph Paxton, mostrou o potencial dos materiais industriais."
+    },
+    {
+      "id": "historia-arquitetura-15",
+      "topico": "classico",
+      "nivel": "analise",
+      "pergunta": "Que mudança o Renascimento trouxe para a figura do arquiteto?",
+      "opcoes": [
+        "Ele deixou de desenhar e passou só a construir",
+        "Ele perdeu importância para os engenheiros",
+        "Ele passou a ser visto como intelectual e autor do projeto, e não como mestre de obras anônimo",
+        "Ele passou a trabalhar apenas para a Igreja"
+      ],
+      "correta": 2,
+      "explicacao": "O domínio da perspectiva e os tratados deram ao projeto um caráter teórico."
+    },
+    {
+      "id": "historia-arquitetura-16",
+      "topico": "moderno",
+      "nivel": "conceitual",
+      "pergunta": "A Bauhaus foi fundada em 1919 por:",
+      "opcoes": [
+        "Le Corbusier",
+        "Frank Lloyd Wright",
+        "Oscar Niemeyer",
+        "Walter Gropius"
+      ],
+      "correta": 3,
+      "explicacao": "A escola buscava unir arte, artesanato e produção industrial."
+    },
+    {
+      "id": "historia-arquitetura-17",
+      "topico": "moderno",
+      "nivel": "conceitual",
+      "pergunta": "Qual destes NÃO é um dos cinco pontos da nova arquitetura de Le Corbusier?",
+      "opcoes": [
+        "Arco ogival",
+        "Pilotis",
+        "Planta livre",
+        "Terraço-jardim"
+      ],
+      "correta": 0,
+      "explicacao": "Os outros dois pontos são a fachada livre e a janela em fita."
+    },
+    {
+      "id": "historia-arquitetura-18",
+      "topico": "moderno",
+      "nivel": "conceitual",
+      "pergunta": "A frase \"menos é mais\" é associada a:",
+      "opcoes": [
+        "Robert Venturi",
+        "Mies van der Rohe",
+        "Antoni Gaudí",
+        "Andrea Palladio"
+      ],
+      "correta": 1,
+      "explicacao": "Ela resume a busca por simplicidade e clareza estrutural."
+    },
+    {
+      "id": "historia-arquitetura-19",
+      "topico": "moderno",
+      "nivel": "aplicacao",
+      "pergunta": "Uma casa construída sobre uma queda-d'água, com terraços em balanço que se integram às rochas e à mata, é um exemplo da arquitetura:",
+      "opcoes": [
+        "Gótica",
+        "Neoclássica",
+        "Orgânica, de Frank Lloyd Wright",
+        "Desconstrutivista"
+      ],
+      "correta": 2,
+      "explicacao": "A Casa da Cascata, de 1935, é a obra mais conhecida dessa proposta."
+    },
+    {
+      "id": "historia-arquitetura-20",
+      "topico": "moderno",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal crítica feita ao urbanismo proposto pela Carta de Atenas?",
+      "opcoes": [
+        "O excesso de mistura de usos nas ruas",
+        "A proibição de áreas verdes",
+        "A defesa das cidades medievais",
+        "A separação rígida das funções gera cidades monótonas e dependentes do automóvel"
+      ],
+      "correta": 3,
+      "explicacao": "Autores como Jane Jacobs defenderam a diversidade de usos e a vida nas ruas."
+    },
+    {
+      "id": "historia-arquitetura-21",
+      "topico": "brasil",
+      "nivel": "conceitual",
+      "pergunta": "O principal nome do barroco mineiro, autor da Igreja de São Francisco de Assis em Ouro Preto, é:",
+      "opcoes": [
+        "Aleijadinho",
+        "Grandjean de Montigny",
+        "Lúcio Costa",
+        "Burle Marx"
+      ],
+      "correta": 0,
+      "explicacao": "Antônio Francisco Lisboa também esculpiu os Profetas de Congonhas."
+    },
+    {
+      "id": "historia-arquitetura-22",
+      "topico": "brasil",
+      "nivel": "conceitual",
+      "pergunta": "O Plano Piloto de Brasília foi projetado por:",
+      "opcoes": [
+        "Oscar Niemeyer",
+        "Lúcio Costa",
+        "Lina Bo Bardi",
+        "Vilanova Artigas"
+      ],
+      "correta": 1,
+      "explicacao": "Niemeyer foi o autor dos principais edifícios da capital."
+    },
+    {
+      "id": "historia-arquitetura-23",
+      "topico": "brasil",
+      "nivel": "conceitual",
+      "pergunta": "A Missão Artística Francesa, de 1816, introduziu no Brasil o estilo:",
+      "opcoes": [
+        "Barroco",
+        "Gótico",
+        "Neoclássico",
+        "Brutalista"
+      ],
+      "correta": 2,
+      "explicacao": "Grandjean de Montigny foi o arquiteto do grupo."
+    },
+    {
+      "id": "historia-arquitetura-24",
+      "topico": "brasil",
+      "nivel": "aplicacao",
+      "pergunta": "Um museu em São Paulo, suspenso por dois pórticos de concreto e com um vão livre de 74 metros, foi projetado por:",
+      "opcoes": [
+        "Affonso Reidy",
+        "Gregori Warchavchik",
+        "Paulo Mendes da Rocha",
+        "Lina Bo Bardi"
+      ],
+      "correta": 3,
+      "explicacao": "O MASP, na Avenida Paulista, libera o térreo como praça pública."
+    },
+    {
+      "id": "historia-arquitetura-25",
+      "topico": "brasil",
+      "nivel": "analise",
+      "pergunta": "Por que o edifício do Ministério da Educação e Saúde, no Rio, é considerado um marco da arquitetura moderna brasileira?",
+      "opcoes": [
+        "Aplicou os princípios de Le Corbusier adaptados ao clima, com pilotis, brise-soleil e integração com as artes",
+        "Porque foi o primeiro edifício neoclássico do país",
+        "Porque usou taipa de pilão",
+        "Porque copiou o Palácio de Versalhes"
+      ],
+      "correta": 0,
+      "explicacao": "A equipe de Lúcio Costa uniu arquitetura, painéis de Portinari e jardins de Burle Marx."
+    },
+    {
+      "id": "historia-arquitetura-26",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Jane Jacobs defendeu, em Morte e Vida de Grandes Cidades:",
+      "opcoes": [
+        "O zoneamento rígido das funções",
+        "A diversidade de usos e a vitalidade das ruas",
+        "A construção de vias expressas no centro",
+        "A demolição dos bairros antigos"
+      ],
+      "correta": 1,
+      "explicacao": "Ela cunhou a expressão olhos da rua para a vigilância natural dos moradores."
+    },
+    {
+      "id": "historia-arquitetura-27",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "O Museu Guggenheim de Bilbao, de Frank Gehry, é um exemplo de:",
+      "opcoes": [
+        "Neoclassicismo",
+        "Românico",
+        "Desconstrutivismo",
+        "Art Nouveau"
+      ],
+      "correta": 2,
+      "explicacao": "Suas formas fragmentadas e curvas revestidas de titânio se tornaram um ícone."
+    },
+    {
+      "id": "historia-arquitetura-28",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o Estatuto da Cidade, o Plano Diretor é obrigatório para municípios com mais de:",
+      "opcoes": [
+        "5 mil habitantes",
+        "100 mil habitantes",
+        "1 milhão de habitantes",
+        "20 mil habitantes"
+      ],
+      "correta": 3,
+      "explicacao": "Ele é o instrumento básico da política de desenvolvimento urbano."
+    },
+    {
+      "id": "historia-arquitetura-29",
+      "topico": "contemporanea",
+      "nivel": "aplicacao",
+      "pergunta": "Em um terreno de 500 m², a lei permite coeficiente de aproveitamento igual a 2. Qual é a área máxima de construção?",
+      "opcoes": [
+        "1.000 m²",
+        "250 m²",
+        "500 m²",
+        "2.000 m²"
+      ],
+      "correta": 0,
+      "explicacao": "Área construída = coeficiente × área do terreno = 2 × 500 = 1.000 m²."
+    },
+    {
+      "id": "historia-arquitetura-30",
+      "topico": "contemporanea",
+      "nivel": "analise",
+      "pergunta": "Por que a ventilação cruzada é uma estratégia importante da arquitetura bioclimática em climas quentes?",
+      "opcoes": [
+        "Aumenta a temperatura interna",
+        "Renova o ar e retira calor sem gastar energia com climatização",
+        "Impede a entrada de luz natural",
+        "Substitui a estrutura do edifício"
+      ],
+      "correta": 1,
+      "explicacao": "Aberturas em faces opostas aproveitam a diferença de pressão criada pelo vento."
+    }
+  ]
+}

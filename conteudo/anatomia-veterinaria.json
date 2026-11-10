@@ -1,0 +1,465 @@
+{
+  "id": "anatomia-veterinaria",
+  "nome": "Anatomia Veterinária",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "planos",
+      "nome": "Termos de posição e planos",
+      "resumo": "### Por que é diferente da anatomia humana\nOs animais domésticos são **quadrúpedes**; a posição de referência é o animal **em estação**, apoiado nos quatro membros. Por isso os termos mudam: em vez de \"superior\" e \"inferior\", usam-se **dorsal** e **ventral**; em vez de \"anterior\" e \"posterior\", **cranial** e **caudal**. A nomenclatura oficial é a ***Nomina Anatomica Veterinaria***.\n\n### Termos de direção\n- **Dorsal**: em direção ao **dorso** (costas). **Ventral**: em direção ao **ventre**.\n- **Cranial**: em direção à **cabeça**. **Caudal**: em direção à **cauda**.\n- **Rostral**: usado **dentro da cabeça**, em direção ao **focinho**.\n- **Medial**: perto do plano mediano. **Lateral**: longe dele.\n- **Proximal**: perto do tronco (raiz do membro). **Distal**: longe.\n- **Superficial** (externo) e **profundo** (interno).\n\n### Nos membros\n- **Acima** do carpo e do tarso: cranial e caudal.\n- **Do carpo e do tarso para baixo**:\n  - face da frente: **dorsal** (nos dois membros);\n  - face de trás no membro **torácico**: **palmar**;\n  - face de trás no membro **pélvico**: **plantar**.\n- **Axial** (perto do eixo do membro) e **abaxial** (longe), usados nos dedos de ruminantes e suínos.\n\n### Planos\n- **Mediano**: divide o corpo em metades direita e esquerda **iguais**.\n- **Sagital** (paramediano): paralelo ao mediano.\n- **Transversal**: perpendicular ao eixo longo; separa partes **cranial e caudal**.\n- **Dorsal** (frontal ou horizontal): paralelo ao dorso; separa partes **dorsal e ventral**.\n\n### Regiões do corpo\nCabeça, pescoço, tronco (tórax, abdome e pelve), cauda e membros **torácicos** (anteriores) e **pélvicos** (posteriores).\n\n### Cavidades\n- **Torácica**: coração e pulmões; limitada caudalmente pelo **diafragma**.\n- **Abdominal**: estômago, intestinos, fígado, baço, rins.\n- **Pélvica**: reto, bexiga e órgãos reprodutores.\n- Revestidas por **serosas**: **pleura** (pulmões), **pericárdio** (coração) e **peritônio** (abdome).\n\n### Tipos de apoio\n- **Plantígrados**: apoiam toda a planta (urso, ser humano).\n- **Digitígrados**: apoiam os dedos (cão, gato).\n- **Ungulígrados**: apoiam o casco, na ponta do dedo (equinos, bovinos, suínos).\n\n### Métodos de estudo\nAnatomia **sistêmica** (por sistemas), **topográfica** (por regiões, base da cirurgia) e **comparada** (entre espécies).",
+      "revisao": "**Lembre:**\n- Dorsal e ventral; cranial e caudal; rostral na cabeça.\n- Abaixo do carpo: palmar (torácico) e plantar (pélvico).\n- Plano mediano: metades direita e esquerda.\n- Cão e gato: digitígrados; cavalo e boi: ungulígrados.\n- Diafragma separa tórax e abdome."
+    },
+    {
+      "id": "esqueleto",
+      "nome": "Osteologia e artrologia",
+      "resumo": "### Divisão do esqueleto\n- **Axial**: crânio, coluna vertebral, costelas e esterno.\n- **Apendicular**: ossos dos membros.\n- **Visceral** (esplâncnico): ossos dentro de órgãos, como o **osso peniano** do cão e o osso do coração do bovino.\n\n### Tipos de ossos\n**Longos** (fêmur, úmero), **curtos** (carpo, tarso), **planos** (escápula, ossos do crânio), **irregulares** (vértebras) e **sesamoides** (patela).\n- Osso longo: **diáfise** (corpo), **epífises** (extremidades) e **metáfise**, com a **placa de crescimento** (fise) nos jovens. **Periósteo** por fora; medula óssea por dentro.\n\n### Coluna vertebral\nRegiões: **cervical (C)**, **torácica (T)**, **lombar (L)**, **sacral (S)** e **caudal (Cd)**.\n- Quase todos os mamíferos têm **7 vértebras cervicais**.\n- **Atlas** (C1): permite o movimento do \"sim\". **Áxis** (C2), com o **dente**: movimento do \"não\".\n- Fórmulas vertebrais:\n  - **Cão e gato**: C7, T13, L7, S3.\n  - **Equino**: C7, **T18**, L6, S5.\n  - **Bovino**: C7, T13, L6, S5.\n  - **Suíno**: C7, T14-15, L6-7, S4.\n- O número de **costelas** acompanha o de vértebras torácicas: 13 pares no cão e no bovino; **18 no equino**.\n- Costelas **esternais** (verdadeiras), **asternais** (falsas) e flutuantes.\n\n### Membro torácico\n**Escápula**, **úmero**, **rádio e ulna**, **carpo**, **metacarpo** e **falanges**.\n- Na maioria dos animais domésticos **não há clavícula funcional**: o membro se une ao tronco só por músculos (**sinsarcose**).\n\n### Membro pélvico\n**Coxal** (ílio, ísquio e púbis, unidos no **acetábulo**), **fêmur**, **patela**, **tíbia e fíbula**, **tarso**, **metatarso** e **falanges**.\n\n### Dedos por espécie\n- **Equino**: **um** dedo funcional (o **III**). O **metacarpo III** é o osso da canela; os metacarpos II e IV são rudimentares. Falanges: proximal (**quartela**), média (**coroa**) e distal (osso do casco).\n- **Ruminantes**: **dois** dedos funcionais (**III e IV**); **casco fendido**. Metacarpos III e IV fundidos.\n- **Suíno**: quatro dedos; **dois principais** (III e IV) e dois acessórios (II e V).\n- **Cão**: cinco dedos no membro torácico (o I é o ergot) e, em geral, quatro no pélvico. **Gato**: garras **retráteis**.\n\n### Articulações\n- **Fibrosas**: pouco ou nenhum movimento (suturas do crânio).\n- **Cartilagíneas**: sínfise pélvica, discos intervertebrais.\n- **Sinoviais**: com **cápsula**, **membrana sinovial**, **líquido sinovial** e **cartilagem articular**; as mais móveis.\n- Nomes usuais: **ombro** (escapuloumeral), **cotovelo**, **carpo** (chamado de \"joelho\" no cavalo, de forma leiga), **boleto** (metacarpofalângica), **coxofemoral** (quadril), **joelho** (femorotibiopatelar, a soldra), **jarrete** (tarso).\n- **Displasia coxofemoral**: má formação do quadril, comum em cães grandes.",
+      "revisao": "**Lembre:**\n- 7 vértebras cervicais nos mamíferos.\n- Cão: C7 T13 L7 S3; equino: T18 (18 pares de costelas).\n- Equino: um dedo (III); ruminantes: dois (III e IV).\n- Sem clavícula funcional: união por músculos (sinsarcose).\n- Coxal: ílio, ísquio e púbis."
+    },
+    {
+      "id": "digestorio",
+      "nome": "Sistema digestório comparado",
+      "resumo": "### Tipos de estômago\n- **Monogástricos** (estômago simples): **cão, gato, suíno e equino**.\n- **Poligástricos** (ruminantes): **bovinos, ovinos e caprinos**, com **quatro compartimentos**.\n\n### Estômago dos ruminantes\nTrês **pré-estômagos** sem glândulas (fermentação) e um estômago glandular:\n1. **Rúmen**: o **maior**; ocupa quase todo o **lado esquerdo** do abdome. Câmara de **fermentação microbiana** da celulose, que produz **ácidos graxos voláteis** (principal fonte de energia) e gases. Mucosa com **papilas**.\n2. **Retículo**: mucosa em **favos de mel**; fica junto ao diafragma, perto do coração. Corpos estranhos metálicos se alojam aqui (**reticuloperitonite e pericardite traumática**).\n3. **Omaso**: mucosa em **lâminas** (folhas, \"folhoso\"); absorve água.\n4. **Abomaso**: o **estômago verdadeiro** (glandular), com ácido e enzimas; chamado de coagulador.\n- **Ruminação**: o alimento volta à boca para ser remastigado.\n- **Goteira esofágica** (sulco reticular): no bezerro lactente, leva o leite direto ao abomaso.\n\n### Equino\n- **Monogástrico herbívoro**, fermentador **pós-gástrico**: a fermentação ocorre no **ceco** e no **cólon**, muito desenvolvidos.\n- Estômago **pequeno**; o cárdia forte faz com que o cavalo **não consiga vomitar**.\n- **Não tem vesícula biliar**.\n- Cólon maior com flexuras (a **flexura pélvica** é local comum de obstrução); predisposição à **cólica**.\n\n### Carnívoros\nEstômago simples, intestino **curto** e ceco pequeno. Cão e gato têm vesícula biliar.\n\n### Suíno\nOnívoro; estômago simples com divertículo; **cólon espiral**.\n\n### Dentes\n- Tipos: **incisivos (I)**, **caninos (C)**, **pré-molares (P)** e **molares (M)**.\n- **Ruminantes não têm incisivos superiores**: no lugar há o **pulvino dentário** (almofada dentária).\n- Fórmula permanente do **cão**: **42 dentes**. **Gato**: **30**. **Equino**: 40 a 42. **Bovino**: 32. **Suíno**: 44.\n- **Dentes carniceiros** nos carnívoros (4º pré-molar superior e 1º molar inferior).\n- Dentes dos equinos crescem continuamente (hipsodontes); a idade é estimada pelos incisivos.\n\n### Glândulas anexas\n- **Glândulas salivares**: parótida, mandibular e sublingual.\n- **Fígado**: a maior glândula; produz a **bile**.\n- **Pâncreas**: função exócrina (enzimas) e endócrina (insulina).\n\n### Aves\n**Bico** sem dentes; **inglúvio** (papo, armazena); **proventrículo** (estômago químico, glandular); **moela** (ventrículo, estômago mecânico, tritura); dois cecos; **cloaca**, saída comum dos sistemas digestório, urinário e reprodutor.",
+      "revisao": "**Lembre:**\n- Ruminantes: rúmen, retículo, omaso e abomaso.\n- Abomaso é o estômago verdadeiro; rúmen fica à esquerda.\n- Equino: fermenta no ceco e no cólon; não vomita; sem vesícula biliar.\n- Ruminantes não têm incisivos superiores.\n- Cão: 42 dentes; gato: 30."
+    },
+    {
+      "id": "cardiorresp",
+      "nome": "Sistemas circulatório e respiratório",
+      "resumo": "### Coração\n- Órgão muscular no **mediastino**, dentro do **pericárdio**.\n- **Quatro câmaras** em mamíferos e aves: **dois átrios** e **dois ventrículos**.\n- O **ventrículo esquerdo** tem a parede **mais espessa**, pois bombeia para todo o corpo.\n- Camadas: **endocárdio**, **miocárdio** e **epicárdio**.\n\n### Valvas\n- **Atrioventriculares**: **tricúspide** (direita) e **mitral** ou bicúspide (esquerda).\n- **Semilunares**: **pulmonar** e **aórtica**.\n- Impedem o refluxo do sangue.\n\n### Circulações\n- **Pequena circulação** (pulmonar): ventrículo **direito** → **artéria pulmonar** → pulmões → **veias pulmonares** → átrio esquerdo.\n- **Grande circulação** (sistêmica): ventrículo **esquerdo** → **aorta** → corpo → **veias cavas** cranial e caudal → átrio direito.\n- **Artérias** saem do coração; **veias** chegam a ele. A artéria pulmonar leva sangue **venoso**; as veias pulmonares, sangue **arterial**.\n- **Sistema porta hepático**: a **veia porta** leva ao fígado o sangue do trato digestório.\n\n### Circulação fetal\nTrês desvios: **forame oval** (entre os átrios), **ducto arterioso** (da artéria pulmonar para a aorta) e **ducto venoso** (desvia o fígado). Fecham após o nascimento; a **persistência do ducto arterioso** é uma cardiopatia congênita comum em cães.\n\n### Locais de punção e pulso\n- **Veia jugular externa**: punção em grandes animais e em cães.\n- **Veia cefálica**: membro torácico de cães e gatos. **Veia safena**: membro pélvico.\n- **Veia mamária** (epigástrica) na vaca; veia da orelha no suíno; veia coccígea no bovino.\n- Pulso: **artéria femoral** no cão e no gato; **artéria facial** no equino.\n\n### Sistema linfático\nVasos linfáticos, **linfonodos** (filtram a linfa; inspecionados no abate), **baço**, **timo** e tonsilas.\n\n### Vias respiratórias\n**Narinas**, cavidade nasal (com conchas), **faringe**, **laringe** (com as pregas vocais), **traqueia** (anéis de cartilagem em C), **brônquios**, bronquíolos e **alvéolos** (onde ocorre a **hematose**, a troca gasosa).\n\n### Pulmões\n- Divididos em **lobos**; o padrão varia com a espécie.\n- O pulmão **direito** costuma ter mais lobos; o **lobo acessório** fica à direita.\n- O **equino** tem pulmões **pouco lobados**.\n- No **bovino** e no **suíno**, o lobo cranial direito é ventilado por um **brônquio traqueal**, que sai direto da traqueia.\n\n### Mecânica\n- O **diafragma** é o principal músculo da **inspiração**.\n- **Pleura** parietal e visceral; entre elas, a cavidade pleural, com pressão negativa.\n- O equino é **respirador nasal obrigatório**.\n- **Bolsas guturais**: divertículos da tuba auditiva, exclusivos dos **equídeos**.\n\n### Aves\nPulmões pequenos e rígidos, **sem diafragma**, com **sacos aéreos**; o órgão da voz é a **siringe**.",
+      "revisao": "**Lembre:**\n- Quatro câmaras; ventrículo esquerdo mais espesso.\n- Tricúspide à direita; mitral à esquerda.\n- Pequena circulação: ventrículo direito → pulmões → átrio esquerdo.\n- Feto: forame oval e ducto arterioso.\n- Diafragma: principal músculo da inspiração; aves têm sacos aéreos."
+    },
+    {
+      "id": "urogenital",
+      "nome": "Sistemas urinário e reprodutor",
+      "resumo": "### Sistema urinário\n**Rins**, **ureteres**, **bexiga** e **uretra**.\n- Rim: **córtex** (externo) e **medula** (interna); a unidade funcional é o **néfron**. A urina sai pela **pelve renal**.\n- Forma do rim:\n  - **Cão, gato, ovino e caprino**: liso, em forma de **feijão**.\n  - **Bovino**: **lobado** (sulcos na superfície) e **sem pelve renal** típica.\n  - **Equino**: o rim **direito** tem forma de **coração**.\n  - **Suíno**: achatado e alongado.\n- Os rins são **retroperitoneais**; o direito costuma ficar mais cranial.\n- **Uretra do macho**: longa e estreita, o que favorece **obstruções** (gato macho; flexura sigmoide e processo uretral nos ruminantes).\n\n### Reprodutor masculino\n- **Testículos**: produzem **espermatozoides** e **testosterona**. Ficam no **escroto**, fora do abdome, a temperatura **menor que a do corpo**.\n- **Criptorquidismo**: testículo que não desceu ao escroto.\n- **Epidídimo** (maturação e armazenamento), **ducto deferente**, **uretra**.\n- **Glândulas acessórias**: **próstata**, **glândulas vesiculares** e **bulbouretrais**. O **cão só tem próstata**; o gato tem próstata e bulbouretrais.\n- **Pênis**:\n  - **Fibroelástico** (ruminantes e suíno): pouco tecido erétil, com **flexura sigmoide** (o \"S peniano\").\n  - **Musculocavernoso** (equino, cão, gato): muito tecido erétil.\n  - **Cão**: **osso peniano** e bulbo da glande.\n  - **Gato**: voltado caudalmente, com **espículas**.\n  - Suíno: ponta em espiral.\n\n### Reprodutor feminino\n**Ovários**, **tubas uterinas** (local da **fecundação**), **útero**, **cérvix**, **vagina**, vestíbulo e **vulva**.\n- **Ovário**: produz ovócitos, **estrógeno** e **progesterona**. Estruturas: **folículos** e **corpo lúteo**.\n- **Útero**: na maioria dos animais domésticos é **bicórneo** (dois cornos e um corpo). Cornos **longos** na cadela, na gata e na porca (várias crias); cornos mais curtos e corpo maior na égua.\n- Camadas: **endométrio**, **miométrio** e perimétrio.\n\n### Placenta\nClassificação pela distribuição das vilosidades:\n- **Difusa**: **égua** e **porca**.\n- **Cotiledonária**: **ruminantes**; os **cotilédones** fetais se unem às **carúnculas** maternas, formando os **placentomas**.\n- **Zonária** (em cinta): **cadela e gata**.\n- **Discoidal**: primatas e roedores.\n\n### Ciclo estral\n- **Poliéstricas contínuas**: vaca, porca (ciclos o ano todo).\n- **Poliéstricas estacionais**: égua (dias longos), ovelha e cabra (dias curtos), gata.\n- **Monoéstrica**: cadela (um ou dois ciclos por ano).\n- A **gata** tem **ovulação induzida** pela cópula.\n\n### Glândula mamária\n- **Vaca**: úbere com **quatro quartos**, cada um com um teto. **Égua, ovelha e cabra**: duas glândulas.\n- **Cadela**: em geral **cinco pares**; **gata**: quatro pares; **porca**: seis a sete pares.\n\n### Aves\nSó o **ovário e o oviduto esquerdos** são funcionais; partes do oviduto: infundíbulo, magno (clara), istmo (membranas), útero (casca) e vagina. Os machos têm testículos **dentro do abdome**.",
+      "revisao": "**Lembre:**\n- Rim do bovino: lobado; do equino direito: forma de coração.\n- Testículos no escroto: temperatura mais baixa.\n- Cão: só próstata; osso peniano.\n- Placenta: difusa (égua, porca), cotiledonária (ruminantes), zonária (cadela, gata).\n- Fecundação na tuba uterina; vaca tem quatro quartos."
+    },
+    {
+      "id": "nervoso",
+      "nome": "Sistema nervoso, tegumento e músculos",
+      "resumo": "### Sistema nervoso central\n**Encéfalo** e **medula espinhal**, protegidos pelo crânio, pela coluna e pelas **meninges**: **dura-máter** (externa), **aracnoide** e **pia-máter** (interna). O **líquido cerebrospinal** (liquor) circula no espaço subaracnóideo.\n- **Cérebro** (telencéfalo): hemisférios, córtex; funções conscientes.\n- **Cerebelo**: **equilíbrio e coordenação**.\n- **Tronco encefálico** (mesencéfalo, ponte e bulbo): centros vitais da respiração e da circulação.\n- **Substância cinzenta** (corpos dos neurônios) e **branca** (fibras com mielina). Na medula, a cinzenta fica **por dentro**, em forma de H.\n\n### Sistema nervoso periférico\n- **12 pares de nervos cranianos** e nervos espinhais.\n- **Plexo braquial**: inerva o membro torácico (nervos radial, mediano, ulnar). **Plexo lombossacral**: membro pélvico (nervos femoral, **isquiático**).\n- Lesão do **nervo radial**: o animal não estende o membro e arrasta a face dorsal dos dedos.\n- **Anestesia epidural**: aplicada no espaço **lombossacro** (cães) ou sacrococcígeo (bovinos).\n\n### Sistema nervoso autônomo\n- **Simpático**: \"luta ou fuga\"; acelera o coração, dilata as pupilas.\n- **Parassimpático**: \"repouso e digestão\"; o **nervo vago** é seu principal representante.\n\n### Órgãos dos sentidos\n- Olho: córnea, íris, cristalino, retina. Muitos animais têm o ***tapetum lucidum***, camada refletora que melhora a **visão noturna**. **Terceira pálpebra** (membrana nictitante).\n- Orelha: externa, média (martelo, bigorna e estribo) e interna (cóclea e aparelho vestibular).\n- **Órgão vomeronasal**: percepção de feromônios; ligado ao reflexo de **flehmen**.\n\n### Tegumento\n- **Pele**: **epiderme**, **derme** e **hipoderme** (subcutâneo).\n- Anexos: pelos, glândulas **sebáceas** e **sudoríparas**, glândula mamária, unhas, garras, **cascos** e **cornos**.\n- **Corno** (bovinos): base óssea (processo cornual) coberta por queratina; permanente. **Galhada** (cervídeos): óssea, trocada todo ano.\n- **Casco do equino**: **muralha** (parede), **sola** e **ranilha** (cunha elástica que amortece); as **lâminas** unem a muralha à falange distal. Sua inflamação é a **laminite**.\n- Coxins em cães e gatos; **sacos anais** nos carnívoros.\n\n### Músculos\n- Tipos: **estriado esquelético** (voluntário), **estriado cardíaco** e **liso** (vísceras).\n- **Tendão**: une músculo a osso. **Ligamento**: une osso a osso. **Aponeurose**: tendão em lâmina.\n- **Diafragma**, **intercostais** e músculos abdominais (reto, oblíquos e transverso); a **linha alba** é o local de incisão em cirurgias abdominais.\n- Locais de injeção intramuscular: **tábua do pescoço** e garupa em grandes animais; músculos da coxa (semitendíneo e semimembranáceo) e lombares em cães, evitando o **nervo isquiático**.\n- **Aparelho de sustentação** do equino: permite ao cavalo **dormir em pé**, com pouco gasto de energia.\n- **Ligamento nucal**: sustenta a cabeça dos herbívoros.",
+      "revisao": "**Lembre:**\n- Meninges: dura-máter, aracnoide e pia-máter.\n- Cerebelo: equilíbrio e coordenação.\n- 12 pares de nervos cranianos; vago é parassimpático.\n- Casco do equino: muralha, sola e ranilha; laminite.\n- Tendão: músculo a osso; ligamento: osso a osso."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "anatomia-veterinaria-1",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Em anatomia veterinária, o termo que indica direção à cabeça é:",
+      "opcoes": [
+        "Cranial",
+        "Caudal",
+        "Ventral",
+        "Distal"
+      ],
+      "correta": 0,
+      "explicacao": "Dentro da própria cabeça, usa-se rostral para indicar direção ao focinho."
+    },
+    {
+      "id": "anatomia-veterinaria-2",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "O plano que divide o corpo do animal em metades direita e esquerda iguais é o:",
+      "opcoes": [
+        "Transversal",
+        "Mediano",
+        "Dorsal",
+        "Oblíquo"
+      ],
+      "correta": 1,
+      "explicacao": "Planos paralelos a ele são chamados de sagitais ou paramedianos."
+    },
+    {
+      "id": "anatomia-veterinaria-3",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Cães e gatos, que se apoiam sobre os dedos, são classificados como:",
+      "opcoes": [
+        "Plantígrados",
+        "Ungulígrados",
+        "Digitígrados",
+        "Bípedes"
+      ],
+      "correta": 2,
+      "explicacao": "Equinos e bovinos, que se apoiam no casco, são ungulígrados."
+    },
+    {
+      "id": "anatomia-veterinaria-4",
+      "topico": "planos",
+      "nivel": "aplicacao",
+      "pergunta": "Um veterinário descreve uma ferida na face de trás do membro posterior de um cavalo, abaixo do jarrete. O termo correto para essa face é:",
+      "opcoes": [
+        "Palmar",
+        "Ventral",
+        "Cranial",
+        "Plantar"
+      ],
+      "correta": 3,
+      "explicacao": "Palmar é o termo usado para a face de trás do membro torácico, abaixo do carpo."
+    },
+    {
+      "id": "anatomia-veterinaria-5",
+      "topico": "planos",
+      "nivel": "analise",
+      "pergunta": "Por que a anatomia veterinária usa dorsal e ventral em vez de superior e inferior?",
+      "opcoes": [
+        "Porque os animais são quadrúpedes e a posição de referência é em estação sobre os quatro membros",
+        "Porque os animais não têm costas",
+        "Porque os termos humanos são proibidos",
+        "Porque os animais não têm cavidade abdominal"
+      ],
+      "correta": 0,
+      "explicacao": "Os termos se referem ao próprio corpo do animal, e não à sua posição no espaço."
+    },
+    {
+      "id": "anatomia-veterinaria-6",
+      "topico": "esqueleto",
+      "nivel": "conceitual",
+      "pergunta": "Quantas vértebras cervicais têm quase todos os mamíferos domésticos?",
+      "opcoes": [
+        "13",
+        "7",
+        "18",
+        "5"
+      ],
+      "correta": 1,
+      "explicacao": "O número se mantém mesmo em espécies de pescoço longo, como a girafa."
+    },
+    {
+      "id": "anatomia-veterinaria-7",
+      "topico": "esqueleto",
+      "nivel": "conceitual",
+      "pergunta": "O equino apoia-se em quantos dedos funcionais por membro?",
+      "opcoes": [
+        "Dois, os dedos III e IV",
+        "Quatro",
+        "Um, o dedo III",
+        "Cinco"
+      ],
+      "correta": 2,
+      "explicacao": "Os ruminantes têm dois dedos funcionais, o que forma o casco fendido."
+    },
+    {
+      "id": "anatomia-veterinaria-8",
+      "topico": "esqueleto",
+      "nivel": "conceitual",
+      "pergunta": "O osso coxal é formado pela união de:",
+      "opcoes": [
+        "Rádio e ulna",
+        "Tíbia e fíbula",
+        "Atlas e áxis",
+        "Ílio, ísquio e púbis"
+      ],
+      "correta": 3,
+      "explicacao": "Os três se encontram no acetábulo, onde se articula a cabeça do fêmur."
+    },
+    {
+      "id": "anatomia-veterinaria-9",
+      "topico": "esqueleto",
+      "nivel": "aplicacao",
+      "pergunta": "Ao contar as costelas em uma radiografia, o veterinário encontra 18 pares. O animal é provavelmente um:",
+      "opcoes": [
+        "Equino",
+        "Cão",
+        "Bovino",
+        "Gato"
+      ],
+      "correta": 0,
+      "explicacao": "Cães, gatos e bovinos têm 13 vértebras torácicas e 13 pares de costelas."
+    },
+    {
+      "id": "anatomia-veterinaria-10",
+      "topico": "esqueleto",
+      "nivel": "analise",
+      "pergunta": "Como o membro torácico se une ao tronco na maioria dos animais domésticos, que não têm clavícula funcional?",
+      "opcoes": [
+        "Por uma articulação sinovial com o esterno",
+        "Apenas por músculos, em uma união chamada sinsarcose",
+        "Por fusão óssea com as costelas",
+        "Pelo ligamento nucal"
+      ],
+      "correta": 1,
+      "explicacao": "Essa união muscular amortece o impacto do apoio durante a locomoção."
+    },
+    {
+      "id": "anatomia-veterinaria-11",
+      "topico": "digestorio",
+      "nivel": "conceitual",
+      "pergunta": "Qual compartimento do estômago dos ruminantes é o estômago verdadeiro, com glândulas?",
+      "opcoes": [
+        "Rúmen",
+        "Retículo",
+        "Abomaso",
+        "Omaso"
+      ],
+      "correta": 2,
+      "explicacao": "Os outros três são pré-estômagos, sem glândulas, onde ocorre fermentação e absorção."
+    },
+    {
+      "id": "anatomia-veterinaria-12",
+      "topico": "digestorio",
+      "nivel": "conceitual",
+      "pergunta": "No equino, a fermentação da fibra vegetal ocorre principalmente no:",
+      "opcoes": [
+        "Rúmen",
+        "Estômago",
+        "Esôfago",
+        "Ceco e cólon"
+      ],
+      "correta": 3,
+      "explicacao": "O cavalo é um fermentador pós-gástrico, com intestino grosso muito desenvolvido."
+    },
+    {
+      "id": "anatomia-veterinaria-13",
+      "topico": "digestorio",
+      "nivel": "conceitual",
+      "pergunta": "Uma particularidade da dentição dos ruminantes é:",
+      "opcoes": [
+        "A ausência de incisivos superiores",
+        "A ausência de molares",
+        "A presença de 42 dentes",
+        "Os caninos muito desenvolvidos"
+      ],
+      "correta": 0,
+      "explicacao": "No lugar deles existe o pulvino dentário, uma almofada fibrosa."
+    },
+    {
+      "id": "anatomia-veterinaria-14",
+      "topico": "digestorio",
+      "nivel": "aplicacao",
+      "pergunta": "Uma vaca ingeriu um pedaço de arame, que perfurou a parede de um compartimento e atingiu o saco do coração. O compartimento envolvido é o:",
+      "opcoes": [
+        "Abomaso",
+        "Retículo",
+        "Omaso",
+        "Ceco"
+      ],
+      "correta": 1,
+      "explicacao": "O retículo fica junto ao diafragma, próximo ao coração, e retém corpos estranhos pesados."
+    },
+    {
+      "id": "anatomia-veterinaria-15",
+      "topico": "digestorio",
+      "nivel": "analise",
+      "pergunta": "Por que a cólica é tão grave e frequente nos equinos?",
+      "opcoes": [
+        "Porque o cavalo tem quatro estômagos",
+        "Porque o cavalo não tem intestino grosso",
+        "O cavalo não consegue vomitar e tem intestino grosso longo, com curvas propensas à obstrução",
+        "Porque o cavalo tem vesícula biliar grande"
+      ],
+      "correta": 2,
+      "explicacao": "A flexura pélvica do cólon é um local comum de compactação."
+    },
+    {
+      "id": "anatomia-veterinaria-16",
+      "topico": "cardiorresp",
+      "nivel": "conceitual",
+      "pergunta": "Qual câmara do coração tem a parede mais espessa?",
+      "opcoes": [
+        "Átrio direito",
+        "Átrio esquerdo",
+        "Ventrículo direito",
+        "Ventrículo esquerdo"
+      ],
+      "correta": 3,
+      "explicacao": "Ele bombeia o sangue para todo o corpo, contra maior resistência."
+    },
+    {
+      "id": "anatomia-veterinaria-17",
+      "topico": "cardiorresp",
+      "nivel": "conceitual",
+      "pergunta": "A valva entre o átrio e o ventrículo esquerdos é a:",
+      "opcoes": [
+        "Mitral",
+        "Tricúspide",
+        "Pulmonar",
+        "Aórtica"
+      ],
+      "correta": 0,
+      "explicacao": "A valva tricúspide fica entre o átrio e o ventrículo direitos."
+    },
+    {
+      "id": "anatomia-veterinaria-18",
+      "topico": "cardiorresp",
+      "nivel": "conceitual",
+      "pergunta": "O principal músculo da inspiração nos mamíferos é o:",
+      "opcoes": [
+        "Reto do abdome",
+        "Diafragma",
+        "Masseter",
+        "Glúteo médio"
+      ],
+      "correta": 1,
+      "explicacao": "As aves não têm diafragma e ventilam os pulmões com a ajuda dos sacos aéreos."
+    },
+    {
+      "id": "anatomia-veterinaria-19",
+      "topico": "cardiorresp",
+      "nivel": "aplicacao",
+      "pergunta": "Para colher sangue de um cão acordado, em um vaso superficial do membro torácico, o veterinário escolhe a veia:",
+      "opcoes": [
+        "Porta",
+        "Pulmonar",
+        "Cefálica",
+        "Cava caudal"
+      ],
+      "correta": 2,
+      "explicacao": "A veia jugular externa e a safena são outras opções comuns de punção."
+    },
+    {
+      "id": "anatomia-veterinaria-20",
+      "topico": "cardiorresp",
+      "nivel": "analise",
+      "pergunta": "Por que a artéria pulmonar transporta sangue venoso, embora seja uma artéria?",
+      "opcoes": [
+        "Porque ela chega ao coração",
+        "Porque ela nasce no ventrículo esquerdo",
+        "Porque ela não tem parede muscular",
+        "Porque artéria é todo vaso que sai do coração, e ela leva o sangue pobre em oxigênio aos pulmões"
+      ],
+      "correta": 3,
+      "explicacao": "A classificação depende do sentido do fluxo, e não do tipo de sangue."
+    },
+    {
+      "id": "anatomia-veterinaria-21",
+      "topico": "urogenital",
+      "nivel": "conceitual",
+      "pergunta": "Qual espécie tem rim de superfície lobada?",
+      "opcoes": [
+        "Bovino",
+        "Cão",
+        "Gato",
+        "Ovino"
+      ],
+      "correta": 0,
+      "explicacao": "Cães, gatos e pequenos ruminantes têm rim liso, em forma de feijão."
+    },
+    {
+      "id": "anatomia-veterinaria-22",
+      "topico": "urogenital",
+      "nivel": "conceitual",
+      "pergunta": "A placenta dos ruminantes, formada por placentomas, é do tipo:",
+      "opcoes": [
+        "Difusa",
+        "Cotiledonária",
+        "Zonária",
+        "Discoidal"
+      ],
+      "correta": 1,
+      "explicacao": "A difusa ocorre na égua e na porca, e a zonária na cadela e na gata."
+    },
+    {
+      "id": "anatomia-veterinaria-23",
+      "topico": "urogenital",
+      "nivel": "conceitual",
+      "pergunta": "A única glândula sexual acessória presente no cão macho é a:",
+      "opcoes": [
+        "Glândula vesicular",
+        "Glândula bulbouretral",
+        "Próstata",
+        "Glândula mamária"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso as afecções prostáticas são tão importantes na clínica de cães."
+    },
+    {
+      "id": "anatomia-veterinaria-24",
+      "topico": "urogenital",
+      "nivel": "aplicacao",
+      "pergunta": "Um cão adulto tem apenas um testículo no escroto; o outro ficou retido no abdome. Essa condição é chamada de:",
+      "opcoes": [
+        "Displasia",
+        "Laminite",
+        "Flexura sigmoide",
+        "Criptorquidismo"
+      ],
+      "correta": 3,
+      "explicacao": "O testículo retido fica em temperatura mais alta, sem produzir espermatozoides e com risco maior de tumor."
+    },
+    {
+      "id": "anatomia-veterinaria-25",
+      "topico": "urogenital",
+      "nivel": "analise",
+      "pergunta": "Por que os testículos da maioria dos mamíferos ficam no escroto, fora da cavidade abdominal?",
+      "opcoes": [
+        "Porque a produção de espermatozoides exige temperatura inferior à do corpo",
+        "Para protegê-los de traumas",
+        "Para aumentar a produção de urina",
+        "Porque não têm irrigação sanguínea"
+      ],
+      "correta": 0,
+      "explicacao": "Nas aves os testículos ficam dentro do abdome, com outros mecanismos de resfriamento."
+    },
+    {
+      "id": "anatomia-veterinaria-26",
+      "topico": "nervoso",
+      "nivel": "conceitual",
+      "pergunta": "A parte do encéfalo responsável pelo equilíbrio e pela coordenação dos movimentos é o:",
+      "opcoes": [
+        "Bulbo",
+        "Cerebelo",
+        "Córtex cerebral",
+        "Hipotálamo"
+      ],
+      "correta": 1,
+      "explicacao": "Lesões nessa região causam incoordenação, chamada de ataxia."
+    },
+    {
+      "id": "anatomia-veterinaria-27",
+      "topico": "nervoso",
+      "nivel": "conceitual",
+      "pergunta": "As meninges, de fora para dentro, são:",
+      "opcoes": [
+        "Pia-máter, aracnoide e dura-máter",
+        "Epiderme, derme e hipoderme",
+        "Dura-máter, aracnoide e pia-máter",
+        "Endocárdio, miocárdio e epicárdio"
+      ],
+      "correta": 2,
+      "explicacao": "O líquido cerebrospinal circula no espaço abaixo da aracnoide."
+    },
+    {
+      "id": "anatomia-veterinaria-28",
+      "topico": "nervoso",
+      "nivel": "conceitual",
+      "pergunta": "No casco do equino, a estrutura elástica em forma de cunha que amortece o impacto é a:",
+      "opcoes": [
+        "Muralha",
+        "Quartela",
+        "Coroa",
+        "Ranilha"
+      ],
+      "correta": 3,
+      "explicacao": "A muralha é a parede externa do casco, e a sola fica na face inferior."
+    },
+    {
+      "id": "anatomia-veterinaria-29",
+      "topico": "nervoso",
+      "nivel": "aplicacao",
+      "pergunta": "Ao aplicar uma injeção intramuscular na coxa de um cão, o veterinário toma cuidado para não atingir o nervo:",
+      "opcoes": [
+        "Isquiático",
+        "Vago",
+        "Óptico",
+        "Radial"
+      ],
+      "correta": 0,
+      "explicacao": "A lesão desse nervo pode comprometer o apoio e o movimento do membro pélvico."
+    },
+    {
+      "id": "anatomia-veterinaria-30",
+      "topico": "nervoso",
+      "nivel": "analise",
+      "pergunta": "Qual é a função do tapetum lucidum, presente no olho de muitos animais?",
+      "opcoes": [
+        "Produzir lágrimas",
+        "Refletir a luz de volta à retina, melhorando a visão com pouca luminosidade",
+        "Proteger a córnea de traumas",
+        "Mover o globo ocular"
+      ],
+      "correta": 1,
+      "explicacao": "É essa camada que faz os olhos dos animais brilharem à noite quando iluminados."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "relacoes-internacionais",
+  "nome": "Relações Internacionais",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Conceitos básicos e sistema internacional",
+      "resumo": "### O campo\nAs **Relações Internacionais (RI)** estudam as interações entre os **atores** que atuam além das fronteiras: guerra e paz, comércio, cooperação, direitos humanos, meio ambiente. Como disciplina, nasce depois da **Primeira Guerra Mundial**; a primeira cátedra foi criada em **1919**, em Aberystwyth (País de Gales).\n\n### Atores\n- **Estados**: os atores centrais para as teorias tradicionais.\n- **Organizações internacionais** (intergovernamentais): ONU, OMC, FMI.\n- **Organizações não governamentais** (ONGs): Anistia Internacional, Greenpeace.\n- **Empresas transnacionais**.\n- Indivíduos, grupos terroristas, redes, mídia.\n\n### Estado e soberania\n- Elementos do Estado: **território**, **população**, **governo** e **soberania**.\n- **Soberania**: autoridade **suprema** dentro do território (interna) e **independência** em relação aos outros Estados (externa).\n- **Paz de Vestfália (1648)**: encerrou a Guerra dos Trinta Anos e é o marco do **sistema moderno de Estados soberanos**, com igualdade jurídica e não intervenção.\n\n### Anarquia\nNo sistema internacional **não há um governo acima dos Estados**. \"Anarquia\" aqui significa **ausência de autoridade central**, não caos. Cada teoria tira consequências diferentes disso.\n\n### Poder\nCapacidade de fazer o outro agir como se deseja.\n- **Hard power**: força militar e econômica; coerção.\n- **Soft power** (Joseph Nye): **atração** pela cultura, pelos valores e pelas políticas.\n- **Smart power**: a combinação dos dois.\n\n### Polaridade\nDistribuição do poder entre as grandes potências:\n- **Unipolar**: uma potência dominante (Estados Unidos após 1991).\n- **Bipolar**: duas (Estados Unidos e União Soviética na **Guerra Fria**).\n- **Multipolar**: várias (Europa do século XIX).\n- **Hegemonia**: liderança de um Estado, que dita as regras.\n- **Equilíbrio de poder**: os Estados se aliam para impedir que um deles domine.\n\n### Níveis de análise\nKenneth Waltz propôs três \"imagens\" para explicar a guerra: o **indivíduo** (líderes), o **Estado** (regime, sociedade) e o **sistema internacional** (a anarquia).\n\n### Política externa e diplomacia\n- **Política externa**: as ações de um Estado em relação ao exterior.\n- **Diplomacia**: condução pacífica das relações, por negociação. **Bilateral** (dois Estados) ou **multilateral** (vários).\n- **Interesse nacional**: os objetivos que o Estado busca fora.",
+      "revisao": "**Lembre:**\n- Vestfália (1648): sistema de Estados soberanos.\n- Anarquia: ausência de governo mundial, não caos.\n- Hard power coage; soft power atrai (Nye).\n- Guerra Fria: bipolar.\n- Disciplina nasce após a Primeira Guerra (1919)."
+    },
+    {
+      "id": "realismo",
+      "nome": "Realismo e neorrealismo",
+      "resumo": "### Ideias centrais do realismo\n- O **Estado** é o ator principal, **unitário e racional**.\n- O sistema é **anárquico**; por isso vale a **autoajuda** (self-help): cada um cuida da própria **sobrevivência**.\n- O interesse nacional se define em termos de **poder**.\n- A **segurança** é a preocupação principal; a guerra é sempre possível.\n- Visão **pessimista** sobre a cooperação: os Estados temem ser enganados e se preocupam com **ganhos relativos** (quem ganha mais).\n- Moral universal não se aplica diretamente à política entre Estados.\n\n### Precursores\n- **Tucídides**: na *História da Guerra do Peloponeso*, a guerra nasce do crescimento do poder de Atenas e do medo de Esparta. No Diálogo dos Mélios: os fortes fazem o que podem e os fracos sofrem o que devem.\n- **Maquiavel**: a política como ela é, não como deveria ser; razão de Estado.\n- **Hobbes**: sem um poder comum, há o **estado de natureza**, guerra de todos contra todos; os realistas comparam a ele a relação entre Estados.\n\n### Realismo clássico\n- **E. H. Carr**: em *Vinte Anos de Crise* (1939), criticou os **idealistas** (utópicos) do entreguerras por ignorarem o poder.\n- **Hans Morgenthau**: *A Política entre as Nações* (1948). Seis princípios; a política é governada por leis objetivas com raízes na **natureza humana**, marcada pelo desejo de poder; **interesse definido como poder**.\n\n### Neorrealismo (realismo estrutural)\n**Kenneth Waltz**, *Teoria da Política Internacional* (1979).\n- A causa do comportamento dos Estados não é a natureza humana, e sim a **estrutura** do sistema: a **anarquia** e a **distribuição de capacidades**.\n- Os Estados são **unidades semelhantes** em função; diferem em capacidade.\n- O sistema **bipolar** seria o mais estável.\n- Os Estados buscam **segurança** e tendem ao **equilíbrio de poder**.\n\n### Realismo defensivo e ofensivo\n- **Defensivo** (Waltz): os Estados buscam **segurança**; poder demais provoca reação dos outros.\n- **Ofensivo** (**John Mearsheimer**): os Estados buscam **maximizar o poder** e, se possível, a hegemonia regional, pois nunca sabem as intenções alheias.\n\n### Dilema de segurança\nQuando um Estado se arma para se defender, os outros se sentem ameaçados e também se armam; no fim, **todos ficam menos seguros**. (John Herz.)\n\n### Outros conceitos\n- **Balanceamento** (aliar-se contra o mais forte) e **bandwagoning** (aliar-se ao mais forte).\n- **Dissuasão**: impedir o ataque pela ameaça de retaliação; base da estratégia nuclear (**destruição mútua assegurada**).\n- **Realismo neoclássico**: combina a estrutura com fatores internos dos Estados.",
+      "revisao": "**Lembre:**\n- Realismo: Estado, anarquia, poder, sobrevivência, autoajuda.\n- Morgenthau: natureza humana; interesse como poder.\n- Waltz: a estrutura anárquica explica; bipolaridade estável.\n- Mearsheimer: realismo ofensivo, maximizar poder.\n- Dilema de segurança: armar-se gera insegurança geral."
+    },
+    {
+      "id": "liberalismo",
+      "nome": "Liberalismo e institucionalismo",
+      "resumo": "### Ideias centrais do liberalismo\n- A **cooperação é possível** e pode ser duradoura, mesmo na anarquia.\n- Há **vários atores** além do Estado: organizações, empresas, indivíduos.\n- **Instituições**, **comércio** e **democracia** reduzem os conflitos.\n- Importam os **ganhos absolutos**: todos podem ganhar.\n- Visão mais **otimista** do progresso.\n\n### Precursores\n- **Immanuel Kant**: em *À Paz Perpétua* (1795), propôs três condições: **constituições republicanas**, uma **federação de Estados livres** e o **direito cosmopolita** (hospitalidade).\n- **John Locke**, Adam Smith, Montesquieu (o comércio abranda os costumes).\n\n### Idealismo do entreguerras\n- **Woodrow Wilson**, presidente dos Estados Unidos, e seus **Catorze Pontos** (1918): diplomacia aberta, livre comércio, **autodeterminação dos povos** e uma associação de nações.\n- Criação da **Liga das Nações** (1919), baseada na **segurança coletiva**: a agressão a um é respondida por todos.\n- O fracasso da Liga em evitar a Segunda Guerra abriu espaço à crítica realista (o **primeiro grande debate**: idealismo × realismo).\n\n### Paz democrática\nTese de que **democracias não fazem guerra entre si** (Michael Doyle, a partir de Kant). Razões: controle da opinião pública, normas de solução pacífica e transparência.\n\n### Liberalismo comercial\nA **interdependência econômica** torna a guerra cara demais.\n\n### Interdependência complexa\n**Robert Keohane e Joseph Nye**, *Poder e Interdependência* (1977). Três características:\n- **Múltiplos canais** ligam as sociedades.\n- **Ausência de hierarquia** entre os temas (a segurança não domina sempre).\n- **Menor utilidade da força militar** entre países interdependentes.\n\n### Institucionalismo neoliberal\n**Keohane**, *After Hegemony* (1984). Aceita premissas do neorrealismo (Estados racionais, anarquia), mas afirma que as **instituições** facilitam a cooperação: reduzem **custos de transação**, dão **informação**, criam expectativas estáveis e permitem punir quem trapaceia.\n- **Regimes internacionais** (Krasner): conjuntos de **princípios, normas, regras e procedimentos de decisão** em torno dos quais convergem as expectativas dos atores em uma área (comércio, não proliferação nuclear).\n- Debate **neo-neo**: neorrealistas (ganhos relativos) × neoliberais (ganhos absolutos).\n\n### Teoria dos jogos\nO **dilema do prisioneiro** mostra por que atores racionais podem não cooperar; a repetição do jogo e as instituições favorecem a cooperação.\n\n### Fim da história\n**Francis Fukuyama** (1989): com o fim da Guerra Fria, a democracia liberal seria a forma final de governo. Contestado por **Samuel Huntington**, com o **choque de civilizações**.",
+      "revisao": "**Lembre:**\n- Liberalismo: cooperação possível; instituições, comércio e democracia.\n- Kant: paz perpétua. Wilson: Catorze Pontos e Liga das Nações.\n- Paz democrática: democracias não guerreiam entre si.\n- Keohane e Nye: interdependência complexa.\n- Regimes: princípios, normas, regras e procedimentos."
+    },
+    {
+      "id": "criticas",
+      "nome": "Marxismo, construtivismo e teorias críticas",
+      "resumo": "### Marxismo e imperialismo\n- Foco nas **classes** e na **economia capitalista**, não só nos Estados.\n- **Lênin**: em *Imperialismo, fase superior do capitalismo* (1916), a disputa por mercados e colônias leva as potências à guerra.\n\n### Teoria da dependência\nPensadores latino-americanos nos anos 1960 e 1970 (**Raúl Prebisch** e a **Cepal**, Cardoso e Faletto, Theotônio dos Santos, Ruy Mauro Marini).\n- O subdesenvolvimento não é uma etapa anterior, mas **resultado** da inserção desigual na economia mundial.\n- **Centro e periferia**; **deterioração dos termos de troca**: produtos primários perdem valor frente aos industrializados.\n- Proposta cepalina: **industrialização por substituição de importações**.\n\n### Sistema-mundo\n**Immanuel Wallerstein**: a unidade de análise é a **economia-mundo capitalista**, dividida em **centro**, **semiperiferia** e **periferia**.\n\n### Teoria crítica\n- **Robert Cox**: **\"toda teoria é sempre para alguém e para algum propósito\"**. Distingue teorias de **solução de problemas** (aceitam a ordem) e **teoria crítica** (pergunta como a ordem surgiu e como pode mudar).\n- Usa o conceito de **hegemonia** de **Gramsci**: dominação por consenso, sustentada por ideias e instituições.\n- Escola de Frankfurt (Habermas, Linklater): **emancipação**.\n\n### Construtivismo\n**Alexander Wendt**: **\"a anarquia é o que os Estados fazem dela\"** (1992). *Teoria Social da Política Internacional* (1999).\n- A realidade internacional é **socialmente construída**; **ideias, normas e identidades** importam tanto quanto fatores materiais.\n- **Interesses não são dados**: dependem da **identidade** dos atores, formada na interação.\n- Três culturas de anarquia: **hobbesiana** (inimigos), **lockeana** (rivais) e **kantiana** (amigos).\n- Agente e estrutura se **constituem mutuamente**.\n- Outros autores: Nicholas Onuf, Friedrich Kratochwil, Martha Finnemore (difusão de normas).\n\n### Escola Inglesa\n**Hedley Bull**, *A Sociedade Anárquica* (1977). Apesar da anarquia, existe uma **sociedade internacional**: Estados que compartilham **regras e instituições** (diplomacia, direito internacional, equilíbrio de poder).\n\n### Outras abordagens\n- **Feminismo** (Ann Tickner, Cynthia Enloe): mostra o viés de gênero da disciplina e pergunta \"onde estão as mulheres?\".\n- **Pós-colonialismo** (Edward Said, *Orientalismo*): critica o eurocentrismo.\n- **Pós-estruturalismo**: analisa discurso e poder.\n- **Escola de Copenhague** (Buzan, Wæver): **securitização**, o processo pelo qual um tema é apresentado como ameaça existencial, justificando medidas excepcionais.\n\n### Os grandes debates\n1. Idealismo × realismo (anos 1930 e 1940).\n2. Tradicionalismo × behaviorismo (método).\n3. Interparadigmático (realismo, liberalismo, marxismo).\n4. Racionalismo × reflexivismo (positivistas × pós-positivistas).",
+      "revisao": "**Lembre:**\n- Dependência: centro e periferia; Cepal e Prebisch.\n- Wallerstein: centro, semiperiferia e periferia.\n- Cox: toda teoria é para alguém e para algum propósito.\n- Wendt: a anarquia é o que os Estados fazem dela.\n- Bull: sociedade internacional. Copenhague: securitização."
+    },
+    {
+      "id": "organizacoes",
+      "nome": "Organizações e direito internacional",
+      "resumo": "### ONU\nCriada em **1945**, pela **Carta de São Francisco**, para manter a paz e a segurança, promover a cooperação e os direitos humanos. Sede em Nova York; **193 membros**.\nÓrgãos principais:\n- **Assembleia Geral**: todos os membros, **um voto cada**; resoluções em geral **recomendatórias**.\n- **Conselho de Segurança**: **15 membros**; **5 permanentes** com **poder de veto** (**Estados Unidos, Rússia, China, França e Reino Unido**) e 10 rotativos, com mandato de 2 anos. Suas decisões são **obrigatórias**; pode autorizar sanções e o uso da força (Capítulo VII).\n- **Secretariado**, chefiado pelo Secretário-Geral.\n- **Corte Internacional de Justiça** (Haia): julga **Estados**.\n- **Conselho Econômico e Social** (ECOSOC).\n- Agências e programas: OMS, Unesco, Unicef, FAO, OIT, ACNUR, PNUD.\n\n### Princípios da Carta\n**Igualdade soberana**, **solução pacífica de controvérsias**, **proibição do uso da força** (exceto **legítima defesa** e autorização do Conselho de Segurança) e **não intervenção**.\n\n### Bretton Woods (1944)\nCriou o **FMI** (estabilidade monetária e socorro a balanços de pagamentos) e o **Banco Mundial** (financiamento do desenvolvimento). O **GATT** (1947) deu lugar à **OMC** (1995), que regula o comércio e tem um sistema de solução de controvérsias. Princípio da **nação mais favorecida**.\n\n### Outras organizações\n- **OTAN** (1949): aliança militar; o artigo 5º prevê defesa coletiva.\n- **OEA**: Estados americanos.\n- **Tribunal Penal Internacional** (Estatuto de Roma, 1998): julga **indivíduos** por genocídio, crimes contra a humanidade, crimes de guerra e agressão.\n- **G20**, **G7**, **BRICS**.\n\n### Integração regional\nEtapas (Bela Balassa):\n1. **Zona de livre comércio**: fim das tarifas entre os membros.\n2. **União aduaneira**: mais uma **tarifa externa comum**.\n3. **Mercado comum**: mais a livre circulação de **pessoas, serviços e capitais**.\n4. **União econômica e monetária**: políticas e **moeda** comuns.\n- **União Europeia**: o processo mais avançado; instituições **supranacionais**; euro.\n- **Mercosul**: criado pelo **Tratado de Assunção (1991)**, por Brasil, Argentina, Paraguai e Uruguai; é uma **união aduaneira imperfeita**; caráter **intergovernamental**.\n\n### Direito internacional\n- **Fontes** (art. 38 do Estatuto da Corte): **tratados**, **costume internacional**, **princípios gerais de direito**; como meios auxiliares, jurisprudência e doutrina.\n- ***Pacta sunt servanda***: os tratados devem ser cumpridos.\n- ***Jus cogens***: normas imperativas que não admitem derrogação (proibição do genocídio, da escravidão).\n- **Declaração Universal dos Direitos Humanos** (1948).\n- **Direito internacional humanitário**: Convenções de Genebra; regras para os conflitos armados.\n- **Responsabilidade de proteger** (2005): a comunidade internacional deve agir quando o Estado não protege sua população de atrocidades.",
+      "revisao": "**Lembre:**\n- ONU: 1945. Conselho de Segurança: 5 permanentes com veto.\n- Corte Internacional de Justiça julga Estados; TPI julga indivíduos.\n- Bretton Woods: FMI e Banco Mundial. OMC: 1995.\n- Mercosul: Tratado de Assunção (1991), união aduaneira imperfeita.\n- Fontes: tratados, costume e princípios gerais."
+    },
+    {
+      "id": "historia",
+      "nome": "História das relações internacionais e Brasil",
+      "resumo": "### Do Concerto Europeu às guerras mundiais\n- **Congresso de Viena (1815)**: após Napoleão, as potências restauram o equilíbrio e criam o **Concerto Europeu**.\n- **Imperialismo** do fim do século XIX; **Conferência de Berlim** (1884-85) e a partilha da África.\n- **Primeira Guerra Mundial (1914-1918)**; **Tratado de Versalhes** (1919) e Liga das Nações.\n- **Segunda Guerra Mundial (1939-1945)**; conferências de Yalta e Potsdam; criação da ONU.\n\n### Guerra Fria (1947-1991)\nDisputa **bipolar** entre **Estados Unidos** (capitalismo) e **União Soviética** (socialismo), sem guerra direta entre os dois.\n- **Doutrina Truman** (contenção do comunismo) e **Plano Marshall** (reconstrução da Europa), 1947.\n- Alianças: **OTAN** (1949) e **Pacto de Varsóvia** (1955).\n- **Corrida armamentista** e nuclear; equilíbrio do terror.\n- Conflitos por procuração: Coreia, Vietnã, Afeganistão.\n- **Crise dos Mísseis de Cuba (1962)**: o momento de maior risco de guerra nuclear.\n- **Détente** (distensão) nos anos 1970.\n- **Movimento dos Não Alinhados**: **Conferência de Bandung** (1955); o Terceiro Mundo.\n- **Descolonização** da África e da Ásia.\n- **Queda do Muro de Berlim (1989)** e **dissolução da União Soviética (1991)**.\n\n### Pós-Guerra Fria\n- Momento **unipolar** dos Estados Unidos; globalização e Consenso de Washington.\n- **Atentados de 11 de setembro de 2001** e \"guerra ao terror\" (Afeganistão, Iraque).\n- Ascensão da **China** e dos emergentes; tendência à **multipolaridade**.\n- Novos temas: mudança do clima (**Protocolo de Kyoto**, 1997; **Acordo de Paris**, 2015), migrações, pandemias, cibersegurança.\n- **Sul Global** e cooperação Sul-Sul.\n\n### Política externa brasileira\n- **Barão do Rio Branco** (chanceler de 1902 a 1912): consolidou as **fronteiras** por negociação e arbitragem; aproximação com os Estados Unidos. Patrono da diplomacia.\n- **Itamaraty**: o Ministério das Relações Exteriores.\n- **Política Externa Independente** (Jânio Quadros e João Goulart, 1961-64): autonomia frente aos blocos; San Tiago Dantas.\n- **Pragmatismo responsável** (Geisel, anos 1970): relações sem alinhamento ideológico.\n- Tradições: **pacifismo**, **multilateralismo**, **solução pacífica de controvérsias**, **não intervenção** e busca do **desenvolvimento** e da **autonomia**.\n- Constituição de 1988, **artigo 4º**: princípios das relações internacionais, como independência nacional, prevalência dos direitos humanos, autodeterminação dos povos, não intervenção, defesa da paz e integração da América Latina.\n- Pleito por um assento permanente no Conselho de Segurança (G4); participação nos **BRICS** e no G20; liderança em temas ambientais.",
+      "revisao": "**Lembre:**\n- Congresso de Viena (1815): equilíbrio e Concerto Europeu.\n- Guerra Fria: bipolar; Crise dos Mísseis em 1962; fim em 1991.\n- Bandung (1955): não alinhados.\n- Rio Branco: fronteiras por negociação.\n- Art. 4º da Constituição: princípios da política externa."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "relacoes-internacionais-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Nas Relações Internacionais, anarquia significa:",
+      "opcoes": [
+        "Ausência de uma autoridade central acima dos Estados",
+        "Caos e desordem permanentes",
+        "Guerra de todos contra todos em todos os momentos",
+        "Ausência de Estados"
+      ],
+      "correta": 0,
+      "explicacao": "O termo descreve a estrutura do sistema, e não necessariamente um estado de desordem."
+    },
+    {
+      "id": "relacoes-internacionais-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "A Paz de Vestfália, de 1648, é considerada o marco:",
+      "opcoes": [
+        "Da criação da ONU",
+        "Do sistema moderno de Estados soberanos",
+        "Do fim da Guerra Fria",
+        "Da fundação do Mercosul"
+      ],
+      "correta": 1,
+      "explicacao": "Ela consagrou a soberania territorial e a não intervenção em assuntos internos."
+    },
+    {
+      "id": "relacoes-internacionais-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de soft power, de Joseph Nye, refere-se à capacidade de:",
+      "opcoes": [
+        "Impor a vontade pela força militar",
+        "Aplicar sanções econômicas",
+        "Influenciar pela atração da cultura, dos valores e das políticas",
+        "Ocupar territórios"
+      ],
+      "correta": 2,
+      "explicacao": "A coerção militar e econômica corresponde ao hard power."
+    },
+    {
+      "id": "relacoes-internacionais-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Durante a Guerra Fria, o poder mundial se concentrava em Estados Unidos e União Soviética. Esse sistema é chamado de:",
+      "opcoes": [
+        "Unipolar",
+        "Multipolar",
+        "Apolar",
+        "Bipolar"
+      ],
+      "correta": 3,
+      "explicacao": "Após 1991, com o fim da União Soviética, fala-se em um momento unipolar."
+    },
+    {
+      "id": "relacoes-internacionais-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Por que a soberania tem uma dimensão interna e outra externa?",
+      "opcoes": [
+        "Internamente é a autoridade suprema no território; externamente é a independência frente a outros Estados",
+        "Porque o Estado só tem poder sobre estrangeiros",
+        "Porque a soberania depende da ONU",
+        "Porque a dimensão externa anula a interna"
+      ],
+      "correta": 0,
+      "explicacao": "As duas dimensões se completam e fundamentam a igualdade jurídica entre os Estados."
+    },
+    {
+      "id": "relacoes-internacionais-6",
+      "topico": "realismo",
+      "nivel": "conceitual",
+      "pergunta": "Para o realismo, o principal ator das relações internacionais é:",
+      "opcoes": [
+        "As ONGs",
+        "O Estado",
+        "As empresas transnacionais",
+        "Os indivíduos"
+      ],
+      "correta": 1,
+      "explicacao": "O Estado é visto como ator unitário e racional que busca sobreviver."
+    },
+    {
+      "id": "relacoes-internacionais-7",
+      "topico": "realismo",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o neorrealismo de Kenneth Waltz, o comportamento dos Estados se explica principalmente:",
+      "opcoes": [
+        "Pela natureza humana egoísta",
+        "Pelas identidades e normas",
+        "Pela estrutura anárquica do sistema e pela distribuição de capacidades",
+        "Pela luta de classes"
+      ],
+      "correta": 2,
+      "explicacao": "A ênfase na natureza humana é do realismo clássico de Morgenthau."
+    },
+    {
+      "id": "relacoes-internacionais-8",
+      "topico": "realismo",
+      "nivel": "conceitual",
+      "pergunta": "O realismo ofensivo, de John Mearsheimer, sustenta que os Estados:",
+      "opcoes": [
+        "Buscam apenas o mínimo de segurança",
+        "Confiam nas instituições internacionais",
+        "Renunciam à força militar",
+        "Buscam maximizar seu poder, visando à hegemonia"
+      ],
+      "correta": 3,
+      "explicacao": "Como nunca conhecem as intenções dos outros, tentam acumular o máximo de poder possível."
+    },
+    {
+      "id": "relacoes-internacionais-9",
+      "topico": "realismo",
+      "nivel": "aplicacao",
+      "pergunta": "Um país aumenta seu arsenal para se defender; o vizinho se sente ameaçado e também se arma, e ambos ficam menos seguros. Essa situação é chamada de:",
+      "opcoes": [
+        "Dilema de segurança",
+        "Paz democrática",
+        "Interdependência complexa",
+        "Segurança coletiva"
+      ],
+      "correta": 0,
+      "explicacao": "A busca de segurança por um Estado reduz a segurança percebida pelos demais."
+    },
+    {
+      "id": "relacoes-internacionais-10",
+      "topico": "realismo",
+      "nivel": "analise",
+      "pergunta": "Por que os realistas são céticos quanto à cooperação duradoura entre Estados?",
+      "opcoes": [
+        "Porque os Estados não têm interesses",
+        "Porque os Estados temem a trapaça e se preocupam com quem ganha mais (ganhos relativos)",
+        "Porque não existe comércio internacional",
+        "Porque as instituições sempre punem os fortes"
+      ],
+      "correta": 1,
+      "explicacao": "Um ganho maior do parceiro pode se converter em vantagem de poder contra o próprio Estado."
+    },
+    {
+      "id": "relacoes-internacionais-11",
+      "topico": "liberalismo",
+      "nivel": "conceitual",
+      "pergunta": "A tese da paz democrática afirma que:",
+      "opcoes": [
+        "Democracias nunca entram em guerra",
+        "Ditaduras são sempre pacíficas",
+        "Democracias não fazem guerra entre si",
+        "A paz depende só do equilíbrio de poder"
+      ],
+      "correta": 2,
+      "explicacao": "Ela se inspira nas ideias de Kant sobre as constituições republicanas."
+    },
+    {
+      "id": "relacoes-internacionais-12",
+      "topico": "liberalismo",
+      "nivel": "conceitual",
+      "pergunta": "Os Catorze Pontos e a proposta da Liga das Nações estão ligados a:",
+      "opcoes": [
+        "Hans Morgenthau",
+        "Kenneth Waltz",
+        "Vladimir Lênin",
+        "Woodrow Wilson"
+      ],
+      "correta": 3,
+      "explicacao": "Wilson é a principal figura do idealismo do período entreguerras."
+    },
+    {
+      "id": "relacoes-internacionais-13",
+      "topico": "liberalismo",
+      "nivel": "conceitual",
+      "pergunta": "Regimes internacionais são:",
+      "opcoes": [
+        "Conjuntos de princípios, normas, regras e procedimentos em torno dos quais convergem as expectativas dos atores",
+        "Governos autoritários de um país",
+        "Alianças militares secretas",
+        "Tribunais que julgam indivíduos"
+      ],
+      "correta": 0,
+      "explicacao": "A definição clássica é de Stephen Krasner e se aplica a áreas como comércio e não proliferação."
+    },
+    {
+      "id": "relacoes-internacionais-14",
+      "topico": "liberalismo",
+      "nivel": "aplicacao",
+      "pergunta": "Dois países com intenso comércio e investimentos mútuos evitam um conflito armado por causa dos prejuízos que teriam. Essa situação ilustra:",
+      "opcoes": [
+        "O realismo ofensivo",
+        "O liberalismo comercial e a interdependência",
+        "A teoria da dependência",
+        "O dilema de segurança"
+      ],
+      "correta": 1,
+      "explicacao": "A interdependência econômica eleva o custo da guerra para os dois lados."
+    },
+    {
+      "id": "relacoes-internacionais-15",
+      "topico": "liberalismo",
+      "nivel": "analise",
+      "pergunta": "Como as instituições internacionais favorecem a cooperação, segundo o institucionalismo neoliberal?",
+      "opcoes": [
+        "Eliminam a anarquia criando um governo mundial",
+        "Obrigam todos os Estados a se desarmar",
+        "Reduzem custos de transação, fornecem informação e permitem identificar quem descumpre os acordos",
+        "Substituem os Estados como atores"
+      ],
+      "correta": 2,
+      "explicacao": "Com mais informação e expectativas estáveis, o medo da trapaça diminui."
+    },
+    {
+      "id": "relacoes-internacionais-16",
+      "topico": "criticas",
+      "nivel": "conceitual",
+      "pergunta": "A frase \"a anarquia é o que os Estados fazem dela\" resume a visão do:",
+      "opcoes": [
+        "Realismo, de Morgenthau",
+        "Neorrealismo, de Waltz",
+        "Marxismo, de Lênin",
+        "Construtivismo, de Alexander Wendt"
+      ],
+      "correta": 3,
+      "explicacao": "Para Wendt, a anarquia não tem uma lógica única; ela depende das ideias e identidades dos atores."
+    },
+    {
+      "id": "relacoes-internacionais-17",
+      "topico": "criticas",
+      "nivel": "conceitual",
+      "pergunta": "Na teoria do sistema-mundo, de Wallerstein, a economia mundial se divide em:",
+      "opcoes": [
+        "Centro, semiperiferia e periferia",
+        "Leste e Oeste",
+        "Democracias e ditaduras",
+        "Aliados e neutros"
+      ],
+      "correta": 0,
+      "explicacao": "A unidade de análise é a economia-mundo capitalista, e não cada Estado isolado."
+    },
+    {
+      "id": "relacoes-internacionais-18",
+      "topico": "criticas",
+      "nivel": "conceitual",
+      "pergunta": "Para a teoria da dependência, o subdesenvolvimento é:",
+      "opcoes": [
+        "Uma etapa natural anterior ao desenvolvimento",
+        "Resultado da inserção desigual dos países na economia mundial",
+        "Consequência do clima tropical",
+        "Fruto da falta de recursos naturais"
+      ],
+      "correta": 1,
+      "explicacao": "Autores ligados à Cepal destacaram a relação desigual entre centro e periferia."
+    },
+    {
+      "id": "relacoes-internacionais-19",
+      "topico": "criticas",
+      "nivel": "aplicacao",
+      "pergunta": "Um governo passa a tratar a imigração como ameaça existencial à nação, justificando medidas de exceção. Para a Escola de Copenhague, isso é um caso de:",
+      "opcoes": [
+        "Dissuasão nuclear",
+        "Interdependência complexa",
+        "Securitização",
+        "Equilíbrio de poder"
+      ],
+      "correta": 2,
+      "explicacao": "Um tema vira questão de segurança quando é apresentado e aceito como ameaça."
+    },
+    {
+      "id": "relacoes-internacionais-20",
+      "topico": "criticas",
+      "nivel": "analise",
+      "pergunta": "O que Robert Cox quis dizer com \"toda teoria é sempre para alguém e para algum propósito\"?",
+      "opcoes": [
+        "Que as teorias não têm utilidade",
+        "Que só o realismo é científico",
+        "Que as teorias devem ser escritas por governos",
+        "Que nenhuma teoria é neutra; todas refletem uma posição e servem a interesses"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso ele distingue as teorias de solução de problemas da teoria crítica."
+    },
+    {
+      "id": "relacoes-internacionais-21",
+      "topico": "organizacoes",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os cinco membros permanentes do Conselho de Segurança da ONU?",
+      "opcoes": [
+        "Estados Unidos, Rússia, China, França e Reino Unido",
+        "Estados Unidos, Alemanha, Japão, Brasil e Índia",
+        "Rússia, China, Índia, Brasil e África do Sul",
+        "Estados Unidos, Canadá, França, Itália e Japão"
+      ],
+      "correta": 0,
+      "explicacao": "Cada um deles tem poder de veto sobre as decisões substantivas do Conselho."
+    },
+    {
+      "id": "relacoes-internacionais-22",
+      "topico": "organizacoes",
+      "nivel": "conceitual",
+      "pergunta": "A Corte Internacional de Justiça julga:",
+      "opcoes": [
+        "Indivíduos acusados de crimes de guerra",
+        "Controvérsias entre Estados",
+        "Empresas multinacionais",
+        "Disputas comerciais na OMC"
+      ],
+      "correta": 1,
+      "explicacao": "O julgamento de indivíduos por crimes internacionais cabe ao Tribunal Penal Internacional."
+    },
+    {
+      "id": "relacoes-internacionais-23",
+      "topico": "organizacoes",
+      "nivel": "conceitual",
+      "pergunta": "O Mercosul foi criado pelo:",
+      "opcoes": [
+        "Tratado de Versalhes, em 1919",
+        "Tratado de Roma, em 1957",
+        "Tratado de Assunção, em 1991",
+        "Tratado de Tordesilhas, em 1494"
+      ],
+      "correta": 2,
+      "explicacao": "Os membros fundadores foram Brasil, Argentina, Paraguai e Uruguai."
+    },
+    {
+      "id": "relacoes-internacionais-24",
+      "topico": "organizacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Um bloco elimina as tarifas entre os membros e adota uma tarifa externa comum, mas ainda não permite a livre circulação de trabalhadores e capitais. Trata-se de:",
+      "opcoes": [
+        "Uma zona de livre comércio",
+        "Um mercado comum",
+        "Uma união monetária",
+        "Uma união aduaneira"
+      ],
+      "correta": 3,
+      "explicacao": "A zona de livre comércio não tem tarifa externa comum; o mercado comum inclui a livre circulação de fatores."
+    },
+    {
+      "id": "relacoes-internacionais-25",
+      "topico": "organizacoes",
+      "nivel": "analise",
+      "pergunta": "Por que o poder de veto no Conselho de Segurança é alvo de críticas?",
+      "opcoes": [
+        "Porque um único membro permanente pode bloquear decisões, mesmo com ampla maioria favorável",
+        "Porque todos os 193 membros têm veto",
+        "Porque o veto só vale para temas culturais",
+        "Porque impede a Assembleia Geral de se reunir"
+      ],
+      "correta": 0,
+      "explicacao": "A composição reflete o equilíbrio de 1945, e não a distribuição atual de poder."
+    },
+    {
+      "id": "relacoes-internacionais-26",
+      "topico": "historia",
+      "nivel": "conceitual",
+      "pergunta": "A Guerra Fria se caracterizou por:",
+      "opcoes": [
+        "Um conflito armado direto entre as duas superpotências",
+        "Uma disputa bipolar entre Estados Unidos e União Soviética, sem guerra direta entre eles",
+        "A hegemonia única da Europa",
+        "O fim das armas nucleares"
+      ],
+      "correta": 1,
+      "explicacao": "O confronto se deu por alianças, corrida armamentista e conflitos em outros países."
+    },
+    {
+      "id": "relacoes-internacionais-27",
+      "topico": "historia",
+      "nivel": "conceitual",
+      "pergunta": "O momento de maior risco de guerra nuclear na Guerra Fria foi:",
+      "opcoes": [
+        "A Conferência de Bandung, em 1955",
+        "A queda do Muro de Berlim, em 1989",
+        "A Crise dos Mísseis de Cuba, em 1962",
+        "O Plano Marshall, em 1947"
+      ],
+      "correta": 2,
+      "explicacao": "A instalação de mísseis soviéticos em Cuba levou a um impasse de treze dias."
+    },
+    {
+      "id": "relacoes-internacionais-28",
+      "topico": "historia",
+      "nivel": "conceitual",
+      "pergunta": "O Barão do Rio Branco é lembrado principalmente por:",
+      "opcoes": [
+        "Proclamar a República",
+        "Criar o Mercosul",
+        "Fundar a ONU",
+        "Consolidar as fronteiras brasileiras por negociação e arbitragem"
+      ],
+      "correta": 3,
+      "explicacao": "Chanceler de 1902 a 1912, é o patrono da diplomacia brasileira."
+    },
+    {
+      "id": "relacoes-internacionais-29",
+      "topico": "historia",
+      "nivel": "aplicacao",
+      "pergunta": "Nos anos 1960, o Brasil defendeu relações com todos os países, sem se alinhar automaticamente a nenhum bloco. Essa orientação ficou conhecida como:",
+      "opcoes": [
+        "Política Externa Independente",
+        "Doutrina Truman",
+        "Pacto de Varsóvia",
+        "Consenso de Washington"
+      ],
+      "correta": 0,
+      "explicacao": "Foi formulada nos governos de Jânio Quadros e João Goulart."
+    },
+    {
+      "id": "relacoes-internacionais-30",
+      "topico": "historia",
+      "nivel": "analise",
+      "pergunta": "Por que a Conferência de Bandung, de 1955, é importante para a história das relações internacionais?",
+      "opcoes": [
+        "Criou a OTAN",
+        "Reuniu países da Ásia e da África recém-independentes e inspirou o Movimento dos Não Alinhados",
+        "Dividiu a Alemanha em dois Estados",
+        "Encerrou a Segunda Guerra Mundial"
+      ],
+      "correta": 1,
+      "explicacao": "Deu voz ao chamado Terceiro Mundo, fora da lógica dos dois blocos."
+    }
+  ]
+}

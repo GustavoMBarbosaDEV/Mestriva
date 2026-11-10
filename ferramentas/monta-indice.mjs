@@ -1188,6 +1188,118 @@ export const EXTRA = {
       "Histologia e Embriologia Bucal",
       "Anatomia Bucal"
     ]
+  },
+  "teorias-comunicacao": {
+    "area": "Humanas",
+    "apelidos": [
+      "Teorias da Comunicação",
+      "Teoria da Comunicação",
+      "Teorias da Comunicação I",
+      "Teorias da Comunicação II",
+      "Introdução à Comunicação",
+      "Fundamentos da Comunicação",
+      "Comunicação Social",
+      "Introdução ao Jornalismo",
+      "Teorias do Jornalismo",
+      "Introdução à Publicidade e Propaganda",
+      "Comunicação e Sociedade",
+      "Comunicação de Massa",
+      "Teoria da Comunicação e da Informação",
+      "Fundamentos de Comunicação Social"
+    ]
+  },
+  "servico-social": {
+    "area": "Humanas",
+    "apelidos": [
+      "Fundamentos do Serviço Social",
+      "Introdução ao Serviço Social",
+      "Fundamentos Históricos e Teórico-Metodológicos do Serviço Social",
+      "Fundamentos Históricos, Teóricos e Metodológicos do Serviço Social",
+      "Fundamentos Teórico-Metodológicos do Serviço Social",
+      "Serviço Social",
+      "Política Social",
+      "Políticas Sociais",
+      "Política de Assistência Social",
+      "Seguridade Social",
+      "Questão Social",
+      "Serviço Social e Questão Social",
+      "Instrumentalidade do Serviço Social"
+    ]
+  },
+  "relacoes-internacionais": {
+    "area": "Humanas",
+    "apelidos": [
+      "Relações Internacionais",
+      "Introdução às Relações Internacionais",
+      "Teoria das Relações Internacionais",
+      "Teorias das Relações Internacionais",
+      "Teoria das Relações Internacionais I",
+      "Teoria das Relações Internacionais II",
+      "Introdução ao Estudo das Relações Internacionais",
+      "História das Relações Internacionais",
+      "Política Internacional",
+      "Organizações Internacionais",
+      "Fundamentos de Relações Internacionais",
+      "Política Internacional Contemporânea"
+    ]
+  },
+  "historia-arquitetura": {
+    "area": "Humanas",
+    "apelidos": [
+      "História da Arquitetura",
+      "História da Arquitetura e do Urbanismo",
+      "História da Arquitetura e Urbanismo",
+      "História e Teoria da Arquitetura",
+      "Teoria e História da Arquitetura",
+      "Teoria e História da Arquitetura e do Urbanismo",
+      "História da Arquitetura I",
+      "História da Arquitetura II",
+      "História da Arte e da Arquitetura",
+      "História da Arquitetura e da Arte",
+      "Teoria da Arquitetura",
+      "Arquitetura Brasileira",
+      "História da Arquitetura Brasileira",
+      "História do Urbanismo"
+    ]
+  },
+  "fundamentos-design": {
+    "area": "Humanas",
+    "apelidos": [
+      "Fundamentos do Design",
+      "Introdução ao Design",
+      "Fundamentos de Design",
+      "História do Design",
+      "Design Gráfico",
+      "Teoria do Design",
+      "Teoria e História do Design",
+      "Metodologia de Projeto",
+      "Metodologia do Design",
+      "Linguagem Visual",
+      "Teoria da Cor",
+      "Tipografia",
+      "Comunicação Visual",
+      "Fundamentos do Design Gráfico",
+      "Composição Visual",
+      "Design"
+    ]
+  },
+  "anatomia-veterinaria": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Anatomia Veterinária",
+      "Anatomia Veterinária I",
+      "Anatomia Veterinária II",
+      "Anatomia Animal",
+      "Anatomia dos Animais Domésticos",
+      "Anatomia dos Animais Domésticos I",
+      "Anatomia dos Animais Domésticos II",
+      "Anatomia Descritiva dos Animais Domésticos",
+      "Anatomia Topográfica dos Animais Domésticos",
+      "Anatomia Comparada",
+      "Anatomia Veterinária Aplicada",
+      "Anatomia e Fisiologia Animal",
+      "Anatomia Animal Comparada"
+    ]
   }
 };
 
