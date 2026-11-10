@@ -168,6 +168,48 @@
       ]
     },
     {
+      "id": "arquitetura-computadores",
+      "nome": "Arquitetura de Computadores",
+      "apelidos": [
+        "Arquitetura de Computadores I",
+        "Arquitetura e Organização de Computadores",
+        "Organização de Computadores",
+        "Organização e Arquitetura de Computadores",
+        "Sistemas Digitais",
+        "Circuitos Digitais",
+        "Eletrônica Digital",
+        "Lógica Digital",
+        "Fundamentos de Sistemas Digitais"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "representacao",
+          "nome": "Sistemas de numeração e representação de dados"
+        },
+        {
+          "id": "logica",
+          "nome": "Lógica digital"
+        },
+        {
+          "id": "cpu",
+          "nome": "Organização da CPU e ciclo de instrução"
+        },
+        {
+          "id": "isa",
+          "nome": "Conjunto de instruções: RISC e CISC"
+        },
+        {
+          "id": "memoria",
+          "nome": "Hierarquia de memória e cache"
+        },
+        {
+          "id": "paralelismo",
+          "nome": "Pipeline, paralelismo e entrada/saída"
+        }
+      ]
+    },
+    {
       "id": "banco-de-dados",
       "nome": "Banco de Dados",
       "apelidos": [
@@ -699,6 +741,49 @@
       ]
     },
     {
+      "id": "engenharia-software",
+      "nome": "Engenharia de Software",
+      "apelidos": [
+        "Engenharia de Software I",
+        "Engenharia de Software II",
+        "Engenharia de Requisitos",
+        "Análise e Projeto de Sistemas",
+        "Análise de Sistemas",
+        "Modelagem de Sistemas",
+        "Processos de Software",
+        "Teste de Software",
+        "Qualidade de Software",
+        "Metodologias Ágeis"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "processos",
+          "nome": "Processos de software"
+        },
+        {
+          "id": "ageis",
+          "nome": "Métodos ágeis"
+        },
+        {
+          "id": "requisitos",
+          "nome": "Engenharia de requisitos"
+        },
+        {
+          "id": "uml",
+          "nome": "Modelagem com UML"
+        },
+        {
+          "id": "testes",
+          "nome": "Testes e qualidade"
+        },
+        {
+          "id": "projeto",
+          "nome": "Projeto, arquitetura e boas práticas"
+        }
+      ]
+    },
+    {
       "id": "epidemiologia",
       "nome": "Epidemiologia",
       "apelidos": [
@@ -782,6 +867,48 @@
         {
           "id": "testes-hipotese",
           "nome": "Testes de hipótese"
+        }
+      ]
+    },
+    {
+      "id": "estrutura-dados",
+      "nome": "Estrutura de Dados",
+      "apelidos": [
+        "Estruturas de Dados",
+        "Estrutura de Dados I",
+        "Estrutura de Dados II",
+        "Estruturas de Dados I",
+        "Estruturas de Dados II",
+        "Algoritmos e Estruturas de Dados II",
+        "AEDS II",
+        "Estruturas de Dados e Algoritmos",
+        "Programação II"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "complexidade",
+          "nome": "Análise de complexidade"
+        },
+        {
+          "id": "listas",
+          "nome": "Vetores e listas encadeadas"
+        },
+        {
+          "id": "pilhas-filas",
+          "nome": "Pilhas e filas"
+        },
+        {
+          "id": "arvores",
+          "nome": "Árvores"
+        },
+        {
+          "id": "hash-grafos",
+          "nome": "Tabelas hash e grafos"
+        },
+        {
+          "id": "ordenacao",
+          "nome": "Ordenação e busca"
         }
       ]
     },
@@ -1846,6 +1973,48 @@
         {
           "id": "equilibrio-e-ph",
           "nome": "Equilíbrio Químico e pH"
+        }
+      ]
+    },
+    {
+      "id": "redes-computadores",
+      "nome": "Redes de Computadores",
+      "apelidos": [
+        "Redes de Computadores I",
+        "Redes de Computadores II",
+        "Redes",
+        "Redes I",
+        "Fundamentos de Redes",
+        "Fundamentos de Redes de Computadores",
+        "Comunicação de Dados",
+        "Redes e Comunicação de Dados",
+        "Segurança de Redes"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "modelos",
+          "nome": "Conceitos e modelos em camadas"
+        },
+        {
+          "id": "aplicacao",
+          "nome": "Camada de aplicação"
+        },
+        {
+          "id": "transporte",
+          "nome": "Camada de transporte: TCP e UDP"
+        },
+        {
+          "id": "rede",
+          "nome": "Camada de rede: IP e roteamento"
+        },
+        {
+          "id": "enlace",
+          "nome": "Camada de enlace, redes locais e sem fio"
+        },
+        {
+          "id": "seguranca",
+          "nome": "Segurança de redes"
         }
       ]
     },

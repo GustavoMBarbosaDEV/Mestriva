@@ -1,0 +1,465 @@
+{
+  "id": "estrutura-dados",
+  "nome": "Estrutura de Dados",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "complexidade",
+      "nome": "Análise de complexidade",
+      "resumo": "Para comparar algoritmos, olhamos como o **tempo** (ou a memória) cresce quando o tamanho da entrada **n** cresce.\n\n### Notação O (Big-O)\nDá um **limite superior** do crescimento, ignorando constantes e termos menores. 3n² + 5n + 2 é **O(n²)**.\n- **Ω (ômega)**: limite inferior. **Θ (teta)**: limite justo (superior e inferior ao mesmo tempo).\n\n### Classes mais comuns (da melhor para a pior)\n- **O(1)**: constante (acessar v[i] num vetor).\n- **O(log n)**: logarítmica (busca binária).\n- **O(n)**: linear (percorrer uma lista).\n- **O(n log n)**: mergesort, heapsort, quicksort no caso médio.\n- **O(n²)**: quadrática (dois laços aninhados, bubble sort).\n- **O(2ⁿ)**: exponencial (testar todos os subconjuntos).\n- **O(n!)**: fatorial (testar todas as permutações).\n\n### Regras práticas\n- Laços **em sequência** somam: O(n) + O(n) = O(n).\n- Laços **aninhados** multiplicam: O(n) × O(n) = O(n²).\n- Um laço que **divide n pela metade** a cada passo é O(log n).\n\n### Melhor, pior e caso médio\nA busca sequencial é O(1) no **melhor caso** (o item é o primeiro) e O(n) no **pior caso** (o item é o último ou não existe).\n\n### Recursão\n- Recorrências descrevem o custo: mergesort tem T(n) = 2T(n/2) + O(n), que dá **O(n log n)**.\n- Cada chamada recursiva ocupa espaço na **pilha de chamadas**.\n\n### Custo amortizado\nUma operação cara de vez em quando pode ter custo médio baixo. Inserir no fim de um vetor dinâmico que dobra de tamanho quando enche é **O(1) amortizado**.",
+      "revisao": "**Lembre:**\n- O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ).\n- Laços aninhados multiplicam; em sequência somam.\n- Dividir pela metade: O(log n).\n- Big-O: limite superior; Θ: limite justo."
+    },
+    {
+      "id": "listas",
+      "nome": "Vetores e listas encadeadas",
+      "resumo": "### Vetor (array)\n- Elementos em posições **contíguas** da memória.\n- **Acesso por índice em O(1)**.\n- Inserir ou remover no **meio** exige deslocar elementos: **O(n)**.\n- Tamanho fixo (o vetor dinâmico, como ArrayList ou a lista do Python, realoca quando enche).\n\n### Lista encadeada\nCada **nó** guarda o dado e um **ponteiro** (referência) para o próximo.\n- **Simplesmente encadeada**: só aponta para o próximo.\n- **Duplamente encadeada**: aponta para o próximo e para o anterior; permite percorrer nos dois sentidos.\n- **Circular**: o último aponta para o primeiro.\n- Acessar o k-ésimo elemento exige percorrer: **O(n)**.\n- Inserir ou remover **no início**, ou num ponto em que já se tem a referência: **O(1)**, só ajustando ponteiros.\n- Usa memória extra para os ponteiros, mas cresce sem realocar.\n\n### Comparação\n| Operação | Vetor | Lista encadeada |\n|---|---|---|\n| Acesso por posição | O(1) | O(n) |\n| Inserção no início | O(n) | O(1) |\n| Busca de valor | O(n) | O(n) |\n\n### Cuidados\n- Perder a referência ao primeiro nó (a **cabeça**) perde a lista inteira.\n- Em linguagens como C, esquecer de liberar nós causa **vazamento de memória**; acessar um ponteiro nulo causa erro.\n- **Nó sentinela** (cabeça fictícia) simplifica as inserções e remoções nas pontas.",
+      "revisao": "**Lembre:**\n- Vetor: acesso O(1), inserção no meio O(n).\n- Lista: acesso O(n), inserção com referência O(1).\n- Dupla: ponteiros para próximo e anterior.\n- Circular: último aponta para o primeiro."
+    },
+    {
+      "id": "pilhas-filas",
+      "nome": "Pilhas e filas",
+      "resumo": "### Pilha (stack)\n- Regra **LIFO** (*last in, first out*): o último a entrar é o primeiro a sair.\n- Operações: **push** (empilhar), **pop** (desempilhar), **top/peek** (olhar o topo). Todas **O(1)**.\n- Usos: **desfazer** (Ctrl+Z), **pilha de chamadas** de funções e recursão, voltar no navegador, verificar **parênteses balanceados**, avaliar expressões em **notação pós-fixa**, busca em profundidade (DFS).\n- Tentar desempilhar de uma pilha vazia é **underflow**; empilhar numa pilha cheia (de tamanho fixo) é **overflow**.\n\n### Fila (queue)\n- Regra **FIFO** (*first in, first out*): o primeiro a entrar é o primeiro a sair.\n- Operações: **enqueue** (inserir no fim), **dequeue** (retirar do início). **O(1)**.\n- Usos: fila de impressão, atendimento, **buffer** de dados, busca em largura (BFS), escalonamento de processos.\n- **Fila circular** num vetor: os índices de início e fim \"dão a volta\" com o operador módulo, aproveitando o espaço liberado.\n\n### Variações\n- **Deque**: insere e remove nas **duas pontas**.\n- **Fila de prioridade**: sai primeiro o elemento de **maior prioridade**, não o mais antigo. Implementada com **heap**: inserir e retirar em **O(log n)**.\n\n### Exemplo de pós-fixa\nA expressão **3 4 + 2 ×** se avalia com uma pilha: empilha 3 e 4; o + desempilha os dois e empilha 7; empilha 2; o × dá **14**.",
+      "revisao": "**Lembre:**\n- Pilha: LIFO (push, pop).\n- Fila: FIFO (enqueue, dequeue).\n- Pilha: desfazer, recursão, parênteses, DFS.\n- Fila: atendimento, BFS, buffer.\n- Fila de prioridade: heap, O(log n)."
+    },
+    {
+      "id": "arvores",
+      "nome": "Árvores",
+      "resumo": "### Conceitos\n- **Raiz**: nó do topo. **Folha**: nó sem filhos. **Altura**: maior caminho da raiz até uma folha.\n- **Árvore binária**: cada nó tem no máximo **2 filhos**.\n\n### Percursos\n- **Pré-ordem**: raiz, esquerda, direita.\n- **Em ordem** (simétrica): esquerda, raiz, direita.\n- **Pós-ordem**: esquerda, direita, raiz.\n- **Em nível** (largura): nível por nível, usando uma fila.\n\n### Árvore binária de busca (ABB ou BST)\n- Para cada nó: os valores à **esquerda** são **menores** e à **direita**, **maiores**.\n- O percurso **em ordem** mostra os valores **ordenados**.\n- Busca, inserção e remoção custam **O(altura)**: **O(log n)** se a árvore está equilibrada, mas **O(n)** se degenerar numa \"lista\" (inserir dados já ordenados).\n- **Remoção** de nó com dois filhos: troca-se pelo **sucessor** (menor da subárvore direita) ou **predecessor**.\n\n### Árvores balanceadas\n- **AVL**: a diferença de altura entre as subárvores de cada nó (**fator de balanceamento**) é no máximo 1; corrige com **rotações**.\n- **Rubro-negra**: regras de cores que garantem altura O(log n); usada em bibliotecas (TreeMap do Java).\n- **Árvore B**: muitos filhos por nó; ideal para **disco** e **índices de banco de dados**.\n\n### Heap\nÁrvore binária **completa** em que cada pai é **maior** (heap máximo) ou **menor** (heap mínimo) que os filhos. Fica guardada num vetor: filhos de i em 2i+1 e 2i+2. Base da **fila de prioridade** e do **heapsort**.",
+      "revisao": "**Lembre:**\n- ABB: esquerda menor, direita maior.\n- Em ordem numa ABB = valores ordenados.\n- Equilibrada O(log n); degenerada O(n).\n- AVL: fator de balanceamento entre −1 e 1.\n- Heap: pai maior (ou menor) que os filhos."
+    },
+    {
+      "id": "hash-grafos",
+      "nome": "Tabelas hash e grafos",
+      "resumo": "### Tabela hash (dispersão)\n- Uma **função hash** transforma a chave num **índice** do vetor.\n- Busca, inserção e remoção em **O(1) em média**.\n- **Colisão**: duas chaves caem no mesmo índice. Soluções:\n  - **Encadeamento** (separate chaining): cada posição guarda uma lista.\n  - **Endereçamento aberto**: procura outra posição livre (sondagem **linear**, quadrática, hash duplo).\n- **Fator de carga** = elementos ÷ tamanho da tabela. Quando fica alto, a tabela é **redimensionada** (rehash).\n- No pior caso (tudo colidindo), vira **O(n)**.\n- Não guarda **ordem**: para listar ordenado, é melhor uma árvore.\n\n### Grafos\nConjunto de **vértices** ligados por **arestas**.\n- **Dirigido** (as arestas têm sentido) ou **não dirigido**; **ponderado** (arestas com peso) ou não.\n- **Representação**:\n  - **Matriz de adjacência**: V×V; consulta aresta em O(1), gasta O(V²) de memória. Boa para grafos densos.\n  - **Lista de adjacência**: cada vértice lista os vizinhos; memória O(V + E). Boa para grafos esparsos.\n\n### Percursos\n- **BFS** (busca em largura): usa **fila**; acha o **menor caminho em número de arestas** em grafos sem peso.\n- **DFS** (busca em profundidade): usa **pilha** ou recursão; útil para detectar ciclos e ordenação topológica.\n- Ambos custam **O(V + E)** com lista de adjacência.\n\n### Algoritmos clássicos\n- **Dijkstra**: menor caminho com pesos **não negativos**.\n- **Bellman-Ford**: aceita pesos negativos.\n- **Prim** e **Kruskal**: **árvore geradora mínima**.\n- **Ordenação topológica**: ordem de tarefas com dependências (grafo dirigido acíclico).",
+      "revisao": "**Lembre:**\n- Hash: O(1) médio; colisões por encadeamento ou endereçamento aberto.\n- Matriz (densos) × lista de adjacência (esparsos).\n- BFS: fila, menor caminho sem peso.\n- DFS: pilha ou recursão.\n- Dijkstra: pesos não negativos."
+    },
+    {
+      "id": "ordenacao",
+      "nome": "Ordenação e busca",
+      "resumo": "### Busca\n- **Sequencial** (linear): olha um por um, **O(n)**; funciona em qualquer lista.\n- **Binária**: exige a lista **ordenada**; compara com o meio e descarta metade a cada passo: **O(log n)**. Com 1 milhão de itens, cerca de **20 comparações**.\n\n### Algoritmos simples, O(n²)\n- **Bubble sort**: troca vizinhos fora de ordem, repetidamente.\n- **Selection sort**: escolhe o menor e coloca na posição certa; poucas trocas.\n- **Insertion sort**: insere cada elemento no lugar certo da parte já ordenada. É **O(n)** se a lista já está quase ordenada; bom para listas pequenas.\n\n### Algoritmos eficientes\n- **Merge sort**: divide ao meio, ordena cada metade e **intercala**. **O(n log n)** sempre, **estável**, mas usa memória extra O(n).\n- **Quick sort**: escolhe um **pivô**, separa menores e maiores (**partição**) e ordena cada lado. **O(n log n)** em média, mas **O(n²)** no pior caso (pivô ruim, como o primeiro elemento numa lista já ordenada). Ordena no lugar e é muito rápido na prática.\n- **Heap sort**: usa um heap; **O(n log n)** sempre, no lugar, não estável.\n\n### Estabilidade\nUm algoritmo é **estável** se mantém a ordem original de elementos com **chaves iguais**. Importa ao ordenar por vários critérios (primeiro por nome, depois por turma).\n\n### Ordenação sem comparação\n**Counting sort** e **radix sort** podem ser **O(n)** quando as chaves são inteiros num intervalo pequeno. O limite O(n log n) só vale para ordenações por **comparação**.",
+      "revisao": "**Lembre:**\n- Busca binária: lista ordenada, O(log n).\n- Bubble, selection, insertion: O(n²).\n- Merge: O(n log n) sempre, estável, memória extra.\n- Quick: O(n log n) médio, O(n²) pior caso.\n- Estável: mantém a ordem dos iguais."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "estrutura-dados-1",
+      "topico": "complexidade",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a complexidade de 5n² + 3n + 10 na notação O?",
+      "opcoes": [
+        "O(n²)",
+        "O(n)",
+        "O(5n²)",
+        "O(n³)"
+      ],
+      "correta": 0,
+      "explicacao": "Na notação O ignoramos constantes e termos de menor crescimento; o termo dominante é n²."
+    },
+    {
+      "id": "estrutura-dados-2",
+      "topico": "complexidade",
+      "nivel": "conceitual",
+      "pergunta": "Qual destas classes de complexidade cresce mais devagar?",
+      "opcoes": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "correta": 1,
+      "explicacao": "A ordem é O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ)."
+    },
+    {
+      "id": "estrutura-dados-3",
+      "topico": "complexidade",
+      "nivel": "conceitual",
+      "pergunta": "Dois laços aninhados, cada um percorrendo n elementos, resultam em complexidade:",
+      "opcoes": [
+        "O(2n)",
+        "O(n)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "correta": 2,
+      "explicacao": "Laços aninhados multiplicam: n × n. Laços em sequência somariam, ficando O(n)."
+    },
+    {
+      "id": "estrutura-dados-4",
+      "topico": "complexidade",
+      "nivel": "aplicacao",
+      "pergunta": "Um laço começa com i = n e faz i = i / 2 até chegar a 1. Quantas vezes ele roda, aproximadamente?",
+      "opcoes": [
+        "n vezes",
+        "n/2 vezes",
+        "n² vezes",
+        "log₂ n vezes"
+      ],
+      "correta": 3,
+      "explicacao": "Dividir pela metade a cada passo leva cerca de log₂ n passos: com n = 1.024, são 10."
+    },
+    {
+      "id": "estrutura-dados-5",
+      "topico": "complexidade",
+      "nivel": "analise",
+      "pergunta": "Um algoritmo O(n²) leva 1 segundo para n = 1.000. Quanto tempo deve levar, aproximadamente, para n = 10.000?",
+      "opcoes": [
+        "100 segundos",
+        "10 segundos",
+        "1.000 segundos",
+        "20 segundos"
+      ],
+      "correta": 0,
+      "explicacao": "Com n 10 vezes maior, o tempo cresce 10² = 100 vezes. Por isso algoritmos quadráticos ficam inviáveis com entradas grandes."
+    },
+    {
+      "id": "estrutura-dados-6",
+      "topico": "listas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a complexidade de acessar o elemento da posição i num vetor?",
+      "opcoes": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "correta": 1,
+      "explicacao": "Os elementos estão contíguos na memória; o endereço é calculado diretamente pelo índice."
+    },
+    {
+      "id": "estrutura-dados-7",
+      "topico": "listas",
+      "nivel": "conceitual",
+      "pergunta": "Numa lista duplamente encadeada, cada nó guarda:",
+      "opcoes": [
+        "Só o dado",
+        "O dado e um ponteiro para a raiz",
+        "O dado e ponteiros para o próximo e para o anterior",
+        "Dois dados e nenhum ponteiro"
+      ],
+      "correta": 2,
+      "explicacao": "Os dois ponteiros permitem percorrer a lista nos dois sentidos e remover um nó sem procurar o anterior."
+    },
+    {
+      "id": "estrutura-dados-8",
+      "topico": "listas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a vantagem da lista encadeada em relação ao vetor?",
+      "opcoes": [
+        "Acesso por índice em O(1)",
+        "Gasta menos memória por elemento",
+        "Busca de valor em O(log n)",
+        "Inserir no início em O(1), sem deslocar elementos"
+      ],
+      "correta": 3,
+      "explicacao": "No vetor, inserir no início exige deslocar todos os elementos (O(n)); na lista, basta ajustar ponteiros."
+    },
+    {
+      "id": "estrutura-dados-9",
+      "topico": "listas",
+      "nivel": "aplicacao",
+      "pergunta": "Um programa precisa ler muitas vezes o elemento de posições aleatórias e quase nunca insere. Que estrutura é melhor?",
+      "opcoes": [
+        "Vetor",
+        "Lista simplesmente encadeada",
+        "Lista circular",
+        "Pilha"
+      ],
+      "correta": 0,
+      "explicacao": "O vetor dá acesso por posição em O(1); na lista encadeada seria preciso percorrer até a posição."
+    },
+    {
+      "id": "estrutura-dados-10",
+      "topico": "listas",
+      "nivel": "analise",
+      "pergunta": "Numa lista simplesmente encadeada, o programador faz cabeca = cabeca.proximo sem guardar o nó antigo, numa linguagem sem coleta de lixo. Que problema isso pode causar?",
+      "opcoes": [
+        "Estouro de pilha imediato",
+        "Vazamento de memória, pois o nó antigo fica sem referência e não é liberado",
+        "A lista vira duplamente encadeada",
+        "Nenhum problema"
+      ],
+      "correta": 1,
+      "explicacao": "Em C, por exemplo, é preciso guardar o ponteiro e chamar free; sem isso, a memória do nó se perde."
+    },
+    {
+      "id": "estrutura-dados-11",
+      "topico": "pilhas-filas",
+      "nivel": "conceitual",
+      "pergunta": "Qual regra descreve uma pilha?",
+      "opcoes": [
+        "FIFO: o primeiro a entrar é o primeiro a sair",
+        "Sai sempre o de maior prioridade",
+        "LIFO: o último a entrar é o primeiro a sair",
+        "Sai sempre o elemento do meio"
+      ],
+      "correta": 2,
+      "explicacao": "A pilha funciona como uma pilha de pratos: tira-se o de cima, que foi o último colocado."
+    },
+    {
+      "id": "estrutura-dados-12",
+      "topico": "pilhas-filas",
+      "nivel": "conceitual",
+      "pergunta": "Qual estrutura é usada na busca em largura (BFS)?",
+      "opcoes": [
+        "Pilha",
+        "Árvore AVL",
+        "Tabela hash",
+        "Fila"
+      ],
+      "correta": 3,
+      "explicacao": "A fila garante que os vértices sejam visitados por ordem de distância; a DFS usa pilha."
+    },
+    {
+      "id": "estrutura-dados-13",
+      "topico": "pilhas-filas",
+      "nivel": "conceitual",
+      "pergunta": "A função 'desfazer' (Ctrl+Z) de um editor costuma usar:",
+      "opcoes": [
+        "Uma pilha",
+        "Uma fila",
+        "Uma tabela hash",
+        "Um grafo"
+      ],
+      "correta": 0,
+      "explicacao": "A última ação feita é a primeira a ser desfeita: comportamento LIFO."
+    },
+    {
+      "id": "estrutura-dados-14",
+      "topico": "pilhas-filas",
+      "nivel": "aplicacao",
+      "pergunta": "Numa pilha vazia, fazemos push(1), push(2), push(3), pop(), push(4), pop(). Qual elemento fica no topo?",
+      "opcoes": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correta": 1,
+      "explicacao": "Após os três push: [1, 2, 3]. pop tira 3; push(4): [1, 2, 4]; pop tira 4. Topo: 2."
+    },
+    {
+      "id": "estrutura-dados-15",
+      "topico": "pilhas-filas",
+      "nivel": "analise",
+      "pergunta": "Qual é o resultado da expressão pós-fixa 5 1 2 + 4 × + 3 −, avaliada com uma pilha?",
+      "opcoes": [
+        "18",
+        "12",
+        "14",
+        "20"
+      ],
+      "correta": 2,
+      "explicacao": "1 2 + = 3; 3 4 × = 12; 5 + 12 = 17; 17 − 3 = 14. Cada operador desempilha dois valores e empilha o resultado."
+    },
+    {
+      "id": "estrutura-dados-16",
+      "topico": "arvores",
+      "nivel": "conceitual",
+      "pergunta": "Numa árvore binária de busca, qual percurso lista os valores em ordem crescente?",
+      "opcoes": [
+        "Pré-ordem",
+        "Pós-ordem",
+        "Em nível",
+        "Em ordem (esquerda, raiz, direita)"
+      ],
+      "correta": 3,
+      "explicacao": "Como os menores ficam à esquerda e os maiores à direita, visitar esquerda, raiz e direita dá a ordem crescente."
+    },
+    {
+      "id": "estrutura-dados-17",
+      "topico": "arvores",
+      "nivel": "conceitual",
+      "pergunta": "Por que uma ABB pode ter busca O(n) no pior caso?",
+      "opcoes": [
+        "Porque, se os valores forem inseridos já ordenados, ela degenera numa lista",
+        "Porque a função hash colide",
+        "Porque sempre tem altura log n",
+        "Porque não permite valores repetidos"
+      ],
+      "correta": 0,
+      "explicacao": "Inserir 1, 2, 3, 4... cria uma árvore com só filhos à direita; árvores balanceadas evitam isso."
+    },
+    {
+      "id": "estrutura-dados-18",
+      "topico": "arvores",
+      "nivel": "conceitual",
+      "pergunta": "Num heap máximo:",
+      "opcoes": [
+        "Os menores ficam à esquerda",
+        "Cada pai é maior ou igual aos seus filhos",
+        "Todas as folhas estão no mesmo nível sempre",
+        "A raiz guarda o menor valor"
+      ],
+      "correta": 1,
+      "explicacao": "A raiz do heap máximo guarda o maior elemento, o que torna a fila de prioridade eficiente."
+    },
+    {
+      "id": "estrutura-dados-19",
+      "topico": "arvores",
+      "nivel": "aplicacao",
+      "pergunta": "Inserindo 50, 30, 70, 20, 40 numa ABB vazia, qual é o percurso em pré-ordem?",
+      "opcoes": [
+        "20, 30, 40, 50, 70",
+        "20, 40, 30, 70, 50",
+        "50, 30, 20, 40, 70",
+        "50, 30, 70, 20, 40"
+      ],
+      "correta": 2,
+      "explicacao": "Pré-ordem visita raiz, esquerda e direita: 50, depois a subárvore de 30 (30, 20, 40) e depois 70."
+    },
+    {
+      "id": "estrutura-dados-20",
+      "topico": "arvores",
+      "nivel": "analise",
+      "pergunta": "Um sistema de banco de dados guarda índices em disco, onde ler um bloco é lento. Por que se usa árvore B em vez de árvore binária?",
+      "opcoes": [
+        "Porque a árvore B não precisa estar ordenada",
+        "Porque a árvore binária não permite busca",
+        "Porque a árvore B usa hash internamente",
+        "Porque cada nó tem muitos filhos, a árvore fica baixa e exige poucas leituras de disco"
+      ],
+      "correta": 3,
+      "explicacao": "Com centenas de chaves por nó, poucos níveis bastam para milhões de registros, reduzindo os acessos ao disco."
+    },
+    {
+      "id": "estrutura-dados-21",
+      "topico": "hash-grafos",
+      "nivel": "conceitual",
+      "pergunta": "O que é uma colisão numa tabela hash?",
+      "opcoes": [
+        "Duas chaves diferentes caem no mesmo índice",
+        "A tabela fica vazia",
+        "Uma chave é removida duas vezes",
+        "A função hash devolve um número negativo"
+      ],
+      "correta": 0,
+      "explicacao": "Colisões são resolvidas por encadeamento (listas em cada posição) ou endereçamento aberto."
+    },
+    {
+      "id": "estrutura-dados-22",
+      "topico": "hash-grafos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a complexidade média de busca numa tabela hash bem dimensionada?",
+      "opcoes": [
+        "O(log n)",
+        "O(1)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "correta": 1,
+      "explicacao": "Com boa função hash e fator de carga controlado, a busca é constante em média; no pior caso pode chegar a O(n)."
+    },
+    {
+      "id": "estrutura-dados-23",
+      "topico": "hash-grafos",
+      "nivel": "conceitual",
+      "pergunta": "O algoritmo de Dijkstra encontra:",
+      "opcoes": [
+        "A árvore geradora máxima",
+        "Ciclos negativos",
+        "O menor caminho a partir de um vértice, com pesos não negativos",
+        "A ordenação topológica"
+      ],
+      "correta": 2,
+      "explicacao": "Com pesos negativos, usa-se Bellman-Ford; para árvore geradora mínima, Prim ou Kruskal."
+    },
+    {
+      "id": "estrutura-dados-24",
+      "topico": "hash-grafos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma rede social tem 1 milhão de usuários, cada um com cerca de 200 amigos. Qual representação de grafo é mais adequada?",
+      "opcoes": [
+        "Matriz de adjacência",
+        "Vetor ordenado de vértices",
+        "Pilha de arestas",
+        "Lista de adjacência"
+      ],
+      "correta": 3,
+      "explicacao": "O grafo é esparso: a matriz teria 10¹² posições quase todas vazias, enquanto a lista guarda só as arestas que existem."
+    },
+    {
+      "id": "estrutura-dados-25",
+      "topico": "hash-grafos",
+      "nivel": "analise",
+      "pergunta": "Num labirinto representado como grafo sem pesos, por que a BFS acha o caminho mais curto e a DFS não garante isso?",
+      "opcoes": [
+        "A BFS visita os vértices por camadas de distância; a DFS segue um caminho até o fim antes de voltar",
+        "A DFS usa fila e a BFS usa pilha",
+        "A BFS só funciona com pesos negativos",
+        "A DFS sempre visita menos vértices"
+      ],
+      "correta": 0,
+      "explicacao": "Na BFS, o primeiro momento em que se chega ao destino é pelo menor número de arestas."
+    },
+    {
+      "id": "estrutura-dados-26",
+      "topico": "ordenacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a condição para usar a busca binária?",
+      "opcoes": [
+        "A lista precisa ter tamanho par",
+        "A lista precisa estar ordenada",
+        "A lista precisa ser encadeada",
+        "Os valores precisam ser únicos"
+      ],
+      "correta": 1,
+      "explicacao": "Ela compara com o meio e descarta a metade onde o valor não pode estar, o que só funciona com dados ordenados."
+    },
+    {
+      "id": "estrutura-dados-27",
+      "topico": "ordenacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual algoritmo tem O(n log n) em todos os casos e é estável?",
+      "opcoes": [
+        "Quick sort",
+        "Bubble sort",
+        "Merge sort",
+        "Selection sort"
+      ],
+      "correta": 2,
+      "explicacao": "O quick sort pode cair para O(n²); bubble e selection são O(n²). O merge sort paga com memória extra."
+    },
+    {
+      "id": "estrutura-dados-28",
+      "topico": "ordenacao",
+      "nivel": "conceitual",
+      "pergunta": "O que significa um algoritmo de ordenação ser estável?",
+      "opcoes": [
+        "Nunca usa memória extra",
+        "Sempre roda em O(n)",
+        "Não troca elementos de lugar",
+        "Mantém a ordem original de elementos com chaves iguais"
+      ],
+      "correta": 3,
+      "explicacao": "Ordenar por nome e depois por turma de forma estável mantém os nomes em ordem dentro de cada turma."
+    },
+    {
+      "id": "estrutura-dados-29",
+      "topico": "ordenacao",
+      "nivel": "aplicacao",
+      "pergunta": "Numa lista ordenada de 1.000.000 de nomes, quantas comparações a busca binária faz no máximo, aproximadamente?",
+      "opcoes": [
+        "20",
+        "1.000",
+        "500.000",
+        "1.000.000"
+      ],
+      "correta": 0,
+      "explicacao": "log₂ 1.000.000 ≈ 20, porque 2²⁰ ≈ 1.048.576. A busca sequencial poderia precisar de 1 milhão."
+    },
+    {
+      "id": "estrutura-dados-30",
+      "topico": "ordenacao",
+      "nivel": "analise",
+      "pergunta": "Um quick sort que sempre usa o primeiro elemento como pivô ficou muito lento ao ordenar uma lista que já vinha ordenada. Por quê?",
+      "opcoes": [
+        "Listas ordenadas causam colisão",
+        "O pivô fica sempre num extremo, as partições ficam desequilibradas e o custo vai a O(n²)",
+        "O quick sort não funciona em listas ordenadas",
+        "O merge interno usa memória demais"
+      ],
+      "correta": 1,
+      "explicacao": "Cada partição tira só um elemento. Escolher o pivô aleatório ou pela mediana de três resolve."
+    }
+  ]
+}

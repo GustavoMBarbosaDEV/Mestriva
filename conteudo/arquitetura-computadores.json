@@ -1,0 +1,465 @@
+{
+  "id": "arquitetura-computadores",
+  "nome": "Arquitetura de Computadores",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "representacao",
+      "nome": "Sistemas de numeração e representação de dados",
+      "resumo": "### Bases numéricas\n- **Decimal** (base 10), **binária** (base 2: 0 e 1), **octal** (base 8) e **hexadecimal** (base 16: 0–9 e A–F).\n- **Binário → decimal**: soma das potências de 2 onde há 1. 1011₂ = 8 + 0 + 2 + 1 = **11**.\n- **Decimal → binário**: divisões sucessivas por 2, lendo os restos de baixo para cima. 13 = **1101₂**.\n- **Binário ↔ hexadecimal**: cada dígito hexa corresponde a **4 bits**. 1111 0010₂ = **F2₁₆**.\n\n### Unidades\n- **Bit**: 0 ou 1. **Byte**: 8 bits (256 valores, de 0 a 255).\n- Prefixos binários: 1 KiB = 1.024 bytes; 1 MiB = 1.024 KiB. (Fabricantes de disco costumam usar 1 KB = 1.000 bytes.)\n- Com **n bits** é possível representar **2ⁿ** valores diferentes.\n\n### Números inteiros com sinal\n- **Sinal e magnitude**: o primeiro bit é o sinal; tem dois zeros (+0 e −0).\n- **Complemento de 2** (o usado hoje): para obter −x, **inverte os bits de x e soma 1**. Com 8 bits, vai de **−128 a +127** e tem um só zero. A soma funciona igual para positivos e negativos.\n- **Overflow**: o resultado não cabe no número de bits (127 + 1 em 8 bits com sinal vira −128).\n\n### Números reais\n**Ponto flutuante** (IEEE 754): **sinal**, **expoente** e **mantissa**, como a notação científica em base 2. Precisão simples (32 bits) e dupla (64 bits). Nem todo decimal tem representação exata: **0,1 + 0,2** dá 0,30000000000000004.\n\n### Texto\n- **ASCII**: 7 bits, 128 caracteres (A = 65).\n- **Unicode** com **UTF-8**: 1 a 4 bytes por caractere, compatível com ASCII; representa acentos e emojis.",
+      "revisao": "**Lembre:**\n- n bits → 2ⁿ valores.\n- 1 dígito hexa = 4 bits.\n- Complemento de 2: inverter e somar 1; 8 bits: −128 a 127.\n- IEEE 754: sinal, expoente, mantissa.\n- UTF-8: 1 a 4 bytes, compatível com ASCII."
+    },
+    {
+      "id": "logica",
+      "nome": "Lógica digital",
+      "resumo": "### Portas lógicas\n- **AND** (E): saída 1 só se **todas** as entradas forem 1.\n- **OR** (OU): saída 1 se **alguma** entrada for 1.\n- **NOT** (NÃO): inverte.\n- **NAND** e **NOR**: AND e OR com a saída invertida. São **portas universais**: qualquer circuito pode ser feito só com NAND (ou só com NOR).\n- **XOR** (OU exclusivo): saída 1 se as entradas forem **diferentes**.\n\n### Álgebra de Boole\n- Identidades: A + 0 = A; A · 1 = A; A + 1 = 1; A · 0 = 0; A + A' = 1; A · A' = 0.\n- **Leis de De Morgan**: **(A · B)' = A' + B'** e **(A + B)' = A' · B'**.\n- **Mapa de Karnaugh**: método gráfico para simplificar expressões, agrupando 1s em blocos de 1, 2, 4, 8...\n\n### Tabela-verdade\nLista a saída para cada combinação de entradas. Com **n entradas**, há **2ⁿ linhas**.\n\n### Circuitos combinacionais\nA saída depende **só das entradas atuais**.\n- **Meio somador**: soma dois bits; **soma = A XOR B**, **vai-um = A AND B**.\n- **Somador completo**: soma dois bits mais o vai-um anterior.\n- **Multiplexador** (MUX): escolhe uma de várias entradas conforme os sinais de seleção.\n- **Decodificador**: ativa uma de 2ⁿ saídas conforme n entradas.\n\n### Circuitos sequenciais\nA saída depende das entradas **e do estado anterior** (têm **memória**).\n- **Latches** e **flip-flops** (SR, D, JK, T) guardam **1 bit**. O flip-flop D copia a entrada na **borda do clock**.\n- **Registradores**: grupos de flip-flops.\n- **Contadores**.\n- O **clock** sincroniza tudo; sua frequência é medida em hertz (3 GHz = 3 bilhões de ciclos por segundo).",
+      "revisao": "**Lembre:**\n- AND: todos 1; OR: algum 1; XOR: diferentes.\n- NAND e NOR são universais.\n- De Morgan: (AB)' = A' + B'; (A + B)' = A'B'.\n- Combinacional: só entradas; sequencial: tem memória.\n- Meio somador: soma = XOR, vai-um = AND."
+    },
+    {
+      "id": "cpu",
+      "nome": "Organização da CPU e ciclo de instrução",
+      "resumo": "### Arquitetura de von Neumann\n- **CPU**, **memória** e **entrada/saída**, ligadas por **barramentos**.\n- **Dados e instruções na mesma memória**, o que cria o **gargalo de von Neumann** (a CPU espera a memória).\n- **Arquitetura Harvard**: memórias separadas para instruções e dados (comum em microcontroladores).\n\n### Partes da CPU\n- **Unidade de controle (UC)**: busca e decodifica instruções e coordena as demais partes.\n- **ULA** (unidade lógica e aritmética): faz as contas e as operações lógicas.\n- **Registradores**: memória mínima e rapidíssima dentro da CPU.\n  - **PC** (contador de programa): endereço da **próxima instrução**.\n  - **IR** (registrador de instrução): a instrução atual.\n  - **MAR** (endereço de memória) e **MBR/MDR** (dado de memória).\n  - Registradores de uso geral e de **flags** (zero, negativo, overflow, vai-um).\n\n### Ciclo de instrução\n1. **Busca** (*fetch*): lê da memória a instrução apontada pelo PC e incrementa o PC.\n2. **Decodificação**: a UC interpreta a instrução.\n3. **Execução**: a ULA ou outra unidade faz a operação.\n4. **Escrita do resultado** (e acesso à memória, se precisar).\nInterrupções são verificadas entre os ciclos.\n\n### Barramentos\n- **De dados**: transporta os dados (sua largura influencia quanto se move por vez).\n- **De endereços**: indica a posição de memória. Com **n bits** de endereço, acessa **2ⁿ** posições.\n- **De controle**: sinais de leitura, escrita, clock, interrupção.\n\n### Desempenho\n- **Tempo de CPU** = número de instruções × **CPI** (ciclos por instrução) × tempo de ciclo (= instruções × CPI ÷ frequência).\n- **Lei de Amdahl**: o ganho total é limitado pela parte do programa que **não** foi melhorada. Se 50% do programa não pode ser acelerado, o ganho máximo é 2 vezes.",
+      "revisao": "**Lembre:**\n- Von Neumann: dados e instruções na mesma memória.\n- UC coordena; ULA calcula; registradores guardam.\n- PC: próxima instrução; IR: instrução atual.\n- Ciclo: busca, decodificação, execução, escrita.\n- Tempo = instruções × CPI ÷ frequência; Amdahl limita o ganho."
+    },
+    {
+      "id": "isa",
+      "nome": "Conjunto de instruções: RISC e CISC",
+      "resumo": "O **conjunto de instruções** (ISA) é a \"interface\" entre o hardware e o software: as operações que o processador entende (somar, carregar, desviar...). Exemplos: **x86-64** (Intel, AMD), **ARM** (celulares, Apple M), **RISC-V** (aberta).\n\n### CISC × RISC\n- **CISC** (*complex instruction set*): muitas instruções, algumas **complexas** e de **tamanho variável**, que podem acessar a memória diretamente. Programas com menos instruções. Exemplo: **x86**.\n- **RISC** (*reduced*): poucas instruções **simples**, de **tamanho fixo**, quase todas em **um ciclo**; só **load** e **store** acessam a memória (arquitetura **load/store**); muitos registradores. Facilita o **pipeline** e economiza energia. Exemplos: **ARM**, **RISC-V**, MIPS.\n- Processadores x86 modernos traduzem internamente as instruções complexas em micro-operações parecidas com RISC.\n\n### Tipos de instrução\n- **Transferência de dados**: load, store, move.\n- **Aritméticas e lógicas**: add, sub, and, or, shift.\n- **Controle de fluxo**: desvios **condicionais** (branch if equal), **incondicionais** (jump), **chamada** e **retorno** de sub-rotina.\n\n### Modos de endereçamento\n- **Imediato**: o valor está na própria instrução (ADD R1, #5).\n- **Direto**: a instrução traz o **endereço** do dado na memória.\n- **Indireto**: a instrução traz o endereço de onde está o endereço do dado.\n- **Por registrador**: o dado está num registrador.\n- **Indexado** (base + deslocamento): endereço = registrador + constante; ótimo para vetores.\n\n### Da linguagem ao hardware\nCódigo em linguagem de alto nível → **compilador** → **assembly** → **montador** (*assembler*) → **código de máquina** (binário). O **ligador** (*linker*) junta os módulos num executável.",
+      "revisao": "**Lembre:**\n- ISA: interface hardware/software.\n- CISC: complexas, tamanho variável (x86).\n- RISC: simples, tamanho fixo, load/store (ARM, RISC-V).\n- Imediato: valor na instrução; direto: endereço na instrução.\n- Compilador → assembly → montador → máquina."
+    },
+    {
+      "id": "memoria",
+      "nome": "Hierarquia de memória e cache",
+      "resumo": "### Hierarquia\nDo mais **rápido, caro e pequeno** para o mais **lento, barato e grande**:\n**registradores → cache L1 → L2 → L3 → memória principal (RAM) → SSD → HD → fitas/nuvem**.\n\n### Tipos de memória\n- **RAM** (volátil): **SRAM** (rápida, cara, usada na cache) e **DRAM** (precisa de *refresh*, usada na memória principal).\n- **ROM** e **flash** (não voláteis): firmware, SSDs, pen drives.\n\n### Princípio da localidade\n- **Temporal**: o que foi usado agora tende a ser usado de novo logo (variáveis num laço).\n- **Espacial**: o que está perto do que foi usado tende a ser usado em seguida (elementos de um vetor).\nÉ por causa da localidade que a cache funciona.\n\n### Cache\n- Guarda **blocos** (linhas) copiados da RAM.\n- **Acerto** (*hit*): o dado está na cache. **Falha** (*miss*): é preciso buscar na RAM.\n- **Mapeamento**:\n  - **Direto**: cada bloco da RAM só pode ir para **uma** linha (simples, mas gera conflitos).\n  - **Totalmente associativo**: pode ir para **qualquer** linha (flexível e caro).\n  - **Associativo por conjunto** (*n-way*): pode ir para qualquer linha de **um conjunto** (meio-termo, o mais usado).\n- **Substituição**: **LRU** (sai o usado há mais tempo), FIFO, aleatória.\n- **Escrita**: **write-through** (escreve na cache e na RAM ao mesmo tempo) × **write-back** (só na cache; atualiza a RAM quando o bloco sai).\n\n### Tempo médio de acesso\n**TMA = tempo de acerto + taxa de falha × penalidade de falha**.\nCom acerto de 1 ns, 5% de falhas e penalidade de 100 ns: 1 + 0,05 × 100 = **6 ns**.\n\n### Memória virtual\nUsa o disco como extensão da RAM, dividida em **páginas**. A **tabela de páginas** traduz endereços virtuais em físicos; a **TLB** guarda as traduções recentes. Acessar uma página que não está na RAM gera **falta de página** (*page fault*).",
+      "revisao": "**Lembre:**\n- Hierarquia: registradores, cache, RAM, SSD, HD.\n- Localidade temporal e espacial.\n- Mapeamento: direto, associativo, por conjunto.\n- TMA = acerto + taxa de falha × penalidade.\n- Write-through × write-back. TLB guarda traduções."
+    },
+    {
+      "id": "paralelismo",
+      "nome": "Pipeline, paralelismo e entrada/saída",
+      "resumo": "### Pipeline\n- Divide a execução das instruções em **estágios** (por exemplo, busca, decodificação, execução, memória, escrita) e trabalha em **várias instruções ao mesmo tempo**, cada uma num estágio, como uma linha de montagem.\n- Não diminui o tempo de **uma** instrução, mas aumenta a **vazão** (instruções concluídas por ciclo).\n- Com **k estágios** e **n instruções**, o pipeline ideal leva **k + (n − 1)** ciclos.\n\n### Conflitos (hazards)\n- **Estruturais**: duas instruções precisam do mesmo recurso ao mesmo tempo.\n- **De dados**: uma instrução precisa de um resultado que a anterior ainda não produziu. Soluções: **adiantamento** (*forwarding*), bolhas (*stalls*), reordenar instruções.\n- **De controle**: em um **desvio**, não se sabe qual será a próxima instrução. Solução: **previsão de desvio** (*branch prediction*); se errar, as instruções erradas são descartadas.\n\n### Mais paralelismo\n- **Superescalar**: várias instruções iniciadas por ciclo.\n- **Execução fora de ordem**.\n- **Multicore**: vários núcleos no mesmo chip. Exige programas **paralelos** para aproveitar.\n- **Hyper-threading** (SMT): um núcleo executa mais de uma thread.\n- **Taxonomia de Flynn**: SISD, **SIMD** (uma instrução para muitos dados: GPUs, instruções vetoriais), MISD e **MIMD** (multicore).\n- **GPU**: milhares de núcleos simples, ótima para gráficos e cálculos em massa.\n\n### Entrada e saída\n- **E/S programada** (*polling*): a CPU fica perguntando ao dispositivo se terminou; desperdiça tempo.\n- **Por interrupção**: o dispositivo **avisa** a CPU quando termina; a CPU trata a interrupção e volta ao que fazia.\n- **DMA** (acesso direto à memória): um controlador transfere **blocos** de dados entre o dispositivo e a memória **sem ocupar a CPU**; ela só é avisada no fim. Ideal para discos e placas de rede.",
+      "revisao": "**Lembre:**\n- Pipeline aumenta vazão, não acelera uma instrução.\n- k estágios, n instruções: k + n − 1 ciclos.\n- Hazards: estruturais, de dados, de controle.\n- SIMD: GPUs; MIMD: multicore.\n- Polling < interrupção < DMA em eficiência."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "arquitetura-computadores-1",
+      "topico": "representacao",
+      "nivel": "conceitual",
+      "pergunta": "Quantos valores diferentes podem ser representados com 10 bits?",
+      "opcoes": [
+        "1.024",
+        "1.000",
+        "100",
+        "512"
+      ],
+      "correta": 0,
+      "explicacao": "Com n bits há 2ⁿ combinações: 2¹⁰ = 1.024."
+    },
+    {
+      "id": "arquitetura-computadores-2",
+      "topico": "representacao",
+      "nivel": "conceitual",
+      "pergunta": "Em complemento de 2 com 8 bits, qual é o intervalo de inteiros representáveis?",
+      "opcoes": [
+        "−127 a +127",
+        "−128 a +127",
+        "0 a 255",
+        "−256 a +255"
+      ],
+      "correta": 1,
+      "explicacao": "São 256 valores com um só zero; sobra um negativo a mais: −128 a 127."
+    },
+    {
+      "id": "arquitetura-computadores-3",
+      "topico": "representacao",
+      "nivel": "conceitual",
+      "pergunta": "Por que 0,1 + 0,2 não dá exatamente 0,3 em muitas linguagens?",
+      "opcoes": [
+        "Porque a CPU tem defeito",
+        "Porque o compilador arredonda para inteiro",
+        "Porque 0,1 e 0,2 não têm representação exata em ponto flutuante binário",
+        "Porque o ASCII não tem o número 3"
+      ],
+      "correta": 2,
+      "explicacao": "Assim como 1/3 é dízima em decimal, 0,1 é dízima em binário; o IEEE 754 guarda uma aproximação."
+    },
+    {
+      "id": "arquitetura-computadores-4",
+      "topico": "representacao",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o valor decimal do binário 101101?",
+      "opcoes": [
+        "43",
+        "54",
+        "37",
+        "45"
+      ],
+      "correta": 3,
+      "explicacao": "Somam-se as potências de 2 onde há 1: 32 + 0 + 8 + 4 + 0 + 1 = 45."
+    },
+    {
+      "id": "arquitetura-computadores-5",
+      "topico": "representacao",
+      "nivel": "analise",
+      "pergunta": "Num programa que usa inteiros de 8 bits com sinal, uma variável com valor 127 recebe +1 e passa a valer −128. O que aconteceu?",
+      "opcoes": [
+        "Overflow: o resultado não cabe em 8 bits e 'dá a volta' no complemento de 2",
+        "Underflow de ponto flutuante",
+        "Erro de conversão para ASCII",
+        "Arredondamento da mantissa"
+      ],
+      "correta": 0,
+      "explicacao": "01111111 + 1 = 10000000, que em complemento de 2 é −128. É preciso usar tipos maiores ou checar o limite."
+    },
+    {
+      "id": "arquitetura-computadores-6",
+      "topico": "logica",
+      "nivel": "conceitual",
+      "pergunta": "A porta XOR tem saída 1 quando:",
+      "opcoes": [
+        "Todas as entradas são 1",
+        "As entradas são diferentes",
+        "Alguma entrada é 1",
+        "Todas as entradas são 0"
+      ],
+      "correta": 1,
+      "explicacao": "XOR é o 'ou exclusivo': 0 XOR 1 = 1, mas 1 XOR 1 = 0."
+    },
+    {
+      "id": "arquitetura-computadores-7",
+      "topico": "logica",
+      "nivel": "conceitual",
+      "pergunta": "Pela lei de De Morgan, (A · B)' é igual a:",
+      "opcoes": [
+        "NÃO A E NÃO B (A' · B')",
+        "A OU B (A + B)",
+        "NÃO A OU NÃO B (A' + B')",
+        "A E B (A · B)"
+      ],
+      "correta": 2,
+      "explicacao": "Negar um E equivale a fazer o OU das negações; e (A + B)' = A' · B'."
+    },
+    {
+      "id": "arquitetura-computadores-8",
+      "topico": "logica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre circuitos combinacionais e sequenciais?",
+      "opcoes": [
+        "Os combinacionais usam clock e os sequenciais não",
+        "Os sequenciais não usam portas lógicas",
+        "Não há diferença",
+        "Os sequenciais têm memória: a saída depende também do estado anterior"
+      ],
+      "correta": 3,
+      "explicacao": "Flip-flops e registradores são sequenciais; somadores e multiplexadores, combinacionais."
+    },
+    {
+      "id": "arquitetura-computadores-9",
+      "topico": "logica",
+      "nivel": "aplicacao",
+      "pergunta": "Quantas linhas tem a tabela-verdade de uma função com 4 entradas?",
+      "opcoes": [
+        "16",
+        "8",
+        "4",
+        "32"
+      ],
+      "correta": 0,
+      "explicacao": "Cada entrada dobra as combinações: 2⁴ = 16 linhas."
+    },
+    {
+      "id": "arquitetura-computadores-10",
+      "topico": "logica",
+      "nivel": "analise",
+      "pergunta": "Num meio somador, com entradas A = 1 e B = 1, quais são a soma e o vai-um?",
+      "opcoes": [
+        "Soma 1 e vai-um 0",
+        "Soma 0 e vai-um 1",
+        "Soma 1 e vai-um 1",
+        "Soma 0 e vai-um 0"
+      ],
+      "correta": 1,
+      "explicacao": "Soma = A XOR B = 0; vai-um = A AND B = 1. Em binário, 1 + 1 = 10."
+    },
+    {
+      "id": "arquitetura-computadores-11",
+      "topico": "cpu",
+      "nivel": "conceitual",
+      "pergunta": "Qual registrador guarda o endereço da próxima instrução a ser buscada?",
+      "opcoes": [
+        "IR (registrador de instrução)",
+        "MBR",
+        "PC (contador de programa)",
+        "Registrador de flags"
+      ],
+      "correta": 2,
+      "explicacao": "O IR guarda a instrução atual; o PC aponta para a próxima e é incrementado na busca."
+    },
+    {
+      "id": "arquitetura-computadores-12",
+      "topico": "cpu",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a característica central da arquitetura de von Neumann?",
+      "opcoes": [
+        "Há memórias separadas para dados e instruções",
+        "Não existe unidade de controle",
+        "Só funciona com memória ROM",
+        "Dados e instruções ficam na mesma memória"
+      ],
+      "correta": 3,
+      "explicacao": "Separar as memórias é a arquitetura Harvard; o compartilhamento cria o gargalo de von Neumann."
+    },
+    {
+      "id": "arquitetura-computadores-13",
+      "topico": "cpu",
+      "nivel": "conceitual",
+      "pergunta": "Com um barramento de endereços de 32 bits, quantas posições de memória podem ser endereçadas?",
+      "opcoes": [
+        "2³² (cerca de 4 bilhões)",
+        "32",
+        "2¹⁶",
+        "32 bilhões"
+      ],
+      "correta": 0,
+      "explicacao": "Com n bits de endereço, há 2ⁿ endereços: 2³² ≈ 4,3 bilhões."
+    },
+    {
+      "id": "arquitetura-computadores-14",
+      "topico": "cpu",
+      "nivel": "aplicacao",
+      "pergunta": "Um programa executa 2 bilhões de instruções com CPI médio de 1,5 num processador de 3 GHz. Qual é o tempo de CPU?",
+      "opcoes": [
+        "0,5 segundo",
+        "1 segundo",
+        "2 segundos",
+        "4,5 segundos"
+      ],
+      "correta": 1,
+      "explicacao": "Tempo = instruções × CPI ÷ frequência = 2 × 10⁹ × 1,5 ÷ 3 × 10⁹ = 1 segundo."
+    },
+    {
+      "id": "arquitetura-computadores-15",
+      "topico": "cpu",
+      "nivel": "analise",
+      "pergunta": "Uma melhoria deixa 4 vezes mais rápida a parte que ocupa 50% do tempo de um programa. Pela lei de Amdahl, qual é o ganho total?",
+      "opcoes": [
+        "4 vezes",
+        "2 vezes",
+        "1,6 vez",
+        "3 vezes"
+      ],
+      "correta": 2,
+      "explicacao": "Novo tempo = 0,5 + 0,5/4 = 0,625. Ganho = 1 ÷ 0,625 = 1,6. A parte não melhorada limita o resultado."
+    },
+    {
+      "id": "arquitetura-computadores-16",
+      "topico": "isa",
+      "nivel": "conceitual",
+      "pergunta": "Qual é uma característica típica das arquiteturas RISC?",
+      "opcoes": [
+        "Instruções complexas de tamanho variável",
+        "Poucos registradores",
+        "Instruções que operam direto na memória",
+        "Instruções simples, de tamanho fixo, com acesso à memória só por load e store"
+      ],
+      "correta": 3,
+      "explicacao": "Essa regularidade facilita o pipeline e reduz o consumo de energia, por isso o ARM domina os celulares."
+    },
+    {
+      "id": "arquitetura-computadores-17",
+      "topico": "isa",
+      "nivel": "conceitual",
+      "pergunta": "No modo de endereçamento imediato:",
+      "opcoes": [
+        "O valor do operando está na própria instrução",
+        "A instrução traz o endereço do dado",
+        "O dado está num registrador",
+        "O endereço é calculado por base mais deslocamento"
+      ],
+      "correta": 0,
+      "explicacao": "Em ADD R1, #5, o 5 já vem na instrução, sem acesso à memória."
+    },
+    {
+      "id": "arquitetura-computadores-18",
+      "topico": "isa",
+      "nivel": "conceitual",
+      "pergunta": "Qual programa converte código assembly em código de máquina?",
+      "opcoes": [
+        "Compilador de alto nível",
+        "Montador (assembler)",
+        "Interpretador de Python",
+        "Sistema de arquivos"
+      ],
+      "correta": 1,
+      "explicacao": "O compilador gera assembly a partir de alto nível; o montador transforma assembly em binário; o ligador junta os módulos."
+    },
+    {
+      "id": "arquitetura-computadores-19",
+      "topico": "isa",
+      "nivel": "aplicacao",
+      "pergunta": "Para percorrer os elementos de um vetor na memória, qual modo de endereçamento é mais conveniente?",
+      "opcoes": [
+        "Imediato",
+        "Direto com endereço fixo",
+        "Indexado (base + deslocamento)",
+        "Nenhum modo serve"
+      ],
+      "correta": 2,
+      "explicacao": "Com o endereço do início num registrador e o índice como deslocamento, basta ir somando."
+    },
+    {
+      "id": "arquitetura-computadores-20",
+      "topico": "isa",
+      "nivel": "analise",
+      "pergunta": "Por que celulares usam principalmente processadores ARM, e não x86?",
+      "opcoes": [
+        "Porque o x86 não executa programas",
+        "Porque o ARM tem instruções mais complexas",
+        "Porque o x86 não tem registradores",
+        "Porque o projeto RISC do ARM é mais simples e eficiente em energia, o que prolonga a bateria"
+      ],
+      "correta": 3,
+      "explicacao": "Instruções simples e regulares exigem menos lógica de decodificação e menos energia."
+    },
+    {
+      "id": "arquitetura-computadores-21",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ordem correta, da memória mais rápida para a mais lenta?",
+      "opcoes": [
+        "Registradores, cache, RAM, SSD",
+        "Cache, registradores, SSD, RAM",
+        "RAM, cache, registradores, HD",
+        "SSD, RAM, cache, registradores"
+      ],
+      "correta": 0,
+      "explicacao": "Quanto mais perto da CPU, mais rápida, cara e pequena é a memória."
+    },
+    {
+      "id": "arquitetura-computadores-22",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "Percorrer um vetor elemento por elemento aproveita principalmente a localidade:",
+      "opcoes": [
+        "Temporal",
+        "Espacial",
+        "Virtual",
+        "Externa"
+      ],
+      "correta": 1,
+      "explicacao": "Os elementos estão em posições vizinhas; a cache traz o bloco inteiro de uma vez."
+    },
+    {
+      "id": "arquitetura-computadores-23",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "Na política write-back:",
+      "opcoes": [
+        "A escrita vai ao mesmo tempo para a cache e para a RAM",
+        "A cache nunca recebe escritas",
+        "A escrita vai só para a cache, e a RAM é atualizada quando o bloco sai",
+        "Os dados vão direto para o disco"
+      ],
+      "correta": 2,
+      "explicacao": "Write-back reduz o tráfego para a RAM; write-through mantém as duas sempre iguais."
+    },
+    {
+      "id": "arquitetura-computadores-24",
+      "topico": "memoria",
+      "nivel": "aplicacao",
+      "pergunta": "Uma cache tem tempo de acerto de 2 ns, taxa de falha de 10% e penalidade de falha de 50 ns. Qual é o tempo médio de acesso?",
+      "opcoes": [
+        "5 ns",
+        "52 ns",
+        "12 ns",
+        "7 ns"
+      ],
+      "correta": 3,
+      "explicacao": "TMA = tempo de acerto + taxa de falha × penalidade = 2 + 0,10 × 50 = 2 + 5 = 7 ns."
+    },
+    {
+      "id": "arquitetura-computadores-25",
+      "topico": "memoria",
+      "nivel": "analise",
+      "pergunta": "Numa cache de mapeamento direto, um programa alterna o acesso entre dois endereços que caem na mesma linha, e a taxa de falhas dispara. O que ajudaria?",
+      "opcoes": [
+        "Usar mapeamento associativo por conjunto, para os dois blocos conviverem",
+        "Diminuir o tamanho da cache",
+        "Trocar write-back por write-through",
+        "Desligar a cache"
+      ],
+      "correta": 0,
+      "explicacao": "Os blocos ficam se expulsando (falhas por conflito); com associatividade, há mais de um lugar possível para cada bloco."
+    },
+    {
+      "id": "arquitetura-computadores-26",
+      "topico": "paralelismo",
+      "nivel": "conceitual",
+      "pergunta": "O que o pipeline melhora?",
+      "opcoes": [
+        "O tempo de execução de uma instrução isolada",
+        "A vazão: mais instruções concluídas por unidade de tempo",
+        "O tamanho da memória",
+        "A precisão dos cálculos"
+      ],
+      "correta": 1,
+      "explicacao": "Como numa linha de montagem, cada instrução leva o mesmo tempo, mas várias andam ao mesmo tempo."
+    },
+    {
+      "id": "arquitetura-computadores-27",
+      "topico": "paralelismo",
+      "nivel": "conceitual",
+      "pergunta": "Qual mecanismo permite transferir blocos de dados entre um dispositivo e a memória sem ocupar a CPU?",
+      "opcoes": [
+        "Polling",
+        "Pipeline",
+        "DMA",
+        "Cache L1"
+      ],
+      "correta": 2,
+      "explicacao": "O controlador de DMA cuida da transferência e só interrompe a CPU no fim."
+    },
+    {
+      "id": "arquitetura-computadores-28",
+      "topico": "paralelismo",
+      "nivel": "conceitual",
+      "pergunta": "Uma GPU, que aplica a mesma operação a muitos dados ao mesmo tempo, é um exemplo de arquitetura:",
+      "opcoes": [
+        "SISD",
+        "MISD",
+        "Von Neumann sequencial",
+        "SIMD"
+      ],
+      "correta": 3,
+      "explicacao": "Pela taxonomia de Flynn: uma instrução, múltiplos dados."
+    },
+    {
+      "id": "arquitetura-computadores-29",
+      "topico": "paralelismo",
+      "nivel": "aplicacao",
+      "pergunta": "Um pipeline de 5 estágios executa 100 instruções sem conflitos. Quantos ciclos são necessários?",
+      "opcoes": [
+        "104",
+        "500",
+        "100",
+        "105"
+      ],
+      "correta": 0,
+      "explicacao": "k + (n − 1) = 5 + 99 = 104 ciclos, contra 500 sem pipeline."
+    },
+    {
+      "id": "arquitetura-computadores-30",
+      "topico": "paralelismo",
+      "nivel": "analise",
+      "pergunta": "A instrução ADD R1, R2, R3 é seguida por SUB R4, R1, R5. Que conflito surge no pipeline e como é comum resolvê-lo?",
+      "opcoes": [
+        "Conflito estrutural; com mais memória RAM",
+        "Conflito de dados; com adiantamento (forwarding) do resultado da ULA",
+        "Conflito de controle; com previsão de desvio",
+        "Nenhum conflito"
+      ],
+      "correta": 1,
+      "explicacao": "O SUB precisa de R1 antes de o ADD escrevê-lo no banco de registradores; o forwarding entrega o valor direto da saída da ULA."
+    }
+  ]
+}

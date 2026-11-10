@@ -1,0 +1,465 @@
+{
+  "id": "engenharia-software",
+  "nome": "Engenharia de Software",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "processos",
+      "nome": "Processos de software",
+      "resumo": "**Engenharia de software** é a aplicação de métodos sistemáticos para desenvolver, operar e manter software com **qualidade**, **prazo** e **custo** controlados. Referências: Sommerville e Pressman.\n\n### Atividades fundamentais\n**Especificação** (requisitos), **projeto e implementação**, **validação** (testes) e **evolução** (manutenção).\n\n### Modelos de processo\n- **Cascata** (*waterfall*): fases em sequência (requisitos, projeto, implementação, testes, implantação). Simples e documentado, mas **rígido**: mudanças tardias custam caro e o cliente só vê o produto no fim. Serve quando os requisitos são **estáveis**.\n- **Incremental**: o sistema é entregue em **partes** funcionais; cada incremento acrescenta funções.\n- **Iterativo**: repete ciclos que refinam o produto.\n- **Espiral** (Boehm): ciclos com foco forte na **análise de riscos**.\n- **Prototipação**: um protótipo rápido ajuda a descobrir os requisitos; costuma ser descartado.\n- **RUP** (Processo Unificado): iterativo, com quatro fases (**concepção, elaboração, construção e transição**), guiado por casos de uso e centrado na arquitetura.\n\n### Tipos de manutenção\n- **Corretiva**: corrige defeitos.\n- **Adaptativa**: adapta a mudanças do ambiente (novo sistema operacional, nova lei).\n- **Perfectiva**: melhora ou acrescenta funções.\n- **Preventiva**: melhora a manutenibilidade para evitar problemas futuros (refatoração).\n\n### Leis de Lehman\nSoftware usado no mundo real precisa **mudar continuamente** ou perde utilidade, e sua **complexidade aumenta** se nada for feito para reduzi-la.",
+      "revisao": "**Lembre:**\n- Cascata: sequencial, rígido, bom para requisitos estáveis.\n- Incremental: entregas em partes.\n- Espiral: análise de riscos.\n- RUP: concepção, elaboração, construção, transição.\n- Manutenção: corretiva, adaptativa, perfectiva, preventiva."
+    },
+    {
+      "id": "ageis",
+      "nome": "Métodos ágeis",
+      "resumo": "### Manifesto Ágil (2001)\nValoriza mais:\n- **Indivíduos e interações** do que processos e ferramentas;\n- **Software em funcionamento** do que documentação abrangente;\n- **Colaboração com o cliente** do que negociação de contratos;\n- **Responder a mudanças** do que seguir um plano.\n(Os itens da direita também têm valor, mas os da esquerda valem mais.)\n\n### Scrum\n- **Papéis**: **Product Owner** (cuida do *backlog* e da prioridade, representa o valor do negócio), **Scrum Master** (facilita, remove impedimentos, garante o Scrum) e **Desenvolvedores** (time auto-organizado que constrói o incremento).\n- **Eventos**: **Sprint** (ciclo de até 1 mês, geralmente 2 semanas), **Planejamento da Sprint**, **Daily Scrum** (15 minutos por dia), **Revisão da Sprint** (mostra o incremento aos interessados) e **Retrospectiva** (o time melhora o próprio processo).\n- **Artefatos**: **Product Backlog** (lista priorizada de tudo o que o produto precisa), **Sprint Backlog** (o que entra na sprint) e **Incremento** (o produto pronto, que atende à **Definição de Pronto**).\n\n### Kanban\n- Visualiza o fluxo num **quadro** (a fazer, fazendo, feito).\n- **Limita o trabalho em andamento** (WIP) para reduzir gargalos.\n- Fluxo **contínuo**, sem sprints obrigatórias. Mede o **lead time**.\n\n### XP (Extreme Programming)\nPráticas técnicas: **programação em par**, **TDD**, **integração contínua**, **refatoração**, entregas pequenas e frequentes, código coletivo.\n\n### Histórias de usuário\n\"**Como** [tipo de usuário], **quero** [ação] **para** [benefício]\", com **critérios de aceitação**. Boas histórias seguem o **INVEST** (independente, negociável, valiosa, estimável, pequena, testável). Estimativas em **pontos** (planning poker); **velocidade** = pontos entregues por sprint.",
+      "revisao": "**Lembre:**\n- Manifesto: pessoas, software funcionando, colaboração, resposta a mudanças.\n- Scrum: PO, Scrum Master, Desenvolvedores.\n- Eventos: sprint, planejamento, daily, revisão, retrospectiva.\n- Kanban: quadro e limite de WIP.\n- História: como, quero, para."
+    },
+    {
+      "id": "requisitos",
+      "nome": "Engenharia de requisitos",
+      "resumo": "Requisitos descrevem **o que** o sistema deve fazer e **sob quais restrições**. Erros nos requisitos são os **mais caros** de corrigir quando descobertos tarde.\n\n### Tipos\n- **Funcionais**: o que o sistema faz (emitir boleto, cadastrar aluno, enviar e-mail de confirmação).\n- **Não funcionais**: qualidades e restrições (**desempenho**: responder em até 2 s; **segurança**; **usabilidade**; **disponibilidade**: 99,9%; **portabilidade**; conformidade com a **LGPD**).\n- **De domínio**: vêm das regras do negócio ou da área (cálculo de imposto conforme a lei).\n- **Requisitos de usuário** (linguagem natural, para o cliente) × **de sistema** (detalhados, para os desenvolvedores).\n\n### Processo\n1. **Elicitação** (levantamento): entrevistas, questionários, **observação** (etnografia), workshops, **prototipação**, análise de documentos, **cenários**.\n2. **Análise e negociação**: resolver conflitos, priorizar (técnica **MoSCoW**: *must, should, could, won't*).\n3. **Especificação**: documento de requisitos, casos de uso, histórias de usuário.\n4. **Validação**: revisões, protótipos, geração de casos de teste. Pergunta: \"estamos construindo o **produto certo**?\".\n5. **Gerenciamento**: controlar mudanças e manter a **rastreabilidade** (ligar cada requisito à sua origem, ao código e aos testes).\n\n### Boas características de um requisito\n**Claro** (sem ambiguidade), **completo**, **consistente** (não contradiz outro), **verificável** (dá para testar), **rastreável**.\n- \"O sistema deve ser rápido\" é **ruim** (não verificável). \"Responder a 95% das buscas em até 2 segundos\" é **bom**.\n\n### Stakeholders\nTodos os interessados: usuários, clientes, gestores, equipe técnica, órgãos reguladores. Ignorar algum costuma gerar requisitos faltando.",
+      "revisao": "**Lembre:**\n- Funcional: o que faz; não funcional: como (qualidade, restrição).\n- Elicitação → análise → especificação → validação → gerência.\n- MoSCoW para priorizar.\n- Requisito bom é verificável e sem ambiguidade.\n- Rastreabilidade: requisito ↔ código ↔ teste."
+    },
+    {
+      "id": "uml",
+      "nome": "Modelagem com UML",
+      "resumo": "A **UML** (*Unified Modeling Language*) é uma linguagem gráfica padrão para modelar sistemas. Tem diagramas **estruturais** e **comportamentais**.\n\n### Diagrama de casos de uso\n- Mostra **atores** (quem interage: pessoas ou outros sistemas) e **casos de uso** (o que podem fazer).\n- **Include** («include»): o caso de uso base **sempre** executa o incluído (sacar dinheiro inclui validar cartão).\n- **Extend** («extend»): o caso estendido **às vezes** acrescenta comportamento ao base (imprimir comprovante, se o cliente quiser).\n- **Generalização** entre atores (Gerente é um tipo de Funcionário).\n\n### Diagrama de classes\n- **Classe**: nome, **atributos** e **métodos**. Visibilidade: **+** público, **−** privado, **#** protegido.\n- Relacionamentos:\n  - **Associação**: ligação entre classes, com **multiplicidade** (1, 0..1, 0..*, 1..*).\n  - **Agregação** (losango **vazio**): o todo tem partes que **existem sozinhas** (time e jogadores).\n  - **Composição** (losango **cheio**): as partes **morrem com o todo** (pedido e itens do pedido).\n  - **Herança** (generalização, seta com triângulo vazio).\n  - **Dependência** (seta tracejada).\n\n### Diagramas de comportamento\n- **Sequência**: troca de **mensagens** entre objetos ao longo do **tempo** (linhas de vida verticais).\n- **Atividades**: fluxo de ações, decisões e paralelismo, como um fluxograma.\n- **Estados** (máquina de estados): os estados de um objeto e os eventos que causam transições (pedido: aberto, pago, enviado, entregue, cancelado).\n\n### Outros\n**Componentes**, **implantação** (onde o software roda), **pacotes** e **objetos**.",
+      "revisao": "**Lembre:**\n- Include: sempre; extend: às vezes.\n- Agregação (losango vazio): partes independentes.\n- Composição (losango cheio): partes morrem com o todo.\n- Visibilidade: + público, − privado, # protegido.\n- Sequência: mensagens no tempo; estados: transições de um objeto."
+    },
+    {
+      "id": "testes",
+      "nome": "Testes e qualidade",
+      "resumo": "### Verificação × validação\n- **Verificação**: \"estamos construindo o produto **corretamente**?\" (conforme a especificação).\n- **Validação**: \"estamos construindo o produto **certo**?\" (atende ao que o cliente precisa).\n\n### Erro, defeito e falha\nUma pessoa comete um **erro** (engano), que gera um **defeito** (bug) no código, que pode causar uma **falha** (comportamento errado visível) quando executado.\n\n### Níveis de teste\n- **Unidade**: testa uma função ou classe isolada.\n- **Integração**: testa a comunicação entre módulos.\n- **Sistema**: testa o sistema completo.\n- **Aceitação**: o cliente ou usuário confirma que atende às necessidades (inclui testes **alfa**, no ambiente do desenvolvedor, e **beta**, no do usuário).\n- **Pirâmide de testes**: muitos testes de unidade (rápidos e baratos), menos de integração e poucos de ponta a ponta.\n\n### Técnicas\n- **Caixa-preta** (funcional): baseada na especificação, sem olhar o código. **Partição de equivalência** (um valor representa cada classe de entradas) e **análise de valor-limite** (testar as bordas: se aceita idade de 18 a 60, testar 17, 18, 60 e 61).\n- **Caixa-branca** (estrutural): baseada no código; mede a **cobertura** de comandos, de desvios (ramos) e de caminhos. A **complexidade ciclomática** (McCabe) indica quantos caminhos independentes testar.\n- **Teste de regressão**: refazer testes depois de uma mudança para garantir que nada que funcionava quebrou.\n\n### Práticas\n- **TDD**: escrever o teste **antes** do código. Ciclo **vermelho** (o teste falha), **verde** (código mínimo para passar), **refatorar**.\n- **Integração contínua** (CI): integrar e testar automaticamente a cada mudança.\n- **Revisão de código** e **inspeções** encontram defeitos antes de executar.\n\n### Qualidade de produto (ISO/IEC 25010)\nAdequação funcional, eficiência de desempenho, compatibilidade, usabilidade, confiabilidade, segurança, manutenibilidade e portabilidade.",
+      "revisao": "**Lembre:**\n- Verificação: produto correto; validação: produto certo.\n- Erro → defeito → falha.\n- Unidade, integração, sistema, aceitação.\n- Caixa-preta: partição e valor-limite; caixa-branca: cobertura.\n- TDD: vermelho, verde, refatorar."
+    },
+    {
+      "id": "projeto",
+      "nome": "Projeto, arquitetura e boas práticas",
+      "resumo": "### Princípios de projeto\n- **Alta coesão**: cada módulo faz **uma coisa** bem definida.\n- **Baixo acoplamento**: módulos dependem o **mínimo** uns dos outros, o que facilita mudar e testar.\n- **Encapsulamento** e **ocultação de informação**.\n- **SOLID**:\n  - **S** (responsabilidade única): uma classe tem um só motivo para mudar.\n  - **O** (aberto/fechado): aberta para extensão, fechada para modificação.\n  - **L** (substituição de Liskov): uma subclasse deve poder substituir a classe-mãe sem quebrar o programa.\n  - **I** (segregação de interfaces): várias interfaces específicas são melhores que uma geral.\n  - **D** (inversão de dependência): depender de **abstrações**, não de implementações concretas.\n- **DRY** (não se repita) e **KISS** (mantenha simples).\n\n### Estilos de arquitetura\n- **Em camadas**: apresentação, negócio e dados.\n- **MVC**: **Model** (dados e regras), **View** (interface) e **Controller** (recebe as ações e coordena).\n- **Cliente-servidor**.\n- **Microsserviços**: serviços pequenos e independentes, cada um com seu deploy; escalam separadamente, mas aumentam a complexidade de operação. O oposto é o **monólito**.\n- **Orientada a eventos**.\n\n### Padrões de projeto (GoF)\n- **Criacionais**: **Singleton** (uma única instância), **Factory Method** (subclasses decidem que objeto criar), **Builder**.\n- **Estruturais**: **Adapter** (compatibiliza interfaces), **Facade** (interface simples para um subsistema), **Decorator** (acrescenta comportamento sem herança), Composite.\n- **Comportamentais**: **Observer** (avisa os interessados quando algo muda), **Strategy** (troca o algoritmo em tempo de execução), Command, State.\n\n### Gerência de configuração e DevOps\n- **Controle de versão** (Git): branches, commits, merge, histórico.\n- **Integração contínua** e **entrega contínua** (CI/CD).\n- **Dívida técnica**: atalhos de hoje que custam caro amanhã; reduzida com **refatoração** (melhorar a estrutura sem mudar o comportamento).",
+      "revisao": "**Lembre:**\n- Alta coesão, baixo acoplamento.\n- SOLID: responsabilidade única, aberto/fechado, Liskov, interfaces, inversão.\n- MVC: model, view, controller.\n- Observer avisa; Strategy troca algoritmo; Singleton instância única.\n- Refatorar: melhora estrutura sem mudar comportamento."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "engenharia-software-1",
+      "topico": "processos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal desvantagem do modelo cascata?",
+      "opcoes": [
+        "Mudanças tardias nos requisitos custam caro, e o cliente só vê o produto no fim",
+        "Não tem documentação nenhuma",
+        "Exige entregas a cada duas semanas",
+        "Só funciona com equipes de uma pessoa"
+      ],
+      "correta": 0,
+      "explicacao": "O cascata é sequencial e rígido; funciona melhor quando os requisitos são estáveis e bem entendidos."
+    },
+    {
+      "id": "engenharia-software-2",
+      "topico": "processos",
+      "nivel": "conceitual",
+      "pergunta": "Qual modelo de processo tem como foco central a análise de riscos em cada ciclo?",
+      "opcoes": [
+        "Cascata",
+        "Espiral",
+        "Prototipação descartável",
+        "Codifica-e-conserta"
+      ],
+      "correta": 1,
+      "explicacao": "O modelo espiral de Boehm repete ciclos de planejamento, análise de riscos, engenharia e avaliação."
+    },
+    {
+      "id": "engenharia-software-3",
+      "topico": "processos",
+      "nivel": "conceitual",
+      "pergunta": "Adaptar um sistema a uma nova versão do sistema operacional é manutenção:",
+      "opcoes": [
+        "Corretiva",
+        "Perfectiva",
+        "Adaptativa",
+        "Preventiva"
+      ],
+      "correta": 2,
+      "explicacao": "Adaptativa responde a mudanças no ambiente; corretiva corrige defeitos; perfectiva melhora funções."
+    },
+    {
+      "id": "engenharia-software-4",
+      "topico": "processos",
+      "nivel": "aplicacao",
+      "pergunta": "Um órgão público precisa de um sistema com requisitos fixados em lei, que não vão mudar, e exige documentação completa de cada fase. Que modelo se encaixa melhor?",
+      "opcoes": [
+        "Prototipação descartável",
+        "Kanban sem planejamento",
+        "Espiral com muitos protótipos",
+        "Cascata"
+      ],
+      "correta": 3,
+      "explicacao": "Requisitos estáveis e exigência de documentação formal favorecem um processo sequencial."
+    },
+    {
+      "id": "engenharia-software-5",
+      "topico": "processos",
+      "nivel": "analise",
+      "pergunta": "Uma equipe entrega primeiro o cadastro de clientes, depois o módulo de vendas e por fim os relatórios, cada um já usado pelo cliente. Que característica de processo é essa?",
+      "opcoes": [
+        "Desenvolvimento incremental",
+        "Modelo cascata puro",
+        "Manutenção corretiva",
+        "Prototipação descartável"
+      ],
+      "correta": 0,
+      "explicacao": "Cada entrega é um incremento funcional que acrescenta capacidades ao sistema já em uso."
+    },
+    {
+      "id": "engenharia-software-6",
+      "topico": "ageis",
+      "nivel": "conceitual",
+      "pergunta": "No Scrum, quem é responsável por priorizar o Product Backlog?",
+      "opcoes": [
+        "O Scrum Master",
+        "O Product Owner",
+        "O gerente de projetos",
+        "Cada desenvolvedor sozinho"
+      ],
+      "correta": 1,
+      "explicacao": "O Product Owner maximiza o valor do produto; o Scrum Master facilita e remove impedimentos."
+    },
+    {
+      "id": "engenharia-software-7",
+      "topico": "ageis",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o objetivo da Retrospectiva da Sprint?",
+      "opcoes": [
+        "Mostrar o incremento ao cliente",
+        "Planejar o backlog do ano inteiro",
+        "O time inspecionar e melhorar o próprio processo de trabalho",
+        "Avaliar o desempenho individual de cada pessoa"
+      ],
+      "correta": 2,
+      "explicacao": "A Revisão mostra o produto aos interessados; a Retrospectiva olha para o modo de trabalhar do time."
+    },
+    {
+      "id": "engenharia-software-8",
+      "topico": "ageis",
+      "nivel": "conceitual",
+      "pergunta": "Qual é uma prática central do Kanban?",
+      "opcoes": [
+        "Sprints de duração fixa obrigatórias",
+        "Programação em par obrigatória",
+        "Documentação completa antes de começar",
+        "Limitar o trabalho em andamento (WIP)"
+      ],
+      "correta": 3,
+      "explicacao": "Limitar o WIP reduz gargalos e ajuda o fluxo de trabalho a andar."
+    },
+    {
+      "id": "engenharia-software-9",
+      "topico": "ageis",
+      "nivel": "aplicacao",
+      "pergunta": "Qual destas frases está no formato de história de usuário?",
+      "opcoes": [
+        "Como aluno, quero ver minhas notas para saber se vou passar",
+        "O sistema deve usar banco de dados relacional",
+        "Criar a tabela de notas no servidor",
+        "Corrigir o bug da tela de login"
+      ],
+      "correta": 0,
+      "explicacao": "O formato 'como [usuário], quero [ação] para [benefício]' foca no valor para quem usa."
+    },
+    {
+      "id": "engenharia-software-10",
+      "topico": "ageis",
+      "nivel": "analise",
+      "pergunta": "Um time entregou 30, 34 e 32 pontos nas últimas três sprints. O backlog restante soma 160 pontos. Quantas sprints, aproximadamente, faltam?",
+      "opcoes": [
+        "3 sprints",
+        "5 sprints",
+        "8 sprints",
+        "16 sprints"
+      ],
+      "correta": 1,
+      "explicacao": "A velocidade média é (30 + 34 + 32) ÷ 3 = 32 pontos por sprint; 160 ÷ 32 = 5 sprints."
+    },
+    {
+      "id": "engenharia-software-11",
+      "topico": "requisitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual destes é um requisito não funcional?",
+      "opcoes": [
+        "O sistema deve emitir boleto",
+        "O sistema deve cadastrar alunos",
+        "O sistema deve responder às buscas em até 2 segundos",
+        "O sistema deve enviar e-mail de confirmação"
+      ],
+      "correta": 2,
+      "explicacao": "Requisitos não funcionais tratam de qualidades e restrições, como desempenho, segurança e usabilidade."
+    },
+    {
+      "id": "engenharia-software-12",
+      "topico": "requisitos",
+      "nivel": "conceitual",
+      "pergunta": "A validação de requisitos busca responder:",
+      "opcoes": [
+        "O código compila sem erros?",
+        "Quantas linhas de código o sistema tem?",
+        "Qual linguagem de programação usar?",
+        "Estamos construindo o produto certo, que atende ao cliente?"
+      ],
+      "correta": 3,
+      "explicacao": "Revisões e protótipos ajudam a confirmar que os requisitos refletem a real necessidade."
+    },
+    {
+      "id": "engenharia-software-13",
+      "topico": "requisitos",
+      "nivel": "conceitual",
+      "pergunta": "Na técnica MoSCoW, os requisitos 'Must have' são:",
+      "opcoes": [
+        "Os obrigatórios, sem os quais a entrega não faz sentido",
+        "Os que não serão feitos agora",
+        "Os desejáveis, se sobrar tempo",
+        "Os que podem ser trocados livremente"
+      ],
+      "correta": 0,
+      "explicacao": "MoSCoW: must (obrigatório), should (importante), could (desejável), won't (fora desta vez)."
+    },
+    {
+      "id": "engenharia-software-14",
+      "topico": "requisitos",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a melhor forma de reescrever o requisito 'o sistema deve ser fácil de usar'?",
+      "opcoes": [
+        "O sistema deve ser muito fácil",
+        "Um usuário novo deve concluir uma matrícula em até 5 minutos sem ajuda",
+        "O sistema deve agradar a todos",
+        "O sistema deve ter uma interface bonita"
+      ],
+      "correta": 1,
+      "explicacao": "Um requisito bom é verificável: dá para medir e testar se foi cumprido."
+    },
+    {
+      "id": "engenharia-software-15",
+      "topico": "requisitos",
+      "nivel": "analise",
+      "pergunta": "Um requisito pede que 'todos os dados de alunos sejam apagados após a formatura', e outro pede 'manter o histórico escolar por tempo indeterminado'. Que problema existe?",
+      "opcoes": [
+        "Falta de rastreabilidade do código",
+        "Excesso de requisitos funcionais",
+        "Inconsistência: os requisitos se contradizem e precisam ser negociados",
+        "Os requisitos não são funcionais"
+      ],
+      "correta": 2,
+      "explicacao": "Requisitos contraditórios devem ser identificados na análise e resolvidos com os stakeholders."
+    },
+    {
+      "id": "engenharia-software-16",
+      "topico": "uml",
+      "nivel": "conceitual",
+      "pergunta": "Na UML, a composição (losango cheio) indica que:",
+      "opcoes": [
+        "As partes existem independentemente do todo",
+        "Uma classe herda da outra",
+        "Há apenas uma dependência temporária",
+        "As partes deixam de existir quando o todo é destruído"
+      ],
+      "correta": 3,
+      "explicacao": "Pedido e itens do pedido: apagar o pedido apaga os itens. Na agregação, as partes sobrevivem."
+    },
+    {
+      "id": "engenharia-software-17",
+      "topico": "uml",
+      "nivel": "conceitual",
+      "pergunta": "Num diagrama de casos de uso, o relacionamento «include» indica que:",
+      "opcoes": [
+        "O caso de uso base sempre executa o caso incluído",
+        "O caso incluído é opcional",
+        "Um ator herda de outro",
+        "Dois sistemas trocam mensagens"
+      ],
+      "correta": 0,
+      "explicacao": "«extend» é o opcional; «include» é obrigatório, como validar o cartão ao sacar."
+    },
+    {
+      "id": "engenharia-software-18",
+      "topico": "uml",
+      "nivel": "conceitual",
+      "pergunta": "Qual diagrama da UML mostra a troca de mensagens entre objetos ao longo do tempo?",
+      "opcoes": [
+        "Diagrama de classes",
+        "Diagrama de sequência",
+        "Diagrama de casos de uso",
+        "Diagrama de implantação"
+      ],
+      "correta": 1,
+      "explicacao": "Cada objeto tem uma linha de vida vertical, e as mensagens aparecem em ordem de cima para baixo."
+    },
+    {
+      "id": "engenharia-software-19",
+      "topico": "uml",
+      "nivel": "aplicacao",
+      "pergunta": "Um time de futebol tem jogadores, mas o jogador continua existindo se o time acabar. Que relacionamento representa isso?",
+      "opcoes": [
+        "Composição",
+        "Herança",
+        "Agregação",
+        "Include"
+      ],
+      "correta": 2,
+      "explicacao": "As partes (jogadores) existem sozinhas, por isso é agregação (losango vazio)."
+    },
+    {
+      "id": "engenharia-software-20",
+      "topico": "uml",
+      "nivel": "analise",
+      "pergunta": "Para modelar que um pedido pode estar aberto, pago, enviado, entregue ou cancelado, e o que leva de um a outro, qual diagrama é mais adequado?",
+      "opcoes": [
+        "Diagrama de classes",
+        "Diagrama de componentes",
+        "Diagrama de casos de uso",
+        "Diagrama de estados"
+      ],
+      "correta": 3,
+      "explicacao": "A máquina de estados mostra os estados de um objeto e os eventos que causam cada transição."
+    },
+    {
+      "id": "engenharia-software-21",
+      "topico": "testes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre verificação e validação?",
+      "opcoes": [
+        "Verificação confere se o produto segue a especificação; validação, se atende à necessidade do cliente",
+        "São a mesma coisa",
+        "Validação é feita só pelo compilador",
+        "Verificação só acontece depois da entrega"
+      ],
+      "correta": 0,
+      "explicacao": "Verificação: construir o produto corretamente. Validação: construir o produto certo."
+    },
+    {
+      "id": "engenharia-software-22",
+      "topico": "testes",
+      "nivel": "conceitual",
+      "pergunta": "Teste de regressão é:",
+      "opcoes": [
+        "Testar só a primeira versão",
+        "Refazer testes após uma mudança para garantir que o que funcionava não quebrou",
+        "Testar o desempenho com muitos usuários",
+        "Voltar para uma versão antiga do código"
+      ],
+      "correta": 1,
+      "explicacao": "Testes automatizados tornam a regressão barata e frequente."
+    },
+    {
+      "id": "engenharia-software-23",
+      "topico": "testes",
+      "nivel": "conceitual",
+      "pergunta": "No ciclo do TDD, a primeira etapa é:",
+      "opcoes": [
+        "Escrever todo o código",
+        "Refatorar",
+        "Escrever um teste que falha (vermelho)",
+        "Publicar em produção"
+      ],
+      "correta": 2,
+      "explicacao": "O ciclo é vermelho (teste falha), verde (código mínimo passa) e refatorar."
+    },
+    {
+      "id": "engenharia-software-24",
+      "topico": "testes",
+      "nivel": "aplicacao",
+      "pergunta": "Um campo aceita idades de 18 a 60. Pela análise de valor-limite, quais valores testar?",
+      "opcoes": [
+        "0, 30 e 100",
+        "Só 18 e 60",
+        "20, 30, 40 e 50",
+        "17, 18, 60 e 61"
+      ],
+      "correta": 3,
+      "explicacao": "Os defeitos se concentram nas bordas; testa-se cada limite e o valor logo fora dele."
+    },
+    {
+      "id": "engenharia-software-25",
+      "topico": "testes",
+      "nivel": "analise",
+      "pergunta": "Um programador digitou > no lugar de >= (erro), o código ficou com um bug (defeito), e um cliente com exatamente 18 anos foi recusado (falha). O que essa sequência ilustra?",
+      "opcoes": [
+        "A cadeia erro → defeito → falha",
+        "Que defeitos sempre causam falhas imediatas",
+        "Um problema de requisito não funcional",
+        "Teste de aceitação beta"
+      ],
+      "correta": 0,
+      "explicacao": "O engano humano gera o defeito no código, que se manifesta como falha quando aquele caminho é executado."
+    },
+    {
+      "id": "engenharia-software-26",
+      "topico": "projeto",
+      "nivel": "conceitual",
+      "pergunta": "O que significa baixo acoplamento?",
+      "opcoes": [
+        "Cada módulo faz muitas coisas diferentes",
+        "Os módulos dependem o mínimo possível uns dos outros",
+        "Todo o código fica num só arquivo",
+        "As classes não têm métodos"
+      ],
+      "correta": 1,
+      "explicacao": "Baixo acoplamento facilita mudar, testar e reutilizar partes do sistema; combina com alta coesão."
+    },
+    {
+      "id": "engenharia-software-27",
+      "topico": "projeto",
+      "nivel": "conceitual",
+      "pergunta": "No padrão MVC, o componente responsável pela interface com o usuário é:",
+      "opcoes": [
+        "O Model",
+        "O Controller",
+        "A View",
+        "O banco de dados"
+      ],
+      "correta": 2,
+      "explicacao": "Model guarda dados e regras; View apresenta; Controller recebe as ações e coordena os dois."
+    },
+    {
+      "id": "engenharia-software-28",
+      "topico": "projeto",
+      "nivel": "conceitual",
+      "pergunta": "Qual padrão de projeto avisa automaticamente vários objetos interessados quando o estado de outro muda?",
+      "opcoes": [
+        "Singleton",
+        "Adapter",
+        "Factory Method",
+        "Observer"
+      ],
+      "correta": 3,
+      "explicacao": "No Observer, os observadores se inscrevem e são notificados a cada mudança, como em eventos de interface."
+    },
+    {
+      "id": "engenharia-software-29",
+      "topico": "projeto",
+      "nivel": "aplicacao",
+      "pergunta": "Um sistema precisa usar uma biblioteca de pagamento cuja interface é diferente da esperada pelo código. Qual padrão resolve isso?",
+      "opcoes": [
+        "Adapter",
+        "Observer",
+        "Singleton",
+        "Builder"
+      ],
+      "correta": 0,
+      "explicacao": "O Adapter traduz uma interface na outra, sem alterar nenhuma das duas."
+    },
+    {
+      "id": "engenharia-software-30",
+      "topico": "projeto",
+      "nivel": "analise",
+      "pergunta": "Uma classe Relatorio calcula os dados, formata em PDF e envia por e-mail. Qual princípio SOLID ela viola e qual seria a correção?",
+      "opcoes": [
+        "Substituição de Liskov; criar mais subclasses",
+        "Responsabilidade única; separar cálculo, formatação e envio em classes diferentes",
+        "Aberto/fechado; apagar a classe",
+        "Segregação de interfaces; juntar tudo numa interface"
+      ],
+      "correta": 1,
+      "explicacao": "A classe tem três motivos para mudar; separar as responsabilidades aumenta a coesão."
+    }
+  ]
+}

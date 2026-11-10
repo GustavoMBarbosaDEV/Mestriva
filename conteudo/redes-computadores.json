@@ -1,0 +1,465 @@
+{
+  "id": "redes-computadores",
+  "nome": "Redes de Computadores",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "modelos",
+      "nome": "Conceitos e modelos em camadas",
+      "resumo": "### Conceitos básicos\n- **Rede**: dispositivos interligados que trocam dados.\n- Por alcance: **PAN** (pessoal, Bluetooth), **LAN** (local, uma casa ou empresa), **MAN** (cidade), **WAN** (longa distância, a internet).\n- **Topologias**: **barramento**, **anel**, **estrela** (a mais comum hoje, com um switch no centro), **malha**.\n- **Comutação de circuitos** (telefonia antiga: caminho dedicado) × **comutação de pacotes** (internet: dados divididos em pacotes que compartilham os enlaces).\n- **Largura de banda** (capacidade, em bits por segundo) × **latência** (atraso).\n- **Protocolo**: conjunto de regras de comunicação (formato, ordem das mensagens, ações).\n\n### Modelo OSI (7 camadas, de cima para baixo)\n7. **Aplicação**: serviços ao usuário (HTTP, DNS).\n6. **Apresentação**: formato, criptografia, compressão.\n5. **Sessão**: abertura e controle do diálogo.\n4. **Transporte**: comunicação **fim a fim** entre processos (TCP, UDP).\n3. **Rede**: **endereçamento lógico** e **roteamento** (IP).\n2. **Enlace**: transmissão entre nós vizinhos, **endereço MAC**, detecção de erros (Ethernet, Wi-Fi).\n1. **Física**: bits no meio (cabos, sinais, rádio).\n\n### Modelo TCP/IP (o usado na prática)\n**Aplicação** (junta aplicação, apresentação e sessão), **transporte**, **internet** (rede) e **acesso à rede** (enlace e física).\n\n### Encapsulamento\nAo descer as camadas, cada uma acrescenta seu **cabeçalho**. As unidades de dados (PDUs) são: **mensagem** ou dados (aplicação), **segmento** (transporte), **pacote** ou datagrama (rede), **quadro** (enlace) e **bits** (física).\n\n### Equipamentos\n- **Hub**: repete o sinal para todas as portas (camada 1).\n- **Switch**: encaminha o quadro só para a porta do destino, pelo **MAC** (camada 2).\n- **Roteador**: interliga redes diferentes e escolhe caminhos pelo **IP** (camada 3).",
+      "revisao": "**Lembre:**\n- OSI: física, enlace, rede, transporte, sessão, apresentação, aplicação.\n- TCP/IP: acesso à rede, internet, transporte, aplicação.\n- PDUs: dados, segmento, pacote, quadro, bits.\n- Hub (1), switch (2, MAC), roteador (3, IP)."
+    },
+    {
+      "id": "aplicacao",
+      "nome": "Camada de aplicação",
+      "resumo": "### Arquiteturas\n- **Cliente-servidor**: o servidor fica sempre ligado e atende pedidos dos clientes (sites).\n- **P2P** (par a par): os próprios participantes trocam dados entre si (BitTorrent).\n\n### HTTP e HTTPS\n- **HTTP**: protocolo da web, do tipo **requisição e resposta**, **sem estado** (cada requisição é independente; **cookies** guardam o estado). Porta **80**.\n- **Métodos**: **GET** (obter), **POST** (enviar/criar), **PUT** (substituir), **PATCH** (alterar parte), **DELETE** (apagar).\n- **Códigos de status**: **2xx** sucesso (200 OK, 201 Created); **3xx** redirecionamento (301, 302, 304); **4xx** erro do cliente (400, 401 não autenticado, 403 proibido, **404 não encontrado**); **5xx** erro do servidor (500, 503).\n- **HTTPS**: HTTP sobre **TLS**, com criptografia e certificado; porta **443**.\n\n### DNS\n- Traduz **nomes** (www.exemplo.com.br) em **endereços IP**.\n- Hierárquico: servidores **raiz**, de **domínio de topo** (.br, .com) e **autoritativos**. Os resolvedores guardam respostas em **cache** por um tempo (TTL).\n- Registros: **A** (IPv4), **AAAA** (IPv6), **CNAME** (apelido), **MX** (servidor de e-mail).\n- Usa normalmente **UDP, porta 53**.\n\n### E-mail\n- **SMTP** (porta 25 ou 587): **envio** e transferência entre servidores.\n- **POP3** (110): baixa as mensagens, em geral apagando do servidor.\n- **IMAP** (143): mantém as mensagens no servidor, sincronizando vários aparelhos.\n\n### Outros protocolos\n- **DHCP**: dá automaticamente IP, máscara, gateway e DNS a quem entra na rede (UDP 67/68).\n- **FTP** (20/21): transferência de arquivos, sem criptografia. **SSH** (22): acesso remoto seguro. **Telnet** (23): acesso remoto **sem** criptografia.",
+      "revisao": "**Lembre:**\n- HTTP 80, HTTPS 443, DNS 53, SSH 22, SMTP 25/587.\n- HTTP é sem estado; cookies guardam estado.\n- 4xx: erro do cliente; 5xx: erro do servidor.\n- DNS: nome → IP.\n- IMAP mantém no servidor; POP3 baixa."
+    },
+    {
+      "id": "transporte",
+      "nome": "Camada de transporte: TCP e UDP",
+      "resumo": "A camada de transporte leva dados entre **processos** em máquinas diferentes. Os processos são identificados por **portas** (0 a 65.535; as conhecidas vão até 1.023). Um **socket** é a combinação IP + porta.\n\n### UDP\n- **Sem conexão**, **sem garantia** de entrega nem de ordem.\n- Cabeçalho pequeno (8 bytes), **rápido** e com pouca sobrecarga.\n- Bom para **tempo real**, onde atraso é pior que perda: **voz e vídeo**, jogos online, **DNS**, streaming ao vivo.\n\n### TCP\n- **Orientado a conexão**: abre com o **three-way handshake**: **SYN**, **SYN-ACK**, **ACK**. Fecha com troca de **FIN**.\n- **Confiável**: números de **sequência**, **confirmações** (ACK) e **retransmissão** do que se perdeu; entrega em **ordem** e sem duplicatas.\n- **Controle de fluxo**: o receptor anuncia uma **janela** (quanto consegue receber), para não ser afogado.\n- **Controle de congestionamento**: o emissor reduz o ritmo quando percebe perdas na rede (**partida lenta**, *slow start*, e aumento aditivo com diminuição multiplicativa).\n- Usado em **web**, **e-mail**, transferência de arquivos, SSH: onde os dados precisam chegar inteiros.\n\n### Comparação\n| | TCP | UDP |\n|---|---|---|\n| Conexão | sim | não |\n| Entrega garantida | sim | não |\n| Ordem | garantida | não garantida |\n| Velocidade | menor | maior |\n\n### Multiplexação\nVários aplicativos usam a rede ao mesmo tempo; a **porta** de destino diz a qual processo cada segmento pertence.",
+      "revisao": "**Lembre:**\n- UDP: sem conexão, rápido, sem garantias (voz, jogos, DNS).\n- TCP: conexão, confiável, ordenado (web, e-mail).\n- Handshake: SYN, SYN-ACK, ACK.\n- Controle de fluxo (receptor) × congestionamento (rede).\n- Socket = IP + porta."
+    },
+    {
+      "id": "rede",
+      "nome": "Camada de rede: IP e roteamento",
+      "resumo": "### IPv4\n- Endereço de **32 bits**, escrito em quatro números de 0 a 255 (192.168.0.10).\n- Dividido em **parte de rede** e **parte de host**, definidas pela **máscara** (255.255.255.0 = **/24**).\n- **Endereço de rede**: host com todos os bits 0. **Broadcast**: host com todos os bits 1. Ambos **não** podem ser dados a dispositivos.\n- **Hosts utilizáveis** numa sub-rede = **2^(bits de host) − 2**. Uma /24 tem 8 bits de host: 256 − 2 = **254** hosts.\n- **Faixas privadas** (RFC 1918), usadas dentro de casas e empresas: **10.0.0.0/8**, **172.16.0.0/12** e **192.168.0.0/16**. **127.0.0.1** é o *loopback* (a própria máquina).\n\n### NAT\nPermite que vários dispositivos com IP **privado** saiam para a internet usando **um único IP público** do roteador. Ajudou a adiar o esgotamento do IPv4.\n\n### IPv6\nEndereço de **128 bits**, escrito em hexadecimal (2001:db8::1). Espaço praticamente ilimitado; dispensa o NAT e traz autoconfiguração.\n\n### Roteamento\n- O roteador consulta a **tabela de roteamento** e envia o pacote para o **próximo salto**. Vale a rota **mais específica** (maior prefixo).\n- **Gateway padrão**: para onde vai tudo que não é da rede local.\n- **Estático** (configurado à mão) × **dinâmico** (protocolos aprendem as rotas).\n- Protocolos: **RIP** (vetor de distância, conta saltos), **OSPF** (estado de enlace, usa Dijkstra) e **BGP** (entre sistemas autônomos, a \"cola\" da internet).\n- **TTL**: contador que diminui a cada roteador; em zero, o pacote é descartado (evita laços).\n\n### ICMP\nMensagens de controle e erro. Usado pelo **ping** (testa se um host responde) e pelo **traceroute** (mostra o caminho).\n\n### ARP\nDescobre o **endereço MAC** a partir do **IP**, dentro da rede local.",
+      "revisao": "**Lembre:**\n- IPv4: 32 bits; IPv6: 128 bits.\n- Hosts = 2^(bits de host) − 2.\n- Privados: 10/8, 172.16/12, 192.168/16.\n- NAT: muitos privados, um público.\n- ARP: IP → MAC. ICMP: ping e traceroute."
+    },
+    {
+      "id": "enlace",
+      "nome": "Camada de enlace, redes locais e sem fio",
+      "resumo": "### Funções do enlace\n**Enquadramento** (montar quadros), **endereçamento físico** (MAC), **detecção de erros** e **controle de acesso ao meio**.\n\n### Endereço MAC\n- **48 bits**, em hexadecimal (00:1A:2B:3C:4D:5E), gravado na placa de rede.\n- Os 24 primeiros bits identificam o **fabricante** (OUI).\n- O endereço **FF:FF:FF:FF:FF:FF** é o de **broadcast**.\n\n### Detecção de erros\n- **Paridade**: um bit extra; detecta erro em número ímpar de bits.\n- **Checksum**: soma de verificação (usada no TCP/UDP).\n- **CRC**: cálculo polinomial, muito eficiente; usado no Ethernet.\n\n### Ethernet (IEEE 802.3)\n- Padrão das redes **cabeadas**.\n- Antigamente, com hubs, usava **CSMA/CD** (escuta o meio e detecta colisões). Com **switches** em **full-duplex**, cada porta é um domínio de colisão separado e as colisões praticamente somem.\n- Cabos de **par trançado** (Cat5e, Cat6) até 100 metros; **fibra óptica** para distâncias maiores e imune a interferência elétrica.\n\n### Switch\nAprende os MACs de cada porta (**tabela MAC**) olhando o endereço de origem dos quadros. Quando não conhece o destino, **inunda** todas as portas.\n- **VLAN**: divide um switch em várias redes lógicas separadas.\n\n### Redes sem fio (Wi-Fi, IEEE 802.11)\n- Usa **CSMA/CA** (evita colisões, porque no rádio não é possível detectá-las direito).\n- Problema do **terminal oculto**: duas estações não se ouvem, mas ambas alcançam o ponto de acesso; o RTS/CTS ajuda.\n- Faixas de **2,4 GHz** (maior alcance, mais interferência) e **5 GHz** (mais velocidade, menor alcance).\n- Segurança: **WEP** (quebrado, não usar), **WPA2** e **WPA3** (atual).",
+      "revisao": "**Lembre:**\n- MAC: 48 bits; broadcast FF:FF:FF:FF:FF:FF.\n- CRC detecta erros no Ethernet.\n- Ethernet: CSMA/CD (histórico); Wi-Fi: CSMA/CA.\n- Switch aprende MACs; VLAN separa redes lógicas.\n- WPA3 atual; WEP inseguro."
+    },
+    {
+      "id": "seguranca",
+      "nome": "Segurança de redes",
+      "resumo": "### Pilares (tríade CIA)\n- **Confidencialidade**: só quem tem permissão lê.\n- **Integridade**: os dados não são alterados sem detecção.\n- **Disponibilidade**: o serviço está acessível quando necessário.\nTambém: **autenticidade** (quem diz ser) e **não repúdio** (não pode negar que fez).\n\n### Criptografia\n- **Simétrica**: a **mesma chave** cifra e decifra (AES). Rápida, mas é difícil distribuir a chave com segurança.\n- **Assimétrica**: par de chaves, **pública** e **privada** (RSA, curvas elípticas). Cifrar com a pública do destinatário garante que só ele leia; **assinar** com a própria **privada** garante autoria.\n- **Hash**: resumo de tamanho fixo e irreversível (SHA-256); verifica integridade e guarda senhas (com **sal**).\n- **TLS** combina as duas: usa a assimétrica para combinar uma chave e a simétrica para os dados. **Certificados digitais**, emitidos por **autoridades certificadoras**, ligam uma chave pública a um domínio.\n\n### Ataques comuns\n- **Phishing**: mensagem falsa para roubar dados.\n- **DoS/DDoS**: sobrecarregar um serviço para derrubá-lo (o DDoS usa muitas máquinas, as *botnets*).\n- **Homem no meio** (*man-in-the-middle*): intercepta a comunicação.\n- **Sniffing**: capturar tráfego não criptografado.\n- **Spoofing**: falsificar endereço IP, MAC ou e-mail.\n- **Malware**: vírus, *worms* (se espalham sozinhos), *trojans*, **ransomware** (sequestra arquivos).\n\n### Defesas\n- **Firewall**: filtra o tráfego por regras (IP, porta, protocolo). **De estado** (*stateful*): acompanha as conexões.\n- **IDS** (detecta e alerta) × **IPS** (detecta e **bloqueia**).\n- **VPN**: túnel criptografado sobre a internet.\n- **DMZ**: rede intermediária para servidores públicos, separada da rede interna.\n- **Autenticação multifator** (MFA), atualizações, princípio do **menor privilégio**, backups.",
+      "revisao": "**Lembre:**\n- CIA: confidencialidade, integridade, disponibilidade.\n- Simétrica: uma chave; assimétrica: pública e privada.\n- Assinar: com a privada; conferir: com a pública.\n- Hash: irreversível, integridade.\n- IDS alerta; IPS bloqueia. DMZ separa servidores públicos."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "redes-computadores-1",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "Em qual camada do modelo OSI ocorre o roteamento com endereços IP?",
+      "opcoes": [
+        "Rede (camada 3)",
+        "Enlace (camada 2)",
+        "Transporte (camada 4)",
+        "Aplicação (camada 7)"
+      ],
+      "correta": 0,
+      "explicacao": "A camada de rede cuida do endereçamento lógico e da escolha de caminhos entre redes."
+    },
+    {
+      "id": "redes-computadores-2",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o nome da unidade de dados na camada de enlace?",
+      "opcoes": [
+        "Segmento",
+        "Quadro",
+        "Pacote",
+        "Mensagem"
+      ],
+      "correta": 1,
+      "explicacao": "Dados (aplicação), segmento (transporte), pacote (rede), quadro (enlace) e bits (física)."
+    },
+    {
+      "id": "redes-computadores-3",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "Qual equipamento encaminha quadros apenas para a porta do destino, usando o endereço MAC?",
+      "opcoes": [
+        "Hub",
+        "Roteador",
+        "Switch",
+        "Repetidor"
+      ],
+      "correta": 2,
+      "explicacao": "O hub repete para todas as portas; o roteador trabalha com IP, na camada 3."
+    },
+    {
+      "id": "redes-computadores-4",
+      "topico": "modelos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa quer interligar a rede do escritório à internet e a uma filial em outra cidade. Qual equipamento faz a ligação entre essas redes diferentes?",
+      "opcoes": [
+        "Hub",
+        "Switch sem VLAN",
+        "Cabo crossover",
+        "Roteador"
+      ],
+      "correta": 3,
+      "explicacao": "Interligar redes diferentes e escolher caminhos entre elas é papel do roteador."
+    },
+    {
+      "id": "redes-computadores-5",
+      "topico": "modelos",
+      "nivel": "analise",
+      "pergunta": "Ao enviar uma página web, o dado ganha um cabeçalho TCP, depois um IP e depois um Ethernet. Como se chama esse processo e em que ordem o receptor retira os cabeçalhos?",
+      "opcoes": [
+        "Encapsulamento; o receptor retira primeiro o Ethernet, depois o IP e por último o TCP",
+        "Roteamento; o receptor retira primeiro o TCP",
+        "Multiplexação; os cabeçalhos são mantidos",
+        "Fragmentação; o receptor retira todos ao mesmo tempo"
+      ],
+      "correta": 0,
+      "explicacao": "Cada camada acrescenta seu cabeçalho na descida; na subida, o receptor desfaz na ordem inversa (desencapsulamento)."
+    },
+    {
+      "id": "redes-computadores-6",
+      "topico": "aplicacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a função do DNS?",
+      "opcoes": [
+        "Distribuir endereços IP automaticamente",
+        "Traduzir nomes de domínio em endereços IP",
+        "Enviar e-mails",
+        "Criptografar páginas web"
+      ],
+      "correta": 1,
+      "explicacao": "Distribuir IPs automaticamente é o DHCP; o DNS resolve nomes."
+    },
+    {
+      "id": "redes-computadores-7",
+      "topico": "aplicacao",
+      "nivel": "conceitual",
+      "pergunta": "O código de status HTTP 404 indica:",
+      "opcoes": [
+        "Erro interno do servidor",
+        "Sucesso",
+        "Recurso não encontrado (erro do cliente)",
+        "Redirecionamento permanente"
+      ],
+      "correta": 2,
+      "explicacao": "4xx são erros do lado do cliente; 5xx, do servidor; 2xx, sucesso; 3xx, redirecionamento."
+    },
+    {
+      "id": "redes-computadores-8",
+      "topico": "aplicacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual protocolo mantém as mensagens de e-mail no servidor e sincroniza vários aparelhos?",
+      "opcoes": [
+        "POP3",
+        "SMTP",
+        "FTP",
+        "IMAP"
+      ],
+      "correta": 3,
+      "explicacao": "O POP3 costuma baixar e apagar do servidor; o SMTP serve para enviar."
+    },
+    {
+      "id": "redes-computadores-9",
+      "topico": "aplicacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um notebook entra numa rede e recebe sozinho IP, máscara, gateway e DNS. Qual protocolo fez isso?",
+      "opcoes": [
+        "DHCP",
+        "DNS",
+        "ARP",
+        "ICMP"
+      ],
+      "correta": 0,
+      "explicacao": "O DHCP entrega automaticamente a configuração de rede a quem chega."
+    },
+    {
+      "id": "redes-computadores-10",
+      "topico": "aplicacao",
+      "nivel": "analise",
+      "pergunta": "Um usuário acessa um site por HTTP numa rede Wi-Fi pública e digita a senha. Qual é o risco e o que o evitaria?",
+      "opcoes": [
+        "Nenhum risco, pois o Wi-Fi já protege tudo",
+        "A senha trafega sem criptografia e pode ser capturada; usar HTTPS (TLS) evitaria",
+        "O DNS apaga a senha; usar FTP evitaria",
+        "O site fica lento; usar UDP evitaria"
+      ],
+      "correta": 1,
+      "explicacao": "Sem TLS, qualquer um capturando o tráfego lê os dados. O HTTPS cifra a comunicação de ponta a ponta."
+    },
+    {
+      "id": "redes-computadores-11",
+      "topico": "transporte",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a sequência do three-way handshake do TCP?",
+      "opcoes": [
+        "ACK, SYN, FIN",
+        "SYN, ACK, FIN",
+        "SYN, SYN-ACK, ACK",
+        "FIN, ACK, SYN"
+      ],
+      "correta": 2,
+      "explicacao": "O cliente envia SYN, o servidor responde SYN-ACK e o cliente confirma com ACK."
+    },
+    {
+      "id": "redes-computadores-12",
+      "topico": "transporte",
+      "nivel": "conceitual",
+      "pergunta": "Por que chamadas de voz e jogos online costumam usar UDP?",
+      "opcoes": [
+        "Porque o UDP garante a entrega",
+        "Porque o UDP é orientado a conexão",
+        "Porque o TCP não funciona na internet",
+        "Porque o atraso de retransmissões atrapalha mais que a perda de alguns pacotes"
+      ],
+      "correta": 3,
+      "explicacao": "Em tempo real, um pacote atrasado já não serve; a leveza do UDP vale mais que a confiabilidade."
+    },
+    {
+      "id": "redes-computadores-13",
+      "topico": "transporte",
+      "nivel": "conceitual",
+      "pergunta": "O controle de fluxo do TCP serve para:",
+      "opcoes": [
+        "Evitar que o emissor envie mais dados do que o receptor consegue receber",
+        "Escolher o melhor caminho na rede",
+        "Traduzir nomes em IPs",
+        "Criptografar os dados"
+      ],
+      "correta": 0,
+      "explicacao": "O receptor anuncia sua janela; o controle de congestionamento, por outro lado, protege a rede."
+    },
+    {
+      "id": "redes-computadores-14",
+      "topico": "transporte",
+      "nivel": "aplicacao",
+      "pergunta": "Um servidor roda um site (porta 443) e um serviço SSH (porta 22) no mesmo IP. Como o sistema sabe para qual programa vai cada segmento?",
+      "opcoes": [
+        "Pelo endereço MAC",
+        "Pela porta de destino no cabeçalho de transporte",
+        "Pelo TTL do pacote",
+        "Pela máscara de sub-rede"
+      ],
+      "correta": 1,
+      "explicacao": "A multiplexação usa as portas para entregar cada segmento ao processo certo."
+    },
+    {
+      "id": "redes-computadores-15",
+      "topico": "transporte",
+      "nivel": "analise",
+      "pergunta": "Durante uma transferência, o TCP percebe várias perdas de pacotes e reduz bastante a taxa de envio. Que mecanismo está agindo e por quê?",
+      "opcoes": [
+        "Controle de fluxo, porque o receptor está cheio",
+        "Handshake, para reabrir a conexão",
+        "Controle de congestionamento, pois as perdas indicam que a rede está sobrecarregada",
+        "DNS, para trocar o servidor"
+      ],
+      "correta": 2,
+      "explicacao": "Perdas são sinal de congestionamento; o TCP diminui o ritmo (diminuição multiplicativa) para aliviar a rede."
+    },
+    {
+      "id": "redes-computadores-16",
+      "topico": "rede",
+      "nivel": "conceitual",
+      "pergunta": "Quantos bits tem um endereço IPv4?",
+      "opcoes": [
+        "48",
+        "64",
+        "128",
+        "32"
+      ],
+      "correta": 3,
+      "explicacao": "IPv4 tem 32 bits; o MAC tem 48; o IPv6 tem 128."
+    },
+    {
+      "id": "redes-computadores-17",
+      "topico": "rede",
+      "nivel": "conceitual",
+      "pergunta": "Qual destes é um endereço IP privado?",
+      "opcoes": [
+        "192.168.1.20",
+        "8.8.8.8",
+        "200.150.10.1",
+        "1.1.1.1"
+      ],
+      "correta": 0,
+      "explicacao": "As faixas privadas são 10.0.0.0/8, 172.16.0.0/12 e 192.168.0.0/16; elas não são roteadas na internet."
+    },
+    {
+      "id": "redes-computadores-18",
+      "topico": "rede",
+      "nivel": "conceitual",
+      "pergunta": "Qual protocolo descobre o endereço MAC a partir do endereço IP na rede local?",
+      "opcoes": [
+        "DNS",
+        "ARP",
+        "DHCP",
+        "ICMP"
+      ],
+      "correta": 1,
+      "explicacao": "O ARP pergunta em broadcast 'quem tem este IP?' e o dono responde com seu MAC."
+    },
+    {
+      "id": "redes-computadores-19",
+      "topico": "rede",
+      "nivel": "aplicacao",
+      "pergunta": "Quantos hosts utilizáveis cabem numa sub-rede /26?",
+      "opcoes": [
+        "64",
+        "30",
+        "62",
+        "126"
+      ],
+      "correta": 2,
+      "explicacao": "/26 deixa 32 − 26 = 6 bits de host: 2⁶ − 2 = 62 (tirando o endereço de rede e o de broadcast)."
+    },
+    {
+      "id": "redes-computadores-20",
+      "topico": "rede",
+      "nivel": "analise",
+      "pergunta": "Em casa, cinco aparelhos com IPs 192.168.0.x acessam a internet, mas os sites veem todos com o mesmo IP. O que explica isso?",
+      "opcoes": [
+        "O DNS dá o mesmo IP a todos",
+        "O ARP troca os endereços MAC",
+        "O IPv6 junta os endereços",
+        "O NAT do roteador traduz os IPs privados para um único IP público"
+      ],
+      "correta": 3,
+      "explicacao": "O NAT mapeia as conexões internas para o IP público, permitindo que muitos aparelhos dividam um endereço."
+    },
+    {
+      "id": "redes-computadores-21",
+      "topico": "enlace",
+      "nivel": "conceitual",
+      "pergunta": "Quantos bits tem um endereço MAC?",
+      "opcoes": [
+        "48",
+        "32",
+        "64",
+        "128"
+      ],
+      "correta": 0,
+      "explicacao": "O MAC tem 48 bits, escritos em hexadecimal; os 24 primeiros identificam o fabricante."
+    },
+    {
+      "id": "redes-computadores-22",
+      "topico": "enlace",
+      "nivel": "conceitual",
+      "pergunta": "Por que as redes Wi-Fi usam CSMA/CA em vez de CSMA/CD?",
+      "opcoes": [
+        "Porque o Wi-Fi não tem colisões",
+        "Porque no rádio é difícil detectar colisões enquanto se transmite, então se tenta evitá-las",
+        "Porque o CSMA/CD é mais moderno",
+        "Porque o Wi-Fi usa fibra óptica"
+      ],
+      "correta": 1,
+      "explicacao": "CA significa 'collision avoidance': esperar e reservar o meio antes de transmitir."
+    },
+    {
+      "id": "redes-computadores-23",
+      "topico": "enlace",
+      "nivel": "conceitual",
+      "pergunta": "Qual padrão de segurança de Wi-Fi é considerado inseguro e não deve ser usado?",
+      "opcoes": [
+        "WPA2",
+        "WPA3",
+        "WEP",
+        "WPA3 com senha forte"
+      ],
+      "correta": 2,
+      "explicacao": "O WEP pode ser quebrado em minutos; o atual recomendado é o WPA3."
+    },
+    {
+      "id": "redes-computadores-24",
+      "topico": "enlace",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa quer que os computadores do financeiro e os das visitas fiquem em redes separadas, usando o mesmo switch. O que configurar?",
+      "opcoes": [
+        "Um hub adicional",
+        "Mais endereços MAC",
+        "Um cabo mais longo",
+        "VLANs"
+      ],
+      "correta": 3,
+      "explicacao": "VLANs dividem um switch físico em redes lógicas isoladas."
+    },
+    {
+      "id": "redes-computadores-25",
+      "topico": "enlace",
+      "nivel": "analise",
+      "pergunta": "Um switch recém-ligado recebe um quadro para um MAC que ainda não está na sua tabela. O que ele faz e por quê?",
+      "opcoes": [
+        "Inunda o quadro para todas as portas, exceto a de origem, porque ainda não sabe onde está o destino",
+        "Descarta o quadro",
+        "Envia o quadro ao roteador",
+        "Pergunta ao DNS"
+      ],
+      "correta": 0,
+      "explicacao": "Quando o destino responder, o switch aprende a porta dele pelo MAC de origem e passa a encaminhar só para lá."
+    },
+    {
+      "id": "redes-computadores-26",
+      "topico": "seguranca",
+      "nivel": "conceitual",
+      "pergunta": "Na criptografia assimétrica, para enviar uma mensagem que só o destinatário possa ler, cifra-se com:",
+      "opcoes": [
+        "A chave privada do remetente",
+        "A chave pública do destinatário",
+        "A chave pública do remetente",
+        "Um hash da mensagem"
+      ],
+      "correta": 1,
+      "explicacao": "Só a chave privada correspondente, que fica com o destinatário, consegue decifrar."
+    },
+    {
+      "id": "redes-computadores-27",
+      "topico": "seguranca",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre IDS e IPS?",
+      "opcoes": [
+        "São a mesma coisa",
+        "O IDS bloqueia e o IPS só registra",
+        "O IDS detecta e alerta; o IPS detecta e bloqueia",
+        "O IPS é um tipo de antivírus doméstico"
+      ],
+      "correta": 2,
+      "explicacao": "O IPS fica no caminho do tráfego e pode interromper o ataque."
+    },
+    {
+      "id": "redes-computadores-28",
+      "topico": "seguranca",
+      "nivel": "conceitual",
+      "pergunta": "Um ataque que derruba um site sobrecarregando-o com tráfego de milhares de máquinas infectadas é:",
+      "opcoes": [
+        "Phishing",
+        "Sniffing",
+        "SQL injection",
+        "DDoS"
+      ],
+      "correta": 3,
+      "explicacao": "Negação de serviço distribuída usa botnets para esgotar a capacidade do alvo."
+    },
+    {
+      "id": "redes-computadores-29",
+      "topico": "seguranca",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa quer deixar o servidor web acessível pela internet sem expor a rede interna. Qual solução de arquitetura usar?",
+      "opcoes": [
+        "Colocar o servidor numa DMZ, separada por firewall",
+        "Ligar o servidor direto na rede interna",
+        "Desligar o firewall",
+        "Usar WEP no Wi-Fi"
+      ],
+      "correta": 0,
+      "explicacao": "A DMZ isola os servidores públicos; se um for invadido, a rede interna continua protegida."
+    },
+    {
+      "id": "redes-computadores-30",
+      "topico": "seguranca",
+      "nivel": "analise",
+      "pergunta": "Um sistema guarda as senhas com SHA-256, mas sem sal. Qual é o risco e a melhoria?",
+      "opcoes": [
+        "Nenhum risco, pois hash é irreversível",
+        "Senhas iguais geram o mesmo hash e tabelas prontas facilitam quebrá-las; acrescentar sal e usar um algoritmo lento como bcrypt ou Argon2",
+        "As senhas ficam visíveis; trocar por criptografia simétrica",
+        "O hash ocupa espaço demais; apagar as senhas"
+      ],
+      "correta": 1,
+      "explicacao": "O sal torna cada hash único e os algoritmos lentos encarecem os ataques de força bruta."
+    }
+  ]
+}

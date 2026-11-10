@@ -658,6 +658,63 @@ export const EXTRA = {
       "Matemática Aplicada à Gestão I",
       "Métodos Quantitativos"
     ]
+  },
+  "estrutura-dados": {
+    "area": "Exatas",
+    "apelidos": [
+      "Estruturas de Dados",
+      "Estrutura de Dados I",
+      "Estrutura de Dados II",
+      "Estruturas de Dados I",
+      "Estruturas de Dados II",
+      "Algoritmos e Estruturas de Dados II",
+      "AEDS II",
+      "Estruturas de Dados e Algoritmos",
+      "Programação II"
+    ]
+  },
+  "engenharia-software": {
+    "area": "Exatas",
+    "apelidos": [
+      "Engenharia de Software I",
+      "Engenharia de Software II",
+      "Engenharia de Requisitos",
+      "Análise e Projeto de Sistemas",
+      "Análise de Sistemas",
+      "Modelagem de Sistemas",
+      "Processos de Software",
+      "Teste de Software",
+      "Qualidade de Software",
+      "Metodologias Ágeis"
+    ]
+  },
+  "redes-computadores": {
+    "area": "Exatas",
+    "apelidos": [
+      "Redes de Computadores I",
+      "Redes de Computadores II",
+      "Redes",
+      "Redes I",
+      "Fundamentos de Redes",
+      "Fundamentos de Redes de Computadores",
+      "Comunicação de Dados",
+      "Redes e Comunicação de Dados",
+      "Segurança de Redes"
+    ]
+  },
+  "arquitetura-computadores": {
+    "area": "Exatas",
+    "apelidos": [
+      "Arquitetura de Computadores I",
+      "Arquitetura e Organização de Computadores",
+      "Organização de Computadores",
+      "Organização e Arquitetura de Computadores",
+      "Sistemas Digitais",
+      "Circuitos Digitais",
+      "Eletrônica Digital",
+      "Lógica Digital",
+      "Fundamentos de Sistemas Digitais"
+    ]
   }
 };
 
