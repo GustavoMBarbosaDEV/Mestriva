@@ -168,6 +168,46 @@
       ]
     },
     {
+      "id": "antropologia",
+      "nome": "Antropologia",
+      "apelidos": [
+        "Antropologia Cultural",
+        "Antropologia Social",
+        "Antropologia Geral",
+        "Introdução à Antropologia",
+        "Antropologia I",
+        "Antropologia e Cultura",
+        "Antropologia Cultural e Social"
+      ],
+      "area": "Humanas",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "O que é antropologia e o conceito de cultura"
+        },
+        {
+          "id": "escolas",
+          "nome": "Escolas e teorias antropológicas"
+        },
+        {
+          "id": "metodo",
+          "nome": "Método etnográfico"
+        },
+        {
+          "id": "parentesco",
+          "nome": "Parentesco, religião e ritual"
+        },
+        {
+          "id": "brasil",
+          "nome": "Antropologia no Brasil: povos indígenas e diversidade"
+        },
+        {
+          "id": "contemporaneos",
+          "nome": "Temas contemporâneos: gênero, identidade e globalização"
+        }
+      ]
+    },
+    {
       "id": "arquitetura-computadores",
       "nome": "Arquitetura de Computadores",
       "apelidos": [
@@ -1361,6 +1401,46 @@
       ]
     },
     {
+      "id": "filosofia",
+      "nome": "Filosofia",
+      "apelidos": [
+        "Filosofia Geral",
+        "Introdução à Filosofia",
+        "Filosofia I",
+        "Fundamentos de Filosofia",
+        "História da Filosofia",
+        "Filosofia e Ética",
+        "Ética e Filosofia"
+      ],
+      "area": "Humanas",
+      "topicos": [
+        {
+          "id": "antiga",
+          "nome": "Filosofia antiga: pré-socráticos, Sócrates e Platão"
+        },
+        {
+          "id": "aristoteles-medieval",
+          "nome": "Aristóteles e filosofia medieval"
+        },
+        {
+          "id": "moderna",
+          "nome": "Filosofia moderna: racionalismo, empirismo e Kant"
+        },
+        {
+          "id": "etica",
+          "nome": "Ética e moral"
+        },
+        {
+          "id": "politica",
+          "nome": "Filosofia política"
+        },
+        {
+          "id": "contemporanea",
+          "nome": "Filosofia contemporânea e teoria do conhecimento"
+        }
+      ]
+    },
+    {
       "id": "fisica-1",
       "nome": "Física I",
       "apelidos": [
@@ -1846,6 +1926,48 @@
         {
           "id": "politicas-economicas",
           "nome": "Políticas monetária e fiscal"
+        }
+      ]
+    },
+    {
+      "id": "libras",
+      "nome": "Libras",
+      "apelidos": [
+        "Língua Brasileira de Sinais",
+        "Libras I",
+        "Libras II",
+        "Língua Brasileira de Sinais I",
+        "Língua de Sinais",
+        "Introdução à Libras",
+        "Fundamentos de Libras",
+        "Educação de Surdos",
+        "Língua Brasileira de Sinais - Libras"
+      ],
+      "area": "Humanas",
+      "topicos": [
+        {
+          "id": "surdez",
+          "nome": "Surdez e concepções"
+        },
+        {
+          "id": "historia",
+          "nome": "História da educação de surdos"
+        },
+        {
+          "id": "legislacao",
+          "nome": "Legislação e direitos"
+        },
+        {
+          "id": "linguistica",
+          "nome": "Aspectos linguísticos da Libras"
+        },
+        {
+          "id": "gramatica",
+          "nome": "Gramática da Libras"
+        },
+        {
+          "id": "pratica",
+          "nome": "Educação bilíngue, intérprete e prática"
         }
       ]
     },
@@ -2915,6 +3037,46 @@
         {
           "id": "escola-contemporanea",
           "nome": "Escola, juventude e sociedade contemporânea"
+        }
+      ]
+    },
+    {
+      "id": "sociologia",
+      "nome": "Sociologia",
+      "apelidos": [
+        "Sociologia Geral",
+        "Sociologia I",
+        "Introdução à Sociologia",
+        "Fundamentos de Sociologia",
+        "Teoria Sociológica",
+        "Sociologia Clássica",
+        "Ciências Sociais"
+      ],
+      "area": "Humanas",
+      "topicos": [
+        {
+          "id": "origens",
+          "nome": "Origens da sociologia e Comte"
+        },
+        {
+          "id": "durkheim",
+          "nome": "Émile Durkheim"
+        },
+        {
+          "id": "marx",
+          "nome": "Karl Marx"
+        },
+        {
+          "id": "weber",
+          "nome": "Max Weber"
+        },
+        {
+          "id": "conceitos",
+          "nome": "Cultura, socialização e estratificação"
+        },
+        {
+          "id": "contemporanea",
+          "nome": "Temas contemporâneos e pensamento social brasileiro"
         }
       ]
     },

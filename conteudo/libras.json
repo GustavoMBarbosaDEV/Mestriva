@@ -1,0 +1,465 @@
+{
+  "id": "libras",
+  "nome": "Libras",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "surdez",
+      "nome": "Surdez e concepções",
+      "resumo": "### Concepções sobre a surdez\n- **Clínico-terapêutica (médica)**: a surdez como **deficiência** a ser corrigida; foco na audição, na fala e na reabilitação (aparelhos, implante coclear, oralização).\n- **Socioantropológica**: a surdez como **diferença** linguística e cultural; os surdos formam uma **comunidade** com língua própria (a língua de sinais), **cultura** e **identidade**.\n- Termos: prefira **surdo** (como a comunidade se identifica). Evite \"**surdo-mudo**\": o surdo **não é mudo**, tem aparelho fonador e pode vocalizar; apenas não usa a fala oral como língua principal. \"Deficiente auditivo\" é termo mais clínico.\n\n### Tipos e graus de perda auditiva\n- **Graus**: leve, moderada, severa e **profunda**.\n- **Tipos**: condutiva (orelha externa ou média), **neurossensorial** (orelha interna/nervo), mista.\n- **Pré-linguística** (antes da aquisição da língua oral) × **pós-linguística**.\n- Exames: audiometria; **teste da orelhinha** (triagem auditiva neonatal) é obrigatório no Brasil.\n\n### Cultura e identidade surdas\n- **Cultura surda**: modo de perceber o mundo **pela visão**; arte, poesia e humor em língua de sinais; hábitos como chamar a atenção tocando o ombro, acenando ou piscando a luz.\n- **Identidades** (Gladis Perlin): surda (política), híbrida, de transição, incompleta, flutuante.\n- **Comunidade surda**: surdos e ouvintes que compartilham interesses (familiares, intérpretes, professores).\n- **Povo surdo**: os sujeitos surdos que compartilham a experiência visual e a língua de sinais.\n- **Ouvintismo** (Carlos Skliar): imposição da norma ouvinte sobre os surdos.\n\n### CODA\nFilho ouvinte de pais surdos (*Child of Deaf Adults*), geralmente bilíngue desde a infância.",
+      "revisao": "**Lembre:**\n- Clínica: deficiência; socioantropológica: diferença linguística e cultural.\n- Não use \"surdo-mudo\".\n- Graus: leve, moderada, severa, profunda.\n- Cultura surda: experiência visual.\n- Ouvintismo: norma ouvinte imposta."
+    },
+    {
+      "id": "historia",
+      "nome": "História da educação de surdos",
+      "resumo": "### Marcos internacionais\n- **Século XVI**: **Pedro Ponce de León** (Espanha), monge que educou filhos surdos de nobres.\n- **Século XVIII**: **Abade Charles-Michel de l'Épée** (França) funda a primeira **escola pública** para surdos em Paris (1760) usando **sinais**; reconhece a língua dos surdos.\n- **Samuel Heinicke** (Alemanha): defensor do **oralismo**.\n- **Thomas Gallaudet** e **Laurent Clerc** (surdo francês) levam a educação com sinais aos EUA; origem da **Universidade Gallaudet**.\n- **Congresso de Milão (1880)**: decide que o **oralismo** é o melhor método e **proíbe** as línguas de sinais nas escolas; professores surdos são afastados. Retrocesso de quase cem anos.\n\n### No Brasil\n- **1857**: D. Pedro II funda, no Rio de Janeiro, o **Imperial Instituto dos Surdos-Mudos**, hoje **INES** (Instituto Nacional de Educação de Surdos), com o professor surdo francês **Ernest Huet**.\n- A **Libras** tem origem na mistura da **língua de sinais francesa** com sinais usados pelos surdos brasileiros.\n- Após Milão, o INES também passa a priorizar o oralismo.\n\n### Filosofias educacionais\n- **Oralismo**: ensinar a **fala** e a **leitura labial**; proibia sinais. Muitos surdos ficaram com aprendizagem defasada.\n- **Comunicação total** (anos 1960–70): usar **todos os recursos** (fala, sinais, gestos, escrita, **português sinalizado**), mas sem valorizar a língua de sinais como língua completa.\n- **Bilinguismo**: a **língua de sinais como primeira língua (L1)** e o **português escrito como segunda língua (L2)**. É a proposta atual defendida pela comunidade surda.\n\n### Pesquisa linguística\n**William Stokoe** (1960) demonstrou que a ASL (língua de sinais americana) é uma **língua natural** com estrutura própria. No Brasil, **Lucinda Ferreira Brito** e **Ronice Quadros** estudaram a Libras.",
+      "revisao": "**Lembre:**\n- L'Épée: primeira escola pública com sinais (Paris, 1760).\n- Congresso de Milão (1880): proibição dos sinais.\n- INES: 1857, Rio de Janeiro, com Ernest Huet.\n- Oralismo → comunicação total → bilinguismo.\n- Bilinguismo: Libras L1, português escrito L2."
+    },
+    {
+      "id": "legislacao",
+      "nome": "Legislação e direitos",
+      "resumo": "### Lei 10.436/2002 (Lei de Libras)\n- Reconhece a **Libras como meio legal de comunicação e expressão** da comunidade surda brasileira.\n- Libras é um **sistema linguístico de natureza visual-motora**, com estrutura gramatical **própria**.\n- **A Libras não substitui a modalidade escrita da língua portuguesa** (parágrafo único do art. 4º).\n- Serviços públicos de saúde devem garantir atendimento adequado.\n\n### Decreto 5.626/2005 (regulamenta a lei)\n- **Libras como disciplina curricular obrigatória** nos cursos de formação de **professores** (licenciaturas, Pedagogia, magistério) e de **Fonoaudiologia**; **optativa** nos demais cursos superiores.\n- Formação de **professores de Libras** (preferência a surdos) e de **tradutores e intérpretes**.\n- Escolas e classes **bilíngues**; português como segunda língua para surdos.\n- Garantia de **intérprete** em instituições de ensino e atendimento.\n\n### Outras normas\n- **Lei 12.319/2010**: regulamenta a profissão de **tradutor e intérprete de Libras** (TILS), alterada pela **Lei 14.704/2023** (exige formação superior).\n- **Lei 13.146/2015 (Lei Brasileira de Inclusão / Estatuto da Pessoa com Deficiência)**: acessibilidade na comunicação, educação bilíngue, intérpretes, legendas, janela de Libras.\n- **Lei 14.191/2021**: inclui na LDB a **educação bilíngue de surdos** como **modalidade de ensino** independente, com Libras como L1 e português escrito como L2.\n- **Dia Nacional do Surdo**: 26 de setembro (data ligada à fundação do INES).\n\n### Direito à acessibilidade\nJanela de Libras em propagandas oficiais e programas, legendas (closed caption), Central de Intermediação em Libras para serviços públicos.",
+      "revisao": "**Lembre:**\n- Lei 10.436/2002: Libras como meio legal de comunicação.\n- Libras não substitui o português escrito.\n- Decreto 5.626/2005: obrigatória em licenciaturas e Fonoaudiologia.\n- Lei 14.191/2021: educação bilíngue de surdos como modalidade.\n- 26 de setembro: Dia Nacional do Surdo."
+    },
+    {
+      "id": "linguistica",
+      "nome": "Aspectos linguísticos da Libras",
+      "resumo": "### Libras é língua\n- É uma **língua natural**, com **gramática própria**; **não** é mímica, **não** é português sinalizado e **não** é universal.\n- Cada país tem sua língua de sinais (ASL nos EUA, LSF na França, LGP em Portugal); pode haver variações **regionais** dentro do país (sotaques/variantes) e sociais.\n- **Modalidade visual-espacial** (ou gestual-visual): produzida pelas mãos, corpo e rosto, e percebida pela visão; as línguas orais são **oral-auditivas**.\n\n### Parâmetros (equivalentes aos \"fonemas\")\nOs sinais se formam pela combinação de:\n1. **Configuração de mão (CM)**: forma que a mão assume.\n2. **Ponto de articulação (PA)** ou locação: lugar onde o sinal é feito (no corpo ou no espaço neutro).\n3. **Movimento (M)**.\n4. **Orientação da palma (Or)**: para onde a palma está voltada.\n5. **Expressões não manuais (ENM)**: faciais e corporais.\n- **Pares mínimos**: sinais que diferem em **um só parâmetro** e têm significados diferentes (como **APRENDER** e **SÁBADO**, que mudam o ponto de articulação).\n\n### Expressões não manuais\nTêm função **gramatical**, não só emocional: marcam **perguntas** (sobrancelhas franzidas em perguntas com QU-; levantadas em perguntas sim/não), **negação**, **intensidade**, topicalização.\n\n### Iconicidade e arbitrariedade\nAlguns sinais são **icônicos** (lembram a forma do referente, como CASA), mas muitos são **arbitrários**; mesmo os icônicos variam entre línguas.\n\n### Datilologia\n**Alfabeto manual**: soletrar palavras letra por letra. Usado para **nomes próprios**, palavras sem sinal conhecido e siglas. Não é a forma principal de comunicação.\n\n### Sinal de nome (batismo)\nSinal próprio que identifica a pessoa, dado **pela comunidade surda**, geralmente ligado a uma característica física ou de personalidade.",
+      "revisao": "**Lembre:**\n- Libras é língua natural, não mímica nem universal.\n- Visual-espacial.\n- Parâmetros: CM, PA, M, orientação e ENM.\n- Pares mínimos: diferem num parâmetro.\n- Datilologia: para nomes próprios e palavras sem sinal."
+    },
+    {
+      "id": "gramatica",
+      "nome": "Gramática da Libras",
+      "resumo": "### Ordem das frases\nOrdem básica **Sujeito-Verbo-Objeto (SVO)**, mas é comum a **topicalização** (o objeto vem primeiro, marcado por expressão facial): FUTEBOL, EU GOSTAR.\n\n### Verbos\n- **Sem concordância** (simples): não mudam de direção (GOSTAR, CONHECER, PENSAR).\n- **Com concordância (direcionais)**: o movimento vai do sujeito ao objeto, indicando quem faz e quem recebe: EU-AJUDAR-VOCÊ × VOCÊ-AJUDAR-EU. Ex.: AJUDAR, DAR, PERGUNTAR, AVISAR.\n- **Classificadores** (verbos espaciais/descritivos): configurações de mão que representam **forma, tamanho, movimento e localização** de pessoas, animais e objetos (um carro subindo uma ladeira, uma pessoa andando).\n\n### Tempo\nNão há flexão de tempo no verbo como em português. O tempo é marcado por **advérbios** (ONTEM, AMANHÃ, PASSADO, FUTURO) e pela **linha do tempo** no espaço: atrás do corpo = passado; à frente = futuro.\n\n### Espaço e referência\n- Os referentes são **localizados no espaço** (apontamento) e depois retomados apontando para o mesmo lugar (pronomes).\n- **Pronomes pessoais**: apontação (EU, VOCÊ, ELE); plural pelo movimento ou número de dedos.\n\n### Gênero e plural\n- **Não há marca de gênero** gramatical como no português (o, a); quando necessário, acrescenta-se o sinal HOMEM ou MULHER.\n- **Plural**: repetição do sinal, incorporação do número, classificadores ou sinais de quantidade (MUITO).\n\n### Artigos e preposições\nNão há **artigos**; muitas preposições e conectivos são expressos pelo **espaço** e pelo movimento.\n\n### Negação\nSinal NÃO, balanço da cabeça, ou incorporação da negação ao sinal (NÃO-GOSTAR, NÃO-QUERER, NÃO-PODER).\n\n### Escrita de sinais\n**SignWriting** (Valerie Sutton): sistema para registrar sinais por escrito; também **ELiS**. Ainda pouco difundidos.",
+      "revisao": "**Lembre:**\n- Ordem básica SVO; topicalização comum.\n- Verbos direcionais indicam sujeito e objeto pelo movimento.\n- Classificadores: forma, tamanho e movimento.\n- Tempo: advérbios e linha do tempo (atrás passado, frente futuro).\n- Sem artigos e sem gênero gramatical."
+    },
+    {
+      "id": "pratica",
+      "nome": "Educação bilíngue, intérprete e prática",
+      "resumo": "### Educação bilíngue de surdos\n- **Libras como L1**, adquirida o mais **cedo** possível; **português escrito como L2**.\n- A maioria das crianças surdas (cerca de **90%**) nasce em famílias **ouvintes**, que não conhecem Libras: por isso a escola e o contato com **adultos surdos** são fundamentais para a aquisição da língua.\n- **Privação linguística**: atraso na aquisição de uma língua compromete o desenvolvimento cognitivo e social.\n- Escolas bilíngues, classes bilíngues e escolas comuns com **Atendimento Educacional Especializado (AEE)**.\n- **Pedagogia visual**: imagens, vídeos, mapas, uso do espaço; avaliação considerando o português como segunda língua (valorizar o conteúdo, não só a forma).\n\n### Tradutor e intérprete de Libras (TILS)\n- **Interpretação**: entre línguas em modalidade oral/sinalizada, em tempo real; **tradução**: entre textos registrados.\n- Princípios éticos: **sigilo**, **imparcialidade** (não opinar nem acrescentar), fidelidade ao sentido, discrição, competência linguística.\n- O intérprete **não é o professor** do aluno surdo; o professor é responsável pelo ensino.\n- Em aulas longas, trabalho em **dupla** com revezamento, pelo desgaste.\n- **Guia-intérprete**: atua com pessoas **surdocegas** (Libras tátil, por exemplo).\n\n### Atitudes de comunicação com surdos\n- **Fale de frente**, com boa iluminação no rosto, sem exagerar a articulação e sem tapar a boca.\n- Para chamar a atenção: **tocar levemente no ombro ou braço**, acenar no campo de visão, piscar a luz.\n- Dirija-se **à pessoa surda**, não ao intérprete (\"diga a ele...\" é inadequado).\n- Nem todo surdo faz **leitura labial** com facilidade.\n\n### Sinais básicos de interação\nCumprimentos (OI, TUDO-BEM, BOM-DIA), apresentação (NOME, SINAL-DE-NOME), família, números, calendário, cores; o sinal de nome **não é inventado pelo ouvinte para si mesmo**.",
+      "revisao": "**Lembre:**\n- ~90% das crianças surdas nascem em famílias ouvintes.\n- Privação linguística prejudica o desenvolvimento.\n- Intérprete: sigilo e imparcialidade; não é o professor.\n- Fale com o surdo, não com o intérprete.\n- Chame a atenção tocando no ombro."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "libras-1",
+      "topico": "surdez",
+      "nivel": "conceitual",
+      "pergunta": "Na concepção socioantropológica, a surdez é entendida como:",
+      "opcoes": [
+        "Uma diferença linguística e cultural",
+        "Uma doença que precisa ser curada",
+        "Uma deficiência intelectual",
+        "Um problema apenas da fala"
+      ],
+      "correta": 0,
+      "explicacao": "Os surdos são vistos como grupo com língua própria, cultura e identidade; a concepção clínica foca na reabilitação."
+    },
+    {
+      "id": "libras-2",
+      "topico": "surdez",
+      "nivel": "conceitual",
+      "pergunta": "Por que o termo \"surdo-mudo\" é inadequado?",
+      "opcoes": [
+        "Porque todos os surdos falam oralmente com perfeição",
+        "Porque o surdo não é mudo: tem aparelho fonador e se comunica por uma língua de sinais",
+        "Porque é um termo técnico de medicina",
+        "Porque surdos não se comunicam"
+      ],
+      "correta": 1,
+      "explicacao": "A comunidade prefere ser chamada de surda; muitos surdos vocalizam, apenas não usam a fala oral como língua principal."
+    },
+    {
+      "id": "libras-3",
+      "topico": "surdez",
+      "nivel": "conceitual",
+      "pergunta": "A expressão \"cultura surda\" se refere a:",
+      "opcoes": [
+        "Apenas ao uso de aparelhos auditivos",
+        "À cultura dos ouvintes adaptada",
+        "Um modo de perceber e interpretar o mundo pela experiência visual, com produções em língua de sinais",
+        "A uma doença hereditária"
+      ],
+      "correta": 2,
+      "explicacao": "Inclui literatura, humor, teatro e costumes próprios, como acenar ou piscar a luz para chamar a atenção."
+    },
+    {
+      "id": "libras-4",
+      "topico": "surdez",
+      "nivel": "aplicacao",
+      "pergunta": "Um filho ouvinte de pais surdos, que cresceu usando Libras e português, é chamado de:",
+      "opcoes": [
+        "Guia-intérprete",
+        "Oralizado",
+        "Surdocego",
+        "CODA"
+      ],
+      "correta": 3,
+      "explicacao": "CODA vem do inglês Child of Deaf Adults; costuma ser bilíngue desde cedo."
+    },
+    {
+      "id": "libras-5",
+      "topico": "surdez",
+      "nivel": "analise",
+      "pergunta": "O que Carlos Skliar chama de ouvintismo?",
+      "opcoes": [
+        "A imposição das normas e da perspectiva ouvinte sobre os surdos",
+        "A defesa da língua de sinais",
+        "Um método de ensino bilíngue",
+        "A cultura dos intérpretes"
+      ],
+      "correta": 0,
+      "explicacao": "Exemplo é tratar o surdo como alguém que precisa se tornar ouvinte, desvalorizando sua língua e identidade."
+    },
+    {
+      "id": "libras-6",
+      "topico": "historia",
+      "nivel": "conceitual",
+      "pergunta": "Qual foi a principal decisão do Congresso de Milão, em 1880?",
+      "opcoes": [
+        "Reconhecer as línguas de sinais como oficiais",
+        "Adotar o oralismo e proibir as línguas de sinais na educação de surdos",
+        "Criar a primeira escola de surdos",
+        "Instituir o bilinguismo"
+      ],
+      "correta": 1,
+      "explicacao": "A decisão afastou professores surdos e atrasou por décadas a valorização das línguas de sinais."
+    },
+    {
+      "id": "libras-7",
+      "topico": "historia",
+      "nivel": "conceitual",
+      "pergunta": "Em que ano e cidade foi fundado o instituto que hoje é o INES?",
+      "opcoes": [
+        "1880, São Paulo",
+        "1960, Brasília",
+        "1857, Rio de Janeiro",
+        "2002, Rio de Janeiro"
+      ],
+      "correta": 2,
+      "explicacao": "Criado por D. Pedro II com o professor surdo francês Ernest Huet; a Libras tem influência da língua de sinais francesa."
+    },
+    {
+      "id": "libras-8",
+      "topico": "historia",
+      "nivel": "conceitual",
+      "pergunta": "Na proposta bilíngue de educação de surdos:",
+      "opcoes": [
+        "O português oral é a primeira língua",
+        "Usa-se português sinalizado como língua principal",
+        "Proíbe-se o ensino do português",
+        "A Libras é a primeira língua e o português escrito é a segunda"
+      ],
+      "correta": 3,
+      "explicacao": "É a proposta defendida pela comunidade surda e assegurada pela legislação atual."
+    },
+    {
+      "id": "libras-9",
+      "topico": "historia",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola usa fala, gestos, leitura labial, escrita e português sinalizado ao mesmo tempo, sem tratar a Libras como língua completa. Que filosofia é essa?",
+      "opcoes": [
+        "Comunicação total",
+        "Oralismo puro",
+        "Bilinguismo",
+        "Pedagogia surda"
+      ],
+      "correta": 0,
+      "explicacao": "A comunicação total aceita todos os recursos, mas não respeita a estrutura própria da língua de sinais."
+    },
+    {
+      "id": "libras-10",
+      "topico": "historia",
+      "nivel": "analise",
+      "pergunta": "Qual foi a importância dos estudos de William Stokoe nos anos 1960?",
+      "opcoes": [
+        "Provaram que os sinais são apenas mímica",
+        "Demonstraram que a língua de sinais é uma língua natural com estrutura própria",
+        "Criaram o oralismo",
+        "Inventaram a datilologia"
+      ],
+      "correta": 1,
+      "explicacao": "Ele mostrou que os sinais da ASL se formam por parâmetros combinados, como os fonemas das línguas orais."
+    },
+    {
+      "id": "libras-11",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "O que a Lei 10.436/2002 estabelece?",
+      "opcoes": [
+        "Torna a Libras a única língua oficial do Brasil",
+        "Proíbe o português para surdos",
+        "Reconhece a Libras como meio legal de comunicação e expressão",
+        "Cria o INES"
+      ],
+      "correta": 2,
+      "explicacao": "Ela também afirma que a Libras não substitui a modalidade escrita da língua portuguesa."
+    },
+    {
+      "id": "libras-12",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o Decreto 5.626/2005, a disciplina de Libras é obrigatória em quais cursos?",
+      "opcoes": [
+        "Todos os cursos de saúde",
+        "Apenas Letras-Libras",
+        "Somente no ensino médio",
+        "Licenciaturas, Pedagogia e Fonoaudiologia"
+      ],
+      "correta": 3,
+      "explicacao": "Nos demais cursos superiores, ela deve ser oferecida como disciplina optativa."
+    },
+    {
+      "id": "libras-13",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "A Lei 14.191/2021 incluiu na LDB:",
+      "opcoes": [
+        "A educação bilíngue de surdos como modalidade de ensino",
+        "A proibição de intérpretes nas escolas",
+        "O oralismo como método oficial",
+        "O ensino de inglês para surdos"
+      ],
+      "correta": 0,
+      "explicacao": "A Libras é a L1 e o português escrito a L2, em escolas, classes ou polos bilíngues."
+    },
+    {
+      "id": "libras-14",
+      "topico": "legislacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um aluno surdo pede para fazer a prova só em Libras, sem nenhum uso do português escrito em toda a escolaridade, alegando a Lei 10.436. O que a lei diz sobre isso?",
+      "opcoes": [
+        "A Libras substitui totalmente o português",
+        "A Libras não substitui a modalidade escrita do português",
+        "Surdos não precisam estudar português",
+        "A lei não trata do português"
+      ],
+      "correta": 1,
+      "explicacao": "O direito à Libras convive com o ensino do português escrito como segunda língua; adaptações de avaliação são possíveis."
+    },
+    {
+      "id": "libras-15",
+      "topico": "legislacao",
+      "nivel": "analise",
+      "pergunta": "Por que a legislação prioriza surdos na formação de professores de Libras?",
+      "opcoes": [
+        "Porque ouvintes não podem aprender Libras",
+        "Porque surdos não podem ser intérpretes",
+        "Porque são falantes nativos e referências linguísticas e culturais para os alunos",
+        "Porque o português deve ser evitado"
+      ],
+      "correta": 2,
+      "explicacao": "O contato com adultos surdos favorece a aquisição da língua e a construção da identidade das crianças surdas."
+    },
+    {
+      "id": "libras-16",
+      "topico": "linguistica",
+      "nivel": "conceitual",
+      "pergunta": "Qual afirmação sobre a Libras está correta?",
+      "opcoes": [
+        "É uma mímica universal entendida em todo o mundo",
+        "É o português feito com as mãos",
+        "Não tem regras gramaticais",
+        "É uma língua natural, com gramática própria, de modalidade visual-espacial"
+      ],
+      "correta": 3,
+      "explicacao": "Cada país tem sua língua de sinais, e há variação regional dentro do Brasil."
+    },
+    {
+      "id": "libras-17",
+      "topico": "linguistica",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os parâmetros que formam os sinais da Libras?",
+      "opcoes": [
+        "Configuração de mão, ponto de articulação, movimento, orientação e expressões não manuais",
+        "Sujeito, verbo e objeto",
+        "Vogais e consoantes",
+        "Altura, intensidade e timbre"
+      ],
+      "correta": 0,
+      "explicacao": "Funcionam como os fonemas das línguas orais: a mudança de um parâmetro pode mudar o significado."
+    },
+    {
+      "id": "libras-18",
+      "topico": "linguistica",
+      "nivel": "conceitual",
+      "pergunta": "A datilologia (alfabeto manual) é usada principalmente para:",
+      "opcoes": [
+        "Toda a comunicação entre surdos",
+        "Nomes próprios, siglas e palavras sem sinal conhecido",
+        "Substituir as expressões faciais",
+        "Marcar o tempo verbal"
+      ],
+      "correta": 1,
+      "explicacao": "Soletrar tudo seria lento; a comunicação em Libras se faz com sinais."
+    },
+    {
+      "id": "libras-19",
+      "topico": "linguistica",
+      "nivel": "aplicacao",
+      "pergunta": "Dois sinais têm a mesma configuração de mão e o mesmo movimento, mas são feitos em lugares diferentes e significam coisas diferentes. Eles formam:",
+      "opcoes": [
+        "Um classificador",
+        "Um sinal de nome",
+        "Um par mínimo",
+        "Uma datilologia"
+      ],
+      "correta": 2,
+      "explicacao": "É o caso de APRENDER e SÁBADO, que diferem pelo ponto de articulação."
+    },
+    {
+      "id": "libras-20",
+      "topico": "linguistica",
+      "nivel": "analise",
+      "pergunta": "Por que as expressões faciais não são apenas emoções na Libras?",
+      "opcoes": [
+        "Porque substituem todos os sinais",
+        "Porque são proibidas na conversa formal",
+        "Porque indicam apenas o gênero",
+        "Porque têm funções gramaticais, como marcar perguntas, negação e intensidade"
+      ],
+      "correta": 3,
+      "explicacao": "Sobrancelhas franzidas, por exemplo, marcam perguntas com QU-; sem elas, a frase muda de sentido."
+    },
+    {
+      "id": "libras-21",
+      "topico": "gramatica",
+      "nivel": "conceitual",
+      "pergunta": "Como o tempo verbal (passado e futuro) costuma ser marcado em Libras?",
+      "opcoes": [
+        "Por advérbios de tempo e pela linha do tempo no espaço",
+        "Por terminações no verbo",
+        "Por artigos",
+        "Pelo número de dedos"
+      ],
+      "correta": 0,
+      "explicacao": "Atrás do corpo indica passado e à frente indica futuro; o verbo em si não flexiona como no português."
+    },
+    {
+      "id": "libras-22",
+      "topico": "gramatica",
+      "nivel": "conceitual",
+      "pergunta": "Os verbos com concordância (direcionais), como AJUDAR e DAR, indicam sujeito e objeto:",
+      "opcoes": [
+        "Por sufixos",
+        "Pela direção do movimento, do sujeito para o objeto",
+        "Pela expressão de surpresa",
+        "Não indicam"
+      ],
+      "correta": 1,
+      "explicacao": "EU-AJUDAR-VOCÊ e VOCÊ-AJUDAR-EU são diferenciados apenas pelo sentido do movimento."
+    },
+    {
+      "id": "libras-23",
+      "topico": "gramatica",
+      "nivel": "conceitual",
+      "pergunta": "O que são classificadores na Libras?",
+      "opcoes": [
+        "Os artigos definidos",
+        "As letras do alfabeto manual",
+        "Configurações de mão que representam forma, tamanho, movimento e localização de referentes",
+        "Sinais de nomes próprios"
+      ],
+      "correta": 2,
+      "explicacao": "Permitem descrever, por exemplo, um carro fazendo uma curva ou pessoas caminhando lado a lado."
+    },
+    {
+      "id": "libras-24",
+      "topico": "gramatica",
+      "nivel": "aplicacao",
+      "pergunta": "Como se indicaria que um amigo é do sexo feminino, se o sinal AMIGO não tem marca de gênero?",
+      "opcoes": [
+        "Mudando a terminação do sinal",
+        "Usando um artigo feminino",
+        "Soletrando a letra A",
+        "Acrescentando o sinal MULHER"
+      ],
+      "correta": 3,
+      "explicacao": "Libras não tem gênero gramatical como o português; quando necessário, usa-se HOMEM ou MULHER."
+    },
+    {
+      "id": "libras-25",
+      "topico": "gramatica",
+      "nivel": "analise",
+      "pergunta": "Na frase sinalizada \"FUTEBOL, EU GOSTAR\", com expressão facial marcando o primeiro elemento, ocorre:",
+      "opcoes": [
+        "Topicalização, que coloca o objeto em destaque no início",
+        "Erro gramatical",
+        "Uso de verbo direcional",
+        "Datilologia"
+      ],
+      "correta": 0,
+      "explicacao": "A ordem básica é SVO, mas a topicalização é muito comum e marcada pelas expressões não manuais."
+    },
+    {
+      "id": "libras-26",
+      "topico": "pratica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a forma adequada de chamar a atenção de uma pessoa surda?",
+      "opcoes": [
+        "Gritar mais alto",
+        "Tocar levemente no ombro ou acenar no seu campo de visão",
+        "Bater palmas atrás dela",
+        "Puxar o braço com força"
+      ],
+      "correta": 1,
+      "explicacao": "Também se pode piscar a luz do ambiente, especialmente em grupos."
+    },
+    {
+      "id": "libras-27",
+      "topico": "pratica",
+      "nivel": "conceitual",
+      "pergunta": "Qual princípio ético o intérprete de Libras deve seguir?",
+      "opcoes": [
+        "Corrigir o conteúdo do professor",
+        "Responder pelo aluno nas provas",
+        "Sigilo e imparcialidade, transmitindo o sentido sem acrescentar opiniões",
+        "Decidir o que é importante traduzir"
+      ],
+      "correta": 2,
+      "explicacao": "O intérprete media a comunicação; não é professor nem tutor do aluno surdo."
+    },
+    {
+      "id": "libras-28",
+      "topico": "pratica",
+      "nivel": "conceitual",
+      "pergunta": "Por que o contato precoce com a Libras é tão importante para crianças surdas?",
+      "opcoes": [
+        "Porque substitui a escola",
+        "Porque impede o aprendizado do português",
+        "Porque todas nascem em famílias surdas",
+        "Porque a maioria nasce em famílias ouvintes e o atraso na língua causa privação linguística"
+      ],
+      "correta": 3,
+      "explicacao": "Sem uma língua acessível nos primeiros anos, o desenvolvimento cognitivo, emocional e social fica prejudicado."
+    },
+    {
+      "id": "libras-29",
+      "topico": "pratica",
+      "nivel": "aplicacao",
+      "pergunta": "Numa consulta com intérprete, o médico diz ao intérprete: \"Pergunte a ele onde dói\". Qual seria a postura adequada?",
+      "opcoes": [
+        "Falar diretamente com o paciente surdo, olhando para ele",
+        "Continuar falando só com o intérprete",
+        "Escrever tudo e dispensar o intérprete sem perguntar",
+        "Falar mais alto com o paciente"
+      ],
+      "correta": 0,
+      "explicacao": "O interlocutor é a pessoa surda; o intérprete apenas transmite as mensagens."
+    },
+    {
+      "id": "libras-30",
+      "topico": "pratica",
+      "nivel": "analise",
+      "pergunta": "Ao avaliar textos escritos por alunos surdos, o que a perspectiva bilíngue recomenda?",
+      "opcoes": [
+        "Corrigir como se fosse a língua materna do aluno",
+        "Considerar o português como segunda língua e valorizar o conteúdo, além da forma",
+        "Não pedir textos escritos",
+        "Avaliar apenas a ortografia"
+      ],
+      "correta": 1,
+      "explicacao": "Interferências da estrutura da Libras são esperadas na escrita em L2, como acontece com qualquer aprendiz de outra língua."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "antropologia",
+  "nome": "Antropologia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "O que é antropologia e o conceito de cultura",
+      "resumo": "### Objeto\nA antropologia estuda o **ser humano** em sua diversidade. Áreas: antropologia **biológica (física)**, **arqueologia**, **linguística** e, sobretudo, antropologia **social ou cultural**.\n\n### Cultura\n- **Edward Tylor** (1871): cultura é \"o todo complexo que inclui **conhecimentos, crenças, arte, moral, leis, costumes** e quaisquer outras capacidades e hábitos adquiridos pelo homem como membro da sociedade\".\n- Cultura é **aprendida** (não é herdada biologicamente), **compartilhada**, **simbólica** e **dinâmica** (muda com o tempo).\n- **Clifford Geertz**: cultura como **teia de significados** que o próprio ser humano teceu; a antropologia é uma ciência **interpretativa** que busca significados (descrição densa).\n- **Endoculturação (enculturação)**: aprendizado da própria cultura desde o nascimento.\n\n### Natureza × cultura\nComportamentos que parecem \"naturais\" (comer, dormir, expressar emoções) são moldados culturalmente: o que se come, como, quando, com quem.\n\n### Etnocentrismo e relativismo\n- **Etnocentrismo**: ver o mundo a partir da **própria cultura**, tomando-a como medida e julgando as outras inferiores ou \"estranhas\".\n- **Relativismo cultural**: compreender cada cultura **em seus próprios termos**, sem hierarquizar.\n- O relativismo é um **princípio metodológico**; não significa aceitar violações de direitos humanos.\n\n### Estranhar e familiarizar\nTarefa do antropólogo: **transformar o exótico em familiar** e o **familiar em exótico** (Roberto DaMatta), olhando a própria sociedade com distanciamento.",
+      "revisao": "**Lembre:**\n- Cultura: aprendida, compartilhada, simbólica e dinâmica.\n- Tylor: o todo complexo.\n- Geertz: teia de significados; descrição densa.\n- Etnocentrismo × relativismo cultural.\n- Exótico em familiar e familiar em exótico."
+    },
+    {
+      "id": "escolas",
+      "nome": "Escolas e teorias antropológicas",
+      "resumo": "### Evolucionismo cultural (século XIX)\n- **Lewis Morgan**, **Edward Tylor**, **James Frazer**.\n- Todas as sociedades passariam pelas mesmas etapas: **selvageria → barbárie → civilização**.\n- A sociedade europeia seria o topo: visão **etnocêntrica**, usada para justificar o **colonialismo**.\n- Método \"de gabinete\": baseado em relatos de viajantes e missionários.\n\n### Culturalismo (particularismo histórico)\n- **Franz Boas** (EUA): cada cultura tem uma **história própria**; critica o evolucionismo e o racismo científico; separa **raça, língua e cultura**.\n- Discípulas: **Ruth Benedict** (padrões de cultura) e **Margaret Mead** (gênero e cultura em Samoa e Nova Guiné: papéis de gênero variam entre culturas).\n\n### Funcionalismo\n- **Bronisław Malinowski**: criador da **observação participante** e do trabalho de campo prolongado (ilhas **Trobriand**). Estudou o **Kula**, circuito de troca cerimonial de colares e braceletes. Cada instituição atende a **necessidades** humanas.\n- **Radcliffe-Brown**: estrutural-funcionalismo; instituições mantêm a **estrutura social**.\n\n### Estruturalismo\n- **Claude Lévi-Strauss**: estruturas **inconscientes** do pensamento humano, comuns a todos (oposições binárias: cru × cozido, natureza × cultura).\n- **Proibição do incesto**: regra universal que obriga a **troca** de mulheres entre grupos e funda a sociedade (teoria da aliança).\n- Estudou mitos; esteve no Brasil (*Tristes Trópicos*).\n- \"Pensamento selvagem\" não é inferior: é outra forma de lógica.\n\n### Antropologia interpretativa\n- **Clifford Geertz**: descrição densa; a briga de galos em Bali.\n\n### Marcel Mauss\n*Ensaio sobre a dádiva*: a lógica do **dar, receber e retribuir**; a troca cria vínculos sociais. **Fato social total**.",
+      "revisao": "**Lembre:**\n- Evolucionismo: etapas únicas, etnocêntrico.\n- Boas: cada cultura com sua história; contra o racismo científico.\n- Malinowski: observação participante, Kula.\n- Lévi-Strauss: estruturas, proibição do incesto.\n- Mauss: dar, receber e retribuir."
+    },
+    {
+      "id": "metodo",
+      "nome": "Método etnográfico",
+      "resumo": "### Etnografia\nDescrição detalhada de um grupo a partir de **trabalho de campo**; é o método característico da antropologia.\n- **Etnologia**: comparação e análise teórica entre culturas.\n\n### Observação participante\nProposta por **Malinowski**: o pesquisador **convive** longamente com o grupo, aprende a língua, participa do cotidiano, para captar o **ponto de vista nativo**.\n- **Diário de campo**: registro das observações, conversas e impressões.\n- Entrevistas, genealogias, mapas, fotografias.\n\n### Pontos de vista\n- **Êmico**: categorias e significados **do próprio grupo** (de dentro).\n- **Ético** (de *etic*): categorias **do pesquisador** e da teoria (de fora).\n\n### Alteridade\nReconhecimento do **outro** como diferente e legítimo. A pesquisa é uma relação entre sujeitos; o antropólogo também é observado.\n\n### Ética na pesquisa\n**Consentimento** do grupo, respeito, devolução dos resultados, cuidado para não expor os interlocutores. A Associação Brasileira de Antropologia (ABA) tem código de ética.\n\n### Antropologia urbana\nEstudar a própria cidade: **Gilberto Velho** (camadas médias, projetos individuais), **José Guilherme Magnani** (\"**pedaço**\", \"**mancha**\", circuito: formas de sociabilidade urbana). O desafio é estranhar o que é familiar.\n\n### Exemplo\nEstudar torcidas organizadas acompanhando os jogos, as viagens e as reuniões, em vez de só aplicar questionários.",
+      "revisao": "**Lembre:**\n- Etnografia: descrição pelo trabalho de campo.\n- Observação participante: convivência longa (Malinowski).\n- Êmico: de dentro; ético: de fora.\n- Alteridade: reconhecer o outro.\n- Diário de campo."
+    },
+    {
+      "id": "parentesco",
+      "nome": "Parentesco, religião e ritual",
+      "resumo": "### Parentesco\nSistema de relações sociais baseado em laços de **consanguinidade (descendência)**, **aliança (casamento)** e afinidade; é **construção cultural**, não só biológica.\n- **Descendência**: patrilinear (pela linha do pai), matrilinear (pela mãe), bilateral (pelos dois, como na nossa sociedade).\n- **Residência**: patrilocal, matrilocal, neolocal (o casal forma casa nova).\n- **Casamento**: **monogamia**; **poligamia** (**poliginia**: um homem e várias mulheres; **poliandria**: uma mulher e vários homens).\n- **Exogamia**: casar **fora** do grupo; **endogamia**: casar **dentro** dele.\n- Hoje: diversidade de arranjos familiares (monoparentais, homoafetivos, recompostas).\n\n### Religião e magia\n- **Durkheim**: distinção **sagrado × profano**; a religião une os fiéis numa comunidade moral; o **totemismo**.\n- **Frazer** e Tylor: magia como \"falsa ciência\" (visão evolucionista hoje criticada).\n- **Evans-Pritchard** (os Azande): a **bruxaria** como sistema coerente que explica infortúnios (por que o celeiro caiu sobre *aquela* pessoa).\n- Sincretismo religioso no Brasil (candomblé, umbanda, catolicismo popular).\n\n### Rituais\n- **Ritos de passagem** (**Arnold van Gennep**): marcam mudanças de status, em três fases: **separação**, **liminaridade** (margem) e **agregação**. Ex.: batizado, formatura, casamento, funeral, trote.\n- **Victor Turner**: liminaridade e **communitas** (sentimento de igualdade entre os que passam juntos pelo rito).\n- **Rituais brasileiros**: o **carnaval** como inversão da hierarquia (DaMatta, *Carnavais, Malandros e Heróis*); \"**Você sabe com quem está falando?**\" como afirmação de hierarquia.\n\n### Tabu\nProibição carregada de sentido sagrado ou perigoso. Mary Douglas: **impureza** como \"matéria fora do lugar\".",
+      "revisao": "**Lembre:**\n- Parentesco: construção cultural (descendência e aliança).\n- Exogamia: casar fora; endogamia: dentro.\n- Durkheim: sagrado × profano.\n- Van Gennep: separação, liminaridade, agregação.\n- DaMatta: carnaval inverte a hierarquia."
+    },
+    {
+      "id": "brasil",
+      "nome": "Antropologia no Brasil: povos indígenas e diversidade",
+      "resumo": "### Povos indígenas\n- Cerca de **1,7 milhão** de indígenas no Censo 2022, **mais de 300 povos** e cerca de **270 línguas**.\n- **Constituição de 1988** (arts. 231 e 232): reconheceu a **organização social, costumes, línguas, crenças e tradições** e os **direitos originários** sobre as terras que tradicionalmente ocupam; superou a visão **integracionista** (de que os índios deveriam ser \"assimilados\").\n- Lei **11.645/2008**: ensino obrigatório de história e cultura **afro-brasileira e indígena**.\n- **Eduardo Viveiros de Castro**: **perspectivismo ameríndio** — para muitos povos amazônicos, animais e espíritos também se veem como humanos, com sua própria perspectiva.\n- **Darcy Ribeiro**: *O Povo Brasileiro*; atuou na criação do Parque Indígena do Xingu (com os irmãos **Villas-Bôas**).\n- **Curt Nimuendajú**: etnólogo de diversos povos.\n\n### Populações afro-brasileiras e quilombolas\n- **Comunidades remanescentes de quilombos**: direito à **titulação** das terras (art. 68 do ADCT).\n- **Arthur Ramos**, **Roger Bastide** (religiões afro-brasileiras), **Lélia Gonzalez** (racismo e sexismo; \"amefricanidade\").\n\n### Raça\nIdeia de raça como categoria **biológica** foi abandonada pela ciência (genética mostra variação contínua); raça é **construção social** com efeitos reais (racismo).\n- **Racismo científico** do século XIX (Nina Rodrigues no Brasil) e as teorias de **branqueamento**.\n- **Mito da democracia racial**: criticado por Florestan Fernandes.\n\n### Diversidade e direitos\n- **Povos e comunidades tradicionais**: ribeirinhos, quebradeiras de coco, caiçaras, ciganos (Decreto 6.040/2007).\n- **Convenção 169 da OIT**: **consulta prévia, livre e informada** aos povos afetados por projetos.\n- **Interculturalidade** na educação e na saúde.",
+      "revisao": "**Lembre:**\n- CF/1988 superou o integracionismo.\n- Direitos originários sobre as terras.\n- Lei 11.645/2008: cultura afro-brasileira e indígena.\n- Raça: construção social, não biológica.\n- OIT 169: consulta prévia, livre e informada."
+    },
+    {
+      "id": "contemporaneos",
+      "nome": "Temas contemporâneos: gênero, identidade e globalização",
+      "resumo": "### Gênero e sexualidade\n- **Margaret Mead**: comportamentos considerados \"masculinos\" ou \"femininos\" **variam** entre culturas.\n- **Gênero** como construção social e cultural (distinto do sexo biológico).\n- **Judith Butler**: gênero como **performatividade**, repetição de atos.\n- Estudos sobre corpo, família, violência e diversidade sexual.\n\n### Identidade\n- **Identidade étnica** (**Fredrik Barth**): definida pelas **fronteiras** e pela distinção em relação aos outros grupos, não por uma lista fixa de traços culturais. Um grupo pode mudar costumes e manter a identidade.\n- **Stuart Hall**: identidades **fragmentadas** e **móveis** na pós-modernidade.\n- **Diáspora** e hibridismo cultural.\n\n### Globalização e cultura\n- A globalização **não** apaga simplesmente as culturas locais: elas reinterpretam o global (**hibridismo**, **glocalização**). Ex.: o funk e o hip-hop recriados nas periferias brasileiras.\n- **Néstor García Canclini**: **culturas híbridas** na América Latina.\n- Turismo, migrações, refugiados.\n\n### Patrimônio cultural\n- **Material** (edifícios, objetos) e **imaterial** (saberes, celebrações, formas de expressão, lugares).\n- No Brasil, o **IPHAN** registra bens imateriais: **samba de roda do Recôncavo Baiano**, **frevo**, **capoeira**, ofício das baianas de acarajé, **Círio de Nazaré**, modo de fazer queijo de Minas.\n\n### Antropologia aplicada\nSaúde (medicina tradicional, itinerários terapêuticos), educação indígena, laudos antropológicos para demarcação de terras, impacto de grandes obras (hidrelétricas), empresas e consumo.\n\n### Cultura de massa e consumo\n**Mary Douglas** e **Baron Isherwood**: bens de consumo **comunicam** significados sociais (o mundo dos bens).",
+      "revisao": "**Lembre:**\n- Gênero: construção social (Mead, Butler).\n- Barth: identidade étnica pelas fronteiras.\n- Globalização gera hibridismo, não só homogeneização.\n- Patrimônio material e imaterial (IPHAN).\n- Consumo comunica significados."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "antropologia-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica da cultura é correta, segundo a antropologia?",
+      "opcoes": [
+        "É aprendida e transmitida socialmente, não herdada biologicamente",
+        "É determinada pela genética de cada povo",
+        "É fixa e nunca muda",
+        "Só existe nas sociedades industriais"
+      ],
+      "correta": 0,
+      "explicacao": "Uma criança criada em outra sociedade aprende a língua e os costumes daquela sociedade."
+    },
+    {
+      "id": "antropologia-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Para Clifford Geertz, a cultura é:",
+      "opcoes": [
+        "Um conjunto de instintos naturais",
+        "Uma teia de significados que o próprio ser humano teceu",
+        "A etapa final da evolução social",
+        "Somente a arte erudita"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso a antropologia seria interpretativa, buscando os significados das ações por meio da descrição densa."
+    },
+    {
+      "id": "antropologia-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O relativismo cultural propõe:",
+      "opcoes": [
+        "Considerar a própria cultura superior",
+        "Eliminar as diferenças culturais",
+        "Compreender cada cultura em seus próprios termos, sem hierarquizá-las",
+        "Julgar outras culturas pelos padrões europeus"
+      ],
+      "correta": 2,
+      "explicacao": "É um princípio de método; não implica aceitar violações de direitos humanos."
+    },
+    {
+      "id": "antropologia-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Um turista diz que um povo que come insetos é \"atrasado\". Que atitude ele demonstra?",
+      "opcoes": [
+        "Relativismo cultural",
+        "Alteridade",
+        "Observação participante",
+        "Etnocentrismo"
+      ],
+      "correta": 3,
+      "explicacao": "Ele usa os hábitos alimentares da própria cultura como medida para julgar a outra."
+    },
+    {
+      "id": "antropologia-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "O que significa \"transformar o familiar em exótico\" no trabalho antropológico?",
+      "opcoes": [
+        "Olhar com estranhamento práticas da própria sociedade que parecem naturais",
+        "Viajar apenas para lugares distantes",
+        "Desprezar a própria cultura",
+        "Imitar culturas estrangeiras"
+      ],
+      "correta": 0,
+      "explicacao": "Hábitos como filas, cumprimentos ou festas de aniversário também são construções culturais que podem ser analisadas."
+    },
+    {
+      "id": "antropologia-6",
+      "topico": "escolas",
+      "nivel": "conceitual",
+      "pergunta": "O evolucionismo cultural do século XIX afirmava que:",
+      "opcoes": [
+        "Cada cultura tem uma história própria",
+        "Todas as sociedades passariam pelas mesmas etapas, da selvageria à civilização",
+        "As culturas são estruturas inconscientes iguais",
+        "A troca de presentes funda a sociedade"
+      ],
+      "correta": 1,
+      "explicacao": "A Europa aparecia no topo, visão etnocêntrica criticada por Boas e outros."
+    },
+    {
+      "id": "antropologia-7",
+      "topico": "escolas",
+      "nivel": "conceitual",
+      "pergunta": "Quem criou a observação participante como método do trabalho de campo?",
+      "opcoes": [
+        "Lewis Morgan",
+        "Auguste Comte",
+        "Bronisław Malinowski",
+        "James Frazer"
+      ],
+      "correta": 2,
+      "explicacao": "Malinowski viveu anos nas ilhas Trobriand, aprendendo a língua e participando do cotidiano."
+    },
+    {
+      "id": "antropologia-8",
+      "topico": "escolas",
+      "nivel": "conceitual",
+      "pergunta": "Para Lévi-Strauss, a proibição do incesto é importante porque:",
+      "opcoes": [
+        "É uma regra biológica sem relação com a sociedade",
+        "Só existe na Europa",
+        "Impede a formação de famílias",
+        "Obriga a troca entre grupos e marca a passagem da natureza à cultura"
+      ],
+      "correta": 3,
+      "explicacao": "Por ser universal e ao mesmo tempo uma regra, ela está na fronteira entre natureza e cultura."
+    },
+    {
+      "id": "antropologia-9",
+      "topico": "escolas",
+      "nivel": "aplicacao",
+      "pergunta": "Num grupo, presentes recebidos criam a obrigação de retribuir, fortalecendo os laços. Que autor analisou essa lógica?",
+      "opcoes": [
+        "Marcel Mauss, no Ensaio sobre a dádiva",
+        "Lewis Morgan",
+        "Karl Popper",
+        "Edward Tylor"
+      ],
+      "correta": 0,
+      "explicacao": "Dar, receber e retribuir: a troca é ao mesmo tempo econômica, moral, religiosa e política (fato social total)."
+    },
+    {
+      "id": "antropologia-10",
+      "topico": "escolas",
+      "nivel": "analise",
+      "pergunta": "Qual foi a principal crítica de Franz Boas ao evolucionismo?",
+      "opcoes": [
+        "As culturas não mudam nunca",
+        "Cada cultura tem trajetória histórica própria e não há escala única de evolução",
+        "Só a biologia explica a cultura",
+        "A Europa é o modelo de todas as sociedades"
+      ],
+      "correta": 1,
+      "explicacao": "Boas também separou raça, língua e cultura, combatendo o racismo científico."
+    },
+    {
+      "id": "antropologia-11",
+      "topico": "metodo",
+      "nivel": "conceitual",
+      "pergunta": "A etnografia é:",
+      "opcoes": [
+        "Um questionário aplicado por telefone",
+        "A comparação de dados estatísticos de censos",
+        "A descrição detalhada de um grupo a partir do trabalho de campo",
+        "O estudo de fósseis humanos"
+      ],
+      "correta": 2,
+      "explicacao": "É o método característico da antropologia; a etnologia faz a comparação teórica entre culturas."
+    },
+    {
+      "id": "antropologia-12",
+      "topico": "metodo",
+      "nivel": "conceitual",
+      "pergunta": "O ponto de vista êmico corresponde:",
+      "opcoes": [
+        "Às categorias do pesquisador",
+        "Às leis gerais da sociedade",
+        "Aos dados biológicos do grupo",
+        "Às categorias e significados do próprio grupo estudado"
+      ],
+      "correta": 3,
+      "explicacao": "O ponto de vista ético (de etic) usa as categorias externas da teoria."
+    },
+    {
+      "id": "antropologia-13",
+      "topico": "metodo",
+      "nivel": "conceitual",
+      "pergunta": "O que é alteridade?",
+      "opcoes": [
+        "O reconhecimento do outro como diferente e legítimo",
+        "A rejeição de outras culturas",
+        "A mistura de todas as culturas em uma só",
+        "O estudo apenas da própria sociedade"
+      ],
+      "correta": 0,
+      "explicacao": "A experiência da alteridade está no centro do trabalho antropológico."
+    },
+    {
+      "id": "antropologia-14",
+      "topico": "metodo",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pesquisadora passa um ano numa comunidade ribeirinha, participando da pesca, das festas e registrando tudo num caderno. Ela usa:",
+      "opcoes": [
+        "Experimento controlado em laboratório",
+        "Observação participante e diário de campo",
+        "Análise só de documentos oficiais",
+        "Questionário fechado aplicado uma vez"
+      ],
+      "correta": 1,
+      "explicacao": "A convivência longa permite entender o cotidiano a partir do ponto de vista dos moradores."
+    },
+    {
+      "id": "antropologia-15",
+      "topico": "metodo",
+      "nivel": "analise",
+      "pergunta": "Por que o consentimento do grupo é essencial na pesquisa antropológica?",
+      "opcoes": [
+        "Porque acelera a coleta de dados",
+        "Porque substitui o trabalho de campo",
+        "Porque a pesquisa é uma relação entre sujeitos, que têm direito de decidir sobre sua participação e exposição",
+        "Porque dispensa o diário de campo"
+      ],
+      "correta": 2,
+      "explicacao": "Os interlocutores não são objetos; a ética envolve respeito, sigilo e devolução dos resultados."
+    },
+    {
+      "id": "antropologia-16",
+      "topico": "parentesco",
+      "nivel": "conceitual",
+      "pergunta": "A exogamia é a regra que determina:",
+      "opcoes": [
+        "Casar dentro do próprio grupo",
+        "Ter vários cônjuges",
+        "Morar na casa da família da noiva",
+        "Casar com alguém de fora do próprio grupo"
+      ],
+      "correta": 3,
+      "explicacao": "A endogamia é o oposto: casar dentro do grupo (de casta, religião, aldeia)."
+    },
+    {
+      "id": "antropologia-17",
+      "topico": "parentesco",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Van Gennep, os ritos de passagem têm três fases:",
+      "opcoes": [
+        "Separação, liminaridade e agregação",
+        "Nascimento, vida e morte",
+        "Tese, antítese e síntese",
+        "Dar, receber e retribuir"
+      ],
+      "correta": 0,
+      "explicacao": "Na fase liminar, a pessoa já não tem o status antigo e ainda não tem o novo."
+    },
+    {
+      "id": "antropologia-18",
+      "topico": "parentesco",
+      "nivel": "conceitual",
+      "pergunta": "Para Durkheim, a religião se baseia na distinção entre:",
+      "opcoes": [
+        "Natureza e cultura",
+        "Sagrado e profano",
+        "Êmico e ético",
+        "Ato e potência"
+      ],
+      "correta": 1,
+      "explicacao": "O sagrado é separado e protegido por proibições; a religião une os fiéis numa comunidade moral."
+    },
+    {
+      "id": "antropologia-19",
+      "topico": "parentesco",
+      "nivel": "aplicacao",
+      "pergunta": "Calouros que têm o cabelo raspado, passam por provas e depois são aceitos como universitários vivem um:",
+      "opcoes": [
+        "Sistema de castas",
+        "Tabu alimentar",
+        "Rito de passagem",
+        "Mito de origem"
+      ],
+      "correta": 2,
+      "explicacao": "O trote marca a mudança de status: separação, período liminar e agregação ao novo grupo."
+    },
+    {
+      "id": "antropologia-20",
+      "topico": "parentesco",
+      "nivel": "analise",
+      "pergunta": "Por que Roberto DaMatta vê o carnaval como um ritual de inversão?",
+      "opcoes": [
+        "Porque é uma festa só religiosa",
+        "Porque reforça sempre as hierarquias",
+        "Porque proíbe a participação popular",
+        "Porque nele hierarquias cotidianas são suspensas ou invertidas temporariamente"
+      ],
+      "correta": 3,
+      "explicacao": "Pobres viram reis e rainhas, a rua se torna espaço de todos; depois, a ordem volta."
+    },
+    {
+      "id": "antropologia-21",
+      "topico": "brasil",
+      "nivel": "conceitual",
+      "pergunta": "O que a Constituição de 1988 mudou em relação aos povos indígenas?",
+      "opcoes": [
+        "Reconheceu sua organização social, línguas e tradições e os direitos originários às terras",
+        "Determinou que fossem integrados à sociedade nacional",
+        "Retirou todos os seus direitos sobre a terra",
+        "Proibiu o uso das línguas indígenas"
+      ],
+      "correta": 0,
+      "explicacao": "Ela superou o paradigma integracionista, que via a cultura indígena como algo a desaparecer."
+    },
+    {
+      "id": "antropologia-22",
+      "topico": "brasil",
+      "nivel": "conceitual",
+      "pergunta": "Para a antropologia atual, \"raça\" é:",
+      "opcoes": [
+        "Uma divisão biológica rígida da espécie humana",
+        "Uma construção social, sem base biológica para dividir a humanidade, mas com efeitos reais",
+        "Sinônimo de nacionalidade",
+        "Um conceito sem nenhuma consequência social"
+      ],
+      "correta": 1,
+      "explicacao": "A genética mostra variação contínua; ainda assim, o racismo produz desigualdades concretas."
+    },
+    {
+      "id": "antropologia-23",
+      "topico": "brasil",
+      "nivel": "conceitual",
+      "pergunta": "A Lei 11.645/2008 tornou obrigatório nas escolas o ensino de:",
+      "opcoes": [
+        "Língua inglesa",
+        "Educação financeira",
+        "História e cultura afro-brasileira e indígena",
+        "Filosofia antiga"
+      ],
+      "correta": 2,
+      "explicacao": "Ela ampliou a Lei 10.639/2003, que tratava da história e cultura afro-brasileira."
+    },
+    {
+      "id": "antropologia-24",
+      "topico": "brasil",
+      "nivel": "aplicacao",
+      "pergunta": "Uma hidrelétrica será construída perto de terras indígenas. Segundo a Convenção 169 da OIT, os povos afetados têm direito a:",
+      "opcoes": [
+        "Nenhuma participação na decisão",
+        "Apenas indenização após a obra",
+        "Mudança obrigatória para a cidade",
+        "Consulta prévia, livre e informada"
+      ],
+      "correta": 3,
+      "explicacao": "A consulta deve ocorrer antes da decisão, de boa-fé e de forma adequada à cultura do povo."
+    },
+    {
+      "id": "antropologia-25",
+      "topico": "brasil",
+      "nivel": "analise",
+      "pergunta": "O que propõe o perspectivismo ameríndio descrito por Viveiros de Castro?",
+      "opcoes": [
+        "Que, para muitos povos amazônicos, animais e espíritos também se veem como humanos, com sua própria perspectiva",
+        "Que os indígenas não têm pensamento abstrato",
+        "Que todas as culturas evoluem igual",
+        "Que a natureza é igual para todos os povos"
+      ],
+      "correta": 0,
+      "explicacao": "A ideia inverte a noção ocidental de uma natureza única e muitas culturas: haveria uma cultura e muitas naturezas."
+    },
+    {
+      "id": "antropologia-26",
+      "topico": "contemporaneos",
+      "nivel": "conceitual",
+      "pergunta": "Margaret Mead contribuiu para mostrar que:",
+      "opcoes": [
+        "O gênero é igual em todas as sociedades",
+        "Os papéis de gênero variam entre culturas e não são só biológicos",
+        "A cultura não influencia o comportamento",
+        "Só existe uma forma de família"
+      ],
+      "correta": 1,
+      "explicacao": "Em povos da Nova Guiné, ela encontrou comportamentos masculinos e femininos muito diferentes dos ocidentais."
+    },
+    {
+      "id": "antropologia-27",
+      "topico": "contemporaneos",
+      "nivel": "conceitual",
+      "pergunta": "Para Fredrik Barth, a identidade étnica é definida principalmente:",
+      "opcoes": [
+        "Por uma lista fixa e imutável de costumes",
+        "Pela cor da pele apenas",
+        "Pelas fronteiras e pela distinção em relação a outros grupos",
+        "Pelo local de nascimento"
+      ],
+      "correta": 2,
+      "explicacao": "Um grupo pode mudar muitos traços culturais e manter-se como grupo distinto."
+    },
+    {
+      "id": "antropologia-28",
+      "topico": "contemporaneos",
+      "nivel": "conceitual",
+      "pergunta": "Qual destes é exemplo de patrimônio cultural imaterial registrado no Brasil?",
+      "opcoes": [
+        "O prédio do Congresso Nacional",
+        "Uma estátua de bronze",
+        "Uma moeda colonial",
+        "Samba de roda do Recôncavo Baiano"
+      ],
+      "correta": 3,
+      "explicacao": "Patrimônio imaterial inclui saberes, celebrações, formas de expressão e lugares, como a capoeira e o frevo."
+    },
+    {
+      "id": "antropologia-29",
+      "topico": "contemporaneos",
+      "nivel": "aplicacao",
+      "pergunta": "O hip-hop, criado nos EUA, foi recriado nas periferias brasileiras com temas e ritmos locais. Isso ilustra:",
+      "opcoes": [
+        "Hibridismo cultural na globalização",
+        "Desaparecimento completo da cultura local",
+        "Evolucionismo cultural",
+        "Endogamia"
+      ],
+      "correta": 0,
+      "explicacao": "As culturas locais reinterpretam elementos globais, criando formas novas, em vez de apenas copiá-los."
+    },
+    {
+      "id": "antropologia-30",
+      "topico": "contemporaneos",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que bens de consumo \"comunicam\" significados sociais?",
+      "opcoes": [
+        "Porque têm só valor de uso",
+        "Porque marcas, roupas e objetos expressam identidades, pertencimentos e distinções",
+        "Porque todos consomem as mesmas coisas",
+        "Porque a economia não tem relação com a cultura"
+      ],
+      "correta": 1,
+      "explicacao": "Mary Douglas e Isherwood mostraram que consumir é também classificar e se relacionar com os outros."
+    }
+  ]
+}

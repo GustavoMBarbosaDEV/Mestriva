@@ -1,0 +1,465 @@
+{
+  "id": "filosofia",
+  "nome": "Filosofia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "antiga",
+      "nome": "Filosofia antiga: pré-socráticos, Sócrates e Platão",
+      "resumo": "### Do mito ao logos\nA filosofia surge na **Grécia, por volta do século VI a.C.**, quando explicações baseadas em **mitos** dão lugar a explicações **racionais** (logos), buscando princípios naturais.\n\n### Pré-socráticos\nInvestigavam a **physis** (natureza) e o **arché** (princípio de todas as coisas).\n- **Tales de Mileto**: a **água**.\n- **Anaxímenes**: o ar; **Anaximandro**: o ápeiron (indeterminado).\n- **Heráclito**: tudo está em **mudança constante** (\"ninguém se banha duas vezes no mesmo rio\"); o fogo; unidade dos contrários.\n- **Parmênides**: o **ser é imóvel e eterno**; a mudança é ilusão dos sentidos.\n- **Demócrito**: o mundo é feito de **átomos** e vazio.\n- **Pitágoras**: o número como princípio.\n\n### Sofistas\nProfessores de **retórica** que cobravam pelas aulas; relativismo: \"**o homem é a medida de todas as coisas**\" (Protágoras).\n\n### Sócrates (469–399 a.C.)\n- Não deixou escritos; conhecido pelos diálogos de Platão.\n- \"**Só sei que nada sei**\": reconhecer a própria ignorância é o começo da sabedoria.\n- **Método socrático**: **ironia** (perguntas que mostram contradições) e **maiêutica** (\"parto das ideias\", ajudar o outro a chegar à verdade).\n- \"Conhece-te a ti mesmo\". Foi condenado à morte (cicuta).\n\n### Platão (427–347 a.C.)\n- **Teoria das ideias**: dois mundos — o **sensível** (cópias imperfeitas, mutáveis, conhecidas pelos sentidos: opinião, *doxa*) e o **inteligível** (das **ideias** perfeitas e eternas, conhecido pela razão: *episteme*).\n- **Alegoria da caverna**: prisioneiros veem só sombras; o filósofo sai, vê a luz (a verdade) e volta para libertar os outros.\n- **Reminiscência**: conhecer é lembrar o que a alma já contemplou.\n- **A República**: cidade justa governada pelos **filósofos**.",
+      "revisao": "**Lembre:**\n- Filosofia nasce na Grécia: do mito ao logos.\n- Heráclito: mudança; Parmênides: ser imóvel.\n- Sócrates: só sei que nada sei; ironia e maiêutica.\n- Platão: mundo sensível × inteligível.\n- Caverna: das sombras à verdade."
+    },
+    {
+      "id": "aristoteles-medieval",
+      "nome": "Aristóteles e filosofia medieval",
+      "resumo": "### Aristóteles (384–322 a.C.)\nDiscípulo de Platão, mas **critica a separação** dos dois mundos: a essência está **nas próprias coisas**.\n- **Ato e potência**: a semente é árvore em potência; o movimento é a passagem da potência ao ato.\n- **Quatro causas**: material, formal, eficiente e final.\n- **Lógica**: criou o **silogismo** (Todo homem é mortal; Sócrates é homem; logo, Sócrates é mortal).\n- **Ética**: o fim último é a **felicidade (eudaimonia)**, alcançada pela **virtude**, que é o **justo meio** entre dois extremos (coragem entre covardia e temeridade).\n- **Política**: \"o homem é um **animal político**\"; formas de governo boas (monarquia, aristocracia, politeia) e degeneradas (tirania, oligarquia, demagogia).\n- Conhecimento começa pelos **sentidos** (empirismo moderado).\n\n### Filosofias helenísticas\n- **Estoicismo**: viver conforme a natureza e a razão; aceitar o que não depende de nós; imperturbabilidade (ataraxia/apatheia).\n- **Epicurismo**: felicidade como **prazer moderado** e ausência de dor; amizade.\n- **Ceticismo**: suspender o juízo.\n\n### Filosofia medieval\nRelação entre **fé e razão**.\n- **Patrística — Santo Agostinho** (séc. IV–V): influência de **Platão**; \"**creio para compreender**\"; **iluminação divina**; o mal como ausência do bem; **livre-arbítrio**; *Cidade de Deus* × cidade dos homens.\n- **Escolástica — São Tomás de Aquino** (séc. XIII): influência de **Aristóteles**; fé e razão **não se contradizem**; **cinco vias** para provar a existência de Deus (primeiro motor, causa primeira etc.); *Suma Teológica*.\n- **Problema dos universais**: realistas × nominalistas (Guilherme de Ockham e a \"navalha\": não multiplicar entidades sem necessidade).",
+      "revisao": "**Lembre:**\n- Aristóteles: essência nas coisas; ato e potência.\n- Silogismo e lógica.\n- Ética: felicidade pela virtude, justo meio.\n- Agostinho: Platão, \"creio para compreender\".\n- Tomás de Aquino: Aristóteles, cinco vias."
+    },
+    {
+      "id": "moderna",
+      "nome": "Filosofia moderna: racionalismo, empirismo e Kant",
+      "resumo": "### O problema do conhecimento\nNa modernidade (séculos XVII–XVIII), com a revolução científica, a pergunta central passa a ser: **como conhecemos? qual a origem e o limite do conhecimento?**\n\n### Racionalismo\nO conhecimento verdadeiro vem da **razão**; há **ideias inatas**.\n- **René Descartes**: **dúvida metódica** (duvidar de tudo que possa ser falso, até dos sentidos); a primeira certeza: \"**Penso, logo existo**\" (*cogito, ergo sum*). Dualismo **mente (res cogitans)** × **corpo (res extensa)**. *Discurso do Método*.\n- **Espinosa** e **Leibniz**.\n\n### Empirismo\nO conhecimento vem da **experiência sensível**.\n- **John Locke**: a mente ao nascer é uma **tábula rasa** (folha em branco); não há ideias inatas.\n- **George Berkeley**: \"ser é ser percebido\".\n- **David Hume**: ideias são cópias de impressões; critica a **causalidade** — vemos só **sucessão constante**, a ligação necessária vem do **hábito**; ceticismo sobre a indução.\n\n### Immanuel Kant (1724–1804): a síntese\n- \"Todo conhecimento **começa** com a experiência, mas **nem todo deriva** dela.\"\n- **Revolução copernicana** na filosofia: não é o sujeito que se ajusta ao objeto; o objeto é conhecido conforme as **estruturas do sujeito** (espaço, tempo e categorias como causalidade).\n- Conhecemos o **fenômeno** (como as coisas nos aparecem), não a **coisa em si** (númeno).\n- Juízos **sintéticos a priori** (matemática, física).\n- **Ética**: **imperativo categórico** — \"age de tal modo que a máxima da tua ação possa tornar-se **lei universal**\"; tratar a humanidade sempre como **fim**, nunca só como meio. Moral do **dever** e da **autonomia**.\n- **Esclarecimento** (*Aufklärung*): \"saída do homem da menoridade\"; \"ousa saber\" (*sapere aude*).",
+      "revisao": "**Lembre:**\n- Racionalismo: razão, ideias inatas (Descartes).\n- Penso, logo existo; dúvida metódica.\n- Empirismo: experiência; Locke tábula rasa; Hume e o hábito.\n- Kant: fenômeno × coisa em si.\n- Imperativo categórico: lei universal; pessoa como fim."
+    },
+    {
+      "id": "etica",
+      "nome": "Ética e moral",
+      "resumo": "### Conceitos\n- **Moral**: conjunto de **normas e valores** de um grupo, numa época.\n- **Ética**: **reflexão filosófica** sobre a moral (o que é o bem, como devemos agir, por quê).\n- **Autonomia**: dar-se a própria lei pela razão; **heteronomia**: seguir normas impostas de fora.\n- Responsabilidade pressupõe **liberdade**.\n\n### Grandes correntes\n- **Ética das virtudes** (Aristóteles): formar o **caráter**; virtude como hábito e justo meio; finalidade é a felicidade.\n- **Deontologia** (Kant): agir por **dever**; certas ações são certas ou erradas **em si**, independentemente das consequências (não mentir, mesmo que mentir traga vantagem).\n- **Utilitarismo** (**Jeremy Bentham**, **John Stuart Mill**): a ação correta é a que produz **a maior felicidade para o maior número**; avalia pelas **consequências**. Mill distingue prazeres superiores e inferiores.\n- **Ética da responsabilidade × ética da convicção** (Weber).\n\n### Pensadores contemporâneos\n- **Nietzsche**: crítica à moral cristã como \"**moral de escravos**\"; \"**Deus está morto**\"; transvaloração dos valores; **além-do-homem** (Übermensch); vontade de potência.\n- **Hannah Arendt**: **banalidade do mal** (Eichmann): o mal praticado por pessoas comuns que deixam de pensar e apenas cumprem ordens.\n- **Hans Jonas**: ética da responsabilidade com as **gerações futuras** e o meio ambiente.\n\n### Bioética\nPrincípios: **autonomia** (consentimento informado), **beneficência**, **não maleficência** e **justiça**. Temas: aborto, eutanásia, pesquisa com seres humanos, transgênicos.\n\n### Dilemas\nO **dilema do bonde** opõe deontologia e utilitarismo: desviar o bonde para matar 1 e salvar 5?",
+      "revisao": "**Lembre:**\n- Moral: normas; ética: reflexão sobre elas.\n- Aristóteles: virtude; Kant: dever; utilitarismo: consequências.\n- Utilitarismo: maior felicidade para o maior número.\n- Arendt: banalidade do mal.\n- Bioética: autonomia, beneficência, não maleficência, justiça."
+    },
+    {
+      "id": "politica",
+      "nome": "Filosofia política",
+      "resumo": "### Maquiavel (1469–1527)\n*O Príncipe*: separa a **política da moral** religiosa; analisa a política **como ela é**, não como deveria ser.\n- O governante deve ter **virtù** (habilidade, capacidade de agir) para lidar com a **fortuna** (acaso).\n- \"É melhor ser **temido** do que amado\", se não for possível ser os dois.\n- A frase \"os fins justificam os meios\" é uma **simplificação** atribuída a ele.\n\n### Contratualistas\nExplicam a origem do Estado por um **contrato social** que tira os homens do **estado de natureza**.\n- **Thomas Hobbes** (*Leviatã*): no estado de natureza, \"**guerra de todos contra todos**\", \"o homem é o **lobo do homem**\"; vida \"solitária, pobre, sórdida, brutal e curta\". Para ter segurança, os homens transferem poder a um **soberano absoluto**.\n- **John Locke**: no estado de natureza há **direitos naturais**: **vida, liberdade e propriedade**. O Estado existe para protegê-los; se não o fizer, há **direito de resistência**. Base do **liberalismo**; separação de poderes.\n- **Jean-Jacques Rousseau** (*Do Contrato Social*): \"o homem **nasce bom**, a sociedade o corrompe\" (bom selvagem); a **propriedade privada** origina a desigualdade. Soberania do **povo** pela **vontade geral**; democracia direta.\n\n### Montesquieu\n*O Espírito das Leis*: **separação dos três poderes** (Executivo, Legislativo e Judiciário), para que \"o poder freie o poder\".\n\n### Pensamento contemporâneo\n- **Marx**: crítica do Estado como instrumento da classe dominante.\n- **John Rawls**: justiça como equidade; **véu da ignorância** — escolher as regras sem saber que posição se ocupará na sociedade.\n- **Hannah Arendt**: o **totalitarismo** (nazismo, stalinismo) e o espaço público da ação.\n- **Foucault**: o poder está disperso nas relações (microfísica do poder).",
+      "revisao": "**Lembre:**\n- Maquiavel: virtù e fortuna; política separada da moral.\n- Hobbes: guerra de todos contra todos; soberano absoluto.\n- Locke: vida, liberdade e propriedade; liberalismo.\n- Rousseau: vontade geral; homem nasce bom.\n- Montesquieu: três poderes."
+    },
+    {
+      "id": "contemporanea",
+      "nome": "Filosofia contemporânea e teoria do conhecimento",
+      "resumo": "### Hegel e a dialética\nRealidade como processo histórico de contradições: **tese → antítese → síntese**. Marx usa a dialética em sentido **materialista**.\n\n### Existencialismo\n- **Kierkegaard**: angústia, escolha, fé como salto.\n- **Jean-Paul Sartre**: \"a **existência precede a essência**\": o ser humano não nasce com natureza pronta; ele se faz por suas escolhas. \"O homem está **condenado a ser livre**\" — e é **responsável** pelo que faz. **Má-fé**: fingir que não se tem escolha.\n- **Simone de Beauvoir**: \"**Ninguém nasce mulher: torna-se mulher**\" (*O Segundo Sexo*); gênero como construção social.\n- **Albert Camus**: o **absurdo**; mito de Sísifo.\n\n### Fenomenologia\n**Husserl**: \"voltar às coisas mesmas\"; consciência é sempre **consciência de algo** (intencionalidade). **Heidegger**: o ser-no-mundo, o ser-para-a-morte.\n\n### Escola de Frankfurt\n**Teoria crítica**: Adorno, Horkheimer, Marcuse; razão instrumental, indústria cultural. **Habermas**: razão **comunicativa** e democracia deliberativa.\n\n### Filosofia da ciência\n- **Indução** × **dedução**: a dedução vai do geral ao particular (conclusão necessária); a indução, do particular ao geral (conclusão provável).\n- **Karl Popper**: uma teoria científica deve ser **falseável** (refutável por experiências); o conhecimento avança por conjecturas e refutações. Critica a indução.\n- **Thomas Kuhn**: **paradigmas** e **revoluções científicas**; ciência normal × crise × novo paradigma (de Ptolomeu a Copérnico).\n\n### Lógica básica\n- **Argumento válido**: se as premissas forem verdadeiras, a conclusão **necessariamente** é verdadeira (validade depende da forma).\n- Argumento **sólido**: válido e com premissas verdadeiras.\n- **Falácias**: ad hominem (atacar a pessoa), espantalho, apelo à autoridade, falsa dicotomia, generalização apressada.",
+      "revisao": "**Lembre:**\n- Sartre: existência precede a essência; condenado a ser livre.\n- Beauvoir: não se nasce mulher, torna-se.\n- Popper: falseabilidade.\n- Kuhn: paradigmas e revoluções.\n- Ad hominem: ataca a pessoa, não o argumento."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "filosofia-1",
+      "topico": "antiga",
+      "nivel": "conceitual",
+      "pergunta": "A passagem do mito ao logos na Grécia antiga significa:",
+      "opcoes": [
+        "A busca de explicações racionais para a realidade, em vez de narrativas sobrenaturais",
+        "O fim de todas as religiões",
+        "A criação da escrita",
+        "A adoção do cristianismo"
+      ],
+      "correta": 0,
+      "explicacao": "Os primeiros filósofos procuravam princípios naturais (arché) para explicar o mundo."
+    },
+    {
+      "id": "filosofia-2",
+      "topico": "antiga",
+      "nivel": "conceitual",
+      "pergunta": "O método socrático da maiêutica consiste em:",
+      "opcoes": [
+        "Decorar os textos dos sábios",
+        "Ajudar o interlocutor, por meio de perguntas, a dar à luz as próprias ideias",
+        "Convencer pela retórica, cobrando pelas aulas",
+        "Observar a natureza com instrumentos"
+      ],
+      "correta": 1,
+      "explicacao": "O nome vem do ofício de parteira, que era o da mãe de Sócrates."
+    },
+    {
+      "id": "filosofia-3",
+      "topico": "antiga",
+      "nivel": "conceitual",
+      "pergunta": "Para Heráclito, a realidade é marcada por:",
+      "opcoes": [
+        "Imobilidade absoluta do ser",
+        "Números como princípio",
+        "Mudança constante (devir)",
+        "Ideias perfeitas num mundo separado"
+      ],
+      "correta": 2,
+      "explicacao": "\"Ninguém se banha duas vezes no mesmo rio\"; Parmênides defendia o oposto, o ser imóvel."
+    },
+    {
+      "id": "filosofia-4",
+      "topico": "antiga",
+      "nivel": "aplicacao",
+      "pergunta": "Na alegoria da caverna de Platão, as sombras projetadas na parede representam:",
+      "opcoes": [
+        "O mundo das ideias",
+        "A verdade alcançada pela filosofia",
+        "Os deuses do Olimpo",
+        "O mundo sensível e as opiniões, aparências enganosas"
+      ],
+      "correta": 3,
+      "explicacao": "Sair da caverna e ver a luz do sol simboliza chegar ao conhecimento verdadeiro do mundo inteligível."
+    },
+    {
+      "id": "filosofia-5",
+      "topico": "antiga",
+      "nivel": "analise",
+      "pergunta": "Qual a diferença entre a postura de Sócrates e a dos sofistas?",
+      "opcoes": [
+        "Sócrates buscava a verdade reconhecendo a própria ignorância; os sofistas ensinavam retórica para convencer, com visão relativista",
+        "Os dois cobravam pelas aulas",
+        "Os sofistas defendiam verdades absolutas",
+        "Sócrates escreveu muitos livros e os sofistas nenhum"
+      ],
+      "correta": 0,
+      "explicacao": "Para Protágoras, o homem é a medida de todas as coisas; Sócrates queria definições universais por meio do diálogo."
+    },
+    {
+      "id": "filosofia-6",
+      "topico": "aristoteles-medieval",
+      "nivel": "conceitual",
+      "pergunta": "Para Aristóteles, a virtude ética é:",
+      "opcoes": [
+        "A obediência cega às leis",
+        "O justo meio entre dois extremos, adquirido pelo hábito",
+        "O prazer máximo a qualquer custo",
+        "Algo inato, que não pode ser aprendido"
+      ],
+      "correta": 1,
+      "explicacao": "A coragem, por exemplo, fica entre a covardia (falta) e a temeridade (excesso)."
+    },
+    {
+      "id": "filosofia-7",
+      "topico": "aristoteles-medieval",
+      "nivel": "conceitual",
+      "pergunta": "Qual filósofo medieval buscou conciliar a fé cristã com a filosofia de Aristóteles?",
+      "opcoes": [
+        "Santo Agostinho",
+        "René Descartes",
+        "São Tomás de Aquino",
+        "Maquiavel"
+      ],
+      "correta": 2,
+      "explicacao": "Santo Agostinho, mais antigo, aproximou o cristianismo de Platão."
+    },
+    {
+      "id": "filosofia-8",
+      "topico": "aristoteles-medieval",
+      "nivel": "conceitual",
+      "pergunta": "Os conceitos de ato e potência, em Aristóteles, explicam:",
+      "opcoes": [
+        "A divisão dos poderes do Estado",
+        "A dúvida metódica",
+        "A luta de classes",
+        "O movimento e a mudança dos seres"
+      ],
+      "correta": 3,
+      "explicacao": "A semente é árvore em potência; ao crescer, essa potência se atualiza."
+    },
+    {
+      "id": "filosofia-9",
+      "topico": "aristoteles-medieval",
+      "nivel": "aplicacao",
+      "pergunta": "\"Todo mamífero respira; a baleia é mamífero; logo, a baleia respira.\" Esse raciocínio é um:",
+      "opcoes": [
+        "Silogismo",
+        "Imperativo categórico",
+        "Paradigma científico",
+        "Mito"
+      ],
+      "correta": 0,
+      "explicacao": "O silogismo, sistematizado por Aristóteles, tira uma conclusão necessária de duas premissas."
+    },
+    {
+      "id": "filosofia-10",
+      "topico": "aristoteles-medieval",
+      "nivel": "analise",
+      "pergunta": "Em que Aristóteles se afasta da teoria das ideias de Platão?",
+      "opcoes": [
+        "Ele nega que exista conhecimento",
+        "Para ele, a essência está nas próprias coisas, não num mundo separado",
+        "Ele afirma que só os mitos explicam o mundo",
+        "Ele defende que os sentidos sempre enganam"
+      ],
+      "correta": 1,
+      "explicacao": "Aristóteles valoriza a observação e considera que forma e matéria estão unidas nos seres concretos."
+    },
+    {
+      "id": "filosofia-11",
+      "topico": "moderna",
+      "nivel": "conceitual",
+      "pergunta": "A frase \"Penso, logo existo\" é de:",
+      "opcoes": [
+        "John Locke",
+        "David Hume",
+        "René Descartes",
+        "Immanuel Kant"
+      ],
+      "correta": 2,
+      "explicacao": "Depois de duvidar de tudo, Descartes encontra uma certeza indubitável: enquanto duvida, pensa, e portanto existe."
+    },
+    {
+      "id": "filosofia-12",
+      "topico": "moderna",
+      "nivel": "conceitual",
+      "pergunta": "Para John Locke, ao nascer a mente humana é:",
+      "opcoes": [
+        "Repleta de ideias inatas",
+        "Incapaz de qualquer conhecimento",
+        "Igual à coisa em si",
+        "Uma tábula rasa, sem ideias inatas"
+      ],
+      "correta": 3,
+      "explicacao": "Todo conhecimento viria da experiência, pela sensação e pela reflexão."
+    },
+    {
+      "id": "filosofia-13",
+      "topico": "moderna",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Kant, o que podemos conhecer?",
+      "opcoes": [
+        "Os fenômenos, isto é, as coisas como nos aparecem",
+        "As coisas em si mesmas, independentemente de nós",
+        "Apenas as ideias inatas",
+        "Nada, pois tudo é ilusão"
+      ],
+      "correta": 0,
+      "explicacao": "O conhecimento é moldado pelas formas do sujeito (espaço, tempo e categorias); a coisa em si permanece incognoscível."
+    },
+    {
+      "id": "filosofia-14",
+      "topico": "moderna",
+      "nivel": "aplicacao",
+      "pergunta": "Hume afirma que, ao ver uma bola bater em outra e esta se mover, não vemos a causa, apenas uma sequência. A ideia de causalidade viria:",
+      "opcoes": [
+        "De uma ideia inata",
+        "Do hábito de ver sucessões repetidas",
+        "Da revelação divina",
+        "Do imperativo categórico"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso Hume questiona a certeza da indução: o futuro não precisa repetir o passado."
+    },
+    {
+      "id": "filosofia-15",
+      "topico": "moderna",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que Kant fez uma síntese entre racionalismo e empirismo?",
+      "opcoes": [
+        "Porque rejeitou tanto a razão quanto a experiência",
+        "Porque aceitou só as ideias inatas",
+        "Para ele o conhecimento começa na experiência, mas é organizado por estruturas a priori da razão",
+        "Porque afirmou que só os sentidos dão conhecimento"
+      ],
+      "correta": 2,
+      "explicacao": "\"Pensamentos sem conteúdo são vazios; intuições sem conceitos são cegas.\""
+    },
+    {
+      "id": "filosofia-16",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre moral e ética?",
+      "opcoes": [
+        "São exatamente a mesma coisa",
+        "Ética é só religiosa e moral é só jurídica",
+        "Moral é universal e ética é individual",
+        "Moral é o conjunto de normas de um grupo; ética é a reflexão filosófica sobre elas"
+      ],
+      "correta": 3,
+      "explicacao": "A ética pergunta por que certas normas valem e se devem valer."
+    },
+    {
+      "id": "filosofia-17",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "O utilitarismo de Bentham e Mill avalia uma ação pelas:",
+      "opcoes": [
+        "Consequências, buscando a maior felicidade para o maior número",
+        "Intenções, independentemente dos resultados",
+        "Ordens divinas",
+        "Tradições do grupo"
+      ],
+      "correta": 0,
+      "explicacao": "Kant, ao contrário, julga a ação pelo dever e pela intenção."
+    },
+    {
+      "id": "filosofia-18",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "O imperativo categórico de Kant ordena:",
+      "opcoes": [
+        "Buscar o maior prazer possível",
+        "Agir de modo que a máxima da ação possa valer como lei universal",
+        "Seguir sempre a vontade da maioria",
+        "Imitar os heróis da tradição"
+      ],
+      "correta": 1,
+      "explicacao": "Também manda tratar a humanidade sempre como fim e nunca apenas como meio."
+    },
+    {
+      "id": "filosofia-19",
+      "topico": "etica",
+      "nivel": "aplicacao",
+      "pergunta": "Um médico explica riscos e benefícios de uma cirurgia e só opera com a concordância do paciente. Qual princípio da bioética está em jogo?",
+      "opcoes": [
+        "Utilitarismo",
+        "Heteronomia",
+        "Autonomia",
+        "Virtù"
+      ],
+      "correta": 2,
+      "explicacao": "O consentimento livre e esclarecido respeita a capacidade do paciente de decidir sobre si."
+    },
+    {
+      "id": "filosofia-20",
+      "topico": "etica",
+      "nivel": "analise",
+      "pergunta": "O que Hannah Arendt quis dizer com \"banalidade do mal\"?",
+      "opcoes": [
+        "O mal é sempre praticado por monstros",
+        "O mal não existe",
+        "Só religiosos fazem o mal",
+        "Grandes males podem ser praticados por pessoas comuns que deixam de pensar e apenas obedecem"
+      ],
+      "correta": 3,
+      "explicacao": "Ao observar o julgamento de Eichmann, ela viu um burocrata medíocre, não um demônio, o que tornava o mal ainda mais assustador."
+    },
+    {
+      "id": "filosofia-21",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "Para Hobbes, como é o estado de natureza?",
+      "opcoes": [
+        "Uma guerra de todos contra todos",
+        "Um paraíso de paz e bondade",
+        "Uma sociedade com direitos garantidos",
+        "O governo dos filósofos"
+      ],
+      "correta": 0,
+      "explicacao": "Por medo da morte violenta, os homens aceitam um soberano forte que garanta a paz."
+    },
+    {
+      "id": "filosofia-22",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os direitos naturais segundo John Locke?",
+      "opcoes": [
+        "Saúde, educação e moradia",
+        "Vida, liberdade e propriedade",
+        "Obediência, fé e trabalho",
+        "Força, astúcia e fortuna"
+      ],
+      "correta": 1,
+      "explicacao": "O Estado existe para protegê-los; se os violar, o povo pode resistir."
+    },
+    {
+      "id": "filosofia-23",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "A separação entre os poderes Executivo, Legislativo e Judiciário foi sistematizada por:",
+      "opcoes": [
+        "Maquiavel",
+        "Platão",
+        "Montesquieu",
+        "Hobbes"
+      ],
+      "correta": 2,
+      "explicacao": "Em O Espírito das Leis: para evitar abusos, é preciso que o poder freie o poder."
+    },
+    {
+      "id": "filosofia-24",
+      "topico": "politica",
+      "nivel": "aplicacao",
+      "pergunta": "Um governante que age com habilidade para aproveitar oportunidades e enfrentar imprevistos demonstra, segundo Maquiavel:",
+      "opcoes": [
+        "Vontade geral",
+        "Imperativo categórico",
+        "Solidariedade orgânica",
+        "Virtù diante da fortuna"
+      ],
+      "correta": 3,
+      "explicacao": "Virtù é a capacidade de ação política; fortuna é o acaso que o governante precisa dominar."
+    },
+    {
+      "id": "filosofia-25",
+      "topico": "politica",
+      "nivel": "analise",
+      "pergunta": "Qual é a ideia do \"véu da ignorância\" de John Rawls?",
+      "opcoes": [
+        "Escolher princípios de justiça sem saber que posição social se ocupará, o que leva a regras mais justas",
+        "Ignorar as leis injustas",
+        "Esconder do povo as decisões do governo",
+        "Recusar todo conhecimento científico"
+      ],
+      "correta": 0,
+      "explicacao": "Sem saber se será rico ou pobre, a pessoa tende a proteger os menos favorecidos."
+    },
+    {
+      "id": "filosofia-26",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "\"A existência precede a essência\" é uma tese de:",
+      "opcoes": [
+        "Platão",
+        "Jean-Paul Sartre",
+        "São Tomás de Aquino",
+        "Auguste Comte"
+      ],
+      "correta": 1,
+      "explicacao": "Para o existencialismo, o ser humano não tem natureza pronta: ele se define pelas próprias escolhas."
+    },
+    {
+      "id": "filosofia-27",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Karl Popper, uma teoria é científica quando:",
+      "opcoes": [
+        "Foi confirmada por muitas observações",
+        "É aceita pela maioria dos cientistas",
+        "Pode ser falseada (refutada) por experiências",
+        "Não pode ser testada"
+      ],
+      "correta": 2,
+      "explicacao": "Uma teoria que explica qualquer resultado possível não diz nada testável sobre o mundo."
+    },
+    {
+      "id": "filosofia-28",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "Para Thomas Kuhn, a ciência avança por meio de:",
+      "opcoes": [
+        "Acúmulo linear e contínuo de verdades",
+        "Revelação divina",
+        "Votação entre cientistas",
+        "Revoluções que substituem paradigmas"
+      ],
+      "correta": 3,
+      "explicacao": "Após um período de ciência normal, anomalias acumuladas levam à crise e a um novo paradigma."
+    },
+    {
+      "id": "filosofia-29",
+      "topico": "contemporanea",
+      "nivel": "aplicacao",
+      "pergunta": "Num debate, alguém responde: \"Você não entende de economia porque nunca teve empresa\", sem discutir o argumento. Que falácia é essa?",
+      "opcoes": [
+        "Ad hominem",
+        "Espantalho",
+        "Falsa dicotomia",
+        "Generalização apressada"
+      ],
+      "correta": 0,
+      "explicacao": "Ataca-se a pessoa em vez do conteúdo do que ela disse."
+    },
+    {
+      "id": "filosofia-30",
+      "topico": "contemporanea",
+      "nivel": "analise",
+      "pergunta": "O que Simone de Beauvoir quer dizer com \"ninguém nasce mulher: torna-se mulher\"?",
+      "opcoes": [
+        "Que as mulheres não existem biologicamente",
+        "Os papéis atribuídos às mulheres são construídos socialmente, não determinados pela natureza",
+        "Que a mulher é inferior por natureza",
+        "Que o gênero é escolhido ao nascer"
+      ],
+      "correta": 1,
+      "explicacao": "Aplicando o existencialismo, ela mostra como a sociedade molda o que se espera de cada sexo."
+    }
+  ]
+}

@@ -1026,6 +1026,62 @@ export const EXTRA = {
       "Solos Agrícolas",
       "Edafologia"
     ]
+  },
+  "sociologia": {
+    "area": "Humanas",
+    "apelidos": [
+      "Sociologia",
+      "Sociologia Geral",
+      "Sociologia I",
+      "Introdução à Sociologia",
+      "Fundamentos de Sociologia",
+      "Teoria Sociológica",
+      "Sociologia Clássica",
+      "Ciências Sociais"
+    ]
+  },
+  "filosofia": {
+    "area": "Humanas",
+    "apelidos": [
+      "Filosofia",
+      "Filosofia Geral",
+      "Introdução à Filosofia",
+      "Filosofia I",
+      "Fundamentos de Filosofia",
+      "História da Filosofia",
+      "Filosofia e Ética",
+      "Ética e Filosofia"
+    ]
+  },
+  "antropologia": {
+    "area": "Humanas",
+    "apelidos": [
+      "Antropologia",
+      "Antropologia Cultural",
+      "Antropologia Social",
+      "Antropologia Geral",
+      "Introdução à Antropologia",
+      "Antropologia I",
+      "Antropologia e Cultura",
+      "Antropologia Cultural e Social"
+    ]
+  },
+  "libras": {
+    "area": "Humanas",
+    "apelidos": [
+      "Libras",
+      "LIBRAS",
+      "Língua Brasileira de Sinais",
+      "Libras I",
+      "Libras II",
+      "Língua Brasileira de Sinais I",
+      "Língua de Sinais",
+      "Introdução à Libras",
+      "Fundamentos de Libras",
+      "Educação de Surdos",
+      "Língua Brasileira de Sinais - Libras",
+      "Língua Brasileira de Sinais (Libras)"
+    ]
   }
 };
 

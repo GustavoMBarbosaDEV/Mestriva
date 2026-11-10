@@ -1,0 +1,465 @@
+{
+  "id": "sociologia",
+  "nome": "Sociologia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "origens",
+      "nome": "Origens da sociologia e Comte",
+      "resumo": "### Contexto de surgimento\nA sociologia nasce no **século XIX**, na Europa, para explicar as grandes mudanças trazidas pela:\n- **Revolução Industrial**: fábricas, êxodo rural, cidades superlotadas, nova classe operária, miséria urbana.\n- **Revolução Francesa**: queda do Antigo Regime, ideias de igualdade e cidadania.\n- **Iluminismo** e avanço das ciências naturais: a crença de que a razão podia explicar também a sociedade.\n\n### Auguste Comte (1798–1857)\n- Criou o termo **\"sociologia\"** (antes chamou de \"física social\").\n- **Positivismo**: só o conhecimento baseado na **observação** e na ciência é válido; a sociedade deveria ser estudada com os métodos das ciências naturais.\n- **Lei dos três estados**: a humanidade passaria pelo estado **teológico** (explicações sobrenaturais), **metafísico** (abstrações filosóficas) e **positivo** (científico).\n- Lema \"**Ordem e Progresso**\", que está na bandeira brasileira por influência dos positivistas na Proclamação da República.\n\n### Os clássicos\nA sociologia se consolida com três autores, cada um com uma visão diferente da sociedade:\n- **Émile Durkheim**: a sociedade como um todo que se impõe ao indivíduo (**fatos sociais**).\n- **Karl Marx**: a sociedade marcada pelo **conflito de classes**.\n- **Max Weber**: a sociedade compreendida a partir do **sentido das ações** dos indivíduos.\n\n### O que é a \"imaginação sociológica\"\nExpressão de **Wright Mills**: capacidade de relacionar problemas pessoais (desemprego, por exemplo) com questões estruturais da sociedade. **Estranhar** o que parece natural e **desnaturalizar** as relações sociais.",
+      "revisao": "**Lembre:**\n- Sociologia nasce no século XIX (Revolução Industrial e Francesa).\n- Comte: positivismo e lei dos três estados.\n- \"Ordem e Progresso\" vem do positivismo.\n- Clássicos: Durkheim, Marx e Weber.\n- Imaginação sociológica: ligar o pessoal ao estrutural."
+    },
+    {
+      "id": "durkheim",
+      "nome": "Émile Durkheim",
+      "resumo": "### Fato social\nObjeto da sociologia: **maneiras de agir, pensar e sentir** que existem fora do indivíduo e se impõem a ele. Características:\n- **Coercitividade**: a sociedade pressiona (sanções, olhares, leis) quem não segue as regras.\n- **Exterioridade**: existem antes e independentemente de cada pessoa (a língua, as leis, a moral).\n- **Generalidade**: são coletivos, se repetem em todo o grupo.\n- Regra do método: tratar os fatos sociais **\"como coisas\"**, com objetividade e neutralidade.\n\n### Solidariedade\nO que mantém a sociedade unida:\n- **Mecânica**: em sociedades **simples**, pela **semelhança** entre as pessoas (mesmas crenças e tarefas); consciência coletiva forte; direito **repressivo**.\n- **Orgânica**: em sociedades **modernas e complexas**, pela **interdependência** gerada pela **divisão do trabalho social** (cada um tem uma função, como órgãos de um corpo); direito **restitutivo**.\n\n### Anomia\nSituação de **ausência ou enfraquecimento das normas** que regulam a vida social, comum em períodos de mudança rápida; gera desorientação.\n\n### O suicídio (1897)\nMostrou que até um ato aparentemente individual tem **causas sociais**: as taxas variam conforme a integração e a regulação dos grupos.\n- **Egoísta**: pouca integração ao grupo.\n- **Altruísta**: integração excessiva (o indivíduo se sacrifica pelo grupo).\n- **Anômico**: falta de regulação (crises econômicas).\n\n### Instituições e educação\nA **educação** transmite as normas e valores às novas gerações (socialização). Normal × patológico: até o crime é \"normal\" em certo nível, pois reforça as regras ao ser punido.",
+      "revisao": "**Lembre:**\n- Fato social: coercitivo, exterior e geral.\n- Tratar fatos sociais como coisas.\n- Solidariedade mecânica (semelhança) × orgânica (divisão do trabalho).\n- Anomia: falta de normas.\n- Suicídio tem causas sociais."
+    },
+    {
+      "id": "marx",
+      "nome": "Karl Marx",
+      "resumo": "### Materialismo histórico\nA base da sociedade é a forma como os seres humanos **produzem** a vida material.\n- **Infraestrutura** (base econômica): **forças produtivas** (técnicas, trabalho, máquinas) + **relações de produção** (quem é dono, quem trabalha).\n- **Superestrutura**: Estado, leis, religião, ideologias, arte, que tendem a refletir e legitimar a base.\n- **Modos de produção**: comunismo primitivo, escravista, feudal, **capitalista**.\n\n### Luta de classes\n\"A história de toda sociedade até hoje é a história da **luta de classes**\" (Manifesto Comunista, com Engels, 1848).\n- No capitalismo: **burguesia** (dona dos **meios de produção**) × **proletariado** (só tem a **força de trabalho** para vender).\n\n### Conceitos centrais\n- **Mais-valia**: valor que o trabalhador produz **além** do que recebe como salário, apropriado pelo capitalista. **Absoluta** (aumentar a jornada) e **relativa** (aumentar a produtividade).\n- **Alienação**: o trabalhador não se reconhece no produto do seu trabalho nem controla o processo; o trabalho torna-se estranho a ele.\n- **Fetichismo da mercadoria**: as relações entre pessoas aparecem como relações entre coisas; a mercadoria parece ter valor \"por si\".\n- **Ideologia**: conjunto de ideias que **mascara** as contradições e apresenta os interesses da classe dominante como se fossem de todos.\n- **Consciência de classe**: o proletariado perceber seus interesses comuns (\"classe em si\" → \"classe para si\").\n\n### Projeto\nSuperação do capitalismo por uma revolução proletária, rumo a uma sociedade **sem classes** (socialismo → comunismo).",
+      "revisao": "**Lembre:**\n- Infraestrutura econômica condiciona a superestrutura.\n- Burguesia × proletariado.\n- Mais-valia: trabalho não pago.\n- Alienação: trabalhador separado do produto.\n- Ideologia mascara a dominação."
+    },
+    {
+      "id": "weber",
+      "nome": "Max Weber",
+      "resumo": "### Sociologia compreensiva\nO objeto é a **ação social**: ação orientada pelo **comportamento de outros** e dotada de **sentido** para quem age. O sociólogo deve **compreender** esse sentido.\n\n### Tipos de ação social\n- **Racional com relação a fins**: meios calculados para atingir um objetivo (estudar para passar no concurso).\n- **Racional com relação a valores**: guiada por convicções, independentemente das consequências (recusar suborno por honestidade).\n- **Afetiva**: movida por emoções.\n- **Tradicional**: por hábito ou costume (\"sempre foi assim\").\n\n### Tipo ideal\nFerramenta metodológica: um **modelo** construído pelo pesquisador, acentuando traços da realidade, para comparar com os casos concretos. Não é o que \"deveria ser\", nem existe puro na realidade.\n\n### Dominação legítima\nProbabilidade de uma ordem ser obedecida **porque é aceita como legítima**:\n- **Tradicional**: baseada nos costumes e na herança (reis, patriarcas).\n- **Carismática**: nas qualidades extraordinárias de um líder (profetas, líderes revolucionários).\n- **Racional-legal**: em **regras impessoais** e leis; tem na **burocracia** sua forma típica (hierarquia, competência técnica, impessoalidade).\n\n### A ética protestante e o espírito do capitalismo (1904–1905)\nValores do **protestantismo ascético (calvinismo)** — trabalho como vocação, disciplina, poupança, predestinação — favoreceram a mentalidade capitalista. Mostra que **ideias e valores** também influenciam a economia.\n\n### Racionalização e desencantamento do mundo\nA modernidade substitui explicações mágicas pela **racionalidade técnica**; o risco é a \"**jaula de ferro**\" da burocracia.\n\n### Estratificação\nAlém da classe (econômica), considera **status** (prestígio) e **partido** (poder).",
+      "revisao": "**Lembre:**\n- Ação social: orientada pelo outro e com sentido.\n- Ações: fins, valores, afetiva, tradicional.\n- Tipo ideal: modelo para comparação.\n- Dominação: tradicional, carismática, racional-legal.\n- Ética protestante influenciou o capitalismo."
+    },
+    {
+      "id": "conceitos",
+      "nome": "Cultura, socialização e estratificação",
+      "resumo": "### Socialização\nProcesso pelo qual o indivíduo **aprende** normas, valores e comportamentos da sociedade.\n- **Primária**: na infância, principalmente na **família**.\n- **Secundária**: escola, trabalho, grupos de amigos, mídia, religião.\n\n### Cultura\nTudo o que é **aprendido e transmitido** socialmente: crenças, valores, técnicas, costumes, linguagem.\n- **Etnocentrismo**: julgar outras culturas a partir da própria, considerando-a superior.\n- **Relativismo cultural**: compreender cada cultura em seus próprios termos.\n- **Indústria cultural** (Adorno e Horkheimer, Escola de Frankfurt): produção de cultura como **mercadoria** padronizada para o consumo de massa.\n\n### Estratificação e desigualdade\n- **Castas**: posição fixa por nascimento, sem mobilidade (Índia tradicional).\n- **Estamentos**: sociedade feudal; posição ligada à honra e à tradição; pouca mobilidade.\n- **Classes**: sociedade capitalista; definidas principalmente pela posição econômica; mobilidade **possível**, mas limitada.\n- **Mobilidade social**: vertical (subir ou descer) ou horizontal; intergeracional (entre gerações).\n\n### Pierre Bourdieu\n- **Capital econômico, cultural** (diplomas, gosto, conhecimentos) e **social** (redes de contato).\n- **Habitus**: disposições incorporadas que orientam gostos e práticas, ligadas à origem social.\n- A **escola** tende a **reproduzir** as desigualdades ao valorizar o capital cultural das classes dominantes.\n- **Violência simbólica**: dominação imposta de forma sutil e aceita como natural.\n\n### Desigualdades no Brasil\nMarcadas por **classe, raça e gênero**; heranças da escravidão e da concentração de terra e renda (índice de **Gini** elevado).",
+      "revisao": "**Lembre:**\n- Socialização primária: família; secundária: escola, trabalho.\n- Etnocentrismo × relativismo cultural.\n- Castas, estamentos e classes.\n- Bourdieu: capital cultural, habitus, violência simbólica.\n- Indústria cultural: cultura como mercadoria."
+    },
+    {
+      "id": "contemporanea",
+      "nome": "Temas contemporâneos e pensamento social brasileiro",
+      "resumo": "### Trabalho\n- **Taylorismo**: divisão de tarefas e controle do tempo.\n- **Fordismo**: linha de montagem, produção em **massa**, padronização.\n- **Toyotismo**: produção **flexível**, \"just in time\", trabalhador multifuncional, terceirização.\n- Hoje: **precarização**, informalidade, trabalho por aplicativos (\"uberização\").\n\n### Modernidade e globalização\n- **Zygmunt Bauman**: **modernidade líquida** — relações, empregos e identidades frágeis e passageiros.\n- **Anthony Giddens**: modernidade reflexiva; globalização como intensificação das relações em escala mundial.\n- **Ulrich Beck**: **sociedade de risco**.\n- **Michel Foucault**: poder disciplinar, presente em escolas, prisões, hospitais (vigilância, panóptico).\n\n### Movimentos sociais e cidadania\n- **T. H. Marshall**: cidadania como conquista de direitos **civis**, **políticos** e **sociais**.\n- Movimentos sociais: trabalhistas, feministas, negro, LGBT+, ambientais, pela terra (MST).\n\n### Pensamento social brasileiro\n- **Gilberto Freyre** (*Casa-Grande & Senzala*, 1933): miscigenação e relações entre senhores e escravizados; criticado por difundir o **mito da democracia racial**.\n- **Sérgio Buarque de Holanda** (*Raízes do Brasil*, 1936): o \"**homem cordial**\", que age pela emoção e pelas relações pessoais, misturando o público e o privado (patrimonialismo).\n- **Caio Prado Júnior**: formação econômica colonial voltada à exportação.\n- **Florestan Fernandes**: a integração do negro na sociedade de classes; denunciou o racismo e o mito da democracia racial.\n- **Darcy Ribeiro** (*O Povo Brasileiro*): formação a partir de matrizes indígena, africana e europeia.\n\n### Raça e racismo\nRaça como **construção social** (não biológica). **Racismo estrutural**: desigualdade reproduzida pelas instituições, além das atitudes individuais.",
+      "revisao": "**Lembre:**\n- Fordismo: massa; toyotismo: flexível.\n- Bauman: modernidade líquida.\n- Marshall: direitos civis, políticos e sociais.\n- Freyre: miscigenação; Sérgio Buarque: homem cordial.\n- Florestan: crítica ao mito da democracia racial."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "sociologia-1",
+      "topico": "origens",
+      "nivel": "conceitual",
+      "pergunta": "Em que contexto histórico surgiu a sociologia?",
+      "opcoes": [
+        "Nas transformações da Revolução Industrial e da Revolução Francesa, no século XIX",
+        "Na Grécia antiga",
+        "Na Idade Média feudal",
+        "Após a Segunda Guerra Mundial"
+      ],
+      "correta": 0,
+      "explicacao": "As mudanças rápidas e os problemas urbanos e operários pediam uma ciência que explicasse a sociedade."
+    },
+    {
+      "id": "sociologia-2",
+      "topico": "origens",
+      "nivel": "conceitual",
+      "pergunta": "Quem criou o termo \"sociologia\" e o positivismo?",
+      "opcoes": [
+        "Karl Marx",
+        "Auguste Comte",
+        "Max Weber",
+        "Gilberto Freyre"
+      ],
+      "correta": 1,
+      "explicacao": "Comte defendia estudar a sociedade com os métodos das ciências naturais."
+    },
+    {
+      "id": "sociologia-3",
+      "topico": "origens",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a lei dos três estados de Comte, o último estágio do pensamento humano é o:",
+      "opcoes": [
+        "Teológico",
+        "Metafísico",
+        "Positivo (científico)",
+        "Mitológico"
+      ],
+      "correta": 2,
+      "explicacao": "Do teológico ao metafísico e, por fim, ao positivo, baseado na observação e na ciência."
+    },
+    {
+      "id": "sociologia-4",
+      "topico": "origens",
+      "nivel": "aplicacao",
+      "pergunta": "O lema da bandeira brasileira, \"Ordem e Progresso\", tem origem em qual corrente de pensamento?",
+      "opcoes": [
+        "Marxismo",
+        "Liberalismo clássico",
+        "Anarquismo",
+        "Positivismo"
+      ],
+      "correta": 3,
+      "explicacao": "Os positivistas tiveram forte influência entre os militares e intelectuais que proclamaram a República em 1889."
+    },
+    {
+      "id": "sociologia-5",
+      "topico": "origens",
+      "nivel": "analise",
+      "pergunta": "Uma pessoa perde o emprego e se culpa. Como a imaginação sociológica ajudaria a analisar o caso?",
+      "opcoes": [
+        "Relacionando o problema pessoal a fatores estruturais, como crises econômicas e mudanças no mercado de trabalho",
+        "Atribuindo tudo à falta de esforço individual",
+        "Ignorando o contexto social",
+        "Explicando só pela psicologia da pessoa"
+      ],
+      "correta": 0,
+      "explicacao": "Wright Mills propõe ligar biografias individuais à história e à estrutura da sociedade."
+    },
+    {
+      "id": "sociologia-6",
+      "topico": "durkheim",
+      "nivel": "conceitual",
+      "pergunta": "Quais são as características do fato social segundo Durkheim?",
+      "opcoes": [
+        "Individualidade, liberdade e sentido",
+        "Coercitividade, exterioridade e generalidade",
+        "Luta de classes, mais-valia e alienação",
+        "Carisma, tradição e burocracia"
+      ],
+      "correta": 1,
+      "explicacao": "O fato social se impõe ao indivíduo, existe fora dele e é coletivo."
+    },
+    {
+      "id": "sociologia-7",
+      "topico": "durkheim",
+      "nivel": "conceitual",
+      "pergunta": "A solidariedade orgânica, típica das sociedades modernas, baseia-se:",
+      "opcoes": [
+        "Na semelhança entre todos os membros",
+        "Na força militar",
+        "Na interdependência criada pela divisão do trabalho",
+        "Na religião única obrigatória"
+      ],
+      "correta": 2,
+      "explicacao": "Como órgãos de um corpo, cada pessoa depende das funções exercidas pelas outras."
+    },
+    {
+      "id": "sociologia-8",
+      "topico": "durkheim",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de anomia em Durkheim se refere a:",
+      "opcoes": [
+        "Excesso de leis",
+        "Luta entre classes sociais",
+        "Ação guiada pela emoção",
+        "Enfraquecimento ou ausência de normas que regulam a vida social"
+      ],
+      "correta": 3,
+      "explicacao": "Em crises e mudanças rápidas, as regras perdem força e as pessoas ficam desorientadas."
+    },
+    {
+      "id": "sociologia-9",
+      "topico": "durkheim",
+      "nivel": "aplicacao",
+      "pergunta": "Um aluno que vai à escola de pijama sofre risos e advertência. Que característica do fato social isso ilustra?",
+      "opcoes": [
+        "Coercitividade",
+        "Exterioridade apenas",
+        "Ação racional com relação a fins",
+        "Mais-valia"
+      ],
+      "correta": 0,
+      "explicacao": "A sociedade pressiona, com sanções formais ou informais, quem foge das normas."
+    },
+    {
+      "id": "sociologia-10",
+      "topico": "durkheim",
+      "nivel": "analise",
+      "pergunta": "Por que o estudo de Durkheim sobre o suicídio foi importante para a sociologia?",
+      "opcoes": [
+        "Provou que o suicídio é só genético",
+        "Mostrou que até um ato aparentemente individual tem causas sociais mensuráveis",
+        "Mostrou que a sociedade não influencia o indivíduo",
+        "Criou o conceito de mais-valia"
+      ],
+      "correta": 1,
+      "explicacao": "As taxas variavam conforme a integração e a regulação dos grupos, o que justificava uma ciência própria do social."
+    },
+    {
+      "id": "sociologia-11",
+      "topico": "marx",
+      "nivel": "conceitual",
+      "pergunta": "Para Marx, o motor da história é:",
+      "opcoes": [
+        "O progresso das ideias religiosas",
+        "A ação de grandes líderes carismáticos",
+        "A luta de classes",
+        "A solidariedade mecânica"
+      ],
+      "correta": 2,
+      "explicacao": "As classes têm interesses opostos ligados à posição na produção, o que gera conflito e transformação."
+    },
+    {
+      "id": "sociologia-12",
+      "topico": "marx",
+      "nivel": "conceitual",
+      "pergunta": "O que é mais-valia?",
+      "opcoes": [
+        "O lucro do comércio internacional",
+        "O imposto pago ao Estado",
+        "O valor sentimental de um objeto",
+        "O valor produzido pelo trabalhador além do que recebe de salário, apropriado pelo capitalista"
+      ],
+      "correta": 3,
+      "explicacao": "É a base da exploração no capitalismo; pode crescer com jornadas maiores ou maior produtividade."
+    },
+    {
+      "id": "sociologia-13",
+      "topico": "marx",
+      "nivel": "conceitual",
+      "pergunta": "A alienação do trabalho, em Marx, significa que:",
+      "opcoes": [
+        "O trabalhador não se reconhece no produto nem controla o processo do seu trabalho",
+        "O trabalhador é dono dos meios de produção",
+        "O trabalho é escolhido livremente por prazer",
+        "As normas sociais desaparecem"
+      ],
+      "correta": 0,
+      "explicacao": "Na fábrica, o operário faz uma pequena parte do produto, que pertence a outro."
+    },
+    {
+      "id": "sociologia-14",
+      "topico": "marx",
+      "nivel": "aplicacao",
+      "pergunta": "Uma propaganda diz que \"quem se esforça sempre enriquece\", escondendo as desigualdades de origem. No vocabulário marxista, isso é:",
+      "opcoes": [
+        "Solidariedade orgânica",
+        "Ideologia",
+        "Tipo ideal",
+        "Anomia"
+      ],
+      "correta": 1,
+      "explicacao": "Ideias que apresentam a ordem existente como natural e justa, ocultando as contradições de classe."
+    },
+    {
+      "id": "sociologia-15",
+      "topico": "marx",
+      "nivel": "analise",
+      "pergunta": "Na visão de Marx, qual é a relação entre infraestrutura e superestrutura?",
+      "opcoes": [
+        "As ideias religiosas determinam totalmente a economia",
+        "Não há relação entre elas",
+        "A base econômica condiciona as instituições, leis e ideias da sociedade",
+        "A superestrutura é a forma de produzir bens"
+      ],
+      "correta": 2,
+      "explicacao": "Leis e ideologias tendem a refletir e legitimar as relações de produção dominantes."
+    },
+    {
+      "id": "sociologia-16",
+      "topico": "weber",
+      "nivel": "conceitual",
+      "pergunta": "Para Weber, a ação social é:",
+      "opcoes": [
+        "Um fato que se impõe ao indivíduo de fora",
+        "A luta entre burguesia e proletariado",
+        "Qualquer comportamento automático",
+        "Uma ação dotada de sentido e orientada pelo comportamento de outros"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso a sociologia de Weber é chamada de compreensiva: busca entender os motivos de quem age."
+    },
+    {
+      "id": "sociologia-17",
+      "topico": "weber",
+      "nivel": "conceitual",
+      "pergunta": "A burocracia é a forma típica de qual tipo de dominação?",
+      "opcoes": [
+        "Racional-legal",
+        "Tradicional",
+        "Carismática",
+        "Patriarcal"
+      ],
+      "correta": 0,
+      "explicacao": "Baseia-se em regras impessoais, hierarquia e competência técnica."
+    },
+    {
+      "id": "sociologia-18",
+      "topico": "weber",
+      "nivel": "conceitual",
+      "pergunta": "O que é o tipo ideal em Weber?",
+      "opcoes": [
+        "A sociedade perfeita a ser alcançada",
+        "Um modelo construído pelo pesquisador para comparar com a realidade",
+        "Um líder carismático",
+        "Uma lei natural da sociedade"
+      ],
+      "correta": 1,
+      "explicacao": "Não é um ideal moral; é uma ferramenta de análise que acentua traços típicos."
+    },
+    {
+      "id": "sociologia-19",
+      "topico": "weber",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa recusa um suborno por honestidade, mesmo sabendo que perderá dinheiro. Que tipo de ação é?",
+      "opcoes": [
+        "Racional com relação a fins",
+        "Afetiva",
+        "Racional com relação a valores",
+        "Tradicional"
+      ],
+      "correta": 2,
+      "explicacao": "Ela age guiada por uma convicção, sem calcular os resultados."
+    },
+    {
+      "id": "sociologia-20",
+      "topico": "weber",
+      "nivel": "analise",
+      "pergunta": "Qual foi o argumento central de \"A ética protestante e o espírito do capitalismo\"?",
+      "opcoes": [
+        "O capitalismo surgiu só por causa das máquinas",
+        "A religião não tem nenhuma influência sobre a economia",
+        "O protestantismo condenava o trabalho",
+        "Valores religiosos como disciplina, trabalho e poupança favoreceram a mentalidade capitalista"
+      ],
+      "correta": 3,
+      "explicacao": "Weber mostra que ideias e valores também moldam a economia, numa perspectiva diferente da de Marx."
+    },
+    {
+      "id": "sociologia-21",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O etnocentrismo consiste em:",
+      "opcoes": [
+        "Julgar outras culturas a partir da própria, considerando-a superior",
+        "Respeitar todas as culturas em seus próprios termos",
+        "Estudar a cultura de forma científica",
+        "Defender a mistura de culturas"
+      ],
+      "correta": 0,
+      "explicacao": "O relativismo cultural é a atitude oposta: compreender cada cultura em seu contexto."
+    },
+    {
+      "id": "sociologia-22",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "A socialização primária ocorre principalmente:",
+      "opcoes": [
+        "No trabalho, na vida adulta",
+        "Na família, durante a infância",
+        "Na universidade",
+        "Nos partidos políticos"
+      ],
+      "correta": 1,
+      "explicacao": "Escola, trabalho, mídia e grupos de amigos são agentes da socialização secundária."
+    },
+    {
+      "id": "sociologia-23",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual tipo de estratificação permite, em princípio, mobilidade social?",
+      "opcoes": [
+        "Castas",
+        "Estamentos",
+        "Classes sociais",
+        "Nenhum deles"
+      ],
+      "correta": 2,
+      "explicacao": "Nas castas a posição é fixa pelo nascimento; nos estamentos a mobilidade é muito restrita."
+    },
+    {
+      "id": "sociologia-24",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Filhos de famílias com muitos livros e acesso a museus costumam ir melhor na escola. Que conceito de Bourdieu explica isso?",
+      "opcoes": [
+        "Mais-valia",
+        "Solidariedade mecânica",
+        "Dominação carismática",
+        "Capital cultural"
+      ],
+      "correta": 3,
+      "explicacao": "A escola valoriza conhecimentos e gostos que essas crianças já trazem de casa, reproduzindo desigualdades."
+    },
+    {
+      "id": "sociologia-25",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "O que a Escola de Frankfurt critica com o conceito de indústria cultural?",
+      "opcoes": [
+        "A transformação da cultura em mercadoria padronizada que favorece o conformismo",
+        "A falta de cinema no século XX",
+        "O excesso de cultura popular tradicional",
+        "A educação pública"
+      ],
+      "correta": 0,
+      "explicacao": "Adorno e Horkheimer viam na produção em massa de filmes, músicas e programas uma forma de controle e padronização."
+    },
+    {
+      "id": "sociologia-26",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de \"modernidade líquida\" é de:",
+      "opcoes": [
+        "Émile Durkheim",
+        "Zygmunt Bauman",
+        "Auguste Comte",
+        "Florestan Fernandes"
+      ],
+      "correta": 1,
+      "explicacao": "Descreve relações, empregos e identidades cada vez mais frágeis e passageiros."
+    },
+    {
+      "id": "sociologia-27",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "O \"homem cordial\", que mistura relações pessoais e assuntos públicos, é conceito de:",
+      "opcoes": [
+        "Gilberto Freyre",
+        "Darcy Ribeiro",
+        "Sérgio Buarque de Holanda",
+        "Caio Prado Júnior"
+      ],
+      "correta": 2,
+      "explicacao": "Em Raízes do Brasil, cordial vem de coração: agir pela emoção, não pela impessoalidade da lei."
+    },
+    {
+      "id": "sociologia-28",
+      "topico": "contemporanea",
+      "nivel": "conceitual",
+      "pergunta": "O modelo de produção flexível, \"just in time\", com trabalhadores multifuncionais, é o:",
+      "opcoes": [
+        "Fordismo",
+        "Taylorismo clássico",
+        "Feudalismo",
+        "Toyotismo"
+      ],
+      "correta": 3,
+      "explicacao": "O fordismo se baseava na produção em massa e padronizada em linha de montagem."
+    },
+    {
+      "id": "sociologia-29",
+      "topico": "contemporanea",
+      "nivel": "aplicacao",
+      "pergunta": "Motoristas de aplicativo sem vínculo empregatício nem direitos trabalhistas exemplificam qual tendência?",
+      "opcoes": [
+        "Precarização do trabalho (uberização)",
+        "Solidariedade mecânica",
+        "Dominação tradicional",
+        "Fordismo clássico"
+      ],
+      "correta": 0,
+      "explicacao": "O trabalhador assume custos e riscos e perde proteções conquistadas no século XX."
+    },
+    {
+      "id": "sociologia-30",
+      "topico": "contemporanea",
+      "nivel": "analise",
+      "pergunta": "Por que Florestan Fernandes criticou a ideia de \"democracia racial\" no Brasil?",
+      "opcoes": [
+        "Porque defendia a superioridade europeia",
+        "Mostrou que a abolição não integrou os negros e que o racismo persistia, apesar do discurso de harmonia",
+        "Porque achava que não houve escravidão",
+        "Porque considerava a raça um fato biológico"
+      ],
+      "correta": 1,
+      "explicacao": "Seus estudos revelaram desigualdades profundas mantidas após 1888, contrariando a imagem de convivência sem preconceito."
+    }
+  ]
+}
