@@ -1,0 +1,465 @@
+{
+  "id": "calculo-3",
+  "nome": "Cálculo III",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "varias-variaveis",
+      "nome": "Funções de várias variáveis",
+      "resumo": "### Definição\nUma função de duas variáveis associa a cada ponto (x, y) de um **domínio** D ⊂ ℝ² um número **z = f(x, y)**. O gráfico é uma **superfície** no espaço.\n- Domínio: pontos onde a expressão faz sentido. Para f(x, y) = √(9 − x² − y²), o domínio é o **disco** x² + y² ≤ 9.\n\n### Curvas de nível\n- São as curvas **f(x, y) = k** no plano xy (como as linhas de altitude de um mapa topográfico).\n- Curvas de nível **próximas** indicam que a função varia **rapidamente** (terreno íngreme).\n- Para f(x, y) = x² + y², as curvas de nível são **circunferências** centradas na origem; o gráfico é um **paraboloide**.\n- Em três variáveis, f(x, y, z) = k define **superfícies de nível**.\n\n### Superfícies quádricas (exemplos)\n- **Paraboloide**: z = x² + y².\n- **Cone**: z² = x² + y².\n- **Esfera**: x² + y² + z² = r².\n- **Elipsoide**, **hiperboloides** e **cilindros** (uma variável ausente, como x² + y² = 1 no espaço).\n\n### Limites e continuidade\n- **lim (x,y)→(a,b) f(x, y) = L** se f se aproxima de L por **qualquer caminho**.\n- Para mostrar que um limite **não existe**, basta achar **dois caminhos** com limites diferentes.\n  - Em f(x, y) = xy/(x² + y²) na origem: pelo eixo x (y = 0), o limite é 0; pela reta y = x, é 1/2. Logo, **não existe**.\n- Polinômios e funções racionais (fora dos zeros do denominador) são **contínuos**.",
+      "revisao": "**Lembre:**\n- z = f(x, y): gráfico é superfície.\n- Curva de nível: f(x, y) = k; curvas próximas = variação rápida.\n- x² + y²: curvas de nível circulares (paraboloide).\n- Limite não existe se dois caminhos dão valores diferentes."
+    },
+    {
+      "id": "parciais",
+      "nome": "Derivadas parciais e diferenciabilidade",
+      "resumo": "### Derivadas parciais\n- **∂f/∂x**: deriva em relação a x, tratando **y como constante**.\n- **∂f/∂y**: deriva em relação a y, tratando **x como constante**.\n- Exemplo: f(x, y) = x²y + 3y³ → ∂f/∂x = **2xy**; ∂f/∂y = **x² + 9y²**.\n- Interpretação: taxa de variação de f na direção de cada eixo; inclinação da superfície cortada por um plano paralelo ao eixo.\n\n### Derivadas de segunda ordem\n- f_xx, f_yy e as **mistas** f_xy e f_yx.\n- **Teorema de Schwarz (Clairaut)**: se as derivadas segundas são contínuas, **f_xy = f_yx**.\n\n### Plano tangente e diferencial\n- Plano tangente à superfície z = f(x, y) no ponto (a, b): **z = f(a,b) + f_x(a,b)(x − a) + f_y(a,b)(y − b)**.\n- **Diferencial total**: **dz = f_x dx + f_y dy**; usada para estimar variações e propagação de erros.\n\n### Regra da cadeia\nSe z = f(x, y), com x = x(t) e y = y(t):\n**dz/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt)**.\n\n### Derivação implícita\nPara F(x, y) = 0: **dy/dx = −F_x / F_y**.\n\n### Diferenciabilidade\nTer derivadas parciais **não garante** diferenciabilidade (nem continuidade). Se as parciais existem e são **contínuas** perto do ponto, a função é diferenciável ali.",
+      "revisao": "**Lembre:**\n- ∂f/∂x: y constante; ∂f/∂y: x constante.\n- Schwarz: f_xy = f_yx (derivadas contínuas).\n- Plano tangente: z = f + f_x Δx + f_y Δy.\n- dz = f_x dx + f_y dy.\n- Implícita: dy/dx = −F_x/F_y."
+    },
+    {
+      "id": "gradiente",
+      "nome": "Gradiente e derivada direcional",
+      "resumo": "### Vetor gradiente\n**∇f = (∂f/∂x, ∂f/∂y)** (ou com ∂f/∂z em três variáveis).\n- Exemplo: f(x, y) = x² + y² → ∇f = (2x, 2y); no ponto (1, 2), **∇f = (2, 4)**.\n\n### Derivada direcional\nTaxa de variação de f na direção de um vetor **unitário** u:\n**D_u f = ∇f · u**.\n- Se o vetor dado não é unitário, é preciso **normalizá-lo** (dividir pelo módulo).\n- Exemplo: em (1, 2), na direção de v = (3, 4), u = (3/5, 4/5): D_u f = 2·3/5 + 4·4/5 = 6/5 + 16/5 = **22/5**.\n\n### Propriedades do gradiente\n- Aponta na direção de **maior crescimento** de f.\n- O valor máximo da derivada direcional é **|∇f|**.\n- Na direção **oposta** (−∇f), a função **decresce** mais rapidamente (base do método de **descida do gradiente**, usado em otimização e aprendizado de máquina).\n- É **perpendicular** às **curvas de nível** (e às superfícies de nível em 3D).\n- Nas direções **tangentes** à curva de nível, a derivada direcional é **zero**.\n\n### Plano tangente a superfícies de nível\nPara F(x, y, z) = k, o vetor **∇F** no ponto é **normal** à superfície. Plano tangente: F_x(x − x₀) + F_y(y − y₀) + F_z(z − z₀) = 0.",
+      "revisao": "**Lembre:**\n- ∇f = (f_x, f_y).\n- D_u f = ∇f · u, com u unitário.\n- ∇f aponta para o maior crescimento; máximo = |∇f|.\n- −∇f: maior decrescimento.\n- ∇f é perpendicular às curvas de nível."
+    },
+    {
+      "id": "otimizacao",
+      "nome": "Máximos, mínimos e multiplicadores de Lagrange",
+      "resumo": "### Pontos críticos\nOnde **∇f = 0** (f_x = 0 e f_y = 0) ou onde alguma parcial não existe.\n\n### Teste da segunda derivada\nCalcule o **determinante hessiano**: **D = f_xx·f_yy − (f_xy)²** no ponto crítico.\n- **D > 0 e f_xx > 0**: **mínimo local**.\n- **D > 0 e f_xx < 0**: **máximo local**.\n- **D < 0**: **ponto de sela** (sobe numa direção e desce em outra, como uma sela de cavalo).\n- **D = 0**: o teste é **inconclusivo**.\n- Exemplo: f = x² + y² em (0, 0): f_xx = 2, f_yy = 2, f_xy = 0 → D = 4 > 0, f_xx > 0: **mínimo**.\n- Exemplo: f = x² − y² em (0, 0): D = (2)(−2) − 0 = −4 < 0: **sela**.\n\n### Máximos e mínimos absolutos\nNuma região **fechada e limitada**, uma função contínua atinge máximo e mínimo absolutos (teorema de Weierstrass). Procure nos **pontos críticos internos** e na **fronteira**, e compare os valores.\n\n### Multiplicadores de Lagrange\nPara otimizar f(x, y) **sujeita a uma restrição** g(x, y) = k:\n**∇f = λ ∇g** e **g(x, y) = k**.\n- Geometricamente, no ótimo a curva de nível de f **tangencia** a restrição (os gradientes são paralelos).\n- Exemplo: maximizar f = xy com x + y = 10. ∇f = (y, x) = λ(1, 1) → x = y = 5: **máximo 25**.\n- O multiplicador **λ** mede quanto o valor ótimo muda se a restrição for relaxada (em economia, o \"preço sombra\").",
+      "revisao": "**Lembre:**\n- Pontos críticos: ∇f = 0.\n- D = f_xx f_yy − f_xy².\n- D > 0 e f_xx > 0: mínimo; D > 0 e f_xx < 0: máximo; D < 0: sela.\n- Lagrange: ∇f = λ∇g com g = k.\n- Região fechada: comparar críticos e fronteira."
+    },
+    {
+      "id": "integrais-multiplas",
+      "nome": "Integrais duplas e triplas",
+      "resumo": "### Integral dupla\n**∬_R f(x, y) dA** soma f sobre uma região R do plano. Se f ≥ 0, é o **volume** sob a superfície.\n- **Teorema de Fubini**: sobre um retângulo, pode-se integrar em qualquer **ordem**:\n  ∫ₐᵇ ∫_c^d f(x, y) dy dx = ∫_c^d ∫ₐᵇ f(x, y) dx dy.\n- Com f = 1, a integral dá a **área** da região.\n- **Regiões gerais**: os limites internos dependem da variável externa. Para a região entre y = x² e y = x, com x de 0 a 1: ∫₀¹ ∫_{x²}^{x} f dy dx.\n- Às vezes **inverter a ordem** torna a integral possível (∫∫ e^(y²) com limites adequados).\n\n### Coordenadas polares\nx = r cos θ, y = r sen θ e **dA = r dr dθ** (não esquecer o **r**!).\n- Ideais para círculos e setores. Área do círculo de raio a: ∫₀^{2π} ∫₀^a r dr dθ = **πa²**.\n- A integral de Gauss ∫ e^(−x²) dx = √π sai por coordenadas polares.\n\n### Integral tripla\n**∭_E f(x, y, z) dV**. Com f = 1, dá o **volume** de E; com f = densidade, a **massa**.\n- **Cilíndricas**: x = r cos θ, y = r sen θ, z = z; **dV = r dz dr dθ**.\n- **Esféricas**: x = ρ sen φ cos θ, y = ρ sen φ sen θ, z = ρ cos φ; **dV = ρ² sen φ dρ dφ dθ**.\n- Volume da esfera de raio a em esféricas: ∫₀^{2π} ∫₀^π ∫₀^a ρ² sen φ dρ dφ dθ = **(4/3)πa³**.\n\n### Mudança de variáveis\nEm geral, dA = **|J|** du dv, em que J é o **jacobiano** da transformação. Em polares, |J| = r.\n\n### Aplicações\nÁrea, volume, massa, **centro de massa** e **momento de inércia**.",
+      "revisao": "**Lembre:**\n- Fubini: em retângulos, a ordem não importa.\n- Polares: dA = r dr dθ.\n- Cilíndricas: dV = r dz dr dθ.\n- Esféricas: dV = ρ² sen φ dρ dφ dθ.\n- Jacobiano corrige áreas na mudança de variáveis."
+    },
+    {
+      "id": "vetorial",
+      "nome": "Cálculo vetorial",
+      "resumo": "### Campos vetoriais\nAssociam um **vetor** a cada ponto: F(x, y) = (P, Q). Exemplos: campo de velocidades de um fluido, campo gravitacional, campo elétrico.\n\n### Divergente e rotacional\n- **Divergente**: div F = ∇·F = ∂P/∂x + ∂Q/∂y + ∂R/∂z. Mede a tendência de o campo **sair** (fonte, div > 0) ou **entrar** (sumidouro, div < 0) num ponto.\n- **Rotacional**: rot F = ∇×F. Mede a tendência de **giro**. Se rot F = 0, o campo é **irrotacional**.\n\n### Integral de linha\n- **∫_C F·dr**: o **trabalho** realizado por um campo de forças ao longo da curva C.\n- **Campo conservativo**: F = ∇f para alguma **função potencial** f. Então:\n  - **∫_C F·dr = f(B) − f(A)** (só depende das pontas, **não do caminho**): teorema fundamental das integrais de linha;\n  - a integral em **qualquer curva fechada** é **zero**;\n  - em regiões simplesmente conexas, F = (P, Q) é conservativo se **∂Q/∂x = ∂P/∂y** (rotacional nulo).\n- A gravidade e a força elétrica estática são conservativas; o atrito não é.\n\n### Grandes teoremas\n- **Green** (no plano): ∮_C (P dx + Q dy) = ∬_D (∂Q/∂x − ∂P/∂y) dA. Liga a integral numa curva fechada à integral dupla na região interna. Área: (1/2)∮(x dy − y dx).\n- **Stokes**: a circulação de F na borda de uma superfície é igual ao **fluxo do rotacional** através dela.\n- **Divergência (Gauss)**: o **fluxo** de F para fora de uma superfície fechada é igual à integral do **divergente** no volume interno. Base da lei de Gauss do eletromagnetismo.\n\nTodos generalizam a ideia do Teorema Fundamental do Cálculo: a integral de uma \"derivada\" numa região depende só da **fronteira**.",
+      "revisao": "**Lembre:**\n- div: fonte ou sumidouro; rot: giro.\n- Conservativo: F = ∇f; integral depende só das pontas; zero em curva fechada.\n- Teste no plano: ∂Q/∂x = ∂P/∂y.\n- Green: curva fechada ↔ integral dupla.\n- Gauss: fluxo ↔ integral do divergente."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "calculo-3-1",
+      "topico": "varias-variaveis",
+      "nivel": "conceitual",
+      "pergunta": "O que são as curvas de nível de uma função f(x, y)?",
+      "opcoes": [
+        "As curvas do plano em que f(x, y) assume um valor constante k",
+        "As retas tangentes ao gráfico",
+        "Os pontos onde f não está definida",
+        "As derivadas parciais de f"
+      ],
+      "correta": 0,
+      "explicacao": "Como num mapa topográfico, cada curva liga pontos de mesma altitude."
+    },
+    {
+      "id": "calculo-3-2",
+      "topico": "varias-variaveis",
+      "nivel": "conceitual",
+      "pergunta": "As curvas de nível de f(x, y) = x² + y² são:",
+      "opcoes": [
+        "Retas paralelas",
+        "Circunferências centradas na origem",
+        "Parábolas",
+        "Hipérboles"
+      ],
+      "correta": 1,
+      "explicacao": "x² + y² = k é uma circunferência de raio √k; o gráfico é um paraboloide."
+    },
+    {
+      "id": "calculo-3-3",
+      "topico": "varias-variaveis",
+      "nivel": "conceitual",
+      "pergunta": "Como se mostra que um limite de duas variáveis não existe?",
+      "opcoes": [
+        "Mostrando que a função é um polinômio",
+        "Calculando o limite só pelo eixo x",
+        "Encontrando dois caminhos até o ponto com limites diferentes",
+        "Derivando a função"
+      ],
+      "correta": 2,
+      "explicacao": "O limite precisa ser o mesmo por qualquer caminho de aproximação."
+    },
+    {
+      "id": "calculo-3-4",
+      "topico": "varias-variaveis",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o domínio de f(x, y) = √(16 − x² − y²)?",
+      "opcoes": [
+        "Todo o plano",
+        "A circunferência x² + y² = 16 apenas",
+        "A região x² + y² > 16",
+        "O disco x² + y² ≤ 16"
+      ],
+      "correta": 3,
+      "explicacao": "A expressão sob a raiz deve ser maior ou igual a zero: x² + y² ≤ 16."
+    },
+    {
+      "id": "calculo-3-5",
+      "topico": "varias-variaveis",
+      "nivel": "analise",
+      "pergunta": "Num mapa de curvas de nível de uma montanha, as curvas estão muito próximas numa encosta e afastadas em outra. O que isso indica?",
+      "opcoes": [
+        "A encosta com curvas próximas é mais íngreme",
+        "As duas encostas têm a mesma inclinação",
+        "A encosta com curvas afastadas é mais íngreme",
+        "Curvas próximas indicam o topo"
+      ],
+      "correta": 0,
+      "explicacao": "Curvas próximas mostram grande variação de altitude em pouca distância horizontal."
+    },
+    {
+      "id": "calculo-3-6",
+      "topico": "parciais",
+      "nivel": "conceitual",
+      "pergunta": "Ao calcular ∂f/∂x, o que se faz com a variável y?",
+      "opcoes": [
+        "Deriva-se y também",
+        "Trata-se y como constante",
+        "Substitui-se y por zero",
+        "Ignora-se f"
+      ],
+      "correta": 1,
+      "explicacao": "Cada derivada parcial varia apenas uma variável por vez."
+    },
+    {
+      "id": "calculo-3-7",
+      "topico": "parciais",
+      "nivel": "conceitual",
+      "pergunta": "O teorema de Schwarz (Clairaut) afirma que, se as derivadas segundas forem contínuas:",
+      "opcoes": [
+        "f_xx = f_yy",
+        "f_x = f_y",
+        "f_xy = f_yx",
+        "f_xy = 0"
+      ],
+      "correta": 2,
+      "explicacao": "A ordem de derivação nas derivadas mistas não altera o resultado."
+    },
+    {
+      "id": "calculo-3-8",
+      "topico": "parciais",
+      "nivel": "conceitual",
+      "pergunta": "A diferencial total de z = f(x, y) é:",
+      "opcoes": [
+        "dz = f_x · f_y",
+        "dz = f_xx + f_yy",
+        "dz = dx + dy",
+        "dz = f_x dx + f_y dy"
+      ],
+      "correta": 3,
+      "explicacao": "Ela aproxima a variação de z quando x e y variam pouco."
+    },
+    {
+      "id": "calculo-3-9",
+      "topico": "parciais",
+      "nivel": "aplicacao",
+      "pergunta": "Para f(x, y) = x³y² + 4xy, quanto vale ∂f/∂y?",
+      "opcoes": [
+        "2x³y + 4x",
+        "3x²y² + 4y",
+        "x³y² + 4x",
+        "6x²y + 4"
+      ],
+      "correta": 0,
+      "explicacao": "Com x constante: a derivada de x³y² em y é 2x³y, e a de 4xy é 4x."
+    },
+    {
+      "id": "calculo-3-10",
+      "topico": "parciais",
+      "nivel": "analise",
+      "pergunta": "O volume de um cilindro é V = πr²h. Com r = 2 cm e h = 5 cm, um erro de 0,1 cm em r e de 0,1 cm em h gera um erro aproximado de quanto em V?",
+      "opcoes": [
+        "0,2π cm³",
+        "2,4π cm³",
+        "4π cm³",
+        "π cm³"
+      ],
+      "correta": 1,
+      "explicacao": "dV = 2πrh dr + πr² dh = 2π·2·5·0,1 + π·4·0,1 = 2π + 0,4π = 2,4π cm³."
+    },
+    {
+      "id": "calculo-3-11",
+      "topico": "gradiente",
+      "nivel": "conceitual",
+      "pergunta": "O vetor gradiente de f aponta na direção de:",
+      "opcoes": [
+        "Maior decrescimento de f",
+        "Valor constante de f",
+        "Maior crescimento de f",
+        "O eixo x sempre"
+      ],
+      "correta": 2,
+      "explicacao": "O módulo |∇f| é a maior taxa de variação; −∇f dá a maior descida."
+    },
+    {
+      "id": "calculo-3-12",
+      "topico": "gradiente",
+      "nivel": "conceitual",
+      "pergunta": "Em relação às curvas de nível de f, o gradiente é:",
+      "opcoes": [
+        "Tangente a elas",
+        "Paralelo ao eixo y",
+        "Sempre nulo",
+        "Perpendicular a elas"
+      ],
+      "correta": 3,
+      "explicacao": "Ao longo da curva de nível f não muda, então a variação está toda na direção normal."
+    },
+    {
+      "id": "calculo-3-13",
+      "topico": "gradiente",
+      "nivel": "conceitual",
+      "pergunta": "Para calcular a derivada direcional D_u f = ∇f · u, o vetor u precisa ser:",
+      "opcoes": [
+        "Unitário",
+        "Nulo",
+        "Paralelo ao eixo x",
+        "Igual ao gradiente"
+      ],
+      "correta": 0,
+      "explicacao": "Se o vetor dado não for unitário, divide-se pelo seu módulo antes."
+    },
+    {
+      "id": "calculo-3-14",
+      "topico": "gradiente",
+      "nivel": "aplicacao",
+      "pergunta": "Para f(x, y) = x² + 3y, qual é o gradiente no ponto (2, 1)?",
+      "opcoes": [
+        "(2, 3)",
+        "(4, 3)",
+        "(4, 1)",
+        "(7, 0)"
+      ],
+      "correta": 1,
+      "explicacao": "As parciais são f_x = 2x e f_y = 3, então ∇f = (2x, 3); no ponto (2, 1), o gradiente é (4, 3)."
+    },
+    {
+      "id": "calculo-3-15",
+      "topico": "gradiente",
+      "nivel": "analise",
+      "pergunta": "A temperatura numa placa é T(x, y), com ∇T = (3, 4) num ponto. Qual é a maior taxa de aumento de temperatura possível a partir dali e em que direção?",
+      "opcoes": [
+        "7, na direção (1, 1)",
+        "5, na direção (−3, −4)",
+        "5, na direção (3, 4)",
+        "12, na direção (4, 3)"
+      ],
+      "correta": 2,
+      "explicacao": "A maior taxa é |∇T| = √(9 + 16) = 5, na direção do próprio gradiente."
+    },
+    {
+      "id": "calculo-3-16",
+      "topico": "otimizacao",
+      "nivel": "conceitual",
+      "pergunta": "No teste da segunda derivada, se D < 0 no ponto crítico, ele é:",
+      "opcoes": [
+        "Um mínimo local",
+        "Um máximo local",
+        "Inconclusivo",
+        "Um ponto de sela"
+      ],
+      "correta": 3,
+      "explicacao": "D < 0 indica que a função sobe em uma direção e desce em outra."
+    },
+    {
+      "id": "calculo-3-17",
+      "topico": "otimizacao",
+      "nivel": "conceitual",
+      "pergunta": "O método dos multiplicadores de Lagrange serve para:",
+      "opcoes": [
+        "Otimizar uma função sujeita a uma restrição",
+        "Calcular integrais triplas",
+        "Achar curvas de nível",
+        "Inverter a ordem de integração"
+      ],
+      "correta": 0,
+      "explicacao": "No ótimo, ∇f = λ∇g: as curvas de nível de f tangenciam a restrição."
+    },
+    {
+      "id": "calculo-3-18",
+      "topico": "otimizacao",
+      "nivel": "conceitual",
+      "pergunta": "Para achar o máximo absoluto de uma função contínua numa região fechada e limitada, é preciso:",
+      "opcoes": [
+        "Olhar só os pontos críticos",
+        "Comparar os valores nos pontos críticos internos e na fronteira",
+        "Olhar só os vértices",
+        "Calcular apenas o gradiente na origem"
+      ],
+      "correta": 1,
+      "explicacao": "O extremo absoluto pode estar no interior ou na borda da região."
+    },
+    {
+      "id": "calculo-3-19",
+      "topico": "otimizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Classifique o ponto crítico (0, 0) de f(x, y) = x² + 3y².",
+      "opcoes": [
+        "Máximo local",
+        "Ponto de sela",
+        "Mínimo local",
+        "Não é ponto crítico"
+      ],
+      "correta": 2,
+      "explicacao": "f_xx = 2, f_yy = 6, f_xy = 0: D = 12 > 0 e f_xx > 0, logo mínimo."
+    },
+    {
+      "id": "calculo-3-20",
+      "topico": "otimizacao",
+      "nivel": "analise",
+      "pergunta": "Quer-se construir um retângulo de perímetro 40 m com a maior área possível. Usando Lagrange, quais são as dimensões?",
+      "opcoes": [
+        "5 m por 15 m",
+        "20 m por 0 m",
+        "8 m por 12 m",
+        "10 m por 10 m"
+      ],
+      "correta": 3,
+      "explicacao": "Maximizar xy com 2x + 2y = 40: (y, x) = λ(2, 2) → x = y = 10. Área máxima de 100 m²."
+    },
+    {
+      "id": "calculo-3-21",
+      "topico": "integrais-multiplas",
+      "nivel": "conceitual",
+      "pergunta": "Em coordenadas polares, o elemento de área dA vale:",
+      "opcoes": [
+        "r dr dθ",
+        "dr dθ",
+        "r² dr dθ",
+        "sen θ dr dθ"
+      ],
+      "correta": 0,
+      "explicacao": "Esquecer o fator r é um dos erros mais comuns."
+    },
+    {
+      "id": "calculo-3-22",
+      "topico": "integrais-multiplas",
+      "nivel": "conceitual",
+      "pergunta": "O teorema de Fubini garante que, sobre um retângulo:",
+      "opcoes": [
+        "A integral é sempre zero",
+        "A integral dupla pode ser calculada em qualquer ordem de integração",
+        "Só se pode integrar primeiro em x",
+        "A área é igual ao perímetro"
+      ],
+      "correta": 1,
+      "explicacao": "Em regiões gerais, ao trocar a ordem é preciso refazer os limites."
+    },
+    {
+      "id": "calculo-3-23",
+      "topico": "integrais-multiplas",
+      "nivel": "conceitual",
+      "pergunta": "Em coordenadas esféricas, o elemento de volume é:",
+      "opcoes": [
+        "ρ dρ dφ dθ",
+        "r dz dr dθ",
+        "ρ² sen φ dρ dφ dθ",
+        "dρ dφ dθ"
+      ],
+      "correta": 2,
+      "explicacao": "r dz dr dθ é o elemento em coordenadas cilíndricas."
+    },
+    {
+      "id": "calculo-3-24",
+      "topico": "integrais-multiplas",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale ∫₀² ∫₀³ (x·y) dy dx?",
+      "opcoes": [
+        "6",
+        "18",
+        "36",
+        "9"
+      ],
+      "correta": 3,
+      "explicacao": "Integral interna: x·y²/2 de 0 a 3 = 4,5x. Externa: ∫₀² 4,5x dx = 4,5·2 = 9."
+    },
+    {
+      "id": "calculo-3-25",
+      "topico": "integrais-multiplas",
+      "nivel": "analise",
+      "pergunta": "Por que é vantajoso usar coordenadas polares para calcular ∬ e^(−(x² + y²)) dA sobre um disco?",
+      "opcoes": [
+        "Porque x² + y² vira r² e o fator r de dA permite integrar e^(−r²)·r por substituição",
+        "Porque em polares a função vira constante",
+        "Porque polares eliminam o domínio",
+        "Não há vantagem nenhuma"
+      ],
+      "correta": 0,
+      "explicacao": "Em cartesianas, e^(−x²) não tem primitiva elementar; em polares, ∫ r e^(−r²) dr é imediata."
+    },
+    {
+      "id": "calculo-3-26",
+      "topico": "vetorial",
+      "nivel": "conceitual",
+      "pergunta": "Se F é um campo conservativo (F = ∇f), a integral de linha ∫_C F·dr:",
+      "opcoes": [
+        "Depende do caminho escolhido",
+        "Depende só dos pontos inicial e final",
+        "É sempre infinita",
+        "Só existe em curvas retas"
+      ],
+      "correta": 1,
+      "explicacao": "Vale ∫_C F·dr = f(B) − f(A); em curva fechada, dá zero."
+    },
+    {
+      "id": "calculo-3-27",
+      "topico": "vetorial",
+      "nivel": "conceitual",
+      "pergunta": "O teorema de Green relaciona:",
+      "opcoes": [
+        "O gradiente ao laplaciano",
+        "A derivada parcial à derivada direcional",
+        "A integral de linha numa curva fechada à integral dupla na região que ela limita",
+        "Coordenadas polares e esféricas"
+      ],
+      "correta": 2,
+      "explicacao": "∮(P dx + Q dy) = ∬(∂Q/∂x − ∂P/∂y) dA. É a versão no plano dos teoremas de Stokes e da divergência."
+    },
+    {
+      "id": "calculo-3-28",
+      "topico": "vetorial",
+      "nivel": "conceitual",
+      "pergunta": "Um divergente positivo num ponto indica que ali o campo se comporta como:",
+      "opcoes": [
+        "Um sumidouro, para onde o fluxo entra",
+        "Um vórtice puro",
+        "Um campo nulo",
+        "Uma fonte, de onde o fluxo sai"
+      ],
+      "correta": 3,
+      "explicacao": "O rotacional mede o giro; o divergente mede saída ou entrada de fluxo."
+    },
+    {
+      "id": "calculo-3-29",
+      "topico": "vetorial",
+      "nivel": "aplicacao",
+      "pergunta": "O campo F(x, y) = (2xy, x²) é conservativo? Qual é uma função potencial?",
+      "opcoes": [
+        "Sim; f(x, y) = x²y",
+        "Não, pois ∂Q/∂x ≠ ∂P/∂y",
+        "Sim; f(x, y) = 2xy + x²",
+        "Sim; f(x, y) = xy²"
+      ],
+      "correta": 0,
+      "explicacao": "∂Q/∂x = 2x = ∂P/∂y. E ∇(x²y) = (2xy, x²)."
+    },
+    {
+      "id": "calculo-3-30",
+      "topico": "vetorial",
+      "nivel": "analise",
+      "pergunta": "Um objeto percorre uma volta completa numa curva fechada sob a força gravitacional. Qual é o trabalho total da gravidade e por quê?",
+      "opcoes": [
+        "Positivo, porque a gravidade sempre puxa",
+        "Zero, porque a gravidade é conservativa",
+        "Negativo, porque há atrito",
+        "Depende do comprimento da curva"
+      ],
+      "correta": 1,
+      "explicacao": "Em campos conservativos, a integral em qualquer curva fechada é nula; com atrito (não conservativo), seria diferente."
+    }
+  ]
+}

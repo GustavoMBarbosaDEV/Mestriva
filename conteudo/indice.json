@@ -378,6 +378,84 @@
       ]
     },
     {
+      "id": "calculo-2",
+      "nome": "Cálculo II",
+      "apelidos": [
+        "Cálculo Diferencial e Integral II",
+        "Cálculo B",
+        "Cálculo II A",
+        "Cálculo Integral",
+        "Técnicas de Integração",
+        "Séries e Sequências"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "substituicao-partes",
+          "nome": "Integração por substituição e por partes"
+        },
+        {
+          "id": "tecnicas",
+          "nome": "Frações parciais e integrais trigonométricas"
+        },
+        {
+          "id": "aplicacoes",
+          "nome": "Aplicações da integral definida"
+        },
+        {
+          "id": "improprias",
+          "nome": "Integrais impróprias e regra de L'Hôpital"
+        },
+        {
+          "id": "sequencias",
+          "nome": "Sequências e séries numéricas"
+        },
+        {
+          "id": "potencias",
+          "nome": "Séries de potências e de Taylor"
+        }
+      ]
+    },
+    {
+      "id": "calculo-3",
+      "nome": "Cálculo III",
+      "apelidos": [
+        "Cálculo Diferencial e Integral III",
+        "Cálculo C",
+        "Cálculo de Várias Variáveis",
+        "Cálculo Vetorial",
+        "Funções de Várias Variáveis",
+        "Cálculo Multivariável"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "varias-variaveis",
+          "nome": "Funções de várias variáveis"
+        },
+        {
+          "id": "parciais",
+          "nome": "Derivadas parciais e diferenciabilidade"
+        },
+        {
+          "id": "gradiente",
+          "nome": "Gradiente e derivada direcional"
+        },
+        {
+          "id": "otimizacao",
+          "nome": "Máximos, mínimos e multiplicadores de Lagrange"
+        },
+        {
+          "id": "integrais-multiplas",
+          "nome": "Integrais duplas e triplas"
+        },
+        {
+          "id": "vetorial",
+          "nome": "Cálculo vetorial"
+        }
+      ]
+    },
+    {
       "id": "contabilidade-custos",
       "nome": "Contabilidade de Custos",
       "apelidos": [
@@ -826,6 +904,45 @@
       ]
     },
     {
+      "id": "equacoes-diferenciais",
+      "nome": "Equações Diferenciais Ordinárias",
+      "apelidos": [
+        "Equações Diferenciais",
+        "EDO",
+        "Equações Diferenciais I",
+        "Cálculo IV",
+        "Cálculo Diferencial e Integral IV",
+        "Introdução às Equações Diferenciais"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos e classificação"
+        },
+        {
+          "id": "separaveis",
+          "nome": "Equações de primeira ordem: separáveis e exatas"
+        },
+        {
+          "id": "lineares-1",
+          "nome": "Equações lineares de primeira ordem"
+        },
+        {
+          "id": "lineares-2",
+          "nome": "Equações lineares de segunda ordem homogêneas"
+        },
+        {
+          "id": "nao-homogeneas",
+          "nome": "Equações não homogêneas e ressonância"
+        },
+        {
+          "id": "laplace",
+          "nome": "Transformada de Laplace e sistemas"
+        }
+      ]
+    },
+    {
       "id": "estatistica",
       "nome": "Estatística",
       "apelidos": [
@@ -1156,6 +1273,45 @@
         {
           "id": "populacoes-biotecnologia",
           "nome": "Genética de populações e biotecnologia"
+        }
+      ]
+    },
+    {
+      "id": "geometria-analitica",
+      "nome": "Geometria Analítica",
+      "apelidos": [
+        "Geometria Analítica I",
+        "Geometria Analítica e Vetores",
+        "Vetores e Geometria Analítica",
+        "Cálculo Vetorial e Geometria Analítica",
+        "Geometria Analítica Plana",
+        "Álgebra Vetorial"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "vetores",
+          "nome": "Vetores no plano e no espaço"
+        },
+        {
+          "id": "produtos",
+          "nome": "Produto escalar, vetorial e misto"
+        },
+        {
+          "id": "retas",
+          "nome": "Retas"
+        },
+        {
+          "id": "planos",
+          "nome": "Planos e distâncias"
+        },
+        {
+          "id": "conicas",
+          "nome": "Cônicas: circunferência, elipse, hipérbole e parábola"
+        },
+        {
+          "id": "quadricas",
+          "nome": "Coordenadas e superfícies quádricas"
         }
       ]
     },

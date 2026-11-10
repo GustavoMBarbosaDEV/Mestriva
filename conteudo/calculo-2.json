@@ -1,0 +1,465 @@
+{
+  "id": "calculo-2",
+  "nome": "Cálculo II",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "substituicao-partes",
+      "nome": "Integração por substituição e por partes",
+      "resumo": "### Substituição (mudança de variável)\nDesfaz a **regra da cadeia**. Se a integral tem a forma **∫ f(g(x))·g'(x) dx**, faz-se **u = g(x)**, **du = g'(x) dx**:\n**∫ f(g(x))·g'(x) dx = ∫ f(u) du**.\n- Exemplo: ∫ 2x·cos(x²) dx. Com u = x², du = 2x dx: ∫ cos u du = sen u + C = **sen(x²) + C**.\n- Exemplo: ∫ x/(x² + 1) dx. Com u = x² + 1, du = 2x dx: (1/2)∫ du/u = **(1/2) ln(x² + 1) + C**.\n- Em integrais **definidas**, troque também os **limites** de integração (ou volte a x antes de aplicar os limites).\n\n### Integração por partes\nDesfaz a **regra do produto**:\n**∫ u dv = u·v − ∫ v du**.\n- Escolha de u: a regra **LIATE** sugere a ordem de preferência: **L**ogarítmicas, **I**nversas trigonométricas, **A**lgébricas (polinômios), **T**rigonométricas, **E**xponenciais.\n- Exemplo: ∫ x·eˣ dx. Com u = x (algébrica) e dv = eˣ dx: du = dx, v = eˣ. Resultado: x·eˣ − ∫ eˣ dx = **eˣ(x − 1) + C**.\n- Exemplo: ∫ ln x dx. Com u = ln x, dv = dx: x·ln x − ∫ x·(1/x) dx = **x ln x − x + C**.\n- Às vezes é preciso aplicar partes **duas vezes** (∫ x² eˣ dx) ou a integral **reaparece** e se resolve como equação (∫ eˣ sen x dx).\n\n### Tabela básica (lembrar)\n- ∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C, para n ≠ −1.\n- ∫ 1/x dx = ln|x| + C.\n- ∫ eˣ dx = eˣ + C.\n- ∫ sen x dx = −cos x + C; ∫ cos x dx = sen x + C.\n- ∫ sec² x dx = tg x + C.\n- ∫ 1/(1 + x²) dx = arctg x + C.",
+      "revisao": "**Lembre:**\n- Substituição desfaz a regra da cadeia: u = g(x), du = g'(x) dx.\n- Partes: ∫ u dv = uv − ∫ v du.\n- LIATE para escolher u.\n- Integral definida: trocar os limites junto com a variável."
+    },
+    {
+      "id": "tecnicas",
+      "nome": "Frações parciais e integrais trigonométricas",
+      "resumo": "### Frações parciais\nPara integrar **funções racionais** P(x)/Q(x) com grau de P **menor** que o de Q (se não for, faça antes a divisão de polinômios).\n- **Fatores lineares distintos**: (x − a)(x − b) → A/(x − a) + B/(x − b).\n- **Fatores repetidos**: (x − a)² → A/(x − a) + B/(x − a)².\n- **Fator quadrático irredutível** (x² + 1) → (Ax + B)/(x² + 1).\n- Exemplo: ∫ 1/(x² − 1) dx = ∫ [ (1/2)/(x − 1) − (1/2)/(x + 1) ] dx = **(1/2) ln|(x − 1)/(x + 1)| + C**.\n\n### Integrais trigonométricas\n- **Potência ímpar** de seno ou cosseno: separe um fator e use sen² + cos² = 1. ∫ sen³x dx: escreva sen³x = (1 − cos²x)·sen x e faça u = cos x.\n- **Potências pares**: use as fórmulas do **ângulo metade**: sen²x = (1 − cos 2x)/2 e cos²x = (1 + cos 2x)/2. ∫ sen²x dx = **x/2 − sen(2x)/4 + C**.\n\n### Substituição trigonométrica\nPara radicais:\n- **√(a² − x²)**: x = a·sen θ.\n- **√(a² + x²)**: x = a·tg θ.\n- **√(x² − a²)**: x = a·sec θ.\nExemplo: a área de um círculo de raio r sai de ∫ √(r² − x²) dx com x = r sen θ, dando **πr²**.\n\n### Estratégia geral\n1. Simplificar o integrando.\n2. Procurar uma **substituição** óbvia.\n3. Classificar: racional (frações parciais), produto (partes), trigonométrica, radical (substituição trigonométrica).\n4. Conferir derivando o resultado.",
+      "revisao": "**Lembre:**\n- Frações parciais: grau de P menor que o de Q.\n- Fator repetido gera termos A/(x−a) e B/(x−a)².\n- Potência par: ângulo metade; ímpar: separar um fator.\n- √(a²−x²): x = a sen θ; √(a²+x²): x = a tg θ.\n- Confira derivando."
+    },
+    {
+      "id": "aplicacoes",
+      "nome": "Aplicações da integral definida",
+      "resumo": "### Teorema Fundamental do Cálculo\nSe F' = f, então **∫ₐᵇ f(x) dx = F(b) − F(a)**.\n\n### Área entre curvas\n**A = ∫ₐᵇ [f(x) − g(x)] dx**, em que f é a curva de **cima** e g a de **baixo** no intervalo. Os limites costumam ser os **pontos de interseção**.\n- Exemplo: área entre y = x e y = x² de 0 a 1: ∫₀¹ (x − x²) dx = 1/2 − 1/3 = **1/6**.\n\n### Volume de sólidos de revolução\n- **Discos**: girando y = f(x) em torno do eixo x: **V = π ∫ₐᵇ [f(x)]² dx**.\n- **Arruelas** (anéis): **V = π ∫ₐᵇ ([R(x)]² − [r(x)]²) dx**, raio externo R e interno r.\n- **Cascas cilíndricas**: girando em torno do eixo y: **V = 2π ∫ₐᵇ x·f(x) dx**.\n- Exemplo: girar y = √x, de 0 a 4, em torno do eixo x: π ∫₀⁴ x dx = π·8 = **8π**.\n\n### Outras aplicações\n- **Valor médio** de f em [a, b]: **f̄ = (1/(b − a)) ∫ₐᵇ f(x) dx**.\n- **Comprimento de arco**: **L = ∫ₐᵇ √(1 + [f'(x)]²) dx**.\n- **Trabalho** de uma força variável: **W = ∫ₐᵇ F(x) dx** (mola: F = kx, W = kx²/2).\n- **Deslocamento**: integral da velocidade; **distância percorrida**: integral do **módulo** da velocidade.\n- **Centro de massa**, pressão de fluidos, excedente do consumidor.",
+      "revisao": "**Lembre:**\n- Área entre curvas: ∫ (cima − baixo).\n- Discos: π ∫ f²; arruelas: π ∫ (R² − r²); cascas: 2π ∫ x f(x).\n- Valor médio: (1/(b−a)) ∫ f.\n- Comprimento: ∫ √(1 + f'²).\n- Trabalho: ∫ F(x) dx."
+    },
+    {
+      "id": "improprias",
+      "nome": "Integrais impróprias e regra de L'Hôpital",
+      "resumo": "### Regra de L'Hôpital\nPara limites indeterminados do tipo **0/0** ou **∞/∞**:\n**lim f(x)/g(x) = lim f'(x)/g'(x)** (se o segundo limite existir).\n- lim (x→0) sen x / x: 0/0 → cos x / 1 → **1**.\n- lim (x→∞) x / eˣ: ∞/∞ → 1/eˣ → **0** (a exponencial cresce mais rápido que qualquer polinômio).\n- Outras formas (0·∞, ∞ − ∞, 1^∞, 0⁰, ∞⁰) devem ser **reescritas** como quociente ou com logaritmo antes de aplicar.\n- **Não** se deriva o quociente: derivam-se **numerador e denominador separadamente**.\n\n### Integrais impróprias\n**Tipo 1** (intervalo infinito): ∫ₐ^∞ f(x) dx = lim (t→∞) ∫ₐᵗ f(x) dx.\n**Tipo 2** (integrando ilimitado num ponto): por exemplo ∫₀¹ 1/√x dx = lim (t→0⁺) ∫ₜ¹ x^(−1/2) dx.\n- A integral **converge** se o limite existe e é finito; caso contrário, **diverge**.\n\n### O teste p\n- **∫₁^∞ 1/xᵖ dx** converge se **p > 1** e diverge se **p ≤ 1**.\n  - ∫₁^∞ 1/x² dx = **1** (converge).\n  - ∫₁^∞ 1/x dx = lim ln t = ∞ (**diverge**).\n- **∫₀¹ 1/xᵖ dx** converge se **p < 1** (por isso ∫₀¹ 1/√x dx = 2 converge).\n\n### Comparação\nSe 0 ≤ f(x) ≤ g(x) e ∫ g converge, então ∫ f converge; se ∫ f diverge, ∫ g diverge.\n\n### Exemplo importante\n∫₀^∞ e^(−x) dx = lim (1 − e^(−t)) = **1**.",
+      "revisao": "**Lembre:**\n- L'Hôpital: só para 0/0 ou ∞/∞; derivar em separado.\n- Imprópria: limite de integral definida.\n- ∫₁^∞ 1/xᵖ: converge se p > 1.\n- ∫₀¹ 1/xᵖ: converge se p < 1.\n- ∫₀^∞ e^(−x) dx = 1."
+    },
+    {
+      "id": "sequencias",
+      "nome": "Sequências e séries numéricas",
+      "resumo": "### Sequências\nLista infinita (aₙ). **Converge** se lim aₙ existe e é finito.\n- aₙ = 1/n → 0 (converge). aₙ = (−1)ⁿ oscila (diverge). aₙ = (1 + 1/n)ⁿ → **e**.\n\n### Séries\n**Σ aₙ** é a soma infinita; converge se a sequência das **somas parciais** converge.\n- **Série geométrica**: Σ a·rⁿ (n de 0 a ∞) converge se **|r| < 1**, com soma **a/(1 − r)**. Diverge se |r| ≥ 1.\n  - 1 + 1/2 + 1/4 + ... = 1/(1 − 1/2) = **2**.\n- **Série harmônica**: Σ 1/n **diverge** (embora os termos tendam a zero).\n- **Série p**: Σ 1/nᵖ converge se **p > 1**.\n- **Série telescópica**: os termos se cancelam (Σ [1/n − 1/(n + 1)] = 1).\n\n### Testes de convergência\n- **Teste do termo geral (da divergência)**: se lim aₙ ≠ 0, a série **diverge**. Se o limite for 0, o teste **nada conclui**.\n- **Comparação** e **comparação no limite** com séries conhecidas.\n- **Teste da integral**: para f positiva e decrescente, Σ f(n) e ∫ f(x) dx convergem ou divergem juntas.\n- **Teste da razão**: L = lim |aₙ₊₁/aₙ|. L < 1: **converge absolutamente**; L > 1: diverge; L = 1: inconclusivo. Bom para fatoriais e exponenciais.\n- **Teste da raiz**: L = lim ⁿ√|aₙ|, mesmas conclusões.\n- **Séries alternadas** (Leibniz): Σ (−1)ⁿ bₙ converge se bₙ decresce e tende a 0. A harmônica alternada 1 − 1/2 + 1/3 − ... converge (para ln 2).\n\n### Convergência absoluta × condicional\n- **Absoluta**: Σ |aₙ| converge (então Σ aₙ também converge).\n- **Condicional**: Σ aₙ converge, mas Σ |aₙ| diverge (harmônica alternada).",
+      "revisao": "**Lembre:**\n- Geométrica: converge se |r| < 1, soma a/(1 − r).\n- Harmônica diverge; série p converge se p > 1.\n- Termo geral não indo a zero → diverge; indo a zero → inconclusivo.\n- Razão: L < 1 converge; L > 1 diverge; L = 1 nada diz.\n- Alternada: bₙ decrescente e → 0."
+    },
+    {
+      "id": "potencias",
+      "nome": "Séries de potências e de Taylor",
+      "resumo": "### Séries de potências\n**Σ cₙ (x − a)ⁿ**. Para cada série existe um **raio de convergência R**:\n- converge (absolutamente) para |x − a| < R;\n- diverge para |x − a| > R;\n- nas extremidades (|x − a| = R) é preciso testar separadamente.\nO raio costuma sair do **teste da razão**.\n- Exemplo: Σ xⁿ/n tem R = 1; em x = 1 vira a harmônica (diverge) e em x = −1, a harmônica alternada (converge). Intervalo: **[−1, 1)**.\n- Dentro do intervalo, a série pode ser **derivada** e **integrada** termo a termo.\n\n### Séries de Taylor e Maclaurin\nUma função com derivadas de todas as ordens em a pode ser representada por:\n**f(x) = Σ f⁽ⁿ⁾(a)/n! · (x − a)ⁿ**.\nQuando **a = 0**, chama-se **série de Maclaurin**.\n\n### Séries importantes (Maclaurin)\n- **eˣ** = 1 + x + x²/2! + x³/3! + ... (vale para todo x).\n- **sen x** = x − x³/3! + x⁵/5! − ... (só potências **ímpares**).\n- **cos x** = 1 − x²/2! + x⁴/4! − ... (só potências **pares**).\n- **1/(1 − x)** = 1 + x + x² + x³ + ... para |x| < 1.\n- **ln(1 + x)** = x − x²/2 + x³/3 − ... para −1 < x ≤ 1.\n\n### Polinômios de Taylor e aproximações\nTruncar a série dá uma **aproximação**: perto de 0, sen x ≈ x (por isso lim sen x / x = 1) e cos x ≈ 1 − x²/2.\n- O **resto de Lagrange** estima o erro: |Rₙ(x)| ≤ M·|x − a|ⁿ⁺¹/(n + 1)!.\n- Aplicações: calculadoras e computadores calculam funções como seno e exponencial por séries; física usa aproximações de pequenos ângulos.",
+      "revisao": "**Lembre:**\n- Raio de convergência pelo teste da razão; extremos testados à parte.\n- Taylor: Σ f⁽ⁿ⁾(a)(x − a)ⁿ/n!; Maclaurin: a = 0.\n- eˣ = Σ xⁿ/n!.\n- sen x: ímpares; cos x: pares.\n- 1/(1 − x) = Σ xⁿ para |x| < 1."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "calculo-2-1",
+      "topico": "substituicao-partes",
+      "nivel": "conceitual",
+      "pergunta": "A integração por substituição corresponde a desfazer qual regra de derivação?",
+      "opcoes": [
+        "Regra da cadeia",
+        "Regra do produto",
+        "Regra do quociente",
+        "Regra da potência"
+      ],
+      "correta": 0,
+      "explicacao": "A integração por partes, por sua vez, desfaz a regra do produto."
+    },
+    {
+      "id": "calculo-2-2",
+      "topico": "substituicao-partes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a fórmula da integração por partes?",
+      "opcoes": [
+        "∫ u dv = u·v + ∫ v du",
+        "∫ u dv = u·v − ∫ v du",
+        "∫ u dv = u'·v'",
+        "∫ u dv = ∫ u du · ∫ v dv"
+      ],
+      "correta": 1,
+      "explicacao": "Ela vem da regra do produto: (uv)' = u'v + uv'."
+    },
+    {
+      "id": "calculo-2-3",
+      "topico": "substituicao-partes",
+      "nivel": "conceitual",
+      "pergunta": "Pela regra LIATE, em ∫ x·ln x dx, qual função deve ser escolhida como u?",
+      "opcoes": [
+        "x",
+        "dx",
+        "ln x",
+        "x·ln x"
+      ],
+      "correta": 2,
+      "explicacao": "Logarítmicas vêm antes das algébricas; com u = ln x, du = dx/x simplifica a nova integral."
+    },
+    {
+      "id": "calculo-2-4",
+      "topico": "substituicao-partes",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale ∫ 2x·e^(x²) dx?",
+      "opcoes": [
+        "2e^(x²) + C",
+        "x²·e^(x²) + C",
+        "e^(x²)/2 + C",
+        "e^(x²) + C"
+      ],
+      "correta": 3,
+      "explicacao": "Com u = x², du = 2x dx: ∫ eᵘ du = eᵘ + C = e^(x²) + C."
+    },
+    {
+      "id": "calculo-2-5",
+      "topico": "substituicao-partes",
+      "nivel": "analise",
+      "pergunta": "Qual é o resultado de ∫ x·cos x dx?",
+      "opcoes": [
+        "x·sen x + cos x + C",
+        "x·sen x − cos x + C",
+        "sen x + C",
+        "x²·sen x / 2 + C"
+      ],
+      "correta": 0,
+      "explicacao": "u = x, dv = cos x dx → du = dx, v = sen x. Resultado: x sen x − ∫ sen x dx = x sen x + cos x + C. Derivando: sen x + x cos x − sen x = x cos x."
+    },
+    {
+      "id": "calculo-2-6",
+      "topico": "tecnicas",
+      "nivel": "conceitual",
+      "pergunta": "Para usar frações parciais diretamente em P(x)/Q(x), o que é preciso?",
+      "opcoes": [
+        "O grau de P deve ser maior que o de Q",
+        "O grau de P deve ser menor que o grau de Q",
+        "Q deve ser um número",
+        "P deve ser zero"
+      ],
+      "correta": 1,
+      "explicacao": "Se o grau de P for maior ou igual, faz-se primeiro a divisão de polinômios."
+    },
+    {
+      "id": "calculo-2-7",
+      "topico": "tecnicas",
+      "nivel": "conceitual",
+      "pergunta": "Para integrar uma expressão com √(4 − x²), qual substituição trigonométrica é indicada?",
+      "opcoes": [
+        "x = 2 tg θ",
+        "x = 2 sec θ",
+        "x = 2 sen θ",
+        "x = sen 2θ"
+      ],
+      "correta": 2,
+      "explicacao": "Com x = 2 sen θ, 4 − x² = 4 cos² θ, e a raiz vira 2 cos θ."
+    },
+    {
+      "id": "calculo-2-8",
+      "topico": "tecnicas",
+      "nivel": "conceitual",
+      "pergunta": "Para integrar sen² x, qual identidade é útil?",
+      "opcoes": [
+        "sen² x = 1 + cos² x",
+        "sen² x = 2 sen x",
+        "sen² x = tg x",
+        "sen² x = (1 − cos 2x)/2"
+      ],
+      "correta": 3,
+      "explicacao": "As fórmulas do ângulo metade baixam a potência par."
+    },
+    {
+      "id": "calculo-2-9",
+      "topico": "tecnicas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a decomposição de 1/((x − 1)(x + 2)) em frações parciais?",
+      "opcoes": [
+        "(1/3)/(x − 1) − (1/3)/(x + 2)",
+        "1/(x − 1) + 1/(x + 2)",
+        "(1/2)/(x − 1) + (1/2)/(x + 2)",
+        "3/(x − 1) − 3/(x + 2)"
+      ],
+      "correta": 0,
+      "explicacao": "1 = A(x + 2) + B(x − 1). Com x = 1: A = 1/3. Com x = −2: B = −1/3."
+    },
+    {
+      "id": "calculo-2-10",
+      "topico": "tecnicas",
+      "nivel": "analise",
+      "pergunta": "Um aluno quer calcular ∫ (x³ + 1)/(x − 1) dx usando frações parciais diretamente. O que está errado?",
+      "opcoes": [
+        "Frações parciais só valem para senos",
+        "O grau do numerador é maior que o do denominador; é preciso dividir os polinômios antes",
+        "O denominador precisaria ter grau 5",
+        "Nada, o método se aplica direto"
+      ],
+      "correta": 1,
+      "explicacao": "Primeiro divide-se: (x³ + 1)/(x − 1) = x² + x + 1 + 2/(x − 1), e só então se integra cada termo."
+    },
+    {
+      "id": "calculo-2-11",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "A área entre duas curvas f (acima) e g (abaixo) em [a, b] é dada por:",
+      "opcoes": [
+        "∫ₐᵇ f(x)·g(x) dx",
+        "∫ₐᵇ [f(x) + g(x)] dx",
+        "∫ₐᵇ [f(x) − g(x)] dx",
+        "[f(b) − g(a)]"
+      ],
+      "correta": 2,
+      "explicacao": "Subtrai-se a curva de baixo da de cima e integra-se no intervalo."
+    },
+    {
+      "id": "calculo-2-12",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "Pelo método dos discos, o volume ao girar y = f(x) em torno do eixo x, de a até b, é:",
+      "opcoes": [
+        "2π ∫ₐᵇ f(x) dx",
+        "∫ₐᵇ f(x) dx",
+        "π ∫ₐᵇ f(x) dx",
+        "π ∫ₐᵇ [f(x)]² dx"
+      ],
+      "correta": 3,
+      "explicacao": "Cada fatia é um disco de raio f(x) e área π f(x)²."
+    },
+    {
+      "id": "calculo-2-13",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "O valor médio de uma função f no intervalo [a, b] é:",
+      "opcoes": [
+        "(1/(b − a)) ∫ₐᵇ f(x) dx",
+        "f(a) + f(b)",
+        "∫ₐᵇ f(x) dx sem dividir",
+        "f((a + b)/2) sempre"
+      ],
+      "correta": 0,
+      "explicacao": "É a altura do retângulo de mesma área que a região sob a curva."
+    },
+    {
+      "id": "calculo-2-14",
+      "topico": "aplicacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a área entre y = x² e y = x, de 0 a 1?",
+      "opcoes": [
+        "1/2",
+        "1/6",
+        "1/3",
+        "5/6"
+      ],
+      "correta": 1,
+      "explicacao": "∫₀¹ (x − x²) dx = 1/2 − 1/3 = 1/6. Nesse intervalo, y = x fica acima."
+    },
+    {
+      "id": "calculo-2-15",
+      "topico": "aplicacoes",
+      "nivel": "analise",
+      "pergunta": "Uma mola segue F = 200x (N, com x em metros). Quanto trabalho é feito para esticá-la de 0 a 0,1 m?",
+      "opcoes": [
+        "20 J",
+        "10 J",
+        "1 J",
+        "0,5 J"
+      ],
+      "correta": 2,
+      "explicacao": "W = ∫₀^0,1 200x dx = 100x² de 0 a 0,1 = 100 × 0,01 = 1 J."
+    },
+    {
+      "id": "calculo-2-16",
+      "topico": "improprias",
+      "nivel": "conceitual",
+      "pergunta": "A regra de L'Hôpital pode ser aplicada diretamente quando o limite tem a forma:",
+      "opcoes": [
+        "1/0",
+        "0 vezes um número finito",
+        "Qualquer forma",
+        "0/0 ou ∞/∞"
+      ],
+      "correta": 3,
+      "explicacao": "Outras indeterminações precisam ser reescritas como quociente antes."
+    },
+    {
+      "id": "calculo-2-17",
+      "topico": "improprias",
+      "nivel": "conceitual",
+      "pergunta": "Para que valores de p a integral ∫₁^∞ 1/xᵖ dx converge?",
+      "opcoes": [
+        "p > 1",
+        "p < 1",
+        "p = 1",
+        "Para todo p"
+      ],
+      "correta": 0,
+      "explicacao": "Com p = 1, a integral vira ln x, que cresce sem limite."
+    },
+    {
+      "id": "calculo-2-18",
+      "topico": "improprias",
+      "nivel": "conceitual",
+      "pergunta": "Uma integral imprópria converge quando:",
+      "opcoes": [
+        "O integrando é sempre positivo",
+        "O limite que a define existe e é finito",
+        "O intervalo é infinito",
+        "A primitiva é um polinômio"
+      ],
+      "correta": 1,
+      "explicacao": "Se o limite for infinito ou não existir, ela diverge."
+    },
+    {
+      "id": "calculo-2-19",
+      "topico": "improprias",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale lim (x→0) (1 − cos x)/x²?",
+      "opcoes": [
+        "0",
+        "1",
+        "1/2",
+        "Não existe"
+      ],
+      "correta": 2,
+      "explicacao": "0/0: L'Hôpital dá sen x/(2x), ainda 0/0; de novo: cos x/2 → 1/2."
+    },
+    {
+      "id": "calculo-2-20",
+      "topico": "improprias",
+      "nivel": "analise",
+      "pergunta": "Por que ∫₁^∞ 1/x dx diverge mesmo com 1/x tendendo a zero?",
+      "opcoes": [
+        "Porque 1/x é negativa",
+        "Porque o intervalo começa em 1",
+        "Na verdade ela converge para 1",
+        "Porque 1/x decresce devagar demais: a primitiva ln x cresce sem limite"
+      ],
+      "correta": 3,
+      "explicacao": "Não basta o integrando tender a zero; ele precisa decrescer rápido o bastante, como 1/x²."
+    },
+    {
+      "id": "calculo-2-21",
+      "topico": "sequencias",
+      "nivel": "conceitual",
+      "pergunta": "A série geométrica Σ rⁿ (n de 0 a ∞) converge quando:",
+      "opcoes": [
+        "|r| < 1",
+        "|r| > 1",
+        "r = 1",
+        "Sempre"
+      ],
+      "correta": 0,
+      "explicacao": "Com |r| < 1, os termos encolhem depressa o bastante e a soma é 1/(1 − r); com |r| ≥ 1, os termos não vão a zero e a série diverge."
+    },
+    {
+      "id": "calculo-2-22",
+      "topico": "sequencias",
+      "nivel": "conceitual",
+      "pergunta": "O que se conclui se lim aₙ = 0 no teste do termo geral?",
+      "opcoes": [
+        "A série converge",
+        "Nada: o teste é inconclusivo",
+        "A série diverge",
+        "A soma é zero"
+      ],
+      "correta": 1,
+      "explicacao": "A série harmônica tem termos que vão a zero e mesmo assim diverge."
+    },
+    {
+      "id": "calculo-2-23",
+      "topico": "sequencias",
+      "nivel": "conceitual",
+      "pergunta": "Uma série que converge, mas cuja série dos módulos diverge, é dita:",
+      "opcoes": [
+        "Absolutamente convergente",
+        "Divergente",
+        "Condicionalmente convergente",
+        "Geométrica"
+      ],
+      "correta": 2,
+      "explicacao": "A série harmônica alternada é o exemplo clássico."
+    },
+    {
+      "id": "calculo-2-24",
+      "topico": "sequencias",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a soma de 3 + 1 + 1/3 + 1/9 + ...?",
+      "opcoes": [
+        "4",
+        "6",
+        "3",
+        "9/2"
+      ],
+      "correta": 3,
+      "explicacao": "Geométrica com a = 3 e r = 1/3: soma = 3/(1 − 1/3) = 3/(2/3) = 9/2."
+    },
+    {
+      "id": "calculo-2-25",
+      "topico": "sequencias",
+      "nivel": "analise",
+      "pergunta": "Pelo teste da razão, a série Σ 2ⁿ/n! converge ou diverge?",
+      "opcoes": [
+        "Converge, pois a razão tende a 0",
+        "Diverge, pois 2ⁿ cresce",
+        "O teste é inconclusivo",
+        "Diverge, pois a razão tende a 2"
+      ],
+      "correta": 0,
+      "explicacao": "aₙ₊₁/aₙ = 2/(n + 1) → 0 < 1. O fatorial cresce mais rápido que a exponencial."
+    },
+    {
+      "id": "calculo-2-26",
+      "topico": "potencias",
+      "nivel": "conceitual",
+      "pergunta": "A série de Maclaurin de eˣ é:",
+      "opcoes": [
+        "Σ xⁿ",
+        "Σ xⁿ/n!",
+        "Σ (−1)ⁿ xⁿ",
+        "Σ n·xⁿ"
+      ],
+      "correta": 1,
+      "explicacao": "eˣ = 1 + x + x²/2! + x³/3! + ..., válida para todo x real."
+    },
+    {
+      "id": "calculo-2-27",
+      "topico": "potencias",
+      "nivel": "conceitual",
+      "pergunta": "A série de Maclaurin de sen x contém apenas:",
+      "opcoes": [
+        "Potências pares de x",
+        "Termos constantes",
+        "Potências ímpares de x",
+        "Potências negativas"
+      ],
+      "correta": 2,
+      "explicacao": "sen x = x − x³/3! + x⁵/5! − ...; o cosseno tem só potências pares."
+    },
+    {
+      "id": "calculo-2-28",
+      "topico": "potencias",
+      "nivel": "conceitual",
+      "pergunta": "Num intervalo de convergência de uma série de potências, o que acontece nas extremidades?",
+      "opcoes": [
+        "A série sempre converge",
+        "A série sempre diverge",
+        "O raio passa a ser zero",
+        "É preciso testar cada uma separadamente"
+      ],
+      "correta": 3,
+      "explicacao": "Na série Σ xⁿ/n, ela diverge em x = 1 e converge em x = −1."
+    },
+    {
+      "id": "calculo-2-29",
+      "topico": "potencias",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é o raio de convergência da série Σ xⁿ/3ⁿ?",
+      "opcoes": [
+        "3",
+        "1",
+        "1/3",
+        "Infinito"
+      ],
+      "correta": 0,
+      "explicacao": "Pela razão: |x|/3 < 1, ou seja, |x| < 3. É uma geométrica de razão x/3."
+    },
+    {
+      "id": "calculo-2-30",
+      "topico": "potencias",
+      "nivel": "analise",
+      "pergunta": "Usando sen x ≈ x − x³/6, qual é uma boa aproximação de sen(0,1)?",
+      "opcoes": [
+        "0,1",
+        "0,099833",
+        "0,095",
+        "0,0999999"
+      ],
+      "correta": 1,
+      "explicacao": "0,1 − 0,001/6 = 0,1 − 0,0001667 ≈ 0,099833. O próximo termo, x⁵/120, é desprezível."
+    }
+  ]
+}

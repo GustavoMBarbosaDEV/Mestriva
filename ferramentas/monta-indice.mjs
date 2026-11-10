@@ -797,6 +797,56 @@ export const EXTRA = {
       "Bases do Cuidado de Enfermagem",
       "Processo de Enfermagem"
     ]
+  },
+  "calculo-2": {
+    "area": "Exatas",
+    "apelidos": [
+      "Cálculo II",
+      "Cálculo 2",
+      "Cálculo Diferencial e Integral II",
+      "Cálculo B",
+      "Cálculo II A",
+      "Cálculo Integral",
+      "Técnicas de Integração",
+      "Séries e Sequências"
+    ]
+  },
+  "calculo-3": {
+    "area": "Exatas",
+    "apelidos": [
+      "Cálculo III",
+      "Cálculo 3",
+      "Cálculo Diferencial e Integral III",
+      "Cálculo C",
+      "Cálculo de Várias Variáveis",
+      "Cálculo Vetorial",
+      "Funções de Várias Variáveis",
+      "Cálculo Multivariável"
+    ]
+  },
+  "equacoes-diferenciais": {
+    "area": "Exatas",
+    "apelidos": [
+      "Equações Diferenciais",
+      "Equações Diferenciais Ordinárias",
+      "EDO",
+      "Equações Diferenciais I",
+      "Cálculo IV",
+      "Cálculo Diferencial e Integral IV",
+      "Introdução às Equações Diferenciais"
+    ]
+  },
+  "geometria-analitica": {
+    "area": "Exatas",
+    "apelidos": [
+      "Geometria Analítica",
+      "Geometria Analítica I",
+      "Geometria Analítica e Vetores",
+      "Vetores e Geometria Analítica",
+      "Cálculo Vetorial e Geometria Analítica",
+      "Geometria Analítica Plana",
+      "Álgebra Vetorial"
+    ]
   }
 };
 

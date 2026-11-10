@@ -1,0 +1,465 @@
+{
+  "id": "geometria-analitica",
+  "nome": "Geometria Analítica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "vetores",
+      "nome": "Vetores no plano e no espaço",
+      "resumo": "### Conceito\nUm **vetor** tem **módulo** (tamanho), **direção** e **sentido**. É representado por um segmento orientado; no espaço, por coordenadas **v = (x, y, z)**.\n- Vetor de A até B: **AB = B − A**.\n- **Módulo**: |v| = √(x² + y² + z²).\n- **Vetor unitário** (versor): u = v/|v|.\n- Versores canônicos: **i = (1, 0, 0)**, **j = (0, 1, 0)**, **k = (0, 0, 1)**.\n\n### Operações\n- **Soma**: coordenada a coordenada (regra do paralelogramo).\n- **Multiplicação por escalar**: k·v multiplica cada coordenada; muda o tamanho e, se k < 0, inverte o sentido.\n- Dois vetores são **paralelos** (colineares) se um é múltiplo do outro: (2, 4, 6) e (1, 2, 3).\n\n### Distância e ponto médio\n- **Distância** entre A e B = |B − A| = √((x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²).\n- **Ponto médio**: M = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2).\n\n### Combinação linear\nv = a·u + b·w. No plano, dois vetores **não paralelos** geram qualquer vetor; no espaço são necessários três vetores **não coplanares** (uma **base**).\n\n### Exemplo\nA = (1, 2, 3) e B = (4, 6, 3): AB = (3, 4, 0), |AB| = **5**, ponto médio = **(2,5; 4; 3)**.",
+      "revisao": "**Lembre:**\n- AB = B − A.\n- |v| = √(x² + y² + z²).\n- Unitário: v/|v|.\n- Paralelos: um é múltiplo do outro.\n- Ponto médio: média das coordenadas."
+    },
+    {
+      "id": "produtos",
+      "nome": "Produto escalar, vetorial e misto",
+      "resumo": "### Produto escalar (interno)\n**u · v = x₁x₂ + y₁y₂ + z₁z₂ = |u|·|v|·cos θ**. O resultado é um **número**.\n- **u · v = 0** ⟺ vetores **ortogonais** (perpendiculares).\n- u · v > 0: ângulo **agudo**; u · v < 0: ângulo **obtuso**.\n- **Ângulo**: cos θ = (u · v)/(|u|·|v|).\n- **Projeção** de u sobre v: proj_v u = ((u · v)/|v|²)·v.\n- Aplicação: **trabalho** = F · d.\n\n### Produto vetorial\n**u × v** é um **vetor**:\n- **perpendicular** a u e a v;\n- de módulo **|u|·|v|·sen θ** = **área do paralelogramo** formado por u e v (o triângulo tem metade);\n- sentido dado pela **regra da mão direita**.\n- Cálculo pelo \"determinante\" com i, j, k na primeira linha.\n- **Não é comutativo**: v × u = −(u × v).\n- u × v = 0 ⟺ u e v **paralelos**.\n- i × j = k, j × k = i, k × i = j.\n- Aplicações: **torque** (r × F), normal a um plano.\n\n### Produto misto\n**[u, v, w] = u · (v × w)** = determinante 3×3 das coordenadas. O resultado é um número.\n- |[u, v, w]| = **volume do paralelepípedo** formado pelos três vetores (o tetraedro tem 1/6 dele).\n- [u, v, w] = 0 ⟺ os vetores são **coplanares**.\n\n### Exemplo\nu = (1, 0, 0) e v = (0, 2, 0): u · v = 0 (ortogonais); u × v = (0, 0, 2), área do paralelogramo = **2**.",
+      "revisao": "**Lembre:**\n- Escalar: número; zero = ortogonais.\n- cos θ = u·v/(|u||v|).\n- Vetorial: vetor perpendicular; módulo = área do paralelogramo.\n- v × u = −(u × v).\n- Misto: volume; zero = coplanares."
+    },
+    {
+      "id": "retas",
+      "nome": "Retas",
+      "resumo": "### No plano\n- **Equação geral**: ax + by + c = 0.\n- **Reduzida**: **y = mx + n**, com **m** = coeficiente angular (inclinação) e **n** = coeficiente linear (corta o eixo y).\n- **m = (y₂ − y₁)/(x₂ − x₁) = tg α**, α = ângulo com o eixo x.\n- Reta por um ponto com inclinação m: **y − y₀ = m(x − x₀)**.\n- **Paralelas**: mesmo m. **Perpendiculares**: **m₁·m₂ = −1**.\n- **Distância de ponto a reta**: d = |a x₀ + b y₀ + c| / √(a² + b²).\n\n### No espaço\nDefinida por um **ponto** P₀ e um **vetor diretor** v = (a, b, c).\n- **Vetorial**: P = P₀ + t·v.\n- **Paramétricas**: x = x₀ + at, y = y₀ + bt, z = z₀ + ct.\n- **Simétricas**: (x − x₀)/a = (y − y₀)/b = (z − z₀)/c.\n\n### Posições relativas de duas retas no espaço\n- **Paralelas**: diretores paralelos e nenhum ponto comum.\n- **Coincidentes**: diretores paralelos e um ponto comum.\n- **Concorrentes**: um ponto comum (coplanares, diretores não paralelos).\n- **Reversas**: **não** coplanares; não se cruzam nem são paralelas (só existem no espaço). Teste: produto misto [v₁, v₂, P₁P₂] ≠ 0.\n\n### Ângulo entre retas\ncos θ = |v₁ · v₂| / (|v₁|·|v₂|).\n\n### Exemplo\nReta por (1, 2) e (3, 6): m = 4/2 = **2**; y − 2 = 2(x − 1) → **y = 2x**. Uma perpendicular a ela tem m = **−1/2**.",
+      "revisao": "**Lembre:**\n- m = Δy/Δx; y − y₀ = m(x − x₀).\n- Paralelas: m iguais; perpendiculares: m₁m₂ = −1.\n- Espaço: P = P₀ + t·v.\n- Reversas: não coplanares (produto misto ≠ 0).\n- Distância ponto-reta: |ax₀ + by₀ + c|/√(a² + b²)."
+    },
+    {
+      "id": "planos",
+      "nome": "Planos e distâncias",
+      "resumo": "### Equação do plano\nUm plano é definido por um ponto P₀ e um **vetor normal n = (a, b, c)**:\n**a(x − x₀) + b(y − y₀) + c(z − z₀) = 0**, ou **ax + by + cz + d = 0**.\n- Os coeficientes de x, y e z são as coordenadas do **vetor normal**.\n- Plano por **três pontos** A, B, C: n = AB × AC.\n- Planos especiais: z = 0 é o plano xy; x = 2 é paralelo ao plano yz.\n\n### Posições relativas\n- **Planos paralelos**: normais paralelas (2x + y − z = 1 e 4x + 2y − 2z = 7).\n- **Perpendiculares**: n₁ · n₂ = 0.\n- Dois planos não paralelos se cortam numa **reta** (com diretor n₁ × n₂).\n- **Reta e plano**: reta **paralela** ao plano se v · n = 0 (e contida nele se ainda tiver um ponto em comum); **perpendicular** ao plano se v é paralelo a n.\n\n### Distâncias\n- **Ponto a plano**: **d = |a x₀ + b y₀ + c z₀ + d| / √(a² + b² + c²)**.\n- **Entre planos paralelos**: distância de um ponto qualquer de um ao outro.\n- **Ponto a reta no espaço**: d = |AP × v| / |v|.\n- **Entre retas reversas**: |[v₁, v₂, P₁P₂]| / |v₁ × v₂|.\n\n### Ângulo entre planos\ncos θ = |n₁ · n₂| / (|n₁|·|n₂|).\n\n### Exemplo\nDistância de (1, 2, 3) ao plano 2x + y + 2z − 4 = 0: |2 + 2 + 6 − 4| / √(4 + 1 + 4) = 6/3 = **2**.",
+      "revisao": "**Lembre:**\n- ax + by + cz + d = 0; normal n = (a, b, c).\n- Três pontos: n = AB × AC.\n- Paralelos: normais paralelas; perpendiculares: n₁·n₂ = 0.\n- Distância ponto-plano: |ax₀ + by₀ + cz₀ + d|/|n|.\n- Reta paralela ao plano: v·n = 0."
+    },
+    {
+      "id": "conicas",
+      "nome": "Cônicas: circunferência, elipse, hipérbole e parábola",
+      "resumo": "Cônicas são curvas obtidas cortando um cone duplo por um plano.\n\n### Circunferência\nPontos a uma distância **r** do centro (h, k): **(x − h)² + (y − k)² = r²**.\n- Na forma geral x² + y² + Dx + Ey + F = 0, **completa-se o quadrado** para achar centro e raio.\n\n### Elipse\nSoma das distâncias aos dois **focos** é constante (= **2a**).\n- Centro na origem e eixo maior horizontal: **x²/a² + y²/b² = 1**, com a > b.\n- **a² = b² + c²** (c = distância do centro ao foco).\n- **Excentricidade e = c/a** (0 < e < 1): quanto mais perto de 0, mais \"redonda\". As órbitas dos planetas são elipses com o Sol num foco.\n\n### Hipérbole\n**Diferença** (em módulo) das distâncias aos focos é constante (= **2a**).\n- **x²/a² − y²/b² = 1** (abre para os lados).\n- **c² = a² + b²**; excentricidade **e = c/a > 1**.\n- **Assíntotas**: y = ±(b/a)x.\n\n### Parábola\nPontos à **mesma distância** de um ponto (**foco**) e de uma reta (**diretriz**).\n- Vértice na origem, eixo vertical: **x² = 4py** (foco em (0, p), diretriz y = −p).\n- Eixo horizontal: **y² = 4px**.\n- Excentricidade **e = 1**.\n- **Propriedade refletora**: raios paralelos ao eixo refletem para o foco (antenas parabólicas, faróis).\n\n### Identificando pela equação Ax² + Cy² + ... = 0 (sem termo xy)\n- A = C: circunferência.\n- A e C com **mesmo sinal**, diferentes: **elipse**.\n- A e C com **sinais opostos**: **hipérbole**.\n- Só um deles diferente de zero: **parábola**.",
+      "revisao": "**Lembre:**\n- Circunferência: (x − h)² + (y − k)² = r².\n- Elipse: soma = 2a; a² = b² + c²; e < 1.\n- Hipérbole: diferença = 2a; c² = a² + b²; e > 1.\n- Parábola: distância ao foco = à diretriz; e = 1.\n- Sinais de x² e y²: iguais → elipse; opostos → hipérbole."
+    },
+    {
+      "id": "quadricas",
+      "nome": "Coordenadas e superfícies quádricas",
+      "resumo": "### Sistemas de coordenadas\n- **Polares** (plano): ponto dado por (r, θ). **x = r cos θ**, **y = r sen θ**; r² = x² + y², tg θ = y/x.\n  - A circunferência x² + y² = 9 vira simplesmente **r = 3**.\n  - Curvas como cardioides (r = 1 + cos θ) e rosáceas (r = cos 2θ) têm equações simples em polares.\n- **Cilíndricas** (espaço): (r, θ, z).\n- **Esféricas**: (ρ, θ, φ), com ρ = distância à origem.\n\n### Translação e rotação de eixos\n- **Translação**: muda a origem para (h, k) e elimina termos de primeiro grau (completar quadrados).\n- **Rotação**: elimina o termo **xy** em Ax² + Bxy + Cy² + ... = 0. O sinal de **B² − 4AC** classifica a cônica: **< 0 elipse**, **= 0 parábola**, **> 0 hipérbole**.\n\n### Superfícies quádricas (equações típicas)\n- **Esfera**: x² + y² + z² = r². Com centro (h, k, l): (x − h)² + (y − k)² + (z − l)² = r².\n- **Elipsoide**: x²/a² + y²/b² + z²/c² = 1.\n- **Paraboloide elíptico**: z = x²/a² + y²/b² (forma de tigela).\n- **Paraboloide hiperbólico**: z = x²/a² − y²/b² (forma de **sela**, ou batata chips).\n- **Cone**: z² = x²/a² + y²/b².\n- **Hiperboloide de uma folha**: x²/a² + y²/b² − z²/c² = 1 (torres de resfriamento).\n- **Hiperboloide de duas folhas**: −x²/a² − y²/b² + z²/c² = 1.\n- **Cilindros**: falta uma variável (x² + y² = 4 é um cilindro circular ao longo do eixo z).\n\n### Como reconhecer\nFaça **cortes** (traços) por planos paralelos aos coordenados (z = k, por exemplo) e veja que cônica aparece em cada corte.",
+      "revisao": "**Lembre:**\n- Polares: x = r cos θ, y = r sen θ.\n- B² − 4AC: < 0 elipse, = 0 parábola, > 0 hipérbole.\n- Paraboloide hiperbólico: sela.\n- Hiperboloide de uma folha: um sinal negativo.\n- Variável ausente: cilindro."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "geometria-analitica-1",
+      "topico": "vetores",
+      "nivel": "conceitual",
+      "pergunta": "Como se obtém o vetor que vai do ponto A ao ponto B?",
+      "opcoes": [
+        "B − A",
+        "A − B",
+        "A + B",
+        "A·B"
+      ],
+      "correta": 0,
+      "explicacao": "As coordenadas do vetor são a diferença entre as do ponto final e as do inicial."
+    },
+    {
+      "id": "geometria-analitica-2",
+      "topico": "vetores",
+      "nivel": "conceitual",
+      "pergunta": "Dois vetores são paralelos quando:",
+      "opcoes": [
+        "Têm o mesmo módulo",
+        "Um é múltiplo escalar do outro",
+        "O produto escalar é zero",
+        "Somam o vetor nulo sempre"
+      ],
+      "correta": 1,
+      "explicacao": "(2, 4, 6) = 2·(1, 2, 3), portanto são paralelos."
+    },
+    {
+      "id": "geometria-analitica-3",
+      "topico": "vetores",
+      "nivel": "conceitual",
+      "pergunta": "O vetor unitário na direção de v é:",
+      "opcoes": [
+        "|v|·v",
+        "v − |v|",
+        "v/|v|",
+        "1/v"
+      ],
+      "correta": 2,
+      "explicacao": "Dividir pelo módulo mantém direção e sentido e deixa o tamanho igual a 1."
+    },
+    {
+      "id": "geometria-analitica-4",
+      "topico": "vetores",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a distância entre A = (1, 1, 1) e B = (3, 3, 2)?",
+      "opcoes": [
+        "9",
+        "√5",
+        "5",
+        "3"
+      ],
+      "correta": 3,
+      "explicacao": "B − A = (2, 2, 1); módulo = √(4 + 4 + 1) = √9 = 3."
+    },
+    {
+      "id": "geometria-analitica-5",
+      "topico": "vetores",
+      "nivel": "analise",
+      "pergunta": "Os pontos A = (1, 2), B = (3, 5) e C = (7, 11) estão alinhados?",
+      "opcoes": [
+        "Sim, pois AB = (2, 3) e AC = (6, 9) são paralelos",
+        "Não, pois as coordenadas são diferentes",
+        "Sim, pois têm a mesma distância à origem",
+        "Não, pois AB e AC são perpendiculares"
+      ],
+      "correta": 0,
+      "explicacao": "AC = 3·AB, então os três pontos estão na mesma reta."
+    },
+    {
+      "id": "geometria-analitica-6",
+      "topico": "produtos",
+      "nivel": "conceitual",
+      "pergunta": "Se o produto escalar de dois vetores não nulos é zero, eles são:",
+      "opcoes": [
+        "Paralelos",
+        "Ortogonais",
+        "Iguais",
+        "Coplanares com mesmo sentido"
+      ],
+      "correta": 1,
+      "explicacao": "u · v = |u||v| cos θ; é zero quando cos θ = 0, ou seja, θ = 90°."
+    },
+    {
+      "id": "geometria-analitica-7",
+      "topico": "produtos",
+      "nivel": "conceitual",
+      "pergunta": "O módulo do produto vetorial u × v representa:",
+      "opcoes": [
+        "O volume do paralelepípedo",
+        "O ângulo entre os vetores",
+        "A área do paralelogramo formado por u e v",
+        "A soma dos módulos"
+      ],
+      "correta": 2,
+      "explicacao": "|u × v| = |u||v| sen θ; o triângulo formado tem metade dessa área."
+    },
+    {
+      "id": "geometria-analitica-8",
+      "topico": "produtos",
+      "nivel": "conceitual",
+      "pergunta": "Se o produto misto de três vetores é zero, eles são:",
+      "opcoes": [
+        "Ortogonais dois a dois",
+        "Unitários",
+        "Todos paralelos ao eixo z",
+        "Coplanares"
+      ],
+      "correta": 3,
+      "explicacao": "O produto misto dá o volume do paralelepípedo; volume zero significa vetores no mesmo plano."
+    },
+    {
+      "id": "geometria-analitica-9",
+      "topico": "produtos",
+      "nivel": "aplicacao",
+      "pergunta": "Quanto vale o produto escalar de u = (2, −1, 3) e v = (1, 4, 2)?",
+      "opcoes": [
+        "4",
+        "13",
+        "−4",
+        "0"
+      ],
+      "correta": 0,
+      "explicacao": "Multiplica-se coordenada por coordenada e soma-se: 2·1 + (−1)·4 + 3·2 = 2 − 4 + 6 = 4. Como deu positivo, o ângulo entre eles é agudo."
+    },
+    {
+      "id": "geometria-analitica-10",
+      "topico": "produtos",
+      "nivel": "analise",
+      "pergunta": "Qual é a área do triângulo de vértices A = (0, 0, 0), B = (2, 0, 0) e C = (0, 3, 0)?",
+      "opcoes": [
+        "6",
+        "3",
+        "5",
+        "1,5"
+      ],
+      "correta": 1,
+      "explicacao": "AB × AC = (2, 0, 0) × (0, 3, 0) = (0, 0, 6); módulo 6. O triângulo tem metade: 3."
+    },
+    {
+      "id": "geometria-analitica-11",
+      "topico": "retas",
+      "nivel": "conceitual",
+      "pergunta": "Duas retas no plano são perpendiculares quando seus coeficientes angulares satisfazem:",
+      "opcoes": [
+        "m₁ = m₂",
+        "m₁ + m₂ = 0",
+        "m₁·m₂ = −1",
+        "m₁·m₂ = 1"
+      ],
+      "correta": 2,
+      "explicacao": "Retas paralelas têm m iguais; perpendiculares, m₁ = −1/m₂."
+    },
+    {
+      "id": "geometria-analitica-12",
+      "topico": "retas",
+      "nivel": "conceitual",
+      "pergunta": "O que são retas reversas?",
+      "opcoes": [
+        "Retas paralelas de sentidos opostos",
+        "Retas que se cruzam em ângulo reto",
+        "Retas coincidentes",
+        "Retas no espaço que não são coplanares: nem se cruzam nem são paralelas"
+      ],
+      "correta": 3,
+      "explicacao": "Só existem no espaço; o produto misto [v₁, v₂, P₁P₂] é diferente de zero."
+    },
+    {
+      "id": "geometria-analitica-13",
+      "topico": "retas",
+      "nivel": "conceitual",
+      "pergunta": "Na forma reduzida y = mx + n, o número n representa:",
+      "opcoes": [
+        "O ponto em que a reta corta o eixo y",
+        "A inclinação da reta",
+        "O ponto em que a reta corta o eixo x",
+        "O ângulo com o eixo y"
+      ],
+      "correta": 0,
+      "explicacao": "m é o coeficiente angular; n, o coeficiente linear."
+    },
+    {
+      "id": "geometria-analitica-14",
+      "topico": "retas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a equação da reta que passa por (1, 3) e (3, 7)?",
+      "opcoes": [
+        "y = 3x",
+        "y = 2x + 1",
+        "y = 2x + 3",
+        "y = x + 2"
+      ],
+      "correta": 1,
+      "explicacao": "m = (7 − 3)/(3 − 1) = 2; y − 3 = 2(x − 1) → y = 2x + 1."
+    },
+    {
+      "id": "geometria-analitica-15",
+      "topico": "retas",
+      "nivel": "analise",
+      "pergunta": "Qual é a distância do ponto (3, 4) à reta 3x + 4y − 5 = 0?",
+      "opcoes": [
+        "5",
+        "25",
+        "4",
+        "2"
+      ],
+      "correta": 2,
+      "explicacao": "d = |3·3 + 4·4 − 5| / √(9 + 16) = |9 + 16 − 5|/5 = 20/5 = 4."
+    },
+    {
+      "id": "geometria-analitica-16",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "No plano 3x − y + 2z = 7, qual é um vetor normal?",
+      "opcoes": [
+        "(7, 0, 0)",
+        "(1, 3, 2)",
+        "(3, 1, 7)",
+        "(3, −1, 2)"
+      ],
+      "correta": 3,
+      "explicacao": "Os coeficientes de x, y e z formam o vetor normal ao plano."
+    },
+    {
+      "id": "geometria-analitica-17",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Dois planos são perpendiculares quando:",
+      "opcoes": [
+        "O produto escalar de seus vetores normais é zero",
+        "Seus vetores normais são paralelos",
+        "Têm o mesmo termo independente",
+        "Passam pela origem"
+      ],
+      "correta": 0,
+      "explicacao": "Se as normais são paralelas, os planos é que são paralelos."
+    },
+    {
+      "id": "geometria-analitica-18",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Para obter um vetor normal ao plano que passa por A, B e C, calcula-se:",
+      "opcoes": [
+        "AB · AC",
+        "AB × AC",
+        "AB + AC",
+        "A + B + C"
+      ],
+      "correta": 1,
+      "explicacao": "O produto vetorial dá um vetor perpendicular aos dois vetores contidos no plano."
+    },
+    {
+      "id": "geometria-analitica-19",
+      "topico": "planos",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a distância do ponto (1, 1, 1) ao plano x + 2y + 2z − 2 = 0?",
+      "opcoes": [
+        "3",
+        "5/3",
+        "1",
+        "√3"
+      ],
+      "correta": 2,
+      "explicacao": "d = |1 + 2 + 2 − 2| / √(1 + 4 + 4) = 3/3 = 1."
+    },
+    {
+      "id": "geometria-analitica-20",
+      "topico": "planos",
+      "nivel": "analise",
+      "pergunta": "A reta x = 1 + 2t, y = t, z = 3 − t é paralela ao plano x − y + z = 5?",
+      "opcoes": [
+        "Não, pois o diretor é paralelo à normal",
+        "Sim, pois passa pela origem",
+        "Não é possível saber",
+        "Sim, pois o diretor (2, 1, −1) é perpendicular à normal (1, −1, 1)"
+      ],
+      "correta": 3,
+      "explicacao": "v · n = 2 − 1 − 1 = 0. Como o ponto (1, 0, 3) dá 1 − 0 + 3 = 4 ≠ 5, a reta é paralela e não está contida no plano."
+    },
+    {
+      "id": "geometria-analitica-21",
+      "topico": "conicas",
+      "nivel": "conceitual",
+      "pergunta": "Na elipse, a soma das distâncias de qualquer ponto aos dois focos é:",
+      "opcoes": [
+        "Constante e igual a 2a",
+        "Igual a zero",
+        "Variável",
+        "Igual à distância focal"
+      ],
+      "correta": 0,
+      "explicacao": "Na hipérbole, é a diferença (em módulo) que é constante."
+    },
+    {
+      "id": "geometria-analitica-22",
+      "topico": "conicas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a excentricidade de uma parábola?",
+      "opcoes": [
+        "0",
+        "1",
+        "Entre 0 e 1",
+        "Maior que 1"
+      ],
+      "correta": 1,
+      "explicacao": "Circunferência tem e = 0; elipse, 0 < e < 1; hipérbole, e > 1."
+    },
+    {
+      "id": "geometria-analitica-23",
+      "topico": "conicas",
+      "nivel": "conceitual",
+      "pergunta": "Uma equação do tipo 4x² − 9y² = 36 representa:",
+      "opcoes": [
+        "Uma elipse",
+        "Uma parábola",
+        "Uma hipérbole",
+        "Uma circunferência"
+      ],
+      "correta": 2,
+      "explicacao": "Coeficientes de x² e y² com sinais opostos indicam hipérbole: x²/9 − y²/4 = 1."
+    },
+    {
+      "id": "geometria-analitica-24",
+      "topico": "conicas",
+      "nivel": "aplicacao",
+      "pergunta": "Quais são o centro e o raio de x² + y² − 6x + 4y − 3 = 0?",
+      "opcoes": [
+        "Centro (−3, 2) e raio 4",
+        "Centro (3, −2) e raio 16",
+        "Centro (6, −4) e raio 3",
+        "Centro (3, −2) e raio 4"
+      ],
+      "correta": 3,
+      "explicacao": "Completando quadrados: (x − 3)² + (y + 2)² = 3 + 9 + 4 = 16, raio 4."
+    },
+    {
+      "id": "geometria-analitica-25",
+      "topico": "conicas",
+      "nivel": "analise",
+      "pergunta": "Na elipse x²/25 + y²/9 = 1, onde estão os focos?",
+      "opcoes": [
+        "Em (±4, 0)",
+        "Em (0, ±4)",
+        "Em (±5, 0)",
+        "Em (±3, 0)"
+      ],
+      "correta": 0,
+      "explicacao": "a = 5, b = 3; c² = a² − b² = 16, c = 4. O eixo maior é horizontal."
+    },
+    {
+      "id": "geometria-analitica-26",
+      "topico": "quadricas",
+      "nivel": "conceitual",
+      "pergunta": "Em coordenadas polares, a circunferência x² + y² = 16 é descrita por:",
+      "opcoes": [
+        "θ = 4",
+        "r = 4",
+        "r = 16",
+        "r = 4θ"
+      ],
+      "correta": 1,
+      "explicacao": "Como r² = x² + y², fica r² = 16, ou r = 4."
+    },
+    {
+      "id": "geometria-analitica-27",
+      "topico": "quadricas",
+      "nivel": "conceitual",
+      "pergunta": "A superfície z = x² − y² é um:",
+      "opcoes": [
+        "Paraboloide elíptico",
+        "Elipsoide",
+        "Paraboloide hiperbólico (sela)",
+        "Cone"
+      ],
+      "correta": 2,
+      "explicacao": "Em uma direção a superfície sobe e na outra desce, formando uma sela."
+    },
+    {
+      "id": "geometria-analitica-28",
+      "topico": "quadricas",
+      "nivel": "conceitual",
+      "pergunta": "No espaço, a equação x² + y² = 9 representa:",
+      "opcoes": [
+        "Uma esfera",
+        "Uma circunferência apenas",
+        "Um cone",
+        "Um cilindro circular ao longo do eixo z"
+      ],
+      "correta": 3,
+      "explicacao": "Como z não aparece, o círculo se repete em todas as alturas."
+    },
+    {
+      "id": "geometria-analitica-29",
+      "topico": "quadricas",
+      "nivel": "aplicacao",
+      "pergunta": "Quais são o centro e o raio da esfera x² + y² + z² − 2x − 4z = 4?",
+      "opcoes": [
+        "Centro (1, 0, 2) e raio 3",
+        "Centro (−1, 0, −2) e raio 3",
+        "Centro (1, 0, 2) e raio 9",
+        "Centro (2, 0, 4) e raio 2"
+      ],
+      "correta": 0,
+      "explicacao": "(x − 1)² + y² + (z − 2)² = 4 + 1 + 4 = 9, raio 3."
+    },
+    {
+      "id": "geometria-analitica-30",
+      "topico": "quadricas",
+      "nivel": "analise",
+      "pergunta": "Para a cônica x² + xy + y² = 1, use B² − 4AC para classificá-la.",
+      "opcoes": [
+        "Hipérbole, pois B² − 4AC > 0",
+        "Elipse, pois B² − 4AC = −3 < 0",
+        "Parábola, pois B² − 4AC = 0",
+        "Não é cônica"
+      ],
+      "correta": 1,
+      "explicacao": "A = 1, B = 1, C = 1: 1 − 4 = −3, negativo, portanto elipse (girada)."
+    }
+  ]
+}

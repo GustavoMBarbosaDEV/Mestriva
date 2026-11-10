@@ -1,0 +1,465 @@
+{
+  "id": "equacoes-diferenciais",
+  "nome": "Equações Diferenciais Ordinárias",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Conceitos e classificação",
+      "resumo": "Uma **equação diferencial** relaciona uma função desconhecida com suas **derivadas**. Descreve fenômenos que mudam com o tempo ou o espaço.\n\n### Classificação\n- **Ordinária** (EDO): a função depende de **uma** variável (y(t)). **Parcial** (EDP): várias variáveis (equação do calor, da onda).\n- **Ordem**: a **maior derivada** que aparece. y'' + 3y' = x é de **2ª ordem**.\n- **Linear**: a função e suas derivadas aparecem só no **primeiro grau**, sem produtos entre si nem funções delas (como sen y ou y²). Forma: aₙ(x)y⁽ⁿ⁾ + ... + a₁(x)y' + a₀(x)y = g(x).\n  - y'' + xy = 0 é linear; y·y' = x e y' = sen y **não** são.\n- **Homogênea** (no sentido linear): g(x) = 0.\n\n### Soluções\n- **Solução**: função que, substituída, satisfaz a equação. y = e^(2x) é solução de y' = 2y.\n- **Solução geral**: com **constantes arbitrárias** (uma por ordem): y = C·e^(2x).\n- **Solução particular**: com valores definidos para as constantes.\n- **Problema de valor inicial** (PVI): equação + condições iniciais (y(0) = 3 → y = 3e^(2x)). Uma EDO de ordem n precisa de **n condições**.\n\n### Existência e unicidade\nPara y' = f(x, y), se f e ∂f/∂y são **contínuas** perto do ponto inicial, o PVI tem **uma única solução** numa vizinhança (teorema de Picard).\n\n### Campos de direções\nDesenhar pequenos segmentos com inclinação f(x, y) em vários pontos mostra o comportamento das soluções sem resolvê-las. **Soluções de equilíbrio**: valores constantes em que y' = 0.\n\n### Modelagem\n- **Crescimento ou decaimento** exponencial: dy/dt = k·y.\n- **Lei de resfriamento de Newton**: dT/dt = −k(T − T_ambiente).\n- **Logística**: dP/dt = rP(1 − P/K).\n- **Massa-mola**: m·x'' + c·x' + k·x = F(t).\n- **Circuito RLC**: L·q'' + R·q' + q/C = E(t).",
+      "revisao": "**Lembre:**\n- Ordem: maior derivada.\n- Linear: y e derivadas no 1º grau, sem produtos entre si.\n- Solução geral: n constantes para ordem n.\n- PVI: equação + condições iniciais.\n- Equilíbrio: y' = 0."
+    },
+    {
+      "id": "separaveis",
+      "nome": "Equações de primeira ordem: separáveis e exatas",
+      "resumo": "### Separáveis\nTêm a forma **dy/dx = g(x)·h(y)**. Separa-se e integra-se:\n**∫ dy/h(y) = ∫ g(x) dx**.\n- Exemplo: dy/dx = ky → ∫ dy/y = ∫ k dt → ln|y| = kt + C → **y = C·e^(kt)**.\n- Exemplo: dy/dx = x/y → y dy = x dx → **y² − x² = C** (hipérboles).\n- Cuidado: ao dividir por h(y), soluções com h(y) = 0 (equilíbrios) podem se perder.\n\n### Aplicações clássicas\n- **Decaimento radioativo**: N(t) = N₀e^(−kt). **Meia-vida**: t½ = **ln 2 / k**.\n- **Resfriamento de Newton**: T(t) = T_a + (T₀ − T_a)e^(−kt). O corpo tende à temperatura ambiente.\n- **Juros contínuos**: M(t) = C·e^(rt).\n\n### Exatas\nM(x, y) dx + N(x, y) dy = 0 é **exata** se **∂M/∂y = ∂N/∂x**. Então existe F(x, y) com F_x = M e F_y = N, e a solução é **F(x, y) = C**.\n- Exemplo: (2xy) dx + (x²) dy = 0: ∂M/∂y = 2x = ∂N/∂x → exata; F = x²y → **x²y = C**.\n- Se não for exata, às vezes um **fator integrante** a torna exata.\n\n### Homogêneas (de grau zero)\ndy/dx = f(y/x): substituição **v = y/x** (y = vx) a transforma em separável.\n\n### Bernoulli\ny' + P(x)y = Q(x)yⁿ: a substituição **u = y^(1−n)** a torna linear.",
+      "revisao": "**Lembre:**\n- Separável: ∫ dy/h(y) = ∫ g(x) dx.\n- dy/dt = ky → y = Ce^(kt).\n- Meia-vida: ln 2 / k.\n- Exata: ∂M/∂y = ∂N/∂x; solução F = C.\n- Homogênea: v = y/x; Bernoulli: u = y^(1−n)."
+    },
+    {
+      "id": "lineares-1",
+      "nome": "Equações lineares de primeira ordem",
+      "resumo": "### Forma padrão\n**y' + P(x)·y = Q(x)**.\n\n### Método do fator integrante\n1. Calcule **μ(x) = e^(∫P(x) dx)**.\n2. Multiplique a equação por μ: o lado esquerdo vira **(μ·y)'**.\n3. Integre: **μ·y = ∫ μ·Q(x) dx + C**.\n4. Isole y.\n\n### Exemplo\ny' + 2y = 4.\n- μ = e^(∫2 dx) = e^(2x).\n- (e^(2x)·y)' = 4e^(2x) → e^(2x)·y = 2e^(2x) + C → **y = 2 + C·e^(−2x)**.\n- Quando x → ∞, y → 2 (a solução de equilíbrio). O termo C·e^(−2x) é o **transiente**.\n\n### Exemplo com coeficiente variável\ny' + (1/x)y = x (x > 0).\n- μ = e^(ln x) = x.\n- (x·y)' = x² → x·y = x³/3 + C → **y = x²/3 + C/x**.\n\n### Estrutura da solução\ny = **solução da homogênea** (C·e^(−∫P)) + **uma solução particular**.\n\n### Aplicações\n- **Problemas de mistura**: um tanque com entrada e saída de solução: dQ/dt = (taxa de entrada) − (taxa de saída) = c_e·r_e − (Q/V)·r_s.\n- **Circuito RL**: L·di/dt + R·i = E. Solução: i(t) = (E/R)(1 − e^(−Rt/L)). A **constante de tempo** é **τ = L/R**.\n- **Circuito RC**: carga do capacitor q(t) = CE(1 − e^(−t/RC)), constante de tempo **τ = RC**.\n- **Queda com resistência do ar**: m·v' = mg − kv → velocidade terminal **v = mg/k**.",
+      "revisao": "**Lembre:**\n- Forma: y' + P y = Q.\n- μ = e^(∫P dx); (μy)' = μQ.\n- Solução = homogênea + particular.\n- RL: τ = L/R; RC: τ = RC.\n- Velocidade terminal: mg/k."
+    },
+    {
+      "id": "lineares-2",
+      "nome": "Equações lineares de segunda ordem homogêneas",
+      "resumo": "### Coeficientes constantes\n**a·y'' + b·y' + c·y = 0**. Testa-se y = e^(rx), o que leva à **equação característica**:\n**a·r² + b·r + c = 0**.\n\n### Três casos (pelo discriminante Δ = b² − 4ac)\n1. **Δ > 0** (raízes reais distintas r₁, r₂): **y = C₁e^(r₁x) + C₂e^(r₂x)**.\n2. **Δ = 0** (raiz dupla r): **y = (C₁ + C₂x)e^(rx)**.\n3. **Δ < 0** (raízes complexas α ± βi): **y = e^(αx)(C₁ cos βx + C₂ sen βx)**.\n\n### Exemplos\n- y'' − 5y' + 6y = 0 → r² − 5r + 6 = 0 → r = 2, 3 → **y = C₁e^(2x) + C₂e^(3x)**.\n- y'' + 4y' + 4y = 0 → (r + 2)² = 0 → **y = (C₁ + C₂x)e^(−2x)**.\n- y'' + 9y = 0 → r = ±3i → **y = C₁ cos 3x + C₂ sen 3x** (oscilação pura).\n\n### Princípio da superposição e independência\n- Se y₁ e y₂ são soluções de uma equação linear **homogênea**, **C₁y₁ + C₂y₂** também é.\n- A solução geral exige duas soluções **linearmente independentes**, verificadas pelo **wronskiano** W = y₁y₂' − y₁'y₂ ≠ 0.\n\n### Oscilador massa-mola\n**m·x'' + c·x' + k·x = 0** (c = amortecimento).\n- **Sem amortecimento** (c = 0): oscilação harmônica com frequência natural **ω = √(k/m)**.\n- **Subamortecido** (c² < 4mk): oscila com amplitude que **decai** (raízes complexas).\n- **Criticamente amortecido** (c² = 4mk): volta ao equilíbrio o **mais rápido possível sem oscilar** (raiz dupla). Usado em amortecedores e portas automáticas.\n- **Superamortecido** (c² > 4mk): volta devagar, sem oscilar (raízes reais distintas).",
+      "revisao": "**Lembre:**\n- Característica: ar² + br + c = 0.\n- Reais distintas: soma de exponenciais.\n- Dupla: (C₁ + C₂x)e^(rx).\n- Complexas α ± βi: e^(αx)(C₁ cos βx + C₂ sen βx).\n- ω = √(k/m); crítico: c² = 4mk."
+    },
+    {
+      "id": "nao-homogeneas",
+      "nome": "Equações não homogêneas e ressonância",
+      "resumo": "### Estrutura\nPara **a·y'' + b·y' + c·y = g(x)**:\n**y = y_h + y_p**\n- **y_h**: solução geral da homogênea (com as constantes).\n- **y_p**: **uma** solução particular qualquer da equação completa.\n\n### Coeficientes a determinar\nChuta-se y_p com a mesma \"forma\" de g(x):\n- g = polinômio de grau n → y_p = polinômio genérico de grau n.\n- g = e^(kx) → y_p = A·e^(kx).\n- g = sen(ωx) ou cos(ωx) → y_p = A cos(ωx) + B sen(ωx).\n- **Regra de modificação**: se o chute já é solução da homogênea, multiplica-se por **x** (ou x², se ainda coincidir).\n\n### Exemplo\ny'' − y = 3e^(2x).\n- Homogênea: r² − 1 = 0 → y_h = C₁eˣ + C₂e^(−x).\n- Chute: y_p = A e^(2x) → 4A − A = 3 → A = 1.\n- **y = C₁eˣ + C₂e^(−x) + e^(2x)**.\n\n### Variação dos parâmetros\nMétodo geral (funciona para g como tg x ou 1/x): y_p = u₁y₁ + u₂y₂, com u₁' e u₂' obtidos de um sistema que usa o **wronskiano**.\n\n### Vibrações forçadas\nm·x'' + c·x' + k·x = F₀ cos(ωt).\n- A solução = **transiente** (y_h, que some com amortecimento) + **regime permanente** (y_p, que oscila na frequência da força).\n- **Ressonância**: sem amortecimento, quando a frequência da força é igual à **frequência natural** (ω = √(k/m)), a amplitude **cresce sem limite** (y_p da forma t·sen ωt). Explica pontes que vibram com o vento ou com passos sincronizados e taças que quebram com som.",
+      "revisao": "**Lembre:**\n- y = y_h + y_p.\n- Chute com a forma de g(x).\n- Se o chute já resolve a homogênea, multiplique por x.\n- Variação dos parâmetros: método geral com wronskiano.\n- Ressonância: força na frequência natural, amplitude cresce."
+    },
+    {
+      "id": "laplace",
+      "nome": "Transformada de Laplace e sistemas",
+      "resumo": "### Definição\n**L{f(t)} = F(s) = ∫₀^∞ e^(−st) f(t) dt**. Transforma a equação diferencial em uma equação **algébrica** em s.\n\n### Tabela básica\n- L{1} = **1/s**.\n- L{tⁿ} = n!/sⁿ⁺¹ (L{t} = 1/s²).\n- L{e^(at)} = **1/(s − a)**.\n- L{sen bt} = b/(s² + b²); L{cos bt} = s/(s² + b²).\n- **Linearidade**: L{a f + b g} = a F + b G.\n\n### Transformada das derivadas\n- L{y'} = **sY(s) − y(0)**.\n- L{y''} = **s²Y(s) − s·y(0) − y'(0)**.\nAs **condições iniciais** entram automaticamente, o que torna o método ótimo para PVIs.\n\n### Roteiro\n1. Aplique L aos dois lados.\n2. Isole Y(s).\n3. Use **frações parciais** para escrever Y(s) com formas da tabela.\n4. Aplique a **transformada inversa** para obter y(t).\n\n### Exemplo\ny' + y = 0, y(0) = 2 → sY − 2 + Y = 0 → Y = 2/(s + 1) → **y = 2e^(−t)**.\n\n### Recursos extras\n- **Deslocamento**: L{e^(at) f(t)} = F(s − a).\n- **Degrau unitário** (função de Heaviside) e **delta de Dirac** modelam forças ligadas de repente ou impulsos.\n- Em controle e circuitos, a razão Y(s)/X(s) é a **função de transferência**.\n\n### Sistemas de EDOs\nx' = A·x (A matriz constante). As soluções vêm dos **autovalores** e **autovetores** de A: x = C₁v₁e^(λ₁t) + C₂v₂e^(λ₂t).\n- Todos os autovalores com parte real **negativa**: equilíbrio **estável**.\n- Algum com parte real **positiva**: **instável**.\n- Modelos: predador-presa (Lotka-Volterra), circuitos acoplados, massas ligadas por molas.",
+      "revisao": "**Lembre:**\n- L{1} = 1/s; L{e^(at)} = 1/(s − a).\n- L{y'} = sY − y(0); L{y''} = s²Y − s y(0) − y'(0).\n- Laplace transforma EDO em álgebra.\n- Inversa com frações parciais.\n- Sistemas: autovalores com parte real negativa = estável."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "equacoes-diferenciais-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ordem da equação y''' + 2y' = sen x?",
+      "opcoes": [
+        "Terceira",
+        "Primeira",
+        "Segunda",
+        "Quarta"
+      ],
+      "correta": 0,
+      "explicacao": "A ordem é dada pela maior derivada presente, aqui y'''."
+    },
+    {
+      "id": "equacoes-diferenciais-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Qual destas equações é linear?",
+      "opcoes": [
+        "y·y' = x",
+        "y'' + x²y' + 3y = eˣ",
+        "y' = sen y",
+        "(y')² + y = 0"
+      ],
+      "correta": 1,
+      "explicacao": "Nas outras, y aparece multiplicada pela própria derivada, dentro de um seno ou com expoente 2."
+    },
+    {
+      "id": "equacoes-diferenciais-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Quantas condições iniciais são necessárias para um PVI de uma EDO de segunda ordem?",
+      "opcoes": [
+        "Uma",
+        "Três",
+        "Duas",
+        "Nenhuma"
+      ],
+      "correta": 2,
+      "explicacao": "Em geral, y(x₀) e y'(x₀); cada condição fixa uma das constantes da solução geral."
+    },
+    {
+      "id": "equacoes-diferenciais-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "A função y = 3e^(−2x) é solução de qual equação?",
+      "opcoes": [
+        "y' − 2y = 0",
+        "y'' + y = 0",
+        "y' = 3y",
+        "y' + 2y = 0"
+      ],
+      "correta": 3,
+      "explicacao": "y' = −6e^(−2x) = −2y, então y' + 2y = 0."
+    },
+    {
+      "id": "equacoes-diferenciais-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Na equação logística dP/dt = 0,5·P·(1 − P/1.000), quais são as soluções de equilíbrio?",
+      "opcoes": [
+        "P = 0 e P = 1.000",
+        "Apenas P = 500",
+        "P = 0,5 e P = 1",
+        "Não há equilíbrio"
+      ],
+      "correta": 0,
+      "explicacao": "Equilíbrio é onde dP/dt = 0: P = 0 ou 1 − P/1.000 = 0. P = 1.000 é a capacidade de suporte."
+    },
+    {
+      "id": "equacoes-diferenciais-6",
+      "topico": "separaveis",
+      "nivel": "conceitual",
+      "pergunta": "A equação dy/dx = x²·y é:",
+      "opcoes": [
+        "Não separável",
+        "Separável",
+        "Exata e de segunda ordem",
+        "Não linear de terceira ordem"
+      ],
+      "correta": 1,
+      "explicacao": "Pode ser escrita como dy/y = x² dx; integrando, ln|y| = x³/3 + C, ou seja, y = C·e^(x³/3)."
+    },
+    {
+      "id": "equacoes-diferenciais-7",
+      "topico": "separaveis",
+      "nivel": "conceitual",
+      "pergunta": "Uma equação M dx + N dy = 0 é exata quando:",
+      "opcoes": [
+        "M = N",
+        "∂M/∂x = ∂N/∂y",
+        "∂M/∂y = ∂N/∂x",
+        "M·N = 0"
+      ],
+      "correta": 2,
+      "explicacao": "Nesse caso existe F com F_x = M e F_y = N, e a solução é F(x, y) = C."
+    },
+    {
+      "id": "equacoes-diferenciais-8",
+      "topico": "separaveis",
+      "nivel": "conceitual",
+      "pergunta": "Num decaimento radioativo N(t) = N₀e^(−kt), a meia-vida é:",
+      "opcoes": [
+        "k / ln 2",
+        "1/k",
+        "2k",
+        "ln 2 / k"
+      ],
+      "correta": 3,
+      "explicacao": "Faz-se N₀/2 = N₀e^(−kt): e^(−kt) = 1/2, t = ln 2 / k."
+    },
+    {
+      "id": "equacoes-diferenciais-9",
+      "topico": "separaveis",
+      "nivel": "aplicacao",
+      "pergunta": "Resolva dy/dx = 2xy com y(0) = 5.",
+      "opcoes": [
+        "y = 5e^(x²)",
+        "y = 5e^(2x)",
+        "y = x² + 5",
+        "y = 5 + e^(x²)"
+      ],
+      "correta": 0,
+      "explicacao": "dy/y = 2x dx → ln y = x² + C → y = Ce^(x²). Com y(0) = 5, C = 5."
+    },
+    {
+      "id": "equacoes-diferenciais-10",
+      "topico": "separaveis",
+      "nivel": "analise",
+      "pergunta": "Um café a 90 °C está numa sala a 20 °C e após 10 min está a 55 °C. Pela lei de Newton, qual será a temperatura após 20 min?",
+      "opcoes": [
+        "20 °C",
+        "37,5 °C",
+        "40 °C",
+        "30 °C"
+      ],
+      "correta": 1,
+      "explicacao": "A diferença para o ambiente cai pela metade em 10 min: 70 → 35 → 17,5. Temperatura = 20 + 17,5 = 37,5 °C."
+    },
+    {
+      "id": "equacoes-diferenciais-11",
+      "topico": "lineares-1",
+      "nivel": "conceitual",
+      "pergunta": "Na equação y' + P(x)y = Q(x), qual é o fator integrante?",
+      "opcoes": [
+        "e^(∫Q(x) dx)",
+        "∫P(x) dx",
+        "e^(∫P(x) dx)",
+        "1/P(x)"
+      ],
+      "correta": 2,
+      "explicacao": "Multiplicando por ele, o lado esquerdo vira a derivada de μ·y."
+    },
+    {
+      "id": "equacoes-diferenciais-12",
+      "topico": "lineares-1",
+      "nivel": "conceitual",
+      "pergunta": "Num circuito RL, a constante de tempo é:",
+      "opcoes": [
+        "R·L",
+        "R/L",
+        "1/(R·L)",
+        "L/R"
+      ],
+      "correta": 3,
+      "explicacao": "A corrente atinge cerca de 63% do valor final após um tempo τ = L/R."
+    },
+    {
+      "id": "equacoes-diferenciais-13",
+      "topico": "lineares-1",
+      "nivel": "conceitual",
+      "pergunta": "A solução geral de uma EDO linear é formada por:",
+      "opcoes": [
+        "Solução da homogênea mais uma solução particular",
+        "Apenas a solução particular",
+        "Apenas a constante C",
+        "O produto das soluções"
+      ],
+      "correta": 0,
+      "explicacao": "A parte homogênea contém as constantes; a particular responde ao termo forçante."
+    },
+    {
+      "id": "equacoes-diferenciais-14",
+      "topico": "lineares-1",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a solução geral de y' + 3y = 6?",
+      "opcoes": [
+        "y = 6 + Ce^(3x)",
+        "y = 2 + Ce^(−3x)",
+        "y = 2x + C",
+        "y = Ce^(3x) − 2"
+      ],
+      "correta": 1,
+      "explicacao": "μ = e^(3x); (e^(3x)y)' = 6e^(3x) → e^(3x)y = 2e^(3x) + C → y = 2 + Ce^(−3x)."
+    },
+    {
+      "id": "equacoes-diferenciais-15",
+      "topico": "lineares-1",
+      "nivel": "analise",
+      "pergunta": "Um paraquedista de 80 kg cai com resistência do ar proporcional à velocidade, k = 16 kg/s (use g = 10 m/s²). Qual é a velocidade terminal?",
+      "opcoes": [
+        "8 m/s",
+        "128 m/s",
+        "50 m/s",
+        "5 m/s"
+      ],
+      "correta": 2,
+      "explicacao": "Na velocidade terminal, v' = 0: mg = kv → v = 800/16 = 50 m/s."
+    },
+    {
+      "id": "equacoes-diferenciais-16",
+      "topico": "lineares-2",
+      "nivel": "conceitual",
+      "pergunta": "Se a equação característica tem raízes complexas α ± βi, a solução geral é:",
+      "opcoes": [
+        "C₁e^(αx) + C₂e^(βx)",
+        "(C₁ + C₂x)e^(αx)",
+        "C₁ cos αx + C₂ sen αx",
+        "e^(αx)(C₁ cos βx + C₂ sen βx)"
+      ],
+      "correta": 3,
+      "explicacao": "A parte real dá o crescimento ou decaimento; a imaginária, a oscilação."
+    },
+    {
+      "id": "equacoes-diferenciais-17",
+      "topico": "lineares-2",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a frequência natural de um oscilador massa-mola sem amortecimento?",
+      "opcoes": [
+        "√(k/m)",
+        "k/m",
+        "√(m/k)",
+        "m·k"
+      ],
+      "correta": 0,
+      "explicacao": "Mais rigidez aumenta a frequência; mais massa a diminui."
+    },
+    {
+      "id": "equacoes-diferenciais-18",
+      "topico": "lineares-2",
+      "nivel": "conceitual",
+      "pergunta": "Um sistema criticamente amortecido:",
+      "opcoes": [
+        "Oscila para sempre",
+        "Volta ao equilíbrio o mais rápido possível sem oscilar",
+        "Oscila com amplitude crescente",
+        "Nunca volta ao equilíbrio"
+      ],
+      "correta": 1,
+      "explicacao": "Ocorre quando c² = 4mk, a raiz da equação característica é dupla."
+    },
+    {
+      "id": "equacoes-diferenciais-19",
+      "topico": "lineares-2",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a solução geral de y'' − y' − 6y = 0?",
+      "opcoes": [
+        "y = C₁e^(−3x) + C₂e^(2x)",
+        "y = (C₁ + C₂x)e^(3x)",
+        "y = C₁e^(3x) + C₂e^(−2x)",
+        "y = C₁ cos 6x + C₂ sen 6x"
+      ],
+      "correta": 2,
+      "explicacao": "r² − r − 6 = 0 → (r − 3)(r + 2) = 0 → r = 3 e r = −2."
+    },
+    {
+      "id": "equacoes-diferenciais-20",
+      "topico": "lineares-2",
+      "nivel": "analise",
+      "pergunta": "Um amortecedor de carro tem m = 1, c = 2 e k = 5 (unidades coerentes). Como o sistema se comporta após um solavanco?",
+      "opcoes": [
+        "Volta sem oscilar (superamortecido)",
+        "Oscila para sempre sem perder amplitude",
+        "Afasta-se do equilíbrio sem parar",
+        "Oscila com amplitude decrescente (subamortecido)"
+      ],
+      "correta": 3,
+      "explicacao": "c² = 4 < 4mk = 20; as raízes são −1 ± 2i: oscila com envelope e^(−t)."
+    },
+    {
+      "id": "equacoes-diferenciais-21",
+      "topico": "nao-homogeneas",
+      "nivel": "conceitual",
+      "pergunta": "Para y'' + y = 3x², qual é a forma adequada do chute para y_p?",
+      "opcoes": [
+        "Ax² + Bx + C",
+        "Ax²",
+        "A e^(x)",
+        "A sen x + B cos x"
+      ],
+      "correta": 0,
+      "explicacao": "Com termo polinomial de grau 2, usa-se um polinômio genérico do mesmo grau."
+    },
+    {
+      "id": "equacoes-diferenciais-22",
+      "topico": "nao-homogeneas",
+      "nivel": "conceitual",
+      "pergunta": "Quando o chute de y_p já é solução da equação homogênea, deve-se:",
+      "opcoes": [
+        "Descartar o método",
+        "Multiplicá-lo por x",
+        "Somar uma constante",
+        "Elevá-lo ao quadrado"
+      ],
+      "correta": 1,
+      "explicacao": "É a regra de modificação; se ainda coincidir, multiplica-se por x²."
+    },
+    {
+      "id": "equacoes-diferenciais-23",
+      "topico": "nao-homogeneas",
+      "nivel": "conceitual",
+      "pergunta": "O que é ressonância num oscilador sem amortecimento?",
+      "opcoes": [
+        "Perda total de energia",
+        "Oscilação com frequência zero",
+        "Crescimento ilimitado da amplitude quando a força tem a frequência natural do sistema",
+        "Amortecimento crítico"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso estruturas são projetadas para evitar forças periódicas na sua frequência natural."
+    },
+    {
+      "id": "equacoes-diferenciais-24",
+      "topico": "nao-homogeneas",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é uma solução particular de y'' − 4y = 8?",
+      "opcoes": [
+        "y_p = 2",
+        "y_p = 8x",
+        "y_p = e^(2x)",
+        "y_p = −2"
+      ],
+      "correta": 3,
+      "explicacao": "Chute y_p = A (constante): 0 − 4A = 8 → A = −2."
+    },
+    {
+      "id": "equacoes-diferenciais-25",
+      "topico": "nao-homogeneas",
+      "nivel": "analise",
+      "pergunta": "Em y'' + 4y = cos(2t), por que o chute A cos 2t + B sen 2t não funciona e o que usar?",
+      "opcoes": [
+        "Porque cos 2t e sen 2t já resolvem a homogênea; usa-se t(A cos 2t + B sen 2t), o que mostra ressonância",
+        "Porque o cosseno não tem derivada",
+        "Porque a equação é não linear",
+        "Funciona, basta tomar A = 1"
+      ],
+      "correta": 0,
+      "explicacao": "As raízes da característica são ±2i, a mesma frequência da força: a solução cresce como t·sen 2t."
+    },
+    {
+      "id": "equacoes-diferenciais-26",
+      "topico": "laplace",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a transformada de Laplace de e^(at)?",
+      "opcoes": [
+        "1/(s + a)",
+        "1/(s − a)",
+        "a/s",
+        "s/(s − a)"
+      ],
+      "correta": 1,
+      "explicacao": "Vem de ∫₀^∞ e^(−st)e^(at) dt = 1/(s − a), para s > a. Por exemplo, L{e^(3t)} = 1/(s − 3)."
+    },
+    {
+      "id": "equacoes-diferenciais-27",
+      "topico": "laplace",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a transformada de y'?",
+      "opcoes": [
+        "Y(s)/s",
+        "sY(s) + y(0)",
+        "sY(s) − y(0)",
+        "s²Y(s)"
+      ],
+      "correta": 2,
+      "explicacao": "A condição inicial entra diretamente, por isso o método é tão útil em PVIs."
+    },
+    {
+      "id": "equacoes-diferenciais-28",
+      "topico": "laplace",
+      "nivel": "conceitual",
+      "pergunta": "Num sistema x' = Ax, o equilíbrio na origem é estável quando os autovalores de A têm:",
+      "opcoes": [
+        "Parte real positiva",
+        "Valor igual a 1",
+        "Parte imaginária nula sempre",
+        "Parte real negativa"
+      ],
+      "correta": 3,
+      "explicacao": "Com parte real negativa, todas as soluções decaem para a origem."
+    },
+    {
+      "id": "equacoes-diferenciais-29",
+      "topico": "laplace",
+      "nivel": "aplicacao",
+      "pergunta": "Se Y(s) = 5/(s − 2), qual é y(t)?",
+      "opcoes": [
+        "5e^(2t)",
+        "5e^(−2t)",
+        "2e^(5t)",
+        "5t²"
+      ],
+      "correta": 0,
+      "explicacao": "Pela tabela, 1/(s − a) é a transformada de e^(at); pela linearidade, multiplica-se por 5."
+    },
+    {
+      "id": "equacoes-diferenciais-30",
+      "topico": "laplace",
+      "nivel": "analise",
+      "pergunta": "Resolvendo y' − 3y = 0 com y(0) = 4 por Laplace, qual etapa leva diretamente à resposta?",
+      "opcoes": [
+        "Y = 4s − 3 → y = 4t − 3",
+        "sY − 4 − 3Y = 0 → Y = 4/(s − 3) → y = 4e^(3t)",
+        "sY = 3 → y = 3t",
+        "Y = 4/(s + 3) → y = 4e^(−3t)"
+      ],
+      "correta": 1,
+      "explicacao": "Aplica-se L{y'} = sY − y(0), isola-se Y e usa-se a tabela para voltar a t."
+    }
+  ]
+}
