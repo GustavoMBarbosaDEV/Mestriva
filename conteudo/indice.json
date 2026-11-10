@@ -1972,6 +1972,49 @@
       ]
     },
     {
+      "id": "linguistica",
+      "nome": "Linguística",
+      "apelidos": [
+        "Linguística I",
+        "Linguística II",
+        "Linguística Geral",
+        "Introdução à Linguística",
+        "Introdução aos Estudos Linguísticos",
+        "Fundamentos de Linguística",
+        "Estudos Linguísticos",
+        "Sociolinguística",
+        "Fonética e Fonologia",
+        "Linguística Aplicada"
+      ],
+      "area": "Letras",
+      "topicos": [
+        {
+          "id": "saussure",
+          "nome": "Linguística como ciência e Saussure"
+        },
+        {
+          "id": "fonetica",
+          "nome": "Fonética e fonologia"
+        },
+        {
+          "id": "morfossintaxe",
+          "nome": "Morfologia e sintaxe"
+        },
+        {
+          "id": "semantica",
+          "nome": "Semântica e pragmática"
+        },
+        {
+          "id": "sociolinguistica",
+          "nome": "Sociolinguística e variação"
+        },
+        {
+          "id": "aquisicao",
+          "nome": "Aquisição da linguagem e linguística textual"
+        }
+      ]
+    },
+    {
       "id": "macroeconomia",
       "nome": "Macroeconomia",
       "apelidos": [
@@ -3162,6 +3205,49 @@
         {
           "id": "ciencia-politica",
           "nome": "Poder, regimes políticos e modelos de Estado"
+        }
+      ]
+    },
+    {
+      "id": "teoria-literaria",
+      "nome": "Teoria Literária",
+      "apelidos": [
+        "Teoria Literária I",
+        "Teoria Literária II",
+        "Teoria da Literatura",
+        "Teoria da Literatura I",
+        "Teoria da Literatura II",
+        "Introdução aos Estudos Literários",
+        "Estudos Literários",
+        "Introdução à Literatura",
+        "Teoria e Crítica Literária",
+        "Crítica Literária"
+      ],
+      "area": "Letras",
+      "topicos": [
+        {
+          "id": "conceito",
+          "nome": "O que é literatura"
+        },
+        {
+          "id": "generos",
+          "nome": "Gêneros literários"
+        },
+        {
+          "id": "narrativa",
+          "nome": "Elementos da narrativa"
+        },
+        {
+          "id": "poesia",
+          "nome": "Versificação e poesia"
+        },
+        {
+          "id": "figuras",
+          "nome": "Figuras de linguagem"
+        },
+        {
+          "id": "correntes",
+          "nome": "Correntes da teoria e da crítica literária"
         }
       ]
     },

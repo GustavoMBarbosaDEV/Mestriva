@@ -1,0 +1,465 @@
+{
+  "id": "linguistica",
+  "nome": "Linguística",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "saussure",
+      "nome": "Linguística como ciência e Saussure",
+      "resumo": "### O que é linguística\nEstudo **científico** da linguagem e das línguas. É **descritiva**, não prescritiva: descreve como as pessoas realmente falam, sem julgar \"certo\" ou \"errado\" (papel da gramática normativa).\n\n### Ferdinand de Saussure (1857–1913)\nConsiderado o pai da linguística moderna; *Curso de Linguística Geral* (1916), publicado por alunos após sua morte.\n- **Língua (langue)** × **fala (parole)**: a língua é o **sistema social** de regras compartilhado; a fala é o **uso individual** e concreto. O objeto da linguística é a língua.\n- **Signo linguístico**: união de **significante** (imagem acústica, a forma) e **significado** (conceito).\n- **Arbitrariedade do signo**: não há relação natural entre significante e significado (\"árvore\", *tree*, *arbre*).\n- **Linearidade** do significante: os elementos vêm um após o outro no tempo.\n- **Sincronia** (estudo da língua num momento) × **diacronia** (sua evolução histórica). Saussure priorizou a sincronia.\n- **Relações sintagmáticas** (combinação na sequência, eixo horizontal) × **paradigmáticas** (associação/substituição, eixo vertical).\n- **Valor**: cada elemento se define pela **diferença** em relação aos outros do sistema.\n\n### Estruturalismo\nA língua como **sistema** (estrutura) de relações. Influenciou a antropologia (Lévi-Strauss) e outras ciências humanas. Na escola de Praga, **Jakobson** propôs as **funções da linguagem**.\n\n### Funções da linguagem (Jakobson)\nReferencial (foco no assunto), emotiva (no emissor), conativa/apelativa (no receptor), fática (no canal), metalinguística (no código), poética (na mensagem).",
+      "revisao": "**Lembre:**\n- Linguística é descritiva, não prescritiva.\n- Língua (sistema social) × fala (uso individual).\n- Signo = significante + significado; é arbitrário.\n- Sincronia × diacronia.\n- Jakobson: seis funções da linguagem."
+    },
+    {
+      "id": "fonetica",
+      "nome": "Fonética e fonologia",
+      "resumo": "### Diferença\n- **Fonética**: estuda os **sons da fala** em sua realidade física e articulatória (como são produzidos e percebidos). Transcrição entre **colchetes** [ ].\n- **Fonologia**: estuda os sons como **unidades do sistema** de uma língua, que **distinguem significados** (fonemas). Transcrição entre **barras** / /.\n\n### Fonema\nMenor unidade sonora capaz de **distinguir significados**. Identificado por **pares mínimos**: *pato* × *bato* (/p/ × /b/); *faca* × *vaca* (/f/ × /v/).\n- **Alofones**: realizações diferentes de um mesmo fonema que **não mudam o significado** (o \"t\" de *tia* pronunciado [t] ou [tʃ] em regiões diferentes).\n- Fonema ≠ letra: *casa* tem a letra \"s\" com som /z/; \"h\" de *hora* não representa fonema; \"x\" representa vários sons.\n\n### Classificação das consoantes\n- **Modo de articulação**: oclusivas (/p/, /b/, /t/, /d/, /k/, /g/), fricativas (/f/, /v/, /s/, /z/), nasais (/m/, /n/), laterais (/l/), vibrantes (/r/).\n- **Ponto de articulação**: bilabiais, labiodentais, alveolares, palatais, velares.\n- **Vozeamento**: **sonoras** (cordas vocais vibram: /b/, /d/, /g/, /v/, /z/) × **surdas** (/p/, /t/, /k/, /f/, /s/).\n\n### Vogais\nClassificadas por altura da língua (alta, média, baixa), posição (anterior, central, posterior), arredondamento dos lábios e nasalidade. O português brasileiro tem **7 vogais orais** tônicas (/a/, /ɛ/, /e/, /i/, /ɔ/, /o/, /u/) e vogais nasais.\n\n### Sílaba e acento\nSílaba tem um **núcleo vocálico**; acento distingue palavras (*sábia*, *sabia*, *sabiá*).\n\n### Alfabeto Fonético Internacional (AFI/IPA)\nSistema para transcrever com precisão os sons de qualquer língua.",
+      "revisao": "**Lembre:**\n- Fonética: sons físicos [ ]; fonologia: fonemas / /.\n- Fonema distingue significado (pares mínimos).\n- Alofone: variante sem mudar o sentido.\n- Fonema ≠ letra.\n- Sonoras vibram as cordas vocais; surdas não."
+    },
+    {
+      "id": "morfossintaxe",
+      "nome": "Morfologia e sintaxe",
+      "resumo": "### Morfologia\nEstuda a **estrutura interna das palavras**.\n- **Morfema**: menor unidade com **significado** (lexical ou gramatical). *Gatinhos* = gat- (radical) + -inh- (diminutivo) + -o (vogal temática/gênero) + -s (plural).\n- **Morfemas lexicais** (radicais) e **gramaticais** (afixos, desinências).\n- **Desinências**: nominais (gênero e número) e verbais (modo-tempo e número-pessoa: *cant-á-va-mos*).\n- **Morfema zero**: ausência que significa (singular de *gato*).\n- **Alomorfe**: variante de um mesmo morfema (in- / im- / i-: *infeliz*, *impossível*, *ilegal*).\n\n### Formação de palavras\n- **Derivação**: prefixal (*refazer*), sufixal (*felizmente*), parassintética (*entristecer*, prefixo e sufixo ao mesmo tempo), regressiva (*o combate* de *combater*), imprópria (mudança de classe: *o jantar*).\n- **Composição**: por justaposição (*guarda-chuva*, *girassol*) ou aglutinação (*planalto*, *pernalta*: há perda de fonemas).\n- Outros: **abreviação** (*foto*), **siglas** (*ONU*), **empréstimos** (*shopping*), **neologismos**.\n\n### Sintaxe\nEstuda como as palavras se **combinam** em sintagmas e frases.\n- **Sintagma**: grupo organizado em torno de um núcleo (nominal, verbal, preposicional).\n- **Gramática gerativa** (**Noam Chomsky**, 1957): os falantes têm uma **competência** linguística inata (**gramática universal**) e produzem **infinitas** frases a partir de regras finitas (recursividade). **Competência** (conhecimento) × **desempenho** (uso real).\n- **Gramaticalidade** ≠ sentido: \"Ideias verdes incolores dormem furiosamente\" é gramatical, mas sem sentido.\n- **Ambiguidade estrutural**: \"Vi o homem com o binóculo\".",
+      "revisao": "**Lembre:**\n- Morfema: menor unidade com significado.\n- Derivação × composição (justaposição e aglutinação).\n- Parassintética: prefixo e sufixo juntos.\n- Chomsky: competência inata, gramática universal.\n- Competência × desempenho."
+    },
+    {
+      "id": "semantica",
+      "nome": "Semântica e pragmática",
+      "resumo": "### Semântica\nEstudo do **significado** das palavras e frases.\n- **Denotação** (sentido literal, de dicionário) × **conotação** (sentidos figurados, afetivos).\n- **Sinonímia**, **antonímia**, **hiponímia** (*rosa* é hipônimo de *flor*) e **hiperonímia** (*flor* é hiperônimo de *rosa*).\n- **Polissemia**: uma palavra com **vários sentidos relacionados** (*pé* da mesa, *pé* da pessoa).\n- **Homonímia**: palavras **iguais na forma** com origens e sentidos diferentes (*manga* fruta × *manga* da camisa); homófonas (*cela*/*sela*) e homógrafas.\n- **Pressuposição**: informação dada como certa (\"Pedro **parou** de fumar\" pressupõe que fumava).\n- **Acarretamento**: se uma frase é verdadeira, outra necessariamente é.\n\n### Pragmática\nEstudo do significado **em uso**, no **contexto**: quem fala, para quem, onde, com que intenção.\n- **Atos de fala** (**Austin** e **Searle**): ao falar, **fazemos** coisas.\n  - **Locucionário**: o que se diz.\n  - **Ilocucionário**: a intenção (pedir, prometer, ordenar).\n  - **Perlocucionário**: o efeito no ouvinte.\n  - **Performativos**: \"Eu vos declaro marido e mulher\" realiza a ação ao ser dito.\n- **Implicaturas** (**Grice**): o que se comunica além do dito. Princípio de **cooperação** e **máximas**: quantidade, qualidade, relação (relevância) e modo (clareza).\n  - \"Está frio aqui\" pode significar \"feche a janela\" (ato **indireto**).\n- **Dêixis**: palavras cujo sentido depende do contexto: *eu*, *aqui*, *agora*, *isso*, *ontem*.\n- **Polidez** e preservação da face.",
+      "revisao": "**Lembre:**\n- Denotação × conotação.\n- Polissemia: sentidos relacionados; homonímia: coincidência de forma.\n- Hipônimo (rosa) × hiperônimo (flor).\n- Atos de fala: locucionário, ilocucionário, perlocucionário.\n- Grice: cooperação e implicaturas."
+    },
+    {
+      "id": "sociolinguistica",
+      "nome": "Sociolinguística e variação",
+      "resumo": "### Sociolinguística\nEstuda a relação entre **língua e sociedade**. Fundador: **William Labov** (anos 1960), que mostrou que a variação é **sistemática** e ligada a fatores sociais (estudo do /r/ em lojas de Nova York).\n\n### Toda língua varia\n- **Diatópica (geográfica)**: diferenças regionais (*mandioca*, *aipim*, *macaxeira*; o /r/ \"caipira\").\n- **Diastrática (social)**: classe social, escolaridade, idade, gênero, profissão (gírias, jargões).\n- **Diafásica (situacional/estilística)**: grau de **formalidade** da situação (registro formal × informal).\n- **Diamésica**: fala × escrita.\n- **Diacrônica (histórica)**: mudança ao longo do tempo (*vossa mercê* → *vosmecê* → *você* → *cê*).\n\n### Norma, variedade e preconceito\n- **Norma-padrão**: modelo idealizado, prescrito pelas gramáticas normativas.\n- **Norma culta**: variedades efetivamente usadas pelos falantes urbanos escolarizados.\n- **Variedades populares** têm **regras próprias** e são sistemáticas (*os menino* marca plural só no determinante: é uma regra, não ausência de regra).\n- **Preconceito linguístico** (**Marcos Bagno**): discriminação de pessoas pela forma de falar; mitos como \"brasileiro não sabe português\" ou \"o português de Portugal é mais correto\".\n- Não existe língua ou variedade \"melhor\" do ponto de vista linguístico; existe **adequação** à situação.\n\n### Conceitos ligados\n- **Bilinguismo** e **diglossia** (duas variedades com funções sociais diferentes).\n- **Línguas em contato**: empréstimos, **pidgins** e **crioulos**.\n- **Mudança linguística**: em curso, perceptível pela variação entre gerações.\n- O português brasileiro tem influência de línguas **indígenas** (tupi: *mandioca*, *capivara*) e **africanas** (quimbundo, iorubá: *caçula*, *moleque*, *quitanda*).\n\n### Na escola\nEnsinar a norma-padrão **sem desvalorizar** a variedade do aluno; ampliar o repertório (**educação linguística**).",
+      "revisao": "**Lembre:**\n- Labov: variação sistemática e social.\n- Variação: geográfica, social, situacional, histórica.\n- Preconceito linguístico (Bagno).\n- Variedades populares têm regras.\n- Adequação, não \"certo\" e \"errado\"."
+    },
+    {
+      "id": "aquisicao",
+      "nome": "Aquisição da linguagem e linguística textual",
+      "resumo": "### Teorias de aquisição\n- **Behaviorismo (Skinner)**: a linguagem é aprendida por **imitação**, estímulo, resposta e **reforço**.\n- **Inatismo (Chomsky)**: a criança nasce com um **dispositivo de aquisição da linguagem** e uma **gramática universal**; o estímulo do ambiente é pobre demais para explicar a rapidez da aquisição (\"pobreza do estímulo\"). Prova: crianças produzem formas que nunca ouviram (*eu fazi*, *eu sabo*) — **hiper-regularização**.\n- **Cognitivismo/construtivismo (Piaget)**: a linguagem depende do **desenvolvimento cognitivo**.\n- **Sociointeracionismo (Vygotsky)**: a linguagem se constrói na **interação social**; papel central da mediação e da cultura; pensamento e linguagem se unem.\n- **Período crítico**: a aquisição é mais eficiente na infância.\n\n### Etapas típicas\nChoro e arrulho → **balbucio** (por volta de 6 meses) → **primeiras palavras** (cerca de 1 ano) → **holófrase** (uma palavra = uma frase: \"água!\") → fala **telegráfica** (duas palavras: \"mamãe sapato\") → frases completas.\n\n### Linguística textual\nEstuda o **texto** como unidade de sentido (não só a frase).\n- **Coesão**: ligações **linguísticas** entre as partes (pronomes, sinônimos, conjunções, elipse). *Referencial* (retoma termos: \"Maria chegou. **Ela** sorriu\") e *sequencial* (conectivos: *porém*, *portanto*).\n- **Coerência**: **sentido** global, lógica, não contradição; depende também do conhecimento de mundo do leitor.\n- Um texto pode ser coeso e incoerente, ou coerente com pouca coesão.\n- Outros fatores de **textualidade** (Beaugrande e Dressler): intencionalidade, aceitabilidade, situacionalidade, informatividade, **intertextualidade**.\n\n### Gêneros textuais (Bakhtin)\nFormas relativamente estáveis de enunciados ligadas a práticas sociais (notícia, receita, carta, meme). **Tipos textuais**: narração, descrição, dissertação/argumentação, exposição, injunção.",
+      "revisao": "**Lembre:**\n- Skinner: imitação e reforço; Chomsky: inatismo.\n- Vygotsky: interação social.\n- Hiper-regularização (eu fazi) apoia o inatismo.\n- Coesão: ligações linguísticas; coerência: sentido.\n- Gêneros (Bakhtin) × tipos textuais."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "linguistica-1",
+      "topico": "saussure",
+      "nivel": "conceitual",
+      "pergunta": "Por que se diz que a linguística é descritiva?",
+      "opcoes": [
+        "Porque descreve como as línguas são usadas, sem julgar formas como certas ou erradas",
+        "Porque prescreve a forma correta de falar",
+        "Porque estuda só a escrita literária",
+        "Porque ignora a fala real"
+      ],
+      "correta": 0,
+      "explicacao": "A gramática normativa é que prescreve regras; a linguística observa e explica os usos."
+    },
+    {
+      "id": "linguistica-2",
+      "topico": "saussure",
+      "nivel": "conceitual",
+      "pergunta": "Para Saussure, o signo linguístico é formado por:",
+      "opcoes": [
+        "Fonema e morfema",
+        "Significante e significado",
+        "Língua e fala",
+        "Sujeito e predicado"
+      ],
+      "correta": 1,
+      "explicacao": "O significante é a imagem acústica; o significado, o conceito."
+    },
+    {
+      "id": "linguistica-3",
+      "topico": "saussure",
+      "nivel": "conceitual",
+      "pergunta": "A arbitrariedade do signo significa que:",
+      "opcoes": [
+        "Cada falante escolhe livremente o sentido das palavras",
+        "As palavras imitam os sons da natureza",
+        "Não há ligação natural entre a forma da palavra e o conceito",
+        "O significado nunca muda"
+      ],
+      "correta": 2,
+      "explicacao": "Prova disso é que o mesmo conceito tem nomes diferentes em cada língua."
+    },
+    {
+      "id": "linguistica-4",
+      "topico": "saussure",
+      "nivel": "aplicacao",
+      "pergunta": "Um pesquisador compara o português do século XVI com o atual. Que tipo de estudo ele faz?",
+      "opcoes": [
+        "Sincrônico",
+        "Fonológico apenas",
+        "Pragmático",
+        "Diacrônico"
+      ],
+      "correta": 3,
+      "explicacao": "A diacronia estuda a evolução da língua no tempo; a sincronia, seu estado num momento."
+    },
+    {
+      "id": "linguistica-5",
+      "topico": "saussure",
+      "nivel": "analise",
+      "pergunta": "Num anúncio, a frase \"Compre já!\" tem foco em convencer o leitor. Qual função da linguagem predomina?",
+      "opcoes": [
+        "Conativa (apelativa)",
+        "Referencial",
+        "Metalinguística",
+        "Fática"
+      ],
+      "correta": 0,
+      "explicacao": "A função conativa se volta ao receptor, com verbos no imperativo e vocativos."
+    },
+    {
+      "id": "linguistica-6",
+      "topico": "fonetica",
+      "nivel": "conceitual",
+      "pergunta": "O que é um fonema?",
+      "opcoes": [
+        "A menor unidade com significado",
+        "A menor unidade sonora que distingue significados",
+        "Uma letra do alfabeto",
+        "Uma sílaba tônica"
+      ],
+      "correta": 1,
+      "explicacao": "Em pato e bato, só /p/ e /b/ diferenciam as palavras."
+    },
+    {
+      "id": "linguistica-7",
+      "topico": "fonetica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre fonética e fonologia?",
+      "opcoes": [
+        "São a mesma disciplina",
+        "Fonética estuda a escrita; fonologia, a fala",
+        "Fonética estuda os sons físicos da fala; fonologia, o papel dos sons no sistema da língua",
+        "Fonologia estuda os significados"
+      ],
+      "correta": 2,
+      "explicacao": "A fonética transcreve entre colchetes e a fonologia entre barras."
+    },
+    {
+      "id": "linguistica-8",
+      "topico": "fonetica",
+      "nivel": "conceitual",
+      "pergunta": "Pronunciar o \"t\" de \"tia\" como [t] ou como [tʃ], sem mudar o sentido, mostra:",
+      "opcoes": [
+        "Dois fonemas diferentes",
+        "Um erro de pronúncia",
+        "Um morfema zero",
+        "Alofones de um mesmo fonema"
+      ],
+      "correta": 3,
+      "explicacao": "As variantes não distinguem significado, portanto pertencem ao mesmo fonema /t/."
+    },
+    {
+      "id": "linguistica-9",
+      "topico": "fonetica",
+      "nivel": "aplicacao",
+      "pergunta": "As palavras \"faca\" e \"vaca\" formam um par mínimo. Que traço distingue /f/ de /v/?",
+      "opcoes": [
+        "Vozeamento: /v/ é sonora e /f/ é surda",
+        "Ponto de articulação",
+        "Nasalidade",
+        "Modo de articulação"
+      ],
+      "correta": 0,
+      "explicacao": "As duas são fricativas labiodentais; só a vibração das cordas vocais as distingue."
+    },
+    {
+      "id": "linguistica-10",
+      "topico": "fonetica",
+      "nivel": "analise",
+      "pergunta": "Por que não se deve confundir fonema e letra?",
+      "opcoes": [
+        "Porque toda letra é um fonema",
+        "Uma letra pode representar sons diferentes e um som pode ser escrito com letras diferentes",
+        "Porque fonemas só existem na escrita",
+        "Porque o português não tem fonemas"
+      ],
+      "correta": 1,
+      "explicacao": "O \"s\" de casa soa /z/; o \"h\" de hora não tem som; /s/ pode ser escrito com s, ss, ç, c ou x."
+    },
+    {
+      "id": "linguistica-11",
+      "topico": "morfossintaxe",
+      "nivel": "conceitual",
+      "pergunta": "O morfema é:",
+      "opcoes": [
+        "A menor unidade sonora",
+        "Uma frase completa",
+        "A menor unidade com significado",
+        "Um tipo de sílaba"
+      ],
+      "correta": 2,
+      "explicacao": "Em gatinhos, -inh- indica diminutivo e -s indica plural."
+    },
+    {
+      "id": "linguistica-12",
+      "topico": "morfossintaxe",
+      "nivel": "conceitual",
+      "pergunta": "\"Entristecer\" é formada por:",
+      "opcoes": [
+        "Composição por justaposição",
+        "Derivação regressiva",
+        "Abreviação",
+        "Derivação parassintética"
+      ],
+      "correta": 3,
+      "explicacao": "Prefixo en- e sufixo -ecer entram juntos: não existem entriste nem tristecer."
+    },
+    {
+      "id": "linguistica-13",
+      "topico": "morfossintaxe",
+      "nivel": "conceitual",
+      "pergunta": "Para Chomsky, a competência linguística é:",
+      "opcoes": [
+        "O conhecimento inato e internalizado das regras da língua",
+        "O uso concreto da fala em situações reais",
+        "A habilidade de escrever bem",
+        "A memorização de frases ouvidas"
+      ],
+      "correta": 0,
+      "explicacao": "O desempenho é o uso real, sujeito a lapsos e limitações de memória."
+    },
+    {
+      "id": "linguistica-14",
+      "topico": "morfossintaxe",
+      "nivel": "aplicacao",
+      "pergunta": "\"Planalto\" (plano + alto) foi formada por:",
+      "opcoes": [
+        "Composição por justaposição",
+        "Composição por aglutinação",
+        "Derivação sufixal",
+        "Derivação imprópria"
+      ],
+      "correta": 1,
+      "explicacao": "Na aglutinação há perda de fonemas; em guarda-chuva (justaposição), as palavras ficam inteiras."
+    },
+    {
+      "id": "linguistica-15",
+      "topico": "morfossintaxe",
+      "nivel": "analise",
+      "pergunta": "A frase \"Vi o homem com o binóculo\" é ambígua porque:",
+      "opcoes": [
+        "Tem erro de concordância",
+        "Usa uma palavra homônima",
+        "Pode ser analisada com duas estruturas sintáticas diferentes",
+        "Não tem verbo"
+      ],
+      "correta": 2,
+      "explicacao": "Com o binóculo pode se ligar a vi (instrumento) ou a homem (o homem que tinha o binóculo)."
+    },
+    {
+      "id": "linguistica-16",
+      "topico": "semantica",
+      "nivel": "conceitual",
+      "pergunta": "Polissemia é:",
+      "opcoes": [
+        "Palavras diferentes com o mesmo sentido",
+        "Palavras com sentidos opostos",
+        "Palavras de mesma pronúncia e origens diferentes",
+        "Uma palavra com vários sentidos relacionados"
+      ],
+      "correta": 3,
+      "explicacao": "Pé da mesa e pé da pessoa compartilham a ideia de base ou apoio."
+    },
+    {
+      "id": "linguistica-17",
+      "topico": "semantica",
+      "nivel": "conceitual",
+      "pergunta": "Em relação a \"flor\", a palavra \"rosa\" é:",
+      "opcoes": [
+        "Hipônimo",
+        "Hiperônimo",
+        "Antônimo",
+        "Homônimo"
+      ],
+      "correta": 0,
+      "explicacao": "O hipônimo é o termo mais específico; flor é o hiperônimo, mais geral."
+    },
+    {
+      "id": "linguistica-18",
+      "topico": "semantica",
+      "nivel": "conceitual",
+      "pergunta": "O que estuda a pragmática?",
+      "opcoes": [
+        "Somente a estrutura das palavras",
+        "O significado da linguagem em uso, considerando o contexto",
+        "Apenas os sons da língua",
+        "A história das línguas"
+      ],
+      "correta": 1,
+      "explicacao": "Quem fala, para quem, quando e com que intenção alteram o que se comunica."
+    },
+    {
+      "id": "linguistica-19",
+      "topico": "semantica",
+      "nivel": "aplicacao",
+      "pergunta": "A frase \"Pedro parou de fumar\" pressupõe que:",
+      "opcoes": [
+        "Pedro nunca fumou",
+        "Pedro vai voltar a fumar",
+        "Pedro fumava antes",
+        "Pedro fuma muito hoje"
+      ],
+      "correta": 2,
+      "explicacao": "Pressupostos são informações dadas como certas pela própria construção da frase, marcadas aqui pelo verbo parar."
+    },
+    {
+      "id": "linguistica-20",
+      "topico": "semantica",
+      "nivel": "analise",
+      "pergunta": "Numa sala com a janela aberta, alguém diz: \"Está frio aqui\". Os outros fecham a janela. Isso ilustra:",
+      "opcoes": [
+        "Uma denotação literal sem intenção",
+        "Uma homonímia",
+        "Um erro de comunicação",
+        "Um ato de fala indireto, interpretado por implicatura"
+      ],
+      "correta": 3,
+      "explicacao": "O dito é uma constatação, mas a intenção (força ilocucionária) é um pedido."
+    },
+    {
+      "id": "linguistica-21",
+      "topico": "sociolinguistica",
+      "nivel": "conceitual",
+      "pergunta": "\"Mandioca\", \"aipim\" e \"macaxeira\" para o mesmo alimento são exemplo de variação:",
+      "opcoes": [
+        "Diatópica (geográfica)",
+        "Diastrática (social)",
+        "Diafásica (situacional)",
+        "Diacrônica (histórica)"
+      ],
+      "correta": 0,
+      "explicacao": "As palavras mudam conforme a região do país."
+    },
+    {
+      "id": "linguistica-22",
+      "topico": "sociolinguistica",
+      "nivel": "conceitual",
+      "pergunta": "O preconceito linguístico, estudado por Marcos Bagno, é:",
+      "opcoes": [
+        "Preferir aprender línguas estrangeiras",
+        "Discriminar pessoas pela forma como falam",
+        "Estudar a gramática normativa",
+        "Usar gírias em contextos informais"
+      ],
+      "correta": 1,
+      "explicacao": "Mitos como \"brasileiro não sabe português\" desvalorizam variedades com regras próprias."
+    },
+    {
+      "id": "linguistica-23",
+      "topico": "sociolinguistica",
+      "nivel": "conceitual",
+      "pergunta": "Do ponto de vista da sociolinguística, a frase \"os menino chegou\":",
+      "opcoes": [
+        "Não tem nenhuma regra gramatical",
+        "É impossível de entender",
+        "Segue regras de uma variedade popular, marcando o plural no determinante",
+        "Pertence à norma-padrão"
+      ],
+      "correta": 2,
+      "explicacao": "A variedade é sistemática; o problema não é falta de regra, mas adequação à situação."
+    },
+    {
+      "id": "linguistica-24",
+      "topico": "sociolinguistica",
+      "nivel": "aplicacao",
+      "pergunta": "Um advogado fala de um jeito no tribunal e de outro com os amigos no bar. Que tipo de variação é essa?",
+      "opcoes": [
+        "Diatópica",
+        "Diacrônica",
+        "Diamésica",
+        "Diafásica (situacional/estilística)"
+      ],
+      "correta": 3,
+      "explicacao": "O mesmo falante ajusta o grau de formalidade à situação."
+    },
+    {
+      "id": "linguistica-25",
+      "topico": "sociolinguistica",
+      "nivel": "analise",
+      "pergunta": "A sequência \"vossa mercê\" → \"vosmecê\" → \"você\" → \"cê\" ilustra:",
+      "opcoes": [
+        "Mudança linguística ao longo do tempo",
+        "Erro de pronúncia moderno",
+        "Variação apenas regional",
+        "Empréstimo de outra língua"
+      ],
+      "correta": 0,
+      "explicacao": "É variação diacrônica: as formas se reduziram com o uso ao longo dos séculos."
+    },
+    {
+      "id": "linguistica-26",
+      "topico": "aquisicao",
+      "nivel": "conceitual",
+      "pergunta": "Para a teoria inatista de Chomsky, as crianças adquirem a linguagem porque:",
+      "opcoes": [
+        "Apenas imitam os adultos",
+        "Nascem com uma capacidade inata e uma gramática universal",
+        "São premiadas a cada palavra correta",
+        "Aprendem só na escola"
+      ],
+      "correta": 1,
+      "explicacao": "A pobreza do estímulo e a rapidez da aquisição sugerem uma base biológica."
+    },
+    {
+      "id": "linguistica-27",
+      "topico": "aquisicao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre coesão e coerência?",
+      "opcoes": [
+        "São sinônimos",
+        "Coesão é o sentido e coerência é a pontuação",
+        "Coesão são as ligações linguísticas entre as partes; coerência é o sentido global do texto",
+        "Coerência depende só de conectivos"
+      ],
+      "correta": 2,
+      "explicacao": "Um texto pode ter conectivos (coesão) e ainda assim ser contraditório (incoerente)."
+    },
+    {
+      "id": "linguistica-28",
+      "topico": "aquisicao",
+      "nivel": "conceitual",
+      "pergunta": "Para Vygotsky, a linguagem se desenvolve principalmente:",
+      "opcoes": [
+        "Por imitação mecânica",
+        "Sem influência do ambiente",
+        "Só após a alfabetização",
+        "Na interação social e cultural"
+      ],
+      "correta": 3,
+      "explicacao": "A mediação de outras pessoas e da cultura é central no sociointeracionismo."
+    },
+    {
+      "id": "linguistica-29",
+      "topico": "aquisicao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança diz \"eu fazi\" em vez de \"eu fiz\". O que isso indica?",
+      "opcoes": [
+        "Que ela aplica uma regra geral da língua (hiper-regularização), não só imita",
+        "Que ela imita exatamente os adultos",
+        "Que tem um distúrbio de linguagem",
+        "Que nunca ouviu verbos"
+      ],
+      "correta": 0,
+      "explicacao": "Os adultos não dizem fazi; a criança generaliza a regra dos verbos regulares, argumento a favor do inatismo."
+    },
+    {
+      "id": "linguistica-30",
+      "topico": "aquisicao",
+      "nivel": "analise",
+      "pergunta": "Em \"Maria chegou cedo. Ela abriu a loja\", o pronome \"ela\" é um recurso de:",
+      "opcoes": [
+        "Coesão sequencial",
+        "Coesão referencial",
+        "Incoerência",
+        "Variação diatópica"
+      ],
+      "correta": 1,
+      "explicacao": "O pronome retoma um termo já mencionado; conectivos como porém e portanto fazem a coesão sequencial."
+    }
+  ]
+}

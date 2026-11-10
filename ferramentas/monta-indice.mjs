@@ -1082,6 +1082,38 @@ export const EXTRA = {
       "Língua Brasileira de Sinais - Libras",
       "Língua Brasileira de Sinais (Libras)"
     ]
+  },
+  "linguistica": {
+    "area": "Letras",
+    "apelidos": [
+      "Linguística",
+      "Linguística I",
+      "Linguística II",
+      "Linguística Geral",
+      "Introdução à Linguística",
+      "Introdução aos Estudos Linguísticos",
+      "Fundamentos de Linguística",
+      "Estudos Linguísticos",
+      "Sociolinguística",
+      "Fonética e Fonologia",
+      "Linguística Aplicada"
+    ]
+  },
+  "teoria-literaria": {
+    "area": "Letras",
+    "apelidos": [
+      "Teoria Literária",
+      "Teoria Literária I",
+      "Teoria Literária II",
+      "Teoria da Literatura",
+      "Teoria da Literatura I",
+      "Teoria da Literatura II",
+      "Introdução aos Estudos Literários",
+      "Estudos Literários",
+      "Introdução à Literatura",
+      "Teoria e Crítica Literária",
+      "Crítica Literária"
+    ]
   }
 };
 

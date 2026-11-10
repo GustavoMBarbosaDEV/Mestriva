@@ -1,0 +1,465 @@
+{
+  "id": "teoria-literaria",
+  "nome": "Teoria Literária",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceito",
+      "nome": "O que é literatura",
+      "resumo": "### Definições\nNão há definição única; algumas perspectivas:\n- **Mímesis** (Aristóteles): a arte como **imitação/representação** da realidade, não cópia: o poeta fala do que **poderia** acontecer (verossimilhança).\n- **Ficcionalidade**: a literatura cria mundos imaginários; o pacto ficcional entre autor e leitor.\n- **Literariedade** (formalistas russos): o que torna um texto literário é o **uso especial da linguagem**, que chama atenção para si mesma (função **poética** de Jakobson).\n- **Visão institucional**: é literatura o que uma comunidade, em certo momento, reconhece como tal (crítica, escola, editoras).\n\n### Linguagem literária\n- **Plurissignificação** (polissemia): o texto admite várias leituras.\n- **Conotação** predominante; **figuras de linguagem**.\n- **Função estética**: o prazer e a reflexão estão na forma, não só na informação.\n- **Verossimilhança**: coerência interna do mundo ficcional (não é o mesmo que verdade).\n\n### Funções da literatura\n**Antonio Candido**, \"O direito à literatura\": a literatura é uma **necessidade universal** e um **direito humano**, pois humaniza, organiza o caos interior e permite conhecer outros mundos.\n\n### Cânone\nConjunto de obras consideradas \"clássicas\" e ensinadas; é **histórico** e **disputado** (inclusão de autoras mulheres, negras, indígenas, periféricas).\n\n### Literatura e sociedade\nCandido (*Literatura e Sociedade*, *Formação da Literatura Brasileira*): a literatura como **sistema** formado por **autores, obras e público**, ligados por uma tradição. O social não é só tema: torna-se **elemento interno** da estrutura da obra.",
+      "revisao": "**Lembre:**\n- Mímesis: representação, verossimilhança.\n- Literariedade: uso especial da linguagem.\n- Plurissignificação e conotação.\n- Candido: literatura como direito humano.\n- Sistema literário: autores, obras e público."
+    },
+    {
+      "id": "generos",
+      "nome": "Gêneros literários",
+      "resumo": "### Divisão clássica\nDesde Platão e Aristóteles, três grandes gêneros:\n- **Lírico**: expressão da **subjetividade**, das emoções do **eu lírico**; predomina a **1ª pessoa** e a musicalidade (poemas, sonetos, canções).\n- **Épico/narrativo**: um **narrador** conta uma história com personagens, tempo e espaço (epopeias, romances, contos, crônicas, novelas).\n- **Dramático**: texto para ser **encenado**; as personagens falam diretamente (diálogos, rubricas), sem narrador (tragédia, comédia, farsa, auto).\n\n### Subgêneros narrativos\n- **Epopeia**: narrativa longa em versos sobre feitos heroicos de um povo (*Ilíada*, *Odisseia*, *Os Lusíadas*).\n- **Romance**: narrativa longa em prosa, com vários núcleos e personagens; gênero típico da **modernidade burguesa**.\n- **Novela**: extensão intermediária, ação mais linear.\n- **Conto**: narrativa **curta**, concentrada, com unidade de efeito (Edgar Allan Poe); poucos personagens e conflito único.\n- **Crônica**: texto curto sobre o **cotidiano**, ligado ao jornal, tom leve, muitas vezes humorístico ou lírico (Rubem Braga, Fernando Sabino).\n- **Fábula** (animais e moral), apólogo (objetos), parábola.\n\n### Dramático\n- **Tragédia**: personagens elevados, destino, queda do herói; provoca **terror e piedade** e a **catarse** (purificação das emoções) segundo Aristóteles.\n- **Comédia**: personagens comuns, ridículo, crítica de costumes.\n- **Auto**: peça religiosa ou moralizante (Gil Vicente, *Auto da Compadecida* de Ariano Suassuna).\n\n### Hibridismo\nNa literatura moderna e contemporânea, os gêneros **se misturam** (prosa poética, poema em prosa, romance-ensaio). Bakhtin: gêneros do discurso.",
+      "revisao": "**Lembre:**\n- Lírico: eu lírico, subjetividade.\n- Narrativo: narrador conta uma história.\n- Dramático: para encenar, sem narrador.\n- Conto curto e concentrado; crônica do cotidiano.\n- Tragédia: catarse (Aristóteles)."
+    },
+    {
+      "id": "narrativa",
+      "nome": "Elementos da narrativa",
+      "resumo": "### Componentes\n**Enredo** (sequência de ações), **personagens**, **tempo**, **espaço** e **narrador**.\n\n### Estrutura do enredo\n**Situação inicial** → **complicação/conflito** → desenvolvimento → **clímax** (momento de maior tensão) → **desfecho**.\n- Ordem **linear** ou **não linear** (flashback/analepse, antecipação/prolepse, começar *in media res*).\n\n### Narrador (foco narrativo)\n- **Narrador em 1ª pessoa (narrador-personagem)**: participa da história; visão **limitada e parcial**.\n  - **Protagonista** (conta a própria história) ou **testemunha** (personagem secundário que observa).\n  - Pode ser **não confiável**: *Dom Casmurro* (Machado de Assis), em que Bentinho narra sua versão sobre a suposta traição de Capitu.\n- **Narrador em 3ª pessoa**:\n  - **Observador**: conta de fora o que se vê.\n  - **Onisciente**: conhece pensamentos e sentimentos das personagens; pode ser **intruso** (comenta e se dirige ao leitor).\n\n### Discurso das personagens\n- **Direto**: a fala reproduzida, com travessão ou aspas.\n- **Indireto**: o narrador relata a fala com suas palavras (\"Ele disse **que** estava cansado\").\n- **Indireto livre**: mistura a voz do narrador e o pensamento da personagem, sem marcas (muito usado por Clarice Lispector e Graciliano Ramos em *Vidas Secas*).\n- **Fluxo de consciência**: pensamentos sem ordem lógica (James Joyce, Virginia Woolf, Clarice).\n\n### Personagens\n- **Planas** (um só traço, previsíveis; tipos e caricaturas) × **redondas/esféricas** (complexas, surpreendem) — classificação de **E. M. Forster**.\n- Protagonista, antagonista, secundárias.\n\n### Tempo\n**Cronológico** (do relógio) × **psicológico** (vivido pela personagem).",
+      "revisao": "**Lembre:**\n- Enredo: situação inicial, conflito, clímax, desfecho.\n- 1ª pessoa: protagonista ou testemunha; pode não ser confiável.\n- 3ª pessoa: observador ou onisciente.\n- Discurso indireto livre: mistura narrador e personagem.\n- Personagem plana × redonda (Forster)."
+    },
+    {
+      "id": "poesia",
+      "nome": "Versificação e poesia",
+      "resumo": "### Verso e estrofe\n- **Verso**: cada linha do poema. **Estrofe**: conjunto de versos.\n- Estrofes: dístico (2), terceto (3), **quarteto/quadra** (4), quintilha (5), sextilha (6), oitava (8), décima (10).\n- **Soneto**: 14 versos em **dois quartetos e dois tercetos** (forma fixa italiana, cultivada por Camões, Bilac, Vinicius de Moraes).\n\n### Metrificação (escansão)\nContam-se as **sílabas poéticas** até a **última tônica** do verso, juntando vogais entre palavras (elisão, sinalefa).\n- **Redondilha menor**: 5 sílabas; **redondilha maior**: **7 sílabas** (muito popular: cordel, cantigas).\n- **Decassílabo**: 10 sílabas (heroico: tônicas na 6ª e 10ª; sáfico: 4ª, 8ª e 10ª).\n- **Alexandrino**: 12 sílabas (parnasianos).\n- **Verso livre**: sem métrica regular (modernismo).\n- **Verso branco**: tem métrica, mas **sem rima**.\n\n### Rima\n- Esquemas: **emparelhadas** (AABB), **alternadas/cruzadas** (ABAB), **interpoladas/opostas** (ABBA).\n- **Ricas** (classes gramaticais diferentes) × **pobres** (mesma classe).\n- Rima **interna** (no meio do verso).\n\n### Recursos sonoros\n- **Aliteração**: repetição de **consoantes** (\"Vozes veladas, veludosas vozes\", Cruz e Sousa).\n- **Assonância**: repetição de **vogais**.\n- **Onomatopeia**.\n- **Ritmo** (alternância de sílabas fortes e fracas).\n\n### Eu lírico\nA voz que fala no poema **não é o autor** em pessoa: é uma construção textual. Fernando Pessoa: \"O poeta é um fingidor\".\n- **Heterônimos** de Pessoa: Alberto Caeiro, Ricardo Reis, Álvaro de Campos.",
+      "revisao": "**Lembre:**\n- Soneto: 2 quartetos + 2 tercetos.\n- Conta-se até a última sílaba tônica.\n- Redondilha maior: 7; decassílabo: 10; alexandrino: 12.\n- Verso livre: sem métrica; verso branco: sem rima.\n- Eu lírico ≠ autor."
+    },
+    {
+      "id": "figuras",
+      "nome": "Figuras de linguagem",
+      "resumo": "### Figuras de palavra (semânticas)\n- **Metáfora**: comparação **implícita**, sem conectivo (\"Meu coração é um balde despejado\").\n- **Comparação (símile)**: com conectivo **como**, **feito**, **tal qual** (\"forte como um touro\").\n- **Metonímia**: troca por relação de **proximidade/contiguidade**: autor pela obra (\"ler **Machado**\"), continente pelo conteúdo (\"bebeu um **copo**\"), marca pelo produto, parte pelo todo (sinédoque).\n- **Catacrese**: metáfora desgastada por falta de termo próprio (\"**pé** da mesa\", \"**braço** da cadeira\").\n- **Sinestesia**: mistura de **sentidos** (\"voz **doce**\", \"cheiro **verde**\").\n- **Antonomásia**: designar pessoa por atributo (\"o **Poeta dos Escravos**\" = Castro Alves).\n\n### Figuras de pensamento\n- **Antítese**: ideias **opostas** (\"Amor é **fogo** que arde sem se ver\" usa vários opostos; \"o dia e a noite\").\n- **Paradoxo (oxímoro)**: opostos que parecem **contraditórios** na mesma ideia (\"**ferida que dói e não se sente**\", Camões).\n- **Hipérbole**: **exagero** (\"chorei rios de lágrimas\").\n- **Eufemismo**: **suavização** (\"ele **partiu** desta para melhor\").\n- **Ironia**: dizer o **contrário** do que se pensa, com intenção crítica.\n- **Prosopopeia (personificação)**: atribuir características humanas a seres inanimados ou animais (\"o vento **sussurrava**\").\n- **Gradação**: sequência em intensidade crescente ou decrescente.\n- **Apóstrofe**: invocação (\"Deus! ó Deus! onde estás que não respondes?\", Castro Alves).\n\n### Figuras de construção (sintaxe)\n- **Elipse** (omissão de termo facilmente subentendido) e **zeugma** (omissão de termo **já citado**).\n- **Polissíndeto**: repetição de **conjunções** (\"e chora, e ri, e grita\").\n- **Assíndeto**: ausência de conjunções (\"Vim, vi, venci\").\n- **Anáfora**: repetição de palavra no **início** de versos ou frases.\n- **Pleonasmo** literário, **hipérbato** (inversão da ordem: \"Ouviram do Ipiranga as margens plácidas\").",
+      "revisao": "**Lembre:**\n- Metáfora sem conectivo; comparação com \"como\".\n- Metonímia: proximidade (autor pela obra).\n- Antítese: opostos; paradoxo: contradição na mesma ideia.\n- Hipérbole: exagero; eufemismo: suavização.\n- Polissíndeto: muitas conjunções; assíndeto: nenhuma."
+    },
+    {
+      "id": "correntes",
+      "nome": "Correntes da teoria e da crítica literária",
+      "resumo": "### Formalismo russo (início do século XX)\n**Chklóvski**, **Jakobson**, **Eikhenbaum**. Foco na **forma** e na **literariedade**.\n- **Estranhamento (desautomatização)**: a arte torna estranho o que é habitual, para que o percebamos de novo.\n- Distinção entre **fábula** (os fatos em ordem cronológica) e **trama** (o modo como são apresentados).\n- **Propp**: funções do conto maravilhoso russo (31 funções).\n\n### New Criticism (EUA/Inglaterra)\n**Leitura atenta (close reading)** do texto em si; recusa da \"**falácia intencional**\" (buscar o sentido na intenção do autor).\n\n### Estruturalismo e narratologia\nBarthes, Todorov, **Genette** (análise do discurso narrativo: ordem, duração, voz, focalização), Greimas.\n\n### Mikhail Bakhtin\n- **Dialogismo**: todo enunciado responde a outros.\n- **Polifonia**: no romance (Dostoiévski), várias vozes e consciências **independentes**, sem que a do autor domine.\n- **Carnavalização**: inversão de hierarquias e o riso popular na literatura.\n\n### Estética da recepção (Escola de Constança)\n**Hans Robert Jauss** e **Wolfgang Iser**: o **leitor** participa da construção do sentido.\n- **Horizonte de expectativas**.\n- **Vazios** do texto, preenchidos pelo leitor.\n- Umberto Eco: **obra aberta**, leitor-modelo.\n\n### Pós-estruturalismo e desconstrução\n**Barthes**, \"**A morte do autor**\" (1967): o sentido nasce na leitura, não na intenção do autor. **Derrida**: desconstrução, sentidos sempre adiados.\n- **Intertextualidade** (**Julia Kristeva**): todo texto é um mosaico de citações; **paródia** (retomada crítica ou cômica: \"Canção do exílio\" parodiada por Oswald de Andrade e Murilo Mendes) e **paráfrase** (retomada que mantém o sentido).\n\n### Crítica cultural e outras abordagens\nCrítica **sociológica** e marxista (Lukács, Candido), **psicanalítica**, **feminista**, **pós-colonial** (Edward Said, Homi Bhabha), estudos culturais, literatura **negra** e **indígena**.",
+      "revisao": "**Lembre:**\n- Formalismo: literariedade, estranhamento; fábula × trama.\n- Bakhtin: dialogismo e polifonia.\n- Estética da recepção: o leitor constrói o sentido (Jauss, Iser).\n- Barthes: a morte do autor.\n- Intertextualidade: paródia (crítica) × paráfrase (mantém o sentido)."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "teoria-literaria-1",
+      "topico": "conceito",
+      "nivel": "conceitual",
+      "pergunta": "Para Aristóteles, a mímesis na arte significa:",
+      "opcoes": [
+        "Representação verossímil da realidade, não uma cópia fiel",
+        "Cópia exata dos fatos reais",
+        "Rejeição completa da realidade",
+        "Expressão apenas das emoções do autor"
+      ],
+      "correta": 0,
+      "explicacao": "O poeta trata do que poderia acontecer, segundo a verossimilhança, e não só do que aconteceu, como o historiador."
+    },
+    {
+      "id": "teoria-literaria-2",
+      "topico": "conceito",
+      "nivel": "conceitual",
+      "pergunta": "Os formalistas russos chamaram de literariedade:",
+      "opcoes": [
+        "A quantidade de páginas de um livro",
+        "O uso especial da linguagem que faz de um texto uma obra literária",
+        "A biografia do autor",
+        "A vendagem de uma obra"
+      ],
+      "correta": 1,
+      "explicacao": "O foco estava em recursos formais que chamam a atenção para a própria linguagem."
+    },
+    {
+      "id": "teoria-literaria-3",
+      "topico": "conceito",
+      "nivel": "conceitual",
+      "pergunta": "Para Antonio Candido, a literatura é:",
+      "opcoes": [
+        "Um luxo reservado às elites",
+        "Apenas um passatempo",
+        "Um direito humano, pois satisfaz uma necessidade universal de ficção e humaniza",
+        "Uma disciplina escolar sem função social"
+      ],
+      "correta": 2,
+      "explicacao": "No ensaio \"O direito à literatura\", ele defende o acesso de todos às obras, eruditas e populares."
+    },
+    {
+      "id": "teoria-literaria-4",
+      "topico": "conceito",
+      "nivel": "aplicacao",
+      "pergunta": "Um romance de ficção científica apresenta naves e planetas inexistentes, mas com regras internas coerentes. Isso exemplifica:",
+      "opcoes": [
+        "Erro de representação",
+        "Falta de literariedade",
+        "Texto não ficcional",
+        "Verossimilhança no mundo ficcional"
+      ],
+      "correta": 3,
+      "explicacao": "Verossimilhança não é verdade factual, e sim coerência interna da obra."
+    },
+    {
+      "id": "teoria-literaria-5",
+      "topico": "conceito",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que o cânone literário é histórico e disputado?",
+      "opcoes": [
+        "Porque as obras consideradas clássicas mudam com o tempo e com a inclusão de vozes antes excluídas",
+        "Porque é fixo desde a Antiguidade",
+        "Porque só inclui obras estrangeiras",
+        "Porque é decidido por sorteio"
+      ],
+      "correta": 0,
+      "explicacao": "A revalorização de autoras como Maria Firmina dos Reis e Carolina Maria de Jesus mostra essa mudança."
+    },
+    {
+      "id": "teoria-literaria-6",
+      "topico": "generos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a característica principal do gênero lírico?",
+      "opcoes": [
+        "A presença de um narrador que conta uma história",
+        "A expressão da subjetividade de um eu lírico",
+        "Texto feito para ser encenado",
+        "A narração de feitos heroicos de um povo"
+      ],
+      "correta": 1,
+      "explicacao": "Predomina a primeira pessoa e a musicalidade, como em poemas e canções."
+    },
+    {
+      "id": "teoria-literaria-7",
+      "topico": "generos",
+      "nivel": "conceitual",
+      "pergunta": "O gênero dramático se distingue por:",
+      "opcoes": [
+        "Ter sempre um narrador onisciente",
+        "Ser sempre escrito em versos líricos",
+        "Ser escrito para encenação, com falas das personagens e sem narrador",
+        "Contar só fatos reais"
+      ],
+      "correta": 2,
+      "explicacao": "As rubricas indicam cenário e ações; a história se desenrola nos diálogos."
+    },
+    {
+      "id": "teoria-literaria-8",
+      "topico": "generos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Aristóteles, a tragédia provoca no espectador:",
+      "opcoes": [
+        "Riso diante do ridículo",
+        "Apenas tédio",
+        "Vontade de imitar o herói",
+        "Catarse, purificação das emoções por meio do terror e da piedade"
+      ],
+      "correta": 3,
+      "explicacao": "A comédia, por sua vez, explora o ridículo e os costumes."
+    },
+    {
+      "id": "teoria-literaria-9",
+      "topico": "generos",
+      "nivel": "aplicacao",
+      "pergunta": "Um texto curto de jornal comenta com humor uma fila de banco do dia a dia. Qual é o gênero mais provável?",
+      "opcoes": [
+        "Crônica",
+        "Epopeia",
+        "Tragédia",
+        "Romance"
+      ],
+      "correta": 0,
+      "explicacao": "A crônica parte do cotidiano, tem linguagem leve e circula em jornais e revistas."
+    },
+    {
+      "id": "teoria-literaria-10",
+      "topico": "generos",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença essencial entre conto e romance?",
+      "opcoes": [
+        "O conto é sempre em versos",
+        "O conto é curto e concentrado num conflito; o romance é longo, com vários núcleos e personagens",
+        "O romance não tem narrador",
+        "O conto é sempre infantil"
+      ],
+      "correta": 1,
+      "explicacao": "Poe falava na unidade de efeito do conto, que pode ser lido de uma vez."
+    },
+    {
+      "id": "teoria-literaria-11",
+      "topico": "narrativa",
+      "nivel": "conceitual",
+      "pergunta": "O narrador onisciente é aquele que:",
+      "opcoes": [
+        "Participa da história como protagonista",
+        "Só descreve o que se vê de fora",
+        "Conhece os pensamentos e sentimentos das personagens",
+        "Não existe na narrativa"
+      ],
+      "correta": 2,
+      "explicacao": "O observador, ao contrário, narra apenas o que pode ser visto, sem entrar na mente das personagens."
+    },
+    {
+      "id": "teoria-literaria-12",
+      "topico": "narrativa",
+      "nivel": "conceitual",
+      "pergunta": "No discurso indireto livre:",
+      "opcoes": [
+        "A fala é reproduzida com travessão",
+        "O narrador usa \"disse que\" para relatar",
+        "Não há personagens",
+        "A voz do narrador se mistura ao pensamento da personagem, sem marcas de fala"
+      ],
+      "correta": 3,
+      "explicacao": "É muito usado em Vidas Secas, de Graciliano Ramos, e por Clarice Lispector."
+    },
+    {
+      "id": "teoria-literaria-13",
+      "topico": "narrativa",
+      "nivel": "conceitual",
+      "pergunta": "Segundo E. M. Forster, uma personagem redonda (esférica):",
+      "opcoes": [
+        "É complexa e capaz de surpreender o leitor",
+        "Tem um único traço e é previsível",
+        "Nunca muda ao longo da história",
+        "É sempre o antagonista"
+      ],
+      "correta": 0,
+      "explicacao": "As personagens planas são construídas em torno de um traço só, como tipos e caricaturas."
+    },
+    {
+      "id": "teoria-literaria-14",
+      "topico": "narrativa",
+      "nivel": "aplicacao",
+      "pergunta": "Em \"Dom Casmurro\", Bentinho conta sua versão sobre a suposta traição de Capitu. Como se classifica esse narrador?",
+      "opcoes": [
+        "Narrador onisciente neutro",
+        "Narrador-personagem em 1ª pessoa, possivelmente não confiável",
+        "Narrador observador em 3ª pessoa",
+        "Não há narrador"
+      ],
+      "correta": 1,
+      "explicacao": "Por ser parte interessada, sua versão é parcial, e a dúvida sobre Capitu nunca se resolve."
+    },
+    {
+      "id": "teoria-literaria-15",
+      "topico": "narrativa",
+      "nivel": "analise",
+      "pergunta": "Uma história começa com o protagonista já preso e depois volta à infância dele. Que recurso é usado?",
+      "opcoes": [
+        "Narrativa estritamente linear",
+        "Discurso direto",
+        "Início in media res com flashback (analepse)",
+        "Personagem plana"
+      ],
+      "correta": 2,
+      "explicacao": "A ordem do discurso difere da ordem cronológica dos fatos, criando suspense."
+    },
+    {
+      "id": "teoria-literaria-16",
+      "topico": "poesia",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a estrutura de um soneto?",
+      "opcoes": [
+        "Três quartetos e um dístico de 12 versos",
+        "Uma única estrofe de 10 versos",
+        "Versos livres sem número fixo",
+        "Dois quartetos e dois tercetos, totalizando 14 versos"
+      ],
+      "correta": 3,
+      "explicacao": "É uma forma fixa de origem italiana, cultivada por Camões e pelos parnasianos."
+    },
+    {
+      "id": "teoria-literaria-17",
+      "topico": "poesia",
+      "nivel": "conceitual",
+      "pergunta": "Na escansão, as sílabas poéticas são contadas:",
+      "opcoes": [
+        "Até a última sílaba tônica do verso",
+        "Até o fim da última palavra, incluindo átonas",
+        "Apenas as vogais",
+        "Pela ortografia das palavras"
+      ],
+      "correta": 0,
+      "explicacao": "Também se juntam vogais entre palavras (elisão), por isso a contagem difere da gramatical."
+    },
+    {
+      "id": "teoria-literaria-18",
+      "topico": "poesia",
+      "nivel": "conceitual",
+      "pergunta": "O verso branco é aquele que:",
+      "opcoes": [
+        "Não tem métrica nem rima",
+        "Tem métrica, mas não tem rima",
+        "Tem rima, mas não tem métrica",
+        "É escrito em prosa"
+      ],
+      "correta": 1,
+      "explicacao": "O verso livre, típico do modernismo, é que dispensa a métrica regular."
+    },
+    {
+      "id": "teoria-literaria-19",
+      "topico": "poesia",
+      "nivel": "aplicacao",
+      "pergunta": "Num poema, os versos rimam no esquema ABBA. Como se chamam essas rimas?",
+      "opcoes": [
+        "Emparelhadas",
+        "Alternadas",
+        "Interpoladas (opostas)",
+        "Internas"
+      ],
+      "correta": 2,
+      "explicacao": "O primeiro rima com o quarto e o segundo com o terceiro; AABB seria emparelhada e ABAB, alternada."
+    },
+    {
+      "id": "teoria-literaria-20",
+      "topico": "poesia",
+      "nivel": "analise",
+      "pergunta": "Por que não se deve confundir o eu lírico com o autor do poema?",
+      "opcoes": [
+        "Porque o autor nunca escreve sobre si",
+        "Porque o eu lírico é sempre um personagem histórico",
+        "Porque poemas não têm voz",
+        "Porque o eu lírico é uma voz criada no texto, que pode não expressar a vida real do autor"
+      ],
+      "correta": 3,
+      "explicacao": "Pessoa resumiu: \"O poeta é um fingidor\"; seus heterônimos mostram vozes diferentes do mesmo autor."
+    },
+    {
+      "id": "teoria-literaria-21",
+      "topico": "figuras",
+      "nivel": "conceitual",
+      "pergunta": "Em \"Li Machado de Assis nas férias\", qual figura ocorre?",
+      "opcoes": [
+        "Metonímia (autor pela obra)",
+        "Metáfora",
+        "Hipérbole",
+        "Antítese"
+      ],
+      "correta": 0,
+      "explicacao": "Troca-se a obra pelo nome do autor, numa relação de proximidade."
+    },
+    {
+      "id": "teoria-literaria-22",
+      "topico": "figuras",
+      "nivel": "conceitual",
+      "pergunta": "\"Ele partiu desta para melhor\" é exemplo de:",
+      "opcoes": [
+        "Hipérbole",
+        "Eufemismo",
+        "Ironia",
+        "Catacrese"
+      ],
+      "correta": 1,
+      "explicacao": "Suaviza uma ideia desagradável, a morte."
+    },
+    {
+      "id": "teoria-literaria-23",
+      "topico": "figuras",
+      "nivel": "conceitual",
+      "pergunta": "A sinestesia consiste em:",
+      "opcoes": [
+        "Repetição de consoantes",
+        "Exagero intencional",
+        "Mistura de impressões de sentidos diferentes",
+        "Inversão da ordem da frase"
+      ],
+      "correta": 2,
+      "explicacao": "Em \"voz doce\", a audição é descrita com um termo do paladar."
+    },
+    {
+      "id": "teoria-literaria-24",
+      "topico": "figuras",
+      "nivel": "aplicacao",
+      "pergunta": "No verso \"É ferida que dói e não se sente\" (Camões), há:",
+      "opcoes": [
+        "Eufemismo",
+        "Metonímia",
+        "Polissíndeto",
+        "Paradoxo"
+      ],
+      "correta": 3,
+      "explicacao": "Une ideias que se contradizem logicamente na mesma afirmação, o que difere da simples antítese."
+    },
+    {
+      "id": "teoria-literaria-25",
+      "topico": "figuras",
+      "nivel": "analise",
+      "pergunta": "Qual a diferença entre metáfora e comparação?",
+      "opcoes": [
+        "A comparação usa conectivo (como, tal qual); a metáfora associa as ideias diretamente",
+        "São exatamente a mesma figura",
+        "A metáfora usa sempre \"como\"",
+        "A comparação só ocorre em prosa"
+      ],
+      "correta": 0,
+      "explicacao": "\"Forte como um touro\" é comparação; \"ele é um touro\" é metáfora."
+    },
+    {
+      "id": "teoria-literaria-26",
+      "topico": "correntes",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de polifonia, aplicado ao romance de Dostoiévski, é de:",
+      "opcoes": [
+        "Roland Barthes",
+        "Mikhail Bakhtin",
+        "Hans Robert Jauss",
+        "Vladimir Propp"
+      ],
+      "correta": 1,
+      "explicacao": "Várias vozes e consciências independentes convivem no romance, sem que a do autor se imponha."
+    },
+    {
+      "id": "teoria-literaria-27",
+      "topico": "correntes",
+      "nivel": "conceitual",
+      "pergunta": "A estética da recepção valoriza principalmente:",
+      "opcoes": [
+        "A biografia do autor",
+        "Somente a métrica",
+        "O papel do leitor na construção do sentido",
+        "A vendagem das obras"
+      ],
+      "correta": 2,
+      "explicacao": "Jauss falou em horizonte de expectativas; Iser, nos vazios que o leitor preenche."
+    },
+    {
+      "id": "teoria-literaria-28",
+      "topico": "correntes",
+      "nivel": "conceitual",
+      "pergunta": "Para os formalistas russos, o estranhamento (desautomatização) é:",
+      "opcoes": [
+        "O desconforto de ler obras estrangeiras",
+        "Um erro de tradução",
+        "A recusa da literatura popular",
+        "O efeito da arte de tornar estranho o habitual, renovando a percepção"
+      ],
+      "correta": 3,
+      "explicacao": "Chklóvski dizia que a arte existe para devolver a sensação da vida, que o hábito apaga."
+    },
+    {
+      "id": "teoria-literaria-29",
+      "topico": "correntes",
+      "nivel": "aplicacao",
+      "pergunta": "Oswald de Andrade reescreveu a \"Canção do exílio\" com humor e crítica. Que recurso intertextual é esse?",
+      "opcoes": [
+        "Paródia",
+        "Paráfrase",
+        "Plágio",
+        "Resumo"
+      ],
+      "correta": 0,
+      "explicacao": "A paródia retoma o texto para subvertê-lo ou criticá-lo; a paráfrase mantém o sentido original."
+    },
+    {
+      "id": "teoria-literaria-30",
+      "topico": "correntes",
+      "nivel": "analise",
+      "pergunta": "O que Roland Barthes quis dizer com \"a morte do autor\"?",
+      "opcoes": [
+        "Que os autores devem ser anônimos por lei",
+        "Que o sentido do texto não se reduz à intenção do autor e nasce na leitura",
+        "Que a literatura acabou",
+        "Que só textos antigos merecem estudo"
+      ],
+      "correta": 1,
+      "explicacao": "Ele desloca o centro da interpretação para a linguagem e o leitor, contra a crítica biográfica."
+    }
+  ]
+}
