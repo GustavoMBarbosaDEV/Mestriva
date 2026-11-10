@@ -87,6 +87,11 @@ export function filtraBanco(indice, busca = "") {
     .sort((a, b) => (a.area || "").localeCompare(b.area || "", "pt") || a.nome.localeCompare(b.nome, "pt"));
 }
 
+/** Chave para comparar alternativas: ignora maiúsculas, espaços e pontuação final, mas não os símbolos. */
+function chaveAlternativa(o) {
+  return String(o).normalize("NFKC").toLowerCase().replace(/\s+/g, " ").replace(/[.;:!?]+$/, "").trim();
+}
+
 /** Lista de problemas da matéria do banco (vazia = ok). Regras das checagens automáticas do lançamento. */
 export function validaMateriaBanco(m) {
   const erros = [];
@@ -106,8 +111,8 @@ export function validaMateriaBanco(m) {
     if (perguntas.has(p)) erros.push(`pergunta repetida: ${q.id}`);
     perguntas.add(p);
     if (!Array.isArray(q.opcoes) || q.opcoes.length !== 4) erros.push(`${q.id}: precisa de 4 alternativas`);
-    // NFKC antes: "O(n²)" vira "O(n2)" e não se confunde com "O(n)".
-    else if (new Set(q.opcoes.map((o) => normalizaNome(String(o).normalize("NFKC")))).size !== 4) erros.push(`${q.id}: alternativas repetidas`);
+    // Mantém símbolos: "p > 1" e "p < 1", "O(n²)" e "O(n)" são alternativas diferentes.
+    else if (new Set(q.opcoes.map(chaveAlternativa)).size !== 4) erros.push(`${q.id}: alternativas repetidas`);
     if (!Number.isInteger(q.correta) || q.correta < 0 || q.correta > 3) erros.push(`${q.id}: correta fora do intervalo`);
     if (!q.explicacao || String(q.explicacao).trim().length < 40) erros.push(`${q.id}: explicação curta`);
     if (!topicos.has(q.topico)) erros.push(`${q.id}: tópico desconhecido`);

@@ -150,8 +150,11 @@ test("validador do banco aponta cada problema", () => {
 });
 
 test("validador não confunde expoentes nas alternativas", () => {
-  const qs = [{ ...q(1), opcoes: ["O(n²)", "O(n)", "O(n³)", "O(log n)"] }, q(2), q(3, "t1", "aplicacao"), q(4, "t1", "analise")];
+  const qs = [{ ...q(1), opcoes: ["O(n²)", "O(n)", "O(n³)", "O(log n)"] }, { ...q(2), opcoes: ["p > 1", "p < 1", "p = 1", "Para todo p"] }, q(3, "t1", "aplicacao"), q(4, "t1", "analise")];
   assert.deepEqual(validaMateriaBanco(materia(qs)), []);
+  // Diferença só de maiúscula, espaço ou ponto final continua sendo repetição.
+  const iguais = [{ ...q(1), opcoes: ["Sim", "sim.", "Não", "Talvez"] }, q(2), q(3, "t1", "aplicacao"), q(4, "t1", "analise")];
+  assert.ok(validaMateriaBanco(materia(iguais)).join().includes("m-1: alternativas repetidas"));
 });
 
 test("repetição espaçada", () => {
