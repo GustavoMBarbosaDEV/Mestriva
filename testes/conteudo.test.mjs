@@ -120,6 +120,11 @@ test("validador do banco aponta cada problema", () => {
   assert.ok(validaMateriaBanco(materia([q(1)])).join().includes("t1: menos de 4 questões"));
 });
 
+test("validador não confunde expoentes nas alternativas", () => {
+  const qs = [{ ...q(1), opcoes: ["O(n²)", "O(n)", "O(n³)", "O(log n)"] }, q(2), q(3, "t1", "aplicacao"), q(4, "t1", "analise")];
+  assert.deepEqual(validaMateriaBanco(materia(qs)), []);
+});
+
 test("repetição espaçada", () => {
   const agora = new Date(2026, 10, 5, 10);
   let e = registraResposta({}, "m-1", true, agora);

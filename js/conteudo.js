@@ -106,7 +106,8 @@ export function validaMateriaBanco(m) {
     if (perguntas.has(p)) erros.push(`pergunta repetida: ${q.id}`);
     perguntas.add(p);
     if (!Array.isArray(q.opcoes) || q.opcoes.length !== 4) erros.push(`${q.id}: precisa de 4 alternativas`);
-    else if (new Set(q.opcoes.map(normalizaNome)).size !== 4) erros.push(`${q.id}: alternativas repetidas`);
+    // NFKC antes: "O(n²)" vira "O(n2)" e não se confunde com "O(n)".
+    else if (new Set(q.opcoes.map((o) => normalizaNome(String(o).normalize("NFKC")))).size !== 4) erros.push(`${q.id}: alternativas repetidas`);
     if (!Number.isInteger(q.correta) || q.correta < 0 || q.correta > 3) erros.push(`${q.id}: correta fora do intervalo`);
     if (!q.explicacao || String(q.explicacao).trim().length < 40) erros.push(`${q.id}: explicação curta`);
     if (!topicos.has(q.topico)) erros.push(`${q.id}: tópico desconhecido`);
