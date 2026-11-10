@@ -1,0 +1,465 @@
+{
+  "id": "processos-psicologicos",
+  "nome": "Processos Psicológicos Básicos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "sensacao-percepcao",
+      "nome": "Sensação e percepção",
+      "resumo": "### Sensação × percepção\n- **Sensação**: captação de estímulos pelos **receptores** sensoriais e envio ao cérebro (luz na retina, ondas sonoras no ouvido). É o processo mais \"de baixo\".\n- **Percepção**: **organização e interpretação** das sensações, dando significado a elas (reconhecer um rosto, uma melodia).\n- **Transdução**: conversão do estímulo físico em impulso nervoso.\n\n### Limiares\n- **Limiar absoluto**: menor intensidade de estímulo detectada em 50% das vezes.\n- **Limiar diferencial** (diferença apenas perceptível): menor diferença notada entre dois estímulos. **Lei de Weber**: essa diferença é uma **proporção constante** do estímulo original (notar 1 kg a mais é fácil com 2 kg, difícil com 50 kg).\n- **Adaptação sensorial**: diminuição da sensibilidade a um estímulo constante (deixar de sentir o cheiro da própria casa).\n\n### Processamento\n- **De baixo para cima** (*bottom-up*): parte dos dados sensoriais.\n- **De cima para baixo** (*top-down*): guiado por conhecimentos, expectativas e contexto. A **predisposição perceptiva** faz ver o que se espera ver.\n\n### Gestalt\n\"O todo é diferente da soma das partes.\" Leis de organização:\n- **Figura e fundo**: separa-se o objeto do fundo (o vaso de Rubin).\n- **Proximidade**: elementos próximos parecem um grupo.\n- **Semelhança**: elementos parecidos são agrupados.\n- **Fechamento** (*pregnância*/clausura): completamos figuras incompletas.\n- **Continuidade** e **boa forma** (simplicidade).\n\n### Constâncias e profundidade\n- **Constância perceptiva**: percebemos tamanho, forma e cor como estáveis apesar das mudanças na imagem da retina (a porta abrindo continua retangular).\n- **Pistas de profundidade**: **binoculares** (disparidade retiniana, convergência) e **monoculares** (sobreposição, perspectiva linear, tamanho relativo, gradiente de textura).\n- **Ilusões** (Müller-Lyer) mostram que a percepção é construção, não cópia.",
+      "revisao": "**Lembre:**\n- Sensação capta; percepção interpreta.\n- Weber: diferença perceptível é proporção do estímulo.\n- Bottom-up (dados) × top-down (expectativa).\n- Gestalt: figura-fundo, proximidade, semelhança, fechamento.\n- Constância: o objeto parece estável apesar da imagem mudar."
+    },
+    {
+      "id": "atencao-consciencia",
+      "nome": "Atenção e consciência",
+      "resumo": "### Atenção\nProcesso que **seleciona** parte das informações disponíveis para processamento mais profundo, já que a capacidade é **limitada**.\n- **Seletiva**: focar num estímulo ignorando outros. **Efeito coquetel**: numa festa barulhenta, ouvimos nosso nome dito do outro lado da sala.\n- **Dividida**: atender a duas tarefas ao mesmo tempo; funciona melhor quando uma delas é **automatizada**.\n- **Sustentada** (vigilância): manter o foco por longo período.\n- **Alternada**: mudar o foco entre tarefas.\n\n### Modelos de atenção\n- **Filtro de Broadbent**: filtro **precoce**, antes do significado.\n- **Atenuação de Treisman**: os estímulos não atendidos são **enfraquecidos**, não bloqueados (por isso o nome passa).\n- **Seleção tardia** (Deutsch e Deutsch): tudo é analisado quanto ao significado e a seleção ocorre depois.\n\n### Fenômenos\n- **Cegueira por desatenção**: não ver algo evidente quando a atenção está em outra coisa (o \"gorila invisível\" de Simons e Chabris).\n- **Cegueira à mudança**: não notar mudanças numa cena.\n- **Efeito Stroop**: é mais lento dizer a **cor da tinta** quando a palavra escrita é o nome de outra cor (a leitura é automática e interfere).\n- **Processos automáticos** (rápidos, sem esforço) × **controlados** (lentos, exigem atenção).\n\n### Consciência\n- Estado de percepção de si e do ambiente; varia em **níveis** (vigília, sonolência, sono, coma).\n- **Sono**: ciclos de cerca de 90 minutos com estágios **NREM** (do leve ao profundo, ondas lentas) e **REM** (movimentos rápidos dos olhos, sonhos vívidos, músculos relaxados). O sono consolida a memória.\n- **Ritmo circadiano**: ciclo de cerca de 24 horas regulado pela luz e pela **melatonina**.\n- Estados alterados: hipnose, meditação, efeito de substâncias psicoativas (depressoras, estimulantes, alucinógenas).",
+      "revisao": "**Lembre:**\n- Atenção: seletiva, dividida, sustentada, alternada.\n- Broadbent (filtro precoce) × Treisman (atenuação).\n- Stroop: leitura automática interfere na cor.\n- Cegueira por desatenção: o gorila invisível.\n- Sono: NREM e REM em ciclos de ~90 min."
+    },
+    {
+      "id": "memoria",
+      "nome": "Memória",
+      "resumo": "### Etapas\n**Codificação** (registrar), **armazenamento** (manter) e **recuperação** (acessar).\n\n### Modelo modal (Atkinson e Shiffrin)\n1. **Memória sensorial**: dura frações de segundo (icônica, visual; ecoica, auditiva).\n2. **Memória de curto prazo**: dura cerca de **20 a 30 segundos** sem repetição; capacidade de **7 ± 2 itens** (Miller). O **agrupamento** (*chunking*) aumenta o que cabe (lembrar um telefone em blocos).\n3. **Memória de longo prazo**: capacidade praticamente ilimitada.\n\n### Memória de trabalho (Baddeley)\nSistema ativo que **manipula** a informação: **executivo central**, **alça fonológica** (sons e palavras), **esboço visuoespacial** e **retentor episódico**.\n\n### Tipos de memória de longo prazo\n- **Explícita** (declarativa): **episódica** (eventos vividos: meu último aniversário) e **semântica** (fatos e conceitos: a capital da França).\n- **Implícita** (não declarativa): **procedural** (andar de bicicleta), **pré-ativação** (*priming*) e condicionamento.\n- O **hipocampo** é essencial para formar novas memórias explícitas; o caso **H.M.** perdeu essa capacidade após a retirada dos hipocampos, mas aprendia tarefas motoras.\n\n### Esquecimento\n- **Curva de Ebbinghaus**: esquecemos muito logo depois de aprender e depois mais devagar. **Revisões espaçadas** combatem isso.\n- **Interferência proativa**: o antigo atrapalha o novo. **Retroativa**: o novo atrapalha o antigo.\n- **Falha de recuperação** (fenômeno da \"ponta da língua\").\n- **Amnésia retrógrada** (perde o passado) × **anterógrada** (não forma memórias novas).\n\n### Memória é reconstrução\n- **Efeito de desinformação** (Loftus): perguntas sugestivas alteram a lembrança de testemunhas.\n- **Falsas memórias** podem ser vívidas e sinceras.\n- **Efeito de posição serial**: lembra-se melhor o começo (**primazia**) e o fim (**recência**) de uma lista.",
+      "revisao": "**Lembre:**\n- Sensorial → curto prazo (7 ± 2) → longo prazo.\n- Memória de trabalho de Baddeley: manipula.\n- Explícita: episódica e semântica; implícita: procedural, priming.\n- Interferência proativa (velho atrapalha novo) × retroativa.\n- Loftus: memórias são reconstruídas."
+    },
+    {
+      "id": "aprendizagem",
+      "nome": "Aprendizagem por condicionamento",
+      "resumo": "**Aprendizagem**: mudança relativamente duradoura no comportamento resultante da experiência.\n\n### Condicionamento clássico (Pavlov)\n- Um **estímulo neutro** (sino), pareado com um **estímulo incondicionado** (EI, comida) que provoca uma **resposta incondicionada** (RI, salivar), passa a ser um **estímulo condicionado** (EC) que provoca uma **resposta condicionada** (RC, salivar ao ouvir o sino).\n- **Extinção**: apresentar o EC sem o EI enfraquece a RC.\n- **Recuperação espontânea**: a RC volta, mais fraca, depois de um intervalo.\n- **Generalização**: responder a estímulos parecidos com o EC. **Discriminação**: responder só ao EC.\n- **Watson e o pequeno Albert**: o medo de um rato foi condicionado pareando-o a um barulho forte, e generalizou-se para outros objetos peludos. Hoje esse experimento seria considerado antiético.\n- Explica fobias, aversões a sabores e reações emocionais.\n\n### Condicionamento operante (Skinner)\nO comportamento é controlado por suas **consequências**.\n- **Reforço** **aumenta** a frequência do comportamento:\n  - **Positivo**: **acrescenta** algo agradável (elogio após a tarefa).\n  - **Negativo**: **retira** algo desagradável (o cinto de segurança para o apito).\n- **Punição** **diminui** a frequência:\n  - **Positiva**: acrescenta algo desagradável (bronca).\n  - **Negativa**: retira algo agradável (tirar o celular).\n- **Modelagem**: reforçar aproximações sucessivas do comportamento final.\n- **Esquemas de reforço**: **contínuo** (aprende rápido, extingue rápido) e **intermitentes**: razão **fixa**, razão **variável** (o mais resistente à extinção, como nos jogos de azar), intervalo fixo e intervalo variável.\n\n### Aprendizagem por observação (Bandura)\n- Aprendemos observando **modelos** (o experimento do **João Bobo**: crianças imitaram a agressão que viram).\n- Etapas: **atenção**, **retenção**, **reprodução** e **motivação**.\n- **Reforço vicário**: ver o modelo ser recompensado aumenta a imitação.",
+      "revisao": "**Lembre:**\n- Clássico: EN + EI → EC que gera RC.\n- Extinção, recuperação espontânea, generalização.\n- Reforço aumenta; punição diminui.\n- Positivo acrescenta; negativo retira.\n- Razão variável: mais resistente à extinção."
+    },
+    {
+      "id": "motivacao-emocao",
+      "nome": "Motivação e emoção",
+      "resumo": "### Motivação\nForças que **iniciam**, **direcionam** e **mantêm** o comportamento.\n- **Teoria dos instintos**: comportamentos inatos (hoje pouco usada para humanos).\n- **Redução do impulso** (Hull): uma necessidade fisiológica gera um impulso que nos leva a agir e restabelecer a **homeostase** (fome leva a comer).\n- **Nível ótimo de excitação**: buscamos um nível intermediário de ativação. **Lei de Yerkes-Dodson**: o desempenho é melhor com ativação **moderada**; tarefas difíceis pedem ativação menor.\n- **Hierarquia de Maslow**: fisiológicas, segurança, pertencimento, estima, autorrealização.\n- **Motivação intrínseca** (pelo prazer da atividade) × **extrínseca** (por recompensas externas). Recompensas externas podem **reduzir** a motivação intrínseca (efeito de superjustificação).\n- **Teoria da autodeterminação** (Deci e Ryan): necessidades de **autonomia**, **competência** e **vínculo**.\n\n### Emoção\nComponentes: **ativação fisiológica**, **comportamento expressivo** e **experiência consciente**.\n\n### Teorias da emoção\n- **James-Lange**: a emoção é a percepção da reação do corpo (\"tremo, logo tenho medo\").\n- **Cannon-Bard**: reação corporal e emoção ocorrem **ao mesmo tempo** e de forma independente.\n- **Dois fatores** (Schachter-Singer): ativação fisiológica + **interpretação cognitiva** (rótulo) = emoção.\n- **Avaliação cognitiva** (Lazarus): a emoção depende de como **avaliamos** a situação.\n\n### Bases e expressões\n- A **amígdala** é central no medo e na detecção de ameaças.\n- **Emoções básicas** (Ekman): alegria, tristeza, medo, raiva, nojo e surpresa, com expressões faciais reconhecidas em várias culturas.\n- **Estresse**: reação a ameaças; **síndrome geral de adaptação** (Selye): **alarme**, **resistência** e **exaustão**.",
+      "revisao": "**Lembre:**\n- Homeostase e redução do impulso.\n- Yerkes-Dodson: ativação moderada é melhor.\n- Intrínseca × extrínseca; superjustificação.\n- James-Lange (corpo primeiro), Cannon-Bard (simultâneo), Schachter (ativação + rótulo).\n- Selye: alarme, resistência, exaustão."
+    },
+    {
+      "id": "pensamento-linguagem",
+      "nome": "Pensamento, linguagem e inteligência",
+      "resumo": "### Pensamento\n- **Conceitos**: categorias mentais. Muitas vezes organizados por **protótipos** (o exemplo mais típico: o sabiá é mais \"pássaro\" que o pinguim).\n- **Resolução de problemas**:\n  - **Algoritmos**: passos que garantem a solução, mas podem ser lentos.\n  - **Heurísticas**: atalhos rápidos que podem errar.\n  - **Insight**: solução súbita (Köhler e os chimpanzés).\n- **Obstáculos**: **fixação funcional** (só ver o uso habitual de um objeto) e **conjunto mental** (insistir numa estratégia que já funcionou).\n\n### Vieses e heurísticas (Kahneman e Tversky)\n- **Disponibilidade**: julgar a frequência pela facilidade de lembrar exemplos (medo de avião após notícias de acidentes).\n- **Representatividade**: julgar pela semelhança com um protótipo, ignorando as probabilidades de base.\n- **Ancoragem**: o primeiro número ouvido influencia a estimativa.\n- **Viés de confirmação**: buscar só o que confirma o que já se acredita.\n- **Efeito de enquadramento**: a forma de apresentar muda a escolha (\"90% sobrevivem\" × \"10% morrem\").\n- **Sistema 1** (rápido, intuitivo) × **Sistema 2** (lento, deliberado).\n\n### Linguagem\n- Unidades: **fonemas** (sons), **morfemas** (menores unidades com significado), **sintaxe** (regras de combinação), **semântica** (significado) e **pragmática** (uso no contexto).\n- **Chomsky**: capacidade **inata** para a linguagem (gramática universal). **Skinner**: aprendizagem por reforço.\n- **Hipótese de Sapir-Whorf**: a língua influencia o pensamento (versão forte pouco aceita; versão fraca tem apoio).\n- Áreas cerebrais: **Broca** (produção da fala) e **Wernicke** (compreensão).\n\n### Inteligência\n- **Fator g** (Spearman): uma inteligência geral.\n- **Inteligências múltiplas** (Gardner): linguística, lógico-matemática, espacial, musical, corporal, interpessoal, intrapessoal, naturalista.\n- **Triárquica** (Sternberg): analítica, criativa e prática.\n- **QI** = idade mental ÷ idade cronológica × 100 (fórmula original); hoje é por desvio da média 100 (desvio-padrão 15).",
+      "revisao": "**Lembre:**\n- Algoritmo garante; heurística é atalho.\n- Fixação funcional; conjunto mental.\n- Disponibilidade, ancoragem, confirmação, enquadramento.\n- Broca: produção; Wernicke: compreensão.\n- Spearman (g), Gardner (múltiplas), Sternberg (triárquica)."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "processos-psicologicos-1",
+      "topico": "sensacao-percepcao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre sensação e percepção?",
+      "opcoes": [
+        "Sensação capta os estímulos; percepção organiza e interpreta",
+        "São a mesma coisa",
+        "Percepção ocorre nos receptores; sensação, no córtex",
+        "Sensação é sempre consciente; percepção nunca é"
+      ],
+      "correta": 0,
+      "explicacao": "A sensação depende dos receptores e da transdução; a percepção dá significado ao que foi captado."
+    },
+    {
+      "id": "processos-psicologicos-2",
+      "topico": "sensacao-percepcao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a lei de Weber, a diferença apenas perceptível entre dois estímulos:",
+      "opcoes": [
+        "É sempre o mesmo valor absoluto",
+        "É uma proporção constante do estímulo original",
+        "Não depende do estímulo",
+        "Diminui quando o estímulo aumenta"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso é fácil notar 1 kg a mais sobre 2 kg e difícil sobre 50 kg."
+    },
+    {
+      "id": "processos-psicologicos-3",
+      "topico": "sensacao-percepcao",
+      "nivel": "conceitual",
+      "pergunta": "Ver um círculo completo onde há apenas um arco quase fechado é a lei gestáltica do:",
+      "opcoes": [
+        "Proximidade",
+        "Semelhança",
+        "Fechamento",
+        "Figura e fundo"
+      ],
+      "correta": 2,
+      "explicacao": "Tendemos a completar figuras incompletas, buscando a boa forma."
+    },
+    {
+      "id": "processos-psicologicos-4",
+      "topico": "sensacao-percepcao",
+      "nivel": "aplicacao",
+      "pergunta": "Ao entrar numa padaria, a pessoa sente forte cheiro de pão, mas depois de alguns minutos quase não o percebe. Que fenômeno é esse?",
+      "opcoes": [
+        "Limiar absoluto",
+        "Constância perceptiva",
+        "Processamento de cima para baixo",
+        "Adaptação sensorial"
+      ],
+      "correta": 3,
+      "explicacao": "A sensibilidade diminui diante de um estímulo constante, liberando atenção para mudanças."
+    },
+    {
+      "id": "processos-psicologicos-5",
+      "topico": "sensacao-percepcao",
+      "nivel": "analise",
+      "pergunta": "Um revisor lê 'O rato roeu a ropa do rei' e não percebe o erro, porque já sabe a frase. Que tipo de processamento explica isso?",
+      "opcoes": [
+        "De cima para baixo, guiado por expectativas",
+        "De baixo para cima, guiado só pelos dados",
+        "Adaptação sensorial",
+        "Lei da proximidade"
+      ],
+      "correta": 0,
+      "explicacao": "O conhecimento prévio completa a leitura e mascara o erro: é a predisposição perceptiva."
+    },
+    {
+      "id": "processos-psicologicos-6",
+      "topico": "atencao-consciencia",
+      "nivel": "conceitual",
+      "pergunta": "O efeito Stroop mostra que:",
+      "opcoes": [
+        "A memória de curto prazo guarda 7 itens",
+        "A leitura automática da palavra interfere quando se precisa dizer a cor da tinta",
+        "Não percebemos mudanças numa cena",
+        "O sono REM consolida a memória"
+      ],
+      "correta": 1,
+      "explicacao": "Processos automáticos competem com a tarefa controlada e atrasam a resposta."
+    },
+    {
+      "id": "processos-psicologicos-7",
+      "topico": "atencao-consciencia",
+      "nivel": "conceitual",
+      "pergunta": "O que é a cegueira por desatenção?",
+      "opcoes": [
+        "Perda da visão por lesão no olho",
+        "Não ver no escuro",
+        "Não perceber algo evidente porque a atenção está em outra coisa",
+        "Esquecer um rosto conhecido"
+      ],
+      "correta": 2,
+      "explicacao": "No experimento do gorila, muitos que contavam passes não viram uma pessoa fantasiada atravessar a cena."
+    },
+    {
+      "id": "processos-psicologicos-8",
+      "topico": "atencao-consciencia",
+      "nivel": "conceitual",
+      "pergunta": "Qual fase do sono está mais associada a sonhos vívidos e movimentos rápidos dos olhos?",
+      "opcoes": [
+        "NREM estágio 1",
+        "NREM de ondas lentas",
+        "Vigília relaxada",
+        "REM"
+      ],
+      "correta": 3,
+      "explicacao": "No REM, o cérebro fica muito ativo enquanto os músculos ficam relaxados."
+    },
+    {
+      "id": "processos-psicologicos-9",
+      "topico": "atencao-consciencia",
+      "nivel": "aplicacao",
+      "pergunta": "Numa festa barulhenta, uma pessoa conversando ouve seu nome dito do outro lado da sala. Que modelo de atenção explica melhor isso?",
+      "opcoes": [
+        "Atenuação de Treisman: estímulos não atendidos são enfraquecidos, não bloqueados",
+        "Filtro precoce rígido de Broadbent",
+        "Atenção sustentada",
+        "Cegueira à mudança"
+      ],
+      "correta": 0,
+      "explicacao": "Se o filtro bloqueasse tudo, o nome não passaria; estímulos importantes vencem a atenuação."
+    },
+    {
+      "id": "processos-psicologicos-10",
+      "topico": "atencao-consciencia",
+      "nivel": "analise",
+      "pergunta": "Um motorista experiente conversa enquanto dirige numa estrada conhecida, mas para de falar ao enfrentar uma tempestade. O que isso mostra?",
+      "opcoes": [
+        "A atenção é ilimitada",
+        "A atenção dividida funciona quando uma tarefa está automatizada; ao exigir controle, a capacidade limitada se esgota",
+        "Dirigir nunca é automático",
+        "A conversa melhora a direção na chuva"
+      ],
+      "correta": 1,
+      "explicacao": "Na tempestade, dirigir volta a exigir processamento controlado e não sobra capacidade para conversar."
+    },
+    {
+      "id": "processos-psicologicos-11",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Miller, a capacidade da memória de curto prazo é de cerca de:",
+      "opcoes": [
+        "2 itens",
+        "100 itens",
+        "7 ± 2 itens",
+        "Ilimitada"
+      ],
+      "correta": 2,
+      "explicacao": "O agrupamento (chunking) permite guardar mais informação em cada item."
+    },
+    {
+      "id": "processos-psicologicos-12",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "Lembrar do próprio casamento é exemplo de memória:",
+      "opcoes": [
+        "Semântica",
+        "Procedural",
+        "Sensorial",
+        "Episódica"
+      ],
+      "correta": 3,
+      "explicacao": "Episódica guarda eventos vividos; semântica guarda fatos e conceitos."
+    },
+    {
+      "id": "processos-psicologicos-13",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "A interferência retroativa ocorre quando:",
+      "opcoes": [
+        "Uma informação nova atrapalha a lembrança de uma antiga",
+        "Uma informação antiga atrapalha a nova",
+        "A memória sensorial se apaga",
+        "O hipocampo forma memórias novas"
+      ],
+      "correta": 0,
+      "explicacao": "Na proativa, o antigo atrapalha o novo, como digitar a senha velha."
+    },
+    {
+      "id": "processos-psicologicos-14",
+      "topico": "memoria",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente, após uma lesão nos hipocampos, não consegue lembrar de nada que aconteceu depois dela, mas recorda a infância. Que tipo de amnésia ele tem?",
+      "opcoes": [
+        "Retrógrada",
+        "Anterógrada",
+        "Infantil",
+        "Dissociativa"
+      ],
+      "correta": 1,
+      "explicacao": "A anterógrada impede formar memórias novas; a retrógrada apaga o passado."
+    },
+    {
+      "id": "processos-psicologicos-15",
+      "topico": "memoria",
+      "nivel": "analise",
+      "pergunta": "Em pesquisas de Loftus, testemunhas que ouviram 'esmagaram' estimaram velocidades maiores e lembraram de vidro quebrado que não existia. O que isso indica?",
+      "opcoes": [
+        "As testemunhas mentiram de propósito",
+        "A memória é uma gravação exata",
+        "A memória é reconstruída e pode ser alterada por informações posteriores",
+        "O vidro estava lá e não foi registrado no vídeo"
+      ],
+      "correta": 2,
+      "explicacao": "O efeito de desinformação mostra o cuidado necessário com perguntas sugestivas em depoimentos."
+    },
+    {
+      "id": "processos-psicologicos-16",
+      "topico": "aprendizagem",
+      "nivel": "conceitual",
+      "pergunta": "No experimento de Pavlov, depois do condicionamento, o som do sino é:",
+      "opcoes": [
+        "Estímulo incondicionado",
+        "Resposta incondicionada",
+        "Reforço negativo",
+        "Estímulo condicionado"
+      ],
+      "correta": 3,
+      "explicacao": "O sino era neutro; pareado com a comida (EI), passou a provocar a salivação sozinho."
+    },
+    {
+      "id": "processos-psicologicos-17",
+      "topico": "aprendizagem",
+      "nivel": "conceitual",
+      "pergunta": "No condicionamento operante, o reforço negativo:",
+      "opcoes": [
+        "Aumenta um comportamento retirando algo desagradável",
+        "Diminui um comportamento acrescentando algo ruim",
+        "É o mesmo que punição",
+        "Retira algo agradável para diminuir o comportamento"
+      ],
+      "correta": 0,
+      "explicacao": "Negativo é retirar; reforço sempre aumenta. Punição é que diminui."
+    },
+    {
+      "id": "processos-psicologicos-18",
+      "topico": "aprendizagem",
+      "nivel": "conceitual",
+      "pergunta": "Qual esquema de reforço produz comportamentos mais resistentes à extinção?",
+      "opcoes": [
+        "Reforço contínuo",
+        "Razão variável",
+        "Intervalo fixo",
+        "Nenhum reforço"
+      ],
+      "correta": 1,
+      "explicacao": "Como no caça-níquel, não se sabe quando virá o prêmio, e a pessoa continua tentando."
+    },
+    {
+      "id": "processos-psicologicos-19",
+      "topico": "aprendizagem",
+      "nivel": "aplicacao",
+      "pergunta": "Os pais tiram o videogame do filho por ele bater no irmão, e as agressões diminuem. Que procedimento foi usado?",
+      "opcoes": [
+        "Reforço negativo",
+        "Punição positiva",
+        "Punição negativa",
+        "Reforço positivo"
+      ],
+      "correta": 2,
+      "explicacao": "Retirou-se algo agradável (negativa) e o comportamento diminuiu (punição)."
+    },
+    {
+      "id": "processos-psicologicos-20",
+      "topico": "aprendizagem",
+      "nivel": "analise",
+      "pergunta": "Depois de passar mal ao comer camarão uma única vez, uma pessoa sente náusea só de sentir o cheiro dele. O que explica isso?",
+      "opcoes": [
+        "Reforço positivo",
+        "Modelagem por aproximações",
+        "Aprendizagem por observação",
+        "Condicionamento clássico de aversão ao sabor"
+      ],
+      "correta": 3,
+      "explicacao": "O cheiro (antes neutro) foi pareado com o mal-estar e virou estímulo condicionado, mesmo com um só pareamento."
+    },
+    {
+      "id": "processos-psicologicos-21",
+      "topico": "motivacao-emocao",
+      "nivel": "conceitual",
+      "pergunta": "A lei de Yerkes-Dodson afirma que o desempenho é melhor com:",
+      "opcoes": [
+        "Nível moderado de ativação",
+        "Ativação máxima sempre",
+        "Nenhuma ativação",
+        "Ativação apenas fisiológica"
+      ],
+      "correta": 0,
+      "explicacao": "Ativação baixa gera desinteresse; alta demais gera ansiedade. Tarefas difíceis pedem nível um pouco menor."
+    },
+    {
+      "id": "processos-psicologicos-22",
+      "topico": "motivacao-emocao",
+      "nivel": "conceitual",
+      "pergunta": "A teoria de Schachter-Singer diz que a emoção resulta de:",
+      "opcoes": [
+        "Apenas reações corporais",
+        "Ativação fisiológica mais uma interpretação cognitiva",
+        "Reações corporais e emoção independentes e simultâneas",
+        "Apenas instintos"
+      ],
+      "correta": 1,
+      "explicacao": "É a teoria dos dois fatores: o mesmo coração acelerado pode ser lido como medo ou como paixão."
+    },
+    {
+      "id": "processos-psicologicos-23",
+      "topico": "motivacao-emocao",
+      "nivel": "conceitual",
+      "pergunta": "Qual estrutura cerebral é central no processamento do medo?",
+      "opcoes": [
+        "Cerebelo",
+        "Área de Broca",
+        "Amígdala",
+        "Bulbo olfatório"
+      ],
+      "correta": 2,
+      "explicacao": "A amígdala detecta ameaças e dispara reações rápidas de defesa."
+    },
+    {
+      "id": "processos-psicologicos-24",
+      "topico": "motivacao-emocao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança que adorava desenhar passa a ganhar dinheiro por desenho; quando o pagamento para, ela quase não desenha mais. Que fenômeno é esse?",
+      "opcoes": [
+        "Lei de Yerkes-Dodson",
+        "Redução do impulso",
+        "Síndrome geral de adaptação",
+        "Efeito de superjustificação"
+      ],
+      "correta": 3,
+      "explicacao": "A recompensa externa substituiu a motivação intrínseca; sem ela, o interesse caiu."
+    },
+    {
+      "id": "processos-psicologicos-25",
+      "topico": "motivacao-emocao",
+      "nivel": "analise",
+      "pergunta": "Um trabalhador sob pressão constante resiste por meses, mas depois adoece e fica sem energia. Pelo modelo de Selye, em que fase ele está?",
+      "opcoes": [
+        "Exaustão",
+        "Alarme",
+        "Resistência",
+        "Homeostase"
+      ],
+      "correta": 0,
+      "explicacao": "Após o alarme e a resistência prolongada, os recursos se esgotam e surgem doenças."
+    },
+    {
+      "id": "processos-psicologicos-26",
+      "topico": "pensamento-linguagem",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre algoritmo e heurística na resolução de problemas?",
+      "opcoes": [
+        "A heurística sempre acerta",
+        "O algoritmo garante a solução; a heurística é um atalho rápido que pode falhar",
+        "O algoritmo é sempre mais rápido",
+        "São sinônimos"
+      ],
+      "correta": 1,
+      "explicacao": "Heurísticas economizam esforço, mas geram vieses sistemáticos."
+    },
+    {
+      "id": "processos-psicologicos-27",
+      "topico": "pensamento-linguagem",
+      "nivel": "conceitual",
+      "pergunta": "Lesões na área de Broca costumam prejudicar principalmente:",
+      "opcoes": [
+        "A compreensão da fala",
+        "A visão de cores",
+        "A produção da fala",
+        "A memória de longo prazo"
+      ],
+      "correta": 2,
+      "explicacao": "A área de Wernicke está mais ligada à compreensão."
+    },
+    {
+      "id": "processos-psicologicos-28",
+      "topico": "pensamento-linguagem",
+      "nivel": "conceitual",
+      "pergunta": "Qual teórico propôs as inteligências múltiplas?",
+      "opcoes": [
+        "Charles Spearman",
+        "Robert Sternberg",
+        "Noam Chomsky",
+        "Howard Gardner"
+      ],
+      "correta": 3,
+      "explicacao": "Spearman propôs o fator g; Sternberg, a teoria triárquica."
+    },
+    {
+      "id": "processos-psicologicos-29",
+      "topico": "pensamento-linguagem",
+      "nivel": "aplicacao",
+      "pergunta": "Depois de ver várias reportagens sobre ataques de tubarão, uma pessoa acha esse risco maior que o de afogamento. Qual heurística atua?",
+      "opcoes": [
+        "Disponibilidade",
+        "Ancoragem",
+        "Representatividade",
+        "Fixação funcional"
+      ],
+      "correta": 0,
+      "explicacao": "Exemplos fáceis de lembrar parecem mais frequentes do que são."
+    },
+    {
+      "id": "processos-psicologicos-30",
+      "topico": "pensamento-linguagem",
+      "nivel": "analise",
+      "pergunta": "Um médico prefere um tratamento descrito como '90% de sobrevivência' a outro descrito como '10% de mortalidade', embora os números sejam iguais. O que explica a escolha?",
+      "opcoes": [
+        "Viés de confirmação",
+        "Efeito de enquadramento",
+        "Fixação funcional",
+        "Insight"
+      ],
+      "correta": 1,
+      "explicacao": "A forma como a informação é apresentada muda a decisão, mesmo com dados idênticos."
+    }
+  ]
+}

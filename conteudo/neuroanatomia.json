@@ -1,0 +1,465 @@
+{
+  "id": "neuroanatomia",
+  "nome": "Neuroanatomia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "organizacao",
+      "nome": "Organização do sistema nervoso e envoltórios",
+      "resumo": "### Divisões\n- **Sistema nervoso central (SNC)**: **encéfalo** (cérebro, cerebelo e tronco encefálico) e **medula espinal**, protegidos pelo crânio e pela coluna.\n- **Sistema nervoso periférico (SNP)**: **nervos** (12 pares **cranianos** e 31 pares **espinais**) e **gânglios**.\n- **Funcionalmente**: **somático** (controle voluntário dos músculos esqueléticos e sensibilidade consciente) e **autônomo** (vísceras, glândulas, músculo liso e cardíaco).\n\n### Sistema nervoso autônomo\n- **Simpático** (toracolombar, T1–L2): \"**luta ou fuga**\": dilata pupilas e brônquios, acelera o coração, inibe a digestão. Neurotransmissor pós-ganglionar principal: **noradrenalina**.\n- **Parassimpático** (craniossacral: nervos III, VII, IX, **X** e S2–S4): \"**repouso e digestão**\": contrai pupilas, desacelera o coração, estimula a digestão. Neurotransmissor: **acetilcolina**. O **nervo vago (X)** é o principal.\n\n### Substância cinzenta e branca\n- **Cinzenta**: corpos de neurônios. No cérebro, forma o **córtex** (por fora) e os **núcleos**; na medula, fica **por dentro**, em forma de H.\n- **Branca**: axônios mielinizados (os tratos). No cérebro fica por dentro; na medula, **por fora**.\n\n### Meninges (de fora para dentro)\n**Dura-máter** (espessa), **aracnoide** e **pia-máter** (aderida ao tecido nervoso).\n- Espaço **subaracnóideo** (entre aracnoide e pia): contém o **líquor**.\n- Hemorragias: **epidural** (entre crânio e dura, em geral arterial, artéria meníngea média), **subdural** (veias pontes, comum em idosos) e **subaracnóidea** (frequentemente por aneurisma).\n\n### Líquor (líquido cefalorraquidiano)\n- Produzido pelos **plexos coroides** nos **ventrículos** (dois laterais, terceiro e quarto).\n- Circula: ventrículos laterais → forames interventriculares → **III ventrículo** → **aqueduto cerebral** → **IV ventrículo** → espaço subaracnóideo → reabsorvido nas **granulações aracnóideas**.\n- Funções: proteção mecânica, flutuação do encéfalo, transporte de substâncias.\n- **Hidrocefalia**: acúmulo de líquor por obstrução ou falha de reabsorção.\n- **Punção lombar**: feita abaixo do fim da medula (entre L3–L4 ou L4–L5), pois a medula termina por volta de **L1–L2**.",
+      "revisao": "**Lembre:**\n- SNC: encéfalo e medula; SNP: nervos e gânglios.\n- Simpático: luta ou fuga; parassimpático: repouso (vago).\n- Meninges: dura, aracnoide, pia; líquor no subaracnóideo.\n- Líquor: plexos coroides → ventrículos → aqueduto → IV ventrículo.\n- Medula termina em L1–L2; punção em L3–L5."
+    },
+    {
+      "id": "neuronio",
+      "nome": "Neurônio, glia e sinapse",
+      "resumo": "### Neurônio\n- **Dendritos**: recebem sinais.\n- **Corpo celular** (soma): contém o núcleo e integra os sinais.\n- **Axônio**: conduz o impulso até os **terminais**; nasce no **cone de implantação**, onde o potencial de ação é disparado.\n- **Bainha de mielina**: isola o axônio e acelera a condução pela **condução saltatória** entre os **nódulos de Ranvier**.\n- Tipos: **multipolares** (a maioria, como os motores), **bipolares** (retina, olfato) e **pseudounipolares** (sensitivos, nos gânglios espinais).\n- Funcionalmente: **sensitivos** (aferentes), **motores** (eferentes) e **interneurônios**.\n\n### Células da glia\n- **Astrócitos**: suporte, nutrição, regulação do meio e participação na **barreira hematoencefálica**.\n- **Oligodendrócitos**: formam a mielina no **SNC** (cada um mieliniza vários axônios).\n- **Células de Schwann**: formam a mielina no **SNP** e ajudam na regeneração.\n- **Micróglia**: defesa (macrófagos do SNC).\n- **Células ependimárias**: revestem os ventrículos e o canal central.\n- **Esclerose múltipla**: doença autoimune que destrói a mielina no SNC.\n\n### Potencial de ação (resumo)\nRepouso em cerca de −70 mV; a entrada de **sódio** despolariza; a saída de **potássio** repolariza; a bomba de sódio e potássio restaura os gradientes. Segue a lei do **tudo ou nada**.\n\n### Sinapse\n- **Química** (a mais comum): o impulso chega ao terminal, entra **cálcio**, as vesículas liberam o **neurotransmissor** na **fenda sináptica**, que se liga a **receptores** do neurônio seguinte. Depois é **recaptado** ou **degradado**.\n- **Elétrica**: junções comunicantes (*gap*), transmissão direta e rápida.\n- Sinapses **excitatórias** e **inibitórias**.\n\n### Neurotransmissores principais\n- **Glutamato**: principal **excitatório** do SNC.\n- **GABA**: principal **inibitório** do encéfalo (alvo dos benzodiazepínicos).\n- **Acetilcolina**: junção neuromuscular, parassimpático, memória (reduzida no Alzheimer).\n- **Dopamina**: movimento (via nigroestriatal, reduzida no **Parkinson**), recompensa.\n- **Serotonina**: humor, sono, apetite (alvo dos ISRS).\n- **Noradrenalina**: alerta, simpático.",
+      "revisao": "**Lembre:**\n- Dendrito recebe; axônio conduz.\n- Mielina: oligodendrócito (SNC), Schwann (SNP).\n- Condução saltatória nos nódulos de Ranvier.\n- Glutamato excita; GABA inibe.\n- Dopamina baixa no Parkinson; acetilcolina baixa no Alzheimer."
+    },
+    {
+      "id": "medula-tronco",
+      "nome": "Medula espinal, tronco encefálico e nervos cranianos",
+      "resumo": "### Medula espinal\n- Vai do forame magno até cerca de **L1–L2**; abaixo, as raízes formam a **cauda equina**.\n- 31 pares de nervos espinais: 8 cervicais, 12 torácicos, 5 lombares, 5 sacrais e 1 coccígeo.\n- **Corno anterior** (ventral): neurônios **motores**. **Corno posterior** (dorsal): chegada da informação **sensitiva**. **Corno lateral** (T1–L2): neurônios simpáticos.\n- **Raiz dorsal**: sensitiva (com o **gânglio** espinal). **Raiz ventral**: motora. (Lei de Bell-Magendie.)\n- **Arco reflexo**: receptor → neurônio sensitivo → medula → neurônio motor → efetor, sem depender do cérebro (reflexo patelar).\n- **Dermátomo**: área de pele inervada por uma raiz.\n\n### Tronco encefálico\nLiga a medula ao diencéfalo. De baixo para cima:\n- **Bulbo** (medula oblonga): centros **cardiovascular** e **respiratório**; ali ocorre a **decussação das pirâmides** (cruzamento da via motora). Lesões podem ser fatais.\n- **Ponte**: liga o cerebelo; participa da respiração e do sono.\n- **Mesencéfalo**: reflexos visuais e auditivos (colículos superiores e inferiores) e a **substância negra** (dopamina).\n- **Formação reticular**: espalhada pelo tronco; regula a **vigília** e a consciência (sistema ativador reticular ascendente).\n\n### Nervos cranianos (12 pares)\nI **Olfatório** (olfato); II **Óptico** (visão); III **Oculomotor** (maioria dos movimentos dos olhos, pálpebra, contração da pupila); IV **Troclear** (oblíquo superior); V **Trigêmeo** (sensibilidade da face e **mastigação**); VI **Abducente** (reto lateral, olhar para fora); VII **Facial** (**mímica facial**, paladar dos 2/3 anteriores da língua, lágrimas e saliva); VIII **Vestibulococlear** (audição e equilíbrio); IX **Glossofaríngeo** (paladar do 1/3 posterior, deglutição); X **Vago** (vísceras torácicas e abdominais, voz); XI **Acessório** (esternocleidomastóideo e trapézio); XII **Hipoglosso** (movimentos da língua).\n- **Paralisia de Bell**: lesão do nervo **facial**, com paralisia de um lado do rosto.",
+      "revisao": "**Lembre:**\n- Corno anterior: motor; posterior: sensitivo.\n- Raiz dorsal sensitiva; ventral motora.\n- Bulbo: centros vitais e decussação das pirâmides.\n- Formação reticular: vigília.\n- V mastigação e face; VII mímica; X vísceras; XII língua."
+    },
+    {
+      "id": "cerebelo-diencefalo",
+      "nome": "Cerebelo, diencéfalo e núcleos da base",
+      "resumo": "### Cerebelo\n- Fica atrás do tronco, ligado a ele pelos **pedúnculos cerebelares**.\n- Funções: **coordenação** dos movimentos, **equilíbrio**, **tônus muscular** e aprendizagem motora. Compara o movimento planejado com o realizado e corrige.\n- Lesões causam **ataxia** (marcha cambaleante), **dismetria** (errar o alvo, teste dedo-nariz), **tremor de intenção** (aparece ao fazer o movimento), disdiadococinesia (dificuldade com movimentos alternados rápidos) e fala escandida. Os sinais aparecem **do mesmo lado** da lesão.\n- O álcool afeta o cerebelo (por isso o teste de andar em linha reta).\n\n### Diencéfalo\n- **Tálamo**: grande **estação de retransmissão** das informações sensitivas (todas, exceto o **olfato**) a caminho do córtex; participa também da motricidade, da atenção e da consciência.\n- **Hipotálamo**: centro da **homeostase**: temperatura, **fome** e **sede**, ciclo sono-vigília (núcleo supraquiasmático, ritmo circadiano), comportamento sexual e emocional; controla o **sistema autônomo** e a **hipófise** (produz ADH e ocitocina e hormônios liberadores).\n- **Epitálamo**: inclui a **glândula pineal**, que produz **melatonina**.\n- **Subtálamo**: ligado aos núcleos da base.\n\n### Núcleos da base\n- **Caudado**, **putâmen** (os dois formam o **estriado**), **globo pálido**, com ligações à **substância negra** e ao **núcleo subtalâmico**.\n- Participam do **início e da seleção de movimentos**, do controle da amplitude e de funções cognitivas e motivacionais.\n- **Doença de Parkinson**: perda de neurônios **dopaminérgicos** da **substância negra**; causa **tremor de repouso**, **rigidez**, **bradicinesia** (lentidão) e instabilidade postural.\n- **Doença de Huntington**: degeneração do **caudado**; causa movimentos involuntários (**coreia**) e declínio cognitivo; é genética (autossômica dominante).\n\n### Sistema límbico\nConjunto ligado às **emoções**, à **memória** e à motivação: **hipocampo** (formação de memórias explícitas), **amígdala** (medo, emoções), **giro do cíngulo**, fórnix, corpos mamilares e partes do hipotálamo. O **circuito de Papez** liga essas estruturas.",
+      "revisao": "**Lembre:**\n- Cerebelo: coordenação e equilíbrio; lesão gera ataxia, dismetria e tremor de intenção (mesmo lado).\n- Tálamo: retransmite tudo, menos o olfato.\n- Hipotálamo: homeostase e hipófise.\n- Parkinson: substância negra, dopamina, tremor de repouso.\n- Límbico: hipocampo (memória), amígdala (medo)."
+    },
+    {
+      "id": "cortex",
+      "nome": "Córtex cerebral e lobos",
+      "resumo": "### Organização\n- Dois **hemisférios** unidos pelo **corpo caloso**.\n- Superfície com **giros** (dobras) e **sulcos**. Sulcos importantes: **central** (separa frontal e parietal) e **lateral** (fissura de Sylvius, acima do temporal).\n- Cada hemisfério controla principalmente o lado **oposto** do corpo (controle **contralateral**).\n\n### Lobos e funções\n- **Frontal**:\n  - **Giro pré-central**: **córtex motor primário**, organizado como um mapa do corpo (**homúnculo motor**: mãos e boca com grande representação).\n  - **Córtex pré-frontal**: **funções executivas** (planejamento, tomada de decisão, controle de impulsos, memória de trabalho), personalidade e comportamento social. O caso **Phineas Gage** mostrou mudança de personalidade após lesão frontal.\n  - **Área de Broca** (geralmente no hemisfério **esquerdo**): **produção** da fala. Lesão: **afasia de Broca** (fala lenta, com esforço, compreensão relativamente preservada).\n- **Parietal**:\n  - **Giro pós-central**: **córtex somatossensorial primário** (tato, dor, temperatura, posição), com o **homúnculo sensitivo**.\n  - Integração espacial e atenção. Lesões no parietal **direito** podem causar **negligência** do lado esquerdo do espaço.\n- **Temporal**:\n  - **Córtex auditivo primário**.\n  - **Área de Wernicke**: **compreensão** da linguagem. Lesão: **afasia de Wernicke** (fala fluente, mas sem sentido, e compreensão prejudicada).\n  - Parte medial com o hipocampo (memória); reconhecimento de rostos (giro fusiforme; lesão causa **prosopagnosia**).\n- **Occipital**: **córtex visual primário**; lesões causam perdas no campo visual ou cegueira cortical.\n- **Ínsula**: escondida no sulco lateral; interocepção, paladar, nojo.\n\n### Lateralização\n- Hemisfério **esquerdo** (na maioria das pessoas): **linguagem**, raciocínio sequencial e analítico.\n- **Direito**: processamento **espacial**, reconhecimento de rostos, prosódia (entonação) e aspectos emocionais.\n- Pacientes com **cérebro dividido** (corpo caloso seccionado) mostraram essa especialização (Sperry).\n\n### Áreas de associação\nIntegram informações de várias modalidades; ocupam a maior parte do córtex humano.",
+      "revisao": "**Lembre:**\n- Sulco central: frontal (motor) × parietal (sensitivo).\n- Pré-frontal: funções executivas e personalidade.\n- Broca (frontal): produção; Wernicke (temporal): compreensão.\n- Occipital: visão; temporal: audição.\n- Controle contralateral; esquerdo: linguagem."
+    },
+    {
+      "id": "vias-vascularizacao",
+      "nome": "Vias motoras e sensitivas e vascularização",
+      "resumo": "### Via motora principal (piramidal ou corticoespinal)\n- Neurônio motor **superior**: do **córtex motor** desce pela **cápsula interna** e pelo tronco; a maioria das fibras **cruza** na **decussação das pirâmides** (bulbo) e desce no trato corticoespinal lateral.\n- Neurônio motor **inferior**: no **corno anterior** da medula, vai até o músculo.\n- **Lesão do neurônio motor superior** (AVC, por exemplo): fraqueza, **espasticidade**, **hiper-reflexia** e **sinal de Babinski** (extensão do hálux).\n- **Lesão do neurônio motor inferior** (poliomielite, lesão de nervo): fraqueza **flácida**, **hiporreflexia**, **atrofia** e fasciculações.\n\n### Vias sensitivas\n- **Coluna dorsal–lemnisco medial**: **tato fino**, vibração e **propriocepção**; sobe do mesmo lado e **cruza no bulbo**.\n- **Trato espinotalâmico** (anterolateral): **dor** e **temperatura**; **cruza logo na medula**, perto de onde entrou.\n- As duas vias passam pelo **tálamo** e chegam ao córtex somatossensorial.\n- **Síndrome de Brown-Séquard** (lesão de metade da medula): perda motora e de propriocepção do **mesmo lado** e de dor e temperatura do lado **oposto**, abaixo da lesão.\n\n### Vascularização do encéfalo\n- Dois sistemas: **artérias carótidas internas** (circulação anterior) e **artérias vertebrais**, que se unem na **artéria basilar** (circulação posterior).\n- **Polígono de Willis** (círculo arterial cerebral): anastomose na base do encéfalo que liga os dois sistemas, permitindo circulação colateral.\n- **Artéria cerebral média**: face lateral do hemisfério (áreas motora e sensitiva de face e braço, áreas da linguagem). Seu AVC causa fraqueza de **face e braço** do lado oposto e, à esquerda, **afasia**.\n- **Artéria cerebral anterior**: face medial; seu AVC afeta mais a **perna** do lado oposto.\n- **Artéria cerebral posterior**: lobo occipital (visão).\n- **Barreira hematoencefálica**: endotélio com junções firmes e astrócitos, que limita a passagem de substâncias do sangue para o encéfalo.\n\n### AVC\n- **Isquêmico** (cerca de 85%): obstrução de uma artéria.\n- **Hemorrágico**: rompimento de vaso.\n- Sinais de alerta (escala **SAMU**: sorriso, abraço, música, urgência): boca torta, fraqueza de um lado, fala alterada. Tempo é cérebro: tratamento rápido salva tecido.",
+      "revisao": "**Lembre:**\n- Via piramidal cruza no bulbo (pirâmides).\n- Motor superior: espasticidade, hiper-reflexia, Babinski; inferior: flacidez, atrofia.\n- Coluna dorsal cruza no bulbo; espinotalâmico cruza na medula.\n- Cerebral média: face e braço, linguagem; anterior: perna.\n- Polígono de Willis liga carótidas e vertebrais."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "neuroanatomia-1",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual divisão do sistema nervoso autônomo prepara o corpo para 'luta ou fuga'?",
+      "opcoes": [
+        "Simpática",
+        "Parassimpática",
+        "Somática",
+        "Entérica"
+      ],
+      "correta": 0,
+      "explicacao": "O simpático acelera o coração, dilata pupilas e brônquios; o parassimpático favorece repouso e digestão."
+    },
+    {
+      "id": "neuroanatomia-2",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a ordem das meninges, de fora para dentro?",
+      "opcoes": [
+        "Pia-máter, aracnoide e dura-máter",
+        "Dura-máter, aracnoide e pia-máter",
+        "Aracnoide, dura-máter e pia-máter",
+        "Dura-máter, pia-máter e aracnoide"
+      ],
+      "correta": 1,
+      "explicacao": "O líquor circula no espaço subaracnóideo, entre a aracnoide e a pia-máter."
+    },
+    {
+      "id": "neuroanatomia-3",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Onde o líquor é produzido?",
+      "opcoes": [
+        "Nas granulações aracnóideas",
+        "No hipotálamo",
+        "Nos plexos coroides dos ventrículos",
+        "Na medula óssea"
+      ],
+      "correta": 2,
+      "explicacao": "As granulações aracnóideas são o local de reabsorção."
+    },
+    {
+      "id": "neuroanatomia-4",
+      "topico": "organizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Por que a punção lombar é feita entre L3–L4 ou L4–L5?",
+      "opcoes": [
+        "Porque ali não há líquor",
+        "Porque é onde fica o cérebro",
+        "Porque as meninges terminam em L1",
+        "Porque a medula termina por volta de L1–L2, e abaixo há só raízes da cauda equina"
+      ],
+      "correta": 3,
+      "explicacao": "Assim a agulha alcança o líquor sem risco de lesar a medula."
+    },
+    {
+      "id": "neuroanatomia-5",
+      "topico": "organizacao",
+      "nivel": "analise",
+      "pergunta": "Após uma pancada na têmpora, um jovem fica lúcido por algumas horas e depois piora rapidamente. A imagem mostra sangue entre o crânio e a dura-máter. Qual é o quadro?",
+      "opcoes": [
+        "Hematoma epidural, em geral por lesão da artéria meníngea média",
+        "Hemorragia subaracnóidea por aneurisma",
+        "Hematoma subdural crônico de veias pontes",
+        "Hidrocefalia congênita"
+      ],
+      "correta": 0,
+      "explicacao": "O intervalo lúcido seguido de piora é clássico do hematoma epidural arterial, uma urgência cirúrgica."
+    },
+    {
+      "id": "neuroanatomia-6",
+      "topico": "neuronio",
+      "nivel": "conceitual",
+      "pergunta": "Quais células formam a bainha de mielina no sistema nervoso central?",
+      "opcoes": [
+        "Células de Schwann",
+        "Oligodendrócitos",
+        "Micróglia",
+        "Astrócitos"
+      ],
+      "correta": 1,
+      "explicacao": "No SNP, quem forma a mielina são as células de Schwann."
+    },
+    {
+      "id": "neuroanatomia-7",
+      "topico": "neuronio",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o principal neurotransmissor inibitório do encéfalo?",
+      "opcoes": [
+        "Glutamato",
+        "Dopamina",
+        "GABA",
+        "Noradrenalina"
+      ],
+      "correta": 2,
+      "explicacao": "O glutamato é o principal excitatório. Os benzodiazepínicos potencializam a ação do GABA."
+    },
+    {
+      "id": "neuroanatomia-8",
+      "topico": "neuronio",
+      "nivel": "conceitual",
+      "pergunta": "A condução saltatória ocorre em axônios:",
+      "opcoes": [
+        "Sem mielina",
+        "Apenas nos dendritos",
+        "Apenas em sinapses elétricas",
+        "Mielinizados, com o impulso pulando entre os nódulos de Ranvier"
+      ],
+      "correta": 3,
+      "explicacao": "A mielina isola o axônio e torna a condução muito mais rápida."
+    },
+    {
+      "id": "neuroanatomia-9",
+      "topico": "neuronio",
+      "nivel": "aplicacao",
+      "pergunta": "Uma doença autoimune destrói a mielina no SNC e causa episódios de fraqueza e alterações visuais. Que células são o alvo principal?",
+      "opcoes": [
+        "Oligodendrócitos e a mielina que produzem",
+        "Células de Schwann",
+        "Neurônios da retina apenas",
+        "Hemácias"
+      ],
+      "correta": 0,
+      "explicacao": "É a esclerose múltipla, que afeta a mielina do sistema nervoso central."
+    },
+    {
+      "id": "neuroanatomia-10",
+      "topico": "neuronio",
+      "nivel": "analise",
+      "pergunta": "Um medicamento bloqueia a recaptação de serotonina na fenda sináptica. Qual é o efeito esperado?",
+      "opcoes": [
+        "A serotonina deixa de ser liberada",
+        "A serotonina permanece mais tempo na fenda e age mais nos receptores",
+        "Os receptores são destruídos",
+        "O potencial de ação é bloqueado"
+      ],
+      "correta": 1,
+      "explicacao": "É o mecanismo dos ISRS, usados em depressão e ansiedade."
+    },
+    {
+      "id": "neuroanatomia-11",
+      "topico": "medula-tronco",
+      "nivel": "conceitual",
+      "pergunta": "Na medula espinal, o corno anterior contém principalmente:",
+      "opcoes": [
+        "Neurônios sensitivos de chegada",
+        "Gânglios espinais",
+        "Neurônios motores",
+        "Corpos de neurônios do olfato"
+      ],
+      "correta": 2,
+      "explicacao": "A informação sensitiva chega pelo corno posterior; o anterior envia comandos aos músculos."
+    },
+    {
+      "id": "neuroanatomia-12",
+      "topico": "medula-tronco",
+      "nivel": "conceitual",
+      "pergunta": "Qual parte do tronco encefálico abriga os centros cardiovascular e respiratório?",
+      "opcoes": [
+        "Mesencéfalo",
+        "Cerebelo",
+        "Tálamo",
+        "Bulbo"
+      ],
+      "correta": 3,
+      "explicacao": "Lesões no bulbo podem ser fatais por afetar funções vitais."
+    },
+    {
+      "id": "neuroanatomia-13",
+      "topico": "medula-tronco",
+      "nivel": "conceitual",
+      "pergunta": "Qual nervo craniano controla os músculos da mímica facial?",
+      "opcoes": [
+        "Facial (VII)",
+        "Trigêmeo (V)",
+        "Hipoglosso (XII)",
+        "Vago (X)"
+      ],
+      "correta": 0,
+      "explicacao": "O trigêmeo cuida da sensibilidade da face e da mastigação."
+    },
+    {
+      "id": "neuroanatomia-14",
+      "topico": "medula-tronco",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente acorda com um lado do rosto paralisado: não fecha o olho nem levanta o canto da boca, mas sente o rosto normalmente. Qual nervo está comprometido?",
+      "opcoes": [
+        "Trigêmeo (V)",
+        "Facial (VII)",
+        "Oculomotor (III)",
+        "Acessório (XI)"
+      ],
+      "correta": 1,
+      "explicacao": "É a paralisia de Bell: a mímica (VII) está afetada, mas a sensibilidade (V) está preservada."
+    },
+    {
+      "id": "neuroanatomia-15",
+      "topico": "medula-tronco",
+      "nivel": "analise",
+      "pergunta": "Por que o reflexo patelar ainda ocorre em alguém com lesão completa da medula acima do nível lombar?",
+      "opcoes": [
+        "Porque o reflexo depende do córtex motor",
+        "Porque o nervo vago assume o controle",
+        "Porque o arco reflexo se fecha na própria medula, sem depender do encéfalo",
+        "Porque o cerebelo produz o reflexo"
+      ],
+      "correta": 2,
+      "explicacao": "Receptor, neurônio sensitivo, medula e neurônio motor formam o circuito; muitas vezes fica até exagerado, pela perda da inibição superior."
+    },
+    {
+      "id": "neuroanatomia-16",
+      "topico": "cerebelo-diencefalo",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal função do cerebelo?",
+      "opcoes": [
+        "Produção da fala",
+        "Controle da fome e da sede",
+        "Formação de memórias explícitas",
+        "Coordenação dos movimentos e equilíbrio"
+      ],
+      "correta": 3,
+      "explicacao": "Ele compara o movimento planejado com o executado e corrige erros."
+    },
+    {
+      "id": "neuroanatomia-17",
+      "topico": "cerebelo-diencefalo",
+      "nivel": "conceitual",
+      "pergunta": "Qual estrutura regula temperatura, fome, sede e controla a hipófise?",
+      "opcoes": [
+        "Hipotálamo",
+        "Tálamo",
+        "Cerebelo",
+        "Corpo caloso"
+      ],
+      "correta": 0,
+      "explicacao": "O hipotálamo é o centro da homeostase e liga o sistema nervoso ao endócrino."
+    },
+    {
+      "id": "neuroanatomia-18",
+      "topico": "cerebelo-diencefalo",
+      "nivel": "conceitual",
+      "pergunta": "A doença de Parkinson resulta principalmente da perda de neurônios dopaminérgicos da:",
+      "opcoes": [
+        "Área de Broca",
+        "Substância negra",
+        "Amígdala",
+        "Medula espinal lombar"
+      ],
+      "correta": 1,
+      "explicacao": "A falta de dopamina nos núcleos da base causa tremor de repouso, rigidez e lentidão."
+    },
+    {
+      "id": "neuroanatomia-19",
+      "topico": "cerebelo-diencefalo",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente tem marcha cambaleante, erra o nariz ao fazer o teste dedo-nariz e treme mais quando se aproxima do alvo. Onde está a lesão provável?",
+      "opcoes": [
+        "Lobo occipital",
+        "Área de Wernicke",
+        "Cerebelo",
+        "Nervo olfatório"
+      ],
+      "correta": 2,
+      "explicacao": "Ataxia, dismetria e tremor de intenção são sinais cerebelares."
+    },
+    {
+      "id": "neuroanatomia-20",
+      "topico": "cerebelo-diencefalo",
+      "nivel": "analise",
+      "pergunta": "Um idoso tem tremor nas mãos quando elas estão paradas, que diminui ao pegar um copo, além de rigidez e lentidão. Isso aponta para qual sistema, diferente do cerebelar?",
+      "opcoes": [
+        "Cerebelo, como na ataxia",
+        "Córtex visual",
+        "Nervo trigêmeo",
+        "Núcleos da base, como na doença de Parkinson"
+      ],
+      "correta": 3,
+      "explicacao": "O tremor de repouso é típico do Parkinson; o cerebelar aparece durante o movimento (tremor de intenção)."
+    },
+    {
+      "id": "neuroanatomia-21",
+      "topico": "cortex",
+      "nivel": "conceitual",
+      "pergunta": "O córtex motor primário fica no:",
+      "opcoes": [
+        "Giro pré-central do lobo frontal",
+        "Giro pós-central do lobo parietal",
+        "Lobo occipital",
+        "Lobo temporal"
+      ],
+      "correta": 0,
+      "explicacao": "O giro pós-central é o córtex somatossensorial primário."
+    },
+    {
+      "id": "neuroanatomia-22",
+      "topico": "cortex",
+      "nivel": "conceitual",
+      "pergunta": "A área de Wernicke, ligada à compreensão da linguagem, localiza-se no lobo:",
+      "opcoes": [
+        "Occipital",
+        "Temporal",
+        "Frontal",
+        "Parietal anterior"
+      ],
+      "correta": 1,
+      "explicacao": "A área de Broca, ligada à produção, fica no frontal."
+    },
+    {
+      "id": "neuroanatomia-23",
+      "topico": "cortex",
+      "nivel": "conceitual",
+      "pergunta": "Qual estrutura liga os dois hemisférios cerebrais?",
+      "opcoes": [
+        "Tronco encefálico",
+        "Cerebelo",
+        "Corpo caloso",
+        "Polígono de Willis"
+      ],
+      "correta": 2,
+      "explicacao": "Os estudos de cérebro dividido (Sperry) mostraram a especialização de cada hemisfério."
+    },
+    {
+      "id": "neuroanatomia-24",
+      "topico": "cortex",
+      "nivel": "aplicacao",
+      "pergunta": "Após um AVC, um paciente fala fluentemente, mas com palavras sem sentido, e não entende o que lhe dizem. Que tipo de afasia ele tem?",
+      "opcoes": [
+        "Afasia de Broca",
+        "Disartria cerebelar",
+        "Prosopagnosia",
+        "Afasia de Wernicke"
+      ],
+      "correta": 3,
+      "explicacao": "Na afasia de Broca, a fala é lenta e com esforço e a compreensão é relativamente preservada."
+    },
+    {
+      "id": "neuroanatomia-25",
+      "topico": "cortex",
+      "nivel": "analise",
+      "pergunta": "Depois de um acidente com lesão frontal, um homem antes responsável fica impulsivo, desrespeitoso e incapaz de planejar. Qual região explica melhor a mudança?",
+      "opcoes": [
+        "Córtex pré-frontal",
+        "Córtex visual primário",
+        "Cerebelo",
+        "Bulbo"
+      ],
+      "correta": 0,
+      "explicacao": "O pré-frontal sustenta funções executivas e comportamento social, como no caso Phineas Gage."
+    },
+    {
+      "id": "neuroanatomia-26",
+      "topico": "vias-vascularizacao",
+      "nivel": "conceitual",
+      "pergunta": "Onde a maioria das fibras do trato corticoespinal cruza para o lado oposto?",
+      "opcoes": [
+        "No corpo caloso",
+        "Na decussação das pirâmides, no bulbo",
+        "No cerebelo",
+        "No nervo óptico"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso uma lesão no hemisfério esquerdo causa fraqueza no lado direito do corpo."
+    },
+    {
+      "id": "neuroanatomia-27",
+      "topico": "vias-vascularizacao",
+      "nivel": "conceitual",
+      "pergunta": "Espasticidade, hiper-reflexia e sinal de Babinski indicam lesão de:",
+      "opcoes": [
+        "Neurônio motor inferior",
+        "Nervo periférico sensitivo",
+        "Neurônio motor superior",
+        "Junção neuromuscular"
+      ],
+      "correta": 2,
+      "explicacao": "Lesões do neurônio motor inferior causam flacidez, hiporreflexia e atrofia."
+    },
+    {
+      "id": "neuroanatomia-28",
+      "topico": "vias-vascularizacao",
+      "nivel": "conceitual",
+      "pergunta": "O polígono de Willis é importante porque:",
+      "opcoes": [
+        "Produz o líquor",
+        "Forma a barreira hematoencefálica",
+        "Controla a respiração",
+        "Liga a circulação das carótidas e das vertebrais, permitindo circulação colateral"
+      ],
+      "correta": 3,
+      "explicacao": "Se uma artéria se estreita aos poucos, o polígono pode suprir a região por outro caminho."
+    },
+    {
+      "id": "neuroanatomia-29",
+      "topico": "vias-vascularizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente com AVC tem fraqueza na face e no braço direitos, mais que na perna, e dificuldade para falar. Qual artéria foi provavelmente afetada?",
+      "opcoes": [
+        "Cerebral média esquerda",
+        "Cerebral anterior direita",
+        "Cerebral posterior esquerda",
+        "Basilar"
+      ],
+      "correta": 0,
+      "explicacao": "A cerebral média irriga as áreas de face e braço e, à esquerda, as áreas da linguagem."
+    },
+    {
+      "id": "neuroanatomia-30",
+      "topico": "vias-vascularizacao",
+      "nivel": "analise",
+      "pergunta": "Uma lesão de metade direita da medula torácica causa fraqueza e perda de propriocepção na perna direita e perda de dor e temperatura na perna esquerda. Por quê?",
+      "opcoes": [
+        "Todas as vias cruzam no córtex",
+        "A via motora e a coluna dorsal cruzam no bulbo; a via da dor cruza logo na medula",
+        "O cerebelo inverte os sinais",
+        "A dor não usa vias da medula"
+      ],
+      "correta": 1,
+      "explicacao": "É a síndrome de Brown-Séquard: as vias cruzam em níveis diferentes."
+    }
+  ]
+}

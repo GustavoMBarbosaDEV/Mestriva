@@ -715,6 +715,57 @@ export const EXTRA = {
       "Lógica Digital",
       "Fundamentos de Sistemas Digitais"
     ]
+  },
+  "processos-psicologicos": {
+    "area": "Psicologia",
+    "apelidos": [
+      "Processos Psicológicos Básicos I",
+      "Processos Psicológicos Básicos II",
+      "Psicologia Cognitiva",
+      "Processos Cognitivos",
+      "Sensação e Percepção",
+      "Percepção e Atenção",
+      "Memória e Aprendizagem",
+      "Motivação e Emoção",
+      "Processos Psicológicos"
+    ]
+  },
+  "teorias-personalidade": {
+    "area": "Psicologia",
+    "apelidos": [
+      "Teorias da Personalidade I",
+      "Teorias da Personalidade II",
+      "Psicologia da Personalidade",
+      "Personalidade",
+      "Teorias e Sistemas da Personalidade",
+      "Avaliação da Personalidade"
+    ]
+  },
+  "psicopatologia": {
+    "area": "Psicologia",
+    "apelidos": [
+      "Psicopatologia I",
+      "Psicopatologia II",
+      "Psicopatologia Geral",
+      "Psicopatologia Clínica",
+      "Psicopatologia e Semiologia Psiquiátrica",
+      "Semiologia Psiquiátrica",
+      "Psicopatologia Geral e Especial"
+    ]
+  },
+  "neuroanatomia": {
+    "area": "Psicologia",
+    "apelidos": [
+      "Neuroanatomia Funcional",
+      "Neuroanatomia Humana",
+      "Neuroanatomia I",
+      "Anatomia do Sistema Nervoso",
+      "Neurociências",
+      "Neurociência",
+      "Neuropsicologia e Neuroanatomia",
+      "Bases Neurais do Comportamento",
+      "Psicofisiologia"
+    ]
   }
 };
 

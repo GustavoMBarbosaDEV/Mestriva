@@ -1648,6 +1648,48 @@
       ]
     },
     {
+      "id": "neuroanatomia",
+      "nome": "Neuroanatomia",
+      "apelidos": [
+        "Neuroanatomia Funcional",
+        "Neuroanatomia Humana",
+        "Neuroanatomia I",
+        "Anatomia do Sistema Nervoso",
+        "Neurociências",
+        "Neurociência",
+        "Neuropsicologia e Neuroanatomia",
+        "Bases Neurais do Comportamento",
+        "Psicofisiologia"
+      ],
+      "area": "Psicologia",
+      "topicos": [
+        {
+          "id": "organizacao",
+          "nome": "Organização do sistema nervoso e envoltórios"
+        },
+        {
+          "id": "neuronio",
+          "nome": "Neurônio, glia e sinapse"
+        },
+        {
+          "id": "medula-tronco",
+          "nome": "Medula espinal, tronco encefálico e nervos cranianos"
+        },
+        {
+          "id": "cerebelo-diencefalo",
+          "nome": "Cerebelo, diencéfalo e núcleos da base"
+        },
+        {
+          "id": "cortex",
+          "nome": "Córtex cerebral e lobos"
+        },
+        {
+          "id": "vias-vascularizacao",
+          "nome": "Vias motoras e sensitivas e vascularização"
+        }
+      ]
+    },
+    {
       "id": "parasitologia",
       "nome": "Parasitologia",
       "apelidos": [
@@ -1856,6 +1898,48 @@
       ]
     },
     {
+      "id": "processos-psicologicos",
+      "nome": "Processos Psicológicos Básicos",
+      "apelidos": [
+        "Processos Psicológicos Básicos I",
+        "Processos Psicológicos Básicos II",
+        "Psicologia Cognitiva",
+        "Processos Cognitivos",
+        "Sensação e Percepção",
+        "Percepção e Atenção",
+        "Memória e Aprendizagem",
+        "Motivação e Emoção",
+        "Processos Psicológicos"
+      ],
+      "area": "Psicologia",
+      "topicos": [
+        {
+          "id": "sensacao-percepcao",
+          "nome": "Sensação e percepção"
+        },
+        {
+          "id": "atencao-consciencia",
+          "nome": "Atenção e consciência"
+        },
+        {
+          "id": "memoria",
+          "nome": "Memória"
+        },
+        {
+          "id": "aprendizagem",
+          "nome": "Aprendizagem por condicionamento"
+        },
+        {
+          "id": "motivacao-emocao",
+          "nome": "Motivação e emoção"
+        },
+        {
+          "id": "pensamento-linguagem",
+          "nome": "Pensamento, linguagem e inteligência"
+        }
+      ]
+    },
+    {
       "id": "psicologia-desenvolvimento",
       "nome": "Psicologia do Desenvolvimento",
       "apelidos": [
@@ -1933,6 +2017,46 @@
         {
           "id": "dificuldades",
           "nome": "Dificuldades de aprendizagem e inclusão"
+        }
+      ]
+    },
+    {
+      "id": "psicopatologia",
+      "nome": "Psicopatologia",
+      "apelidos": [
+        "Psicopatologia I",
+        "Psicopatologia II",
+        "Psicopatologia Geral",
+        "Psicopatologia Clínica",
+        "Psicopatologia e Semiologia Psiquiátrica",
+        "Semiologia Psiquiátrica",
+        "Psicopatologia Geral e Especial"
+      ],
+      "area": "Psicologia",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos, normalidade e classificação"
+        },
+        {
+          "id": "funcoes",
+          "nome": "Exame psíquico e funções mentais"
+        },
+        {
+          "id": "ansiedade",
+          "nome": "Transtornos de ansiedade e relacionados"
+        },
+        {
+          "id": "humor",
+          "nome": "Transtornos do humor"
+        },
+        {
+          "id": "psicoses",
+          "nome": "Esquizofrenia e transtornos psicóticos"
+        },
+        {
+          "id": "personalidade-outros",
+          "nome": "Personalidade, alimentares, substâncias e neurodesenvolvimento"
         }
       ]
     },
@@ -2182,6 +2306,45 @@
         {
           "id": "ciencia-politica",
           "nome": "Poder, regimes políticos e modelos de Estado"
+        }
+      ]
+    },
+    {
+      "id": "teorias-personalidade",
+      "nome": "Teorias da Personalidade",
+      "apelidos": [
+        "Teorias da Personalidade I",
+        "Teorias da Personalidade II",
+        "Psicologia da Personalidade",
+        "Personalidade",
+        "Teorias e Sistemas da Personalidade",
+        "Avaliação da Personalidade"
+      ],
+      "area": "Psicologia",
+      "topicos": [
+        {
+          "id": "psicanalise",
+          "nome": "Psicanálise de Freud"
+        },
+        {
+          "id": "neofreudianos",
+          "nome": "Neofreudianos e psicodinâmicos"
+        },
+        {
+          "id": "humanista",
+          "nome": "Abordagem humanista"
+        },
+        {
+          "id": "tracos",
+          "nome": "Teorias dos traços"
+        },
+        {
+          "id": "comportamental-cognitiva",
+          "nome": "Abordagens comportamental e sociocognitiva"
+        },
+        {
+          "id": "avaliacao",
+          "nome": "Avaliação da personalidade"
         }
       ]
     }

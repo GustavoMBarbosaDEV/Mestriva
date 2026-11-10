@@ -1,0 +1,465 @@
+{
+  "id": "teorias-personalidade",
+  "nome": "Teorias da Personalidade",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "psicanalise",
+      "nome": "Psicanálise de Freud",
+      "resumo": "**Personalidade**: padrão relativamente estável de pensamentos, sentimentos e comportamentos que distingue uma pessoa.\n\n### Os níveis da mente (modelo topográfico)\n- **Consciente**: o que percebemos agora.\n- **Pré-consciente**: o que pode ser lembrado com facilidade.\n- **Inconsciente**: desejos, memórias e impulsos inacessíveis diretamente, que influenciam o comportamento. Revela-se em **sonhos** (\"a via régia para o inconsciente\"), **atos falhos** e sintomas.\n\n### Estrutura da personalidade (modelo estrutural)\n- **Id**: reservatório das pulsões, segue o **princípio do prazer**; totalmente inconsciente.\n- **Ego**: mediador com a realidade, segue o **princípio da realidade**.\n- **Superego**: valores morais internalizados (pais, cultura); gera culpa.\n- O ego equilibra as exigências do id, do superego e da realidade.\n\n### Mecanismos de defesa (do ego, contra a ansiedade)\n- **Repressão**: empurrar para o inconsciente (o básico de todos).\n- **Negação**: recusar a realidade.\n- **Projeção**: atribuir aos outros os próprios impulsos.\n- **Racionalização**: justificativas aceitáveis para motivos verdadeiros.\n- **Formação reativa**: expressar o oposto do que se sente.\n- **Deslocamento**: descarregar num alvo mais seguro (brigar com o cachorro após levar bronca do chefe).\n- **Sublimação**: canalizar impulsos para atividades socialmente valorizadas (arte, esporte).\n- **Regressão**: voltar a comportamentos de fase anterior.\n\n### Desenvolvimento psicossexual\n**Oral** (0–1 ano), **anal** (1–3), **fálica** (3–6, **complexo de Édipo**), **latência** (6–puberdade) e **genital**. Conflitos mal resolvidos geram **fixações**.\n\n### Técnicas\n**Associação livre**, análise dos sonhos (conteúdo **manifesto** e **latente**), **transferência** (o paciente dirige ao analista sentimentos de figuras importantes) e interpretação da **resistência**.",
+      "revisao": "**Lembre:**\n- Id (prazer), ego (realidade), superego (moral).\n- Projeção: atribuir ao outro; deslocamento: alvo seguro; sublimação: canal socialmente aceito.\n- Fases: oral, anal, fálica, latência, genital.\n- Transferência e associação livre."
+    },
+    {
+      "id": "neofreudianos",
+      "nome": "Neofreudianos e psicodinâmicos",
+      "resumo": "Seguidores que mantiveram a ideia do inconsciente, mas deram menos peso à sexualidade e mais aos fatores **sociais** e ao **ego**.\n\n### Carl Jung (psicologia analítica)\n- **Inconsciente pessoal** e **inconsciente coletivo**: herança comum da humanidade, formada por **arquétipos** (a sombra, a persona, a anima/animus, o self).\n- **Persona**: a \"máscara\" social. **Sombra**: aspectos rejeitados de si.\n- Tipos psicológicos: **introversão** e **extroversão**, combinadas com funções (pensamento, sentimento, sensação, intuição).\n- **Individuação**: processo de integração e realização do si-mesmo.\n\n### Alfred Adler (psicologia individual)\n- Motivação central: superar **sentimentos de inferioridade** em busca de superioridade ou perfeição. O **complexo de inferioridade** surge quando isso falha.\n- **Interesse social** e **estilo de vida**.\n- Importância da **ordem de nascimento** entre irmãos.\n\n### Karen Horney\n- **Ansiedade básica**: sentimento de desamparo num mundo hostil, nascido nas relações da infância.\n- Três tendências neuróticas: mover-se **em direção** aos outros, **contra** os outros ou **para longe** deles.\n- Criticou a visão freudiana sobre as mulheres (\"inveja do pênis\").\n\n### Erik Erikson\nOito estágios **psicossociais** ao longo da vida, cada um com uma crise (confiança × desconfiança... identidade × confusão de papéis... integridade × desespero).\n\n### Outras linhas\n- **Teoria das relações objetais** (Melanie Klein, Winnicott): importância das primeiras relações. Winnicott: a \"**mãe suficientemente boa**\".\n- **Psicologia do ego** (Anna Freud): detalhou os mecanismos de defesa.",
+      "revisao": "**Lembre:**\n- Jung: inconsciente coletivo, arquétipos, persona, sombra, introversão/extroversão.\n- Adler: inferioridade e interesse social.\n- Horney: ansiedade básica; em direção, contra, para longe.\n- Erikson: oito crises psicossociais.\n- Winnicott: mãe suficientemente boa."
+    },
+    {
+      "id": "humanista",
+      "nome": "Abordagem humanista",
+      "resumo": "Chamada de \"**terceira força**\" da psicologia, em reação à psicanálise (vista como pessimista) e ao behaviorismo (visto como mecanicista). Enfatiza o **potencial de crescimento**, a **liberdade** e a **experiência subjetiva**.\n\n### Carl Rogers (abordagem centrada na pessoa)\n- **Tendência atualizante**: todo organismo tende a crescer e realizar suas potencialidades.\n- **Autoconceito** (como me vejo) e **self ideal** (como gostaria de ser). Quando há grande distância entre o self e a experiência, surge a **incongruência**, fonte de ansiedade.\n- **Condições de valor**: aprender a ser aceito só ao agir de certos modos leva a negar partes da experiência.\n- **Consideração positiva incondicional**: aceitar a pessoa sem condições favorece o crescimento.\n- Atitudes do terapeuta: **congruência** (autenticidade), **consideração positiva incondicional** e **empatia** (compreender o mundo do outro como se fosse ele).\n- A terapia é **não diretiva**: o cliente conduz.\n\n### Abraham Maslow\n- **Hierarquia de necessidades**: fisiológicas, segurança, amor/pertencimento, estima e **autorrealização**.\n- Necessidades de **deficiência** (as de baixo) × de **crescimento** (autorrealização).\n- Pessoas autorrealizadas: aceitação de si e dos outros, espontaneidade, foco em problemas, **experiências culminantes** (*peak experiences*).\n\n### Críticas\nConceitos difíceis de medir; visão considerada otimista demais; mais descritiva que testável. Mas influenciou fortemente a psicoterapia, a educação e a **psicologia positiva** (Seligman).\n\n### Existencialismo\nViktor Frankl (**logoterapia**): a busca de **sentido** é a motivação central; mesmo no sofrimento é possível escolher a atitude.",
+      "revisao": "**Lembre:**\n- Terceira força: crescimento e liberdade.\n- Rogers: congruência, consideração positiva incondicional, empatia.\n- Incongruência entre self e experiência gera ansiedade.\n- Maslow: autorrealização e experiências culminantes.\n- Frankl: busca de sentido."
+    },
+    {
+      "id": "tracos",
+      "nome": "Teorias dos traços",
+      "resumo": "Descrevem a personalidade por **traços**: disposições estáveis que levam a se comportar de modo parecido em situações diferentes.\n\n### Gordon Allport\nTraços **cardinais** (dominam toda a vida, raros), **centrais** (5 a 10 que descrevem bem alguém) e **secundários** (preferências e atitudes menos gerais).\n\n### Raymond Cattell\nUsou a **análise fatorial** para reduzir milhares de adjetivos a **16 fatores** de personalidade (teste **16PF**). Distinguiu traços **superficiais** e **de origem**.\n\n### Hans Eysenck\nTrês dimensões com base biológica: **extroversão–introversão**, **neuroticismo** (estabilidade emocional) e **psicoticismo**. Propôs que introvertidos têm maior nível de **ativação cortical** e por isso evitam estímulos fortes.\n\n### Big Five (cinco grandes fatores)\nModelo mais aceito hoje, com o acrônimo **OCEAN**:\n- **Abertura à experiência** (*openness*): imaginação, curiosidade, gosto por novidades.\n- **Conscienciosidade**: organização, disciplina, responsabilidade. É um bom **preditor de desempenho** escolar e profissional.\n- **Extroversão**: sociabilidade, energia, assertividade.\n- **Amabilidade** (agradabilidade): cooperação, confiança, gentileza.\n- **Neuroticismo**: tendência a emoções negativas e instabilidade (o oposto é a estabilidade emocional).\nOs traços são moderadamente **hereditários** e relativamente **estáveis** na vida adulta.\n\n### Debate pessoa × situação\nWalter **Mischel** mostrou que os traços preveem mal o comportamento em **uma** situação específica; a resposta atual é o **interacionismo**: o comportamento depende da pessoa **e** da situação.",
+      "revisao": "**Lembre:**\n- Allport: cardinais, centrais, secundários.\n- Cattell: 16 fatores por análise fatorial.\n- Eysenck: extroversão, neuroticismo, psicoticismo.\n- Big Five (OCEAN): abertura, conscienciosidade, extroversão, amabilidade, neuroticismo.\n- Mischel: pessoa × situação → interacionismo."
+    },
+    {
+      "id": "comportamental-cognitiva",
+      "nome": "Abordagens comportamental e sociocognitiva",
+      "resumo": "### Behaviorismo radical (Skinner)\n- A \"personalidade\" é o conjunto de **comportamentos aprendidos**, mantidos por **contingências de reforço**.\n- Não recorre a estruturas internas: explica o comportamento pela história de reforçamento e pelo ambiente.\n- Críticas: pouca atenção a pensamentos, sentimentos e fatores biológicos.\n\n### Teoria sociocognitiva (Albert Bandura)\n- **Determinismo recíproco**: **pessoa** (pensamentos, expectativas), **comportamento** e **ambiente** influenciam-se mutuamente.\n- **Aprendizagem por observação** (modelação).\n- **Autoeficácia**: crença na própria capacidade de realizar uma tarefa. Alta autoeficácia leva a mais esforço, persistência e sucesso. Fontes: **experiências de êxito**, observação de outros, persuasão verbal e estados fisiológicos.\n\n### Julian Rotter: lócus de controle\n- **Interno**: a pessoa acredita que controla o que lhe acontece (esforço, decisões).\n- **Externo**: acredita que os resultados dependem de sorte, destino ou outras pessoas.\n- Lócus interno costuma se associar a mais iniciativa e melhor saúde mental.\n\n### Martin Seligman\n- **Desamparo aprendido**: após experiências repetidas de que nada adianta, a pessoa (ou o animal) deixa de tentar, mesmo quando poderia mudar a situação. Relacionado à **depressão**.\n- **Estilo explicativo** otimista × pessimista.\n\n### George Kelly: construtos pessoais\nCada pessoa age como um \"**cientista**\", interpretando o mundo por meio de **construtos pessoais** bipolares (justo–injusto, seguro–perigoso).\n\n### Abordagem cognitiva\nEsquemas, crenças e pensamentos automáticos moldam emoções e comportamentos (base da **terapia cognitivo-comportamental**, de Aaron Beck).",
+      "revisao": "**Lembre:**\n- Skinner: personalidade = comportamento aprendido.\n- Bandura: determinismo recíproco e autoeficácia.\n- Rotter: lócus interno × externo.\n- Seligman: desamparo aprendido.\n- Kelly: construtos pessoais."
+    },
+    {
+      "id": "avaliacao",
+      "nome": "Avaliação da personalidade",
+      "resumo": "### Qualidades de um instrumento\n- **Validade**: mede o que se propõe a medir.\n- **Fidedignidade** (precisão): resultados consistentes (teste-reteste, consistência interna).\n- **Padronização** e **normas**: aplicação e correção iguais e comparação com um grupo de referência.\n- No Brasil, testes psicológicos precisam de **parecer favorável no SATEPSI** (sistema do Conselho Federal de Psicologia) e só podem ser usados por **psicólogos**.\n\n### Inventários (testes objetivos, de autorrelato)\n- Questões fechadas, correção objetiva.\n- **MMPI**: avalia traços e psicopatologia; tem **escalas de validade** para detectar respostas falsas ou defensivas.\n- **NEO-PI** e outros instrumentos do **Big Five**; **16PF** (Cattell).\n- Vantagens: rápidos, objetivos, normatizados. Limitações: **desejabilidade social** (responder o que parece melhor) e falta de autoconhecimento.\n\n### Técnicas projetivas\nBaseiam-se na ideia de que, diante de estímulos **ambíguos**, a pessoa **projeta** aspectos de sua personalidade.\n- **Rorschach**: manchas de tinta.\n- **TAT** (Teste de Apercepção Temática, Murray): contar histórias sobre figuras.\n- **HTP** (casa, árvore, pessoa) e outros desenhos.\n- **Palográfico** e **Pfister** (pirâmides coloridas), muito usados no Brasil.\n- Críticas: correção mais subjetiva e validade mais discutida, exigindo formação específica.\n\n### Outras formas\n- **Entrevista** clínica (estruturada ou não).\n- **Observação** do comportamento.\n- Avaliação **comportamental** (registro de frequência de comportamentos em contextos reais).\n\n### Ética\nSigilo, consentimento, devolutiva ao avaliado, uso só para a finalidade combinada e respeito à **Resolução do CFP** sobre avaliação psicológica.",
+      "revisao": "**Lembre:**\n- Validade (mede o certo) × fidedignidade (mede de forma consistente).\n- SATEPSI: testes aprovados; uso exclusivo de psicólogos.\n- Inventários: MMPI, Big Five; risco de desejabilidade social.\n- Projetivos: Rorschach, TAT, HTP, Palográfico.\n- Ética: sigilo, consentimento, devolutiva."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "teorias-personalidade-1",
+      "topico": "psicanalise",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Freud, qual instância da personalidade segue o princípio do prazer?",
+      "opcoes": [
+        "Id",
+        "Ego",
+        "Superego",
+        "Pré-consciente"
+      ],
+      "correta": 0,
+      "explicacao": "O id busca satisfação imediata; o ego segue o princípio da realidade; o superego representa a moral."
+    },
+    {
+      "id": "teorias-personalidade-2",
+      "topico": "psicanalise",
+      "nivel": "conceitual",
+      "pergunta": "Canalizar impulsos agressivos para a prática de um esporte é o mecanismo de:",
+      "opcoes": [
+        "Projeção",
+        "Sublimação",
+        "Negação",
+        "Regressão"
+      ],
+      "correta": 1,
+      "explicacao": "A sublimação transforma o impulso em atividade socialmente valorizada."
+    },
+    {
+      "id": "teorias-personalidade-3",
+      "topico": "psicanalise",
+      "nivel": "conceitual",
+      "pergunta": "Na psicanálise, a transferência é:",
+      "opcoes": [
+        "A mudança de terapeuta",
+        "A interpretação dos sonhos pelo paciente",
+        "O paciente dirigir ao analista sentimentos ligados a figuras importantes do passado",
+        "A passagem de uma fase psicossexual para outra"
+      ],
+      "correta": 2,
+      "explicacao": "A transferência é material importante de trabalho na análise."
+    },
+    {
+      "id": "teorias-personalidade-4",
+      "topico": "psicanalise",
+      "nivel": "aplicacao",
+      "pergunta": "Após levar uma bronca do chefe, um homem chega em casa e grita com o filho. Que mecanismo de defesa é esse?",
+      "opcoes": [
+        "Sublimação",
+        "Formação reativa",
+        "Racionalização",
+        "Deslocamento"
+      ],
+      "correta": 3,
+      "explicacao": "O impulso agressivo é descarregado num alvo mais seguro que a fonte real."
+    },
+    {
+      "id": "teorias-personalidade-5",
+      "topico": "psicanalise",
+      "nivel": "analise",
+      "pergunta": "Uma pessoa que sente forte hostilidade por um colega o trata com gentileza exagerada e elogios constantes. Pela psicanálise, como isso se explica?",
+      "opcoes": [
+        "Formação reativa: expressar o oposto do impulso inaceitável",
+        "Projeção: atribuir a hostilidade ao colega",
+        "Sublimação: transformar a hostilidade em arte",
+        "Negação da existência do colega"
+      ],
+      "correta": 0,
+      "explicacao": "O exagero da gentileza denuncia o esforço para manter o sentimento oposto fora da consciência."
+    },
+    {
+      "id": "teorias-personalidade-6",
+      "topico": "neofreudianos",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de inconsciente coletivo, formado por arquétipos, é de:",
+      "opcoes": [
+        "Alfred Adler",
+        "Carl Jung",
+        "Karen Horney",
+        "Erik Erikson"
+      ],
+      "correta": 1,
+      "explicacao": "Jung propôs uma camada do inconsciente comum a toda a humanidade."
+    },
+    {
+      "id": "teorias-personalidade-7",
+      "topico": "neofreudianos",
+      "nivel": "conceitual",
+      "pergunta": "Para Adler, a principal motivação humana é:",
+      "opcoes": [
+        "Satisfazer a pulsão sexual",
+        "Resolver o complexo de Édipo",
+        "Superar sentimentos de inferioridade",
+        "Alcançar a individuação"
+      ],
+      "correta": 2,
+      "explicacao": "Adler também destacou o interesse social e a ordem de nascimento."
+    },
+    {
+      "id": "teorias-personalidade-8",
+      "topico": "neofreudianos",
+      "nivel": "conceitual",
+      "pergunta": "Na teoria de Jung, a persona é:",
+      "opcoes": [
+        "O lado rejeitado de nós mesmos",
+        "O centro da personalidade",
+        "Um mecanismo de defesa",
+        "A máscara social que mostramos aos outros"
+      ],
+      "correta": 3,
+      "explicacao": "A sombra reúne os aspectos rejeitados; o self é o centro integrador."
+    },
+    {
+      "id": "teorias-personalidade-9",
+      "topico": "neofreudianos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa lida com a insegurança sempre agradando a todos e evitando conflitos. Na teoria de Horney, qual tendência neurótica ela mostra?",
+      "opcoes": [
+        "Mover-se em direção aos outros",
+        "Mover-se contra os outros",
+        "Mover-se para longe dos outros",
+        "Individuação"
+      ],
+      "correta": 0,
+      "explicacao": "Buscar aprovação e afeto para reduzir a ansiedade básica é o movimento em direção aos outros."
+    },
+    {
+      "id": "teorias-personalidade-10",
+      "topico": "neofreudianos",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal diferença entre os neofreudianos e Freud?",
+      "opcoes": [
+        "Rejeitaram completamente o inconsciente",
+        "Mantiveram o inconsciente, mas deram mais peso a fatores sociais e ao ego do que à sexualidade",
+        "Passaram a usar só experimentos com animais",
+        "Defenderam que a personalidade é só genética"
+      ],
+      "correta": 1,
+      "explicacao": "Adler, Jung, Horney e Erikson ampliaram a teoria para relações sociais e o ciclo de vida."
+    },
+    {
+      "id": "teorias-personalidade-11",
+      "topico": "humanista",
+      "nivel": "conceitual",
+      "pergunta": "Quais atitudes do terapeuta Rogers considerava essenciais?",
+      "opcoes": [
+        "Interpretação, neutralidade e transferência",
+        "Reforço, punição e extinção",
+        "Congruência, consideração positiva incondicional e empatia",
+        "Diagnóstico, prescrição e controle"
+      ],
+      "correta": 2,
+      "explicacao": "Essas condições criam o clima para o cliente crescer e se aceitar."
+    },
+    {
+      "id": "teorias-personalidade-12",
+      "topico": "humanista",
+      "nivel": "conceitual",
+      "pergunta": "Para Rogers, a incongruência ocorre quando:",
+      "opcoes": [
+        "O terapeuta discorda do cliente",
+        "A pessoa atinge a autorrealização",
+        "O id domina o ego",
+        "Há grande distância entre o autoconceito e a experiência real da pessoa"
+      ],
+      "correta": 3,
+      "explicacao": "A incongruência gera ansiedade e defesas; a terapia busca reduzi-la."
+    },
+    {
+      "id": "teorias-personalidade-13",
+      "topico": "humanista",
+      "nivel": "conceitual",
+      "pergunta": "A abordagem humanista ficou conhecida como 'terceira força' porque:",
+      "opcoes": [
+        "Surgiu como alternativa à psicanálise e ao behaviorismo",
+        "Foi a terceira teoria de Freud",
+        "Tem três instâncias de personalidade",
+        "Usa três testes projetivos"
+      ],
+      "correta": 0,
+      "explicacao": "Ela enfatiza liberdade, crescimento e experiência subjetiva."
+    },
+    {
+      "id": "teorias-personalidade-14",
+      "topico": "humanista",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança só recebe carinho dos pais quando tira notas altas e passa a negar o próprio gosto por música. Segundo Rogers, o que ela internalizou?",
+      "opcoes": [
+        "Consideração positiva incondicional",
+        "Condições de valor",
+        "Tendência atualizante plena",
+        "Experiência culminante"
+      ],
+      "correta": 1,
+      "explicacao": "Ser aceita só sob condições leva a pessoa a negar partes da própria experiência."
+    },
+    {
+      "id": "teorias-personalidade-15",
+      "topico": "humanista",
+      "nivel": "analise",
+      "pergunta": "Qual é uma crítica frequente à abordagem humanista?",
+      "opcoes": [
+        "Ela ignora a experiência subjetiva",
+        "Ela vê o ser humano como totalmente determinado pelo ambiente",
+        "Seus conceitos são difíceis de medir e testar empiricamente",
+        "Ela usa apenas testes projetivos"
+      ],
+      "correta": 2,
+      "explicacao": "Autorrealização e congruência são valiosos na clínica, mas difíceis de operacionalizar em pesquisa."
+    },
+    {
+      "id": "teorias-personalidade-16",
+      "topico": "tracos",
+      "nivel": "conceitual",
+      "pergunta": "No modelo Big Five, a conscienciosidade se refere a:",
+      "opcoes": [
+        "Sociabilidade e energia",
+        "Curiosidade e imaginação",
+        "Tendência a emoções negativas",
+        "Organização, disciplina e responsabilidade"
+      ],
+      "correta": 3,
+      "explicacao": "A conscienciosidade é um dos melhores preditores de desempenho escolar e profissional."
+    },
+    {
+      "id": "teorias-personalidade-17",
+      "topico": "tracos",
+      "nivel": "conceitual",
+      "pergunta": "Qual autor reduziu milhares de adjetivos a 16 fatores de personalidade usando análise fatorial?",
+      "opcoes": [
+        "Raymond Cattell",
+        "Gordon Allport",
+        "Hans Eysenck",
+        "Carl Rogers"
+      ],
+      "correta": 0,
+      "explicacao": "Daí vem o teste 16PF. Allport classificou traços em cardinais, centrais e secundários; Eysenck propôs três dimensões."
+    },
+    {
+      "id": "teorias-personalidade-18",
+      "topico": "tracos",
+      "nivel": "conceitual",
+      "pergunta": "As três dimensões propostas por Eysenck são:",
+      "opcoes": [
+        "Id, ego e superego",
+        "Extroversão, neuroticismo e psicoticismo",
+        "Abertura, amabilidade e conscienciosidade",
+        "Cardinais, centrais e secundários"
+      ],
+      "correta": 1,
+      "explicacao": "Eysenck buscou bases biológicas para essas dimensões."
+    },
+    {
+      "id": "teorias-personalidade-19",
+      "topico": "tracos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa adora viajar para lugares desconhecidos, experimentar comidas novas e ler sobre temas variados. Qual fator do Big Five está alto nela?",
+      "opcoes": [
+        "Neuroticismo",
+        "Amabilidade",
+        "Abertura à experiência",
+        "Conscienciosidade"
+      ],
+      "correta": 2,
+      "explicacao": "Curiosidade, imaginação e gosto por novidades definem a abertura."
+    },
+    {
+      "id": "teorias-personalidade-20",
+      "topico": "tracos",
+      "nivel": "analise",
+      "pergunta": "Um aluno muito tímido nas festas fala com desenvoltura nas aulas de que gosta. O que isso ilustra no debate pessoa × situação?",
+      "opcoes": [
+        "Os traços não existem",
+        "A timidez é um traço cardinal imutável",
+        "A situação não influencia o comportamento",
+        "O comportamento depende da interação entre traços e situação"
+      ],
+      "correta": 3,
+      "explicacao": "Mischel mostrou a variação entre situações; o interacionismo combina pessoa e contexto."
+    },
+    {
+      "id": "teorias-personalidade-21",
+      "topico": "comportamental-cognitiva",
+      "nivel": "conceitual",
+      "pergunta": "O que Bandura chamou de autoeficácia?",
+      "opcoes": [
+        "A crença na própria capacidade de realizar uma tarefa",
+        "A capacidade de controlar os outros",
+        "Um mecanismo de defesa",
+        "Um traço cardinal"
+      ],
+      "correta": 0,
+      "explicacao": "Autoeficácia alta leva a mais esforço e persistência diante de dificuldades."
+    },
+    {
+      "id": "teorias-personalidade-22",
+      "topico": "comportamental-cognitiva",
+      "nivel": "conceitual",
+      "pergunta": "No determinismo recíproco de Bandura, influenciam-se mutuamente:",
+      "opcoes": [
+        "Id, ego e superego",
+        "Pessoa, comportamento e ambiente",
+        "Genes, hormônios e neurônios",
+        "Consciente, pré-consciente e inconsciente"
+      ],
+      "correta": 1,
+      "explicacao": "Nenhum dos três é causa única; cada um afeta e é afetado pelos outros."
+    },
+    {
+      "id": "teorias-personalidade-23",
+      "topico": "comportamental-cognitiva",
+      "nivel": "conceitual",
+      "pergunta": "Uma pessoa com lócus de controle externo tende a acreditar que:",
+      "opcoes": [
+        "Ela controla tudo o que acontece",
+        "O esforço sempre leva ao sucesso",
+        "Os resultados dependem de sorte, destino ou outras pessoas",
+        "Os traços são imutáveis"
+      ],
+      "correta": 2,
+      "explicacao": "No lócus interno, a pessoa atribui os resultados às próprias ações."
+    },
+    {
+      "id": "teorias-personalidade-24",
+      "topico": "comportamental-cognitiva",
+      "nivel": "aplicacao",
+      "pergunta": "Um estudante reprovou várias vezes apesar de estudar e passou a não tentar mais, mesmo agora com um professor que o ajudaria. Que conceito descreve isso?",
+      "opcoes": [
+        "Autoeficácia elevada",
+        "Sublimação",
+        "Abertura à experiência",
+        "Desamparo aprendido"
+      ],
+      "correta": 3,
+      "explicacao": "Seligman mostrou que a percepção de que nada adianta leva à desistência, mesmo quando a mudança é possível."
+    },
+    {
+      "id": "teorias-personalidade-25",
+      "topico": "comportamental-cognitiva",
+      "nivel": "analise",
+      "pergunta": "Para aumentar a autoeficácia de uma aluna com medo de apresentar trabalhos, qual estratégia é mais eficaz segundo Bandura?",
+      "opcoes": [
+        "Começar com apresentações curtas para pequenos grupos, gerando experiências de êxito",
+        "Obrigá-la a apresentar para toda a escola de uma vez",
+        "Dizer que ela nunca vai conseguir",
+        "Evitar qualquer apresentação para sempre"
+      ],
+      "correta": 0,
+      "explicacao": "Experiências de domínio graduais são a fonte mais forte de autoeficácia."
+    },
+    {
+      "id": "teorias-personalidade-26",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "O que é fidedignidade de um teste?",
+      "opcoes": [
+        "A capacidade de medir o que se propõe a medir",
+        "A consistência dos resultados em aplicações e itens",
+        "O preço do teste",
+        "O tempo de aplicação"
+      ],
+      "correta": 1,
+      "explicacao": "Validade é medir o que se propõe; fidedignidade é medir de forma consistente."
+    },
+    {
+      "id": "teorias-personalidade-27",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, qual sistema do Conselho Federal de Psicologia avalia se um teste psicológico pode ser usado?",
+      "opcoes": [
+        "SUS",
+        "ENEM",
+        "SATEPSI",
+        "CID-11"
+      ],
+      "correta": 2,
+      "explicacao": "Só testes com parecer favorável no SATEPSI podem ser usados na prática profissional."
+    },
+    {
+      "id": "teorias-personalidade-28",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "O Rorschach é um exemplo de:",
+      "opcoes": [
+        "Inventário objetivo de autorrelato",
+        "Teste de inteligência",
+        "Escala de desenvolvimento motor",
+        "Técnica projetiva"
+      ],
+      "correta": 3,
+      "explicacao": "Diante das manchas ambíguas, a pessoa projetaria aspectos de sua personalidade."
+    },
+    {
+      "id": "teorias-personalidade-29",
+      "topico": "avaliacao",
+      "nivel": "aplicacao",
+      "pergunta": "Num processo seletivo, candidatos respondem a um inventário de personalidade marcando sempre as opções que parecem mais adequadas ao cargo. Que limitação isso mostra?",
+      "opcoes": [
+        "Desejabilidade social",
+        "Falta de padronização",
+        "Excesso de validade",
+        "Projeção inconsciente"
+      ],
+      "correta": 0,
+      "explicacao": "Inventários de autorrelato são vulneráveis a respostas que buscam boa impressão; o MMPI tem escalas para detectar isso."
+    },
+    {
+      "id": "teorias-personalidade-30",
+      "topico": "avaliacao",
+      "nivel": "analise",
+      "pergunta": "Um teste dá resultados muito parecidos quando aplicado duas vezes na mesma pessoa, mas não prevê nada do comportamento relacionado ao que diz medir. O que se conclui?",
+      "opcoes": [
+        "Ele é válido, mas não fidedigno",
+        "Ele é fidedigno, mas não tem validade comprovada",
+        "Ele é válido e fidedigno",
+        "Ele não é padronizado"
+      ],
+      "correta": 1,
+      "explicacao": "Um teste pode ser consistente e ainda assim medir outra coisa; fidedignidade não garante validade."
+    }
+  ]
+}

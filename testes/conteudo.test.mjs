@@ -65,6 +65,20 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
     "Direito Processual Civil I": "processo-civil",
     "Direito do Trabalho": "direito-trabalho",
     "Direito Comercial": "direito-empresarial",
+    "Processos Psicológicos Básicos": "processos-psicologicos",
+    "PROCESSOS PSICOLOGICOS BASICOS II": "processos-psicologicos",
+    "Psicologia Cognitiva": "processos-psicologicos",
+    "Teorias da Personalidade I": "teorias-personalidade",
+    "Psicologia da Personalidade": "teorias-personalidade",
+    "Psicopatologia": "psicopatologia",
+    "Psicopatologia Geral II": "psicopatologia",
+    "Semiologia Psiquiátrica": "psicopatologia",
+    "Neuroanatomia": "neuroanatomia",
+    "Neuroanatomia Funcional": "neuroanatomia",
+    "Neurociências": "neuroanatomia",
+    "Patologia Geral": "patologia",
+    "Anatomia Humana": "anatomia-humana",
+    "Psicologia do Desenvolvimento": "psicologia-desenvolvimento",
     "Contabilidade de Custos II": "contabilidade-custos",
     "Custos e Formação de Preços": "contabilidade-custos",
     "Administração de Marketing I": "marketing",
@@ -94,7 +108,7 @@ test("busca tolerante com nomes reais de grades, usando o índice de verdade", a
   };
   for (const [nome, id] of Object.entries(casos)) assert.equal(achaNoBanco(nome, real), id, nome);
   // Nível diferente ou matéria diferente nunca liga.
-  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Direito Processual Civil II", "Processo do Trabalho", "Direito Coletivo do Trabalho", "Segurança do Trabalho", "Direito Empresarial II", "Direito Tributário", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II", "Filosofia", "Sociologia", "História do Brasil", "Ética Profissional", "Psicologia Geral", "Educação Física", "Letramento Digital", "Política Externa Brasileira", "Economia Brasileira", "Marketing Pessoal", "Gestão Ambiental", "Matemática Discreta", "Contabilidade Tributária", "Gestão de Projetos", "Comportamento Organizacional", "Matemática Básica", "Programação Orientada a Objetos", "Sistemas Operacionais", "Arquitetura e Urbanismo", "Redes Sociais", "Compiladores", "Arquitetura de Software", "Estrutura de Concreto", "Computação Gráfica", "Inteligência Artificial"]) {
+  for (const nome of ["Cálculo II", "Cálculo Diferencial e Integral II", "Física II", "Física Moderna", "Química Orgânica", "Direito Civil II", "Fisiologia Vegetal", "Direito Penal II", "Direito Processual Penal", "Processo Penal", "Direito Administrativo II", "Administração Pública", "Direito Processual Civil II", "Processo do Trabalho", "Direito Coletivo do Trabalho", "Segurança do Trabalho", "Direito Empresarial II", "Direito Tributário", "Teoria", "Anatomia Veterinária", "Estatística II", "Bioquímica II", "Bioquímica Clínica", "Banco de Dados II", "Psicologia Social", "Desenvolvimento Web", "Embriologia", "Engenharia", "Planejamento", "Mecânica Geral", "Histologia Vegetal", "Farmacologia Veterinária", "Imunologia II", "Genética Vegetal", "Saúde Mental", "Patologia Vegetal", "Patologia Bucal", "Parasitologia Veterinária", "Epidemiologia II", "Filosofia", "Sociologia", "História do Brasil", "Ética Profissional", "Psicologia Geral", "Educação Física", "Letramento Digital", "Política Externa Brasileira", "Economia Brasileira", "Marketing Pessoal", "Gestão Ambiental", "Matemática Discreta", "Contabilidade Tributária", "Gestão de Projetos", "Comportamento Organizacional", "Matemática Básica", "Programação Orientada a Objetos", "Sistemas Operacionais", "Arquitetura e Urbanismo", "Redes Sociais", "Compiladores", "Arquitetura de Software", "Estrutura de Concreto", "Computação Gráfica", "Inteligência Artificial", "Psicologia Clínica", "Psicofarmacologia", "Neurologia", "Psiquiatria", "Psicologia Organizacional", "Psicologia Hospitalar", "Avaliação Psicológica"]) {
     assert.equal(achaNoBanco(nome, real), null, nome);
   }
 });
