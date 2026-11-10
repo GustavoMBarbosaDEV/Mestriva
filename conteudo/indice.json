@@ -1075,6 +1075,49 @@
       ]
     },
     {
+      "id": "fundamentos-enfermagem",
+      "nome": "Fundamentos de Enfermagem",
+      "apelidos": [
+        "Fundamentos de Enfermagem I",
+        "Fundamentos de Enfermagem II",
+        "Fundamentos do Cuidar em Enfermagem",
+        "Semiologia e Semiotécnica",
+        "Semiologia e Semiotécnica em Enfermagem",
+        "Semiotécnica",
+        "Processo de Cuidar",
+        "Introdução à Enfermagem",
+        "Bases do Cuidado de Enfermagem",
+        "Processo de Enfermagem"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "profissao",
+          "nome": "Profissão, história e teorias"
+        },
+        {
+          "id": "processo",
+          "nome": "Processo de enfermagem e registros"
+        },
+        {
+          "id": "biosseguranca",
+          "nome": "Biossegurança e controle de infecção"
+        },
+        {
+          "id": "seguranca-paciente",
+          "nome": "Segurança do paciente"
+        },
+        {
+          "id": "medicamentos",
+          "nome": "Administração de medicamentos e cálculos"
+        },
+        {
+          "id": "cuidados",
+          "nome": "Cuidados básicos, conforto e lesão por pressão"
+        }
+      ]
+    },
+    {
       "id": "genetica",
       "nome": "Genética",
       "apelidos": [
@@ -2182,6 +2225,50 @@
         {
           "id": "indicadores-financiamento",
           "nome": "Indicadores de saúde e financiamento"
+        }
+      ]
+    },
+    {
+      "id": "semiologia",
+      "nome": "Semiologia",
+      "apelidos": [
+        "Semiologia I",
+        "Semiologia II",
+        "Semiologia Médica",
+        "Semiologia Médica I",
+        "Semiologia Médica II",
+        "Propedêutica",
+        "Propedêutica Médica",
+        "Semiologia Geral",
+        "Exame Físico",
+        "Semiologia e Propedêutica",
+        "Avaliação Clínica"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "anamnese",
+          "nome": "Anamnese e raciocínio semiológico"
+        },
+        {
+          "id": "exame-geral",
+          "nome": "Exame físico geral e sinais vitais"
+        },
+        {
+          "id": "cardiovascular",
+          "nome": "Semiologia cardiovascular"
+        },
+        {
+          "id": "respiratorio",
+          "nome": "Semiologia respiratória"
+        },
+        {
+          "id": "abdome",
+          "nome": "Semiologia do abdome"
+        },
+        {
+          "id": "neurologico",
+          "nome": "Exame neurológico"
         }
       ]
     },

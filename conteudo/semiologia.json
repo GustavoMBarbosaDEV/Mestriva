@@ -1,0 +1,465 @@
+{
+  "id": "semiologia",
+  "nome": "Semiologia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "anamnese",
+      "nome": "Anamnese e raciocínio semiológico",
+      "resumo": "**Semiologia** é o estudo dos **sinais** e **sintomas** e de como obtê-los e interpretá-los. A **propedêutica** reúne os métodos de exame.\n\n### Conceitos\n- **Sintoma**: o que o paciente sente e relata (dor, náusea). Subjetivo.\n- **Sinal**: o que o examinador observa ou mede (febre, sopro, icterícia). Objetivo.\n- **Síndrome**: conjunto de sinais e sintomas com várias causas possíveis (síndrome febril, síndrome nefrótica).\n- **Sinal patognomônico**: exclusivo de uma doença (raro).\n\n### Partes da anamnese\n1. **Identificação**: nome, idade, sexo, profissão, procedência (importantes para doenças regionais e ocupacionais).\n2. **Queixa principal**: o motivo da consulta, nas palavras do paciente, com a duração (\"dor de cabeça há 3 dias\").\n3. **História da doença atual (HDA)**: relato cronológico e detalhado da queixa.\n4. **Interrogatório sintomatológico** (revisão de sistemas): perguntas sobre cada aparelho.\n5. **Antecedentes pessoais**: doenças prévias, cirurgias, alergias, medicamentos, vacinas, gestações.\n6. **Antecedentes familiares**: doenças com componente hereditário (hipertensão, diabetes, câncer).\n7. **Hábitos e condições de vida**: alimentação, atividade física, tabagismo (em **maços-ano**), álcool, drogas, moradia, saneamento.\n\n### Caracterização da dor (roteiro)\n**Localização**, **irradiação**, **qualidade** (em aperto, pontada, queimação, cólica), **intensidade** (escala de 0 a 10), **duração** e **frequência**, **início** (súbito ou gradual), **fatores de melhora e piora** e **sintomas associados**.\n\n### Maços-ano\nNúmero de **maços por dia × anos de tabagismo**. Fumar 1 maço por dia por 20 anos = **20 maços-ano**.\n\n### Relação com o paciente\nPerguntas **abertas** no início, depois **dirigidas**; escuta ativa, empatia, linguagem acessível, privacidade e sigilo. Evitar perguntas que induzam a resposta.",
+      "revisao": "**Lembre:**\n- Sintoma (relatado) × sinal (observado) × síndrome (conjunto).\n- Anamnese: identificação, QP, HDA, revisão, antecedentes, hábitos.\n- Dor: localização, irradiação, qualidade, intensidade, duração, fatores.\n- Maços-ano = maços/dia × anos."
+    },
+    {
+      "id": "exame-geral",
+      "nome": "Exame físico geral e sinais vitais",
+      "resumo": "### Técnicas do exame físico\n**Inspeção** (olhar), **palpação** (tocar), **percussão** (bater para avaliar sons) e **ausculta** (ouvir, em geral com estetoscópio). No **abdome**, a ordem muda: inspeção, **ausculta**, percussão e palpação, para não alterar os ruídos intestinais.\n\n### Exame geral\nEstado geral, nível de consciência, **fácies**, atitude, **hidratação** (mucosas, turgor da pele), **coloração** (palidez, **cianose**, **icterícia**), **edema** (com ou sem cacifo), linfonodos, biotipo, peso, altura, **IMC**.\n- **IMC** = peso (kg) ÷ altura² (m). De 18,5 a 24,9: eutrófico; 25 a 29,9: sobrepeso; 30 ou mais: obesidade.\n- **Cianose**: coloração azulada por excesso de hemoglobina não oxigenada (central: lábios e língua; periférica: extremidades frias).\n- **Icterícia**: amarelamento por **bilirrubina** elevada, vista primeiro nas **escleras**.\n\n### Sinais vitais (valores de referência no adulto)\n- **Temperatura** axilar: 35,5 a 37,0 °C; **febre** a partir de cerca de 37,8 °C.\n- **Frequência cardíaca** (pulso): 60 a 100 bpm. Abaixo: **bradicardia**; acima: **taquicardia**.\n- **Frequência respiratória**: 12 a 20 incursões por minuto. Acima: **taquipneia**; abaixo: **bradipneia**; parada: **apneia**.\n- **Pressão arterial**: ótima abaixo de 120/80 mmHg; **hipertensão** a partir de **140/90** mmHg (Diretriz Brasileira). Medir com o paciente sentado, em repouso, braço na altura do coração e manguito adequado.\n- **Saturação de oxigênio** (oximetria): 95% ou mais em ar ambiente.\n- **Dor** (o \"quinto sinal vital\").\n\n### Pulso\nAvaliar **frequência**, **ritmo** (regular ou irregular), **amplitude** e **simetria**. Pulsos: radial, braquial, carotídeo, femoral, poplíteo, pedioso, tibial posterior.\n\n### Edema\nNa **pressão com o dedo** (sinal de **cacifo** ou de Godet), a depressão que persiste indica edema depressível. Graduado em cruzes (+ a ++++).",
+      "revisao": "**Lembre:**\n- Abdome: inspeção, ausculta, percussão, palpação.\n- FC 60–100; FR 12–20; T axilar até 37 °C; SpO₂ ≥ 95%.\n- HAS a partir de 140/90 mmHg.\n- IMC = peso ÷ altura².\n- Icterícia: escleras; cianose central × periférica."
+    },
+    {
+      "id": "cardiovascular",
+      "nome": "Semiologia cardiovascular",
+      "resumo": "### Sintomas\n**Dor torácica**, **dispneia** (aos esforços, **ortopneia**: piora deitado; **dispneia paroxística noturna**: acorda com falta de ar), **palpitações**, **síncope**, **edema** de membros inferiores, cansaço.\n\n### Dor torácica típica de isquemia (angina)\nDor em **aperto** ou peso, **retroesternal**, que pode irradiar para o **braço esquerdo**, mandíbula ou dorso, desencadeada por **esforço** ou emoção e aliviada pelo **repouso** ou nitrato. Quando prolongada (mais de 20 minutos) e em repouso, sugere **infarto**.\n\n### Exame\n- **Inspeção e palpação do precórdio**: o **ictus cordis** (choque da ponta) normalmente fica no **5º espaço intercostal esquerdo**, na **linha hemiclavicular**. Desviado para baixo e para fora sugere **aumento do ventrículo esquerdo** (cardiomegalia).\n- **Turgência jugular** a 45°: sugere aumento da pressão venosa (insuficiência cardíaca direita).\n\n### Focos de ausculta\n- **Aórtico**: 2º espaço intercostal **direito**, junto ao esterno.\n- **Pulmonar**: 2º espaço intercostal **esquerdo**.\n- **Tricúspide**: borda esternal esquerda baixa (4º–5º espaço).\n- **Mitral**: no ictus (5º espaço, linha hemiclavicular esquerda).\n\n### Bulhas\n- **B1**: fechamento das valvas **mitral e tricúspide** (início da **sístole**), \"tum\", mais forte no foco mitral.\n- **B2**: fechamento das valvas **aórtica e pulmonar** (início da **diástole**), \"tá\", mais forte na base.\n- **B3**: na diástole, logo após B2; pode ser normal em jovens, mas em adultos sugere **insuficiência cardíaca** (sobrecarga de volume).\n- **B4**: antes de B1; ligada a ventrículo **rígido** (hipertrofia).\n\n### Sopros\nRuídos por fluxo **turbulento**. Classificados pela fase (**sistólico** ou **diastólico**), foco, irradiação e intensidade (graus de 1 a 6). Exemplos: **estenose aórtica** = sopro **sistólico** no foco aórtico irradiando para o pescoço; **insuficiência mitral** = sopro **sistólico** no foco mitral irradiando para a axila; **estenose mitral** = sopro **diastólico** (ruflar) no foco mitral.",
+      "revisao": "**Lembre:**\n- Angina: aperto retroesternal, esforço, alívio no repouso.\n- Ictus: 5º EIC esquerdo, linha hemiclavicular.\n- Focos: aórtico (2º EIC D), pulmonar (2º EIC E), tricúspide, mitral (ictus).\n- B1: mitral e tricúspide (sístole); B2: aórtica e pulmonar (diástole).\n- B3 em adulto: insuficiência cardíaca."
+    },
+    {
+      "id": "respiratorio",
+      "nome": "Semiologia respiratória",
+      "resumo": "### Sintomas\n**Tosse** (seca ou produtiva), **expectoração** (aspecto, cor, quantidade), **hemoptise** (sangue vindo dos pulmões), **dispneia**, **dor torácica pleurítica** (em pontada, piora com a inspiração e a tosse), **sibilância** (chiado).\n\n### Inspeção\n- **Padrão respiratório**: frequência, ritmo e uso de **musculatura acessória** (esternocleidomastóideo, tiragem intercostal).\n- Ritmos: **Cheyne-Stokes** (respirações que aumentam e diminuem com apneias, insuficiência cardíaca grave, lesões neurológicas), **Kussmaul** (profunda e rápida, na **acidose metabólica**, como a cetoacidose diabética), **Biot** (irregular, lesão neurológica).\n- **Tórax em tonel** (aumento do diâmetro anteroposterior) no **enfisema**.\n- **Baqueteamento digital**: dedos em baqueta, nas doenças crônicas com hipoxemia.\n\n### Palpação\n- **Expansibilidade** (simétrica ou reduzida de um lado).\n- **Frêmito toracovocal** (vibração ao falar \"trinta e três\"): **aumentado** na **consolidação** (pneumonia); **diminuído** no **derrame pleural** e no **pneumotórax** (o ar ou o líquido afastam o pulmão).\n\n### Percussão\n- **Som claro pulmonar**: normal.\n- **Macicez**: **consolidação** ou **derrame pleural** (líquido ou tecido sólido).\n- **Hipersonoridade** ou **timpanismo**: excesso de ar (**pneumotórax**, **enfisema**).\n\n### Ausculta\n- **Murmúrio vesicular**: som normal do pulmão. **Diminuído** no derrame, pneumotórax, enfisema.\n- **Ruídos adventícios**:\n  - **Estertores finos** (crepitantes): no fim da inspiração, como cabelo esfregado; **pneumonia**, **edema pulmonar**, fibrose.\n  - **Estertores grossos** (bolhosos): secreção nas vias aéreas maiores; mudam com a tosse.\n  - **Sibilos**: chiado musical, mais na expiração; **estreitamento** das vias aéreas (**asma**, DPOC).\n  - **Roncos**: graves, por secreção nos brônquios.\n  - **Estridor**: obstrução de via aérea **alta** (laringe, traqueia); emergência.\n  - **Atrito pleural**: inflamação da pleura.\n\n### Síndromes clássicas\n- **Consolidação** (pneumonia): frêmito **aumentado**, macicez, estertores finos, sopro tubário.\n- **Derrame pleural**: frêmito **diminuído**, macicez, murmúrio diminuído.\n- **Pneumotórax**: frêmito diminuído, **hipersonoridade**, murmúrio abolido.",
+      "revisao": "**Lembre:**\n- Frêmito: aumentado na consolidação; diminuído no derrame e no pneumotórax.\n- Macicez: líquido ou consolidação; hipersonoridade: ar.\n- Crepitantes: pneumonia e edema; sibilos: asma e DPOC.\n- Estridor: obstrução alta, emergência.\n- Kussmaul: acidose metabólica."
+    },
+    {
+      "id": "abdome",
+      "nome": "Semiologia do abdome",
+      "resumo": "### Sintomas\nDor abdominal, náuseas, vômitos, **disfagia** (dificuldade para engolir), **pirose** (azia), alteração do hábito intestinal, **melena** (fezes pretas e fétidas, sangramento **alto**), **hematoquezia** (sangue vivo nas fezes, em geral sangramento **baixo**), **hematêmese** (vômito com sangue), icterícia, **colúria** (urina escura) e **acolia** fecal (fezes claras).\n\n### Divisão topográfica\nEm **nove regiões**: hipocôndrio direito, **epigástrio**, hipocôndrio esquerdo; flanco direito, **mesogástrio** (umbilical), flanco esquerdo; fossa ilíaca direita, **hipogástrio**, fossa ilíaca esquerda. Ou em quatro quadrantes.\n- Hipocôndrio direito: fígado e vesícula. Epigástrio: estômago. Fossa ilíaca direita: apêndice.\n\n### Ordem do exame\n**Inspeção → ausculta → percussão → palpação** (a palpação e a percussão podem alterar os ruídos).\n- **Ausculta**: **ruídos hidroaéreos** normais; aumentados na diarreia e na obstrução inicial; **ausentes** no **íleo paralítico** ou na peritonite.\n- **Percussão**: **timpanismo** (gases) é o som predominante; **macicez** sobre o fígado e em ascite. **Macicez móvel** de decúbito sugere **ascite**.\n- **Palpação**: superficial e depois profunda; começar **longe da dor**.\n\n### Sinais importantes\n- **Blumberg**: dor à **descompressão brusca** no **ponto de McBurney** (entre o terço lateral e o médio da linha da espinha ilíaca ao umbigo): **apendicite** com irritação peritoneal.\n- **Rovsing**: pressão na fossa ilíaca **esquerda** provoca dor na **direita** (apendicite).\n- **Murphy**: interrupção da inspiração profunda por dor à palpação do **hipocôndrio direito**: **colecistite** aguda.\n- **Giordano**: dor à punhopercussão lombar: **pielonefrite** ou cálculo renal.\n- **Abdome em tábua** (rigidez involuntária): **peritonite**.\n- **Sinal de Cullen** (equimose periumbilical) e **Grey-Turner** (nos flancos): hemorragia retroperitoneal, como na pancreatite grave.\n\n### Fígado\nHepatimetria por percussão (cerca de 6 a 12 cm na linha hemiclavicular direita); borda palpável na inspiração.",
+      "revisao": "**Lembre:**\n- Abdome: inspeção, ausculta, percussão, palpação.\n- Melena: sangramento alto; hematoquezia: baixo.\n- Blumberg e Rovsing: apendicite.\n- Murphy: colecistite; Giordano: rim.\n- Macicez móvel: ascite; abdome em tábua: peritonite."
+    },
+    {
+      "id": "neurologico",
+      "nome": "Exame neurológico",
+      "resumo": "### Nível de consciência: escala de coma de Glasgow\nSoma de três itens (de **3 a 15** pontos):\n- **Abertura ocular** (1 a 4): espontânea 4, ao chamado 3, à pressão (dor) 2, nenhuma 1.\n- **Resposta verbal** (1 a 5): orientada 5, confusa 4, palavras inapropriadas 3, sons incompreensíveis 2, nenhuma 1.\n- **Resposta motora** (1 a 6): obedece a comandos 6, localiza o estímulo 5, retirada 4, flexão anormal (decorticação) 3, extensão anormal (descerebração) 2, nenhuma 1.\n- Gravidade do traumatismo: **13–15 leve**, **9–12 moderado**, **3–8 grave** (indicação de proteger a via aérea: \"Glasgow 8, intuba\").\n- A versão atual (Glasgow-P) subtrai pontos se as **pupilas** não reagem.\n\n### Pupilas\n- **Isocóricas** (iguais) ou **anisocóricas** (diferentes). **Midríase**: dilatada; **miose**: contraída.\n- **Reflexo fotomotor**: a luz contrai a pupila do mesmo olho (direto) e do outro (consensual).\n- **Midríase unilateral fixa** em paciente com rebaixamento sugere **herniação** com compressão do nervo **oculomotor (III)**: emergência.\n- **Miose puntiforme** bilateral: intoxicação por **opioides** ou lesão de ponte.\n\n### Força e tônus\n- Força em graus de **0** (nenhuma contração) a **5** (normal).\n- **Hemiparesia**: fraqueza de um lado; **paraparesia**: das duas pernas; **tetraparesia**: dos quatro membros (**plegia** = paralisia completa).\n\n### Reflexos\n- **Profundos** (patelar, aquileu, bicipital), graduados de 0 a 4+.\n- **Hiper-reflexia**, espasticidade e **sinal de Babinski** (extensão do hálux ao estimular a planta do pé): lesão do **neurônio motor superior**.\n- **Hiporreflexia** e flacidez: lesão do **neurônio motor inferior** ou de nervo.\n\n### Coordenação e marcha\nProvas **dedo-nariz** e **calcanhar-joelho**; **sinal de Romberg** (desequilíbrio ao fechar os olhos em pé com os pés juntos): problema de **propriocepção** (sensibilidade profunda) ou vestibular, não cerebelar puro.\n\n### Sinais meníngeos\n**Rigidez de nuca**, **Kernig** e **Brudzinski**: irritação das meninges (**meningite**, hemorragia subaracnóidea).",
+      "revisao": "**Lembre:**\n- Glasgow: ocular 4 + verbal 5 + motor 6; mínimo 3.\n- 3–8 grave: proteger via aérea.\n- Midríase unilateral fixa: herniação (III par).\n- Babinski e hiper-reflexia: neurônio motor superior.\n- Rigidez de nuca, Kernig, Brudzinski: meningite."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "semiologia-1",
+      "topico": "anamnese",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre sinal e sintoma?",
+      "opcoes": [
+        "Sintoma é relatado pelo paciente; sinal é observado ou medido pelo examinador",
+        "São sinônimos",
+        "Sinal é sempre subjetivo",
+        "Sintoma só aparece em exames de imagem"
+      ],
+      "correta": 0,
+      "explicacao": "Dor e náusea são sintomas; febre medida e icterícia são sinais."
+    },
+    {
+      "id": "semiologia-2",
+      "topico": "anamnese",
+      "nivel": "conceitual",
+      "pergunta": "A queixa principal deve ser registrada:",
+      "opcoes": [
+        "Já com o diagnóstico médico",
+        "Com as palavras do paciente e a duração",
+        "Apenas com termos técnicos",
+        "Somente no fim do exame físico"
+      ],
+      "correta": 1,
+      "explicacao": "Exemplo: 'dor de cabeça há 3 dias'. A HDA detalha depois a evolução."
+    },
+    {
+      "id": "semiologia-3",
+      "topico": "anamnese",
+      "nivel": "conceitual",
+      "pergunta": "Em qual parte da anamnese se registram hipertensão e câncer em pais e irmãos?",
+      "opcoes": [
+        "Queixa principal",
+        "Identificação",
+        "Antecedentes familiares",
+        "Exame físico geral"
+      ],
+      "correta": 2,
+      "explicacao": "Antecedentes familiares ajudam a avaliar risco de doenças hereditárias."
+    },
+    {
+      "id": "semiologia-4",
+      "topico": "anamnese",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente fumou 2 maços por dia durante 15 anos. Qual é a carga tabágica?",
+      "opcoes": [
+        "17 maços-ano",
+        "15 maços-ano",
+        "7,5 maços-ano",
+        "30 maços-ano"
+      ],
+      "correta": 3,
+      "explicacao": "Maços-ano = maços por dia × anos de tabagismo = 2 × 15 = 30."
+    },
+    {
+      "id": "semiologia-5",
+      "topico": "anamnese",
+      "nivel": "analise",
+      "pergunta": "Na caracterização de uma dor torácica, por que perguntar o que a desencadeia e o que a alivia?",
+      "opcoes": [
+        "Porque esses fatores ajudam a distinguir causas, como a dor que piora com esforço e melhora com repouso na angina",
+        "Porque a resposta não muda o raciocínio",
+        "Porque basta saber a intensidade",
+        "Porque substitui o exame físico"
+      ],
+      "correta": 0,
+      "explicacao": "Fatores de piora e melhora são parte do roteiro da dor e orientam as hipóteses."
+    },
+    {
+      "id": "semiologia-6",
+      "topico": "exame-geral",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a faixa normal de frequência respiratória no adulto em repouso?",
+      "opcoes": [
+        "4 a 8 por minuto",
+        "12 a 20 incursões por minuto",
+        "30 a 40 por minuto",
+        "60 a 100 por minuto"
+      ],
+      "correta": 1,
+      "explicacao": "60 a 100 é a faixa da frequência cardíaca. Acima de 20 rpm é taquipneia."
+    },
+    {
+      "id": "semiologia-7",
+      "topico": "exame-geral",
+      "nivel": "conceitual",
+      "pergunta": "No exame do abdome, qual é a ordem recomendada?",
+      "opcoes": [
+        "Palpação, percussão, ausculta e inspeção",
+        "Inspeção, palpação, percussão e ausculta",
+        "Inspeção, ausculta, percussão e palpação",
+        "Ausculta, palpação, inspeção e percussão"
+      ],
+      "correta": 2,
+      "explicacao": "Palpar e percutir antes podem alterar os ruídos intestinais."
+    },
+    {
+      "id": "semiologia-8",
+      "topico": "exame-geral",
+      "nivel": "conceitual",
+      "pergunta": "Onde a icterícia costuma ser notada primeiro?",
+      "opcoes": [
+        "Nas unhas",
+        "Na sola dos pés",
+        "Nos cabelos",
+        "Nas escleras"
+      ],
+      "correta": 3,
+      "explicacao": "A bilirrubina tem afinidade pelo tecido elástico da esclera, que é branca e facilita a percepção."
+    },
+    {
+      "id": "semiologia-9",
+      "topico": "exame-geral",
+      "nivel": "aplicacao",
+      "pergunta": "Um adulto pesa 90 kg e mede 1,73 m. Qual é a classificação pelo IMC?",
+      "opcoes": [
+        "Obesidade (IMC cerca de 30)",
+        "Eutrófico",
+        "Baixo peso",
+        "Sobrepeso leve (IMC cerca de 25)"
+      ],
+      "correta": 0,
+      "explicacao": "IMC = 90 ÷ 1,73² = 90 ÷ 2,99 ≈ 30,1, faixa de obesidade."
+    },
+    {
+      "id": "semiologia-10",
+      "topico": "exame-geral",
+      "nivel": "analise",
+      "pergunta": "A pressão de um paciente medida logo depois de subir escadas, com manguito pequeno para um braço grosso, deu 160/100 mmHg. Qual é a melhor conduta?",
+      "opcoes": [
+        "Diagnosticar hipertensão imediatamente",
+        "Repetir após repouso, sentado, com manguito adequado ao braço",
+        "Medir no braço com o paciente em pé correndo",
+        "Descartar a medida e nunca mais medir"
+      ],
+      "correta": 1,
+      "explicacao": "Esforço recente e manguito pequeno superestimam a pressão; a técnica correta é condição para o diagnóstico."
+    },
+    {
+      "id": "semiologia-11",
+      "topico": "cardiovascular",
+      "nivel": "conceitual",
+      "pergunta": "Onde fica normalmente o ictus cordis no adulto?",
+      "opcoes": [
+        "2º espaço intercostal direito",
+        "Na região epigástrica",
+        "5º espaço intercostal esquerdo, na linha hemiclavicular",
+        "No 8º espaço intercostal direito"
+      ],
+      "correta": 2,
+      "explicacao": "Desviado para baixo e para fora, sugere aumento do ventrículo esquerdo."
+    },
+    {
+      "id": "semiologia-12",
+      "topico": "cardiovascular",
+      "nivel": "conceitual",
+      "pergunta": "A primeira bulha (B1) corresponde ao fechamento das valvas:",
+      "opcoes": [
+        "Aórtica e pulmonar",
+        "Aórtica e mitral",
+        "Pulmonar e tricúspide",
+        "Mitral e tricúspide"
+      ],
+      "correta": 3,
+      "explicacao": "B1 marca o início da sístole; B2, o fechamento das semilunares (aórtica e pulmonar)."
+    },
+    {
+      "id": "semiologia-13",
+      "topico": "cardiovascular",
+      "nivel": "conceitual",
+      "pergunta": "Ortopneia é:",
+      "opcoes": [
+        "Falta de ar que piora ao deitar e melhora sentado",
+        "Dor no peito ao esforço",
+        "Desmaio súbito",
+        "Palpitação ao acordar"
+      ],
+      "correta": 0,
+      "explicacao": "É típica da insuficiência cardíaca, pela redistribuição de líquido para os pulmões na posição deitada."
+    },
+    {
+      "id": "semiologia-14",
+      "topico": "cardiovascular",
+      "nivel": "aplicacao",
+      "pergunta": "Um sopro sistólico mais intenso no 2º espaço intercostal direito, irradiando para o pescoço, sugere:",
+      "opcoes": [
+        "Estenose mitral",
+        "Estenose aórtica",
+        "Insuficiência tricúspide",
+        "Pericardite"
+      ],
+      "correta": 1,
+      "explicacao": "O foco aórtico e a irradiação para as carótidas apontam para a valva aórtica."
+    },
+    {
+      "id": "semiologia-15",
+      "topico": "cardiovascular",
+      "nivel": "analise",
+      "pergunta": "Um homem de 58 anos tem dor em aperto atrás do esterno, irradiando para o braço esquerdo, iniciada em repouso há 40 minutos, com sudorese. Qual é a principal preocupação?",
+      "opcoes": [
+        "Dor muscular simples",
+        "Ansiedade sem necessidade de exames",
+        "Síndrome coronariana aguda (possível infarto), exigindo atendimento imediato",
+        "Refluxo, a ser tratado em casa"
+      ],
+      "correta": 2,
+      "explicacao": "A dor anginosa prolongada e em repouso sugere infarto; o eletrocardiograma deve ser feito em minutos."
+    },
+    {
+      "id": "semiologia-16",
+      "topico": "respiratorio",
+      "nivel": "conceitual",
+      "pergunta": "Sibilos são característicos de:",
+      "opcoes": [
+        "Pneumotórax",
+        "Derrame pleural volumoso",
+        "Pele normal",
+        "Estreitamento das vias aéreas, como na asma"
+      ],
+      "correta": 3,
+      "explicacao": "São ruídos musicais, mais na expiração, causados por broncoespasmo ou obstrução."
+    },
+    {
+      "id": "semiologia-17",
+      "topico": "respiratorio",
+      "nivel": "conceitual",
+      "pergunta": "Na consolidação pulmonar (pneumonia), o frêmito toracovocal costuma estar:",
+      "opcoes": [
+        "Aumentado",
+        "Diminuído",
+        "Abolido",
+        "Sempre normal"
+      ],
+      "correta": 0,
+      "explicacao": "O tecido consolidado conduz melhor a vibração; no derrame e no pneumotórax, ela diminui."
+    },
+    {
+      "id": "semiologia-18",
+      "topico": "respiratorio",
+      "nivel": "conceitual",
+      "pergunta": "A respiração de Kussmaul, profunda e rápida, é típica de:",
+      "opcoes": [
+        "Crise de asma leve",
+        "Acidose metabólica, como na cetoacidose diabética",
+        "Pneumotórax",
+        "Sono normal"
+      ],
+      "correta": 1,
+      "explicacao": "O organismo aumenta a ventilação para eliminar CO₂ e compensar a acidose."
+    },
+    {
+      "id": "semiologia-19",
+      "topico": "respiratorio",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente tem macicez à percussão, frêmito diminuído e murmúrio vesicular reduzido na base direita. Qual é a hipótese mais provável?",
+      "opcoes": [
+        "Pneumotórax",
+        "Pneumonia com consolidação",
+        "Derrame pleural",
+        "Asma"
+      ],
+      "correta": 2,
+      "explicacao": "O líquido abafa o som, a vibração e o murmúrio. Na consolidação, o frêmito aumenta."
+    },
+    {
+      "id": "semiologia-20",
+      "topico": "respiratorio",
+      "nivel": "analise",
+      "pergunta": "Um jovem alto e magro tem dor torácica súbita e falta de ar; à direita há hipersonoridade e murmúrio abolido. Qual é o diagnóstico mais provável e por quê?",
+      "opcoes": [
+        "Derrame pleural: o líquido dá hipersonoridade",
+        "Pneumonia: a consolidação dá hipersonoridade",
+        "Asma: os sibilos dão hipersonoridade",
+        "Pneumotórax espontâneo: há ar na pleura, que dá hipersonoridade e afasta o pulmão"
+      ],
+      "correta": 3,
+      "explicacao": "Ar na cavidade pleural causa timpanismo e impede a transmissão do murmúrio."
+    },
+    {
+      "id": "semiologia-21",
+      "topico": "abdome",
+      "nivel": "conceitual",
+      "pergunta": "Melena indica geralmente:",
+      "opcoes": [
+        "Sangramento digestivo alto, com fezes pretas e fétidas",
+        "Sangramento retal com sangue vivo",
+        "Icterícia obstrutiva",
+        "Infecção urinária"
+      ],
+      "correta": 0,
+      "explicacao": "O sangue digerido no trajeto escurece as fezes; sangue vivo (hematoquezia) sugere origem baixa."
+    },
+    {
+      "id": "semiologia-22",
+      "topico": "abdome",
+      "nivel": "conceitual",
+      "pergunta": "O sinal de Murphy positivo sugere:",
+      "opcoes": [
+        "Apendicite",
+        "Colecistite aguda",
+        "Pielonefrite",
+        "Pancreatite crônica"
+      ],
+      "correta": 1,
+      "explicacao": "A dor interrompe a inspiração quando se palpa o hipocôndrio direito, onde está a vesícula."
+    },
+    {
+      "id": "semiologia-23",
+      "topico": "abdome",
+      "nivel": "conceitual",
+      "pergunta": "O sinal de Blumberg é a dor:",
+      "opcoes": [
+        "À punhopercussão lombar",
+        "À palpação do epigástrio após comer",
+        "À descompressão brusca no ponto de McBurney, sugerindo apendicite com irritação peritoneal",
+        "Ao deitar sobre o lado esquerdo"
+      ],
+      "correta": 2,
+      "explicacao": "A descompressão dolorosa indica irritação do peritônio."
+    },
+    {
+      "id": "semiologia-24",
+      "topico": "abdome",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente com cirrose tem abdome aumentado, e a área de macicez muda de lugar ao trocar de decúbito. O que isso indica?",
+      "opcoes": [
+        "Gases intestinais",
+        "Hepatomegalia isolada",
+        "Apendicite",
+        "Ascite (macicez móvel)"
+      ],
+      "correta": 3,
+      "explicacao": "O líquido livre desce para a parte mais baixa conforme a posição, mudando a área maciça."
+    },
+    {
+      "id": "semiologia-25",
+      "topico": "abdome",
+      "nivel": "analise",
+      "pergunta": "Uma paciente tem febre, dor lombar e dor intensa à punhopercussão lombar direita, sem dor abdominal anterior. Qual é a hipótese mais provável?",
+      "opcoes": [
+        "Pielonefrite (sinal de Giordano positivo)",
+        "Colecistite",
+        "Apendicite",
+        "Úlcera gástrica"
+      ],
+      "correta": 0,
+      "explicacao": "O Giordano positivo com febre aponta para infecção renal; as demais causariam dor anterior com sinais próprios."
+    },
+    {
+      "id": "semiologia-26",
+      "topico": "neurologico",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a pontuação mínima possível na escala de coma de Glasgow?",
+      "opcoes": [
+        "0",
+        "3",
+        "1",
+        "5"
+      ],
+      "correta": 1,
+      "explicacao": "Cada item tem mínimo de 1 ponto: ocular 1 + verbal 1 + motor 1 = 3. O máximo é 15."
+    },
+    {
+      "id": "semiologia-27",
+      "topico": "neurologico",
+      "nivel": "conceitual",
+      "pergunta": "O sinal de Babinski indica:",
+      "opcoes": [
+        "Lesão de nervo periférico",
+        "Função cerebelar normal",
+        "Lesão do neurônio motor superior",
+        "Irritação das meninges"
+      ],
+      "correta": 2,
+      "explicacao": "A extensão do hálux ao estimular a planta do pé surge quando a via piramidal está lesada (exceto em bebês)."
+    },
+    {
+      "id": "semiologia-28",
+      "topico": "neurologico",
+      "nivel": "conceitual",
+      "pergunta": "Rigidez de nuca e sinais de Kernig e Brudzinski sugerem:",
+      "opcoes": [
+        "Lesão do nervo facial",
+        "Doença de Parkinson",
+        "Hérnia de disco lombar",
+        "Irritação meníngea, como na meningite"
+      ],
+      "correta": 3,
+      "explicacao": "Esses sinais também aparecem na hemorragia subaracnóidea."
+    },
+    {
+      "id": "semiologia-29",
+      "topico": "neurologico",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente abre os olhos à pressão, emite sons incompreensíveis e retira o membro ao estímulo doloroso. Qual é a pontuação de Glasgow?",
+      "opcoes": [
+        "8",
+        "9",
+        "7",
+        "10"
+      ],
+      "correta": 0,
+      "explicacao": "Abertura à pressão = 2; sons incompreensíveis = 2; retirada = 4. Total = 8, faixa grave."
+    },
+    {
+      "id": "semiologia-30",
+      "topico": "neurologico",
+      "nivel": "analise",
+      "pergunta": "Após um traumatismo craniano, um paciente rebaixa a consciência e desenvolve midríase fixa à direita. O que isso sugere?",
+      "opcoes": [
+        "Intoxicação por opioides",
+        "Herniação cerebral com compressão do nervo oculomotor, uma emergência neurocirúrgica",
+        "Efeito normal do sono",
+        "Lesão isolada do nervo facial"
+      ],
+      "correta": 1,
+      "explicacao": "A compressão do III par pela herniação dilata a pupila do mesmo lado."
+    }
+  ]
+}

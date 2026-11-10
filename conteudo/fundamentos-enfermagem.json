@@ -1,0 +1,465 @@
+{
+  "id": "fundamentos-enfermagem",
+  "nome": "Fundamentos de Enfermagem",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "profissao",
+      "nome": "Profissão, história e teorias",
+      "resumo": "### História\n- **Florence Nightingale** (Guerra da Crimeia, 1854): marco da enfermagem moderna. Mostrou, com **estatísticas**, que melhorar a **higiene**, a ventilação e a alimentação reduzia muito a mortalidade. Sua teoria é **ambientalista**.\n- No Brasil: **Anna Nery** (voluntária na Guerra do Paraguai) dá nome à primeira escola de enfermagem moderna do país (1923, Rio de Janeiro).\n\n### Teorias de enfermagem\n- **Wanda de Aguiar Horta**: **Teoria das Necessidades Humanas Básicas**, baseada em Maslow; divide as necessidades em **psicobiológicas**, **psicossociais** e **psicoespirituais**. Muito usada no Brasil e base do processo de enfermagem nacional.\n- **Dorothea Orem**: **teoria do autocuidado** (déficit de autocuidado e sistemas de enfermagem: totalmente compensatório, parcialmente compensatório e de apoio-educação).\n- **Virginia Henderson**: 14 necessidades básicas; a enfermeira ajuda o paciente a fazer o que faria sozinho se tivesse força, vontade ou conhecimento.\n- **Hildegard Peplau**: relações interpessoais.\n- **Madeleine Leininger**: cuidado **transcultural**.\n\n### Legislação\n- **Lei 7.498/1986**: regulamenta o exercício da enfermagem. Categorias: **enfermeiro** (nível superior), **técnico de enfermagem**, **auxiliar de enfermagem** e parteira.\n- **Privativo do enfermeiro**: **consulta** e **prescrição de enfermagem**, cuidados diretos a pacientes **graves com risco de vida**, cuidados de **maior complexidade técnica**, chefia do serviço de enfermagem.\n- **COFEN** (Conselho Federal) e **CORENs** (regionais) fiscalizam o exercício.\n- **Código de Ética dos Profissionais de Enfermagem** (Resolução COFEN 564/2017): direitos, deveres e proibições; sigilo profissional, respeito à autonomia, proibição de executar atos fora da competência.\n\n### Responsabilidade profissional\nInfrações por **imperícia** (falta de habilidade técnica), **imprudência** (agir com precipitação, sem cautela) e **negligência** (omissão, deixar de fazer o que devia).",
+      "revisao": "**Lembre:**\n- Nightingale: higiene, ambiente, estatística.\n- Horta: necessidades humanas básicas (psicobiológicas, psicossociais, psicoespirituais).\n- Orem: autocuidado.\n- Lei 7.498/1986; prescrição de enfermagem é privativa do enfermeiro.\n- Imperícia, imprudência, negligência."
+    },
+    {
+      "id": "processo",
+      "nome": "Processo de enfermagem e registros",
+      "resumo": "O **processo de enfermagem** (PE) é o método que organiza o cuidado de forma sistemática. A **Sistematização da Assistência de Enfermagem** (SAE) organiza o trabalho (método, pessoal e instrumentos) para tornar o PE possível. No Brasil, o PE é regulamentado pelo COFEN (Resolução 736/2024, que substituiu a 358/2009) e deve ser feito em **todos os ambientes** onde há cuidado de enfermagem.\n\n### Etapas (inter-relacionadas)\n1. **Avaliação de enfermagem** (antes chamada de histórico ou coleta de dados): entrevista e exame físico para conhecer a pessoa e suas necessidades.\n2. **Diagnóstico de enfermagem**: julgamento clínico sobre as respostas da pessoa a problemas de saúde ou processos de vida (por exemplo, pela taxonomia **NANDA-I**: \"risco de queda\", \"mobilidade física prejudicada\", \"dor aguda\").\n3. **Planejamento**: definir **resultados esperados** (metas mensuráveis, como na **NOC**) e as **intervenções** (como na **NIC**).\n4. **Implementação**: executar as intervenções prescritas.\n5. **Evolução de enfermagem**: avaliar se os resultados foram alcançados e ajustar o plano.\n\n### Diagnóstico médico × de enfermagem\n- **Médico**: identifica a **doença** (pneumonia).\n- **De enfermagem**: identifica a **resposta humana** a ela, que a enfermagem pode tratar (padrão respiratório ineficaz, intolerância à atividade).\n\n### Registros de enfermagem\n- **Anotação** de enfermagem: registro do que foi observado e feito (técnicos, auxiliares e enfermeiros).\n- **Evolução**: análise crítica feita pelo **enfermeiro**.\n- Devem ser **legíveis**, com **data e hora**, **sem rasuras** (erro: escrever \"digo\" ou riscar com um traço e corrigir, conforme a norma da instituição), sem espaços em branco, com **assinatura** e número do COREN. Escrever o que se viu, não suposições.\n- O prontuário é **documento legal** e protegido por **sigilo**.\n\n### Passagem de plantão\nComunicação estruturada (por exemplo, o modelo **SBAR**: situação, *background*/histórico, avaliação, recomendação) reduz erros.",
+      "revisao": "**Lembre:**\n- PE: avaliação, diagnóstico, planejamento, implementação, evolução.\n- Diagnóstico de enfermagem: resposta humana (NANDA-I).\n- NOC: resultados; NIC: intervenções.\n- Registro: data, hora, sem rasura, assinatura e COREN.\n- SBAR na passagem de plantão."
+    },
+    {
+      "id": "biosseguranca",
+      "nome": "Biossegurança e controle de infecção",
+      "resumo": "### Higiene das mãos\nA medida **mais importante** para prevenir infecções relacionadas à assistência à saúde (IRAS).\n- **Cinco momentos** (OMS): **antes** de tocar o paciente; **antes** de procedimento limpo ou asséptico; **após** risco de exposição a fluidos corporais; **após** tocar o paciente; **após** tocar superfícies próximas ao paciente.\n- **Álcool em gel** (preparação alcoólica): 20 a 30 segundos, quando as mãos **não** estão visivelmente sujas.\n- **Água e sabão**: 40 a 60 segundos, quando há **sujeira visível**, contato com fluidos ou após cuidar de paciente com **Clostridioides difficile** (o álcool não elimina os esporos).\n- Usar luvas **não substitui** a higiene das mãos.\n\n### Precauções\n- **Padrão** (com **todos** os pacientes): higiene das mãos, luvas, avental, máscara e óculos quando houver risco de contato com sangue e fluidos, descarte seguro de **perfurocortantes**.\n- **De contato** (bactérias multirresistentes, escabiose): **luvas** e **avental**; quarto individual ou coorte.\n- **Por gotículas** (influenza, coqueluche, meningite meningocócica): **máscara cirúrgica** a menos de 1 metro do paciente.\n- **Por aerossóis** (**tuberculose**, **sarampo**, **varicela**): **máscara N95/PFF2** e quarto com pressão **negativa** ou bem ventilado, porta fechada.\n\n### Processamento de materiais (classificação de Spaulding)\n- **Críticos** (penetram tecidos estéreis: instrumental cirúrgico, agulhas): **esterilização**.\n- **Semicríticos** (contato com mucosas: endoscópios, cânulas): **desinfecção de alto nível** (no mínimo).\n- **Não críticos** (pele íntegra: estetoscópio, termômetro externo): **limpeza** e desinfecção de baixo/médio nível.\n- **Limpeza** sempre antes da desinfecção ou esterilização.\n\n### Acidentes com perfurocortantes\n- Não **reencapar** agulhas; descartar em caixa rígida até a linha de limite (cerca de 2/3).\n- Após exposição: lavar com água e sabão, notificar e procurar atendimento logo (a profilaxia para HIV deve começar idealmente em até **2 horas**, no máximo 72 horas).\n- **NR-32**: norma de segurança e saúde no trabalho em serviços de saúde; inclui a vacinação contra **hepatite B**, tétano e difteria.",
+      "revisao": "**Lembre:**\n- Higiene das mãos: 5 momentos; álcool 20–30 s; água e sabão 40–60 s.\n- Contato: luva e avental; gotículas: máscara cirúrgica; aerossóis: N95.\n- Aerossóis: tuberculose, sarampo, varicela.\n- Spaulding: crítico (esteriliza), semicrítico (alto nível), não crítico (limpeza).\n- Não reencapar agulhas; NR-32."
+    },
+    {
+      "id": "seguranca-paciente",
+      "nome": "Segurança do paciente",
+      "resumo": "O **Programa Nacional de Segurança do Paciente** (PNSP) foi instituído em **2013** (Portaria MS 529). A RDC 36/2013 da Anvisa exige **Núcleos de Segurança do Paciente** nos serviços de saúde.\n\n### Conceitos\n- **Incidente**: evento que poderia ter resultado, ou resultou, em dano desnecessário.\n- **Evento adverso**: incidente que **resultou em dano** ao paciente.\n- **Quase erro** (*near miss*): incidente que **não atingiu** o paciente.\n- **Cultura de segurança**: notificar e aprender com os erros, sem foco em culpar pessoas, mas sem tolerar descuido deliberado. O modelo do **queijo suíço** (Reason) mostra que acidentes acontecem quando falhas em várias camadas se alinham.\n\n### Seis metas internacionais de segurança\n1. **Identificar corretamente o paciente**: pelo menos **dois identificadores** (nome completo e data de nascimento, por exemplo), nunca o número do leito.\n2. **Melhorar a comunicação** entre os profissionais (prescrições verbais confirmadas por leitura de volta, passagem de plantão estruturada).\n3. **Melhorar a segurança dos medicamentos de alta vigilância** (insulina, heparina, potássio concentrado, opioides).\n4. **Cirurgia segura**: lado e procedimento corretos; **lista de verificação** da OMS com três momentos: antes da indução anestésica (*sign in*), antes da incisão (*time out*) e antes de o paciente sair da sala (*sign out*).\n5. **Reduzir o risco de infecções** relacionadas à assistência (higiene das mãos).\n6. **Reduzir o risco de quedas e lesões por pressão**.\n\n### Prevenção de quedas\nAvaliar o risco (por exemplo, escala de **Morse**), grades elevadas, campainha ao alcance, calçados antiderrapantes, iluminação, acompanhar paciente sedado ou com hipotensão postural.\n\n### Notificação\nEventos adversos devem ser notificados (sistema **Notivisa**, da Anvisa) para análise das causas, sem punir automaticamente quem notifica.",
+      "revisao": "**Lembre:**\n- PNSP: 2013; Núcleos de Segurança do Paciente (RDC 36).\n- Evento adverso: com dano; quase erro: não atingiu.\n- 6 metas: identificação, comunicação, medicamentos, cirurgia, infecção, quedas e lesão por pressão.\n- Dois identificadores, nunca o leito.\n- Checklist cirúrgico: sign in, time out, sign out."
+    },
+    {
+      "id": "medicamentos",
+      "nome": "Administração de medicamentos e cálculos",
+      "resumo": "### Os \"certos\" da administração\nClassicamente cinco (paciente, medicamento, dose, via e hora), ampliados para **nove**: **paciente certo**, **medicamento certo**, **via certa**, **hora certa**, **dose certa**, **registro certo**, **orientação certa**, **forma farmacêutica certa** e **resposta certa** (monitorar o efeito).\n\n### Vias principais\n- **Oral** (VO): mais segura e econômica; absorção mais lenta.\n- **Sublingual**: absorção rápida, evita a primeira passagem pelo fígado.\n- **Intramuscular** (IM): regiões **ventroglútea** (a mais segura, com menos nervos e vasos importantes), **vasto lateral da coxa** (preferida em bebês), **deltoide** (volumes pequenos, até cerca de 2–3 mL em adultos) e dorsoglútea (hoje evitada pelo risco ao nervo isquiático).\n- **Subcutânea** (SC): **insulina**, **heparina**; ângulo de 90° (ou 45° em pessoas magras); rodízio dos locais.\n- **Intradérmica** (ID): volumes mínimos, ângulo de **10–15°**, forma uma pápula (vacina BCG, teste tuberculínico).\n- **Endovenosa** (EV): efeito **imediato**; exige técnica asséptica e atenção a sinais de **flebite** e **infiltração**.\n\n### Cálculo de gotejamento\n- **Macrogotas** (equipo comum: 1 mL = 20 gotas): **gotas/min = volume (mL) ÷ (tempo em horas × 3)**.\n- **Microgotas** (1 mL = 60 microgotas): **microgotas/min = volume (mL) ÷ tempo (h)**.\n- Relação: 1 gota = 3 microgotas.\n- Exemplo: 500 mL em 8 h → 500 ÷ (8 × 3) ≈ **21 gotas/min**; em microgotas, 500 ÷ 8 ≈ **62 microgotas/min**.\n- **Bomba de infusão**: em **mL/h** = volume ÷ tempo (500 mL em 8 h = 62,5 mL/h).\n\n### Regra de três para doses\nExemplo: há ampola de **500 mg em 5 mL** e a prescrição é **200 mg**: 500 mg — 5 mL; 200 mg — x → x = **2 mL**.\n\n### Diluição e penicilina cristalina\nFrascos de pó devem ser reconstituídos conforme o fabricante; o volume do pó pode se somar ao do diluente (a penicilina cristalina de 5.000.000 UI com 8 mL de diluente dá cerca de **10 mL**).\n\n### Alta vigilância\nInsulina, heparina, **cloreto de potássio** concentrado (nunca em *bolus*: sempre diluído), opioides, quimioterápicos: dupla checagem.",
+      "revisao": "**Lembre:**\n- Nove certos (paciente, medicamento, via, hora, dose, registro, orientação, forma, resposta).\n- Gotas/min = V ÷ (T × 3); microgotas/min = V ÷ T.\n- Ventroglútea: IM mais segura; ID: 10–15°.\n- Regra de três para dose.\n- KCl concentrado nunca em bolus."
+    },
+    {
+      "id": "cuidados",
+      "nome": "Cuidados básicos, conforto e lesão por pressão",
+      "resumo": "### Higiene e conforto\n- **Banho no leito**: no sentido do mais **limpo** para o mais **sujo** (rosto, membros superiores, tórax, abdome, membros inferiores, costas, região perineal por último); preservar a privacidade e a temperatura.\n- **Higiene oral**, inclusive em pacientes intubados (reduz pneumonia associada à ventilação).\n- **Arrumação do leito**: lençóis bem esticados, sem dobras.\n\n### Posições\n- **Fowler**: decúbito dorsal com a cabeceira elevada (**45–60°**); facilita a respiração. **Semi-Fowler**: 30–45°.\n- **Trendelenburg**: cabeça mais baixa que os pés (hoje de uso restrito).\n- **Sims**: lateral esquerda com a perna direita flexionada (enema, exame retal).\n- **Decúbito ventral** (prona), **dorsal** e **lateral**.\n- **Litotômica** (ginecológica).\n- Pacientes em ventilação mecânica: cabeceira a **30–45°** para prevenir broncoaspiração.\n\n### Lesão por pressão (LPP)\nDano na pele e/ou tecidos moles, geralmente sobre **proeminência óssea** (sacro, calcâneos, trocânteres, occipital), por **pressão** intensa ou prolongada, às vezes com **cisalhamento**.\n- **Estágios** (NPIAP): **1** (pele íntegra com **eritema que não embranquece** ao pressionar); **2** (perda parcial da pele, derme exposta, pode ser bolha); **3** (perda total da pele, gordura visível); **4** (perda total com **osso, tendão ou músculo** expostos). Também: **não classificável** (base coberta por esfacelo ou escara) e **tissular profunda** (área roxa ou marrom persistente).\n- **Escala de Braden**: avalia o risco por **percepção sensorial, umidade, atividade, mobilidade, nutrição** e **fricção/cisalhamento**; vai de 6 a 23, e **quanto menor**, **maior o risco** (18 ou menos já indica risco).\n- Prevenção: **mudança de decúbito** (classicamente a cada **2 horas**), colchões especiais, manter a pele limpa e seca, nutrição e hidratação, proteger calcâneos, não massagear áreas avermelhadas.\n\n### Curativos\n- Princípios: técnica **asséptica** em feridas recentes; limpar da área **menos** contaminada para a **mais** contaminada (em ferida limpa, do centro para fora; em ferida infectada, de fora para dentro, conforme protocolos).\n- Manter o leito da ferida **úmido** favorece a cicatrização.\n- Cicatrização por **primeira intenção** (bordas aproximadas, como na sutura) e por **segunda intenção** (ferida aberta que fecha por granulação).",
+      "revisao": "**Lembre:**\n- Banho: do mais limpo ao mais sujo.\n- Fowler 45–60°; ventilação mecânica: cabeceira 30–45°.\n- LPP: estágio 1 eritema que não embranquece; 4 com osso ou tendão.\n- Braden: menor pontuação, maior risco.\n- Mudança de decúbito a cada 2 h; meio úmido ajuda a cicatrizar."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "fundamentos-enfermagem-1",
+      "topico": "profissao",
+      "nivel": "conceitual",
+      "pergunta": "A teoria das Necessidades Humanas Básicas, muito usada no Brasil, é de:",
+      "opcoes": [
+        "Wanda de Aguiar Horta",
+        "Dorothea Orem",
+        "Florence Nightingale",
+        "Hildegard Peplau"
+      ],
+      "correta": 0,
+      "explicacao": "Horta se baseou em Maslow e dividiu as necessidades em psicobiológicas, psicossociais e psicoespirituais."
+    },
+    {
+      "id": "fundamentos-enfermagem-2",
+      "topico": "profissao",
+      "nivel": "conceitual",
+      "pergunta": "Qual lei regulamenta o exercício da enfermagem no Brasil?",
+      "opcoes": [
+        "Lei 8.080/1990",
+        "Lei 7.498/1986",
+        "Lei 10.216/2001",
+        "Lei 9.394/1996"
+      ],
+      "correta": 1,
+      "explicacao": "Ela define as categorias e as atividades privativas do enfermeiro."
+    },
+    {
+      "id": "fundamentos-enfermagem-3",
+      "topico": "profissao",
+      "nivel": "conceitual",
+      "pergunta": "Agir com precipitação, sem a cautela necessária, caracteriza:",
+      "opcoes": [
+        "Imperícia",
+        "Negligência",
+        "Imprudência",
+        "Omissão de socorro sempre"
+      ],
+      "correta": 2,
+      "explicacao": "Imperícia é falta de habilidade técnica; negligência é deixar de fazer o que se devia."
+    },
+    {
+      "id": "fundamentos-enfermagem-4",
+      "topico": "profissao",
+      "nivel": "aplicacao",
+      "pergunta": "Qual destas atividades é privativa do enfermeiro, segundo a Lei 7.498/1986?",
+      "opcoes": [
+        "Verificação de sinais vitais",
+        "Banho no leito",
+        "Arrumação da cama",
+        "Prescrição de enfermagem"
+      ],
+      "correta": 3,
+      "explicacao": "Consulta e prescrição de enfermagem, cuidados de maior complexidade e a pacientes graves são privativos do enfermeiro."
+    },
+    {
+      "id": "fundamentos-enfermagem-5",
+      "topico": "profissao",
+      "nivel": "analise",
+      "pergunta": "Florence Nightingale reduziu drasticamente a mortalidade de soldados na Crimeia. Qual foi a base dessa mudança?",
+      "opcoes": [
+        "Melhorar higiene, ventilação, alimentação e registrar os dados estatisticamente",
+        "Uso de antibióticos modernos",
+        "Cirurgias robóticas",
+        "Vacinação em massa contra a covid-19"
+      ],
+      "correta": 0,
+      "explicacao": "Sua teoria ambientalista mostrou, com números, o peso do ambiente na recuperação."
+    },
+    {
+      "id": "fundamentos-enfermagem-6",
+      "topico": "processo",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a sequência das etapas do processo de enfermagem?",
+      "opcoes": [
+        "Diagnóstico, implementação, avaliação e alta",
+        "Avaliação, diagnóstico, planejamento, implementação e evolução",
+        "Prescrição médica, execução e registro",
+        "Planejamento, diagnóstico, avaliação e alta"
+      ],
+      "correta": 1,
+      "explicacao": "As etapas são inter-relacionadas e se repetem conforme o paciente evolui."
+    },
+    {
+      "id": "fundamentos-enfermagem-7",
+      "topico": "processo",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre diagnóstico médico e diagnóstico de enfermagem?",
+      "opcoes": [
+        "São idênticos",
+        "O de enfermagem identifica só a doença",
+        "O médico identifica a doença; o de enfermagem, a resposta humana a ela",
+        "O de enfermagem é feito pelo médico"
+      ],
+      "correta": 2,
+      "explicacao": "Para uma pneumonia, um diagnóstico de enfermagem seria 'padrão respiratório ineficaz'."
+    },
+    {
+      "id": "fundamentos-enfermagem-8",
+      "topico": "processo",
+      "nivel": "conceitual",
+      "pergunta": "Ao errar uma anotação no prontuário, o correto é:",
+      "opcoes": [
+        "Usar corretivo líquido",
+        "Arrancar a folha",
+        "Deixar como está e não comentar",
+        "Não rasurar nem apagar: corrigir seguindo a norma da instituição (por exemplo, usando 'digo')"
+      ],
+      "correta": 3,
+      "explicacao": "O prontuário é documento legal; rasuras e espaços em branco comprometem sua validade."
+    },
+    {
+      "id": "fundamentos-enfermagem-9",
+      "topico": "processo",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente acamado, sonolento e com fraqueza nas pernas já caiu uma vez. Qual diagnóstico de enfermagem é mais adequado?",
+      "opcoes": [
+        "Risco de quedas",
+        "Pneumonia",
+        "Fratura de fêmur",
+        "Diabetes mellitus"
+      ],
+      "correta": 0,
+      "explicacao": "Diagnósticos de enfermagem descrevem respostas e riscos que a enfermagem pode tratar; os outros são diagnósticos médicos."
+    },
+    {
+      "id": "fundamentos-enfermagem-10",
+      "topico": "processo",
+      "nivel": "analise",
+      "pergunta": "Na etapa de evolução, a enfermeira percebe que a dor do paciente não diminuiu com as intervenções planejadas. O que deve fazer?",
+      "opcoes": [
+        "Encerrar o processo de enfermagem",
+        "Reavaliar e ajustar o diagnóstico e o plano de cuidados",
+        "Repetir o mesmo plano indefinidamente",
+        "Apagar o registro anterior"
+      ],
+      "correta": 1,
+      "explicacao": "A evolução verifica se os resultados foram atingidos e realimenta o planejamento."
+    },
+    {
+      "id": "fundamentos-enfermagem-11",
+      "topico": "biosseguranca",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a medida mais importante para prevenir infecções relacionadas à assistência à saúde?",
+      "opcoes": [
+        "Uso de antibiótico preventivo em todos",
+        "Usar luvas o tempo todo",
+        "Higiene das mãos",
+        "Trocar o lençol a cada hora"
+      ],
+      "correta": 2,
+      "explicacao": "Usar luvas não substitui a higiene das mãos nos cinco momentos."
+    },
+    {
+      "id": "fundamentos-enfermagem-12",
+      "topico": "biosseguranca",
+      "nivel": "conceitual",
+      "pergunta": "Para um paciente com tuberculose pulmonar ativa, a precaução indicada é:",
+      "opcoes": [
+        "Somente padrão",
+        "Por gotículas, com máscara cirúrgica",
+        "Apenas de contato com luvas",
+        "Por aerossóis, com máscara N95/PFF2"
+      ],
+      "correta": 3,
+      "explicacao": "Tuberculose, sarampo e varicela se transmitem por aerossóis."
+    },
+    {
+      "id": "fundamentos-enfermagem-13",
+      "topico": "biosseguranca",
+      "nivel": "conceitual",
+      "pergunta": "Pela classificação de Spaulding, o instrumental cirúrgico é um artigo:",
+      "opcoes": [
+        "Crítico, que exige esterilização",
+        "Semicrítico",
+        "Não crítico",
+        "Descartável sempre"
+      ],
+      "correta": 0,
+      "explicacao": "Artigos que penetram tecidos estéreis precisam ser esterilizados."
+    },
+    {
+      "id": "fundamentos-enfermagem-14",
+      "topico": "biosseguranca",
+      "nivel": "aplicacao",
+      "pergunta": "Depois de cuidar de um paciente com diarreia por Clostridioides difficile, como higienizar as mãos?",
+      "opcoes": [
+        "Só com álcool em gel",
+        "Com água e sabão, pois o álcool não elimina os esporos",
+        "Só trocando as luvas",
+        "Não é necessário higienizar"
+      ],
+      "correta": 1,
+      "explicacao": "Os esporos resistem ao álcool; a fricção com água e sabão os remove mecanicamente."
+    },
+    {
+      "id": "fundamentos-enfermagem-15",
+      "topico": "biosseguranca",
+      "nivel": "analise",
+      "pergunta": "Um técnico se fura com uma agulha usada ao tentar reencapá-la. Qual afirmação está correta?",
+      "opcoes": [
+        "Reencapar é a técnica recomendada",
+        "Não é preciso notificar acidentes pequenos",
+        "Reencapar agulhas deve ser evitado; após o acidente, lavar, notificar e buscar atendimento rápido",
+        "A profilaxia pode começar após uma semana"
+      ],
+      "correta": 2,
+      "explicacao": "A profilaxia para HIV funciona melhor se iniciada em até 2 horas, no máximo 72 horas."
+    },
+    {
+      "id": "fundamentos-enfermagem-16",
+      "topico": "seguranca-paciente",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a forma correta de identificar o paciente antes de um procedimento?",
+      "opcoes": [
+        "Chamar pelo número do leito",
+        "Perguntar só o primeiro nome",
+        "Conferir pelo diagnóstico",
+        "Usar pelo menos dois identificadores, como nome completo e data de nascimento"
+      ],
+      "correta": 3,
+      "explicacao": "O número do leito muda e não identifica a pessoa."
+    },
+    {
+      "id": "fundamentos-enfermagem-17",
+      "topico": "seguranca-paciente",
+      "nivel": "conceitual",
+      "pergunta": "Um incidente que não atingiu o paciente é chamado de:",
+      "opcoes": [
+        "Quase erro (near miss)",
+        "Evento adverso",
+        "Iatrogenia grave",
+        "Negligência"
+      ],
+      "correta": 0,
+      "explicacao": "Evento adverso é o incidente que causou dano."
+    },
+    {
+      "id": "fundamentos-enfermagem-18",
+      "topico": "seguranca-paciente",
+      "nivel": "conceitual",
+      "pergunta": "Na lista de verificação de cirurgia segura da OMS, o 'time out' acontece:",
+      "opcoes": [
+        "Antes de o paciente entrar no hospital",
+        "Antes da incisão na pele",
+        "Depois da alta",
+        "Durante a recuperação anestésica"
+      ],
+      "correta": 1,
+      "explicacao": "Os três momentos são sign in (antes da anestesia), time out (antes da incisão) e sign out (antes de sair da sala)."
+    },
+    {
+      "id": "fundamentos-enfermagem-19",
+      "topico": "seguranca-paciente",
+      "nivel": "aplicacao",
+      "pergunta": "A enfermeira percebe, antes de administrar, que o medicamento separado era para o paciente do leito ao lado. O que deve ser feito com esse episódio?",
+      "opcoes": [
+        "Esconder para evitar punição",
+        "Administrar assim mesmo",
+        "Corrigir e notificar como quase erro, para que a instituição analise as causas",
+        "Notificar só se houvesse dano"
+      ],
+      "correta": 2,
+      "explicacao": "Notificar quase erros ajuda a corrigir falhas do sistema antes que causem dano."
+    },
+    {
+      "id": "fundamentos-enfermagem-20",
+      "topico": "seguranca-paciente",
+      "nivel": "analise",
+      "pergunta": "Um erro de medicação aconteceu porque a prescrição era ilegível, a farmácia separou o produto errado e ninguém conferiu na beira do leito. Qual modelo explica esse tipo de acidente?",
+      "opcoes": [
+        "Culpa individual exclusiva do último profissional",
+        "Acaso sem causa identificável",
+        "Teoria do autocuidado",
+        "O queijo suíço: falhas em várias camadas se alinham"
+      ],
+      "correta": 3,
+      "explicacao": "A análise sistêmica busca reforçar cada barreira, em vez de apenas punir uma pessoa."
+    },
+    {
+      "id": "fundamentos-enfermagem-21",
+      "topico": "medicamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a região intramuscular considerada mais segura em adultos?",
+      "opcoes": [
+        "Ventroglútea",
+        "Dorsoglútea",
+        "Deltoide para grandes volumes",
+        "Abdome"
+      ],
+      "correta": 0,
+      "explicacao": "A ventroglútea tem poucos vasos e nervos importantes; a dorsoglútea traz risco ao nervo isquiático."
+    },
+    {
+      "id": "fundamentos-enfermagem-22",
+      "topico": "medicamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o ângulo de aplicação da via intradérmica?",
+      "opcoes": [
+        "90 graus",
+        "10 a 15 graus",
+        "45 graus sempre",
+        "180 graus"
+      ],
+      "correta": 1,
+      "explicacao": "Usa-se para volumes mínimos, como a vacina BCG, formando uma pápula."
+    },
+    {
+      "id": "fundamentos-enfermagem-23",
+      "topico": "medicamentos",
+      "nivel": "conceitual",
+      "pergunta": "Sobre o cloreto de potássio concentrado, é correto afirmar:",
+      "opcoes": [
+        "Pode ser aplicado puro na veia",
+        "Não exige dupla checagem",
+        "Nunca deve ser feito em bolus; precisa ser diluído e é medicamento de alta vigilância",
+        "É dado por via intradérmica"
+      ],
+      "correta": 2,
+      "explicacao": "A infusão rápida de potássio concentrado pode causar parada cardíaca."
+    },
+    {
+      "id": "fundamentos-enfermagem-24",
+      "topico": "medicamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Foram prescritos 1.000 mL de soro para correr em 8 horas, com equipo de macrogotas. Qual é o gotejamento aproximado?",
+      "opcoes": [
+        "125 gotas/min",
+        "21 gotas/min",
+        "62 gotas/min",
+        "42 gotas/min"
+      ],
+      "correta": 3,
+      "explicacao": "Gotas/min = volume ÷ (tempo × 3) = 1.000 ÷ 24 ≈ 41,7, ou cerca de 42 gotas por minuto."
+    },
+    {
+      "id": "fundamentos-enfermagem-25",
+      "topico": "medicamentos",
+      "nivel": "analise",
+      "pergunta": "Há uma ampola de 250 mg em 5 mL, e a prescrição é de 150 mg. Quantos mL devem ser aspirados?",
+      "opcoes": [
+        "3 mL",
+        "2 mL",
+        "1,5 mL",
+        "7,5 mL"
+      ],
+      "correta": 0,
+      "explicacao": "Regra de três: 250 mg — 5 mL; 150 mg — x. x = 150 × 5 ÷ 250 = 3 mL."
+    },
+    {
+      "id": "fundamentos-enfermagem-26",
+      "topico": "cuidados",
+      "nivel": "conceitual",
+      "pergunta": "Na lesão por pressão estágio 1, a pele apresenta:",
+      "opcoes": [
+        "Perda total da pele com osso exposto",
+        "Eritema que não embranquece, com pele íntegra",
+        "Bolha rompida com derme exposta",
+        "Escara negra cobrindo a base"
+      ],
+      "correta": 1,
+      "explicacao": "No estágio 4 há exposição de osso, tendão ou músculo; o estágio 2 tem perda parcial da pele."
+    },
+    {
+      "id": "fundamentos-enfermagem-27",
+      "topico": "cuidados",
+      "nivel": "conceitual",
+      "pergunta": "Na escala de Braden, uma pontuação mais baixa indica:",
+      "opcoes": [
+        "Menor risco de lesão por pressão",
+        "Melhor estado nutricional",
+        "Maior risco de lesão por pressão",
+        "Ausência de risco de queda"
+      ],
+      "correta": 2,
+      "explicacao": "A escala vai de 6 a 23; 18 ou menos já indica risco."
+    },
+    {
+      "id": "fundamentos-enfermagem-28",
+      "topico": "cuidados",
+      "nivel": "conceitual",
+      "pergunta": "Qual posição deixa o paciente deitado de costas com a cabeceira elevada a cerca de 45–60°?",
+      "opcoes": [
+        "Trendelenburg",
+        "Sims",
+        "Litotômica",
+        "Fowler"
+      ],
+      "correta": 3,
+      "explicacao": "A posição de Fowler facilita a respiração; Sims é lateral esquerda com uma perna fletida."
+    },
+    {
+      "id": "fundamentos-enfermagem-29",
+      "topico": "cuidados",
+      "nivel": "aplicacao",
+      "pergunta": "No banho no leito, qual região deve ser higienizada por último?",
+      "opcoes": [
+        "A região perineal",
+        "O rosto",
+        "Os braços",
+        "O tórax"
+      ],
+      "correta": 0,
+      "explicacao": "Segue-se do mais limpo para o mais sujo, para não levar microrganismos a áreas limpas."
+    },
+    {
+      "id": "fundamentos-enfermagem-30",
+      "topico": "cuidados",
+      "nivel": "analise",
+      "pergunta": "Um idoso acamado, desnutrido e com incontinência urinária tem Braden 11. Qual conjunto de cuidados é mais adequado?",
+      "opcoes": [
+        "Massagear vigorosamente as áreas avermelhadas",
+        "Mudança de decúbito programada, colchão especial, pele limpa e seca e suporte nutricional",
+        "Mantê-lo sempre na mesma posição para descansar",
+        "Suspender a hidratação para reduzir a umidade"
+      ],
+      "correta": 1,
+      "explicacao": "Risco alto pede reduzir pressão, umidade e cisalhamento e melhorar a nutrição; massagem em área avermelhada piora a lesão."
+    }
+  ]
+}

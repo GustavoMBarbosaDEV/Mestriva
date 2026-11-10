@@ -766,6 +766,37 @@ export const EXTRA = {
       "Bases Neurais do Comportamento",
       "Psicofisiologia"
     ]
+  },
+  "semiologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Semiologia I",
+      "Semiologia II",
+      "Semiologia Médica",
+      "Semiologia Médica I",
+      "Semiologia Médica II",
+      "Propedêutica",
+      "Propedêutica Médica",
+      "Semiologia Geral",
+      "Exame Físico",
+      "Semiologia e Propedêutica",
+      "Avaliação Clínica"
+    ]
+  },
+  "fundamentos-enfermagem": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Fundamentos de Enfermagem I",
+      "Fundamentos de Enfermagem II",
+      "Fundamentos do Cuidar em Enfermagem",
+      "Semiologia e Semiotécnica",
+      "Semiologia e Semiotécnica em Enfermagem",
+      "Semiotécnica",
+      "Processo de Cuidar",
+      "Introdução à Enfermagem",
+      "Bases do Cuidado de Enfermagem",
+      "Processo de Enfermagem"
+    ]
   }
 };
 
