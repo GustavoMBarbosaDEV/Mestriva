@@ -1,0 +1,465 @@
+{
+  "id": "fisiologia-exercicio",
+  "nome": "Fisiologia do Exercício",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "bioenergetica",
+      "nome": "Sistemas de energia",
+      "resumo": "### ATP\nToda contração muscular usa **ATP**. O estoque no músculo dura **poucos segundos**, então ele precisa ser refeito o tempo todo por três sistemas, que trabalham **juntos**; o que muda é a **predominância**, conforme a intensidade e a duração.\n\n### 1. Sistema ATP-CP (fosfagênio, anaeróbio alático)\n- Usa a **fosfocreatina (CP)** para refazer o ATP.\n- **Muito rápido e muito potente**, mas dura cerca de **10 segundos**.\n- Não usa oxigênio e **não produz lactato**.\n- Exemplos: corrida de 100 m, salto, arremesso, levantamento de peso máximo.\n- A suplementação de **creatina** aumenta esse estoque.\n\n### 2. Sistema glicolítico (anaeróbio lático)\n- Quebra a **glicose** (ou o glicogênio) sem oxigênio, formando **lactato**.\n- Rende **2 ATP** por glicose (3 a partir do glicogênio).\n- Predomina em esforços intensos de cerca de **30 segundos a 2 minutos**.\n- Exemplos: 400 m rasos, 100 m na natação.\n- O acúmulo de íons hidrogênio (acidez) contribui para a fadiga. O **lactato não é o vilão**: ele é reaproveitado como combustível pelo coração, por outros músculos e pelo fígado (**ciclo de Cori**).\n\n### 3. Sistema oxidativo (aeróbio)\n- Ocorre nas **mitocôndrias**, com oxigênio: ciclo de Krebs e cadeia de transporte de elétrons.\n- Usa **carboidratos e gorduras** (e um pouco de proteína).\n- **Lento, mas quase ilimitado**: cerca de 30 a 32 ATP por glicose; muito mais por ácido graxo.\n- Predomina em esforços com mais de **2 a 3 minutos** e no repouso.\n- Exemplos: maratona, ciclismo de estrada, caminhada.\n\n### Combustíveis e intensidade\n- **Baixa intensidade**: maior proporção de **gordura**.\n- **Alta intensidade**: maior proporção de **carboidrato**.\n- **Quociente respiratório (QR = CO₂ produzido / O₂ consumido)**: perto de **0,7** indica gordura; perto de **1,0**, carboidrato.\n- O glicogênio é limitado; quando acaba em provas longas, ocorre a queda brusca de rendimento.\n\n### Limiar de lactato (limiar anaeróbio)\nIntensidade a partir da qual o lactato **se acumula** no sangue mais rápido do que é removido. Treinar eleva o limiar; é um ótimo indicador de desempenho em provas de resistência.",
+      "revisao": "**Lembre:**\n- ATP-CP: até ~10 s, sem lactato.\n- Glicolítico: 30 s a 2 min, produz lactato.\n- Oxidativo: longa duração, usa oxigênio.\n- Os três atuam juntos; muda a predominância.\n- QR 0,7 gordura; 1,0 carboidrato."
+    },
+    {
+      "id": "cardiorrespiratorio",
+      "nome": "Respostas cardiovasculares e respiratórias",
+      "resumo": "### Débito cardíaco\n**Débito cardíaco (DC) = frequência cardíaca (FC) × volume sistólico (VS)**.\n- Repouso: cerca de **5 L/min**. No exercício máximo: 20 a 25 L/min (mais de 35 em atletas de elite).\n- A **FC** sobe de forma quase **linear** com a intensidade.\n- O **volume sistólico** aumenta até cerca de 40 a 60% do esforço máximo e depois tende a se estabilizar (em não treinados).\n- **FC máxima estimada: 220 − idade** (fórmula simples, com erro individual grande).\n\n### Pressão arterial\n- **Sistólica**: **sobe** com a intensidade no exercício dinâmico.\n- **Diastólica**: muda **pouco** ou cai levemente.\n- No exercício de força com cargas altas e na **manobra de Valsalva** (prender a respiração), as duas sobem muito.\n- **Hipotensão pós-exercício**: a pressão fica abaixo do valor de repouso por algumas horas.\n\n### Redistribuição do fluxo\nNo repouso, os músculos recebem cerca de 20% do débito; no exercício intenso, até **80 a 85%**. O fluxo é desviado das vísceras; o do **cérebro é mantido**.\n\n### Diferença arteriovenosa de oxigênio\nQuanto oxigênio o músculo **extrai** do sangue. Aumenta no exercício.\n\n### VO₂ máximo\nA **maior taxa de consumo de oxigênio** no esforço máximo; o melhor indicador da **aptidão cardiorrespiratória**.\n- **Equação de Fick**: **VO₂ = DC × diferença arteriovenosa de O₂**.\n- Expresso em mL/kg/min. Depende de genética, treino, idade e sexo.\n- **1 MET = 3,5 mL/kg/min** (gasto de repouso).\n\n### Respiração\n- **Ventilação = volume corrente × frequência respiratória**.\n- Sobe de forma proporcional até o **limiar ventilatório**; depois, sobe desproporcionalmente para eliminar o CO₂ extra.\n- Em pessoas saudáveis ao nível do mar, o pulmão **não costuma limitar** o desempenho; o limite é cardiovascular e muscular.\n\n### Consumo de oxigênio na recuperação\n- **Déficit de O₂**: no início do exercício, o consumo demora a alcançar a demanda.\n- **EPOC** (consumo excessivo pós-exercício): o consumo fica elevado depois do esforço para repor estoques e baixar a temperatura. É maior após exercício intenso.\n- **Estado estável** (steady state): quando a oferta de O₂ iguala a demanda.",
+      "revisao": "**Lembre:**\n- DC = FC × volume sistólico.\n- FC máx ≈ 220 − idade.\n- Sistólica sobe; diastólica quase não muda.\n- VO₂máx: melhor medida da aptidão aeróbia.\n- EPOC: consumo de O₂ elevado depois do exercício."
+    },
+    {
+      "id": "neuromuscular",
+      "nome": "Músculo, força e fadiga",
+      "resumo": "### Contração muscular\n- Unidade funcional: o **sarcômero**, com filamentos de **actina** (finos) e **miosina** (grossos).\n- **Teoria dos filamentos deslizantes**: as cabeças de miosina puxam a actina, encurtando o sarcômero.\n- O impulso libera **cálcio** do retículo sarcoplasmático; o cálcio se liga à **troponina**, que desloca a **tropomiosina** e libera os sítios de ligação.\n- O **ATP** é necessário para **soltar** a miosina da actina e para bombear o cálcio de volta.\n\n### Tipos de fibras\n- **Tipo I** (contração lenta): muitas mitocôndrias e capilares, **resistentes à fadiga**; predominam em maratonistas.\n- **Tipo IIa** (rápidas oxidativas-glicolíticas): intermediárias.\n- **Tipo IIx** (rápidas glicolíticas): muita força e potência, **fadigam rápido**; predominam em velocistas.\n- A proporção é em grande parte **genética**; o treino muda características, principalmente entre IIx e IIa.\n\n### Ganho de força\n- **Primeiras semanas**: adaptações **neurais** (mais unidades motoras recrutadas, melhor sincronização e coordenação), quase sem aumento de tamanho.\n- **Depois**: **hipertrofia** (aumento da área das fibras, por mais proteínas contráteis).\n- **Hiperplasia** (aumento do número de fibras) é pouco relevante em humanos.\n- **Princípio do tamanho**: unidades motoras pequenas (tipo I) são recrutadas primeiro; as grandes (tipo II), com cargas altas ou fadiga.\n\n### Fadiga\n- **Central**: no sistema nervoso (menor estímulo ao músculo).\n- **Periférica**: no músculo (queda de fosfocreatina e glicogênio, acúmulo de íons hidrogênio e fosfato, falha na liberação de cálcio).\n\n### Dor muscular tardia\nAparece **24 a 72 horas** depois, sobretudo após contrações **excêntricas** ou exercício não habitual. Deve-se a **microlesões e inflamação**, **não ao ácido lático**, que é removido em cerca de uma hora.\n\n### Flexibilidade\n- Alongamento **estático**, **dinâmico** e por **facilitação neuromuscular proprioceptiva (FNP)**.\n- Alongamento estático longo logo antes pode reduzir força e potência máximas por um curto período.",
+      "revisao": "**Lembre:**\n- Actina e miosina deslizam; cálcio se liga à troponina.\n- Tipo I resiste à fadiga; tipo II gera potência.\n- Força no início: adaptação neural; depois, hipertrofia.\n- Dor tardia: microlesão, não ácido lático.\n- Recrutamento: das unidades pequenas às grandes."
+    },
+    {
+      "id": "treinamento",
+      "nome": "Princípios e adaptações ao treino",
+      "resumo": "### Princípios do treinamento\n- **Sobrecarga**: o estímulo precisa ser **maior que o habitual** para gerar adaptação.\n- **Progressão**: aumentar a carga aos poucos.\n- **Especificidade**: a adaptação é específica ao **tipo de estímulo** (quem treina corrida melhora na corrida).\n- **Individualidade biológica**: cada pessoa responde de um jeito.\n- **Reversibilidade**: o que não é treinado se perde (**destreinamento**).\n- **Continuidade** e **variabilidade**.\n- **Supercompensação**: após o estímulo e a recuperação adequada, a capacidade fica **acima** do nível anterior.\n\n### Variáveis da prescrição (FITT)\n**Frequência**, **Intensidade**, **Tempo** (duração) e **Tipo**. Volume = quantidade total.\n\n### Controle da intensidade\n- Percentual da **FC máxima** ou da **FC de reserva** (fórmula de **Karvonen**: FC alvo = FC repouso + % × (FC máx − FC repouso)).\n- Percentual do **VO₂ máximo**.\n- **Escala de Borg** (percepção subjetiva de esforço).\n- Na força: percentual de **1RM** (uma repetição máxima).\n\n### Adaptações ao treino aeróbio\n- **Coração**: aumento do **volume sistólico**; **bradicardia de repouso**; coração de atleta.\n- **Sangue**: maior volume plasmático.\n- **Músculo**: mais **mitocôndrias**, **capilares** e enzimas oxidativas; maior uso de gordura, poupando glicogênio.\n- Aumento do **VO₂ máximo** e do **limiar de lactato**.\n- Menor FC para a mesma carga submáxima.\n\n### Adaptações ao treino de força\nAdaptações neurais, **hipertrofia**, aumento da força de tendões e ligamentos e da **densidade óssea**.\n\n### Zonas de treino de força (orientação geral)\n- **Força máxima**: cargas altas, **1 a 6 repetições**, pausas longas.\n- **Hipertrofia**: cargas moderadas a altas, **6 a 12 repetições**.\n- **Resistência muscular**: cargas leves, **15 ou mais repetições**, pausas curtas.\n\n### Métodos\n- **Contínuo**: ritmo constante.\n- **Intervalado** (incluindo o **HIIT**): alterna esforço intenso e recuperação; ganhos de VO₂ máx em menos tempo.\n- **Periodização**: organização em ciclos (macro, meso e microciclo).\n\n### Excesso de treino\n**Overtraining**: queda persistente do rendimento, fadiga, alterações de sono e humor, mais infecções. Prevenção: recuperação, sono e alimentação.",
+      "revisao": "**Lembre:**\n- Sobrecarga, progressão, especificidade, individualidade, reversibilidade.\n- FITT: frequência, intensidade, tempo, tipo.\n- Treino aeróbio: mais volume sistólico e mitocôndrias; FC de repouso menor.\n- Hipertrofia: 6 a 12 repetições.\n- Supercompensação exige recuperação."
+    },
+    {
+      "id": "ambiente",
+      "nome": "Termorregulação, hidratação e ambiente",
+      "resumo": "### Termorregulação\nO exercício produz muito **calor** (cerca de 75% da energia vira calor). O **hipotálamo** regula a temperatura.\nFormas de perder calor:\n- **Evaporação do suor**: a **principal** durante o exercício. Só resfria se o suor **evaporar**; em **umidade alta**, o suor escorre e a perda de calor cai.\n- **Convecção** (ar ou água em movimento), **condução** (contato) e **radiação**.\n\n### Exercício no calor\n- Fluxo de sangue desviado para a **pele**; menor retorno venoso; a FC sobe para a mesma carga (**deriva cardiovascular**).\n- Riscos: **cãibras**, **exaustão pelo calor** e **intermação** (golpe de calor: temperatura acima de 40 °C, confusão mental; emergência médica).\n- **Aclimatação** (10 a 14 dias): suor começa mais cedo, é mais abundante e **mais diluído**; maior volume plasmático; FC menor.\n\n### Hidratação\n- Perda de **2%** do peso corporal em água já **reduz o desempenho**.\n- A **sede** aparece quando já há alguma desidratação.\n- Controle: pesar antes e depois; cor da urina.\n- Em exercícios com mais de 1 hora: repor água, **carboidrato** e **sódio**.\n- **Hiponatremia**: sódio baixo no sangue por beber água em excesso em provas longas.\n\n### Exercício no frio\nVasoconstrição na pele e **tremor** para gerar calor. Riscos: **hipotermia** e congelamento. A água conduz calor muito mais rápido que o ar.\n\n### Altitude\n- A pressão parcial de oxigênio é **menor**; cai a saturação e o **VO₂ máximo**.\n- Resposta aguda: aumento da **ventilação** e da **FC**.\n- **Aclimatação** (semanas): o rim libera **eritropoetina (EPO)**, aumentando as **hemácias** e a hemoglobina.\n- Estratégia: **morar no alto e treinar no baixo**.\n- Mal agudo da montanha: dor de cabeça, náusea, insônia.\n\n### Nutrição para o exercício\n- **Carboidrato**: principal combustível em intensidades altas; repor glicogênio após o treino.\n- **Proteína**: reparo e síntese muscular (cerca de 1,2 a 2,0 g/kg/dia para quem treina).\n- **Cafeína**: recurso ergogênico com boa evidência; **creatina** para esforços curtos e intensos.",
+      "revisao": "**Lembre:**\n- Suor só resfria se evaporar; umidade atrapalha.\n- 2% de desidratação já derruba o rendimento.\n- Aclimatação ao calor: suor mais cedo e mais diluído.\n- Altitude: menos O₂; EPO aumenta as hemácias.\n- Intermação é emergência."
+    },
+    {
+      "id": "saude",
+      "nome": "Exercício, saúde e populações especiais",
+      "resumo": "### Atividade física e exercício\n- **Atividade física**: qualquer movimento que gaste energia acima do repouso.\n- **Exercício físico**: atividade **planejada, estruturada e repetida**, com objetivo de melhorar a aptidão.\n- **Aptidão física relacionada à saúde**: aptidão cardiorrespiratória, força e resistência muscular, flexibilidade e composição corporal.\n- **Comportamento sedentário**: tempo sentado ou deitado com gasto baixo; é fator de risco **independente**.\n\n### Recomendações da OMS (adultos)\n- **150 a 300 minutos por semana** de atividade aeróbia **moderada**, ou **75 a 150 minutos** de **vigorosa**.\n- **Fortalecimento muscular** em **2 ou mais dias** por semana.\n- Crianças e adolescentes: média de **60 minutos por dia**.\n- Idosos: acrescentar exercícios de **equilíbrio** para prevenir quedas.\n- Qualquer quantidade é melhor que nenhuma.\n\n### Benefícios\nRedução do risco de doença cardiovascular, **diabetes tipo 2**, hipertensão, obesidade, alguns cânceres, depressão e demência; melhora do sono e da densidade óssea.\n\n### Mecanismos importantes\n- A contração muscular aumenta a captação de glicose **independentemente da insulina** (transportador **GLUT4**), melhorando a sensibilidade à insulina.\n- Aumento do **HDL** e redução dos triglicerídeos.\n- Redução da pressão arterial de repouso.\n\n### Avaliação antes do exercício\nAnamnese, questionário **PAR-Q**, estratificação de risco e, quando indicado, **teste ergométrico**.\n\n### Populações especiais\n- **Hipertensos**: aeróbio como base, força com cargas moderadas, **evitar Valsalva**.\n- **Diabéticos**: checar glicemia, risco de **hipoglicemia** (sobretudo com insulina), cuidado com os pés.\n- **Obesos**: priorizar gasto energético e baixo impacto.\n- **Idosos**: força para combater a **sarcopenia**, equilíbrio, progressão lenta.\n- **Gestantes** sem contraindicação: atividade moderada é recomendada; evitar posição deitada de costas por tempo prolongado após o primeiro trimestre e esportes de contato.\n- **Crianças**: variedade e ludicidade; o treino de força supervisionado é seguro.\n\n### Composição corporal\nMassa gorda e massa magra. Métodos: dobras cutâneas, bioimpedância, DEXA. O exercício ajuda a preservar massa magra durante o emagrecimento.",
+      "revisao": "**Lembre:**\n- Exercício é atividade física planejada.\n- OMS: 150–300 min moderada ou 75–150 vigorosa por semana, mais força 2 dias.\n- Músculo capta glicose sem depender da insulina (GLUT4).\n- Hipertenso: evitar Valsalva.\n- Idoso: força e equilíbrio."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "fisiologia-exercicio-1",
+      "topico": "bioenergetica",
+      "nivel": "conceitual",
+      "pergunta": "Qual sistema de energia predomina em um esforço máximo de até cerca de 10 segundos?",
+      "opcoes": [
+        "ATP-CP (fosfagênio)",
+        "Glicolítico",
+        "Oxidativo",
+        "Oxidação de gorduras"
+      ],
+      "correta": 0,
+      "explicacao": "É o sistema mais rápido e potente, mas seu estoque de fosfocreatina se esgota em poucos segundos."
+    },
+    {
+      "id": "fisiologia-exercicio-2",
+      "topico": "bioenergetica",
+      "nivel": "conceitual",
+      "pergunta": "O sistema oxidativo se caracteriza por:",
+      "opcoes": [
+        "Produzir lactato sem usar oxigênio",
+        "Usar oxigênio nas mitocôndrias e sustentar esforços longos",
+        "Durar apenas 10 segundos",
+        "Depender só da fosfocreatina"
+      ],
+      "correta": 1,
+      "explicacao": "É o mais lento para fornecer energia, porém tem capacidade praticamente ilimitada."
+    },
+    {
+      "id": "fisiologia-exercicio-3",
+      "topico": "bioenergetica",
+      "nivel": "conceitual",
+      "pergunta": "Um quociente respiratório próximo de 0,7 indica que o corpo está usando principalmente:",
+      "opcoes": [
+        "Carboidratos",
+        "Proteínas",
+        "Gorduras",
+        "Fosfocreatina"
+      ],
+      "correta": 2,
+      "explicacao": "Valores próximos de 1,0 indicam predomínio de carboidratos, típico de intensidades altas."
+    },
+    {
+      "id": "fisiologia-exercicio-4",
+      "topico": "bioenergetica",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma prova de 400 metros rasos, que dura perto de um minuto em esforço intenso, o sistema predominante é o:",
+      "opcoes": [
+        "ATP-CP apenas",
+        "Oxidativo",
+        "Oxidação de gorduras",
+        "Glicolítico (anaeróbio lático)"
+      ],
+      "correta": 3,
+      "explicacao": "Esforços intensos entre 30 segundos e 2 minutos dependem muito da glicólise anaeróbia."
+    },
+    {
+      "id": "fisiologia-exercicio-5",
+      "topico": "bioenergetica",
+      "nivel": "analise",
+      "pergunta": "Por que é incorreto dizer que o lactato é apenas um resíduo prejudicial do exercício?",
+      "opcoes": [
+        "Ele é reaproveitado como combustível pelo coração, por outros músculos e pelo fígado",
+        "Porque o lactato não é produzido no exercício",
+        "Porque ele se transforma em gordura",
+        "Porque ele só existe no repouso"
+      ],
+      "correta": 0,
+      "explicacao": "A fadiga está mais ligada ao acúmulo de íons hidrogênio; o lactato pode voltar a ser glicose no fígado."
+    },
+    {
+      "id": "fisiologia-exercicio-6",
+      "topico": "cardiorrespiratorio",
+      "nivel": "conceitual",
+      "pergunta": "O débito cardíaco é o produto de:",
+      "opcoes": [
+        "Pressão sistólica e diastólica",
+        "Frequência cardíaca e volume sistólico",
+        "Ventilação e frequência respiratória",
+        "VO₂ e peso corporal"
+      ],
+      "correta": 1,
+      "explicacao": "Em repouso fica em torno de 5 L/min e pode passar de 20 L/min no esforço máximo."
+    },
+    {
+      "id": "fisiologia-exercicio-7",
+      "topico": "cardiorrespiratorio",
+      "nivel": "conceitual",
+      "pergunta": "Durante o exercício aeróbio dinâmico, o que acontece com a pressão arterial?",
+      "opcoes": [
+        "As duas caem muito",
+        "A diastólica sobe e a sistólica cai",
+        "A sistólica sobe e a diastólica muda pouco",
+        "Nenhuma das duas se altera"
+      ],
+      "correta": 2,
+      "explicacao": "A vasodilatação nos músculos ativos impede que a diastólica suba junto."
+    },
+    {
+      "id": "fisiologia-exercicio-8",
+      "topico": "cardiorrespiratorio",
+      "nivel": "conceitual",
+      "pergunta": "O VO₂ máximo representa:",
+      "opcoes": [
+        "A frequência cardíaca de repouso",
+        "O volume de ar dos pulmões",
+        "A quantidade de lactato no sangue",
+        "A maior taxa de consumo de oxigênio no esforço máximo"
+      ],
+      "correta": 3,
+      "explicacao": "É considerado o melhor indicador da aptidão cardiorrespiratória."
+    },
+    {
+      "id": "fisiologia-exercicio-9",
+      "topico": "cardiorrespiratorio",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a frequência cardíaca máxima estimada de uma pessoa de 40 anos pela fórmula 220 − idade?",
+      "opcoes": [
+        "180 bpm",
+        "160 bpm",
+        "200 bpm",
+        "140 bpm"
+      ],
+      "correta": 0,
+      "explicacao": "220 − 40 = 180 bpm; é só uma estimativa, com variação individual considerável."
+    },
+    {
+      "id": "fisiologia-exercicio-10",
+      "topico": "cardiorrespiratorio",
+      "nivel": "analise",
+      "pergunta": "Por que o consumo de oxigênio continua elevado por algum tempo depois que o exercício termina (EPOC)?",
+      "opcoes": [
+        "Porque o músculo continua contraindo",
+        "Para repor estoques de energia, remover metabólitos e baixar a temperatura",
+        "Porque o coração para de bater",
+        "Porque a ventilação cessa"
+      ],
+      "correta": 1,
+      "explicacao": "Quanto mais intenso o exercício, maior e mais longo costuma ser esse consumo extra."
+    },
+    {
+      "id": "fisiologia-exercicio-11",
+      "topico": "neuromuscular",
+      "nivel": "conceitual",
+      "pergunta": "Na contração muscular, o cálcio liberado se liga à:",
+      "opcoes": [
+        "Miosina, quebrando o ATP",
+        "Hemoglobina",
+        "Troponina, liberando os sítios de ligação da actina",
+        "Mitocôndria"
+      ],
+      "correta": 2,
+      "explicacao": "A troponina desloca a tropomiosina, permitindo que a miosina se prenda à actina."
+    },
+    {
+      "id": "fisiologia-exercicio-12",
+      "topico": "neuromuscular",
+      "nivel": "conceitual",
+      "pergunta": "As fibras musculares do tipo I se caracterizam por:",
+      "opcoes": [
+        "Contração rápida e fadiga rápida",
+        "Ausência de mitocôndrias",
+        "Uso exclusivo de fosfocreatina",
+        "Contração lenta e alta resistência à fadiga"
+      ],
+      "correta": 3,
+      "explicacao": "Elas têm muitas mitocôndrias e capilares e predominam em atletas de resistência."
+    },
+    {
+      "id": "fisiologia-exercicio-13",
+      "topico": "neuromuscular",
+      "nivel": "conceitual",
+      "pergunta": "A dor muscular tardia, sentida um ou dois dias após o treino, é causada por:",
+      "opcoes": [
+        "Microlesões e inflamação nas fibras, sobretudo após contrações excêntricas",
+        "Acúmulo de ácido lático no músculo",
+        "Falta de oxigênio no sangue",
+        "Excesso de cálcio nos ossos"
+      ],
+      "correta": 0,
+      "explicacao": "O lactato é removido em cerca de uma hora e não explica a dor dos dias seguintes."
+    },
+    {
+      "id": "fisiologia-exercicio-14",
+      "topico": "neuromuscular",
+      "nivel": "aplicacao",
+      "pergunta": "Um iniciante ganha bastante força nas quatro primeiras semanas de musculação, sem aumento visível dos músculos. A explicação é:",
+      "opcoes": [
+        "Hiperplasia das fibras",
+        "Adaptações neurais, como melhor recrutamento de unidades motoras",
+        "Aumento do número de ossos",
+        "Perda de gordura apenas"
+      ],
+      "correta": 1,
+      "explicacao": "A hipertrofia passa a contribuir mais depois das primeiras semanas de treino."
+    },
+    {
+      "id": "fisiologia-exercicio-15",
+      "topico": "neuromuscular",
+      "nivel": "analise",
+      "pergunta": "Por que velocistas tendem a ter maior proporção de fibras do tipo II do que maratonistas?",
+      "opcoes": [
+        "Porque são mais resistentes à fadiga",
+        "Porque têm mais mitocôndrias",
+        "Essas fibras geram mais força e potência em pouco tempo, o que a prova exige",
+        "Porque usam mais gordura"
+      ],
+      "correta": 2,
+      "explicacao": "A proporção é em grande parte genética e favorece o desempenho em cada tipo de prova."
+    },
+    {
+      "id": "fisiologia-exercicio-16",
+      "topico": "treinamento",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da especificidade afirma que:",
+      "opcoes": [
+        "Todos respondem igual ao treino",
+        "O treino nunca deve mudar",
+        "A carga não precisa aumentar",
+        "As adaptações são específicas ao tipo de estímulo treinado"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso o treino deve se parecer com as exigências da modalidade ou do objetivo."
+    },
+    {
+      "id": "fisiologia-exercicio-17",
+      "topico": "treinamento",
+      "nivel": "conceitual",
+      "pergunta": "Uma adaptação típica do treinamento aeróbio é:",
+      "opcoes": [
+        "Redução da frequência cardíaca de repouso",
+        "Redução do número de mitocôndrias",
+        "Redução do volume sistólico",
+        "Redução do VO₂ máximo"
+      ],
+      "correta": 0,
+      "explicacao": "O coração ejeta mais sangue por batimento e precisa bater menos vezes."
+    },
+    {
+      "id": "fisiologia-exercicio-18",
+      "topico": "treinamento",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da reversibilidade indica que:",
+      "opcoes": [
+        "Os ganhos são permanentes",
+        "Os ganhos se perdem quando o treino é interrompido",
+        "O treino deve ser sempre igual",
+        "A recuperação não é necessária"
+      ],
+      "correta": 1,
+      "explicacao": "A aptidão aeróbia costuma cair antes da força durante o destreinamento."
+    },
+    {
+      "id": "fisiologia-exercicio-19",
+      "topico": "treinamento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa tem FC de repouso de 60 bpm e FC máxima de 180 bpm. Pela fórmula de Karvonen, qual é a FC alvo a 50% da reserva?",
+      "opcoes": [
+        "90 bpm",
+        "150 bpm",
+        "120 bpm",
+        "100 bpm"
+      ],
+      "correta": 2,
+      "explicacao": "FC alvo = 60 + 0,5 × (180 − 60) = 60 + 60 = 120 bpm."
+    },
+    {
+      "id": "fisiologia-exercicio-20",
+      "topico": "treinamento",
+      "nivel": "analise",
+      "pergunta": "Por que o descanso faz parte do treinamento?",
+      "opcoes": [
+        "Porque o descanso gasta mais energia que o treino",
+        "Porque o músculo não se adapta nunca",
+        "Porque evita o princípio da sobrecarga",
+        "É na recuperação que ocorre a supercompensação, elevando a capacidade acima do nível anterior"
+      ],
+      "correta": 3,
+      "explicacao": "Sem recuperação suficiente, a fadiga se acumula e pode levar ao excesso de treino."
+    },
+    {
+      "id": "fisiologia-exercicio-21",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o principal mecanismo de perda de calor durante o exercício?",
+      "opcoes": [
+        "Evaporação do suor",
+        "Condução",
+        "Radiação",
+        "Tremor"
+      ],
+      "correta": 0,
+      "explicacao": "O suor só resfria o corpo quando evapora da pele."
+    },
+    {
+      "id": "fisiologia-exercicio-22",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Uma perda de água equivalente a cerca de 2% do peso corporal:",
+      "opcoes": [
+        "Melhora o rendimento",
+        "Já prejudica o desempenho",
+        "Não tem efeito algum",
+        "Só ocorre no frio"
+      ],
+      "correta": 1,
+      "explicacao": "A desidratação reduz o volume de sangue, eleva a frequência cardíaca e a temperatura."
+    },
+    {
+      "id": "fisiologia-exercicio-23",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Na aclimatação à altitude, o hormônio que estimula a produção de hemácias é a:",
+      "opcoes": [
+        "Insulina",
+        "Adrenalina",
+        "Eritropoetina",
+        "Tiroxina"
+      ],
+      "correta": 2,
+      "explicacao": "Produzida pelos rins, ela aumenta a capacidade do sangue de transportar oxigênio."
+    },
+    {
+      "id": "fisiologia-exercicio-24",
+      "topico": "ambiente",
+      "nivel": "aplicacao",
+      "pergunta": "Um corredor se queixa de que rende menos em dias quentes e muito úmidos do que em dias quentes e secos. A explicação é:",
+      "opcoes": [
+        "A umidade aumenta o oxigênio do ar",
+        "O suor para de ser produzido",
+        "A umidade reduz a frequência cardíaca",
+        "Com umidade alta, o suor evapora menos e o corpo perde menos calor"
+      ],
+      "correta": 3,
+      "explicacao": "O suor que escorre sem evaporar desidrata, mas quase não resfria."
+    },
+    {
+      "id": "fisiologia-exercicio-25",
+      "topico": "ambiente",
+      "nivel": "analise",
+      "pergunta": "Por que beber apenas água em excesso durante uma prova muito longa pode ser perigoso?",
+      "opcoes": [
+        "Pode diluir o sódio do sangue, causando hiponatremia",
+        "Porque a água aumenta a temperatura",
+        "Porque impede a produção de suor",
+        "Porque a água não é absorvida"
+      ],
+      "correta": 0,
+      "explicacao": "Em provas longas, a reposição deve incluir sódio e respeitar a perda de suor."
+    },
+    {
+      "id": "fisiologia-exercicio-26",
+      "topico": "saude",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a recomendação da OMS de atividade aeróbia moderada para adultos?",
+      "opcoes": [
+        "30 minutos por semana",
+        "150 a 300 minutos por semana",
+        "60 minutos por mês",
+        "600 minutos por dia"
+      ],
+      "correta": 1,
+      "explicacao": "Também se recomenda fortalecimento muscular em dois ou mais dias da semana."
+    },
+    {
+      "id": "fisiologia-exercicio-27",
+      "topico": "saude",
+      "nivel": "conceitual",
+      "pergunta": "O que diferencia exercício físico de atividade física?",
+      "opcoes": [
+        "O exercício não gasta energia",
+        "A atividade física é sempre competitiva",
+        "O exercício é planejado, estruturado e repetido, com objetivo definido",
+        "Não há diferença"
+      ],
+      "correta": 2,
+      "explicacao": "Subir escadas é atividade física; um programa de corrida é exercício."
+    },
+    {
+      "id": "fisiologia-exercicio-28",
+      "topico": "saude",
+      "nivel": "conceitual",
+      "pergunta": "Por que o exercício ajuda no controle do diabetes tipo 2?",
+      "opcoes": [
+        "Porque elimina a necessidade de alimentação",
+        "Porque destrói a insulina",
+        "Porque aumenta a glicemia",
+        "A contração muscular aumenta a captação de glicose e a sensibilidade à insulina"
+      ],
+      "correta": 3,
+      "explicacao": "O músculo ativo leva o transportador GLUT4 à membrana mesmo com pouca insulina."
+    },
+    {
+      "id": "fisiologia-exercicio-29",
+      "topico": "saude",
+      "nivel": "aplicacao",
+      "pergunta": "Ao prescrever musculação para uma pessoa hipertensa, qual cuidado é importante?",
+      "opcoes": [
+        "Evitar prender a respiração (manobra de Valsalva) durante o esforço",
+        "Usar sempre cargas máximas",
+        "Proibir exercícios aeróbios",
+        "Treinar em jejum de líquidos"
+      ],
+      "correta": 0,
+      "explicacao": "Prender a respiração eleva muito a pressão arterial durante o esforço."
+    },
+    {
+      "id": "fisiologia-exercicio-30",
+      "topico": "saude",
+      "nivel": "analise",
+      "pergunta": "Por que o treino de força é especialmente importante para idosos?",
+      "opcoes": [
+        "Porque idosos não podem caminhar",
+        "Combate a sarcopenia, preservando força, autonomia e reduzindo o risco de quedas",
+        "Porque substitui a alimentação",
+        "Porque reduz a densidade óssea"
+      ],
+      "correta": 1,
+      "explicacao": "A perda de massa muscular com a idade compromete o equilíbrio e a independência."
+    }
+  ]
+}

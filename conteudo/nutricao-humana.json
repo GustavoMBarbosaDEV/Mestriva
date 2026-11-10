@@ -1,0 +1,465 @@
+{
+  "id": "nutricao-humana",
+  "nome": "Nutrição Humana",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Conceitos básicos e energia",
+      "resumo": "### Conceitos\n- **Alimento**: substância consumida que fornece nutrientes. **Nutriente**: componente com função no organismo (carboidratos, lipídios, proteínas, vitaminas, minerais, água).\n- **Macronutrientes**: carboidratos, lipídios e proteínas (necessários em gramas; fornecem energia).\n- **Micronutrientes**: vitaminas e minerais (miligramas ou microgramas; não fornecem energia).\n- **Nutriente essencial**: o organismo **não produz** (ou não em quantidade suficiente); precisa vir da dieta.\n- **Fibras** e **água** também são fundamentais.\n\n### Valor energético\nFatores de Atwater (kcal por grama):\n- **Carboidratos: 4 kcal/g**\n- **Proteínas: 4 kcal/g**\n- **Lipídios: 9 kcal/g**\n- **Álcool: 7 kcal/g** (calorias \"vazias\").\n- Fibras: cerca de 2 kcal/g (parcialmente fermentadas).\n\n### Gasto energético total (GET)\n- **Taxa metabólica basal (TMB)**: energia para funções vitais em repouso; **60 a 70%** do gasto total. Maior com mais massa magra; cai com a idade.\n- **Efeito térmico dos alimentos**: cerca de **10%** (digerir e metabolizar); maior para proteínas.\n- **Atividade física**: a parcela **mais variável**.\n- Estimativas: equações de **Harris-Benedict**, Mifflin-St Jeor, FAO/OMS, multiplicadas pelo **fator atividade**.\n\n### Balanço energético\nConsumo > gasto → ganho de peso; consumo < gasto → perda. Cerca de **7.700 kcal** equivalem a 1 kg de gordura corporal (aproximação).\n\n### Distribuição recomendada (AMDR, adultos)\n**Carboidratos 45–65%**, **lipídios 20–35%**, **proteínas 10–35%** das calorias.\n\n### Exemplo\nRefeição com 50 g de carboidrato, 20 g de proteína e 10 g de gordura: 200 + 80 + 90 = **370 kcal**.",
+      "revisao": "**Lembre:**\n- Carboidrato e proteína: 4 kcal/g; lipídio: 9; álcool: 7.\n- TMB: maior parte do gasto (60–70%).\n- Efeito térmico: ~10%, maior para proteínas.\n- Distribuição: CHO 45–65%, LIP 20–35%, PTN 10–35%.\n- Micronutrientes não dão energia."
+    },
+    {
+      "id": "macronutrientes",
+      "nome": "Carboidratos, lipídios e proteínas",
+      "resumo": "### Carboidratos\n- **Monossacarídeos**: glicose, frutose, galactose. **Dissacarídeos**: sacarose (glicose + frutose), **lactose** (glicose + galactose), maltose.\n- **Polissacarídeos**: **amido** (reserva vegetal), **glicogênio** (reserva animal, no fígado e músculos), **fibras** (celulose e outras, não digeridas pelas enzimas humanas).\n- Função principal: **energia**; o cérebro usa preferencialmente glicose.\n- **Fibras solúveis** (aveia, frutas: pectina, beta-glucana): reduzem colesterol e glicemia. **Insolúveis** (farelo de trigo, cascas): aumentam o volume das fezes e o trânsito intestinal. Recomendação: **25 a 30 g/dia**.\n- **Índice glicêmico**: velocidade com que o alimento eleva a glicemia em relação a um padrão.\n- **Intolerância à lactose**: deficiência da enzima **lactase**.\n\n### Lipídios\n- **Ácidos graxos saturados** (gordura animal, coco): sólidos à temperatura ambiente; excesso eleva o LDL.\n- **Monoinsaturados** (azeite, abacate, ômega-9).\n- **Poli-insaturados**: **ômega-6** (óleos vegetais) e **ômega-3** (peixes, linhaça, chia): **essenciais**.\n- **Gorduras trans** (hidrogenação industrial): elevam LDL e reduzem HDL; as mais prejudiciais.\n- Funções: energia, isolamento, membranas, hormônios, transporte das **vitaminas lipossolúveis**.\n- **Colesterol**: produzido pelo fígado; lipoproteínas **LDL** (leva ao tecido; \"ruim\" em excesso) e **HDL** (retorna ao fígado; \"bom\").\n\n### Proteínas\n- Formadas por **aminoácidos**; 20 tipos, **9 essenciais** para adultos.\n- Funções: **estrutura**, enzimas, hormônios, defesa (anticorpos), transporte; energia só em caso de necessidade.\n- **Alto valor biológico**: contêm todos os essenciais em boa proporção (ovo, carne, leite, peixe).\n- Vegetais costumam ter um **aminoácido limitante** (cereais: **lisina**; leguminosas: **metionina**). **Arroz com feijão** se complementam.\n- Recomendação para adultos saudáveis: cerca de **0,8 g/kg de peso/dia**.",
+      "revisao": "**Lembre:**\n- Lactose = glicose + galactose; falta de lactase causa intolerância.\n- Fibras solúveis baixam colesterol; insolúveis ajudam o intestino.\n- Ômega-3 e ômega-6 são essenciais; trans é a pior gordura.\n- 9 aminoácidos essenciais.\n- Arroz e feijão se complementam; ~0,8 g/kg/dia."
+    },
+    {
+      "id": "micronutrientes",
+      "nome": "Vitaminas e minerais",
+      "resumo": "### Vitaminas lipossolúveis (A, D, E, K)\nAbsorvidas com a gordura e armazenadas; risco de **toxicidade** em excesso.\n- **A (retinol; betacaroteno)**: visão (**cegueira noturna**, xeroftalmia na falta), pele, imunidade. Fontes: fígado, ovo, cenoura, abóbora, manga.\n- **D (calciferol)**: absorção de **cálcio**, saúde óssea; produzida na pele com **sol**. Falta: **raquitismo** (crianças) e osteomalácia (adultos).\n- **E (tocoferol)**: **antioxidante**. Óleos vegetais, castanhas.\n- **K**: **coagulação** sanguínea; produzida pela flora intestinal; vegetais verde-escuros.\n\n### Vitaminas hidrossolúveis (complexo B e C)\nNão se acumulam muito; excesso eliminado na urina; precisam de ingestão regular.\n- **B1 (tiamina)**: metabolismo dos carboidratos; falta: **beribéri**; comum em alcoolistas.\n- **B3 (niacina)**: falta: **pelagra** (dermatite, diarreia, demência).\n- **B9 (folato/ácido fólico)**: divisão celular; falta na gestação: **defeitos do tubo neural**; anemia megaloblástica. No Brasil, farinhas são **fortificadas** com ferro e ácido fólico.\n- **B12 (cobalamina)**: só em alimentos de **origem animal**; atenção em **veganos**; falta: anemia megaloblástica e lesões neurológicas.\n- **C (ácido ascórbico)**: síntese de **colágeno**, antioxidante, **aumenta a absorção do ferro não heme**. Falta: **escorbuto** (sangramento gengival). Frutas cítricas, acerola, goiaba.\n\n### Minerais\n- **Cálcio**: ossos e dentes, contração muscular, coagulação. Leite e derivados, vegetais verde-escuros.\n- **Ferro**: **hemoglobina**. **Heme** (carnes; melhor absorvido) e **não heme** (vegetais). Falta: **anemia ferropriva**, a carência mais comum no mundo. Café e chá (taninos) e cálcio reduzem a absorção; vitamina C aumenta.\n- **Iodo**: hormônios da **tireoide**; falta: **bócio** e cretinismo. Sal iodado no Brasil.\n- **Sódio**: equilíbrio hídrico; excesso → **hipertensão**. OMS: menos de **5 g de sal/dia** (2 g de sódio).\n- **Zinco** (imunidade, cicatrização), **potássio**, **magnésio**, **selênio**, **flúor** (dentes).",
+      "revisao": "**Lembre:**\n- Lipossolúveis A, D, E, K: acumulam.\n- Falta de D: raquitismo; de C: escorbuto; de B1: beribéri.\n- B12 só em alimentos animais.\n- Vitamina C aumenta a absorção de ferro não heme.\n- Iodo: bócio; sal < 5 g/dia."
+    },
+    {
+      "id": "digestao",
+      "nome": "Digestão, absorção e metabolismo",
+      "resumo": "### Digestão\n- **Boca**: mastigação; **amilase salivar** inicia a digestão do **amido**.\n- **Estômago**: **ácido clorídrico** e **pepsina** iniciam a digestão das **proteínas**; o fator intrínseco é necessário para absorver a **B12**.\n- **Intestino delgado**: principal local de digestão e **absorção**.\n  - **Pâncreas**: amilase, **lipase**, tripsina; bicarbonato neutraliza a acidez.\n  - **Bile** (produzida no fígado, armazenada na vesícula): **emulsifica** as gorduras (não é enzima).\n  - Enzimas da borda em escova: lactase, sacarase, maltase, peptidases.\n  - **Vilosidades e microvilosidades** aumentam enormemente a superfície de absorção.\n- **Intestino grosso**: absorção de **água** e eletrólitos; **microbiota** fermenta fibras, produzindo ácidos graxos de cadeia curta, e sintetiza vitamina K.\n\n### Absorção\n- Carboidratos absorvidos como **monossacarídeos**; proteínas como **aminoácidos** e pequenos peptídeos; ambos vão pela **veia porta** ao fígado.\n- Gorduras formam **micelas**, são remontadas em **quilomícrons** e seguem pelos **vasos linfáticos**.\n- Ferro e cálcio: principalmente no duodeno; B12: no íleo terminal.\n\n### Metabolismo\n- **Estado alimentado**: **insulina** alta; glicose usada e armazenada como glicogênio e gordura.\n- **Jejum**: **glucagon** alto; quebra do glicogênio (glicogenólise), produção de glicose (**gliconeogênese**), uso de gordura.\n- **Jejum prolongado**: formação de **corpos cetônicos** (cetose), usados pelo cérebro.\n- **Prebióticos**: fibras que alimentam bactérias benéficas (inulina, FOS). **Probióticos**: microrganismos vivos benéficos (iogurtes, kefir). **Simbióticos**: os dois juntos.",
+      "revisao": "**Lembre:**\n- Amido começa na boca; proteínas no estômago.\n- Bile emulsifica gordura (não é enzima).\n- Intestino delgado: principal absorção.\n- Gorduras pela linfa (quilomícrons).\n- Insulina no estado alimentado; glucagon no jejum."
+    },
+    {
+      "id": "avaliacao",
+      "nome": "Avaliação nutricional e recomendações",
+      "resumo": "### Antropometria\n- **IMC = peso (kg) / altura² (m)**.\n  - Adultos (OMS): **< 18,5** baixo peso; **18,5–24,9** eutrofia; **25–29,9** sobrepeso; **≥ 30** obesidade (grau I 30–34,9; II 35–39,9; III ≥ 40).\n  - Idosos (critério usado no SUS, Lipschitz): eutrofia entre **22 e 27**.\n  - Limitação: não distingue **gordura de músculo** nem mostra a distribuição.\n- **Circunferência da cintura**: risco cardiovascular aumentado acima de **94 cm (homens)** e **80 cm (mulheres)**; muito aumentado acima de 102 e 88 cm.\n- **Composição corporal**: dobras cutâneas, bioimpedância, DEXA.\n- **Crianças**: curvas da OMS (peso/idade, estatura/idade, IMC/idade) em **escore-z** ou percentis.\n\n### Outros métodos\n- **Inquéritos alimentares**: recordatório de 24 horas, questionário de frequência alimentar, registro alimentar.\n- **Exames bioquímicos**: hemoglobina, ferritina, albumina, perfil lipídico, glicemia.\n- **Exame físico**: sinais de carências.\n- **Triagem de risco** em hospitais (NRS-2002, MUST, Mini Avaliação Nutricional para idosos).\n\n### Recomendações de ingestão (DRIs)\n- **EAR**: necessidade média estimada (atende 50% da população).\n- **RDA**: ingestão dietética recomendada (atende **97–98%** dos indivíduos saudáveis).\n- **AI**: ingestão adequada (quando não há dados para RDA).\n- **UL**: limite superior tolerável (acima dele, risco de toxicidade).\n\n### Guia Alimentar para a População Brasileira (2014)\n- Base: alimentos **in natura** ou **minimamente processados**.\n- Óleos, gorduras, sal e açúcar em **pequenas quantidades**.\n- Limitar **processados** e **evitar ultraprocessados** (refrigerantes, salgadinhos, biscoitos recheados, macarrão instantâneo).\n- Classificação **NOVA** (por grau de processamento).\n- Comer com regularidade, atenção e em companhia; cozinhar.",
+      "revisao": "**Lembre:**\n- IMC = peso/altura²; 18,5–24,9 eutrófico; ≥ 30 obesidade.\n- Cintura: risco acima de 94 cm (H) e 80 cm (M).\n- RDA atende 97–98%; UL é o limite seguro.\n- Guia Alimentar: base in natura, evitar ultraprocessados.\n- IMC não distingue gordura de músculo."
+    },
+    {
+      "id": "ciclos",
+      "nome": "Nutrição nos ciclos de vida e saúde pública",
+      "resumo": "### Gestação e lactação\n- Aumento das necessidades de energia (sobretudo 2º e 3º trimestres), proteínas, **ferro**, **ácido fólico** (suplementado desde **antes da concepção** para prevenir defeitos do tubo neural), cálcio, iodo.\n- Ganho de peso recomendado depende do IMC pré-gestacional.\n- Evitar álcool; cuidado com toxoplasmose e listeriose (carnes cruas, leite não pasteurizado).\n\n### Infância\n- **Aleitamento materno exclusivo até 6 meses** e **complementado até 2 anos ou mais** (OMS e Ministério da Saúde).\n- Leite materno: anticorpos (o **colostro** é rico em imunoglobulinas), nutrientes na proporção ideal, proteção contra infecções e obesidade, vínculo.\n- **Alimentação complementar** a partir dos 6 meses: alimentos in natura amassados, sem açúcar e sem ultraprocessados até os **2 anos**; mel não deve ser oferecido antes de 1 ano (risco de botulismo).\n\n### Adolescência e idosos\n- Adolescentes: estirão de crescimento, maior necessidade de **cálcio** e **ferro**.\n- Idosos: menor gasto energético, mas necessidade de proteína maior (prevenir **sarcopenia**); atenção a hidratação (menor sede), vitamina D, B12 e cálcio; dentição e paladar.\n\n### Transição nutricional\nNo Brasil e no mundo: queda da desnutrição e **aumento do sobrepeso e da obesidade** e das doenças crônicas, associados a ultraprocessados e sedentarismo. **Dupla carga** da má nutrição: obesidade e carências convivendo (até na mesma família).\n\n### Políticas públicas\n- **PNAN** (Política Nacional de Alimentação e Nutrição).\n- **PNAE** (alimentação escolar): pelo menos **30%** dos recursos para compra da **agricultura familiar**.\n- **Segurança Alimentar e Nutricional (SAN)**: acesso regular e permanente a alimentos de qualidade, em quantidade suficiente, sem comprometer outras necessidades. Medida pela **EBIA**.\n- Fortificação de farinhas (ferro e ácido fólico) e iodação do sal.\n- Rotulagem nutricional frontal com **lupa** (alto em açúcar, sódio, gordura saturada).",
+      "revisao": "**Lembre:**\n- Ácido fólico antes da concepção.\n- Aleitamento exclusivo até 6 meses; complementado até 2 anos ou mais.\n- Sem açúcar até 2 anos; sem mel antes de 1 ano.\n- Transição nutricional: mais obesidade, menos desnutrição.\n- PNAE: 30% da agricultura familiar."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "nutricao-humana-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Quantas quilocalorias fornece 1 grama de lipídio?",
+      "opcoes": [
+        "9 kcal",
+        "4 kcal",
+        "7 kcal",
+        "2 kcal"
+      ],
+      "correta": 0,
+      "explicacao": "Carboidratos e proteínas fornecem 4 kcal/g; o álcool, 7 kcal/g."
+    },
+    {
+      "id": "nutricao-humana-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual componente costuma representar a maior parte do gasto energético diário de uma pessoa sedentária?",
+      "opcoes": [
+        "Efeito térmico dos alimentos",
+        "Taxa metabólica basal",
+        "Atividade física",
+        "Digestão das fibras"
+      ],
+      "correta": 1,
+      "explicacao": "A TMB responde por cerca de 60 a 70% do gasto total; a atividade física é a parcela mais variável."
+    },
+    {
+      "id": "nutricao-humana-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Um nutriente é considerado essencial quando:",
+      "opcoes": [
+        "Fornece muitas calorias",
+        "Está presente em todos os alimentos",
+        "O organismo não o produz em quantidade suficiente e precisa obtê-lo da dieta",
+        "Pode ser eliminado da dieta sem prejuízo"
+      ],
+      "correta": 2,
+      "explicacao": "Exemplos: aminoácidos essenciais, ômega-3 e ômega-6, e a maioria das vitaminas."
+    },
+    {
+      "id": "nutricao-humana-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um lanche tem 30 g de carboidrato, 10 g de proteína e 5 g de gordura. Qual é o valor energético aproximado?",
+      "opcoes": [
+        "180 kcal",
+        "225 kcal",
+        "45 kcal",
+        "205 kcal"
+      ],
+      "correta": 3,
+      "explicacao": "30·4 + 10·4 + 5·9 = 120 + 40 + 45 = 205 kcal."
+    },
+    {
+      "id": "nutricao-humana-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Duas pessoas com o mesmo peso têm TMB diferentes. Qual é a explicação mais provável?",
+      "opcoes": [
+        "Diferença na quantidade de massa magra (músculo)",
+        "Diferença na cor do cabelo",
+        "Uma delas bebe mais água",
+        "A TMB nunca varia entre pessoas"
+      ],
+      "correta": 0,
+      "explicacao": "O músculo é metabolicamente mais ativo que a gordura; idade, sexo e hormônios também influenciam."
+    },
+    {
+      "id": "nutricao-humana-6",
+      "topico": "macronutrientes",
+      "nivel": "conceitual",
+      "pergunta": "A intolerância à lactose decorre da deficiência da enzima:",
+      "opcoes": [
+        "Amilase",
+        "Lactase",
+        "Lipase",
+        "Pepsina"
+      ],
+      "correta": 1,
+      "explicacao": "Sem lactase, a lactose não é quebrada em glicose e galactose e fermenta no intestino, causando gases e diarreia."
+    },
+    {
+      "id": "nutricao-humana-7",
+      "topico": "macronutrientes",
+      "nivel": "conceitual",
+      "pergunta": "Qual tipo de gordura é considerado o mais prejudicial à saúde cardiovascular?",
+      "opcoes": [
+        "Gordura monoinsaturada",
+        "Ômega-3",
+        "Gordura trans",
+        "Ômega-6 em quantidade adequada"
+      ],
+      "correta": 2,
+      "explicacao": "A gordura trans aumenta o LDL e reduz o HDL ao mesmo tempo."
+    },
+    {
+      "id": "nutricao-humana-8",
+      "topico": "macronutrientes",
+      "nivel": "conceitual",
+      "pergunta": "As fibras solúveis, como as da aveia, ajudam principalmente a:",
+      "opcoes": [
+        "Aumentar a absorção de gordura",
+        "Fornecer muitas calorias",
+        "Substituir as proteínas",
+        "Reduzir o colesterol e a velocidade de absorção da glicose"
+      ],
+      "correta": 3,
+      "explicacao": "As insolúveis aumentam o volume das fezes e aceleram o trânsito intestinal."
+    },
+    {
+      "id": "nutricao-humana-9",
+      "topico": "macronutrientes",
+      "nivel": "aplicacao",
+      "pergunta": "Qual é a recomendação aproximada de proteína para um adulto saudável de 70 kg?",
+      "opcoes": [
+        "56 g por dia",
+        "140 g por dia",
+        "7 g por dia",
+        "280 g por dia"
+      ],
+      "correta": 0,
+      "explicacao": "0,8 g/kg × 70 kg = 56 g por dia; atletas e idosos podem precisar de mais."
+    },
+    {
+      "id": "nutricao-humana-10",
+      "topico": "macronutrientes",
+      "nivel": "analise",
+      "pergunta": "Por que a combinação de arroz com feijão é nutricionalmente vantajosa?",
+      "opcoes": [
+        "Porque os dois são ricos em gordura trans",
+        "Os aminoácidos limitantes de um são compensados pelo outro",
+        "Porque eliminam a necessidade de vitaminas",
+        "Porque o arroz é rico em lisina e o feijão em amido apenas"
+      ],
+      "correta": 1,
+      "explicacao": "O cereal tem pouca lisina e a leguminosa pouca metionina; juntos formam proteína de melhor qualidade."
+    },
+    {
+      "id": "nutricao-humana-11",
+      "topico": "micronutrientes",
+      "nivel": "conceitual",
+      "pergunta": "Quais vitaminas são lipossolúveis?",
+      "opcoes": [
+        "B1, B2, B6 e B12",
+        "C e complexo B",
+        "A, D, E e K",
+        "Apenas a vitamina C"
+      ],
+      "correta": 2,
+      "explicacao": "Por se acumularem no organismo, oferecem maior risco de toxicidade em excesso."
+    },
+    {
+      "id": "nutricao-humana-12",
+      "topico": "micronutrientes",
+      "nivel": "conceitual",
+      "pergunta": "A vitamina B12 merece atenção especial em dietas veganas porque:",
+      "opcoes": [
+        "É produzida em excesso pelo fígado",
+        "Está presente em todas as frutas",
+        "Não é necessária ao organismo",
+        "É encontrada naturalmente quase só em alimentos de origem animal"
+      ],
+      "correta": 3,
+      "explicacao": "Sua falta causa anemia megaloblástica e lesões neurológicas; veganos devem suplementar."
+    },
+    {
+      "id": "nutricao-humana-13",
+      "topico": "micronutrientes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a carência nutricional mais comum no mundo?",
+      "opcoes": [
+        "Anemia por deficiência de ferro",
+        "Escorbuto",
+        "Beribéri",
+        "Pelagra"
+      ],
+      "correta": 0,
+      "explicacao": "Atinge sobretudo crianças pequenas, gestantes e mulheres em idade fértil."
+    },
+    {
+      "id": "nutricao-humana-14",
+      "topico": "micronutrientes",
+      "nivel": "aplicacao",
+      "pergunta": "Para melhorar a absorção do ferro do feijão, é recomendável consumir na mesma refeição:",
+      "opcoes": [
+        "Café logo após a refeição",
+        "Uma fruta rica em vitamina C, como laranja ou acerola",
+        "Um copo grande de leite",
+        "Chá-preto"
+      ],
+      "correta": 1,
+      "explicacao": "A vitamina C favorece a absorção do ferro não heme; taninos do café e do chá e o cálcio a reduzem."
+    },
+    {
+      "id": "nutricao-humana-15",
+      "topico": "micronutrientes",
+      "nivel": "analise",
+      "pergunta": "Por que o Brasil adiciona iodo ao sal de cozinha?",
+      "opcoes": [
+        "Para aumentar o sabor salgado",
+        "Para conservar o sal por mais tempo",
+        "Para prevenir bócio e problemas de desenvolvimento ligados à falta de iodo",
+        "Para reduzir a pressão arterial"
+      ],
+      "correta": 2,
+      "explicacao": "O iodo é necessário para os hormônios da tireoide; a iodação é uma estratégia barata de saúde pública."
+    },
+    {
+      "id": "nutricao-humana-16",
+      "topico": "digestao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a função da bile na digestão?",
+      "opcoes": [
+        "Digerir as proteínas",
+        "Absorver a água no intestino grosso",
+        "Produzir insulina",
+        "Emulsificar as gorduras, facilitando a ação da lipase"
+      ],
+      "correta": 3,
+      "explicacao": "A bile não é uma enzima: ela quebra as gotas de gordura em gotículas menores."
+    },
+    {
+      "id": "nutricao-humana-17",
+      "topico": "digestao",
+      "nivel": "conceitual",
+      "pergunta": "Em que local ocorre a maior parte da absorção de nutrientes?",
+      "opcoes": [
+        "Intestino delgado",
+        "Estômago",
+        "Intestino grosso",
+        "Boca"
+      ],
+      "correta": 0,
+      "explicacao": "Vilosidades e microvilosidades aumentam muito a superfície de absorção."
+    },
+    {
+      "id": "nutricao-humana-18",
+      "topico": "digestao",
+      "nivel": "conceitual",
+      "pergunta": "No estado de jejum, o hormônio que aumenta e estimula a liberação de glicose pelo fígado é:",
+      "opcoes": [
+        "Insulina",
+        "Glucagon",
+        "Gastrina",
+        "Ocitocina"
+      ],
+      "correta": 1,
+      "explicacao": "A insulina predomina após as refeições e favorece o armazenamento."
+    },
+    {
+      "id": "nutricao-humana-19",
+      "topico": "digestao",
+      "nivel": "aplicacao",
+      "pergunta": "Um iogurte com microrganismos vivos benéficos e fibra inulina adicionada é classificado como:",
+      "opcoes": [
+        "Apenas prebiótico",
+        "Apenas probiótico",
+        "Simbiótico",
+        "Ultraprocessado sem efeito"
+      ],
+      "correta": 2,
+      "explicacao": "Probióticos são os microrganismos; prebióticos, as fibras que os alimentam; juntos, simbióticos."
+    },
+    {
+      "id": "nutricao-humana-20",
+      "topico": "digestao",
+      "nivel": "analise",
+      "pergunta": "Por que pessoas que retiraram parte do estômago podem ter deficiência de vitamina B12?",
+      "opcoes": [
+        "Porque o estômago produz a B12",
+        "Porque a B12 é absorvida só na boca",
+        "Porque perdem a bile",
+        "O estômago produz o fator intrínseco necessário à absorção da B12"
+      ],
+      "correta": 3,
+      "explicacao": "Sem o fator intrínseco, a B12 não é absorvida no íleo, mesmo com boa ingestão."
+    },
+    {
+      "id": "nutricao-humana-21",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a classificação de IMC para eutrofia em adultos, segundo a OMS?",
+      "opcoes": [
+        "18,5 a 24,9 kg/m²",
+        "25 a 29,9 kg/m²",
+        "Menor que 18,5 kg/m²",
+        "30 a 34,9 kg/m²"
+      ],
+      "correta": 0,
+      "explicacao": "Entre 25 e 29,9 é sobrepeso; a partir de 30, obesidade."
+    },
+    {
+      "id": "nutricao-humana-22",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal limitação do IMC?",
+      "opcoes": [
+        "É muito caro de calcular",
+        "Não distingue massa gorda de massa muscular nem mostra a distribuição da gordura",
+        "Só pode ser usado em crianças",
+        "Exige exame de sangue"
+      ],
+      "correta": 1,
+      "explicacao": "Um atleta musculoso pode ter IMC de sobrepeso sem excesso de gordura."
+    },
+    {
+      "id": "nutricao-humana-23",
+      "topico": "avaliacao",
+      "nivel": "conceitual",
+      "pergunta": "O Guia Alimentar para a População Brasileira recomenda:",
+      "opcoes": [
+        "Contar calorias de todos os alimentos",
+        "Preferir produtos diet e light",
+        "Fazer de alimentos in natura ou minimamente processados a base da alimentação e evitar ultraprocessados",
+        "Eliminar todos os carboidratos"
+      ],
+      "correta": 2,
+      "explicacao": "Também valoriza comer com regularidade, atenção e em companhia, e cozinhar."
+    },
+    {
+      "id": "nutricao-humana-24",
+      "topico": "avaliacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um adulto pesa 90 kg e mede 1,80 m. Qual é seu IMC e classificação?",
+      "opcoes": [
+        "22,5 kg/m², eutrofia",
+        "32 kg/m², obesidade",
+        "50 kg/m², obesidade grau III",
+        "27,8 kg/m², sobrepeso"
+      ],
+      "correta": 3,
+      "explicacao": "IMC = 90/(1,8 × 1,8) = 90/3,24 ≈ 27,8, que fica na faixa de 25 a 29,9, classificada como sobrepeso para adultos."
+    },
+    {
+      "id": "nutricao-humana-25",
+      "topico": "avaliacao",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre RDA e UL nas recomendações de ingestão?",
+      "opcoes": [
+        "RDA atende às necessidades de quase todos os saudáveis; UL é o limite acima do qual há risco de efeitos adversos",
+        "São a mesma medida",
+        "UL é a quantidade mínima recomendada",
+        "RDA é o limite máximo de segurança"
+      ],
+      "correta": 0,
+      "explicacao": "Ingerir acima da RDA não traz benefício extra e, acima do UL, pode trazer toxicidade."
+    },
+    {
+      "id": "nutricao-humana-26",
+      "topico": "ciclos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a recomendação do Ministério da Saúde para o aleitamento materno?",
+      "opcoes": [
+        "Exclusivo até 1 mês apenas",
+        "Exclusivo até os 6 meses e complementado até os 2 anos ou mais",
+        "Exclusivo até os 2 anos",
+        "Substituir por fórmula a partir de 3 meses"
+      ],
+      "correta": 1,
+      "explicacao": "A partir dos 6 meses introduzem-se outros alimentos, mantendo o leite materno."
+    },
+    {
+      "id": "nutricao-humana-27",
+      "topico": "ciclos",
+      "nivel": "conceitual",
+      "pergunta": "Por que o ácido fólico deve ser suplementado antes da concepção?",
+      "opcoes": [
+        "Para aumentar o peso do bebê",
+        "Para evitar a amamentação",
+        "Para prevenir defeitos do tubo neural, que se formam nas primeiras semanas de gestação",
+        "Para reduzir o apetite da gestante"
+      ],
+      "correta": 2,
+      "explicacao": "O tubo neural se fecha nas primeiras semanas, muitas vezes antes de a mulher saber que está grávida."
+    },
+    {
+      "id": "nutricao-humana-28",
+      "topico": "ciclos",
+      "nivel": "conceitual",
+      "pergunta": "O que é a transição nutricional observada no Brasil?",
+      "opcoes": [
+        "Aumento da desnutrição infantil",
+        "Fim de todas as carências nutricionais",
+        "Aumento do consumo de alimentos in natura",
+        "Redução da desnutrição e aumento do sobrepeso, da obesidade e das doenças crônicas"
+      ],
+      "correta": 3,
+      "explicacao": "Está associada ao maior consumo de ultraprocessados e ao sedentarismo."
+    },
+    {
+      "id": "nutricao-humana-29",
+      "topico": "ciclos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mãe pergunta se pode adoçar com mel a papinha do filho de 8 meses. Qual é a orientação correta?",
+      "opcoes": [
+        "Não, pois mel não deve ser oferecido antes de 1 ano e açúcar deve ser evitado até os 2 anos",
+        "Sim, o mel é ideal para bebês",
+        "Sim, desde que seja pouco",
+        "Só se for misturado ao leite"
+      ],
+      "correta": 0,
+      "explicacao": "O mel pode conter esporos de Clostridium botulinum, perigosos para o bebê."
+    },
+    {
+      "id": "nutricao-humana-30",
+      "topico": "ciclos",
+      "nivel": "analise",
+      "pergunta": "Por que idosos precisam de atenção especial à ingestão de proteínas, apesar de gastarem menos energia?",
+      "opcoes": [
+        "Porque deixam de produzir enzimas",
+        "Para prevenir a sarcopenia, a perda de massa e força muscular",
+        "Porque não precisam de outros nutrientes",
+        "Porque proteínas reduzem a sede"
+      ],
+      "correta": 1,
+      "explicacao": "A sarcopenia aumenta o risco de quedas, fraturas e perda de autonomia."
+    }
+  ]
+}

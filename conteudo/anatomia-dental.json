@@ -1,0 +1,465 @@
+{
+  "id": "anatomia-dental",
+  "nome": "Anatomia Dental",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "denticoes",
+      "nome": "Dentições e notação dentária",
+      "resumo": "### Duas dentições\n- **Decídua** (de leite): **20 dentes**. Em cada hemiarco: 2 incisivos, 1 canino e 2 molares. **Não há pré-molares** decíduos.\n- **Permanente**: **32 dentes**. Em cada hemiarco: 2 incisivos, 1 canino, 2 pré-molares e 3 molares.\n- **Dentição mista**: período em que convivem dentes decíduos e permanentes, dos **6 aos 12 anos** aproximadamente.\n\n### Grupos e funções\n- **Incisivos**: cortar.\n- **Caninos**: rasgar e dilacerar; guiam os movimentos laterais.\n- **Pré-molares**: rasgar e triturar.\n- **Molares**: triturar e moer.\n- **Anteriores**: incisivos e caninos. **Posteriores**: pré-molares e molares.\n\n### Substituição\n- Os pré-molares permanentes substituem os **molares decíduos**.\n- Os molares permanentes **não substituem ninguém**: nascem atrás dos decíduos (dentes **monofisários**).\n- Dentes que substituem decíduos são **sucessores** (difiodontes).\n\n### Notação da FDI (dois dígitos)\nO **primeiro dígito** é o quadrante; o **segundo**, o dente, contado a partir da linha média.\n- Permanentes: **1** superior direito, **2** superior esquerdo, **3** inferior esquerdo, **4** inferior direito.\n- Decíduos: quadrantes **5, 6, 7 e 8**, na mesma ordem.\n- Dente: 1 incisivo central, 2 incisivo lateral, 3 canino, 4 e 5 pré-molares, 6, 7 e 8 molares.\n- Exemplos: **11** = incisivo central superior direito; **36** = primeiro molar inferior esquerdo; **48** = terceiro molar inferior direito; **55** = segundo molar decíduo superior direito.\n- Lê-se dígito por dígito: \"um-um\", \"três-seis\".\n\n### Outras notações\n- **Universal** (americana): permanentes numerados de **1 a 32**, começando no terceiro molar superior direito; decíduos de **A a T**.\n- **Palmer** (Zsigmondy): cruz que indica o quadrante, com números de 1 a 8.\n\n### Direita e esquerda\nSempre do ponto de vista do **paciente**.",
+      "revisao": "**Lembre:**\n- Decíduos: 20 dentes, sem pré-molares.\n- Permanentes: 32 dentes.\n- FDI: quadrante + dente (11, 36, 48).\n- Quadrantes 1 a 4 permanentes; 5 a 8 decíduos.\n- Molares permanentes não substituem decíduos."
+    },
+    {
+      "id": "tecidos",
+      "nome": "Estrutura e tecidos do dente",
+      "resumo": "### Partes do dente\n- **Coroa**: parte coberta por esmalte. **Coroa anatômica** vai até a junção com o cemento; **coroa clínica** é a parte visível na boca.\n- **Raiz**: coberta por cemento; termina no **ápice**, com o **forame apical**.\n- **Colo** (cervical): região da **junção amelocementária**, entre coroa e raiz.\n- **Cavidade pulpar**: **câmara pulpar** (na coroa) e **canal radicular** (na raiz).\n\n### Esmalte\n- Tecido **mais duro e mineralizado** do corpo: cerca de **96%** mineral (**hidroxiapatita**).\n- Formado pelos **ameloblastos**, que desaparecem após a erupção; por isso o esmalte **não se regenera**.\n- **Acelular**, sem vasos e sem nervos. Formado por **prismas**.\n- De origem **ectodérmica** (os demais tecidos do dente vêm do ectomesênquima).\n- O **flúor** forma a fluorapatita, mais resistente aos ácidos.\n\n### Dentina\n- Forma a **maior parte** do dente. Cerca de **70%** mineral; mais mole e elástica que o esmalte, amortece as forças.\n- Formada pelos **odontoblastos**, cujos corpos ficam na polpa e cujos prolongamentos ocupam os **túbulos dentinários**.\n- É **sensível**: o movimento do líquido nos túbulos estimula os nervos (**teoria hidrodinâmica**).\n- **Primária** (até a formação da raiz), **secundária** (ao longo da vida, reduzindo a câmara) e **terciária** ou reparadora (resposta a agressões).\n\n### Polpa\n- **Tecido conjuntivo frouxo**, com vasos e nervos; entra pelo forame apical.\n- Funções: **formadora** (dentina), **nutritiva**, **sensitiva** (responde com **dor** a qualquer estímulo) e **defensiva**.\n- Com a idade, a câmara diminui.\n\n### Cemento\n- Recobre a raiz; parecido com osso, mas **sem vasos**. Cerca de 50% mineral.\n- Formado pelos **cementoblastos**. Ancora as fibras do ligamento periodontal.\n- **Acelular** (terço cervical) e **celular** (terço apical).\n\n### Periodonto\n- **De proteção**: **gengiva**.\n- **De sustentação**: **cemento**, **ligamento periodontal** e **osso alveolar**.\n- O ligamento periodontal amortece as forças da mastigação e dá sensibilidade ao toque.\n- **Gonfose**: articulação fibrosa entre dente e alvéolo.\n\n### Ordem de dureza\nEsmalte > dentina > cemento > polpa (tecido mole).",
+      "revisao": "**Lembre:**\n- Esmalte: mais duro do corpo, não se regenera.\n- Dentina: maior parte do dente, sensível, com túbulos.\n- Polpa: vasos e nervos; responde com dor.\n- Cemento cobre a raiz.\n- Sustentação: cemento, ligamento periodontal e osso alveolar."
+    },
+    {
+      "id": "faces",
+      "nome": "Faces, terços e acidentes anatômicos",
+      "resumo": "### Faces\n- **Vestibular**: voltada para lábios (labial) ou bochechas (bucal).\n- **Lingual**: voltada para a língua (inferiores); **palatina**: voltada para o palato (superiores).\n- **Mesial**: face proximal mais **próxima da linha média**.\n- **Distal**: face proximal mais **distante da linha média**.\n- **Oclusal**: face mastigatória dos **posteriores**.\n- **Incisal**: borda cortante dos **anteriores**.\n- **Proximais**: mesial e distal. **Livres**: vestibular e lingual/palatina.\n\n### Terços\n- No sentido vertical da coroa: **cervical**, **médio** e **oclusal** (ou incisal).\n- Na raiz: **cervical**, **médio** e **apical**.\n- No sentido mesiodistal: mesial, médio e distal.\n\n### Elevações\n- **Cúspide**: elevação em ponta na face oclusal; os caninos têm uma.\n- **Crista marginal**: elevação linear que limita a face oclusal por mesial e distal (e a face lingual dos anteriores).\n- **Cíngulo**: elevação no terço cervical da face lingual dos **anteriores**.\n- **Crista transversal** e **crista oblíqua** (esta, típica dos molares superiores).\n- **Mamelões**: três pequenas saliências na borda incisal dos incisivos recém-erupcionados, que se desgastam com o uso.\n- **Tubérculo de Carabelli**: elevação extra na face palatina do primeiro molar superior.\n\n### Depressões\n- **Sulco**: depressão linear entre cúspides; o **sulco principal** separa as cúspides.\n- **Fossa**: depressão arredondada (fossa central, fossas triangulares).\n- **Fóssula** (cicatrícula): ponto profundo onde sulcos se encontram.\n- **Fissura**: sulco profundo e estreito. Sulcos, fóssulas e fissuras são áreas de **retenção de placa** e de início de cárie, que os **selantes** protegem.\n\n### Áreas e pontos\n- **Ponto (ou área) de contato**: onde dentes vizinhos se tocam; protege a **papila gengival** e mantém o arco estável.\n- **Ameias**: espaços em V ao redor do contato.\n- **Linha do equador** (maior contorno): desvia o alimento da gengiva.\n- **Linha cervical**: contorno da junção amelocementária; sua curvatura é maior nos anteriores e nas faces proximais.\n\n### Características gerais\n- A coroa é mais larga na **mesial** do que na distal.\n- As raízes tendem a se inclinar para **distal**.\n- Dentes **inferiores** têm coroas inclinadas para lingual.",
+      "revisao": "**Lembre:**\n- Mesial: perto da linha média; distal: longe.\n- Palatina nos superiores; lingual nos inferiores.\n- Oclusal nos posteriores; incisal nos anteriores.\n- Cíngulo: anteriores, face lingual.\n- Sulcos e fissuras retêm placa."
+    },
+    {
+      "id": "permanentes",
+      "nome": "Morfologia dos dentes permanentes",
+      "resumo": "### Incisivos\n- **Central superior**: o **maior** incisivo; coroa larga, em forma de pá.\n- **Lateral superior**: menor; é o dente que **mais varia de forma** (pode ser conoide) e pode estar ausente.\n- **Central inferior**: o **menor dente** da dentição permanente e o mais simétrico.\n- **Lateral inferior**: um pouco maior que o central inferior (ao contrário do arco superior).\n- Todos com **uma raiz**.\n\n### Caninos\n- **Uma cúspide**; a **raiz mais longa** da boca (especialmente o **canino superior**).\n- Dentes muito estáveis, na \"esquina\" do arco; importantes na estética e na **guia canina**.\n\n### Pré-molares\n- **Primeiro superior**: geralmente **duas raízes** (vestibular e palatina) e duas cúspides de tamanho parecido.\n- **Segundo superior**: geralmente **uma raiz**.\n- **Primeiro inferior**: cúspide lingual muito pequena; parece um canino.\n- **Segundo inferior**: pode ter **duas ou três cúspides**; uma raiz.\n- Também chamados de **bicúspides**.\n\n### Molares superiores\n- **Três raízes**: duas vestibulares (mesiovestibular e distovestibular) e uma **palatina**, a maior.\n- **Primeiro molar superior**: quatro cúspides principais, **crista oblíqua** e, com frequência, o **tubérculo de Carabelli**. A raiz mesiovestibular costuma ter **dois canais** (o segundo é o MV2).\n- Raízes próximas ao **seio maxilar**.\n\n### Molares inferiores\n- **Duas raízes**: **mesial** e **distal**.\n- **Primeiro molar inferior**: o **maior dente** do arco inferior; **cinco cúspides** (três vestibulares e duas linguais); geralmente **três canais** (dois na raiz mesial e um na distal).\n- **Segundo molar inferior**: quatro cúspides, com sulcos em cruz.\n\n### Terceiros molares (sisos)\nOs que mais variam em forma, tamanho e posição; com frequência ficam **inclusos** ou impactados, ou nem se formam.\n\n### Primeiro molar permanente\nErupciona por volta dos **6 anos**, **atrás** dos decíduos, sem substituir nenhum dente. É a **chave da oclusão** e, por ser confundido com dente de leite, muito atingido por cárie.\n\n### Arco superior e inferior\nOs dentes superiores são, em geral, maiores que os inferiores correspondentes e ultrapassam os inferiores por vestibular.",
+      "revisao": "**Lembre:**\n- Canino superior: raiz mais longa.\n- Incisivo central inferior: menor dente.\n- Molares superiores: 3 raízes; inferiores: 2 raízes.\n- Primeiro pré-molar superior: 2 raízes.\n- Primeiro molar permanente nasce aos 6 anos."
+    },
+    {
+      "id": "deciduos",
+      "nome": "Dentes decíduos e cronologia de erupção",
+      "resumo": "### Características dos decíduos\nEm comparação com os permanentes:\n- **Menores** e de cor mais **branca** (branco-leitosa).\n- **Esmalte e dentina mais finos**; a **câmara pulpar é proporcionalmente maior**, com cornos pulpares altos. Por isso a cárie chega à polpa mais depressa.\n- Coroas **mais baixas e bojudas**, com **constrição cervical** acentuada.\n- **Raízes dos molares mais finas e divergentes**, abrindo espaço para o germe do permanente.\n- Menos mineralizados; desgastam mais.\n\n### Funções\nMastigação, fala, estética, estímulo ao crescimento dos maxilares e **manutenção do espaço** para o sucessor. A perda precoce pode fechar o espaço e causar apinhamento.\n\n### Erupção dos decíduos\n- Começa por volta dos **6 meses**, com o **incisivo central inferior**.\n- Sequência habitual: incisivos centrais, incisivos laterais, **primeiros molares**, **caninos**, **segundos molares**.\n- Completa-se por volta dos **2 anos e meio a 3 anos**.\n\n### Erupção dos permanentes\n- **6 anos**: **primeiro molar** e incisivos centrais inferiores.\n- **7 a 8 anos**: incisivos centrais superiores e laterais.\n- **9 a 12 anos**: caninos e pré-molares. No arco inferior, o canino costuma vir **antes** dos pré-molares; no superior, **depois** deles.\n- **12 anos**: **segundo molar**.\n- **17 a 21 anos**: **terceiro molar**.\n- Em geral, os dentes **inferiores** erupcionam antes dos superiores, e as meninas antes dos meninos.\n\n### Esfoliação\nA queda do decíduo ocorre pela **reabsorção da raiz** (rizólise), feita por odontoclastos e estimulada pelo permanente que vem por baixo.\n\n### Formação do dente (odontogênese)\n- Fases: **botão**, **capuz**, **campânula**, coroa e raiz.\n- **Órgão do esmalte** (ectoderma): forma o esmalte. **Papila dentária**: dentina e polpa. **Folículo dentário**: cemento, ligamento e osso alveolar.\n- A formação começa por volta da **6ª semana** de vida intrauterina.\n- A raiz só termina de se formar cerca de **2 a 3 anos após a erupção** (ápice aberto em dentes jovens).\n\n### Anomalias\n- De número: **anodontia** (ausência), **supranumerários** (o **mesiodente**, entre os incisivos centrais superiores, é o mais comum).\n- De tamanho: micro e macrodontia.\n- De forma: dente conoide, geminação, fusão.\n- De estrutura: **fluorose** (manchas por excesso de flúor na formação), hipoplasia de esmalte, amelogênese imperfeita.",
+      "revisao": "**Lembre:**\n- Decíduos: mais brancos, esmalte fino, polpa ampla.\n- Primeiro decíduo: incisivo central inferior, aos 6 meses.\n- Dentição decídua completa perto dos 3 anos.\n- 6 anos: primeiro molar permanente; 12 anos: segundo molar.\n- Raiz termina de formar 2 a 3 anos após a erupção."
+    },
+    {
+      "id": "oclusao",
+      "nome": "Oclusão e articulação temporomandibular",
+      "resumo": "### Oclusão\nRelação de contato entre os dentes superiores e inferiores, em repouso e em função.\n\n### Posições\n- **Máxima intercuspidação habitual (MIH)**: maior número de contatos entre os dentes.\n- **Relação cêntrica (RC)**: posição dos **côndilos** na fossa, independente dos dentes; referência para reabilitações.\n- **Posição de repouso**: dentes ligeiramente afastados; o espaço entre eles é o **espaço funcional livre** (2 a 4 mm).\n- **Dimensão vertical de oclusão**: altura da face com os dentes em contato.\n\n### Relações entre os arcos\n- **Sobressaliência** (overjet): distância **horizontal** entre os incisivos superiores e inferiores.\n- **Sobremordida** (overbite): trespasse **vertical**.\n- **Mordida aberta**: falta de contato vertical. **Mordida cruzada**: dentes inferiores por fora dos superiores.\n\n### Classificação de Angle\nBaseia-se na relação entre os **primeiros molares permanentes**.\n- **Classe I** (neutroclusão): a **cúspide mesiovestibular do primeiro molar superior** oclui no **sulco vestibular do primeiro molar inferior**. Relação normal dos molares (pode haver apinhamento).\n- **Classe II** (distoclusão): o molar inferior está para **trás**. Divisão 1: incisivos superiores projetados; divisão 2: incisivos inclinados para dentro.\n- **Classe III** (mesioclusão): o molar inferior está para a **frente**; queixo proeminente.\n\n### Curvas e cúspides\n- **Curva de Spee**: curva anteroposterior do plano oclusal, vista de lado.\n- **Curva de Wilson**: curva transversal, vista de frente.\n- **Cúspides de suporte** (funcionais): **palatinas** dos superiores e **vestibulares** dos inferiores; mantêm a dimensão vertical.\n- **Cúspides de balanceio** (guia): vestibulares dos superiores e linguais dos inferiores.\n\n### Movimentos mandibulares\nAbertura e fechamento, **protrusão**, retrusão e **lateralidade**.\n- **Guia anterior**: na protrusão, os incisivos desocluem os posteriores.\n- **Guia canina**: na lateralidade, só os caninos tocam, protegendo os posteriores.\n- **Lado de trabalho**: para onde a mandíbula se move; **lado de balanceio**: o oposto.\n\n### Articulação temporomandibular (ATM)\n- Articulação **sinovial** entre o **côndilo da mandíbula** e a **fossa mandibular do osso temporal**, com um **disco articular** entre eles.\n- Faz **rotação** (início da abertura) e **translação** (o côndilo desliza para a frente).\n- **Músculos da mastigação**, inervados pelo **nervo trigêmeo** (ramo mandibular): **masseter**, **temporal** e **pterigóideo medial** (elevam a mandíbula) e **pterigóideo lateral** (protrusão e abertura).\n\n### Disfunções\n**Bruxismo** (ranger ou apertar os dentes), estalidos, dor e limitação de abertura caracterizam as disfunções temporomandibulares.",
+      "revisao": "**Lembre:**\n- Angle usa os primeiros molares.\n- Classe I: cúspide mesiovestibular do superior no sulco vestibular do inferior.\n- Classe II: mandíbula para trás; Classe III: para a frente.\n- Overjet é horizontal; overbite é vertical.\n- Músculos da mastigação: nervo trigêmeo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "anatomia-dental-1",
+      "topico": "denticoes",
+      "nivel": "conceitual",
+      "pergunta": "Quantos dentes tem a dentição decídua completa?",
+      "opcoes": [
+        "20",
+        "32",
+        "28",
+        "24"
+      ],
+      "correta": 0,
+      "explicacao": "São 2 incisivos, 1 canino e 2 molares em cada hemiarco, sem pré-molares."
+    },
+    {
+      "id": "anatomia-dental-2",
+      "topico": "denticoes",
+      "nivel": "conceitual",
+      "pergunta": "Qual grupo de dentes não existe na dentição decídua?",
+      "opcoes": [
+        "Incisivos",
+        "Pré-molares",
+        "Caninos",
+        "Molares"
+      ],
+      "correta": 1,
+      "explicacao": "Os pré-molares permanentes ocupam o lugar dos molares decíduos."
+    },
+    {
+      "id": "anatomia-dental-3",
+      "topico": "denticoes",
+      "nivel": "conceitual",
+      "pergunta": "Na notação da FDI, o primeiro dígito indica:",
+      "opcoes": [
+        "O número de raízes",
+        "A face do dente",
+        "O quadrante",
+        "A idade de erupção"
+      ],
+      "correta": 2,
+      "explicacao": "O segundo dígito indica o dente, contado a partir da linha média."
+    },
+    {
+      "id": "anatomia-dental-4",
+      "topico": "denticoes",
+      "nivel": "aplicacao",
+      "pergunta": "Pela notação da FDI, o dente 36 é o:",
+      "opcoes": [
+        "Primeiro molar superior direito",
+        "Canino inferior esquerdo",
+        "Segundo pré-molar inferior direito",
+        "Primeiro molar inferior esquerdo"
+      ],
+      "correta": 3,
+      "explicacao": "O quadrante 3 é o inferior esquerdo e o dente 6 é o primeiro molar."
+    },
+    {
+      "id": "anatomia-dental-5",
+      "topico": "denticoes",
+      "nivel": "analise",
+      "pergunta": "Por que os molares permanentes são chamados de monofisários?",
+      "opcoes": [
+        "Porque não substituem nenhum dente decíduo, nascendo atrás deles",
+        "Porque têm apenas uma raiz",
+        "Porque caem na infância",
+        "Porque não têm esmalte"
+      ],
+      "correta": 0,
+      "explicacao": "Eles aparecem uma única vez, ao contrário dos dentes que têm antecessor decíduo."
+    },
+    {
+      "id": "anatomia-dental-6",
+      "topico": "tecidos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o tecido mais mineralizado do corpo humano?",
+      "opcoes": [
+        "Dentina",
+        "Esmalte",
+        "Cemento",
+        "Osso alveolar"
+      ],
+      "correta": 1,
+      "explicacao": "Tem cerca de 96% de mineral, na forma de cristais de hidroxiapatita."
+    },
+    {
+      "id": "anatomia-dental-7",
+      "topico": "tecidos",
+      "nivel": "conceitual",
+      "pergunta": "As células responsáveis pela formação da dentina são os:",
+      "opcoes": [
+        "Ameloblastos",
+        "Cementoblastos",
+        "Odontoblastos",
+        "Osteoclastos"
+      ],
+      "correta": 2,
+      "explicacao": "Os ameloblastos formam o esmalte e os cementoblastos, o cemento."
+    },
+    {
+      "id": "anatomia-dental-8",
+      "topico": "tecidos",
+      "nivel": "conceitual",
+      "pergunta": "Quais estruturas compõem o periodonto de sustentação?",
+      "opcoes": [
+        "Esmalte, dentina e polpa",
+        "Gengiva e esmalte",
+        "Polpa e forame apical",
+        "Cemento, ligamento periodontal e osso alveolar"
+      ],
+      "correta": 3,
+      "explicacao": "A gengiva forma o periodonto de proteção."
+    },
+    {
+      "id": "anatomia-dental-9",
+      "topico": "tecidos",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente com retração gengival sente dor ao tomar líquidos gelados. A dor se explica porque:",
+      "opcoes": [
+        "A dentina exposta tem túbulos cujo líquido se move e estimula os nervos da polpa",
+        "O esmalte tem muitos nervos",
+        "O cemento é mais duro que o esmalte",
+        "A gengiva deixou de ter sensibilidade"
+      ],
+      "correta": 0,
+      "explicacao": "É a teoria hidrodinâmica da sensibilidade dentinária."
+    },
+    {
+      "id": "anatomia-dental-10",
+      "topico": "tecidos",
+      "nivel": "analise",
+      "pergunta": "Por que o esmalte não se regenera depois de destruído pela cárie?",
+      "opcoes": [
+        "Porque o esmalte tem muitos vasos sanguíneos",
+        "Os ameloblastos desaparecem após a erupção e o tecido não tem células",
+        "Porque a polpa o reabsorve",
+        "Porque ele é formado de cemento"
+      ],
+      "correta": 1,
+      "explicacao": "Já a dentina pode ser reposta, porque os odontoblastos continuam vivos na polpa."
+    },
+    {
+      "id": "anatomia-dental-11",
+      "topico": "faces",
+      "nivel": "conceitual",
+      "pergunta": "A face mesial de um dente é aquela que está:",
+      "opcoes": [
+        "Mais distante da linha média",
+        "Voltada para a língua",
+        "Mais próxima da linha média do arco",
+        "Voltada para a bochecha"
+      ],
+      "correta": 2,
+      "explicacao": "A face oposta, mais distante da linha média, é a distal."
+    },
+    {
+      "id": "anatomia-dental-12",
+      "topico": "faces",
+      "nivel": "conceitual",
+      "pergunta": "A face voltada para o céu da boca nos dentes superiores é chamada de:",
+      "opcoes": [
+        "Vestibular",
+        "Oclusal",
+        "Incisal",
+        "Palatina"
+      ],
+      "correta": 3,
+      "explicacao": "Nos dentes inferiores, a face correspondente é a lingual."
+    },
+    {
+      "id": "anatomia-dental-13",
+      "topico": "faces",
+      "nivel": "conceitual",
+      "pergunta": "O cíngulo é uma elevação encontrada:",
+      "opcoes": [
+        "No terço cervical da face lingual dos dentes anteriores",
+        "Na face oclusal dos molares",
+        "No ápice da raiz",
+        "Na face vestibular dos pré-molares"
+      ],
+      "correta": 0,
+      "explicacao": "É uma característica de incisivos e caninos."
+    },
+    {
+      "id": "anatomia-dental-14",
+      "topico": "faces",
+      "nivel": "aplicacao",
+      "pergunta": "O dentista aplica selante nos molares de uma criança de 7 anos. Qual região da coroa ele está protegendo?",
+      "opcoes": [
+        "A face vestibular lisa",
+        "Os sulcos, fóssulas e fissuras da face oclusal",
+        "O ápice da raiz",
+        "O ponto de contato"
+      ],
+      "correta": 1,
+      "explicacao": "Essas depressões retêm placa e são locais comuns de início de cárie."
+    },
+    {
+      "id": "anatomia-dental-15",
+      "topico": "faces",
+      "nivel": "analise",
+      "pergunta": "Qual é a importância do ponto de contato entre dentes vizinhos?",
+      "opcoes": [
+        "Aumenta a retenção de placa",
+        "Impede a mastigação",
+        "Protege a papila gengival da impactação de alimentos e estabiliza o arco",
+        "Substitui o ligamento periodontal"
+      ],
+      "correta": 2,
+      "explicacao": "Quando o contato é perdido, o alimento se acumula e a gengiva inflama."
+    },
+    {
+      "id": "anatomia-dental-16",
+      "topico": "permanentes",
+      "nivel": "conceitual",
+      "pergunta": "Qual dente permanente tem a raiz mais longa?",
+      "opcoes": [
+        "Incisivo central inferior",
+        "Primeiro molar inferior",
+        "Segundo pré-molar superior",
+        "Canino superior"
+      ],
+      "correta": 3,
+      "explicacao": "Sua raiz longa o torna um dos dentes mais estáveis do arco."
+    },
+    {
+      "id": "anatomia-dental-17",
+      "topico": "permanentes",
+      "nivel": "conceitual",
+      "pergunta": "Quantas raízes costumam ter os molares superiores?",
+      "opcoes": [
+        "Três",
+        "Duas",
+        "Uma",
+        "Quatro"
+      ],
+      "correta": 0,
+      "explicacao": "São duas vestibulares e uma palatina, que é a maior delas."
+    },
+    {
+      "id": "anatomia-dental-18",
+      "topico": "permanentes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o menor dente da dentição permanente?",
+      "opcoes": [
+        "Incisivo lateral superior",
+        "Incisivo central inferior",
+        "Canino inferior",
+        "Terceiro molar"
+      ],
+      "correta": 1,
+      "explicacao": "No arco inferior, o incisivo lateral é um pouco maior que o central."
+    },
+    {
+      "id": "anatomia-dental-19",
+      "topico": "permanentes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mãe acha que o molar que nasceu no fundo da boca do filho de 6 anos é de leite e não precisa de cuidado. A orientação correta é:",
+      "opcoes": [
+        "É um dente de leite que cairá aos 8 anos",
+        "É um dente supranumerário",
+        "É o primeiro molar permanente, que nasce atrás dos decíduos sem substituir nenhum",
+        "É o terceiro molar"
+      ],
+      "correta": 2,
+      "explicacao": "Por ser confundido com dente de leite, esse molar é muito atingido por cárie."
+    },
+    {
+      "id": "anatomia-dental-20",
+      "topico": "permanentes",
+      "nivel": "analise",
+      "pergunta": "Por que o tratamento de canal dos molares superiores exige atenção especial à raiz mesiovestibular?",
+      "opcoes": [
+        "Porque ela não tem canal",
+        "Porque é a única raiz do dente",
+        "Porque fica fora do osso",
+        "Ela costuma ter dois canais, e o segundo é difícil de localizar"
+      ],
+      "correta": 3,
+      "explicacao": "Um canal não tratado mantém a infecção e leva ao fracasso do tratamento."
+    },
+    {
+      "id": "anatomia-dental-21",
+      "topico": "deciduos",
+      "nivel": "conceitual",
+      "pergunta": "Em comparação com os permanentes, os dentes decíduos têm:",
+      "opcoes": [
+        "Esmalte e dentina mais finos e câmara pulpar proporcionalmente maior",
+        "Esmalte mais espesso",
+        "Raízes mais retas e convergentes",
+        "Cor mais amarelada"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso a cárie alcança a polpa mais rapidamente nos dentes de leite."
+    },
+    {
+      "id": "anatomia-dental-22",
+      "topico": "deciduos",
+      "nivel": "conceitual",
+      "pergunta": "Qual costuma ser o primeiro dente decíduo a erupcionar, por volta dos 6 meses?",
+      "opcoes": [
+        "Canino superior",
+        "Incisivo central inferior",
+        "Primeiro molar superior",
+        "Segundo molar inferior"
+      ],
+      "correta": 1,
+      "explicacao": "A dentição decídua se completa por volta dos 2 anos e meio a 3 anos."
+    },
+    {
+      "id": "anatomia-dental-23",
+      "topico": "deciduos",
+      "nivel": "conceitual",
+      "pergunta": "A queda natural do dente decíduo ocorre por:",
+      "opcoes": [
+        "Fratura da coroa",
+        "Destruição do esmalte",
+        "Reabsorção da sua raiz, estimulada pelo permanente sucessor",
+        "Crescimento da polpa"
+      ],
+      "correta": 2,
+      "explicacao": "Esse processo de reabsorção radicular é chamado de rizólise."
+    },
+    {
+      "id": "anatomia-dental-24",
+      "topico": "deciduos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança de 4 anos perdeu um molar decíduo por cárie. Qual é a principal preocupação?",
+      "opcoes": [
+        "Nenhuma, pois é dente de leite",
+        "Erupção imediata do terceiro molar",
+        "Queda dos dentes vizinhos no mesmo dia",
+        "Perda de espaço para o dente permanente, com risco de apinhamento"
+      ],
+      "correta": 3,
+      "explicacao": "Os dentes vizinhos podem migrar; por isso se indica um mantenedor de espaço."
+    },
+    {
+      "id": "anatomia-dental-25",
+      "topico": "deciduos",
+      "nivel": "analise",
+      "pergunta": "Por que as raízes dos molares decíduos são finas e divergentes?",
+      "opcoes": [
+        "Para abrigar entre elas o germe do pré-molar permanente em formação",
+        "Para dificultar a mastigação",
+        "Porque não têm cemento",
+        "Porque não possuem canal"
+      ],
+      "correta": 0,
+      "explicacao": "O sucessor permanente se desenvolve logo abaixo, entre as raízes do decíduo."
+    },
+    {
+      "id": "anatomia-dental-26",
+      "topico": "oclusao",
+      "nivel": "conceitual",
+      "pergunta": "A classificação de Angle se baseia na relação entre:",
+      "opcoes": [
+        "Os incisivos centrais",
+        "Os primeiros molares permanentes",
+        "Os terceiros molares",
+        "Os caninos decíduos"
+      ],
+      "correta": 1,
+      "explicacao": "Na Classe I, a cúspide mesiovestibular do superior oclui no sulco vestibular do inferior."
+    },
+    {
+      "id": "anatomia-dental-27",
+      "topico": "oclusao",
+      "nivel": "conceitual",
+      "pergunta": "Na Classe II de Angle, o primeiro molar inferior está:",
+      "opcoes": [
+        "Posicionado para a frente",
+        "Na relação normal",
+        "Posicionado para trás (distal) em relação ao superior",
+        "Ausente"
+      ],
+      "correta": 2,
+      "explicacao": "Na Classe III ocorre o contrário, com a mandíbula mais à frente."
+    },
+    {
+      "id": "anatomia-dental-28",
+      "topico": "oclusao",
+      "nivel": "conceitual",
+      "pergunta": "Os músculos da mastigação são inervados pelo nervo:",
+      "opcoes": [
+        "Facial",
+        "Hipoglosso",
+        "Vago",
+        "Trigêmeo"
+      ],
+      "correta": 3,
+      "explicacao": "O ramo mandibular do trigêmeo inerva masseter, temporal e pterigóideos."
+    },
+    {
+      "id": "anatomia-dental-29",
+      "topico": "oclusao",
+      "nivel": "aplicacao",
+      "pergunta": "Ao medir a distância horizontal entre a borda dos incisivos superiores e a face vestibular dos inferiores, o dentista está avaliando:",
+      "opcoes": [
+        "A sobressaliência (overjet)",
+        "A sobremordida (overbite)",
+        "A curva de Spee",
+        "A dimensão vertical"
+      ],
+      "correta": 0,
+      "explicacao": "A sobremordida é o trespasse vertical entre os incisivos."
+    },
+    {
+      "id": "anatomia-dental-30",
+      "topico": "oclusao",
+      "nivel": "analise",
+      "pergunta": "Qual é a vantagem da guia canina nos movimentos de lateralidade?",
+      "opcoes": [
+        "Aumenta o desgaste dos molares",
+        "Os caninos desocluem os dentes posteriores, protegendo-os de forças laterais",
+        "Impede a abertura da boca",
+        "Elimina a função da articulação temporomandibular"
+      ],
+      "correta": 1,
+      "explicacao": "A raiz longa do canino suporta melhor essas forças do que os dentes posteriores."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "cinesiologia",
+  "nome": "Cinesiologia",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "planos",
+      "nome": "Planos, eixos e movimentos",
+      "resumo": "### O que é\n**Cinesiologia** é o estudo do **movimento humano**, unindo anatomia, fisiologia e mecânica. A **biomecânica** aplica as leis da física a esse movimento.\n\n### Posição anatômica\nCorpo em pé, olhar para a frente, braços ao lado do corpo, **palmas voltadas para a frente**. É a referência para descrever todo movimento.\n\n### Planos e eixos\nCada movimento acontece **em um plano** e **em torno de um eixo perpendicular** a ele.\n- **Plano sagital** (divide em direita e esquerda): **flexão e extensão**. Eixo **laterolateral** (transversal).\n- **Plano frontal** ou coronal (divide em frente e trás): **abdução e adução**, inclinação lateral. Eixo **anteroposterior**.\n- **Plano transversal** ou horizontal (divide em cima e baixo): **rotações** medial e lateral, pronação e supinação. Eixo **longitudinal** (vertical).\n\n### Movimentos\n- **Flexão**: diminui o ângulo entre os segmentos. **Extensão**: aumenta.\n- **Abdução**: afasta da linha média. **Adução**: aproxima.\n- **Rotação medial** (interna) e **lateral** (externa).\n- **Circundução**: combinação que descreve um cone.\n- Antebraço: **pronação** (palma para baixo) e **supinação** (palma para cima).\n- Tornozelo: **dorsiflexão** (ponta do pé para cima) e **flexão plantar** (ponta para baixo); **inversão** (planta para dentro) e **eversão** (para fora).\n- Escápula: elevação, depressão, **protração** (abdução) e **retração** (adução), rotação superior e inferior.\n\n### Termos de direção\nAnterior/posterior, superior/inferior, **medial/lateral**, **proximal** (perto da raiz do membro) / **distal** (longe).\n\n### Graus de liberdade\nNúmero de planos em que a articulação se move: cotovelo (úmero-ulnar) tem **1**; punho tem **2**; ombro e quadril têm **3**.",
+      "revisao": "**Lembre:**\n- Sagital: flexão e extensão.\n- Frontal: abdução e adução.\n- Transversal: rotações.\n- O eixo é perpendicular ao plano.\n- Ombro e quadril: 3 graus de liberdade."
+    },
+    {
+      "id": "articulacoes",
+      "nome": "Articulações e artrocinemática",
+      "resumo": "### Classificação das articulações\n- **Fibrosas** (sinartroses): quase sem movimento. Ex.: suturas do crânio.\n- **Cartilagíneas** (anfiartroses): pouco movimento. Ex.: sínfise púbica, discos intervertebrais.\n- **Sinoviais** (diartroses): movimento amplo; são a maioria das articulações dos membros.\n\n### Articulação sinovial\nTem **cápsula articular**, **membrana sinovial** (produz o líquido), **líquido sinovial** (lubrifica e nutre), **cartilagem articular** (hialina, sem vasos) e **ligamentos** (unem osso a osso; estabilidade passiva). Pode ter meniscos, discos e bolsas (bursas).\n\n### Tipos de sinoviais\n- **Gínglimo** (dobradiça): 1 eixo. Cotovelo, interfalângicas.\n- **Trocoide** (pivô): 1 eixo, rotação. Radioulnar proximal, atlas-áxis.\n- **Condilar** (elipsoide): 2 eixos. Punho (radiocárpica).\n- **Selar**: 2 eixos. Base do polegar (carpometacárpica).\n- **Esferoide** (bola e soquete): 3 eixos. Ombro e quadril.\n- **Plana**: deslizamentos. Entre ossos do carpo.\n\n### Osteocinemática e artrocinemática\n- **Osteocinemática**: o movimento visível do osso (flexão, abdução).\n- **Artrocinemática**: o que ocorre entre as superfícies articulares: **rolamento**, **deslizamento** e **giro**.\n\n### Regra côncavo-convexa\n- Superfície **convexa** movendo-se sobre côncava fixa: rolamento e deslizamento em **sentidos opostos**. Ex.: abdução do ombro, a cabeça do úmero rola para cima e desliza para **baixo**.\n- Superfície **côncava** movendo-se sobre convexa fixa: rolamento e deslizamento no **mesmo sentido**. Ex.: extensão do joelho em cadeia aberta, a tíbia rola e desliza para a frente.\n\n### Posições articulares\n- **Posição de bloqueio**: máxima congruência, ligamentos tensos, mais estável. Ex.: joelho em extensão total.\n- **Posição de repouso**: cápsula frouxa, maior jogo articular.\n\n### Estabilidade e mobilidade\nSão inversas: o **ombro** é muito móvel e pouco estável; o **quadril** é mais estável e menos móvel.",
+      "revisao": "**Lembre:**\n- Sinoviais: cápsula, líquido, cartilagem.\n- Ligamento une osso a osso; tendão une músculo a osso.\n- Esferoide: 3 eixos (ombro, quadril).\n- Convexo sobre côncavo: desliza no sentido oposto.\n- Mais mobilidade, menos estabilidade."
+    },
+    {
+      "id": "musculos",
+      "nome": "Ação muscular",
+      "resumo": "### Tipos de contração\n- **Isométrica**: gera tensão **sem mudar o comprimento**; não há movimento. Ex.: prancha, segurar um peso parado.\n- **Concêntrica**: o músculo **encurta** vencendo a resistência. Ex.: subir o peso na rosca direta (bíceps).\n- **Excêntrica**: o músculo **alonga** sob tensão, freando o movimento. Ex.: descer o peso devagar. Gera **mais força** e mais dor muscular tardia.\n- Concêntrica e excêntrica são contrações **isotônicas** (dinâmicas). **Isocinética**: velocidade constante, com aparelho.\n\n### Papéis dos músculos\n- **Agonista** (motor primário): principal responsável pelo movimento.\n- **Antagonista**: faz o movimento oposto; relaxa ou controla.\n- **Sinergista**: auxilia o agonista ou neutraliza ações indesejadas.\n- **Estabilizador** (fixador): fixa um segmento para o outro mover.\nNa flexão do cotovelo: bíceps e braquial são agonistas; o tríceps é antagonista.\n\n### Cadeias cinéticas\n- **Cadeia aberta**: segmento distal **livre**. Ex.: cadeira extensora, chute.\n- **Cadeia fechada**: segmento distal **fixo**. Ex.: agachamento, flexão de braço. Mais co-contração e estabilidade articular.\n\n### Relações mecânicas\n- **Comprimento-tensão**: o músculo gera mais força em comprimento **intermediário**; muito encurtado ou muito alongado, perde força.\n- **Força-velocidade**: na concêntrica, quanto **mais rápido**, **menos força**.\n- **Insuficiência ativa**: músculo biarticular encurtado demais nas duas articulações perde força. **Insuficiência passiva**: não alonga o bastante para permitir amplitude total nas duas (isquiotibiais limitando a flexão do quadril com joelho estendido).\n\n### Tipos de fibras\n- **Tipo I** (lentas, vermelhas): oxidativas, resistentes à fadiga; postura e resistência.\n- **Tipo II** (rápidas, brancas): glicolíticas, mais força e potência, fadigam rápido.\n\n### Unidade motora\nUm **neurônio motor** e todas as fibras que ele inerva. O recrutamento vai das menores às maiores (princípio do tamanho).\n\n### Propriocepção\n- **Fuso muscular**: detecta **alongamento**; provoca contração reflexa (reflexo miotático).\n- **Órgão tendinoso de Golgi**: detecta **tensão**; inibe o músculo, protegendo-o.",
+      "revisao": "**Lembre:**\n- Isométrica: sem movimento.\n- Concêntrica encurta; excêntrica alonga e freia.\n- Agonista faz; antagonista se opõe.\n- Cadeia fechada: extremidade fixa (agachamento).\n- Fuso sente alongamento; Golgi sente tensão."
+    },
+    {
+      "id": "alavancas",
+      "nome": "Alavancas, torque e equilíbrio",
+      "resumo": "### Alavancas\nSistema com **fulcro** (eixo, a articulação), **força** (músculo) e **resistência** (peso do segmento ou carga).\n- **1ª classe (interfixa)**: fulcro no **meio**. Ex.: extensão da cabeça sobre o atlas; gangorra.\n- **2ª classe (inter-resistente)**: resistência no meio. **Vantagem de força**. Ex.: ficar na ponta dos pés.\n- **3ª classe (interpotente)**: força no meio. **Vantagem de velocidade e amplitude**, desvantagem de força. É a **mais comum** no corpo. Ex.: flexão do cotovelo pelo bíceps.\n\n### Torque (momento de força)\n**Torque = força × braço de momento**. O braço de momento é a **distância perpendicular** entre a linha de ação da força e o eixo.\n- Segurar um peso com o braço esticado exige mais torque do ombro porque o **braço de resistência** é maior.\n- Aproximar a carga do corpo reduz o esforço na coluna.\n\n### Vantagem mecânica\nRazão entre o braço de força e o braço de resistência. Maior que 1: vantagem de força; menor que 1: vantagem de velocidade.\n\n### Leis de Newton\n- **1ª (inércia)**: um corpo mantém seu estado sem força resultante.\n- **2ª**: **F = m·a**.\n- **3ª (ação e reação)**: o chão devolve a força aplicada (**força de reação do solo**).\n\n### Centro de gravidade e equilíbrio\n- **Centro de gravidade** (CG): ponto em que o peso se concentra; na posição anatômica, à frente da **segunda vértebra sacral (S2)**.\n- **Base de suporte**: área entre os pontos de apoio.\n- O corpo é estável quando a **linha de gravidade** cai **dentro da base**.\n- Mais estabilidade com: **base maior**, **CG mais baixo**, linha de gravidade no centro da base e maior massa.\n- Bengala e andador aumentam a base de suporte.\n\n### Tipos de carga nos tecidos\n**Compressão**, **tração**, **cisalhamento**, **flexão** e **torção**. O osso resiste melhor à compressão; ligamentos e tendões, à tração.\n\n### Lei de Wolff\nO osso se **remodela conforme as cargas** que recebe: exercício com impacto aumenta a densidade; imobilização a reduz.",
+      "revisao": "**Lembre:**\n- 3ª classe é a mais comum: velocidade, não força.\n- 2ª classe: ponta dos pés, vantagem de força.\n- Torque = força × braço de momento.\n- Estável: base larga e centro de gravidade baixo.\n- Lei de Wolff: osso se adapta à carga."
+    },
+    {
+      "id": "segmentos",
+      "nome": "Membros e coluna",
+      "resumo": "### Ombro\n- Complexo com quatro articulações: **glenoumeral**, acromioclavicular, esternoclavicular e escapulotorácica.\n- **Ritmo escapuloumeral**: na elevação do braço, cerca de **2° na glenoumeral para 1° de rotação da escápula** (120° + 60° = 180°).\n- **Manguito rotador**: **supraespinal** (inicia a abdução), **infraespinal** e **redondo menor** (rotação lateral), **subescapular** (rotação medial). Estabiliza a cabeça do úmero.\n- **Deltoide**: principal abdutor. **Serrátil anterior** e **trapézio**: rotação superior da escápula; fraqueza do serrátil causa **escápula alada**.\n\n### Cotovelo e mão\n- Flexão: **braquial** (o mais puro), bíceps, braquiorradial. Extensão: **tríceps**.\n- Bíceps também é **supinador**.\n- Preensão de força e de precisão (pinça); oposição do polegar.\n\n### Quadril\n- Flexão: **iliopsoas**. Extensão: **glúteo máximo** e isquiotibiais.\n- Abdução: **glúteo médio**; sua fraqueza causa o **sinal de Trendelenburg** (a pelve cai do lado **oposto** ao apoio).\n\n### Joelho\n- Extensão: **quadríceps** (reto femoral, vastos). Flexão: **isquiotibiais** (bíceps femoral, semitendíneo, semimembranáceo).\n- **Ligamento cruzado anterior (LCA)**: impede a tíbia de deslizar para a **frente**. **Posterior (LCP)**: para trás. Colaterais: estabilidade lateral.\n- **Meniscos**: absorvem carga e aumentam a congruência.\n- **Patela**: aumenta o braço de momento do quadríceps.\n- **Valgo** (joelhos para dentro) e **varo** (para fora).\n\n### Tornozelo e pé\n- Flexão plantar: **tríceps sural** (gastrocnêmio e sóleo). Dorsiflexão: **tibial anterior**.\n- Entorse mais comum: em **inversão**, lesando os ligamentos **laterais** (talofibular anterior).\n- Arcos do pé absorvem impacto.\n\n### Coluna vertebral\n- Curvaturas: **lordose cervical**, **cifose torácica**, **lordose lombar**, cifose sacral.\n- **Escoliose**: desvio lateral com rotação. Hiperlordose e hipercifose são acentuações.\n- **Disco intervertebral**: anel fibroso e núcleo pulposo; a flexão empurra o núcleo para trás.\n- Estabilizadores do tronco: **transverso do abdome**, multífidos, diafragma e assoalho pélvico.\n- Flexão do tronco: reto do abdome. Extensão: eretores da espinha.",
+      "revisao": "**Lembre:**\n- Manguito rotador: supra, infra, redondo menor, subescapular.\n- Ritmo escapuloumeral 2:1.\n- Glúteo médio fraco: Trendelenburg.\n- LCA segura a tíbia para a frente.\n- Entorse comum: inversão, ligamentos laterais."
+    },
+    {
+      "id": "marcha",
+      "nome": "Marcha e postura",
+      "resumo": "### Ciclo da marcha\nDo contato de um pé no solo até o **próximo contato do mesmo pé**.\n- **Fase de apoio**: cerca de **60%** do ciclo.\n- **Fase de balanço**: cerca de **40%**.\n- Há dois períodos de **duplo apoio** (os dois pés no chão). Na **corrida**, o duplo apoio desaparece e surge a **fase de voo**.\n\n### Subfases\n- Apoio: **contato inicial** (toque do calcanhar), **resposta à carga**, **apoio médio**, **apoio terminal**, **pré-balanço**.\n- Balanço: **balanço inicial**, **médio** e **terminal**.\n\n### Músculos principais\n- **Contato inicial e resposta à carga**: **tibial anterior** age de forma **excêntrica** para baixar o pé com controle; quadríceps absorve o impacto.\n- **Apoio médio**: **glúteo médio** estabiliza a pelve.\n- **Apoio terminal**: **tríceps sural** impulsiona.\n- **Balanço**: iliopsoas flexiona o quadril; tibial anterior mantém a dorsiflexão para o pé não arrastar; isquiotibiais freiam a perna no fim.\n\n### Parâmetros\n- **Passo**: distância entre o contato de um pé e o do **outro**. **Passada**: entre dois contatos do **mesmo** pé (dois passos).\n- **Cadência**: passos por minuto. **Velocidade** = comprimento do passo × cadência.\n\n### Marchas patológicas\n- **Trendelenburg**: queda da pelve por fraqueza do glúteo médio.\n- **Escarvante** (pé caído): fraqueza dos dorsiflexores; a pessoa eleva muito o joelho.\n- **Ceifante** (hemiplégica): perna rígida faz um semicírculo; comum após AVC.\n- **Parkinsoniana**: passos curtos e arrastados, tronco fletido, pouca oscilação dos braços.\n- **Atáxica**: base alargada e instável; lesão cerebelar.\n- **Antálgica**: apoio encurtado no lado dolorido.\n- **Em tesoura**: adução excessiva; paralisia cerebral espástica.\n\n### Postura\n- **Linha de prumo** (vista lateral): passa pelo lóbulo da orelha, acrômio, trocânter maior, ligeiramente à frente do centro do joelho e à **frente do maléolo lateral**.\n- Músculos **antigravitacionais** (posturais): eretores da espinha, glúteos, quadríceps e tríceps sural.\n- **Síndrome cruzada superior**: peitorais e trapézio superior encurtados; flexores profundos do pescoço e romboides fracos; cabeça anteriorizada.\n- **Síndrome cruzada inferior**: flexores do quadril e eretores lombares encurtados; abdominais e glúteos fracos; hiperlordose.\n\n### Ergonomia\nCarga próxima ao corpo, joelhos fletidos e coluna neutra ao levantar peso; alternar posturas.",
+      "revisao": "**Lembre:**\n- Apoio 60%, balanço 40%.\n- Corrida: sem duplo apoio, com fase de voo.\n- Passada = dois passos.\n- Tibial anterior freia o pé no contato inicial.\n- Pé caído: marcha escarvante; AVC: ceifante."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "cinesiologia-1",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Em qual plano ocorrem os movimentos de flexão e extensão?",
+      "opcoes": [
+        "Plano sagital",
+        "Plano frontal",
+        "Plano transversal",
+        "Plano oblíquo apenas"
+      ],
+      "correta": 0,
+      "explicacao": "O plano sagital divide o corpo em direita e esquerda; o eixo desses movimentos é o laterolateral."
+    },
+    {
+      "id": "cinesiologia-2",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "A abdução do ombro ocorre em qual plano e em torno de qual eixo?",
+      "opcoes": [
+        "Plano sagital, eixo laterolateral",
+        "Plano frontal, eixo anteroposterior",
+        "Plano transversal, eixo longitudinal",
+        "Plano frontal, eixo longitudinal"
+      ],
+      "correta": 1,
+      "explicacao": "O eixo é sempre perpendicular ao plano em que o movimento acontece."
+    },
+    {
+      "id": "cinesiologia-3",
+      "topico": "planos",
+      "nivel": "conceitual",
+      "pergunta": "Na posição anatômica, as palmas das mãos estão voltadas para:",
+      "opcoes": [
+        "Trás",
+        "O corpo",
+        "A frente",
+        "Baixo"
+      ],
+      "correta": 2,
+      "explicacao": "Essa posição, com o antebraço em supinação, é a referência para descrever os movimentos."
+    },
+    {
+      "id": "cinesiologia-4",
+      "topico": "planos",
+      "nivel": "aplicacao",
+      "pergunta": "Ao girar a cabeça para dizer \"não\", o movimento da coluna cervical ocorre no plano:",
+      "opcoes": [
+        "Sagital",
+        "Frontal",
+        "Coronal",
+        "Transversal"
+      ],
+      "correta": 3,
+      "explicacao": "Rotações acontecem no plano transversal, em torno do eixo longitudinal (vertical)."
+    },
+    {
+      "id": "cinesiologia-5",
+      "topico": "planos",
+      "nivel": "analise",
+      "pergunta": "Por que o ombro é classificado como articulação de três graus de liberdade e o cotovelo (úmero-ulnar) de apenas um?",
+      "opcoes": [
+        "O ombro se move nos três planos; o cotovelo só faz flexão e extensão",
+        "Porque o ombro tem mais músculos",
+        "Porque o cotovelo é maior",
+        "Porque o ombro não tem ligamentos"
+      ],
+      "correta": 0,
+      "explicacao": "Graus de liberdade indicam em quantos planos a articulação permite movimento."
+    },
+    {
+      "id": "cinesiologia-6",
+      "topico": "articulacoes",
+      "nivel": "conceitual",
+      "pergunta": "Qual estrutura une osso a osso e dá estabilidade passiva à articulação?",
+      "opcoes": [
+        "Tendão",
+        "Ligamento",
+        "Fáscia",
+        "Bursa"
+      ],
+      "correta": 1,
+      "explicacao": "O tendão une o músculo ao osso; a bursa reduz o atrito entre estruturas."
+    },
+    {
+      "id": "cinesiologia-7",
+      "topico": "articulacoes",
+      "nivel": "conceitual",
+      "pergunta": "Ombro e quadril são exemplos de articulação sinovial do tipo:",
+      "opcoes": [
+        "Gínglimo",
+        "Trocoide",
+        "Esferoide",
+        "Plana"
+      ],
+      "correta": 2,
+      "explicacao": "A esferoide (bola e soquete) permite movimento em três eixos."
+    },
+    {
+      "id": "cinesiologia-8",
+      "topico": "articulacoes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a função do líquido sinovial?",
+      "opcoes": [
+        "Produzir células do sangue",
+        "Unir os ossos de forma rígida",
+        "Contrair a cápsula",
+        "Lubrificar a articulação e nutrir a cartilagem"
+      ],
+      "correta": 3,
+      "explicacao": "A cartilagem articular não tem vasos e depende do líquido sinovial para se nutrir."
+    },
+    {
+      "id": "cinesiologia-9",
+      "topico": "articulacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Na abdução do ombro, a cabeça convexa do úmero rola para cima sobre a glenoide. Pela regra côncavo-convexa, ela desliza para:",
+      "opcoes": [
+        "Baixo",
+        "Cima",
+        "Frente apenas",
+        "Não desliza"
+      ],
+      "correta": 0,
+      "explicacao": "Superfície convexa móvel sobre côncava fixa rola e desliza em sentidos opostos."
+    },
+    {
+      "id": "cinesiologia-10",
+      "topico": "articulacoes",
+      "nivel": "analise",
+      "pergunta": "Por que o ombro luxa com mais frequência do que o quadril?",
+      "opcoes": [
+        "Porque o ombro não tem músculos",
+        "A glenoide é rasa, privilegiando a mobilidade em prejuízo da estabilidade",
+        "Porque o quadril não é sinovial",
+        "Porque o ombro suporta o peso do corpo"
+      ],
+      "correta": 1,
+      "explicacao": "No quadril, o acetábulo profundo e ligamentos fortes dão estabilidade, com menos amplitude."
+    },
+    {
+      "id": "cinesiologia-11",
+      "topico": "musculos",
+      "nivel": "conceitual",
+      "pergunta": "Na contração excêntrica, o músculo:",
+      "opcoes": [
+        "Encurta-se vencendo a resistência",
+        "Não muda de comprimento",
+        "Alonga-se enquanto gera tensão, freando o movimento",
+        "Fica totalmente relaxado"
+      ],
+      "correta": 2,
+      "explicacao": "Descer um peso devagar é o exemplo típico; é a contração que mais gera dor tardia."
+    },
+    {
+      "id": "cinesiologia-12",
+      "topico": "musculos",
+      "nivel": "conceitual",
+      "pergunta": "Na flexão do cotovelo, o tríceps braquial atua como:",
+      "opcoes": [
+        "Agonista",
+        "Sinergista",
+        "Motor primário",
+        "Antagonista"
+      ],
+      "correta": 3,
+      "explicacao": "O antagonista faz o movimento oposto ao do agonista e precisa relaxar ou controlar o gesto."
+    },
+    {
+      "id": "cinesiologia-13",
+      "topico": "musculos",
+      "nivel": "conceitual",
+      "pergunta": "O órgão tendinoso de Golgi detecta principalmente:",
+      "opcoes": [
+        "A tensão no tendão, inibindo o músculo para protegê-lo",
+        "O alongamento do músculo",
+        "A temperatura da pele",
+        "A posição da cabeça"
+      ],
+      "correta": 0,
+      "explicacao": "O fuso muscular é quem detecta o alongamento e dispara o reflexo miotático."
+    },
+    {
+      "id": "cinesiologia-14",
+      "topico": "musculos",
+      "nivel": "aplicacao",
+      "pergunta": "O agachamento é um exercício de cadeia cinética:",
+      "opcoes": [
+        "Aberta, pois os pés ficam livres",
+        "Fechada, pois os pés ficam fixos no chão",
+        "Aberta, pois usa peso",
+        "Isocinética"
+      ],
+      "correta": 1,
+      "explicacao": "Na cadeira extensora, em que o pé fica livre, a cadeia é aberta."
+    },
+    {
+      "id": "cinesiologia-15",
+      "topico": "musculos",
+      "nivel": "analise",
+      "pergunta": "Por que é difícil flexionar totalmente o quadril com o joelho estendido?",
+      "opcoes": [
+        "Porque o quadríceps trava o joelho",
+        "Porque o quadril tem só um grau de liberdade",
+        "Os isquiotibiais, biarticulares, não se alongam o suficiente (insuficiência passiva)",
+        "Porque o glúteo máximo é fraco"
+      ],
+      "correta": 2,
+      "explicacao": "Com o joelho fletido, os isquiotibiais ficam frouxos e o quadril flexiona mais."
+    },
+    {
+      "id": "cinesiologia-16",
+      "topico": "alavancas",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a classe de alavanca mais comum no corpo humano?",
+      "opcoes": [
+        "Primeira classe (interfixa)",
+        "Segunda classe (inter-resistente)",
+        "Nenhuma",
+        "Terceira classe (interpotente)"
+      ],
+      "correta": 3,
+      "explicacao": "Ela favorece velocidade e amplitude de movimento, com desvantagem de força."
+    },
+    {
+      "id": "cinesiologia-17",
+      "topico": "alavancas",
+      "nivel": "conceitual",
+      "pergunta": "O torque produzido por uma força é igual a:",
+      "opcoes": [
+        "Força multiplicada pelo braço de momento",
+        "Força dividida pela massa",
+        "Massa multiplicada pela velocidade",
+        "Peso dividido pela área"
+      ],
+      "correta": 0,
+      "explicacao": "O braço de momento é a distância perpendicular entre a linha da força e o eixo."
+    },
+    {
+      "id": "cinesiologia-18",
+      "topico": "alavancas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a lei de Wolff:",
+      "opcoes": [
+        "Todo músculo tem um antagonista",
+        "O osso se remodela de acordo com as cargas que recebe",
+        "A força é igual à massa vezes a aceleração",
+        "O centro de gravidade fica em S2"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso exercícios com impacto aumentam a densidade óssea e a imobilização a reduz."
+    },
+    {
+      "id": "cinesiologia-19",
+      "topico": "alavancas",
+      "nivel": "aplicacao",
+      "pergunta": "Ficar na ponta dos pés é um exemplo de alavanca de:",
+      "opcoes": [
+        "Primeira classe",
+        "Terceira classe",
+        "Segunda classe, com a resistência entre o fulcro e a força",
+        "Quarta classe"
+      ],
+      "correta": 2,
+      "explicacao": "O fulcro está nos dedos, o peso do corpo no meio e a força do tríceps sural no calcanhar."
+    },
+    {
+      "id": "cinesiologia-20",
+      "topico": "alavancas",
+      "nivel": "analise",
+      "pergunta": "Por que segurar uma caixa longe do corpo sobrecarrega mais a coluna do que segurá-la junto ao tronco?",
+      "opcoes": [
+        "Porque a caixa fica mais pesada",
+        "Porque o centro de gravidade desaparece",
+        "Porque a base de suporte aumenta",
+        "O braço de momento da carga aumenta, exigindo mais torque dos músculos"
+      ],
+      "correta": 3,
+      "explicacao": "O peso é o mesmo, mas o torque cresce com a distância até o eixo."
+    },
+    {
+      "id": "cinesiologia-21",
+      "topico": "segmentos",
+      "nivel": "conceitual",
+      "pergunta": "Quais músculos formam o manguito rotador?",
+      "opcoes": [
+        "Supraespinal, infraespinal, redondo menor e subescapular",
+        "Deltoide, trapézio, bíceps e tríceps",
+        "Peitoral maior, latíssimo do dorso e serrátil",
+        "Romboides e levantador da escápula"
+      ],
+      "correta": 0,
+      "explicacao": "Eles estabilizam a cabeça do úmero na glenoide durante os movimentos do ombro."
+    },
+    {
+      "id": "cinesiologia-22",
+      "topico": "segmentos",
+      "nivel": "conceitual",
+      "pergunta": "O ligamento cruzado anterior (LCA) impede principalmente:",
+      "opcoes": [
+        "A extensão do quadril",
+        "O deslizamento da tíbia para a frente em relação ao fêmur",
+        "A flexão do tornozelo",
+        "A rotação da coluna"
+      ],
+      "correta": 1,
+      "explicacao": "O cruzado posterior impede o deslizamento da tíbia para trás."
+    },
+    {
+      "id": "cinesiologia-23",
+      "topico": "segmentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o mecanismo mais comum de entorse do tornozelo?",
+      "opcoes": [
+        "Eversão, lesando o ligamento deltoide",
+        "Dorsiflexão forçada",
+        "Inversão, lesando os ligamentos laterais",
+        "Rotação do joelho"
+      ],
+      "correta": 2,
+      "explicacao": "O ligamento talofibular anterior é o mais atingido nesse tipo de entorse."
+    },
+    {
+      "id": "cinesiologia-24",
+      "topico": "segmentos",
+      "nivel": "aplicacao",
+      "pergunta": "Ao apoiar-se só na perna direita, a pelve de um paciente cai para o lado esquerdo. Qual músculo provavelmente está fraco?",
+      "opcoes": [
+        "Glúteo médio esquerdo",
+        "Quadríceps esquerdo",
+        "Tibial anterior direito",
+        "Glúteo médio direito"
+      ],
+      "correta": 3,
+      "explicacao": "No sinal de Trendelenburg, a pelve cai do lado oposto ao do músculo fraco, que é o do apoio."
+    },
+    {
+      "id": "cinesiologia-25",
+      "topico": "segmentos",
+      "nivel": "analise",
+      "pergunta": "Qual é a importância do ritmo escapuloumeral na elevação do braço?",
+      "opcoes": [
+        "A rotação da escápula soma amplitude e mantém a glenoide bem posicionada sob o úmero",
+        "Impede qualquer movimento da escápula",
+        "Substitui o manguito rotador",
+        "Reduz a amplitude do ombro a 90°"
+      ],
+      "correta": 0,
+      "explicacao": "Sem a rotação escapular, a elevação completa não é possível e aumenta o risco de impacto."
+    },
+    {
+      "id": "cinesiologia-26",
+      "topico": "marcha",
+      "nivel": "conceitual",
+      "pergunta": "Na marcha normal, a fase de apoio corresponde a cerca de:",
+      "opcoes": [
+        "40% do ciclo",
+        "60% do ciclo",
+        "20% do ciclo",
+        "90% do ciclo"
+      ],
+      "correta": 1,
+      "explicacao": "Os 40% restantes são a fase de balanço, em que o pé está no ar."
+    },
+    {
+      "id": "cinesiologia-27",
+      "topico": "marcha",
+      "nivel": "conceitual",
+      "pergunta": "O que diferencia a corrida da marcha?",
+      "opcoes": [
+        "Na corrida os dois pés ficam sempre no chão",
+        "Na marcha não há fase de balanço",
+        "Na corrida não há duplo apoio e existe uma fase de voo",
+        "A corrida não usa o tríceps sural"
+      ],
+      "correta": 2,
+      "explicacao": "Na marcha sempre há pelo menos um pé em contato com o solo."
+    },
+    {
+      "id": "cinesiologia-28",
+      "topico": "marcha",
+      "nivel": "conceitual",
+      "pergunta": "A marcha ceifante é característica de:",
+      "opcoes": [
+        "Doença de Parkinson",
+        "Lesão do cerebelo",
+        "Fraqueza do glúteo médio",
+        "Hemiplegia, como após um AVC"
+      ],
+      "correta": 3,
+      "explicacao": "A perna rígida em extensão descreve um semicírculo para o pé não arrastar."
+    },
+    {
+      "id": "cinesiologia-29",
+      "topico": "marcha",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente com lesão do nervo fibular não consegue fazer dorsiflexão e eleva muito o joelho ao andar. Essa marcha é chamada de:",
+      "opcoes": [
+        "Escarvante",
+        "Atáxica",
+        "Antálgica",
+        "Em tesoura"
+      ],
+      "correta": 0,
+      "explicacao": "A elevação exagerada do joelho compensa o pé caído, evitando que a ponta arraste no chão."
+    },
+    {
+      "id": "cinesiologia-30",
+      "topico": "marcha",
+      "nivel": "analise",
+      "pergunta": "Por que o tibial anterior trabalha de forma excêntrica logo após o toque do calcanhar?",
+      "opcoes": [
+        "Para impulsionar o corpo para a frente",
+        "Para controlar a descida do pé ao solo, evitando que ele bata",
+        "Para estender o joelho",
+        "Para elevar a pelve"
+      ],
+      "correta": 1,
+      "explicacao": "Ele freia a flexão plantar; quando está fraco, ouve-se o pé bater no chão."
+    }
+  ]
+}

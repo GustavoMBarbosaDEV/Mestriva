@@ -128,6 +128,51 @@
       ]
     },
     {
+      "id": "anatomia-dental",
+      "nome": "Anatomia Dental",
+      "apelidos": [
+        "Anatomia Dentária",
+        "Anatomia e Escultura Dental",
+        "Anatomia e Escultura Dentária",
+        "Escultura Dental",
+        "Anatomia Dental e Oclusão",
+        "Oclusão",
+        "Oclusão Dentária",
+        "Morfologia Dental",
+        "Anatomia e Escultura Dentária I",
+        "Histologia Bucal",
+        "Histologia e Embriologia Bucal",
+        "Anatomia Bucal"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "denticoes",
+          "nome": "Dentições e notação dentária"
+        },
+        {
+          "id": "tecidos",
+          "nome": "Estrutura e tecidos do dente"
+        },
+        {
+          "id": "faces",
+          "nome": "Faces, terços e acidentes anatômicos"
+        },
+        {
+          "id": "permanentes",
+          "nome": "Morfologia dos dentes permanentes"
+        },
+        {
+          "id": "deciduos",
+          "nome": "Dentes decíduos e cronologia de erupção"
+        },
+        {
+          "id": "oclusao",
+          "nome": "Oclusão e articulação temporomandibular"
+        }
+      ]
+    },
+    {
       "id": "anatomia-humana",
       "nome": "Anatomia Humana",
       "apelidos": [
@@ -580,6 +625,51 @@
         {
           "id": "conservacao",
           "nome": "Manejo e conservação do solo"
+        }
+      ]
+    },
+    {
+      "id": "cinesiologia",
+      "nome": "Cinesiologia",
+      "apelidos": [
+        "Cinesiologia e Biomecânica",
+        "Biomecânica",
+        "Cinesiologia Aplicada",
+        "Cinesiologia I",
+        "Cinesiologia II",
+        "Biomecânica do Movimento Humano",
+        "Biomecânica Aplicada",
+        "Cinesiologia e Biomecânica Aplicada",
+        "Fundamentos de Cinesiologia",
+        "Cinesiologia Humana",
+        "Biomecânica e Cinesiologia",
+        "Análise do Movimento Humano"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "planos",
+          "nome": "Planos, eixos e movimentos"
+        },
+        {
+          "id": "articulacoes",
+          "nome": "Articulações e artrocinemática"
+        },
+        {
+          "id": "musculos",
+          "nome": "Ação muscular"
+        },
+        {
+          "id": "alavancas",
+          "nome": "Alavancas, torque e equilíbrio"
+        },
+        {
+          "id": "segmentos",
+          "nome": "Membros e coluna"
+        },
+        {
+          "id": "marcha",
+          "nome": "Marcha e postura"
         }
       ]
     },
@@ -1520,6 +1610,51 @@
       ]
     },
     {
+      "id": "fisiologia-exercicio",
+      "nome": "Fisiologia do Exercício",
+      "apelidos": [
+        "Fisiologia do Exercício I",
+        "Fisiologia do Exercício II",
+        "Fisiologia do Esforço",
+        "Fisiologia Aplicada ao Exercício",
+        "Fisiologia do Exercício Físico",
+        "Fisiologia da Atividade Física",
+        "Fisiologia Humana e do Exercício",
+        "Bases Fisiológicas do Exercício",
+        "Treinamento Desportivo",
+        "Treinamento Esportivo",
+        "Prescrição de Exercícios",
+        "Fisiologia do Exercício Aplicada"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "bioenergetica",
+          "nome": "Sistemas de energia"
+        },
+        {
+          "id": "cardiorrespiratorio",
+          "nome": "Respostas cardiovasculares e respiratórias"
+        },
+        {
+          "id": "neuromuscular",
+          "nome": "Músculo, força e fadiga"
+        },
+        {
+          "id": "treinamento",
+          "nome": "Princípios e adaptações ao treino"
+        },
+        {
+          "id": "ambiente",
+          "nome": "Termorregulação, hidratação e ambiente"
+        },
+        {
+          "id": "saude",
+          "nome": "Exercício, saúde e populações especiais"
+        }
+      ]
+    },
+    {
       "id": "fisiologia-humana",
       "nome": "Fisiologia Humana",
       "apelidos": [
@@ -2382,6 +2517,53 @@
         {
           "id": "vias-vascularizacao",
           "nome": "Vias motoras e sensitivas e vascularização"
+        }
+      ]
+    },
+    {
+      "id": "nutricao-humana",
+      "nome": "Nutrição Humana",
+      "apelidos": [
+        "Nutrição Básica",
+        "Nutrição e Dietética",
+        "Fundamentos de Nutrição",
+        "Introdução à Nutrição",
+        "Nutrição",
+        "Nutrição Normal",
+        "Nutrição e Metabolismo",
+        "Bases da Nutrição",
+        "Princípios de Nutrição",
+        "Nutrição Geral",
+        "Avaliação Nutricional",
+        "Nutrição e Saúde",
+        "Nutrição Aplicada à Enfermagem",
+        "Nutrição nos Ciclos da Vida"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Conceitos básicos e energia"
+        },
+        {
+          "id": "macronutrientes",
+          "nome": "Carboidratos, lipídios e proteínas"
+        },
+        {
+          "id": "micronutrientes",
+          "nome": "Vitaminas e minerais"
+        },
+        {
+          "id": "digestao",
+          "nome": "Digestão, absorção e metabolismo"
+        },
+        {
+          "id": "avaliacao",
+          "nome": "Avaliação nutricional e recomendações"
+        },
+        {
+          "id": "ciclos",
+          "nome": "Nutrição nos ciclos de vida e saúde pública"
         }
       ]
     },

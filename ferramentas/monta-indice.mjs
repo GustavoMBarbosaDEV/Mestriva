@@ -1114,6 +1114,80 @@ export const EXTRA = {
       "Teoria e Crítica Literária",
       "Crítica Literária"
     ]
+  },
+  "nutricao-humana": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Nutrição Humana",
+      "Nutrição Básica",
+      "Nutrição e Dietética",
+      "Fundamentos de Nutrição",
+      "Introdução à Nutrição",
+      "Nutrição",
+      "Nutrição Normal",
+      "Nutrição e Metabolismo",
+      "Bases da Nutrição",
+      "Princípios de Nutrição",
+      "Nutrição Geral",
+      "Avaliação Nutricional",
+      "Nutrição e Saúde",
+      "Nutrição Aplicada à Enfermagem",
+      "Nutrição nos Ciclos da Vida"
+    ]
+  },
+  "cinesiologia": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Cinesiologia",
+      "Cinesiologia e Biomecânica",
+      "Biomecânica",
+      "Cinesiologia Aplicada",
+      "Cinesiologia I",
+      "Cinesiologia II",
+      "Biomecânica do Movimento Humano",
+      "Biomecânica Aplicada",
+      "Cinesiologia e Biomecânica Aplicada",
+      "Fundamentos de Cinesiologia",
+      "Cinesiologia Humana",
+      "Biomecânica e Cinesiologia",
+      "Análise do Movimento Humano"
+    ]
+  },
+  "fisiologia-exercicio": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Fisiologia do Exercício",
+      "Fisiologia do Exercício I",
+      "Fisiologia do Exercício II",
+      "Fisiologia do Esforço",
+      "Fisiologia Aplicada ao Exercício",
+      "Fisiologia do Exercício Físico",
+      "Fisiologia da Atividade Física",
+      "Fisiologia Humana e do Exercício",
+      "Bases Fisiológicas do Exercício",
+      "Treinamento Desportivo",
+      "Treinamento Esportivo",
+      "Prescrição de Exercícios",
+      "Fisiologia do Exercício Aplicada"
+    ]
+  },
+  "anatomia-dental": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Anatomia Dental",
+      "Anatomia Dentária",
+      "Anatomia e Escultura Dental",
+      "Anatomia e Escultura Dentária",
+      "Escultura Dental",
+      "Anatomia Dental e Oclusão",
+      "Oclusão",
+      "Oclusão Dentária",
+      "Morfologia Dental",
+      "Anatomia e Escultura Dentária I",
+      "Histologia Bucal",
+      "Histologia e Embriologia Bucal",
+      "Anatomia Bucal"
+    ]
   }
 };
 
