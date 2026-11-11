@@ -405,7 +405,7 @@
         "Entrevista Psicológica",
         "Medidas em Psicologia"
       ],
-      "area": "Humanas",
+      "area": "Psicologia",
       "topicos": [
         {
           "id": "fundamentos",
@@ -718,6 +718,50 @@
         {
           "id": "vetorial",
           "nome": "Cálculo vetorial"
+        }
+      ]
+    },
+    {
+      "id": "ciencia-materiais",
+      "nome": "Ciência e Tecnologia dos Materiais",
+      "apelidos": [
+        "Ciência dos Materiais",
+        "Ciência e Engenharia dos Materiais",
+        "Materiais de Engenharia",
+        "Tecnologia dos Materiais",
+        "Introdução à Ciência dos Materiais",
+        "Materiais de Construção Mecânica",
+        "Princípios de Ciência dos Materiais",
+        "Ciência dos Materiais I",
+        "Fundamentos de Ciência dos Materiais",
+        "Estrutura e Propriedades dos Materiais",
+        "Materiais para Engenharia"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "estrutura",
+          "nome": "Ligações e estrutura cristalina"
+        },
+        {
+          "id": "defeitos",
+          "nome": "Imperfeições, difusão e mecanismos de aumento de resistência"
+        },
+        {
+          "id": "mecanicas",
+          "nome": "Propriedades mecânicas e ensaios"
+        },
+        {
+          "id": "diagramas",
+          "nome": "Diagramas de fases e tratamentos térmicos"
+        },
+        {
+          "id": "classes",
+          "nome": "Metais, cerâmicas, polímeros e compósitos"
+        },
+        {
+          "id": "corrosao",
+          "nome": "Corrosão, propriedades físicas e seleção de materiais"
         }
       ]
     },
@@ -1041,7 +1085,7 @@
         "Web Design",
         "Desenvolvimento para Internet"
       ],
-      "area": "Computação",
+      "area": "Exatas",
       "topicos": [
         {
           "id": "fundamentos",
@@ -1906,8 +1950,7 @@
         "Mecânica dos Fluidos",
         "Mecânica dos Fluidos I",
         "Transferência de Calor",
-        "Transferência de Calor e Massa",
-        "Hidráulica Geral"
+        "Transferência de Calor e Massa"
       ],
       "area": "Exatas",
       "topicos": [
@@ -2091,6 +2134,50 @@
         {
           "id": "termodinamica",
           "nome": "Leis da termodinâmica"
+        }
+      ]
+    },
+    {
+      "id": "fisica-3",
+      "nome": "Física III (Eletromagnetismo)",
+      "apelidos": [
+        "Física III",
+        "Física Geral III",
+        "Física Geral e Experimental III",
+        "Física Básica III",
+        "Física Teórica III",
+        "Eletromagnetismo",
+        "Eletricidade e Magnetismo",
+        "Física: Eletricidade e Magnetismo",
+        "Eletromagnetismo I",
+        "Fundamentos de Eletromagnetismo",
+        "Física Experimental III"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "eletrostatica",
+          "nome": "Carga elétrica, lei de Coulomb e campo elétrico"
+        },
+        {
+          "id": "gauss",
+          "nome": "Lei de Gauss e potencial elétrico"
+        },
+        {
+          "id": "capacitores",
+          "nome": "Capacitores, corrente e circuitos"
+        },
+        {
+          "id": "magnetismo",
+          "nome": "Campo magnético e forças magnéticas"
+        },
+        {
+          "id": "inducao",
+          "nome": "Indução eletromagnética e corrente alternada"
+        },
+        {
+          "id": "maxwell",
+          "nome": "Equações de Maxwell e ondas eletromagnéticas"
         }
       ]
     },
@@ -2438,6 +2525,51 @@
         {
           "id": "agil",
           "nome": "Métodos ágeis e outras abordagens"
+        }
+      ]
+    },
+    {
+      "id": "hidraulica",
+      "nome": "Hidráulica",
+      "apelidos": [
+        "Hidráulica Geral",
+        "Hidráulica I",
+        "Hidráulica II",
+        "Hidráulica Aplicada",
+        "Hidráulica Básica",
+        "Hidráulica e Hidrologia",
+        "Fundamentos de Hidráulica",
+        "Hidráulica Geral e Aplicada",
+        "Instalações Hidráulicas",
+        "Instalações Hidráulicas e Sanitárias",
+        "Instalações Hidrossanitárias",
+        "Hidráulica dos Condutos Forçados"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Propriedades dos fluidos e hidrostática"
+        },
+        {
+          "id": "hidrodinamica",
+          "nome": "Fundamentos do escoamento"
+        },
+        {
+          "id": "condutos",
+          "nome": "Escoamento em condutos forçados"
+        },
+        {
+          "id": "bombas",
+          "nome": "Bombas e sistemas de recalque"
+        },
+        {
+          "id": "canais",
+          "nome": "Escoamento em condutos livres"
+        },
+        {
+          "id": "aplicacoes",
+          "nome": "Sistemas hidráulicos e aplicações"
         }
       ]
     },
@@ -2962,7 +3094,7 @@
         "Lógica de Predicados",
         "Introdução à Lógica"
       ],
-      "area": "Computação",
+      "area": "Exatas",
       "topicos": [
         {
           "id": "logica",
@@ -3068,6 +3200,49 @@
         {
           "id": "atrito",
           "nome": "Atrito e esforços internos"
+        }
+      ]
+    },
+    {
+      "id": "mecanica-solos",
+      "nome": "Mecânica dos Solos",
+      "apelidos": [
+        "Mecânica dos Solos I",
+        "Mecânica dos Solos II",
+        "Geotecnia",
+        "Geotecnia I",
+        "Geotecnia II",
+        "Mecânica dos Solos e Fundações",
+        "Fundamentos de Mecânica dos Solos",
+        "Engenharia Geotécnica",
+        "Solos e Fundações",
+        "Introdução à Mecânica dos Solos"
+      ],
+      "area": "Exatas",
+      "topicos": [
+        {
+          "id": "origem",
+          "nome": "Origem, formação e índices físicos"
+        },
+        {
+          "id": "classificacao",
+          "nome": "Granulometria, plasticidade e classificação"
+        },
+        {
+          "id": "compactacao",
+          "nome": "Compactação dos solos"
+        },
+        {
+          "id": "agua",
+          "nome": "Tensões e água no solo"
+        },
+        {
+          "id": "adensamento",
+          "nome": "Compressibilidade e adensamento"
+        },
+        {
+          "id": "resistencia",
+          "nome": "Resistência ao cisalhamento e aplicações"
         }
       ]
     },
@@ -3633,7 +3808,7 @@
         "Programação em Java",
         "Padrões de Projeto"
       ],
-      "area": "Computação",
+      "area": "Exatas",
       "topicos": [
         {
           "id": "classes",
@@ -3757,7 +3932,7 @@
         "Psicologia nas Organizações",
         "Psicologia e Trabalho"
       ],
-      "area": "Humanas",
+      "area": "Psicologia",
       "topicos": [
         {
           "id": "campo",
@@ -3801,7 +3976,7 @@
         "Dinâmica de Grupo",
         "Psicologia Social e das Organizações"
       ],
-      "area": "Humanas",
+      "area": "Psicologia",
       "topicos": [
         {
           "id": "campo",
@@ -4399,7 +4574,7 @@
         "Sistemas Operacionais de Redes",
         "Administração de Sistemas Operacionais"
       ],
-      "area": "Computação",
+      "area": "Exatas",
       "topicos": [
         {
           "id": "introducao",

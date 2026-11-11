@@ -1,0 +1,465 @@
+{
+  "id": "hidraulica",
+  "nome": "Hidráulica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Propriedades dos fluidos e hidrostática",
+      "resumo": "### O que é\nA Hidráulica estuda o comportamento da **água** (e de outros líquidos) em **repouso** e em **movimento**, para projetar tubulações, canais, bombas, reservatórios e obras hidráulicas. É a aplicação prática da Mecânica dos Fluidos.\n\n### Propriedades\n- **Massa específica (ρ)**: massa por volume. Água: **1.000 kg/m³**.\n- **Peso específico (γ)**: peso por volume; **γ = ρ · g**. Água: cerca de **9.810 N/m³** (≈ 10 kN/m³).\n- **Densidade relativa**: razão entre a massa específica do fluido e a da água.\n- **Viscosidade**: resistência do fluido ao escoamento.\n  - **Dinâmica (μ)**: em Pa·s.\n  - **Cinemática (ν)**: **ν = μ / ρ**, em m²/s. Água a 20 °C: cerca de **10⁻⁶ m²/s**.\n  - Nos líquidos, **diminui** com o aumento da temperatura.\n- **Compressibilidade**: a água é tratada como **incompressível** na maioria dos problemas.\n- **Pressão de vapor**: pressão em que o líquido vaporiza; importante na **cavitação**.\n- **Tensão superficial** e **capilaridade**.\n\n### Pressão\n**p = F / A**, em **pascal (Pa = N/m²)**.\n- **Pressão atmosférica** ao nível do mar: **101,3 kPa = 1 atm ≈ 10,33 mca** (metros de coluna d'água) = 760 mmHg.\n- **Pressão absoluta** = pressão atmosférica + pressão **manométrica (efetiva)**.\n- Na hidráulica, trabalha-se em geral com a pressão **efetiva**.\n- **Carga de pressão**: **h = p / γ**, em metros de coluna de líquido.\n\n### Lei de Stevin\nA pressão em um líquido em repouso cresce **linearmente com a profundidade**:\n\n**p = γ · h** (ou p = p₀ + γ · h)\n\n- Depende só da **profundidade** e do peso específico, **não** do formato do recipiente (paradoxo hidrostático).\n- Pontos na **mesma horizontal**, no mesmo líquido contínuo, têm a **mesma pressão**.\n- **Vasos comunicantes**: o líquido atinge o mesmo nível.\n- A cada **10 m** de água, a pressão aumenta cerca de **1 atm** (100 kPa).\n\n### Princípio de Pascal\nA pressão aplicada a um fluido confinado **transmite-se integralmente** a todos os pontos. Base da **prensa hidráulica**: **F₁ / A₁ = F₂ / A₂**.\n\n### Medição de pressão\n- **Piezômetro**: tubo aberto; a altura do líquido indica a carga de pressão.\n- **Manômetro de tubo em U** e **diferencial**.\n- **Manômetro de Bourdon**: metálico; o mais usado na prática.\n- **Barômetro**: mede a pressão atmosférica.\n- **Vacuômetro**: pressões abaixo da atmosférica.\n\n### Empuxo sobre superfícies planas\n- **Intensidade**: **F = γ · h_G · A**, em que h_G é a profundidade do **centro de gravidade** da superfície.\n- **Ponto de aplicação**: o **centro de pressão**, que fica **abaixo** do centro de gravidade: y_cp = y_G + I_G / (y_G · A).\n- Em parede **vertical retangular** de altura H, com água até o topo: **F = γ · H² · b / 2**, aplicada a **H/3 da base**.\n- O diagrama de pressões é **triangular**.\n- **Superfícies curvas**: decompõe-se em componente horizontal (empuxo sobre a projeção vertical) e vertical (peso do volume de líquido acima).\n\n### Princípio de Arquimedes\nUm corpo imerso sofre **empuxo vertical para cima**, igual ao **peso do volume de líquido deslocado**: **E = γ · V_deslocado**.\n- Corpo **flutua** se seu peso específico médio é menor que o do líquido; **afunda** se maior.\n- **Estabilidade de corpos flutuantes**: depende da posição do **metacentro** em relação ao centro de gravidade.",
+      "revisao": "**Lembre:**\n- γ = ρg; água: 1.000 kg/m³ e cerca de 9.810 N/m³.\n- Stevin: p = γh; depende só da profundidade.\n- 10 m de coluna d'água ≈ 1 atm.\n- Empuxo em superfície plana: F = γ · h_G · A; aplica-se abaixo do centro de gravidade.\n- Arquimedes: empuxo = peso do líquido deslocado."
+    },
+    {
+      "id": "hidrodinamica",
+      "nome": "Fundamentos do escoamento",
+      "resumo": "### Classificações do escoamento\n- **Quanto ao tempo**: **permanente** (as grandezas não variam no tempo em cada ponto) e **não permanente (transitório)**.\n- **Quanto ao espaço**: **uniforme** (velocidade constante ao longo do escoamento) e **variado**.\n- **Quanto à pressão**: **forçado** (conduto cheio, com pressão diferente da atmosférica) e **livre** (com superfície em contato com a atmosfera: canais).\n- **Quanto ao regime**: **laminar** e **turbulento**.\n\n### Vazão\nVolume que atravessa uma seção por unidade de tempo:\n\n**Q = V · A** (m³/s; também L/s e m³/h)\n\n- 1 m³/s = 1.000 L/s.\n- **V** é a velocidade **média** na seção.\n\n### Equação da continuidade\nPara fluido incompressível em regime permanente, a vazão se conserva:\n\n**Q = V₁ · A₁ = V₂ · A₂**\n\n- **Reduzindo a área, a velocidade aumenta**.\n- Em tubo circular, A = π D² / 4: reduzir o diâmetro à **metade** multiplica a velocidade por **quatro**.\n\n### Número de Reynolds\nIndica o regime de escoamento; razão entre as forças de **inércia** e as **viscosas**:\n\n**Re = V · D / ν**\n\n- **Laminar**: **Re < 2.000**. O fluido se move em camadas, sem mistura; perfil de velocidades **parabólico**.\n- **Transição**: entre 2.000 e 4.000.\n- **Turbulento**: **Re > 4.000**. Movimento desordenado, com mistura; é o caso mais comum na prática.\n- Em canais, usa-se o **raio hidráulico** como dimensão característica.\n\n### Equação de Bernoulli\nExpressa a **conservação da energia** em um fluido ideal (sem atrito), incompressível, em regime permanente:\n\n**z + p/γ + V²/(2g) = constante**\n\nCada termo é uma **carga**, em metros:\n- **z**: carga de **posição** (altimétrica, potencial).\n- **p/γ**: carga de **pressão** (piezométrica).\n- **V²/(2g)**: carga de **velocidade** (cinética).\n\nA soma é a **carga total (H)**.\n- Em um trecho horizontal, onde a **velocidade aumenta**, a **pressão diminui** (efeito Venturi).\n\n### Fluido real: perda de carga\nCom atrito, parte da energia se dissipa:\n\n**z₁ + p₁/γ + V₁²/(2g) = z₂ + p₂/γ + V₂²/(2g) + h_f**\n\n- **h_f**: **perda de carga** entre as seções 1 e 2.\n- Com **bomba**, soma-se a altura manométrica (H_B) ao lado esquerdo; com **turbina**, subtrai-se (H_T).\n\n### Linhas de energia\n- **Linha de energia (de carga total)**: z + p/γ + V²/2g. Sempre **desce** no sentido do escoamento (exceto onde há bomba).\n- **Linha piezométrica**: z + p/γ. Fica abaixo da linha de energia a uma distância V²/2g.\n- Se a tubulação fica **acima da linha piezométrica**, a pressão é **negativa**, com risco de entrada de ar e de cavitação.\n\n### Aplicações de Bernoulli\n- **Teorema de Torricelli**: velocidade de saída por um orifício sob carga h: **V = √(2 · g · h)**.\n- **Tubo de Pitot**: mede a **velocidade** pela diferença entre a pressão de estagnação e a estática.\n- **Tubo de Venturi** e **placa de orifício**: medem a **vazão** pela queda de pressão em um estreitamento.\n\n### Potência hidráulica\n**P = γ · Q · H** (em watts, com γ em N/m³, Q em m³/s e H em m).\n\n### Teorema da quantidade de movimento\nA força que o fluido exerce em curvas, bocais e reduções é calculada por **F = ρ · Q · (V₂ − V₁)**. Explica a necessidade de **blocos de ancoragem** em curvas de adutoras.\n\n### Orifícios, bocais e vertedores\n- **Orifício**: abertura na parede ou no fundo de um reservatório. **Q = C_d · A · √(2gh)**, com **coeficiente de descarga** de cerca de **0,61** para parede delgada. A **veia contraída** tem seção menor que a do orifício.\n- **Bocal**: tubo curto adaptado ao orifício; aumenta a vazão (C_d ≈ 0,82).\n- **Vertedor**: abertura por onde o líquido passa com superfície livre; mede vazão em canais.\n  - **Retangular** (Francis): Q = 1,838 · L · H^(3/2).\n  - **Triangular** (Thomson, 90°): Q = 1,4 · H^(5/2); bom para pequenas vazões.\n  - **Calha Parshall**: medidor para canais, usado em estações de tratamento.",
+      "revisao": "**Lembre:**\n- Q = V · A; continuidade: V₁A₁ = V₂A₂.\n- Reynolds: laminar abaixo de 2.000; turbulento acima de 4.000.\n- Bernoulli: z + p/γ + V²/2g = constante (posição, pressão e velocidade).\n- Fluido real perde carga; a linha de energia sempre desce.\n- Torricelli: V = √(2gh); Pitot mede velocidade; Venturi mede vazão."
+    },
+    {
+      "id": "condutos",
+      "nome": "Escoamento em condutos forçados",
+      "resumo": "### Conduto forçado\nTubulação em que o líquido escoa **a seção plena**, sob **pressão diferente da atmosférica** (redes de abastecimento, adutoras, recalques).\n\n### Perda de carga\nEnergia dissipada por atrito e por turbulência. Dois tipos:\n- **Distribuída (contínua)**: ao longo do comprimento do tubo, por atrito com as paredes.\n- **Localizada (singular)**: em **peças e acessórios** (curvas, registros, válvulas, reduções, entradas e saídas).\n\n### Fórmula universal (Darcy-Weisbach)\n**h_f = f · (L / D) · V² / (2g)**\n\n- **f**: **fator de atrito**; depende do **número de Reynolds** e da **rugosidade relativa** (ε/D).\n- A perda cresce com o **comprimento** e com o **quadrado da velocidade**, e diminui com o **diâmetro**.\n- Em termos de vazão, **h_f é proporcional a Q² / D⁵**: pequenas reduções de diâmetro aumentam muito a perda.\n\n### Fator de atrito\n- **Regime laminar**: **f = 64 / Re**; não depende da rugosidade.\n- **Regime turbulento**: obtido pelo **diagrama de Moody** ou pela equação de **Colebrook-White**; fórmulas explícitas como a de **Swamee-Jain**.\n  - **Hidraulicamente liso**: f depende só de Re.\n  - **Hidraulicamente rugoso** (turbulência completa): f depende só de ε/D.\n- **Rugosidade absoluta (ε)**: PVC e cobre são lisos; ferro fundido e concreto, mais rugosos. Aumenta com o **envelhecimento** do tubo (incrustação e corrosão).\n\n### Fórmula de Hazen-Williams\nEmpírica; muito usada em projetos de redes de água:\n\n**J = 10,643 · Q^1,85 / (C^1,85 · D^4,87)**\n\n- **J**: perda de carga **unitária** (m/m); h_f = J · L.\n- **C**: coeficiente que depende do **material e do estado** do tubo: PVC, cerca de **140 a 150**; ferro fundido novo, 130; ferro fundido velho, 90; concreto, 120 a 130.\n- Quanto **maior C**, **mais liso** o tubo e **menor** a perda.\n- Válida para água, diâmetros a partir de 50 mm e regime turbulento.\n- Outras: **Fair-Whipple-Hsiao** (instalações prediais) e **Flamant**.\n\n### Perdas localizadas\n- **Método direto**: **h_L = K · V² / (2g)**, com K tabelado para cada peça (entrada normal de tubo: 0,5; saída: 1,0; cotovelo de 90°: 0,9; registro de gaveta aberto: 0,2; válvula de pé com crivo: bem maior).\n- **Método dos comprimentos equivalentes**: cada peça é substituída por um comprimento de tubo reto que causaria a mesma perda. Soma-se ao comprimento real: L_virtual = L_real + ΣL_eq.\n- Em tubulações **longas** (L/D acima de cerca de 4.000), as perdas localizadas podem ser desprezadas.\n\n### Associação de tubulações\n- **Em série**: mesma **vazão**; as perdas de carga **se somam**.\n- **Em paralelo**: mesma **perda de carga** nos ramos; as vazões **se somam**.\n- **Conduto equivalente**: um tubo único que transporta a mesma vazão com a mesma perda.\n\n### Redes de distribuição\n- **Ramificada** (em \"espinha de peixe\"): sentido único de escoamento; mais barata, mas uma interrupção deixa todo o trecho a jusante sem água.\n- **Malhada (em anel)**: a água pode chegar por mais de um caminho; mais segura. Calculada pelo **método de Hardy Cross**, que impõe a continuidade nos nós e a soma nula das perdas em cada anel.\n- Limites usuais: **pressão dinâmica mínima** de 10 mca e **estática máxima** de 50 mca (NBR 12218), além de velocidades máximas.\n\n### Velocidades recomendadas\nEm geral entre **0,6 e 3,0 m/s**: velocidades muito baixas favorecem depósitos; muito altas causam perdas elevadas, ruído e golpe de aríete.\n\n### Golpe de aríete\n**Sobrepressão** (e subpressão) causada pela **variação brusca da velocidade** em uma tubulação — fechamento rápido de válvula ou parada de bomba. Ondas de pressão percorrem o tubo com a **celeridade** (cerca de 1.000 m/s em tubos metálicos).\n- **Fechamento rápido**: sobrepressão máxima (**Joukowsky**): **Δh = c · V / g**.\n- **Fechamento lento**: sobrepressão menor (Michaud).\n- **Proteção**: fechamento **lento** de válvulas, **chaminés de equilíbrio**, reservatórios hidropneumáticos, **válvulas de alívio** e volantes de inércia nas bombas.\n\n### Sifão\nTrecho da tubulação **acima** da linha piezométrica, com pressão **abaixo** da atmosférica; funciona depois de escorvado. A altura é limitada pela pressão de vapor.\n\n### Envelhecimento e dimensionamento\nO projeto considera o tubo no fim da vida útil (C menor). O **diâmetro econômico** equilibra o custo da tubulação com o custo de energia do bombeamento.",
+      "revisao": "**Lembre:**\n- Perda distribuída (ao longo do tubo) e localizada (peças).\n- Darcy-Weisbach: h_f = f (L/D) V²/2g; laminar: f = 64/Re.\n- Hazen-Williams: quanto maior C, mais liso o tubo.\n- Série: mesma vazão, perdas somam; paralelo: mesma perda, vazões somam.\n- Golpe de aríete: sobrepressão por variação brusca da velocidade."
+    },
+    {
+      "id": "bombas",
+      "nome": "Bombas e sistemas de recalque",
+      "resumo": "### Sistema de recalque\nConjunto que eleva a água de um nível a outro mais alto: **tubulação de sucção**, **bomba** com motor e **tubulação de recalque**.\n\n### Tipos de bomba\n- **Turbobombas (hidrodinâmicas)**: transferem energia por um **rotor** que gira.\n  - **Centrífugas (radiais)**: alta pressão e vazões pequenas a médias; as mais usadas.\n  - **Axiais**: grandes vazões e baixas alturas.\n  - **Mistas (diagonais)**: intermediárias.\n- **Volumétricas (de deslocamento positivo)**: de pistão, de engrenagens, de diafragma; vazão quase independente da pressão; usadas para dosagem e fluidos viscosos.\n\n### Alturas\n- **Altura geométrica (H_g)**: desnível entre os níveis d'água de sucção e de recalque.\n- **Altura manométrica (H_m)**: energia que a bomba precisa fornecer por unidade de peso:\n\n**H_m = H_g + Σh_f** (desnível + todas as perdas de carga na sucção e no recalque)\n\n### Potência\n- **Potência hidráulica (útil)**: **P_h = γ · Q · H_m**.\n- **Potência da bomba (absorvida no eixo)**: **P = γ · Q · H_m / η**, em watts. Em cavalos-vapor: P (cv) = γ · Q · H_m / (75 · η), com γ em kgf/m³.\n- **η**: **rendimento** da bomba (em geral de 50% a 85%).\n- Adota-se folga no motor.\n\n### Curvas características\nFornecidas pelo fabricante, para rotação constante:\n- **H × Q**: altura manométrica **diminui** com o aumento da vazão (nas centrífugas).\n- **Potência × Q**.\n- **Rendimento × Q**: tem um ponto de **máximo** (ponto de melhor eficiência).\n- **NPSH requerido × Q**.\n\n### Curva do sistema e ponto de operação\n- **Curva do sistema (da tubulação)**: H = H_g + K · Q²; cresce com a vazão, pois as perdas aumentam.\n- **Ponto de operação (de funcionamento)**: **interseção** da curva da bomba com a curva do sistema. Deve ficar próximo do rendimento máximo.\n- **Fechar parcialmente um registro** no recalque aumenta as perdas, desloca a curva do sistema e **reduz a vazão**.\n\n### Associação de bombas\n- **Em paralelo**: **somam-se as vazões** para a mesma altura. Usada para aumentar a vazão e dar flexibilidade e segurança (bomba reserva).\n- **Em série**: **somam-se as alturas** para a mesma vazão. Usada para vencer grandes desníveis (bombas de múltiplos estágios).\n- Na prática, duas bombas em paralelo **não dobram** a vazão, porque as perdas de carga do sistema aumentam.\n\n### Leis de semelhança (afinidade)\nPara a mesma bomba, variando a **rotação (n)**:\n- **Q** é proporcional a **n**.\n- **H** é proporcional a **n²**.\n- **P** é proporcional a **n³**.\nReduzir a rotação com **inversor de frequência** economiza muita energia.\n\n### Cavitação\nFormação de **bolhas de vapor** onde a pressão cai abaixo da **pressão de vapor** do líquido, em geral na **entrada do rotor**. As bolhas **implodem** ao chegar a regiões de maior pressão.\n- **Consequências**: **ruído** (como cascalho), **vibração**, **queda do rendimento** e **erosão** (desgaste) do rotor.\n- **NPSH disponível**: energia que o sistema oferece na entrada da bomba, acima da pressão de vapor: NPSH_d = (p_atm − p_v)/γ ± h_s − h_fs.\n- **NPSH requerido**: mínimo exigido pela bomba (dado do fabricante).\n- **Condição para não cavitar**: **NPSH disponível > NPSH requerido** (com folga).\n- **Como evitar**: **reduzir a altura de sucção**, encurtar e alargar a tubulação de sucção, reduzir perdas (menos peças), instalar a bomba **afogada** (abaixo do nível d'água) e evitar líquido quente.\n\n### Altura máxima de sucção\nTeoricamente, cerca de **10,33 m** ao nível do mar; na prática, não passa de **6 a 7 m**, por causa das perdas e da pressão de vapor. Diminui com a **altitude** e com a **temperatura**.\n\n### Instalação\n- **Sucção**: tubo curto, com diâmetro maior que o do recalque, sempre ascendente até a bomba (sem pontos altos onde o ar se acumule), **válvula de pé com crivo** e redução **excêntrica**.\n- **Recalque**: **válvula de retenção** (impede o retorno) e **registro**.\n- **Escorva**: encher de água a bomba e a sucção antes da partida; bombas **afogadas** dispensam.\n- Partida de bomba centrífuga com o registro de recalque **fechado** (menor potência).\n\n### Diâmetro econômico\n**Fórmula de Bresse**: **D = K · √Q**, com K entre 0,7 e 1,3 (funcionamento contínuo). Equilibra o custo da tubulação e o da energia.\n\n### Carneiro hidráulico\nAproveita o golpe de aríete para elevar parte da água sem energia elétrica; baixo rendimento, mas custo operacional nulo.",
+      "revisao": "**Lembre:**\n- Altura manométrica = desnível geométrico + perdas de carga.\n- P = γ Q H_m / η.\n- Ponto de operação: curva da bomba cruza a curva do sistema.\n- Paralelo soma vazões; série soma alturas.\n- Cavitação: evitar com NPSH disponível maior que o requerido."
+    },
+    {
+      "id": "canais",
+      "nome": "Escoamento em condutos livres",
+      "resumo": "### Conduto livre\nEscoamento com **superfície livre**, em contato com a **atmosfera**; move-se por **gravidade**. Ex.: rios, canais, galerias de águas pluviais e redes de esgoto (mesmo em tubos, quando não estão cheios).\n\n### Elementos geométricos\n- **Área molhada (A)**: seção do escoamento.\n- **Perímetro molhado (P)**: comprimento do contorno em contato com a água (**não inclui** a superfície livre).\n- **Raio hidráulico**: **R_h = A / P**.\n- **Profundidade (y)** e **largura superficial (B)**.\n- **Profundidade hidráulica**: y_h = A / B.\n- **Declividade do fundo (I)**.\n- Seções usuais: **retangular**, **trapezoidal**, **triangular** e **circular**.\n\n### Tipos de escoamento\n- **Permanente uniforme**: profundidade, área e velocidade **constantes** ao longo do canal; a superfície da água é **paralela ao fundo**. A profundidade é chamada **normal**.\n- **Variado**: **gradualmente** (remansos) ou **bruscamente** (ressalto).\n\n### Fórmula de Manning\nA mais usada no escoamento uniforme:\n\n**V = (1/n) · R_h^(2/3) · I^(1/2)** e **Q = (1/n) · A · R_h^(2/3) · I^(1/2)**\n\n- **n**: **coeficiente de rugosidade de Manning**. Valores típicos: PVC, 0,010; concreto liso, 0,012 a 0,014; terra, 0,025; canal natural com vegetação, 0,035 ou mais.\n- Quanto **maior n**, **menor** a velocidade.\n- **Fórmula de Chézy**: V = C · √(R_h · I).\n\n### Seção de máxima eficiência\nPara a mesma área, transporta a **maior vazão**: é a de **menor perímetro molhado**.\n- **Semicírculo**: a mais eficiente de todas.\n- **Retangular**: largura igual a **duas vezes a profundidade** (b = 2y).\n- **Trapezoidal**: metade de um hexágono regular (taludes a 60°).\n\n### Energia específica\nEnergia medida a partir do **fundo** do canal:\n\n**E = y + V² / (2g)**\n\nPara uma mesma vazão, existe uma profundidade que torna a energia **mínima**: a **profundidade crítica (y_c)**.\n- Canal retangular: **y_c = (q² / g)^(1/3)**, com q a vazão por unidade de largura; e **E_mín = 1,5 · y_c**.\n\n### Número de Froude\nRazão entre as forças de **inércia** e as de **gravidade**:\n\n**Fr = V / √(g · y_h)**\n\n| Regime | Froude | Profundidade | Características |\n|---|---|---|---|\n| **Subcrítico (fluvial)** | **Fr < 1** | y > y_c | Lento e profundo; controlado por **jusante**; perturbações sobem o canal |\n| **Crítico** | **Fr = 1** | y = y_c | Energia específica mínima; instável |\n| **Supercrítico (torrencial)** | **Fr > 1** | y < y_c | Rápido e raso; controlado por **montante** |\n\n- **Declividade crítica**: a que produz escoamento uniforme crítico. Declividade **fraca** (menor que a crítica): regime subcrítico; **forte**: supercrítico.\n\n### Ressalto hidráulico\nPassagem **brusca** do regime **supercrítico para o subcrítico**, com elevação súbita do nível d'água, turbulência e **grande dissipação de energia**.\n- **Alturas conjugadas** (canal retangular): y₂ / y₁ = ½ · [√(1 + 8 · Fr₁²) − 1].\n- **Usos**: **dissipar energia** a jusante de vertedouros e comportas (bacias de dissipação), misturar produtos químicos e aerar a água.\n\n### Curvas de remanso\nPerfis da superfície no escoamento **gradualmente variado**; ocorrem a montante de barragens, soleiras e mudanças de declividade. Classificam-se em tipos (M1, M2, S1 etc.).\n\n### Dimensionamento\n- **Velocidade mínima**: evita o **assoreamento** (deposição de sedimentos).\n- **Velocidade máxima**: evita a **erosão** das paredes; depende do revestimento.\n- **Borda livre**: folga entre o nível d'água e o topo do canal.\n- Em **esgoto sanitário**: escoamento livre, com **lâmina máxima de 75%** do diâmetro e garantia de **tensão trativa** mínima para autolimpeza.\n- **Seção circular**: a vazão máxima ocorre com lâmina de cerca de **94%** do diâmetro, e a velocidade máxima, com cerca de 81%.\n\n### Medição de vazão em canais\n**Vertedores**, **calha Parshall**, **molinete** (mede a velocidade em vários pontos), flutuadores e medidores ultrassônicos.\n\n### Singularidades\nComportas, soleiras, degraus, estreitamentos e transições alteram o perfil do escoamento e podem provocar mudança de regime.",
+      "revisao": "**Lembre:**\n- Conduto livre: superfície em contato com a atmosfera; escoa por gravidade.\n- Raio hidráulico = área molhada / perímetro molhado.\n- Manning: V = (1/n) R_h^(2/3) I^(1/2).\n- Froude: menor que 1 subcrítico; maior que 1 supercrítico.\n- Ressalto hidráulico: do supercrítico ao subcrítico, com dissipação de energia."
+    },
+    {
+      "id": "aplicacoes",
+      "nome": "Sistemas hidráulicos e aplicações",
+      "resumo": "### Sistema de abastecimento de água\nSequência de unidades: **manancial → captação → adução → tratamento (ETA) → reservação → distribuição**.\n- **Manancial**: **superficial** (rios, lagos, represas) ou **subterrâneo** (aquíferos, poços).\n- **Captação**: tomada d'água.\n- **Adução**: transporte por **adutoras**, por **gravidade** ou por **recalque**.\n- **ETA** (ciclo completo): **coagulação**, **floculação**, **decantação**, **filtração**, **desinfecção** (cloro), **fluoretação** e correção de pH.\n- **Reservatórios**: regularizam a diferença entre produção e consumo, mantêm a pressão e garantem reserva de incêndio e de emergência. Tipos: **apoiado**, **elevado**, **enterrado** e semienterrado.\n- **Rede de distribuição**: ramificada ou malhada.\n\n### Consumo e vazões de projeto\n- **Consumo per capita (q)**: em litros por habitante por dia (em geral de 150 a 250).\n- **Coeficiente do dia de maior consumo**: **K₁ ≈ 1,2**.\n- **Coeficiente da hora de maior consumo**: **K₂ ≈ 1,5**.\n- **Vazão média**: Q = P · q / 86.400 (L/s).\n- A **adução e o tratamento** são dimensionados para o **dia de maior consumo** (K₁); a **rede de distribuição**, para a **hora de maior consumo** (K₁ · K₂).\n- **Perdas** no sistema: reais (vazamentos) e aparentes (erros de medição, fraudes).\n\n### Instalações prediais de água fria (NBR 5626)\n- **Sistema direto**: alimentado direto da rede pública.\n- **Indireto**: com **reservatório**; pode ser por gravidade ou hidropneumático.\n- **Misto**.\n- Partes: **ramal predial**, **hidrômetro**, **alimentador**, **reservatórios** (inferior e superior), **barrilete**, **colunas de distribuição**, **ramais** e **sub-ramais**.\n- Dimensionamento pelo método dos **pesos** (consumo provável): Q = 0,3 · √ΣP.\n- Limites: **pressão estática máxima de 40 mca** (400 kPa); **pressão dinâmica mínima** nos pontos de utilização; **velocidade máxima de 3 m/s**.\n- Em prédios altos, usam-se **válvulas redutoras de pressão**.\n- **Água quente**: aquecedores de passagem ou de acumulação; tubos de cobre, CPVC ou PPR.\n\n### Esgoto sanitário\n- **Predial** (NBR 8160): escoamento **livre**, por gravidade; **desconectores (sifões)** com **fecho hídrico** impedem a entrada de gases; **tubos de ventilação** protegem os fechos hídricos; **caixas de gordura** e de inspeção.\n- **Rede coletora**: **sistema separador absoluto** no Brasil — esgoto sanitário e águas pluviais em redes **separadas**.\n- **Vazão de esgoto**: consumo de água multiplicado pelo **coeficiente de retorno** (cerca de **0,8**), mais a infiltração.\n- **ETE**: tratamento **preliminar** (gradeamento, desarenação), **primário** (decantação), **secundário** (biológico: lodos ativados, lagoas, reatores anaeróbios) e **terciário**.\n- **Tanque séptico** e sumidouro em locais sem rede.\n\n### Drenagem urbana\n- **Microdrenagem**: sarjetas, **bocas de lobo**, galerias e poços de visita.\n- **Macrodrenagem**: canais e rios urbanos.\n- **Método racional** (bacias pequenas): **Q = C · i · A**, com C o **coeficiente de escoamento superficial** (*runoff*), i a intensidade da chuva e A a área da bacia.\n- **Período de retorno**: intervalo médio em que um evento é igualado ou superado.\n- **Tempo de concentração**: tempo para toda a bacia contribuir na seção considerada.\n- A **impermeabilização** do solo aumenta C e as vazões de cheia; combate-se com **reservatórios de detenção** (\"piscinões\"), pavimentos permeáveis e áreas verdes.\n\n### Estruturas hidráulicas\n- **Barragens**: de terra, de enrocamento, de concreto (gravidade, arco). Finalidades: abastecimento, irrigação, energia e controle de cheias.\n- **Vertedouro (extravasor)**: descarrega as cheias com segurança.\n- **Bacia de dissipação**: usa o ressalto hidráulico para dissipar a energia.\n- **Comportas**, **tomadas d'água**, **condutos forçados** e **chaminés de equilíbrio**.\n- **Bueiros**: travessia de cursos d'água sob estradas.\n\n### Turbinas hidráulicas\nConvertem a energia da água em energia mecânica.\n- **Pelton**: de **ação**; para **grandes quedas** e pequenas vazões.\n- **Francis**: de **reação**; quedas e vazões **médias**; a mais usada (Itaipu).\n- **Kaplan**: de reação, com pás ajustáveis; **baixas quedas** e grandes vazões.\n- **Potência**: P = η · γ · Q · H.\n\n### Irrigação\nMétodos por **superfície** (sulcos, inundação), **aspersão** (convencional, pivô central) e **localizada** (gotejamento e microaspersão, de maior eficiência).\n\n### Hidrometria\n- **Hidrômetro**: mede o volume consumido.\n- **Medidores de vazão**: Venturi, placa de orifício, eletromagnético e ultrassônico.\n- **Macromedição** e **micromedição** no controle de perdas.\n\n### Normas e sustentabilidade\nUso racional da água, **aproveitamento de água de chuva**, **reúso**, redução de perdas e eficiência energética no bombeamento.",
+      "revisao": "**Lembre:**\n- Abastecimento: manancial, captação, adução, tratamento, reservação e distribuição.\n- K₁ (dia de maior consumo) ≈ 1,2; K₂ (hora de maior consumo) ≈ 1,5.\n- Predial: pressão estática máxima de 40 mca; velocidade máxima de 3 m/s.\n- Esgoto: escoamento livre; coeficiente de retorno ≈ 0,8; sistema separador absoluto.\n- Pelton para grandes quedas; Kaplan para baixas; método racional: Q = C i A."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "hidraulica-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Pela lei de Stevin, a pressão em um ponto de um líquido em repouso depende:",
+      "opcoes": [
+        "Da profundidade e do peso específico do líquido",
+        "Do formato do reservatório",
+        "Do volume total de líquido",
+        "Da área da superfície livre"
+      ],
+      "correta": 0,
+      "explicacao": "Pontos na mesma profundidade de um mesmo líquido têm a mesma pressão."
+    },
+    {
+      "id": "hidraulica-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o princípio de Arquimedes, o empuxo sobre um corpo imerso é igual ao:",
+      "opcoes": [
+        "Peso do próprio corpo",
+        "Peso do volume de líquido deslocado",
+        "Volume do corpo",
+        "Peso específico do corpo"
+      ],
+      "correta": 1,
+      "explicacao": "O empuxo atua na vertical, de baixo para cima."
+    },
+    {
+      "id": "hidraulica-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A viscosidade cinemática é obtida dividindo-se a viscosidade dinâmica pela:",
+      "opcoes": [
+        "Aceleração da gravidade",
+        "Pressão atmosférica",
+        "Massa específica do fluido",
+        "Velocidade do escoamento"
+      ],
+      "correta": 2,
+      "explicacao": "Sua unidade no Sistema Internacional é o metro quadrado por segundo."
+    },
+    {
+      "id": "hidraulica-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "A pressão efetiva no fundo de um reservatório com 5 m de profundidade de água (γ ≈ 10 kN/m³) é de aproximadamente:",
+      "opcoes": [
+        "5 kPa",
+        "500 kPa",
+        "0,5 kPa",
+        "50 kPa"
+      ],
+      "correta": 3,
+      "explicacao": "Multiplica-se o peso específico pela profundidade: 10 kN/m³ × 5 m."
+    },
+    {
+      "id": "hidraulica-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que o empuxo da água sobre uma comporta vertical atua abaixo do centro de gravidade da comporta?",
+      "opcoes": [
+        "Porque a pressão aumenta com a profundidade, concentrando mais força na parte inferior",
+        "Porque a pressão é uniforme em toda a comporta",
+        "Porque a pressão diminui com a profundidade",
+        "Porque a água não exerce força horizontal"
+      ],
+      "correta": 0,
+      "explicacao": "O diagrama de pressões é triangular, e sua resultante passa a um terço da altura a partir da base."
+    },
+    {
+      "id": "hidraulica-6",
+      "topico": "hidrodinamica",
+      "nivel": "conceitual",
+      "pergunta": "Pela equação da continuidade, quando a área da seção de um tubo diminui, a velocidade do líquido:",
+      "opcoes": [
+        "Diminui",
+        "Aumenta",
+        "Permanece constante",
+        "Torna-se nula"
+      ],
+      "correta": 1,
+      "explicacao": "A vazão se conserva, e ela é o produto da velocidade pela área."
+    },
+    {
+      "id": "hidraulica-7",
+      "topico": "hidrodinamica",
+      "nivel": "conceitual",
+      "pergunta": "O escoamento em tubos é considerado laminar quando o número de Reynolds é:",
+      "opcoes": [
+        "Maior que 4.000",
+        "Igual a 1",
+        "Menor que 2.000",
+        "Maior que 10.000"
+      ],
+      "correta": 2,
+      "explicacao": "Acima de 4.000, o escoamento é turbulento, que é o caso mais comum na prática."
+    },
+    {
+      "id": "hidraulica-8",
+      "topico": "hidrodinamica",
+      "nivel": "conceitual",
+      "pergunta": "Na equação de Bernoulli, o termo V²/(2g) representa a carga de:",
+      "opcoes": [
+        "Pressão",
+        "Posição",
+        "Perda",
+        "Velocidade"
+      ],
+      "correta": 3,
+      "explicacao": "Os outros dois termos são a carga de posição e a carga de pressão."
+    },
+    {
+      "id": "hidraulica-9",
+      "topico": "hidrodinamica",
+      "nivel": "aplicacao",
+      "pergunta": "Um tubo conduz 20 L/s de água com seção de 0,01 m². A velocidade média do escoamento é de:",
+      "opcoes": [
+        "2 m/s",
+        "0,2 m/s",
+        "20 m/s",
+        "0,5 m/s"
+      ],
+      "correta": 0,
+      "explicacao": "A vazão de 0,02 m³/s dividida pela área de 0,01 m² fornece a velocidade."
+    },
+    {
+      "id": "hidraulica-10",
+      "topico": "hidrodinamica",
+      "nivel": "analise",
+      "pergunta": "Por que a linha de energia sempre desce no sentido do escoamento em uma tubulação sem bombas?",
+      "opcoes": [
+        "Porque a velocidade sempre aumenta",
+        "Porque o atrito dissipa energia continuamente ao longo do percurso",
+        "Porque a pressão sempre aumenta",
+        "Porque a água ganha energia com o atrito"
+      ],
+      "correta": 1,
+      "explicacao": "Só uma bomba pode acrescentar energia e fazer a linha subir."
+    },
+    {
+      "id": "hidraulica-11",
+      "topico": "condutos",
+      "nivel": "conceitual",
+      "pergunta": "No regime laminar, o fator de atrito da fórmula universal é dado por:",
+      "opcoes": [
+        "O diagrama de Moody apenas",
+        "A rugosidade relativa do tubo",
+        "64 dividido pelo número de Reynolds",
+        "Um valor constante igual a 0,02"
+      ],
+      "correta": 2,
+      "explicacao": "Nesse regime, o fator não depende da rugosidade da parede."
+    },
+    {
+      "id": "hidraulica-12",
+      "topico": "condutos",
+      "nivel": "conceitual",
+      "pergunta": "Na fórmula de Hazen-Williams, um coeficiente C mais alto indica:",
+      "opcoes": [
+        "Tubo mais rugoso",
+        "Maior perda de carga",
+        "Menor diâmetro",
+        "Tubo mais liso e menor perda de carga"
+      ],
+      "correta": 3,
+      "explicacao": "Tubos de PVC têm valores em torno de 140 a 150; ferro fundido velho, cerca de 90."
+    },
+    {
+      "id": "hidraulica-13",
+      "topico": "condutos",
+      "nivel": "conceitual",
+      "pergunta": "Em tubulações associadas em paralelo:",
+      "opcoes": [
+        "A perda de carga é a mesma nos ramos e as vazões se somam",
+        "A vazão é a mesma e as perdas se somam",
+        "As velocidades são sempre iguais",
+        "Não há perda de carga"
+      ],
+      "correta": 0,
+      "explicacao": "Na associação em série ocorre o contrário: mesma vazão e perdas somadas."
+    },
+    {
+      "id": "hidraulica-14",
+      "topico": "condutos",
+      "nivel": "aplicacao",
+      "pergunta": "Ao fechar rapidamente um registro no fim de uma adutora longa, ouve-se um forte estrondo e a tubulação vibra. O fenômeno é:",
+      "opcoes": [
+        "Cavitação",
+        "Golpe de aríete",
+        "Ressalto hidráulico",
+        "Sifonagem"
+      ],
+      "correta": 1,
+      "explicacao": "A variação brusca da velocidade gera ondas de sobrepressão que percorrem o tubo."
+    },
+    {
+      "id": "hidraulica-15",
+      "topico": "condutos",
+      "nivel": "analise",
+      "pergunta": "Por que uma pequena redução no diâmetro de um tubo aumenta muito a perda de carga, para a mesma vazão?",
+      "opcoes": [
+        "Porque a rugosidade desaparece",
+        "Porque a velocidade diminui",
+        "Porque a perda de carga é inversamente proporcional a uma potência próxima de cinco do diâmetro",
+        "Porque o número de Reynolds se anula"
+      ],
+      "correta": 2,
+      "explicacao": "Com diâmetro menor, a velocidade sobe, e a perda cresce com o quadrado dela."
+    },
+    {
+      "id": "hidraulica-16",
+      "topico": "bombas",
+      "nivel": "conceitual",
+      "pergunta": "A altura manométrica de um sistema de recalque é a soma:",
+      "opcoes": [
+        "Das perdas de carga apenas",
+        "Do diâmetro com o comprimento do tubo",
+        "Da vazão com a velocidade",
+        "Do desnível geométrico com as perdas de carga"
+      ],
+      "correta": 3,
+      "explicacao": "É a energia que a bomba deve fornecer por unidade de peso do líquido."
+    },
+    {
+      "id": "hidraulica-17",
+      "topico": "bombas",
+      "nivel": "conceitual",
+      "pergunta": "Duas bombas iguais associadas em paralelo têm por finalidade principal:",
+      "opcoes": [
+        "Aumentar a vazão",
+        "Aumentar a altura manométrica",
+        "Reduzir o rendimento",
+        "Eliminar as perdas de carga"
+      ],
+      "correta": 0,
+      "explicacao": "Para vencer alturas maiores, a associação indicada é em série."
+    },
+    {
+      "id": "hidraulica-18",
+      "topico": "bombas",
+      "nivel": "conceitual",
+      "pergunta": "O ponto de operação de uma bomba em um sistema é dado:",
+      "opcoes": [
+        "Pelo ponto de vazão nula",
+        "Pela interseção da curva da bomba com a curva do sistema",
+        "Pela potência máxima do motor",
+        "Pelo diâmetro do rotor"
+      ],
+      "correta": 1,
+      "explicacao": "O ideal é que ele fique próximo do ponto de máximo rendimento."
+    },
+    {
+      "id": "hidraulica-19",
+      "topico": "bombas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma bomba apresenta ruído de cascalho, vibração e desgaste do rotor. Para corrigir, uma medida adequada é:",
+      "opcoes": [
+        "Aumentar a altura de sucção",
+        "Reduzir o diâmetro da tubulação de sucção",
+        "Reduzir a altura de sucção ou instalar a bomba afogada",
+        "Aquecer o líquido bombeado"
+      ],
+      "correta": 2,
+      "explicacao": "Os sintomas indicam cavitação, que ocorre quando falta pressão na entrada da bomba."
+    },
+    {
+      "id": "hidraulica-20",
+      "topico": "bombas",
+      "nivel": "analise",
+      "pergunta": "Por que duas bombas iguais em paralelo não fornecem exatamente o dobro da vazão de uma só?",
+      "opcoes": [
+        "Porque uma bomba anula a outra",
+        "Porque a potência total diminui",
+        "Porque as bombas giram em sentidos opostos",
+        "Porque, com mais vazão, as perdas de carga na tubulação aumentam e elevam a altura manométrica"
+      ],
+      "correta": 3,
+      "explicacao": "O novo ponto de operação se desloca ao longo da curva do sistema."
+    },
+    {
+      "id": "hidraulica-21",
+      "topico": "canais",
+      "nivel": "conceitual",
+      "pergunta": "O raio hidráulico de um canal é a relação entre:",
+      "opcoes": [
+        "A área molhada e o perímetro molhado",
+        "A largura e a profundidade",
+        "A vazão e a velocidade",
+        "A declividade e a rugosidade"
+      ],
+      "correta": 0,
+      "explicacao": "O perímetro molhado não inclui a superfície livre da água."
+    },
+    {
+      "id": "hidraulica-22",
+      "topico": "canais",
+      "nivel": "conceitual",
+      "pergunta": "O escoamento em canal é subcrítico (fluvial) quando o número de Froude é:",
+      "opcoes": [
+        "Igual a 1",
+        "Menor que 1",
+        "Maior que 1",
+        "Maior que 2.000"
+      ],
+      "correta": 1,
+      "explicacao": "Nesse regime, o escoamento é lento e profundo e é controlado por jusante."
+    },
+    {
+      "id": "hidraulica-23",
+      "topico": "canais",
+      "nivel": "conceitual",
+      "pergunta": "O ressalto hidráulico ocorre na passagem do regime:",
+      "opcoes": [
+        "Subcrítico para o supercrítico",
+        "Laminar para o turbulento",
+        "Supercrítico para o subcrítico",
+        "Uniforme para o permanente"
+      ],
+      "correta": 2,
+      "explicacao": "Ele provoca grande dissipação de energia e elevação brusca do nível d'água."
+    },
+    {
+      "id": "hidraulica-24",
+      "topico": "canais",
+      "nivel": "aplicacao",
+      "pergunta": "Um canal retangular tem 2 m de largura e lâmina d'água de 1 m. Seu raio hidráulico é de:",
+      "opcoes": [
+        "1 m",
+        "2 m",
+        "0,25 m",
+        "0,5 m"
+      ],
+      "correta": 3,
+      "explicacao": "A área molhada é 2 m² e o perímetro molhado, 4 m (fundo e duas laterais)."
+    },
+    {
+      "id": "hidraulica-25",
+      "topico": "canais",
+      "nivel": "analise",
+      "pergunta": "Por que se constroem bacias de dissipação com ressalto hidráulico a jusante de vertedouros?",
+      "opcoes": [
+        "Para dissipar a energia da água em alta velocidade e evitar a erosão do leito",
+        "Para aumentar a velocidade da água",
+        "Para reduzir a vazão do rio",
+        "Para elevar o nível do reservatório"
+      ],
+      "correta": 0,
+      "explicacao": "A turbulência do ressalto transforma energia cinética em calor."
+    },
+    {
+      "id": "hidraulica-26",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "A sequência correta das unidades de um sistema de abastecimento de água é:",
+      "opcoes": [
+        "Distribuição, tratamento, captação e reservação",
+        "Captação, adução, tratamento, reservação e distribuição",
+        "Tratamento, captação, distribuição e adução",
+        "Reservação, captação, tratamento e adução"
+      ],
+      "correta": 1,
+      "explicacao": "A água é retirada do manancial, transportada, tratada, armazenada e então distribuída."
+    },
+    {
+      "id": "hidraulica-27",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "A turbina hidráulica mais indicada para grandes quedas e pequenas vazões é a:",
+      "opcoes": [
+        "Kaplan",
+        "Francis",
+        "Pelton",
+        "Bulbo"
+      ],
+      "correta": 2,
+      "explicacao": "A Kaplan, ao contrário, é usada em baixas quedas com grandes vazões."
+    },
+    {
+      "id": "hidraulica-28",
+      "topico": "aplicacoes",
+      "nivel": "conceitual",
+      "pergunta": "Nas instalações prediais de esgoto, o fecho hídrico dos desconectores serve para:",
+      "opcoes": [
+        "Aumentar a pressão da água",
+        "Medir o consumo de água",
+        "Aquecer a água",
+        "Impedir a passagem de gases do esgoto para o ambiente"
+      ],
+      "correta": 3,
+      "explicacao": "Os tubos de ventilação protegem esse fecho contra o rompimento."
+    },
+    {
+      "id": "hidraulica-29",
+      "topico": "aplicacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma cidade consome em média 100 L/s. Com K₁ = 1,2 e K₂ = 1,5, a vazão para dimensionar a rede de distribuição é de:",
+      "opcoes": [
+        "180 L/s",
+        "120 L/s",
+        "150 L/s",
+        "270 L/s"
+      ],
+      "correta": 0,
+      "explicacao": "A rede é dimensionada para a hora de maior consumo do dia de maior consumo: 100 × 1,2 × 1,5."
+    },
+    {
+      "id": "hidraulica-30",
+      "topico": "aplicacoes",
+      "nivel": "analise",
+      "pergunta": "Por que a impermeabilização do solo nas cidades agrava as enchentes?",
+      "opcoes": [
+        "Porque aumenta a evaporação",
+        "Porque reduz a infiltração, aumentando o volume e a velocidade do escoamento superficial",
+        "Porque reduz a intensidade das chuvas",
+        "Porque aumenta a infiltração da água"
+      ],
+      "correta": 1,
+      "explicacao": "O coeficiente de escoamento superficial cresce, e as vazões de pico chegam mais rápido aos rios."
+    }
+  ]
+}

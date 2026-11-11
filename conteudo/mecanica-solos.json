@@ -1,0 +1,465 @@
+{
+  "id": "mecanica-solos",
+  "nome": "Mecânica dos Solos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "origem",
+      "nome": "Origem, formação e índices físicos",
+      "resumo": "### O que é\nA Mecânica dos Solos estuda o **comportamento dos solos** sob o efeito de cargas e da água, para projetar fundações, aterros, barragens, contenções e pavimentos. Seu fundador é **Karl Terzaghi** (1925). Faz parte da **Geotecnia**.\n\n### Origem dos solos\nOs solos resultam do **intemperismo** das rochas.\n- **Intemperismo físico**: desagrega a rocha sem mudar sua composição (variação de temperatura, congelamento, raízes). Gera partículas **grossas**: pedregulhos e areias.\n- **Intemperismo químico**: altera os minerais (hidrólise, oxidação, carbonatação). Gera partículas **finas**: argilas. Predomina em climas **quentes e úmidos**.\n\n### Classificação quanto à origem\n- **Solos residuais**: permanecem **sobre a rocha de origem**. Perfil típico: solo maduro, **solo saprolítico** (guarda a estrutura da rocha), rocha alterada e rocha sã.\n- **Solos transportados (sedimentares)**:\n  - **Aluvionares**: pela **água** dos rios.\n  - **Coluvionares** (tálus): pela **gravidade**, ao pé das encostas.\n  - **Eólicos**: pelo **vento** (dunas, loess).\n  - **Glaciais**: pelo gelo.\n  - **Marinhos**.\n- **Solos orgânicos**: com matéria orgânica; escuros, muito compressíveis (**turfas**).\n- **Solos lateríticos**: típicos de clima tropical; ricos em óxidos de ferro e alumínio, avermelhados, com bom comportamento quando compactados.\n\n### O solo como sistema trifásico\nO solo é formado por três fases: **sólidos** (grãos), **água** e **ar**. A água e o ar ocupam os **vazios**.\n- Volume total: V = V_s + V_v (com V_v = V_w + V_ar).\n- Peso total: P = P_s + P_w (o ar não tem peso).\n\n### Índices físicos\n| Índice | Símbolo | Definição | Observação |\n|---|---|---|---|\n| **Teor de umidade** | w | **P_w / P_s** | Em %; pode passar de 100% |\n| **Índice de vazios** | e | **V_v / V_s** | Pode ser maior que 1 |\n| **Porosidade** | n | **V_v / V** | Em %; sempre menor que 100% |\n| **Grau de saturação** | S | **V_w / V_v** | 0% (seco) a 100% (saturado) |\n| **Peso específico natural** | γ | P / V | Em kN/m³ |\n| **Peso específico seco** | γ_d | P_s / V | |\n| **Peso específico dos sólidos** | γ_s | P_s / V_s | Em torno de 26 a 27 kN/m³ |\n| **Peso específico saturado** | γ_sat | Com todos os vazios cheios de água | |\n| **Peso específico submerso** | γ' | **γ_sat − γ_w** | Considera o empuxo |\n\n- Peso específico da água: **γ_w ≈ 10 kN/m³** (9,81).\n- **Densidade relativa dos grãos**: G = γ_s / γ_w (cerca de 2,65 nas areias de quartzo).\n\n### Relações úteis\n- **n = e / (1 + e)** e **e = n / (1 − n)**.\n- **γ_d = γ / (1 + w)**.\n- **S · e = G · w**.\n- γ_d = γ_s / (1 + e).\n\n### Determinação em laboratório\n- **Umidade**: secagem em **estufa** (105 a 110 °C) até peso constante; no campo, o **Speedy**.\n- **Peso específico dos sólidos**: **picnômetro**.\n- **Peso específico natural**: amostra indeformada; no campo, **frasco de areia** ou cilindro cortante.\n\n### Compacidade das areias\n**Compacidade relativa**: CR = (e_máx − e) / (e_máx − e_mín).\n- **Fofa**: abaixo de um terço; **medianamente compacta**; **compacta**: acima de dois terços.\n- Areias compactas são mais resistentes e menos deformáveis.\n\n### Amostragem\n- **Amostra deformada**: preserva a composição, não a estrutura; serve para caracterização e compactação.\n- **Amostra indeformada**: preserva a estrutura e a umidade; necessária para ensaios de resistência e adensamento (bloco ou tubo de parede fina, **Shelby**).",
+      "revisao": "**Lembre:**\n- Solo: sólidos, água e ar (sistema trifásico).\n- Residual fica sobre a rocha; transportado foi levado por água, vento ou gravidade.\n- Umidade: w = peso da água / peso dos sólidos.\n- Índice de vazios: e = V_v / V_s; porosidade: n = V_v / V.\n- γ_d = γ / (1 + w); peso submerso = γ_sat − γ_w."
+    },
+    {
+      "id": "classificacao",
+      "nome": "Granulometria, plasticidade e classificação",
+      "resumo": "### Frações do solo (ABNT NBR 6502)\n| Fração | Diâmetro dos grãos |\n|---|---|\n| **Pedregulho** | de 2,0 mm a 60 mm |\n| **Areia** | de 0,06 mm a 2,0 mm |\n| **Silte** | de 0,002 mm a 0,06 mm |\n| **Argila** | menor que **0,002 mm** |\n\n- **Solos grossos** (pedregulhos e areias): comportamento regido pelo **tamanho e pela forma** dos grãos e pelo atrito; são **não coesivos**.\n- **Solos finos** (siltes e argilas): comportamento regido pela **água** e pelas forças entre as partículas; as argilas são **coesivas e plásticas**.\n\n### Análise granulométrica\nDetermina a porcentagem de cada tamanho de grão.\n- **Peneiramento**: para a fração **grossa** (retida na peneira nº 200, de **0,075 mm**).\n- **Sedimentação**: para a fração **fina**; baseia-se na **lei de Stokes** (partículas maiores sedimentam mais depressa).\n- **Curva granulométrica**: porcentagem que passa × diâmetro (escala logarítmica).\n\n### Parâmetros da curva\n- **D₁₀ (diâmetro efetivo)**: diâmetro abaixo do qual estão 10% do solo, em peso.\n- **Coeficiente de não uniformidade**: **CNU = D₆₀ / D₁₀**. Quanto maior, mais **desuniforme** (bem graduado).\n- **Coeficiente de curvatura**: **CC = D₃₀² / (D₁₀ · D₆₀)**; bem graduado entre 1 e 3.\n- **Bem graduado**: grãos de vários tamanhos, que se encaixam; maior densidade e resistência.\n- **Mal graduado (uniforme)**: grãos de tamanho parecido.\n- **Graduação aberta (descontínua)**: falta uma faixa de tamanhos.\n\n### Limites de consistência (de Atterberg)\nValores de umidade que separam os estados de um solo fino:\n\n**sólido → (LC) → semissólido → (LP) → plástico → (LL) → líquido**\n\n- **Limite de liquidez (LL)**: umidade na passagem do estado **plástico para o líquido**. Ensaio com o **aparelho de Casagrande**: umidade em que a ranhura se fecha com **25 golpes**.\n- **Limite de plasticidade (LP)**: umidade na passagem do **semissólido para o plástico**. Ensaio: moldar um cilindro de **3 mm** de diâmetro que começa a se fragmentar.\n- **Limite de contração (LC)**: abaixo dele, a perda de água não reduz mais o volume.\n\n### Índices\n- **Índice de plasticidade**: **IP = LL − LP**. Faixa de umidade em que o solo é plástico. Quanto maior, mais **argiloso** e compressível.\n  - IP = 0: **não plástico (NP)**, como as areias.\n- **Índice de consistência**: IC = (LL − w) / IP. Indica se a argila está mole, média, rija ou dura.\n- **Índice de liquidez**: IL = (w − LP) / IP.\n- **Atividade** (Skempton): A = IP / (% de argila). Argilas ativas (**montmorilonita**) incham e contraem muito; a **caulinita** é pouco ativa.\n\n### Estrutura dos solos\n- **Areias**: grãos simples.\n- **Argilas**: estrutura **floculada** (partículas em arranjo aberto) ou **dispersa**.\n- **Sensibilidade**: perda de resistência da argila quando amolgada (remexida).\n- **Tixotropia**: recuperação parcial da resistência com o tempo.\n\n### Sistema Unificado de Classificação (SUCS)\nCriado por Casagrande. Usa duas letras.\n- **Primeira letra** (tipo): **G** (pedregulho), **S** (areia), **M** (silte), **C** (argila), **O** (orgânico), **Pt** (turfa).\n- **Segunda letra**:\n  - para solos grossos: **W** (bem graduado), **P** (mal graduado), **M** (com silte), **C** (com argila);\n  - para solos finos: **L** (baixa compressibilidade, LL < 50) e **H** (alta compressibilidade, LL > 50).\n- Solo **grosso**: mais de 50% **retido** na peneira nº 200. Solo **fino**: mais de 50% **passa**.\n- Exemplos: **GW**, **SP**, **SC**, **CL**, **CH**, **MH**.\n- **Carta de plasticidade**: gráfico de IP × LL; a **linha A** separa argilas (acima) de siltes (abaixo).\n\n### Classificação rodoviária (HRB / AASHTO)\nGrupos de **A-1 a A-7**: de A-1 a A-3, solos **granulares** (bons para subleito); de A-4 a A-7, **siltosos e argilosos**. Usa o **índice de grupo (IG)**: quanto maior, pior o solo.\n\n### Classificação MCT\nDesenvolvida no Brasil (Nogami e Villibor) para **solos tropicais**: separa os de comportamento **laterítico (L)** dos **não lateríticos (N)**.\n\n### Identificação tátil-visual\nNo campo: tato (areia é áspera; argila é lisa e pegajosa), plasticidade, resistência a seco e dispersão em água.",
+      "revisao": "**Lembre:**\n- Argila: menor que 0,002 mm; areia: de 0,06 a 2 mm.\n- Peneiramento para grossos; sedimentação para finos.\n- IP = LL − LP; quanto maior, mais argiloso.\n- CNU = D₆₀/D₁₀: alto indica solo bem graduado.\n- SUCS: G, S, M, C; W e P para grossos; L e H para finos."
+    },
+    {
+      "id": "compactacao",
+      "nome": "Compactação dos solos",
+      "resumo": "### Conceito\n**Compactação** é a redução do **volume de vazios** do solo pela **expulsão de ar**, por meio de energia mecânica (rolos, soquetes).\n- É processo **rápido** e **não altera** a quantidade de água.\n- **Objetivos**: aumentar a **resistência**, reduzir a **compressibilidade** e a **permeabilidade** e dar estabilidade ao aterro.\n- **Não confundir com adensamento**: processo **lento**, de expulsão de **água**, sob carga estática.\n\n### Ensaio de Proctor\nProposto por **Ralph Proctor** (1933). Compacta-se o solo em um cilindro, em camadas, com um soquete que cai de altura fixa, para **vários teores de umidade**.\n- **Curva de compactação**: gráfico de **peso específico seco (γ_d)** × **umidade (w)**, em forma de sino.\n- **Umidade ótima (w_ót)**: aquela em que se obtém o **peso específico seco máximo (γ_d máx)**.\n- **Ramo seco** (abaixo da ótima): falta água para lubrificar os grãos; o atrito dificulta a compactação.\n- **Ramo úmido** (acima da ótima): a água ocupa o lugar dos grãos e impede a aproximação.\n- **Curva de saturação**: limite teórico (S = 100%); a curva de compactação fica sempre à esquerda dela.\n\n### Energias de compactação\n- **Proctor Normal**, **Intermediário** e **Modificado**, com energia crescente.\n- Aumentar a **energia**: **eleva** o γ_d máx e **reduz** a umidade ótima; a curva se desloca para cima e para a esquerda.\n\n### Influência do tipo de solo\n- **Solos arenosos**: γ_d máx **maior** e umidade ótima **menor**; curva mais fechada.\n- **Solos argilosos**: γ_d máx **menor** e umidade ótima **maior**; curva mais aberta.\n\n### Estrutura do solo compactado\n- No **ramo seco**: estrutura **floculada**; mais resistente e mais permeável, porém sujeita a colapso se saturada.\n- No **ramo úmido**: estrutura **dispersa**; menos permeável e mais deformável.\n- Barragens de terra costumam ser compactadas pouco acima da ótima, para reduzir a permeabilidade.\n\n### Compactação em campo\n- Espalhar o solo em **camadas** (em geral de 20 a 30 cm), corrigir a umidade (irrigar ou aerar) e passar o equipamento o número de vezes necessário.\n- **Equipamentos**:\n  - **Rolo pé de carneiro**: solos **argilosos** (coesivos).\n  - **Rolo liso vibratório**: solos **arenosos** e granulares.\n  - **Rolo pneumático**: vários tipos de solo, acabamento.\n  - **Placas vibratórias e sapos**: áreas pequenas e valas.\n\n### Controle de compactação\n- **Grau de compactação**: **GC = (γ_d de campo / γ_d máx de laboratório) × 100**. As especificações costumam exigir **95% a 100%**.\n- **Desvio de umidade**: diferença entre a umidade de campo e a ótima (em geral ±2%).\n- Medidas em campo: **frasco de areia**, cilindro cortante ou **densímetro nuclear** para o peso específico; **Speedy** ou frigideira para a umidade.\n- **Método de Hilf**: controle rápido sem conhecer a umidade.\n\n### Índice de Suporte Califórnia (CBR)\nMede a **capacidade de suporte** do solo compactado, para o dimensionamento de **pavimentos**.\n- Compara a pressão para penetrar um pistão no solo com a de uma **brita padrão**: CBR = (pressão no solo / pressão padrão) × 100.\n- O corpo de prova fica **imerso por 4 dias**, e mede-se também a **expansão**.\n- Quanto **maior o CBR**, melhor o material: subleito, sub-base e base têm exigências crescentes.\n\n### Estabilização de solos\n- **Mecânica**: compactação e correção granulométrica.\n- **Química**: **solo-cimento**, **solo-cal** e solo-betume.\n- **Geossintéticos**: geotêxteis e geogrelhas, para reforço, separação e drenagem.\n\n### Compactação de solos granulares\nPara areias puras, usa-se a **compacidade relativa** e a **vibração**, e não a curva de Proctor.",
+      "revisao": "**Lembre:**\n- Compactar expulsa ar; adensar expulsa água lentamente.\n- Proctor: umidade ótima dá o peso específico seco máximo.\n- Mais energia: γ_d máx maior e umidade ótima menor.\n- Pé de carneiro para argilas; rolo liso vibratório para areias.\n- Grau de compactação = γ_d de campo / γ_d máx de laboratório."
+    },
+    {
+      "id": "agua",
+      "nome": "Tensões e água no solo",
+      "resumo": "### Tensões geostáticas\nTensões causadas pelo **peso próprio** do solo.\n- **Tensão vertical total**: **σ_v = γ · z** (soma de γ · espessura de cada camada).\n- **Pressão neutra (poropressão)**: pressão da água nos vazios; abaixo do nível d'água, **u = γ_w · z_w**.\n\n### Princípio das tensões efetivas (Terzaghi)\n**σ' = σ − u**\n\n- **Tensão efetiva (σ')**: a parcela transmitida **grão a grão**.\n- É a tensão efetiva que governa a **resistência** e a **deformação** dos solos.\n- A água não resiste a cisalhamento: a pressão neutra não gera atrito entre grãos.\n- **Rebaixar o nível d'água** aumenta a tensão efetiva (e pode causar recalques); **elevar** o nível a diminui.\n- Abaixo do nível d'água, pode-se usar o **peso específico submerso**: σ' = γ' · z.\n\n### Tensão horizontal\n**σ'_h = K₀ · σ'_v**, em que K₀ é o **coeficiente de empuxo em repouso**. Para solos normalmente adensados, **K₀ ≈ 1 − sen φ'** (Jaky).\n\n### Capilaridade\nAscensão da água acima do nível freático, pelos vazios finos. É **maior nos solos finos** (argilas e siltes) e pequena nas areias. Na zona capilar, a pressão neutra é **negativa** (sucção), o que aumenta a tensão efetiva — é a **coesão aparente** das areias úmidas.\n\n### Permeabilidade\nFacilidade com que a água percola pelo solo.\n- **Lei de Darcy**: **v = k · i** e **Q = k · i · A**.\n  - **k**: coeficiente de permeabilidade (m/s ou cm/s).\n  - **i**: **gradiente hidráulico** = Δh / L (perda de carga dividida pelo comprimento percorrido).\n- Valores típicos: pedregulhos, acima de 10⁻¹ cm/s; **areias**, de 10⁻¹ a 10⁻³ cm/s; siltes, de 10⁻³ a 10⁻⁷; **argilas**, abaixo de 10⁻⁷ cm/s (praticamente impermeáveis).\n- Fatores: **tamanho dos grãos** (o principal), índice de vazios, estrutura e grau de saturação.\n- **Hazen** (areias): k ≈ C · D₁₀².\n\n### Ensaios de permeabilidade\n- **Carga constante**: solos **granulares** (mais permeáveis).\n- **Carga variável**: solos **finos**.\n- Em campo: ensaios de **bombeamento** e de infiltração.\n\n### Carga hidráulica\nPela equação de Bernoulli, desprezando a velocidade: **h = z + u/γ_w** (carga altimétrica + carga piezométrica). A água flui dos pontos de **maior carga total** para os de menor.\n\n### Redes de fluxo\nRepresentação gráfica do fluxo bidimensional.\n- **Linhas de fluxo**: caminhos da água.\n- **Linhas equipotenciais**: pontos de mesma carga total.\n- São **perpendiculares** entre si e formam \"quadrados\" curvilíneos.\n- **Vazão**: Q = k · H · (N_f / N_d), em que N_f é o número de canais de fluxo e N_d, o de quedas de potencial.\n\n### Força de percolação\nA água em movimento exerce sobre os grãos uma força, por unidade de volume, **j = i · γ_w**, no sentido do fluxo.\n- **Fluxo descendente**: aumenta a tensão efetiva.\n- **Fluxo ascendente**: **reduz** a tensão efetiva.\n\n### Areia movediça e gradiente crítico\nQuando o fluxo ascendente anula a tensão efetiva, a areia perde a resistência (**liquefação**, areia movediça).\n- **Gradiente crítico**: **i_cr = γ' / γ_w** (cerca de **1**).\n- **Piping (erosão interna)**: carreamento de partículas, que forma tubos; causa de ruptura de barragens. Prevenção: **filtros** e redução do gradiente (cortinas, tapetes impermeáveis).\n\n### Filtros e drenagem\n- Critérios de filtro (Terzaghi): reter as partículas do solo e, ao mesmo tempo, ser bem mais permeável do que ele.\n- **Rebaixamento do lençol freático**: ponteiras filtrantes e poços profundos.\n\n### Tensões por cargas externas\n- **Boussinesq**: tensões em meio elástico sob carga pontual.\n- **Bulbo de tensões**: região do solo que recebe acréscimo significativo de tensão sob uma fundação; alcança cerca de **duas vezes a largura** da sapata.\n- Método simplificado: espraiamento **2:1**.",
+      "revisao": "**Lembre:**\n- Tensão efetiva: σ' = σ − u; governa resistência e deformação.\n- Darcy: v = k · i; argilas são quase impermeáveis.\n- Carga constante para areias; carga variável para finos.\n- Fluxo ascendente reduz a tensão efetiva; gradiente crítico ≈ 1.\n- Piping: erosão interna; combate-se com filtros."
+    },
+    {
+      "id": "adensamento",
+      "nome": "Compressibilidade e adensamento",
+      "resumo": "### Recalque\nDeslocamento **vertical para baixo** da superfície do terreno ou da fundação, causado pela deformação do solo. Parcelas:\n- **Imediato (elástico)**: ocorre logo após o carregamento, sem variação de volume; predomina nas **areias**.\n- **Por adensamento primário**: expulsão lenta da água; predomina nas **argilas saturadas**.\n- **Por compressão secundária (fluência)**: rearranjo das partículas sob tensão efetiva constante; importante em solos orgânicos.\n\n### Adensamento\nRedução gradual do volume de um solo **saturado** de baixa permeabilidade, pela **expulsão de água** dos vazios, sob um acréscimo de carga.\n\n**Analogia mecânica de Terzaghi** (mola e pistão com furo):\n1. No instante do carregamento, **a água suporta toda a carga**: surge o **excesso de pressão neutra**.\n2. Aos poucos, a água sai, e a carga é **transferida para os grãos** (a mola): a tensão efetiva cresce.\n3. Ao final, o excesso de pressão neutra é **zero**, e a tensão efetiva aumentou do valor do acréscimo de carga.\n\n### Ensaio de adensamento (edométrico)\nAmostra indeformada, confinada lateralmente em um anel, com drenagem pelo topo e pela base; aplicam-se cargas em estágios (em geral dobrando a carga) e mede-se a deformação no tempo.\n- Resultado: curva **índice de vazios (e) × logaritmo da tensão efetiva**.\n\n### Parâmetros\n- **Tensão de pré-adensamento (σ'_vm)**: a **maior tensão efetiva** que o solo já suportou em sua história. Determinada pelos métodos de **Casagrande** e de Pacheco Silva.\n- **Índice de compressão (C_c)**: inclinação do **trecho virgem** da curva.\n- **Índice de recompressão (C_r)**: inclinação do trecho de recompressão; bem menor que C_c.\n- **Coeficiente de adensamento (c_v)**: indica a **velocidade** do processo.\n- **Coeficiente de compressibilidade volumétrica (m_v)**.\n\n### Razão de sobreadensamento\n**RSA (OCR) = σ'_vm / σ'_v0** (tensão de pré-adensamento sobre a tensão efetiva atual).\n- **Normalmente adensado (RSA = 1)**: nunca suportou tensão maior que a atual; recalques **grandes**.\n- **Sobreadensado (pré-adensado, RSA > 1)**: já suportou tensão maior (erosão de camadas, rebaixamento antigo do nível d'água); recalques **pequenos** enquanto a tensão final não ultrapassar a de pré-adensamento.\n- **Subadensado**: ainda em adensamento sob o peso próprio.\n\n### Cálculo do recalque por adensamento\nPara argila normalmente adensada:\n\n**ρ = [C_c · H / (1 + e₀)] · log(σ'_f / σ'_0)**\n\n- H: espessura da camada; e₀: índice de vazios inicial; σ'_0 e σ'_f: tensões efetivas inicial e final no meio da camada.\n- Para argila sobreadensada, usa-se C_r até a tensão de pré-adensamento.\n\n### Teoria do adensamento unidimensional (Terzaghi)\nHipóteses: solo homogêneo e saturado, grãos e água incompressíveis, fluxo e deformação só na vertical, validade da lei de Darcy.\n- **Fator tempo**: **T = c_v · t / H_d²**.\n- **H_d**: **distância de drenagem**. Com drenagem pelas **duas faces**, H_d = **metade** da espessura; com drenagem por **uma face**, H_d = espessura **total**.\n- **Grau de adensamento (U)**: porcentagem do recalque total já ocorrida. T ≈ **0,197** para U = 50% e T ≈ **0,848** para U = 90%.\n- O tempo é proporcional ao **quadrado** da distância de drenagem: dobrar a espessura **quadruplica** o tempo.\n- Determinação de c_v: métodos de **Casagrande** (logaritmo do tempo) e de **Taylor** (raiz do tempo).\n\n### Aceleração dos recalques\n- **Drenos verticais** (de areia ou geodrenos): encurtam o caminho de drenagem, pois a água passa a sair também na horizontal.\n- **Sobrecarga temporária (pré-carregamento)**: aterro mais alto que o definitivo, retirado depois.\n- **Adensamento a vácuo**.\n\n### Recalques admissíveis\n- **Recalque total** e **recalque diferencial** (diferença entre dois pontos): o diferencial é o que mais danifica as estruturas.\n- **Distorção angular**: recalque diferencial dividido pela distância; valores acima de cerca de 1/300 causam fissuras em alvenarias.\n\n### Solos problemáticos\n- **Solos moles** (argilas orgânicas): muito compressíveis e pouco resistentes.\n- **Solos colapsíveis**: sofrem redução brusca de volume quando **saturados** sob carga.\n- **Solos expansivos**: incham ao absorver água.",
+      "revisao": "**Lembre:**\n- Adensamento: expulsão lenta de água em argila saturada.\n- No início, a água suporta a carga; no fim, os grãos.\n- Tensão de pré-adensamento: a maior tensão já sofrida.\n- Normalmente adensado (RSA = 1) recalca muito; sobreadensado recalca pouco.\n- Tempo proporcional ao quadrado da distância de drenagem."
+    },
+    {
+      "id": "resistencia",
+      "nome": "Resistência ao cisalhamento e aplicações",
+      "resumo": "### Ruptura nos solos\nOs solos rompem por **cisalhamento**: deslizamento entre partículas ao longo de uma superfície. A resistência vem de duas parcelas:\n- **Atrito**: depende da **tensão normal efetiva** entre os grãos; expresso pelo **ângulo de atrito interno (φ)**.\n- **Coesão (c)**: resistência que independe da tensão normal; devida à atração entre partículas das argilas e à cimentação.\n\n### Critério de Mohr-Coulomb\n**τ = c' + σ' · tg φ'**\n\n- τ: resistência ao cisalhamento; σ': tensão normal efetiva no plano de ruptura.\n- **Envoltória de resistência**: reta no gráfico τ × σ; os círculos de Mohr na ruptura são **tangentes** a ela.\n- **Areias puras**: **c = 0**; resistência só por atrito (φ entre 28° e 45°, maior nas compactas).\n- **Argilas saturadas, em condição não drenada**: **φ = 0**; a resistência é a **coesão não drenada (S_u)**.\n- O plano de ruptura faz ângulo de **45° + φ/2** com o plano principal maior.\n\n### Comportamento das areias\n- **Areia compacta**: apresenta **pico** de resistência e **dilata** (aumenta de volume) ao cisalhar.\n- **Areia fofa**: sem pico; **contrai**.\n- **Índice de vazios crítico**: aquele em que não há variação de volume.\n- **Liquefação**: areia fofa saturada perde a resistência sob carregamento rápido (sismos).\n\n### Ensaios de laboratório\n**Cisalhamento direto**\n- A amostra fica em uma caixa bipartida; aplica-se força normal e depois força horizontal até romper.\n- Simples e rápido; o **plano de ruptura é imposto** e não se controla a drenagem.\n\n**Compressão triaxial**\nCorpo de prova cilíndrico, envolto em membrana, submetido a pressão confinante (σ₃) e depois a carga axial. Permite controlar a drenagem e medir a pressão neutra.\n- **UU** (não adensado, não drenado; \"rápido\"): sem drenagem em nenhuma fase; fornece a resistência **não drenada**. Simula carregamento rápido em argila (fim de construção).\n- **CU** (adensado, não drenado): adensa e rompe sem drenagem, medindo a pressão neutra; fornece parâmetros totais e efetivos.\n- **CD** (adensado, drenado; \"lento\"): drenagem em todas as fases; fornece os parâmetros **efetivos** (c' e φ'). Simula o longo prazo.\n\n**Compressão simples (não confinada)**: triaxial com σ₃ = 0, só para solos coesivos. **S_u = q_u / 2** (metade da resistência à compressão).\n\n### Ensaios de campo\n- **SPT** (*Standard Penetration Test*, sondagem à percussão): o mais usado no Brasil. Conta-se o **número de golpes (N)** de um martelo de **65 kg**, caindo de **75 cm**, para cravar os **últimos 30 cm** do amostrador padrão. Fornece o perfil do subsolo, o nível d'água e a resistência.\n- **CPT / CPTu** (ensaio de cone): cravação contínua; mede resistência de ponta, atrito lateral e pressão neutra.\n- **Ensaio de palheta (*vane test*)**: mede a resistência **não drenada** de argilas moles.\n- **Pressiômetro**, **dilatômetro** e **prova de carga em placa**.\n\n### Condições drenada e não drenada\n- **Curto prazo** em argilas: carregamento rápido, sem tempo de drenar → análise **não drenada** (tensões totais, φ = 0).\n- **Longo prazo**: pressões neutras dissipadas → análise **drenada** (tensões efetivas).\n- **Areias**: drenam rápido; análise drenada, em geral.\n\n### Empuxos de terra\nAção do solo sobre estruturas de contenção.\n- **Empuxo em repouso (K₀)**: a estrutura não se desloca.\n- **Empuxo ativo (K_a)**: a estrutura **se afasta** do solo, que se expande; é o **menor** empuxo. É o que atua nos muros de arrimo.\n- **Empuxo passivo (K_p)**: a estrutura é **empurrada contra** o solo; é o **maior** empuxo.\n- **Rankine**: **K_a = tg²(45° − φ/2)** e **K_p = tg²(45° + φ/2)**. Note-se que K_a < K₀ < K_p.\n- **Coulomb**: considera o atrito entre o solo e o muro.\n- Empuxo em solo sem coesão: **E = ½ · K · γ · H²**, aplicado a **um terço da altura**, a partir da base.\n- A **água** atrás do muro aumenta muito o empuxo: daí a importância da **drenagem** (barbacãs).\n\n### Estruturas de contenção\nMuros de **gravidade** (peso próprio), de **flexão** (concreto armado), **cortinas atirantadas**, **solo grampeado**, **terra armada**, gabiões e estacas-prancha. Verificam-se **tombamento**, **deslizamento**, **capacidade de carga** da fundação e **estabilidade global**.\n\n### Estabilidade de taludes\n- **Fator de segurança**: **FS = forças (ou momentos) resistentes / forças atuantes**. FS = 1: ruptura iminente; adota-se em geral **1,5**.\n- Métodos de **equilíbrio limite**: talude infinito; **método das fatias** (**Fellenius**, **Bishop**, Janbu, Morgenstern-Price), com superfície de ruptura circular.\n- **Causas de instabilidade**: aumento da pressão neutra por **chuvas**, cortes no pé, sobrecarga no topo, remoção da vegetação.\n- **Estabilização**: retaludamento, **drenagem** superficial e profunda, bermas, contenções e proteção vegetal.\n\n### Capacidade de carga de fundações\n- **Terzaghi**: q_ult = c · N_c + q · N_q + ½ · γ · B · N_γ, com os **fatores de capacidade de carga** dependentes de φ.\n- **Tensão admissível** = tensão de ruptura / fator de segurança (em geral 3), limitada também pelos recalques.\n- **Fundações rasas (diretas)**: sapatas, blocos e radier. **Profundas**: estacas e tubulões, que resistem por **ponta** e por **atrito lateral**.",
+      "revisao": "**Lembre:**\n- Mohr-Coulomb: τ = c' + σ' tg φ'.\n- Areia pura: sem coesão; argila saturada não drenada: φ = 0.\n- Triaxial: UU (rápido), CU e CD (lento, parâmetros efetivos).\n- SPT: golpes de 65 kg, queda de 75 cm, últimos 30 cm.\n- Empuxo ativo é o menor; passivo, o maior; FS = resistente / atuante."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "mecanica-solos-1",
+      "topico": "origem",
+      "nivel": "conceitual",
+      "pergunta": "Os solos que permanecem sobre a rocha que lhes deu origem são chamados de:",
+      "opcoes": [
+        "Residuais",
+        "Aluvionares",
+        "Eólicos",
+        "Coluvionares"
+      ],
+      "correta": 0,
+      "explicacao": "Os solos transportados, ao contrário, foram levados por água, vento, gelo ou gravidade."
+    },
+    {
+      "id": "mecanica-solos-2",
+      "topico": "origem",
+      "nivel": "conceitual",
+      "pergunta": "O teor de umidade de um solo é a relação entre:",
+      "opcoes": [
+        "O volume de vazios e o volume total",
+        "O peso da água e o peso dos sólidos",
+        "O volume de água e o volume de vazios",
+        "O peso total e o volume total"
+      ],
+      "correta": 1,
+      "explicacao": "Por ser referido ao peso dos sólidos, esse índice pode ultrapassar 100%."
+    },
+    {
+      "id": "mecanica-solos-3",
+      "topico": "origem",
+      "nivel": "conceitual",
+      "pergunta": "O índice de vazios é definido como a razão entre:",
+      "opcoes": [
+        "O volume de vazios e o volume total",
+        "O peso da água e o peso total",
+        "O volume de vazios e o volume de sólidos",
+        "O volume de ar e o volume de água"
+      ],
+      "correta": 2,
+      "explicacao": "A razão entre o volume de vazios e o volume total é a porosidade."
+    },
+    {
+      "id": "mecanica-solos-4",
+      "topico": "origem",
+      "nivel": "aplicacao",
+      "pergunta": "Uma amostra de solo úmido pesa 120 g e, após secagem em estufa, 100 g. Seu teor de umidade é de:",
+      "opcoes": [
+        "16,7%",
+        "83,3%",
+        "120%",
+        "20%"
+      ],
+      "correta": 3,
+      "explicacao": "A água pesa 20 g, e divide-se esse valor pelo peso seco de 100 g."
+    },
+    {
+      "id": "mecanica-solos-5",
+      "topico": "origem",
+      "nivel": "analise",
+      "pergunta": "Por que, abaixo do nível d'água, se usa o peso específico submerso no cálculo das tensões efetivas?",
+      "opcoes": [
+        "Porque o empuxo da água reduz o peso que os grãos transmitem uns aos outros",
+        "Porque a água aumenta o peso dos grãos",
+        "Porque o solo fica seco abaixo do nível d'água",
+        "Porque a água não exerce pressão"
+      ],
+      "correta": 0,
+      "explicacao": "O peso submerso é o peso saturado menos o peso específico da água."
+    },
+    {
+      "id": "mecanica-solos-6",
+      "topico": "classificacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a ABNT, a fração argila é formada por partículas com diâmetro:",
+      "opcoes": [
+        "Entre 0,06 mm e 2 mm",
+        "Menor que 0,002 mm",
+        "Entre 2 mm e 60 mm",
+        "Maior que 60 mm"
+      ],
+      "correta": 1,
+      "explicacao": "As partículas de silte ficam entre 0,002 mm e 0,06 mm."
+    },
+    {
+      "id": "mecanica-solos-7",
+      "topico": "classificacao",
+      "nivel": "conceitual",
+      "pergunta": "O índice de plasticidade é calculado por:",
+      "opcoes": [
+        "Limite de plasticidade menos limite de contração",
+        "Limite de liquidez dividido pelo limite de plasticidade",
+        "Limite de liquidez menos limite de plasticidade",
+        "Umidade natural menos limite de liquidez"
+      ],
+      "correta": 2,
+      "explicacao": "Ele indica a faixa de umidade em que o solo se comporta de forma plástica."
+    },
+    {
+      "id": "mecanica-solos-8",
+      "topico": "classificacao",
+      "nivel": "conceitual",
+      "pergunta": "A fração fina do solo, que passa na peneira nº 200, tem sua granulometria determinada por:",
+      "opcoes": [
+        "Peneiramento",
+        "Compactação",
+        "Adensamento",
+        "Sedimentação"
+      ],
+      "correta": 3,
+      "explicacao": "O ensaio se baseia na lei de Stokes, sobre a velocidade de queda das partículas na água."
+    },
+    {
+      "id": "mecanica-solos-9",
+      "topico": "classificacao",
+      "nivel": "aplicacao",
+      "pergunta": "No Sistema Unificado, um solo classificado como CH é:",
+      "opcoes": [
+        "Uma argila de alta compressibilidade",
+        "Um pedregulho bem graduado",
+        "Uma areia mal graduada",
+        "Um silte de baixa compressibilidade"
+      ],
+      "correta": 0,
+      "explicacao": "A letra C indica argila e a letra H, limite de liquidez superior a 50%."
+    },
+    {
+      "id": "mecanica-solos-10",
+      "topico": "classificacao",
+      "nivel": "analise",
+      "pergunta": "Por que um solo bem graduado tende a ser mais resistente e menos permeável que um solo uniforme?",
+      "opcoes": [
+        "Porque todos os grãos têm o mesmo tamanho",
+        "Porque os grãos menores preenchem os vazios entre os maiores, aumentando o entrosamento",
+        "Porque contém mais água",
+        "Porque não possui partículas finas"
+      ],
+      "correta": 1,
+      "explicacao": "O arranjo mais denso reduz os vazios e aumenta o contato entre os grãos."
+    },
+    {
+      "id": "mecanica-solos-11",
+      "topico": "compactacao",
+      "nivel": "conceitual",
+      "pergunta": "A compactação de um solo consiste em reduzir seus vazios pela expulsão de:",
+      "opcoes": [
+        "Água",
+        "Grãos finos",
+        "Ar",
+        "Matéria orgânica"
+      ],
+      "correta": 2,
+      "explicacao": "A expulsão lenta de água sob carga estática é o adensamento."
+    },
+    {
+      "id": "mecanica-solos-12",
+      "topico": "compactacao",
+      "nivel": "conceitual",
+      "pergunta": "No ensaio de Proctor, a umidade ótima é aquela em que se obtém:",
+      "opcoes": [
+        "O maior teor de umidade possível",
+        "A saturação completa",
+        "A menor resistência",
+        "O peso específico seco máximo"
+      ],
+      "correta": 3,
+      "explicacao": "Abaixo dela falta lubrificação; acima, a água ocupa o espaço dos grãos."
+    },
+    {
+      "id": "mecanica-solos-13",
+      "topico": "compactacao",
+      "nivel": "conceitual",
+      "pergunta": "O equipamento mais indicado para compactar solos argilosos é o:",
+      "opcoes": [
+        "Rolo pé de carneiro",
+        "Rolo liso vibratório",
+        "Placa vibratória",
+        "Vibrador de imersão"
+      ],
+      "correta": 0,
+      "explicacao": "Para solos arenosos, o mais eficiente é o rolo liso vibratório."
+    },
+    {
+      "id": "mecanica-solos-14",
+      "topico": "compactacao",
+      "nivel": "aplicacao",
+      "pergunta": "Em um aterro, mediu-se peso específico seco de 17,1 kN/m³; o máximo de laboratório é 18,0 kN/m³. O grau de compactação é de:",
+      "opcoes": [
+        "105%",
+        "95%",
+        "90%",
+        "85%"
+      ],
+      "correta": 1,
+      "explicacao": "Divide-se o valor de campo pelo máximo de laboratório: 17,1 / 18,0."
+    },
+    {
+      "id": "mecanica-solos-15",
+      "topico": "compactacao",
+      "nivel": "analise",
+      "pergunta": "O que acontece com a curva de compactação quando se aumenta a energia aplicada?",
+      "opcoes": [
+        "O peso específico máximo diminui e a umidade ótima aumenta",
+        "Nada se altera",
+        "O peso específico seco máximo aumenta e a umidade ótima diminui",
+        "A curva desaparece"
+      ],
+      "correta": 2,
+      "explicacao": "Com mais energia, os grãos se aproximam mais e é necessária menos água para lubrificá-los."
+    },
+    {
+      "id": "mecanica-solos-16",
+      "topico": "agua",
+      "nivel": "conceitual",
+      "pergunta": "Pelo princípio de Terzaghi, a tensão efetiva é igual a:",
+      "opcoes": [
+        "Tensão total mais pressão neutra",
+        "Pressão neutra menos tensão total",
+        "Tensão total multiplicada pela pressão neutra",
+        "Tensão total menos pressão neutra"
+      ],
+      "correta": 3,
+      "explicacao": "É essa tensão, transmitida grão a grão, que comanda a resistência e as deformações."
+    },
+    {
+      "id": "mecanica-solos-17",
+      "topico": "agua",
+      "nivel": "conceitual",
+      "pergunta": "A lei de Darcy relaciona a velocidade de percolação da água com:",
+      "opcoes": [
+        "O coeficiente de permeabilidade e o gradiente hidráulico",
+        "O peso específico e a umidade",
+        "A coesão e o ângulo de atrito",
+        "O limite de liquidez e o de plasticidade"
+      ],
+      "correta": 0,
+      "explicacao": "A vazão é o produto dessa velocidade pela área atravessada pelo fluxo."
+    },
+    {
+      "id": "mecanica-solos-18",
+      "topico": "agua",
+      "nivel": "conceitual",
+      "pergunta": "O ensaio de permeabilidade a carga variável é mais indicado para:",
+      "opcoes": [
+        "Pedregulhos",
+        "Solos finos, de baixa permeabilidade",
+        "Areias grossas",
+        "Rochas sãs"
+      ],
+      "correta": 1,
+      "explicacao": "Para solos granulares, mais permeáveis, usa-se o ensaio de carga constante."
+    },
+    {
+      "id": "mecanica-solos-19",
+      "topico": "agua",
+      "nivel": "aplicacao",
+      "pergunta": "A 5 m de profundidade em uma areia com peso específico saturado de 20 kN/m³ e nível d'água na superfície, a tensão vertical efetiva é de:",
+      "opcoes": [
+        "100 kPa",
+        "150 kPa",
+        "50 kPa",
+        "0"
+      ],
+      "correta": 2,
+      "explicacao": "A tensão total é 100 kPa e a pressão neutra, 50 kPa; a efetiva é a diferença."
+    },
+    {
+      "id": "mecanica-solos-20",
+      "topico": "agua",
+      "nivel": "analise",
+      "pergunta": "Por que o fluxo ascendente de água pode provocar o fenômeno da areia movediça?",
+      "opcoes": [
+        "Porque aumenta o atrito entre os grãos",
+        "Porque seca a areia",
+        "Porque eleva o peso específico da areia",
+        "Porque a força de percolação para cima anula a tensão efetiva entre os grãos"
+      ],
+      "correta": 3,
+      "explicacao": "Isso ocorre quando o gradiente hidráulico atinge o valor crítico, próximo de 1."
+    },
+    {
+      "id": "mecanica-solos-21",
+      "topico": "adensamento",
+      "nivel": "conceitual",
+      "pergunta": "O adensamento de uma argila saturada ocorre pela:",
+      "opcoes": [
+        "Expulsão lenta da água dos vazios sob carga",
+        "Expulsão rápida de ar por vibração",
+        "Dissolução dos grãos",
+        "Entrada de água nos vazios"
+      ],
+      "correta": 0,
+      "explicacao": "A baixa permeabilidade da argila é o que torna o processo demorado."
+    },
+    {
+      "id": "mecanica-solos-22",
+      "topico": "adensamento",
+      "nivel": "conceitual",
+      "pergunta": "A tensão de pré-adensamento corresponde:",
+      "opcoes": [
+        "À tensão efetiva atual",
+        "À maior tensão efetiva que o solo já suportou",
+        "À pressão neutra no nível d'água",
+        "À tensão de ruptura do solo"
+      ],
+      "correta": 1,
+      "explicacao": "Ela é obtida da curva do ensaio edométrico, por métodos como o de Casagrande."
+    },
+    {
+      "id": "mecanica-solos-23",
+      "topico": "adensamento",
+      "nivel": "conceitual",
+      "pergunta": "Uma argila é dita normalmente adensada quando:",
+      "opcoes": [
+        "Já suportou tensões maiores que a atual",
+        "Ainda não terminou de adensar sob o peso próprio",
+        "A tensão efetiva atual é igual à de pré-adensamento",
+        "Está completamente seca"
+      ],
+      "correta": 2,
+      "explicacao": "Nessa condição, qualquer acréscimo de carga provoca recalques relativamente grandes."
+    },
+    {
+      "id": "mecanica-solos-24",
+      "topico": "adensamento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma camada de argila com drenagem pelas duas faces leva 2 anos para atingir 50% do adensamento. Se a drenagem fosse por uma só face, o tempo seria de:",
+      "opcoes": [
+        "4 anos",
+        "1 ano",
+        "2 anos",
+        "8 anos"
+      ],
+      "correta": 3,
+      "explicacao": "A distância de drenagem dobra, e o tempo varia com o quadrado dessa distância."
+    },
+    {
+      "id": "mecanica-solos-25",
+      "topico": "adensamento",
+      "nivel": "analise",
+      "pergunta": "Por que os drenos verticais aceleram os recalques em depósitos de argila mole?",
+      "opcoes": [
+        "Porque encurtam o caminho que a água precisa percorrer para sair do solo",
+        "Porque aumentam o peso do aterro",
+        "Porque impermeabilizam a argila",
+        "Porque reduzem a carga aplicada"
+      ],
+      "correta": 0,
+      "explicacao": "A água passa a drenar também na horizontal, em direção aos drenos."
+    },
+    {
+      "id": "mecanica-solos-26",
+      "topico": "resistencia",
+      "nivel": "conceitual",
+      "pergunta": "No critério de Mohr-Coulomb, a resistência ao cisalhamento depende:",
+      "opcoes": [
+        "Apenas da umidade",
+        "Da coesão e do ângulo de atrito, além da tensão normal efetiva",
+        "Apenas do peso específico",
+        "Somente da permeabilidade"
+      ],
+      "correta": 1,
+      "explicacao": "A expressão é a soma da coesão com o produto da tensão normal pela tangente do ângulo de atrito."
+    },
+    {
+      "id": "mecanica-solos-27",
+      "topico": "resistencia",
+      "nivel": "conceitual",
+      "pergunta": "No ensaio SPT, o índice N é o número de golpes necessários para cravar:",
+      "opcoes": [
+        "Os primeiros 15 cm do amostrador",
+        "Um metro do amostrador",
+        "Os últimos 30 cm do amostrador",
+        "Os 45 cm totais do amostrador"
+      ],
+      "correta": 2,
+      "explicacao": "O martelo tem 65 kg e cai de uma altura de 75 cm."
+    },
+    {
+      "id": "mecanica-solos-28",
+      "topico": "resistencia",
+      "nivel": "conceitual",
+      "pergunta": "O empuxo que atua em um muro de arrimo que se afasta ligeiramente do solo é o:",
+      "opcoes": [
+        "Passivo",
+        "Em repouso",
+        "Hidrostático",
+        "Ativo"
+      ],
+      "correta": 3,
+      "explicacao": "É o menor dos empuxos; o passivo, que surge quando a estrutura empurra o solo, é o maior."
+    },
+    {
+      "id": "mecanica-solos-29",
+      "topico": "resistencia",
+      "nivel": "aplicacao",
+      "pergunta": "Deseja-se conhecer a resistência de uma argila mole logo após a construção rápida de um aterro. O ensaio triaxial adequado é o:",
+      "opcoes": [
+        "UU, não adensado e não drenado",
+        "CD, adensado e drenado",
+        "De permeabilidade a carga constante",
+        "De compactação Proctor"
+      ],
+      "correta": 0,
+      "explicacao": "No carregamento rápido não há tempo para a água drenar, e vale a condição não drenada."
+    },
+    {
+      "id": "mecanica-solos-30",
+      "topico": "resistencia",
+      "nivel": "analise",
+      "pergunta": "Por que chuvas intensas são a principal causa de deslizamentos em encostas?",
+      "opcoes": [
+        "Porque aumentam a coesão do solo",
+        "Porque elevam a pressão neutra, reduzindo a tensão efetiva e a resistência ao cisalhamento",
+        "Porque reduzem o peso do solo",
+        "Porque compactam o terreno"
+      ],
+      "correta": 1,
+      "explicacao": "A água também aumenta o peso do solo e as forças que tendem a movimentar o talude."
+    }
+  ]
+}

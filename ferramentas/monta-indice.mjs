@@ -895,8 +895,7 @@ export const EXTRA = {
       "Mecânica dos Fluidos",
       "Mecânica dos Fluidos I",
       "Transferência de Calor",
-      "Transferência de Calor e Massa",
-      "Hidráulica Geral"
+      "Transferência de Calor e Massa"
     ]
   },
   "termodinamica": {
@@ -1507,7 +1506,7 @@ export const EXTRA = {
     ]
   },
   "programacao-orientada-objetos": {
-    "area": "Computação",
+    "area": "Exatas",
     "apelidos": [
       "Programação Orientada a Objetos",
       "Programação Orientada a Objetos I",
@@ -1524,7 +1523,7 @@ export const EXTRA = {
     ]
   },
   "sistemas-operacionais": {
-    "area": "Computação",
+    "area": "Exatas",
     "apelidos": [
       "Sistemas Operacionais",
       "Sistemas Operacionais I",
@@ -1538,7 +1537,7 @@ export const EXTRA = {
     ]
   },
   "matematica-discreta": {
-    "area": "Computação",
+    "area": "Exatas",
     "apelidos": [
       "Matemática Discreta",
       "Matemática Discreta I",
@@ -1556,7 +1555,7 @@ export const EXTRA = {
     ]
   },
   "desenvolvimento-web": {
-    "area": "Computação",
+    "area": "Exatas",
     "apelidos": [
       "Desenvolvimento Web",
       "Desenvolvimento Web I",
@@ -1576,7 +1575,7 @@ export const EXTRA = {
     ]
   },
   "psicologia-social": {
-    "area": "Humanas",
+    "area": "Psicologia",
     "apelidos": [
       "Psicologia Social",
       "Psicologia Social I",
@@ -1593,7 +1592,7 @@ export const EXTRA = {
     ]
   },
   "avaliacao-psicologica": {
-    "area": "Humanas",
+    "area": "Psicologia",
     "apelidos": [
       "Avaliação Psicológica",
       "Avaliação Psicológica I",
@@ -1612,7 +1611,7 @@ export const EXTRA = {
     ]
   },
   "psicologia-organizacional": {
-    "area": "Humanas",
+    "area": "Psicologia",
     "apelidos": [
       "Psicologia Organizacional",
       "Psicologia Organizacional e do Trabalho",
@@ -1681,6 +1680,74 @@ export const EXTRA = {
       "Enfermagem na Saúde da Criança e do Adolescente",
       "Cuidado à Saúde da Criança",
       "Neonatologia"
+    ]
+  },
+  "fisica-3": {
+    "area": "Exatas",
+    "apelidos": [
+      "Física III",
+      "Física Geral III",
+      "Física Geral e Experimental III",
+      "Física Básica III",
+      "Física Teórica III",
+      "Eletromagnetismo",
+      "Eletricidade e Magnetismo",
+      "Física: Eletricidade e Magnetismo",
+      "Física 3",
+      "Eletromagnetismo I",
+      "Fundamentos de Eletromagnetismo",
+      "Física Experimental III"
+    ]
+  },
+  "mecanica-solos": {
+    "area": "Exatas",
+    "apelidos": [
+      "Mecânica dos Solos",
+      "Mecânica dos Solos I",
+      "Mecânica dos Solos II",
+      "Geotecnia",
+      "Geotecnia I",
+      "Geotecnia II",
+      "Mecânica dos Solos e Fundações",
+      "Fundamentos de Mecânica dos Solos",
+      "Engenharia Geotécnica",
+      "Solos e Fundações",
+      "Introdução à Mecânica dos Solos"
+    ]
+  },
+  "ciencia-materiais": {
+    "area": "Exatas",
+    "apelidos": [
+      "Ciência dos Materiais",
+      "Ciência e Tecnologia dos Materiais",
+      "Ciência e Engenharia dos Materiais",
+      "Materiais de Engenharia",
+      "Tecnologia dos Materiais",
+      "Introdução à Ciência dos Materiais",
+      "Materiais de Construção Mecânica",
+      "Princípios de Ciência dos Materiais",
+      "Ciência dos Materiais I",
+      "Fundamentos de Ciência dos Materiais",
+      "Estrutura e Propriedades dos Materiais",
+      "Materiais para Engenharia"
+    ]
+  },
+  "hidraulica": {
+    "area": "Exatas",
+    "apelidos": [
+      "Hidráulica",
+      "Hidráulica Geral",
+      "Hidráulica I",
+      "Hidráulica II",
+      "Hidráulica Aplicada",
+      "Hidráulica Básica",
+      "Hidráulica e Hidrologia",
+      "Fundamentos de Hidráulica",
+      "Hidráulica Geral e Aplicada",
+      "Instalações Hidráulicas",
+      "Instalações Hidráulicas e Sanitárias",
+      "Instalações Hidrossanitárias",
+      "Hidráulica dos Condutos Forçados"
     ]
   }
 };

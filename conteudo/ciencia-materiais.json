@@ -1,0 +1,465 @@
+{
+  "id": "ciencia-materiais",
+  "nome": "Ciência e Tecnologia dos Materiais",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "estrutura",
+      "nome": "Ligações e estrutura cristalina",
+      "resumo": "### A ideia central\nA Ciência dos Materiais relaciona quatro elementos: **processamento → estrutura → propriedades → desempenho**. Mudar o processamento muda a estrutura, e a estrutura determina as propriedades.\n\n### Classes de materiais\n- **Metais**: bons condutores de calor e eletricidade, **dúcteis**, resistentes e opacos. Ligação **metálica**.\n- **Cerâmicos**: compostos de metais com não metais (óxidos, carbetos); **duros**, **frágeis**, isolantes e resistentes a altas temperaturas. Ligações **iônicas e covalentes**.\n- **Polímeros**: longas cadeias de carbono; **leves**, de baixa rigidez, isolantes e sensíveis à temperatura. Ligações covalentes nas cadeias e forças fracas entre elas.\n- **Compósitos**: combinação de dois ou mais materiais, com propriedades que nenhum tem sozinho (fibra de vidro, concreto armado).\n- Também: **semicondutores**, **biomateriais** e **nanomateriais**.\n\n### Ligações químicas\n**Primárias (fortes)**\n- **Iônica**: **transferência** de elétrons entre metal e não metal; forma íons que se atraem. Não direcional. Materiais duros, frágeis e de alto ponto de fusão (NaCl, MgO).\n- **Covalente**: **compartilhamento** de elétrons. Direcional. Muito forte (diamante, silício, SiC).\n- **Metálica**: os elétrons de valência formam um \"**mar de elétrons**\" livre em torno dos íons positivos. Não direcional. Explica a **condutividade** e a **ductilidade** dos metais.\n\n**Secundárias (fracas)**\n- **Forças de van der Waals** e **pontes de hidrogênio**: entre moléculas; presentes entre as cadeias dos polímeros e na água.\n\nQuanto mais forte a ligação, **maior** o ponto de fusão e o módulo de elasticidade e **menor** a dilatação térmica.\n\n### Estrutura cristalina e amorfa\n- **Cristalino**: átomos arranjados em padrão **ordenado e repetitivo** de longo alcance (metais, muitas cerâmicas).\n- **Amorfo (não cristalino)**: sem ordem de longo alcance (vidros, muitos polímeros).\n- **Célula unitária**: menor grupo de átomos que, repetido, forma o cristal.\n- **Parâmetro de rede**: dimensões da célula unitária.\n\n### Estruturas dos metais\n| Estrutura | Átomos por célula | Número de coordenação | Fator de empacotamento | Exemplos |\n|---|---|---|---|---|\n| **CCC** (cúbica de corpo centrado) | **2** | 8 | **0,68** | Ferro α, cromo, tungstênio |\n| **CFC** (cúbica de faces centradas) | **4** | 12 | **0,74** | Alumínio, cobre, ouro, ferro γ, níquel |\n| **HC** (hexagonal compacta) | 6 | 12 | **0,74** | Magnésio, zinco, titânio α |\n\n- **Fator de empacotamento atômico (FEA)**: fração do volume da célula ocupada por átomos.\n- **Número de coordenação**: quantidade de vizinhos mais próximos.\n- Relação entre aresta (a) e raio (R): **CFC**: a = 2R√2; **CCC**: a = 4R/√3.\n- Os metais **CFC** são em geral **mais dúcteis**, por terem mais sistemas de escorregamento compactos.\n\n### Massa específica teórica\n**ρ = (n · A) / (V_c · N_A)**, com n átomos por célula, A a massa atômica, V_c o volume da célula e N_A o número de Avogadro.\n\n### Polimorfismo e alotropia\nUm mesmo material pode ter **mais de uma estrutura cristalina**, conforme a temperatura e a pressão.\n- **Ferro**: CCC (ferrita α) até 912 °C; CFC (austenita γ) de 912 a 1.394 °C; CCC (δ) até a fusão.\n- **Carbono**: grafita e diamante.\n\n### Direções e planos\nDescritos pelos **índices de Miller**: direções [uvw] e planos (hkl). A deformação ocorre nos planos e direções de **maior densidade atômica**.\n\n### Monocristal e policristal\n- **Monocristal**: um único cristal, sem contornos (pás de turbina, lâminas de silício).\n- **Policristal**: muitos **grãos** com orientações diferentes, separados por **contornos de grão**. É o caso da maioria dos metais.\n- **Anisotropia**: propriedades variam com a direção (monocristais); os policristais com grãos aleatórios são **isotrópicos**.\n\n### Difração de raios X\nTécnica para identificar a estrutura cristalina, pela **lei de Bragg**: **n · λ = 2 · d · sen θ**.",
+      "revisao": "**Lembre:**\n- Processamento, estrutura, propriedades e desempenho.\n- Metais: ligação metálica; cerâmicas: iônica e covalente; polímeros: cadeias com forças fracas entre elas.\n- CCC: 2 átomos, FEA 0,68; CFC: 4 átomos, FEA 0,74.\n- Ferro muda de CCC para CFC a 912 °C (alotropia).\n- Policristal: grãos separados por contornos."
+    },
+    {
+      "id": "defeitos",
+      "nome": "Imperfeições, difusão e mecanismos de aumento de resistência",
+      "resumo": "### Por que os defeitos importam\nNenhum cristal é perfeito. Os defeitos controlam muitas propriedades: a resistência mecânica, a difusão e a condutividade.\n\n### Defeitos pontuais\n- **Lacuna (vacância)**: posição da rede **sem átomo**. O número de lacunas em equilíbrio **cresce exponencialmente com a temperatura**.\n- **Autointersticial**: átomo do próprio material em um interstício.\n- **Impureza substitucional**: átomo estranho **no lugar** de um átomo da rede.\n- **Impureza intersticial**: átomo pequeno (C, H, N) **entre** os átomos da rede.\n\n### Soluções sólidas\n- **Substitucional**: exige raios atômicos parecidos (diferença menor que cerca de 15%), mesma estrutura cristalina, eletronegatividade e valência semelhantes (**regras de Hume-Rothery**). Ex.: cobre e níquel.\n- **Intersticial**: átomos pequenos nos interstícios. Ex.: **carbono no ferro** (aço).\n\n### Defeitos lineares: discordâncias\nLinhas de átomos desalinhados.\n- **Em cunha (aresta)**: um **semiplano extra** de átomos; o vetor de Burgers é **perpendicular** à linha.\n- **Em hélice (espiral)**: vetor de Burgers **paralelo** à linha.\n- **Mistas**.\n- A **deformação plástica** dos metais ocorre pelo **movimento das discordâncias** (escorregamento), e não pelo deslizamento simultâneo de planos inteiros. É por isso que os metais são muito menos resistentes do que o valor teórico.\n- **Sistema de escorregamento**: plano e direção de maior densidade atômica.\n\n### Defeitos superficiais\n- **Contornos de grão**: fronteiras entre cristais; regiões de maior energia.\n- **Maclas** e **superfícies externas**.\n\n### Defeitos volumétricos\nPoros, trincas, inclusões e precipitados.\n\n### Como aumentar a resistência dos metais\nPrincípio: **dificultar o movimento das discordâncias**. Em geral, ganha-se resistência e perde-se **ductilidade**.\n\n1. **Refino de grão**: grãos **menores** têm mais contornos, que barram as discordâncias. **Equação de Hall-Petch**: σ_e = σ₀ + k · d^(−1/2). É o único mecanismo que aumenta resistência **e** tenacidade.\n2. **Solução sólida**: átomos de soluto deformam a rede e travam as discordâncias.\n3. **Encruamento (trabalho a frio)**: deformar plasticamente o metal abaixo da temperatura de recristalização **multiplica as discordâncias**, que se bloqueiam entre si. O metal fica **mais duro e resistente** e **menos dúctil**.\n4. **Endurecimento por precipitação (envelhecimento)**: partículas finas de segunda fase dispersas na matriz. Etapas: **solubilização**, **têmpera** e **envelhecimento**. Usado em ligas de alumínio.\n5. **Dispersão** de partículas e **transformação de fase** (martensita).\n\n### Recozimento do metal encruado\nAquecimento que desfaz o encruamento, em três estágios:\n- **Recuperação**: alivia tensões internas; as discordâncias se rearranjam.\n- **Recristalização**: formam-se **novos grãos** sem deformação; a dureza cai e a ductilidade volta. Ocorre acima da **temperatura de recristalização** (cerca de 0,3 a 0,5 da temperatura de fusão, em kelvin).\n- **Crescimento de grão**.\n- **Trabalho a quente**: deformação **acima** da temperatura de recristalização; não encrua.\n\n### Difusão\nTransporte de matéria pelo **movimento dos átomos**.\n- **Por lacunas**: o átomo salta para uma posição vazia vizinha.\n- **Intersticial**: átomos pequenos se movem pelos interstícios; é **mais rápida**.\n- **Primeira lei de Fick** (estado estacionário): **J = −D · (dC/dx)**. O fluxo vai da região de **maior** para a de **menor** concentração.\n- **Segunda lei de Fick**: estado não estacionário (a concentração muda com o tempo).\n- **Coeficiente de difusão**: **D = D₀ · exp(−Q / RT)**. A difusão **aumenta exponencialmente com a temperatura** (processo termicamente ativado).\n- É mais rápida em estruturas menos compactas, nos contornos de grão e nas superfícies.\n\n### Aplicações da difusão\n- **Cementação**: enriquecer a superfície do aço com **carbono**, para endurecê-la.\n- **Nitretação**.\n- **Dopagem** de semicondutores.\n- **Sinterização** e tratamentos térmicos.",
+      "revisao": "**Lembre:**\n- Lacuna: posição vazia; cresce com a temperatura.\n- Deformação plástica: movimento de discordâncias.\n- Aumentar resistência: refino de grão, solução sólida, encruamento e precipitação.\n- Encruar endurece e reduz a ductilidade; recristalizar devolve a ductilidade.\n- Difusão cresce exponencialmente com a temperatura; cementação difunde carbono no aço."
+    },
+    {
+      "id": "mecanicas",
+      "nome": "Propriedades mecânicas e ensaios",
+      "resumo": "### Tensão e deformação\n- **Tensão**: **σ = F / A₀** (Pa, MPa).\n- **Deformação**: **ε = ΔL / L₀** (adimensional).\n- Tensão e deformação **de engenharia** usam as dimensões iniciais; as **verdadeiras**, as instantâneas.\n\n### Ensaio de tração\nCorpo de prova alongado até a ruptura; fornece a curva **tensão × deformação**.\n\n**Regime elástico**\n- Deformação **reversível**: retirada a carga, o material volta à forma original.\n- **Lei de Hooke**: **σ = E · ε**.\n- **Módulo de elasticidade (de Young, E)**: inclinação do trecho reto; mede a **rigidez**. Depende das **ligações atômicas** e quase não muda com tratamentos térmicos. Aço: cerca de **200 GPa**; alumínio: cerca de 70 GPa.\n- **Coeficiente de Poisson**: ν = −ε_lateral / ε_axial (cerca de 0,3 nos metais).\n\n**Regime plástico**\n- Deformação **permanente**.\n- **Limite de escoamento (σ_e)**: tensão em que começa a deformação plástica. Quando não há patamar nítido, usa-se a deformação de **0,2%**. É o valor usado em projeto.\n- **Limite de resistência à tração (σ_u)**: tensão **máxima** da curva de engenharia; a partir dele começa a **estricção** (empescoçamento).\n- **Tensão de ruptura**.\n\n**Propriedades derivadas**\n- **Ductilidade**: capacidade de se deformar plasticamente antes de romper; medida pelo **alongamento percentual** e pela **redução de área**.\n- **Resiliência**: energia absorvida no regime **elástico**; área sob o trecho elástico; U_r = σ_e² / (2E).\n- **Tenacidade**: energia absorvida **até a fratura**; área total sob a curva. Exige combinar resistência e ductilidade.\n- **Material frágil**: rompe quase sem deformação plástica (vidro, ferro fundido cinzento, cerâmicas).\n\n### Dureza\nResistência à **deformação plástica localizada** (penetração ou risco).\n- **Brinell (HB)**: esfera; para metais em geral.\n- **Rockwell (HRC, HRB)**: mede a profundidade; rápido; cone de diamante ou esfera.\n- **Vickers (HV)**: pirâmide de diamante; ampla faixa; microdureza.\n- **Knoop**: microdureza de materiais frágeis.\n- **Mohs**: escala de risco para minerais (1, talco; 10, diamante).\n- A dureza se correlaciona com a resistência à tração; para aços, σ_u (MPa) ≈ 3,45 × HB.\n\n### Ensaio de impacto\n**Charpy** e **Izod**: um pêndulo rompe um corpo de prova **entalhado**; mede a **energia absorvida** (tenacidade ao impacto).\n- **Transição dúctil-frágil**: metais **CCC** (como os aços ferríticos) ficam frágeis abaixo de certa temperatura. Os **CFC** não apresentam essa transição. Caso histórico: os navios Liberty.\n\n### Fratura\n- **Dúctil**: precedida de grande deformação plástica; superfície fibrosa, com aspecto de **taça e cone**; avisa antes de romper.\n- **Frágil**: rápida, sem deformação apreciável; superfície plana e brilhante (**clivagem**); perigosa.\n- **Mecânica da fratura**: trincas **concentram tensões**. **Tenacidade à fratura (K_Ic)**: resistência do material à propagação de uma trinca; K = Y · σ · √(π · a).\n\n### Fadiga\nFalha sob **tensões cíclicas**, mesmo abaixo do limite de escoamento. É a causa da maioria das falhas mecânicas.\n- Etapas: **nucleação** da trinca (em geral na superfície, em concentradores de tensão), **propagação** e **ruptura final**. A superfície mostra **marcas de praia**.\n- **Curva S-N (de Wöhler)**: tensão × número de ciclos.\n- **Limite de fadiga**: tensão abaixo da qual o material não falha por fadiga (aços e titânio; cerca de metade do limite de resistência). O alumínio **não** tem limite de fadiga.\n- Melhora-se com bom acabamento superficial, raios de concordância e **jateamento com granalha** (tensões compressivas na superfície).\n\n### Fluência\nDeformação **lenta e contínua**, sob tensão constante, em **temperatura elevada** (acima de cerca de 0,4 da temperatura de fusão).\n- Três estágios: **primário** (taxa decrescente), **secundário** (taxa constante; o mais longo) e **terciário** (acelera até a ruptura).\n- Importante em turbinas, caldeiras e fornos.\n\n### Outros ensaios\n- **Compressão** (concreto, cerâmicas), **flexão** (materiais frágeis), **torção** e **dobramento**.\n- **Ensaios não destrutivos**: líquido penetrante, partículas magnéticas, ultrassom, radiografia e correntes parasitas.",
+      "revisao": "**Lembre:**\n- Lei de Hooke: σ = E · ε; E mede a rigidez.\n- Escoamento: início da deformação plástica; resistência à tração: tensão máxima.\n- Resiliência: energia elástica; tenacidade: energia até romper.\n- Fadiga: falha por carga cíclica abaixo do escoamento.\n- Fluência: deformação lenta em alta temperatura; CCC tem transição dúctil-frágil."
+    },
+    {
+      "id": "diagramas",
+      "nome": "Diagramas de fases e tratamentos térmicos",
+      "resumo": "### Conceitos\n- **Fase**: porção homogênea do material, com estrutura e composição uniformes.\n- **Componente**: elemento ou composto que forma a liga.\n- **Limite de solubilidade**: máxima quantidade de soluto que se dissolve.\n- **Diagrama de fases (de equilíbrio)**: mostra as fases presentes conforme a **temperatura** e a **composição**, para resfriamento **lento**.\n- **Regra das fases de Gibbs**: P + F = C + 1 (a pressão constante).\n\n### Sistema isomorfo\nSolubilidade **total** nos estados líquido e sólido (cobre-níquel).\n- **Linha *liquidus***: acima dela, tudo é líquido.\n- **Linha *solidus***: abaixo dela, tudo é sólido.\n- Entre elas, coexistem líquido e sólido.\n\n### Leitura do diagrama em região bifásica\n- **Fases presentes**: as da região onde está o ponto.\n- **Composição de cada fase**: traça-se a **linha de amarração** (isoterma) e leem-se os extremos.\n- **Quantidade de cada fase**: **regra da alavanca** — a fração de uma fase é o comprimento do braço **oposto** dividido pelo comprimento total.\n\n### Reações invariantes\n- **Eutética**: **líquido → sólido α + sólido β**, no resfriamento. A liga eutética tem o **menor ponto de fusão** e solidifica a temperatura constante (chumbo-estanho, usada em soldas).\n- **Eutetoide**: **sólido γ → sólido α + sólido β**.\n- **Peritética**: líquido + sólido α → sólido β.\n\n### Diagrama ferro-carbono (Fe-Fe₃C)\n**Fases**\n- **Ferrita (α)**: ferro **CCC**; dissolve muito pouco carbono (máximo de 0,022%); **mole e dúctil**; magnética.\n- **Austenita (γ)**: ferro **CFC**; dissolve até **2,14%** de carbono; não magnética; estável em alta temperatura.\n- **Cementita (Fe₃C)**: carbeto de ferro com **6,67%** de carbono; **muito dura e frágil**.\n\n**Microconstituintes**\n- **Perlita**: lamelas alternadas de **ferrita e cementita**; forma-se na reação eutetoide.\n- **Ledeburita**: eutético dos ferros fundidos.\n\n**Pontos importantes**\n- **Eutetoide**: **0,76% (≈ 0,8%) de C a 727 °C** — austenita → perlita.\n- **Eutético**: **4,3% de C a 1.147 °C**.\n- **Aço**: até **2,14%** de carbono. **Ferro fundido**: acima disso.\n\n**Classificação dos aços**\n- **Hipoeutetoide** (menos de 0,76% C): **ferrita + perlita**.\n- **Eutetoide** (0,76% C): só **perlita**.\n- **Hipereutetoide** (mais de 0,76% C): **perlita + cementita** nos contornos.\n- Mais carbono: **mais dureza e resistência**, **menos ductilidade** e soldabilidade.\n\n### Transformações fora do equilíbrio\nO **diagrama TTT** (tempo, temperatura, transformação) mostra o que se forma conforme a velocidade de resfriamento da austenita:\n- **Perlita** (grossa ou fina): resfriamento lento.\n- **Bainita**: resfriamento intermediário; boa combinação de resistência e tenacidade.\n- **Martensita**: resfriamento **muito rápido**. Transformação **sem difusão**; estrutura **tetragonal de corpo centrado**, supersaturada em carbono. **Muito dura e frágil**.\n\n### Tratamentos térmicos dos aços\n| Tratamento | Como | Resultado |\n|---|---|---|\n| **Recozimento** | Aquece e resfria **muito lentamente** (no forno) | **Amolece**, alivia tensões, aumenta a ductilidade e facilita a usinagem |\n| **Normalização** | Aquece e resfria **ao ar** | **Refina o grão** e uniformiza a estrutura |\n| **Têmpera** | Aquece até austenitizar e resfria **bruscamente** (água, óleo) | Forma **martensita**: máxima dureza, mas frágil e com tensões |\n| **Revenimento** | Reaquece o aço temperado abaixo de 727 °C | Reduz a fragilidade e alivia tensões; **aumenta a tenacidade**, com pequena perda de dureza |\n\n- Têmpera e revenimento são feitos **em sequência**: o conjunto se chama **beneficiamento**.\n- **Temperabilidade**: capacidade de formar martensita em profundidade; medida pelo **ensaio Jominy**. Aumenta com elementos de liga.\n- **Martêmpera** e **austêmpera**: reduzem trincas e distorções.\n\n### Tratamentos de superfície\nEndurecem a **superfície** e mantêm o núcleo tenaz (engrenagens, eixos).\n- **Termoquímicos**: **cementação** (carbono), **nitretação** (nitrogênio) e carbonitretação.\n- **Têmpera superficial**: por chama ou por indução.",
+      "revisao": "**Lembre:**\n- Regra da alavanca dá a quantidade de cada fase.\n- Eutético: líquido vira dois sólidos; eutetoide: um sólido vira dois.\n- Ferrita (CCC, mole), austenita (CFC) e cementita (dura e frágil); perlita = ferrita + cementita.\n- Eutetoide a 0,76% C e 727 °C; aço tem até 2,14% C.\n- Têmpera forma martensita dura; revenimento devolve tenacidade."
+    },
+    {
+      "id": "classes",
+      "nome": "Metais, cerâmicas, polímeros e compósitos",
+      "resumo": "### Ligas ferrosas\n**Aços**\n- **Aço-carbono**: **baixo** (até 0,25% C: dúctil, soldável; chapas e perfis), **médio** (0,25% a 0,6%: eixos e engrenagens; tratável termicamente) e **alto** (acima de 0,6%: molas e ferramentas; duro).\n- **Aços-liga**: com cromo, níquel, molibdênio, vanádio; melhoram a temperabilidade e a resistência.\n- **Aços inoxidáveis**: com no mínimo cerca de **11% a 12% de cromo**, que forma uma **camada passiva** de óxido protetora. Tipos: **austeníticos** (com níquel; não magnéticos; os mais usados, como o 304), **ferríticos**, **martensíticos** (temperáveis; cutelaria) e **dúplex**.\n- **Aços-ferramenta**.\n- Designação SAE/AISI: no aço **1045**, \"10\" indica aço-carbono e \"45\", **0,45% de carbono**.\n\n**Ferros fundidos** (mais de 2,14% C, com silício)\n- **Cinzento**: grafita em **veios (lamelas)**; frágil, mas bom amortecedor de vibrações e fácil de fundir e usinar (blocos de motor, bases de máquinas).\n- **Nodular (dúctil)**: grafita em **esferas**, pela adição de magnésio; maior resistência e ductilidade.\n- **Branco**: carbono como **cementita**; muito duro e frágil; resistente ao desgaste.\n- **Maleável**: obtido por tratamento térmico do branco.\n\n### Ligas não ferrosas\n- **Alumínio**: **leve** (um terço da densidade do aço), resistente à corrosão, bom condutor; ligas endurecidas por precipitação (aeronáutica).\n- **Cobre**: excelente condutor. **Latão** = cobre + **zinco**; **bronze** = cobre + **estanho**.\n- **Titânio**: alta relação resistência/peso, resistente à corrosão e biocompatível (implantes, aviação).\n- **Magnésio**: o mais leve dos metais estruturais.\n- **Níquel**: **superligas** para altas temperaturas (turbinas).\n- **Zinco**: **galvanização** do aço.\n\n### Cerâmicas\n- **Tradicionais**: argila, tijolos, porcelanas, cimento e vidro.\n- **Avançadas**: alumina (Al₂O₃), zircônia, carbeto de silício, nitreto de silício.\n- **Propriedades**: **duras**, **frágeis**, resistentes à **compressão** (muito mais que à tração), ao calor e à corrosão; isolantes térmicos e elétricos.\n- A fragilidade vem das ligações iônicas e covalentes, que dificultam o movimento de discordâncias, e da sensibilidade a **poros e trincas**.\n- **Vidros**: amorfos; **temperatura de transição vítrea**; **vidro temperado** tem a superfície em compressão.\n- **Processamento**: conformação do pó, secagem e **sinterização** (queima).\n- **Refratários**: suportam altas temperaturas (fornos).\n\n### Polímeros\nMacromoléculas formadas pela repetição de unidades (**meros**), obtidas por **polimerização** (adição ou condensação).\n- **Termoplásticos**: cadeias lineares ou ramificadas; **amolecem quando aquecidos** e podem ser **reprocessados e reciclados**. Ex.: polietileno (**PE**), polipropileno (**PP**), **PVC**, poliestireno (**PS**), **PET**, náilon.\n- **Termofixos (termorrígidos)**: cadeias com **ligações cruzadas** em rede; **não amolecem** com o calor — degradam; não recicláveis por refusão. Ex.: epóxi, baquelite (fenólica), poliéster insaturado.\n- **Elastômeros**: grande deformação elástica; poucas ligações cruzadas. A **vulcanização** (com enxofre) cria essas ligações na borracha.\n- **Grau de cristalinidade**: polímeros podem ser **semicristalinos** ou amorfos; mais cristalinidade, mais rigidez e densidade.\n- **Temperatura de transição vítrea (T_g)**: abaixo dela, o polímero é rígido e frágil; acima, borrachoso.\n- **Aditivos**: plastificantes, estabilizantes, cargas e pigmentos.\n- **Processamento**: injeção, extrusão, sopro e termoformagem.\n- Comportamento **viscoelástico**: depende do tempo e da temperatura.\n\n### Compósitos\nFormados por uma **matriz** (fase contínua) e um **reforço** (fase dispersa).\n- A **matriz** envolve, protege e **transfere a carga** ao reforço; o **reforço** dá resistência e rigidez.\n- **Por tipo de reforço**: **partículas** (concreto: brita em pasta de cimento), **fibras** (fibra de vidro, de carbono, aramida) e **estruturais** (laminados, painéis sanduíche).\n- **Por tipo de matriz**: polimérica (PMC), metálica (MMC) e cerâmica (CMC).\n- **Regra das misturas**: E_c = E_m · V_m + E_f · V_f (carga paralela às fibras).\n- São em geral **anisotrópicos**: mais resistentes na direção das fibras.\n- Vantagem: alta **resistência específica** (resistência por peso).\n- **Concreto armado**: o concreto resiste à compressão; o aço, à tração.\n- **Madeira**: compósito natural de fibras de celulose em matriz de lignina.",
+      "revisao": "**Lembre:**\n- Aço: até 2,14% C; inoxidável tem ao menos cerca de 11% de cromo.\n- Ferro fundido cinzento: grafita em veios; nodular: em esferas.\n- Latão: cobre e zinco; bronze: cobre e estanho.\n- Termoplástico amolece e recicla; termofixo tem ligações cruzadas e não refunde.\n- Compósito: matriz transfere carga; reforço dá resistência."
+    },
+    {
+      "id": "corrosao",
+      "nome": "Corrosão, propriedades físicas e seleção de materiais",
+      "resumo": "### Corrosão\nDeterioração de um material por reação **química ou eletroquímica** com o meio. Nos metais, é a volta à forma mais estável (óxidos).\n\n### Corrosão eletroquímica\nForma-se uma **pilha**, que exige quatro elementos: **ânodo**, **cátodo**, **eletrólito** e **contato elétrico**.\n- **Ânodo**: sofre **oxidação**, **perde elétrons** e **se corrói**. Ex.: Fe → Fe²⁺ + 2e⁻.\n- **Cátodo**: sofre **redução**; fica protegido.\n- A **ferrugem** do ferro exige **água e oxigênio**.\n\n### Série galvânica\nOrdena os metais do mais **nobre** (catódico: ouro, platina) ao mais **ativo** (anódico: magnésio, zinco). Quando dois metais diferentes estão em contato em um eletrólito, o **mais ativo se corrói**.\n\n### Formas de corrosão\n- **Uniforme**: ataque em toda a superfície; a mais comum e previsível.\n- **Galvânica**: dois metais diferentes em contato; agrava-se quando a área do ânodo é pequena em relação à do cátodo.\n- **Por pites**: furos localizados e profundos; difícil de detectar; típica de aços inoxidáveis em meios com **cloretos**.\n- **Em frestas**: em regiões confinadas (sob arruelas, juntas).\n- **Intergranular**: ao longo dos contornos de grão; ocorre em inoxidáveis **sensitizados** (precipitação de carbetos de cromo, por exemplo perto de soldas).\n- **Sob tensão**: ação conjunta de tensão de tração e meio corrosivo; gera trincas.\n- **Erosão-corrosão** e **cavitação**: com fluxo de fluido.\n- **Seletiva**: remoção de um elemento da liga (dezincificação do latão).\n- **Fragilização por hidrogênio**.\n\n### Passivação\nFormação de uma **película de óxido fina, aderente e protetora** (alumínio, cromo, titânio e aços inoxidáveis).\n\n### Proteção contra a corrosão\n- **Seleção do material** adequado ao meio.\n- **Revestimentos**: pintura, esmaltes e polímeros (barreira).\n- **Revestimentos metálicos**: **galvanização** (zinco sobre o aço) — o zinco se corrói no lugar do aço mesmo se a camada for riscada; estanhagem, cromagem.\n- **Proteção catódica**: torna a estrutura o **cátodo**.\n  - **Ânodo de sacrifício**: liga-se um metal mais ativo (**zinco, magnésio**), que se corrói no lugar da estrutura (cascos de navio, tubulações enterradas).\n  - **Corrente impressa**: fonte externa de corrente contínua.\n- **Inibidores de corrosão** no meio.\n- **Projeto**: evitar frestas, acúmulo de água e contato entre metais diferentes.\n\n### Degradação de outros materiais\n- **Cerâmicas**: muito resistentes à corrosão.\n- **Polímeros**: **inchamento e dissolução** por solventes; **degradação** por radiação ultravioleta, calor e oxidação.\n\n### Propriedades elétricas\n- **Condutores** (metais), **semicondutores** e **isolantes**: explicados pela **teoria das bandas** — o tamanho da banda proibida entre a banda de valência e a de condução.\n- **Semicondutores**: **intrínsecos** e **extrínsecos** (dopados): **tipo n** (elétrons extras) e **tipo p** (lacunas).\n- Nos metais, a resistividade **aumenta** com a temperatura, as impurezas e a deformação; nos semicondutores, a condutividade **aumenta** com a temperatura.\n- **Supercondutores**: resistência nula abaixo de uma temperatura crítica.\n\n### Propriedades térmicas\n- **Capacidade calorífica** e **calor específico**.\n- **Dilatação térmica**: ΔL = α · L₀ · ΔT; menor nos materiais de ligação forte.\n- **Condutividade térmica**: alta nos metais (elétrons livres); baixa em cerâmicas e polímeros.\n- **Choque térmico**: fratura por variação brusca de temperatura; crítica em cerâmicas.\n\n### Propriedades magnéticas e ópticas\n- **Ferromagnetismo** (ferro, níquel, cobalto); ímãs **moles** (núcleos de transformador) e **duros** (ímãs permanentes).\n- Materiais **transparentes**, **translúcidos** e **opacos**; índice de refração.\n\n### Seleção de materiais\nConsidera: **requisitos de serviço** (cargas, temperatura, ambiente), **propriedades**, **processo de fabricação**, **custo**, **disponibilidade** e **impacto ambiental**.\n- **Mapas de Ashby**: comparam propriedades entre classes de materiais.\n- **Índices de mérito**: por exemplo, resistência específica (σ/ρ) e rigidez específica (E/ρ).\n- **Ciclo de vida**: extração, produção, uso, **reciclagem** e descarte.\n- Metais e termoplásticos são recicláveis; termofixos e compósitos são mais difíceis.",
+      "revisao": "**Lembre:**\n- Corrosão: o ânodo oxida e se corrói; o cátodo fica protegido.\n- Metal mais ativo da série galvânica é o que se corrói.\n- Pites: furos localizados, comuns em inox com cloretos.\n- Proteção catódica: ânodo de sacrifício (zinco, magnésio) ou corrente impressa.\n- Passivação: película de óxido protetora (alumínio, inox)."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "ciencia-materiais-1",
+      "topico": "estrutura",
+      "nivel": "conceitual",
+      "pergunta": "A boa condutividade elétrica e a ductilidade dos metais são explicadas pela ligação:",
+      "opcoes": [
+        "Metálica, com elétrons livres",
+        "Iônica, com transferência de elétrons",
+        "Covalente, direcional",
+        "De van der Waals"
+      ],
+      "correta": 0,
+      "explicacao": "Os elétrons de valência formam uma nuvem que se move livremente entre os íons positivos."
+    },
+    {
+      "id": "ciencia-materiais-2",
+      "topico": "estrutura",
+      "nivel": "conceitual",
+      "pergunta": "A estrutura cúbica de faces centradas (CFC) possui, por célula unitária:",
+      "opcoes": [
+        "2 átomos e fator de empacotamento de 0,68",
+        "4 átomos e fator de empacotamento de 0,74",
+        "1 átomo e fator de empacotamento de 0,52",
+        "6 átomos e fator de empacotamento de 0,68"
+      ],
+      "correta": 1,
+      "explicacao": "A estrutura cúbica de corpo centrado tem dois átomos e empacotamento de 0,68."
+    },
+    {
+      "id": "ciencia-materiais-3",
+      "topico": "estrutura",
+      "nivel": "conceitual",
+      "pergunta": "A propriedade de um material apresentar mais de uma estrutura cristalina, conforme a temperatura, chama-se:",
+      "opcoes": [
+        "Anisotropia",
+        "Encruamento",
+        "Polimorfismo ou alotropia",
+        "Passivação"
+      ],
+      "correta": 2,
+      "explicacao": "O ferro, por exemplo, passa de cúbico de corpo centrado a cúbico de faces centradas a 912 °C."
+    },
+    {
+      "id": "ciencia-materiais-4",
+      "topico": "estrutura",
+      "nivel": "aplicacao",
+      "pergunta": "Um engenheiro precisa de um material leve, isolante elétrico e que possa ser moldado a baixa temperatura para uma carcaça. A classe mais indicada é a dos:",
+      "opcoes": [
+        "Metais",
+        "Cerâmicos avançados",
+        "Aços-ferramenta",
+        "Polímeros"
+      ],
+      "correta": 3,
+      "explicacao": "Eles têm baixa densidade, são isolantes e fáceis de conformar."
+    },
+    {
+      "id": "ciencia-materiais-5",
+      "topico": "estrutura",
+      "nivel": "analise",
+      "pergunta": "Por que os materiais cerâmicos são geralmente frágeis?",
+      "opcoes": [
+        "Porque suas ligações iônicas e covalentes dificultam o movimento de discordâncias",
+        "Porque têm elétrons livres em excesso",
+        "Porque são formados por cadeias longas e flexíveis",
+        "Porque têm baixo ponto de fusão"
+      ],
+      "correta": 0,
+      "explicacao": "Sem deformação plástica para aliviar as tensões, as trincas se propagam facilmente."
+    },
+    {
+      "id": "ciencia-materiais-6",
+      "topico": "defeitos",
+      "nivel": "conceitual",
+      "pergunta": "A deformação plástica dos metais ocorre principalmente pelo movimento de:",
+      "opcoes": [
+        "Lacunas",
+        "Discordâncias",
+        "Contornos de grão",
+        "Elétrons livres"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso os mecanismos de endurecimento buscam dificultar esse movimento."
+    },
+    {
+      "id": "ciencia-materiais-7",
+      "topico": "defeitos",
+      "nivel": "conceitual",
+      "pergunta": "O encruamento de um metal resulta em:",
+      "opcoes": [
+        "Redução da dureza",
+        "Aumento da ductilidade",
+        "Aumento da resistência e redução da ductilidade",
+        "Eliminação das discordâncias"
+      ],
+      "correta": 2,
+      "explicacao": "A deformação a frio multiplica as discordâncias, que passam a bloquear umas às outras."
+    },
+    {
+      "id": "ciencia-materiais-8",
+      "topico": "defeitos",
+      "nivel": "conceitual",
+      "pergunta": "Com o aumento da temperatura, a difusão atômica:",
+      "opcoes": [
+        "Diminui",
+        "Não se altera",
+        "Cessa por completo",
+        "Aumenta exponencialmente"
+      ],
+      "correta": 3,
+      "explicacao": "Trata-se de um processo termicamente ativado, descrito por uma equação do tipo Arrhenius."
+    },
+    {
+      "id": "ciencia-materiais-9",
+      "topico": "defeitos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma engrenagem de aço de baixo carbono precisa de superfície dura e núcleo tenaz. O tratamento indicado é a:",
+      "opcoes": [
+        "Cementação, que difunde carbono na superfície",
+        "Recristalização",
+        "Fundição em areia",
+        "Galvanização"
+      ],
+      "correta": 0,
+      "explicacao": "A superfície enriquecida em carbono pode então ser endurecida por têmpera."
+    },
+    {
+      "id": "ciencia-materiais-10",
+      "topico": "defeitos",
+      "nivel": "analise",
+      "pergunta": "Por que a redução do tamanho de grão aumenta a resistência de um metal?",
+      "opcoes": [
+        "Porque elimina todos os átomos de impureza",
+        "Porque há mais contornos de grão, que funcionam como barreiras ao movimento das discordâncias",
+        "Porque aumenta o tamanho das discordâncias",
+        "Porque transforma o metal em cerâmica"
+      ],
+      "correta": 1,
+      "explicacao": "A relação é descrita pela equação de Hall-Petch."
+    },
+    {
+      "id": "ciencia-materiais-11",
+      "topico": "mecanicas",
+      "nivel": "conceitual",
+      "pergunta": "O módulo de elasticidade de um material indica sua:",
+      "opcoes": [
+        "Dureza superficial",
+        "Tenacidade à fratura",
+        "Rigidez no regime elástico",
+        "Resistência à corrosão"
+      ],
+      "correta": 2,
+      "explicacao": "Ele corresponde à inclinação do trecho reto da curva tensão-deformação."
+    },
+    {
+      "id": "ciencia-materiais-12",
+      "topico": "mecanicas",
+      "nivel": "conceitual",
+      "pergunta": "A tenacidade de um material corresponde à:",
+      "opcoes": [
+        "Tensão máxima no ensaio de tração",
+        "Energia absorvida apenas no regime elástico",
+        "Resistência à penetração",
+        "Energia absorvida até a fratura"
+      ],
+      "correta": 3,
+      "explicacao": "A energia absorvida somente no regime elástico é a resiliência."
+    },
+    {
+      "id": "ciencia-materiais-13",
+      "topico": "mecanicas",
+      "nivel": "conceitual",
+      "pergunta": "A falha de um componente submetido a carregamento cíclico, mesmo abaixo do limite de escoamento, é chamada de:",
+      "opcoes": [
+        "Fadiga",
+        "Fluência",
+        "Encruamento",
+        "Corrosão sob tensão"
+      ],
+      "correta": 0,
+      "explicacao": "A trinca costuma nascer na superfície, em pontos de concentração de tensão."
+    },
+    {
+      "id": "ciencia-materiais-14",
+      "topico": "mecanicas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma barra de aço com módulo de elasticidade de 200 GPa é submetida a uma tensão de 100 MPa, no regime elástico. A deformação é de:",
+      "opcoes": [
+        "0,005",
+        "0,0005",
+        "0,05",
+        "2"
+      ],
+      "correta": 1,
+      "explicacao": "Pela lei de Hooke, divide-se a tensão pelo módulo: 100 MPa / 200.000 MPa."
+    },
+    {
+      "id": "ciencia-materiais-15",
+      "topico": "mecanicas",
+      "nivel": "analise",
+      "pergunta": "Por que a fratura frágil é mais perigosa do que a dúctil em estruturas?",
+      "opcoes": [
+        "Porque exige mais energia para acontecer",
+        "Porque só ocorre em altas temperaturas",
+        "Porque ocorre de forma súbita, sem deformação visível que sirva de aviso",
+        "Porque deforma muito a peça antes de romper"
+      ],
+      "correta": 2,
+      "explicacao": "Na fratura dúctil, a deformação plástica prévia permite detectar o problema."
+    },
+    {
+      "id": "ciencia-materiais-16",
+      "topico": "diagramas",
+      "nivel": "conceitual",
+      "pergunta": "A perlita é um microconstituinte formado por lamelas alternadas de:",
+      "opcoes": [
+        "Austenita e martensita",
+        "Ferrita e austenita",
+        "Cementita e grafita",
+        "Ferrita e cementita"
+      ],
+      "correta": 3,
+      "explicacao": "Ela se forma na reação eutetoide, a 727 °C, a partir da austenita."
+    },
+    {
+      "id": "ciencia-materiais-17",
+      "topico": "diagramas",
+      "nivel": "conceitual",
+      "pergunta": "O tratamento térmico de têmpera produz nos aços a formação de:",
+      "opcoes": [
+        "Martensita, de alta dureza",
+        "Perlita grossa",
+        "Ferrita mole",
+        "Grafita em nódulos"
+      ],
+      "correta": 0,
+      "explicacao": "A transformação ocorre sem difusão, por resfriamento muito rápido."
+    },
+    {
+      "id": "ciencia-materiais-18",
+      "topico": "diagramas",
+      "nivel": "conceitual",
+      "pergunta": "Na reação eutética, durante o resfriamento:",
+      "opcoes": [
+        "Um sólido se transforma em dois sólidos",
+        "Um líquido se transforma em duas fases sólidas",
+        "Dois líquidos formam um sólido",
+        "Um sólido se funde"
+      ],
+      "correta": 1,
+      "explicacao": "Quando uma fase sólida gera duas fases sólidas, a reação é chamada eutetoide."
+    },
+    {
+      "id": "ciencia-materiais-19",
+      "topico": "diagramas",
+      "nivel": "aplicacao",
+      "pergunta": "Após a têmpera, uma peça de aço ficou dura, mas quebradiça. Para aumentar sua tenacidade, deve-se fazer o:",
+      "opcoes": [
+        "Recozimento pleno até amolecer por completo",
+        "Encruamento",
+        "Revenimento",
+        "Novo resfriamento em água"
+      ],
+      "correta": 2,
+      "explicacao": "O reaquecimento controlado alivia tensões e reduz a fragilidade da martensita."
+    },
+    {
+      "id": "ciencia-materiais-20",
+      "topico": "diagramas",
+      "nivel": "analise",
+      "pergunta": "Por que o aumento do teor de carbono torna o aço mais duro e menos dúctil?",
+      "opcoes": [
+        "Porque elimina a perlita",
+        "Porque aumenta a quantidade de ferrita",
+        "Porque reduz o ponto de fusão do ferro",
+        "Porque aumenta a quantidade de cementita, fase dura e frágil, na microestrutura"
+      ],
+      "correta": 3,
+      "explicacao": "Aços com mais carbono também se tornam mais difíceis de soldar."
+    },
+    {
+      "id": "ciencia-materiais-21",
+      "topico": "classes",
+      "nivel": "conceitual",
+      "pergunta": "Os aços inoxidáveis resistem à corrosão por conterem teor elevado de:",
+      "opcoes": [
+        "Cromo, que forma uma camada passiva protetora",
+        "Carbono",
+        "Enxofre",
+        "Chumbo"
+      ],
+      "correta": 0,
+      "explicacao": "É necessário um mínimo de cerca de 11% a 12% desse elemento."
+    },
+    {
+      "id": "ciencia-materiais-22",
+      "topico": "classes",
+      "nivel": "conceitual",
+      "pergunta": "Os polímeros termofixos caracterizam-se por:",
+      "opcoes": [
+        "Poder ser fundidos e reciclados várias vezes",
+        "Ter ligações cruzadas e não amolecer com o aquecimento",
+        "Ser sempre cristalinos",
+        "Conduzir bem a eletricidade"
+      ],
+      "correta": 1,
+      "explicacao": "Os termoplásticos, ao contrário, amolecem com o calor e podem ser reprocessados."
+    },
+    {
+      "id": "ciencia-materiais-23",
+      "topico": "classes",
+      "nivel": "conceitual",
+      "pergunta": "O latão é uma liga de:",
+      "opcoes": [
+        "Cobre e estanho",
+        "Ferro e carbono",
+        "Cobre e zinco",
+        "Alumínio e magnésio"
+      ],
+      "correta": 2,
+      "explicacao": "A liga de cobre com estanho é o bronze; as duas são as ligas de cobre mais conhecidas."
+    },
+    {
+      "id": "ciencia-materiais-24",
+      "topico": "classes",
+      "nivel": "aplicacao",
+      "pergunta": "Para a base de uma máquina que precisa absorver vibrações e ser fundida em forma complexa, o material mais indicado é o:",
+      "opcoes": [
+        "Aço inoxidável austenítico",
+        "Alumínio puro",
+        "Polietileno",
+        "Ferro fundido cinzento"
+      ],
+      "correta": 3,
+      "explicacao": "A grafita em veios confere boa capacidade de amortecimento e fácil fundição."
+    },
+    {
+      "id": "ciencia-materiais-25",
+      "topico": "classes",
+      "nivel": "analise",
+      "pergunta": "No concreto armado, por que se combinam concreto e barras de aço?",
+      "opcoes": [
+        "Porque o concreto resiste bem à compressão e o aço resiste à tração",
+        "Porque o aço protege o concreto da chuva",
+        "Porque o concreto resiste bem à tração",
+        "Porque os dois têm a mesma densidade"
+      ],
+      "correta": 0,
+      "explicacao": "É um compósito em que cada material supre a deficiência do outro."
+    },
+    {
+      "id": "ciencia-materiais-26",
+      "topico": "corrosao",
+      "nivel": "conceitual",
+      "pergunta": "Em uma pilha de corrosão, o eletrodo que se corrói é o:",
+      "opcoes": [
+        "Cátodo, onde ocorre a redução",
+        "Ânodo, onde ocorre a oxidação",
+        "Eletrólito",
+        "Condutor externo"
+      ],
+      "correta": 1,
+      "explicacao": "O ânodo perde elétrons e libera íons metálicos para o meio."
+    },
+    {
+      "id": "ciencia-materiais-27",
+      "topico": "corrosao",
+      "nivel": "conceitual",
+      "pergunta": "A corrosão caracterizada por furos pequenos e profundos, de difícil detecção, é a:",
+      "opcoes": [
+        "Corrosão uniforme",
+        "Corrosão galvânica",
+        "Corrosão por pites",
+        "Erosão"
+      ],
+      "correta": 2,
+      "explicacao": "Ela é comum em aços inoxidáveis expostos a meios com cloretos."
+    },
+    {
+      "id": "ciencia-materiais-28",
+      "topico": "corrosao",
+      "nivel": "conceitual",
+      "pergunta": "A passivação consiste na:",
+      "opcoes": [
+        "Remoção total do metal",
+        "Aplicação de pintura",
+        "Fusão da superfície",
+        "Formação de uma película de óxido aderente e protetora"
+      ],
+      "correta": 3,
+      "explicacao": "É o que protege o alumínio, o titânio e os aços inoxidáveis."
+    },
+    {
+      "id": "ciencia-materiais-29",
+      "topico": "corrosao",
+      "nivel": "aplicacao",
+      "pergunta": "Para proteger o casco de aço de um navio, fixam-se blocos de zinco em contato com ele. Essa técnica é a:",
+      "opcoes": [
+        "Proteção catódica por ânodo de sacrifício",
+        "Galvanização a quente",
+        "Passivação",
+        "Proteção por corrente impressa"
+      ],
+      "correta": 0,
+      "explicacao": "O zinco, mais ativo que o aço, corrói-se em seu lugar."
+    },
+    {
+      "id": "ciencia-materiais-30",
+      "topico": "corrosao",
+      "nivel": "analise",
+      "pergunta": "Por que a chapa de aço galvanizado continua protegida mesmo quando a camada de zinco é riscada?",
+      "opcoes": [
+        "Porque o zinco é mais nobre que o aço",
+        "Porque o zinco, mais ativo, corrói-se preferencialmente e protege o aço exposto",
+        "Porque o risco se fecha sozinho",
+        "Porque o aço não reage com a água"
+      ],
+      "correta": 1,
+      "explicacao": "O revestimento atua como ânodo de sacrifício, e não apenas como barreira."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "fisica-3",
+  "nome": "Física III (Eletromagnetismo)",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "eletrostatica",
+      "nome": "Carga elétrica, lei de Coulomb e campo elétrico",
+      "resumo": "### Carga elétrica\nPropriedade fundamental da matéria. Existem dois tipos: **positiva** e **negativa**.\n- Cargas de **mesmo sinal se repelem**; de **sinais opostos se atraem**.\n- **Quantização**: toda carga é múltipla da **carga elementar**, e = 1,6 × 10⁻¹⁹ C. Q = n · e.\n- **Conservação**: a carga total de um sistema isolado não muda.\n- Unidade: **coulomb (C)**.\n\n### Condutores e isolantes\n- **Condutores** (metais): têm **elétrons livres**, que se movem com facilidade.\n- **Isolantes (dielétricos)**: os elétrons ficam presos aos átomos (vidro, borracha, plástico).\n- **Semicondutores**: comportamento intermediário (silício).\n\n### Processos de eletrização\n- **Atrito**: os corpos ficam com cargas de **sinais opostos**.\n- **Contato**: ficam com cargas de **mesmo sinal**; em esferas condutoras idênticas, a carga total se divide igualmente.\n- **Indução**: aproxima-se um corpo carregado, **sem tocar**; com aterramento, o induzido fica com carga de **sinal oposto** à do indutor.\n\n### Lei de Coulomb\nA força entre duas cargas puntiformes é proporcional ao produto das cargas e inversamente proporcional ao **quadrado da distância**:\n\n**F = k · |q₁ · q₂| / r²**\n\n- k = 1/(4πε₀) ≈ **9 × 10⁹ N·m²/C²** (no vácuo).\n- A força age ao longo da reta que une as cargas.\n- Dobrando a distância, a força cai para **um quarto**.\n- **Princípio da superposição**: a força resultante sobre uma carga é a **soma vetorial** das forças das demais.\n\n### Campo elétrico\nRegião em que uma carga de prova sofre força elétrica.\n\n**E = F / q₀** (unidade: **N/C** ou **V/m**)\n\n- Campo de uma **carga puntiforme**: **E = k · |Q| / r²**.\n- Sentido: **afasta-se** das cargas positivas e **aponta para** as negativas.\n- A força sobre uma carga q no campo é **F = q · E**: no mesmo sentido do campo se q for positiva; no sentido oposto, se negativa.\n\n### Linhas de campo\n- Saem das cargas **positivas** e chegam às **negativas**.\n- O campo é **tangente** à linha em cada ponto.\n- Quanto mais **próximas** as linhas, **mais intenso** o campo.\n- **Nunca se cruzam**.\n- **Campo uniforme**: linhas paralelas e igualmente espaçadas (entre placas paralelas carregadas).\n\n### Dipolo elétrico\nDuas cargas iguais e de sinais opostos, separadas por uma distância d. **Momento de dipolo**: p = q · d. Num campo uniforme, o dipolo sofre **torque** (τ = p · E · sen θ) que tende a alinhá-lo com o campo, mas força resultante nula.\n\n### Distribuições contínuas\nDensidade **linear** (λ, em C/m), **superficial** (σ, em C/m²) e **volumétrica** (ρ, em C/m³). O campo é calculado por integração.\n\n### Condutor em equilíbrio eletrostático\n- O **campo elétrico no interior é nulo**.\n- A carga em excesso fica na **superfície externa**.\n- O campo na superfície é **perpendicular** a ela.\n- A densidade de carga é maior nas regiões **pontiagudas** (**poder das pontas**, princípio do para-raios).\n- **Blindagem eletrostática** (gaiola de Faraday): o interior de um condutor oco fica protegido de campos externos.",
+      "revisao": "**Lembre:**\n- Carga é quantizada (múltipla de e) e se conserva.\n- Coulomb: F = k q₁q₂ / r²; dobrar a distância divide a força por 4.\n- E = F/q; campo sai do positivo e entra no negativo.\n- Linhas de campo não se cruzam; mais juntas, campo mais forte.\n- No interior de um condutor em equilíbrio, o campo é nulo."
+    },
+    {
+      "id": "gauss",
+      "nome": "Lei de Gauss e potencial elétrico",
+      "resumo": "### Fluxo elétrico\nMede a \"quantidade\" de campo que atravessa uma superfície:\n\n**Φ = E · A · cos θ** (θ: ângulo entre o campo e a normal à superfície)\n\n- Unidade: N·m²/C.\n- Máximo quando o campo é **perpendicular** à superfície; nulo quando é paralelo.\n\n### Lei de Gauss\nO **fluxo elétrico total** através de qualquer **superfície fechada** (gaussiana) é igual à **carga interna** dividida por ε₀:\n\n**Φ = ∮ E · dA = Q_int / ε₀**\n\n- ε₀ = 8,85 × 10⁻¹² C²/(N·m²): **permissividade do vácuo**.\n- Cargas **externas** à superfície não contribuem para o fluxo total.\n- É uma das quatro **equações de Maxwell**.\n- Útil para calcular campos em situações de **alta simetria**.\n\n### Aplicações clássicas\n- **Carga puntiforme** ou esfera (ponto externo): E = k Q / r², como se a carga estivesse no centro.\n- **Casca esférica condutora**: campo **nulo no interior**; fora, igual ao de carga pontual.\n- **Esfera isolante uniformemente carregada**: no interior, o campo **cresce linearmente** com r.\n- **Fio infinito**: E = λ / (2π ε₀ r); cai com 1/r.\n- **Plano infinito**: **E = σ / (2ε₀)**; **não depende da distância**.\n- **Entre duas placas paralelas** com cargas opostas: **E = σ / ε₀**, uniforme.\n\n### Energia potencial elétrica\nA força elétrica é **conservativa**. Para duas cargas:\n\n**U = k · q₁ · q₂ / r**\n\n- Positiva para cargas de mesmo sinal (repulsão); negativa para sinais opostos.\n\n### Potencial elétrico\nEnergia potencial **por unidade de carga**:\n\n**V = U / q** (unidade: **volt**, V = J/C)\n\n- É grandeza **escalar** (soma-se algebricamente).\n- Potencial de carga puntiforme: **V = k · Q / r** (com sinal da carga).\n- **Diferença de potencial (ddp ou tensão)**: V_A − V_B.\n- **Trabalho** da força elétrica: **W = q · (V_A − V_B)**.\n- Cargas **positivas** tendem a ir para regiões de **menor potencial**; as **negativas**, para as de **maior potencial**.\n- **Elétron-volt**: 1 eV = 1,6 × 10⁻¹⁹ J.\n\n### Relação entre campo e potencial\n- O campo elétrico aponta no sentido em que o **potencial diminui**.\n- Em **campo uniforme**: **V_A − V_B = E · d**.\n- Em geral: E = −dV/dx (o campo é o **gradiente negativo** do potencial).\n\n### Superfícies equipotenciais\nConjunto de pontos com o **mesmo potencial**.\n- São sempre **perpendiculares** às linhas de campo.\n- O trabalho para mover uma carga **sobre** uma equipotencial é **nulo**.\n- Para uma carga puntiforme, são **esferas concêntricas**; em campo uniforme, planos paralelos.\n- Um **condutor em equilíbrio** é um volume equipotencial: todos os seus pontos têm o mesmo potencial.\n\n### Potencial de uma esfera condutora\n- Fora: V = k Q / r.\n- Na superfície e em todo o interior: **V = k Q / R** (constante).\n\n### Aterramento\nLigar um condutor à Terra iguala seu potencial ao dela, tomado como **zero**.",
+      "revisao": "**Lembre:**\n- Gauss: fluxo em superfície fechada = carga interna / ε₀.\n- Plano infinito: campo não depende da distância.\n- V = kQ/r; potencial é escalar.\n- Campo uniforme: ΔV = E · d; campo aponta para onde V diminui.\n- Equipotenciais são perpendiculares às linhas de campo."
+    },
+    {
+      "id": "capacitores",
+      "nome": "Capacitores, corrente e circuitos",
+      "resumo": "### Capacitância\nCapacidade de armazenar carga por unidade de tensão:\n\n**C = Q / V** (unidade: **farad**, F)\n\n- **Capacitor de placas paralelas**: **C = ε₀ · A / d**. Aumenta com a **área** e diminui com a **distância** entre as placas.\n- A capacitância depende só da **geometria** e do material entre as placas.\n\n### Energia armazenada\n**U = ½ C V² = ½ Q V = Q² / (2C)**. A energia fica no **campo elétrico** entre as placas.\n\n### Dielétricos\nIsolante colocado entre as placas. **Multiplica a capacitância** pela **constante dielétrica** κ: C = κ · C₀. Também aumenta a tensão máxima suportada (**rigidez dielétrica**).\n\n### Associação de capacitores\n- **Em paralelo**: mesma **tensão**; **C_eq = C₁ + C₂ + ...** (soma direta).\n- **Em série**: mesma **carga**; **1/C_eq = 1/C₁ + 1/C₂ + ...**.\n- É o **contrário** dos resistores.\n\n### Corrente elétrica\nFluxo ordenado de cargas:\n\n**i = ΔQ / Δt** (unidade: **ampère**, A = C/s)\n\n- **Sentido convencional**: o das cargas **positivas** (do potencial maior para o menor), oposto ao movimento dos elétrons.\n- **Corrente contínua (CC)**: sentido constante. **Alternada (CA)**: o sentido se inverte periodicamente.\n- **Densidade de corrente**: J = i / A.\n\n### Resistência e leis de Ohm\n- **Primeira lei de Ohm**: **V = R · i**. Em um **condutor ôhmico**, R é constante.\n- **Segunda lei de Ohm**: **R = ρ · L / A**. A resistência cresce com o **comprimento** e diminui com a **área** da seção; ρ é a **resistividade** do material.\n- Unidade: **ohm (Ω)**.\n- Nos metais, a resistividade **aumenta com a temperatura**.\n- **Condutância**: G = 1/R (siemens).\n\n### Potência e efeito Joule\n- **P = V · i = R · i² = V² / R** (unidade: **watt**).\n- **Efeito Joule**: transformação de energia elétrica em **calor** em um resistor.\n- **Energia**: E = P · Δt. Na conta de luz, usa-se o **quilowatt-hora** (1 kWh = 3,6 × 10⁶ J).\n\n### Associação de resistores\n- **Em série**: mesma **corrente**; **R_eq = R₁ + R₂ + ...**; a tensão se divide.\n- **Em paralelo**: mesma **tensão**; **1/R_eq = 1/R₁ + 1/R₂ + ...**; a corrente se divide. A resistência equivalente é **menor** que a menor das resistências.\n- Dois resistores em paralelo: R_eq = R₁R₂ / (R₁ + R₂).\n\n### Geradores\n- **Força eletromotriz (fem, ε)**: energia fornecida por unidade de carga.\n- **Gerador real**: tem **resistência interna** r; **V = ε − r · i**.\n- **Curto-circuito**: i = ε / r.\n- **Receptor**: V = ε' + r · i.\n\n### Leis de Kirchhoff\n- **Lei dos nós (das correntes)**: a soma das correntes que **chegam** a um nó é igual à das que **saem** — conservação da **carga**.\n- **Lei das malhas (das tensões)**: a soma algébrica das **tensões** em um percurso fechado é **zero** — conservação da **energia**.\n\n### Instrumentos\n- **Amperímetro**: mede corrente; ligado em **série**; resistência interna ideal **nula**.\n- **Voltímetro**: mede tensão; ligado em **paralelo**; resistência interna ideal **infinita**.\n- **Ponte de Wheatstone**: mede resistência desconhecida; em equilíbrio, os produtos das resistências opostas são iguais.\n\n### Circuito RC\nResistor e capacitor em série.\n- **Constante de tempo**: **τ = R · C**.\n- **Carga**: q(t) = Q(1 − e^(−t/τ)); após um τ, o capacitor tem cerca de **63%** da carga final.\n- **Descarga**: q(t) = Q · e^(−t/τ).\n- Capacitor carregado, em CC, comporta-se como **circuito aberto**.",
+      "revisao": "**Lembre:**\n- C = Q/V; placas paralelas: C = ε₀A/d; dielétrico aumenta C.\n- Capacitores: paralelo soma; série soma os inversos (oposto dos resistores).\n- V = R·i; R = ρL/A; P = V·i.\n- Kirchhoff: nós (carga) e malhas (energia).\n- Amperímetro em série; voltímetro em paralelo; τ = RC."
+    },
+    {
+      "id": "magnetismo",
+      "nome": "Campo magnético e forças magnéticas",
+      "resumo": "### Ímãs e campo magnético\n- Todo ímã tem dois polos: **norte** e **sul**. Polos iguais se repelem; diferentes se atraem.\n- **Inseparabilidade dos polos**: partir um ímã gera dois ímãs completos. **Não existem monopolos magnéticos**.\n- **Campo magnético (B)**: unidade **tesla (T)**; 1 T = 10⁴ gauss.\n- **Linhas de campo**: saem do **norte** e entram no **sul** por fora do ímã; são **fechadas**.\n- **Lei de Gauss do magnetismo**: o fluxo magnético total em uma superfície fechada é **zero**.\n- A Terra tem campo magnético; o polo norte geográfico fica próximo de um polo **sul** magnético.\n\n### Força magnética sobre uma carga\n**F = |q| · v · B · sen θ** (θ: ângulo entre a velocidade e o campo)\n\n- Só age sobre cargas **em movimento**.\n- É **nula** se a velocidade for **paralela** ao campo.\n- É **perpendicular** à velocidade e ao campo: direção dada pela **regra da mão direita** (para carga positiva; inverte-se para negativa).\n- Como é perpendicular à velocidade, **não realiza trabalho**: muda a **direção**, não o módulo da velocidade.\n- **Força de Lorentz**: F = q(E + v × B).\n\n### Movimento em campo uniforme\n- Velocidade **perpendicular** ao campo: **movimento circular uniforme**.\n  - **Raio**: **r = m · v / (|q| · B)**.\n  - **Período**: T = 2πm / (|q|B), **independente da velocidade**.\n- Velocidade **oblíqua**: trajetória **helicoidal**.\n- Velocidade **paralela**: movimento retilíneo uniforme.\n- Aplicações: **espectrômetro de massa**, **cíclotron**, **seletor de velocidades** (v = E/B) e **efeito Hall**.\n\n### Força sobre um fio com corrente\n**F = B · i · L · sen θ**. Sentido pela regra da mão direita. É o princípio do **motor elétrico**.\n- **Espira em campo magnético**: sofre **torque** τ = N · i · A · B · sen θ.\n- **Momento de dipolo magnético**: μ = N · i · A.\n\n### Campo criado por correntes\n- **Experiência de Oersted** (1820): uma corrente elétrica desvia a agulha de uma bússola — eletricidade e magnetismo estão ligados.\n- **Lei de Biot-Savart**: campo de um elemento de corrente.\n- **Lei de Ampère**: **∮ B · dl = μ₀ · i_int**. A circulação do campo em um caminho fechado é proporcional à corrente que o atravessa.\n- μ₀ = 4π × 10⁻⁷ T·m/A: **permeabilidade do vácuo**.\n\n**Resultados importantes**\n- **Fio retilíneo longo**: **B = μ₀ · i / (2π r)**. As linhas são **circunferências** em torno do fio; sentido pela **regra da mão direita** (polegar na corrente, dedos no campo).\n- **Centro de espira circular**: B = μ₀ · i / (2R).\n- **Solenoide**: **B = μ₀ · n · i** (n: espiras por unidade de comprimento); campo **uniforme** no interior e quase nulo fora.\n- **Toroide**: B = μ₀ N i / (2π r).\n\n### Força entre fios paralelos\n- Correntes de **mesmo sentido**: os fios **se atraem**.\n- Correntes de **sentidos opostos**: **se repelem**.\n- F/L = μ₀ i₁ i₂ / (2π d).\n\n### Materiais magnéticos\n- **Ferromagnéticos** (ferro, níquel, cobalto): fortemente atraídos; têm **domínios magnéticos** e podem ficar imantados. Perdem a propriedade acima da **temperatura de Curie**. Apresentam **histerese**.\n- **Paramagnéticos** (alumínio): fracamente atraídos.\n- **Diamagnéticos** (cobre, água): fracamente **repelidos**.\n- **Eletroímã**: solenoide com núcleo de ferro; campo intenso e controlável.",
+      "revisao": "**Lembre:**\n- Não existem monopolos magnéticos; linhas de B são fechadas.\n- F = qvB sen θ; a força magnética não realiza trabalho.\n- Raio da trajetória circular: r = mv / (qB).\n- Fio longo: B = μ₀i / (2πr); solenoide: B = μ₀ n i.\n- Correntes paralelas no mesmo sentido se atraem."
+    },
+    {
+      "id": "inducao",
+      "nome": "Indução eletromagnética e corrente alternada",
+      "resumo": "### Fluxo magnético\n**Φ = B · A · cos θ** (unidade: **weber**, Wb = T·m²).\n\n### Lei de Faraday\nUma **variação do fluxo magnético** através de um circuito induz uma **força eletromotriz**:\n\n**ε = −N · ΔΦ / Δt**\n\n- O fluxo pode variar por mudança do **campo**, da **área** ou da **orientação**.\n- Fluxo constante **não** induz corrente.\n\n### Lei de Lenz\nA corrente induzida tem sentido tal que seu campo magnético **se opõe à variação do fluxo** que a produziu. É o sinal negativo da lei de Faraday e expressa a **conservação da energia**.\n- Ímã **se aproximando** da espira: a espira cria um polo **igual**, que o repele.\n- Ímã **se afastando**: cria um polo **oposto**, que o atrai.\n\n### Fem de movimento\nBarra condutora de comprimento L que se move com velocidade v, perpendicular a um campo B: **ε = B · L · v**.\n\n### Correntes de Foucault\nCorrentes induzidas em **massas metálicas**; dissipam energia por efeito Joule. Úteis em **freios magnéticos** e **fogões de indução**; indesejáveis em transformadores, cujos núcleos são **laminados** para reduzi-las.\n\n### Indutância\n- **Autoindutância (L)**: um circuito induz fem em si mesmo quando sua corrente varia: **ε = −L · di/dt**. Unidade: **henry (H)**.\n- **Indutor (bobina)**: opõe-se a **variações** da corrente.\n- **Energia armazenada**: **U = ½ L i²**, no campo magnético.\n- **Circuito RL**: constante de tempo **τ = L / R**.\n- **Circuito LC**: oscila com frequência angular **ω = 1/√(LC)**; a energia alterna entre o capacitor e o indutor.\n\n### Gerador e motor\n- **Gerador (alternador)**: uma espira gira em um campo magnético; o fluxo varia e surge fem **alternada**: ε = N B A ω sen(ωt). Converte energia **mecânica** em **elétrica**.\n- **Motor**: o inverso — converte energia elétrica em mecânica.\n\n### Transformador\nDuas bobinas (primário e secundário) no mesmo núcleo de ferro. Funciona por **indução mútua** e **só com corrente alternada**.\n\n**V₁ / V₂ = N₁ / N₂**\n\n- **Elevador**: mais espiras no secundário; aumenta a tensão.\n- **Abaixador**: menos espiras no secundário.\n- No transformador ideal, a potência se conserva: **V₁ · i₁ = V₂ · i₂**. Se a tensão sobe, a corrente desce.\n- **Transmissão de energia**: usa-se **alta tensão** e baixa corrente para reduzir as perdas por efeito Joule nos fios (P = R i²).\n\n### Corrente alternada\n- Tensão: v(t) = V_máx · sen(ωt), com ω = 2πf. No Brasil, **f = 60 Hz**.\n- **Valor eficaz (RMS)**: **V_ef = V_máx / √2**. É o valor que produz o mesmo aquecimento que uma tensão contínua. Uma tomada de \"127 V\" tem pico de cerca de 180 V.\n\n### Comportamento dos elementos em CA\n| Elemento | Oposição | Fase |\n|---|---|---|\n| **Resistor** | R | Corrente e tensão **em fase** |\n| **Indutor** | Reatância indutiva **X_L = ωL** | Corrente **atrasada** de 90° |\n| **Capacitor** | Reatância capacitiva **X_C = 1/(ωC)** | Corrente **adiantada** de 90° |\n\n- A reatância indutiva **cresce** com a frequência; a capacitiva **diminui**.\n\n### Circuito RLC em série\n- **Impedância**: **Z = √(R² + (X_L − X_C)²)**; V = Z · i.\n- **Ressonância**: quando **X_L = X_C**, isto é, **ω₀ = 1/√(LC)**. A impedância é mínima (Z = R) e a corrente é **máxima**. Princípio da sintonia de rádios.\n- **Potência média**: P = V_ef · i_ef · cos φ; **cos φ** é o **fator de potência**.",
+      "revisao": "**Lembre:**\n- Faraday: fem = −N ΔΦ/Δt; só há indução se o fluxo variar.\n- Lenz: a corrente induzida se opõe à variação do fluxo.\n- Transformador: V₁/V₂ = N₁/N₂; só funciona em corrente alternada.\n- Valor eficaz: V_máx / √2.\n- Ressonância RLC: X_L = X_C, corrente máxima."
+    },
+    {
+      "id": "maxwell",
+      "nome": "Equações de Maxwell e ondas eletromagnéticas",
+      "resumo": "### As quatro equações de Maxwell\nResumem todo o eletromagnetismo clássico.\n\n| Lei | Enunciado | Significado |\n|---|---|---|\n| **Gauss (elétrica)** | ∮ E · dA = Q_int / ε₀ | Cargas elétricas **criam** campo elétrico |\n| **Gauss (magnética)** | ∮ B · dA = 0 | **Não existem monopolos** magnéticos |\n| **Faraday** | ∮ E · dl = −dΦ_B/dt | Campo magnético **variável** cria campo elétrico |\n| **Ampère-Maxwell** | ∮ B · dl = μ₀ i + μ₀ ε₀ dΦ_E/dt | Corrente e campo elétrico **variável** criam campo magnético |\n\n### Corrente de deslocamento\nMaxwell acrescentou à lei de Ampère o termo **ε₀ dΦ_E/dt**: um **campo elétrico variável** também gera campo magnético, mesmo sem corrente de cargas (como entre as placas de um capacitor que se carrega). Esse termo torna a teoria coerente e **prevê as ondas eletromagnéticas**.\n\n### Ondas eletromagnéticas\nUm campo elétrico variável gera um campo magnético variável, que por sua vez gera campo elétrico: os dois se sustentam e **se propagam**.\n- São ondas **transversais**: **E** e **B** são **perpendiculares entre si** e à **direção de propagação**.\n- **Não precisam de meio material**: propagam-se no vácuo.\n- São produzidas por **cargas aceleradas**.\n- Os campos oscilam **em fase**, e E = c · B.\n- **Hertz** confirmou experimentalmente sua existência (1887).\n\n### Velocidade\nNo vácuo, todas viajam com a mesma velocidade:\n\n**c = 1 / √(μ₀ ε₀) ≈ 3 × 10⁸ m/s**\n\n- Maxwell concluiu que a **luz é uma onda eletromagnética**.\n- Relação fundamental: **c = λ · f**.\n- Em um meio material, a velocidade é menor: v = c / n (n: índice de refração).\n\n### Espectro eletromagnético\nEm ordem **crescente de frequência** (e decrescente de comprimento de onda):\n\n**ondas de rádio → micro-ondas → infravermelho → luz visível → ultravioleta → raios X → raios gama**\n\n- **Rádio**: comunicações, TV.\n- **Micro-ondas**: fornos, radar, celular, Wi-Fi.\n- **Infravermelho**: calor, controles remotos.\n- **Visível**: de cerca de **400 nm (violeta)** a **700 nm (vermelho)**.\n- **Ultravioleta**: bronzeamento, esterilização.\n- **Raios X**: radiografias.\n- **Raios gama**: origem nuclear; radioterapia.\n- Quanto **maior a frequência**, **maior a energia** do fóton (E = h · f). As radiações de alta frequência (UV distante, X e gama) são **ionizantes**.\n\n### Energia e intensidade\n- **Vetor de Poynting**: **S = (1/μ₀) E × B**; indica a direção e a taxa de transporte de energia.\n- **Intensidade**: potência por unidade de área (W/m²). Para fonte puntiforme, cai com o **quadrado da distância**: I = P / (4π r²).\n- A onda transporta também **momento linear**: exerce **pressão de radiação**.\n\n### Polarização\nPropriedade exclusiva das ondas **transversais**: restringe a direção de oscilação do campo elétrico.\n- **Luz não polarizada**: oscila em todas as direções perpendiculares à propagação.\n- **Polarizador**: deixa passar só uma direção; a intensidade da luz não polarizada cai à **metade**.\n- **Lei de Malus**: **I = I₀ · cos² θ**.\n- Aplicações: óculos de sol, telas de cristal líquido.\n\n### Fenômenos ondulatórios\n**Reflexão**, **refração** (lei de Snell), **difração**, **interferência** e **polarização** — todos valem para a luz.\n\n### Importância\nAs equações de Maxwell unificaram **eletricidade, magnetismo e óptica** e são a base da tecnologia de comunicações. Sua compatibilidade com a constância da velocidade da luz levou à **relatividade restrita** de Einstein.",
+      "revisao": "**Lembre:**\n- Quatro equações: Gauss elétrica, Gauss magnética, Faraday e Ampère-Maxwell.\n- Corrente de deslocamento: campo elétrico variável gera campo magnético.\n- Onda eletromagnética: E e B perpendiculares, transversal, propaga-se no vácuo.\n- c = λf ≈ 3 × 10⁸ m/s; a luz é onda eletromagnética.\n- Espectro: rádio, micro-ondas, infravermelho, visível, ultravioleta, X e gama."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "fisica-3-1",
+      "topico": "eletrostatica",
+      "nivel": "conceitual",
+      "pergunta": "Pela lei de Coulomb, se a distância entre duas cargas puntiformes dobra, a força elétrica entre elas:",
+      "opcoes": [
+        "Reduz-se a um quarto",
+        "Reduz-se à metade",
+        "Dobra",
+        "Não se altera"
+      ],
+      "correta": 0,
+      "explicacao": "A força é inversamente proporcional ao quadrado da distância entre as cargas."
+    },
+    {
+      "id": "fisica-3-2",
+      "topico": "eletrostatica",
+      "nivel": "conceitual",
+      "pergunta": "As linhas de campo elétrico:",
+      "opcoes": [
+        "Saem das cargas negativas e chegam às positivas",
+        "Saem das cargas positivas e chegam às negativas",
+        "Cruzam-se nos pontos de campo intenso",
+        "São sempre circulares"
+      ],
+      "correta": 1,
+      "explicacao": "O campo é tangente à linha em cada ponto, e linhas mais próximas indicam campo mais intenso."
+    },
+    {
+      "id": "fisica-3-3",
+      "topico": "eletrostatica",
+      "nivel": "conceitual",
+      "pergunta": "No interior de um condutor em equilíbrio eletrostático, o campo elétrico é:",
+      "opcoes": [
+        "Máximo",
+        "Igual ao da superfície",
+        "Nulo",
+        "Proporcional à carga"
+      ],
+      "correta": 2,
+      "explicacao": "A carga em excesso distribui-se pela superfície externa do condutor."
+    },
+    {
+      "id": "fisica-3-4",
+      "topico": "eletrostatica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma esfera condutora com carga de +8 μC toca outra idêntica, inicialmente neutra, e depois são separadas. A carga final de cada uma é:",
+      "opcoes": [
+        "+8 μC",
+        "0",
+        "+16 μC",
+        "+4 μC"
+      ],
+      "correta": 3,
+      "explicacao": "Em esferas idênticas, a carga total se conserva e se divide igualmente."
+    },
+    {
+      "id": "fisica-3-5",
+      "topico": "eletrostatica",
+      "nivel": "analise",
+      "pergunta": "Por que uma pessoa dentro de um carro fica protegida durante uma descarga elétrica atmosférica?",
+      "opcoes": [
+        "Porque a carroceria metálica funciona como blindagem, mantendo nulo o campo elétrico no interior",
+        "Porque os pneus de borracha isolam o carro do solo",
+        "Porque o raio nunca atinge veículos",
+        "Porque o vidro é condutor"
+      ],
+      "correta": 0,
+      "explicacao": "É o princípio da gaiola de Faraday: as cargas ficam na superfície externa do condutor."
+    },
+    {
+      "id": "fisica-3-6",
+      "topico": "gauss",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a lei de Gauss, o fluxo elétrico através de uma superfície fechada depende:",
+      "opcoes": [
+        "Do formato da superfície",
+        "Apenas da carga total em seu interior",
+        "Das cargas externas à superfície",
+        "Do tamanho da superfície"
+      ],
+      "correta": 1,
+      "explicacao": "Cargas situadas fora da superfície não alteram o fluxo total através dela."
+    },
+    {
+      "id": "fisica-3-7",
+      "topico": "gauss",
+      "nivel": "conceitual",
+      "pergunta": "O potencial elétrico é uma grandeza:",
+      "opcoes": [
+        "Vetorial, medida em newtons",
+        "Vetorial, medida em volts por metro",
+        "Escalar, medida em volts",
+        "Escalar, medida em coulombs"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso os potenciais de várias cargas se somam algebricamente."
+    },
+    {
+      "id": "fisica-3-8",
+      "topico": "gauss",
+      "nivel": "conceitual",
+      "pergunta": "As superfícies equipotenciais são, em relação às linhas de campo elétrico:",
+      "opcoes": [
+        "Paralelas",
+        "Coincidentes",
+        "Oblíquas a 45 graus",
+        "Perpendiculares"
+      ],
+      "correta": 3,
+      "explicacao": "Deslocar uma carga sobre uma equipotencial não exige trabalho da força elétrica."
+    },
+    {
+      "id": "fisica-3-9",
+      "topico": "gauss",
+      "nivel": "aplicacao",
+      "pergunta": "Entre duas placas paralelas separadas por 2 cm existe um campo elétrico uniforme de 500 V/m. A diferença de potencial entre as placas é de:",
+      "opcoes": [
+        "10 V",
+        "250 V",
+        "1.000 V",
+        "25.000 V"
+      ],
+      "correta": 0,
+      "explicacao": "Em campo uniforme, a ddp é o produto do campo pela distância: 500 × 0,02."
+    },
+    {
+      "id": "fisica-3-10",
+      "topico": "gauss",
+      "nivel": "analise",
+      "pergunta": "Por que o campo elétrico de um plano infinito carregado não depende da distância ao plano?",
+      "opcoes": [
+        "Porque o plano não tem carga",
+        "Porque, pela simetria, as linhas de campo são paralelas e não se espalham com a distância",
+        "Porque a lei de Gauss não se aplica a planos",
+        "Porque o potencial é constante em todo o espaço"
+      ],
+      "correta": 1,
+      "explicacao": "Como as linhas não divergem, a densidade delas permanece a mesma em qualquer ponto."
+    },
+    {
+      "id": "fisica-3-11",
+      "topico": "capacitores",
+      "nivel": "conceitual",
+      "pergunta": "Dois capacitores associados em paralelo têm capacitância equivalente igual a:",
+      "opcoes": [
+        "O inverso da soma dos inversos",
+        "O produto das capacitâncias",
+        "A soma das capacitâncias",
+        "A menor das capacitâncias"
+      ],
+      "correta": 2,
+      "explicacao": "A regra é oposta à dos resistores, que se somam quando estão em série."
+    },
+    {
+      "id": "fisica-3-12",
+      "topico": "capacitores",
+      "nivel": "conceitual",
+      "pergunta": "Pela segunda lei de Ohm, a resistência de um fio:",
+      "opcoes": [
+        "Diminui com o comprimento",
+        "Aumenta com a área da seção",
+        "Não depende do material",
+        "Aumenta com o comprimento e diminui com a área da seção"
+      ],
+      "correta": 3,
+      "explicacao": "A constante de proporcionalidade é a resistividade do material."
+    },
+    {
+      "id": "fisica-3-13",
+      "topico": "capacitores",
+      "nivel": "conceitual",
+      "pergunta": "A lei dos nós de Kirchhoff expressa a conservação da:",
+      "opcoes": [
+        "Carga elétrica",
+        "Energia",
+        "Massa",
+        "Quantidade de movimento"
+      ],
+      "correta": 0,
+      "explicacao": "A lei das malhas, por sua vez, expressa a conservação da energia."
+    },
+    {
+      "id": "fisica-3-14",
+      "topico": "capacitores",
+      "nivel": "aplicacao",
+      "pergunta": "Um chuveiro ligado em 220 V é percorrido por uma corrente de 20 A. Sua potência é de:",
+      "opcoes": [
+        "11 W",
+        "4.400 W",
+        "440 W",
+        "2.200 W"
+      ],
+      "correta": 1,
+      "explicacao": "A potência elétrica é o produto da tensão pela corrente: 220 × 20."
+    },
+    {
+      "id": "fisica-3-15",
+      "topico": "capacitores",
+      "nivel": "analise",
+      "pergunta": "Por que o amperímetro deve ter resistência interna muito pequena?",
+      "opcoes": [
+        "Porque é ligado em paralelo com o circuito",
+        "Para aumentar a tensão do circuito",
+        "Porque é ligado em série e não deve alterar a corrente que pretende medir",
+        "Para dissipar mais calor"
+      ],
+      "correta": 2,
+      "explicacao": "Uma resistência elevada em série reduziria a corrente do circuito."
+    },
+    {
+      "id": "fisica-3-16",
+      "topico": "magnetismo",
+      "nivel": "conceitual",
+      "pergunta": "A força magnética sobre uma carga que se move paralelamente ao campo magnético é:",
+      "opcoes": [
+        "Máxima",
+        "Igual ao peso da carga",
+        "Perpendicular ao campo e não nula",
+        "Nula"
+      ],
+      "correta": 3,
+      "explicacao": "A força depende do seno do ângulo entre a velocidade e o campo."
+    },
+    {
+      "id": "fisica-3-17",
+      "topico": "magnetismo",
+      "nivel": "conceitual",
+      "pergunta": "A experiência de Oersted mostrou que:",
+      "opcoes": [
+        "Uma corrente elétrica produz campo magnético",
+        "Ímãs podem ser separados em monopolos",
+        "A luz é uma onda",
+        "Cargas em repouso sofrem força magnética"
+      ],
+      "correta": 0,
+      "explicacao": "A agulha de uma bússola desviou-se ao ser aproximada de um fio com corrente."
+    },
+    {
+      "id": "fisica-3-18",
+      "topico": "magnetismo",
+      "nivel": "conceitual",
+      "pergunta": "Dois fios paralelos percorridos por correntes de mesmo sentido:",
+      "opcoes": [
+        "Repelem-se",
+        "Atraem-se",
+        "Não interagem",
+        "Giram em torno um do outro"
+      ],
+      "correta": 1,
+      "explicacao": "Com correntes em sentidos opostos, a força entre eles é de repulsão."
+    },
+    {
+      "id": "fisica-3-19",
+      "topico": "magnetismo",
+      "nivel": "aplicacao",
+      "pergunta": "Uma partícula carregada entra em um campo magnético uniforme com velocidade perpendicular a ele. Se sua velocidade dobrar, o raio da trajetória circular:",
+      "opcoes": [
+        "Cai à metade",
+        "Não se altera",
+        "Dobra",
+        "Quadruplica"
+      ],
+      "correta": 2,
+      "explicacao": "O raio é diretamente proporcional à velocidade: r = mv / (qB)."
+    },
+    {
+      "id": "fisica-3-20",
+      "topico": "magnetismo",
+      "nivel": "analise",
+      "pergunta": "Por que a força magnética não altera o módulo da velocidade de uma partícula carregada?",
+      "opcoes": [
+        "Porque é sempre nula",
+        "Porque atua no mesmo sentido da velocidade",
+        "Porque depende da massa da partícula",
+        "Porque é sempre perpendicular à velocidade e, portanto, não realiza trabalho"
+      ],
+      "correta": 3,
+      "explicacao": "Sem trabalho, a energia cinética não muda; só a direção do movimento se altera."
+    },
+    {
+      "id": "fisica-3-21",
+      "topico": "inducao",
+      "nivel": "conceitual",
+      "pergunta": "Pela lei de Faraday, surge força eletromotriz induzida em uma espira quando:",
+      "opcoes": [
+        "O fluxo magnético através dela varia",
+        "O fluxo magnético é constante e intenso",
+        "A espira está em repouso num campo uniforme e constante",
+        "Não há campo magnético"
+      ],
+      "correta": 0,
+      "explicacao": "A variação pode vir do campo, da área ou da orientação da espira."
+    },
+    {
+      "id": "fisica-3-22",
+      "topico": "inducao",
+      "nivel": "conceitual",
+      "pergunta": "A lei de Lenz afirma que a corrente induzida:",
+      "opcoes": [
+        "Reforça a variação do fluxo",
+        "Opõe-se à variação do fluxo que a produziu",
+        "Tem sempre o sentido horário",
+        "Independe da variação do fluxo"
+      ],
+      "correta": 1,
+      "explicacao": "Ela é consequência do princípio da conservação da energia."
+    },
+    {
+      "id": "fisica-3-23",
+      "topico": "inducao",
+      "nivel": "conceitual",
+      "pergunta": "O transformador funciona apenas com corrente alternada porque:",
+      "opcoes": [
+        "A corrente contínua não passa por fios",
+        "A corrente alternada não gera campo magnético",
+        "Precisa de fluxo magnético variável para induzir tensão no secundário",
+        "O núcleo de ferro bloqueia a corrente contínua"
+      ],
+      "correta": 2,
+      "explicacao": "Uma corrente contínua produz fluxo constante, que não induz força eletromotriz."
+    },
+    {
+      "id": "fisica-3-24",
+      "topico": "inducao",
+      "nivel": "aplicacao",
+      "pergunta": "Um transformador ideal tem 1.000 espiras no primário e 100 no secundário. Ligado a 220 V, a tensão no secundário será de:",
+      "opcoes": [
+        "2.200 V",
+        "220 V",
+        "110 V",
+        "22 V"
+      ],
+      "correta": 3,
+      "explicacao": "A razão entre as tensões é igual à razão entre os números de espiras."
+    },
+    {
+      "id": "fisica-3-25",
+      "topico": "inducao",
+      "nivel": "analise",
+      "pergunta": "Por que a energia elétrica é transmitida a longas distâncias em alta tensão?",
+      "opcoes": [
+        "Porque, para a mesma potência, a corrente fica menor e as perdas por efeito Joule nos fios diminuem",
+        "Porque a alta tensão aumenta a corrente",
+        "Porque os fios ficam mais grossos",
+        "Porque a alta tensão é mais segura para as pessoas"
+      ],
+      "correta": 0,
+      "explicacao": "A potência dissipada nos fios é proporcional ao quadrado da corrente."
+    },
+    {
+      "id": "fisica-3-26",
+      "topico": "maxwell",
+      "nivel": "conceitual",
+      "pergunta": "A lei de Gauss para o magnetismo afirma que:",
+      "opcoes": [
+        "Cargas elétricas criam campo magnético",
+        "Não existem monopolos magnéticos",
+        "O fluxo magnético é sempre máximo",
+        "Correntes criam campo elétrico"
+      ],
+      "correta": 1,
+      "explicacao": "O fluxo magnético total através de qualquer superfície fechada é zero."
+    },
+    {
+      "id": "fisica-3-27",
+      "topico": "maxwell",
+      "nivel": "conceitual",
+      "pergunta": "Nas ondas eletromagnéticas, os campos elétrico e magnético são:",
+      "opcoes": [
+        "Paralelos entre si",
+        "Paralelos à direção de propagação",
+        "Perpendiculares entre si e à direção de propagação",
+        "Independentes um do outro"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso essas ondas são classificadas como transversais."
+    },
+    {
+      "id": "fisica-3-28",
+      "topico": "maxwell",
+      "nivel": "conceitual",
+      "pergunta": "Entre as radiações abaixo, a de maior frequência é:",
+      "opcoes": [
+        "Micro-ondas",
+        "Luz visível",
+        "Ondas de rádio",
+        "Raios gama"
+      ],
+      "correta": 3,
+      "explicacao": "Quanto maior a frequência, maior a energia transportada por fóton."
+    },
+    {
+      "id": "fisica-3-29",
+      "topico": "maxwell",
+      "nivel": "aplicacao",
+      "pergunta": "Uma estação de rádio transmite em 100 MHz. O comprimento de onda dessa radiação, no ar, é de aproximadamente:",
+      "opcoes": [
+        "3 m",
+        "30 m",
+        "0,3 m",
+        "300 m"
+      ],
+      "correta": 0,
+      "explicacao": "Pela relação c = λf, divide-se 3 × 10⁸ m/s por 10⁸ Hz."
+    },
+    {
+      "id": "fisica-3-30",
+      "topico": "maxwell",
+      "nivel": "analise",
+      "pergunta": "Por que a corrente de deslocamento, introduzida por Maxwell, foi decisiva para a teoria eletromagnética?",
+      "opcoes": [
+        "Porque provou a existência de monopolos magnéticos",
+        "Porque mostrou que um campo elétrico variável gera campo magnético, permitindo prever as ondas eletromagnéticas",
+        "Porque eliminou a lei de Faraday",
+        "Porque demonstrou que a luz precisa de um meio material"
+      ],
+      "correta": 1,
+      "explicacao": "Com esse termo, campos elétricos e magnéticos variáveis passam a se sustentar mutuamente."
+    }
+  ]
+}
