@@ -1,0 +1,465 @@
+{
+  "id": "matematica-discreta",
+  "nome": "Matemática Discreta",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "logica",
+      "nome": "Lógica proposicional e de predicados",
+      "resumo": "### Proposição\nSentença declarativa que é **verdadeira (V) ou falsa (F)**, nunca as duas coisas.\n- São proposições: \"2 + 2 = 4\" (V), \"Paris fica na Itália\" (F).\n- **Não** são: perguntas, ordens, exclamações e sentenças abertas (\"x > 3\").\n\n### Conectivos\n| Conectivo | Símbolo | Lê-se | É verdadeiro quando |\n|---|---|---|---|\n| Negação | ¬p | não p | p é falsa |\n| Conjunção | p ∧ q | p **e** q | **as duas** são verdadeiras |\n| Disjunção | p ∨ q | p **ou** q | **ao menos uma** é verdadeira |\n| Disjunção exclusiva | p ⊕ q | ou p ou q | **exatamente uma** é verdadeira |\n| Condicional | p → q | se p, então q | só é **falsa** quando p é V e q é F |\n| Bicondicional | p ↔ q | p se e somente se q | as duas têm o **mesmo valor** |\n\n### Condicional em detalhe\nEm p → q: p é o **antecedente** (condição suficiente) e q é o **consequente** (condição necessária).\n- **Recíproca**: q → p.\n- **Inversa**: ¬p → ¬q.\n- **Contrapositiva**: ¬q → ¬p; é **equivalente** à condicional original.\n- p → q ≡ **¬p ∨ q**.\n- Negação: ¬(p → q) ≡ **p ∧ ¬q**.\n\n### Tabela-verdade\nLista todas as combinações de valores. Com **n** proposições simples, há **2ⁿ linhas**.\n- **Tautologia**: sempre verdadeira (p ∨ ¬p).\n- **Contradição**: sempre falsa (p ∧ ¬p).\n- **Contingência**: depende dos valores.\n\n### Equivalências importantes\n- **Leis de De Morgan**: ¬(p ∧ q) ≡ ¬p ∨ ¬q e ¬(p ∨ q) ≡ ¬p ∧ ¬q.\n- **Dupla negação**: ¬¬p ≡ p.\n- **Comutativa**, **associativa** e **distributiva**: p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r).\n- **Absorção**: p ∨ (p ∧ q) ≡ p.\n- **Idempotência**: p ∧ p ≡ p.\n\n### Regras de inferência\n- ***Modus ponens***: de p → q e p, conclui-se **q**.\n- ***Modus tollens***: de p → q e ¬q, conclui-se **¬p**.\n- **Silogismo hipotético**: de p → q e q → r, conclui-se p → r.\n- **Silogismo disjuntivo**: de p ∨ q e ¬p, conclui-se q.\n- **Falácias**: **afirmar o consequente** (de p → q e q, concluir p) e **negar o antecedente** (de p → q e ¬p, concluir ¬q).\n- **Argumento válido**: a conclusão é verdadeira **sempre que** as premissas forem.\n\n### Lógica de predicados\n- **Predicado**: sentença aberta que vira proposição quando a variável recebe valor: P(x) = \"x é par\".\n- **Quantificador universal** ∀x P(x): \"**para todo** x, P(x)\".\n- **Quantificador existencial** ∃x P(x): \"**existe** x tal que P(x)\".\n- **Negação dos quantificadores**:\n  - ¬∀x P(x) ≡ **∃x ¬P(x)** (\"nem todo\" = \"existe um que não\").\n  - ¬∃x P(x) ≡ **∀x ¬P(x)** (\"não existe\" = \"todo não\").\n- A **ordem** dos quantificadores diferentes importa: ∀x ∃y é diferente de ∃y ∀x.\n\n### Aplicações em computação\nCircuitos lógicos (portas AND, OR, NOT), condições em programas, consultas a bancos de dados e especificação formal.",
+      "revisao": "**Lembre:**\n- Condicional só é falsa em V → F.\n- Contrapositiva (¬q → ¬p) equivale à condicional.\n- De Morgan: negar \"e\" vira \"ou\" das negações, e vice-versa.\n- Modus ponens e modus tollens são válidos; afirmar o consequente é falácia.\n- Negar \"para todo\" dá \"existe um que não\"."
+    },
+    {
+      "id": "conjuntos",
+      "nome": "Conjuntos, relações e funções",
+      "resumo": "### Conjuntos\nColeção de elementos **distintos**, sem ordem.\n- **Pertinência**: a ∈ A.\n- **Subconjunto**: A ⊆ B se todo elemento de A está em B. **Próprio**: A ⊂ B, com A ≠ B.\n- **Conjunto vazio** ∅: subconjunto de todo conjunto.\n- **Cardinalidade** |A|: número de elementos.\n- **Conjunto das partes** P(A): todos os subconjuntos de A; tem **2ⁿ** elementos se |A| = n.\n\n### Operações\n- **União** A ∪ B: elementos de A **ou** de B.\n- **Interseção** A ∩ B: elementos de A **e** de B. Se vazia, os conjuntos são **disjuntos**.\n- **Diferença** A − B: elementos de A que **não** estão em B.\n- **Complemento** Aᶜ: elementos do universo fora de A.\n- **Diferença simétrica** A △ B: em um ou outro, não em ambos.\n- **Produto cartesiano** A × B: pares ordenados (a, b); |A × B| = |A| · |B|.\n- **De Morgan**: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ e (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ.\n- **Princípio da inclusão-exclusão**: |A ∪ B| = |A| + |B| − |A ∩ B|.\n\n### Relações\nUma **relação binária** de A em B é um subconjunto de A × B. Propriedades de uma relação R **sobre A**:\n- **Reflexiva**: todo a se relaciona consigo (aRa).\n- **Simétrica**: se aRb, então bRa.\n- **Antissimétrica**: se aRb e bRa, então a = b.\n- **Transitiva**: se aRb e bRc, então aRc.\n\n### Relações especiais\n- **Relação de equivalência**: **reflexiva, simétrica e transitiva**. Divide o conjunto em **classes de equivalência**, que formam uma **partição**. Ex.: \"ter o mesmo resto na divisão por 3\".\n- **Relação de ordem parcial**: **reflexiva, antissimétrica e transitiva**. Ex.: ≤ nos números, ⊆ nos conjuntos, \"divide\" nos naturais. Representada pelo **diagrama de Hasse**.\n- **Ordem total**: ordem parcial em que quaisquer dois elementos são comparáveis.\n\n### Funções\nUma função f: A → B associa a **cada** elemento de A **exatamente um** elemento de B.\n- **Domínio** A, **contradomínio** B e **imagem** (valores efetivamente atingidos).\n- **Injetora** (um para um): elementos diferentes têm imagens diferentes.\n- **Sobrejetora**: a imagem é **todo** o contradomínio.\n- **Bijetora**: injetora **e** sobrejetora; tem **inversa**.\n- **Composição**: (g ∘ f)(x) = g(f(x)).\n- Funções úteis: **piso** ⌊x⌋ (maior inteiro ≤ x), **teto** ⌈x⌉ (menor inteiro ≥ x), módulo, fatorial, logaritmo.\n\n### Cardinalidade e infinito\n- Dois conjuntos têm a mesma cardinalidade se há **bijeção** entre eles.\n- **Enumerável (contável)**: pode ser posto em correspondência com os naturais. ℕ, ℤ e ℚ são enumeráveis.\n- **Não enumerável**: ℝ (provado pelo **argumento diagonal de Cantor**).\n\n### Princípio da casa dos pombos\nSe **n + 1** objetos são colocados em **n** caixas, ao menos uma caixa terá **dois ou mais** objetos. Ex.: em um grupo de 13 pessoas, ao menos duas fazem aniversário no mesmo mês.\n\n### Sequências e somatórios\n- **Progressão aritmética**: soma = n(a₁ + aₙ)/2.\n- **Progressão geométrica**: soma = a₁(qⁿ − 1)/(q − 1).\n- Soma dos n primeiros naturais: **n(n + 1)/2**.",
+      "revisao": "**Lembre:**\n- Conjunto das partes tem 2ⁿ elementos.\n- |A ∪ B| = |A| + |B| − |A ∩ B|.\n- Equivalência: reflexiva, simétrica, transitiva; ordem parcial troca simétrica por antissimétrica.\n- Injetora: imagens distintas; sobrejetora: cobre o contradomínio; bijetora: as duas.\n- Casa dos pombos: n + 1 objetos em n caixas repetem uma caixa."
+    },
+    {
+      "id": "provas",
+      "nome": "Técnicas de demonstração e indução",
+      "resumo": "### Vocabulário\n- **Teorema**: afirmação demonstrada.\n- **Axioma (postulado)**: aceito sem prova.\n- **Lema**: resultado auxiliar.\n- **Corolário**: consequência direta de um teorema.\n- **Conjectura**: afirmação que se acredita verdadeira, ainda sem prova.\n\n### Prova direta\nPara provar p → q: supõe-se p e, por passos lógicos, chega-se a q.\n- Ex.: \"se n é ímpar, então n² é ímpar\". Seja n = 2k + 1. Então n² = 4k² + 4k + 1 = 2(2k² + 2k) + 1, que é ímpar.\n\n### Prova por contraposição\nProva-se **¬q → ¬p**, que é equivalente a p → q.\n- Ex.: \"se n² é par, então n é par\". Contrapositiva: se n é ímpar, então n² é ímpar (já provado).\n\n### Prova por contradição (redução ao absurdo)\nSupõe-se a **negação** do que se quer provar e chega-se a uma **contradição**.\n- Ex. clássico: **√2 é irracional**. Supõe-se √2 = a/b, fração irredutível; conclui-se que a e b são ambos pares, o que contradiz a irredutibilidade.\n- Outro: existem **infinitos números primos** (Euclides).\n\n### Prova por casos (exaustão)\nDivide-se em casos que cobrem **todas** as possibilidades e prova-se cada um.\n\n### Contraexemplo\nPara **refutar** uma afirmação universal (\"para todo x...\"), basta **um** exemplo em que ela falha.\n- Ex.: \"todo número primo é ímpar\" é falso: 2 é primo e par.\n- Exemplos **não provam** afirmações universais.\n\n### Prova de existência\n- **Construtiva**: exibe o objeto.\n- **Não construtiva**: mostra que existe sem exibi-lo.\n- **Unicidade**: prova-se que existe e que é único.\n\n### Indução matemática\nUsada para provar que P(n) vale para **todo** natural n ≥ n₀.\n1. **Passo base**: provar P(n₀).\n2. **Passo indutivo**: supor P(k) (**hipótese de indução**) e provar **P(k + 1)**.\nConclusão: P(n) vale para todo n ≥ n₀. É como uma fileira de dominós: o primeiro cai, e cada um derruba o seguinte.\n\n**Exemplo**: 1 + 2 + ... + n = n(n + 1)/2.\n- Base (n = 1): 1 = 1·2/2. ✓\n- Passo: supondo 1 + ... + k = k(k + 1)/2, então 1 + ... + k + (k + 1) = k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2. ✓\n\n### Indução forte\nNo passo indutivo, supõe-se P(j) para **todo** j de n₀ até k, e prova-se P(k + 1). Útil quando o caso k + 1 depende de vários anteriores (ex.: todo inteiro maior que 1 é produto de primos).\n\n### Princípio da boa ordenação\nTodo conjunto **não vazio** de naturais tem um **menor elemento**. É equivalente à indução.\n\n### Recursão e definições recursivas\nDefine-se algo em termos de casos **menores** de si mesmo, com um **caso base**.\n- **Fatorial**: 0! = 1 e n! = n · (n − 1)!.\n- **Fibonacci**: F(0) = 0, F(1) = 1 e F(n) = F(n − 1) + F(n − 2).\n- **Indução estrutural**: prova propriedades de estruturas definidas recursivamente (árvores, listas).\n\n### Relações de recorrência\nEquação que define cada termo a partir dos anteriores.\n- Torre de Hanói: T(n) = 2T(n − 1) + 1, com solução **2ⁿ − 1**.\n- Busca binária: T(n) = T(n/2) + 1 → O(log n).\n- *Merge sort*: T(n) = 2T(n/2) + n → O(n log n).\n- Métodos de resolução: **substituição**, **árvore de recursão** e **teorema mestre**.\n\n### Correção de algoritmos\n**Invariante de laço**: propriedade verdadeira antes e depois de cada iteração; prova-se por indução.",
+      "revisao": "**Lembre:**\n- Direta: supõe p, chega a q.\n- Contraposição: prova ¬q → ¬p.\n- Contradição: supõe a negação e chega ao absurdo (√2 irracional).\n- Um contraexemplo derruba uma afirmação universal.\n- Indução: passo base e passo indutivo, de k para k + 1."
+    },
+    {
+      "id": "contagem",
+      "nome": "Análise combinatória e probabilidade discreta",
+      "resumo": "### Princípios básicos\n- **Princípio multiplicativo**: se uma tarefa tem m maneiras **e** outra, independente, tem n, as duas juntas têm **m · n** maneiras.\n- **Princípio aditivo**: se há m maneiras de fazer uma coisa **ou** n de fazer outra (excludentes), há **m + n** maneiras.\n\n### Fatorial\nn! = n · (n − 1) · ... · 2 · 1, com **0! = 1**.\n\n### Permutações\nOrdenações de todos os elementos.\n- **Simples**: Pₙ = **n!**. Ex.: anagramas de \"AMOR\" = 4! = 24.\n- **Com repetição**: n! / (a! · b! · ...). Ex.: anagramas de \"ARARA\" = 5! / (3! · 2!) = 10.\n- **Circular**: (n − 1)!.\n\n### Arranjos\nEscolha de p elementos entre n em que a **ordem importa**.\n**A(n, p) = n! / (n − p)!**\n- Ex.: pódio (1º, 2º e 3º) entre 10 atletas: 10 · 9 · 8 = 720.\n- **Com repetição**: nᵖ. Ex.: senhas de 4 dígitos: 10⁴.\n\n### Combinações\nEscolha de p elementos entre n em que a **ordem não importa**.\n**C(n, p) = n! / (p! · (n − p)!)**\n- Ex.: comissão de 3 pessoas entre 10: C(10, 3) = 120.\n- **Com repetição**: C(n + p − 1, p).\n- Propriedades: C(n, p) = C(n, n − p); C(n, 0) = C(n, n) = 1.\n\n### Arranjo ou combinação?\nPergunte: **trocar a ordem dos escolhidos muda o resultado?** Se sim, arranjo (senha, fila, cargos diferentes); se não, combinação (grupo, comissão, mão de cartas).\n\n### Binômio de Newton e triângulo de Pascal\n- (a + b)ⁿ = Σ C(n, k) · aⁿ⁻ᵏ · bᵏ.\n- Os **coeficientes binomiais** C(n, k) formam o **triângulo de Pascal**: cada número é a soma dos dois acima.\n- **Relação de Stifel**: C(n, k) = C(n − 1, k − 1) + C(n − 1, k).\n- A soma da linha n é **2ⁿ**.\n\n### Princípio da inclusão-exclusão\n|A ∪ B ∪ C| = |A| + |B| + |C| − |A ∩ B| − |A ∩ C| − |B ∩ C| + |A ∩ B ∩ C|.\n\n### Probabilidade discreta\n- **Espaço amostral** (Ω): todos os resultados possíveis.\n- **Evento**: subconjunto de Ω.\n- Com resultados **equiprováveis**: **P(A) = casos favoráveis / casos possíveis**.\n- 0 ≤ P(A) ≤ 1; P(Ω) = 1.\n- **Complementar**: P(Aᶜ) = 1 − P(A). Útil em \"pelo menos um\".\n- **União**: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Se **mutuamente exclusivos**, P(A ∩ B) = 0.\n- **Probabilidade condicional**: P(A | B) = P(A ∩ B) / P(B).\n- **Independentes**: P(A ∩ B) = P(A) · P(B).\n- **Teorema de Bayes**: P(A | B) = P(B | A) · P(A) / P(B).\n\n### Variável aleatória e esperança\n- **Valor esperado**: E(X) = Σ x · P(x).\n- **Distribuição binomial**: n tentativas independentes com probabilidade p de sucesso: P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ.\n\n### Aplicações\nContagem de senhas e endereços, análise de algoritmos, criptografia e teoria dos códigos.",
+      "revisao": "**Lembre:**\n- \"E\" multiplica; \"ou\" soma.\n- Permutação: n!; com repetição, divide pelos fatoriais das repetições.\n- Ordem importa: arranjo; não importa: combinação.\n- C(n, p) = n! / (p!(n − p)!).\n- P(A) = favoráveis / possíveis; \"pelo menos um\" usa o complementar."
+    },
+    {
+      "id": "grafos",
+      "nome": "Grafos e árvores",
+      "resumo": "### Definições\nUm **grafo** G = (V, E) é formado por um conjunto de **vértices** (nós) e um conjunto de **arestas** que os ligam.\n- **Não direcionado**: arestas sem sentido. **Direcionado (dígrafo)**: arestas com sentido (arcos).\n- **Ponderado**: as arestas têm **pesos** (custo, distância).\n- **Grau** de um vértice: número de arestas incidentes. Em dígrafos: **grau de entrada** e **de saída**.\n- **Laço**: aresta de um vértice a ele mesmo. **Arestas múltiplas**: mais de uma entre o mesmo par (multigrafo).\n- **Grafo simples**: sem laços nem arestas múltiplas.\n\n### Teorema do aperto de mãos\nA **soma dos graus** de todos os vértices é igual ao **dobro do número de arestas**. Consequência: o número de vértices de **grau ímpar** é sempre **par**.\n\n### Tipos de grafo\n- **Completo (Kₙ)**: todo par de vértices é ligado; tem **n(n − 1)/2** arestas.\n- **Bipartido**: os vértices se dividem em dois grupos, e toda aresta liga um grupo ao outro. Não tem ciclos de comprimento ímpar.\n- **Regular**: todos os vértices têm o mesmo grau.\n- **Conexo**: há caminho entre quaisquer dois vértices. Caso contrário, tem várias **componentes conexas**.\n- **Planar**: pode ser desenhado no plano sem cruzar arestas. **Fórmula de Euler**: V − E + F = 2.\n- **Subgrafo** e grafos **isomorfos** (mesma estrutura).\n\n### Caminhos e ciclos\n- **Caminho**: sequência de vértices ligados por arestas.\n- **Ciclo**: caminho que volta ao início.\n- **Acíclico**: sem ciclos. **DAG**: grafo direcionado acíclico.\n\n### Euler e Hamilton\n- **Circuito euleriano**: passa por **toda aresta exatamente uma vez** e volta ao início. Existe se, e somente se, o grafo é conexo e **todos os vértices têm grau par**. (Problema das **pontes de Königsberg**.)\n- **Caminho euleriano** (sem voltar ao início): existe se há exatamente **dois** vértices de grau ímpar.\n- **Ciclo hamiltoniano**: passa por **todo vértice exatamente uma vez**. Não há condição simples; decidir é problema **NP-completo**. Ligado ao **caixeiro-viajante**.\n\n### Representação\n- **Matriz de adjacência**: n × n; posição (i, j) indica se há aresta. Ocupa O(n²); boa para grafos **densos**.\n- **Lista de adjacência**: cada vértice guarda a lista de vizinhos. Ocupa O(V + E); boa para grafos **esparsos**.\n\n### Árvores\nGrafo **conexo e acíclico**.\n- Uma árvore com n vértices tem **n − 1 arestas**.\n- Há **exatamente um caminho** entre quaisquer dois vértices.\n- Remover uma aresta desconecta; acrescentar uma cria ciclo.\n- **Floresta**: conjunto de árvores.\n- **Árvore enraizada**: tem **raiz**, **pais**, **filhos**, **folhas** (sem filhos), **nível** e **altura**.\n- **Árvore binária**: cada nó tem no máximo **dois filhos**. Uma árvore binária de altura h tem no máximo **2ʰ⁺¹ − 1** nós.\n- **Percursos**: pré-ordem (raiz, esquerda, direita), em ordem (esquerda, raiz, direita) e pós-ordem (esquerda, direita, raiz).\n\n### Algoritmos\n- **Busca em largura (BFS)**: visita por níveis, usando **fila**; acha o menor caminho em número de arestas.\n- **Busca em profundidade (DFS)**: vai fundo antes de voltar, usando **pilha** ou recursão.\n- **Menor caminho**: **Dijkstra** (pesos não negativos), **Bellman-Ford** (aceita negativos) e **Floyd-Warshall** (todos os pares).\n- **Árvore geradora mínima**: conecta todos os vértices com o menor peso total; **Kruskal** (ordena as arestas) e **Prim** (cresce a partir de um vértice).\n- **Ordenação topológica**: ordena os vértices de um DAG respeitando as dependências.\n\n### Coloração\nAtribuir cores aos vértices de modo que **vizinhos tenham cores diferentes**. O menor número de cores é o **número cromático**. **Teorema das quatro cores**: todo grafo planar pode ser colorido com 4 cores. Aplicação: horários, alocação de registradores.\n\n### Aplicações\nRedes de computadores, mapas e rotas, redes sociais, dependências entre tarefas, circuitos.",
+      "revisao": "**Lembre:**\n- Soma dos graus = 2 × número de arestas.\n- Completo Kₙ: n(n − 1)/2 arestas.\n- Euleriano: toda aresta uma vez; exige graus pares. Hamiltoniano: todo vértice uma vez.\n- Árvore: conexa, acíclica, com n − 1 arestas.\n- BFS usa fila; DFS usa pilha; Dijkstra acha o menor caminho."
+    },
+    {
+      "id": "algebra",
+      "nome": "Álgebra booleana e teoria dos números",
+      "resumo": "### Álgebra booleana\nEstrutura com dois valores (**0 e 1**) e três operações: **E** (·, AND), **OU** (+, OR) e **NÃO** (complemento, NOT). É a base dos **circuitos digitais**.\n\n### Leis\n- **Identidade**: A + 0 = A; A · 1 = A.\n- **Elemento nulo**: A + 1 = 1; A · 0 = 0.\n- **Idempotência**: A + A = A; A · A = A.\n- **Complemento**: A + A' = 1; A · A' = 0.\n- **Involução**: (A')' = A.\n- **Comutativa**, **associativa** e **distributiva**: A · (B + C) = A·B + A·C e A + (B · C) = (A + B) · (A + C).\n- **Absorção**: A + A·B = A.\n- **De Morgan**: (A + B)' = A' · B' e (A · B)' = A' + B'.\n- **Princípio da dualidade**: trocando + por · e 0 por 1, obtém-se outra identidade válida.\n\n### Portas lógicas\n- **AND**: saída 1 só se **todas** as entradas forem 1.\n- **OR**: saída 1 se **alguma** entrada for 1.\n- **NOT**: inverte.\n- **NAND** e **NOR**: negações de AND e OR; são **universais** (com uma só delas se constrói qualquer circuito).\n- **XOR**: 1 quando as entradas são **diferentes**; **XNOR**: 1 quando são iguais.\n\n### Simplificação\n- **Forma normal disjuntiva** (soma de produtos, mintermos) e **conjuntiva** (produto de somas, maxtermos).\n- **Mapa de Karnaugh**: método gráfico para simplificar expressões com poucas variáveis, agrupando 1s vizinhos em blocos de potência de 2.\n- Menos portas significam circuito mais barato e rápido.\n\n### Sistemas de numeração\n- **Binário** (base 2), **octal** (base 8), **decimal** (base 10) e **hexadecimal** (base 16: 0 a 9 e A a F).\n- Decimal → binário: divisões sucessivas por 2, lendo os restos de baixo para cima. Ex.: 13 = 1101₂.\n- Cada dígito hexadecimal corresponde a **4 bits**: F = 1111.\n\n### Divisibilidade\n- a **divide** b (a | b) se b = a · k, para algum inteiro k.\n- **Algoritmo da divisão**: a = b · q + r, com 0 ≤ r < b.\n- **Número primo**: maior que 1, divisível só por 1 e por si mesmo.\n- **Teorema fundamental da aritmética**: todo inteiro maior que 1 se escreve de modo **único** como produto de primos.\n- **Crivo de Eratóstenes**: método para listar primos.\n\n### MDC e MMC\n- **MDC**: maior divisor comum. **Algoritmo de Euclides**: mdc(a, b) = mdc(b, a mod b), até o resto ser zero.\n  - Ex.: mdc(48, 18) = mdc(18, 12) = mdc(12, 6) = mdc(6, 0) = 6.\n- **Primos entre si (coprimos)**: mdc = 1.\n- **MMC**: menor múltiplo comum. mmc(a, b) = a · b / mdc(a, b).\n- **Identidade de Bézout**: existem inteiros x e y com a·x + b·y = mdc(a, b).\n\n### Aritmética modular\n- **a ≡ b (mod n)**: a e b têm o **mesmo resto** na divisão por n (n divide a − b).\n- É uma **relação de equivalência**; as classes são 0, 1, ..., n − 1.\n- Soma e produto respeitam a congruência: (a + b) mod n = ((a mod n) + (b mod n)) mod n.\n- **Inverso multiplicativo** de a módulo n existe se, e somente se, mdc(a, n) = 1.\n- **Pequeno teorema de Fermat**: se p é primo e não divide a, então aᵖ⁻¹ ≡ 1 (mod p).\n\n### Aplicações\n- **Criptografia RSA**: baseia-se na dificuldade de **fatorar** o produto de dois primos grandes; usa aritmética modular.\n- **Funções de *hash*** e tabelas de dispersão.\n- **Dígitos verificadores** (CPF, códigos de barras).\n- Geração de números pseudoaleatórios.\n\n### Linguagens formais e autômatos (noções)\n- **Alfabeto**, **cadeia** e **linguagem**.\n- **Autômato finito**: reconhece **linguagens regulares** (descritas por **expressões regulares**).\n- **Hierarquia de Chomsky**: regulares, livres de contexto, sensíveis ao contexto e recursivamente enumeráveis.\n- **Máquina de Turing**: modelo geral de computação.",
+      "revisao": "**Lembre:**\n- Álgebra booleana: E, OU e NÃO sobre 0 e 1.\n- De Morgan: (A + B)' = A' · B'.\n- NAND e NOR são portas universais.\n- Euclides: mdc(a, b) = mdc(b, a mod b).\n- a ≡ b (mod n): mesmo resto na divisão por n."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "matematica-discreta-1",
+      "topico": "logica",
+      "nivel": "conceitual",
+      "pergunta": "A condicional p → q é falsa apenas quando:",
+      "opcoes": [
+        "p é verdadeira e q é falsa",
+        "p é falsa e q é verdadeira",
+        "p e q são falsas",
+        "p e q são verdadeiras"
+      ],
+      "correta": 0,
+      "explicacao": "Em todos os outros casos, a condicional é considerada verdadeira."
+    },
+    {
+      "id": "matematica-discreta-2",
+      "topico": "logica",
+      "nivel": "conceitual",
+      "pergunta": "Pelas leis de De Morgan, ¬(p ∧ q) é equivalente a:",
+      "opcoes": [
+        "¬p ∧ ¬q",
+        "¬p ∨ ¬q",
+        "p ∨ q",
+        "p → q"
+      ],
+      "correta": 1,
+      "explicacao": "Negar uma conjunção resulta na disjunção das negações."
+    },
+    {
+      "id": "matematica-discreta-3",
+      "topico": "logica",
+      "nivel": "conceitual",
+      "pergunta": "A negação de 'todo aluno estuda' é:",
+      "opcoes": [
+        "Nenhum aluno estuda",
+        "Todo aluno não estuda",
+        "Existe aluno que não estuda",
+        "Existe aluno que estuda"
+      ],
+      "correta": 2,
+      "explicacao": "Negar o quantificador universal produz um existencial com o predicado negado."
+    },
+    {
+      "id": "matematica-discreta-4",
+      "topico": "logica",
+      "nivel": "aplicacao",
+      "pergunta": "Sabe-se que 'se chove, a rua fica molhada' e que 'a rua não está molhada'. Conclui-se validamente que:",
+      "opcoes": [
+        "Choveu",
+        "Nada se pode concluir",
+        "A rua está seca porque fez sol",
+        "Não choveu"
+      ],
+      "correta": 3,
+      "explicacao": "É a regra do modus tollens: de p → q e ¬q, conclui-se ¬p."
+    },
+    {
+      "id": "matematica-discreta-5",
+      "topico": "logica",
+      "nivel": "analise",
+      "pergunta": "Por que concluir 'choveu' a partir de 'se chove, a rua fica molhada' e 'a rua está molhada' é uma falácia?",
+      "opcoes": [
+        "Porque a rua pode ter se molhado por outro motivo; a condicional não garante a recíproca",
+        "Porque a premissa é sempre falsa",
+        "Porque o modus ponens proíbe conclusões",
+        "Porque condicionais não têm valor lógico"
+      ],
+      "correta": 0,
+      "explicacao": "O erro é conhecido como afirmação do consequente."
+    },
+    {
+      "id": "matematica-discreta-6",
+      "topico": "conjuntos",
+      "nivel": "conceitual",
+      "pergunta": "Se um conjunto A tem 4 elementos, o conjunto das partes de A tem:",
+      "opcoes": [
+        "8 elementos",
+        "16 elementos",
+        "4 elementos",
+        "24 elementos"
+      ],
+      "correta": 1,
+      "explicacao": "O conjunto das partes de um conjunto com n elementos tem 2 elevado a n elementos."
+    },
+    {
+      "id": "matematica-discreta-7",
+      "topico": "conjuntos",
+      "nivel": "conceitual",
+      "pergunta": "Uma relação de equivalência é:",
+      "opcoes": [
+        "Reflexiva, antissimétrica e transitiva",
+        "Apenas simétrica",
+        "Reflexiva, simétrica e transitiva",
+        "Irreflexiva e transitiva"
+      ],
+      "correta": 2,
+      "explicacao": "Ela divide o conjunto em classes de equivalência disjuntas."
+    },
+    {
+      "id": "matematica-discreta-8",
+      "topico": "conjuntos",
+      "nivel": "conceitual",
+      "pergunta": "Uma função é bijetora quando é:",
+      "opcoes": [
+        "Apenas injetora",
+        "Apenas sobrejetora",
+        "Constante",
+        "Injetora e sobrejetora"
+      ],
+      "correta": 3,
+      "explicacao": "Só as funções bijetoras possuem função inversa."
+    },
+    {
+      "id": "matematica-discreta-9",
+      "topico": "conjuntos",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma turma, 20 alunos gostam de futebol, 15 de vôlei e 8 dos dois. Quantos gostam de pelo menos um dos esportes?",
+      "opcoes": [
+        "27",
+        "35",
+        "43",
+        "23"
+      ],
+      "correta": 0,
+      "explicacao": "Pelo princípio da inclusão-exclusão: 20 + 15 − 8."
+    },
+    {
+      "id": "matematica-discreta-10",
+      "topico": "conjuntos",
+      "nivel": "analise",
+      "pergunta": "Por que, em qualquer grupo de 13 pessoas, ao menos duas fazem aniversário no mesmo mês?",
+      "opcoes": [
+        "Porque todos nascem em janeiro",
+        "Porque há 13 pessoas para apenas 12 meses, e pelo princípio da casa dos pombos algum mês se repete",
+        "Porque os aniversários são equiprováveis",
+        "Porque 13 é um número primo"
+      ],
+      "correta": 1,
+      "explicacao": "Com mais objetos do que caixas, alguma caixa recebe pelo menos dois."
+    },
+    {
+      "id": "matematica-discreta-11",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "Na prova por contradição, o primeiro passo é:",
+      "opcoes": [
+        "Supor que a conclusão é verdadeira",
+        "Testar alguns exemplos",
+        "Supor a negação do que se quer provar",
+        "Provar o caso base"
+      ],
+      "correta": 2,
+      "explicacao": "A partir dessa suposição, chega-se a um absurdo, o que mostra que ela é falsa."
+    },
+    {
+      "id": "matematica-discreta-12",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "Para refutar uma afirmação do tipo 'para todo x, P(x)', basta:",
+      "opcoes": [
+        "Apresentar vários exemplos favoráveis",
+        "Usar indução",
+        "Provar a recíproca",
+        "Apresentar um contraexemplo"
+      ],
+      "correta": 3,
+      "explicacao": "Um único caso em que a propriedade falha já torna a afirmação falsa."
+    },
+    {
+      "id": "matematica-discreta-13",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "A demonstração por indução matemática exige:",
+      "opcoes": [
+        "O passo base e o passo indutivo",
+        "Apenas a verificação de alguns casos",
+        "Somente a hipótese de indução",
+        "Uma tabela-verdade"
+      ],
+      "correta": 0,
+      "explicacao": "No passo indutivo, supõe-se a propriedade para k e prova-se para k + 1."
+    },
+    {
+      "id": "matematica-discreta-14",
+      "topico": "provas",
+      "nivel": "aplicacao",
+      "pergunta": "Quer-se provar que 'se n² é par, então n é par'. A estratégia mais simples é provar que:",
+      "opcoes": [
+        "Se n é par, então n² é par",
+        "Se n é ímpar, então n² é ímpar",
+        "n² é sempre par",
+        "n é sempre ímpar"
+      ],
+      "correta": 1,
+      "explicacao": "Trata-se da contrapositiva, que é logicamente equivalente à afirmação original."
+    },
+    {
+      "id": "matematica-discreta-15",
+      "topico": "provas",
+      "nivel": "analise",
+      "pergunta": "Por que verificar que uma fórmula vale para n = 1, 2, 3 e 4 não demonstra que ela vale para todo n?",
+      "opcoes": [
+        "Porque quatro casos são demais",
+        "Porque fórmulas nunca valem para todo n",
+        "Porque exemplos não cobrem os infinitos casos; é preciso o passo indutivo",
+        "Porque o caso base é dispensável"
+      ],
+      "correta": 2,
+      "explicacao": "Há conjecturas que funcionam em muitos casos iniciais e falham mais adiante."
+    },
+    {
+      "id": "matematica-discreta-16",
+      "topico": "contagem",
+      "nivel": "conceitual",
+      "pergunta": "O número de anagramas da palavra LIVRO é:",
+      "opcoes": [
+        "25",
+        "60",
+        "720",
+        "120"
+      ],
+      "correta": 3,
+      "explicacao": "São 5 letras distintas, logo 5! = 120 permutações."
+    },
+    {
+      "id": "matematica-discreta-17",
+      "topico": "contagem",
+      "nivel": "conceitual",
+      "pergunta": "Usa-se combinação, e não arranjo, quando:",
+      "opcoes": [
+        "A ordem dos elementos escolhidos não importa",
+        "A ordem dos elementos importa",
+        "Há repetição obrigatória",
+        "Todos os elementos são usados"
+      ],
+      "correta": 0,
+      "explicacao": "Formar uma comissão é um caso típico: trocar a ordem não muda o grupo."
+    },
+    {
+      "id": "matematica-discreta-18",
+      "topico": "contagem",
+      "nivel": "conceitual",
+      "pergunta": "Se A e B são eventos independentes, então P(A ∩ B) é igual a:",
+      "opcoes": [
+        "P(A) + P(B)",
+        "P(A) · P(B)",
+        "P(A) − P(B)",
+        "Zero"
+      ],
+      "correta": 1,
+      "explicacao": "A ocorrência de um evento não altera a probabilidade do outro."
+    },
+    {
+      "id": "matematica-discreta-19",
+      "topico": "contagem",
+      "nivel": "aplicacao",
+      "pergunta": "De quantas maneiras se pode escolher uma comissão de 2 pessoas em um grupo de 6?",
+      "opcoes": [
+        "30",
+        "12",
+        "15",
+        "36"
+      ],
+      "correta": 2,
+      "explicacao": "Como a ordem não importa, usa-se combinação: C(6, 2) = 6! / (2! · 4!) = 15."
+    },
+    {
+      "id": "matematica-discreta-20",
+      "topico": "contagem",
+      "nivel": "analise",
+      "pergunta": "Por que, para calcular a probabilidade de sair 'pelo menos uma cara' em três lançamentos de moeda, é mais fácil usar o evento complementar?",
+      "opcoes": [
+        "Porque o complementar tem probabilidade zero",
+        "Porque os lançamentos são dependentes",
+        "Porque não existe complementar nesse caso",
+        "Porque basta calcular a probabilidade de nenhuma cara e subtrair de 1"
+      ],
+      "correta": 3,
+      "explicacao": "A probabilidade de três coroas é 1/8; logo, a de pelo menos uma cara é 7/8."
+    },
+    {
+      "id": "matematica-discreta-21",
+      "topico": "grafos",
+      "nivel": "conceitual",
+      "pergunta": "Em qualquer grafo, a soma dos graus dos vértices é igual a:",
+      "opcoes": [
+        "O dobro do número de arestas",
+        "O número de arestas",
+        "O número de vértices",
+        "O quadrado do número de vértices"
+      ],
+      "correta": 0,
+      "explicacao": "Cada aresta contribui com uma unidade no grau de cada uma de suas duas pontas."
+    },
+    {
+      "id": "matematica-discreta-22",
+      "topico": "grafos",
+      "nivel": "conceitual",
+      "pergunta": "Uma árvore com 10 vértices tem:",
+      "opcoes": [
+        "10 arestas",
+        "9 arestas",
+        "11 arestas",
+        "45 arestas"
+      ],
+      "correta": 1,
+      "explicacao": "Toda árvore com n vértices tem exatamente n − 1 arestas."
+    },
+    {
+      "id": "matematica-discreta-23",
+      "topico": "grafos",
+      "nivel": "conceitual",
+      "pergunta": "A busca em largura (BFS) utiliza como estrutura auxiliar uma:",
+      "opcoes": [
+        "Pilha",
+        "Árvore binária",
+        "Fila",
+        "Tabela de dispersão"
+      ],
+      "correta": 2,
+      "explicacao": "A busca em profundidade, por sua vez, usa uma pilha ou recursão."
+    },
+    {
+      "id": "matematica-discreta-24",
+      "topico": "grafos",
+      "nivel": "aplicacao",
+      "pergunta": "Um grafo conexo tem todos os vértices com grau par. Pode-se afirmar que ele possui:",
+      "opcoes": [
+        "Um ciclo hamiltoniano, necessariamente",
+        "Nenhum ciclo",
+        "Exatamente uma aresta",
+        "Um circuito euleriano"
+      ],
+      "correta": 3,
+      "explicacao": "A condição de graus pares garante percorrer cada aresta uma única vez e voltar ao início."
+    },
+    {
+      "id": "matematica-discreta-25",
+      "topico": "grafos",
+      "nivel": "analise",
+      "pergunta": "Por que a lista de adjacência é preferível à matriz de adjacência em grafos esparsos?",
+      "opcoes": [
+        "Porque ocupa espaço proporcional a vértices mais arestas, em vez do quadrado dos vértices",
+        "Porque permite arestas com peso negativo",
+        "Porque é mais rápida para grafos completos",
+        "Porque dispensa o armazenamento dos vértices"
+      ],
+      "correta": 0,
+      "explicacao": "Em grafos com poucas arestas, a matriz ficaria quase toda preenchida com zeros."
+    },
+    {
+      "id": "matematica-discreta-26",
+      "topico": "algebra",
+      "nivel": "conceitual",
+      "pergunta": "Na álgebra booleana, A + A' é igual a:",
+      "opcoes": [
+        "0",
+        "1",
+        "A",
+        "A'"
+      ],
+      "correta": 1,
+      "explicacao": "É a lei do complemento: uma variável ou sua negação sempre resulta em verdadeiro."
+    },
+    {
+      "id": "matematica-discreta-27",
+      "topico": "algebra",
+      "nivel": "conceitual",
+      "pergunta": "As portas lógicas consideradas universais são:",
+      "opcoes": [
+        "AND e OR",
+        "XOR e NOT",
+        "NAND e NOR",
+        "AND e NOT apenas juntas"
+      ],
+      "correta": 2,
+      "explicacao": "Com apenas uma delas é possível construir qualquer função lógica."
+    },
+    {
+      "id": "matematica-discreta-28",
+      "topico": "algebra",
+      "nivel": "conceitual",
+      "pergunta": "Dizer que a ≡ b (mod n) significa que:",
+      "opcoes": [
+        "a é igual a b",
+        "a é múltiplo de b",
+        "n divide a soma de a e b",
+        "a e b deixam o mesmo resto na divisão por n"
+      ],
+      "correta": 3,
+      "explicacao": "De forma equivalente, n divide a diferença a − b."
+    },
+    {
+      "id": "matematica-discreta-29",
+      "topico": "algebra",
+      "nivel": "aplicacao",
+      "pergunta": "Aplicando o algoritmo de Euclides, o mdc de 48 e 18 é:",
+      "opcoes": [
+        "6",
+        "3",
+        "9",
+        "18"
+      ],
+      "correta": 0,
+      "explicacao": "mdc(48, 18) = mdc(18, 12) = mdc(12, 6) = mdc(6, 0) = 6."
+    },
+    {
+      "id": "matematica-discreta-30",
+      "topico": "algebra",
+      "nivel": "analise",
+      "pergunta": "Por que a segurança do RSA depende da teoria dos números?",
+      "opcoes": [
+        "Porque usa apenas números pares",
+        "Porque é fácil multiplicar dois primos grandes, mas muito difícil fatorar o produto",
+        "Porque os primos são finitos",
+        "Porque dispensa aritmética modular"
+      ],
+      "correta": 1,
+      "explicacao": "Essa assimetria entre multiplicar e fatorar é o que protege a chave privada."
+    }
+  ]
+}

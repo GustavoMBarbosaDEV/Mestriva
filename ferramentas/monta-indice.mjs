@@ -1505,6 +1505,75 @@ export const EXTRA = {
       "Liderança e Gestão de Equipes",
       "Gestão de Equipes"
     ]
+  },
+  "programacao-orientada-objetos": {
+    "area": "Computação",
+    "apelidos": [
+      "Programação Orientada a Objetos",
+      "Programação Orientada a Objetos I",
+      "Programação Orientada a Objetos II",
+      "Orientação a Objetos",
+      "POO",
+      "Linguagem de Programação Orientada a Objetos",
+      "Paradigma Orientado a Objetos",
+      "Análise e Projeto Orientado a Objetos",
+      "Programação Orientada a Objeto",
+      "Linguagem de Programação II",
+      "Programação em Java",
+      "Padrões de Projeto"
+    ]
+  },
+  "sistemas-operacionais": {
+    "area": "Computação",
+    "apelidos": [
+      "Sistemas Operacionais",
+      "Sistemas Operacionais I",
+      "Sistemas Operacionais II",
+      "Sistema Operacional",
+      "Fundamentos de Sistemas Operacionais",
+      "Introdução aos Sistemas Operacionais",
+      "Sistemas Operacionais Abertos",
+      "Sistemas Operacionais de Redes",
+      "Administração de Sistemas Operacionais"
+    ]
+  },
+  "matematica-discreta": {
+    "area": "Computação",
+    "apelidos": [
+      "Matemática Discreta",
+      "Matemática Discreta I",
+      "Matemática Discreta II",
+      "Estruturas Discretas",
+      "Lógica Matemática",
+      "Lógica para Computação",
+      "Lógica Computacional",
+      "Fundamentos de Matemática Discreta",
+      "Matemática para Computação",
+      "Lógica e Matemática Discreta",
+      "Teoria dos Grafos",
+      "Lógica de Predicados",
+      "Introdução à Lógica"
+    ]
+  },
+  "desenvolvimento-web": {
+    "area": "Computação",
+    "apelidos": [
+      "Desenvolvimento Web",
+      "Desenvolvimento Web I",
+      "Desenvolvimento Web II",
+      "Programação Web",
+      "Programação para Web",
+      "Programação para Internet",
+      "Desenvolvimento de Aplicações Web",
+      "Desenvolvimento de Sistemas Web",
+      "Desenvolvimento Front-End",
+      "Tecnologias Web",
+      "Programação Web I",
+      "Fundamentos de Desenvolvimento Web",
+      "Construção de Páginas Web",
+      "Web Design",
+      "Desenvolvimento para Internet"
+    ]
   }
 };
 

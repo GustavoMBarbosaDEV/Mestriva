@@ -1,0 +1,465 @@
+{
+  "id": "sistemas-operacionais",
+  "nome": "Sistemas Operacionais",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "introducao",
+      "nome": "Conceitos e estrutura do sistema operacional",
+      "resumo": "### O que é\nO sistema operacional (SO) é o software que fica **entre o hardware e os programas do usuário**. Tem dois papéis:\n- **Máquina estendida (abstração)**: esconde a complexidade do hardware e oferece uma interface mais simples (arquivos em vez de setores do disco).\n- **Gerente de recursos**: distribui **processador, memória, dispositivos e arquivos** entre os programas, de forma ordenada e segura.\n\n### Núcleo (*kernel*)\nParte central do SO, que roda com todos os privilégios.\n- **Modo núcleo (supervisor)**: acesso total ao hardware e a todas as instruções.\n- **Modo usuário**: acesso restrito; programas comuns rodam aqui.\n- A separação **protege** o sistema contra erros e abusos dos programas.\n\n### Chamadas de sistema (*system calls*)\nInterface pela qual um programa em modo usuário **pede um serviço ao núcleo** (abrir arquivo, criar processo, ler do teclado). A chamada provoca uma **troca para o modo núcleo** (*trap*). Ex.: `open`, `read`, `write`, `fork`, `exec`, `exit`.\n\n### Interrupções\nSinal que faz o processador **suspender** o que está fazendo e executar uma **rotina de tratamento**.\n- **De hardware**: geradas por dispositivos (tecla pressionada, fim de E/S, relógio).\n- **Exceções (*traps*)**: geradas pela própria execução (divisão por zero, falta de página).\n- Permitem que o SO retome o controle e viabilizam a multiprogramação.\n\n### Evolução e tipos\n- **Sistemas em lote (*batch*)**: tarefas enfileiradas, sem interação.\n- **Multiprogramação**: vários programas na memória; quando um espera E/S, outro usa a CPU.\n- **Tempo compartilhado (*time sharing*)**: cada usuário recebe fatias de tempo, com resposta interativa.\n- **Monotarefa** x **multitarefa**; **monousuário** x **multiusuário**.\n- **Multiprocessamento**: mais de uma CPU; **simétrico (SMP)** quando todas são iguais.\n- **Tempo real**: prazos rígidos (***hard***: perder o prazo é falha; ***soft***: tolera atrasos).\n- **Distribuídos**, **embarcados** e **móveis** (Android, iOS).\n\n### Arquiteturas de núcleo\n- **Monolítico**: todo o SO roda em modo núcleo, como um único programa; rápido, mas uma falha pode derrubar tudo. Ex.: **Linux** (monolítico modular).\n- **Em camadas**: funções organizadas em níveis.\n- **Micronúcleo (*microkernel*)**: o núcleo tem o mínimo (comunicação, escalonamento básico); o resto roda como **servidores em modo usuário**. Mais confiável, porém com mais sobrecarga. Ex.: Minix, QNX.\n- **Híbrido**: combina os dois. Ex.: Windows NT, macOS.\n- **Módulos carregáveis**: código adicionado ao núcleo em execução (*drivers*).\n\n### Máquinas virtuais\n- **Hipervisor (monitor de máquina virtual)**: permite vários SOs na mesma máquina física.\n  - **Tipo 1 (*bare metal*)**: roda direto no hardware (VMware ESXi, Hyper-V, Xen).\n  - **Tipo 2 (hospedado)**: roda sobre um SO (VirtualBox).\n- **Contêineres** (Docker): isolam aplicações **compartilhando o núcleo** do hospedeiro; mais leves que máquinas virtuais.\n\n### Inicialização (*boot*)\nO **firmware** (BIOS ou UEFI) testa o hardware e carrega o **carregador de inicialização** (*bootloader*, como o GRUB), que carrega o **núcleo** na memória.\n\n### Interface com o usuário\n- **Interpretador de comandos (*shell*)**: linha de comando.\n- **Interface gráfica (GUI)**.",
+      "revisao": "**Lembre:**\n- SO: abstrai o hardware e gerencia recursos.\n- Modo núcleo tem acesso total; modo usuário é restrito.\n- Chamada de sistema: o programa pede serviço ao núcleo.\n- Monolítico (Linux) x micronúcleo (serviços em modo usuário).\n- Hipervisor tipo 1 roda no hardware; contêiner compartilha o núcleo."
+    },
+    {
+      "id": "processos",
+      "nome": "Processos, threads e escalonamento",
+      "resumo": "### Processo\n**Programa em execução**. O programa é passivo (arquivo em disco); o processo é ativo e tem:\n- **Espaço de endereçamento**: código, dados, *heap* e pilha.\n- **Contexto**: valores dos registradores, contador de programa.\n- **Bloco de Controle do Processo (PCB)**: estrutura do SO com o identificador (**PID**), o estado, o contexto, a prioridade e informações de memória e arquivos.\n\n### Estados\n- **Novo** → **Pronto** → **Em execução** → **Terminado**.\n- **Pronto**: aguardando a CPU.\n- **Em execução**: usando a CPU.\n- **Bloqueado (em espera)**: aguardando um evento (E/S).\n- Transições: pronto → execução (**despacho**); execução → pronto (**preempção**, fim da fatia de tempo); execução → bloqueado (pede E/S); bloqueado → **pronto** (evento ocorre; nunca direto para execução).\n\n### Troca de contexto\nSalvar o contexto do processo que sai e restaurar o do que entra. É **sobrecarga** pura: quanto mais trocas, menos tempo de trabalho útil.\n\n### Criação\nNo Unix: `fork()` cria um **filho** como cópia do pai; `exec()` substitui o programa; `wait()` espera o filho. Processo **zumbi**: terminou, mas o pai ainda não leu seu estado. **Órfão**: o pai terminou antes.\n\n### *Threads*\nLinhas de execução **dentro de um processo**.\n- **Compartilham**: código, dados, *heap* e arquivos abertos.\n- **Têm próprios**: **pilha**, registradores e contador de programa.\n- **Vantagens**: criação e troca **mais baratas** que as de processo, compartilhamento fácil e aproveitamento de vários núcleos.\n- **De usuário** (gerenciadas por biblioteca; se uma bloquear, pode bloquear todas) e **de núcleo** (gerenciadas pelo SO).\n- Modelos: muitos-para-um, **um-para-um** (Linux, Windows) e muitos-para-muitos.\n\n### Escalonamento da CPU\nEscolhe qual processo pronto usará o processador.\n- **Não preemptivo**: o processo fica com a CPU até terminar ou bloquear.\n- **Preemptivo**: o SO pode **retirar** a CPU (por tempo ou prioridade).\n- **Critérios**: uso da CPU, vazão (*throughput*), **tempo de retorno** (*turnaround*), **tempo de espera** e **tempo de resposta**.\n\n### Algoritmos\n- **FCFS / FIFO** (primeiro a chegar, primeiro a ser servido): simples, não preemptivo; sofre do **efeito comboio** (processos curtos esperam atrás de um longo).\n- **SJF** (menor tarefa primeiro): **minimiza o tempo médio de espera**, mas exige conhecer a duração e pode causar **inanição** (*starvation*) dos longos. Versão preemptiva: **SRTF** (menor tempo restante).\n- **Por prioridades**: executa o de maior prioridade; risco de inanição, resolvido com **envelhecimento** (*aging*: a prioridade sobe com a espera).\n- ***Round-Robin* (circular)**: cada processo recebe uma **fatia de tempo (*quantum*)** e volta ao fim da fila; preemptivo, típico de tempo compartilhado. *Quantum* muito **grande** vira FCFS; muito **pequeno** gera excesso de trocas de contexto.\n- **Múltiplas filas** e **múltiplas filas com realimentação**: processos mudam de fila conforme o comportamento.\n- Linux usa o **CFS** (*Completely Fair Scheduler*).\n\n### Processos orientados a CPU x a E/S\n- **CPU-bound**: longos períodos de cálculo.\n- **I/O-bound**: muitas operações curtas de E/S; convém priorizá-los para manter a interatividade.",
+      "revisao": "**Lembre:**\n- Processo é programa em execução; PCB guarda seus dados.\n- Estados: pronto, em execução e bloqueado; bloqueado volta para pronto.\n- Threads compartilham memória do processo; cada uma tem sua pilha.\n- FCFS: efeito comboio; SJF: menor espera média, risco de inanição.\n- Round-Robin usa quantum e é preemptivo."
+    },
+    {
+      "id": "concorrencia",
+      "nome": "Concorrência, sincronização e deadlock",
+      "resumo": "### Condição de corrida\nOcorre quando dois ou mais processos (ou *threads*) acessam **dados compartilhados** ao mesmo tempo e o resultado depende da **ordem** de execução. Ex.: duas *threads* fazendo `saldo = saldo + 100` podem perder uma atualização.\n\n### Região crítica\nTrecho de código que acessa o recurso compartilhado. A solução deve garantir:\n- **Exclusão mútua**: só um processo por vez na região crítica.\n- **Progresso**: se ninguém está na região, quem quer entrar não pode ser impedido indefinidamente.\n- **Espera limitada**: ninguém espera para sempre.\n\n### Mecanismos\n- **Desabilitar interrupções**: só serve para o núcleo, em monoprocessadores.\n- **Instruções atômicas** (*test-and-set*, *compare-and-swap*): base das travas; geram **espera ocupada** (*busy waiting*, *spinlock*).\n- ***Mutex***: trava com dois estados (livre e ocupado); quem trancou destranca.\n- **Semáforo** (Dijkstra): variável inteira com duas operações **atômicas**:\n  - **P / wait / down**: decrementa; se ficar negativo (ou for zero), o processo **bloqueia**.\n  - **V / signal / up**: incrementa e **acorda** um processo bloqueado.\n  - **Binário** (0 ou 1, funciona como *mutex*) e **contador** (controla N recursos).\n- **Monitor**: construção de linguagem que encapsula dados e procedimentos com exclusão mútua automática; usa **variáveis de condição** (`wait` e `signal`). É o modelo do `synchronized` em Java.\n- **Troca de mensagens**: `send` e `receive`.\n\n### Problemas clássicos\n- **Produtor-consumidor** (*buffer* limitado).\n- **Leitores e escritores**: vários leitores juntos, mas escritor sozinho.\n- **Jantar dos filósofos**: ilustra impasse e inanição na disputa por recursos.\n- **Barbeiro dorminhoco**.\n\n### *Deadlock* (impasse)\nConjunto de processos em que **cada um espera por um recurso que está com outro** do conjunto; ninguém avança.\n\n**Quatro condições necessárias (Coffman)** — todas ao mesmo tempo:\n1. **Exclusão mútua**: o recurso só pode ser usado por um de cada vez.\n2. **Posse e espera**: o processo segura recursos enquanto espera outros.\n3. **Não preempção**: o recurso não pode ser tomado à força.\n4. **Espera circular**: cadeia circular de processos, cada um esperando o próximo.\n\n### Como lidar\n- **Prevenção**: impedir que uma das quatro condições ocorra. Ex.: exigir que os recursos sejam pedidos em **ordem fixa** quebra a espera circular.\n- **Evitação (impedimento)**: o SO só concede o recurso se o sistema continuar em **estado seguro**. **Algoritmo do banqueiro** (Dijkstra): exige conhecer de antemão as necessidades máximas.\n- **Detecção e recuperação**: deixa ocorrer, detecta por **grafo de alocação de recursos** (ciclo) e recupera encerrando processos ou tomando recursos.\n- **Algoritmo do avestruz**: **ignorar** o problema; é o que fazem a maioria dos sistemas de uso geral, por ser raro e caro de tratar.\n\n### Inanição e *livelock*\n- **Inanição (*starvation*)**: um processo nunca recebe o recurso, embora o sistema avance.\n- ***Livelock***: os processos mudam de estado continuamente, mas nenhum progride.\n\n### Comunicação entre processos (IPC)\n*Pipes*, filas de mensagens, **memória compartilhada**, sinais e *sockets*.",
+      "revisao": "**Lembre:**\n- Condição de corrida: resultado depende da ordem de acesso ao dado compartilhado.\n- Região crítica exige exclusão mútua.\n- Semáforo: P (down) pode bloquear; V (up) acorda.\n- Deadlock: exclusão mútua, posse e espera, não preempção e espera circular.\n- Banqueiro evita; ordenar recursos previne; avestruz ignora."
+    },
+    {
+      "id": "memoria",
+      "nome": "Gerenciamento de memória",
+      "resumo": "### Objetivos\nAlocar memória aos processos, **proteger** uns dos outros e permitir executar programas **maiores** que a memória física.\n\n### Endereços\n- **Lógico (virtual)**: gerado pelo programa.\n- **Físico**: posição real na memória RAM.\n- A **MMU** (unidade de gerenciamento de memória) faz a **tradução** em tempo de execução.\n\n### Alocação contígua\n- **Partições fixas**: tamanhos definidos de antemão; geram **fragmentação interna** (sobra dentro da partição).\n- **Partições variáveis**: do tamanho do processo; geram **fragmentação externa** (sobras espalhadas entre as áreas). Solução: **compactação**.\n- Estratégias de escolha do espaço livre:\n  - ***First-fit***: o primeiro que couber (rápido).\n  - ***Best-fit***: o menor que couber (deixa sobras minúsculas).\n  - ***Worst-fit***: o maior disponível.\n- ***Swapping***: mover processos inteiros entre memória e disco.\n\n### Paginação\n- A memória **física** é dividida em **quadros (*frames*)** de tamanho fixo; a memória **lógica**, em **páginas** do mesmo tamanho.\n- Uma **tabela de páginas** por processo mapeia página → quadro.\n- **Elimina a fragmentação externa**; resta pequena **fragmentação interna** na última página.\n- Endereço lógico = **número da página + deslocamento**.\n- **TLB** (*Translation Lookaside Buffer*): *cache* das traduções recentes; acelera o acesso.\n- Tabelas **multinível** e **invertida** reduzem o espaço ocupado.\n\n### Segmentação\nDivide o programa em **segmentos lógicos** de tamanho **variável** (código, dados, pilha). Reflete a visão do programador, mas causa **fragmentação externa**. Pode ser combinada: **segmentação com paginação**.\n\n### Memória virtual\nTécnica que permite executar processos **sem que todas as páginas estejam na memória física**; parte fica no **disco** (área de troca, *swap*).\n- **Paginação por demanda**: a página só é carregada quando **referenciada**.\n- **Falta de página (*page fault*)**: o processo acessa página que não está na RAM; o SO a busca no disco. Se não houver quadro livre, uma página é escolhida como **vítima**.\n- **Bit de validade**, **bit de modificação** (*dirty*: a página alterada precisa ser gravada no disco) e **bit de referência**.\n\n### Algoritmos de substituição de páginas\n- **Ótimo**: substitui a página que **demorará mais** a ser usada; impossível na prática (exige prever o futuro), serve de **referência**.\n- **FIFO**: retira a mais antiga na memória; simples, mas sofre a **anomalia de Belady** (mais quadros podem causar mais faltas).\n- **LRU** (*least recently used*): retira a **menos recentemente usada**; bom desempenho, caro de implementar.\n- **Segunda chance (relógio)**: FIFO que usa o bit de referência; dá nova chance à página usada recentemente.\n- **LFU**: retira a menos frequentemente usada.\n- **NRU**: classifica pelas combinações dos bits de referência e modificação.\n\n### *Thrashing*\nO sistema passa **mais tempo trocando páginas do que executando**. Ocorre quando há memória insuficiente para o conjunto de processos ativos.\n- **Princípio da localidade**: os programas tendem a usar um conjunto pequeno de páginas em cada período.\n- **Conjunto de trabalho (*working set*)**: páginas usadas recentemente; manter esse conjunto na memória evita o *thrashing*.\n- Soluções: reduzir o grau de multiprogramação ou aumentar a memória.\n\n### Hierarquia de memória\nRegistradores → *cache* → memória principal → disco: quanto mais rápido, mais caro e menor.",
+      "revisao": "**Lembre:**\n- MMU traduz endereço lógico em físico.\n- Partição fixa: fragmentação interna; variável: externa.\n- Paginação: páginas e quadros de tamanho fixo; sem fragmentação externa.\n- Memória virtual usa o disco; falta de página traz a página para a RAM.\n- FIFO (anomalia de Belady), LRU e ótimo; thrashing é paginação excessiva."
+    },
+    {
+      "id": "arquivos",
+      "nome": "Sistemas de arquivos e entrada e saída",
+      "resumo": "### Arquivo\nUnidade lógica de armazenamento; abstração que esconde os detalhes do disco.\n- **Atributos**: nome, tipo, tamanho, localização, permissões, datas, dono.\n- **Operações**: criar, abrir, ler, escrever, posicionar, fechar, apagar.\n- **Acesso**: **sequencial** (um após o outro) e **direto (aleatório)**.\n\n### Diretórios\nOrganizam os arquivos.\n- **Nível único**, **dois níveis** e **em árvore (hierárquico)**.\n- **Caminho absoluto** (a partir da raiz) e **relativo** (a partir do diretório atual).\n- **Ligações**: ***hard link*** (outro nome para o mesmo *inode*) e **simbólica** (atalho com o caminho).\n\n### Alocação de espaço em disco\n- **Contígua**: blocos vizinhos; acesso rápido, mas **fragmentação externa** e dificuldade de crescer. Usada em CD e DVD.\n- **Encadeada**: cada bloco aponta para o próximo; sem fragmentação externa, mas acesso direto **lento**. A **FAT** guarda os ponteiros em uma tabela na memória.\n- **Indexada**: um **bloco de índice** lista os blocos do arquivo; bom acesso direto. É o princípio do ***inode*** do Unix (ponteiros diretos e indiretos).\n\n### *Inode*\nEstrutura do Unix/Linux com os **metadados** do arquivo (dono, permissões, tamanho, datas e ponteiros para os blocos). **Não guarda o nome**: o nome fica na entrada do diretório.\n\n### Sistemas de arquivos comuns\n- **FAT32** e **exFAT**: simples, compatíveis; pendrives.\n- **NTFS**: Windows; *journaling*, permissões, compactação.\n- **ext4**: Linux; *journaling*.\n- **APFS**: macOS.\n- ***Journaling***: registra as alterações em um **diário** antes de aplicá-las; permite recuperação rápida após queda de energia.\n\n### Gerência do espaço livre\n**Mapa de bits** ou **lista encadeada** de blocos livres.\n\n### Permissões (Unix)\nTrês grupos (**dono, grupo e outros**) com três permissões: **r** (ler), **w** (escrever) e **x** (executar). Ex.: `rwxr-xr--` equivale a **754**. Comando `chmod`.\n\n### Entrada e saída (E/S)\n- **Dispositivos de bloco** (disco: acesso por blocos endereçáveis) e **de caractere** (teclado, mouse: fluxo de caracteres).\n- **Controlador**: hardware que comanda o dispositivo.\n- ***Driver* (controlador de dispositivo)**: software, parte do SO, que conhece os detalhes do dispositivo.\n- **Independência de dispositivo**: o programa usa a mesma interface para dispositivos diferentes.\n\n### Técnicas de E/S\n- **E/S programada (*polling*)**: a CPU fica consultando o dispositivo; desperdiça tempo.\n- **E/S por interrupção**: o dispositivo **avisa** quando termina.\n- **DMA** (acesso direto à memória): o controlador transfere blocos direto para a memória, **sem passar pela CPU** a cada byte.\n- ***Buffering***, ***caching*** e ***spooling*** (fila para dispositivo não compartilhável, como a impressora).\n\n### Discos\n- **Disco rígido (HD)**: trilhas, setores e cilindros; tempo de acesso = **tempo de busca (*seek*)** + **latência rotacional** + transferência.\n- **SSD**: memória *flash*, sem partes móveis; muito mais rápido.\n\n### Escalonamento de disco\n- **FCFS**: ordem de chegada.\n- **SSTF**: atende o pedido **mais próximo** da cabeça; pode causar inanição.\n- **SCAN (elevador)**: varre de uma ponta à outra e volta.\n- **C-SCAN**: varre em um só sentido e retorna ao início; espera mais uniforme.\n- **LOOK e C-LOOK**: vão só até o último pedido.\n\n### RAID\nConjunto de discos para **desempenho** e/ou **tolerância a falhas**.\n- **RAID 0** (*striping*): divide os dados; rápido, **sem redundância**.\n- **RAID 1** (espelhamento): duplica os dados; seguro, usa o dobro de espaço.\n- **RAID 5**: distribui dados e **paridade**; tolera a falha de **um** disco; mínimo de 3 discos.\n- **RAID 6**: dupla paridade; tolera **duas** falhas.\n- **RAID 10**: espelhamento + distribuição.",
+      "revisao": "**Lembre:**\n- Alocação: contígua, encadeada (FAT) e indexada (inode).\n- Inode guarda metadados, não o nome.\n- Journaling facilita a recuperação após falhas.\n- E/S: programada, por interrupção e DMA.\n- RAID 0 sem redundância; RAID 1 espelha; RAID 5 usa paridade."
+    },
+    {
+      "id": "seguranca",
+      "nome": "Segurança, proteção e sistemas atuais",
+      "resumo": "### Proteção x segurança\n- **Proteção**: mecanismos **internos** que controlam o acesso de processos e usuários aos recursos.\n- **Segurança**: defesa do sistema contra **ameaças** internas e externas.\n\n### Objetivos da segurança (tríade CIA)\n- **Confidencialidade**: só pessoas autorizadas leem.\n- **Integridade**: os dados não são alterados indevidamente.\n- **Disponibilidade**: o sistema está acessível quando necessário.\n- Também: **autenticidade** e **não repúdio**.\n\n### Autenticação\nVerificar a identidade do usuário, por:\n- **Algo que sabe**: senha, PIN.\n- **Algo que tem**: cartão, *token*, celular.\n- **Algo que é**: biometria.\n- **Autenticação de múltiplos fatores (MFA)**: combina dois ou mais.\n- Senhas são guardadas como ***hash*** com ***salt***, nunca em texto claro.\n\n### Autorização e controle de acesso\n- **Matriz de acesso**: domínios (linhas) × objetos (colunas).\n- **Lista de controle de acesso (ACL)**: para cada objeto, quem pode fazer o quê.\n- **Capacidades**: para cada usuário, o que ele pode acessar.\n- **DAC** (discricionário: o dono decide), **MAC** (mandatório: regras do sistema) e **RBAC** (baseado em papéis).\n- **Princípio do menor privilégio**: cada processo e usuário recebe apenas as permissões **estritamente necessárias**.\n- No Unix, o **superusuário (root)** tem acesso total; `sudo` concede privilégios temporários.\n\n### Ameaças\n- ***Malware***: **vírus** (anexa-se a programas e precisa ser executado), ***worm*** (propaga-se sozinho pela rede), **cavalo de Troia** (parece legítimo), ***ransomware*** (cifra os dados e exige resgate), ***spyware***, ***rootkit*** (esconde-se no sistema) e ***keylogger***.\n- **Estouro de *buffer* (*buffer overflow*)**: escrever além do limite de uma área de memória para executar código malicioso.\n- **Escalada de privilégios**, **negação de serviço (DoS)** e **engenharia social** (*phishing*).\n\n### Defesas\n- **Atualizações** (*patches*), antivírus e ***firewall***.\n- **Criptografia** de disco e de comunicação.\n- ***Sandbox***: executa programas em ambiente isolado.\n- **ASLR** (embaralha os endereços de memória) e **DEP/NX** (impede a execução de dados).\n- **Cópias de segurança (*backup*)** e registros (*logs*) de auditoria.\n\n### Linux\n- Núcleo **monolítico modular**, de **código aberto** (licença GPL), criado por **Linus Torvalds** em 1991.\n- **Distribuições**: Ubuntu, Debian, Fedora, entre outras.\n- \"Tudo é arquivo\": dispositivos aparecem em `/dev`.\n- Diretórios: `/` (raiz), `/home` (usuários), `/etc` (configuração), `/bin` (programas), `/var` (dados variáveis) e `/proc` (informações do núcleo).\n- Comandos: `ls`, `cd`, `cp`, `mv`, `rm`, `mkdir`, `cat`, `grep`, `ps`, `top`, `kill`, `chmod`, `chown`.\n- *Pipe* (`|`) liga a saída de um comando à entrada de outro; redirecionamento com `>` e `<`.\n\n### Windows\nNúcleo **híbrido** (NT); sistema de arquivos **NTFS**; **registro** para configurações; serviços; PowerShell.\n\n### Sistemas móveis\n- **Android**: baseado no núcleo **Linux**; aplicativos isolados em *sandbox*, cada um com seu usuário.\n- **iOS**: baseado no Darwin (Unix).\n- Preocupação com **energia** e permissões por aplicativo.\n\n### Sistemas distribuídos e nuvem\n- Vários computadores que aparentam ser um só; **transparência**, **escalabilidade** e **tolerância a falhas**.\n- **Computação em nuvem**: **IaaS** (infraestrutura), **PaaS** (plataforma) e **SaaS** (software).\n- Virtualização e contêineres (Docker, Kubernetes) são a base.\n\n### Tolerância a falhas\nRedundância, *checkpoints*, replicação e sistemas de alta disponibilidade.",
+      "revisao": "**Lembre:**\n- Tríade: confidencialidade, integridade e disponibilidade.\n- Autenticar: algo que sabe, tem ou é.\n- Menor privilégio: só as permissões necessárias.\n- Vírus precisa de hospedeiro; worm se espalha sozinho; ransomware sequestra dados.\n- Linux: núcleo monolítico de código aberto; Android usa o núcleo Linux."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "sistemas-operacionais-1",
+      "topico": "introducao",
+      "nivel": "conceitual",
+      "pergunta": "As duas funções básicas de um sistema operacional são:",
+      "opcoes": [
+        "Abstrair o hardware e gerenciar recursos",
+        "Compilar programas e editar textos",
+        "Navegar na internet e enviar e-mails",
+        "Projetar circuitos e fabricar chips"
+      ],
+      "correta": 0,
+      "explicacao": "Ele oferece uma interface mais simples e distribui processador, memória e dispositivos."
+    },
+    {
+      "id": "sistemas-operacionais-2",
+      "topico": "introducao",
+      "nivel": "conceitual",
+      "pergunta": "O mecanismo pelo qual um programa de usuário solicita um serviço ao núcleo é a:",
+      "opcoes": [
+        "Interrupção de relógio",
+        "Chamada de sistema",
+        "Troca de contexto",
+        "Paginação"
+      ],
+      "correta": 1,
+      "explicacao": "Ela provoca a passagem do modo usuário para o modo núcleo."
+    },
+    {
+      "id": "sistemas-operacionais-3",
+      "topico": "introducao",
+      "nivel": "conceitual",
+      "pergunta": "No núcleo do tipo micronúcleo (microkernel):",
+      "opcoes": [
+        "Todo o sistema roda em modo núcleo",
+        "Não existem chamadas de sistema",
+        "A maioria dos serviços roda em modo usuário, fora do núcleo",
+        "Não há separação entre modos de execução"
+      ],
+      "correta": 2,
+      "explicacao": "Isso aumenta a confiabilidade, ao custo de mais comunicação entre componentes."
+    },
+    {
+      "id": "sistemas-operacionais-4",
+      "topico": "introducao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa quer rodar vários sistemas operacionais diferentes em um mesmo servidor, diretamente sobre o hardware. Ela precisa de um:",
+      "opcoes": [
+        "Interpretador de comandos",
+        "Sistema de arquivos FAT",
+        "Driver de impressora",
+        "Hipervisor do tipo 1"
+      ],
+      "correta": 3,
+      "explicacao": "O hipervisor tipo 2, ao contrário, roda sobre um sistema operacional hospedeiro."
+    },
+    {
+      "id": "sistemas-operacionais-5",
+      "topico": "introducao",
+      "nivel": "analise",
+      "pergunta": "Por que os sistemas operacionais separam modo núcleo e modo usuário?",
+      "opcoes": [
+        "Para impedir que programas comuns acessem o hardware diretamente e comprometam o sistema",
+        "Para tornar os programas mais lentos",
+        "Para eliminar as chamadas de sistema",
+        "Para permitir apenas um programa por vez"
+      ],
+      "correta": 0,
+      "explicacao": "A separação protege o sistema contra erros e ações maliciosas dos programas."
+    },
+    {
+      "id": "sistemas-operacionais-6",
+      "topico": "processos",
+      "nivel": "conceitual",
+      "pergunta": "A estrutura de dados em que o sistema operacional guarda as informações de um processo é o:",
+      "opcoes": [
+        "Inode",
+        "Bloco de Controle do Processo (PCB)",
+        "TLB",
+        "Quadro de página"
+      ],
+      "correta": 1,
+      "explicacao": "Nele ficam o identificador, o estado, o contexto e a prioridade do processo."
+    },
+    {
+      "id": "sistemas-operacionais-7",
+      "topico": "processos",
+      "nivel": "conceitual",
+      "pergunta": "Threads de um mesmo processo compartilham:",
+      "opcoes": [
+        "A pilha de execução",
+        "Os registradores",
+        "O código, os dados e os arquivos abertos",
+        "O contador de programa"
+      ],
+      "correta": 2,
+      "explicacao": "Cada thread mantém a própria pilha e o próprio contexto de execução."
+    },
+    {
+      "id": "sistemas-operacionais-8",
+      "topico": "processos",
+      "nivel": "conceitual",
+      "pergunta": "O algoritmo de escalonamento que dá a cada processo uma fatia de tempo e o devolve ao fim da fila é o:",
+      "opcoes": [
+        "FCFS",
+        "SJF",
+        "Por prioridades sem preempção",
+        "Round-Robin"
+      ],
+      "correta": 3,
+      "explicacao": "A fatia de tempo é chamada de quantum, e o algoritmo é preemptivo por natureza."
+    },
+    {
+      "id": "sistemas-operacionais-9",
+      "topico": "processos",
+      "nivel": "aplicacao",
+      "pergunta": "Um processo em execução solicita a leitura de um arquivo no disco. Ele passa para o estado:",
+      "opcoes": [
+        "Bloqueado",
+        "Pronto",
+        "Terminado",
+        "Novo"
+      ],
+      "correta": 0,
+      "explicacao": "Quando a leitura terminar, ele voltará ao estado pronto, e não direto à execução."
+    },
+    {
+      "id": "sistemas-operacionais-10",
+      "topico": "processos",
+      "nivel": "analise",
+      "pergunta": "Por que um quantum muito pequeno prejudica o desempenho no Round-Robin?",
+      "opcoes": [
+        "Porque os processos nunca são interrompidos",
+        "Porque o sistema gasta tempo demais com trocas de contexto",
+        "Porque o algoritmo vira FCFS",
+        "Porque aumenta a memória disponível"
+      ],
+      "correta": 1,
+      "explicacao": "Um quantum grande demais, por outro lado, faz o algoritmo se comportar como FCFS."
+    },
+    {
+      "id": "sistemas-operacionais-11",
+      "topico": "concorrencia",
+      "nivel": "conceitual",
+      "pergunta": "A situação em que o resultado depende da ordem em que processos acessam um dado compartilhado é a:",
+      "opcoes": [
+        "Paginação por demanda",
+        "Troca de contexto",
+        "Condição de corrida",
+        "Fragmentação externa"
+      ],
+      "correta": 2,
+      "explicacao": "Ela é evitada garantindo a exclusão mútua na região crítica."
+    },
+    {
+      "id": "sistemas-operacionais-12",
+      "topico": "concorrencia",
+      "nivel": "conceitual",
+      "pergunta": "No semáforo, a operação P (wait ou down):",
+      "opcoes": [
+        "Incrementa o valor e acorda um processo",
+        "Encerra o processo",
+        "Cria uma nova thread",
+        "Decrementa o valor e pode bloquear o processo"
+      ],
+      "correta": 3,
+      "explicacao": "A operação V faz o inverso: incrementa e libera um processo em espera."
+    },
+    {
+      "id": "sistemas-operacionais-13",
+      "topico": "concorrencia",
+      "nivel": "conceitual",
+      "pergunta": "Não é uma das quatro condições necessárias para o deadlock:",
+      "opcoes": [
+        "Preempção de recursos",
+        "Exclusão mútua",
+        "Posse e espera",
+        "Espera circular"
+      ],
+      "correta": 0,
+      "explicacao": "A condição correta é a não preempção: o recurso não pode ser tomado à força."
+    },
+    {
+      "id": "sistemas-operacionais-14",
+      "topico": "concorrencia",
+      "nivel": "aplicacao",
+      "pergunta": "Para evitar deadlock, uma equipe exige que todas as threads peçam as travas sempre na mesma ordem. Isso elimina a condição de:",
+      "opcoes": [
+        "Exclusão mútua",
+        "Espera circular",
+        "Não preempção",
+        "Posse e espera"
+      ],
+      "correta": 1,
+      "explicacao": "Com uma ordem fixa, não é possível formar um ciclo de espera entre os processos."
+    },
+    {
+      "id": "sistemas-operacionais-15",
+      "topico": "concorrencia",
+      "nivel": "analise",
+      "pergunta": "Por que a maioria dos sistemas operacionais de uso geral adota o 'algoritmo do avestruz' para o deadlock?",
+      "opcoes": [
+        "Porque o deadlock é impossível nesses sistemas",
+        "Porque o algoritmo do banqueiro é proibido",
+        "Porque o impasse é raro e tratá-lo custaria desempenho demais",
+        "Porque os processos nunca compartilham recursos"
+      ],
+      "correta": 2,
+      "explicacao": "Prevenir ou evitar sempre exigiria restrições e verificações caras."
+    },
+    {
+      "id": "sistemas-operacionais-16",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "Na paginação, a memória física é dividida em blocos de tamanho fixo chamados:",
+      "opcoes": [
+        "Segmentos",
+        "Partições variáveis",
+        "Setores",
+        "Quadros (frames)"
+      ],
+      "correta": 3,
+      "explicacao": "A memória lógica é dividida em páginas do mesmo tamanho."
+    },
+    {
+      "id": "sistemas-operacionais-17",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "A fragmentação externa é característica da:",
+      "opcoes": [
+        "Alocação por partições variáveis",
+        "Paginação pura",
+        "Memória cache",
+        "TLB"
+      ],
+      "correta": 0,
+      "explicacao": "As sobras ficam espalhadas entre as áreas alocadas e podem exigir compactação."
+    },
+    {
+      "id": "sistemas-operacionais-18",
+      "topico": "memoria",
+      "nivel": "conceitual",
+      "pergunta": "O algoritmo de substituição que retira a página menos recentemente usada é o:",
+      "opcoes": [
+        "FIFO",
+        "LRU",
+        "Ótimo",
+        "LFU"
+      ],
+      "correta": 1,
+      "explicacao": "Ele se apoia no princípio da localidade para prever o uso futuro."
+    },
+    {
+      "id": "sistemas-operacionais-19",
+      "topico": "memoria",
+      "nivel": "aplicacao",
+      "pergunta": "Um computador com pouca RAM fica extremamente lento, com o disco trabalhando sem parar e quase nenhum progresso nos programas. O fenômeno é:",
+      "opcoes": [
+        "Deadlock",
+        "Efeito comboio",
+        "Thrashing",
+        "Anomalia de Belady"
+      ],
+      "correta": 2,
+      "explicacao": "O sistema gasta mais tempo trocando páginas do que executando os processos."
+    },
+    {
+      "id": "sistemas-operacionais-20",
+      "topico": "memoria",
+      "nivel": "analise",
+      "pergunta": "Por que o algoritmo ótimo de substituição de páginas não é usado na prática?",
+      "opcoes": [
+        "Porque causa mais faltas de página que o FIFO",
+        "Porque só funciona com segmentação",
+        "Porque não precisa de memória",
+        "Porque exigiria conhecer as referências futuras às páginas"
+      ],
+      "correta": 3,
+      "explicacao": "Ele serve como referência para comparar os algoritmos reais."
+    },
+    {
+      "id": "sistemas-operacionais-21",
+      "topico": "arquivos",
+      "nivel": "conceitual",
+      "pergunta": "No Unix, o inode armazena:",
+      "opcoes": [
+        "Os metadados do arquivo e os ponteiros para seus blocos",
+        "O nome do arquivo",
+        "O conteúdo da memória RAM",
+        "A tabela de processos"
+      ],
+      "correta": 0,
+      "explicacao": "O nome fica na entrada de diretório, que aponta para o inode."
+    },
+    {
+      "id": "sistemas-operacionais-22",
+      "topico": "arquivos",
+      "nivel": "conceitual",
+      "pergunta": "O journaling em um sistema de arquivos serve para:",
+      "opcoes": [
+        "Aumentar a fragmentação",
+        "Registrar alterações antes de aplicá-las, facilitando a recuperação após falhas",
+        "Compactar os arquivos",
+        "Criptografar o disco"
+      ],
+      "correta": 1,
+      "explicacao": "Após uma queda de energia, o sistema refaz ou descarta as operações incompletas."
+    },
+    {
+      "id": "sistemas-operacionais-23",
+      "topico": "arquivos",
+      "nivel": "conceitual",
+      "pergunta": "O nível de RAID que apenas distribui os dados entre discos, sem redundância, é o:",
+      "opcoes": [
+        "RAID 1",
+        "RAID 5",
+        "RAID 0",
+        "RAID 6"
+      ],
+      "correta": 2,
+      "explicacao": "Ele melhora o desempenho, mas a falha de um disco perde todos os dados."
+    },
+    {
+      "id": "sistemas-operacionais-24",
+      "topico": "arquivos",
+      "nivel": "aplicacao",
+      "pergunta": "Um arquivo Linux tem permissões rwxr-x---. Um usuário que não é o dono nem pertence ao grupo:",
+      "opcoes": [
+        "Pode apenas ler",
+        "Pode ler e executar",
+        "Tem acesso total",
+        "Não pode ler, escrever nem executar o arquivo"
+      ],
+      "correta": 3,
+      "explicacao": "Os três últimos caracteres são as permissões dos outros usuários, aqui todas negadas."
+    },
+    {
+      "id": "sistemas-operacionais-25",
+      "topico": "arquivos",
+      "nivel": "analise",
+      "pergunta": "Por que a técnica de DMA é mais eficiente que a E/S programada para transferir grandes blocos de dados?",
+      "opcoes": [
+        "Porque o controlador transfere os dados direto para a memória, liberando a CPU",
+        "Porque a CPU copia cada byte mais rápido",
+        "Porque dispensa o uso de memória",
+        "Porque elimina as interrupções do sistema"
+      ],
+      "correta": 0,
+      "explicacao": "A CPU só é avisada, por interrupção, quando a transferência termina."
+    },
+    {
+      "id": "sistemas-operacionais-26",
+      "topico": "seguranca",
+      "nivel": "conceitual",
+      "pergunta": "A tríade básica da segurança da informação é formada por:",
+      "opcoes": [
+        "Velocidade, custo e capacidade",
+        "Confidencialidade, integridade e disponibilidade",
+        "Hardware, software e rede",
+        "Autenticação, senha e biometria"
+      ],
+      "correta": 1,
+      "explicacao": "Ela é conhecida pela sigla CIA, do inglês."
+    },
+    {
+      "id": "sistemas-operacionais-27",
+      "topico": "seguranca",
+      "nivel": "conceitual",
+      "pergunta": "O malware que se propaga sozinho pela rede, sem precisar de um arquivo hospedeiro, é o:",
+      "opcoes": [
+        "Vírus",
+        "Cavalo de Troia",
+        "Worm",
+        "Keylogger"
+      ],
+      "correta": 2,
+      "explicacao": "O vírus, em contraste, depende da execução de um programa infectado."
+    },
+    {
+      "id": "sistemas-operacionais-28",
+      "topico": "seguranca",
+      "nivel": "conceitual",
+      "pergunta": "O princípio do menor privilégio determina que:",
+      "opcoes": [
+        "Todos os usuários sejam administradores",
+        "As senhas sejam curtas",
+        "Os processos rodem sempre em modo núcleo",
+        "Cada usuário ou processo tenha apenas as permissões necessárias à sua tarefa"
+      ],
+      "correta": 3,
+      "explicacao": "Assim, uma falha ou invasão causa dano limitado."
+    },
+    {
+      "id": "sistemas-operacionais-29",
+      "topico": "seguranca",
+      "nivel": "aplicacao",
+      "pergunta": "Um banco exige senha e, além dela, um código gerado no celular do cliente. Isso é:",
+      "opcoes": [
+        "Autenticação de múltiplos fatores",
+        "Controle de acesso discricionário",
+        "Criptografia de disco",
+        "Sandbox"
+      ],
+      "correta": 0,
+      "explicacao": "Combina algo que o usuário sabe com algo que ele tem."
+    },
+    {
+      "id": "sistemas-operacionais-30",
+      "topico": "seguranca",
+      "nivel": "analise",
+      "pergunta": "Por que os contêineres são mais leves que as máquinas virtuais?",
+      "opcoes": [
+        "Porque não isolam as aplicações",
+        "Porque compartilham o núcleo do sistema hospedeiro em vez de carregar um sistema operacional completo",
+        "Porque não usam memória",
+        "Porque dispensam o hardware"
+      ],
+      "correta": 1,
+      "explicacao": "Cada máquina virtual, ao contrário, carrega o próprio sistema operacional."
+    }
+  ]
+}

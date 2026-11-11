@@ -1,0 +1,465 @@
+{
+  "id": "programacao-orientada-objetos",
+  "nome": "Programação Orientada a Objetos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "classes",
+      "nome": "Classes, objetos e encapsulamento",
+      "resumo": "### O paradigma\nA orientação a objetos (OO) organiza o programa como um conjunto de **objetos** que **colaboram** trocando **mensagens**. Cada objeto junta **dados** (estado) e **comportamento** (operações).\n- Contrasta com o paradigma **procedural**, em que dados e funções ficam separados.\n- Quatro pilares: **abstração**, **encapsulamento**, **herança** e **polimorfismo**.\n\n### Classe e objeto\n- **Classe**: o **molde** (tipo) que define atributos e métodos. Ex.: `Conta`.\n- **Objeto (instância)**: um exemplar concreto criado a partir da classe, com valores próprios. Ex.: a conta de número 123.\n- **Instanciação**: criar o objeto, em geral com `new`.\n\n```java\npublic class Conta {\n    private double saldo;            // atributo\n\n    public void depositar(double v) { // método\n        if (v > 0) saldo += v;\n    }\n    public double getSaldo() { return saldo; }\n}\n\nConta c = new Conta();   // objeto\nc.depositar(100);\n```\n\n### Atributos e métodos\n- **Atributos** (campos): guardam o **estado**.\n- **Métodos**: definem o **comportamento**.\n- **Assinatura** do método: nome + lista de parâmetros.\n- **Identidade**: cada objeto é único, mesmo com estado igual a outro.\n\n### Construtores\nMétodo especial executado **na criação** do objeto, para inicializá-lo.\n- Tem o **mesmo nome da classe** e **não tem tipo de retorno**.\n- Se nenhum for escrito, a linguagem fornece um **construtor padrão** sem parâmetros.\n- Pode haver **vários** (sobrecarga).\n- `this` refere-se ao **objeto atual**; usado, por exemplo, para diferenciar atributo de parâmetro.\n- **Destrutor**: em C++ libera recursos; em Java, a memória é recuperada pelo **coletor de lixo** (*garbage collector*).\n\n### Encapsulamento\n**Esconder os detalhes internos** e expor só o necessário por uma **interface pública**. Protege o estado contra uso indevido e permite mudar a implementação sem quebrar quem usa a classe.\n\n**Modificadores de acesso (Java)**\n| Modificador | Mesma classe | Mesmo pacote | Subclasse | Qualquer lugar |\n|---|---|---|---|---|\n| `private` | sim | não | não | não |\n| (padrão, sem palavra) | sim | sim | não | não |\n| `protected` | sim | sim | sim | não |\n| `public` | sim | sim | sim | sim |\n\n- Prática comum: atributos **privados** com métodos de acesso (***getters* e *setters***), que podem **validar** os valores.\n\n### Membros estáticos\n- `static`: pertence **à classe**, não a cada objeto. Um atributo estático é **compartilhado** por todas as instâncias.\n- Método estático é chamado pela classe (`Math.sqrt(9)`) e **não acessa** atributos de instância nem `this`.\n- `final` (Java): variável que não muda (**constante**), método que não pode ser sobrescrito, classe que não pode ser herdada.\n\n### Referências\nVariáveis de objeto guardam **referências** (endereços), não o objeto em si.\n- `a = b` faz as duas apontarem para o **mesmo objeto**.\n- `==` compara **referências**; `equals()` compara **conteúdo** (se sobrescrito).\n- `null`: referência a nenhum objeto; usá-la causa `NullPointerException`.\n\n### Pacotes\nAgrupam classes relacionadas e evitam conflito de nomes (`java.util`, `java.io`).",
+      "revisao": "**Lembre:**\n- Classe é o molde; objeto é a instância.\n- Pilares: abstração, encapsulamento, herança e polimorfismo.\n- Construtor: mesmo nome da classe, sem retorno.\n- Encapsular: atributos privados, acesso por métodos.\n- static pertence à classe; == compara referências."
+    },
+    {
+      "id": "heranca",
+      "nome": "Herança e composição",
+      "resumo": "### Herança\nMecanismo pelo qual uma classe (**subclasse**, filha, derivada) **herda** atributos e métodos de outra (**superclasse**, mãe, base). Representa a relação **\"é um\"**.\n\n```java\npublic class Animal {\n    protected String nome;\n    public void comer() { System.out.println(\"comendo\"); }\n}\n\npublic class Cachorro extends Animal {   // Cachorro é um Animal\n    public void latir() { System.out.println(\"au au\"); }\n}\n```\n\n- **Vantagens**: **reúso** de código e base para o polimorfismo.\n- **Generalização**: extrair o que é comum para a superclasse. **Especialização**: acrescentar o que é próprio na subclasse.\n- Membros `private` são herdados, mas **não acessíveis** diretamente pela subclasse; `protected` são.\n\n### `super`\n- `super(...)`: chama o **construtor da superclasse**; deve ser a **primeira instrução** do construtor.\n- `super.metodo()`: chama a versão da superclasse de um método sobrescrito.\n- Os construtores **não são herdados**; ao criar o objeto, o construtor da superclasse roda **antes**.\n\n### Tipos de herança\n- **Simples**: uma só superclasse direta. **Java e C#** permitem apenas herança simples de classes.\n- **Múltipla**: várias superclasses; existe em **C++** e Python. Pode gerar o **problema do diamante** (ambiguidade quando duas superclasses herdam da mesma base).\n- **Multinível**: A → B → C.\n- **Hierárquica**: várias subclasses da mesma superclasse.\n- Em Java, toda classe herda de `Object` (`toString()`, `equals()`, `hashCode()`).\n\n### Sobrescrita (*override*)\nA subclasse **redefine** um método herdado, com a **mesma assinatura**.\n- Em Java, usa-se a anotação `@Override`.\n- Não pode **reduzir** a visibilidade.\n- Métodos `final`, `static` e `private` **não** podem ser sobrescritos.\n\n### Sobrecarga (*overload*)\nVários métodos com o **mesmo nome** e **parâmetros diferentes** (em número, tipo ou ordem), na mesma classe. Resolvida em **tempo de compilação**. Mudar só o tipo de retorno **não basta**.\n\n| | Sobrescrita | Sobrecarga |\n|---|---|---|\n| Onde | Subclasse | Mesma classe (ou hierarquia) |\n| Assinatura | **Igual** | **Diferente** |\n| Resolução | Tempo de **execução** | Tempo de **compilação** |\n\n### Relações entre classes\n- **Associação**: um objeto **usa** ou conhece outro.\n- **Agregação**: relação **todo-parte fraca**; a parte **existe sem** o todo. Ex.: Time e Jogador.\n- **Composição**: relação **todo-parte forte** (\"tem um\"); a parte **não existe sem** o todo. Ex.: Casa e Cômodo; Pedido e ItemPedido.\n- **Dependência**: uso temporário (parâmetro, variável local).\n\n### Herança x composição\n- Herança cria **acoplamento forte**: mudanças na superclasse afetam todas as subclasses.\n- Princípio de projeto: **\"prefira composição à herança\"**. Use herança só quando a relação \"é um\" for verdadeira e estável.\n- Erro clássico: `Pilha extends Lista` (uma pilha **não é** uma lista; ela **usa** uma lista).\n\n### *Casting*\n- ***Upcasting***: tratar a subclasse como superclasse; implícito e seguro (`Animal a = new Cachorro();`).\n- ***Downcasting***: converter de volta; explícito e arriscado (`Cachorro c = (Cachorro) a;`). Verifica-se com `instanceof`.",
+      "revisao": "**Lembre:**\n- Herança: relação \"é um\"; extends em Java.\n- super chama construtor ou método da superclasse.\n- Java não tem herança múltipla de classes.\n- Sobrescrita: mesma assinatura, na subclasse; sobrecarga: parâmetros diferentes.\n- Composição: a parte não vive sem o todo; prefira composição à herança."
+    },
+    {
+      "id": "polimorfismo",
+      "nome": "Polimorfismo, classes abstratas e interfaces",
+      "resumo": "### Polimorfismo\n\"Muitas formas\": a **mesma mensagem** produz **comportamentos diferentes** conforme o objeto que a recebe.\n\n```java\nAnimal a1 = new Cachorro();\nAnimal a2 = new Gato();\na1.emitirSom();   // \"au au\"\na2.emitirSom();   // \"miau\"\n```\n\n- **Polimorfismo de inclusão (dinâmico)**: por **sobrescrita**; o método é escolhido em **tempo de execução**, pelo tipo real do objeto (**ligação dinâmica** ou tardia).\n- **Polimorfismo estático**: por **sobrecarga**; decidido na compilação.\n- **Paramétrico**: os **genéricos** (`List<String>`).\n- **Vantagem**: código que trabalha com o tipo geral e aceita **novos subtipos sem ser alterado**.\n\n### Classe abstrata\nClasse que **não pode ser instanciada**; serve de **base** para outras.\n- Pode ter métodos **abstratos** (sem corpo) e **concretos** (com corpo), além de atributos e construtores.\n- A subclasse concreta é **obrigada** a implementar todos os métodos abstratos.\n\n```java\npublic abstract class Forma {\n    public abstract double area();          // sem corpo\n    public void descrever() {               // concreto\n        System.out.println(\"Área: \" + area());\n    }\n}\npublic class Circulo extends Forma {\n    private double r;\n    public double area() { return Math.PI * r * r; }\n}\n```\n\n### Interface\n**Contrato** que define **o que** uma classe deve fazer, sem dizer **como**.\n- Em Java: métodos são, por padrão, **públicos e abstratos**; atributos são **constantes** (`public static final`).\n- Desde o Java 8, admite métodos `default` e `static` com corpo.\n- Uma classe **implementa** (`implements`) **várias interfaces**: é a forma de Java obter um efeito parecido com a herança múltipla.\n- Uma interface pode **estender** outras interfaces.\n\n```java\npublic interface Pagavel {\n    double calcularPagamento();\n}\npublic class Funcionario implements Pagavel, Comparable<Funcionario> { ... }\n```\n\n### Abstrata x interface\n| | Classe abstrata | Interface |\n|---|---|---|\n| Herança | Uma só (`extends`) | Várias (`implements`) |\n| Atributos de instância | Sim | Não (só constantes) |\n| Construtor | Sim | Não |\n| Uso típico | Classes **relacionadas** que compartilham código | **Capacidade** comum a classes sem relação |\n\n### Abstração\nDestacar as características **essenciais** e ignorar os detalhes irrelevantes para o problema. Classes abstratas e interfaces são seus instrumentos.\n\n### Acoplamento e coesão\n- **Acoplamento**: grau de **dependência** entre classes. Deseja-se **baixo**.\n- **Coesão**: quanto as responsabilidades de uma classe estão **relacionadas** entre si. Deseja-se **alta**.\n- **Programar para a interface, não para a implementação**: depender de tipos abstratos reduz o acoplamento.\n\n### Genéricos\nPermitem escrever classes e métodos que funcionam com **vários tipos**, com verificação em tempo de compilação: `ArrayList<Integer>`, `Map<String, Cliente>`. Evitam *casts* e erros em execução.\n\n### Coleções (Java)\n- `List` (ordenada, aceita repetidos): `ArrayList`, `LinkedList`.\n- `Set` (sem repetidos): `HashSet`, `TreeSet`.\n- `Map` (chave e valor): `HashMap`, `TreeMap`.\n- `Queue` (fila).",
+      "revisao": "**Lembre:**\n- Polimorfismo: mesma mensagem, comportamentos diferentes.\n- Ligação dinâmica: método escolhido em tempo de execução.\n- Classe abstrata não é instanciada; pode ter métodos com e sem corpo.\n- Interface é contrato; uma classe implementa várias.\n- Busque baixo acoplamento e alta coesão."
+    },
+    {
+      "id": "excecoes",
+      "nome": "Tratamento de exceções e boas práticas",
+      "resumo": "### Exceção\nEvento **anormal** que interrompe o fluxo normal do programa (divisão por zero, arquivo inexistente, índice fora dos limites).\n\n### Estrutura\n```java\ntry {\n    int r = 10 / divisor;            // código que pode falhar\n} catch (ArithmeticException e) {\n    System.out.println(\"Divisão por zero\");\n} finally {\n    System.out.println(\"Sempre executa\"); // libera recursos\n}\n```\n- `try`: bloco protegido.\n- `catch`: trata a exceção; pode haver **vários**, do mais **específico** para o mais **geral**.\n- `finally`: executa **sempre**, com ou sem exceção.\n- `throw`: **lança** uma exceção.\n- `throws`: na assinatura, **declara** que o método pode lançá-la.\n- ***try-with-resources***: fecha automaticamente recursos que implementam `AutoCloseable`.\n\n### Hierarquia em Java\n`Throwable`\n- `Error`: problemas graves da máquina virtual (`OutOfMemoryError`); **não se tratam**.\n- `Exception`:\n  - **Verificadas (*checked*)**: o compilador **obriga** a tratar ou declarar. Ex.: `IOException`, `SQLException`.\n  - **Não verificadas (*unchecked*)**: subclasses de `RuntimeException`; em geral, **erros de programação**. Ex.: `NullPointerException`, `ArrayIndexOutOfBoundsException`, `ArithmeticException`, `ClassCastException`.\n\n### Exceções personalizadas\nCriam-se estendendo `Exception` (verificada) ou `RuntimeException` (não verificada), para representar erros do **domínio**: `SaldoInsuficienteException`.\n\n### Boas práticas\n- **Não engolir** exceções com `catch` vazio.\n- Capturar a exceção **mais específica** possível.\n- Não usar exceção para controle de fluxo normal.\n- Mensagens claras e registro em *log*.\n\n### Princípios SOLID\n- **S — Responsabilidade única**: uma classe deve ter **um só motivo para mudar**.\n- **O — Aberto/fechado**: aberta para **extensão**, fechada para **modificação**.\n- **L — Substituição de Liskov**: objetos da subclasse devem poder **substituir** os da superclasse sem quebrar o programa.\n- **I — Segregação de interfaces**: várias interfaces **específicas** são melhores que uma geral.\n- **D — Inversão de dependência**: dependa de **abstrações**, não de implementações concretas.\n\n### Outros princípios\n- **DRY** (*don't repeat yourself*): não repita código.\n- **KISS**: mantenha simples.\n- **YAGNI**: não implemente o que ainda não é necessário.\n- **Lei de Deméter**: fale só com os \"amigos próximos\".\n- ***Tell, don't ask***: peça ao objeto que faça, em vez de pedir seus dados para decidir por ele.\n\n### Código limpo\nNomes significativos, métodos **curtos** que fazem **uma coisa só**, poucos parâmetros e comentários apenas quando necessários.\n\n### Refatoração\nMelhorar a **estrutura interna** do código **sem alterar** seu comportamento externo. Exige **testes** para dar segurança. Sinais de que é preciso (*code smells*): classe muito grande, método longo, código duplicado, lista longa de parâmetros.\n\n### Testes\n- **Teste unitário**: verifica uma unidade (classe ou método) isoladamente; em Java, com **JUnit**.\n- **TDD**: escrever o teste **antes** do código (vermelho, verde, refatorar).\n- ***Mocks***: objetos falsos que simulam dependências.\n\n### Imutabilidade\nObjeto cujo estado **não muda** depois de criado (`String` em Java). Mais simples de raciocinar e seguro em concorrência.",
+      "revisao": "**Lembre:**\n- try protege, catch trata, finally sempre executa.\n- throw lança; throws declara.\n- Verificadas: o compilador obriga a tratar; RuntimeException não.\n- SOLID: responsabilidade única, aberto/fechado, Liskov, segregação de interfaces, inversão de dependência.\n- Refatorar melhora a estrutura sem mudar o comportamento."
+    },
+    {
+      "id": "padroes",
+      "nome": "Padrões de projeto",
+      "resumo": "### O que são\n**Soluções reutilizáveis** para problemas recorrentes de projeto orientado a objetos. Popularizados pelo livro da **\"Gangue dos Quatro\" (GoF)**, que cataloga **23 padrões** em três grupos.\n- Dão um **vocabulário comum** aos desenvolvedores.\n- Não são código pronto: são **modelos** a adaptar.\n\n### Padrões de criação (como criar objetos)\n- ***Singleton***: garante **uma única instância** da classe e um ponto global de acesso. Ex.: configuração, conexão. Crítica: dificulta testes e cria estado global.\n- ***Factory Method***: define uma interface para criar objetos e deixa as **subclasses decidirem** qual classe instanciar.\n- ***Abstract Factory***: cria **famílias** de objetos relacionados sem especificar as classes concretas.\n- ***Builder***: constrói objetos **complexos passo a passo**, separando a construção da representação.\n- ***Prototype***: cria objetos **clonando** um protótipo.\n\n### Padrões estruturais (como compor classes e objetos)\n- ***Adapter***: converte a interface de uma classe em outra **esperada pelo cliente**; faz classes incompatíveis trabalharem juntas.\n- ***Decorator***: **acrescenta responsabilidades** a um objeto dinamicamente, sem alterar sua classe.\n- ***Facade***: oferece uma **interface simples** para um subsistema complexo.\n- ***Composite***: trata objetos individuais e **composições** (árvores) de modo uniforme.\n- ***Proxy***: um **substituto** que controla o acesso a outro objeto (carga tardia, segurança, cache).\n- ***Bridge***: separa abstração de implementação.\n- ***Flyweight***: compartilha objetos para economizar memória.\n\n### Padrões comportamentais (como os objetos interagem)\n- ***Observer***: quando um objeto muda, seus **dependentes são notificados** automaticamente. Base de eventos e do modelo publicar-assinar.\n- ***Strategy***: define uma família de **algoritmos intercambiáveis**, encapsulando cada um; permite trocar o algoritmo em tempo de execução.\n- ***Template Method***: define o **esqueleto** de um algoritmo na superclasse, deixando passos para as subclasses.\n- ***Command***: encapsula uma **solicitação como objeto** (permite desfazer, filas, registro).\n- ***State***: o objeto muda de comportamento quando seu **estado interno** muda.\n- ***Iterator***: percorre uma coleção sem expor sua estrutura interna.\n- ***Chain of Responsibility***: passa a requisição por uma cadeia de tratadores.\n- ***Mediator***, ***Memento***, ***Visitor*** e ***Interpreter***.\n\n### Padrões de arquitetura\n- **MVC** (*Model-View-Controller*): separa **modelo** (dados e regras), **visão** (interface) e **controlador** (recebe as ações e coordena). Facilita manutenção e testes.\n- **Camadas**: apresentação, negócio e dados.\n- **DAO / Repository**: isola o acesso a dados.\n- **DTO**: objeto para transferir dados entre camadas.\n- **Injeção de dependência**: as dependências são **fornecidas de fora**, em vez de criadas pela própria classe; realiza a inversão de controle.\n\n### GRASP\nPadrões de atribuição de responsabilidades: **especialista na informação**, **criador**, **controlador**, **baixo acoplamento**, **alta coesão**, polimorfismo, invenção pura, indireção e variações protegidas.\n\n### Antipadrões\nSoluções ruins e comuns: **classe deus** (*God class*, faz tudo), **código espaguete**, **martelo de ouro** (usar a mesma solução para tudo) e copiar-e-colar.\n\n### Quando usar\nAplicar um padrão **só quando há o problema** que ele resolve. Padrões em excesso tornam o código mais complexo do que precisa.",
+      "revisao": "**Lembre:**\n- GoF: 23 padrões em criação, estruturais e comportamentais.\n- Singleton: uma única instância.\n- Factory Method: subclasses decidem o que criar.\n- Adapter converte interfaces; Facade simplifica; Decorator acrescenta responsabilidades.\n- Observer notifica dependentes; Strategy troca algoritmos; MVC separa modelo, visão e controlador."
+    },
+    {
+      "id": "uml",
+      "nome": "Modelagem com UML",
+      "resumo": "### UML\n***Unified Modeling Language***: linguagem **visual padrão** para especificar, visualizar e documentar sistemas. **Não é metodologia nem linguagem de programação**. Mantida pelo **OMG**.\n\n### Diagramas estruturais (estáticos)\n- **Classes**: classes, atributos, métodos e relacionamentos. O mais usado.\n- **Objetos**: instâncias em um momento.\n- **Componentes**: partes do software e dependências.\n- **Implantação**: hardware (nós) e onde o software roda.\n- **Pacotes**: agrupamentos lógicos.\n- **Estrutura composta** e **perfis**.\n\n### Diagramas comportamentais (dinâmicos)\n- **Casos de uso**: funcionalidades do ponto de vista do usuário.\n- **Atividades**: fluxo de trabalho (como um fluxograma), com decisões e paralelismo.\n- **Máquina de estados**: estados de um objeto e as transições.\n- **De interação**: **sequência** (troca de mensagens **no tempo**), **comunicação** (ênfase nos vínculos), **visão geral da interação** e **tempo**.\n\n### Diagrama de classes\nA classe é um retângulo com três partes: **nome**, **atributos** e **operações**.\n\n**Visibilidade**\n- `+` público\n- `-` privado\n- `#` protegido\n- `~` pacote\n\nEx.: `- saldo: double` e `+ depositar(valor: double): void`.\n- Nome em *itálico*: classe ou método **abstrato**.\n- Sublinhado: membro **estático**.\n\n**Relacionamentos**\n| Relação | Notação | Significado |\n|---|---|---|\n| **Associação** | Linha simples | Um objeto se relaciona com outro |\n| **Agregação** | Losango **vazio** no todo | Todo-parte fraca |\n| **Composição** | Losango **cheio** no todo | Todo-parte forte |\n| **Generalização (herança)** | Seta com triângulo **vazio** apontando para a superclasse | \"É um\" |\n| **Realização** | Linha **tracejada** com triângulo vazio | Classe implementa interface |\n| **Dependência** | Seta **tracejada** | Uso temporário |\n\n**Multiplicidade**: quantos objetos participam.\n- `1` exatamente um; `0..1` zero ou um; `*` ou `0..*` zero ou muitos; `1..*` um ou muitos.\n- **Navegabilidade**: seta que indica quem conhece quem.\n- **Classe de associação**: guarda atributos de um relacionamento.\n\n### Diagrama de casos de uso\n- **Ator**: papel externo que interage com o sistema (pessoa, outro sistema); boneco palito.\n- **Caso de uso**: funcionalidade; elipse.\n- **Fronteira do sistema**: retângulo.\n- Relações:\n  - ***include***: o caso base **sempre** executa o incluído (obrigatório). Ex.: \"Sacar\" inclui \"Autenticar\".\n  - ***extend***: o comportamento é **opcional**, sob certa condição. Ex.: \"Emitir recibo\" estende \"Sacar\".\n  - **Generalização** entre atores ou entre casos de uso.\n\n### Diagrama de sequência\n- **Linhas de vida** verticais (objetos) e **mensagens** horizontais, de cima para baixo no tempo.\n- Mensagem **síncrona** (seta cheia), **assíncrona** (seta aberta) e **retorno** (tracejada).\n- **Barra de ativação**: período em que o objeto está executando.\n- Fragmentos: `alt` (alternativa), `opt` (opcional), `loop` (repetição).\n\n### Análise e projeto OO\n- **Análise**: entender **o quê**; modelo de domínio (classes conceituais).\n- **Projeto**: definir **como**; classes de software, responsabilidades e colaborações.\n- **Cartões CRC**: classe, responsabilidades e colaboradores.\n- Processos: **Processo Unificado (RUP)**, iterativo e incremental, dirigido por casos de uso; e métodos **ágeis**, com modelagem mais leve.\n\n### Do modelo ao código\n- Associação vira **atributo** de referência.\n- Multiplicidade \"muitos\" vira **coleção**.\n- Generalização vira `extends`; realização vira `implements`.",
+      "revisao": "**Lembre:**\n- UML é linguagem de modelagem, não metodologia.\n- Visibilidade: + público, - privado, # protegido.\n- Losango vazio: agregação; cheio: composição; triângulo vazio: herança.\n- Include é obrigatório; extend é opcional.\n- Sequência mostra mensagens no tempo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "programacao-orientada-objetos-1",
+      "topico": "classes",
+      "nivel": "conceitual",
+      "pergunta": "Na orientação a objetos, uma classe é:",
+      "opcoes": [
+        "O molde que define atributos e métodos dos objetos",
+        "Um objeto criado em tempo de execução",
+        "Uma variável global",
+        "Um arquivo de configuração"
+      ],
+      "correta": 0,
+      "explicacao": "Os objetos são instâncias concretas criadas a partir desse molde."
+    },
+    {
+      "id": "programacao-orientada-objetos-2",
+      "topico": "classes",
+      "nivel": "conceitual",
+      "pergunta": "O construtor de uma classe em Java:",
+      "opcoes": [
+        "Sempre retorna void",
+        "Tem o mesmo nome da classe e não tem tipo de retorno",
+        "Só pode existir um por classe",
+        "É chamado quando o objeto é destruído"
+      ],
+      "correta": 1,
+      "explicacao": "Ele é executado no momento em que o objeto é criado com new."
+    },
+    {
+      "id": "programacao-orientada-objetos-3",
+      "topico": "classes",
+      "nivel": "conceitual",
+      "pergunta": "Um atributo declarado como static:",
+      "opcoes": [
+        "Pertence a cada objeto separadamente",
+        "Não pode ser lido",
+        "Pertence à classe e é compartilhado por todas as instâncias",
+        "Só existe dentro de métodos"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso pode ser acessado mesmo sem criar nenhum objeto."
+    },
+    {
+      "id": "programacao-orientada-objetos-4",
+      "topico": "classes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma classe Conta deve impedir que o saldo seja alterado diretamente para um valor negativo. A solução adequada é:",
+      "opcoes": [
+        "Declarar o saldo como public",
+        "Declarar o saldo como static",
+        "Remover o atributo saldo",
+        "Declarar o saldo como private e alterá-lo só por métodos que validam o valor"
+      ],
+      "correta": 3,
+      "explicacao": "Esse é o papel do encapsulamento: proteger o estado interno do objeto."
+    },
+    {
+      "id": "programacao-orientada-objetos-5",
+      "topico": "classes",
+      "nivel": "analise",
+      "pergunta": "Por que comparar dois objetos com == pode dar false mesmo que tenham o mesmo conteúdo?",
+      "opcoes": [
+        "Porque == compara as referências, e eles podem ser objetos distintos na memória",
+        "Porque == compara apenas números",
+        "Porque objetos nunca são iguais",
+        "Porque == só funciona com static"
+      ],
+      "correta": 0,
+      "explicacao": "Para comparar o conteúdo, usa-se o método equals devidamente sobrescrito."
+    },
+    {
+      "id": "programacao-orientada-objetos-6",
+      "topico": "heranca",
+      "nivel": "conceitual",
+      "pergunta": "A herança representa entre as classes a relação:",
+      "opcoes": [
+        "Tem um",
+        "É um",
+        "Usa um",
+        "Cria um"
+      ],
+      "correta": 1,
+      "explicacao": "A relação 'tem um' é expressa por composição ou agregação."
+    },
+    {
+      "id": "programacao-orientada-objetos-7",
+      "topico": "heranca",
+      "nivel": "conceitual",
+      "pergunta": "Em Java, a palavra super é usada para:",
+      "opcoes": [
+        "Criar um novo objeto",
+        "Declarar uma constante",
+        "Acessar o construtor ou os métodos da superclasse",
+        "Tornar um método estático"
+      ],
+      "correta": 2,
+      "explicacao": "A chamada super(...) deve ser a primeira instrução do construtor."
+    },
+    {
+      "id": "programacao-orientada-objetos-8",
+      "topico": "heranca",
+      "nivel": "conceitual",
+      "pergunta": "A sobrecarga de métodos consiste em:",
+      "opcoes": [
+        "Redefinir na subclasse um método com a mesma assinatura",
+        "Impedir que um método seja herdado",
+        "Chamar o método da superclasse",
+        "Vários métodos com o mesmo nome e parâmetros diferentes"
+      ],
+      "correta": 3,
+      "explicacao": "Ela é resolvida pelo compilador, conforme os argumentos da chamada."
+    },
+    {
+      "id": "programacao-orientada-objetos-9",
+      "topico": "heranca",
+      "nivel": "aplicacao",
+      "pergunta": "Em um sistema, um Pedido é formado por Itens que não fazem sentido fora dele. A relação entre Pedido e Item é de:",
+      "opcoes": [
+        "Composição",
+        "Herança",
+        "Agregação",
+        "Dependência"
+      ],
+      "correta": 0,
+      "explicacao": "Na composição, a parte não existe sem o todo."
+    },
+    {
+      "id": "programacao-orientada-objetos-10",
+      "topico": "heranca",
+      "nivel": "analise",
+      "pergunta": "Por que se recomenda preferir composição à herança?",
+      "opcoes": [
+        "Porque a herança é proibida em Java",
+        "Porque a herança cria acoplamento forte entre superclasse e subclasses",
+        "Porque composição impede o reúso de código",
+        "Porque herança não permite polimorfismo"
+      ],
+      "correta": 1,
+      "explicacao": "Mudanças na superclasse podem quebrar todas as classes que herdam dela."
+    },
+    {
+      "id": "programacao-orientada-objetos-11",
+      "topico": "polimorfismo",
+      "nivel": "conceitual",
+      "pergunta": "Polimorfismo é a capacidade de:",
+      "opcoes": [
+        "Uma classe ter vários construtores",
+        "Esconder os atributos de uma classe",
+        "Objetos diferentes responderem de formas diferentes à mesma mensagem",
+        "Criar uma única instância de uma classe"
+      ],
+      "correta": 2,
+      "explicacao": "O método executado depende do tipo real do objeto em tempo de execução."
+    },
+    {
+      "id": "programacao-orientada-objetos-12",
+      "topico": "polimorfismo",
+      "nivel": "conceitual",
+      "pergunta": "Uma classe abstrata:",
+      "opcoes": [
+        "Não pode ter atributos",
+        "Não pode ser herdada",
+        "Só pode ter métodos estáticos",
+        "Não pode ser instanciada diretamente"
+      ],
+      "correta": 3,
+      "explicacao": "Ela serve de base e pode ter métodos com e sem implementação."
+    },
+    {
+      "id": "programacao-orientada-objetos-13",
+      "topico": "polimorfismo",
+      "nivel": "conceitual",
+      "pergunta": "Em Java, uma classe pode:",
+      "opcoes": [
+        "Implementar várias interfaces",
+        "Herdar de várias classes",
+        "Estender várias classes abstratas",
+        "Instanciar uma interface diretamente"
+      ],
+      "correta": 0,
+      "explicacao": "As interfaces compensam a ausência de herança múltipla de classes."
+    },
+    {
+      "id": "programacao-orientada-objetos-14",
+      "topico": "polimorfismo",
+      "nivel": "aplicacao",
+      "pergunta": "Um sistema de pagamentos precisa aceitar cartão, boleto e Pix, e novos meios no futuro, sem alterar o código que processa a cobrança. A melhor solução é:",
+      "opcoes": [
+        "Usar um único método com vários if para cada meio",
+        "Definir uma interface Pagamento e uma classe para cada meio",
+        "Criar uma classe estática com tudo",
+        "Duplicar o código de cobrança para cada meio"
+      ],
+      "correta": 1,
+      "explicacao": "O código passa a depender da interface, e novos meios entram como novas classes."
+    },
+    {
+      "id": "programacao-orientada-objetos-15",
+      "topico": "polimorfismo",
+      "nivel": "analise",
+      "pergunta": "Por que se busca baixo acoplamento e alta coesão em um projeto orientado a objetos?",
+      "opcoes": [
+        "Porque aumenta o número de linhas de código",
+        "Porque impede o uso de interfaces",
+        "Porque classes independentes e focadas são mais fáceis de manter, testar e reutilizar",
+        "Porque elimina a necessidade de testes"
+      ],
+      "correta": 2,
+      "explicacao": "Dependências fortes espalham o efeito de cada mudança pelo sistema."
+    },
+    {
+      "id": "programacao-orientada-objetos-16",
+      "topico": "excecoes",
+      "nivel": "conceitual",
+      "pergunta": "O bloco finally:",
+      "opcoes": [
+        "Só é executado quando ocorre exceção",
+        "Substitui o bloco try",
+        "Lança uma nova exceção obrigatoriamente",
+        "É executado sempre, haja ou não exceção"
+      ],
+      "correta": 3,
+      "explicacao": "Costuma ser usado para liberar recursos, como arquivos e conexões."
+    },
+    {
+      "id": "programacao-orientada-objetos-17",
+      "topico": "excecoes",
+      "nivel": "conceitual",
+      "pergunta": "Em Java, as exceções verificadas (checked) são aquelas que:",
+      "opcoes": [
+        "O compilador obriga a tratar ou declarar",
+        "Nunca podem ser capturadas",
+        "Derivam de RuntimeException",
+        "Só ocorrem em tempo de compilação"
+      ],
+      "correta": 0,
+      "explicacao": "IOException e SQLException são exemplos típicos."
+    },
+    {
+      "id": "programacao-orientada-objetos-18",
+      "topico": "excecoes",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da responsabilidade única (o S do SOLID) afirma que uma classe deve:",
+      "opcoes": [
+        "Ter apenas um método",
+        "Ter apenas um motivo para mudar",
+        "Herdar de uma única classe",
+        "Ter apenas um atributo"
+      ],
+      "correta": 1,
+      "explicacao": "Classes com muitas responsabilidades tornam-se frágeis e difíceis de manter."
+    },
+    {
+      "id": "programacao-orientada-objetos-19",
+      "topico": "excecoes",
+      "nivel": "aplicacao",
+      "pergunta": "Um método que lê um arquivo pode lançar IOException, mas não sabe como tratá-la. O adequado é:",
+      "opcoes": [
+        "Usar um catch vazio",
+        "Ignorar o erro com System.exit",
+        "Declarar throws IOException na assinatura e deixar o chamador tratar",
+        "Trocar a exceção por um return null sem aviso"
+      ],
+      "correta": 2,
+      "explicacao": "Engolir a exceção esconde o problema e dificulta a depuração."
+    },
+    {
+      "id": "programacao-orientada-objetos-20",
+      "topico": "excecoes",
+      "nivel": "analise",
+      "pergunta": "Por que a refatoração deve ser acompanhada de testes automatizados?",
+      "opcoes": [
+        "Porque os testes tornam o código mais lento",
+        "Porque a refatoração altera os requisitos",
+        "Porque testes substituem a refatoração",
+        "Porque os testes garantem que o comportamento externo não mudou após as alterações"
+      ],
+      "correta": 3,
+      "explicacao": "Refatorar é mudar a estrutura interna preservando o que o código faz."
+    },
+    {
+      "id": "programacao-orientada-objetos-21",
+      "topico": "padroes",
+      "nivel": "conceitual",
+      "pergunta": "O padrão Singleton garante que:",
+      "opcoes": [
+        "Uma classe tenha apenas uma instância",
+        "Toda classe tenha várias instâncias",
+        "Os objetos sejam clonados",
+        "As interfaces sejam convertidas"
+      ],
+      "correta": 0,
+      "explicacao": "Ele também oferece um ponto global de acesso a essa instância."
+    },
+    {
+      "id": "programacao-orientada-objetos-22",
+      "topico": "padroes",
+      "nivel": "conceitual",
+      "pergunta": "O padrão que notifica automaticamente os objetos dependentes quando outro muda de estado é o:",
+      "opcoes": [
+        "Adapter",
+        "Observer",
+        "Builder",
+        "Facade"
+      ],
+      "correta": 1,
+      "explicacao": "É a base de mecanismos de eventos e de publicar-assinar."
+    },
+    {
+      "id": "programacao-orientada-objetos-23",
+      "topico": "padroes",
+      "nivel": "conceitual",
+      "pergunta": "No padrão MVC, a camada responsável pelos dados e regras de negócio é:",
+      "opcoes": [
+        "A visão (View)",
+        "O controlador (Controller)",
+        "O modelo (Model)",
+        "O roteador"
+      ],
+      "correta": 2,
+      "explicacao": "A visão exibe as informações, e o controlador coordena as ações do usuário."
+    },
+    {
+      "id": "programacao-orientada-objetos-24",
+      "topico": "padroes",
+      "nivel": "aplicacao",
+      "pergunta": "Um sistema precisa usar uma biblioteca externa cuja interface é diferente da que o código espera. O padrão indicado é:",
+      "opcoes": [
+        "Singleton",
+        "Observer",
+        "Template Method",
+        "Adapter"
+      ],
+      "correta": 3,
+      "explicacao": "Ele converte uma interface em outra, permitindo que classes incompatíveis colaborem."
+    },
+    {
+      "id": "programacao-orientada-objetos-25",
+      "topico": "padroes",
+      "nivel": "analise",
+      "pergunta": "Por que não se deve aplicar padrões de projeto em todo o código indiscriminadamente?",
+      "opcoes": [
+        "Porque acrescentam complexidade quando não há o problema que eles resolvem",
+        "Porque são proibidos em linguagens modernas",
+        "Porque tornam o código mais rápido",
+        "Porque eliminam a orientação a objetos"
+      ],
+      "correta": 0,
+      "explicacao": "Um padrão é uma solução para um problema específico, não um objetivo em si."
+    },
+    {
+      "id": "programacao-orientada-objetos-26",
+      "topico": "uml",
+      "nivel": "conceitual",
+      "pergunta": "No diagrama de classes da UML, o símbolo '-' antes de um atributo indica visibilidade:",
+      "opcoes": [
+        "Pública",
+        "Privada",
+        "Protegida",
+        "De pacote"
+      ],
+      "correta": 1,
+      "explicacao": "O símbolo + indica público e # indica protegido."
+    },
+    {
+      "id": "programacao-orientada-objetos-27",
+      "topico": "uml",
+      "nivel": "conceitual",
+      "pergunta": "A composição é representada na UML por:",
+      "opcoes": [
+        "Um losango vazio no lado do todo",
+        "Uma seta tracejada",
+        "Um losango cheio no lado do todo",
+        "Um triângulo vazio"
+      ],
+      "correta": 2,
+      "explicacao": "O losango vazio representa a agregação, que é uma relação mais fraca."
+    },
+    {
+      "id": "programacao-orientada-objetos-28",
+      "topico": "uml",
+      "nivel": "conceitual",
+      "pergunta": "O diagrama que mostra a troca de mensagens entre objetos ao longo do tempo é o de:",
+      "opcoes": [
+        "Classes",
+        "Implantação",
+        "Componentes",
+        "Sequência"
+      ],
+      "correta": 3,
+      "explicacao": "Nele, o tempo corre de cima para baixo ao longo das linhas de vida."
+    },
+    {
+      "id": "programacao-orientada-objetos-29",
+      "topico": "uml",
+      "nivel": "aplicacao",
+      "pergunta": "No caso de uso 'Sacar dinheiro', o cliente sempre precisa se autenticar. A relação entre 'Sacar dinheiro' e 'Autenticar' é:",
+      "opcoes": [
+        "Include",
+        "Extend",
+        "Generalização",
+        "Composição"
+      ],
+      "correta": 0,
+      "explicacao": "O include indica comportamento obrigatório; o extend, comportamento opcional."
+    },
+    {
+      "id": "programacao-orientada-objetos-30",
+      "topico": "uml",
+      "nivel": "analise",
+      "pergunta": "Por que a UML é considerada uma linguagem, e não uma metodologia?",
+      "opcoes": [
+        "Porque obriga a usar o processo em cascata",
+        "Porque define notações para modelar, sem dizer quais etapas seguir no desenvolvimento",
+        "Porque gera código automaticamente em todos os casos",
+        "Porque só serve para bancos de dados"
+      ],
+      "correta": 1,
+      "explicacao": "Ela pode ser usada com processos diferentes, do RUP aos métodos ágeis."
+    }
+  ]
+}

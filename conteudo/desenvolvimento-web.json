@@ -1,0 +1,465 @@
+{
+  "id": "desenvolvimento-web",
+  "nome": "Desenvolvimento Web",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Como a web funciona",
+      "resumo": "### Internet x web\n- **Internet**: a rede mundial de computadores interligados.\n- **Web (WWW)**: um **serviço** que roda sobre a internet, feito de páginas ligadas por *links*. Criada por **Tim Berners-Lee** em 1989.\n\n### Modelo cliente-servidor\n- **Cliente**: o navegador, que **faz a requisição**.\n- **Servidor**: a máquina que **responde** com a página ou os dados.\n- O que acontece ao digitar um endereço:\n  1. O navegador consulta o **DNS**, que traduz o **nome de domínio** em **endereço IP**.\n  2. Abre uma conexão (TCP, com TLS se for HTTPS) com o servidor.\n  3. Envia uma **requisição HTTP**.\n  4. O servidor devolve uma **resposta** (HTML, por exemplo).\n  5. O navegador **interpreta** o HTML, pede os arquivos ligados (CSS, JavaScript, imagens) e **renderiza** a página.\n\n### URL\n`https://www.exemplo.com:443/produtos/lista?cor=azul#topo`\n- **Protocolo** (esquema): `https`.\n- **Domínio** (*host*): `www.exemplo.com`.\n- **Porta**: `443` (padrão do HTTPS; 80 para HTTP).\n- **Caminho**: `/produtos/lista`.\n- **Parâmetros** (*query string*): `?cor=azul`.\n- **Fragmento** (âncora): `#topo`.\n\n### HTTP\nProtocolo de **transferência de hipertexto**. É **sem estado** (*stateless*): cada requisição é independente; o servidor não se lembra da anterior.\n\n**Métodos (verbos)**\n- **GET**: **busca** um recurso; não altera dados; parâmetros na URL.\n- **POST**: **envia** dados para criar algo; dados no corpo.\n- **PUT**: **substitui** um recurso inteiro.\n- **PATCH**: altera **parte** de um recurso.\n- **DELETE**: **remove**.\n- GET, PUT e DELETE são **idempotentes** (repetir não muda o resultado); POST não.\n\n**Códigos de status**\n- **1xx**: informativos.\n- **2xx**: sucesso. **200** OK; **201** criado; **204** sem conteúdo.\n- **3xx**: redirecionamento. **301** movido permanentemente; **302** temporário; **304** não modificado (usa o *cache*).\n- **4xx**: erro do **cliente**. **400** requisição inválida; **401** não autenticado; **403** proibido; **404** não encontrado.\n- **5xx**: erro do **servidor**. **500** erro interno; **503** serviço indisponível.\n\n**Cabeçalhos**: metadados da requisição e da resposta (`Content-Type`, `Authorization`, `Cache-Control`, `Cookie`).\n\n### HTTPS\nHTTP sobre **TLS**: **criptografa** a comunicação, garante a **integridade** e **autentica** o servidor por meio de **certificado digital**.\n\n### Manter estado\n- ***Cookies***: pequenos dados guardados no navegador e enviados a cada requisição ao mesmo site.\n- **Sessão**: dados guardados no servidor, identificados por um *cookie* de sessão.\n- ***Tokens*** (como JWT): enviados no cabeçalho.\n- **Armazenamento no navegador**: `localStorage` (permanente), `sessionStorage` (até fechar a aba) e IndexedDB.\n\n### *Front-end* x *back-end*\n- ***Front-end***: o que roda no **navegador** — HTML (estrutura), CSS (aparência) e JavaScript (comportamento).\n- ***Back-end***: o que roda no **servidor** — regras de negócio, banco de dados, autenticação.\n- ***Full stack***: quem atua nos dois.\n\n### Páginas estáticas x dinâmicas\n- **Estática**: o mesmo arquivo é entregue a todos.\n- **Dinâmica**: gerada na hora, conforme o usuário e os dados.\n\n### Hospedagem e domínio\nRegistro do domínio, servidor de hospedagem, **CDN** (rede de distribuição que entrega arquivos de servidores próximos ao usuário).\n\n### Padrões\nO **W3C** e o WHATWG definem os padrões da web, para que as páginas funcionem em qualquer navegador.",
+      "revisao": "**Lembre:**\n- Cliente pede, servidor responde; DNS traduz nome em IP.\n- HTTP é sem estado; cookies e sessões guardam o contexto.\n- GET busca, POST cria, PUT substitui, PATCH altera parte, DELETE remove.\n- 2xx sucesso, 3xx redirecionamento, 4xx erro do cliente, 5xx erro do servidor.\n- HTTPS criptografa com TLS."
+    },
+    {
+      "id": "html",
+      "nome": "HTML: estrutura e semântica",
+      "resumo": "### O que é\n**HTML** (*HyperText Markup Language*) é a linguagem de **marcação** que define a **estrutura e o significado** do conteúdo. **Não é linguagem de programação**.\n\n### Estrutura mínima\n```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Minha página</title>\n  <link rel=\"stylesheet\" href=\"estilo.css\">\n</head>\n<body>\n  <h1>Olá, mundo</h1>\n  <script src=\"app.js\"></script>\n</body>\n</html>\n```\n- `<!DOCTYPE html>`: indica HTML5.\n- `<head>`: metadados (título, codificação, estilos); não aparece na página.\n- `<body>`: o conteúdo visível.\n- A *meta viewport* é essencial para o **layout responsivo** em celulares.\n\n### Elementos e atributos\n- **Elemento**: `<p>texto</p>` = *tag* de abertura + conteúdo + *tag* de fechamento.\n- **Elementos vazios**: sem fechamento (`<br>`, `<img>`, `<input>`, `<hr>`, `<meta>`).\n- **Atributos**: informações extras na *tag* de abertura (`href`, `src`, `alt`, `id`, `class`).\n  - `id`: identificador **único** na página.\n  - `class`: pode se **repetir** e um elemento pode ter várias.\n\n### Principais elementos\n- **Títulos**: `<h1>` a `<h6>`; use um `<h1>` principal e respeite a hierarquia.\n- **Texto**: `<p>`, `<strong>` (importância), `<em>` (ênfase), `<br>`.\n- ***Links***: `<a href=\"pagina.html\">texto</a>`; `target=\"_blank\"` abre em nova aba.\n- **Imagens**: `<img src=\"foto.jpg\" alt=\"descrição\">`. O atributo `alt` é o **texto alternativo**, lido por leitores de tela e exibido se a imagem falhar.\n- **Listas**: `<ul>` (não ordenada), `<ol>` (ordenada) e `<li>` (item).\n- **Tabelas**: `<table>`, `<tr>` (linha), `<th>` (cabeçalho) e `<td>` (célula). Para **dados tabulares**, não para layout.\n- **Genéricos**: `<div>` (bloco) e `<span>` (em linha), sem significado próprio.\n\n### Bloco x em linha\n- **De bloco**: começam em nova linha e ocupam toda a largura (`<div>`, `<p>`, `<h1>`, `<section>`).\n- **Em linha**: ficam no fluxo do texto (`<span>`, `<a>`, `<strong>`, `<img>`).\n\n### HTML semântico\nUsar *tags* que **descrevem o papel** do conteúdo:\n- `<header>` (cabeçalho), `<nav>` (navegação), `<main>` (conteúdo principal, um por página), `<section>` (seção temática), `<article>` (conteúdo independente), `<aside>` (conteúdo lateral) e `<footer>` (rodapé).\n- `<figure>` e `<figcaption>`, `<time>`, `<address>`.\n- **Vantagens**: **acessibilidade**, **SEO** (os buscadores entendem a página) e código mais fácil de manter.\n\n### Formulários\n```html\n<form action=\"/cadastro\" method=\"post\">\n  <label for=\"email\">E-mail</label>\n  <input type=\"email\" id=\"email\" name=\"email\" required>\n  <button type=\"submit\">Enviar</button>\n</form>\n```\n- `action`: para onde enviar; `method`: GET ou POST.\n- `<input>` com `type`: `text`, `email`, `password`, `number`, `date`, `checkbox`, `radio`, `file`.\n- `<select>`, `<textarea>` e `<button>`.\n- `<label for=\"...\">` liga o rótulo ao campo (acessibilidade).\n- O atributo `name` identifica o campo no envio.\n- **Validação nativa**: `required`, `minlength`, `pattern`, `min`, `max`.\n\n### Multimídia\n`<audio>`, `<video>`, `<canvas>` (desenho por código) e `<svg>` (gráficos vetoriais).\n\n### Acessibilidade\n- Texto alternativo em imagens, rótulos em campos, contraste adequado e navegação por **teclado**.\n- **WAI-ARIA**: atributos (`role`, `aria-label`) que complementam a semântica quando o HTML não basta.\n- Diretrizes **WCAG**.\n\n### SEO básico\nTítulo e *meta description* claros, hierarquia de títulos, URLs amigáveis, páginas rápidas e conteúdo semântico.",
+      "revisao": "**Lembre:**\n- HTML marca a estrutura; não é linguagem de programação.\n- head traz metadados; body, o conteúdo visível.\n- id é único; class pode repetir.\n- Tags semânticas: header, nav, main, section, article, aside, footer.\n- alt nas imagens e label nos campos garantem acessibilidade."
+    },
+    {
+      "id": "css",
+      "nome": "CSS: estilo e layout",
+      "resumo": "### O que é\n**CSS** (*Cascading Style Sheets*) define a **aparência**: cores, fontes, espaçamentos e posicionamento. Separa **apresentação** de **conteúdo**.\n\n### Sintaxe\n```css\nseletor {\n  propriedade: valor;\n}\np { color: blue; font-size: 16px; }\n```\n\n### Formas de aplicar\n- **Externo**: arquivo `.css` ligado com `<link>`. **Recomendado**: reúso e *cache*.\n- **Interno**: dentro de `<style>` no `<head>`.\n- **Em linha** (*inline*): atributo `style` no elemento; dificulta a manutenção.\n\n### Seletores\n- **De tipo**: `p`.\n- **De classe**: `.destaque`.\n- **De id**: `#menu`.\n- **Universal**: `*`.\n- **De atributo**: `input[type=\"text\"]`.\n- **Descendente**: `nav a`; **filho direto**: `ul > li`.\n- **Pseudoclasses**: `:hover`, `:focus`, `:first-child`, `:nth-child(2)`.\n- **Pseudoelementos**: `::before`, `::after`.\n\n### Cascata, especificidade e herança\nQuando várias regras atingem o mesmo elemento, vence:\n1. `!important` (evitar).\n2. A de **maior especificidade**: em linha > **id** > **classe**, atributo e pseudoclasse > **tipo**.\n3. Em caso de empate, a **última** declarada.\n- **Herança**: propriedades como `color` e `font-family` passam aos filhos; `margin` e `border` não.\n\n### Modelo de caixa (*box model*)\nTodo elemento é uma caixa com, de dentro para fora:\n**conteúdo → *padding* (espaço interno) → *border* (borda) → *margin* (espaço externo)**\n- `box-sizing: content-box` (padrão): `width` vale só para o conteúdo.\n- `box-sizing: border-box`: `width` **inclui** *padding* e borda; facilita os cálculos.\n\n### Unidades\n- **Absolutas**: `px`.\n- **Relativas**: `%` (em relação ao pai), `em` (fonte do elemento), `rem` (fonte da raiz), `vw` e `vh` (largura e altura da janela).\n- Unidades relativas ajudam na **responsividade** e na acessibilidade.\n\n### `display`\n`block`, `inline`, `inline-block`, `none` (remove do layout), `flex` e `grid`.\n\n### Posicionamento\n- `static`: padrão, no fluxo normal.\n- `relative`: desloca em relação à posição original.\n- `absolute`: em relação ao ancestral posicionado mais próximo; sai do fluxo.\n- `fixed`: em relação à janela; não rola com a página.\n- `sticky`: alterna entre relativo e fixo ao rolar.\n- `z-index`: ordem de empilhamento.\n\n### Flexbox\nLayout em **uma dimensão** (linha **ou** coluna).\n- No contêiner: `display: flex`; `flex-direction` (row ou column); `justify-content` (alinha no **eixo principal**); `align-items` (alinha no **eixo cruzado**); `flex-wrap`; `gap`.\n- Nos itens: `flex-grow`, `flex-shrink`, `flex-basis`.\n\n### Grid\nLayout em **duas dimensões** (linhas **e** colunas).\n- `display: grid`; `grid-template-columns: repeat(3, 1fr)`; `grid-template-rows`; `gap`.\n- A unidade `fr` reparte o espaço livre.\n\n### Design responsivo\nA página se adapta a **telas de tamanhos diferentes**.\n- ***Media queries***:\n```css\n@media (min-width: 768px) {\n  .container { display: flex; }\n}\n```\n- ***Mobile first***: escrever primeiro para telas pequenas e acrescentar regras para as maiores.\n- Layouts fluidos (%, `fr`), imagens flexíveis (`max-width: 100%`) e a *meta viewport*.\n\n### Outros recursos\n- **Variáveis** (propriedades personalizadas): `--cor-principal: #06c;` e `var(--cor-principal)`.\n- **Transições e animações**: `transition`, `@keyframes`.\n- **Cores**: nome, hexadecimal (`#ff0000`), `rgb()`, `hsl()`.\n- **Pré-processadores**: Sass, Less.\n- ***Frameworks***: Bootstrap, Tailwind CSS.\n- Metodologia **BEM** para nomear classes.",
+      "revisao": "**Lembre:**\n- CSS cuida da aparência; arquivo externo é o recomendado.\n- Especificidade: em linha > id > classe > tipo.\n- Box model: conteúdo, padding, border, margin.\n- Flexbox: uma dimensão; Grid: duas.\n- Responsivo: media queries e mobile first."
+    },
+    {
+      "id": "javascript",
+      "nome": "JavaScript no navegador",
+      "resumo": "### O que é\nLinguagem de programação da web: dá **comportamento e interatividade** às páginas. É **interpretada**, de **tipagem dinâmica** e padronizada como **ECMAScript**. Também roda no servidor com **Node.js**. Não tem relação com Java.\n\n### Variáveis\n- `let`: variável de **escopo de bloco**, pode ser reatribuída.\n- `const`: **não pode ser reatribuída** (mas o conteúdo de um objeto ainda pode mudar).\n- `var`: antigo, escopo de função; evitar.\n\n### Tipos\n- **Primitivos**: `string`, `number`, `boolean`, `null`, `undefined`, `bigint` e `symbol`.\n- **Objetos**: objetos, *arrays* e funções.\n- `typeof` informa o tipo.\n\n### Comparação\n- `==`: compara **com conversão de tipo** (`\"5\" == 5` é verdadeiro).\n- `===`: compara **valor e tipo** (`\"5\" === 5` é falso). **Prefira este.**\n- Valores *falsy*: `false`, `0`, `\"\"`, `null`, `undefined` e `NaN`.\n\n### Funções\n```js\nfunction soma(a, b) { return a + b; }\nconst dobro = (x) => x * 2;      // arrow function\n```\n- Funções são **valores**: podem ser passadas como argumento (***callbacks***).\n- ***Closure***: a função \"lembra\" as variáveis do escopo onde foi criada.\n\n### *Arrays* e objetos\n```js\nconst nums = [1, 2, 3];\nnums.map(n => n * 2);        // [2, 4, 6]  transforma\nnums.filter(n => n > 1);     // [2, 3]     seleciona\nnums.reduce((a, n) => a + n, 0); // 6      acumula\n\nconst pessoa = { nome: \"Ana\", idade: 20 };\nconst { nome } = pessoa;     // desestruturação\n```\n- **JSON**: formato de texto para troca de dados; `JSON.stringify` e `JSON.parse`.\n\n### DOM\nO ***Document Object Model*** é a representação da página como uma **árvore de objetos** que o JavaScript pode ler e alterar.\n```js\nconst botao = document.querySelector(\"#enviar\");\nbotao.textContent = \"Salvar\";\nbotao.classList.add(\"ativo\");\n```\n- Selecionar: `getElementById`, `querySelector`, `querySelectorAll`.\n- Alterar: `textContent`, `innerHTML`, `style`, `classList`, `setAttribute`.\n- Criar e inserir: `createElement`, `appendChild`, `remove`.\n- Cuidado: `innerHTML` com texto vindo do usuário abre a porta para **XSS**; prefira `textContent`.\n\n### Eventos\n```js\nbotao.addEventListener(\"click\", (evento) => {\n  evento.preventDefault();\n});\n```\n- Eventos comuns: `click`, `submit`, `input`, `change`, `keydown`, `load`.\n- `preventDefault()` cancela o comportamento padrão (como o envio do formulário).\n- **Propagação**: o evento **borbulha** (*bubbling*) do elemento para os ancestrais. **Delegação de eventos**: ouvir no pai.\n\n### Assincronismo\nJavaScript tem **uma única *thread***; operações demoradas não podem travá-la.\n- ***Callbacks***: função chamada quando termina.\n- ***Promises***: objeto que representa um resultado futuro (`pending`, `fulfilled`, `rejected`); `.then()` e `.catch()`.\n- ***async/await***: escreve código assíncrono com aparência sequencial.\n```js\nasync function carregar() {\n  try {\n    const resp = await fetch(\"/api/produtos\");\n    const dados = await resp.json();\n  } catch (erro) {\n    console.error(erro);\n  }\n}\n```\n- ***Event loop***: fila que processa as tarefas quando a pilha está livre.\n- **AJAX / Fetch API**: buscar dados do servidor **sem recarregar** a página.\n\n### Módulos\n`export` e `import` dividem o código em arquivos.\n\n### Onde colocar o *script*\nNo fim do `<body>` ou no `<head>` com `defer`, para não bloquear a renderização.\n\n### TypeScript\nSuperconjunto do JavaScript com **tipagem estática**; é convertido em JavaScript.",
+      "revisao": "**Lembre:**\n- JavaScript dá comportamento à página; tipagem dinâmica.\n- let e const têm escopo de bloco; prefira === a ==.\n- DOM: árvore da página que o script lê e altera.\n- addEventListener trata eventos; preventDefault cancela o padrão.\n- async/await e fetch buscam dados sem recarregar a página."
+    },
+    {
+      "id": "backend",
+      "nome": "Back-end, APIs e bancos de dados",
+      "resumo": "### Papel do *back-end*\nRecebe as requisições, aplica as **regras de negócio**, acessa o **banco de dados**, cuida de **autenticação e autorização** e devolve a resposta.\n\n### Tecnologias\n- **Linguagens e *frameworks***: JavaScript (**Node.js**, Express), Python (**Django**, Flask), PHP (**Laravel**), Java (**Spring**), C# (**ASP.NET**), Ruby (Rails) e Go.\n- **Servidores web**: Nginx, Apache.\n\n### Renderização\n- **No servidor (SSR)**: o servidor monta o HTML completo; bom para SEO e primeira carga.\n- **No cliente (CSR)**: o navegador recebe um HTML mínimo e o JavaScript monta a página; típico das **SPAs**.\n- **SPA** (*Single Page Application*): uma única página que se atualiza sem recarregar.\n- **Geração estática (SSG)**: páginas prontas, geradas na construção.\n\n### API\nInterface que permite a **comunicação entre sistemas**. Na web, o *front-end* conversa com o *back-end* por APIs.\n\n### REST\nEstilo de arquitetura para APIs sobre HTTP.\n- Tudo é **recurso**, identificado por uma **URL** (`/clientes`, `/clientes/42`).\n- Usam-se os **verbos HTTP** para as operações:\n\n| Operação (CRUD) | Método | Exemplo |\n|---|---|---|\n| **C**riar | POST | `POST /clientes` |\n| **L**er | GET | `GET /clientes/42` |\n| **A**tualizar | PUT / PATCH | `PUT /clientes/42` |\n| **E**xcluir | DELETE | `DELETE /clientes/42` |\n\n- **Sem estado**: cada requisição traz tudo o que é necessário.\n- Dados em **JSON**, em geral.\n- Respostas com os **códigos de status** adequados.\n- Outras abordagens: **GraphQL** (o cliente pede exatamente os campos que quer), **SOAP** (baseado em XML), **gRPC** e **WebSocket** (comunicação bidirecional em tempo real).\n\n### Banco de dados\n- **Relacional (SQL)**: tabelas com linhas e colunas, relacionadas por chaves. MySQL, PostgreSQL, SQL Server. Garante propriedades **ACID**.\n  - `SELECT`, `INSERT`, `UPDATE`, `DELETE`.\n- **Não relacional (NoSQL)**: documentos (**MongoDB**), chave-valor (**Redis**), colunas e grafos. Flexível e escalável.\n- **ORM**: mapeia tabelas em objetos da linguagem (Hibernate, Prisma, Eloquent).\n\n### Arquitetura\n- **MVC**: **Modelo** (dados e regras), **Visão** (apresentação) e **Controlador** (recebe a requisição e coordena).\n- **Rotas**: associam uma URL e um método a uma função.\n- ***Middleware***: função que intercepta a requisição antes do tratamento final (autenticação, *log*).\n- **Monolito** x **microsserviços** (serviços pequenos e independentes).\n\n### Autenticação e autorização\n- **Autenticação**: quem é você? **Autorização**: o que você pode fazer?\n- **Sessão com *cookie***: o servidor guarda o estado.\n- **JWT** (*JSON Web Token*): *token* assinado, guardado no cliente; o servidor não precisa guardar sessão.\n- **OAuth 2.0**: delega o acesso (\"entrar com Google\").\n- Senhas guardadas com ***hash*** e ***salt*** (bcrypt, Argon2), **nunca** em texto claro.\n\n### Ferramentas e implantação\n- **Git**: controle de versão; GitHub e GitLab.\n- **npm / yarn**: gerenciadores de pacotes.\n- ***Bundlers***: Vite, Webpack.\n- ***Deploy***: publicar a aplicação; **CI/CD** automatiza testes e entrega.\n- **Nuvem**: AWS, Azure, Google Cloud; plataformas como Vercel e Netlify; **contêineres** com Docker.\n- Ambientes: **desenvolvimento**, **homologação** e **produção**.\n\n### *Frameworks* de *front-end*\n**React**, **Angular** e **Vue**: baseados em **componentes** reutilizáveis e em atualização reativa da interface.",
+      "revisao": "**Lembre:**\n- Back-end: regras de negócio, banco de dados e autenticação.\n- REST: recursos em URLs e verbos HTTP; dados em JSON.\n- CRUD: POST cria, GET lê, PUT/PATCH atualiza, DELETE exclui.\n- SQL relacional com tabelas; NoSQL flexível.\n- Autenticar é identificar; autorizar é permitir. Senha só com hash."
+    },
+    {
+      "id": "qualidade",
+      "nome": "Segurança, desempenho e boas práticas",
+      "resumo": "### Segurança: principais ataques\n- **Injeção de SQL**: o atacante insere comandos SQL em um campo. Defesa: **consultas parametrizadas** (*prepared statements*), nunca montar a consulta juntando texto do usuário.\n- **XSS** (*Cross-Site Scripting*): injeta **código JavaScript** que roda no navegador de outras pessoas. Defesa: **escapar** a saída, validar a entrada e usar **Content Security Policy (CSP)**.\n- **CSRF** (*Cross-Site Request Forgery*): leva o usuário **autenticado** a fazer uma ação sem querer, a partir de outro site. Defesa: ***tokens* anti-CSRF** e *cookies* `SameSite`.\n- **Quebra de autenticação**: senhas fracas, sessões mal protegidas.\n- **Quebra de controle de acesso**: usuário acessa o que não deveria (trocar o número na URL).\n- **Exposição de dados sensíveis**: falta de criptografia.\n- **Força bruta**: defesa com limite de tentativas e autenticação de dois fatores.\n- **OWASP Top 10**: lista dos riscos mais críticos de aplicações web.\n\n### Regras de ouro\n- **Nunca confie em dados do cliente**: a validação no *front-end* melhora a experiência, mas a que **protege** é a do **servidor**.\n- **HTTPS** em tudo.\n- *Cookies* com `HttpOnly` (inacessível ao JavaScript), `Secure` (só por HTTPS) e `SameSite`.\n- **CORS**: política que controla quais **origens** podem chamar a API a partir do navegador. A **política de mesma origem** bloqueia por padrão.\n- **Menor privilégio** e segredos fora do código (variáveis de ambiente).\n- Manter dependências **atualizadas**.\n\n### LGPD\nA Lei Geral de Proteção de Dados exige base legal para tratar **dados pessoais**, transparência, segurança e respeito aos direitos do titular (acesso, correção, exclusão). Avisos de *cookies* e política de privacidade.\n\n### Desempenho\n- **Reduzir requisições** e tamanho dos arquivos: **minificação** e compressão (gzip, Brotli).\n- **Otimizar imagens**: formatos modernos (WebP, AVIF), dimensões adequadas e ***lazy loading*** (carregar só quando aparecem na tela).\n- ***Cache***: do navegador (cabeçalhos `Cache-Control`), de servidor e CDN.\n- **Carregamento de *scripts***: `defer` e `async` para não bloquear a renderização.\n- **Divisão de código** (*code splitting*).\n- ***Core Web Vitals***: **LCP** (tempo para exibir o maior conteúdo), **INP** (resposta à interação) e **CLS** (estabilidade visual).\n- Ferramentas: Lighthouse, PageSpeed Insights e as ferramentas de desenvolvedor do navegador.\n\n### PWA (*Progressive Web App*)\nSite que se comporta como aplicativo: **instalável**, funciona ***offline*** e pode enviar notificações.\n- ***Service worker***: *script* que roda em segundo plano e intercepta requisições, permitindo o *cache* e o uso sem internet.\n- ***Web app manifest***: arquivo com nome, ícones e cores.\n- Exige **HTTPS**.\n\n### Testes\n- **Unitários** (funções isoladas), **de integração** (partes juntas) e **de ponta a ponta** (E2E, simulam o usuário: Cypress, Playwright).\n- Teste em vários **navegadores** e tamanhos de tela.\n\n### Usabilidade (UX/UI)\n- **UI**: a interface visual; **UX**: a experiência de uso como um todo.\n- Heurísticas de **Nielsen**: visibilidade do estado do sistema, consistência, prevenção de erros, controle do usuário, entre outras.\n- Retorno claro das ações, mensagens de erro úteis e carregamento visível.\n\n### Boas práticas de código\n- Separar **estrutura (HTML), estilo (CSS) e comportamento (JS)**.\n- Nomes claros, código legível e reutilizável (componentes).\n- **Controle de versão** com commits pequenos e mensagens claras.\n- ***Lint*** e formatadores (ESLint, Prettier).\n- Documentação e revisão de código.\n- **Melhoria progressiva**: o básico funciona para todos; os extras entram onde há suporte.\n\n### Depuração\nFerramentas de desenvolvedor do navegador (F12): **Elements** (HTML e CSS), **Console** (erros e *logs*), **Network** (requisições) e **Sources** (pontos de parada).",
+      "revisao": "**Lembre:**\n- Injeção de SQL: usar consultas parametrizadas.\n- XSS injeta script; CSRF força ação do usuário logado.\n- A validação que protege é a do servidor.\n- Desempenho: minificar, comprimir, cache e lazy loading.\n- PWA: service worker, manifest e HTTPS."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "desenvolvimento-web-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O serviço que traduz um nome de domínio em endereço IP é o:",
+      "opcoes": [
+        "DNS",
+        "HTTP",
+        "HTML",
+        "CSS"
+      ],
+      "correta": 0,
+      "explicacao": "Sem ele, seria preciso digitar o endereço numérico de cada servidor."
+    },
+    {
+      "id": "desenvolvimento-web-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O código de status HTTP 404 indica que:",
+      "opcoes": [
+        "A requisição foi bem-sucedida",
+        "O recurso não foi encontrado",
+        "Houve erro interno do servidor",
+        "O recurso foi movido permanentemente"
+      ],
+      "correta": 1,
+      "explicacao": "Os códigos da faixa 4xx apontam erros do lado do cliente."
+    },
+    {
+      "id": "desenvolvimento-web-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Dizer que o HTTP é um protocolo sem estado significa que:",
+      "opcoes": [
+        "Ele não usa criptografia",
+        "Ele só funciona offline",
+        "Cada requisição é independente, e o servidor não guarda memória das anteriores",
+        "Ele não tem códigos de resposta"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso se usam cookies, sessões e tokens para manter o contexto."
+    },
+    {
+      "id": "desenvolvimento-web-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um formulário de cadastro precisa enviar os dados de um novo usuário para serem gravados no servidor. O método HTTP adequado é:",
+      "opcoes": [
+        "GET",
+        "DELETE",
+        "HEAD",
+        "POST"
+      ],
+      "correta": 3,
+      "explicacao": "O GET serve para buscar dados e expõe os parâmetros na URL."
+    },
+    {
+      "id": "desenvolvimento-web-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que o HTTPS é indispensável em páginas de login?",
+      "opcoes": [
+        "Porque criptografa a comunicação, impedindo que a senha seja lida no caminho",
+        "Porque torna o site mais colorido",
+        "Porque elimina a necessidade de senha",
+        "Porque substitui o DNS"
+      ],
+      "correta": 0,
+      "explicacao": "Ele também garante a integridade dos dados e autentica o servidor."
+    },
+    {
+      "id": "desenvolvimento-web-6",
+      "topico": "html",
+      "nivel": "conceitual",
+      "pergunta": "O HTML é uma linguagem de:",
+      "opcoes": [
+        "Programação, que executa cálculos",
+        "Marcação, que define a estrutura do conteúdo",
+        "Estilo, que define cores e fontes",
+        "Consulta a bancos de dados"
+      ],
+      "correta": 1,
+      "explicacao": "A aparência fica a cargo do CSS, e o comportamento, do JavaScript."
+    },
+    {
+      "id": "desenvolvimento-web-7",
+      "topico": "html",
+      "nivel": "conceitual",
+      "pergunta": "O atributo alt da tag img serve para:",
+      "opcoes": [
+        "Definir a largura da imagem",
+        "Indicar o endereço da imagem",
+        "Fornecer um texto alternativo que descreve a imagem",
+        "Aplicar uma borda à imagem"
+      ],
+      "correta": 2,
+      "explicacao": "Ele é lido por leitores de tela e aparece quando a imagem não carrega."
+    },
+    {
+      "id": "desenvolvimento-web-8",
+      "topico": "html",
+      "nivel": "conceitual",
+      "pergunta": "A diferença entre os atributos id e class é que:",
+      "opcoes": [
+        "A class deve ser única, e o id pode se repetir",
+        "Os dois são sempre únicos",
+        "Nenhum deles pode ser usado no CSS",
+        "O id deve ser único na página, e a class pode se repetir"
+      ],
+      "correta": 3,
+      "explicacao": "Um mesmo elemento pode ter várias classes ao mesmo tempo."
+    },
+    {
+      "id": "desenvolvimento-web-9",
+      "topico": "html",
+      "nivel": "aplicacao",
+      "pergunta": "Para marcar o menu principal de links de navegação de um site, a tag semântica adequada é:",
+      "opcoes": [
+        "nav",
+        "div",
+        "span",
+        "table"
+      ],
+      "correta": 0,
+      "explicacao": "Tags semânticas indicam o papel do conteúdo a navegadores, buscadores e leitores de tela."
+    },
+    {
+      "id": "desenvolvimento-web-10",
+      "topico": "html",
+      "nivel": "analise",
+      "pergunta": "Por que usar tags semânticas é melhor do que montar toda a página com div?",
+      "opcoes": [
+        "Porque div não funciona em navegadores modernos",
+        "Porque elas dão significado ao conteúdo, favorecendo a acessibilidade e os buscadores",
+        "Porque tags semânticas dispensam o CSS",
+        "Porque deixam a página mais colorida"
+      ],
+      "correta": 1,
+      "explicacao": "O código também fica mais fácil de ler e de manter."
+    },
+    {
+      "id": "desenvolvimento-web-11",
+      "topico": "css",
+      "nivel": "conceitual",
+      "pergunta": "No modelo de caixa do CSS, o espaço entre o conteúdo e a borda é o:",
+      "opcoes": [
+        "Margin",
+        "Border",
+        "Padding",
+        "Outline"
+      ],
+      "correta": 2,
+      "explicacao": "A margem, por sua vez, é o espaço externo, depois da borda."
+    },
+    {
+      "id": "desenvolvimento-web-12",
+      "topico": "css",
+      "nivel": "conceitual",
+      "pergunta": "Entre os seletores abaixo, o de maior especificidade é o:",
+      "opcoes": [
+        "Seletor de classe",
+        "Seletor de tipo",
+        "Seletor universal",
+        "Seletor de id"
+      ],
+      "correta": 3,
+      "explicacao": "Só um estilo em linha ou o uso de !important o supera."
+    },
+    {
+      "id": "desenvolvimento-web-13",
+      "topico": "css",
+      "nivel": "conceitual",
+      "pergunta": "O Flexbox é mais indicado para layouts em:",
+      "opcoes": [
+        "Uma dimensão, em linha ou em coluna",
+        "Duas dimensões, com linhas e colunas",
+        "Três dimensões",
+        "Tabelas de dados"
+      ],
+      "correta": 0,
+      "explicacao": "Para layouts em duas dimensões, o recurso mais adequado é o Grid."
+    },
+    {
+      "id": "desenvolvimento-web-14",
+      "topico": "css",
+      "nivel": "aplicacao",
+      "pergunta": "Um desenvolvedor quer que um menu fique em coluna no celular e em linha em telas com mais de 768 px. Ele deve usar:",
+      "opcoes": [
+        "O atributo alt",
+        "Uma media query",
+        "Uma tabela HTML",
+        "A propriedade z-index"
+      ],
+      "correta": 1,
+      "explicacao": "As media queries aplicam regras conforme características da tela."
+    },
+    {
+      "id": "desenvolvimento-web-15",
+      "topico": "css",
+      "nivel": "analise",
+      "pergunta": "Por que é recomendável manter o CSS em arquivo externo, e não em estilos em linha?",
+      "opcoes": [
+        "Porque estilos em linha não funcionam",
+        "Porque o arquivo externo dispensa o HTML",
+        "Porque permite reaproveitar as regras em várias páginas e facilita a manutenção",
+        "Porque aumenta a especificidade das regras"
+      ],
+      "correta": 2,
+      "explicacao": "O navegador também pode guardar o arquivo em cache, acelerando as próximas visitas."
+    },
+    {
+      "id": "desenvolvimento-web-16",
+      "topico": "javascript",
+      "nivel": "conceitual",
+      "pergunta": "Em JavaScript, o operador === compara:",
+      "opcoes": [
+        "Apenas o valor, convertendo os tipos",
+        "Apenas o tipo",
+        "Apenas referências de função",
+        "O valor e o tipo dos operandos"
+      ],
+      "correta": 3,
+      "explicacao": "O operador == faz conversão de tipo e pode gerar resultados inesperados."
+    },
+    {
+      "id": "desenvolvimento-web-17",
+      "topico": "javascript",
+      "nivel": "conceitual",
+      "pergunta": "O DOM é:",
+      "opcoes": [
+        "A representação da página como uma árvore de objetos manipulável por script",
+        "Um banco de dados do navegador",
+        "Um protocolo de rede",
+        "Uma folha de estilos"
+      ],
+      "correta": 0,
+      "explicacao": "Por meio dele o JavaScript lê e altera o conteúdo e a estrutura da página."
+    },
+    {
+      "id": "desenvolvimento-web-18",
+      "topico": "javascript",
+      "nivel": "conceitual",
+      "pergunta": "Uma variável declarada com const:",
+      "opcoes": [
+        "Pode ser reatribuída livremente",
+        "Não pode ser reatribuída",
+        "Só existe fora de funções",
+        "É sempre do tipo número"
+      ],
+      "correta": 1,
+      "explicacao": "O conteúdo interno de um objeto ou array declarado com const ainda pode ser alterado."
+    },
+    {
+      "id": "desenvolvimento-web-19",
+      "topico": "javascript",
+      "nivel": "aplicacao",
+      "pergunta": "Ao clicar no botão de envio, o desenvolvedor quer validar os campos antes e impedir que o formulário recarregue a página. Ele deve chamar:",
+      "opcoes": [
+        "evento.stopImmediate()",
+        "document.reload()",
+        "evento.preventDefault()",
+        "window.close()"
+      ],
+      "correta": 2,
+      "explicacao": "O método cancela o comportamento padrão do evento, como o envio do formulário."
+    },
+    {
+      "id": "desenvolvimento-web-20",
+      "topico": "javascript",
+      "nivel": "analise",
+      "pergunta": "Por que operações demoradas, como buscar dados no servidor, são assíncronas em JavaScript?",
+      "opcoes": [
+        "Porque o navegador não permite requisições",
+        "Porque o JavaScript não acessa a rede",
+        "Porque funções assíncronas são mais lentas",
+        "Porque a linguagem tem uma única thread, e uma espera bloqueante travaria toda a página"
+      ],
+      "correta": 3,
+      "explicacao": "Com promises e async/await, a interface continua respondendo enquanto a resposta não chega."
+    },
+    {
+      "id": "desenvolvimento-web-21",
+      "topico": "backend",
+      "nivel": "conceitual",
+      "pergunta": "Em uma API REST, a operação de leitura de um recurso usa o método:",
+      "opcoes": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correta": 0,
+      "explicacao": "Ele apenas busca a representação do recurso e não deve alterar dados no servidor."
+    },
+    {
+      "id": "desenvolvimento-web-22",
+      "topico": "backend",
+      "nivel": "conceitual",
+      "pergunta": "A diferença entre autenticação e autorização é que:",
+      "opcoes": [
+        "São sinônimos",
+        "A autenticação verifica quem é o usuário; a autorização, o que ele pode fazer",
+        "A autorização vem sempre antes da autenticação",
+        "A autenticação define as permissões"
+      ],
+      "correta": 1,
+      "explicacao": "Primeiro se identifica o usuário; depois se checam suas permissões."
+    },
+    {
+      "id": "desenvolvimento-web-23",
+      "topico": "backend",
+      "nivel": "conceitual",
+      "pergunta": "Senhas de usuários devem ser armazenadas no banco de dados:",
+      "opcoes": [
+        "Em texto claro",
+        "Em um arquivo público",
+        "Na forma de hash com salt",
+        "No código-fonte do front-end"
+      ],
+      "correta": 2,
+      "explicacao": "Assim, mesmo que o banco vaze, as senhas originais não ficam expostas."
+    },
+    {
+      "id": "desenvolvimento-web-24",
+      "topico": "backend",
+      "nivel": "aplicacao",
+      "pergunta": "Uma API precisa oferecer a exclusão do cliente de código 42. Seguindo o estilo REST, a requisição adequada é:",
+      "opcoes": [
+        "GET /excluirCliente?id=42",
+        "POST /clientes/apagar/42",
+        "PUT /clientes",
+        "DELETE /clientes/42"
+      ],
+      "correta": 3,
+      "explicacao": "No REST, a URL identifica o recurso e o verbo HTTP indica a operação."
+    },
+    {
+      "id": "desenvolvimento-web-25",
+      "topico": "backend",
+      "nivel": "analise",
+      "pergunta": "Por que uma API REST sem estado facilita o crescimento do sistema?",
+      "opcoes": [
+        "Porque qualquer servidor pode atender qualquer requisição, sem depender de memória de sessão",
+        "Porque elimina o banco de dados",
+        "Porque dispensa a autenticação",
+        "Porque as requisições ficam menores"
+      ],
+      "correta": 0,
+      "explicacao": "Isso permite distribuir a carga entre várias máquinas com facilidade."
+    },
+    {
+      "id": "desenvolvimento-web-26",
+      "topico": "qualidade",
+      "nivel": "conceitual",
+      "pergunta": "A defesa mais eficaz contra injeção de SQL é:",
+      "opcoes": [
+        "Esconder o campo do formulário",
+        "Usar consultas parametrizadas",
+        "Validar apenas no JavaScript",
+        "Aumentar o tamanho do banco de dados"
+      ],
+      "correta": 1,
+      "explicacao": "Elas impedem que o texto digitado seja interpretado como comando."
+    },
+    {
+      "id": "desenvolvimento-web-27",
+      "topico": "qualidade",
+      "nivel": "conceitual",
+      "pergunta": "O ataque XSS consiste em:",
+      "opcoes": [
+        "Derrubar o servidor por excesso de requisições",
+        "Adivinhar senhas por tentativa",
+        "Injetar código de script que roda no navegador de outros usuários",
+        "Roubar o domínio do site"
+      ],
+      "correta": 2,
+      "explicacao": "A defesa principal é escapar toda saída gerada a partir de dados de usuários."
+    },
+    {
+      "id": "desenvolvimento-web-28",
+      "topico": "qualidade",
+      "nivel": "conceitual",
+      "pergunta": "O componente de uma PWA que permite o funcionamento offline é o:",
+      "opcoes": [
+        "Media query",
+        "Seletor de classe",
+        "DOCTYPE",
+        "Service worker"
+      ],
+      "correta": 3,
+      "explicacao": "Ele intercepta as requisições e pode responder com arquivos guardados em cache."
+    },
+    {
+      "id": "desenvolvimento-web-29",
+      "topico": "qualidade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma página com muitas fotos demora a abrir. Uma medida simples para melhorar é:",
+      "opcoes": [
+        "Carregar as imagens sob demanda (lazy loading) e em formatos otimizados",
+        "Aumentar a resolução de todas as imagens",
+        "Remover o CSS",
+        "Colocar todos os scripts no início do head sem defer"
+      ],
+      "correta": 0,
+      "explicacao": "Assim, o navegador só baixa o que o usuário realmente vai ver."
+    },
+    {
+      "id": "desenvolvimento-web-30",
+      "topico": "qualidade",
+      "nivel": "analise",
+      "pergunta": "Por que a validação feita apenas no front-end não é suficiente para proteger uma aplicação?",
+      "opcoes": [
+        "Porque o JavaScript não consegue validar campos",
+        "Porque o usuário pode alterar ou ignorar o código que roda no navegador e enviar dados direto ao servidor",
+        "Porque o servidor nunca recebe dados",
+        "Porque a validação no navegador é mais lenta"
+      ],
+      "correta": 1,
+      "explicacao": "A validação no cliente melhora a experiência; a segurança depende da validação no servidor."
+    }
+  ]
+}
