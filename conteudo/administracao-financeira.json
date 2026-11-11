@@ -1,0 +1,465 @@
+{
+  "id": "administracao-financeira",
+  "nome": "Administração Financeira",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos e objetivo da gestão financeira",
+      "resumo": "### O que é\nA administração financeira cuida de **como a empresa obtém e aplica dinheiro**. Envolve três grandes decisões:\n- **Investimento**: onde aplicar os recursos (máquinas, estoques, projetos). Fica no lado do **ativo**.\n- **Financiamento**: de onde vêm os recursos (sócios ou terceiros). Fica no lado do **passivo e patrimônio líquido**.\n- **Dividendos**: quanto do lucro distribuir aos sócios e quanto **reter** para reinvestir.\n\n### Objetivo\n**Maximizar a riqueza dos proprietários** (o valor da empresa), e não simplesmente o lucro. Por quê?\n- O **lucro** é contábil e de curto prazo; ignora **quando** o dinheiro entra, o **risco** e o **fluxo de caixa**.\n- A **riqueza** considera o **retorno**, o **tempo** e o **risco**.\n\n### Lucro x caixa\n- **Regime de competência**: receitas e despesas registradas quando **ocorrem**, mesmo sem pagamento. Mede o **lucro**.\n- **Regime de caixa**: registra quando o dinheiro **entra ou sai**. Mede a **liquidez**.\n- Uma empresa pode ter **lucro e quebrar** por falta de caixa (vendeu a prazo e não recebeu a tempo).\n\n### Risco e retorno\n- **Retorno**: ganho esperado de um investimento.\n- **Risco**: incerteza quanto ao retorno; medido pela variabilidade (desvio-padrão).\n- Regra: **maior retorno esperado exige maior risco**.\n- **Diversificação**: combinar ativos reduz o risco **diversificável** (específico); o risco **sistemático** (de mercado) não é eliminado.\n\n### Conflito de agência\nOs **administradores** (agentes) podem ter interesses diferentes dos **acionistas** (principais). Os custos de alinhar esses interesses (auditoria, bônus, conselhos) são os **custos de agência**. A **governança corporativa** busca reduzir o problema.\n\n### Mercado financeiro\n- **Mercado monetário**: curto prazo.\n- **Mercado de capitais**: longo prazo; ações e debêntures.\n- **Mercado de crédito**: empréstimos bancários.\n- **Mercado de câmbio**: moedas.\n- **Mercado primário**: a empresa emite títulos novos e **recebe o dinheiro** (IPO). **Secundário**: investidores negociam entre si (bolsa).\n\n### Áreas de atuação\n- **Tesouraria**: caixa, contas a pagar e a receber, aplicações e empréstimos.\n- **Controladoria**: contabilidade, custos, orçamento e controle.",
+      "revisao": "**Lembre:**\n- Três decisões: investimento, financiamento e dividendos.\n- Objetivo: maximizar a riqueza dos donos, não só o lucro.\n- Lucro (competência) é diferente de caixa.\n- Mais retorno, mais risco; diversificar reduz o risco específico.\n- Conflito de agência: gestores x acionistas."
+    },
+    {
+      "id": "analise",
+      "nome": "Análise das demonstrações financeiras",
+      "resumo": "### Demonstrações principais\n- **Balanço Patrimonial**: posição em uma data. **Ativo = Passivo + Patrimônio Líquido**.\n- **DRE**: resultado do período (receitas menos custos e despesas).\n- **DFC**: fluxo de caixa, dividido em atividades **operacionais**, de **investimento** e de **financiamento**.\n\n### Análise vertical e horizontal\n- **Vertical**: participação de cada conta no total (cada item do ativo sobre o ativo total; cada item da DRE sobre a receita líquida). Mostra a **estrutura**.\n- **Horizontal**: evolução de cada conta **ao longo do tempo**, em relação a um ano-base. Mostra a **tendência**.\n\n### Índices de liquidez (capacidade de pagar)\n- **Liquidez corrente** = Ativo Circulante / Passivo Circulante.\n- **Liquidez seca** = (Ativo Circulante − Estoques) / Passivo Circulante.\n- **Liquidez imediata** = Disponível / Passivo Circulante.\n- **Liquidez geral** = (AC + Realizável a Longo Prazo) / (PC + Passivo Não Circulante).\n- Acima de 1: há mais bens e direitos do que dívidas naquele horizonte.\n\n### Índices de endividamento (estrutura de capital)\n- **Participação de capitais de terceiros** = Passivo exigível / Patrimônio Líquido.\n- **Composição do endividamento** = Passivo Circulante / Passivo exigível total (quanto vence no curto prazo).\n- **Imobilização do PL** = Ativo permanente / Patrimônio Líquido.\n\n### Índices de rentabilidade\n- **Margem líquida** = Lucro Líquido / Receita Líquida.\n- **Giro do ativo** = Receita Líquida / Ativo Total.\n- **ROA (ROI)** = Lucro / Ativo Total: retorno sobre o investimento total.\n- **ROE** = Lucro Líquido / Patrimônio Líquido: retorno para os sócios.\n- **Análise DuPont**: ROA = **margem × giro**. Uma empresa pode ganhar pela margem (joalheria) ou pelo giro (supermercado).\n\n### Índices de atividade (prazos médios)\n- **PME**: prazo médio de **estocagem**.\n- **PMR**: prazo médio de **recebimento** das vendas.\n- **PMP**: prazo médio de **pagamento** das compras.\n- **Ciclo operacional** = PME + PMR: da compra da matéria-prima ao recebimento da venda.\n- **Ciclo financeiro (de caixa)** = PME + PMR − PMP: tempo em que a empresa financia a operação **com recursos próprios**. Quanto menor, melhor.\n\n### EBITDA\nLucro antes de **juros, impostos, depreciação e amortização** (LAJIDA): aproxima o **potencial de geração de caixa operacional**. Não é caixa de fato, pois ignora investimentos e variação do capital de giro.\n\n### EVA (valor econômico agregado)\n**Lucro operacional após impostos − custo de todo o capital empregado**. Só há criação de valor se o retorno superar o **custo de capital**.\n\n### Limitações\nOs índices devem ser comparados com **anos anteriores** e com o **setor**; isolados, pouco dizem.",
+      "revisao": "**Lembre:**\n- Vertical: estrutura; horizontal: evolução.\n- Liquidez corrente = AC / PC; seca tira os estoques.\n- ROE = lucro / PL; ROA = margem × giro.\n- Ciclo financeiro = PME + PMR − PMP.\n- EBITDA: lucro antes de juros, impostos, depreciação e amortização."
+    },
+    {
+      "id": "giro",
+      "nome": "Capital de giro e gestão do caixa",
+      "resumo": "### Conceitos\n- **Capital de giro (bruto)**: o **ativo circulante** (caixa, contas a receber, estoques).\n- **Capital circulante líquido (CCL)** = Ativo Circulante − Passivo Circulante. Positivo: folga financeira, com recursos de longo prazo financiando o giro.\n- **Necessidade de capital de giro (NCG)** = Ativo circulante operacional − Passivo circulante operacional. Mostra quanto a operação exige de financiamento.\n- **Saldo de tesouraria** = Ativo financeiro − Passivo financeiro.\n- **Efeito tesoura**: a NCG cresce mais rápido que o capital de giro disponível, e a empresa passa a depender cada vez mais de empréstimos de curto prazo. Comum em crescimento acelerado (*overtrading*).\n\n### Dilema liquidez x rentabilidade\n- Muito dinheiro parado dá **segurança**, mas rende pouco.\n- Pouco caixa aumenta a rentabilidade, mas eleva o **risco** de insolvência.\n\n### Gestão do caixa\n- Motivos para manter caixa: **transação** (pagamentos do dia a dia), **precaução** (imprevistos) e **especulação** (oportunidades).\n- **Fluxo de caixa projetado**: previsão das entradas e saídas, para antecipar sobras e faltas.\n- Estratégias: **acelerar recebimentos**, **retardar pagamentos** sem prejudicar o crédito e **girar estoques** mais depressa.\n- **Modelo de Baumol**: trata o caixa como estoque, com fluxos previsíveis; **Miller-Orr**: fluxos aleatórios, com limites superior e inferior.\n\n### Gestão de contas a receber\n- **Política de crédito**: padrões de concessão, prazo, descontos e cobrança.\n- **Cinco Cs do crédito**: **caráter** (intenção de pagar), **capacidade** (de gerar caixa), **capital** (patrimônio), **colateral** (garantias) e **condições** (cenário econômico).\n- Afrouxar o crédito aumenta **vendas**, mas também a **inadimplência** e o investimento em recebíveis.\n- **Desconto de duplicatas** e ***factoring***: antecipam o recebimento, com custo.\n\n### Gestão de estoques\n- Custos: de **pedir**, de **manter** e de **faltar**.\n- **Lote econômico de compra (LEC)**: quantidade que minimiza a soma dos custos de pedir e de manter.\n- **Curva ABC**: poucos itens (A) concentram a maior parte do valor e merecem mais controle.\n- ***Just in time***: estoque mínimo, com entregas frequentes.\n\n### Fontes de financiamento de curto prazo\n- **Espontâneas**: fornecedores, salários e impostos a pagar (sem juros explícitos).\n- **Bancárias**: capital de giro, conta garantida, desconto de títulos, hot money.\n- O **desconto por pagamento antecipado** oferecido pelo fornecedor costuma ter custo implícito alto para quem o recusa.\n\n### Estratégias de financiamento do giro\n- **Conservadora**: usa mais recursos de **longo prazo**; menos risco, mais custo.\n- **Agressiva**: usa mais **curto prazo**; mais barata, mais arriscada.\n- **Moderada (casamento de prazos)**: ativos permanentes com recursos de longo prazo; necessidades sazonais com curto prazo.",
+      "revisao": "**Lembre:**\n- CCL = ativo circulante − passivo circulante.\n- Efeito tesoura: NCG cresce mais que o capital de giro.\n- Caixa: transação, precaução e especulação.\n- Cinco Cs: caráter, capacidade, capital, colateral e condições.\n- LEC e curva ABC na gestão de estoques."
+    },
+    {
+      "id": "investimento",
+      "nome": "Decisões de investimento e orçamento de capital",
+      "resumo": "### Valor do dinheiro no tempo\nUm real hoje vale mais que um real no futuro, pois pode ser aplicado.\n- **Valor futuro**: VF = VP × (1 + i)ⁿ.\n- **Valor presente**: VP = VF / (1 + i)ⁿ (desconto).\n\n### Orçamento de capital\nProcesso de **avaliar e selecionar investimentos de longo prazo**. Usa **fluxos de caixa incrementais**, não o lucro contábil.\n- Considerar: investimento inicial, entradas operacionais após impostos, valor residual e variação do capital de giro.\n- **Custos afundados** (já gastos, irrecuperáveis) **não entram** na decisão.\n- **Custo de oportunidade** (o que se deixa de ganhar) **entra**.\n- A **depreciação** não é saída de caixa, mas reduz o imposto.\n\n### Taxa mínima de atratividade (TMA)\nRetorno mínimo exigido; em geral, o **custo de capital** da empresa.\n\n### Métodos de avaliação\n- ***Payback* simples**: tempo para recuperar o investimento. Fácil, mas **ignora o valor do dinheiro no tempo** e os fluxos após a recuperação.\n- ***Payback* descontado**: usa fluxos trazidos a valor presente.\n- **Valor Presente Líquido (VPL)**: soma dos fluxos descontados pela TMA **menos** o investimento inicial.\n  - **VPL > 0**: aceitar (cria valor).\n  - **VPL < 0**: rejeitar.\n  - É o método teoricamente **mais correto**.\n- **Taxa Interna de Retorno (TIR)**: taxa que torna o **VPL igual a zero**.\n  - **TIR > TMA**: aceitar.\n  - Problemas: pode haver **múltiplas TIRs** em fluxos não convencionais e supõe reinvestimento à própria TIR.\n- **TIR modificada (TIRM)**: corrige a hipótese de reinvestimento.\n- **Índice de lucratividade (IL)** = valor presente das entradas / investimento. Aceitar se **maior que 1**; útil sob **racionamento de capital**.\n\n### Projetos\n- **Independentes**: aceitar um não exclui o outro.\n- **Mutuamente excludentes**: só um pode ser escolhido; em caso de conflito entre VPL e TIR, **prevalece o VPL**.\n\n### Análise de risco\n- **Sensibilidade**: muda uma variável por vez.\n- **Cenários**: pessimista, provável e otimista.\n- **Simulação de Monte Carlo**: muitas combinações aleatórias.\n- **Árvore de decisão** e **opções reais** (adiar, expandir, abandonar).\n\n### Ponto de equilíbrio\nQuantidade em que **receita = custos totais**.\n- PE (quantidade) = **Custos fixos / Margem de contribuição unitária**.\n- **Margem de contribuição** = preço − custo variável unitário.\n\n### Alavancagem\n- **Operacional**: uso de **custos fixos** para ampliar o efeito das vendas sobre o lucro operacional. GAO = variação % do lucro operacional / variação % das vendas.\n- **Financeira**: uso de **dívida** para ampliar o retorno dos sócios. Favorável quando o retorno do ativo **supera o custo da dívida**.\n- **Total (combinada)** = GAO × GAF.",
+      "revisao": "**Lembre:**\n- Decide-se por fluxo de caixa incremental; custo afundado não conta.\n- VPL > 0: aceitar; é o melhor critério.\n- TIR: taxa que zera o VPL; aceitar se maior que a TMA.\n- Payback simples ignora o valor do dinheiro no tempo.\n- Ponto de equilíbrio = custos fixos / margem de contribuição unitária."
+    },
+    {
+      "id": "financiamento",
+      "nome": "Custo e estrutura de capital",
+      "resumo": "### Fontes de financiamento de longo prazo\n- **Capital próprio**: ações, **lucros retidos**. Não tem vencimento nem juros obrigatórios, mas o sócio exige **retorno maior**, pois corre mais risco.\n- **Capital de terceiros**: empréstimos, financiamentos (BNDES), **debêntures**, *leasing*. Tem juros e prazo; os **juros são dedutíveis** do imposto de renda (benefício fiscal).\n\n### Custo do capital de terceiros (Kd)\nTaxa de juros paga, **líquida do imposto**: Kd × (1 − alíquota do IR).\n\n### Custo do capital próprio (Ke)\nRetorno exigido pelos acionistas. Modelos:\n- **CAPM**: Ke = **Rf + β × (Rm − Rf)**.\n  - **Rf**: taxa livre de risco.\n  - **Rm − Rf**: prêmio de risco de mercado.\n  - **Beta (β)**: sensibilidade da ação ao mercado. β = 1 acompanha o mercado; β > 1 é mais arriscada; β < 1, mais defensiva.\n- **Modelo de Gordon** (dividendos crescentes): Ke = (D1 / P0) + g.\n\n### Custo médio ponderado de capital (CMPC ou WACC)\nMédia do custo de cada fonte, **ponderada por sua participação**:\n**WACC = (E/V) × Ke + (D/V) × Kd × (1 − IR)**\n- É a **taxa mínima** que os investimentos devem render para criar valor.\n- Usado como taxa de desconto no VPL.\n\n### Estrutura de capital\nProporção entre **dívida e capital próprio**.\n- **Modigliani e Miller (sem impostos)**: a estrutura de capital é **irrelevante** para o valor da empresa.\n- **MM com impostos**: a dívida aumenta o valor pelo **benefício fiscal** dos juros.\n- **Teoria do *trade-off***: há um ponto ótimo que equilibra o benefício fiscal com os **custos de falência** (dificuldades financeiras).\n- **Teoria da hierarquia das fontes (*pecking order*)**: as empresas preferem, na ordem, **lucros retidos**, depois **dívida** e, por último, **emissão de ações**.\n\n### Política de dividendos\n- **Dividendos**: parcela do lucro distribuída aos acionistas. No Brasil, a Lei das S.A. prevê **dividendo mínimo obrigatório** conforme o estatuto (25% do lucro ajustado, se omisso).\n- **Juros sobre capital próprio (JCP)**: forma de remuneração tratada como despesa dedutível.\n- ***Payout***: percentual do lucro distribuído.\n- **Teoria da irrelevância** (MM), **pássaro na mão** (o investidor prefere dividendo certo) e **preferência tributária**.\n- **Recompra de ações**, **bonificação** e **desdobramento** (*split*).\n\n### Avaliação de empresas (*valuation*)\n- **Fluxo de caixa descontado**: valor presente dos fluxos futuros, descontados pelo WACC.\n- **Múltiplos**: preço/lucro (P/L), EV/EBITDA.\n- **Valor patrimonial**.\n\n### Instrumentos e operações\n- ***Leasing***: arrendamento com opção de compra.\n- **Debêntures**: títulos de dívida de longo prazo emitidos por S.A.\n- **IPO**: abertura de capital.\n- **Derivativos** (futuros, opções, *swaps*) para **proteção** (*hedge*) contra variações de câmbio e juros.",
+      "revisao": "**Lembre:**\n- Dívida é mais barata e tem benefício fiscal; capital próprio exige mais retorno.\n- CAPM: Ke = Rf + β (Rm − Rf).\n- WACC: custo médio ponderado; taxa mínima dos projetos.\n- Trade-off: benefício fiscal x custo de falência.\n- Pecking order: lucros retidos, dívida, ações."
+    },
+    {
+      "id": "planejamento",
+      "nome": "Planejamento e controle financeiro",
+      "resumo": "### Planejamento financeiro\n- **Longo prazo (estratégico)**: 2 a 10 anos; investimentos, estrutura de capital, fusões.\n- **Curto prazo (operacional)**: até 1 ano; orçamento de caixa e demonstrações projetadas.\n\n### Orçamento empresarial\nPlano expresso em **números** para um período. Sequência típica:\n1. **Orçamento de vendas** (ponto de partida);\n2. **Produção** e estoques;\n3. **Matérias-primas, mão de obra e custos indiretos**;\n4. **Despesas** administrativas e comerciais;\n5. **Investimentos** (capital);\n6. **Orçamento de caixa**;\n7. **Demonstrações projetadas** (DRE e balanço).\n\n### Tipos de orçamento\n- **Estático**: fixado para um nível de atividade.\n- **Flexível**: ajusta-se ao volume real.\n- **Contínuo (*rolling*)**: acrescenta um novo período sempre que um termina.\n- **Base zero (OBZ)**: cada despesa é **justificada do zero**, sem partir do ano anterior.\n- **Por atividades (ABB)**.\n- ***Beyond budgeting***: gestão sem orçamento anual rígido.\n\n### Orçamento de caixa\nProjeta **recebimentos e pagamentos** mês a mês. Mostra quando haverá **sobra** (aplicar) ou **falta** (captar).\n- Saldo final = saldo inicial + entradas − saídas.\n- Diferente da DRE projetada: considera **prazos** de recebimento e pagamento, e não inclui depreciação.\n\n### Controle orçamentário\n- Compara o **orçado com o realizado** e analisa as **variações** (favoráveis ou desfavoráveis).\n- **Variação de preço** e **variação de quantidade (volume)**.\n- Permite ações corretivas.\n\n### Centros de responsabilidade\n- **Centro de custo**: o gestor responde só por custos.\n- **Centro de receita**: responde pelas vendas.\n- **Centro de lucro**: por receitas e custos.\n- **Centro de investimento**: também pelo capital empregado (avaliado por ROI ou EVA).\n\n### Indicadores de desempenho\n- ***Balanced Scorecard* (BSC)**, de Kaplan e Norton: quatro perspectivas — **financeira**, **clientes**, **processos internos** e **aprendizado e crescimento**.\n- **KPIs** financeiros: margem, ROI, EBITDA, endividamento, giro.\n\n### Gestão de riscos financeiros\n- **Risco de mercado**: juros, câmbio, preços.\n- **Risco de crédito**: inadimplência.\n- **Risco de liquidez**: falta de caixa.\n- **Risco operacional**: falhas, fraudes.\n- Proteção: ***hedge***, diversificação, limites e seguros.\n\n### Finanças pessoais e da pequena empresa\n- Separar as contas da **pessoa física** e da **pessoa jurídica** (princípio da entidade).\n- **Pró-labore** é a remuneração do sócio que trabalha; diferente de distribuição de lucros.\n- **Reserva de emergência** e controle do fluxo de caixa diário.\n\n### Ética e governança\nTransparência (*disclosure*), prestação de contas (*accountability*), equidade e responsabilidade corporativa; **compliance** e controles internos.",
+      "revisao": "**Lembre:**\n- O orçamento começa pelas vendas.\n- Orçamento base zero: justifica cada gasto do zero.\n- Orçamento de caixa mostra sobras e faltas de dinheiro.\n- Controle: orçado x realizado e análise das variações.\n- BSC: financeira, clientes, processos internos, aprendizado e crescimento."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "administracao-financeira-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O objetivo principal da administração financeira é:",
+      "opcoes": [
+        "Maximizar a riqueza dos proprietários",
+        "Maximizar o faturamento",
+        "Minimizar o número de funcionários",
+        "Eliminar todas as dívidas"
+      ],
+      "correta": 0,
+      "explicacao": "A riqueza leva em conta o retorno, o tempo e o risco, o que o lucro contábil não faz."
+    },
+    {
+      "id": "administracao-financeira-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A decisão sobre de onde virão os recursos da empresa é chamada de decisão de:",
+      "opcoes": [
+        "Investimento",
+        "Financiamento",
+        "Dividendos",
+        "Produção"
+      ],
+      "correta": 1,
+      "explicacao": "Ela se reflete no passivo e no patrimônio líquido do balanço."
+    },
+    {
+      "id": "administracao-financeira-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O conflito de agência ocorre entre:",
+      "opcoes": [
+        "Clientes e fornecedores",
+        "Governo e bancos",
+        "Administradores e acionistas",
+        "Empregados e sindicatos"
+      ],
+      "correta": 2,
+      "explicacao": "Os gestores podem tomar decisões que favorecem a si mesmos e não aos donos."
+    },
+    {
+      "id": "administracao-financeira-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa teve lucro no ano, mas não conseguiu pagar os salários de dezembro. A explicação mais provável é:",
+      "opcoes": [
+        "O lucro foi calculado errado, necessariamente",
+        "A empresa não tem ativos",
+        "O lucro sempre significa caixa disponível",
+        "Vendeu a prazo e ainda não recebeu, ficando sem caixa"
+      ],
+      "correta": 3,
+      "explicacao": "O lucro segue o regime de competência; a liquidez depende do regime de caixa."
+    },
+    {
+      "id": "administracao-financeira-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que a diversificação não elimina todo o risco de uma carteira?",
+      "opcoes": [
+        "Porque o risco sistemático afeta todos os ativos do mercado ao mesmo tempo",
+        "Porque todos os ativos têm o mesmo retorno",
+        "Porque a diversificação aumenta o risco específico",
+        "Porque só existe risco em ações"
+      ],
+      "correta": 0,
+      "explicacao": "Crises econômicas e mudanças de juros atingem o mercado inteiro."
+    },
+    {
+      "id": "administracao-financeira-6",
+      "topico": "analise",
+      "nivel": "conceitual",
+      "pergunta": "O índice de liquidez corrente é calculado por:",
+      "opcoes": [
+        "Lucro líquido dividido pelo patrimônio líquido",
+        "Ativo circulante dividido pelo passivo circulante",
+        "Passivo total dividido pelo ativo total",
+        "Receita dividida pelo ativo total"
+      ],
+      "correta": 1,
+      "explicacao": "Ele mostra a capacidade de pagar as dívidas de curto prazo."
+    },
+    {
+      "id": "administracao-financeira-7",
+      "topico": "analise",
+      "nivel": "conceitual",
+      "pergunta": "A análise que mostra a evolução das contas ao longo dos anos é a:",
+      "opcoes": [
+        "Vertical",
+        "DuPont",
+        "Horizontal",
+        "De sensibilidade"
+      ],
+      "correta": 2,
+      "explicacao": "A análise vertical, por sua vez, mostra o peso de cada conta no total."
+    },
+    {
+      "id": "administracao-financeira-8",
+      "topico": "analise",
+      "nivel": "conceitual",
+      "pergunta": "O ROE mede:",
+      "opcoes": [
+        "O prazo médio de recebimento",
+        "A liquidez imediata",
+        "O giro dos estoques",
+        "O retorno sobre o patrimônio líquido"
+      ],
+      "correta": 3,
+      "explicacao": "É o indicador de rentabilidade do ponto de vista dos sócios."
+    },
+    {
+      "id": "administracao-financeira-9",
+      "topico": "analise",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa tem prazo médio de estocagem de 40 dias, de recebimento de 30 dias e de pagamento de 50 dias. Seu ciclo financeiro é de:",
+      "opcoes": [
+        "20 dias",
+        "120 dias",
+        "70 dias",
+        "60 dias"
+      ],
+      "correta": 0,
+      "explicacao": "Ciclo financeiro = PME + PMR − PMP = 40 + 30 − 50."
+    },
+    {
+      "id": "administracao-financeira-10",
+      "topico": "analise",
+      "nivel": "analise",
+      "pergunta": "Por que o EBITDA não deve ser confundido com geração efetiva de caixa?",
+      "opcoes": [
+        "Porque inclui a depreciação como saída de caixa",
+        "Porque ignora investimentos, variação do capital de giro, juros e impostos pagos",
+        "Porque é sempre negativo",
+        "Porque só considera receitas financeiras"
+      ],
+      "correta": 1,
+      "explicacao": "Ele indica apenas o potencial operacional de gerar caixa."
+    },
+    {
+      "id": "administracao-financeira-11",
+      "topico": "giro",
+      "nivel": "conceitual",
+      "pergunta": "O capital circulante líquido é a diferença entre:",
+      "opcoes": [
+        "Ativo total e passivo total",
+        "Receitas e despesas",
+        "Ativo circulante e passivo circulante",
+        "Lucro e dividendos"
+      ],
+      "correta": 2,
+      "explicacao": "Quando positivo, indica folga financeira no curto prazo."
+    },
+    {
+      "id": "administracao-financeira-12",
+      "topico": "giro",
+      "nivel": "conceitual",
+      "pergunta": "Entre os cinco Cs do crédito, o que avalia a intenção do cliente de pagar é o:",
+      "opcoes": [
+        "Colateral",
+        "Capital",
+        "Condições",
+        "Caráter"
+      ],
+      "correta": 3,
+      "explicacao": "É analisado pelo histórico de pagamentos do cliente."
+    },
+    {
+      "id": "administracao-financeira-13",
+      "topico": "giro",
+      "nivel": "conceitual",
+      "pergunta": "Manter dinheiro em caixa para aproveitar oportunidades inesperadas corresponde ao motivo:",
+      "opcoes": [
+        "Especulação",
+        "Transação",
+        "Precaução",
+        "Tributação"
+      ],
+      "correta": 0,
+      "explicacao": "Os outros motivos são os pagamentos do dia a dia e os imprevistos."
+    },
+    {
+      "id": "administracao-financeira-14",
+      "topico": "giro",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa em crescimento acelerado vê suas vendas a prazo e estoques dispararem e depende cada vez mais de empréstimos de curto prazo. Ela vive o:",
+      "opcoes": [
+        "Ponto de equilíbrio",
+        "Efeito tesoura",
+        "Benefício fiscal da dívida",
+        "Lote econômico"
+      ],
+      "correta": 1,
+      "explicacao": "A necessidade de capital de giro cresce mais que os recursos disponíveis para financiá-la."
+    },
+    {
+      "id": "administracao-financeira-15",
+      "topico": "giro",
+      "nivel": "analise",
+      "pergunta": "Por que há um dilema entre liquidez e rentabilidade na gestão do capital de giro?",
+      "opcoes": [
+        "Porque caixa alto sempre aumenta o lucro",
+        "Porque estoques não custam nada",
+        "Porque recursos parados dão segurança, mas rendem pouco",
+        "Porque liquidez e rentabilidade são sinônimos"
+      ],
+      "correta": 2,
+      "explicacao": "O gestor precisa equilibrar o risco de insolvência com o retorno."
+    },
+    {
+      "id": "administracao-financeira-16",
+      "topico": "investimento",
+      "nivel": "conceitual",
+      "pergunta": "Um projeto deve ser aceito quando seu valor presente líquido for:",
+      "opcoes": [
+        "Menor que zero",
+        "Igual ao investimento",
+        "Menor que a TIR",
+        "Maior que zero"
+      ],
+      "correta": 3,
+      "explicacao": "VPL positivo significa que o projeto rende mais do que o custo de capital."
+    },
+    {
+      "id": "administracao-financeira-17",
+      "topico": "investimento",
+      "nivel": "conceitual",
+      "pergunta": "A taxa interna de retorno é a taxa que:",
+      "opcoes": [
+        "Torna o VPL igual a zero",
+        "Iguala receita e custo fixo",
+        "Mede a inflação do período",
+        "Representa o custo da dívida"
+      ],
+      "correta": 0,
+      "explicacao": "O projeto é aceito se a TIR superar a taxa mínima de atratividade."
+    },
+    {
+      "id": "administracao-financeira-18",
+      "topico": "investimento",
+      "nivel": "conceitual",
+      "pergunta": "A principal crítica ao payback simples é que ele:",
+      "opcoes": [
+        "É difícil de calcular",
+        "Ignora o valor do dinheiro no tempo e os fluxos após a recuperação",
+        "Exige o cálculo do WACC",
+        "Só serve para projetos pequenos"
+      ],
+      "correta": 1,
+      "explicacao": "O payback descontado corrige apenas a primeira limitação."
+    },
+    {
+      "id": "administracao-financeira-19",
+      "topico": "investimento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma fábrica tem custos fixos de R$ 60.000, preço de R$ 50 e custo variável de R$ 30 por unidade. O ponto de equilíbrio é de:",
+      "opcoes": [
+        "1.200 unidades",
+        "2.000 unidades",
+        "3.000 unidades",
+        "6.000 unidades"
+      ],
+      "correta": 2,
+      "explicacao": "A margem de contribuição é R$ 20; 60.000 / 20 = 3.000."
+    },
+    {
+      "id": "administracao-financeira-20",
+      "topico": "investimento",
+      "nivel": "analise",
+      "pergunta": "Por que os custos afundados não devem entrar na análise de um novo investimento?",
+      "opcoes": [
+        "Porque são sempre pequenos",
+        "Porque são dedutíveis do imposto",
+        "Porque aumentam o VPL",
+        "Porque já foram gastos e não mudam com a decisão"
+      ],
+      "correta": 3,
+      "explicacao": "Só importam os fluxos de caixa incrementais do projeto."
+    },
+    {
+      "id": "administracao-financeira-21",
+      "topico": "financiamento",
+      "nivel": "conceitual",
+      "pergunta": "No modelo CAPM, o beta mede:",
+      "opcoes": [
+        "A sensibilidade do retorno do ativo em relação ao mercado",
+        "A taxa livre de risco",
+        "O custo da dívida",
+        "O prazo médio das dívidas"
+      ],
+      "correta": 0,
+      "explicacao": "Beta maior que 1 indica ativo mais arriscado que a média do mercado."
+    },
+    {
+      "id": "administracao-financeira-22",
+      "topico": "financiamento",
+      "nivel": "conceitual",
+      "pergunta": "O WACC representa:",
+      "opcoes": [
+        "O lucro líquido por ação",
+        "O custo médio ponderado das fontes de capital da empresa",
+        "O prazo de retorno do investimento",
+        "O índice de liquidez geral"
+      ],
+      "correta": 1,
+      "explicacao": "Ele serve como taxa mínima de retorno para os projetos."
+    },
+    {
+      "id": "administracao-financeira-23",
+      "topico": "financiamento",
+      "nivel": "conceitual",
+      "pergunta": "Uma vantagem do capital de terceiros em relação ao próprio é:",
+      "opcoes": [
+        "A ausência de prazo de vencimento",
+        "A inexistência de risco",
+        "A dedutibilidade dos juros no imposto de renda",
+        "O direito a voto concedido aos credores"
+      ],
+      "correta": 2,
+      "explicacao": "Esse benefício fiscal reduz o custo efetivo da dívida."
+    },
+    {
+      "id": "administracao-financeira-24",
+      "topico": "financiamento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa precisa de recursos e segue a teoria do pecking order. Ela vai preferir, em primeiro lugar:",
+      "opcoes": [
+        "Emitir novas ações",
+        "Emitir debêntures",
+        "Vender a empresa",
+        "Usar lucros retidos"
+      ],
+      "correta": 3,
+      "explicacao": "Depois dos recursos internos vêm a dívida e, por último, as ações."
+    },
+    {
+      "id": "administracao-financeira-25",
+      "topico": "financiamento",
+      "nivel": "analise",
+      "pergunta": "Segundo a teoria do trade-off, por que a empresa não deve se endividar ao máximo, apesar do benefício fiscal?",
+      "opcoes": [
+        "Porque a dívida excessiva eleva os custos de dificuldades financeiras e falência",
+        "Porque os juros não são dedutíveis",
+        "Porque a dívida não tem custo",
+        "Porque os acionistas não aceitam lucro"
+      ],
+      "correta": 0,
+      "explicacao": "A estrutura ótima equilibra esses dois efeitos."
+    },
+    {
+      "id": "administracao-financeira-26",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "O ponto de partida do orçamento empresarial é normalmente o orçamento de:",
+      "opcoes": [
+        "Caixa",
+        "Vendas",
+        "Investimentos",
+        "Despesas administrativas"
+      ],
+      "correta": 1,
+      "explicacao": "Dele derivam a produção, as compras e as demais peças."
+    },
+    {
+      "id": "administracao-financeira-27",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "No orçamento base zero:",
+      "opcoes": [
+        "Repete-se o orçamento do ano anterior com reajuste",
+        "Não se preveem despesas",
+        "Cada despesa é justificada a partir do zero",
+        "Só se orçam as receitas"
+      ],
+      "correta": 2,
+      "explicacao": "A técnica combate a inércia de gastos herdados de anos anteriores."
+    },
+    {
+      "id": "administracao-financeira-28",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "As quatro perspectivas do Balanced Scorecard são:",
+      "opcoes": [
+        "Vendas, produção, compras e estoques",
+        "Liquidez, endividamento, rentabilidade e atividade",
+        "Planejar, organizar, dirigir e controlar",
+        "Financeira, clientes, processos internos e aprendizado e crescimento"
+      ],
+      "correta": 3,
+      "explicacao": "O modelo foi proposto por Kaplan e Norton."
+    },
+    {
+      "id": "administracao-financeira-29",
+      "topico": "planejamento",
+      "nivel": "aplicacao",
+      "pergunta": "O orçamento de caixa de março mostra saídas maiores que entradas e saldo insuficiente. O gestor deve:",
+      "opcoes": [
+        "Antecipar a captação de recursos ou renegociar prazos",
+        "Ignorar, pois a DRE mostra lucro",
+        "Aumentar os estoques",
+        "Distribuir mais dividendos"
+      ],
+      "correta": 0,
+      "explicacao": "A principal utilidade do orçamento de caixa é prever faltas e sobras."
+    },
+    {
+      "id": "administracao-financeira-30",
+      "topico": "planejamento",
+      "nivel": "analise",
+      "pergunta": "Por que comparar o orçado com o realizado é essencial no controle financeiro?",
+      "opcoes": [
+        "Porque o orçamento nunca pode ser alterado",
+        "Porque as variações revelam desvios e permitem ações corretivas",
+        "Porque elimina a necessidade de planejar",
+        "Porque garante lucro"
+      ],
+      "correta": 1,
+      "explicacao": "Sem acompanhamento, o orçamento vira apenas um documento formal."
+    }
+  ]
+}

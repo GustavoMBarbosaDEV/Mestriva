@@ -1,0 +1,465 @@
+{
+  "id": "gestao-projetos",
+  "nome": "Gestão de Projetos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos de projetos",
+      "resumo": "### O que é um projeto\n**Esforço temporário** empreendido para criar um **produto, serviço ou resultado único** (PMI).\n- **Temporário**: tem **início e fim** definidos.\n- **Único (exclusivo)**: o resultado é singular, mesmo que haja elementos repetitivos.\n- **Elaboração progressiva**: o detalhamento cresce à medida que se conhece mais.\n\n### Projeto x operação\n- **Projeto**: temporário e único. Ex.: construir uma ponte, lançar um aplicativo.\n- **Operação (rotina)**: contínua e repetitiva. Ex.: fabricar carros na linha de montagem, atender clientes.\n\n### Projeto, programa e portfólio\n- **Programa**: grupo de **projetos relacionados**, gerenciados de modo coordenado para obter benefícios que não se teriam separadamente.\n- **Portfólio**: conjunto de projetos, programas e operações agrupados para atingir **objetivos estratégicos**; os componentes não precisam estar relacionados.\n\n### Restrições\n- **Tripla restrição** clássica: **escopo, tempo e custo**, com a **qualidade** no centro. Mudar um afeta os outros.\n- Visão ampliada: também **recursos, riscos** e satisfação das partes interessadas.\n\n### Ciclo de vida do projeto\nFases pelas quais o projeto passa, do início ao fim: em geral, **início**, **organização e preparação**, **execução** e **encerramento**.\n- O **custo das mudanças** é baixo no início e **cresce** com o avanço.\n- A **incerteza e o risco** são maiores no início e diminuem.\n- A **influência das partes interessadas** é maior no início.\n- Tipos: **preditivo** (cascata), **iterativo**, **incremental**, **adaptativo (ágil)** e **híbrido**.\n\n### Grupos de processos (PMBOK)\n1. **Iniciação**: autoriza o projeto.\n2. **Planejamento**: define o caminho.\n3. **Execução**: realiza o trabalho.\n4. **Monitoramento e controle**: acompanha e corrige.\n5. **Encerramento**: formaliza o fim.\nNão são fases; repetem-se em cada fase (relacionam-se com o ciclo **PDCA**).\n\n### Áreas de conhecimento (PMBOK, 6ª edição)\n**Integração**, **escopo**, **cronograma**, **custos**, **qualidade**, **recursos**, **comunicações**, **riscos**, **aquisições** e **partes interessadas**.\n- A 7ª edição passou a se organizar por **princípios** e **domínios de desempenho**, com foco em **entrega de valor**.\n\n### Partes interessadas (*stakeholders*)\nPessoas ou organizações **afetadas** pelo projeto ou que podem **influenciá-lo**: patrocinador, cliente, equipe, fornecedores, governo, comunidade.\n- **Patrocinador (*sponsor*)**: fornece recursos e apoio.\n\n### Gerente de projetos\nResponsável por atingir os objetivos. Competências: **técnicas** de gerenciamento, **liderança** e **gestão estratégica e de negócios** (triângulo de talentos).\n\n### Estruturas organizacionais\n- **Funcional**: o gerente de projetos tem **pouca autoridade**; mandam os gerentes funcionais.\n- **Matricial**: **fraca**, **balanceada** ou **forte**, conforme o poder do gerente de projetos; a equipe tem **dois chefes**.\n- **Projetizada**: o gerente de projetos tem **autoridade total**; a equipe é dedicada.\n- **PMO (escritório de projetos)**: padroniza métodos; pode ser de **suporte**, de **controle** ou **diretivo**.\n\n### Sucesso do projeto\nNão basta cumprir prazo e custo: é preciso **entregar os benefícios** esperados e satisfazer as partes interessadas.",
+      "revisao": "**Lembre:**\n- Projeto: temporário e com resultado único; operação é contínua.\n- Programa: projetos relacionados; portfólio: alinhado à estratégia.\n- Tripla restrição: escopo, tempo e custo.\n- Cinco grupos: iniciação, planejamento, execução, monitoramento e controle, encerramento.\n- Matricial: dois chefes; projetizada: gerente com autoridade total."
+    },
+    {
+      "id": "escopo",
+      "nome": "Integração e escopo",
+      "resumo": "### Gerenciamento da integração\nCoordena todas as áreas do projeto. Principais entregas:\n- **Termo de Abertura do Projeto (TAP ou *project charter*)**: documento que **autoriza formalmente** o projeto e dá **autoridade ao gerente**. Contém justificativa, objetivos, requisitos de alto nível, riscos gerais, marcos, orçamento resumido e o patrocinador. É emitido pelo **patrocinador**.\n- **Plano de gerenciamento do projeto**: reúne os planos auxiliares e as **linhas de base** (escopo, cronograma e custos).\n- **Controle integrado de mudanças**: toda mudança é avaliada e aprovada (ou não) por um **comitê de controle de mudanças (CCB)**.\n- **Lições aprendidas**: registro do que deu certo e errado.\n- **Encerramento** do projeto ou da fase.\n\n### Caso de negócio (*business case*)\nJustifica o investimento: benefícios, custos, alternativas e viabilidade.\n\n### Escopo\n- **Escopo do produto**: características do que será entregue.\n- **Escopo do projeto**: o **trabalho** necessário para entregar o produto.\n\n### Processos de escopo\n1. **Planejar** o gerenciamento do escopo.\n2. **Coletar os requisitos**: entrevistas, questionários, oficinas, observação, protótipos, *brainstorming*.\n3. **Definir o escopo**: gera a **declaração do escopo** (o que está incluído, as **exclusões**, as entregas, as premissas e as restrições).\n4. **Criar a EAP**.\n5. **Validar o escopo**: **aceitação formal** das entregas pelo cliente.\n6. **Controlar o escopo**.\n\n### Estrutura Analítica do Projeto (EAP ou WBS)\n**Decomposição hierárquica** do trabalho em partes menores e gerenciáveis, orientada às **entregas**.\n- O nível mais baixo é o **pacote de trabalho**, que pode ser estimado e controlado.\n- **Regra dos 100%**: a EAP contém **todo** o trabalho do projeto e **só** ele. O que não está na EAP **não faz parte** do projeto.\n- **Não mostra sequência nem prazos**.\n- **Dicionário da EAP**: descreve cada elemento.\n- **Linha de base do escopo** = declaração do escopo + EAP + dicionário da EAP.\n\n### Premissas e restrições\n- **Premissa**: fator **considerado verdadeiro** sem prova (ex.: \"a equipe estará disponível\").\n- **Restrição**: fator que **limita** as opções (ex.: orçamento máximo, data imposta).\n\n### Problemas de escopo\n- ***Scope creep*** (aumento descontrolado do escopo): mudanças entram **sem controle** de prazo e custo.\n- ***Gold plating***: a equipe entrega **mais do que foi pedido**, sem autorização; desperdiça recursos e gera riscos.\n\n### Validar x controlar a qualidade\n- **Controlar a qualidade**: verifica se a entrega está **correta** (feito internamente).\n- **Validar o escopo**: obtém o **aceite** do cliente.\n\n### Requisitos\n- **Funcionais** (o que o produto faz) e **não funcionais** (desempenho, segurança, usabilidade).\n- **Matriz de rastreabilidade**: liga cada requisito à sua origem e às entregas.",
+      "revisao": "**Lembre:**\n- Termo de abertura autoriza o projeto e dá autoridade ao gerente.\n- Escopo do produto (características) x do projeto (trabalho).\n- EAP: decomposição por entregas; regra dos 100%; não mostra prazos.\n- Scope creep: escopo cresce sem controle; gold plating: entregar a mais.\n- Premissa é suposição; restrição é limite."
+    },
+    {
+      "id": "cronograma",
+      "nome": "Cronograma e custos",
+      "resumo": "### Processos do cronograma\n1. **Definir as atividades** (a partir dos pacotes de trabalho).\n2. **Sequenciar** as atividades.\n3. **Estimar as durações**.\n4. **Desenvolver o cronograma**.\n5. **Controlar o cronograma**.\n\n### Dependências entre atividades\n- **Término-início (TI)**: a sucessora só começa quando a predecessora termina; a mais comum.\n- **Início-início (II)**, **término-término (TT)** e **início-término (IT)**.\n- **Obrigatórias** (inerentes ao trabalho), **arbitradas** (preferência da equipe) e **externas**.\n- **Antecipação (*lead*)** e **espera (*lag*)**.\n\n### Estimativas de duração\n- **Análoga**: baseada em projetos anteriores parecidos; rápida, pouco precisa.\n- **Paramétrica**: usa relação estatística (ex.: horas por metro quadrado).\n- **De três pontos (PERT)**: (otimista + 4 × mais provável + pessimista) / 6.\n- ***Bottom-up***: estima cada parte e soma; mais precisa e trabalhosa.\n\n### Método do caminho crítico (CPM)\n- **Caminho crítico**: a sequência de atividades **mais longa** do projeto; define a **menor duração possível**.\n- As atividades do caminho crítico têm **folga zero**: qualquer atraso nelas **atrasa o projeto**.\n- **Folga total**: quanto uma atividade pode atrasar sem atrasar o projeto.\n- **Folga livre**: quanto pode atrasar sem atrasar a atividade seguinte.\n\n### Representações\n- **Gráfico de Gantt**: barras horizontais no tempo; fácil de ler.\n- **Diagrama de rede**: mostra as dependências.\n- **Marcos (*milestones*)**: eventos importantes, com duração zero.\n\n### Compressão do cronograma\n- ***Crashing* (compressão)**: adicionar **recursos** para encurtar atividades do caminho crítico; **aumenta o custo**.\n- ***Fast tracking* (paralelismo)**: executar **em paralelo** atividades que seriam em sequência; **aumenta o risco** de retrabalho.\n\n### Nivelamento de recursos\nAjusta as datas para evitar sobrecarga de recursos; pode alterar o caminho crítico.\n\n### Custos\n1. **Estimar os custos** de cada atividade.\n2. **Determinar o orçamento**: agrega os custos e forma a **linha de base de custos**.\n3. **Controlar os custos**.\n- **Reserva de contingência**: para riscos **identificados**; faz parte da linha de base; controlada pelo gerente.\n- **Reserva gerencial**: para riscos **desconhecidos**; fora da linha de base; depende da alta administração.\n- Custos **diretos** e **indiretos**; **fixos** e **variáveis**.\n\n### Gerenciamento do Valor Agregado (EVM)\nIntegra escopo, prazo e custo.\n- **VP (valor planejado)**: quanto deveria ter sido feito até agora.\n- **VA (valor agregado)**: valor orçado do que **foi feito**.\n- **CR (custo real)**: quanto foi **gasto**.\n- **Variação de prazo (VPr)** = VA − VP. Negativa: **atrasado**.\n- **Variação de custo (VC)** = VA − CR. Negativa: **acima do orçamento**.\n- **IDP (SPI)** = VA / VP. Menor que 1: atrasado.\n- **IDC (CPI)** = VA / CR. Menor que 1: gastando mais que o previsto.\n- **Estimativa no término (ENT)** = Orçamento no término / IDC.",
+      "revisao": "**Lembre:**\n- Caminho crítico: o mais longo; folga zero; define a duração do projeto.\n- PERT: (otimista + 4 × provável + pessimista) / 6.\n- Crashing: mais recursos, mais custo; fast tracking: paralelo, mais risco.\n- Contingência cobre riscos conhecidos; reserva gerencial, os desconhecidos.\n- IDP e IDC menores que 1: atrasado e acima do orçamento."
+    },
+    {
+      "id": "pessoas",
+      "nome": "Qualidade, recursos e comunicações",
+      "resumo": "### Qualidade\nGrau em que as características atendem aos **requisitos**.\n- **Qualidade x grau**: qualidade baixa é sempre problema; grau baixo (menos recursos) pode ser aceitável.\n- **Prevenção** é melhor (e mais barata) do que **inspeção**.\n- Processos: **planejar** a qualidade, **gerenciar** a qualidade (garantia: foco no **processo**) e **controlar** a qualidade (foco no **produto**, nas entregas).\n\n### Custo da qualidade\n- **Custos de conformidade**: **prevenção** (treinamento, planejamento) e **avaliação** (testes, inspeções).\n- **Custos de não conformidade**: **falhas internas** (retrabalho, refugo) e **falhas externas** (garantia, perda de clientes).\n\n### Ferramentas da qualidade\n- **Diagrama de Ishikawa** (causa e efeito, espinha de peixe).\n- **Diagrama de Pareto**: 80% dos problemas vêm de 20% das causas.\n- **Histograma**, **folha de verificação**, **gráfico de controle**, **diagrama de dispersão** e **fluxograma**.\n- **PDCA**: planejar, fazer, checar e agir.\n\n### Recursos\nEnvolve recursos **físicos** (equipamentos, materiais) e a **equipe**.\n- **Matriz de responsabilidades (RACI)**: **R**esponsável (executa), **A**provador (presta contas), **C**onsultado e **I**nformado. Só pode haver **um A** por atividade.\n- **Organograma** do projeto e **calendário de recursos**.\n\n### Desenvolvimento da equipe (Tuckman)\n1. **Formação**: as pessoas se conhecem.\n2. **Conflito (tempestade)**: divergências aparecem.\n3. **Acordo (normatização)**: regras e confiança.\n4. **Desempenho**: a equipe produz bem.\n5. **Dispersão (encerramento)**.\n\n### Motivação e liderança\n- **Maslow** (hierarquia de necessidades), **Herzberg** (fatores higiênicos e motivacionais), **McGregor** (Teorias X e Y) e **McClelland** (realização, poder e afiliação).\n- Poderes do gerente: **formal** (legítimo), de **recompensa**, **coercitivo**, de **especialista** e de **referência**. Os melhores: especialista e recompensa.\n\n### Gestão de conflitos\n- **Colaborar / resolver o problema** (confrontar): busca a causa; é a melhor, do tipo ganha-ganha.\n- **Comprometer (conciliar)**: cada lado cede um pouco.\n- **Suavizar (acomodar)**: enfatiza os pontos de acordo.\n- **Forçar**: impõe a solução; ganha-perde.\n- **Retirar-se (evitar)**: adia o problema.\n- Conflitos são naturais; fontes comuns: cronograma, prioridades e recursos.\n\n### Comunicações\n- O gerente de projetos passa a **maior parte do tempo se comunicando**.\n- **Canais de comunicação** = **n(n − 1) / 2**, em que n é o número de pessoas. Com 5 pessoas: 10 canais.\n- Modelo: **emissor**, codificação, **mensagem**, meio, decodificação, **receptor**, ***feedback*** e **ruído**.\n- Tipos: **interativa** (reuniões), **ativa (*push*)** (e-mails, relatórios enviados) e **passiva (*pull*)** (portais, repositórios).\n- **Plano de comunicações**: quem precisa de qual informação, quando, como e de quem.\n- **Relatórios de desempenho**: situação atual, progresso e previsões.\n\n### Partes interessadas\n- **Identificar** e analisar: **matriz de poder x interesse**.\n  - Alto poder e alto interesse: **gerenciar de perto**.\n  - Alto poder e baixo interesse: **manter satisfeito**.\n  - Baixo poder e alto interesse: **manter informado**.\n  - Baixo poder e baixo interesse: **monitorar**.\n- **Engajamento**: desinformado, resistente, neutro, apoiador e líder.",
+      "revisao": "**Lembre:**\n- Prevenir custa menos que inspecionar.\n- Garantia olha o processo; controle olha o produto.\n- RACI: responsável, aprovador, consultado, informado.\n- Tuckman: formação, conflito, acordo, desempenho, dispersão.\n- Canais = n(n − 1)/2."
+    },
+    {
+      "id": "riscos",
+      "nome": "Riscos e aquisições",
+      "resumo": "### Risco\n**Evento ou condição incerta** que, se ocorrer, terá efeito **positivo ou negativo** em um objetivo do projeto.\n- **Ameaça**: risco negativo.\n- **Oportunidade**: risco positivo.\n- **Risco** (incerto) é diferente de **problema** (*issue*, já ocorreu).\n\n### Processos\n1. **Planejar** o gerenciamento dos riscos.\n2. **Identificar** os riscos: *brainstorming*, Delphi, listas de verificação, análise **SWOT**, entrevistas. Gera o **registro de riscos**.\n3. **Análise qualitativa**: avalia **probabilidade e impacto** e prioriza. Usa a **matriz de probabilidade e impacto**.\n4. **Análise quantitativa**: mede numericamente o efeito. **Valor monetário esperado (VME)** = probabilidade × impacto; **árvore de decisão**; **simulação de Monte Carlo**; análise de sensibilidade (diagrama de tornado).\n5. **Planejar as respostas**.\n6. **Implementar** as respostas.\n7. **Monitorar** os riscos.\n\n### Respostas a ameaças\n- **Prevenir (evitar)**: eliminar a causa; mudar o plano.\n- **Transferir**: passar o impacto a um terceiro (**seguro**, garantias, terceirização). O risco não desaparece.\n- **Mitigar**: reduzir a probabilidade ou o impacto.\n- **Aceitar**: **passiva** (nada fazer) ou **ativa** (criar **reserva de contingência**).\n- **Escalar**: levar a um nível superior quando foge à autoridade do gerente.\n\n### Respostas a oportunidades\n- **Explorar**: garantir que aconteça.\n- **Compartilhar**: dividir com um parceiro (*joint venture*).\n- **Melhorar**: aumentar a probabilidade ou o impacto.\n- **Aceitar** e **escalar**.\n\n### Outros conceitos\n- **Risco residual**: o que sobra depois da resposta.\n- **Risco secundário**: surge **por causa** da resposta adotada.\n- **Gatilho**: sinal de que o risco está para ocorrer.\n- **Dono do risco**: responsável por acompanhá-lo.\n- **Apetite**, **tolerância** e **limite** de risco da organização.\n- **Plano de contingência** (se o risco ocorrer) e **plano alternativo** (*fallback*).\n\n### Aquisições\nCompra de produtos e serviços **externos** à equipe.\n1. **Planejar** as aquisições: decisão de **fazer ou comprar**; define o tipo de contrato.\n2. **Conduzir** as aquisições: obter propostas, selecionar e contratar.\n3. **Controlar** as aquisições: gerenciar o contrato e o desempenho.\n\n### Tipos de contrato\n- **Preço fixo (preço global)**: valor fechado; o **risco é do fornecedor**. Exige escopo bem definido.\n- **Custos reembolsáveis**: o comprador paga os custos mais uma remuneração; o **risco é do comprador**. Usado quando o escopo é incerto.\n- **Tempo e material**: paga-se por hora e por material; híbrido, comum em consultoria.\n- Variações: preço fixo com **incentivo** e com **ajuste econômico**.\n\n### Documentos\n- **RFP** (pedido de proposta), **RFQ** (pedido de cotação) e **RFI** (pedido de informação).\n- **Declaração do trabalho (SOW)**: descreve o que será contratado.\n- Critérios de seleção: preço, capacidade técnica, experiência, prazo.\n\n### Encerramento\n- Aceite formal das entregas.\n- Encerramento dos contratos.\n- **Lições aprendidas** e arquivamento.\n- Liberação da equipe.",
+      "revisao": "**Lembre:**\n- Risco pode ser ameaça ou oportunidade; problema já aconteceu.\n- Qualitativa: probabilidade × impacto; quantitativa: valor monetário esperado.\n- Ameaças: prevenir, transferir, mitigar, aceitar.\n- Oportunidades: explorar, compartilhar, melhorar, aceitar.\n- Preço fixo: risco do fornecedor; custo reembolsável: risco do comprador."
+    },
+    {
+      "id": "agil",
+      "nome": "Métodos ágeis e outras abordagens",
+      "resumo": "### Manifesto Ágil (2001)\nQuatro valores:\n1. **Indivíduos e interações** mais que processos e ferramentas.\n2. **Software em funcionamento** mais que documentação abrangente.\n3. **Colaboração com o cliente** mais que negociação de contratos.\n4. **Responder a mudanças** mais que seguir um plano.\nOs itens da direita têm valor, mas os da esquerda valem mais. Há também **12 princípios**, como entregas frequentes e equipes auto-organizadas.\n\n### Preditivo x ágil\n- **Preditivo (cascata, *waterfall*)**: planeja tudo no início; fases em sequência; bom quando os requisitos são **estáveis**.\n- **Ágil (adaptativo)**: ciclos curtos (**iterações**), entregas **incrementais** e *feedback* constante; bom quando há **incerteza e mudança**.\n- **Híbrido**: combina os dois.\n\n### Scrum\n*Framework* ágil mais usado. Baseia-se no **empirismo**: **transparência, inspeção e adaptação**.\n\n**Papéis (time Scrum)**\n- ***Product Owner* (PO)**: representa o cliente; **prioriza o *backlog*** e maximiza o valor do produto.\n- ***Scrum Master***: **facilitador**; remove impedimentos e garante o uso do Scrum. **Não é chefe**.\n- **Desenvolvedores**: equipe **multifuncional e auto-organizada** que constrói o incremento.\n\n**Eventos**\n- ***Sprint***: ciclo de duração fixa (até **1 mês**, em geral 2 semanas) que entrega um **incremento** utilizável.\n- ***Sprint Planning***: planeja o que será feito.\n- ***Daily Scrum***: reunião **diária de 15 minutos** para sincronizar o trabalho.\n- ***Sprint Review***: apresenta o incremento às partes interessadas e colhe *feedback*.\n- ***Sprint Retrospective***: a equipe reflete sobre **como melhorar** o processo.\n\n**Artefatos**\n- ***Product Backlog***: lista ordenada de tudo o que o produto precisa.\n- ***Sprint Backlog***: itens escolhidos para a *sprint*.\n- **Incremento**: resultado que atende à **definição de pronto** (*Definition of Done*).\n\n### Outras práticas ágeis\n- **Histórias de usuário**: \"Como [quem], quero [o quê], para [por quê]\".\n- ***Planning poker*** e **pontos de história** para estimar.\n- **Velocidade**: quanto a equipe entrega por *sprint*.\n- **Gráfico de *burndown***: trabalho restante ao longo do tempo.\n- **MVP** (produto mínimo viável): versão mais simples que permite aprender com o cliente.\n\n### Kanban\nMétodo visual de gestão do **fluxo de trabalho**.\n- Quadro com colunas (**a fazer, fazendo, feito**) e cartões.\n- **Limita o trabalho em andamento (WIP)** para evitar sobrecarga e gargalos.\n- Fluxo **contínuo e puxado**, sem *sprints* fixas.\n- Métricas: *lead time* e *cycle time*.\n\n### *Lean*\nEliminar **desperdícios** e maximizar o valor para o cliente; origem no Sistema Toyota de Produção.\n\n### XP (*Extreme Programming*)\nPráticas de engenharia: programação em pares, desenvolvimento orientado a testes (TDD), integração contínua e refatoração.\n\n### PRINCE2\nMétodo britânico baseado em **processos**, com 7 princípios, 7 temas e 7 processos; forte ênfase na **justificativa de negócio** contínua.\n\n### *Design Thinking*\nAbordagem centrada no usuário: **empatia, definição, ideação, prototipagem e teste**.\n\n### Ferramentas visuais de planejamento\n- ***Project Model Canvas***: plano do projeto em uma página (por quê, o quê, quem, como, quando e quanto).\n- **5W2H**: o quê, por quê, onde, quando, quem, como e quanto custa.\n- **Matriz SWOT** e **metas SMART** (específica, mensurável, atingível, relevante e temporal).\n\n### Softwares\nMS Project, Trello, Jira, Asana e outros.",
+      "revisao": "**Lembre:**\n- Ágil valoriza pessoas, entrega funcionando, colaboração e resposta a mudanças.\n- Cascata: requisitos estáveis; ágil: incerteza e mudança.\n- Scrum: PO prioriza, Scrum Master facilita, desenvolvedores constroem.\n- Sprint entrega incremento; daily de 15 minutos.\n- Kanban: fluxo visual com limite de trabalho em andamento."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "gestao-projetos-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Um projeto é definido como um esforço:",
+      "opcoes": [
+        "Temporário, para criar um resultado único",
+        "Contínuo e repetitivo",
+        "Sem prazo definido",
+        "Voltado apenas a reduzir custos"
+      ],
+      "correta": 0,
+      "explicacao": "Ter início e fim e gerar algo singular o distingue das operações de rotina."
+    },
+    {
+      "id": "gestao-projetos-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A tripla restrição clássica dos projetos envolve:",
+      "opcoes": [
+        "Pessoas, máquinas e materiais",
+        "Escopo, tempo e custo",
+        "Risco, qualidade e compras",
+        "Planejar, fazer e checar"
+      ],
+      "correta": 1,
+      "explicacao": "Alterar um desses fatores afeta os demais e a qualidade."
+    },
+    {
+      "id": "gestao-projetos-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Um grupo de projetos relacionados, gerenciados de forma coordenada, é um:",
+      "opcoes": [
+        "Portfólio",
+        "Pacote de trabalho",
+        "Programa",
+        "Processo"
+      ],
+      "correta": 2,
+      "explicacao": "O portfólio reúne projetos e programas alinhados à estratégia, relacionados ou não."
+    },
+    {
+      "id": "gestao-projetos-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma empresa, os membros da equipe do projeto respondem ao gerente de projetos e também ao gerente do seu departamento. A estrutura é:",
+      "opcoes": [
+        "Funcional",
+        "Projetizada",
+        "Informal",
+        "Matricial"
+      ],
+      "correta": 3,
+      "explicacao": "A existência de dois chefes é a marca dessa estrutura."
+    },
+    {
+      "id": "gestao-projetos-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que as mudanças custam mais caro quanto mais avançado está o projeto?",
+      "opcoes": [
+        "Porque há mais trabalho já realizado que precisará ser refeito",
+        "Porque a incerteza aumenta no final",
+        "Porque o patrocinador perde autoridade",
+        "Porque o escopo deixa de existir"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso é importante definir bem os requisitos no início."
+    },
+    {
+      "id": "gestao-projetos-6",
+      "topico": "escopo",
+      "nivel": "conceitual",
+      "pergunta": "O documento que autoriza formalmente o projeto e dá autoridade ao gerente é o:",
+      "opcoes": [
+        "Dicionário da EAP",
+        "Termo de abertura do projeto",
+        "Registro de riscos",
+        "Cronograma"
+      ],
+      "correta": 1,
+      "explicacao": "Ele é emitido pelo patrocinador e traz os objetivos e requisitos de alto nível."
+    },
+    {
+      "id": "gestao-projetos-7",
+      "topico": "escopo",
+      "nivel": "conceitual",
+      "pergunta": "A Estrutura Analítica do Projeto (EAP) é:",
+      "opcoes": [
+        "A lista de riscos do projeto",
+        "O gráfico de barras com os prazos",
+        "A decomposição hierárquica do trabalho, orientada às entregas",
+        "O organograma da empresa"
+      ],
+      "correta": 2,
+      "explicacao": "Ela não mostra sequência nem duração das atividades."
+    },
+    {
+      "id": "gestao-projetos-8",
+      "topico": "escopo",
+      "nivel": "conceitual",
+      "pergunta": "O nível mais baixo da EAP é chamado de:",
+      "opcoes": [
+        "Marco",
+        "Caminho crítico",
+        "Linha de base",
+        "Pacote de trabalho"
+      ],
+      "correta": 3,
+      "explicacao": "É nele que se estimam prazo e custo e se atribuem os responsáveis."
+    },
+    {
+      "id": "gestao-projetos-9",
+      "topico": "escopo",
+      "nivel": "aplicacao",
+      "pergunta": "Durante a obra, o cliente pede pequenos acréscimos, que a equipe vai atendendo sem avaliar prazo e custo. Isso caracteriza:",
+      "opcoes": [
+        "Scope creep",
+        "Gold plating",
+        "Fast tracking",
+        "Crashing"
+      ],
+      "correta": 0,
+      "explicacao": "No gold plating, é a própria equipe que acrescenta itens não solicitados."
+    },
+    {
+      "id": "gestao-projetos-10",
+      "topico": "escopo",
+      "nivel": "analise",
+      "pergunta": "Por que a regra dos 100% é importante na construção da EAP?",
+      "opcoes": [
+        "Porque obriga a concluir o projeto em 100 dias",
+        "Porque garante que todo o trabalho do projeto, e apenas ele, esteja representado",
+        "Porque define o lucro do projeto",
+        "Porque elimina a necessidade de cronograma"
+      ],
+      "correta": 1,
+      "explicacao": "O que não está na EAP está fora do escopo."
+    },
+    {
+      "id": "gestao-projetos-11",
+      "topico": "cronograma",
+      "nivel": "conceitual",
+      "pergunta": "O caminho crítico de um projeto é:",
+      "opcoes": [
+        "A sequência mais curta de atividades",
+        "O conjunto das atividades mais caras",
+        "A sequência mais longa de atividades, que define a duração do projeto",
+        "A lista de riscos mais graves"
+      ],
+      "correta": 2,
+      "explicacao": "As atividades desse caminho têm folga zero."
+    },
+    {
+      "id": "gestao-projetos-12",
+      "topico": "cronograma",
+      "nivel": "conceitual",
+      "pergunta": "A técnica de adicionar recursos para reduzir a duração de atividades críticas é o:",
+      "opcoes": [
+        "Fast tracking",
+        "Nivelamento",
+        "Gold plating",
+        "Crashing"
+      ],
+      "correta": 3,
+      "explicacao": "Ela normalmente aumenta o custo do projeto."
+    },
+    {
+      "id": "gestao-projetos-13",
+      "topico": "cronograma",
+      "nivel": "conceitual",
+      "pergunta": "No gerenciamento do valor agregado, um IDC (CPI) menor que 1 indica que o projeto:",
+      "opcoes": [
+        "Está gastando mais do que o previsto para o trabalho realizado",
+        "Está adiantado",
+        "Está abaixo do orçamento",
+        "Foi concluído"
+      ],
+      "correta": 0,
+      "explicacao": "O índice divide o valor agregado pelo custo real."
+    },
+    {
+      "id": "gestao-projetos-14",
+      "topico": "cronograma",
+      "nivel": "aplicacao",
+      "pergunta": "Uma atividade tem estimativa otimista de 4 dias, mais provável de 6 e pessimista de 14. Pela fórmula PERT, a duração esperada é:",
+      "opcoes": [
+        "8 dias",
+        "7 dias",
+        "6 dias",
+        "10 dias"
+      ],
+      "correta": 1,
+      "explicacao": "A conta é (otimista + 4 × mais provável + pessimista) / 6 = (4 + 24 + 14) / 6."
+    },
+    {
+      "id": "gestao-projetos-15",
+      "topico": "cronograma",
+      "nivel": "analise",
+      "pergunta": "Por que o fast tracking aumenta o risco do projeto?",
+      "opcoes": [
+        "Porque exige mais dinheiro, sempre",
+        "Porque elimina o caminho crítico",
+        "Porque atividades feitas em paralelo podem gerar retrabalho se uma depender do resultado da outra",
+        "Porque reduz a equipe"
+      ],
+      "correta": 2,
+      "explicacao": "O ganho de prazo vem ao custo de mais incerteza."
+    },
+    {
+      "id": "gestao-projetos-16",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "Na matriz RACI, a letra A representa quem:",
+      "opcoes": [
+        "Apenas é informado",
+        "Executa a tarefa",
+        "É consultado",
+        "Aprova e presta contas pela atividade"
+      ],
+      "correta": 3,
+      "explicacao": "Deve haver apenas um A para cada atividade."
+    },
+    {
+      "id": "gestao-projetos-17",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Tuckman, a fase em que surgem divergências e disputas na equipe é a de:",
+      "opcoes": [
+        "Conflito (tempestade)",
+        "Formação",
+        "Desempenho",
+        "Dispersão"
+      ],
+      "correta": 0,
+      "explicacao": "Ela vem depois da formação e antes do acordo."
+    },
+    {
+      "id": "gestao-projetos-18",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "A técnica de resolução de conflitos considerada mais eficaz, por buscar a causa do problema, é:",
+      "opcoes": [
+        "Forçar",
+        "Colaborar (resolver o problema)",
+        "Retirar-se",
+        "Suavizar"
+      ],
+      "correta": 1,
+      "explicacao": "É uma solução do tipo ganha-ganha, que tende a resolver o conflito de forma definitiva."
+    },
+    {
+      "id": "gestao-projetos-19",
+      "topico": "pessoas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma equipe de projeto tem 6 pessoas. O número de canais de comunicação é:",
+      "opcoes": [
+        "12",
+        "30",
+        "15",
+        "6"
+      ],
+      "correta": 2,
+      "explicacao": "A fórmula é n(n − 1)/2: com 6 pessoas, 6 × 5 / 2 canais."
+    },
+    {
+      "id": "gestao-projetos-20",
+      "topico": "pessoas",
+      "nivel": "analise",
+      "pergunta": "Por que se afirma que prevenir defeitos é melhor que inspecionar?",
+      "opcoes": [
+        "Porque a inspeção é proibida",
+        "Porque a prevenção dispensa planejamento",
+        "Porque defeitos não geram custos",
+        "Porque o custo de evitar o erro é menor que o de corrigi-lo depois"
+      ],
+      "correta": 3,
+      "explicacao": "Falhas descobertas pelo cliente são as mais caras de todas."
+    },
+    {
+      "id": "gestao-projetos-21",
+      "topico": "riscos",
+      "nivel": "conceitual",
+      "pergunta": "Contratar um seguro para cobrir um possível prejuízo é uma resposta do tipo:",
+      "opcoes": [
+        "Transferir",
+        "Prevenir",
+        "Mitigar",
+        "Explorar"
+      ],
+      "correta": 0,
+      "explicacao": "O impacto financeiro passa a um terceiro, mas o risco não desaparece."
+    },
+    {
+      "id": "gestao-projetos-22",
+      "topico": "riscos",
+      "nivel": "conceitual",
+      "pergunta": "O risco que surge em consequência da resposta dada a outro risco é o:",
+      "opcoes": [
+        "Risco residual",
+        "Risco secundário",
+        "Gatilho",
+        "Problema"
+      ],
+      "correta": 1,
+      "explicacao": "O residual é o que resta depois de aplicada a resposta."
+    },
+    {
+      "id": "gestao-projetos-23",
+      "topico": "riscos",
+      "nivel": "conceitual",
+      "pergunta": "No contrato de preço fixo, o risco de variação dos custos fica principalmente com:",
+      "opcoes": [
+        "O comprador",
+        "O patrocinador",
+        "O fornecedor",
+        "O governo"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso esse tipo de contrato exige um escopo bem definido desde o início."
+    },
+    {
+      "id": "gestao-projetos-24",
+      "topico": "riscos",
+      "nivel": "aplicacao",
+      "pergunta": "Um risco tem 20% de probabilidade de ocorrer e impacto de R$ 50.000. Seu valor monetário esperado é:",
+      "opcoes": [
+        "R$ 50.000",
+        "R$ 2.500",
+        "R$ 250.000",
+        "R$ 10.000"
+      ],
+      "correta": 3,
+      "explicacao": "VME = probabilidade × impacto = 0,20 × 50.000."
+    },
+    {
+      "id": "gestao-projetos-25",
+      "topico": "riscos",
+      "nivel": "analise",
+      "pergunta": "Por que um risco é diferente de um problema?",
+      "opcoes": [
+        "Porque o risco é um evento incerto, e o problema já ocorreu",
+        "Porque o risco é sempre negativo",
+        "Porque o problema nunca afeta o projeto",
+        "Porque riscos não podem ser planejados"
+      ],
+      "correta": 0,
+      "explicacao": "Riscos pedem respostas planejadas; problemas pedem solução imediata."
+    },
+    {
+      "id": "gestao-projetos-26",
+      "topico": "agil",
+      "nivel": "conceitual",
+      "pergunta": "No Scrum, quem prioriza o backlog do produto é o:",
+      "opcoes": [
+        "Scrum Master",
+        "Product Owner",
+        "Gerente funcional",
+        "Patrocinador"
+      ],
+      "correta": 1,
+      "explicacao": "Ele representa os interesses do cliente e busca maximizar o valor."
+    },
+    {
+      "id": "gestao-projetos-27",
+      "topico": "agil",
+      "nivel": "conceitual",
+      "pergunta": "A reunião diária do Scrum (Daily) tem duração máxima de:",
+      "opcoes": [
+        "1 hora",
+        "4 horas",
+        "15 minutos",
+        "1 dia"
+      ],
+      "correta": 2,
+      "explicacao": "Serve para a equipe sincronizar o trabalho."
+    },
+    {
+      "id": "gestao-projetos-28",
+      "topico": "agil",
+      "nivel": "conceitual",
+      "pergunta": "O Kanban tem como prática central:",
+      "opcoes": [
+        "Trabalhar em sprints de um mês",
+        "Eliminar o quadro visual",
+        "Definir papéis fixos de chefia",
+        "Limitar o trabalho em andamento (WIP)"
+      ],
+      "correta": 3,
+      "explicacao": "Isso evita sobrecarga e revela gargalos no fluxo."
+    },
+    {
+      "id": "gestao-projetos-29",
+      "topico": "agil",
+      "nivel": "aplicacao",
+      "pergunta": "Uma startup vai criar um aplicativo sem saber ao certo o que os usuários querem. A abordagem mais indicada é:",
+      "opcoes": [
+        "Ágil, com entregas curtas e feedback constante",
+        "Cascata, com todo o escopo fechado no início",
+        "Não planejar nada",
+        "Contrato de preço fixo com escopo rígido"
+      ],
+      "correta": 0,
+      "explicacao": "Métodos ágeis lidam melhor com requisitos incertos e mutáveis."
+    },
+    {
+      "id": "gestao-projetos-30",
+      "topico": "agil",
+      "nivel": "analise",
+      "pergunta": "Por que o Scrum Master não é considerado chefe da equipe?",
+      "opcoes": [
+        "Porque não participa do projeto",
+        "Porque atua como facilitador de uma equipe auto-organizada, removendo impedimentos",
+        "Porque quem manda é o cliente diretamente",
+        "Porque o Scrum não tem papéis"
+      ],
+      "correta": 1,
+      "explicacao": "As decisões de como fazer o trabalho cabem aos desenvolvedores."
+    }
+  ]
+}

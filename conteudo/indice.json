@@ -2,6 +2,54 @@
   "versao": 1,
   "materias": [
     {
+      "id": "administracao-financeira",
+      "nome": "Administração Financeira",
+      "apelidos": [
+        "Administração Financeira I",
+        "Administração Financeira II",
+        "Administração Financeira e Orçamentária",
+        "Gestão Financeira",
+        "Finanças Corporativas",
+        "Finanças Empresariais",
+        "Finanças",
+        "Finanças I",
+        "Administração Financeira e Orçamento",
+        "Gestão Financeira e Orçamentária",
+        "Fundamentos de Finanças",
+        "Introdução às Finanças",
+        "Análise de Investimentos",
+        "Análise das Demonstrações Financeiras",
+        "Orçamento Empresarial"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos e objetivo da gestão financeira"
+        },
+        {
+          "id": "analise",
+          "nome": "Análise das demonstrações financeiras"
+        },
+        {
+          "id": "giro",
+          "nome": "Capital de giro e gestão do caixa"
+        },
+        {
+          "id": "investimento",
+          "nome": "Decisões de investimento e orçamento de capital"
+        },
+        {
+          "id": "financiamento",
+          "nome": "Custo e estrutura de capital"
+        },
+        {
+          "id": "planejamento",
+          "nome": "Planejamento e controle financeiro"
+        }
+      ]
+    },
+    {
       "id": "alfabetizacao-letramento",
       "nome": "Alfabetização e Letramento",
       "apelidos": [
@@ -756,6 +804,50 @@
         {
           "id": "potencia-ca",
           "nome": "Potência em CA e circuitos trifásicos"
+        }
+      ]
+    },
+    {
+      "id": "comportamento-organizacional",
+      "nome": "Comportamento Organizacional",
+      "apelidos": [
+        "Comportamento Humano nas Organizações",
+        "Comportamento Humano no Trabalho",
+        "Psicologia Aplicada à Administração",
+        "Liderança e Motivação",
+        "Liderança",
+        "Cultura e Clima Organizacional",
+        "Cultura Organizacional",
+        "Comportamento Organizacional e Liderança",
+        "Relações Humanas no Trabalho",
+        "Liderança e Gestão de Equipes",
+        "Gestão de Equipes"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "individuo",
+          "nome": "O indivíduo na organização"
+        },
+        {
+          "id": "motivacao",
+          "nome": "Motivação no trabalho"
+        },
+        {
+          "id": "grupos",
+          "nome": "Grupos e equipes"
+        },
+        {
+          "id": "lideranca",
+          "nome": "Liderança e poder"
+        },
+        {
+          "id": "conflito",
+          "nome": "Conflito, negociação e estresse"
+        },
+        {
+          "id": "organizacao",
+          "nome": "Cultura, estrutura e mudança"
         }
       ]
     },
@@ -2213,6 +2305,50 @@
       ]
     },
     {
+      "id": "gestao-projetos",
+      "nome": "Gestão de Projetos",
+      "apelidos": [
+        "Gerenciamento de Projetos",
+        "Gerência de Projetos",
+        "Administração de Projetos",
+        "Elaboração e Gestão de Projetos",
+        "Gestão de Projetos I",
+        "Fundamentos de Gestão de Projetos",
+        "Planejamento e Gestão de Projetos",
+        "Gerenciamento de Projetos de Software",
+        "Gestão Ágil de Projetos",
+        "Elaboração e Análise de Projetos",
+        "Projetos"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos de projetos"
+        },
+        {
+          "id": "escopo",
+          "nome": "Integração e escopo"
+        },
+        {
+          "id": "cronograma",
+          "nome": "Cronograma e custos"
+        },
+        {
+          "id": "pessoas",
+          "nome": "Qualidade, recursos e comunicações"
+        },
+        {
+          "id": "riscos",
+          "nome": "Riscos e aquisições"
+        },
+        {
+          "id": "agil",
+          "nome": "Métodos ágeis e outras abordagens"
+        }
+      ]
+    },
+    {
       "id": "histologia",
       "nome": "Histologia",
       "apelidos": [
@@ -2540,6 +2676,55 @@
         {
           "id": "aquisicao",
           "nome": "Aquisição da linguagem e linguística textual"
+        }
+      ]
+    },
+    {
+      "id": "logistica",
+      "nome": "Logística e Cadeia de Suprimentos",
+      "apelidos": [
+        "Logística",
+        "Logística Empresarial",
+        "Gestão da Cadeia de Suprimentos",
+        "Cadeia de Suprimentos",
+        "Gestão de Logística",
+        "Fundamentos de Logística",
+        "Introdução à Logística",
+        "Logística e Distribuição",
+        "Administração de Materiais",
+        "Administração de Recursos Materiais e Patrimoniais",
+        "Gestão de Estoques",
+        "Gestão de Materiais",
+        "Logística Integrada",
+        "Supply Chain Management",
+        "Logística Reversa",
+        "Administração de Materiais e Logística"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos e evolução da logística"
+        },
+        {
+          "id": "scm",
+          "nome": "Gestão da cadeia de suprimentos"
+        },
+        {
+          "id": "estoques",
+          "nome": "Gestão de estoques"
+        },
+        {
+          "id": "armazenagem",
+          "nome": "Armazenagem, movimentação e embalagem"
+        },
+        {
+          "id": "transportes",
+          "nome": "Transportes e distribuição"
+        },
+        {
+          "id": "reversa",
+          "nome": "Logística reversa, sustentabilidade e tendências"
         }
       ]
     },

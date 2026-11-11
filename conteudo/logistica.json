@@ -1,0 +1,465 @@
+{
+  "id": "logistica",
+  "nome": "Logística e Cadeia de Suprimentos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Conceitos e evolução da logística",
+      "resumo": "### O que é logística\nProcesso de **planejar, implementar e controlar** o fluxo e a armazenagem de **materiais, serviços e informações**, do ponto de origem ao ponto de consumo, para atender às necessidades do cliente ao **menor custo total**.\n- Missão: colocar o **produto certo**, no **lugar certo**, na **hora certa**, na **quantidade** e nas **condições** certas, ao custo adequado.\n\n### Utilidades criadas\n- **Tempo**: o produto está disponível quando o cliente quer.\n- **Lugar**: está onde o cliente quer.\n- (As utilidades de **forma** e **posse** vêm da produção e do marketing.)\n\n### Atividades\n- **Primárias** (Ballou): **transportes**, **manutenção de estoques** e **processamento de pedidos**. Respondem pela maior parte do custo.\n- **De apoio**: armazenagem, manuseio de materiais, embalagem, compras (suprimentos), programação da produção e manutenção da informação.\n\n### Fluxos\n- **Físico** (materiais): do fornecedor ao cliente.\n- **De informação**: nos dois sentidos.\n- **Financeiro**: do cliente ao fornecedor.\n- **Reverso**: do cliente de volta à cadeia.\n\n### Divisões\n- **Logística de suprimento (*inbound*)**: fornecedores até a fábrica.\n- **Logística de produção (interna)**: movimentação dentro da fábrica.\n- **Logística de distribuição (*outbound*)**: fábrica até o cliente.\n- **Logística reversa**: retorno de produtos, embalagens e resíduos.\n\n### Evolução\n1. **Atuação segmentada**: transporte e armazenagem tratados isoladamente.\n2. **Integração interna (logística integrada)**: as áreas da empresa passam a planejar juntas.\n3. **Gestão da cadeia de suprimentos (SCM)**: integração **entre empresas** — fornecedores, fabricantes, distribuidores e varejistas.\n\n### Custo total e *trade-offs*\n- **Conceito de custo total**: decisões devem considerar a **soma** dos custos (transporte, estoque, armazenagem, pedidos), não cada um isoladamente.\n- ***Trade-off***: compensação. Ex.: transporte mais rápido custa mais, mas reduz o estoque; mais armazéns reduzem o custo de entrega, mas aumentam o estoque.\n\n### Nível de serviço logístico\nQualidade com que o fluxo é gerenciado. Elementos:\n- **Pré-transação**: política de atendimento.\n- **Transação**: disponibilidade de estoque, prazo e confiabilidade de entrega.\n- **Pós-transação**: garantia, devolução, assistência.\n- Níveis de serviço mais altos custam mais; o custo cresce de forma **acelerada** perto de 100%.\n\n### Indicadores\n- **OTIF** (*on time in full*): entregas no prazo e completas.\n- ***Lead time***: tempo entre o pedido e a entrega.\n- ***Fill rate***: percentual do pedido atendido.\n- Giro de estoque, acurácia de inventário, custo logístico sobre vendas.\n\n### Logística e estratégia\nA logística pode ser **vantagem competitiva**: custo baixo (eficiência) ou diferenciação (serviço rápido e confiável).",
+      "revisao": "**Lembre:**\n- Logística: produto certo, no lugar certo, na hora certa, ao menor custo total.\n- Cria utilidade de tempo e de lugar.\n- Atividades primárias: transporte, estoques e processamento de pedidos.\n- Inbound (suprimento), interna e outbound (distribuição).\n- Trade-off: reduzir um custo pode aumentar outro."
+    },
+    {
+      "id": "scm",
+      "nome": "Gestão da cadeia de suprimentos",
+      "resumo": "### Cadeia de suprimentos (*supply chain*)\nRede de organizações envolvidas, **a montante** (fornecedores) e **a jusante** (clientes), nos processos que geram valor ao consumidor final.\n- **SCM** (*Supply Chain Management*): **integração dos processos de negócio** desde o fornecedor original até o usuário final. É mais amplo que a logística, que é uma **parte** do SCM.\n- A competição passa a ser **entre cadeias**, e não só entre empresas.\n\n### Efeito chicote (*bullwhip effect*)\nPequenas variações na demanda do consumidor são **amplificadas** a cada elo da cadeia para trás (varejo → atacado → fábrica → fornecedor).\n- **Causas**: previsões feitas separadamente em cada elo, **pedidos em lotes**, promoções e variações de preço, e o jogo do racionamento (pedir mais com medo de faltar).\n- **Como reduzir**: **compartilhar informações** de demanda real, reduzir lotes e *lead times*, preços estáveis e parcerias.\n\n### Práticas colaborativas\n- **EDI**: troca eletrônica de dados entre empresas.\n- **ECR** (*Efficient Consumer Response*): resposta eficiente ao consumidor; indústria e varejo cooperam.\n- **VMI** (*Vendor Managed Inventory*): o **fornecedor gerencia o estoque** do cliente.\n- **CPFR**: planejamento, previsão e reposição colaborativos.\n- ***Cross-docking***: a mercadoria chega ao centro de distribuição e é **reexpedida sem ser estocada**.\n- ***Milk run***: um veículo **coleta** peças em vários fornecedores em rota programada.\n- ***Postponement*** (postergação): adiar a configuração final do produto até conhecer o pedido.\n\n### Estratégias de produção e estoque\n- **Empurrada (*push*)**: produz com base em **previsão** e empurra para o mercado.\n- **Puxada (*pull*)**: produz quando há **demanda real**. Ex.: *just in time*.\n- **MTS** (*make to stock*), **ATO** (*assemble to order*), **MTO** (*make to order*) e **ETO** (*engineer to order*).\n\n### Compras e fornecedores\n- **Fazer ou comprar** (*make or buy*): produzir internamente ou terceirizar.\n- **Seleção de fornecedores**: preço, qualidade, prazo, confiabilidade e capacidade.\n- **Fonte única** (*single sourcing*, parceria) x **múltiplas fontes** (menor risco de falta).\n- **Custo total de propriedade (TCO)**: preço mais custos de transporte, qualidade, manutenção e descarte.\n- ***Global sourcing***: compras em escala mundial.\n- ***Strategic sourcing*** e a **matriz de Kraljic**: itens estratégicos, de alavancagem, gargalo e não críticos.\n\n### Terceirização logística\n- **1PL**: a própria empresa faz.\n- **2PL**: contrata transportadora.\n- **3PL (operador logístico)**: presta serviços integrados de transporte, armazenagem e gestão.\n- **4PL**: integrador que **gerencia** toda a cadeia e outros operadores.\n\n### Tecnologia da informação\n- **ERP**: sistema integrado de gestão.\n- **WMS**: gestão de armazéns.\n- **TMS**: gestão de transportes.\n- **Código de barras e RFID** (identificação por radiofrequência).\n- **Roteirizadores**, rastreamento por GPS e *big data*.\n\n### Cadeias enxutas e ágeis\n- **Enxuta (*lean*)**: elimina desperdícios; boa para demanda **estável**.\n- **Ágil**: responde rápido; boa para demanda **imprevisível**.\n- **Resiliência**: capacidade de se recuperar de rupturas.",
+      "revisao": "**Lembre:**\n- SCM integra processos do fornecedor ao cliente final; logística é parte dele.\n- Efeito chicote: a variação da demanda cresce cadeia acima.\n- VMI: fornecedor cuida do estoque do cliente.\n- Cross-docking: recebe e reexpede sem estocar.\n- 3PL: operador logístico; 4PL: integrador da cadeia."
+    },
+    {
+      "id": "estoques",
+      "nome": "Gestão de estoques",
+      "resumo": "### Por que manter estoques\n- Proteger contra **incertezas** da demanda e do fornecimento.\n- Aproveitar **economias de escala** em compras e produção.\n- Atender à **sazonalidade** e especular com preços.\n- **Desvantagem**: capital parado, custo de armazenagem, risco de obsolescência e ocultação de problemas.\n\n### Tipos\nMatérias-primas; **produtos em processo** (WIP); **produtos acabados**; materiais de manutenção (MRO); **estoque em trânsito**; **estoque de segurança**; estoque de ciclo.\n\n### Custos\n- **De aquisição (do item)**: preço pago.\n- **De pedido**: emitir e receber o pedido.\n- **De manutenção (armazenagem)**: capital, espaço, seguro, perdas.\n- **De falta (ruptura)**: venda perdida, parada de produção, perda de imagem.\n\n### Lote Econômico de Compra (LEC)\nQuantidade que **minimiza a soma** dos custos de pedido e de manutenção.\n**LEC = √(2 × D × Cp / Cm)**\n- D: demanda anual; Cp: custo por pedido; Cm: custo de manter uma unidade por ano.\n- Pedidos maiores reduzem o custo de pedir, mas aumentam o de manter.\n\n### Ponto de pedido e estoque de segurança\n- **Ponto de pedido (PP)** = (demanda diária × tempo de reposição) + **estoque de segurança**.\n- **Estoque de segurança**: reserva contra variações da demanda e atrasos na entrega. Quanto maior o nível de serviço desejado, maior o estoque de segurança.\n- **Estoque máximo** = estoque de segurança + lote de compra.\n\n### Sistemas de reposição\n- **Revisão contínua (ponto de pedido)**: pede-se uma **quantidade fixa** quando o estoque atinge o PP.\n- **Revisão periódica**: a cada **intervalo fixo**, pede-se a quantidade necessária para atingir o nível máximo.\n- **Duas gavetas**: forma visual simples do ponto de pedido.\n\n### Curva ABC (Pareto)\nClassifica os itens pelo **valor de consumo**:\n- **A**: cerca de **20% dos itens**, **80% do valor**; controle rigoroso.\n- **B**: intermediários.\n- **C**: muitos itens de **pouco valor**; controle simples.\n- Há também a classificação **XYZ**, pela **criticidade**.\n\n### Avaliação dos estoques\n- **PEPS (FIFO)**: primeiro que entra, primeiro que sai. Com preços subindo, o estoque final fica mais caro e o lucro, maior.\n- **UEPS (LIFO)**: último que entra, primeiro que sai. **Não aceito** pelo fisco brasileiro.\n- **Custo médio ponderado**: o mais usado no Brasil.\n\n### Indicadores\n- **Giro de estoque** = custo das vendas / estoque médio. Quanto maior, menos capital parado.\n- **Cobertura** = estoque médio / demanda média (em dias).\n- **Acurácia** = registros corretos / registros totais.\n- **Nível de serviço** = pedidos atendidos / pedidos recebidos.\n\n### Inventário\n- **Geral (periódico)**: conta tudo de uma vez, em geral no fim do exercício.\n- **Rotativo (cíclico)**: contagens frequentes de partes do estoque, priorizando os itens A.\n\n### Previsão de demanda\n- **Qualitativa**: opinião de especialistas, método Delphi, pesquisa de mercado.\n- **Quantitativa**: **média móvel**, **suavização exponencial**, regressão e séries temporais (tendência, sazonalidade e ciclo).\n\n### *Just in time* e MRP\n- **JIT**: produzir e entregar só o necessário, na hora certa; usa o ***kanban*** (cartões) para puxar a produção. Estoque é visto como desperdício.\n- **MRP**: cálculo das necessidades de materiais a partir do plano mestre de produção e da lista de materiais (*bill of materials*). **MRP II** inclui capacidade e finanças.",
+      "revisao": "**Lembre:**\n- Custos: de pedido, de manutenção e de falta.\n- LEC minimiza pedido + manutenção.\n- Ponto de pedido = demanda × tempo de reposição + estoque de segurança.\n- Curva ABC: poucos itens A concentram o valor.\n- Giro alto: menos capital parado."
+    },
+    {
+      "id": "armazenagem",
+      "nome": "Armazenagem, movimentação e embalagem",
+      "resumo": "### Funções do armazém\n- **Abrigo** de produtos (estoque).\n- **Consolidação**: juntar cargas pequenas em uma grande.\n- **Fracionamento** (*break bulk*): dividir cargas grandes.\n- **Combinação** (*mixing*) de produtos.\n- Apoio ao nível de serviço.\n\n### Tipos de instalação\n- **Depósito / armazém**: foco em **estocar**.\n- **Centro de distribuição (CD)**: foco em **fluxo rápido**; recebe de várias origens e distribui aos clientes.\n- ***Cross-docking***: sem estocagem.\n- ***Transit point***: recebe cargas consolidadas e as reparte para entrega local, sem estoque.\n- Armazém **próprio**, **alugado** ou de **terceiros** (armazém geral).\n\n### Processos\n1. **Recebimento**: conferência da carga com a nota fiscal.\n2. **Endereçamento e estocagem** (*put away*).\n3. **Separação de pedidos** (***picking***): a atividade que mais consome mão de obra.\n4. **Embalagem e conferência** (*packing*).\n5. **Expedição**.\n\n### Tipos de *picking*\n- **Discreto**: um separador, um pedido por vez.\n- **Por lote**: vários pedidos juntos.\n- **Por zona**: cada separador cuida de uma área.\n- **Por onda**: pedidos agrupados por horário de expedição.\n\n### Endereçamento\n- **Fixo**: cada item tem lugar determinado; simples, mas desperdiça espaço.\n- **Variável (aleatório)**: o sistema escolhe o endereço livre; aproveita melhor o espaço, mas exige **WMS**.\n- Itens de **maior giro** ficam mais perto da expedição.\n\n### Estruturas de armazenagem\n- **Porta-paletes** convencional, ***drive-in*** (alta densidade, UEPS), ***drive-through*** (PEPS), **dinâmico** (por gravidade), **cantilever** (peças longas), estantes, mezaninos e **blocados** (empilhamento direto).\n- **Verticalização**: aproveitar a altura.\n\n### Movimentação de materiais\n- Princípios: **menor distância**, **menor manuseio**, fluxo contínuo, uso da gravidade e **unitização**.\n- Equipamentos: **paleteira**, **empilhadeira**, esteiras transportadoras, pontes rolantes, AGVs (veículos guiados automaticamente) e transelevadores.\n- Movimentar **não agrega valor** ao produto: deve ser reduzido ao mínimo.\n\n### Unitização\nAgrupar volumes em uma **unidade maior** para facilitar o manuseio.\n- **Palete** (padrão PBR: 1,00 m × 1,20 m).\n- **Contêiner** (20 e 40 pés; TEU é a unidade de 20 pés).\n- *Big bags*, pré-lingagem.\n\n### Embalagem\n- Funções: **conter**, **proteger**, **facilitar o manuseio** e **comunicar** (informar e vender).\n- **Primária**: em contato com o produto.\n- **Secundária**: agrupa as primárias.\n- **Terciária (de transporte)**: caixas e paletes.\n- Rótulos e simbologia de manuseio; código de barras (GS1).\n\n### Layout\n- Fluxo em **U** (recebimento e expedição no mesmo lado) ou em **I** (lados opostos).\n- Objetivos: aproveitar o espaço, reduzir deslocamentos e garantir segurança.\n\n### Localização de instalações\n- Fatores: proximidade de **mercados** e **fornecedores**, custos de transporte, mão de obra, impostos e infraestrutura.\n- Métodos: **centro de gravidade** e ponderação de fatores.\n- Mais centros de distribuição: entregas mais rápidas, porém mais estoque e custo fixo.\n\n### Segurança\nNormas de segurança no trabalho (NR-11, movimentação de materiais), sinalização, treinamento de operadores e prevenção de incêndio.",
+      "revisao": "**Lembre:**\n- Armazém estoca; centro de distribuição faz o fluxo girar.\n- Processos: receber, estocar, separar (picking), embalar e expedir.\n- Picking é o que mais consome mão de obra.\n- Unitização: palete e contêiner.\n- Embalagem: conter, proteger, facilitar e comunicar."
+    },
+    {
+      "id": "transportes",
+      "nome": "Transportes e distribuição",
+      "resumo": "### Importância\nO transporte é, em geral, o **maior custo logístico**. No Brasil, a matriz é muito dependente do **modal rodoviário**.\n\n### Modais de transporte\n| Modal | Vantagens | Desvantagens | Uso típico |\n|---|---|---|---|\n| **Rodoviário** | **Flexível**, porta a porta, rápido em curtas distâncias | Custo alto em longas distâncias, baixa capacidade, roubos | Cargas fracionadas, distribuição urbana |\n| **Ferroviário** | **Grande capacidade**, baixo custo em longas distâncias | Pouca flexibilidade, alto custo fixo, lento | Minério, grãos, combustíveis |\n| **Aquaviário** (marítimo, cabotagem, fluvial) | **Menor custo por tonelada**, capacidade enorme | Lento, depende de portos | Comércio exterior, granéis |\n| **Aéreo** | **Mais rápido**, seguro | **Mais caro**, capacidade limitada | Cargas urgentes, de alto valor ou perecíveis |\n| **Dutoviário** | Custo operacional baixo, funcionamento contínuo | Investimento alto, poucos produtos | Petróleo, gás, minério (mineroduto) |\n\n### Critérios de escolha\n**Custo**, **velocidade** (tempo de trânsito), **confiabilidade**, **capacidade**, **disponibilidade** e **segurança** (perdas e danos).\n\n### Combinação de modais\n- **Intermodal**: mais de um modal, com **um contrato para cada trecho**.\n- **Multimodal**: mais de um modal sob **um único contrato**, de responsabilidade do **operador de transporte multimodal (OTM)**.\n- ***Piggyback***: carreta sobre vagão ferroviário.\n- **Cabotagem**: navegação entre portos do mesmo país.\n\n### Custos de transporte\n- **Fixos**: depreciação, salários, seguro, licenciamento.\n- **Variáveis**: combustível, pneus, manutenção, pedágio.\n- **Frete**: depende de **distância**, **peso**, **volume** (cubagem), valor e risco da carga.\n- **Frete-peso x frete-valor (*ad valorem*)**.\n- **Carga fechada (lotação)**: um embarcador ocupa o veículo; **carga fracionada**: vários embarcadores.\n\n### Incoterms (comércio exterior)\nRegras que definem **quem paga e quem assume o risco** em cada etapa.\n- **EXW**: comprador retira na fábrica do vendedor (mínimo de obrigação para o vendedor).\n- **FOB**: vendedor entrega a mercadoria **a bordo do navio** no porto de embarque.\n- **CIF**: vendedor paga **custo, seguro e frete** até o porto de destino.\n- **DDP**: vendedor entrega no destino com impostos pagos (máximo de obrigação).\n\n### Distribuição física\n- **Canais de distribuição**: direto (fabricante → consumidor) ou com intermediários (atacado, varejo).\n- **Distribuição direta**, **escalonada** (via CD) ou mista.\n- **Roteirização**: definir rotas que minimizem distância e tempo, respeitando capacidade do veículo e janelas de entrega.\n- **Última milha (*last mile*)**: trecho final até o cliente; o mais caro e complexo, especialmente no comércio eletrônico.\n- **Logística urbana**: restrições de circulação, VUCs (veículos urbanos de carga).\n\n### Documentos\n- **Nota fiscal eletrônica (NF-e)** e DANFE.\n- **Conhecimento de transporte eletrônico (CT-e)**.\n- **Manifesto eletrônico (MDF-e)**.\n- No comércio exterior: *bill of lading* (BL, marítimo) e *air waybill* (AWB, aéreo).\n\n### Gestão de frotas\nFrota **própria** ou **terceirizada**; dimensionamento, manutenção preventiva, renovação, controle de combustível e rastreamento.\n\n### Gerenciamento de riscos\nSeguro de carga, rastreamento, escolta e análise de rotas.",
+      "revisao": "**Lembre:**\n- Rodoviário: flexível; ferroviário e aquaviário: grande volume e baixo custo; aéreo: rápido e caro; dutos: contínuo.\n- Multimodal: vários modais, um contrato só.\n- FOB: vendedor entrega no navio; CIF: paga custo, seguro e frete.\n- Última milha é a parte mais cara da entrega.\n- Roteirização reduz distância e tempo."
+    },
+    {
+      "id": "reversa",
+      "nome": "Logística reversa, sustentabilidade e tendências",
+      "resumo": "### Logística reversa\nPlanejamento e controle do fluxo de produtos, embalagens e materiais do **ponto de consumo de volta à origem**, para **recuperar valor** ou dar **destinação adequada**.\n\n### Tipos\n- **Pós-venda**: produtos com **pouco ou nenhum uso** que retornam por defeito, erro no pedido, arrependimento, *recall* ou fim de validade.\n- **Pós-consumo**: produtos no **fim da vida útil** e embalagens, que voltam para **reúso, remanufatura, reciclagem** ou descarte.\n\n### Destinos possíveis\n**Revenda** (mercado secundário), **recondicionamento**, **remanufatura**, **desmanche** para aproveitar peças, **reciclagem** (volta como matéria-prima), **incineração** com recuperação de energia e **aterro**.\n\n### Política Nacional de Resíduos Sólidos (Lei 12.305/2010)\n- **Responsabilidade compartilhada** pelo ciclo de vida dos produtos: fabricantes, importadores, distribuidores, comerciantes, consumidores e poder público.\n- **Logística reversa obrigatória** para: **agrotóxicos** (embalagens), **pilhas e baterias**, **pneus**, **óleos lubrificantes**, **lâmpadas fluorescentes** e **eletroeletrônicos**; estendida a embalagens em geral e medicamentos por acordos setoriais.\n- **Ordem de prioridade**: **não geração**, **redução**, **reutilização**, **reciclagem**, **tratamento** e **disposição final** adequada dos rejeitos.\n- Fim dos **lixões**; inclusão dos **catadores**.\n- **Resíduo** (pode ser aproveitado) x **rejeito** (não tem aproveitamento viável).\n\n### Por que as empresas adotam\n- **Legislação**.\n- **Economia**: recuperar materiais e reduzir custos.\n- **Imagem** e pressão dos consumidores.\n- **Serviço ao cliente**: políticas de devolução.\n\n### Dificuldades\nFluxo **irregular e imprevisível**; produtos dispersos, em pequenas quantidades e sem embalagem adequada; custo de coleta alto.\n\n### Logística verde (*green logistics*)\nReduzir os impactos ambientais: menos emissões de CO₂, combustíveis alternativos, veículos elétricos, otimização de rotas, embalagens retornáveis e redução de embalagens.\n\n### Economia circular\nSubstitui o modelo linear (**extrair, produzir, descartar**) por ciclos em que os materiais **retornam** ao processo produtivo. A logística reversa é um dos seus pilares.\n- **Análise do ciclo de vida (ACV)**: avalia os impactos do produto do berço ao túmulo.\n- **Ecodesign**: projetar para desmontar e reciclar.\n\n### Tendências\n- **Logística 4.0**: internet das coisas, *big data*, inteligência artificial, robôs em armazéns, veículos autônomos e drones.\n- ***E-commerce***: entregas rápidas, *omnichannel* (integração de canais), lojas como pontos de retirada, *lockers* e *dark stores*.\n- ***Blockchain*** para rastreabilidade.\n- **Torre de controle**: visibilidade em tempo real da cadeia.\n\n### Logística humanitária\nAplicação dos conceitos logísticos a **desastres e emergências**: rapidez e salvamento de vidas acima do custo.\n\n### Gestão de riscos na cadeia\nRupturas por desastres, greves, pandemias e crises. Respostas: fornecedores alternativos, estoques estratégicos, *nearshoring* (aproximar a produção) e planos de contingência.\n\n### Custos logísticos no Brasil (\"custo Brasil\")\nDependência do modal rodoviário, estradas em más condições, burocracia portuária e carga tributária elevam o custo logístico acima da média de países desenvolvidos.",
+      "revisao": "**Lembre:**\n- Logística reversa: do consumo de volta à origem.\n- Pós-venda (pouco uso) e pós-consumo (fim da vida útil).\n- PNRS: responsabilidade compartilhada; prioridade começa por não gerar.\n- Obrigatória para agrotóxicos, pilhas, pneus, óleos, lâmpadas e eletrônicos.\n- Economia circular: materiais retornam ao ciclo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "logistica-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "A logística agrega valor ao produto principalmente por meio das utilidades de:",
+      "opcoes": [
+        "Tempo e lugar",
+        "Forma e posse",
+        "Preço e marca",
+        "Cor e design"
+      ],
+      "correta": 0,
+      "explicacao": "As utilidades de forma e posse vêm da produção e do marketing."
+    },
+    {
+      "id": "logistica-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Ballou, as atividades primárias da logística são:",
+      "opcoes": [
+        "Marketing, vendas e finanças",
+        "Transportes, manutenção de estoques e processamento de pedidos",
+        "Embalagem, compras e manuseio",
+        "Produção, qualidade e manutenção"
+      ],
+      "correta": 1,
+      "explicacao": "As demais, como armazenagem e embalagem, são atividades de apoio."
+    },
+    {
+      "id": "logistica-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "A logística que trata do fluxo de materiais dos fornecedores até a empresa é chamada de:",
+      "opcoes": [
+        "Logística de distribuição (outbound)",
+        "Logística reversa",
+        "Logística de suprimento (inbound)",
+        "Logística humanitária"
+      ],
+      "correta": 2,
+      "explicacao": "A logística de distribuição cuida do caminho da fábrica ao cliente."
+    },
+    {
+      "id": "logistica-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa troca o transporte rodoviário pelo aéreo: o frete sobe, mas ela consegue fechar dois armazéns e reduzir estoques. Essa decisão ilustra:",
+      "opcoes": [
+        "O efeito chicote",
+        "A curva ABC",
+        "A logística reversa",
+        "O conceito de custo total e de trade-off"
+      ],
+      "correta": 3,
+      "explicacao": "O que importa é a soma dos custos, não cada um isoladamente."
+    },
+    {
+      "id": "logistica-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Por que elevar o nível de serviço de 95% para 99% costuma custar proporcionalmente muito mais do que de 80% para 84%?",
+      "opcoes": [
+        "Porque o custo cresce de forma acelerada à medida que o serviço se aproxima de 100%",
+        "Porque o cliente não percebe melhorias",
+        "Porque os estoques diminuem",
+        "Porque o transporte fica gratuito"
+      ],
+      "correta": 0,
+      "explicacao": "Estoques de segurança muito maiores são exigidos para cobrir os últimos pontos percentuais."
+    },
+    {
+      "id": "logistica-6",
+      "topico": "scm",
+      "nivel": "conceitual",
+      "pergunta": "O efeito chicote consiste em:",
+      "opcoes": [
+        "Redução dos estoques em toda a cadeia",
+        "Amplificação das variações de demanda ao longo da cadeia, do varejo ao fornecedor",
+        "Aumento da velocidade de entrega",
+        "Retorno de embalagens ao fabricante"
+      ],
+      "correta": 1,
+      "explicacao": "O compartilhamento de informações de demanda real ajuda a reduzi-lo."
+    },
+    {
+      "id": "logistica-7",
+      "topico": "scm",
+      "nivel": "conceitual",
+      "pergunta": "No VMI (Vendor Managed Inventory):",
+      "opcoes": [
+        "O cliente fabrica o produto do fornecedor",
+        "Não existe estoque",
+        "O fornecedor gerencia o estoque do cliente",
+        "O transporte é feito pelo consumidor"
+      ],
+      "correta": 2,
+      "explicacao": "O fornecedor decide quando e quanto repor, com base nos dados do cliente."
+    },
+    {
+      "id": "logistica-8",
+      "topico": "scm",
+      "nivel": "conceitual",
+      "pergunta": "No cross-docking, a mercadoria:",
+      "opcoes": [
+        "Fica armazenada por longos períodos",
+        "É devolvida ao fornecedor",
+        "É produzida sob encomenda",
+        "É recebida e reexpedida sem ser estocada"
+      ],
+      "correta": 3,
+      "explicacao": "A técnica reduz custos de armazenagem e acelera a entrega."
+    },
+    {
+      "id": "logistica-9",
+      "topico": "scm",
+      "nivel": "aplicacao",
+      "pergunta": "Uma montadora contrata uma empresa para cuidar do transporte, da armazenagem e do controle de estoque de suas peças. Essa empresa é um:",
+      "opcoes": [
+        "Operador logístico (3PL)",
+        "Fornecedor de matéria-prima",
+        "Varejista",
+        "Agente de carga aérea apenas"
+      ],
+      "correta": 0,
+      "explicacao": "O operador logístico presta serviços integrados, e não só o transporte."
+    },
+    {
+      "id": "logistica-10",
+      "topico": "scm",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que hoje a competição ocorre entre cadeias de suprimentos, e não apenas entre empresas?",
+      "opcoes": [
+        "Porque as empresas não competem mais",
+        "Porque o desempenho final depende da integração de todos os elos, do fornecedor ao cliente",
+        "Porque só o varejo importa",
+        "Porque os fornecedores definem o preço final"
+      ],
+      "correta": 1,
+      "explicacao": "Uma empresa eficiente em uma cadeia desarticulada continua entregando mal ao consumidor."
+    },
+    {
+      "id": "logistica-11",
+      "topico": "estoques",
+      "nivel": "conceitual",
+      "pergunta": "O lote econômico de compra é a quantidade que minimiza:",
+      "opcoes": [
+        "Apenas o custo de transporte",
+        "O preço de compra do item",
+        "A soma dos custos de pedido e de manutenção de estoque",
+        "O prazo de entrega"
+      ],
+      "correta": 2,
+      "explicacao": "Lotes maiores reduzem o custo de pedir, mas aumentam o de manter."
+    },
+    {
+      "id": "logistica-12",
+      "topico": "estoques",
+      "nivel": "conceitual",
+      "pergunta": "Na curva ABC, os itens da classe A são:",
+      "opcoes": [
+        "Muitos itens de baixo valor",
+        "Itens sem movimentação",
+        "Itens perecíveis",
+        "Poucos itens que concentram a maior parte do valor"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso merecem controle mais rigoroso."
+    },
+    {
+      "id": "logistica-13",
+      "topico": "estoques",
+      "nivel": "conceitual",
+      "pergunta": "O estoque de segurança serve para:",
+      "opcoes": [
+        "Proteger contra variações da demanda e atrasos no fornecimento",
+        "Aumentar o custo de manutenção sem motivo",
+        "Substituir a previsão de demanda",
+        "Eliminar o ponto de pedido"
+      ],
+      "correta": 0,
+      "explicacao": "Quanto maior o nível de serviço desejado, maior ele precisa ser."
+    },
+    {
+      "id": "logistica-14",
+      "topico": "estoques",
+      "nivel": "aplicacao",
+      "pergunta": "Um item tem consumo de 20 unidades por dia, tempo de reposição de 5 dias e estoque de segurança de 30 unidades. O ponto de pedido é:",
+      "opcoes": [
+        "100 unidades",
+        "130 unidades",
+        "150 unidades",
+        "50 unidades"
+      ],
+      "correta": 1,
+      "explicacao": "PP = demanda diária × tempo de reposição + estoque de segurança = 20 × 5 + 30."
+    },
+    {
+      "id": "logistica-15",
+      "topico": "estoques",
+      "nivel": "analise",
+      "pergunta": "Por que a filosofia just in time considera o estoque um desperdício?",
+      "opcoes": [
+        "Porque estoque sempre gera lucro",
+        "Porque elimina a necessidade de fornecedores",
+        "Porque imobiliza capital e esconde problemas do processo produtivo",
+        "Porque aumenta o nível de serviço"
+      ],
+      "correta": 2,
+      "explicacao": "Reduzir estoques expõe falhas como quebras, atrasos e defeitos, que passam a ser corrigidas."
+    },
+    {
+      "id": "logistica-16",
+      "topico": "armazenagem",
+      "nivel": "conceitual",
+      "pergunta": "A atividade de separar os itens que compõem um pedido é chamada de:",
+      "opcoes": [
+        "Cross-docking",
+        "Put away",
+        "Milk run",
+        "Picking"
+      ],
+      "correta": 3,
+      "explicacao": "É a atividade que mais consome mão de obra no armazém."
+    },
+    {
+      "id": "logistica-17",
+      "topico": "armazenagem",
+      "nivel": "conceitual",
+      "pergunta": "Agrupar vários volumes em uma única unidade de carga, como um palete, chama-se:",
+      "opcoes": [
+        "Unitização",
+        "Roteirização",
+        "Fracionamento",
+        "Postergação"
+      ],
+      "correta": 0,
+      "explicacao": "A unitização reduz o manuseio e acelera a carga e a descarga."
+    },
+    {
+      "id": "logistica-18",
+      "topico": "armazenagem",
+      "nivel": "conceitual",
+      "pergunta": "A embalagem que entra em contato direto com o produto é a:",
+      "opcoes": [
+        "Secundária",
+        "Primária",
+        "Terciária",
+        "De transporte"
+      ],
+      "correta": 1,
+      "explicacao": "A secundária agrupa as primárias, e a terciária serve ao transporte."
+    },
+    {
+      "id": "logistica-19",
+      "topico": "armazenagem",
+      "nivel": "aplicacao",
+      "pergunta": "Um armazém quer aproveitar melhor o espaço, guardando cada item em qualquer posição livre. Ele deve adotar:",
+      "opcoes": [
+        "Endereçamento fixo",
+        "Estocagem apenas no piso",
+        "Endereçamento variável, apoiado por um sistema WMS",
+        "Inventário geral anual"
+      ],
+      "correta": 2,
+      "explicacao": "Sem sistema de gestão, seria impossível localizar os itens."
+    },
+    {
+      "id": "logistica-20",
+      "topico": "armazenagem",
+      "nivel": "analise",
+      "pergunta": "Por que se busca reduzir ao mínimo a movimentação de materiais dentro do armazém?",
+      "opcoes": [
+        "Porque a movimentação aumenta o valor do produto",
+        "Porque os equipamentos são proibidos",
+        "Porque reduz o espaço disponível",
+        "Porque movimentar gera custo e risco de dano, sem agregar valor ao produto"
+      ],
+      "correta": 3,
+      "explicacao": "Daí os princípios de menor distância e menor manuseio."
+    },
+    {
+      "id": "logistica-21",
+      "topico": "transportes",
+      "nivel": "conceitual",
+      "pergunta": "O modal mais indicado para cargas urgentes e de alto valor é o:",
+      "opcoes": [
+        "Aéreo",
+        "Ferroviário",
+        "Aquaviário",
+        "Dutoviário"
+      ],
+      "correta": 0,
+      "explicacao": "É o mais rápido, porém o de frete mais caro."
+    },
+    {
+      "id": "logistica-22",
+      "topico": "transportes",
+      "nivel": "conceitual",
+      "pergunta": "No transporte multimodal:",
+      "opcoes": [
+        "Usa-se um único modal",
+        "Usam-se vários modais sob um único contrato",
+        "Há um contrato para cada trecho",
+        "Não há responsável pela carga"
+      ],
+      "correta": 1,
+      "explicacao": "O responsável é o operador de transporte multimodal."
+    },
+    {
+      "id": "logistica-23",
+      "topico": "transportes",
+      "nivel": "conceitual",
+      "pergunta": "No Incoterm CIF, o vendedor paga:",
+      "opcoes": [
+        "Apenas a embalagem",
+        "Nada além da produção",
+        "O custo, o seguro e o frete até o porto de destino",
+        "Os impostos no país do comprador"
+      ],
+      "correta": 2,
+      "explicacao": "No FOB, sua responsabilidade termina com a carga a bordo do navio."
+    },
+    {
+      "id": "logistica-24",
+      "topico": "transportes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mineradora precisa levar grandes volumes de minério por 900 km até o porto, de forma regular. O modal mais adequado é o:",
+      "opcoes": [
+        "Aéreo",
+        "Rodoviário",
+        "Motofrete",
+        "Ferroviário"
+      ],
+      "correta": 3,
+      "explicacao": "Ele tem grande capacidade e baixo custo por tonelada em longas distâncias."
+    },
+    {
+      "id": "logistica-25",
+      "topico": "transportes",
+      "nivel": "analise",
+      "pergunta": "Por que a última milha é considerada a etapa mais cara da distribuição?",
+      "opcoes": [
+        "Porque envolve muitas entregas pequenas e dispersas, em áreas urbanas congestionadas",
+        "Porque usa navios",
+        "Porque não exige veículos",
+        "Porque as cargas são consolidadas"
+      ],
+      "correta": 0,
+      "explicacao": "O comércio eletrônico ampliou muito esse desafio."
+    },
+    {
+      "id": "logistica-26",
+      "topico": "reversa",
+      "nivel": "conceitual",
+      "pergunta": "A logística reversa de pós-consumo trata de produtos que:",
+      "opcoes": [
+        "Foram devolvidos por arrependimento",
+        "Chegaram ao fim da vida útil",
+        "Ainda não foram vendidos",
+        "Estão em trânsito para o cliente"
+      ],
+      "correta": 1,
+      "explicacao": "A de pós-venda cuida de itens com pouco ou nenhum uso."
+    },
+    {
+      "id": "logistica-27",
+      "topico": "reversa",
+      "nivel": "conceitual",
+      "pergunta": "A Política Nacional de Resíduos Sólidos estabelece a responsabilidade:",
+      "opcoes": [
+        "Exclusiva do consumidor",
+        "Exclusiva do poder público",
+        "Compartilhada pelo ciclo de vida dos produtos",
+        "Exclusiva dos catadores"
+      ],
+      "correta": 2,
+      "explicacao": "Fabricantes, comerciantes, consumidores e governo têm deveres."
+    },
+    {
+      "id": "logistica-28",
+      "topico": "reversa",
+      "nivel": "conceitual",
+      "pergunta": "Na ordem de prioridade da gestão de resíduos, a primeira opção é:",
+      "opcoes": [
+        "A reciclagem",
+        "A disposição em aterro",
+        "A incineração",
+        "A não geração"
+      ],
+      "correta": 3,
+      "explicacao": "Depois vêm reduzir, reutilizar, reciclar, tratar e dispor os rejeitos."
+    },
+    {
+      "id": "logistica-29",
+      "topico": "reversa",
+      "nivel": "aplicacao",
+      "pergunta": "Uma loja de pneus recebe os pneus velhos dos clientes e os encaminha ao fabricante. Ela está praticando:",
+      "opcoes": [
+        "Logística reversa obrigatória por lei",
+        "Cross-docking",
+        "Venda casada",
+        "Milk run"
+      ],
+      "correta": 0,
+      "explicacao": "Pneus estão entre os produtos com logística reversa exigida pela PNRS."
+    },
+    {
+      "id": "logistica-30",
+      "topico": "reversa",
+      "nivel": "analise",
+      "pergunta": "Por que o fluxo reverso é mais difícil de planejar do que o fluxo direto?",
+      "opcoes": [
+        "Porque os produtos voltam sempre embalados",
+        "Porque os retornos são irregulares, dispersos e em pequenas quantidades",
+        "Porque não há custo de coleta",
+        "Porque a demanda é totalmente previsível"
+      ],
+      "correta": 1,
+      "explicacao": "Não se sabe quando, onde nem em que estado os produtos voltarão."
+    }
+  ]
+}

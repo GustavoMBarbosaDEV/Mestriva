@@ -1428,6 +1428,83 @@ export const EXTRA = {
       "Prática Trabalhista",
       "Noções de Processo do Trabalho"
     ]
+  },
+  "administracao-financeira": {
+    "area": "Negócios",
+    "apelidos": [
+      "Administração Financeira",
+      "Administração Financeira I",
+      "Administração Financeira II",
+      "Administração Financeira e Orçamentária",
+      "Gestão Financeira",
+      "Finanças Corporativas",
+      "Finanças Empresariais",
+      "Finanças",
+      "Finanças I",
+      "Administração Financeira e Orçamento",
+      "Gestão Financeira e Orçamentária",
+      "Fundamentos de Finanças",
+      "Introdução às Finanças",
+      "Análise de Investimentos",
+      "Análise das Demonstrações Financeiras",
+      "Orçamento Empresarial"
+    ]
+  },
+  "logistica": {
+    "area": "Negócios",
+    "apelidos": [
+      "Logística",
+      "Logística Empresarial",
+      "Logística e Cadeia de Suprimentos",
+      "Gestão da Cadeia de Suprimentos",
+      "Cadeia de Suprimentos",
+      "Gestão de Logística",
+      "Fundamentos de Logística",
+      "Introdução à Logística",
+      "Logística e Distribuição",
+      "Administração de Materiais",
+      "Administração de Recursos Materiais e Patrimoniais",
+      "Gestão de Estoques",
+      "Gestão de Materiais",
+      "Logística Integrada",
+      "Supply Chain Management",
+      "Logística Reversa",
+      "Administração de Materiais e Logística"
+    ]
+  },
+  "gestao-projetos": {
+    "area": "Negócios",
+    "apelidos": [
+      "Gestão de Projetos",
+      "Gerenciamento de Projetos",
+      "Gerência de Projetos",
+      "Administração de Projetos",
+      "Elaboração e Gestão de Projetos",
+      "Gestão de Projetos I",
+      "Fundamentos de Gestão de Projetos",
+      "Planejamento e Gestão de Projetos",
+      "Gerenciamento de Projetos de Software",
+      "Gestão Ágil de Projetos",
+      "Elaboração e Análise de Projetos",
+      "Projetos"
+    ]
+  },
+  "comportamento-organizacional": {
+    "area": "Negócios",
+    "apelidos": [
+      "Comportamento Organizacional",
+      "Comportamento Humano nas Organizações",
+      "Comportamento Humano no Trabalho",
+      "Psicologia Aplicada à Administração",
+      "Liderança e Motivação",
+      "Liderança",
+      "Cultura e Clima Organizacional",
+      "Cultura Organizacional",
+      "Comportamento Organizacional e Liderança",
+      "Relações Humanas no Trabalho",
+      "Liderança e Gestão de Equipes",
+      "Gestão de Equipes"
+    ]
   }
 };
 

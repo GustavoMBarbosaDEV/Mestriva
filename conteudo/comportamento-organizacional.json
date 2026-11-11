@@ -1,0 +1,465 @@
+{
+  "id": "comportamento-organizacional",
+  "nome": "Comportamento Organizacional",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "individuo",
+      "nome": "O indivíduo na organização",
+      "resumo": "### O que é comportamento organizacional (CO)\nCampo que estuda o impacto de **indivíduos, grupos e estrutura** sobre o comportamento das pessoas dentro das organizações, para **melhorar a eficácia** organizacional (Robbins).\n- **Três níveis de análise**: **individual** (micro), **grupal** (meso) e **organizacional** (macro).\n- Disciplinas que contribuem: **psicologia** (indivíduo), **sociologia** e **psicologia social** (grupos), **antropologia** (cultura) e **ciência política** (poder).\n- Variáveis dependentes clássicas: **produtividade**, **absenteísmo**, **rotatividade**, **satisfação** no trabalho e **cidadania organizacional**.\n- Abordagem **contingencial**: não há resposta única; \"depende\" da situação.\n\n### Diferenças individuais\n- **Características biográficas**: idade, sexo, estado civil, tempo de casa.\n- **Habilidades**: **intelectuais** e **físicas**. O desempenho melhora quando há **ajuste** entre a habilidade e o cargo.\n- **Diversidade**: de superfície (visível) e profunda (valores, personalidade).\n\n### Personalidade\nConjunto relativamente **estável** de características que define como a pessoa reage e interage.\n- **Modelo dos Cinco Grandes Fatores (*Big Five*)**:\n  - **Abertura à experiência**: curiosidade, criatividade.\n  - **Conscienciosidade**: responsabilidade, organização; é o melhor preditor de **desempenho** em geral.\n  - **Extroversão**: sociabilidade, assertividade.\n  - **Amabilidade**: cooperação, confiança.\n  - **Estabilidade emocional** (oposto do neuroticismo): calma, segurança.\n- **MBTI**: classifica em 16 tipos (extrovertido/introvertido, sensorial/intuitivo, racional/emocional, julgador/perceptivo); popular, mas com pouca validade científica.\n- Outros traços: **lócus de controle** (interno: \"eu controlo meu destino\"; externo: \"depende da sorte\"), **autoestima**, **automonitoramento**, **maquiavelismo**, propensão a riscos e personalidade **tipo A** (competitiva, apressada) e **tipo B**.\n\n### Valores\nConvicções básicas sobre o que é certo ou desejável; **estáveis e duradouros**.\n- **Rokeach**: valores **terminais** (fins: felicidade, liberdade) e **instrumentais** (meios: honestidade, ambição).\n- Gerações diferentes tendem a ter valores de trabalho diferentes.\n\n### Atitudes\nAvaliações favoráveis ou desfavoráveis sobre objetos, pessoas ou eventos. Componentes:\n- **Cognitivo**: a crença (\"meu salário é baixo\").\n- **Afetivo**: o sentimento (\"fico irritado com isso\").\n- **Comportamental**: a intenção de agir (\"vou procurar outro emprego\").\n- **Dissonância cognitiva** (Festinger): desconforto por incoerência entre atitudes, ou entre atitude e comportamento; a pessoa busca reduzi-lo.\n\n### Atitudes no trabalho\n- **Satisfação no trabalho**: sentimento positivo em relação ao trabalho.\n- **Envolvimento com o trabalho**: identificação psicológica com ele.\n- **Comprometimento organizacional** (Meyer e Allen): **afetivo** (quer ficar), **instrumental ou de continuação** (precisa ficar) e **normativo** (sente que deve ficar).\n- **Engajamento**: entusiasmo e dedicação.\n- Respostas à insatisfação: **saída**, **voz** (tentar melhorar), **lealdade** (esperar) e **negligência**.\n\n### Percepção\nProcesso de **organizar e interpretar** as impressões sensoriais para dar sentido ao ambiente. As pessoas agem conforme o que **percebem**, não conforme a realidade.\n- **Teoria da atribuição**: julgamos se o comportamento tem causa **interna** ou **externa**, observando **distintividade**, **consenso** e **consistência**.\n- **Erro fundamental de atribuição**: superestimar causas internas no comportamento **dos outros**.\n- **Viés de autoconveniência**: atribuir o próprio sucesso a si e o fracasso a fatores externos.\n- **Atalhos e distorções**: **percepção seletiva**, **efeito halo** (uma característica contamina a impressão geral), **efeito de contraste**, **projeção** e **estereótipo**.\n- **Profecia autorrealizável (efeito Pigmalião)**: a expectativa sobre alguém acaba influenciando o seu desempenho.\n\n### Emoções\n- **Emoções** (intensas, com causa específica) x **humores** (difusos e duradouros).\n- **Trabalho emocional**: expressar emoções exigidas pelo cargo; a **dissonância emocional** desgasta.\n- **Inteligência emocional** (Goleman): autoconsciência, autocontrole, automotivação, empatia e habilidades sociais.\n\n### Aprendizagem\n- **Condicionamento clássico** (Pavlov), **operante** (Skinner: reforço e punição) e **aprendizagem social** (Bandura: observação de modelos).",
+      "revisao": "**Lembre:**\n- CO estuda indivíduo, grupo e organização.\n- Big Five: abertura, conscienciosidade, extroversão, amabilidade e estabilidade emocional.\n- Atitude: cognitivo, afetivo e comportamental.\n- Comprometimento: afetivo, instrumental e normativo.\n- Efeito halo e erro fundamental de atribuição distorcem a percepção."
+    },
+    {
+      "id": "motivacao",
+      "nome": "Motivação no trabalho",
+      "resumo": "### Conceito\nProcesso responsável pela **intensidade, direção e persistência** dos esforços de uma pessoa para alcançar uma meta.\n- É **interna**: ninguém motiva ninguém diretamente; criam-se **condições**.\n- **Motivação intrínseca** (prazer na tarefa) x **extrínseca** (recompensas externas).\n\n### Teorias de conteúdo (o que motiva)\n**Hierarquia das necessidades — Maslow**\n1. **Fisiológicas** (fome, sono).\n2. **Segurança** (estabilidade, proteção).\n3. **Sociais** (afeto, pertencimento).\n4. **Estima** (reconhecimento, status).\n5. **Autorrealização** (desenvolver o potencial).\n- As de baixo precisam estar razoavelmente satisfeitas para as de cima motivarem.\n- Necessidade satisfeita **deixa de motivar**.\n\n**Teoria ERC — Alderfer**: **E**xistência, **R**elacionamento e **C**rescimento. Várias necessidades podem atuar ao mesmo tempo; há **frustração-regressão** (frustrada uma superior, volta-se à inferior).\n\n**Dois fatores — Herzberg**\n- **Higiênicos (extrínsecos)**: salário, condições de trabalho, supervisão, políticas da empresa, relações. Sua falta gera **insatisfação**; sua presença apenas **evita** a insatisfação.\n- **Motivacionais (intrínsecos)**: realização, reconhecimento, o trabalho em si, responsabilidade e crescimento. Geram **satisfação**.\n- O oposto de satisfação é **não satisfação**, e não insatisfação.\n- Proposta: **enriquecimento do cargo**.\n\n**Necessidades adquiridas — McClelland**\n- **Realização**: superar desafios, metas moderadas e *feedback*.\n- **Poder**: influenciar pessoas.\n- **Afiliação**: relações amigáveis.\n\n**Teoria X e Y — McGregor**\n- **X**: as pessoas não gostam de trabalhar e precisam ser controladas.\n- **Y**: as pessoas são criativas e buscam responsabilidade.\n\n### Teorias de processo (como se motiva)\n**Expectativa — Vroom**: Motivação = **Expectância × Instrumentalidade × Valência**.\n- **Expectância**: \"se eu me esforçar, consigo o desempenho?\"\n- **Instrumentalidade**: \"se eu desempenhar bem, recebo a recompensa?\"\n- **Valência**: \"essa recompensa tem valor para mim?\"\n- Se qualquer um for zero, a motivação é zero.\n\n**Equidade — Adams**: a pessoa compara a relação entre suas **contribuições e recompensas** com a de outros. Percebendo **injustiça**, reduz o esforço, pede aumento, distorce a percepção ou sai.\n- **Justiça organizacional**: **distributiva** (resultados), **procedimental** (processos) e **interacional** (tratamento).\n\n**Fixação de metas — Locke**: metas **específicas e difíceis**, mas aceitas, com ***feedback***, geram melhor desempenho do que \"faça o melhor possível\".\n\n**Reforço — Skinner**: o comportamento é função de suas **consequências**.\n- **Reforço positivo**: dar algo bom.\n- **Reforço negativo**: retirar algo ruim.\n- **Punição**: aplicar algo ruim.\n- **Extinção**: deixar de reforçar.\n\n**Autoeficácia — Bandura**: crença na própria capacidade de realizar a tarefa.\n\n**Autodeterminação — Deci e Ryan**: necessidades de **autonomia, competência e vínculo**; recompensas externas podem minar a motivação intrínseca.\n\n### Desenho do trabalho\n**Modelo das características do trabalho (Hackman e Oldham)**: **variedade de habilidades**, **identidade da tarefa**, **significado da tarefa**, **autonomia** e ***feedback***.\n- **Rotação de cargos**, **ampliação** (mais tarefas do mesmo nível, horizontal) e **enriquecimento** (mais responsabilidade, vertical).\n- Horário flexível, teletrabalho e semana comprimida.\n\n### Recompensas\nRemuneração variável, participação nos lucros, reconhecimento e benefícios flexíveis.",
+      "revisao": "**Lembre:**\n- Maslow: fisiológicas, segurança, sociais, estima e autorrealização.\n- Herzberg: higiênicos evitam insatisfação; motivacionais geram satisfação.\n- McClelland: realização, poder e afiliação.\n- Vroom: expectância × instrumentalidade × valência.\n- Adams: comparação com os outros; Locke: metas específicas e difíceis."
+    },
+    {
+      "id": "grupos",
+      "nome": "Grupos e equipes",
+      "resumo": "### Grupo\nDois ou mais indivíduos, **interdependentes e interativos**, que se juntam para atingir objetivos.\n- **Formais**: definidos pela estrutura (de comando, de tarefa).\n- **Informais**: surgem espontaneamente (de interesse, de amizade).\n\n### Estágios de desenvolvimento (Tuckman)\n**Formação**, **tormenta (conflito)**, **normatização**, **desempenho** e **interrupção (dissolução)**.\n\n### Propriedades dos grupos\n- **Papéis**: padrões de comportamento esperados. **Conflito de papéis**: expectativas incompatíveis.\n- **Normas**: padrões aceitáveis de comportamento compartilhados. Os **estudos de Hawthorne** (Elton Mayo) mostraram a força das normas e dos grupos informais sobre a produtividade.\n- **Conformidade**: ajustar o comportamento para se alinhar ao grupo (experimento de **Asch**).\n- **Status**: posição social atribuída.\n- **Tamanho**: grupos menores são mais rápidos; maiores, melhores para colher informações.\n  - **Folga social (*social loafing*)**: a tendência de a pessoa **se esforçar menos** quando trabalha em grupo do que sozinha.\n- **Coesão**: grau de atração entre os membros. Alta coesão com **normas de alto desempenho** gera alta produtividade; com normas de baixo desempenho, baixa produtividade.\n\n### Decisão em grupo\n- **Vantagens**: mais informação, diversidade de visões, maior aceitação.\n- **Desvantagens**: demora, pressão por conformidade, domínio de poucos.\n- **Pensamento de grupo (*groupthink*)**: a busca de **consenso** suprime a avaliação crítica de alternativas.\n- **Polarização (mudança de posição)**: o grupo tende a decisões mais **extremas** que as individuais.\n- Técnicas: ***brainstorming***, **técnica de grupo nominal** e **reunião eletrônica**.\n\n### Grupo x equipe\n- **Grupo de trabalho**: compartilha informações; responsabilidade **individual**; desempenho é a **soma** das contribuições.\n- **Equipe**: gera **sinergia positiva**; responsabilidade **individual e mútua**; habilidades **complementares**; resultado maior que a soma.\n\n### Tipos de equipe\n- **De solução de problemas**: discutem melhorias (círculos de qualidade).\n- **Autogerenciadas**: assumem responsabilidades que eram do supervisor.\n- **Multifuncionais**: pessoas de áreas diferentes, mesmo nível.\n- **Virtuais**: usam tecnologia para unir membros dispersos.\n\n### Equipes eficazes\n- **Contexto**: recursos, liderança, clima de confiança e sistema de recompensas.\n- **Composição**: habilidades, personalidade, diversidade, tamanho (de 5 a 9, em geral).\n- **Papéis de equipe (Belbin)**: implementador, coordenador, formatador, criativo (semeador), investigador de recursos, monitor-avaliador, trabalhador de equipe, finalizador e especialista.\n- **Processo**: propósito comum, metas específicas, **eficácia** da equipe e níveis administráveis de conflito.\n\n### Comunicação\n- **Funções**: controle, motivação, expressão emocional e informação.\n- **Direções**: **descendente**, **ascendente** e **lateral**.\n- **Redes formais**: cadeia, roda e todos os canais. **Rede informal** (rádio-corredor, *grapevine*): rápida e não controlada pela direção.\n- **Barreiras**: **filtragem**, percepção seletiva, **sobrecarga de informação**, emoções, linguagem e medo de se comunicar.\n- **Escuta ativa** e *feedback*.\n- **Comunicação não verbal**: gestos, expressão facial, tom de voz e distância.\n- **Riqueza do canal**: conversa face a face é o canal mais rico; relatórios formais, os mais pobres.",
+      "revisao": "**Lembre:**\n- Grupo soma esforços; equipe gera sinergia.\n- Folga social: menos esforço individual no grupo.\n- Pensamento de grupo: consenso sufoca a crítica.\n- Coesão alta só ajuda se as normas forem de alto desempenho.\n- Hawthorne: grupos informais influenciam a produtividade."
+    },
+    {
+      "id": "lideranca",
+      "nome": "Liderança e poder",
+      "resumo": "### Liderança\nCapacidade de **influenciar** um grupo para alcançar metas.\n- **Gerente x líder**: o gerente lida com a **complexidade** (planeja, organiza, controla) usando a autoridade formal; o líder lida com a **mudança** (visão, inspiração).\n\n### Teoria dos traços\nBusca características pessoais dos líderes (carisma, inteligência, autoconfiança). Explica melhor **quem emerge** como líder do que quem é eficaz.\n\n### Teorias comportamentais\n- **Estilos de Kurt Lewin**: **autocrático** (decide sozinho), **democrático** (participativo) e **liberal** (*laissez-faire*, deixa o grupo livre).\n- **Estudos de Ohio**: **estrutura de iniciação** (tarefa) e **consideração** (pessoas).\n- **Estudos de Michigan**: orientação para a **produção** x para o **funcionário**.\n- **Grade gerencial (Blake e Mouton)**: preocupação com **pessoas** e com **produção**; estilos 1.1 (empobrecido), 9.1 (autoridade), 1.9 (clube de campo), 5.5 (meio-termo) e **9.9 (equipe)**, o ideal.\n\n### Teorias contingenciais (situacionais)\n- **Modelo de Fiedler**: o desempenho depende do **ajuste** entre o estilo do líder (medido pelo questionário LPC) e o **controle da situação** (relação líder-liderados, estrutura da tarefa e poder de posição). O estilo é **fixo**: muda-se a situação ou o líder.\n- **Liderança situacional (Hersey e Blanchard)**: o estilo depende da **maturidade (prontidão)** dos liderados:\n  - **Determinar (dirigir)**: baixa maturidade.\n  - **Persuadir (orientar)**.\n  - **Compartilhar (apoiar)**.\n  - **Delegar**: alta maturidade.\n- **Caminho-meta (House)**: o líder ajuda a remover obstáculos; estilos **diretivo**, **apoiador**, **participativo** e **orientado para a conquista**.\n- **Continuum de Tannenbaum e Schmidt**: do líder centrado no chefe ao centrado nos subordinados.\n\n### Abordagens contemporâneas\n- **Liderança carismática**: visão, risco pessoal, sensibilidade aos seguidores e comportamento fora do comum.\n- **Transacional**: baseada em **trocas**: recompensa por desempenho e correção de desvios (administração por exceção).\n- **Transformacional**: **inspira** os seguidores a transcender interesses próprios; influência idealizada, motivação inspiracional, estímulo intelectual e consideração individualizada. Complementa a transacional.\n- **Autêntica**: age conforme seus valores; gera confiança.\n- **Servidora**: põe as necessidades dos liderados em primeiro lugar.\n- **Troca líder-membro (LMX)**: o líder forma um **grupo de dentro** (confiança, mais atenção) e um **de fora**.\n- **Liderança de equipe**, *coaching* e **mentoria**.\n\n### Poder\nCapacidade de A influenciar o comportamento de B. Depende da **dependência** de B em relação a A.\n\n**Bases do poder (French e Raven)**\n- **Poder formal (de posição)**:\n  - **Coercitivo**: baseado no medo de punição.\n  - **De recompensa**: capacidade de dar benefícios.\n  - **Legítimo**: decorre do cargo.\n- **Poder pessoal**:\n  - **De especialista (competência)**: conhecimento.\n  - **De referência**: admiração e identificação.\n- O poder **pessoal** é mais eficaz e gera mais satisfação e comprometimento.\n\n### Autoridade\nDireito formal de dar ordens, ligado ao **cargo**. Poder é mais amplo: pode existir sem autoridade.\n- **Tipos de dominação (Weber)**: **tradicional**, **carismática** e **racional-legal** (burocrática).\n\n### Política organizacional\nAtividades não exigidas pelo cargo, usadas para influenciar a distribuição de vantagens. **Gestão de impressões**: tentar controlar a imagem que os outros formam.\n- ***Empowerment***: dar poder e autonomia aos funcionários.\n- **Assédio moral e sexual**: abuso de poder.\n\n### Confiança\nBaseada em **integridade**, **competência** e **benevolência**.",
+      "revisao": "**Lembre:**\n- Lewin: autocrático, democrático e liberal.\n- Grade gerencial: 9.9 é o estilo de equipe.\n- Hersey e Blanchard: estilo conforme a maturidade do liderado.\n- Transacional troca; transformacional inspira.\n- Poder: coercitivo, de recompensa, legítimo, de especialista e de referência."
+    },
+    {
+      "id": "conflito",
+      "nome": "Conflito, negociação e estresse",
+      "resumo": "### Conflito\nProcesso que começa quando uma parte **percebe** que a outra afeta, ou pode afetar, negativamente algo que considera importante.\n\n### Visões do conflito\n- **Tradicional**: todo conflito é **ruim** e deve ser evitado.\n- **Das relações humanas**: o conflito é **natural** e inevitável.\n- **Interacionista**: um nível **moderado** de conflito é **necessário** para o bom desempenho; grupos muito harmoniosos tendem à apatia.\n\n### Tipos\n- **Funcional (construtivo)**: apoia os objetivos do grupo.\n- **Disfuncional (destrutivo)**: atrapalha o desempenho.\n- **De tarefa** (conteúdo e metas), **de relacionamento** (interpessoal; quase sempre disfuncional) e **de processo** (como o trabalho é feito).\n- Níveis: intrapessoal, interpessoal, intragrupal e intergrupal.\n\n### Processo do conflito\n1. **Oposição potencial** (condições: comunicação, estrutura e variáveis pessoais).\n2. **Cognição e personalização** (percebido e sentido).\n3. **Intenções**.\n4. **Comportamento**.\n5. **Consequências**.\n\n### Estilos de administração (Thomas e Kilmann)\nCombinam **assertividade** (satisfazer os próprios interesses) e **cooperação** (satisfazer os do outro):\n- **Competição**: assertivo e não cooperativo (ganha-perde).\n- **Colaboração**: assertivo e cooperativo (ganha-ganha).\n- **Evitamento (abstenção)**: nem assertivo nem cooperativo.\n- **Acomodação**: não assertivo e cooperativo (cede).\n- **Compromisso (concessão)**: meio-termo; cada um abre mão de algo.\n\n### Negociação\nProcesso em que duas ou mais partes trocam bens ou serviços e buscam um acordo.\n- **Distributiva**: divide um \"bolo\" **fixo**; ganha-perde; cada parte tem um **ponto-alvo** e um **ponto de resistência**.\n- **Integrativa**: busca **ampliar o bolo**; ganha-ganha; exige abertura, confiança e foco nos **interesses**, não nas posições.\n- **MAPAN (BATNA)**: melhor alternativa para um acordo negociado; quem tem a melhor alternativa negocia com mais força.\n- **ZOPA**: zona de possível acordo.\n- **Método de Harvard**: separar as pessoas do problema; concentrar-se nos interesses; criar opções de ganho mútuo; usar critérios objetivos.\n- **Terceiros**: **mediador** (facilita), **árbitro** (decide), **conciliador** e consultor.\n\n### Estresse\nCondição dinâmica em que a pessoa enfrenta uma **oportunidade, exigência ou recurso** cujo resultado é percebido como importante e incerto.\n- ***Eustress*** (positivo, estimulante) x ***distress*** (negativo).\n- Relação em **U invertido** com o desempenho: níveis moderados ajudam; altos e prolongados prejudicam.\n- **Fontes**: ambientais (incerteza econômica), **organizacionais** (sobrecarga, ambiguidade e conflito de papéis, chefia, pressão) e individuais (família, finanças, personalidade tipo A).\n- **Sintomas**: **fisiológicos** (pressão alta, dores), **psicológicos** (ansiedade, insatisfação) e **comportamentais** (queda de produtividade, faltas, rotatividade).\n- ***Burnout***: esgotamento emocional, despersonalização (cinismo) e baixa realização profissional; ligado ao estresse crônico no trabalho.\n- **Gestão**: individual (administração do tempo, exercício físico, apoio social) e organizacional (redesenho de cargos, metas realistas, comunicação, programas de bem-estar).\n\n### Qualidade de vida no trabalho (QVT)\n- **Modelo de Walton**: compensação justa, condições de trabalho, uso das capacidades, oportunidade de crescimento, integração social, constitucionalismo (direitos), equilíbrio entre trabalho e vida e relevância social.\n- **Equilíbrio trabalho-vida** e saúde mental.",
+      "revisao": "**Lembre:**\n- Visão interacionista: conflito moderado é necessário.\n- Conflito de relacionamento quase sempre é disfuncional.\n- Cinco estilos: competição, colaboração, evitamento, acomodação e compromisso.\n- Distributiva: ganha-perde; integrativa: ganha-ganha.\n- Burnout: exaustão, cinismo e baixa realização."
+    },
+    {
+      "id": "organizacao",
+      "nome": "Cultura, estrutura e mudança",
+      "resumo": "### Cultura organizacional\nSistema de **valores compartilhados** pelos membros que diferencia uma organização das outras.\n- **Níveis (Edgar Schein)**:\n  1. **Artefatos**: o visível (layout, roupas, rituais, linguagem).\n  2. **Valores compartilhados**: o que se declara importante.\n  3. **Pressupostos básicos**: crenças inconscientes, tidas como certas; o nível mais profundo.\n- **Elementos**: histórias, **rituais e cerimônias**, símbolos, linguagem, heróis e tabus.\n- **Cultura dominante** x **subculturas**.\n- **Cultura forte**: valores intensamente compartilhados; reduz a rotatividade, mas pode ser **barreira à mudança** e à diversidade.\n- **Funções**: define fronteiras, dá identidade, gera comprometimento e orienta o comportamento.\n- **Como se mantém**: seleção, ações dos dirigentes e **socialização** (pré-chegada, encontro e metamorfose).\n- **Hofstede**: dimensões das culturas nacionais — distância do poder, individualismo x coletivismo, masculinidade x feminilidade, aversão à incerteza e orientação de longo prazo.\n\n### Clima organizacional\n**Percepção** compartilhada dos funcionários sobre o ambiente de trabalho. É mais **superficial e temporário** que a cultura, medido por **pesquisa de clima**.\n\n### Estrutura organizacional\nComo as tarefas são formalmente **divididas, agrupadas e coordenadas**. Seis elementos:\n- **Especialização** do trabalho.\n- **Departamentalização**: funcional, por produto, geográfica, por cliente e por processo.\n- **Cadeia de comando**: autoridade e unidade de comando.\n- **Amplitude de controle**: número de subordinados por chefe.\n- **Centralização x descentralização** das decisões.\n- **Formalização**: grau de padronização.\n\n### Modelos de estrutura\n- **Simples**: pouca departamentalização, autoridade centralizada.\n- **Burocracia**: tarefas rotineiras, regras formais.\n- **Matricial**: duas linhas de autoridade (funcional e por projeto).\n- **Em equipes**, **virtual (em rede)** e **sem fronteiras**.\n- **Mecanicista** (rígida, centralizada; ambientes **estáveis**) x **orgânica** (flexível, descentralizada; ambientes **dinâmicos**) — Burns e Stalker.\n- A estrutura depende da **estratégia**, do **tamanho**, da **tecnologia** e do **ambiente**.\n\n### Mudança organizacional\n- **Forças**: tecnologia, concorrência, economia, mudanças sociais e na força de trabalho.\n- **Mudança planejada** x reativa.\n\n**Resistência à mudança**\n- **Individual**: hábito, segurança, fatores econômicos, **medo do desconhecido** e percepção seletiva.\n- **Organizacional**: inércia estrutural, ameaça às relações de poder e à especialização.\n- **Como reduzir**: **comunicação**, **participação**, apoio, negociação e, em último caso, coerção.\n\n**Modelo de Kurt Lewin**\n1. **Descongelamento**: reduzir as forças que mantêm o *status quo*.\n2. **Mudança (movimento)**.\n3. **Recongelamento**: estabilizar o novo estado.\n- **Análise do campo de forças**: forças **impulsionadoras** x **restritivas**.\n\n**Oito passos de Kotter**: criar senso de **urgência**; formar uma coalizão; desenvolver a visão; comunicá-la; remover obstáculos (*empowerment*); gerar **vitórias de curto prazo**; consolidar ganhos; ancorar as mudanças na cultura.\n\n### Desenvolvimento organizacional (DO)\nMudança planejada baseada em valores humanistas e democráticos: treinamento de sensibilidade, pesquisa de *feedback*, consultoria de processo, construção de equipes e **investigação apreciativa**.\n\n### Organizações que aprendem (Senge)\nCinco disciplinas: **domínio pessoal**, **modelos mentais**, **visão compartilhada**, **aprendizagem em equipe** e **pensamento sistêmico**.\n\n### Temas atuais\nDiversidade e inclusão, ética, trabalho remoto e híbrido, inovação e responsabilidade social.",
+      "revisao": "**Lembre:**\n- Schein: artefatos, valores e pressupostos básicos.\n- Cultura é profunda e duradoura; clima é percepção do momento.\n- Mecanicista: ambiente estável; orgânica: ambiente dinâmico.\n- Lewin: descongelar, mudar e recongelar.\n- Resistência cai com comunicação e participação."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "comportamento-organizacional-1",
+      "topico": "individuo",
+      "nivel": "conceitual",
+      "pergunta": "O comportamento organizacional estuda o comportamento humano em três níveis:",
+      "opcoes": [
+        "Individual, grupal e organizacional",
+        "Local, nacional e global",
+        "Operacional, tático e estratégico",
+        "Passado, presente e futuro"
+      ],
+      "correta": 0,
+      "explicacao": "Cada nível acrescenta variáveis próprias à análise do comportamento no trabalho."
+    },
+    {
+      "id": "comportamento-organizacional-2",
+      "topico": "individuo",
+      "nivel": "conceitual",
+      "pergunta": "No modelo Big Five, o traço mais associado ao bom desempenho no trabalho em geral é a:",
+      "opcoes": [
+        "Extroversão",
+        "Conscienciosidade",
+        "Abertura à experiência",
+        "Amabilidade"
+      ],
+      "correta": 1,
+      "explicacao": "Ela reúne responsabilidade, organização e persistência."
+    },
+    {
+      "id": "comportamento-organizacional-3",
+      "topico": "individuo",
+      "nivel": "conceitual",
+      "pergunta": "Quando uma única característica positiva de alguém contamina toda a avaliação sobre a pessoa, ocorre o:",
+      "opcoes": [
+        "Efeito de contraste",
+        "Erro de projeção",
+        "Efeito halo",
+        "Lócus de controle"
+      ],
+      "correta": 2,
+      "explicacao": "É uma das distorções mais comuns em entrevistas e avaliações de desempenho."
+    },
+    {
+      "id": "comportamento-organizacional-4",
+      "topico": "individuo",
+      "nivel": "aplicacao",
+      "pergunta": "Um funcionário diz: 'Só continuo nesta empresa porque não acharia outro emprego com este salário'. Seu comprometimento é do tipo:",
+      "opcoes": [
+        "Afetivo",
+        "Normativo",
+        "Inexistente",
+        "Instrumental (de continuação)"
+      ],
+      "correta": 3,
+      "explicacao": "Ele permanece por necessidade, pesando os custos de sair."
+    },
+    {
+      "id": "comportamento-organizacional-5",
+      "topico": "individuo",
+      "nivel": "analise",
+      "pergunta": "Por que o erro fundamental de atribuição pode prejudicar a avaliação que um gestor faz de sua equipe?",
+      "opcoes": [
+        "Porque leva a culpar a pessoa por falhas que podem ter causas externas, como falta de recursos",
+        "Porque faz o gestor ignorar a personalidade dos funcionários",
+        "Porque elimina a subjetividade da avaliação",
+        "Porque torna todos os funcionários iguais"
+      ],
+      "correta": 0,
+      "explicacao": "O gestor superestima causas internas e subestima a situação."
+    },
+    {
+      "id": "comportamento-organizacional-6",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Na hierarquia de Maslow, a necessidade situada no topo é a de:",
+      "opcoes": [
+        "Segurança",
+        "Autorrealização",
+        "Estima",
+        "Fisiológica"
+      ],
+      "correta": 1,
+      "explicacao": "Ela corresponde ao desenvolvimento pleno do próprio potencial."
+    },
+    {
+      "id": "comportamento-organizacional-7",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Para Herzberg, o salário e as condições de trabalho são fatores:",
+      "opcoes": [
+        "Motivacionais, que geram satisfação",
+        "Irrelevantes para o trabalhador",
+        "Higiênicos, que apenas evitam a insatisfação",
+        "De autorrealização"
+      ],
+      "correta": 2,
+      "explicacao": "A satisfação vem de fatores ligados ao conteúdo do trabalho, como reconhecimento e responsabilidade."
+    },
+    {
+      "id": "comportamento-organizacional-8",
+      "topico": "motivacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a teoria da fixação de metas de Locke, geram melhor desempenho as metas:",
+      "opcoes": [
+        "Vagas e fáceis",
+        "Impossíveis de atingir",
+        "Definidas apenas como 'faça o melhor'",
+        "Específicas e difíceis, acompanhadas de feedback"
+      ],
+      "correta": 3,
+      "explicacao": "As metas precisam ser aceitas pelo funcionário para produzir esse efeito."
+    },
+    {
+      "id": "comportamento-organizacional-9",
+      "topico": "motivacao",
+      "nivel": "aplicacao",
+      "pergunta": "Júlia descobre que um colega com a mesma função e desempenho ganha mais do que ela, e passa a se esforçar menos. A teoria que explica isso é a da:",
+      "opcoes": [
+        "Equidade, de Adams",
+        "Hierarquia das necessidades, de Maslow",
+        "Dois fatores, de Herzberg",
+        "Teoria X, de McGregor"
+      ],
+      "correta": 0,
+      "explicacao": "As pessoas comparam sua relação entre esforço e recompensa com a dos outros."
+    },
+    {
+      "id": "comportamento-organizacional-10",
+      "topico": "motivacao",
+      "nivel": "analise",
+      "pergunta": "Na teoria da expectativa de Vroom, por que um prêmio valioso pode não motivar um funcionário?",
+      "opcoes": [
+        "Porque prêmios nunca motivam",
+        "Porque, se ele não acredita que conseguirá o desempenho exigido, a motivação cai a zero",
+        "Porque a valência é irrelevante",
+        "Porque a motivação depende apenas do salário fixo"
+      ],
+      "correta": 1,
+      "explicacao": "A motivação é o produto de expectância, instrumentalidade e valência."
+    },
+    {
+      "id": "comportamento-organizacional-11",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "A tendência de as pessoas se esforçarem menos quando trabalham em grupo é chamada de:",
+      "opcoes": [
+        "Pensamento de grupo",
+        "Polarização",
+        "Folga social",
+        "Sinergia"
+      ],
+      "correta": 2,
+      "explicacao": "Ela ocorre quando a contribuição individual não é identificável."
+    },
+    {
+      "id": "comportamento-organizacional-12",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "O que distingue uma equipe de um grupo de trabalho é:",
+      "opcoes": [
+        "O maior número de membros",
+        "A ausência de objetivos",
+        "A responsabilidade apenas individual",
+        "A sinergia positiva e a responsabilidade mútua"
+      ],
+      "correta": 3,
+      "explicacao": "Na equipe, o resultado coletivo supera a soma das contribuições individuais."
+    },
+    {
+      "id": "comportamento-organizacional-13",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "O fenômeno em que a busca de consenso impede a avaliação crítica das alternativas é o:",
+      "opcoes": [
+        "Pensamento de grupo (groupthink)",
+        "Brainstorming",
+        "Conflito funcional",
+        "Efeito Pigmalião"
+      ],
+      "correta": 0,
+      "explicacao": "Ele é mais comum em grupos muito coesos e isolados de opiniões externas."
+    },
+    {
+      "id": "comportamento-organizacional-14",
+      "topico": "grupos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa reúne pessoas de marketing, engenharia e finanças, do mesmo nível hierárquico, para desenvolver um produto. Trata-se de uma equipe:",
+      "opcoes": [
+        "Autogerenciada",
+        "Multifuncional",
+        "Virtual",
+        "De comando"
+      ],
+      "correta": 1,
+      "explicacao": "A diversidade de especialidades favorece a troca de informações entre áreas."
+    },
+    {
+      "id": "comportamento-organizacional-15",
+      "topico": "grupos",
+      "nivel": "analise",
+      "pergunta": "Por que um grupo muito coeso pode ter baixa produtividade?",
+      "opcoes": [
+        "Porque a coesão sempre reduz a produtividade",
+        "Porque grupos coesos não têm normas",
+        "Porque, se suas normas forem de baixo desempenho, a coesão reforça esse padrão",
+        "Porque a coesão elimina a comunicação"
+      ],
+      "correta": 2,
+      "explicacao": "A coesão amplia o efeito das normas, sejam elas boas ou ruins."
+    },
+    {
+      "id": "comportamento-organizacional-16",
+      "topico": "lideranca",
+      "nivel": "conceitual",
+      "pergunta": "O líder que decide sozinho e determina as tarefas sem consultar o grupo adota o estilo:",
+      "opcoes": [
+        "Democrático",
+        "Liberal",
+        "Servidor",
+        "Autocrático"
+      ],
+      "correta": 3,
+      "explicacao": "É um dos três estilos estudados por Kurt Lewin."
+    },
+    {
+      "id": "comportamento-organizacional-17",
+      "topico": "lideranca",
+      "nivel": "conceitual",
+      "pergunta": "Na liderança situacional de Hersey e Blanchard, o estilo do líder deve variar conforme:",
+      "opcoes": [
+        "A maturidade dos liderados",
+        "O tamanho da empresa",
+        "A idade do líder",
+        "O salário da equipe"
+      ],
+      "correta": 0,
+      "explicacao": "Liderados pouco maduros pedem direção; os muito maduros permitem delegar."
+    },
+    {
+      "id": "comportamento-organizacional-18",
+      "topico": "lideranca",
+      "nivel": "conceitual",
+      "pergunta": "O poder baseado no conhecimento e na competência técnica de quem o exerce é o poder:",
+      "opcoes": [
+        "Coercitivo",
+        "De especialista",
+        "Legítimo",
+        "De recompensa"
+      ],
+      "correta": 1,
+      "explicacao": "É uma forma de poder pessoal, que não depende do cargo ocupado."
+    },
+    {
+      "id": "comportamento-organizacional-19",
+      "topico": "lideranca",
+      "nivel": "aplicacao",
+      "pergunta": "Uma diretora inspira a equipe com uma visão de futuro, estimula novas ideias e dá atenção a cada pessoa. Seu estilo é:",
+      "opcoes": [
+        "Transacional",
+        "Autocrático",
+        "Transformacional",
+        "Liberal"
+      ],
+      "correta": 2,
+      "explicacao": "A liderança transacional, em contraste, se baseia em trocas de recompensa por desempenho."
+    },
+    {
+      "id": "comportamento-organizacional-20",
+      "topico": "lideranca",
+      "nivel": "analise",
+      "pergunta": "Por que o poder pessoal tende a ser mais eficaz do que o poder formal?",
+      "opcoes": [
+        "Porque dispensa qualquer relação com os liderados",
+        "Porque se baseia em punições",
+        "Porque só existe em cargos altos",
+        "Porque gera comprometimento, enquanto o formal costuma gerar apenas obediência"
+      ],
+      "correta": 3,
+      "explicacao": "Admiração e reconhecimento da competência levam as pessoas a seguir por vontade própria."
+    },
+    {
+      "id": "comportamento-organizacional-21",
+      "topico": "conflito",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a visão interacionista, o conflito nas organizações:",
+      "opcoes": [
+        "É necessário em nível moderado para o bom desempenho",
+        "Deve ser sempre eliminado",
+        "Nunca afeta o desempenho",
+        "Só existe entre chefes"
+      ],
+      "correta": 0,
+      "explicacao": "Grupos sem nenhum conflito tendem à acomodação e à falta de inovação."
+    },
+    {
+      "id": "comportamento-organizacional-22",
+      "topico": "conflito",
+      "nivel": "conceitual",
+      "pergunta": "O estilo de administração de conflitos que é assertivo e cooperativo ao mesmo tempo é a:",
+      "opcoes": [
+        "Competição",
+        "Colaboração",
+        "Acomodação",
+        "Abstenção"
+      ],
+      "correta": 1,
+      "explicacao": "Busca-se uma solução que atenda plenamente aos interesses das duas partes."
+    },
+    {
+      "id": "comportamento-organizacional-23",
+      "topico": "conflito",
+      "nivel": "conceitual",
+      "pergunta": "A síndrome de burnout é caracterizada por:",
+      "opcoes": [
+        "Excesso de motivação",
+        "Alta satisfação com o trabalho",
+        "Exaustão emocional, cinismo e baixa realização profissional",
+        "Aumento da produtividade"
+      ],
+      "correta": 2,
+      "explicacao": "Ela resulta do estresse crônico relacionado ao trabalho."
+    },
+    {
+      "id": "comportamento-organizacional-24",
+      "topico": "conflito",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma negociação salarial, as partes disputam um valor fixo: o que um ganha, o outro perde. A negociação é:",
+      "opcoes": [
+        "Integrativa",
+        "Colaborativa",
+        "Mediada",
+        "Distributiva"
+      ],
+      "correta": 3,
+      "explicacao": "A negociação integrativa, ao contrário, procura ampliar os ganhos para ambos."
+    },
+    {
+      "id": "comportamento-organizacional-25",
+      "topico": "conflito",
+      "nivel": "analise",
+      "pergunta": "Por que o conflito de relacionamento costuma ser disfuncional, ao contrário do conflito de tarefa?",
+      "opcoes": [
+        "Porque as hostilidades pessoais desviam energia do trabalho e prejudicam a cooperação",
+        "Porque melhora a qualidade das decisões",
+        "Porque estimula a criatividade",
+        "Porque não envolve emoções"
+      ],
+      "correta": 0,
+      "explicacao": "Divergências moderadas sobre a tarefa podem enriquecer a discussão; ataques pessoais não."
+    },
+    {
+      "id": "comportamento-organizacional-26",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Schein, o nível mais profundo da cultura organizacional é formado por:",
+      "opcoes": [
+        "Artefatos visíveis",
+        "Pressupostos básicos",
+        "Organogramas",
+        "Slogans"
+      ],
+      "correta": 1,
+      "explicacao": "São crenças inconscientes que orientam o comportamento sem serem questionadas."
+    },
+    {
+      "id": "comportamento-organizacional-27",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "O modelo de mudança de Kurt Lewin tem três etapas:",
+      "opcoes": [
+        "Planejar, fazer e checar",
+        "Formação, conflito e desempenho",
+        "Descongelamento, mudança e recongelamento",
+        "Diagnóstico, demissão e contratação"
+      ],
+      "correta": 2,
+      "explicacao": "O recongelamento estabiliza a nova situação para que a mudança se mantenha."
+    },
+    {
+      "id": "comportamento-organizacional-28",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "A estrutura orgânica é mais adequada a ambientes:",
+      "opcoes": [
+        "Estáveis e previsíveis",
+        "Sem concorrência",
+        "Altamente regulados e rotineiros",
+        "Dinâmicos e incertos"
+      ],
+      "correta": 3,
+      "explicacao": "Ela é flexível, descentralizada e com pouca formalização."
+    },
+    {
+      "id": "comportamento-organizacional-29",
+      "topico": "organizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa vai implantar um novo sistema e teme a resistência dos funcionários. A medida mais recomendada é:",
+      "opcoes": [
+        "Comunicar os motivos e envolver as pessoas na implantação",
+        "Impor o sistema sem explicações",
+        "Esconder a mudança até o último dia",
+        "Demitir quem fizer perguntas"
+      ],
+      "correta": 0,
+      "explicacao": "A participação reduz o medo do desconhecido e aumenta o comprometimento."
+    },
+    {
+      "id": "comportamento-organizacional-30",
+      "topico": "organizacao",
+      "nivel": "analise",
+      "pergunta": "Por que uma cultura organizacional forte pode se tornar um problema?",
+      "opcoes": [
+        "Porque aumenta a rotatividade",
+        "Porque pode dificultar mudanças e a aceitação da diversidade",
+        "Porque elimina a identidade dos funcionários",
+        "Porque impede qualquer coordenação"
+      ],
+      "correta": 1,
+      "explicacao": "Valores muito arraigados ajudam em ambientes estáveis, mas resistem à adaptação."
+    }
+  ]
+}
