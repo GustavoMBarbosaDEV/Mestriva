@@ -388,6 +388,52 @@
       ]
     },
     {
+      "id": "avaliacao-psicologica",
+      "nome": "Avaliação Psicológica",
+      "apelidos": [
+        "Avaliação Psicológica I",
+        "Avaliação Psicológica II",
+        "Avaliação Psicológica III",
+        "Técnicas de Avaliação Psicológica",
+        "Técnicas de Exame Psicológico",
+        "Técnicas de Exame Psicológico I",
+        "Psicometria",
+        "Psicodiagnóstico",
+        "Testes Psicológicos",
+        "Fundamentos da Avaliação Psicológica",
+        "Técnicas Projetivas",
+        "Entrevista Psicológica",
+        "Medidas em Psicologia"
+      ],
+      "area": "Humanas",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos da avaliação psicológica"
+        },
+        {
+          "id": "psicometria",
+          "nome": "Psicometria: validade, precisão e normas"
+        },
+        {
+          "id": "instrumentos",
+          "nome": "Entrevista, observação e tipos de teste"
+        },
+        {
+          "id": "etica",
+          "nome": "Ética e normas do Conselho Federal de Psicologia"
+        },
+        {
+          "id": "documentos",
+          "nome": "Documentos psicológicos"
+        },
+        {
+          "id": "psicodiagnostico",
+          "nome": "Psicodiagnóstico e avaliação por contexto"
+        }
+      ]
+    },
+    {
       "id": "banco-de-dados",
       "nome": "Banco de Dados",
       "apelidos": [
@@ -3693,6 +3739,93 @@
         {
           "id": "dificuldades",
           "nome": "Dificuldades de aprendizagem e inclusão"
+        }
+      ]
+    },
+    {
+      "id": "psicologia-organizacional",
+      "nome": "Psicologia Organizacional e do Trabalho",
+      "apelidos": [
+        "Psicologia Organizacional",
+        "Psicologia do Trabalho",
+        "Psicologia Organizacional I",
+        "Psicologia Organizacional II",
+        "Psicologia das Organizações",
+        "Psicologia do Trabalho e das Organizações",
+        "Psicologia Aplicada ao Trabalho",
+        "Psicologia Industrial",
+        "Psicologia nas Organizações",
+        "Psicologia e Trabalho"
+      ],
+      "area": "Humanas",
+      "topicos": [
+        {
+          "id": "campo",
+          "nome": "O campo e sua história"
+        },
+        {
+          "id": "selecao",
+          "nome": "Análise do trabalho, recrutamento e seleção"
+        },
+        {
+          "id": "desenvolvimento",
+          "nome": "Treinamento, desenvolvimento e avaliação de desempenho"
+        },
+        {
+          "id": "comportamento",
+          "nome": "Motivação, liderança, clima e cultura"
+        },
+        {
+          "id": "saude",
+          "nome": "Saúde mental e trabalho"
+        },
+        {
+          "id": "atuacao",
+          "nome": "Atuação, ética e temas atuais"
+        }
+      ]
+    },
+    {
+      "id": "psicologia-social",
+      "nome": "Psicologia Social",
+      "apelidos": [
+        "Psicologia Social I",
+        "Psicologia Social II",
+        "Psicologia Social e Comunitária",
+        "Psicologia Comunitária",
+        "Psicologia Social Comunitária",
+        "Introdução à Psicologia Social",
+        "Fundamentos de Psicologia Social",
+        "Processos Grupais",
+        "Psicologia dos Grupos",
+        "Dinâmica de Grupo",
+        "Psicologia Social e das Organizações"
+      ],
+      "area": "Humanas",
+      "topicos": [
+        {
+          "id": "campo",
+          "nome": "O campo da Psicologia Social"
+        },
+        {
+          "id": "cognicao",
+          "nome": "Cognição social e atitudes"
+        },
+        {
+          "id": "influencia",
+          "nome": "Influência social"
+        },
+        {
+          "id": "grupos",
+          "nome": "Grupos, identidade e relações intergrupais"
+        },
+        {
+          "id": "relacoes",
+          "nome": "Agressão, ajuda e atração"
+        },
+        {
+          "id": "representacoes",
+          "nome": "Representações sociais, ideologia e comunidade"
         }
       ]
     },

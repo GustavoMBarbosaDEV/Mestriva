@@ -1,0 +1,465 @@
+{
+  "id": "psicologia-social",
+  "nome": "Psicologia Social",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "campo",
+      "nome": "O campo da Psicologia Social",
+      "resumo": "### Objeto\nEstuda como os **pensamentos, sentimentos e comportamentos** das pessoas são influenciados pela **presença real, imaginada ou implícita** de outras pessoas (Gordon Allport). Fica na fronteira entre a **psicologia** (o indivíduo) e a **sociologia** (a sociedade).\n\n### Duas grandes tradições\n- **Psicologia Social psicológica** (norte-americana): foco no **indivíduo em situação social**; método **experimental**; temas como atitudes, percepção social e influência. Nomes: Kurt Lewin, Festinger, Asch, Milgram.\n- **Psicologia Social sociológica** (europeia e latino-americana): foco nos **processos coletivos**, na cultura e na história; métodos qualitativos. Nomes: Moscovici, Tajfel, Mead.\n\n### Marcos históricos\n- **Wundt**: a \"psicologia dos povos\" (*Völkerpsychologie*), que estudava linguagem, mitos e costumes.\n- **Gustave Le Bon**: psicologia das **multidões**; na massa, o indivíduo perderia a razão.\n- **Triplett** (1898): primeiro experimento, sobre **facilitação social** (ciclistas rendem mais acompanhados).\n- **Kurt Lewin**: considerado o pai da psicologia social moderna; **teoria de campo** (o comportamento é função da pessoa e do ambiente: **C = f(P, A)**), **dinâmica de grupo** e **pesquisa-ação**.\n- **Segunda Guerra Mundial**: impulso aos estudos sobre preconceito, obediência e propaganda.\n\n### A \"crise\" e a Psicologia Social crítica\nNas décadas de 1960 e 1970, critica-se a psicologia social experimental por ser **individualista**, artificial e alheia aos problemas sociais.\n- **Europa**: Moscovici (representações sociais) e Tajfel (identidade social).\n- **América Latina**: uma psicologia comprometida com a **transformação social**.\n  - **Ignacio Martín-Baró**: **psicologia da libertação**; partir da realidade das maiorias populares.\n  - **Silvia Lane**: fundadora da **psicologia sócio-histórica** no Brasil e da **ABRAPSO** (1980); o ser humano como produto e produtor da história.\n  - **Paulo Freire**: conscientização.\n\n### Psicologia sócio-histórica\nBaseada em **Vigotski**, Leontiev e no materialismo histórico-dialético.\n- O psiquismo se constitui nas **relações sociais**, mediadas pela **linguagem**.\n- Categorias centrais: **atividade**, **consciência** e **identidade** (Ciampa: identidade como **metamorfose**).\n\n### Psicologia Social Comunitária\nAtua **com** a comunidade, e não sobre ela, buscando **autonomia**, participação e fortalecimento (*empowerment*). Presente em políticas públicas: **SUAS** (CRAS e CREAS) e **SUS**.\n\n### Métodos\n- **Experimento** (de laboratório e de campo): controla variáveis para testar causa e efeito.\n- **Estudos correlacionais**, levantamentos (*surveys*) e escalas de atitude.\n- **Observação**, entrevista, grupo focal, análise de discurso e **pesquisa-ação / pesquisa participante**.\n- **Ética**: após experimentos como os de Milgram e Zimbardo, tornaram-se obrigatórios o **consentimento livre e esclarecido**, a proteção contra danos e o ***debriefing*** (esclarecimento posterior).\n\n### Níveis de análise (Doise)\n**Intraindividual**, **interindividual**, **posicional** (grupos e status) e **ideológico** (crenças e valores sociais).",
+      "revisao": "**Lembre:**\n- Psicologia social: influência dos outros sobre pensar, sentir e agir.\n- Lewin: comportamento é função da pessoa e do ambiente.\n- Tradição psicológica (experimental) x sociológica (processos coletivos).\n- Silvia Lane e Martín-Baró: psicologia social crítica latino-americana.\n- Comunitária: atua com a comunidade, buscando autonomia."
+    },
+    {
+      "id": "cognicao",
+      "nome": "Cognição social e atitudes",
+      "resumo": "### Cognição social\nComo as pessoas **selecionam, interpretam e lembram** informações sobre si e sobre os outros.\n- **Esquemas**: estruturas mentais que organizam o conhecimento; orientam a atenção e a memória.\n- **Heurísticas**: atalhos mentais rápidos, sujeitos a erro (Kahneman e Tversky).\n  - **Disponibilidade**: julgar pela facilidade de lembrar exemplos.\n  - **Representatividade**: julgar pela semelhança com um protótipo.\n  - **Ancoragem e ajuste**: fixar-se em um valor inicial.\n- **Viés de confirmação**: buscar e valorizar o que confirma o que já se pensa.\n- **Profecia autorrealizadora**: a expectativa sobre alguém leva a agir de modo que ela se confirme (efeito Pigmalião, de Rosenthal).\n\n### Percepção de pessoas\n- **Formação de impressões** (Asch): traços **centrais** (como \"caloroso\" e \"frio\") organizam a impressão global.\n- **Efeito de primazia**: as primeiras informações pesam mais.\n- **Efeito halo**: uma característica influencia a avaliação das demais.\n- **Teorias implícitas da personalidade**: crenças sobre quais traços andam juntos.\n\n### Atribuição de causalidade\nComo explicamos o comportamento.\n- **Heider**: causas **internas** (disposicionais) ou **externas** (situacionais).\n- **Kelley (covariação)**: avalia-se **consenso** (os outros agem igual?), **distintividade** (a pessoa age assim só nessa situação?) e **consistência** (age assim sempre?).\n- **Erro fundamental de atribuição**: superestimar as causas internas e subestimar a situação ao explicar o comportamento **alheio**.\n- **Efeito ator-observador**: explico meu comportamento pela situação e o do outro pela personalidade.\n- **Viés de autosserviço**: sucessos são meus; fracassos, das circunstâncias.\n- **Crença no mundo justo** (Lerner): supor que cada um tem o que merece; leva a **culpar a vítima**.\n\n### Atitudes\nAvaliação relativamente estável, favorável ou desfavorável, de um objeto social. Três componentes:\n- **Cognitivo**: crenças.\n- **Afetivo**: sentimentos.\n- **Comportamental**: tendência a agir.\n- **Funções** (Katz): de conhecimento, instrumental, de defesa do eu e de expressão de valores.\n- **Medida**: escalas de **Likert**, de Thurstone e diferencial semântico; medidas **implícitas** (IAT).\n- **Atitude e comportamento** nem sempre coincidem (estudo de LaPiere). A **teoria do comportamento planejado** (Ajzen) prevê a intenção a partir da atitude, da **norma subjetiva** e do **controle percebido**.\n\n### Dissonância cognitiva (Festinger)\nSustentar cognições **incoerentes** (ou agir contra o que se pensa) gera **desconforto**, que a pessoa tenta reduzir: mudando a atitude, mudando o comportamento ou acrescentando justificativas.\n- Experimento de Festinger e Carlsmith: quem recebeu **1 dólar** para dizer que uma tarefa chata era interessante passou a achá-la mais interessante do que quem recebeu **20** (justificativa insuficiente).\n- **Justificação do esforço**: valorizamos o que nos custou muito.\n\n### Outras teorias\n- **Autopercepção** (Bem): inferimos nossas atitudes observando nosso próprio comportamento.\n- **Equilíbrio** (Heider).\n\n### Persuasão\n- **Modelo de Yale** (Hovland): **quem** (fonte: credibilidade, atratividade) diz **o quê** (mensagem) a **quem** (audiência) por qual **canal**.\n- **Modelo da probabilidade de elaboração** (Petty e Cacioppo):\n  - **Rota central**: a pessoa analisa os argumentos; mudança duradoura.\n  - **Rota periférica**: guia-se por pistas superficiais (aparência, fama da fonte); mudança frágil.\n- **Apelo ao medo**: funciona se vier acompanhado de uma solução viável.\n- **Inoculação** (McGuire): expor a argumentos fracos fortalece a resistência à persuasão.\n- **Reatância** (Brehm): pressão excessiva leva a fazer o contrário, para recuperar a liberdade.\n- Princípios de **Cialdini**: reciprocidade, compromisso e coerência, aprovação social, afeição, autoridade e escassez.\n\n### O eu (*self*)\n- **Autoconceito** e **autoestima**.\n- **Comparação social** (Festinger): avaliamo-nos comparando-nos aos outros.\n- **Automonitoramento** e **gestão de impressões** (Goffman: a vida social como representação teatral).",
+      "revisao": "**Lembre:**\n- Heurísticas: disponibilidade, representatividade e ancoragem.\n- Erro fundamental de atribuição: culpar a pessoa, esquecer a situação.\n- Atitude: cognitivo, afetivo e comportamental.\n- Dissonância (Festinger): incoerência gera desconforto e mudança de atitude.\n- Persuasão: rota central (argumentos) e periférica (pistas)."
+    },
+    {
+      "id": "influencia",
+      "nome": "Influência social",
+      "resumo": "### Conceito\nMudança no comportamento, nas crenças ou nos sentimentos de alguém por efeito de outras pessoas.\n\n### Normas sociais\nRegras, explícitas ou implícitas, sobre o comportamento esperado.\n- **Sherif** e o **efeito autocinético**: em situação **ambígua** (um ponto de luz no escuro parece se mover), as estimativas individuais **convergem** para uma norma de grupo, que se mantém depois.\n\n### Conformidade\nCeder à pressão do grupo, real ou imaginada.\n- **Experimento de Asch**: tarefa simples de comparar linhas; cúmplices davam resposta **claramente errada**. Cerca de **um terço** das respostas dos participantes seguiu o grupo, e a maioria cedeu ao menos uma vez.\n- **Fatores**: a conformidade aumenta com a **unanimidade** e com o tamanho do grupo (até 3 ou 4 pessoas); **cai muito** quando há **um aliado** dissidente; diminui com respostas privadas.\n- **Dois motivos** (Deutsch e Gerard):\n  - **Influência informacional**: acreditar que os outros **sabem mais**; gera **aceitação privada**.\n  - **Influência normativa**: querer ser **aceito** e evitar a rejeição; gera **conformidade pública** sem convicção.\n\n### Tipos de resposta (Kelman)\n- **Complacência (aquiescência)**: cede em público, sem mudar por dentro.\n- **Identificação**: adota para se parecer com alguém admirado.\n- **Internalização**: passa a acreditar de fato.\n\n### Obediência à autoridade\n- **Experimento de Milgram** (1963): o participante (\"professor\") devia aplicar choques crescentes em um \"aluno\" (cúmplice) a cada erro, por ordem do pesquisador. Cerca de **65%** foram até o nível máximo (450 volts). Os choques eram **falsos**.\n- **Fatores que aumentam a obediência**: **proximidade e legitimidade da autoridade**, **distância da vítima**, instituição de prestígio e avanço gradual.\n- **Fatores que reduzem**: presença de **pares que desobedecem**, autoridade distante e contato com a vítima.\n- **Estado agêntico**: a pessoa se vê como **instrumento** da vontade alheia e transfere a responsabilidade.\n- Relaciona-se com a ideia de **banalidade do mal** (Hannah Arendt).\n\n### Experimento da prisão de Stanford (Zimbardo, 1971)\nEstudantes sorteados como \"guardas\" e \"prisioneiros\"; os guardas tornaram-se abusivos, e o estudo foi interrompido em **6 dias**. Sugere a força dos **papéis sociais** e da situação. Hoje é **muito criticado** quanto ao método e à ética.\n\n### Técnicas de obtenção de concordância\n- **Pé na porta**: pedido pequeno primeiro, depois um maior (coerência).\n- **Porta na cara**: pedido exagerado primeiro, recusado; depois o pedido real, que parece razoável (reciprocidade).\n- **Bola baixa** (*low-ball*): fecha-se o acordo e depois se revelam custos adicionais.\n- **\"E não é só isso\"**: acrescentam-se vantagens antes da resposta.\n\n### Influência das minorias (Moscovici)\nUma **minoria consistente**, firme e coerente pode mudar a opinião da maioria. Produz **conversão**: mudança privada e duradoura, base da **inovação social**.\n\n### Presença dos outros\n- **Facilitação social** (Zajonc): a presença de outros **melhora** o desempenho em tarefas **simples ou bem aprendidas** e **piora** em tarefas **complexas**, por elevar a ativação.\n- **Vadiagem social** (*social loafing*): menor esforço individual em tarefas coletivas, quando a contribuição não é identificável (efeito Ringelmann).\n- **Desindividuação**: no anonimato da multidão, enfraquecem-se a autoconsciência e os freios; pode levar a comportamentos impulsivos.\n\n### Decisão em grupo\n- **Polarização de grupo**: a discussão leva a posições mais **extremas** do que as iniciais.\n- **Pensamento de grupo** (Janis): a busca de consenso em grupos coesos suprime a crítica e gera más decisões.",
+      "revisao": "**Lembre:**\n- Sherif: norma surge em situação ambígua.\n- Asch: conformidade mesmo diante do erro evidente; um aliado a reduz.\n- Informacional (eles sabem) x normativa (quero ser aceito).\n- Milgram: cerca de 65% obedeceram até o fim.\n- Minoria consistente pode converter a maioria (Moscovici)."
+    },
+    {
+      "id": "grupos",
+      "nome": "Grupos, identidade e relações intergrupais",
+      "resumo": "### Grupo\nConjunto de pessoas que **interagem**, compartilham **objetivos e normas** e se percebem como um \"nós\".\n- **Primários** (família, amigos: contato íntimo) e **secundários** (trabalho, associações).\n- **Endogrupo** (o grupo a que pertenço) e **exogrupo** (os outros).\n- **Grupo de referência**: aquele cujas normas a pessoa adota, pertença ou não a ele.\n\n### Estrutura e processos\n- **Papéis**, **normas**, **status** e **coesão**.\n- **Liderança**: estudos de **Lewin, Lippitt e White** — **autocrática** (produz, mas gera hostilidade e dependência), **democrática** (melhor clima e qualidade) e ***laissez-faire*** (menor produção e desorganização).\n- **Dinâmica de grupo** (Lewin): o grupo é um todo com forças próprias, diferente da soma dos membros.\n\n### Abordagens de grupo\n- **Grupo operativo** (Pichon-Rivière): o grupo se reúne em torno de uma **tarefa**; conceitos de **ECRO** (esquema conceitual, referencial e operativo), **pré-tarefa, tarefa e projeto**, e papéis como **porta-voz**, **bode expiatório**, **líder de mudança** e **sabotador** (líder de resistência).\n- **Psicodrama e sociometria** (Moreno): o **sociograma** mapeia atrações e rejeições.\n- **Bion**: grupo de trabalho x pressupostos básicos (dependência, luta-fuga e acasalamento).\n- **Processo grupal** (Silvia Lane): o grupo como processo histórico, e não como coisa.\n\n### Identidade social (Tajfel e Turner)\nParte do autoconceito que vem de **pertencer a grupos**. Três processos:\n1. **Categorização social**: dividir o mundo em \"nós\" e \"eles\".\n2. **Identificação**: adotar a identidade do grupo.\n3. **Comparação social**: buscar que o próprio grupo seja visto como **melhor**, para manter a autoestima.\n- **Paradigma do grupo mínimo**: basta dividir pessoas por um critério **arbitrário** para surgir **favoritismo pelo endogrupo**.\n- **Homogeneidade do exogrupo**: \"eles são todos iguais\".\n\n### Estereótipo, preconceito e discriminação\n| Conceito | Natureza | Definição |\n|---|---|---|\n| **Estereótipo** | **Cognitiva** | Crença generalizada sobre os membros de um grupo |\n| **Preconceito** | **Afetiva** | Atitude negativa em relação a alguém por pertencer a um grupo |\n| **Discriminação** | **Comportamental** | Tratamento desigual e injusto |\n\n- **Explicações**:\n  - **Personalidade autoritária** (Adorno): rigidez, submissão à autoridade e hostilidade a quem é diferente.\n  - **Conflito realista** (Sherif): a **competição por recursos escassos** gera hostilidade.\n  - **Frustração-agressão e bode expiatório**: a frustração é deslocada para grupos mais fracos.\n  - **Aprendizagem social**: o preconceito é aprendido.\n  - **Identidade social**: valorizar o próprio grupo desvalorizando o outro.\n- **Racismo estrutural e institucional**; **racismo sutil ou aversivo**; **preconceito implícito**.\n- **Ameaça do estereótipo** (Steele): o medo de confirmar um estereótipo negativo prejudica o desempenho.\n- **Estigma** (Goffman): marca que desqualifica socialmente.\n\n### Experimento da Caverna dos Ladrões (Sherif)\nMeninos em acampamento, divididos em dois grupos, tornaram-se hostis com a **competição**. O simples contato não resolveu; a hostilidade caiu com **metas superordenadas**: objetivos comuns que **exigiam a cooperação** dos dois grupos.\n\n### Redução do preconceito\n- **Hipótese do contato** (Allport): o contato reduz o preconceito se houver **igualdade de status**, **objetivos comuns**, **cooperação** e **apoio institucional**.\n- **Sala de aula quebra-cabeça** (*jigsaw*, de Aronson): cada aluno detém uma parte do conteúdo, e todos dependem de todos.\n- **Recategorização**: criar uma identidade comum mais ampla.\n- Educação, legislação e políticas afirmativas.",
+      "revisao": "**Lembre:**\n- Endogrupo (nós) x exogrupo (eles).\n- Identidade social: categorização, identificação e comparação.\n- Estereótipo é crença; preconceito é atitude; discriminação é ação.\n- Sherif: competição gera conflito; metas superordenadas o reduzem.\n- Contato só funciona com status igual, cooperação e apoio institucional."
+    },
+    {
+      "id": "relacoes",
+      "nome": "Agressão, ajuda e atração",
+      "resumo": "### Agressão\nComportamento com **intenção de causar dano** a outro.\n- **Hostil** (movida pela raiva; o dano é o fim) x **instrumental** (o dano é meio para outro objetivo).\n- **Física**, **verbal** e **relacional** (exclusão, fofoca).\n\n### Explicações\n- **Instintivistas**: Freud (pulsão de morte) e Lorenz (instinto agressivo). Pouco apoio empírico.\n- **Biológicas**: fatores genéticos, hormonais (testosterona) e neurológicos.\n- **Frustração-agressão** (Dollard e Miller): a **frustração** (bloqueio de um objetivo) gera agressão. **Berkowitz** reformula: a frustração gera **raiva**, que vira agressão na presença de **pistas agressivas** (efeito das armas).\n- **Aprendizagem social** (Bandura): a agressão é **aprendida por observação**. Experimento do **boneco Bobo**: crianças que viram um adulto agredir o boneco **imitaram** o comportamento.\n- **Modelo geral da agressão**: fatores pessoais e situacionais, mediados por cognição, afeto e ativação.\n- **Fatores situacionais**: calor, álcool, provocação, anonimato e exposição à violência na mídia.\n- **Catarse**: a ideia de que \"descarregar\" reduz a agressividade **não é confirmada**; costuma aumentá-la.\n\n### Comportamento pró-social\nAções que **beneficiam** outras pessoas. **Altruísmo**: ajudar sem esperar recompensa.\n\n### O efeito espectador (Latané e Darley)\nEstudado após o caso **Kitty Genovese** (1964). **Quanto mais pessoas presenciam uma emergência, menor a chance de que cada uma ajude.**\n- **Difusão de responsabilidade**: cada um supõe que outro agirá.\n- **Ignorância pluralística**: todos olham para os outros, veem calma e concluem que não é grave.\n- **Apreensão de avaliação**: medo de errar em público.\n- **Etapas para ajudar**: **notar** o evento; **interpretá-lo** como emergência; **assumir a responsabilidade**; **saber como** ajudar; **decidir** agir.\n\n### Por que ajudamos\n- **Troca social**: ajudamos quando os benefícios superam os custos.\n- **Norma da reciprocidade** e **norma da responsabilidade social**.\n- **Hipótese empatia-altruísmo** (Batson): a **empatia** gera ajuda genuinamente altruísta.\n- **Explicações evolutivas**: seleção de parentesco e altruísmo recíproco.\n- **Fatores**: bom humor, semelhança com a vítima, tempo disponível (estudo do Bom Samaritano) e modelos pró-sociais.\n\n### Atração interpessoal\n- **Proximidade** (propinquidade): tendemos a gostar de quem está perto.\n- **Efeito da mera exposição** (Zajonc): a familiaridade aumenta a simpatia.\n- **Semelhança**: de atitudes, valores e origem; \"os semelhantes se atraem\" tem mais apoio do que \"os opostos se atraem\".\n- **Reciprocidade**: gostamos de quem gosta de nós.\n- **Atratividade física** e o estereótipo \"o que é belo é bom\".\n\n### Amor e relações\n- **Teoria triangular do amor** (Sternberg): **intimidade**, **paixão** e **compromisso**. O **amor consumado** reúne os três.\n- **Amor apaixonado** x **amor companheiro**.\n- **Teoria da troca social** e **da equidade**: relações são mais satisfatórias quando percebidas como **justas**.\n- **Estilos de apego** (seguro, ansioso e evitativo) influenciam as relações adultas.\n\n### Violência e sociedade\n- **Violência estrutural e simbólica**; violência de gênero; *bullying*.\n- **Desengajamento moral** (Bandura): mecanismos que permitem agir mal sem culpa (desumanizar a vítima, deslocar a responsabilidade, usar eufemismos).",
+      "revisao": "**Lembre:**\n- Agressão hostil (raiva) x instrumental (meio).\n- Bandura: agressão aprendida por observação (boneco Bobo).\n- Efeito espectador: mais gente, menos ajuda; difusão de responsabilidade.\n- Atração: proximidade, semelhança, reciprocidade.\n- Sternberg: intimidade, paixão e compromisso."
+    },
+    {
+      "id": "representacoes",
+      "nome": "Representações sociais, ideologia e comunidade",
+      "resumo": "### Representações sociais (Serge Moscovici)\nFormas de **conhecimento do senso comum**, **construídas e compartilhadas** socialmente, que servem para interpretar a realidade e orientar a comunicação e a ação. Teoria proposta em 1961, no estudo sobre como a **psicanálise** foi apropriada pela sociedade francesa.\n- Retoma, com mudanças, as **representações coletivas** de **Durkheim**: as de Moscovici são mais **dinâmicas** e próprias das sociedades modernas.\n- **Função**: **tornar familiar o não familiar**.\n\n### Dois processos\n- **Ancoragem**: classificar o novo em **categorias já conhecidas**, dando-lhe nome e lugar.\n- **Objetivação**: transformar uma ideia **abstrata** em algo **concreto**, quase uma imagem (ex.: o \"complexo\" como coisa que a pessoa \"tem\").\n\n### Desdobramentos\n- **Abordagem processual** (Denise Jodelet): como as representações se formam e circulam; estudo clássico sobre a loucura.\n- **Abordagem estrutural** (Jean-Claude Abric): **teoria do núcleo central**. A representação tem um **núcleo central** (estável, consensual, que dá o significado) e um **sistema periférico** (flexível, que a adapta ao cotidiano).\n- **Abordagem societal** (Willem Doise): relaciona as representações à posição social dos grupos.\n- **Universos reificados** (ciência) x **consensuais** (senso comum).\n\n### Ideologia\nSistema de ideias que explica e justifica a ordem social.\n- Em **Marx**: visão que **oculta** as contradições e apresenta os interesses da classe dominante como universais.\n- **Althusser**: aparelhos ideológicos de Estado (escola, família, mídia).\n- A psicologia social crítica investiga como a ideologia se reproduz na **consciência** e no cotidiano.\n- **Alienação**: a pessoa não se reconhece no produto e no processo de sua atividade.\n- **Consciência** (Leontiev, Lane): construída na atividade e na linguagem; **conscientização** (Freire) como passagem da consciência ingênua à crítica.\n\n### Identidade\n- **Ciampa**: identidade é **metamorfose**, movimento permanente, e não algo fixo; envolve personagens que representamos.\n- **Hall**: identidades fragmentadas na pós-modernidade.\n- **Subjetividade**: produção social e histórica (González Rey, Guattari).\n\n### Linguagem e construção social\n- **Interacionismo simbólico** (George H. Mead): o **eu** se forma na interação, ao assumir o **papel do outro**; \"eu\" e \"mim\".\n- **Berger e Luckmann**: *A construção social da realidade*; **socialização primária** (família) e **secundária** (instituições).\n- **Construcionismo social** (Gergen) e **psicologia discursiva**: a realidade é construída na linguagem e nas práticas sociais.\n- **Foucault**: relações entre saber e poder; **poder disciplinar** e produção de sujeitos.\n\n### Instituições e análise institucional\n- **Goffman**: **instituições totais** (prisões, manicômios, conventos), que controlam todos os aspectos da vida e produzem a **mortificação do eu**.\n- **Análise institucional** (Lourau e Lapassade): **instituído** x **instituinte**; analisador.\n\n### Psicologia Social Comunitária\n- Surge na América Latina, nos anos 1970, ligada a movimentos populares.\n- Princípios: **participação**, **conscientização**, **autogestão** e **fortalecimento** da comunidade.\n- O psicólogo atua como **facilitador**, não como especialista que dá soluções.\n- **Maritza Montero** e **Bader Sawaia** (exclusão/inclusão e **sofrimento ético-político**).\n\n### Psicologia e políticas públicas\n- **Assistência social (SUAS)**: **CRAS** (proteção básica, prevenção) e **CREAS** (proteção especial, direitos violados).\n- **Saúde (SUS)**: atenção básica, **CAPS** e redução de danos.\n- **Vulnerabilidade social** e garantia de **direitos**.\n- **CREPOP**: referências técnicas do Conselho Federal de Psicologia.\n\n### Temas contemporâneos\nMídia e redes sociais (bolhas, desinformação), gênero e sexualidade, relações étnico-raciais, movimentos sociais, trabalho, meio ambiente e direitos humanos.",
+      "revisao": "**Lembre:**\n- Representações sociais (Moscovici): saber do senso comum, compartilhado.\n- Ancoragem classifica o novo; objetivação torna o abstrato concreto.\n- Abric: núcleo central estável e periferia flexível.\n- Goffman: instituições totais e mortificação do eu.\n- CRAS previne; CREAS atende direitos violados."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "psicologia-social-1",
+      "topico": "campo",
+      "nivel": "conceitual",
+      "pergunta": "A Psicologia Social estuda principalmente:",
+      "opcoes": [
+        "Como a presença de outras pessoas influencia pensamentos, sentimentos e comportamentos",
+        "O funcionamento dos neurônios",
+        "As doenças mentais graves",
+        "O desenvolvimento motor na infância"
+      ],
+      "correta": 0,
+      "explicacao": "A influência pode vir de pessoas presentes, imaginadas ou apenas implícitas."
+    },
+    {
+      "id": "psicologia-social-2",
+      "topico": "campo",
+      "nivel": "conceitual",
+      "pergunta": "A fórmula C = f(P, A), segundo a qual o comportamento depende da pessoa e do ambiente, foi proposta por:",
+      "opcoes": [
+        "Sigmund Freud",
+        "Kurt Lewin",
+        "B. F. Skinner",
+        "Jean Piaget"
+      ],
+      "correta": 1,
+      "explicacao": "Ele é considerado o pai da psicologia social moderna e criou a dinâmica de grupo."
+    },
+    {
+      "id": "psicologia-social-3",
+      "topico": "campo",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, a psicologia social crítica, de base sócio-histórica, teve como principal referência:",
+      "opcoes": [
+        "Stanley Milgram",
+        "Solomon Asch",
+        "Silvia Lane",
+        "Gustave Le Bon"
+      ],
+      "correta": 2,
+      "explicacao": "Ela participou da fundação da ABRAPSO, em 1980."
+    },
+    {
+      "id": "psicologia-social-4",
+      "topico": "campo",
+      "nivel": "aplicacao",
+      "pergunta": "Um psicólogo trabalha em um bairro ajudando os moradores a se organizarem e decidirem juntos as próprias soluções. Sua atuação é típica da:",
+      "opcoes": [
+        "Psicometria",
+        "Psicologia experimental de laboratório",
+        "Neuropsicologia",
+        "Psicologia Social Comunitária"
+      ],
+      "correta": 3,
+      "explicacao": "O profissional atua como facilitador, buscando a autonomia do grupo."
+    },
+    {
+      "id": "psicologia-social-5",
+      "topico": "campo",
+      "nivel": "analise",
+      "pergunta": "Por que a psicologia social experimental foi criticada durante a chamada 'crise' dos anos 1960 e 1970?",
+      "opcoes": [
+        "Por ser individualista e distante dos problemas sociais concretos",
+        "Por estudar apenas grupos grandes",
+        "Por rejeitar o método científico",
+        "Por se dedicar só à psicoterapia"
+      ],
+      "correta": 0,
+      "explicacao": "As críticas abriram espaço para abordagens voltadas à história, à cultura e à transformação social."
+    },
+    {
+      "id": "psicologia-social-6",
+      "topico": "cognicao",
+      "nivel": "conceitual",
+      "pergunta": "O erro fundamental de atribuição consiste em:",
+      "opcoes": [
+        "Atribuir os próprios fracassos a si mesmo",
+        "Superestimar causas internas ao explicar o comportamento alheio",
+        "Ignorar a personalidade das pessoas",
+        "Explicar tudo pela situação"
+      ],
+      "correta": 1,
+      "explicacao": "Subestima-se o peso das circunstâncias em que a outra pessoa agiu."
+    },
+    {
+      "id": "psicologia-social-7",
+      "topico": "cognicao",
+      "nivel": "conceitual",
+      "pergunta": "Os três componentes de uma atitude são:",
+      "opcoes": [
+        "Consciente, pré-consciente e inconsciente",
+        "Id, ego e superego",
+        "Cognitivo, afetivo e comportamental",
+        "Sensorial, motor e verbal"
+      ],
+      "correta": 2,
+      "explicacao": "Eles correspondem às crenças, aos sentimentos e à tendência a agir."
+    },
+    {
+      "id": "psicologia-social-8",
+      "topico": "cognicao",
+      "nivel": "conceitual",
+      "pergunta": "A teoria da dissonância cognitiva foi formulada por:",
+      "opcoes": [
+        "Serge Moscovici",
+        "Henri Tajfel",
+        "Albert Bandura",
+        "Leon Festinger"
+      ],
+      "correta": 3,
+      "explicacao": "Segundo ela, a incoerência entre cognições gera um desconforto que a pessoa procura reduzir."
+    },
+    {
+      "id": "psicologia-social-9",
+      "topico": "cognicao",
+      "nivel": "aplicacao",
+      "pergunta": "Depois de ver muitas notícias sobre acidentes aéreos, Marta passa a achar que voar é mais perigoso que andar de carro. Ela usa a heurística da:",
+      "opcoes": [
+        "Disponibilidade",
+        "Representatividade",
+        "Ancoragem",
+        "Reciprocidade"
+      ],
+      "correta": 0,
+      "explicacao": "O julgamento se baseia na facilidade com que exemplos vêm à lembrança."
+    },
+    {
+      "id": "psicologia-social-10",
+      "topico": "cognicao",
+      "nivel": "analise",
+      "pergunta": "No experimento de Festinger e Carlsmith, por que quem recebeu 1 dólar passou a achar a tarefa mais interessante do que quem recebeu 20?",
+      "opcoes": [
+        "Porque 1 dólar valia mais na época",
+        "Porque a recompensa pequena não justificava a mentira, e a pessoa mudou a atitude para reduzir a dissonância",
+        "Porque a tarefa era diferente em cada grupo",
+        "Porque os que receberam 20 dólares não fizeram a tarefa"
+      ],
+      "correta": 1,
+      "explicacao": "Quem recebeu muito tinha uma justificativa externa clara para o que disse."
+    },
+    {
+      "id": "psicologia-social-11",
+      "topico": "influencia",
+      "nivel": "conceitual",
+      "pergunta": "O experimento de Asch com a comparação de linhas investigou:",
+      "opcoes": [
+        "A obediência à autoridade",
+        "A agressão por imitação",
+        "A conformidade à pressão do grupo",
+        "O efeito espectador"
+      ],
+      "correta": 2,
+      "explicacao": "Muitos participantes seguiram a resposta errada dada de forma unânime pelos cúmplices."
+    },
+    {
+      "id": "psicologia-social-12",
+      "topico": "influencia",
+      "nivel": "conceitual",
+      "pergunta": "No experimento de Milgram, o resultado mais marcante foi que:",
+      "opcoes": [
+        "Quase ninguém obedeceu ao pesquisador",
+        "Os participantes agrediram o pesquisador",
+        "As vítimas recebiam choques reais",
+        "Cerca de dois terços dos participantes obedeceram até o choque máximo"
+      ],
+      "correta": 3,
+      "explicacao": "Os choques eram simulados, mas os participantes acreditavam que eram reais."
+    },
+    {
+      "id": "psicologia-social-13",
+      "topico": "influencia",
+      "nivel": "conceitual",
+      "pergunta": "A facilitação social afirma que a presença de outras pessoas:",
+      "opcoes": [
+        "Melhora o desempenho em tarefas simples e piora em tarefas complexas",
+        "Sempre piora o desempenho",
+        "Sempre melhora o desempenho",
+        "Não afeta o desempenho"
+      ],
+      "correta": 0,
+      "explicacao": "A presença de outros aumenta a ativação e reforça a resposta dominante."
+    },
+    {
+      "id": "psicologia-social-14",
+      "topico": "influencia",
+      "nivel": "aplicacao",
+      "pergunta": "Um vendedor pede primeiro que o cliente responda a uma pesquisa rápida e, em seguida, propõe a assinatura de um plano. Ele usa a técnica do:",
+      "opcoes": [
+        "Porta na cara",
+        "Pé na porta",
+        "Apelo ao medo",
+        "Efeito halo"
+      ],
+      "correta": 1,
+      "explicacao": "Quem aceita um pedido pequeno tende a aceitar outro maior para manter a coerência."
+    },
+    {
+      "id": "psicologia-social-15",
+      "topico": "influencia",
+      "nivel": "analise",
+      "pergunta": "Por que a presença de um único aliado discordante reduz tanto a conformidade no experimento de Asch?",
+      "opcoes": [
+        "Porque o aliado é sempre uma autoridade",
+        "Porque a tarefa fica mais fácil",
+        "Porque quebra a unanimidade e diminui o medo de ficar sozinho contra o grupo",
+        "Porque o participante deixa de ver as linhas"
+      ],
+      "correta": 2,
+      "explicacao": "A pressão normativa depende fortemente de o grupo se mostrar unânime."
+    },
+    {
+      "id": "psicologia-social-16",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "A crença generalizada sobre as características dos membros de um grupo é chamada de:",
+      "opcoes": [
+        "Discriminação",
+        "Preconceito",
+        "Estigma institucional",
+        "Estereótipo"
+      ],
+      "correta": 3,
+      "explicacao": "Trata-se do componente cognitivo; o preconceito é afetivo e a discriminação é comportamental."
+    },
+    {
+      "id": "psicologia-social-17",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "A teoria da identidade social foi desenvolvida por:",
+      "opcoes": [
+        "Tajfel e Turner",
+        "Latané e Darley",
+        "Festinger e Carlsmith",
+        "Petty e Cacioppo"
+      ],
+      "correta": 0,
+      "explicacao": "Ela explica o favoritismo pelo próprio grupo a partir da categorização social."
+    },
+    {
+      "id": "psicologia-social-18",
+      "topico": "grupos",
+      "nivel": "conceitual",
+      "pergunta": "No experimento da Caverna dos Ladrões, a hostilidade entre os grupos diminuiu quando:",
+      "opcoes": [
+        "Os grupos passaram a competir mais",
+        "Foram propostas metas que exigiam a cooperação dos dois grupos",
+        "Os meninos apenas se encontraram no refeitório",
+        "Os grupos foram separados de vez"
+      ],
+      "correta": 1,
+      "explicacao": "Essas metas são chamadas de superordenadas."
+    },
+    {
+      "id": "psicologia-social-19",
+      "topico": "grupos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma professora divide o conteúdo em partes, e cada aluno, de origens diferentes, recebe uma parte de que os colegas dependem. Ela aplica:",
+      "opcoes": [
+        "O paradigma do grupo mínimo",
+        "A técnica da porta na cara",
+        "A sala de aula quebra-cabeça (jigsaw)",
+        "O efeito autocinético"
+      ],
+      "correta": 2,
+      "explicacao": "A interdependência cooperativa reduz o preconceito entre os alunos."
+    },
+    {
+      "id": "psicologia-social-20",
+      "topico": "grupos",
+      "nivel": "analise",
+      "pergunta": "Por que o simples contato entre grupos rivais nem sempre reduz o preconceito?",
+      "opcoes": [
+        "Porque o contato sempre aumenta o preconceito",
+        "Porque os grupos nunca se comunicam",
+        "Porque o preconceito é inato e imutável",
+        "Porque são necessárias condições como igualdade de status, cooperação e apoio institucional"
+      ],
+      "correta": 3,
+      "explicacao": "Sem essas condições, o contato pode até reforçar estereótipos."
+    },
+    {
+      "id": "psicologia-social-21",
+      "topico": "relacoes",
+      "nivel": "conceitual",
+      "pergunta": "O experimento do boneco Bobo, de Bandura, mostrou que a agressão pode ser:",
+      "opcoes": [
+        "Aprendida pela observação de modelos",
+        "Determinada apenas por instinto",
+        "Eliminada pela catarse",
+        "Causada somente por frustração"
+      ],
+      "correta": 0,
+      "explicacao": "As crianças imitaram o comportamento agressivo que viram no adulto."
+    },
+    {
+      "id": "psicologia-social-22",
+      "topico": "relacoes",
+      "nivel": "conceitual",
+      "pergunta": "O efeito espectador indica que, em uma emergência:",
+      "opcoes": [
+        "Quanto mais pessoas presentes, maior a ajuda",
+        "Quanto mais pessoas presentes, menor a chance de cada uma ajudar",
+        "Ninguém ajuda em nenhuma situação",
+        "Só ajudam os parentes da vítima"
+      ],
+      "correta": 1,
+      "explicacao": "Um dos mecanismos é a difusão de responsabilidade entre os presentes."
+    },
+    {
+      "id": "psicologia-social-23",
+      "topico": "relacoes",
+      "nivel": "conceitual",
+      "pergunta": "Na teoria triangular do amor, de Sternberg, os três componentes são:",
+      "opcoes": [
+        "Proximidade, semelhança e reciprocidade",
+        "Apego, cuidado e sexualidade",
+        "Intimidade, paixão e compromisso",
+        "Atração, convivência e ciúme"
+      ],
+      "correta": 2,
+      "explicacao": "O amor consumado é o que reúne os três componentes."
+    },
+    {
+      "id": "psicologia-social-24",
+      "topico": "relacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa passa mal na calçada de uma avenida movimentada, e ninguém para. Para aumentar a chance de ajuda, o melhor é:",
+      "opcoes": [
+        "Esperar em silêncio",
+        "Gritar para todos ao mesmo tempo, sem se dirigir a ninguém",
+        "Afastar-se do local",
+        "Apontar para uma pessoa específica e pedir ajuda diretamente a ela"
+      ],
+      "correta": 3,
+      "explicacao": "Dirigir o pedido a alguém em particular desfaz a difusão de responsabilidade."
+    },
+    {
+      "id": "psicologia-social-25",
+      "topico": "relacoes",
+      "nivel": "analise",
+      "pergunta": "Por que a ideia de que 'descarregar a raiva' diminui a agressividade é contestada pela pesquisa?",
+      "opcoes": [
+        "Porque expressar a agressão tende a mantê-la ou aumentá-la, em vez de reduzi-la",
+        "Porque a raiva nunca leva à agressão",
+        "Porque a catarse só funciona em crianças",
+        "Porque a agressão é sempre instrumental"
+      ],
+      "correta": 0,
+      "explicacao": "Os estudos não confirmam o efeito de catarse previsto pelas teorias instintivistas."
+    },
+    {
+      "id": "psicologia-social-26",
+      "topico": "representacoes",
+      "nivel": "conceitual",
+      "pergunta": "A teoria das representações sociais foi proposta por:",
+      "opcoes": [
+        "Erving Goffman",
+        "Serge Moscovici",
+        "Kurt Lewin",
+        "Stanley Milgram"
+      ],
+      "correta": 1,
+      "explicacao": "Seu estudo inaugural tratou da difusão da psicanálise na sociedade francesa."
+    },
+    {
+      "id": "psicologia-social-27",
+      "topico": "representacoes",
+      "nivel": "conceitual",
+      "pergunta": "O processo de classificar algo novo em categorias já conhecidas é a:",
+      "opcoes": [
+        "Objetivação",
+        "Desindividuação",
+        "Ancoragem",
+        "Polarização"
+      ],
+      "correta": 2,
+      "explicacao": "A objetivação, por sua vez, torna concreta uma ideia abstrata."
+    },
+    {
+      "id": "psicologia-social-28",
+      "topico": "representacoes",
+      "nivel": "conceitual",
+      "pergunta": "Para Goffman, prisões e manicômios são exemplos de:",
+      "opcoes": [
+        "Grupos primários",
+        "Minorias ativas",
+        "Grupos operativos",
+        "Instituições totais"
+      ],
+      "correta": 3,
+      "explicacao": "Nelas, todos os aspectos da vida são controlados, o que produz a mortificação do eu."
+    },
+    {
+      "id": "psicologia-social-29",
+      "topico": "representacoes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma família com direitos violados por violência doméstica deve ser acompanhada, na assistência social, pelo:",
+      "opcoes": [
+        "CREAS",
+        "CRAS",
+        "CAPS",
+        "Conselho de classe"
+      ],
+      "correta": 0,
+      "explicacao": "O CRAS atua na proteção básica e na prevenção; o CREAS, na proteção especial."
+    },
+    {
+      "id": "psicologia-social-30",
+      "topico": "representacoes",
+      "nivel": "analise",
+      "pergunta": "Na teoria do núcleo central, por que o sistema periférico é importante para a representação social?",
+      "opcoes": [
+        "Porque é a parte mais rígida da representação",
+        "Porque permite adaptá-la às situações do cotidiano sem alterar seu significado central",
+        "Porque elimina o núcleo central",
+        "Porque só existe em representações científicas"
+      ],
+      "correta": 1,
+      "explicacao": "O núcleo dá estabilidade e sentido; a periferia absorve as variações individuais e de contexto."
+    }
+  ]
+}

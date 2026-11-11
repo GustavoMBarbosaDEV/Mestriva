@@ -1,0 +1,465 @@
+{
+  "id": "avaliacao-psicologica",
+  "nome": "Avaliação Psicológica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos da avaliação psicológica",
+      "resumo": "### O que é\nProcesso **técnico e científico** de **coleta, estudo e interpretação** de informações sobre os fenômenos psicológicos, feito com métodos, técnicas e instrumentos, para **subsidiar decisões** (Resolução CFP nº 31/2022, que sucedeu a nº 9/2018).\n- É **privativa do psicólogo** (Lei nº 4.119/1962, art. 13): só ele pode usar métodos e técnicas psicológicas para diagnóstico, orientação e seleção.\n- É um **processo**, não um ato isolado: integra várias fontes de informação.\n\n### Avaliação x testagem\n- **Avaliação psicológica**: o processo **amplo**, que responde a uma demanda integrando entrevista, observação, testes e outros dados.\n- **Testagem psicológica**: **uma etapa** possível; a aplicação de testes.\n- **Psicodiagnóstico**: avaliação com finalidade **clínica**, limitada no tempo, para compreender o funcionamento psíquico e indicar encaminhamentos.\n\n### Etapas do processo\n1. **Levantamento da demanda** e dos objetivos (quem pede, para quê).\n2. **Planejamento**: escolha das técnicas adequadas à pessoa e ao contexto.\n3. **Coleta de dados**: entrevistas, observação, testes.\n4. **Integração** e interpretação das informações, formulando hipóteses.\n5. **Comunicação dos resultados**: documento escrito e **entrevista devolutiva**.\n\n### Fontes de informação\n- **Fundamentais**: **testes psicológicos** aprovados pelo CFP, **entrevistas** e **protocolos de observação**.\n- **Complementares**: técnicas não psicológicas com respaldo científico e documentos (prontuários, relatórios de outros profissionais).\n- Recomenda-se usar **mais de uma fonte**: nenhum teste, sozinho, define um diagnóstico.\n\n### Contextos de aplicação\n- **Clínico**: psicodiagnóstico, planejamento terapêutico.\n- **Escolar e educacional**: dificuldades de aprendizagem, orientação.\n- **Organizacional**: seleção, desenvolvimento.\n- **Jurídico (forense)**: perícias em guarda, interdição, responsabilidade penal.\n- **Trânsito**: obtenção da CNH.\n- **Saúde e hospitalar**: avaliação pré-cirúrgica (bariátrica, transplante).\n- **Porte de arma** e **concursos públicos** (exame psicotécnico).\n- **Neuropsicológico**: funções cognitivas e lesões.\n- **Orientação profissional**.\n\n### Breve história\n- **Galton**: medidas sensoriais e diferenças individuais.\n- **Cattell**: criou a expressão \"teste mental\".\n- **Binet e Simon** (1905): primeira escala de inteligência, para identificar crianças que precisavam de ensino especial; conceito de **idade mental**.\n- **Stern**: quociente de inteligência, **QI = (idade mental / idade cronológica) × 100**.\n- **Terman**: escala Stanford-Binet.\n- **Wechsler**: escalas de inteligência com **QI de desvio** (média 100 e desvio-padrão 15).\n- **Primeira Guerra**: testes coletivos (Army Alpha e Beta).\n- **Rorschach** (1921) e as técnicas projetivas.\n\n### Limites e cuidados\n- O resultado é um **recorte** de um momento, sujeito a condições (cansaço, ansiedade, motivação).\n- Deve-se considerar o **contexto histórico, social e cultural** da pessoa, evitando rótulos e estigmas.\n- A avaliação tem **prazo de validade**: os fenômenos psicológicos mudam.",
+      "revisao": "**Lembre:**\n- Avaliação psicológica é processo amplo e privativo do psicólogo.\n- Testagem é só uma etapa possível.\n- Etapas: demanda, planejamento, coleta, integração e devolução.\n- Fontes fundamentais: testes aprovados, entrevista e observação.\n- Binet criou a primeira escala; Wechsler, o QI de desvio."
+    },
+    {
+      "id": "psicometria",
+      "nome": "Psicometria: validade, precisão e normas",
+      "resumo": "### Teste psicológico\nProcedimento **sistemático e padronizado** para obter **amostras de comportamento** e descrevê-las com categorias ou números.\n\n### Padronização\n**Uniformidade** nas condições de aplicação, nas instruções, no tempo, na correção e na interpretação. Garante que as diferenças nos resultados venham das pessoas, e não do modo de aplicar. O **manual** do teste deve ser seguido rigorosamente.\n\n### Precisão (fidedignidade ou confiabilidade)\n**Consistência** dos resultados: o teste mede **com pouco erro**?\n- **Teste-reteste**: aplica-se o mesmo teste em dois momentos; mede a **estabilidade temporal**.\n- **Formas paralelas (alternadas)**: duas versões equivalentes.\n- **Duas metades**: correlaciona-se uma metade dos itens com a outra.\n- **Consistência interna**: **alfa de Cronbach** e Kuder-Richardson; indica se os itens medem a mesma coisa.\n- **Precisão entre avaliadores**: concordância entre quem corrige; importante em técnicas projetivas.\n- **Erro padrão de medida**: margem de erro em torno do escore.\n\n### Validade\nO teste mede **o que se propõe a medir**? As interpretações dos escores têm apoio em evidências?\n\nVisão clássica (os \"três Cs\"):\n- **De conteúdo**: os itens são amostra representativa do domínio; julgada por especialistas.\n- **De critério**: relação com um critério externo.\n  - **Concorrente**: o critério é medido **ao mesmo tempo**.\n  - **Preditiva**: o critério é medido **no futuro** (ex.: teste de seleção prevê o desempenho no cargo).\n- **De construto**: o teste mede o **conceito teórico** pretendido; verificada por análise fatorial e por correlações.\n  - **Convergente**: correlaciona com medidas do mesmo construto.\n  - **Discriminante (divergente)**: **não** correlaciona com construtos diferentes.\n\nVisão contemporânea (fontes de **evidências de validade**): baseadas no **conteúdo**, no **processo de resposta**, na **estrutura interna**, nas **relações com variáveis externas** e nas **consequências** da testagem.\n- **Validade aparente (de face)**: o teste \"parece\" medir algo; não é validade técnica.\n\n### Relação entre precisão e validade\n**A precisão é necessária, mas não suficiente, para a validade.** Um teste pode ser preciso (consistente) e não medir o que pretende; mas um teste impreciso não pode ser válido.\n\n### Normatização\nEstabelece **normas** para interpretar o escore bruto, comparando-o com um **grupo de referência** (amostra normativa).\n- **Percentil**: percentual de pessoas do grupo que obteve escore **igual ou inferior**. Percentil 80: a pessoa foi igual ou melhor que 80% do grupo. **Não** é porcentagem de acertos.\n- **Escore padrão**: **escore z** (média 0 e desvio-padrão 1), **escore T** (média 50 e desvio-padrão 10) e **QI de desvio** (média 100 e desvio-padrão 15).\n- **Estanino**: escala de 1 a 9.\n- As normas precisam ser **adequadas à população** (idade, escolaridade, região) e **atualizadas**.\n- **Efeito Flynn**: aumento das pontuações médias de QI ao longo das décadas, o que exige renormatização.\n\n### Interpretação\n- **Referenciada à norma**: compara com o grupo.\n- **Referenciada a critério**: compara com um padrão de desempenho.\n\n### Curva normal\nMuitas características se distribuem em forma de sino. Cerca de **68%** dos casos ficam a até 1 desvio-padrão da média, e **95%**, a até 2.\n\n### Teorias de medida\n- **Teoria Clássica dos Testes (TCT)**: escore observado = **escore verdadeiro + erro**.\n- **Teoria de Resposta ao Item (TRI)**: modela a probabilidade de acerto conforme a habilidade da pessoa e os parâmetros do item (**dificuldade**, **discriminação** e **acerto ao acaso**). Usada no ENEM.\n\n### Análise de itens\n**Índice de dificuldade** (proporção de acertos) e **de discriminação** (o item separa quem tem mais e menos da característica).\n\n### Adaptação de testes\nUm teste estrangeiro precisa de **tradução, adaptação cultural** e novos estudos de validade, precisão e normas para a população brasileira.",
+      "revisao": "**Lembre:**\n- Precisão: consistência; validade: mede o que pretende.\n- Preciso não garante válido; impreciso nunca é válido.\n- Teste-reteste mede estabilidade; alfa de Cronbach, consistência interna.\n- Validade de conteúdo, de critério (concorrente e preditiva) e de construto.\n- Percentil: posição no grupo, não porcentagem de acertos."
+    },
+    {
+      "id": "instrumentos",
+      "nome": "Entrevista, observação e tipos de teste",
+      "resumo": "### Entrevista psicológica\nTécnica de investigação que usa a **conversa com um propósito**. É a mais usada na avaliação.\n- **Estruturada (fechada)**: perguntas e ordem **fixas**; facilita a comparação e a pesquisa.\n- **Semiestruturada**: roteiro flexível; a mais comum na clínica.\n- **Não estruturada (livre, aberta)**: o entrevistado conduz; explora em profundidade.\n\n**Tipos conforme o objetivo**\n- **Inicial (de triagem)**: acolhe e esclarece a queixa.\n- **Anamnese**: levanta a **história de vida** (desenvolvimento, saúde, família, escola, trabalho).\n- **Clínica / diagnóstica**.\n- **Devolutiva**: comunica os resultados ao avaliado (ou responsáveis), em linguagem acessível, e indica encaminhamentos. É **direito** de quem foi avaliado.\n- **Lúdica**: com crianças, por meio do brincar (hora de jogo diagnóstica).\n\n**Cuidados**: estabelecer **vínculo** (*rapport*), escutar sem julgar, combinar o **enquadre** (objetivos, tempo, sigilo) e atentar à comunicação **não verbal**. Bleger distingue entrevista de **anamnese**: a entrevista considera a relação e o campo que se forma.\n\n### Observação\n- **Livre (assistemática)** ou **sistemática** (com categorias e registro definidos).\n- **Naturalística** (ambiente natural) ou em **situação controlada**.\n- **Participante** ou não participante.\n- Registros: contínuo, por amostragem de tempo, por evento.\n\n### Classificação dos testes\n**Quanto ao construto**\n- **Inteligência e cognição**.\n- **Aptidões e habilidades** específicas.\n- **Atenção e memória**.\n- **Personalidade**.\n- **Interesses** e orientação profissional.\n- **Desenvolvimento** e **neuropsicológicos**.\n\n**Quanto à forma de resposta**\n- **Psicométricos (objetivos)**: itens padronizados, correção objetiva e resultado numérico comparado a normas.\n- **Projetivos (expressivos)**: estímulos **pouco estruturados**; a pessoa **projeta** aspectos de sua personalidade.\n\n**Quanto à aplicação**: **individual** ou **coletiva**; **verbal** ou **não verbal**; lápis e papel, **informatizada** ou de execução.\n\n**Quanto ao desempenho**: de **desempenho máximo** (potência: sem limite de tempo relevante; velocidade: tempo limitado) e de **desempenho típico** (como a pessoa costuma ser: inventários de personalidade).\n\n### Inteligência\n- **Escalas Wechsler**: **WISC** (crianças e adolescentes), **WAIS** (adultos) e WASI (abreviada). Fornecem **QI total** e índices: **compreensão verbal**, **organização perceptual**, **memória operacional** e **velocidade de processamento**.\n- **Matrizes Progressivas de Raven**: teste **não verbal** de raciocínio; mede o **fator g** (inteligência geral).\n- **Teorias**: **Spearman** (fator g), **Thurstone** (aptidões primárias), **Cattell** (inteligência **fluida** e **cristalizada**), modelo **CHC** (Cattell-Horn-Carroll), **Gardner** (inteligências múltiplas) e **Sternberg** (teoria triárquica).\n- Testes brasileiros: BPR-5, R-1, G-36, SON-R.\n\n### Atenção e memória\nAtenção **concentrada**, **dividida** e **alternada** (AC, BPA, d2); memória (Figuras Complexas de Rey, RAVLT).\n\n### Personalidade: psicométricos\n- **Inventários e escalas** de autorrelato: **NEO-PI-R** e **BFP** (Cinco Grandes Fatores), **IFP** (Inventário Fatorial de Personalidade), **16PF**, **MMPI**.\n- Vantagem: objetividade. Limite: **desejabilidade social** (responder o que \"pega bem\") e simulação; alguns têm escalas de validade.\n- **Escalas clínicas**: Escalas Beck (depressão **BDI**, ansiedade **BAI**, desesperança e ideação suicida).\n\n### Personalidade: projetivos\n- **Hipótese projetiva**: diante de um estímulo ambíguo, a pessoa organiza a resposta conforme sua vida interior.\n- **Rorschach**: dez pranchas com manchas de tinta.\n- **TAT** (Teste de Apercepção Temática, de Murray): contar histórias a partir de figuras; **CAT** para crianças.\n- **HTP** (casa, árvore, pessoa) e **Desenho da Figura Humana**: técnicas gráficas.\n- **Palográfico** e **PMK**: expressivos.\n- **Zulliger** e **Pfister** (pirâmides coloridas).\n- Exigem formação específica; críticas quanto à precisão.\n\n### Orientação profissional\nInventários de interesses (modelo **RIASEC** de Holland: realista, investigativo, artístico, social, empreendedor e convencional).",
+      "revisao": "**Lembre:**\n- Entrevista: estruturada, semiestruturada e livre.\n- Anamnese levanta a história de vida; devolutiva comunica os resultados.\n- Psicométricos são objetivos; projetivos usam estímulos ambíguos.\n- WISC para crianças, WAIS para adultos; Raven mede o fator g.\n- Rorschach, TAT e HTP são técnicas projetivas."
+    },
+    {
+      "id": "etica",
+      "nome": "Ética e normas do Conselho Federal de Psicologia",
+      "resumo": "### Código de Ética Profissional do Psicólogo (Resolução CFP nº 10/2005)\nOrienta toda a prática. Pontos ligados à avaliação:\n- **Princípios**: respeito à **dignidade**, à liberdade e aos **direitos humanos**; promoção da saúde; responsabilidade social; rejeição a qualquer forma de discriminação e violência.\n- **Deveres (art. 1º)**: prestar serviços de **qualidade**, com técnicas **reconhecidas pela ciência**; fornecer a quem de direito **informações** sobre o trabalho e os **resultados**; orientar sobre encaminhamentos.\n- **Vedações (art. 2º)**: emitir documentos **sem fundamentação e qualidade técnico-científica**; **interferir na validade** de instrumentos e técnicas; ser **perito ou avaliador** em situações em que seus vínculos pessoais ou profissionais possam afetar o trabalho.\n- **Sigilo (art. 9º)**: dever de proteger a intimidade das pessoas. Pode ser quebrado em situações excepcionais, buscando o **menor prejuízo** (art. 10) e limitando-se às informações **estritamente necessárias**.\n- Em trabalho multiprofissional, compartilham-se só as informações **relevantes** ao serviço (art. 6º).\n- Com **crianças, adolescentes e interditos**: comunica-se aos responsáveis o **estritamente essencial** para promover medidas em seu benefício (art. 13).\n\n### SATEPSI\n**Sistema de Avaliação de Testes Psicológicos** do CFP: avalia a qualidade técnico-científica dos testes.\n- O psicólogo só pode usar, na prática profissional, testes com parecer **favorável**.\n- Usar teste **desfavorável** ou não avaliado é **falta ética**, salvo em **pesquisa**.\n- Os estudos de **normas** valem por **15 anos** e os de **validade e precisão**, por **20 anos**, conforme a regulamentação.\n- Critérios mínimos: fundamentação teórica, evidências de validade e de precisão, sistema de correção e interpretação, e normas para a população brasileira.\n\n### Uso restrito dos testes\n- Testes psicológicos são de **uso privativo do psicólogo**: sua comercialização e seu ensino são restritos a psicólogos e a estudantes de Psicologia sob supervisão.\n- É vedado **divulgar, ensinar ou ceder** instrumentos a leigos, o que comprometeria a validade.\n- Devem-se usar **materiais originais**; cópias de folhas de resposta são irregulares.\n\n### Resolução CFP nº 31/2022\nEstabelece diretrizes para a avaliação psicológica: define as **fontes fundamentais e complementares** de informação e regulamenta o SATEPSI. Na avaliação, deve-se considerar a **justiça** e a proteção dos **direitos humanos**, evitando práticas que gerem **preconceito, estigma ou discriminação**.\n\n### Avaliação em contextos regulamentados\n- **Trânsito** (candidatos à CNH): tomada de informação, processamento, tomada de decisão, comportamento e traços de personalidade.\n- **Porte e manuseio de arma de fogo**.\n- **Concursos públicos**: exige previsão em **lei** e no edital, critérios **objetivos** e direito a **recurso** e à **entrevista devolutiva** (Súmula Vinculante 44 do STF: só por lei se pode sujeitar candidato a exame psicotécnico).\n- **Cirurgia bariátrica**, **esterilização** e **redesignação**.\n\n### Avaliação a distância\nO atendimento por **tecnologias da informação e comunicação** é regulamentado; testes só podem ser aplicados de forma remota se houver **estudos e normas** para esse formato.\n\n### Guarda de documentos\nOs registros e os materiais da avaliação devem ser guardados por, no mínimo, **5 anos**, com sigilo; o prazo pode ser ampliado por determinação legal ou judicial.\n\n### Responsabilidades\n- **Competência**: usar só técnicas para as quais se tem formação.\n- **Consentimento**: informar objetivos, procedimentos e destino dos resultados.\n- **Devolução**: é direito do avaliado conhecer os resultados.\n- **Condições adequadas** de aplicação: ambiente silencioso, iluminado e sem interrupções.\n\n### Avaliação e direitos humanos\nA avaliação não pode servir para **patologizar** diferenças, justificar exclusão ou reforçar desigualdades. O profissional deve reconhecer os **limites** de suas conclusões.",
+      "revisao": "**Lembre:**\n- Avaliação é privativa do psicólogo; testes só com parecer favorável do SATEPSI.\n- Vedado emitir documento sem fundamentação técnico-científica.\n- Sigilo é regra; quebra só pelo menor prejuízo e no estritamente necessário.\n- Devolução dos resultados é direito do avaliado.\n- Documentos guardados por no mínimo 5 anos."
+    },
+    {
+      "id": "documentos",
+      "nome": "Documentos psicológicos",
+      "resumo": "### Norma\nA **Resolução CFP nº 6/2019** define regras para a elaboração de **documentos escritos** produzidos pelo psicólogo.\n\n### Princípios\n- **Técnicos**: linguagem **precisa, clara e objetiva**, em norma culta; dados fundamentados em teoria e técnica reconhecidas; uso de **citações e referências** quando couber.\n- **Éticos**: respeito ao **sigilo** e aos direitos humanos; registrar apenas as **informações necessárias** à finalidade; considerar a **natureza dinâmica** do fenômeno psicológico, sem afirmações definitivas.\n- O documento deve ser entregue **diretamente ao beneficiário** ou responsável, em entrevista devolutiva.\n- As páginas são **rubricadas** e a última, **assinada**, com nome e número de inscrição no **CRP**.\n\n### Modalidades\n| Documento | Decorre de avaliação psicológica? | Finalidade |\n|---|---|---|\n| **Declaração** | **Não** | Registrar informações **objetivas** sobre o serviço: comparecimento, dias e horários de atendimento. **Não** traz sintomas nem diagnóstico |\n| **Atestado psicológico** | **Sim** | **Certificar** uma situação, estado ou funcionamento psicológico; justificar faltas, aptidão ou afastamento. Pode incluir **CID**, se autorizado pela pessoa |\n| **Relatório psicológico** | Não necessariamente | Comunicar a **atuação profissional** em diferentes processos de trabalho (acompanhamento, intervenção) |\n| **Relatório multiprofissional** | Não necessariamente | Feito por **equipe**; cada profissional responde pela sua parte |\n| **Laudo psicológico** | **Sim** | Resultado de **avaliação psicológica**, para **subsidiar decisões**; traz análise e **conclusão** |\n| **Parecer psicológico** | **Não** | **Resposta técnica** a uma **questão-problema** do campo psicológico ou a um documento; é opinião de especialista, **não** resulta de avaliação da pessoa |\n\n### Estrutura do laudo psicológico\n1. **Identificação**: autor, solicitante, pessoa avaliada e finalidade.\n2. **Descrição da demanda**: motivos e expectativas do pedido.\n3. **Procedimento**: técnicas e instrumentos usados, número de encontros e pessoas ouvidas.\n4. **Análise**: exposição fundamentada dos dados, integrando as fontes.\n5. **Conclusão**: resposta à demanda, com hipóteses diagnósticas e **encaminhamentos**; indica a validade temporal.\n6. **Referências**.\n\n### Estrutura do parecer\n**Identificação**, **descrição da demanda**, **análise**, **conclusão** e **referências**.\n\n### Estrutura do atestado\nIdentificação da pessoa, finalidade, registro das informações que justificam o pedido e, ao final, local, data e assinatura. Deve ser redigido de modo a **não deixar espaços** que permitam adulterações.\n\n### Diferenças que mais confundem\n- **Declaração x atestado**: a declaração só informa **fatos objetivos** do atendimento; o atestado **certifica um estado psicológico** e exige avaliação.\n- **Relatório x laudo**: o laudo **sempre** vem de avaliação psicológica e traz conclusão diagnóstica ou prognóstica; o relatório descreve a atuação.\n- **Laudo x parecer**: o laudo avalia uma **pessoa**; o parecer responde a uma **questão** ou analisa um documento.\n\n### Validade e guarda\n- O documento deve indicar seu **prazo de validade**, conforme a natureza do que foi avaliado e as normas da área.\n- Os documentos e o material que os fundamentou ficam guardados por, no mínimo, **5 anos**.\n\n### Prontuário e registro documental\n- **Registro documental**: obrigatório; anotações do psicólogo sobre o serviço prestado; de acesso restrito.\n- **Prontuário**: em serviços de saúde e equipes multiprofissionais; a pessoa atendida tem **direito de acesso**. Registra-se apenas o **necessário**.\n\n### Contexto jurídico\n- **Perito**: psicólogo nomeado pelo juiz; produz o **laudo pericial**.\n- **Assistente técnico**: contratado pela parte; produz **parecer** crítico sobre o laudo.\n- O psicólogo **psicoterapeuta** das partes **não deve** atuar como perito no mesmo caso.\n- O profissional **não decide** a causa: oferece subsídios técnicos ao juiz.",
+      "revisao": "**Lembre:**\n- Declaração: fatos objetivos do atendimento, sem diagnóstico.\n- Atestado: certifica estado psicológico; exige avaliação.\n- Laudo: resultado de avaliação, com análise e conclusão.\n- Parecer: resposta técnica a uma questão; não avalia a pessoa.\n- Estrutura do laudo: identificação, demanda, procedimento, análise, conclusão e referências."
+    },
+    {
+      "id": "psicodiagnostico",
+      "nome": "Psicodiagnóstico e avaliação por contexto",
+      "resumo": "### Psicodiagnóstico\nProcesso **científico, limitado no tempo**, que usa técnicas e testes psicológicos para **compreender problemas** à luz de pressupostos teóricos, identificar aspectos específicos, classificar o caso e **prever** seu curso, comunicando os resultados (Jurema Alcides Cunha).\n\n### Objetivos (Cunha)\n- **Classificação simples** e **descrição**.\n- **Classificação nosológica**: enquadrar em categorias diagnósticas (CID, DSM).\n- **Diagnóstico diferencial**.\n- **Avaliação compreensiva**: funcionamento global da personalidade.\n- **Entendimento dinâmico**.\n- **Prevenção** e **prognóstico**.\n- **Perícia forense**.\n\n### Passos\n1. **Contato inicial** e entrevistas (com a pessoa e, se criança, com os pais).\n2. Formulação de **hipóteses** e do **plano de avaliação**.\n3. Aplicação das técnicas (**bateria de testes**).\n4. Levantamento, análise e **integração** dos dados.\n5. **Devolução** e elaboração do **laudo**.\n\n### Modelos\n- **Tradicional**: foco em classificar e medir; o psicólogo como técnico.\n- **Compreensivo** (Trinca): busca o sentido global, integrando dados e priorizando o julgamento clínico.\n- **Interventivo**: a avaliação já é oportunidade de **intervenção**; devolutivas ao longo do processo.\n- **Colaborativo / terapêutico** (Finn): a pessoa participa ativamente, formulando perguntas sobre si.\n\n### Com crianças\n- Entrevista com os **pais** (anamnese), **hora de jogo diagnóstica**, desenhos, testes e contato com a **escola**.\n- Linguagem lúdica; devolução aos pais e à criança, de forma adequada a cada um.\n- **Desenvolvimento**: escalas como Bayley e Denver.\n\n### Avaliação neuropsicológica\nInvestiga as relações entre **cérebro e comportamento**: atenção, memória, linguagem, **funções executivas** (planejamento, controle inibitório, flexibilidade), habilidades visuoespaciais e praxias.\n- Indicada em: **TDAH**, transtornos de aprendizagem, **demências**, traumatismo craniano, AVC e epilepsia.\n- Rastreio cognitivo: **Miniexame do Estado Mental (MEEM)**, MoCA; testes como Trilhas, Stroop, Torre de Londres e Wisconsin.\n- Subsidia a **reabilitação**.\n\n### Contexto escolar\n- Dificuldades e **transtornos de aprendizagem** (dislexia, discalculia), TDAH, altas habilidades e deficiência intelectual.\n- Cuidado com a **medicalização** e a culpabilização do aluno: considerar a escola, o ensino e as condições sociais.\n- A **deficiência intelectual** exige déficits no funcionamento **intelectual** e no **comportamento adaptativo**, com início no período do desenvolvimento; não se define só pelo QI.\n\n### Contexto organizacional\n- **Seleção de pessoal**: testes, entrevistas (inclusive por competências), dinâmicas de grupo e provas situacionais.\n- Os instrumentos devem ter relação com o **perfil do cargo**.\n- Avaliação de potencial, de desempenho e de riscos psicossociais.\n\n### Contexto jurídico\n- **Varas de família**: guarda, convivência, **alienação parental** e adoção.\n- **Infância e juventude**: medidas protetivas e socioeducativas.\n- **Penal**: imputabilidade (junto com a psiquiatria), **exame criminológico**.\n- **Cível**: interdição, capacidade e dano psíquico.\n- **Depoimento especial** de crianças e adolescentes vítimas ou testemunhas de violência (Lei 13.431/2017).\n- Atenção à **simulação** e à **dissimulação**.\n\n### Contexto hospitalar e da saúde\nAvaliação pré-cirúrgica, adesão ao tratamento, enfrentamento da doença, cuidados paliativos e risco de suicídio.\n\n### Avaliação de risco de suicídio\nInvestigar **ideação**, **plano**, **meios**, tentativas anteriores, fatores de risco e de proteção. Perguntar sobre o tema **não induz** o comportamento; é medida de proteção.\n\n### Classificações diagnósticas\n- **CID-11** (OMS): classificação internacional de doenças.\n- **DSM-5-TR** (Associação Americana de Psiquiatria): manual de transtornos mentais.\n- Servem à comunicação entre profissionais, mas o diagnóstico **não resume a pessoa**.\n\n### Integração dos dados\n- Buscar **convergências** entre fontes; investigar as divergências.\n- Relacionar os achados à **história** e ao **contexto**.\n- Formular conclusões **proporcionais** aos dados, apontando limites.",
+      "revisao": "**Lembre:**\n- Psicodiagnóstico: avaliação clínica, limitada no tempo.\n- Passos: entrevistas, hipóteses, bateria de testes, integração e devolução.\n- Interventivo: avaliar já é intervir.\n- Neuropsicológica: atenção, memória e funções executivas.\n- Deficiência intelectual exige déficit intelectual e adaptativo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "avaliacao-psicologica-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A avaliação psicológica é definida como:",
+      "opcoes": [
+        "Um processo técnico-científico de coleta e interpretação de informações sobre fenômenos psicológicos",
+        "A simples aplicação de um teste",
+        "Uma conversa informal com o paciente",
+        "Um procedimento que qualquer profissional de saúde pode realizar"
+      ],
+      "correta": 0,
+      "explicacao": "Ela integra várias fontes de informação para subsidiar decisões e é privativa do psicólogo."
+    },
+    {
+      "id": "avaliacao-psicologica-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A relação entre avaliação psicológica e testagem é que:",
+      "opcoes": [
+        "São sinônimos",
+        "A testagem é uma das etapas possíveis da avaliação",
+        "A avaliação é uma etapa da testagem",
+        "A testagem dispensa a entrevista"
+      ],
+      "correta": 1,
+      "explicacao": "A avaliação é o processo amplo, do qual a aplicação de testes pode fazer parte."
+    },
+    {
+      "id": "avaliacao-psicologica-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A primeira escala de inteligência, criada em 1905, é atribuída a:",
+      "opcoes": [
+        "Wechsler",
+        "Rorschach",
+        "Binet e Simon",
+        "Murray"
+      ],
+      "correta": 2,
+      "explicacao": "Ela foi criada para identificar crianças que precisavam de ensino especial na França."
+    },
+    {
+      "id": "avaliacao-psicologica-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma psicóloga recebe um pedido para avaliar uma criança com dificuldades escolares. O primeiro passo adequado é:",
+      "opcoes": [
+        "Aplicar imediatamente um teste de inteligência",
+        "Redigir o laudo",
+        "Encaminhar ao neurologista sem ouvir a família",
+        "Esclarecer a demanda e os objetivos da avaliação"
+      ],
+      "correta": 3,
+      "explicacao": "O planejamento das técnicas depende de entender quem pede a avaliação e para quê."
+    },
+    {
+      "id": "avaliacao-psicologica-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que não se recomenda concluir uma avaliação com base em um único teste?",
+      "opcoes": [
+        "Porque o resultado é um recorte limitado, e a integração de fontes dá mais segurança às conclusões",
+        "Porque os testes nunca são válidos",
+        "Porque a entrevista é proibida",
+        "Porque um teste demora demais para ser aplicado"
+      ],
+      "correta": 0,
+      "explicacao": "Entrevistas, observação e outros dados permitem confirmar ou rever as hipóteses."
+    },
+    {
+      "id": "avaliacao-psicologica-6",
+      "topico": "psicometria",
+      "nivel": "conceitual",
+      "pergunta": "A validade de um teste refere-se a:",
+      "opcoes": [
+        "A consistência dos resultados ao longo do tempo",
+        "O teste medir aquilo que se propõe a medir",
+        "A rapidez da aplicação",
+        "O número de itens do teste"
+      ],
+      "correta": 1,
+      "explicacao": "A consistência dos resultados é a precisão, também chamada de fidedignidade."
+    },
+    {
+      "id": "avaliacao-psicologica-7",
+      "topico": "psicometria",
+      "nivel": "conceitual",
+      "pergunta": "O método que avalia a estabilidade dos resultados aplicando o mesmo teste em dois momentos é o:",
+      "opcoes": [
+        "Alfa de Cronbach",
+        "Análise fatorial",
+        "Teste-reteste",
+        "Validade de conteúdo"
+      ],
+      "correta": 2,
+      "explicacao": "A correlação entre as duas aplicações indica a estabilidade temporal da medida."
+    },
+    {
+      "id": "avaliacao-psicologica-8",
+      "topico": "psicometria",
+      "nivel": "conceitual",
+      "pergunta": "Um resultado no percentil 70 significa que a pessoa:",
+      "opcoes": [
+        "Acertou 70% dos itens",
+        "Errou 70% dos itens",
+        "Tem QI igual a 70",
+        "Obteve escore igual ou superior ao de 70% do grupo normativo"
+      ],
+      "correta": 3,
+      "explicacao": "O percentil indica a posição em relação ao grupo de referência, não o número de acertos."
+    },
+    {
+      "id": "avaliacao-psicologica-9",
+      "topico": "psicometria",
+      "nivel": "aplicacao",
+      "pergunta": "Um teste de seleção é aplicado aos candidatos e, um ano depois, seus escores são comparados com o desempenho no trabalho. Busca-se evidência de validade:",
+      "opcoes": [
+        "De critério preditiva",
+        "De conteúdo",
+        "Aparente",
+        "De critério concorrente"
+      ],
+      "correta": 0,
+      "explicacao": "Na validade concorrente, o critério seria medido na mesma época da aplicação do teste."
+    },
+    {
+      "id": "avaliacao-psicologica-10",
+      "topico": "psicometria",
+      "nivel": "analise",
+      "pergunta": "Por que um teste pode ser preciso e, mesmo assim, não ser válido?",
+      "opcoes": [
+        "Porque a precisão elimina a validade",
+        "Porque pode medir de forma consistente algo diferente do que pretende medir",
+        "Porque testes precisos não têm normas",
+        "Porque a validade depende só do número de itens"
+      ],
+      "correta": 1,
+      "explicacao": "A precisão é condição necessária, mas não suficiente, para a validade."
+    },
+    {
+      "id": "avaliacao-psicologica-11",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "A entrevista que tem roteiro flexível, combinando perguntas previstas e espaço para aprofundar, é a:",
+      "opcoes": [
+        "Estruturada",
+        "Não estruturada",
+        "Semiestruturada",
+        "Devolutiva"
+      ],
+      "correta": 2,
+      "explicacao": "É a modalidade mais usada na prática clínica."
+    },
+    {
+      "id": "avaliacao-psicologica-12",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "O Rorschach e o TAT são exemplos de:",
+      "opcoes": [
+        "Testes de atenção concentrada",
+        "Inventários de autorrelato",
+        "Escalas de inteligência",
+        "Técnicas projetivas"
+      ],
+      "correta": 3,
+      "explicacao": "Eles usam estímulos pouco estruturados, sobre os quais a pessoa projeta aspectos de si."
+    },
+    {
+      "id": "avaliacao-psicologica-13",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "A escala Wechsler destinada à avaliação da inteligência de crianças e adolescentes é o:",
+      "opcoes": [
+        "WISC",
+        "WAIS",
+        "MMPI",
+        "HTP"
+      ],
+      "correta": 0,
+      "explicacao": "O WAIS é a versão destinada a adultos; ambas fornecem o QI total e índices fatoriais."
+    },
+    {
+      "id": "avaliacao-psicologica-14",
+      "topico": "instrumentos",
+      "nivel": "aplicacao",
+      "pergunta": "Ao final de um psicodiagnóstico, a psicóloga se reúne com o paciente para explicar os resultados e indicar encaminhamentos. Essa é a entrevista:",
+      "opcoes": [
+        "De triagem",
+        "Devolutiva",
+        "De anamnese",
+        "Lúdica"
+      ],
+      "correta": 1,
+      "explicacao": "Receber a devolução dos resultados é um direito de quem foi avaliado."
+    },
+    {
+      "id": "avaliacao-psicologica-15",
+      "topico": "instrumentos",
+      "nivel": "analise",
+      "pergunta": "Qual é uma limitação importante dos inventários de personalidade de autorrelato?",
+      "opcoes": [
+        "A impossibilidade de corrigi-los objetivamente",
+        "A ausência de normas",
+        "A possibilidade de a pessoa responder conforme o que considera socialmente desejável",
+        "A necessidade de estímulos ambíguos"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso alguns inventários incluem escalas de validade das respostas."
+    },
+    {
+      "id": "avaliacao-psicologica-16",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "O sistema do Conselho Federal de Psicologia que avalia a qualidade dos testes psicológicos é o:",
+      "opcoes": [
+        "CREPOP",
+        "SUAS",
+        "DSM",
+        "SATEPSI"
+      ],
+      "correta": 3,
+      "explicacao": "Somente testes com parecer favorável podem ser usados na prática profissional."
+    },
+    {
+      "id": "avaliacao-psicologica-17",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "Os testes psicológicos são de uso:",
+      "opcoes": [
+        "Privativo do psicólogo",
+        "Livre para qualquer profissional de saúde",
+        "Exclusivo de médicos psiquiatras",
+        "Permitido a recrutadores sem formação"
+      ],
+      "correta": 0,
+      "explicacao": "A restrição protege a validade dos instrumentos e a qualidade da avaliação."
+    },
+    {
+      "id": "avaliacao-psicologica-18",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o Código de Ética, o psicólogo pode quebrar o sigilo:",
+      "opcoes": [
+        "Sempre que alguém da família pedir",
+        "Em situações excepcionais, buscando o menor prejuízo e informando só o estritamente necessário",
+        "Nunca, em hipótese alguma",
+        "Sempre que a empresa contratante solicitar"
+      ],
+      "correta": 1,
+      "explicacao": "O sigilo é a regra, e sua quebra exige ponderação cuidadosa."
+    },
+    {
+      "id": "avaliacao-psicologica-19",
+      "topico": "etica",
+      "nivel": "aplicacao",
+      "pergunta": "Um psicólogo de recursos humanos quer usar um teste que encontrou na internet, sem parecer do SATEPSI. Ele:",
+      "opcoes": [
+        "Pode usá-lo livremente",
+        "Pode usá-lo se a empresa autorizar",
+        "Não pode usá-lo na prática profissional, pois comete falta ética",
+        "Pode usá-lo se o candidato concordar"
+      ],
+      "correta": 2,
+      "explicacao": "Testes sem parecer favorável só podem ser empregados em pesquisa."
+    },
+    {
+      "id": "avaliacao-psicologica-20",
+      "topico": "etica",
+      "nivel": "analise",
+      "pergunta": "Por que é vedado ao psicólogo divulgar ou ensinar testes psicológicos a pessoas leigas?",
+      "opcoes": [
+        "Porque os testes não têm valor científico",
+        "Porque os leigos aplicariam melhor",
+        "Porque os testes são gratuitos",
+        "Porque o conhecimento prévio dos itens compromete a validade dos resultados"
+      ],
+      "correta": 3,
+      "explicacao": "Quem conhece o teste de antemão pode treinar as respostas e distorcer a avaliação."
+    },
+    {
+      "id": "avaliacao-psicologica-21",
+      "topico": "documentos",
+      "nivel": "conceitual",
+      "pergunta": "O documento que resulta de um processo de avaliação psicológica e traz análise e conclusão é o:",
+      "opcoes": [
+        "Laudo psicológico",
+        "Declaração",
+        "Parecer",
+        "Recibo"
+      ],
+      "correta": 0,
+      "explicacao": "Sua finalidade é subsidiar decisões relacionadas ao contexto em que surgiu a demanda."
+    },
+    {
+      "id": "avaliacao-psicologica-22",
+      "topico": "documentos",
+      "nivel": "conceitual",
+      "pergunta": "A declaração psicológica serve para:",
+      "opcoes": [
+        "Apresentar diagnóstico e prognóstico",
+        "Registrar informações objetivas, como o comparecimento ao atendimento",
+        "Responder a uma questão teórica",
+        "Certificar um estado psicológico"
+      ],
+      "correta": 1,
+      "explicacao": "Ela não deve conter sintomas, situações ou estados psicológicos."
+    },
+    {
+      "id": "avaliacao-psicologica-23",
+      "topico": "documentos",
+      "nivel": "conceitual",
+      "pergunta": "O parecer psicológico é:",
+      "opcoes": [
+        "O resultado de um psicodiagnóstico",
+        "Um comprovante de comparecimento",
+        "Uma resposta técnica a uma questão-problema, sem avaliação da pessoa",
+        "Um documento de equipe multiprofissional"
+      ],
+      "correta": 2,
+      "explicacao": "Trata-se de uma manifestação de especialista sobre uma questão ou sobre outro documento."
+    },
+    {
+      "id": "avaliacao-psicologica-24",
+      "topico": "documentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente precisa de um documento para justificar ao empregador que esteve em sessão de psicoterapia na terça à tarde. O adequado é:",
+      "opcoes": [
+        "Um laudo",
+        "Um parecer",
+        "Um relatório multiprofissional",
+        "Uma declaração"
+      ],
+      "correta": 3,
+      "explicacao": "Basta informar o fato objetivo do comparecimento, sem expor dados clínicos."
+    },
+    {
+      "id": "avaliacao-psicologica-25",
+      "topico": "documentos",
+      "nivel": "analise",
+      "pergunta": "Por que os documentos psicológicos não devem trazer afirmações definitivas sobre a pessoa avaliada?",
+      "opcoes": [
+        "Porque os fenômenos psicológicos são dinâmicos e podem mudar com o tempo e o contexto",
+        "Porque o psicólogo não pode tirar conclusões",
+        "Porque os documentos não têm valor legal",
+        "Porque os testes não medem nada"
+      ],
+      "correta": 0,
+      "explicacao": "Daí a importância de indicar a validade temporal das conclusões."
+    },
+    {
+      "id": "avaliacao-psicologica-26",
+      "topico": "psicodiagnostico",
+      "nivel": "conceitual",
+      "pergunta": "O psicodiagnóstico é uma avaliação psicológica:",
+      "opcoes": [
+        "Sem objetivo definido",
+        "Com finalidade clínica e limitada no tempo",
+        "Exclusiva do contexto organizacional",
+        "Que dispensa a devolução dos resultados"
+      ],
+      "correta": 1,
+      "explicacao": "Ele busca compreender o caso e orientar os encaminhamentos."
+    },
+    {
+      "id": "avaliacao-psicologica-27",
+      "topico": "psicodiagnostico",
+      "nivel": "conceitual",
+      "pergunta": "A avaliação neuropsicológica investiga principalmente:",
+      "opcoes": [
+        "A orientação vocacional",
+        "Os interesses profissionais",
+        "Funções cognitivas como atenção, memória e funções executivas",
+        "O clima organizacional"
+      ],
+      "correta": 2,
+      "explicacao": "Ela relaciona o funcionamento cerebral ao comportamento e orienta a reabilitação."
+    },
+    {
+      "id": "avaliacao-psicologica-28",
+      "topico": "psicodiagnostico",
+      "nivel": "conceitual",
+      "pergunta": "No psicodiagnóstico interventivo:",
+      "opcoes": [
+        "Não há entrevistas",
+        "A devolução é proibida",
+        "Só se aplicam testes projetivos",
+        "O próprio processo de avaliação já é usado como oportunidade de intervenção"
+      ],
+      "correta": 3,
+      "explicacao": "As devolutivas ocorrem ao longo do processo, e não apenas ao final."
+    },
+    {
+      "id": "avaliacao-psicologica-29",
+      "topico": "psicodiagnostico",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança obteve QI abaixo da média em um teste. Para concluir por deficiência intelectual, a psicóloga também precisa avaliar:",
+      "opcoes": [
+        "O comportamento adaptativo e a época de início das dificuldades",
+        "Apenas a renda da família",
+        "Somente as notas da escola",
+        "A preferência da criança por brincadeiras"
+      ],
+      "correta": 0,
+      "explicacao": "O diagnóstico não se baseia apenas no QI."
+    },
+    {
+      "id": "avaliacao-psicologica-30",
+      "topico": "psicodiagnostico",
+      "nivel": "analise",
+      "pergunta": "Por que o psicólogo que atende uma das partes em psicoterapia não deve atuar como perito no processo judicial dessa pessoa?",
+      "opcoes": [
+        "Porque peritos não podem ser psicólogos",
+        "Porque o vínculo terapêutico compromete a imparcialidade exigida da perícia",
+        "Porque a psicoterapia é ilegal durante o processo",
+        "Porque o perito decide a causa"
+      ],
+      "correta": 1,
+      "explicacao": "O Código de Ética veda a perícia quando vínculos anteriores podem afetar o trabalho."
+    }
+  ]
+}

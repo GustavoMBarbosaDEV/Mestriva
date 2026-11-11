@@ -1,0 +1,465 @@
+{
+  "id": "psicologia-organizacional",
+  "nome": "Psicologia Organizacional e do Trabalho",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "campo",
+      "nome": "O campo e sua história",
+      "resumo": "### O que é\nA **Psicologia Organizacional e do Trabalho (POT)** estuda o **comportamento humano no trabalho e nas organizações** e intervém para promover **saúde, bem-estar e desempenho**. Olha para a pessoa, para o grupo, para a organização e para as relações entre trabalho e sociedade.\n\n### Três fases históricas\n1. **Psicologia Industrial** (início do século XX): foco em **selecionar e colocar** o trabalhador certo no lugar certo e aumentar a produtividade. Ligada à **administração científica de Taylor**. Nomes: **Hugo Münsterberg** (considerado o fundador) e Walter Dill Scott. Uso de testes psicológicos, impulsionado pelas guerras.\n2. **Psicologia Organizacional** (a partir dos anos 1930 a 1960): o foco se amplia para **grupos, motivação, liderança e clima**. Marco: os **estudos de Hawthorne** (Elton Mayo), que mostraram o peso dos **fatores sociais e dos grupos informais** na produção — a Escola das **Relações Humanas**.\n3. **Psicologia do Trabalho** (a partir dos anos 1970 e 1980): o **trabalho** em si, e não só a organização, vira objeto; ganham espaço a **saúde do trabalhador**, o sentido do trabalho e a crítica às formas de organização.\n\n### Três subcampos (Zanelli e Bastos)\n- **Psicologia do Trabalho**: saúde, ergonomia, sentidos do trabalho, emprego e desemprego.\n- **Psicologia Organizacional**: comportamento, cultura, clima, poder e mudança.\n- **Gestão de Pessoas**: recrutamento, seleção, treinamento, avaliação e carreira.\n\n### O trabalho\n- Tem papel **central** na vida: fonte de sustento, **identidade**, vínculos sociais e sentido.\n- **Trabalho x emprego**: trabalho é a atividade humana de transformação; emprego é uma forma de vínculo, com contrato e salário.\n- **Sentido e significado** do trabalho (grupo MOW; Morin): um trabalho tem sentido quando é útil, permite aprender, dá autonomia, é feito em boas relações e é moralmente aceitável.\n\n### Modelos de organização do trabalho\n- **Taylorismo**: separação entre quem **planeja** e quem **executa**; divisão de tarefas, tempos e movimentos.\n- **Fordismo**: linha de montagem e produção em massa.\n- **Toyotismo** (modelo japonês): produção flexível, *just in time*, trabalho em equipe e polivalência.\n- **Reestruturação produtiva**: terceirização, flexibilização, trabalho por plataformas e **precarização**.\n- **Teletrabalho** e trabalho híbrido.\n\n### Papel do psicólogo\n- **Tradicional (técnico)**: recrutar, selecionar, treinar e avaliar.\n- **Estratégico**: participar das decisões da organização, diagnosticar e conduzir mudanças.\n- **Compromisso ético**: conciliar os interesses da organização com a **saúde e a dignidade** do trabalhador; o psicólogo não é mero instrumento de controle.\n- Atua em empresas, órgãos públicos, sindicatos, cooperativas, consultorias e serviços de saúde do trabalhador.\n\n### Abordagens críticas\n- **Psicologia Social do Trabalho**: olha para o trabalhador e as relações de poder, incluindo o trabalho informal e o desemprego.\n- **Clínicas do trabalho**: psicodinâmica do trabalho, clínica da atividade e ergologia.",
+      "revisao": "**Lembre:**\n- POT: comportamento humano no trabalho, com foco em saúde e desempenho.\n- Fases: industrial (seleção), organizacional (grupos) e do trabalho (saúde).\n- Hawthorne mostrou o peso dos fatores sociais.\n- Taylorismo separa quem planeja de quem executa.\n- Subcampos: trabalho, organizações e gestão de pessoas."
+    },
+    {
+      "id": "selecao",
+      "nome": "Análise do trabalho, recrutamento e seleção",
+      "resumo": "### Análise e descrição de cargos\n- **Descrição do cargo**: **o que** o ocupante faz, **como** e **por quê** (tarefas e responsabilidades).\n- **Especificação (análise)**: **requisitos** exigidos da pessoa (escolaridade, experiência, habilidades, condições físicas).\n- Métodos: observação, entrevista e questionário.\n- Serve de base para seleção, treinamento, avaliação e remuneração.\n- **Desenho de cargos**: rotação, **ampliação** (mais tarefas de mesmo nível) e **enriquecimento** (mais autonomia e responsabilidade).\n\n### Gestão por competências\n**Competência** = **C**onhecimentos (saber), **H**abilidades (saber fazer) e **A**titudes (querer fazer): o **CHA**.\n- **Competências organizacionais** (essenciais, do negócio) e **individuais**.\n- **Mapeamento**: identifica a **lacuna** (*gap*) entre as competências necessárias e as existentes.\n\n### Recrutamento\nProcesso de **atrair candidatos** qualificados.\n- **Interno**: divulga a vaga aos empregados. Vantagens: **mais rápido e barato**, **motiva** e aproveita quem já conhece a empresa. Desvantagens: não traz ideias novas, pode gerar conflitos e frustração.\n- **Externo**: busca no mercado. Vantagens: **renova** e traz experiência nova. Desvantagens: mais caro e demorado, menos seguro, pode desmotivar os internos.\n- **Misto**: combina os dois.\n- Fontes: sites de emprego, redes sociais, indicações, universidades, agências e *headhunters*.\n\n### Seleção\nProcesso de **escolher**, entre os recrutados, quem tem mais chance de se ajustar ao cargo e à organização. Técnicas:\n- **Triagem de currículos**.\n- **Entrevista**: a técnica mais usada.\n  - **Não estruturada**, **estruturada** (mesmas perguntas a todos; mais válida) e **semiestruturada**.\n  - **Comportamental (por competências)**: pergunta sobre **situações reais do passado** (\"conte uma vez em que...\"), partindo da ideia de que o comportamento passado prediz o futuro. Método **STAR**: situação, tarefa, ação e resultado.\n  - **Situacional**: propõe casos hipotéticos.\n- **Provas de conhecimento** e de capacidade.\n- **Testes psicológicos**: de uso **privativo do psicólogo** e com parecer favorável do **SATEPSI**.\n- **Dinâmicas de grupo** e **técnicas de simulação** (dramatização, provas situacionais).\n- ***Assessment center***: conjunto de exercícios observados por vários avaliadores.\n\n### Vieses do entrevistador\n**Efeito halo**, primeira impressão, estereótipos, semelhança (\"gostei porque é parecido comigo\") e contraste entre candidatos. A estruturação reduz esses erros.\n\n### Qualidade do processo\n- **Validade preditiva**: o quanto a técnica prevê o desempenho futuro.\n- **Devolutiva** aos candidatos: prática ética recomendada.\n- **Vedada a discriminação** por sexo, origem, raça, cor, estado civil, idade, deficiência, entre outros (Lei 9.029/1995). É proibido exigir teste de gravidez.\n- Inclusão: **Lei de Cotas** para pessoas com deficiência (Lei 8.213/1991).\n\n### Integração (socialização organizacional)\nAcolhe o novo empregado (*onboarding*): apresenta a cultura, as normas e a equipe. Reduz a ansiedade e a rotatividade inicial.\n\n### Indicadores\n- **Rotatividade (*turnover*)**: entrada e saída de pessoas.\n- **Absenteísmo**: faltas e atrasos.\n- **Entrevista de desligamento**: investiga os motivos da saída.",
+      "revisao": "**Lembre:**\n- Descrição: o que o cargo faz; especificação: o que exige da pessoa.\n- Competência = conhecimentos, habilidades e atitudes (CHA).\n- Recrutamento atrai; seleção escolhe.\n- Interno: rápido e motivador; externo: renova, mas custa mais.\n- Entrevista comportamental pergunta sobre situações reais do passado."
+    },
+    {
+      "id": "desenvolvimento",
+      "nome": "Treinamento, desenvolvimento e avaliação de desempenho",
+      "resumo": "### TD&E\n**Treinamento, desenvolvimento e educação**: ações organizadas para promover aprendizagem.\n- **Treinamento**: voltado ao **cargo atual**, de **curto prazo**.\n- **Desenvolvimento**: voltado ao **crescimento da pessoa** e a cargos futuros, de médio e longo prazo.\n- **Educação**: formação mais ampla; **educação corporativa** e universidades corporativas.\n\n### Ciclo do treinamento (quatro etapas)\n1. **Levantamento de necessidades (LNT)**: diagnóstico em três níveis — **organizacional** (objetivos e estratégia), **de tarefas** (o que o cargo exige) e **individual** (o que falta à pessoa).\n2. **Planejamento (programação)**: quem treinar, em quê, como, onde, quando e por quem; define objetivos instrucionais.\n3. **Execução**.\n4. **Avaliação**.\n\n### Avaliação de treinamento (Kirkpatrick)\n1. **Reação**: os participantes gostaram?\n2. **Aprendizagem**: aprenderam?\n3. **Comportamento** (impacto no cargo): **aplicam** no trabalho?\n4. **Resultados**: houve ganho para a organização?\n- Phillips acrescenta o **retorno sobre o investimento (ROI)**.\n- **Transferência de treinamento**: aplicar no trabalho o que foi aprendido; depende do **suporte** da chefia e da organização.\n\n### Métodos\n- **No local de trabalho** (*on the job*): rotação de cargos, orientação da chefia.\n- **Fora do local de trabalho**: aulas, estudos de caso, dramatização, jogos e simulações.\n- **Educação a distância** (*e-learning*).\n- ***Coaching***: processo orientado a **metas e desempenho**, de prazo definido.\n- ***Mentoring***: orientação mais ampla de **carreira**, por alguém mais experiente.\n\n### Aprendizagem organizacional\n- **Organizações que aprendem** (Senge): domínio pessoal, modelos mentais, visão compartilhada, aprendizagem em equipe e **pensamento sistêmico**.\n- **Gestão do conhecimento**: conhecimento **tácito** (da experiência, difícil de expressar) e **explícito** (registrado); espiral de Nonaka e Takeuchi.\n\n### Avaliação de desempenho\nApreciação sistemática do desempenho da pessoa no cargo e de seu potencial. Serve para dar ***feedback***, orientar treinamento, promoções e remuneração.\n\n**Métodos tradicionais**\n- **Escalas gráficas**: fatores avaliados em graus; simples, mas sujeitas a subjetividade.\n- **Escolha forçada**: o avaliador escolhe frases que mais e menos descrevem o avaliado; reduz o efeito halo.\n- **Incidentes críticos**: registra comportamentos **extremamente** positivos ou negativos.\n- **Pesquisa de campo** e **comparação aos pares**.\n\n**Métodos modernos**\n- **Avaliação por objetivos (APO)**: metas negociadas entre chefe e subordinado.\n- **Avaliação 360 graus**: a pessoa é avaliada por **todos ao redor** — chefe, pares, subordinados, clientes e por si mesma.\n- **Avaliação por competências**.\n- **Autoavaliação**.\n\n### Erros de avaliação\n- **Efeito halo**: uma característica contamina as demais.\n- **Tendência central**: avaliar todos na média.\n- **Leniência** (complacência) e **rigor** excessivo.\n- **Recenticidade**: considerar só os fatos mais recentes.\n- **Erro de semelhança**, preconceitos e primeira impressão.\n\n### *Feedback*\nDeve ser **específico**, **descritivo** (sobre comportamentos, não sobre a pessoa), **oportuno** e voltado ao que pode ser **mudado**.\n\n### Carreira\n- **Carreira tradicional** (linear, na mesma empresa) x **proteana** (dirigida pela própria pessoa) e **sem fronteiras**.\n- **Âncoras de carreira** (Schein): competência técnica, gerência, autonomia, segurança, criatividade empreendedora, serviço, desafio puro e estilo de vida.\n- **Plano de carreira**, sucessão e **empregabilidade**.\n- **Orientação profissional** e preparação para a **aposentadoria**.\n\n### Remuneração e recompensas\nRemuneração fixa e variável, benefícios e reconhecimento; devem ser percebidos como **justos** (equidade interna e externa).",
+      "revisao": "**Lembre:**\n- Treinamento: cargo atual; desenvolvimento: crescimento futuro.\n- Ciclo: levantamento de necessidades, planejamento, execução e avaliação.\n- Kirkpatrick: reação, aprendizagem, comportamento e resultados.\n- 360 graus: avaliação por chefe, pares, subordinados e clientes.\n- Erros: halo, tendência central, leniência e recenticidade."
+    },
+    {
+      "id": "comportamento",
+      "nome": "Motivação, liderança, clima e cultura",
+      "resumo": "### Motivação no trabalho\n- **Maslow**: hierarquia das necessidades (fisiológicas, segurança, sociais, estima e autorrealização).\n- **Herzberg**: fatores **higiênicos** (salário, condições: evitam a insatisfação) e **motivacionais** (reconhecimento, responsabilidade: geram satisfação).\n- **McClelland**: realização, poder e afiliação.\n- **McGregor**: Teoria X (o trabalhador evita o trabalho) e Teoria Y (busca responsabilidade).\n- **Vroom**: expectância × instrumentalidade × valência.\n- **Adams**: equidade.\n- **Locke**: metas específicas e desafiadoras.\n\n### Satisfação e vínculos\n- **Satisfação no trabalho**: vínculo afetivo com o trabalho; dimensões como chefia, colegas, salário, promoções e a natureza do trabalho.\n- **Comprometimento organizacional** (Meyer e Allen): **afetivo** (deseja ficar), **instrumental** (precisa ficar) e **normativo** (sente obrigação).\n- **Envolvimento com o trabalho** e **engajamento**.\n- **Contrato psicológico**: expectativas **não escritas** entre empregado e organização; sua quebra gera desconfiança.\n- **Cidadania organizacional**: comportamentos espontâneos que vão além do cargo.\n- **Percepção de suporte** e de **justiça organizacional** (distributiva, procedimental e interacional).\n\n### Liderança\n- **Traços**: características do líder.\n- **Estilos**: autocrático, democrático e liberal.\n- **Situacional** (Hersey e Blanchard): conforme a maturidade dos liderados.\n- **Transacional** (trocas) e **transformacional** (inspira).\n- **Poder** (French e Raven): coercitivo, de recompensa, legítimo, de especialista e de referência.\n\n### Grupos e equipes\n- Equipe: **sinergia**, habilidades complementares e responsabilidade compartilhada.\n- Desenvolvimento de equipes, comunicação e gestão de **conflitos** (competição, colaboração, evitamento, acomodação e compromisso).\n\n### Cultura organizacional\nConjunto de **valores, crenças e pressupostos compartilhados**. **Schein**: **artefatos** (visíveis), **valores** declarados e **pressupostos básicos** (inconscientes).\n- Transmitida por histórias, rituais, símbolos e linguagem.\n- É **profunda e estável**; difícil de mudar.\n\n### Clima organizacional\n**Percepção coletiva** dos empregados sobre o ambiente de trabalho em um dado momento.\n- É mais **superficial e mutável** do que a cultura.\n- Medido por **pesquisa de clima**: questionário anônimo sobre liderança, comunicação, reconhecimento, condições de trabalho e relações.\n- A pesquisa só faz sentido se houver **devolução dos resultados** e **plano de ação**; do contrário, gera descrédito.\n\n| | Cultura | Clima |\n|---|---|---|\n| Natureza | Valores e pressupostos | Percepções e sentimentos |\n| Profundidade | Profunda | Superficial |\n| Mudança | Lenta | Rápida |\n| Estudo | Qualitativo, histórico | Pesquisa por questionário |\n\n### Mudança e desenvolvimento organizacional\n- **Lewin**: descongelar, mudar e recongelar.\n- **Resistência à mudança**: reduzida com comunicação, participação e apoio.\n- **Desenvolvimento organizacional (DO)**: mudança planejada, com diagnóstico, intervenção e avaliação.\n- **Diagnóstico organizacional**: entrevistas, questionários, observação e análise de documentos.\n\n### Diversidade e inclusão\nGênero, raça, idade, orientação sexual e deficiência. A inclusão vai além de contratar: exige condições de permanência e de crescimento.\n\n### Poder e política\nAs organizações são espaços de disputa de interesses; o psicólogo precisa reconhecer essas relações em seu trabalho.",
+      "revisao": "**Lembre:**\n- Herzberg: higiênicos evitam insatisfação; motivacionais satisfazem.\n- Comprometimento: afetivo, instrumental e normativo.\n- Contrato psicológico: expectativas não escritas.\n- Cultura é profunda e estável; clima é percepção do momento.\n- Pesquisa de clima exige devolução e plano de ação."
+    },
+    {
+      "id": "saude",
+      "nome": "Saúde mental e trabalho",
+      "resumo": "### Trabalho e saúde\nO trabalho pode ser fonte de **prazer e saúde** ou de **sofrimento e adoecimento**, conforme sua organização e suas condições.\n- **Condições de trabalho**: ambiente físico, químico e biológico; afetam sobretudo o **corpo**.\n- **Organização do trabalho**: divisão das tarefas, ritmo, hierarquia e controle; afeta sobretudo o **funcionamento psíquico** (Dejours).\n\n### Psicodinâmica do trabalho (Christophe Dejours)\n- Estuda a relação entre **prazer e sofrimento** no trabalho.\n- **Trabalho prescrito** (o que é mandado) x **trabalho real** (o que de fato é feito): trabalhar é preencher essa distância com inteligência e criatividade.\n- **Sofrimento criativo**: transformado em prazer e realização.\n- **Sofrimento patogênico**: quando não há espaço para negociar com a organização do trabalho.\n- **Estratégias defensivas**, individuais e **coletivas**: protegem do sofrimento, mas podem encobrir o problema.\n- **Reconhecimento**: dos pares e da hierarquia; transforma o sofrimento em prazer e sustenta a identidade.\n\n### Outras abordagens\n- **Ergonomia**: adaptar o **trabalho ao ser humano**, e não o contrário; **física**, **cognitiva** e **organizacional**; distingue **tarefa** (prescrita) e **atividade** (real). NR-17.\n- **Clínica da atividade** (Yves Clot): o \"poder de agir\" e o gênero profissional.\n- **Epidemiologia e saúde do trabalhador**: nexo entre trabalho e adoecimento.\n\n### Estresse ocupacional\nResposta a demandas do trabalho que excedem os recursos da pessoa.\n- **Estressores**: sobrecarga, pressão de tempo, falta de controle, ambiguidade e conflito de papéis, insegurança e relações ruins.\n- **Modelo demanda-controle** (Karasek): o maior risco está em **alta demanda com baixo controle** (trabalho de alto desgaste); o **apoio social** protege.\n- **Modelo desequilíbrio esforço-recompensa** (Siegrist): muito esforço e pouca recompensa.\n- **Eustresse** (positivo) e **distresse** (negativo).\n\n### Síndrome de *burnout*\n**Esgotamento profissional** decorrente de estresse **crônico** no trabalho. Três dimensões (Maslach):\n1. **Exaustão emocional**.\n2. **Despersonalização** (cinismo, distanciamento das pessoas atendidas).\n3. **Baixa realização profissional**.\n- Na **CID-11**, é fenômeno ligado ao **contexto ocupacional**.\n- Mais comum em profissões de cuidado: saúde, educação e segurança.\n\n### Assédio moral\n**Exposição repetida e prolongada** a situações **humilhantes e constrangedoras** no trabalho, que atingem a dignidade.\n- **Vertical descendente** (do chefe ao subordinado; o mais comum), **vertical ascendente**, **horizontal** (entre colegas) e **misto**.\n- **Organizacional**: quando a humilhação faz parte do modo de gestão (metas abusivas, exposição de resultados).\n- Um conflito isolado **não** é assédio: exige **repetição**.\n- **Assédio sexual**: constrangimento com conotação sexual; é crime quando há superioridade hierárquica.\n\n### Outros agravos\n- **LER/DORT**: lesões por esforços repetitivos.\n- **Transtornos mentais relacionados ao trabalho**: depressão, ansiedade e estresse pós-traumático.\n- **Karoshi**: morte por excesso de trabalho.\n- **Presenteísmo**: trabalhar doente, com baixa produtividade.\n- **Workaholism**: adição ao trabalho.\n- Uso de álcool e outras drogas.\n\n### Qualidade de vida no trabalho (QVT)\n- **Modelo de Walton** (oito critérios): compensação justa e adequada; condições de trabalho; uso e desenvolvimento de capacidades; oportunidade de crescimento e segurança; integração social; constitucionalismo (direitos); trabalho e espaço total de vida; relevância social.\n- **Hackman e Oldham**: variedade, identidade e significado da tarefa, autonomia e *feedback*.\n- **QVT assistencialista** (ginástica, massagem: atenua sintomas) x **preventiva** (muda as causas na organização do trabalho).\n\n### Prevenção e promoção\n- **Riscos psicossociais**: devem ser identificados e gerenciados (NR-1).\n- **Primária**: mudar a organização do trabalho. **Secundária**: detectar cedo. **Terciária**: tratar e reabilitar.\n- **Programas de assistência ao empregado**, **CIPA**, **SESMT** e **CEREST** (SUS).\n- **Retorno ao trabalho** e reabilitação profissional.\n\n### Desemprego e aposentadoria\nO desemprego afeta a autoestima, a identidade e a saúde mental. Programas de **preparação para a aposentadoria** ajudam na transição.",
+      "revisao": "**Lembre:**\n- Dejours: trabalho prescrito x real; reconhecimento transforma sofrimento em prazer.\n- Organização do trabalho afeta o psiquismo; condições, o corpo.\n- Karasek: alta demanda com baixo controle adoece.\n- Burnout: exaustão, despersonalização e baixa realização.\n- Assédio moral exige humilhação repetida e prolongada."
+    },
+    {
+      "id": "atuacao",
+      "nome": "Atuação, ética e temas atuais",
+      "resumo": "### Ética na POT\nO **Código de Ética Profissional do Psicólogo** vale em qualquer contexto.\n- O psicólogo deve **considerar as relações de poder** nos contextos em que atua e seus impactos, posicionando-se de forma crítica.\n- É vedado ser **conivente** com práticas de **negligência, discriminação, exploração, violência ou opressão**.\n- **Sigilo**: os dados da avaliação pertencem ao avaliado; à organização se informa apenas o **necessário à decisão** (apto ou não, perfil compatível), sem expor a intimidade.\n- Em equipes multiprofissionais, compartilha-se só o que é **relevante** ao serviço.\n- O psicólogo não pode usar técnicas para **prejudicar** o trabalhador nem para fins de perseguição.\n- **Testes psicológicos**: uso privativo e apenas os aprovados pelo SATEPSI; exige condições adequadas de aplicação.\n- **Devolutiva**: direito do candidato ou empregado avaliado.\n\n### Dilemas frequentes\n- Quem é o cliente: a **organização** que contrata ou o **trabalhador**? O compromisso ético é com a saúde e a dignidade das pessoas.\n- Pedidos de **quebra de sigilo** por gestores.\n- Uso da avaliação para **justificar demissões** já decididas.\n- Seleção com critérios **discriminatórios**.\n\n### Diagnóstico e intervenção\n1. **Demanda**: entender o pedido e o que está por trás dele.\n2. **Diagnóstico**: entrevistas, grupos, observação, questionários e documentos.\n3. **Planejamento** da intervenção, com os envolvidos.\n4. **Intervenção**: treinamento, grupos, mudança de processos, mediação.\n5. **Avaliação** dos resultados.\n- **Consultoria interna** x **externa**; consultoria de **processos** (ajuda o cliente a resolver) x de **especialista** (traz a solução).\n\n### Subsistemas de gestão de pessoas (Chiavenato)\n**Agregar** (recrutar e selecionar), **aplicar** (desenhar cargos e avaliar), **recompensar**, **desenvolver**, **manter** (saúde, segurança e relações) e **monitorar** (informações) pessoas.\n\n### Saúde e segurança\n- **CIPA**: comissão interna de prevenção de acidentes e de assédio.\n- **SESMT**: serviço especializado em segurança e medicina do trabalho.\n- **Acidente de trabalho**: causas ligadas a **condições inseguras** e à organização do trabalho; evita-se culpar apenas o \"ato inseguro\" do trabalhador.\n- **PCMSO** e **PGR**.\n\n### Temas atuais\n- **Teletrabalho e trabalho híbrido**: flexibilidade, mas risco de isolamento, sobrecarga e mistura entre vida pessoal e trabalho; **direito à desconexão**.\n- **Trabalho por plataformas** (uberização): autonomia aparente, sem proteção social.\n- **Diversidade, equidade e inclusão**.\n- **Gerações** no trabalho.\n- **Inteligência artificial** e automação em seleção e gestão: riscos de vieses e de vigilância.\n- **Saúde mental** como pauta estratégica.\n- **Liderança humanizada** e segurança psicológica (Edmondson): ambiente em que se pode falar e errar sem medo de punição.\n- **Sustentabilidade** e responsabilidade social.\n\n### Outros contextos de atuação\n- **Setor público**: concursos, estágio probatório, avaliação de desempenho, saúde do servidor.\n- **Sindicatos e cooperativas**; **economia solidária**.\n- **Orientação profissional e de carreira**.\n- **Reabilitação profissional** e inclusão de pessoas com deficiência.\n- **Trânsito** e avaliação para porte de arma.\n\n### Pesquisa em POT\nLevantamentos (*surveys*) com escalas validadas, estudos de caso, pesquisa-ação e grupos focais. Medidas brasileiras de clima, satisfação, comprometimento e suporte organizacional.\n\n### Competências do psicólogo organizacional\nConhecimento técnico, visão do negócio, capacidade de diagnóstico, comunicação, trabalho em equipe multiprofissional e postura ética.",
+      "revisao": "**Lembre:**\n- O Código de Ética vale também na empresa.\n- À organização se informa só o necessário à decisão.\n- Devolutiva é direito de quem foi avaliado.\n- Intervenção: demanda, diagnóstico, planejamento, ação e avaliação.\n- Segurança psicológica: falar e errar sem medo de punição."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "psicologia-organizacional-1",
+      "topico": "campo",
+      "nivel": "conceitual",
+      "pergunta": "Os estudos de Hawthorne, conduzidos por Elton Mayo, evidenciaram:",
+      "opcoes": [
+        "A influência dos fatores sociais e dos grupos informais na produtividade",
+        "Que só o salário determina a produção",
+        "Que a iluminação é o principal fator de desempenho",
+        "Que os grupos informais não existem nas fábricas"
+      ],
+      "correta": 0,
+      "explicacao": "Eles deram origem à Escola das Relações Humanas e ampliaram o foco da psicologia industrial."
+    },
+    {
+      "id": "psicologia-organizacional-2",
+      "topico": "campo",
+      "nivel": "conceitual",
+      "pergunta": "A primeira fase da psicologia aplicada ao trabalho, chamada Psicologia Industrial, tinha como foco:",
+      "opcoes": [
+        "A saúde mental do trabalhador",
+        "Selecionar trabalhadores e aumentar a produtividade",
+        "A crítica à organização do trabalho",
+        "A economia solidária"
+      ],
+      "correta": 1,
+      "explicacao": "Ela estava ligada à administração científica e ao uso de testes para colocar a pessoa certa no lugar certo."
+    },
+    {
+      "id": "psicologia-organizacional-3",
+      "topico": "campo",
+      "nivel": "conceitual",
+      "pergunta": "No taylorismo, a organização do trabalho se caracteriza por:",
+      "opcoes": [
+        "Dar total autonomia ao operário",
+        "Eliminar a divisão de tarefas",
+        "Separar quem planeja de quem executa as tarefas",
+        "Organizar o trabalho em equipes polivalentes"
+      ],
+      "correta": 2,
+      "explicacao": "A polivalência e o trabalho em equipe são marcas do modelo japonês, o toyotismo."
+    },
+    {
+      "id": "psicologia-organizacional-4",
+      "topico": "campo",
+      "nivel": "aplicacao",
+      "pergunta": "Um psicólogo é chamado por uma empresa para investigar o alto número de afastamentos por adoecimento mental ligado ao ritmo de trabalho. Essa demanda pertence principalmente ao subcampo da:",
+      "opcoes": [
+        "Seleção de pessoal",
+        "Remuneração",
+        "Orientação vocacional",
+        "Psicologia do Trabalho"
+      ],
+      "correta": 3,
+      "explicacao": "Esse subcampo trata da saúde do trabalhador e das formas de organização do trabalho."
+    },
+    {
+      "id": "psicologia-organizacional-5",
+      "topico": "campo",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que o psicólogo organizacional não deve ser um mero instrumento de controle a serviço da empresa?",
+      "opcoes": [
+        "Porque seu compromisso ético inclui a saúde e a dignidade dos trabalhadores, além dos objetivos da organização",
+        "Porque ele não é contratado pela empresa",
+        "Porque ele não pode avaliar pessoas",
+        "Porque a produtividade não importa"
+      ],
+      "correta": 0,
+      "explicacao": "A atuação deve conciliar os interesses organizacionais com o bem-estar das pessoas."
+    },
+    {
+      "id": "psicologia-organizacional-6",
+      "topico": "selecao",
+      "nivel": "conceitual",
+      "pergunta": "O conjunto de conhecimentos, habilidades e atitudes que define uma competência é conhecido pela sigla:",
+      "opcoes": [
+        "SWOT",
+        "CHA",
+        "PDCA",
+        "STAR"
+      ],
+      "correta": 1,
+      "explicacao": "Corresponde ao saber, ao saber fazer e ao querer fazer."
+    },
+    {
+      "id": "psicologia-organizacional-7",
+      "topico": "selecao",
+      "nivel": "conceitual",
+      "pergunta": "Uma vantagem do recrutamento interno é:",
+      "opcoes": [
+        "Trazer ideias novas de fora",
+        "Renovar totalmente a cultura",
+        "Ser mais rápido, mais barato e motivar os empregados",
+        "Ampliar o número de candidatos desconhecidos"
+      ],
+      "correta": 2,
+      "explicacao": "Em contrapartida, ele não renova o quadro e pode gerar frustração em quem não foi escolhido."
+    },
+    {
+      "id": "psicologia-organizacional-8",
+      "topico": "selecao",
+      "nivel": "conceitual",
+      "pergunta": "A entrevista comportamental, ou por competências, baseia-se em:",
+      "opcoes": [
+        "Perguntas sobre o signo do candidato",
+        "Casos hipotéticos apenas",
+        "Conversa livre sem roteiro",
+        "Perguntas sobre situações reais vividas pelo candidato no passado"
+      ],
+      "correta": 3,
+      "explicacao": "Parte da ideia de que o comportamento passado é bom indicador do comportamento futuro."
+    },
+    {
+      "id": "psicologia-organizacional-9",
+      "topico": "selecao",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma seleção, o entrevistador gosta do candidato por ele ter estudado na mesma faculdade e passa a avaliá-lo bem em tudo. Ocorreu:",
+      "opcoes": [
+        "Efeito halo associado ao erro de semelhança",
+        "Validade preditiva",
+        "Tendência central",
+        "Recrutamento misto"
+      ],
+      "correta": 0,
+      "explicacao": "Uma característica favorável contaminou a avaliação dos demais aspectos."
+    },
+    {
+      "id": "psicologia-organizacional-10",
+      "topico": "selecao",
+      "nivel": "analise",
+      "pergunta": "Por que a entrevista estruturada tende a ser mais válida do que a não estruturada na seleção de pessoal?",
+      "opcoes": [
+        "Porque é mais curta",
+        "Porque faz as mesmas perguntas a todos, permitindo comparar candidatos e reduzindo vieses",
+        "Porque dispensa a análise do cargo",
+        "Porque não exige preparo do entrevistador"
+      ],
+      "correta": 1,
+      "explicacao": "A padronização diminui a influência das impressões subjetivas do entrevistador."
+    },
+    {
+      "id": "psicologia-organizacional-11",
+      "topico": "desenvolvimento",
+      "nivel": "conceitual",
+      "pergunta": "A primeira etapa do ciclo de treinamento é:",
+      "opcoes": [
+        "A execução",
+        "A avaliação de resultados",
+        "O levantamento de necessidades",
+        "A entrega de certificados"
+      ],
+      "correta": 2,
+      "explicacao": "O diagnóstico considera a organização, as tarefas e as pessoas."
+    },
+    {
+      "id": "psicologia-organizacional-12",
+      "topico": "desenvolvimento",
+      "nivel": "conceitual",
+      "pergunta": "No modelo de Kirkpatrick, verificar se o treinado aplica no trabalho o que aprendeu corresponde ao nível de:",
+      "opcoes": [
+        "Reação",
+        "Aprendizagem",
+        "Resultados",
+        "Comportamento"
+      ],
+      "correta": 3,
+      "explicacao": "O nível de reação mede apenas a satisfação dos participantes com o treinamento."
+    },
+    {
+      "id": "psicologia-organizacional-13",
+      "topico": "desenvolvimento",
+      "nivel": "conceitual",
+      "pergunta": "Na avaliação 360 graus, a pessoa é avaliada por:",
+      "opcoes": [
+        "Chefe, pares, subordinados, clientes e por si mesma",
+        "Apenas o chefe imediato",
+        "Apenas por si mesma",
+        "Somente por consultores externos"
+      ],
+      "correta": 0,
+      "explicacao": "A multiplicidade de fontes oferece uma visão mais ampla do desempenho."
+    },
+    {
+      "id": "psicologia-organizacional-14",
+      "topico": "desenvolvimento",
+      "nivel": "aplicacao",
+      "pergunta": "Um gestor dá a todos os membros da equipe a nota 'regular', para não se comprometer. Ele comete o erro de:",
+      "opcoes": [
+        "Halo",
+        "Tendência central",
+        "Recenticidade",
+        "Rigor"
+      ],
+      "correta": 1,
+      "explicacao": "O avaliador evita os extremos e deixa de diferenciar os desempenhos."
+    },
+    {
+      "id": "psicologia-organizacional-15",
+      "topico": "desenvolvimento",
+      "nivel": "analise",
+      "pergunta": "Por que um treinamento bem avaliado pelos participantes pode não trazer resultados para a organização?",
+      "opcoes": [
+        "Porque a reação é o nível mais importante",
+        "Porque treinamentos nunca funcionam",
+        "Porque gostar do curso não garante aprender nem aplicar no trabalho, o que depende também de apoio da chefia",
+        "Porque a aprendizagem não pode ser medida"
+      ],
+      "correta": 2,
+      "explicacao": "A transferência do que foi aprendido exige suporte e condições no ambiente de trabalho."
+    },
+    {
+      "id": "psicologia-organizacional-16",
+      "topico": "comportamento",
+      "nivel": "conceitual",
+      "pergunta": "A percepção coletiva dos empregados sobre o ambiente de trabalho em determinado momento é o:",
+      "opcoes": [
+        "Contrato de trabalho",
+        "Organograma",
+        "Plano de cargos",
+        "Clima organizacional"
+      ],
+      "correta": 3,
+      "explicacao": "Ele é mais superficial e mutável do que a cultura organizacional."
+    },
+    {
+      "id": "psicologia-organizacional-17",
+      "topico": "comportamento",
+      "nivel": "conceitual",
+      "pergunta": "O comprometimento organizacional afetivo ocorre quando o empregado:",
+      "opcoes": [
+        "Permanece porque deseja e se identifica com a organização",
+        "Permanece porque não tem outra opção",
+        "Permanece por sentir obrigação moral",
+        "Permanece só pelo salário"
+      ],
+      "correta": 0,
+      "explicacao": "Os tipos instrumental e normativo se baseiam em necessidade e em dever, respectivamente."
+    },
+    {
+      "id": "psicologia-organizacional-18",
+      "topico": "comportamento",
+      "nivel": "conceitual",
+      "pergunta": "O contrato psicológico refere-se a:",
+      "opcoes": [
+        "O contrato de trabalho assinado",
+        "Expectativas não escritas entre o empregado e a organização",
+        "As normas da CLT",
+        "O regulamento interno"
+      ],
+      "correta": 1,
+      "explicacao": "Quando essas expectativas são frustradas, a confiança se rompe."
+    },
+    {
+      "id": "psicologia-organizacional-19",
+      "topico": "comportamento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa aplica uma pesquisa de clima, mas não divulga os resultados nem toma providências. O efeito mais provável é:",
+      "opcoes": [
+        "Aumento imediato da motivação",
+        "Mudança da cultura organizacional",
+        "Descrédito e queda da confiança dos empregados",
+        "Redução do absenteísmo"
+      ],
+      "correta": 2,
+      "explicacao": "A pesquisa cria expectativa de mudança e exige devolução e plano de ação."
+    },
+    {
+      "id": "psicologia-organizacional-20",
+      "topico": "comportamento",
+      "nivel": "analise",
+      "pergunta": "Por que a cultura organizacional é mais difícil de mudar do que o clima?",
+      "opcoes": [
+        "Porque depende apenas do humor do dia",
+        "Porque é medida por questionário",
+        "Porque muda a cada troca de chefia",
+        "Porque se apoia em valores e pressupostos profundos, construídos ao longo da história da organização"
+      ],
+      "correta": 3,
+      "explicacao": "O clima reflete percepções do momento e responde mais rápido às ações da gestão."
+    },
+    {
+      "id": "psicologia-organizacional-21",
+      "topico": "saude",
+      "nivel": "conceitual",
+      "pergunta": "Para Dejours, a diferença entre o que é mandado fazer e o que de fato se faz corresponde à distinção entre:",
+      "opcoes": [
+        "Trabalho prescrito e trabalho real",
+        "Emprego e desemprego",
+        "Cultura e clima",
+        "Recrutamento e seleção"
+      ],
+      "correta": 0,
+      "explicacao": "Trabalhar é preencher essa distância com inteligência e criatividade."
+    },
+    {
+      "id": "psicologia-organizacional-22",
+      "topico": "saude",
+      "nivel": "conceitual",
+      "pergunta": "As três dimensões da síndrome de burnout são:",
+      "opcoes": [
+        "Ansiedade, euforia e insônia",
+        "Exaustão emocional, despersonalização e baixa realização profissional",
+        "Motivação, satisfação e engajamento",
+        "Fadiga física, dor e febre"
+      ],
+      "correta": 1,
+      "explicacao": "Ela resulta do estresse crônico ligado ao trabalho."
+    },
+    {
+      "id": "psicologia-organizacional-23",
+      "topico": "saude",
+      "nivel": "conceitual",
+      "pergunta": "O assédio moral no trabalho caracteriza-se por:",
+      "opcoes": [
+        "Um desentendimento isolado entre colegas",
+        "Cobrança normal de resultados",
+        "Exposição repetida e prolongada a situações humilhantes",
+        "Avaliação de desempenho negativa"
+      ],
+      "correta": 2,
+      "explicacao": "A repetição ao longo do tempo é o que o distingue de um conflito pontual."
+    },
+    {
+      "id": "psicologia-organizacional-24",
+      "topico": "saude",
+      "nivel": "aplicacao",
+      "pergunta": "Uma operadora de telemarketing tem metas altíssimas e não pode decidir nada sobre o próprio ritmo de trabalho. Pelo modelo de Karasek, ela está em situação de:",
+      "opcoes": [
+        "Trabalho passivo",
+        "Baixo desgaste",
+        "Trabalho ativo",
+        "Alto desgaste: alta demanda com baixo controle"
+      ],
+      "correta": 3,
+      "explicacao": "É a combinação de maior risco para a saúde, agravada quando falta apoio social."
+    },
+    {
+      "id": "psicologia-organizacional-25",
+      "topico": "saude",
+      "nivel": "analise",
+      "pergunta": "Por que programas de ginástica laboral e massagem, sozinhos, são considerados insuficientes para promover qualidade de vida no trabalho?",
+      "opcoes": [
+        "Porque atenuam sintomas sem alterar as causas ligadas à organização do trabalho",
+        "Porque fazem mal à saúde",
+        "Porque aumentam o absenteísmo",
+        "Porque são proibidos por lei"
+      ],
+      "correta": 0,
+      "explicacao": "A prevenção efetiva exige rever ritmo, metas, autonomia e relações de trabalho."
+    },
+    {
+      "id": "psicologia-organizacional-26",
+      "topico": "atuacao",
+      "nivel": "conceitual",
+      "pergunta": "Ao comunicar à empresa o resultado de uma avaliação psicológica de candidato, o psicólogo deve:",
+      "opcoes": [
+        "Entregar todos os testes e respostas",
+        "Informar apenas o necessário à decisão, preservando a intimidade do avaliado",
+        "Divulgar o resultado a toda a equipe",
+        "Publicar o laudo na intranet"
+      ],
+      "correta": 1,
+      "explicacao": "O sigilo profissional continua valendo no contexto organizacional."
+    },
+    {
+      "id": "psicologia-organizacional-27",
+      "topico": "atuacao",
+      "nivel": "conceitual",
+      "pergunta": "A segurança psicológica em uma equipe significa que:",
+      "opcoes": [
+        "Não há metas a cumprir",
+        "Ninguém pode discordar do líder",
+        "As pessoas podem falar e errar sem medo de punição ou humilhação",
+        "O ambiente é monitorado por câmeras"
+      ],
+      "correta": 2,
+      "explicacao": "Esse clima favorece a aprendizagem e a comunicação de problemas."
+    },
+    {
+      "id": "psicologia-organizacional-28",
+      "topico": "atuacao",
+      "nivel": "conceitual",
+      "pergunta": "Na consultoria de processos, o consultor:",
+      "opcoes": [
+        "Entrega uma solução pronta sem envolver o cliente",
+        "Substitui a diretoria",
+        "Atua apenas na folha de pagamento",
+        "Ajuda o cliente a diagnosticar e resolver os próprios problemas"
+      ],
+      "correta": 3,
+      "explicacao": "Na consultoria de especialista, ao contrário, a solução vem pronta do consultor."
+    },
+    {
+      "id": "psicologia-organizacional-29",
+      "topico": "atuacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um diretor pede ao psicólogo o conteúdo das conversas de um empregado no programa de apoio psicológico da empresa. O psicólogo deve:",
+      "opcoes": [
+        "Negar, pois as informações estão protegidas pelo sigilo profissional",
+        "Entregar, pois a empresa paga o serviço",
+        "Entregar apenas por escrito",
+        "Pedir autorização ao sindicato e entregar"
+      ],
+      "correta": 0,
+      "explicacao": "O Código de Ética protege a intimidade da pessoa atendida também diante do empregador."
+    },
+    {
+      "id": "psicologia-organizacional-30",
+      "topico": "atuacao",
+      "nivel": "analise",
+      "pergunta": "Por que explicar os acidentes de trabalho apenas pelo 'ato inseguro' do trabalhador é uma visão limitada?",
+      "opcoes": [
+        "Porque os trabalhadores nunca erram",
+        "Porque ignora as condições e a organização do trabalho que levaram ao acidente",
+        "Porque acidentes não têm causas",
+        "Porque a segurança depende só da sorte"
+      ],
+      "correta": 1,
+      "explicacao": "Culpar o indivíduo impede que se corrijam as causas presentes no sistema de trabalho."
+    }
+  ]
+}

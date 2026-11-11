@@ -1574,6 +1574,58 @@ export const EXTRA = {
       "Web Design",
       "Desenvolvimento para Internet"
     ]
+  },
+  "psicologia-social": {
+    "area": "Humanas",
+    "apelidos": [
+      "Psicologia Social",
+      "Psicologia Social I",
+      "Psicologia Social II",
+      "Psicologia Social e Comunitária",
+      "Psicologia Comunitária",
+      "Psicologia Social Comunitária",
+      "Introdução à Psicologia Social",
+      "Fundamentos de Psicologia Social",
+      "Processos Grupais",
+      "Psicologia dos Grupos",
+      "Dinâmica de Grupo",
+      "Psicologia Social e das Organizações"
+    ]
+  },
+  "avaliacao-psicologica": {
+    "area": "Humanas",
+    "apelidos": [
+      "Avaliação Psicológica",
+      "Avaliação Psicológica I",
+      "Avaliação Psicológica II",
+      "Avaliação Psicológica III",
+      "Técnicas de Avaliação Psicológica",
+      "Técnicas de Exame Psicológico",
+      "Técnicas de Exame Psicológico I",
+      "Psicometria",
+      "Psicodiagnóstico",
+      "Testes Psicológicos",
+      "Fundamentos da Avaliação Psicológica",
+      "Técnicas Projetivas",
+      "Entrevista Psicológica",
+      "Medidas em Psicologia"
+    ]
+  },
+  "psicologia-organizacional": {
+    "area": "Humanas",
+    "apelidos": [
+      "Psicologia Organizacional",
+      "Psicologia Organizacional e do Trabalho",
+      "Psicologia do Trabalho",
+      "Psicologia Organizacional I",
+      "Psicologia Organizacional II",
+      "Psicologia das Organizações",
+      "Psicologia do Trabalho e das Organizações",
+      "Psicologia Aplicada ao Trabalho",
+      "Psicologia Industrial",
+      "Psicologia nas Organizações",
+      "Psicologia e Trabalho"
+    ]
   }
 };
 
