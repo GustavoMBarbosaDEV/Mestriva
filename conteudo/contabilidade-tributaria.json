@@ -1,0 +1,465 @@
+{
+  "id": "contabilidade-tributaria",
+  "nome": "Contabilidade Tributária",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos e planejamento tributário",
+      "resumo": "### O que é\nA Contabilidade Tributária (ou Fiscal) aplica as normas contábeis e a **legislação tributária** para **apurar, registrar e recolher** os tributos de uma empresa de forma correta e com o menor custo legal possível.\n\n### Funções\n- **Escrituração fiscal**: registrar as operações e apurar os tributos.\n- **Cumprimento das obrigações**: principais e acessórias.\n- **Planejamento tributário**: estudar alternativas lícitas para reduzir a carga.\n- **Orientação** aos demais setores sobre efeitos fiscais das decisões.\n\n### Tributo (CTN, art. 3º)\nPrestação **pecuniária compulsória**, em moeda, que **não constitua sanção de ato ilícito**, **instituída em lei** e cobrada por **atividade administrativa vinculada**.\n\n### Espécies\n- **Impostos**: não vinculados a atividade estatal específica (IRPJ, ICMS, ISS, IPI).\n- **Taxas**: pelo **poder de polícia** ou por **serviço público específico e divisível**.\n- **Contribuições de melhoria**: valorização do imóvel por obra pública.\n- **Empréstimos compulsórios**.\n- **Contribuições especiais**: sociais (PIS, Cofins, CSLL, INSS), de intervenção no domínio econômico (CIDE) e de categorias profissionais.\n\n### Elementos da obrigação tributária\n- **Fato gerador**: situação prevista em lei que faz nascer a obrigação.\n- **Sujeito ativo**: o ente que cobra.\n- **Sujeito passivo**: **contribuinte** (relação direta com o fato gerador) ou **responsável** (obrigado por lei, sem ser o contribuinte; ex.: a fonte pagadora que retém).\n- **Base de cálculo**: valor sobre o qual incide a alíquota.\n- **Alíquota**: percentual (*ad valorem*) ou valor fixo por unidade (específica).\n- **Obrigação principal**: **pagar** tributo ou multa.\n- **Obrigação acessória**: **fazer ou não fazer** — emitir nota, escriturar livros, entregar declarações. O descumprimento gera **multa**, que se converte em obrigação principal.\n\n### Competência dos tributos sobre a empresa\n| Ente | Principais tributos |\n|---|---|\n| **União** | IRPJ, CSLL, PIS, Cofins, IPI, IOF, II, INSS |\n| **Estados** | **ICMS**, IPVA, ITCMD |\n| **Municípios** | **ISS**, IPTU, ITBI |\n\n### Classificações úteis\n- **Diretos**: quem paga suporta o ônus (IRPJ, CSLL). **Indiretos**: o ônus é repassado no preço ao consumidor (ICMS, IPI, ISS, PIS e Cofins).\n- **Cumulativos** (\"em cascata\"): incidem em cada etapa, sem abater o que foi pago antes. **Não cumulativos**: permitem **crédito** do tributo das etapas anteriores.\n- **Por dentro**: o tributo integra a própria base de cálculo (ICMS, PIS, Cofins). **Por fora**: é somado ao preço (IPI).\n- **Progressivos**, **proporcionais** e **regressivos**.\n\n### Planejamento tributário\n- **Elisão fiscal**: redução da carga por meios **lícitos**, em geral **antes** do fato gerador (escolha do regime, da localização, da forma societária). É legítima.\n- **Evasão fiscal (sonegação)**: meios **ilícitos**, em geral **depois** do fato gerador (omitir receita, nota \"fria\", caixa dois). É **crime** contra a ordem tributária (Lei 8.137/1990).\n- **Elusão**: uso de formas artificiais, sem propósito negocial, para dissimular o fato gerador; o fisco pode desconsiderar (norma antielisiva do CTN, art. 116).\n- O planejamento exige **propósito negocial** e substância econômica.\n\n### Regimes de tributação do lucro\nA empresa escolhe, em geral no início do ano, e a opção vale para **todo o ano-calendário**:\n- **Simples Nacional**.\n- **Lucro Presumido**.\n- **Lucro Real**.\n- **Lucro Arbitrado** (imposto pelo fisco ou adotado quando não há escrituração confiável).\n\n### Obrigações acessórias digitais (SPED)\n- **ECD**: Escrituração Contábil Digital.\n- **ECF**: Escrituração Contábil Fiscal (apuração do IRPJ e da CSLL).\n- **EFD ICMS/IPI** e **EFD-Contribuições** (PIS e Cofins).\n- **NF-e**, **NFS-e** e **CT-e**.\n- **eSocial**, **EFD-Reinf** e **DCTFWeb**.\n\n### Reforma tributária do consumo (EC 132/2023)\nCria um **IVA dual**: a **CBS** (federal, no lugar de PIS e Cofins) e o **IBS** (de estados e municípios, no lugar de ICMS e ISS), além do **Imposto Seletivo**. A transição é gradual, com início em 2026 e conclusão prevista para 2033. Princípios: **não cumulatividade plena**, cobrança **por fora** e tributação **no destino**. Acompanhe a regulamentação vigente.",
+      "revisao": "**Lembre:**\n- Tributo: compulsório, em dinheiro, criado por lei, não é sanção.\n- Obrigação principal: pagar; acessória: declarar e escriturar.\n- Elisão é lícita (antes do fato gerador); evasão é crime.\n- Federais: IRPJ, CSLL, PIS, Cofins, IPI; estadual: ICMS; municipal: ISS.\n- Regimes: Simples Nacional, Lucro Presumido, Lucro Real e Arbitrado."
+    },
+    {
+      "id": "simples",
+      "nome": "Simples Nacional e MEI",
+      "resumo": "### Simples Nacional (LC 123/2006)\nRegime **simplificado e opcional** para **microempresas (ME)** e **empresas de pequeno porte (EPP)**.\n- **Microempresa**: receita bruta anual de até **R$ 360 mil**.\n- **Empresa de pequeno porte**: acima de R$ 360 mil até **R$ 4,8 milhões**.\n- Recolhimento **unificado** em guia única, o **DAS**.\n\n### Tributos incluídos no DAS\n**IRPJ**, **CSLL**, **PIS**, **Cofins**, **IPI**, **CPP** (contribuição patronal previdenciária), **ICMS** e **ISS**.\n- **Não incluídos** (recolhidos à parte): IOF, imposto de importação, ITR, IR sobre ganhos de capital e aplicações, **FGTS**, contribuição previdenciária do **empregado** (retida) e ICMS de **substituição tributária** e diferencial de alíquotas.\n\n### Anexos\nA atividade define a tabela:\n- **Anexo I**: **comércio**.\n- **Anexo II**: **indústria**.\n- **Anexo III**: serviços (instalação, reparos, agências de viagem, academias, contabilidade e outros).\n- **Anexo IV**: serviços como **construção civil**, vigilância, limpeza e advocacia; **a CPP não entra no DAS** e é paga à parte.\n- **Anexo V**: serviços de maior carga (engenharia, publicidade, tecnologia, auditoria).\n\n### Cálculo\nUsa a receita bruta dos **últimos 12 meses (RBT12)** para achar a faixa e a alíquota **efetiva**:\n\n**Alíquota efetiva = (RBT12 × alíquota nominal − parcela a deduzir) / RBT12**\n\nO valor devido é a alíquota efetiva aplicada sobre a **receita do mês**.\n\n### Fator \"r\"\nPara certas atividades de serviço, compara-se a **folha de salários** (incluindo pró-labore) dos últimos 12 meses com a receita bruta do mesmo período:\n- **r ≥ 28%**: tributa-se pelo **Anexo III** (carga menor).\n- **r < 28%**: tributa-se pelo **Anexo V**.\n\n### Sublimite\nEstados podem adotar **sublimite de R$ 3,6 milhões** para ICMS e ISS: acima dele, esses dois impostos são recolhidos **fora** do DAS, pelas regras normais.\n\n### Quem não pode optar (exemplos)\n- Empresa com sócio **pessoa jurídica** ou com sócio domiciliado no **exterior**.\n- Sociedades por ações (**S.A.**).\n- Instituições financeiras, seguradoras e empresas de *factoring*.\n- Empresas com **débitos** não regularizados com o fisco ou o INSS.\n- Quem participa do capital de outra pessoa jurídica.\n\n### Vantagens e desvantagens\n- **Vantagens**: guia única, menos obrigações acessórias, carga em geral menor para pequenas receitas, tratamento favorecido em licitações.\n- **Desvantagens**: tributa a **receita**, mesmo com prejuízo; **limita o crédito** de ICMS e não gera crédito integral de PIS e Cofins aos clientes; pode ficar mais caro para empresas com margem baixa ou folha pequena.\n- Por isso é preciso **simular** com os outros regimes.\n\n### Obrigações\n- **PGDAS-D**: apuração mensal.\n- **DEFIS**: declaração anual de informações socioeconômicas.\n- Emissão de notas, livro caixa ou escrituração contábil.\n- A opção é feita em **janeiro** e vale para o ano todo.\n\n### Exclusão\nPor **comunicação** da empresa ou **de ofício**: ultrapassar o limite, incorrer em vedação, ter débitos, falta de emissão de notas ou embaraço à fiscalização. Se a receita exceder o limite em **mais de 20%**, a exclusão vale já no mês seguinte.\n\n### Distribuição de lucros\nOs lucros distribuídos aos sócios não sofrem IR até o limite do lucro contábil apurado (ou, sem contabilidade, até o lucro presumido menos o IRPJ). Desde 2026, porém, a **Lei 15.270/2025** manda reter **10% na fonte** sobre o que uma mesma empresa pagar a uma mesma pessoa física **acima de R$ 50 mil no mês**.\n\n### MEI (Microempreendedor Individual)\n- Receita bruta anual de até **R$ 81 mil**.\n- **Sem sócio** e sem participar de outra empresa; pode ter **um empregado** que receba o salário mínimo ou o piso da categoria.\n- Recolhe valor **fixo mensal** (DAS-MEI): **5% do salário mínimo** de INSS, mais R$ 1,00 de ICMS e R$ 5,00 de ISS, conforme a atividade.\n- Atividades **permitidas** em lista; profissões regulamentadas, em geral, ficam fora.\n- Dispensado de contabilidade formal; entrega a **DASN-SIMEI** anual.\n- Tem cobertura previdenciária (aposentadoria por idade, auxílio por incapacidade, salário-maternidade).",
+      "revisao": "**Lembre:**\n- Microempresa: até R$ 360 mil; pequeno porte: até R$ 4,8 milhões.\n- DAS reúne IRPJ, CSLL, PIS, Cofins, IPI, CPP, ICMS e ISS.\n- Anexos I (comércio), II (indústria), III a V (serviços).\n- Fator r de 28% ou mais leva ao Anexo III.\n- MEI: até R$ 81 mil por ano, valor fixo mensal."
+    },
+    {
+      "id": "presumido",
+      "nome": "Lucro Presumido",
+      "resumo": "### Conceito\nRegime em que a **base de cálculo** do IRPJ e da CSLL é obtida aplicando-se um **percentual de presunção** sobre a **receita bruta**, sem considerar o lucro contábil efetivo.\n\n### Quem pode optar\nEmpresas com receita bruta total de até **R$ 78 milhões** no ano anterior (ou R$ 6,5 milhões por mês de atividade), desde que **não obrigadas** ao Lucro Real.\n- A opção se dá com o pagamento da **primeira quota** do imposto e é **irretratável** para todo o ano.\n- Apuração **trimestral**: trimestres encerrados em 31/03, 30/06, 30/09 e 31/12.\n\n### Percentuais de presunção\n| Atividade | IRPJ | CSLL |\n|---|---|---|\n| Revenda de combustíveis | 1,6% | 12% |\n| **Comércio e indústria**; transporte de cargas; serviços hospitalares | **8%** | **12%** |\n| Transporte de passageiros | 16% | 12% |\n| **Serviços em geral**; intermediação; administração e locação de bens | **32%** | **32%** |\n\n### Base de cálculo\n**Base = (receita bruta × percentual de presunção) + demais receitas e ganhos**\n\n- Da receita bruta deduzem-se as **vendas canceladas**, as devoluções e os **descontos incondicionais**.\n- **Somam-se integralmente** (sem presunção): **ganhos de capital**, **rendimentos de aplicações financeiras**, juros recebidos e outras receitas não operacionais.\n\n### IRPJ\n- Alíquota de **15%** sobre a base.\n- **Adicional de 10%** sobre a parcela da base que exceder **R$ 60 mil no trimestre** (R$ 20 mil por mês).\n- Deduz-se o imposto **retido na fonte**.\n\n### CSLL\n- Alíquota de **9%** sobre a base de cálculo própria.\n\n### Exemplo (comércio)\nReceita do trimestre: R$ 1.000.000.\n- Base do IRPJ: 8% → R$ 80.000.\n- IRPJ: 15% × 80.000 = R$ 12.000.\n- Adicional: 10% × (80.000 − 60.000) = R$ 2.000.\n- **IRPJ total: R$ 14.000**.\n- Base da CSLL: 12% → R$ 120.000; **CSLL: 9% = R$ 10.800**.\n\n### PIS e Cofins\nAs empresas do Lucro Presumido ficam, em regra, no regime **cumulativo**:\n- **PIS: 0,65%** e **Cofins: 3%** sobre o faturamento, **sem direito a créditos**.\n- Apuração mensal.\n\n### Regime de reconhecimento da receita\nPode-se optar pelo **regime de caixa** (tributar quando recebe) ou de **competência**, mantendo o critério para todos os tributos.\n\n### Escrituração\n- Obrigatória a escrituração **contábil** (ou, na legislação fiscal, o **livro caixa** com toda a movimentação financeira). Na prática, a contabilidade completa é exigida pela legislação societária e é necessária para distribuir lucros acima do presumido.\n- **ECF** anual e demais declarações.\n\n### Distribuição de lucros\nSem IR para o sócio até o valor da base presumida menos os tributos; **acima disso**, só se houver **lucro contábil** maior, comprovado por escrituração. Desde 2026, dividendos **acima de R$ 50 mil por mês** pagos a uma pessoa física têm retenção de **10%** (Lei 15.270/2025).\n\n### Quando vale a pena\n- Quando a **margem de lucro real é maior** que o percentual de presunção: a empresa paga sobre um lucro menor que o efetivo.\n- Quando tem **poucos custos** que gerariam créditos de PIS e Cofins.\n- **Não vale** para quem tem margem baixa ou **prejuízo**: paga imposto mesmo sem lucro e não pode compensar prejuízos.\n\n### Lucro Arbitrado\nUsado quando a escrituração é **imprestável**, inexistente ou quando o contribuinte não cumpre as obrigações. Os percentuais do presumido são acrescidos de **20%**. Pode ser aplicado pelo fisco ou, conhecida a receita, pelo próprio contribuinte.",
+      "revisao": "**Lembre:**\n- Limite: receita de até R$ 78 milhões no ano anterior.\n- Presunção: 8% (comércio e indústria) e 32% (serviços) para o IRPJ; 12% e 32% para a CSLL.\n- IRPJ de 15% mais adicional de 10% acima de R$ 60 mil no trimestre; CSLL de 9%.\n- PIS 0,65% e Cofins 3%, cumulativos e sem créditos.\n- Compensa quando a margem real supera a presumida."
+    },
+    {
+      "id": "real",
+      "nome": "Lucro Real, IRPJ e CSLL",
+      "resumo": "### Conceito\nA base de cálculo é o **lucro líquido contábil** do período, **ajustado** pelas **adições**, **exclusões** e **compensações** previstas na legislação. É o regime **geral**: qualquer empresa pode optar.\n\n### Quem é obrigado\n- Receita total no ano anterior **acima de R$ 78 milhões**.\n- **Instituições financeiras**, seguradoras e entidades de previdência privada.\n- Empresas com **lucros, rendimentos ou ganhos do exterior**.\n- Empresas que usufruem de **benefícios fiscais** de isenção ou redução do imposto.\n- Empresas de *factoring* e de securitização de créditos.\n\n### Apuração\n- **Trimestral**: definitiva a cada trimestre.\n- **Anual**: com recolhimentos mensais por **estimativa** (sobre a receita, como no presumido) e ajuste em 31 de dezembro; permite **balancetes de suspensão ou redução** para pagar menos quando o lucro real do período for menor.\n\n### Do lucro contábil ao lucro real\n**Lucro líquido antes do IRPJ e da CSLL**\n**(+) Adições**\n**(−) Exclusões**\n**(=) Lucro real antes da compensação**\n**(−) Compensação de prejuízos fiscais**\n**(=) Lucro real (base de cálculo)**\n\nOs ajustes são controlados no **LALUR** (Livro de Apuração do Lucro Real) e no **LACS**, hoje dentro da **ECF**:\n- **Parte A**: demonstração do lucro real.\n- **Parte B**: controle de valores que afetarão períodos futuros (prejuízos a compensar, diferenças temporárias).\n\n### Adições\nDespesas contabilizadas que **não são dedutíveis**, e receitas tributáveis ainda não contabilizadas. Exemplos:\n- **Multas por infrações** fiscais (as punitivas).\n- **Brindes** e despesas sem relação com a atividade.\n- **Provisões** não dedutíveis (contingências, perdas estimadas em geral).\n- Resultado **negativo** de equivalência patrimonial.\n- Doações acima dos limites legais.\n- Excesso de depreciação em relação às taxas fiscais.\n- Despesas com alimentação de sócios e gratificações a administradores.\n\n### Exclusões\nReceitas contabilizadas que **não são tributáveis**, e deduções permitidas ainda não contabilizadas. Exemplos:\n- **Dividendos** recebidos de outras empresas.\n- Resultado **positivo** de equivalência patrimonial.\n- **Reversão de provisões** que foram adicionadas antes.\n- Depreciação acelerada incentivada e benefícios de inovação tecnológica (Lei do Bem).\n\n### Despesas dedutíveis\nRegra geral: são dedutíveis as despesas **necessárias, usuais e normais** à atividade e à manutenção da fonte produtora, **comprovadas** por documentação idônea.\n\n### Compensação de prejuízos fiscais\nO prejuízo fiscal de períodos anteriores pode reduzir o lucro real em **até 30%** do lucro ajustado do período (**\"trava dos 30%\"**), **sem prazo** para usar. Vale também para a base negativa da CSLL.\n\n### IRPJ\n- **15%** sobre o lucro real.\n- **Adicional de 10%** sobre a parcela que exceder **R$ 20 mil por mês** (R$ 60 mil no trimestre; R$ 240 mil no ano).\n- Deduções: incentivos (PAT, doações a fundos da criança e do idoso, cultura, esporte) e imposto retido na fonte.\n\n### CSLL\n- **9%** para as empresas em geral; alíquotas maiores para instituições financeiras e seguradoras.\n- A base parte do mesmo lucro contábil, com ajustes próprios.\n\n### PIS e Cofins\nEm regra, regime **não cumulativo**:\n- **PIS: 1,65%** e **Cofins: 7,6%**, com **direito a créditos** sobre insumos, mercadorias para revenda, energia elétrica, aluguéis, depreciação e fretes.\n\n### Juros sobre o capital próprio (JCP)\nRemuneração aos sócios calculada sobre o patrimônio líquido, limitada à **TJLP** e ao lucro. É **despesa dedutível** para a empresa, com **IR retido na fonte** do beneficiário. Instrumento clássico de planejamento.\n\n### Tributos diferidos\nDiferenças **temporárias** entre o lucro contábil e o fiscal geram **ativos e passivos fiscais diferidos** (CPC 32).\n- **Diferença temporária**: será revertida no futuro (provisões).\n- **Diferença permanente**: nunca se reverte (multas indedutíveis).\n\n### Quando vale a pena\n- Margens de lucro **baixas** ou **prejuízo**.\n- Muitos custos que geram **créditos** de PIS e Cofins.\n- Uso de **incentivos fiscais** e de JCP.\n- Exige contabilidade rigorosa e mais obrigações acessórias.\n\n### Preços de transferência e outras regras\nOperações com vinculadas no exterior, subcapitalização e tributação de lucros no exterior têm regras específicas.",
+      "revisao": "**Lembre:**\n- Lucro real = lucro contábil + adições − exclusões − compensação de prejuízos.\n- Obrigatório acima de R$ 78 milhões e para instituições financeiras.\n- Adições: multas punitivas, brindes, provisões indedutíveis.\n- Prejuízo fiscal compensa até 30% do lucro do período.\n- PIS 1,65% e Cofins 7,6%, não cumulativos, com créditos."
+    },
+    {
+      "id": "indiretos",
+      "nome": "ICMS, IPI, ISS, PIS e Cofins",
+      "resumo": "### ICMS\nImposto **estadual** sobre a **circulação de mercadorias** e sobre serviços de **transporte interestadual e intermunicipal** e de **comunicação** (Lei Kandir, LC 87/1996).\n- **Não cumulativo**: o imposto pago na compra é **crédito**; o da venda é **débito**. Recolhe-se a diferença.\n- **Cálculo \"por dentro\"**: o imposto integra a própria base.\n- **Seletivo** (pode variar conforme a essencialidade do produto).\n- **Alíquotas internas**: fixadas por estado, em geral entre **17% e 20%**.\n- **Alíquotas interestaduais**: **12%** como regra; **7%** nas saídas do Sul e do Sudeste (exceto Espírito Santo) para o Norte, o Nordeste, o Centro-Oeste e o Espírito Santo; **4%** para produtos **importados**.\n- **Diferencial de alíquotas (Difal)**: diferença entre a alíquota interna do estado de destino e a interestadual, devida ao **estado de destino**.\n- **Substituição tributária (ICMS-ST)**: um contribuinte (em geral a **indústria** ou o importador) recolhe **antecipadamente** o imposto das etapas seguintes da cadeia, calculado com a **margem de valor agregado (MVA)**. Facilita a fiscalização.\n- **Não incide** nas **exportações**.\n- Benefícios dependem de convênio no **Confaz**.\n\n**Exemplo de apuração**: compras com R$ 18.000 de ICMS (crédito) e vendas com R$ 30.000 (débito) → **ICMS a recolher de R$ 12.000**.\n\n**Contabilização**: o ICMS da compra é registrado em **ICMS a Recuperar** (ativo) e não compõe o custo do estoque; o da venda, em **ICMS a Recolher** (passivo), como dedução da receita bruta.\n\n### IPI\nImposto **federal** sobre **produtos industrializados**.\n- **Fato gerador**: saída do produto do **estabelecimento industrial** (ou equiparado) e o desembaraço aduaneiro na importação.\n- **Não cumulativo** e **seletivo** conforme a essencialidade; alíquotas na tabela **TIPI**.\n- **Cálculo \"por fora\"**: soma-se ao preço.\n- Função **extrafiscal**: pode ter a alíquota alterada por decreto.\n- **Não incide** nas exportações.\n- Para o **comerciante** que revende, o IPI pago na compra é **custo**; para a **indústria**, é crédito.\n- O IPI integra a base do ICMS quando a mercadoria se destina a **consumidor final** ou a uso e consumo.\n\n### ISS (ISSQN)\nImposto **municipal** sobre **serviços** constantes da lista da **LC 116/2003**.\n- **Alíquota mínima de 2%** e **máxima de 5%**.\n- **Cumulativo**: sem direito a crédito.\n- **Local do recolhimento**: em regra, o município do **estabelecimento do prestador**; para várias atividades (como **construção civil**), o **local da prestação**.\n- Pode haver **retenção na fonte** pelo tomador.\n- Não incide sobre serviços sujeitos ao ICMS (transporte interestadual e comunicação).\n\n### PIS e Cofins\nContribuições **federais** sobre a **receita**.\n\n| | Cumulativo | Não cumulativo |\n|---|---|---|\n| Quem | Lucro **Presumido** e Arbitrado; algumas receitas específicas | Lucro **Real**, em regra |\n| PIS | **0,65%** | **1,65%** |\n| Cofins | **3%** | **7,6%** |\n| Créditos | **Não** | **Sim** |\n| Total | 3,65% | 9,25% |\n\n- **Créditos** no não cumulativo: bens para revenda, **insumos**, energia elétrica, aluguéis de prédios e máquinas pagos a pessoa jurídica, fretes na venda, depreciação de máquinas.\n- **Insumo**: segundo o STJ, define-se pela **essencialidade ou relevância** do bem ou serviço para a atividade.\n- O **ICMS não compõe a base** de cálculo do PIS e da Cofins (STF, a chamada \"tese do século\").\n- **Monofásico**: toda a tributação concentrada no fabricante ou importador (combustíveis, medicamentos, bebidas, autopeças); as revendas ficam com alíquota zero.\n- **PIS sobre a folha**: 1% para entidades sem fins lucrativos.\n- **PIS e Cofins na importação**.\n- **Não incidem** sobre receitas de exportação.\n\n### Preço de venda e tributos\nComo ICMS, PIS e Cofins são calculados **por dentro**, o preço é formado dividindo-se o valor desejado por (1 − soma das alíquotas). Ex.: para receber R$ 100 líquidos com 18% de ICMS, o preço deve ser 100 / 0,82 = R$ 121,95.\n\n### Retenções na fonte\n- **IRRF** sobre serviços profissionais (1,5%) e outros.\n- **CSRF** (CSLL, PIS e Cofins): 4,65% em serviços entre pessoas jurídicas.\n- **INSS** (11%) na cessão de mão de obra.\n- **ISS** retido pelo tomador.\nSão **antecipações** do tributo devido, compensáveis na apuração.\n\n### Encargos sobre a folha\n- **INSS patronal**: 20% sobre a folha, mais **RAT** (1% a 3%, ajustado pelo FAP) e contribuições a terceiros (Sistema S).\n- **FGTS**: 8% do salário.\n- **Desoneração da folha**: substituição da contribuição patronal por percentual sobre a receita, para setores definidos em lei.",
+      "revisao": "**Lembre:**\n- ICMS: estadual, não cumulativo, por dentro; crédito na compra e débito na venda.\n- Substituição tributária: recolhe antecipado o imposto da cadeia.\n- IPI: federal, por fora, seletivo; para o comerciante é custo.\n- ISS: municipal, de 2% a 5%, cumulativo.\n- PIS/Cofins: 3,65% cumulativo (presumido); 9,25% não cumulativo com créditos (real)."
+    },
+    {
+      "id": "pratica",
+      "nome": "Escrituração, obrigações e gestão tributária",
+      "resumo": "### Contabilização dos tributos\n- **Tributos sobre vendas** (ICMS, PIS, Cofins, ISS): são **deduções da receita bruta** na DRE.\n\n**Receita bruta**\n(−) Devoluções, abatimentos e **tributos sobre vendas**\n**(=) Receita líquida**\n(−) Custo das mercadorias vendidas\n**(=) Lucro bruto**\n(−) Despesas operacionais\n**(=) Lucro antes do IRPJ e da CSLL**\n(−) IRPJ e CSLL\n**(=) Lucro líquido**\n\n- **Tributos recuperáveis** na compra (ICMS, e PIS e Cofins no não cumulativo): vão para o **ativo** (\"a recuperar\") e **não integram o custo** do estoque.\n- **Tributos não recuperáveis** (IPI para o comerciante, ICMS para quem não tem direito a crédito): **integram o custo**.\n- **IRPJ e CSLL**: despesa do período, com contrapartida em **provisão** (passivo).\n\n**Lançamento de compra a prazo** (com ICMS recuperável):\n- D – Estoques (valor sem o ICMS)\n- D – ICMS a Recuperar\n- C – Fornecedores\n\n**Lançamento do ICMS na venda**:\n- D – ICMS sobre Vendas (dedução da receita)\n- C – ICMS a Recolher\n\n**Apuração no fim do mês**: confrontam-se \"a recuperar\" e \"a recolher\"; se o crédito for maior, o **saldo credor** é transportado ao mês seguinte.\n\n### Documentos e livros fiscais\n- **Nota fiscal eletrônica (NF-e)**: operações com mercadorias; o **DANFE** é a representação impressa.\n- **NFS-e**: serviços.\n- **NFC-e**: consumidor final.\n- **CFOP**: código fiscal de operações e prestações; indica a natureza (compra, venda, devolução; interna, interestadual ou com o exterior).\n- **NCM**: classificação fiscal da mercadoria.\n- **CST / CSOSN**: situação tributária.\n- Livros: registro de **entradas**, de **saídas**, de **apuração do ICMS** e do IPI, e de **inventário**, hoje dentro da **EFD**.\n\n### Principais obrigações acessórias\n| Obrigação | Conteúdo |\n|---|---|\n| **ECD** | Escrituração contábil (diário, razão, balancetes) |\n| **ECF** | Apuração do IRPJ e da CSLL |\n| **EFD ICMS/IPI** | Livros fiscais de ICMS e IPI |\n| **EFD-Contribuições** | PIS e Cofins |\n| **DCTFWeb / DCTF** | Débitos e créditos de tributos federais |\n| **eSocial e EFD-Reinf** | Folha, retenções e contribuições previdenciárias |\n| **PGDAS-D e DEFIS** | Simples Nacional |\n| **DIRF / informes** | Retenções na fonte |\n\n### Crédito tributário\n- **Lançamento**: ato que constitui o crédito. Tipos: **de ofício** (IPTU), **por declaração** e **por homologação** (o contribuinte apura e paga; é o caso da maioria dos tributos empresariais).\n- **Decadência**: prazo de **5 anos** para o fisco **lançar**.\n- **Prescrição**: prazo de **5 anos** para **cobrar** o crédito já constituído.\n- Por isso, documentos e livros devem ser guardados por, no mínimo, **5 anos**.\n- **Suspensão da exigibilidade**: moratória, depósito integral, recursos administrativos, liminar e **parcelamento**.\n- **Extinção**: pagamento, compensação, transação, remissão, decadência e prescrição.\n- **Exclusão**: isenção e anistia.\n\n### Penalidades\n- **Multa de mora**: por atraso no pagamento (0,33% ao dia, limitada a 20%, nos tributos federais), mais juros pela **Selic**.\n- **Multa de ofício**: quando o fisco apura a falta (75%, podendo ser maior em caso de fraude).\n- **Denúncia espontânea**: quem confessa e paga **antes** de qualquer fiscalização fica livre da multa punitiva (CTN, art. 138).\n- **Crimes contra a ordem tributária** (Lei 8.137/1990): omitir informação, fraudar a fiscalização, deixar de recolher tributo descontado de terceiros (**apropriação indébita**).\n\n### Fiscalização e contencioso\n- **Auto de infração**: lança o tributo e a multa.\n- **Processo administrativo fiscal**: impugnação na delegacia de julgamento e recurso ao **CARF** (federal) ou aos conselhos estaduais e municipais.\n- **Malha fiscal**: cruzamento eletrônico das declarações.\n- **Certidão negativa de débitos (CND)**: exigida em licitações e financiamentos.\n\n### Gestão tributária\n- **Comparação anual dos regimes** (Simples, Presumido e Real), com simulação.\n- **Revisão fiscal**: identificar créditos não aproveitados e pagamentos indevidos (recuperáveis em 5 anos).\n- **Calendário de obrigações** e controles internos (*compliance* tributário).\n- **Incentivos fiscais**: Zona Franca de Manaus, Sudene e Sudam, Lei do Bem, PAT e benefícios estaduais.\n- Atenção à **classificação fiscal** correta das mercadorias e à **substituição tributária**.\n- **Responsabilidade do contador**: responde por atos dolosos ou culposos; deve seguir as normas e o Código de Ética Profissional.\n\n### Carga tributária e decisões\nOs tributos afetam a **formação de preços**, a localização, a forma de contratação e a distribuição de resultados. O contador tributarista participa dessas decisões.",
+      "revisao": "**Lembre:**\n- Tributos sobre vendas reduzem a receita bruta; recuperáveis não entram no custo do estoque.\n- ICMS: \"a recuperar\" (ativo) x \"a recolher\" (passivo); saldo credor passa ao mês seguinte.\n- ECD (contábil), ECF (IRPJ e CSLL), EFD (ICMS/IPI e Contribuições).\n- Decadência e prescrição: 5 anos.\n- Denúncia espontânea afasta a multa punitiva."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "contabilidade-tributaria-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A redução da carga tributária por meios lícitos, em geral antes da ocorrência do fato gerador, chama-se:",
+      "opcoes": [
+        "Elisão fiscal",
+        "Evasão fiscal",
+        "Sonegação",
+        "Inadimplência"
+      ],
+      "correta": 0,
+      "explicacao": "A evasão, ao contrário, usa meios ilícitos e configura crime contra a ordem tributária."
+    },
+    {
+      "id": "contabilidade-tributaria-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Emitir notas fiscais e entregar declarações são exemplos de obrigação tributária:",
+      "opcoes": [
+        "Principal",
+        "Acessória",
+        "Penal",
+        "Contratual"
+      ],
+      "correta": 1,
+      "explicacao": "A obrigação principal é a de pagar o tributo ou a penalidade em dinheiro."
+    },
+    {
+      "id": "contabilidade-tributaria-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O imposto de competência dos estados que mais afeta as empresas comerciais é o:",
+      "opcoes": [
+        "ISS",
+        "IPI",
+        "ICMS",
+        "IRPJ"
+      ],
+      "correta": 2,
+      "explicacao": "O ISS é municipal, e o IPI e o IRPJ são federais."
+    },
+    {
+      "id": "contabilidade-tributaria-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa deixa de registrar parte das vendas para pagar menos imposto. Essa prática é:",
+      "opcoes": [
+        "Elisão fiscal",
+        "Planejamento tributário legítimo",
+        "Compensação de prejuízos",
+        "Evasão fiscal, que é crime"
+      ],
+      "correta": 3,
+      "explicacao": "Omitir receita é conduta ilícita, praticada depois de ocorrido o fato gerador."
+    },
+    {
+      "id": "contabilidade-tributaria-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que a escolha do regime de tributação deve ser precedida de simulações?",
+      "opcoes": [
+        "Porque a opção vale para o ano todo e o regime mais vantajoso depende da margem, da folha e dos custos de cada empresa",
+        "Porque todos os regimes resultam na mesma carga",
+        "Porque o fisco escolhe o regime pela empresa",
+        "Porque a opção pode ser trocada a cada mês"
+      ],
+      "correta": 0,
+      "explicacao": "Uma escolha errada pode manter a empresa pagando mais tributos por doze meses."
+    },
+    {
+      "id": "contabilidade-tributaria-6",
+      "topico": "simples",
+      "nivel": "conceitual",
+      "pergunta": "O limite de receita bruta anual para a empresa de pequeno porte permanecer no Simples Nacional é de:",
+      "opcoes": [
+        "R$ 360 mil",
+        "R$ 4,8 milhões",
+        "R$ 78 milhões",
+        "R$ 81 mil"
+      ],
+      "correta": 1,
+      "explicacao": "Até R$ 360 mil, a empresa é classificada como microempresa."
+    },
+    {
+      "id": "contabilidade-tributaria-7",
+      "topico": "simples",
+      "nivel": "conceitual",
+      "pergunta": "O documento de arrecadação que reúne os tributos do Simples Nacional é o:",
+      "opcoes": [
+        "DARF comum",
+        "GPS",
+        "DAS",
+        "GNRE"
+      ],
+      "correta": 2,
+      "explicacao": "Nele são recolhidos IRPJ, CSLL, PIS, Cofins, IPI, CPP, ICMS e ISS."
+    },
+    {
+      "id": "contabilidade-tributaria-8",
+      "topico": "simples",
+      "nivel": "conceitual",
+      "pergunta": "O limite de receita bruta anual do microempreendedor individual (MEI) é de:",
+      "opcoes": [
+        "R$ 360 mil",
+        "R$ 180 mil",
+        "R$ 4,8 milhões",
+        "R$ 81 mil"
+      ],
+      "correta": 3,
+      "explicacao": "O MEI recolhe um valor fixo mensal, independentemente do faturamento."
+    },
+    {
+      "id": "contabilidade-tributaria-9",
+      "topico": "simples",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa de serviços sujeita ao fator r tem folha de salários igual a 30% da receita dos últimos 12 meses. Ela será tributada pelo:",
+      "opcoes": [
+        "Anexo III",
+        "Anexo V",
+        "Anexo I",
+        "Anexo II"
+      ],
+      "correta": 0,
+      "explicacao": "Com fator r igual ou superior a 28%, aplica-se a tabela de menor carga."
+    },
+    {
+      "id": "contabilidade-tributaria-10",
+      "topico": "simples",
+      "nivel": "analise",
+      "pergunta": "Por que o Simples Nacional pode não ser vantajoso para uma empresa que opera com prejuízo?",
+      "opcoes": [
+        "Porque o Simples só tributa o lucro",
+        "Porque o tributo incide sobre a receita bruta, e é devido mesmo sem lucro",
+        "Porque a empresa fica isenta de tributos",
+        "Porque o regime proíbe a emissão de notas"
+      ],
+      "correta": 1,
+      "explicacao": "No Lucro Real, ao contrário, não há IRPJ nem CSLL quando há prejuízo."
+    },
+    {
+      "id": "contabilidade-tributaria-11",
+      "topico": "presumido",
+      "nivel": "conceitual",
+      "pergunta": "No Lucro Presumido, o percentual de presunção do IRPJ para a atividade de comércio é de:",
+      "opcoes": [
+        "32%",
+        "16%",
+        "8%",
+        "1,6%"
+      ],
+      "correta": 2,
+      "explicacao": "Para a prestação de serviços em geral, o percentual é de 32%."
+    },
+    {
+      "id": "contabilidade-tributaria-12",
+      "topico": "presumido",
+      "nivel": "conceitual",
+      "pergunta": "No Lucro Presumido, o PIS e a Cofins são apurados, em regra, no regime:",
+      "opcoes": [
+        "Não cumulativo, com alíquotas de 1,65% e 7,6%",
+        "Monofásico",
+        "De substituição tributária",
+        "Cumulativo, com alíquotas de 0,65% e 3%"
+      ],
+      "correta": 3,
+      "explicacao": "Nesse regime não há direito a créditos sobre as compras."
+    },
+    {
+      "id": "contabilidade-tributaria-13",
+      "topico": "presumido",
+      "nivel": "conceitual",
+      "pergunta": "O adicional de 10% do IRPJ incide sobre a parcela da base de cálculo que exceder, no trimestre:",
+      "opcoes": [
+        "R$ 60 mil",
+        "R$ 20 mil",
+        "R$ 240 mil",
+        "R$ 78 mil"
+      ],
+      "correta": 0,
+      "explicacao": "O valor corresponde a R$ 20 mil por mês do período de apuração."
+    },
+    {
+      "id": "contabilidade-tributaria-14",
+      "topico": "presumido",
+      "nivel": "aplicacao",
+      "pergunta": "Uma prestadora de serviços no Lucro Presumido faturou R$ 100.000 no trimestre. A base de cálculo do IRPJ é de:",
+      "opcoes": [
+        "R$ 8.000",
+        "R$ 32.000",
+        "R$ 12.000",
+        "R$ 100.000"
+      ],
+      "correta": 1,
+      "explicacao": "Aplica-se o percentual de presunção de 32% sobre a receita bruta de serviços."
+    },
+    {
+      "id": "contabilidade-tributaria-15",
+      "topico": "presumido",
+      "nivel": "analise",
+      "pergunta": "Em que situação o Lucro Presumido tende a ser mais vantajoso que o Lucro Real?",
+      "opcoes": [
+        "Quando a empresa tem prejuízo",
+        "Quando a empresa tem muitos créditos de PIS e Cofins",
+        "Quando a margem de lucro efetiva da empresa é maior que o percentual de presunção",
+        "Quando a margem de lucro é muito baixa"
+      ],
+      "correta": 2,
+      "explicacao": "A empresa passa a pagar imposto sobre um lucro menor do que o que realmente obteve."
+    },
+    {
+      "id": "contabilidade-tributaria-16",
+      "topico": "real",
+      "nivel": "conceitual",
+      "pergunta": "O lucro real é obtido a partir do lucro líquido contábil ajustado por:",
+      "opcoes": [
+        "Percentuais de presunção sobre a receita",
+        "Alíquotas do Simples Nacional",
+        "Margem de valor agregado",
+        "Adições, exclusões e compensações"
+      ],
+      "correta": 3,
+      "explicacao": "Os ajustes são controlados no LALUR, hoje integrado à ECF."
+    },
+    {
+      "id": "contabilidade-tributaria-17",
+      "topico": "real",
+      "nivel": "conceitual",
+      "pergunta": "A compensação de prejuízos fiscais de períodos anteriores é limitada a:",
+      "opcoes": [
+        "30% do lucro ajustado do período",
+        "100% do lucro",
+        "10% do lucro",
+        "50% da receita bruta"
+      ],
+      "correta": 0,
+      "explicacao": "Não há prazo para a utilização do saldo de prejuízos."
+    },
+    {
+      "id": "contabilidade-tributaria-18",
+      "topico": "real",
+      "nivel": "conceitual",
+      "pergunta": "No regime não cumulativo, as alíquotas de PIS e Cofins são, respectivamente:",
+      "opcoes": [
+        "0,65% e 3%",
+        "1,65% e 7,6%",
+        "1% e 5%",
+        "2% e 9%"
+      ],
+      "correta": 1,
+      "explicacao": "Em contrapartida, a empresa pode descontar créditos sobre insumos e outros custos."
+    },
+    {
+      "id": "contabilidade-tributaria-19",
+      "topico": "real",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa do Lucro Real contabilizou como despesa uma multa por infração fiscal. Na apuração do lucro real, esse valor deve ser:",
+      "opcoes": [
+        "Excluído do lucro líquido",
+        "Ignorado",
+        "Adicionado ao lucro líquido",
+        "Compensado com prejuízos"
+      ],
+      "correta": 2,
+      "explicacao": "Multas punitivas são despesas indedutíveis para o IRPJ e a CSLL."
+    },
+    {
+      "id": "contabilidade-tributaria-20",
+      "topico": "real",
+      "nivel": "analise",
+      "pergunta": "Por que os juros sobre o capital próprio são usados no planejamento tributário de empresas do Lucro Real?",
+      "opcoes": [
+        "Porque são isentos de qualquer imposto",
+        "Porque aumentam o lucro tributável",
+        "Porque substituem o pagamento de salários",
+        "Porque são despesa dedutível, reduzindo a base do IRPJ e da CSLL"
+      ],
+      "correta": 3,
+      "explicacao": "A economia na empresa costuma superar o imposto retido na fonte do sócio."
+    },
+    {
+      "id": "contabilidade-tributaria-21",
+      "topico": "indiretos",
+      "nivel": "conceitual",
+      "pergunta": "O ICMS é um imposto não cumulativo, o que significa que:",
+      "opcoes": [
+        "O valor pago nas compras é compensado com o devido nas vendas",
+        "Incide uma única vez na cadeia",
+        "Não gera direito a crédito",
+        "É calculado sobre o lucro"
+      ],
+      "correta": 0,
+      "explicacao": "A empresa recolhe apenas a diferença entre débitos e créditos do período."
+    },
+    {
+      "id": "contabilidade-tributaria-22",
+      "topico": "indiretos",
+      "nivel": "conceitual",
+      "pergunta": "As alíquotas mínima e máxima do ISS são, respectivamente:",
+      "opcoes": [
+        "0,65% e 3%",
+        "2% e 5%",
+        "7% e 12%",
+        "17% e 20%"
+      ],
+      "correta": 1,
+      "explicacao": "O imposto é municipal e incide sobre os serviços da lista da lei complementar."
+    },
+    {
+      "id": "contabilidade-tributaria-23",
+      "topico": "indiretos",
+      "nivel": "conceitual",
+      "pergunta": "Na substituição tributária do ICMS:",
+      "opcoes": [
+        "O consumidor final recolhe o imposto diretamente",
+        "Não há cobrança de imposto",
+        "Um contribuinte recolhe antecipadamente o imposto das etapas seguintes da cadeia",
+        "O imposto é devido apenas na exportação"
+      ],
+      "correta": 2,
+      "explicacao": "O cálculo usa uma margem de valor agregado estimada para as vendas futuras."
+    },
+    {
+      "id": "contabilidade-tributaria-24",
+      "topico": "indiretos",
+      "nivel": "aplicacao",
+      "pergunta": "Em um mês, uma loja teve R$ 9.000 de ICMS nas compras e R$ 15.000 de ICMS nas vendas. O ICMS a recolher é de:",
+      "opcoes": [
+        "R$ 15.000",
+        "R$ 24.000",
+        "R$ 9.000",
+        "R$ 6.000"
+      ],
+      "correta": 3,
+      "explicacao": "Subtrai-se o crédito das compras do débito das vendas."
+    },
+    {
+      "id": "contabilidade-tributaria-25",
+      "topico": "indiretos",
+      "nivel": "analise",
+      "pergunta": "Por que o IPI pago na compra é custo para o comerciante, mas crédito para a indústria?",
+      "opcoes": [
+        "Porque o comerciante não é contribuinte do imposto e não tem como compensá-lo",
+        "Porque o comerciante é isento de todos os tributos",
+        "Porque a indústria não paga IPI",
+        "Porque o IPI é imposto estadual"
+      ],
+      "correta": 0,
+      "explicacao": "Só quem industrializa gera débito de IPI na saída para abater o crédito da entrada."
+    },
+    {
+      "id": "contabilidade-tributaria-26",
+      "topico": "pratica",
+      "nivel": "conceitual",
+      "pergunta": "Na demonstração do resultado, o ICMS sobre vendas é apresentado como:",
+      "opcoes": [
+        "Despesa administrativa",
+        "Dedução da receita bruta",
+        "Custo das mercadorias vendidas",
+        "Receita financeira"
+      ],
+      "correta": 1,
+      "explicacao": "A receita líquida é a receita bruta menos devoluções, abatimentos e tributos sobre vendas."
+    },
+    {
+      "id": "contabilidade-tributaria-27",
+      "topico": "pratica",
+      "nivel": "conceitual",
+      "pergunta": "A obrigação acessória digital em que se apuram o IRPJ e a CSLL é a:",
+      "opcoes": [
+        "ECD",
+        "EFD ICMS/IPI",
+        "ECF",
+        "DEFIS"
+      ],
+      "correta": 2,
+      "explicacao": "A ECD contém a escrituração contábil, como o livro diário e o razão."
+    },
+    {
+      "id": "contabilidade-tributaria-28",
+      "topico": "pratica",
+      "nivel": "conceitual",
+      "pergunta": "O prazo para o fisco constituir o crédito tributário pelo lançamento (decadência) é de:",
+      "opcoes": [
+        "2 anos",
+        "10 anos",
+        "30 anos",
+        "5 anos"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso os documentos fiscais devem ser guardados por, no mínimo, esse período."
+    },
+    {
+      "id": "contabilidade-tributaria-29",
+      "topico": "pratica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa compra mercadorias por R$ 10.000, com R$ 1.800 de ICMS recuperável incluído. O valor registrado em estoque é de:",
+      "opcoes": [
+        "R$ 8.200",
+        "R$ 10.000",
+        "R$ 11.800",
+        "R$ 1.800"
+      ],
+      "correta": 0,
+      "explicacao": "O imposto recuperável vai para o ativo como crédito e não integra o custo."
+    },
+    {
+      "id": "contabilidade-tributaria-30",
+      "topico": "pratica",
+      "nivel": "analise",
+      "pergunta": "Por que a denúncia espontânea é vantajosa para o contribuinte que errou?",
+      "opcoes": [
+        "Porque o tributo deixa de ser devido",
+        "Porque, ao confessar e pagar antes de qualquer fiscalização, ele fica livre da multa punitiva",
+        "Porque os juros são dispensados",
+        "Porque impede fiscalizações futuras"
+      ],
+      "correta": 1,
+      "explicacao": "O benefício não vale depois de iniciado o procedimento fiscal."
+    }
+  ]
+}

@@ -388,6 +388,52 @@
       ]
     },
     {
+      "id": "auditoria",
+      "nome": "Auditoria Contábil",
+      "apelidos": [
+        "Auditoria",
+        "Auditoria I",
+        "Auditoria II",
+        "Auditoria e Perícia",
+        "Auditoria e Perícia Contábil",
+        "Auditoria Interna",
+        "Auditoria Independente",
+        "Fundamentos de Auditoria",
+        "Introdução à Auditoria",
+        "Auditoria e Controladoria",
+        "Perícia Contábil",
+        "Auditoria Empresarial",
+        "Auditoria Governamental"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Conceitos, tipos e normas"
+        },
+        {
+          "id": "planejamento",
+          "nome": "Planejamento, risco e materialidade"
+        },
+        {
+          "id": "controle",
+          "nome": "Controle interno"
+        },
+        {
+          "id": "procedimentos",
+          "nome": "Evidências, testes e amostragem"
+        },
+        {
+          "id": "relatorio",
+          "nome": "Relatório do auditor e tipos de opinião"
+        },
+        {
+          "id": "interna",
+          "nome": "Auditoria interna, governamental e perícia"
+        }
+      ]
+    },
+    {
       "id": "avaliacao-psicologica",
       "nome": "Avaliação Psicológica",
       "apelidos": [
@@ -1022,6 +1068,50 @@
         {
           "id": "competencia-principios",
           "nome": "Regime de competência e princípios contábeis"
+        }
+      ]
+    },
+    {
+      "id": "contabilidade-tributaria",
+      "nome": "Contabilidade Tributária",
+      "apelidos": [
+        "Contabilidade Tributária I",
+        "Contabilidade Tributária II",
+        "Contabilidade Fiscal",
+        "Contabilidade e Planejamento Tributário",
+        "Planejamento Tributário",
+        "Contabilidade Fiscal e Tributária",
+        "Gestão Tributária",
+        "Legislação e Contabilidade Tributária",
+        "Contabilidade e Legislação Tributária",
+        "Prática Tributária",
+        "Tributos e Contabilidade Fiscal"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos e planejamento tributário"
+        },
+        {
+          "id": "simples",
+          "nome": "Simples Nacional e MEI"
+        },
+        {
+          "id": "presumido",
+          "nome": "Lucro Presumido"
+        },
+        {
+          "id": "real",
+          "nome": "Lucro Real, IRPJ e CSLL"
+        },
+        {
+          "id": "indiretos",
+          "nome": "ICMS, IPI, ISS, PIS e Cofins"
+        },
+        {
+          "id": "pratica",
+          "nome": "Escrituração, obrigações e gestão tributária"
         }
       ]
     },

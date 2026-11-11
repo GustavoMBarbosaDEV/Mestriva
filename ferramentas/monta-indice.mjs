@@ -1749,6 +1749,42 @@ export const EXTRA = {
       "Instalações Hidrossanitárias",
       "Hidráulica dos Condutos Forçados"
     ]
+  },
+  "contabilidade-tributaria": {
+    "area": "Negócios",
+    "apelidos": [
+      "Contabilidade Tributária",
+      "Contabilidade Tributária I",
+      "Contabilidade Tributária II",
+      "Contabilidade Fiscal",
+      "Contabilidade e Planejamento Tributário",
+      "Planejamento Tributário",
+      "Contabilidade Fiscal e Tributária",
+      "Gestão Tributária",
+      "Legislação e Contabilidade Tributária",
+      "Contabilidade e Legislação Tributária",
+      "Prática Tributária",
+      "Tributos e Contabilidade Fiscal"
+    ]
+  },
+  "auditoria": {
+    "area": "Negócios",
+    "apelidos": [
+      "Auditoria",
+      "Auditoria Contábil",
+      "Auditoria I",
+      "Auditoria II",
+      "Auditoria e Perícia",
+      "Auditoria e Perícia Contábil",
+      "Auditoria Interna",
+      "Auditoria Independente",
+      "Fundamentos de Auditoria",
+      "Introdução à Auditoria",
+      "Auditoria e Controladoria",
+      "Perícia Contábil",
+      "Auditoria Empresarial",
+      "Auditoria Governamental"
+    ]
   }
 };
 

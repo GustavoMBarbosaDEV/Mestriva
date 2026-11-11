@@ -1,0 +1,465 @@
+{
+  "id": "auditoria",
+  "nome": "Auditoria Contábil",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Conceitos, tipos e normas",
+      "resumo": "### O que é\nAuditoria é o **exame sistemático e independente** das demonstrações contábeis, dos registros e dos controles de uma entidade, para verificar se estão **de acordo com as normas** aplicáveis.\n\n### Objetivo da auditoria independente\n**Aumentar o grau de confiança** dos usuários nas demonstrações contábeis, por meio de uma **opinião** sobre se elas foram elaboradas, **em todos os aspectos relevantes**, conforme a estrutura de relatório financeiro aplicável (NBC TA 200).\n- O auditor oferece **segurança razoável** — nível **alto, mas não absoluto** —, por causa das limitações inerentes: uso de **amostragem**, de **julgamento** e a possibilidade de fraude com conluio.\n- **Não é** objetivo principal descobrir fraudes, nem garantir a viabilidade futura da empresa.\n\n### Responsabilidades\n- **Administração**: **elaborar** as demonstrações contábeis e manter os **controles internos**.\n- **Auditor**: **expressar opinião** sobre elas.\n\n### Auditoria externa x interna\n| | Externa (independente) | Interna |\n|---|---|---|\n| Quem faz | Profissional **sem vínculo** de emprego | **Empregado** da empresa (ou terceirizado) |\n| Objetivo | **Opinar** sobre as demonstrações contábeis | **Avaliar e melhorar** controles, processos e a gestão de riscos |\n| Destinatário | Acionistas, credores, mercado | A **administração** |\n| Independência | Total | Menor; deve reportar-se ao mais alto nível (conselho, comitê de auditoria) |\n| Frequência | Periódica | **Contínua** |\n| Produto | **Relatório do auditor** com opinião | Relatórios com recomendações |\n\nA auditoria interna **não substitui** a externa, mas o auditor externo pode usar o trabalho dela.\n\n### Outros tipos\n- **Operacional**: eficiência e eficácia das operações.\n- **De conformidade (*compliance*)**: cumprimento de leis e normas.\n- **De sistemas**: tecnologia da informação.\n- **Governamental**: feita por tribunais de contas e controladorias.\n- **Fiscal**, **ambiental** e **de gestão**.\n- **Perícia contábil**: diferente da auditoria — é prova técnica para resolver um **litígio**, feita por perito, e resulta em **laudo**.\n\n### Quem é obrigado à auditoria independente\n**Companhias abertas**, **instituições financeiras**, seguradoras, entidades de previdência, e **sociedades de grande porte** (ativo acima de R$ 240 milhões ou receita bruta acima de R$ 300 milhões — Lei 11.638/2007).\n\n### Normas e órgãos\n- **NBC TA**: Normas Brasileiras de Contabilidade Técnicas de **Auditoria**, do **CFC**, convergentes com as normas internacionais (**ISA**, do IAASB).\n- **NBC PA**: normas **profissionais** do auditor independente.\n- **NBC TI e PI**: auditoria **interna**.\n- **CVM**: regula os auditores de companhias abertas, exige registro e **rodízio**.\n- **Ibracon**: instituto dos auditores independentes.\n- **CNAI**: Cadastro Nacional de Auditores Independentes, obtido por **Exame de Qualificação Técnica**.\n- Só o **contador** (bacharel registrado no CRC) pode ser auditor independente.\n\n### Requisitos éticos (NBC PG 100 / Código de Ética)\n**Integridade**, **objetividade**, **competência e zelo profissional**, **sigilo** e **comportamento profissional**.\n\n### Independência\nO auditor não pode ter interesses que comprometam seu julgamento. **Ameaças**:\n- **Interesse próprio**: ter ações ou interesse financeiro no cliente.\n- **Autorrevisão**: auditar trabalho que ele mesmo fez (por isso não pode fazer a contabilidade do cliente).\n- **Defesa do cliente** (advocacia).\n- **Familiaridade**: relacionamento longo ou parentesco.\n- **Intimidação**.\n- **Salvaguardas**: **rodízio** dos responsáveis, revisão por outro sócio, restrição de serviços.\n\n### Ceticismo e julgamento profissional\n- **Ceticismo profissional**: postura **questionadora**, alerta a indícios de distorção; não aceitar evidências sem avaliação crítica.\n- **Julgamento profissional**: aplicar conhecimento e experiência para decidir.\n\n### Controle de qualidade\nA firma mantém sistema de gestão de qualidade; há **revisão pelos pares** e fiscalização do CFC e da CVM.",
+      "revisao": "**Lembre:**\n- Auditoria independente: opinião sobre as demonstrações, com segurança razoável.\n- A administração elabora as demonstrações; o auditor opina.\n- Externa: independente, para o mercado; interna: empregado, para a gestão.\n- NBC TA são as normas de auditoria; só contador pode ser auditor.\n- Ameaças à independência: interesse próprio, autorrevisão, familiaridade e intimidação."
+    },
+    {
+      "id": "planejamento",
+      "nome": "Planejamento, risco e materialidade",
+      "resumo": "### Fases do trabalho\n1. **Aceitação ou continuidade** do cliente e **carta de contratação**.\n2. **Planejamento**.\n3. **Avaliação dos riscos** e dos controles internos.\n4. **Execução** dos procedimentos (testes).\n5. **Conclusão** e **relatório**.\n\n### Planejamento (NBC TA 300)\nDefine a **estratégia global** (alcance, época e direção) e o **plano de auditoria** (natureza, época e extensão dos procedimentos). Envolve:\n- **Entender a entidade e seu ambiente**: ramo, operações, estrutura, legislação, sistemas e controles.\n- Identificar **áreas de risco**.\n- Fixar a **materialidade**.\n- Definir a equipe e o cronograma.\n- É atividade **contínua**: o plano é revisto ao longo do trabalho.\n\n### Programa de auditoria\nRoteiro detalhado dos procedimentos a executar em cada área, com responsáveis; serve de guia e de controle.\n\n### Materialidade (relevância) — NBC TA 320\nUma distorção é **relevante (material)** se puder, individualmente ou em conjunto, **influenciar as decisões econômicas** dos usuários.\n- Definida por **julgamento profissional**, em geral como percentual de uma base (lucro antes dos impostos, receita, ativo total ou patrimônio líquido).\n- **Materialidade para as demonstrações como um todo**.\n- **Materialidade para execução**: valor **menor**, para reduzir o risco de que distorções não detectadas, somadas, ultrapassem a materialidade global.\n- Considera aspectos **quantitativos** e **qualitativos** (um valor pequeno pode ser relevante se envolver fraude ou descumprimento de contrato).\n\n### Risco de auditoria\nRisco de o auditor emitir **opinião inadequada** quando as demonstrações contêm **distorção relevante**.\n\n**Risco de auditoria = Risco de distorção relevante × Risco de detecção**\n\n**Risco de distorção relevante** (existe independentemente da auditoria):\n- **Risco inerente**: suscetibilidade de uma afirmação a distorção, **antes** de considerar os controles. Maior em itens complexos, com estimativas ou sujeitos a desvio (caixa, estoques).\n- **Risco de controle**: risco de os **controles internos** da entidade **não prevenirem nem detectarem** a distorção.\n\n**Risco de detecção**: risco de os **procedimentos do auditor** não detectarem a distorção. É o **único** que o auditor controla.\n\n### Relação inversa\nQuanto **maiores** os riscos inerente e de controle, **menor** deve ser o risco de detecção aceito — o que exige **mais** testes, mais evidência e amostras maiores.\n- Controles internos **fortes** → menos testes substantivos.\n- Controles **fracos** → mais testes substantivos.\n\n### Resposta aos riscos (NBC TA 330)\n- **Respostas gerais**: equipe mais experiente, mais supervisão, elementos de imprevisibilidade.\n- **Procedimentos adicionais**: testes de controle e procedimentos substantivos.\n- **Riscos significativos**: exigem atenção especial (reconhecimento de receita e burla dos controles pela administração são presumidos como risco de fraude).\n\n### Afirmações (assertivas)\nSão as declarações implícitas da administração nas demonstrações, que o auditor testa:\n- **Existência** (o ativo existe?) e **ocorrência** (a transação aconteceu?).\n- **Integridade** (tudo foi registrado?).\n- **Exatidão** e **valorização** (o valor está correto?).\n- **Corte** (*cut-off*: registrado no período certo?).\n- **Direitos e obrigações** (pertence à entidade?).\n- **Classificação**, **apresentação** e **divulgação**.\n- **Superavaliação** se testa partindo do registro para o documento (**existência**); **subavaliação**, do documento para o registro (**integridade**).\n\n### Fraude e erro (NBC TA 240)\n- **Erro**: ato **não intencional**.\n- **Fraude**: ato **intencional** para obter vantagem. Tipos: **informação contábil fraudulenta** (manipular demonstrações) e **apropriação indevida de ativos** (desvio).\n- **Triângulo da fraude** (Cressey): **pressão** (motivação), **oportunidade** e **racionalização**.\n- A responsabilidade **primária** pela prevenção e detecção é da **administração** e dos responsáveis pela governança.\n- A fraude é mais difícil de detectar que o erro, sobretudo quando há **conluio** ou envolvimento da administração.\n- O auditor deve comunicar a fraude encontrada ao nível adequado da administração.\n\n### Continuidade operacional (NBC TA 570)\nO auditor avalia se é adequado o pressuposto de que a entidade **continuará operando** no futuro previsível (ao menos 12 meses). Indícios de problema: prejuízos sucessivos, capital circulante negativo, perda de clientes importantes.",
+      "revisao": "**Lembre:**\n- Planejamento: estratégia global e plano de auditoria; é contínuo.\n- Materialidade: distorção que influencia a decisão do usuário.\n- Risco de auditoria = distorção relevante (inerente e de controle) × detecção.\n- O auditor só controla o risco de detecção; controles fracos pedem mais testes.\n- Erro é não intencional; fraude é intencional (pressão, oportunidade e racionalização)."
+    },
+    {
+      "id": "controle",
+      "nome": "Controle interno",
+      "resumo": "### Conceito\nProcesso conduzido pela **governança, pela administração e pelos demais empregados**, desenhado para dar **segurança razoável** quanto ao alcance dos objetivos de:\n- **Confiabilidade** das informações financeiras.\n- **Eficácia e eficiência** das operações.\n- **Conformidade** com leis e regulamentos.\n- Também a **salvaguarda dos ativos**.\n\n### Tipos\n- **Controles contábeis**: protegem o patrimônio e a fidedignidade dos registros (segregação de funções, conciliações, contagens físicas).\n- **Controles administrativos**: voltados à eficiência e à adesão às políticas (controle de qualidade, orçamento, treinamento).\n- **Preventivos** (evitam o erro: autorização, senha), **detectivos** (encontram depois: conciliação, inventário) e **corretivos**.\n- **Manuais** e **automatizados**.\n\n### COSO\nModelo de referência mais usado. Cinco componentes:\n1. **Ambiente de controle**: a base — integridade, valores éticos, estrutura, competência e o **tom da alta administração**.\n2. **Avaliação de riscos**: identificar e analisar os riscos.\n3. **Atividades de controle**: políticas e procedimentos que respondem aos riscos.\n4. **Informação e comunicação**.\n5. **Monitoramento**: avaliar os controles ao longo do tempo.\n- O **COSO ERM** amplia o modelo para o gerenciamento de riscos corporativos.\n\n### Princípios de um bom controle interno\n- **Segregação de funções**: quem **autoriza**, quem **executa**, quem **registra** e quem **guarda** o ativo devem ser pessoas **diferentes**. Assim, ninguém controla uma operação do começo ao fim.\n- **Definição clara de responsabilidades** e limites de alçada.\n- **Autorização** das transações.\n- **Documentação** adequada e numeração sequencial.\n- **Confronto dos ativos com os registros**: contagens e conciliações.\n- **Acesso restrito** aos ativos.\n- **Rodízio de funcionários** e férias obrigatórias.\n- **Pessoal qualificado**.\n- **Custo x benefício**: o controle não deve custar mais do que o risco que evita.\n\n### Limitações inerentes\nMesmo um bom sistema só dá segurança **razoável**, por causa de:\n- **Conluio** entre funcionários.\n- **Burla pela administração** (*management override*).\n- **Erros de julgamento** e falhas humanas.\n- Eventos não previstos.\n- Relação custo-benefício.\n\n### Avaliação pelo auditor\nO auditor **entende** os controles relevantes para identificar riscos e planejar os testes.\n- **Levantamento**: como o sistema funciona.\n  - **Questionário** (perguntas de sim ou não).\n  - **Narrativa** (descrição escrita).\n  - **Fluxograma** (representação gráfica).\n- ***Walkthrough* (teste de reconstituição)**: acompanhar uma transação do início ao fim.\n- **Testes de controle**: verificam se os controles **funcionam de fato** e de forma contínua.\n\n### Deficiências (NBC TA 265)\n- **Deficiência de controle**: o controle não previne, detecta ou corrige distorções em tempo hábil.\n- **Deficiência significativa**: merece a atenção dos responsáveis pela **governança**; deve ser comunicada **por escrito**.\n- **Carta de recomendações** (relatório sobre controles internos): aponta as falhas e sugere melhorias.\n\n### Controles por ciclo\n- **Caixa e bancos**: conciliação bancária por pessoa que não movimenta o caixa; dupla assinatura; fundo fixo; depósito diário e integral.\n- **Compras e contas a pagar**: requisição, cotação, pedido, recebimento e pagamento por setores distintos.\n- **Vendas e contas a receber**: análise de crédito, faturamento separado da cobrança.\n- **Estoques**: inventário físico periódico, controle de acesso.\n- **Folha de pagamento**: admissão separada do pagamento.\n- **Imobilizado**: plaquetas de identificação e inventário.\n\n### Governança e comitê de auditoria\n- **Governança corporativa**: transparência, equidade, prestação de contas e responsabilidade.\n- **Comitê de auditoria**: órgão do conselho que supervisiona os controles, a auditoria interna e a independente.\n- **Lei Sarbanes-Oxley (SOX)**: lei norte-americana de 2002, após os escândalos da Enron e da WorldCom; exige que os executivos **certifiquem** os controles internos e as demonstrações.\n- **Três linhas**: gestão operacional; funções de risco e *compliance*; e auditoria interna.",
+      "revisao": "**Lembre:**\n- Controle interno dá segurança razoável, não absoluta.\n- COSO: ambiente de controle, avaliação de riscos, atividades de controle, informação e comunicação, monitoramento.\n- Segregação de funções: autorizar, executar, registrar e guardar com pessoas diferentes.\n- Limitações: conluio e burla pela administração.\n- Levantamento por questionário, narrativa ou fluxograma; depois, testes de controle."
+    },
+    {
+      "id": "procedimentos",
+      "nome": "Evidências, testes e amostragem",
+      "resumo": "### Evidência de auditoria (NBC TA 500)\nInformações usadas pelo auditor para fundamentar a opinião. Deve ser:\n- **Suficiente**: medida da **quantidade**.\n- **Apropriada**: medida da **qualidade** — **relevância** e **confiabilidade**.\n\n### Confiabilidade da evidência\nÉ maior quando:\n- Vem de **fonte externa e independente** (em vez da própria entidade).\n- É obtida **diretamente pelo auditor** (em vez de indiretamente).\n- Está em **forma documental** (em vez de verbal).\n- É documento **original** (em vez de cópia).\n- Os **controles internos** são eficazes.\n\n### Tipos de teste\n- **Testes de controle (de observância)**: verificam se os **controles funcionam**.\n- **Procedimentos substantivos**: buscam **distorções relevantes** nos saldos e transações. Dividem-se em:\n  - **Testes de detalhes**: exame de transações, saldos e divulgações.\n  - **Procedimentos analíticos substantivos**.\n\n### Procedimentos de auditoria\n| Procedimento | O que é |\n|---|---|\n| **Inspeção** | Exame de **registros, documentos** ou de **ativos tangíveis** |\n| **Observação** | Acompanhar um **processo sendo executado** por outros (ex.: a contagem de estoque) |\n| **Confirmação externa (circularização)** | Resposta **escrita de terceiros** diretamente ao auditor |\n| **Recálculo** | Conferir a **exatidão matemática** |\n| **Reexecução** | O auditor **refaz** de forma independente um procedimento ou controle |\n| **Procedimentos analíticos** | Avaliar relações **plausíveis** entre dados: índices, tendências, comparações |\n| **Indagação** | Perguntar a pessoas com conhecimento; **sozinha não basta** |\n\n### Circularização (NBC TA 505)\n- **Positiva**: pede-se que o terceiro **responda sempre**. Pode ser **em preto** (informa o saldo e pede confirmação) ou **em branco** (não informa; o terceiro declara o saldo — mais confiável).\n- **Negativa**: pede resposta **só se discordar**; evidência mais fraca.\n- Usada para **bancos**, **clientes**, **fornecedores**, **advogados** e depositários de estoques.\n- O auditor **controla** o envio e o recebimento.\n\n### Aplicação por área\n- **Caixa e bancos**: contagem de caixa (de surpresa), **conciliação bancária** e circularização dos bancos.\n- **Contas a receber**: circularização de clientes, análise por idade e das **perdas estimadas**, teste de recebimentos subsequentes.\n- **Estoques**: **acompanhar o inventário físico**, testar custos e o valor realizável líquido, teste de **corte**.\n- **Imobilizado**: inspeção física, exame de documentos de compra, recálculo da **depreciação**, teste de *impairment*.\n- **Fornecedores e passivos**: circularização e **busca de passivos não registrados** (pagamentos subsequentes).\n- **Contingências**: circularização dos **advogados**.\n- **Receitas e despesas**: testes de corte, procedimentos analíticos e exame documental.\n- **Patrimônio líquido**: atas e estatuto.\n\n### Testes de superavaliação e subavaliação\n- **Ativos e receitas**: tendem a estar **superavaliados** → testa-se a **existência**.\n- **Passivos e despesas**: tendem a estar **subavaliados** → testa-se a **integridade**.\n\n### Amostragem (NBC TA 530)\nAplicar procedimentos a **menos de 100%** dos itens de uma população, para concluir sobre o todo.\n- **Estatística**: seleção **aleatória** e uso de **probabilidade** para avaliar os resultados; permite medir o risco.\n- **Não estatística**: baseada no **julgamento**.\n- **Risco de amostragem**: a conclusão pela amostra ser diferente da que se teria examinando tudo.\n- **Risco não resultante da amostragem**: erro do auditor (procedimento inadequado, má interpretação).\n- **Métodos de seleção**: **aleatória**, **sistemática** (a cada n itens), **por unidade monetária** (itens de maior valor têm mais chance), **ao acaso** e **em bloco** (pouco recomendada).\n- **Estratificação**: dividir a população em subgrupos homogêneos.\n- O **tamanho da amostra** aumenta quando o risco é maior e quando a distorção tolerável é menor.\n- **Distorção tolerável** e **taxa tolerável de desvio**.\n\n### Papéis de trabalho (NBC TA 230)\nDocumentação do trabalho: planejamento, procedimentos, evidências e conclusões.\n- São **propriedade do auditor** e **sigilosos**.\n- Devem permitir que um auditor experiente, sem contato anterior, **entenda** o que foi feito.\n- **Permanentes** (estatuto, contratos de longo prazo) e **correntes** (do exercício).\n- Guarda mínima de **5 anos** após a data do relatório.\n\n### Outros temas\n- **Eventos subsequentes** (NBC TA 560): fatos entre a data do balanço e a do relatório; alguns exigem **ajuste**, outros apenas **divulgação**.\n- **Representações formais** (carta de responsabilidade da administração).\n- **Estimativas contábeis**, **partes relacionadas** e uso do trabalho de **especialistas**.\n- **Auditoria de grupos** e primeira auditoria (saldos iniciais).",
+      "revisao": "**Lembre:**\n- Evidência suficiente (quantidade) e apropriada (qualidade).\n- Mais confiável: externa, obtida pelo auditor, documental e original.\n- Testes de controle x procedimentos substantivos.\n- Circularização positiva pede resposta sempre; negativa, só se discordar.\n- Ativos: testar existência; passivos: testar integridade."
+    },
+    {
+      "id": "relatorio",
+      "nome": "Relatório do auditor e tipos de opinião",
+      "resumo": "### O relatório\nÉ o **produto final** da auditoria (NBC TA 700): documento em que o auditor expressa sua **opinião**. O termo antigo era \"parecer\".\n\n### Estrutura\n1. **Título** e **destinatário**.\n2. **Opinião** (vem em primeiro lugar).\n3. **Base para a opinião**.\n4. **Incerteza relevante sobre a continuidade operacional**, se houver.\n5. **Principais Assuntos de Auditoria (PAA)**: obrigatórios para **companhias abertas** (NBC TA 701); os temas que exigiram mais atenção.\n6. **Outras informações** (relatório da administração).\n7. **Responsabilidades da administração** e da governança.\n8. **Responsabilidades do auditor**.\n9. Local, **data**, nome, **assinatura** e registro no CRC.\n- A **data** do relatório não pode ser anterior àquela em que o auditor obteve evidência suficiente.\n\n### Tipos de opinião\n**Opinião não modificada (sem ressalva; \"limpa\")**\nAs demonstrações apresentam adequadamente, **em todos os aspectos relevantes**, a posição patrimonial e financeira.\n\n**Opiniões modificadas** (NBC TA 705): há três. A escolha depende de **dois fatores**:\n- A **natureza** do problema: **distorção relevante** nas demonstrações ou **impossibilidade de obter evidência** (limitação de alcance).\n- O **alcance** do efeito: **relevante, mas não generalizado**, ou **relevante e generalizado**.\n\n| Situação | Relevante, não generalizado | Relevante e generalizado |\n|---|---|---|\n| **Distorção** nas demonstrações | **Opinião com ressalva** | **Opinião adversa** |\n| **Impossibilidade de obter evidência** | **Opinião com ressalva** | **Abstenção de opinião** |\n\n- **Com ressalva**: \"**exceto por**...\" — as demonstrações estão adequadas, salvo pelo ponto indicado.\n- **Adversa**: as demonstrações **não** apresentam adequadamente a posição.\n- **Abstenção (negativa de opinião)**: o auditor **não expressa** opinião, por não ter conseguido evidência suficiente.\n- **Generalizado**: o efeito não se restringe a itens específicos, ou representa parcela substancial das demonstrações, ou é fundamental para o entendimento dos usuários.\n- Em toda opinião modificada, há a seção **\"Base para opinião com ressalva / adversa / abstenção\"**, explicando o motivo.\n\n### Parágrafos adicionais (NBC TA 706)\nNão modificam a opinião.\n- **Parágrafo de ênfase**: chama a atenção para um assunto **já divulgado** nas demonstrações e fundamental para entendê-las (uma incerteza importante, um evento subsequente). A opinião continua **sem ressalva** quanto a ele.\n- **Parágrafo de outros assuntos**: trata de tema **não divulgado** nas demonstrações, relevante para entender a auditoria (por exemplo, que o exercício anterior foi auditado por outro auditor).\n\n### Continuidade operacional\n- Se há **incerteza relevante** e ela está **adequadamente divulgada**: opinião **sem modificação**, com a seção \"**Incerteza relevante relacionada com a continuidade operacional**\".\n- Se **não** está divulgada: opinião **com ressalva ou adversa**.\n- Se o uso do pressuposto de continuidade é **inadequado**: opinião **adversa**.\n\n### Limitação de alcance\n- **Imposta pela administração** (impedir a circularização, por exemplo): pode levar à **abstenção** e até à renúncia ao trabalho.\n- **Por circunstâncias**: perda de registros, impossibilidade de acompanhar o inventário.\n\n### Outras comunicações\n- **Comunicação com os responsáveis pela governança** (NBC TA 260): planejamento, achados significativos e independência.\n- **Comunicação de deficiências de controle interno** (NBC TA 265).\n- **Carta de representação** da administração.\n\n### Outros trabalhos\n- **Revisão limitada** (ITR trimestrais): fornece **segurança limitada**, com conclusão em **forma negativa** (\"não temos conhecimento de nenhum fato...\").\n- **Procedimentos previamente acordados** e **compilação**: sem asseguração.\n- **Asseguração razoável** (auditoria) x **limitada** (revisão).\n\n### Responsabilidade do auditor\n- **Civil**: indenizar prejuízos causados por culpa ou dolo.\n- **Penal**: em caso de crime.\n- **Administrativa e profissional**: sanções do CFC, da CVM e do Banco Central.\n- O relatório **não isenta** a administração de sua responsabilidade pelas demonstrações.\n\n### Rodízio\nA CVM exige o **rodízio** das firmas de auditoria nas companhias abertas a cada **5 anos** (prazo maior quando há comitê de auditoria estatutário), para preservar a independência.",
+      "revisao": "**Lembre:**\n- Opinião sem ressalva: adequadas em todos os aspectos relevantes.\n- Com ressalva: \"exceto por\"; efeito relevante, mas não generalizado.\n- Adversa: distorção relevante e generalizada.\n- Abstenção: falta de evidência com efeito generalizado.\n- Parágrafo de ênfase não modifica a opinião; revisão dá segurança limitada."
+    },
+    {
+      "id": "interna",
+      "nome": "Auditoria interna, governamental e perícia",
+      "resumo": "### Auditoria interna\nAtividade **independente e objetiva** de **avaliação e consultoria**, que agrega valor e melhora as operações, ajudando a organização a alcançar seus objetivos por meio da avaliação dos processos de **gerenciamento de riscos, controle e governança** (definição do IIA).\n- **Vinculação**: deve reportar-se ao **mais alto nível** (conselho de administração ou comitê de auditoria), para ter independência.\n- **Escopo amplo**: não só contábil — operações, sistemas, conformidade e gestão.\n- **Produto**: relatório com **achados** e **recomendações**; depois, o **acompanhamento** (*follow-up*) da implantação.\n- Normas: **NBC TI 01** e padrões internacionais do **IIA** (Institute of Internal Auditors).\n\n### Tipos de trabalho\n- **Auditoria contábil-financeira**.\n- **Operacional**: economia, eficiência e eficácia.\n- **De conformidade**.\n- **De sistemas** (TI): segurança, integridade e continuidade.\n- **De gestão** e **especiais** (investigação de fraudes).\n- **Auditoria contínua**: monitoramento automatizado das transações.\n\n### Achado de auditoria\nTem quatro atributos:\n- **Condição**: a situação encontrada (\"o que é\").\n- **Critério**: a norma ou o padrão (\"o que deveria ser\").\n- **Causa**: por que ocorreu.\n- **Efeito**: a consequência.\nDaí decorre a **recomendação**.\n\n### Auditoria governamental\nExamina a gestão dos recursos **públicos**.\n- **Controle externo**: exercido pelo **Poder Legislativo**, com o auxílio dos **Tribunais de Contas** (TCU, TCEs e TCMs). O TCU **julga as contas** dos administradores e **aprecia** as contas do Presidente da República, emitindo parecer prévio.\n- **Controle interno**: de cada Poder; no Executivo federal, a **Controladoria-Geral da União (CGU)**.\n- Aspectos fiscalizados (CF, art. 70): **legalidade**, **legitimidade** e **economicidade**, além da aplicação de subvenções e da renúncia de receitas.\n- Tipos: **de conformidade (regularidade)**, **operacional (de desempenho)** — os \"três Es\": **economicidade, eficiência e eficácia**, mais a **efetividade** — e **financeira**.\n- Normas: **NBASP** e padrões da **INTOSAI**.\n- **Controle social**: exercido pelos cidadãos e conselhos.\n\n### Auditoria de sistemas\n- Avalia **controles gerais de TI** (acesso, mudanças, cópias de segurança) e **controles de aplicação** (validações, totais de controle).\n- **Técnicas assistidas por computador (CAATs)**: testes com dados, extração e análise de arquivos.\n- **Trilha de auditoria**: registro que permite rastrear uma transação.\n\n### Perícia contábil\nConjunto de procedimentos técnicos para levar à instância decisória **elementos de prova** sobre questões contábeis em **litígio**. Rege-se pelas **NBC TP 01** e **PP 01** e pelo Código de Processo Civil.\n- **Perito do juízo**: **nomeado pelo juiz**; elabora o **laudo pericial**.\n- **Assistente técnico**: **indicado pela parte**; elabora o **parecer técnico**.\n- **Quesitos**: perguntas formuladas pelas partes e pelo juiz.\n- **Tipos**: **judicial**, **extrajudicial**, **arbitral** e administrativa.\n- **Procedimentos**: exame, vistoria, indagação, investigação, arbitramento, mensuração, avaliação e certificação.\n- O perito deve ser **imparcial**; aplicam-se as regras de **impedimento e suspeição**.\n- Só **contador** registrado no CRC pode fazer perícia contábil; há o **Cadastro Nacional de Peritos Contábeis (CNPC)**.\n\n### Auditoria x perícia\n| | Auditoria | Perícia |\n|---|---|---|\n| Finalidade | Opinar sobre as demonstrações | Esclarecer fato em **litígio** |\n| Alcance | Amostragem | Exame **específico e completo** do ponto controvertido |\n| Destinatário | Sócios, mercado | **Juiz**, árbitro ou partes |\n| Produto | Relatório | **Laudo** ou parecer |\n| Frequência | Periódica | **Eventual** |\n\n### *Compliance* e prevenção\n- **Programa de integridade**: código de conduta, canal de denúncias, treinamento e *due diligence*.\n- **Lei Anticorrupção** (Lei 12.846/2013): responsabilidade **objetiva** da empresa por atos lesivos à administração pública.\n- **Prevenção à lavagem de dinheiro**: os profissionais contábeis devem comunicar operações suspeitas ao **COAF**.\n- **Auditoria forense**: investigação de fraudes com vistas a processos.\n\n### Tendências\nAnálise de dados (*data analytics*), automação, auditoria de informações de **sustentabilidade (ESG)** e uso de inteligência artificial nos testes.",
+      "revisao": "**Lembre:**\n- Auditoria interna: avalia riscos, controles e governança; reporta-se ao mais alto nível.\n- Achado: condição, critério, causa e efeito.\n- Controle externo: Legislativo com os Tribunais de Contas; interno: CGU.\n- Perícia: prova técnica em litígio; perito faz laudo, assistente técnico faz parecer.\n- Auditoria usa amostragem e é periódica; perícia é específica e eventual."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "auditoria-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O objetivo principal da auditoria independente das demonstrações contábeis é:",
+      "opcoes": [
+        "Expressar opinião sobre sua adequação, aumentando a confiança dos usuários",
+        "Descobrir todas as fraudes da empresa",
+        "Elaborar as demonstrações contábeis",
+        "Garantir o lucro futuro da entidade"
+      ],
+      "correta": 0,
+      "explicacao": "A opinião é dada com segurança razoável, que é um nível alto, mas não absoluto."
+    },
+    {
+      "id": "auditoria-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "A responsabilidade pela elaboração das demonstrações contábeis é:",
+      "opcoes": [
+        "Do auditor independente",
+        "Da administração da entidade",
+        "Da CVM",
+        "Do Conselho Federal de Contabilidade"
+      ],
+      "correta": 1,
+      "explicacao": "Ao auditor cabe apenas expressar uma opinião sobre essas demonstrações."
+    },
+    {
+      "id": "auditoria-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Uma diferença entre a auditoria interna e a externa é que a interna:",
+      "opcoes": [
+        "É obrigatória para todas as empresas",
+        "Emite opinião para o mercado",
+        "É feita por empregado da empresa e se volta à melhoria de controles e processos",
+        "Não avalia controles internos"
+      ],
+      "correta": 2,
+      "explicacao": "A auditoria externa é independente e opina sobre as demonstrações contábeis."
+    },
+    {
+      "id": "auditoria-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Um auditor independente possui ações da companhia que audita. Essa situação configura ameaça de:",
+      "opcoes": [
+        "Autorrevisão",
+        "Familiaridade",
+        "Intimidação",
+        "Interesse próprio"
+      ],
+      "correta": 3,
+      "explicacao": "O interesse financeiro no cliente pode comprometer a objetividade do julgamento."
+    },
+    {
+      "id": "auditoria-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Por que a auditoria fornece segurança razoável, e não absoluta?",
+      "opcoes": [
+        "Porque usa amostragem e julgamento e está sujeita a fraudes com conluio, entre outras limitações",
+        "Porque o auditor não examina nenhum documento",
+        "Porque as normas proíbem conclusões",
+        "Porque a administração revisa a opinião"
+      ],
+      "correta": 0,
+      "explicacao": "Examinar todas as transações seria inviável em custo e em tempo."
+    },
+    {
+      "id": "auditoria-6",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "O único componente do risco de auditoria que o auditor pode controlar diretamente é o risco de:",
+      "opcoes": [
+        "Controle",
+        "Detecção",
+        "Inerência",
+        "Negócio"
+      ],
+      "correta": 1,
+      "explicacao": "Os riscos inerente e de controle pertencem à entidade e existem independentemente da auditoria."
+    },
+    {
+      "id": "auditoria-7",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "Uma distorção é considerada relevante quando:",
+      "opcoes": [
+        "Supera sempre R$ 1 milhão",
+        "É causada por fraude, necessariamente",
+        "Pode influenciar as decisões econômicas dos usuários das demonstrações",
+        "Ocorre em qualquer conta do ativo"
+      ],
+      "correta": 2,
+      "explicacao": "A definição depende do julgamento profissional e considera aspectos quantitativos e qualitativos."
+    },
+    {
+      "id": "auditoria-8",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "A diferença entre fraude e erro está:",
+      "opcoes": [
+        "No valor envolvido",
+        "Na conta contábil afetada",
+        "No período em que ocorre",
+        "Na intenção do ato"
+      ],
+      "correta": 3,
+      "explicacao": "A fraude é intencional; o erro resulta de engano, desatenção ou má interpretação."
+    },
+    {
+      "id": "auditoria-9",
+      "topico": "planejamento",
+      "nivel": "aplicacao",
+      "pergunta": "O auditor avaliou que os controles internos de uma empresa são fracos. Em consequência, ele deve:",
+      "opcoes": [
+        "Ampliar os procedimentos substantivos para reduzir o risco de detecção",
+        "Reduzir a quantidade de testes",
+        "Emitir opinião sem ressalva imediatamente",
+        "Deixar de planejar o trabalho"
+      ],
+      "correta": 0,
+      "explicacao": "Quanto maior o risco de distorção relevante, mais evidência é necessária."
+    },
+    {
+      "id": "auditoria-10",
+      "topico": "planejamento",
+      "nivel": "analise",
+      "pergunta": "Por que a materialidade para execução é fixada em valor menor que a materialidade global?",
+      "opcoes": [
+        "Para aumentar o risco de detecção",
+        "Para reduzir o risco de que distorções não detectadas, somadas, ultrapassem a materialidade das demonstrações",
+        "Porque a lei fixa esse valor",
+        "Para diminuir o trabalho do auditor"
+      ],
+      "correta": 1,
+      "explicacao": "Trata-se de uma margem de segurança sobre erros que a amostragem pode não captar."
+    },
+    {
+      "id": "auditoria-11",
+      "topico": "controle",
+      "nivel": "conceitual",
+      "pergunta": "O princípio segundo o qual quem autoriza, executa, registra e guarda um ativo devem ser pessoas diferentes é a:",
+      "opcoes": [
+        "Rotação de estoques",
+        "Materialidade",
+        "Segregação de funções",
+        "Circularização"
+      ],
+      "correta": 2,
+      "explicacao": "Assim, uma pessoa sozinha não consegue cometer e ocultar uma irregularidade."
+    },
+    {
+      "id": "auditoria-12",
+      "topico": "controle",
+      "nivel": "conceitual",
+      "pergunta": "No modelo COSO, o componente que constitui a base dos demais, envolvendo integridade e valores éticos, é o:",
+      "opcoes": [
+        "Monitoramento",
+        "Atividades de controle",
+        "Avaliação de riscos",
+        "Ambiente de controle"
+      ],
+      "correta": 3,
+      "explicacao": "Ele reflete o tom dado pela alta administração."
+    },
+    {
+      "id": "auditoria-13",
+      "topico": "controle",
+      "nivel": "conceitual",
+      "pergunta": "É uma limitação inerente do controle interno:",
+      "opcoes": [
+        "O conluio entre funcionários",
+        "A segregação de funções",
+        "A conciliação bancária",
+        "O inventário físico"
+      ],
+      "correta": 0,
+      "explicacao": "A burla dos controles pela própria administração é outra limitação importante."
+    },
+    {
+      "id": "auditoria-14",
+      "topico": "controle",
+      "nivel": "aplicacao",
+      "pergunta": "Em uma empresa, o mesmo funcionário recebe os pagamentos dos clientes e registra as baixas no contas a receber. O auditor deve apontar:",
+      "opcoes": [
+        "Excesso de controle",
+        "Falha de segregação de funções",
+        "Erro de materialidade",
+        "Risco de amostragem"
+      ],
+      "correta": 1,
+      "explicacao": "O acúmulo permite desviar valores e ocultar o desvio nos registros."
+    },
+    {
+      "id": "auditoria-15",
+      "topico": "controle",
+      "nivel": "analise",
+      "pergunta": "Por que um sistema de controle interno bem desenhado oferece apenas segurança razoável?",
+      "opcoes": [
+        "Porque os controles nunca funcionam",
+        "Porque só serve para empresas pequenas",
+        "Porque pode ser burlado por conluio ou pela administração e está sujeito a falhas humanas",
+        "Porque elimina a necessidade de auditoria"
+      ],
+      "correta": 2,
+      "explicacao": "Além disso, o custo do controle não deve superar o benefício que ele traz."
+    },
+    {
+      "id": "auditoria-16",
+      "topico": "procedimentos",
+      "nivel": "conceitual",
+      "pergunta": "A obtenção de resposta escrita de terceiros, diretamente ao auditor, é o procedimento de:",
+      "opcoes": [
+        "Observação",
+        "Recálculo",
+        "Indagação",
+        "Confirmação externa (circularização)"
+      ],
+      "correta": 3,
+      "explicacao": "É muito usada para saldos de bancos, clientes, fornecedores e advogados."
+    },
+    {
+      "id": "auditoria-17",
+      "topico": "procedimentos",
+      "nivel": "conceitual",
+      "pergunta": "Em geral, a evidência de auditoria mais confiável é a:",
+      "opcoes": [
+        "Obtida de fonte externa e independente, em forma documental",
+        "Obtida verbalmente da administração",
+        "Constituída por cópia de documento interno",
+        "Baseada apenas em indagação"
+      ],
+      "correta": 0,
+      "explicacao": "Evidências obtidas diretamente pelo auditor também são mais confiáveis."
+    },
+    {
+      "id": "auditoria-18",
+      "topico": "procedimentos",
+      "nivel": "conceitual",
+      "pergunta": "Os testes de controle têm por finalidade verificar se:",
+      "opcoes": [
+        "Os saldos das contas estão corretos",
+        "Os controles internos funcionam efetivamente",
+        "A opinião do auditor foi publicada",
+        "Os impostos foram pagos"
+      ],
+      "correta": 1,
+      "explicacao": "A busca de distorções nos saldos é feita pelos procedimentos substantivos."
+    },
+    {
+      "id": "auditoria-19",
+      "topico": "procedimentos",
+      "nivel": "aplicacao",
+      "pergunta": "Para verificar a existência física dos estoques de uma indústria no fim do exercício, o auditor deve principalmente:",
+      "opcoes": [
+        "Enviar carta aos clientes",
+        "Recalcular a depreciação",
+        "Acompanhar a contagem do inventário físico",
+        "Indagar o gerente financeiro"
+      ],
+      "correta": 2,
+      "explicacao": "A observação do inventário é o procedimento típico para a afirmação de existência."
+    },
+    {
+      "id": "auditoria-20",
+      "topico": "procedimentos",
+      "nivel": "analise",
+      "pergunta": "Por que a busca de passivos não registrados é um procedimento importante na auditoria do passivo?",
+      "opcoes": [
+        "Porque os passivos tendem a ser superavaliados",
+        "Porque todos os passivos constam dos registros",
+        "Porque o passivo não afeta o resultado",
+        "Porque os passivos tendem a ser subavaliados, e o risco está no que deixou de ser contabilizado"
+      ],
+      "correta": 3,
+      "explicacao": "Testa-se a integridade, partindo de documentos e pagamentos posteriores para os registros."
+    },
+    {
+      "id": "auditoria-21",
+      "topico": "relatorio",
+      "nivel": "conceitual",
+      "pergunta": "A opinião em que o auditor conclui que as demonstrações estão adequadas, 'exceto por' determinado ponto, é a:",
+      "opcoes": [
+        "Opinião com ressalva",
+        "Opinião adversa",
+        "Abstenção de opinião",
+        "Opinião sem ressalva"
+      ],
+      "correta": 0,
+      "explicacao": "Ela se aplica quando o efeito é relevante, mas não generalizado."
+    },
+    {
+      "id": "auditoria-22",
+      "topico": "relatorio",
+      "nivel": "conceitual",
+      "pergunta": "Quando o auditor não consegue obter evidência suficiente e o possível efeito é relevante e generalizado, ele emite:",
+      "opcoes": [
+        "Opinião adversa",
+        "Abstenção de opinião",
+        "Opinião sem ressalva",
+        "Parágrafo de ênfase"
+      ],
+      "correta": 1,
+      "explicacao": "A opinião adversa é reservada para distorções efetivamente identificadas e generalizadas."
+    },
+    {
+      "id": "auditoria-23",
+      "topico": "relatorio",
+      "nivel": "conceitual",
+      "pergunta": "O parágrafo de ênfase no relatório do auditor:",
+      "opcoes": [
+        "Substitui a opinião do auditor",
+        "Indica que as demonstrações estão incorretas",
+        "Destaca assunto já divulgado nas demonstrações, sem modificar a opinião",
+        "É usado apenas em revisões limitadas"
+      ],
+      "correta": 2,
+      "explicacao": "Assuntos não divulgados nas demonstrações vão no parágrafo de outros assuntos."
+    },
+    {
+      "id": "auditoria-24",
+      "topico": "relatorio",
+      "nivel": "aplicacao",
+      "pergunta": "O auditor constata que a empresa deixou de registrar uma perda que distorce de forma relevante e generalizada todo o balanço. A opinião adequada é:",
+      "opcoes": [
+        "Com ressalva",
+        "Sem ressalva",
+        "Abstenção de opinião",
+        "Adversa"
+      ],
+      "correta": 3,
+      "explicacao": "Há distorção identificada, e seu efeito atinge as demonstrações como um todo."
+    },
+    {
+      "id": "auditoria-25",
+      "topico": "relatorio",
+      "nivel": "analise",
+      "pergunta": "Por que a revisão limitada das informações trimestrais não equivale a uma auditoria?",
+      "opcoes": [
+        "Porque aplica procedimentos mais restritos e fornece apenas segurança limitada, com conclusão em forma negativa",
+        "Porque é feita por profissional sem registro",
+        "Porque não segue nenhuma norma",
+        "Porque examina todas as transações"
+      ],
+      "correta": 0,
+      "explicacao": "O auditor declara não ter conhecimento de fato que indique distorção, sem emitir opinião."
+    },
+    {
+      "id": "auditoria-26",
+      "topico": "interna",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, o controle externo da administração pública federal é exercido:",
+      "opcoes": [
+        "Pela Controladoria-Geral da União",
+        "Pelo Congresso Nacional, com o auxílio do Tribunal de Contas da União",
+        "Pela CVM",
+        "Pelo Conselho Federal de Contabilidade"
+      ],
+      "correta": 1,
+      "explicacao": "A CGU é o órgão central do controle interno do Poder Executivo federal."
+    },
+    {
+      "id": "auditoria-27",
+      "topico": "interna",
+      "nivel": "conceitual",
+      "pergunta": "Na perícia contábil judicial, o profissional nomeado pelo juiz elabora o:",
+      "opcoes": [
+        "Relatório de auditoria",
+        "Parecer técnico",
+        "Laudo pericial",
+        "Balanço patrimonial"
+      ],
+      "correta": 2,
+      "explicacao": "O parecer técnico é o documento do assistente indicado por uma das partes."
+    },
+    {
+      "id": "auditoria-28",
+      "topico": "interna",
+      "nivel": "conceitual",
+      "pergunta": "Os quatro atributos de um achado de auditoria são:",
+      "opcoes": [
+        "Ativo, passivo, receita e despesa",
+        "Planejar, executar, checar e agir",
+        "Risco, controle, teste e opinião",
+        "Condição, critério, causa e efeito"
+      ],
+      "correta": 3,
+      "explicacao": "A partir deles o auditor formula a recomendação."
+    },
+    {
+      "id": "auditoria-29",
+      "topico": "interna",
+      "nivel": "aplicacao",
+      "pergunta": "Duas empresas discutem na Justiça o valor de haveres de um sócio que se retirou. Para esclarecer a questão contábil, o juiz deve determinar uma:",
+      "opcoes": [
+        "Perícia contábil",
+        "Auditoria independente das demonstrações",
+        "Revisão limitada",
+        "Auditoria operacional"
+      ],
+      "correta": 0,
+      "explicacao": "A perícia produz prova técnica específica para resolver o ponto controvertido."
+    },
+    {
+      "id": "auditoria-30",
+      "topico": "interna",
+      "nivel": "analise",
+      "pergunta": "Por que a auditoria interna deve reportar-se ao conselho de administração ou ao comitê de auditoria, e não à diretoria financeira?",
+      "opcoes": [
+        "Para reduzir o custo do departamento",
+        "Para preservar a independência em relação às áreas que ela própria avalia",
+        "Porque a diretoria não tem autoridade",
+        "Porque a lei proíbe diretores financeiros"
+      ],
+      "correta": 1,
+      "explicacao": "Subordinada a quem é auditado, ela poderia ter seus achados limitados ou omitidos."
+    }
+  ]
+}
