@@ -1,0 +1,465 @@
+{
+  "id": "direito-coisas",
+  "nome": "Direito das Coisas (Direitos Reais)",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "teoria",
+      "nome": "Teoria geral dos direitos reais",
+      "resumo": "### Direito real x direito pessoal\n- **Direito real**: poder **direto e imediato** da pessoa sobre a **coisa**, oponível a **todos** (*erga omnes*). Ex.: propriedade, usufruto, hipoteca.\n- **Direito pessoal (obrigacional)**: vínculo entre **pessoas** (credor e devedor), que só obriga as partes. Ex.: contrato de locação, empréstimo.\n\n### Características dos direitos reais\n- **Oponibilidade *erga omnes***: todos devem respeitá-los.\n- **Sequela**: o titular pode **perseguir a coisa** onde quer que ela esteja, com quem quer que esteja.\n- **Preferência**: nos direitos reais de garantia, o credor tem prioridade sobre o valor da coisa.\n- **Taxatividade (*numerus clausus*)**: só existem os direitos reais **previstos em lei**; as partes não podem criar novos.\n- **Tipicidade**: o conteúdo de cada um é definido pela lei.\n- **Publicidade**: em regra, os direitos reais sobre imóveis se constituem pelo **registro** no Cartório de Registro de Imóveis; sobre móveis, pela **tradição** (entrega).\n- **Perpetuidade** da propriedade (não se perde pelo não uso, salvo usucapião de outrem ou abandono).\n\n### Rol do art. 1.225 do Código Civil\n**Propriedade**; **superfície**; **servidões**; **usufruto**; **uso**; **habitação**; **direito do promitente comprador** do imóvel; **penhor**; **hipoteca**; **anticrese**; concessão de uso especial para fins de moradia; concessão de direito real de uso; **laje**; e os direitos oriundos da imissão provisória na posse em desapropriação.\n\n### Classificação\n- **Direito sobre coisa própria**: a **propriedade** (o mais amplo).\n- **Direitos sobre coisa alheia** (*jura in re aliena*):\n  - **de gozo ou fruição**: superfície, servidão, usufruto, uso, habitação, laje;\n  - **de garantia**: penhor, hipoteca, anticrese (e a alienação fiduciária, em leis especiais);\n  - **de aquisição**: direito do promitente comprador.\n\n### Aquisição de direitos reais sobre imóveis\n- Regra: **\"quem não registra não é dono\"**. O contrato de compra e venda gera só **obrigação**; a propriedade se transfere com o **registro** do título no Registro de Imóveis (art. 1.245).\n- Escritura pública é essencial para negócios sobre imóveis de valor superior a **30 salários mínimos** (art. 108).\n\n### Obrigação *propter rem*\nObrigação que **acompanha a coisa**: quem é dono responde, mesmo por débitos anteriores. Ex.: **taxas de condomínio**, IPTU.",
+      "revisao": "**Lembre:**\n- Direito real: sobre a coisa, oponível a todos, com sequela.\n- Só existem os direitos reais da lei (taxatividade).\n- Imóvel: propriedade se adquire pelo registro; móvel, pela tradição.\n- Rol do art. 1.225: propriedade, superfície, servidão, usufruto, uso, habitação, laje, penhor, hipoteca, anticrese e outros.\n- Condomínio é obrigação propter rem."
+    },
+    {
+      "id": "posse",
+      "nome": "Posse",
+      "resumo": "### Conceito\n- **Teoria objetiva de Ihering**, adotada pelo Código Civil (art. 1.196): possuidor é quem tem de fato o **exercício, pleno ou não, de algum dos poderes inerentes à propriedade** (usar, gozar, dispor, reaver). A posse é a **exteriorização da propriedade**; basta o *corpus* (comportar-se como dono).\n- **Teoria subjetiva de Savigny**: exige *corpus* (poder físico) + *animus domini* (intenção de ser dono). Ela aparece na **usucapião**, que exige posse com intenção de dono.\n\n### Detenção\nO **detentor** (fâmulo da posse) conserva a coisa **em nome de outro**, em relação de dependência e cumprindo ordens. Ex.: caseiro, motorista da empresa, bibliotecário. **Não é possuidor** e não tem os efeitos da posse (não pode usucapir nem usar os interditos em nome próprio).\n- Atos de **mera permissão ou tolerância** não geram posse.\n- Ocupação de **bem público** gera mera detenção, não posse (Súmula 619 do STJ), embora o STJ admita a proteção possessória entre particulares.\n\n### Classificações\n- **Direta e indireta** (desdobramento): o locatário, o usufrutuário e o comodatário têm a posse **direta**; o proprietário que cedeu o bem mantém a **indireta**. Ambos podem defender a posse, inclusive um contra o outro.\n- **Justa e injusta**: injusta é a posse **violenta** (obtida pela força), **clandestina** (às ocultas) ou **precária** (abuso de confiança: quem recebeu para devolver e não devolve).\n- **De boa-fé e de má-fé**: de boa-fé quando o possuidor **ignora o vício** que impede a aquisição da coisa. Quem tem **justo título** é presumido de boa-fé.\n- **Nova e velha**: menos ou mais de **ano e dia**; a ação de força nova permite liminar no rito especial.\n- **Composse**: várias pessoas possuem a mesma coisa em conjunto.\n\n### Aquisição e perda\n- Adquire-se a posse desde que se torna possível o **exercício** de qualquer poder inerente à propriedade.\n- A violência e a clandestinidade, enquanto não cessarem, **não autorizam** a aquisição da posse; a precariedade nunca convalesce.\n- Perde-se a posse quando cessa o poder sobre o bem (abandono, tradição, perda, destruição).\n\n### Efeitos da posse\n- **Proteção possessória** (interditos): **manutenção** de posse (contra **turbação**), **reintegração** de posse (contra **esbulho**, a perda da posse) e **interdito proibitório** (contra **ameaça**). Há **fungibilidade** entre elas.\n- **Autotutela**: o possuidor pode manter-se ou restituir-se **por sua própria força**, desde que o faça **logo** e com meios **proporcionais** (legítima defesa da posse e desforço imediato).\n- **Frutos**: o possuidor de **boa-fé** tem direito aos **frutos percebidos** enquanto durar a boa-fé; o de **má-fé** responde por todos os frutos.\n- **Benfeitorias**: o possuidor de **boa-fé** é indenizado pelas **necessárias e úteis**, com **direito de retenção**, e pode levantar as **voluptuárias**; o de **má-fé** só é ressarcido das **necessárias**, sem direito de retenção.\n- **Usucapião**: a posse prolongada com os requisitos legais gera propriedade.\n- Na ação possessória, **não se discute propriedade** (exceção de domínio vedada), salvo se a pretensão for deduzida em face de terceiro.",
+      "revisao": "**Lembre:**\n- Código Civil adota Ihering: possuidor age como dono.\n- Detentor (caseiro) não é possuidor.\n- Posse injusta: violenta, clandestina ou precária.\n- Turbação → manutenção; esbulho → reintegração; ameaça → interdito proibitório.\n- Boa-fé: indenização e retenção por benfeitorias necessárias e úteis."
+    },
+    {
+      "id": "propriedade",
+      "nome": "Propriedade e usucapião",
+      "resumo": "### Conteúdo da propriedade (art. 1.228)\nO proprietário tem a faculdade de **usar, gozar e dispor** da coisa e o direito de **reavê-la** de quem injustamente a possua (**ação reivindicatória**, do proprietário sem posse contra o possuidor sem título).\n- **Função social** (CF, art. 5º, XXIII): a propriedade deve atender a finalidades econômicas e sociais, preservando o meio ambiente e o patrimônio histórico.\n- **Vedação aos atos emulativos**: são proibidos atos que não trazem utilidade ao dono e são praticados com a intenção de **prejudicar** outrem.\n- A propriedade do **solo** abrange o espaço aéreo e o subsolo **na altura e profundidade úteis**; não abrange as **jazidas e minas**, que pertencem à União.\n\n### Formas de aquisição da propriedade imóvel\n- **Registro** do título; **usucapião**; **acessão** (formação de ilhas, aluvião, avulsão, abandono de álveo, construções e plantações); **herança** (saisine).\n\n### Usucapião\nAquisição da propriedade pela **posse prolongada**, mansa, pacífica, contínua, com **ânimo de dono**. É modo **originário**: o bem chega livre de ônus anteriores.\n\n| Espécie | Prazo | Requisitos principais |\n|---|---|---|\n| Extraordinária | **15 anos** (10, se moradia ou obras produtivas) | Independe de **justo título e boa-fé** |\n| Ordinária | **10 anos** (5, se adquirido onerosamente com registro cancelado e houver moradia ou investimento) | **Justo título e boa-fé** |\n| Especial urbana (CF, art. 183) | **5 anos** | Área urbana de até **250 m²**, **moradia**, não ser dono de outro imóvel; uma só vez |\n| Especial rural (pro labore) | **5 anos** | Área rural de até **50 hectares**, tornada **produtiva** pelo trabalho, moradia, sem outro imóvel |\n| Familiar (por abandono do lar) | **2 anos** | Imóvel urbano de até 250 m² dividido com ex-cônjuge ou companheiro que **abandonou o lar**; moradia; sem outro imóvel |\n| Coletiva (Estatuto da Cidade) | **5 anos** | Núcleo urbano informal; área por possuidor inferior a 250 m² |\n| De bens móveis | **3 anos** (com justo título e boa-fé) ou **5 anos** (sem) | Posse contínua |\n\n- **Bens públicos não podem ser usucapidos** (CF, arts. 183, § 3º, e 191; Súmula 340 do STF).\n- Admite-se a **soma das posses** (*accessio possessionis*) do antecessor.\n- A sentença é **declaratória**; também há **usucapião extrajudicial**, no cartório de imóveis.\n- A usucapião pode ser alegada **como defesa** (Súmula 237 do STF).\n\n### Descoberta e achado\nQuem acha coisa alheia perdida deve **restituí-la** ao dono; tem direito a uma **recompensa** (achádego) de no mínimo **5%** do valor e indenização das despesas.\n\n### Perda da propriedade\n**Alienação**, **renúncia**, **abandono**, **perecimento** da coisa e **desapropriação**. O imóvel urbano abandonado pode ser arrecadado pelo Município após 3 anos.\n\n### Desapropriação judicial privada (art. 1.228, §§ 4º e 5º)\nO proprietário pode ser privado de **extensa área** possuída de boa-fé, por mais de 5 anos, por **considerável número de pessoas** que nela realizaram obras de interesse social; o juiz fixa **justa indenização**.",
+      "revisao": "**Lembre:**\n- Proprietário: usar, gozar, dispor e reaver (reivindicatória).\n- Usucapião: modo originário; bens públicos não são usucapíveis.\n- Extraordinária 15 anos sem título; ordinária 10 anos com justo título e boa-fé.\n- Especial urbana: 5 anos, até 250 m²; rural: 5 anos, até 50 ha.\n- Familiar: 2 anos, abandono do lar."
+    },
+    {
+      "id": "vizinhanca",
+      "nome": "Direitos de vizinhança e condomínio",
+      "resumo": "### Direitos de vizinhança\nLimitações ao direito de propriedade para garantir a **convivência** entre vizinhos. São obrigações *propter rem*.\n\n### Uso anormal da propriedade (art. 1.277)\nO proprietário ou possuidor pode fazer cessar as **interferências prejudiciais à segurança, ao sossego e à saúde** provocadas pelo uso da propriedade vizinha (barulho excessivo, fumaça, odores). Considera-se a natureza da utilização, a localização e os **limites ordinários de tolerância**.\n\n### Outros direitos de vizinhança\n- **Árvores limítrofes**: a árvore com tronco na linha divisória pertence aos dois; os **frutos caídos** pertencem ao dono do **solo onde caírem**, se for propriedade particular; as raízes e ramos que ultrapassarem a divisa podem ser **cortados** pelo vizinho.\n- **Passagem forçada** (art. 1.285): o dono de prédio **encravado**, sem acesso à via pública, nascente ou porto, pode exigir do vizinho a passagem, **mediante indenização**. Diferente da servidão, que é voluntária.\n- **Passagem de cabos e tubulações**, mediante indenização.\n- **Águas**: o prédio inferior é obrigado a receber as águas que correm **naturalmente** do superior.\n- **Limites entre prédios**: direito de tapagem (cercar, murar) e de demarcação, com despesas **divididas**.\n- **Direito de construir**: é proibido abrir **janela, terraço ou varanda** a menos de **1,5 metro** do terreno vizinho (zona urbana) ou 3 metros (zona rural). O prejudicado pode exigir o desfazimento em até **1 ano e dia** após a conclusão da obra.\n- Ninguém pode construir de modo que o **beiral** despeje águas diretamente no vizinho.\n\n### Condomínio geral (voluntário)\nPropriedade comum de **duas ou mais pessoas** sobre a mesma coisa; cada condômino tem uma **fração ideal**.\n- Cada um pode usar a coisa conforme sua destinação, sem excluir os demais.\n- Nenhum condômino pode alterar a destinação nem dar posse a estranho **sem o consenso** dos outros.\n- **Direito de preferência**: na venda da fração de coisa **indivisível**, os condôminos têm preferência sobre estranhos.\n- Qualquer condômino pode exigir a **divisão** a qualquer tempo; se indivisível, a coisa é **vendida** e o preço repartido.\n\n### Condomínio edilício (arts. 1.331 a 1.358)\nEdificação com **unidades autônomas** (apartamentos, salas) de propriedade exclusiva e **áreas comuns** (corredores, elevadores, terreno) de propriedade de todos.\n- Instituído por ato registrado; regido pela **convenção** (aprovada por **2/3** das frações ideais) e pelo **regimento interno**.\n- **Síndico**: administra e representa o condomínio; mandato de até **2 anos**, renovável.\n- **Assembleia geral**: órgão deliberativo.\n- **Deveres**: contribuir para as despesas na proporção da fração ideal; não realizar obras que comprometam a segurança; não alterar a fachada; dar à unidade a mesma destinação e não prejudicar o sossego, a salubridade e a segurança.\n- **Multa por atraso**: até **2%** ao mês, mais juros.\n- **Condômino antissocial**: multa de até **10 vezes** o valor da contribuição, por deliberação de 3/4 dos demais.\n- A dívida condominial é *propter rem* e permite a **penhora do próprio imóvel**, mesmo bem de família.\n\n### Multipropriedade (time sharing)\nCada proprietário tem a fração de **tempo** sobre o mesmo imóvel (Lei 13.777/2018).",
+      "revisao": "**Lembre:**\n- Uso anormal: interferências à segurança, sossego e saúde.\n- Passagem forçada: imóvel encravado, com indenização.\n- Janela a menos de 1,5 m do vizinho é proibida (urbano).\n- Condomínio geral: preferência dos condôminos na venda.\n- Edilício: convenção (2/3), síndico, multa por atraso até 2%."
+    },
+    {
+      "id": "gozo",
+      "nome": "Direitos reais sobre coisa alheia de gozo",
+      "resumo": "### Superfície (arts. 1.369 a 1.377)\nO proprietário concede a outrem o direito de **construir ou plantar** em seu terreno, por **tempo determinado**, mediante escritura pública registrada.\n- Pode ser **gratuita ou onerosa** (o pagamento se chama *solarium* ou cânon).\n- Não autoriza obra no subsolo, salvo se inerente ao objeto.\n- Extinto o direito, o proprietário passa a ter a propriedade plena da construção, **independentemente de indenização**, salvo estipulação em contrário.\n- Há **direito de preferência** recíproco entre proprietário e superficiário.\n\n### Servidão (arts. 1.378 a 1.389)\nRestrição que um prédio (**serviente**) sofre em favor de outro (**dominante**), pertencentes a **donos diferentes**. Ex.: servidão de **passagem**, de aqueduto, de **não construir** acima de certa altura (para preservar a vista).\n- Constitui-se por declaração expressa registrada, testamento ou **usucapião** (10 anos com título, 20 anos sem título).\n- **Aparentes** (visíveis, como um caminho) e **não aparentes** (como a de não construir).\n- A servidão **não se presume** e é **indivisível**.\n- Diferença para a **passagem forçada**: a passagem forçada decorre da lei (direito de vizinhança), para imóvel **encravado**; a servidão é **voluntária** e pode existir por simples comodidade.\n\n### Usufruto (arts. 1.390 a 1.411)\nDireito de **usar e fruir** (perceber os frutos) temporariamente de coisa alheia, sem alterar sua substância.\n- Desdobra a propriedade: o **usufrutuário** tem o uso e os frutos; o **nu-proprietário** conserva a nua-propriedade (a disposição).\n- **Inalienável**, mas o seu **exercício** pode ser cedido (gratuita ou onerosamente; ex.: alugar o imóvel).\n- **Temporário**: extingue-se com a **morte do usufrutuário**, pelo termo final, pela renúncia, pela destruição da coisa ou pelo **não uso**; em favor de pessoa jurídica, dura no máximo **30 anos**.\n- Muito usado no **planejamento sucessório**: os pais doam o imóvel aos filhos **reservando o usufruto** para si.\n- Usufruto **simultâneo**: em favor de duas ou mais pessoas; a parte do que morrer extingue-se, salvo **direito de acrescer** estipulado.\n- O usufrutuário paga as **despesas ordinárias** e os tributos; o nu-proprietário, as **extraordinárias**.\n\n### Uso (arts. 1.412 e 1.413)\nO usuário usa a coisa e percebe os frutos **na medida das necessidades suas e de sua família**. Aplica-se, no que couber, o regime do usufruto.\n\n### Habitação (arts. 1.414 a 1.416)\nDireito de **morar gratuitamente** em casa alheia, com a família. Não se pode alugar nem emprestar o imóvel. É o direito do cônjuge sobrevivente sobre o imóvel residencial (art. 1.831).\n\n### Laje (arts. 1.510-A a 1.510-E)\nO proprietário de uma construção-base cede a **superfície superior ou inferior** para que outro mantenha unidade **distinta**, com matrícula própria (Lei 13.465/2017). Reconhece a realidade das construções sobrepostas em comunidades.\n\n### Direito do promitente comprador (arts. 1.417 e 1.418)\nPela **promessa de compra e venda** sem cláusula de arrependimento, registrada no Cartório de Imóveis, o promitente comprador adquire **direito real à aquisição** do imóvel e pode exigir a **outorga da escritura** (ou a **adjudicação compulsória**). A Súmula 239 do STJ dispensa o registro para a adjudicação compulsória entre as partes.",
+      "revisao": "**Lembre:**\n- Superfície: construir ou plantar em terreno alheio por tempo determinado.\n- Servidão: prédio serviente em favor do dominante; não se presume.\n- Usufruto: uso e frutos; inalienável, mas o exercício pode ser cedido; extingue-se com a morte.\n- Habitação: morar gratuitamente; não pode alugar.\n- Laje: unidade sobreposta com matrícula própria."
+    },
+    {
+      "id": "garantia",
+      "nome": "Direitos reais de garantia",
+      "resumo": "### Características comuns\nVinculam um bem ao **cumprimento de uma obrigação**. Se o devedor não pagar, o credor pode **excutir** o bem (levá-lo a leilão) e se pagar com **preferência** sobre os demais credores.\n- **Acessoriedade**: dependem da dívida principal; extinta a dívida, extingue-se a garantia.\n- **Sequela**: a garantia acompanha o bem, mesmo vendido.\n- **Indivisibilidade**: o pagamento parcial não libera parte da garantia, salvo acordo.\n- Só quem pode **alienar** pode dar em garantia.\n- **Proibição do pacto comissório** (art. 1.428): é **nula** a cláusula que autoriza o credor a **ficar com o bem** se a dívida não for paga. Mas, após o vencimento, o devedor pode dar a coisa em pagamento (**dação**).\n- **Vencimento antecipado**: se o bem se deteriorar ou desvalorizar e o devedor não reforçar a garantia, se ele cair em insolvência ou falir, ou se atrasar prestações.\n\n### Penhor (arts. 1.431 a 1.472)\nGarantia sobre **bem móvel**, em regra com **transferência da posse** ao credor (credor pignoratício).\n- **Comum**: joias deixadas na Caixa Econômica, por exemplo.\n- **Especiais**: **rural** (agrícola e pecuário), **industrial**, **mercantil** e de **veículos**, em que o bem **fica com o devedor**.\n- **Legal**: em favor de hospedeiros (sobre bagagens dos hóspedes) e locadores (sobre móveis do inquilino).\n- O credor deve guardar a coisa como depositário e não pode usá-la.\n\n### Hipoteca (arts. 1.473 a 1.505)\nGarantia sobre **bem imóvel** (e também navios, aeronaves e outros previstos em lei), **sem transferência da posse**: o devedor continua usando o bem.\n- Exige **escritura pública** (acima do limite legal) e **registro**.\n- O mesmo imóvel pode receber **várias hipotecas** (de graus diferentes): a anterior tem preferência.\n- Vale por até **30 anos** do contrato, podendo ser renovada por novo título.\n- **Súmula 308 do STJ**: a hipoteca firmada entre a **construtora e o banco**, anterior ou posterior à promessa de compra e venda, **não tem eficácia** perante os **adquirentes** do imóvel.\n- É nula a cláusula que **proíbe** o dono de **alienar** o imóvel hipotecado (mas pode-se convencionar o vencimento antecipado se ele for vendido).\n\n### Anticrese (arts. 1.506 a 1.510)\nO devedor entrega ao credor um **imóvel** para que este **receba os frutos e rendimentos** (aluguéis, colheitas) como pagamento da dívida. Pouco usada; extingue-se em 15 anos.\n\n### Alienação fiduciária em garantia\n- O devedor (fiduciante) **transfere a propriedade resolúvel** do bem ao credor (fiduciário), mantendo a **posse direta**; quitada a dívida, a propriedade volta ao devedor.\n- **Imóveis**: Lei **9.514/1997**; o inadimplemento leva à **consolidação da propriedade** no credor, extrajudicialmente, e a leilões.\n- **Móveis** (como veículos): Decreto-Lei **911/1969**; o credor pode pedir a **busca e apreensão** do bem.\n- É a garantia mais usada no financiamento de **carros e imóveis**, por ser mais ágil que a hipoteca.\n- A prisão civil do **depositário infiel** é **ilícita** (Súmula Vinculante 25).\n\n### Comparação rápida\n| Garantia | Bem | Posse |\n|---|---|---|\n| Penhor | Móvel | Em regra, com o credor |\n| Hipoteca | Imóvel | Com o devedor |\n| Anticrese | Imóvel | Com o credor, que recebe os frutos |\n| Alienação fiduciária | Móvel ou imóvel | Direta com o devedor; propriedade resolúvel com o credor |",
+      "revisao": "**Lembre:**\n- Garantias reais: acessórias, com sequela e preferência.\n- Pacto comissório (credor ficar com o bem) é nulo.\n- Penhor: móvel; hipoteca: imóvel sem perder a posse; anticrese: frutos do imóvel.\n- Alienação fiduciária: propriedade resolúvel com o credor.\n- Súmula 308: hipoteca da construtora não atinge o comprador."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-coisas-1",
+      "topico": "teoria",
+      "nivel": "conceitual",
+      "pergunta": "A característica que permite ao titular de um direito real perseguir a coisa com quem quer que ela esteja chama-se:",
+      "opcoes": [
+        "Sequela",
+        "Preferência",
+        "Taxatividade",
+        "Acessoriedade"
+      ],
+      "correta": 0,
+      "explicacao": "É ela que diferencia o direito real do direito pessoal, que só vincula as partes."
+    },
+    {
+      "id": "direito-coisas-2",
+      "topico": "teoria",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da taxatividade dos direitos reais significa que:",
+      "opcoes": [
+        "As partes podem criar livremente novos direitos reais",
+        "Só existem os direitos reais previstos em lei",
+        "Todo direito real é perpétuo",
+        "Os direitos reais só valem entre as partes"
+      ],
+      "correta": 1,
+      "explicacao": "Também se fala em numerus clausus: o rol é fechado pelo legislador."
+    },
+    {
+      "id": "direito-coisas-3",
+      "topico": "teoria",
+      "nivel": "conceitual",
+      "pergunta": "A propriedade de um imóvel adquirido por compra e venda se transfere com:",
+      "opcoes": [
+        "A assinatura do contrato particular",
+        "O pagamento do preço",
+        "O registro do título no Cartório de Registro de Imóveis",
+        "A entrega das chaves"
+      ],
+      "correta": 2,
+      "explicacao": "Antes do registro, o comprador tem apenas um direito pessoal contra o vendedor."
+    },
+    {
+      "id": "direito-coisas-4",
+      "topico": "teoria",
+      "nivel": "aplicacao",
+      "pergunta": "Lúcia comprou um apartamento com dívidas de condomínio deixadas pelo antigo dono. O condomínio pode cobrar dela?",
+      "opcoes": [
+        "Não, pois só o antigo dono é devedor",
+        "Só se ela tiver assinado a convenção",
+        "Só se a dívida tiver menos de um mês",
+        "Sim, pois a dívida condominial é obrigação propter rem e acompanha o imóvel"
+      ],
+      "correta": 3,
+      "explicacao": "Ela pode, depois, tentar reaver o valor do antigo proprietário."
+    },
+    {
+      "id": "direito-coisas-5",
+      "topico": "teoria",
+      "nivel": "analise",
+      "pergunta": "Por que a oponibilidade erga omnes exige publicidade dos direitos reais?",
+      "opcoes": [
+        "Porque, se todos devem respeitá-los, todos precisam ter meios de conhecê-los, como o registro",
+        "Porque os direitos reais são secretos",
+        "Porque o registro é apenas formalidade fiscal",
+        "Porque só o Estado pode conhecê-los"
+      ],
+      "correta": 0,
+      "explicacao": "Daí a importância do registro de imóveis e da tradição para os móveis."
+    },
+    {
+      "id": "direito-coisas-6",
+      "topico": "posse",
+      "nivel": "conceitual",
+      "pergunta": "O Código Civil brasileiro adota, quanto à posse, a teoria:",
+      "opcoes": [
+        "Subjetiva de Savigny",
+        "Objetiva de Ihering",
+        "Mista de Kelsen",
+        "Contratualista de Rousseau"
+      ],
+      "correta": 1,
+      "explicacao": "Basta que a pessoa exerça algum dos poderes inerentes à propriedade, sem exigir intenção de dono."
+    },
+    {
+      "id": "direito-coisas-7",
+      "topico": "posse",
+      "nivel": "conceitual",
+      "pergunta": "O caseiro que cuida de um sítio seguindo as ordens do dono é considerado:",
+      "opcoes": [
+        "Possuidor direto",
+        "Possuidor indireto",
+        "Detentor",
+        "Proprietário"
+      ],
+      "correta": 2,
+      "explicacao": "Ele conserva a coisa em nome de outro, em relação de dependência."
+    },
+    {
+      "id": "direito-coisas-8",
+      "topico": "posse",
+      "nivel": "conceitual",
+      "pergunta": "A posse obtida por abuso de confiança, quando quem recebeu o bem para devolvê-lo se recusa a fazê-lo, é chamada de:",
+      "opcoes": [
+        "Violenta",
+        "Clandestina",
+        "Direta",
+        "Precária"
+      ],
+      "correta": 3,
+      "explicacao": "Diferente da violenta e da clandestina, a precariedade nunca convalesce."
+    },
+    {
+      "id": "direito-coisas-9",
+      "topico": "posse",
+      "nivel": "aplicacao",
+      "pergunta": "Um vizinho derrubou a cerca de Paulo e passou a usar parte do terreno, que Paulo perdeu. A ação adequada é a de:",
+      "opcoes": [
+        "Reintegração de posse, contra o esbulho",
+        "Manutenção de posse, contra a turbação",
+        "Interdito proibitório, contra a ameaça",
+        "Usucapião"
+      ],
+      "correta": 0,
+      "explicacao": "Na turbação há incômodo sem perda; no esbulho, perde-se a posse."
+    },
+    {
+      "id": "direito-coisas-10",
+      "topico": "posse",
+      "nivel": "analise",
+      "pergunta": "Por que o possuidor de boa-fé tem direito de retenção pelas benfeitorias necessárias e úteis, e o de má-fé não?",
+      "opcoes": [
+        "Porque a má-fé gera crime",
+        "Porque a lei protege quem ignorava o vício e pune quem sabia que possuía indevidamente",
+        "Porque só o dono pode fazer benfeitorias",
+        "Porque a retenção é proibida no direito brasileiro"
+      ],
+      "correta": 1,
+      "explicacao": "O de má-fé só é ressarcido das benfeitorias necessárias, sem reter o bem."
+    },
+    {
+      "id": "direito-coisas-11",
+      "topico": "propriedade",
+      "nivel": "conceitual",
+      "pergunta": "A ação do proprietário sem posse contra o possuidor sem título é a:",
+      "opcoes": [
+        "Ação de manutenção de posse",
+        "Ação de usucapião",
+        "Ação reivindicatória",
+        "Ação demarcatória"
+      ],
+      "correta": 2,
+      "explicacao": "Ela concretiza o direito de reaver a coisa de quem injustamente a possua."
+    },
+    {
+      "id": "direito-coisas-12",
+      "topico": "propriedade",
+      "nivel": "conceitual",
+      "pergunta": "A usucapião extraordinária de imóvel exige, em regra, posse por:",
+      "opcoes": [
+        "5 anos, com justo título",
+        "2 anos, sem requisitos",
+        "30 anos, com registro",
+        "15 anos, independentemente de justo título e boa-fé"
+      ],
+      "correta": 3,
+      "explicacao": "O prazo cai para 10 anos se houver moradia habitual ou obras produtivas."
+    },
+    {
+      "id": "direito-coisas-13",
+      "topico": "propriedade",
+      "nivel": "conceitual",
+      "pergunta": "Sobre os bens públicos, é correto afirmar que:",
+      "opcoes": [
+        "Não podem ser adquiridos por usucapião",
+        "Podem ser usucapidos após 15 anos",
+        "Só os bens dominicais podem ser usucapidos",
+        "Podem ser usucapidos por pessoa jurídica"
+      ],
+      "correta": 0,
+      "explicacao": "A vedação está na Constituição e na Súmula 340 do STF."
+    },
+    {
+      "id": "direito-coisas-14",
+      "topico": "propriedade",
+      "nivel": "aplicacao",
+      "pergunta": "Maria mora há 5 anos, sem oposição, numa casa urbana de 200 m² e não possui outro imóvel. Ela pode pedir:",
+      "opcoes": [
+        "Usucapião extraordinária",
+        "Usucapião especial urbana",
+        "Usucapião familiar",
+        "Desapropriação judicial privada"
+      ],
+      "correta": 1,
+      "explicacao": "A modalidade exige área de até 250 m², moradia e que não seja dona de outro imóvel."
+    },
+    {
+      "id": "direito-coisas-15",
+      "topico": "propriedade",
+      "nivel": "analise",
+      "pergunta": "Por que a usucapião é considerada modo originário de aquisição da propriedade?",
+      "opcoes": [
+        "Porque exige contrato com o antigo dono",
+        "Porque depende de herança",
+        "Porque o bem é adquirido sem vínculo com o dono anterior, livre de ônus que pesavam sobre ele",
+        "Porque só vale para bens novos"
+      ],
+      "correta": 2,
+      "explicacao": "Ao contrário da compra, não há transmissão de um dono para outro."
+    },
+    {
+      "id": "direito-coisas-16",
+      "topico": "vizinhanca",
+      "nivel": "conceitual",
+      "pergunta": "O proprietário de imóvel encravado, sem acesso à via pública, tem direito a:",
+      "opcoes": [
+        "Servidão gratuita sem indenização",
+        "Desapropriação do terreno vizinho",
+        "Usucapião imediata do caminho",
+        "Passagem forçada pelo vizinho, mediante indenização"
+      ],
+      "correta": 3,
+      "explicacao": "A passagem forçada decorre da lei, como direito de vizinhança."
+    },
+    {
+      "id": "direito-coisas-17",
+      "topico": "vizinhanca",
+      "nivel": "conceitual",
+      "pergunta": "Na zona urbana, é proibido abrir janela a menos de que distância do terreno vizinho?",
+      "opcoes": [
+        "1,5 metro",
+        "50 centímetros",
+        "3 metros",
+        "5 metros"
+      ],
+      "correta": 0,
+      "explicacao": "Na zona rural, a distância mínima é de 3 metros."
+    },
+    {
+      "id": "direito-coisas-18",
+      "topico": "vizinhanca",
+      "nivel": "conceitual",
+      "pergunta": "Os frutos de uma árvore que caem naturalmente no terreno vizinho particular pertencem:",
+      "opcoes": [
+        "Ao dono da árvore, sempre",
+        "Ao dono do solo onde caíram",
+        "Ao Município",
+        "A quem os colher primeiro"
+      ],
+      "correta": 1,
+      "explicacao": "A regra evita que o dono da árvore invada o terreno vizinho para buscá-los."
+    },
+    {
+      "id": "direito-coisas-19",
+      "topico": "vizinhanca",
+      "nivel": "aplicacao",
+      "pergunta": "Um condômino faz festas ruidosas toda semana, apesar de multas. A assembleia pode:",
+      "opcoes": [
+        "Expulsá-lo e tomar o apartamento",
+        "Cortar a água e a luz da unidade",
+        "Aplicar multa de até dez vezes o valor da contribuição, por 3/4 dos condôminos",
+        "Vender o imóvel dele"
+      ],
+      "correta": 2,
+      "explicacao": "É a sanção prevista para o condômino antissocial reiterado."
+    },
+    {
+      "id": "direito-coisas-20",
+      "topico": "vizinhanca",
+      "nivel": "analise",
+      "pergunta": "Por que os condôminos têm preferência na venda da fração de uma coisa indivisível?",
+      "opcoes": [
+        "Porque a venda a estranhos é sempre proibida",
+        "Porque a fração não tem valor econômico",
+        "Porque o Estado tem preferência",
+        "Para evitar a entrada de estranhos e facilitar a consolidação da propriedade"
+      ],
+      "correta": 3,
+      "explicacao": "O condômino preterido pode depositar o preço e haver para si a parte vendida."
+    },
+    {
+      "id": "direito-coisas-21",
+      "topico": "gozo",
+      "nivel": "conceitual",
+      "pergunta": "O direito real que permite usar e perceber os frutos de coisa alheia, temporariamente, é o:",
+      "opcoes": [
+        "Usufruto",
+        "Penhor",
+        "Servidão",
+        "Hipoteca"
+      ],
+      "correta": 0,
+      "explicacao": "O nu-proprietário mantém a nua-propriedade enquanto durar o usufruto."
+    },
+    {
+      "id": "direito-coisas-22",
+      "topico": "gozo",
+      "nivel": "conceitual",
+      "pergunta": "A servidão é uma restrição que:",
+      "opcoes": [
+        "Só existe entre imóveis do mesmo dono",
+        "O prédio serviente sofre em favor do prédio dominante, de donos diferentes",
+        "Se presume entre vizinhos",
+        "Recai sobre bens móveis"
+      ],
+      "correta": 1,
+      "explicacao": "Ela não se presume e deve ser constituída por título ou usucapião."
+    },
+    {
+      "id": "direito-coisas-23",
+      "topico": "gozo",
+      "nivel": "conceitual",
+      "pergunta": "O direito de laje permite:",
+      "opcoes": [
+        "Construir em terreno público sem autorização",
+        "Morar gratuitamente em casa alheia",
+        "Manter unidade distinta sobre ou sob uma construção-base, com matrícula própria",
+        "Receber os frutos de um imóvel para pagar dívida"
+      ],
+      "correta": 2,
+      "explicacao": "Foi criado em 2017 para regularizar construções sobrepostas."
+    },
+    {
+      "id": "direito-coisas-24",
+      "topico": "gozo",
+      "nivel": "aplicacao",
+      "pergunta": "Os pais querem doar a casa aos filhos, mas continuar morando nela e recebendo eventuais aluguéis até morrer. A solução é:",
+      "opcoes": [
+        "Vender a casa e alugar outra",
+        "Instituir hipoteca",
+        "Fazer penhor da casa",
+        "Doar com reserva de usufruto"
+      ],
+      "correta": 3,
+      "explicacao": "Com a morte dos pais, o usufruto se extingue e os filhos ficam com a propriedade plena."
+    },
+    {
+      "id": "direito-coisas-25",
+      "topico": "gozo",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal diferença entre servidão de passagem e passagem forçada?",
+      "opcoes": [
+        "A servidão é voluntária e pode servir à comodidade; a passagem forçada decorre da lei para imóvel encravado",
+        "Não há diferença",
+        "A passagem forçada é sempre gratuita",
+        "A servidão só existe em áreas rurais"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso a servidão precisa de título registrado ou usucapião."
+    },
+    {
+      "id": "direito-coisas-26",
+      "topico": "garantia",
+      "nivel": "conceitual",
+      "pergunta": "A cláusula que autoriza o credor a ficar com o bem dado em garantia se a dívida não for paga é:",
+      "opcoes": [
+        "Válida, se registrada",
+        "Nula, por ser pacto comissório",
+        "Obrigatória na hipoteca",
+        "Válida apenas no penhor"
+      ],
+      "correta": 1,
+      "explicacao": "O devedor pode, depois do vencimento, dar a coisa em pagamento por vontade própria."
+    },
+    {
+      "id": "direito-coisas-27",
+      "topico": "garantia",
+      "nivel": "conceitual",
+      "pergunta": "A hipoteca recai, em regra, sobre:",
+      "opcoes": [
+        "Bens móveis, com entrega ao credor",
+        "Apenas dinheiro",
+        "Bens imóveis, sem transferir a posse ao credor",
+        "Os frutos de um imóvel"
+      ],
+      "correta": 2,
+      "explicacao": "O devedor continua usando o imóvel hipotecado."
+    },
+    {
+      "id": "direito-coisas-28",
+      "topico": "garantia",
+      "nivel": "conceitual",
+      "pergunta": "Na alienação fiduciária em garantia, o credor tem:",
+      "opcoes": [
+        "Apenas a posse do bem",
+        "Direito aos frutos do bem",
+        "Nenhum direito sobre o bem",
+        "A propriedade resolúvel do bem, enquanto o devedor fica com a posse direta"
+      ],
+      "correta": 3,
+      "explicacao": "Paga a dívida, a propriedade volta ao devedor automaticamente."
+    },
+    {
+      "id": "direito-coisas-29",
+      "topico": "garantia",
+      "nivel": "aplicacao",
+      "pergunta": "Uma construtora hipotecou o terreno ao banco e vendeu os apartamentos. O comprador que pagou tudo pode ter o imóvel tomado pelo banco?",
+      "opcoes": [
+        "Não, pois a hipoteca da construtora com o banco não tem eficácia perante os adquirentes",
+        "Sim, sempre",
+        "Sim, se a hipoteca for anterior à venda",
+        "Só se o comprador for pessoa jurídica"
+      ],
+      "correta": 0,
+      "explicacao": "É o entendimento da Súmula 308 do STJ, que protege o consumidor."
+    },
+    {
+      "id": "direito-coisas-30",
+      "topico": "garantia",
+      "nivel": "analise",
+      "pergunta": "Por que a alienação fiduciária substituiu a hipoteca em boa parte dos financiamentos de imóveis?",
+      "opcoes": [
+        "Porque é mais barata para o banco registrar",
+        "Porque permite recuperar o bem por via extrajudicial, de forma mais rápida",
+        "Porque não exige contrato",
+        "Porque proíbe o devedor de usar o imóvel"
+      ],
+      "correta": 1,
+      "explicacao": "Com o atraso, a propriedade se consolida no credor e o imóvel vai a leilão."
+    }
+  ]
+}

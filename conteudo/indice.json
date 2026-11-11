@@ -1053,6 +1053,47 @@
       ]
     },
     {
+      "id": "direito-coisas",
+      "nome": "Direito das Coisas (Direitos Reais)",
+      "apelidos": [
+        "Direito das Coisas",
+        "Direitos Reais",
+        "Direito Civil IV",
+        "Direito Civil: Coisas",
+        "Direito Civil: Direitos Reais",
+        "Direito das Coisas e Direitos Reais",
+        "Posse e Propriedade",
+        "Direito Imobiliário"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "teoria",
+          "nome": "Teoria geral dos direitos reais"
+        },
+        {
+          "id": "posse",
+          "nome": "Posse"
+        },
+        {
+          "id": "propriedade",
+          "nome": "Propriedade e usucapião"
+        },
+        {
+          "id": "vizinhanca",
+          "nome": "Direitos de vizinhança e condomínio"
+        },
+        {
+          "id": "gozo",
+          "nome": "Direitos reais sobre coisa alheia de gozo"
+        },
+        {
+          "id": "garantia",
+          "nome": "Direitos reais de garantia"
+        }
+      ]
+    },
+    {
       "id": "direito-constitucional",
       "nome": "Direito Constitucional",
       "apelidos": [
@@ -1086,6 +1127,46 @@
         {
           "id": "controle-constitucionalidade",
           "nome": "Controle de constitucionalidade"
+        }
+      ]
+    },
+    {
+      "id": "direito-consumidor",
+      "nome": "Direito do Consumidor",
+      "apelidos": [
+        "Direitos do Consumidor",
+        "Direito das Relações de Consumo",
+        "Código de Defesa do Consumidor",
+        "Defesa do Consumidor",
+        "Direito do Consumidor I",
+        "Relações de Consumo",
+        "Noções de Direito do Consumidor"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "relacao",
+          "nome": "Relação de consumo e princípios"
+        },
+        {
+          "id": "responsabilidade",
+          "nome": "Responsabilidade pelo fato e pelo vício"
+        },
+        {
+          "id": "praticas",
+          "nome": "Oferta, publicidade e práticas abusivas"
+        },
+        {
+          "id": "contratos",
+          "nome": "Proteção contratual"
+        },
+        {
+          "id": "juizo",
+          "nome": "Defesa do consumidor em juízo"
+        },
+        {
+          "id": "setores",
+          "nome": "Temas especiais e setores regulados"
         }
       ]
     },
@@ -1128,6 +1209,49 @@
         {
           "id": "falencia-recuperacao",
           "nome": "Falência e recuperação de empresas"
+        }
+      ]
+    },
+    {
+      "id": "direito-familia-sucessoes",
+      "nome": "Direito de Família e Sucessões",
+      "apelidos": [
+        "Direito de Família",
+        "Direito das Famílias",
+        "Direito das Sucessões",
+        "Direito Civil V",
+        "Direito Civil VI",
+        "Direito Civil: Família",
+        "Direito Civil: Sucessões",
+        "Família e Sucessões",
+        "Direito de Família e das Sucessões",
+        "Sucessões"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "casamento",
+          "nome": "Família, casamento e união estável"
+        },
+        {
+          "id": "bens",
+          "nome": "Regimes de bens"
+        },
+        {
+          "id": "filiacao",
+          "nome": "Filiação, poder familiar, guarda e alimentos"
+        },
+        {
+          "id": "sucessao-geral",
+          "nome": "Sucessão em geral e herança"
+        },
+        {
+          "id": "legitima",
+          "nome": "Sucessão legítima e ordem de vocação"
+        },
+        {
+          "id": "testamento",
+          "nome": "Testamento, inventário e partilha"
         }
       ]
     },
@@ -3083,6 +3207,48 @@
         {
           "id": "procedimentos",
           "nome": "Procedimentos, sentença e recursos"
+        }
+      ]
+    },
+    {
+      "id": "processo-trabalho",
+      "nome": "Direito Processual do Trabalho",
+      "apelidos": [
+        "Processo do Trabalho",
+        "Direito Processual do Trabalho I",
+        "Direito Processual do Trabalho II",
+        "Processo do Trabalho I",
+        "Processo do Trabalho II",
+        "Processo Trabalhista",
+        "Direito Processual Trabalhista",
+        "Prática Trabalhista",
+        "Noções de Processo do Trabalho"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "organizacao",
+          "nome": "Justiça do Trabalho: organização, competência e princípios"
+        },
+        {
+          "id": "reclamacao",
+          "nome": "Reclamação trabalhista e audiência"
+        },
+        {
+          "id": "provas",
+          "nome": "Provas, sentença e procedimentos"
+        },
+        {
+          "id": "recursos",
+          "nome": "Recursos trabalhistas"
+        },
+        {
+          "id": "execucao",
+          "nome": "Liquidação e execução trabalhista"
+        },
+        {
+          "id": "especiais",
+          "nome": "Ações especiais e tutela coletiva"
         }
       ]
     },

@@ -1,0 +1,465 @@
+{
+  "id": "direito-consumidor",
+  "nome": "Direito do Consumidor",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "relacao",
+      "nome": "Relação de consumo e princípios",
+      "resumo": "### Fundamento\n- A Constituição manda o Estado promover a **defesa do consumidor** (art. 5º, XXXII) e a coloca como princípio da ordem econômica (art. 170, V).\n- O **Código de Defesa do Consumidor (CDC)** é a Lei **8.078/1990**: norma de **ordem pública e interesse social**, que não pode ser afastada por contrato.\n\n### Consumidor (art. 2º)\nToda pessoa **física ou jurídica** que adquire ou utiliza produto ou serviço como **destinatário final**.\n- **Teoria finalista**: consumidor é quem retira o bem do mercado para **uso próprio**, sem reinseri-lo na atividade econômica.\n- **Finalismo mitigado (aprofundado)**, adotado pelo STJ: admite como consumidor quem usa o bem na atividade profissional, se comprovada a **vulnerabilidade** (técnica, jurídica, econômica ou informacional). Ex.: taxista que compra o carro, pequena empresa diante de um grande fornecedor.\n- **Consumidores por equiparação**:\n  - a **coletividade** de pessoas que intervém nas relações de consumo (art. 2º, parágrafo único);\n  - as **vítimas do acidente de consumo** (*bystanders*, art. 17);\n  - as pessoas **expostas às práticas comerciais** e à publicidade (art. 29).\n\n### Fornecedor (art. 3º)\nToda pessoa física ou jurídica, pública ou privada, nacional ou estrangeira, e os entes despersonalizados, que desenvolvem atividade de produção, montagem, importação, distribuição ou **comercialização** de produtos ou **prestação de serviços**, com **habitualidade**.\n- Quem vende o próprio carro usado, uma única vez, **não é fornecedor**.\n\n### Produto e serviço\n- **Produto**: qualquer bem, móvel ou imóvel, material ou imaterial.\n- **Serviço**: qualquer atividade fornecida no mercado **mediante remuneração**, inclusive as **bancárias, financeiras, de crédito e securitárias**; **exceto** as decorrentes de relações **trabalhistas**. A remuneração pode ser **indireta** (estacionamento \"gratuito\" do shopping).\n\n### Aplicação do CDC segundo o STJ\n- **Aplica-se**: a **instituições financeiras** (Súmula 297), a **planos de saúde** (salvo os de autogestão, Súmula 608), a entidades **abertas** de previdência complementar, a serviços públicos remunerados por **tarifa** (água, luz, telefonia).\n- **Não se aplica**: à relação entre **condomínio e condôminos**, à **locação** de imóvel urbano entre particulares, a serviços públicos custeados por **impostos**, à relação entre advogado e cliente, e à previdência complementar **fechada**.\n\n### Princípios (art. 4º)\n- **Vulnerabilidade** do consumidor: presunção **absoluta**; é o que justifica a proteção. Diferente da **hipossuficiência**, que é processual e verificada caso a caso.\n- **Boa-fé objetiva**: dever de lealdade, com deveres anexos de informação, cooperação e cuidado.\n- **Transparência e informação**: clara, adequada e em língua portuguesa.\n- **Equilíbrio** (equidade) nas relações.\n- **Harmonização** dos interesses.\n- **Intervenção do Estado** e incentivo a meios de controle de qualidade e solução de conflitos.\n\n### Direitos básicos (art. 6º)\nProteção da **vida, saúde e segurança**; **educação** para o consumo; **informação** adequada, inclusive sobre preço e riscos; proteção contra **publicidade enganosa e abusiva**; **modificação** das cláusulas desproporcionais e **revisão** por fatos supervenientes que as tornem excessivamente onerosas; **reparação integral** dos danos patrimoniais e morais; acesso à Justiça; **inversão do ônus da prova**; adequada prestação dos serviços públicos; prevenção e tratamento do **superendividamento**.\n\n### Inversão do ônus da prova (art. 6º, VIII)\nA critério do juiz (*ope judicis*), quando for **verossímil** a alegação **ou** o consumidor for **hipossuficiente**. Em alguns casos, a inversão decorre da própria lei (*ope legis*): defeito do produto ou serviço e veracidade da publicidade.",
+      "revisao": "**Lembre:**\n- Consumidor: destinatário final; STJ adota o finalismo mitigado pela vulnerabilidade.\n- Equiparados: coletividade, vítimas do acidente, expostos às práticas.\n- Fornecedor exige habitualidade.\n- CDC vale para bancos e planos de saúde; não para condomínio e locação.\n- Vulnerabilidade é presumida; hipossuficiência é caso a caso."
+    },
+    {
+      "id": "responsabilidade",
+      "nome": "Responsabilidade pelo fato e pelo vício",
+      "resumo": "### Regra geral\nA responsabilidade do fornecedor é **objetiva**: independe de **culpa**; basta o **dano**, o **defeito ou vício** e o **nexo causal**. Baseia-se na **teoria do risco da atividade**.\n\n### Fato do produto ou do serviço (arts. 12 a 17) — acidente de consumo\nHá **defeito** que afeta a **segurança** e causa **dano** à saúde, à integridade ou ao patrimônio do consumidor. Ex.: celular que explode, alimento contaminado que causa intoxicação.\n- **Respondem**: o **fabricante**, o **produtor**, o **construtor** e o **importador**.\n- **Comerciante**: responde apenas **subsidiariamente**, quando o fabricante **não puder ser identificado**, o produto não tiver identificação clara ou ele **não conservar adequadamente** produtos perecíveis (art. 13).\n- **Excludentes**: o fornecedor provar que **não colocou** o produto no mercado; que o **defeito inexiste**; ou **culpa exclusiva do consumidor ou de terceiro**. O STJ também admite o **fortuito externo** (estranho à atividade); o **fortuito interno** (ligado ao risco do negócio) **não exclui**. Ex.: fraudes bancárias são fortuito interno (Súmula 479).\n- **Profissionais liberais** (médico, advogado, dentista): responsabilidade **subjetiva**, mediante prova de **culpa** (art. 14, § 4º).\n- **Prescrição**: **5 anos**, contados do conhecimento do dano e de sua autoria (art. 27).\n\n### Vício do produto ou do serviço (arts. 18 a 25)\nO produto ou serviço é **inadequado** ao fim a que se destina, tem **qualidade ou quantidade** inferior, ou **diverge** das informações; o prejuízo fica **no próprio bem**. Ex.: geladeira que não gela, pacote com menos peso.\n- **Respondem solidariamente todos os fornecedores** da cadeia, **inclusive o comerciante**.\n- O fornecedor tem **30 dias** para **sanar** o vício. Não sanado, o consumidor escolhe:\n  1. **substituição** do produto por outro da mesma espécie;\n  2. **restituição** imediata da quantia paga, atualizada, sem prejuízo de perdas e danos;\n  3. **abatimento** proporcional do preço.\n- O consumidor pode usar essas opções **imediatamente** se se tratar de **produto essencial** ou se a substituição das partes comprometer a qualidade.\n- **Vício de quantidade**: abatimento, complementação, substituição ou restituição.\n- **Vício do serviço**: reexecução sem custo, restituição ou abatimento.\n\n### Prazos para reclamar de vícios — decadência (art. 26)\n- **30 dias**: produtos e serviços **não duráveis** (alimentos, serviço de lavanderia).\n- **90 dias**: produtos e serviços **duráveis** (eletrodomésticos, carros).\n- **Vício aparente**: conta-se da **entrega** do produto ou do término do serviço.\n- **Vício oculto**: conta-se do momento em que ficar **evidenciado** o defeito (considerando a vida útil do bem).\n- **Obstam** a decadência: a **reclamação** comprovadamente formulada ao fornecedor, até a resposta negativa, e a instauração de inquérito civil.\n\n### Garantias\n- **Legal**: obrigatória, **independe de termo** escrito e não pode ser excluída.\n- **Contratual**: **complementar** à legal, dada por escrito (termo de garantia). Os prazos se somam: primeiro a contratual, depois a legal (STJ).\n- **Garantia estendida**: seguro, contratado à parte.\n\n### Desconsideração da personalidade jurídica (art. 28)\nO CDC adota a **teoria menor**: basta que a personalidade jurídica seja **obstáculo ao ressarcimento** do consumidor (§ 5º), sem necessidade de provar fraude ou confusão patrimonial, como exige o Código Civil (teoria maior).\n\n### Fato x vício: resumo\n| | Fato (defeito) | Vício |\n|---|---|---|\n| Problema | De **segurança**, com dano externo | De **adequação**, no próprio bem |\n| Comerciante | Subsidiário | **Solidário** |\n| Prazo | Prescrição de **5 anos** | Decadência de **30 ou 90 dias** |",
+      "revisao": "**Lembre:**\n- Responsabilidade objetiva; profissional liberal responde com culpa.\n- Fato: acidente de consumo; comerciante só subsidiariamente; 5 anos.\n- Vício: todos solidários; 30 dias para sanar; depois troca, dinheiro de volta ou abatimento.\n- Decadência: 30 dias (não duráveis) e 90 dias (duráveis).\n- Desconsideração: teoria menor."
+    },
+    {
+      "id": "praticas",
+      "nome": "Oferta, publicidade e práticas abusivas",
+      "resumo": "### Oferta (arts. 30 a 35)\n- **Princípio da vinculação**: toda informação ou publicidade **suficientemente precisa** obriga o fornecedor e **integra o contrato**.\n- Se o fornecedor recusar o cumprimento, o consumidor pode escolher: **exigir o cumprimento forçado**; aceitar **outro produto** equivalente; ou **rescindir** o contrato, com restituição e perdas e danos.\n- **Erro grosseiro** evidente (TV de R$ 5.000 anunciada por R$ 5) não vincula, pela boa-fé.\n- A oferta deve trazer informações **corretas, claras, precisas, ostensivas e em português** sobre características, preço, garantia, prazo de validade, origem e **riscos**.\n- Os fabricantes e importadores devem assegurar **peças de reposição** enquanto durar a fabricação e por tempo razoável depois.\n- O fornecedor é **solidariamente responsável** pelos atos de seus prepostos e representantes autônomos.\n\n### Publicidade (arts. 36 a 38)\n- **Princípio da identificação**: a publicidade deve ser veiculada de forma que o consumidor a **identifique facilmente** como tal. Vedam-se a publicidade **clandestina** (merchandising disfarçado) e a **subliminar**.\n- **Enganosa**: informação **falsa**, total ou parcialmente, ou capaz de **induzir em erro** o consumidor; pode ser **por omissão** (deixa de informar dado essencial).\n- **Abusiva**: a **discriminatória**, a que incita à **violência**, explora o **medo ou a superstição**, se aproveita da **deficiência de julgamento da criança**, desrespeita valores ambientais ou induz o consumidor a se comportar de forma **prejudicial à saúde ou à segurança**.\n- **Ônus da prova** da veracidade e da correção: cabe a **quem patrocina** a publicidade (inversão legal).\n- **Contrapropaganda**: sanção imposta ao fornecedor para desfazer o malefício.\n- ***Puffing***: exagero publicitário inofensivo (\"o melhor café do mundo\") é tolerado.\n\n### Práticas abusivas (art. 39) — rol exemplificativo\n- **Venda casada**: condicionar o fornecimento de um produto ao de outro, ou a limites quantitativos sem justa causa.\n- **Recusar atendimento** às demandas dos consumidores, havendo estoque.\n- **Enviar produto ou serviço sem solicitação**: equipara-se a **amostra grátis**, sem obrigação de pagar. Ex.: cartão de crédito não solicitado (Súmula 532 do STJ: prática abusiva que gera indenização).\n- Prevalecer-se da **fraqueza ou ignorância** do consumidor (idade, saúde, condição social).\n- Exigir **vantagem manifestamente excessiva**.\n- Executar serviços **sem orçamento prévio** e autorização expressa.\n- **Elevar preços sem justa causa**.\n- Deixar de estipular **prazo** para cumprir a obrigação.\n- Aplicar índice de reajuste diverso do legal ou contratual.\n\n### Orçamento (art. 40)\nDeve ser **prévio** e discriminado; vale por **10 dias**, salvo estipulação em contrário; aprovado, obriga as partes.\n\n### Cobrança de dívidas (art. 42)\n- O consumidor inadimplente **não pode ser exposto ao ridículo** nem submetido a **constrangimento ou ameaça**.\n- **Repetição do indébito**: quem for **cobrado em quantia indevida** e **pagar** tem direito à devolução **em dobro**, com correção e juros, salvo **engano justificável**. O STJ dispensa a prova de má-fé: basta a conduta contrária à boa-fé objetiva.\n\n### Bancos de dados e cadastros (art. 43)\n- O consumidor tem direito de **acesso** às informações sobre ele e de exigir a **correção** de dados inexatos (em 5 dias úteis).\n- A abertura de cadastro deve ser **comunicada por escrito**; a **falta de notificação prévia** da negativação gera dano moral (Súmula 359 do STJ: cabe ao órgão mantenedor notificar).\n- As informações negativas não podem permanecer por mais de **5 anos**.\n- Paga a dívida, o **credor** deve providenciar a exclusão do registro em **5 dias úteis** (Súmula 548).\n- A **inscrição indevida** gera dano moral presumido (*in re ipsa*), salvo se já houver inscrição legítima anterior (Súmula 385).\n- **Cadastro positivo**: histórico de bons pagamentos (Lei 12.414/2011).",
+      "revisao": "**Lembre:**\n- Oferta precisa vincula o fornecedor.\n- Publicidade enganosa induz em erro; abusiva fere valores (criança, medo, violência).\n- Venda casada e envio sem pedido são práticas abusivas.\n- Cobrança indevida paga: devolução em dobro.\n- Negativação: aviso prévio, máximo de 5 anos."
+    },
+    {
+      "id": "contratos",
+      "nome": "Proteção contratual",
+      "resumo": "### Regras gerais\n- Os contratos **não obrigam** o consumidor se ele não teve **oportunidade de conhecer previamente** o conteúdo ou se foram redigidos de modo a dificultar a compreensão (art. 46).\n- **Interpretação mais favorável ao consumidor** (art. 47).\n- Declarações de vontade em escritos particulares, recibos e pré-contratos **vinculam** o fornecedor.\n\n### Direito de arrependimento (art. 49)\nO consumidor pode **desistir** do contrato em **7 dias**, a contar da assinatura ou do **recebimento** do produto, sempre que a contratação ocorrer **fora do estabelecimento comercial** (internet, telefone, a domicílio).\n- **Não precisa justificar**.\n- Os valores pagos são **devolvidos de imediato**, corrigidos, incluindo o **frete**.\n- Não se aplica, em regra, às compras feitas **na loja física** (a troca de produto sem vício é liberalidade do lojista).\n\n### Cláusulas abusivas (art. 51) — nulas de pleno direito\nRol **exemplificativo**. São nulas as cláusulas que:\n- **exonerem ou atenuem** a responsabilidade do fornecedor por vícios, ou impliquem **renúncia de direitos**;\n- subtraiam do consumidor a opção de **reembolso** da quantia paga;\n- transfiram responsabilidades a **terceiros**;\n- estabeleçam obrigações iníquas que coloquem o consumidor em **desvantagem exagerada**, ou incompatíveis com a boa-fé;\n- estabeleçam **inversão do ônus da prova** em prejuízo do consumidor;\n- determinem a utilização compulsória de **arbitragem**;\n- imponham representante para concluir outro negócio pelo consumidor;\n- permitam ao fornecedor **variar o preço unilateralmente** ou **cancelar** o contrato unilateralmente, sem igual direito ao consumidor;\n- autorizem a **modificação unilateral** do conteúdo;\n- infrinjam normas ambientais.\n\nA nulidade de uma cláusula **não invalida o contrato** inteiro (princípio da conservação), salvo se, apesar dos esforços de integração, decorrer ônus excessivo a qualquer das partes. O juiz pode reconhecê-la; porém, nos contratos **bancários**, é vedado conhecer de ofício da abusividade (Súmula 381 do STJ).\n\n### Contratos de crédito e financiamento (art. 52)\n- Informação prévia sobre **preço, juros, acréscimos, número de prestações e soma total**.\n- **Multa de mora** limitada a **2%** do valor da prestação.\n- Direito à **liquidação antecipada** do débito, com **redução proporcional dos juros**.\n\n### Compra e venda a prestações (art. 53)\nÉ nula a cláusula que estabeleça a **perda total das prestações pagas** em benefício do credor que retoma o bem (cláusula de decaimento).\n\n### Contrato de adesão (art. 54)\nCláusulas aprovadas pela autoridade ou estabelecidas **unilateralmente** pelo fornecedor, sem que o consumidor possa discutir o conteúdo.\n- Redigido em termos **claros**, com fonte de tamanho não inferior ao **corpo 12**.\n- Cláusulas que **limitem direitos** devem ser redigidas **com destaque**.\n\n### Superendividamento (Lei 14.181/2021)\n**Impossibilidade manifesta** de o consumidor pessoa natural, de **boa-fé**, pagar a totalidade de suas dívidas de consumo sem comprometer o **mínimo existencial**.\n- Não abrange dívidas contraídas por fraude ou má-fé, nem de produtos de **luxo**.\n- **Crédito responsável**: o fornecedor deve informar e avaliar a capacidade de pagamento; veda-se o **assédio** ao consumidor, em especial idoso, analfabeto ou doente.\n- **Repactuação**: audiência conciliatória com todos os credores e **plano de pagamento** de até **5 anos**; sem acordo, o juiz pode impor um plano compulsório.\n\n### Comércio eletrônico (Decreto 7.962/2013)\nInformações claras sobre o fornecedor e o produto, atendimento facilitado e respeito ao direito de arrependimento.",
+      "revisao": "**Lembre:**\n- Interpretação sempre mais favorável ao consumidor.\n- Arrependimento: 7 dias, compras fora da loja, sem justificar.\n- Cláusulas abusivas são nulas; o resto do contrato se mantém.\n- Multa de mora: máximo de 2%; quitação antecipada reduz juros.\n- Superendividamento: preserva o mínimo existencial; plano de até 5 anos."
+    },
+    {
+      "id": "juizo",
+      "nome": "Defesa do consumidor em juízo",
+      "resumo": "### Defesa individual e coletiva (art. 81)\nA defesa dos interesses dos consumidores pode ser exercida em juízo **individualmente** ou a **título coletivo**.\n\n### Direitos coletivos em sentido amplo\n| Espécie | Titulares | Objeto | Origem | Exemplo |\n|---|---|---|---|---|\n| **Difusos** | **Indeterminados** | Indivisível | **Circunstância de fato** | Publicidade enganosa na TV |\n| **Coletivos em sentido estrito** | Grupo, categoria ou classe **determinável** | Indivisível | **Relação jurídica base** | Reajuste ilegal para todos os clientes de um plano de saúde |\n| **Individuais homogêneos** | Determinados ou determináveis | **Divisível** | **Origem comum** | Vítimas de um mesmo produto com defeito |\n\n### Legitimados para a ação coletiva (art. 82)\n**Ministério Público**; **União, Estados, Municípios e Distrito Federal**; entidades e órgãos da **administração pública** (como os **Procons**); **associações** constituídas há pelo menos **1 ano** com finalidade de defesa do consumidor (o juiz pode dispensar o prazo); e a **Defensoria Pública** (Lei da Ação Civil Pública).\n- A legitimidade é **concorrente e disjuntiva**: cada um pode agir sozinho.\n- O cidadão, individualmente, **não** pode propor ação coletiva.\n\n### Coisa julgada coletiva (art. 103)\n- **Difusos**: *erga omnes*, salvo improcedência por **insuficiência de provas**.\n- **Coletivos**: *ultra partes*, limitada ao grupo, com a mesma ressalva.\n- **Individuais homogêneos**: *erga omnes* **apenas no caso de procedência**, para beneficiar as vítimas e seus sucessores.\n- A improcedência da ação coletiva **não prejudica** as ações individuais (transporte *in utilibus*: só a decisão favorável é aproveitada).\n- O autor de ação individual, para se beneficiar da coletiva, deve pedir a **suspensão** do seu processo em **30 dias** da ciência.\n\n### Regras processuais favoráveis\n- **Foro do domicílio do consumidor** para as ações de responsabilidade do fornecedor (art. 101, I).\n- **Inversão do ônus da prova**.\n- **Vedação da denunciação da lide** nas ações de consumo (art. 88), para não atrasar a reparação.\n- **Tutela específica** das obrigações de fazer e não fazer, com multa diária.\n- Nas ações coletivas, **não há adiantamento de custas** nem condenação da associação autora em honorários, salvo má-fé.\n- **Juizados Especiais Cíveis**: causas de até **40 salários mínimos**; até **20**, sem advogado.\n\n### Sistema Nacional de Defesa do Consumidor (SNDC)\n- **Senacon** (Secretaria Nacional do Consumidor), **Procons** estaduais e municipais, Ministério Público, Defensorias, delegacias especializadas e associações civis.\n- **Procon**: órgão **administrativo**; orienta, recebe reclamações, **fiscaliza** e aplica **sanções administrativas**; não julga com força de sentença.\n- Plataforma **consumidor.gov.br**: solução direta com as empresas.\n\n### Sanções administrativas (art. 56)\n**Multa**; **apreensão** e inutilização do produto; cassação do registro; **proibição de fabricação**; **suspensão** do fornecimento ou da atividade; **interdição** do estabelecimento; intervenção administrativa; **contrapropaganda**.\n\n### Convenção coletiva de consumo (art. 107)\nAcordo escrito entre entidades de consumidores e associações de fornecedores sobre preço, qualidade, garantia e reclamações.\n\n### Infrações penais (arts. 61 a 80)\nCrimes contra as relações de consumo. Ex.: omitir dizeres sobre a **nocividade** do produto; fazer **afirmação falsa ou enganosa**; promover publicidade que sabe **enganosa ou abusiva**; usar de **ameaça ou constrangimento** na cobrança de dívidas; impedir o acesso do consumidor às suas informações cadastrais. São de **ação penal pública incondicionada**.",
+      "revisao": "**Lembre:**\n- Difusos: indeterminados, ligados por fato; coletivos: grupo com relação base; individuais homogêneos: origem comum, divisíveis.\n- Legitimados: MP, entes públicos, Procons, associações (1 ano), Defensoria.\n- Sentença coletiva só beneficia o indivíduo, não prejudica.\n- Foro do domicílio do consumidor.\n- Procon aplica sanção administrativa, não sentença."
+    },
+    {
+      "id": "setores",
+      "nome": "Temas especiais e setores regulados",
+      "resumo": "### Serviços públicos (art. 22)\nOs órgãos públicos e as concessionárias devem fornecer serviços **adequados, eficientes, seguros** e, quanto aos **essenciais, contínuos**.\n- O **corte por inadimplemento** é admitido (Lei 8.987/1995), desde que haja **aviso prévio**; o STJ veda o corte por **débitos antigos** e quando afeta serviços essenciais à coletividade (hospitais, escolas) de forma desproporcional.\n- O corte não pode iniciar na sexta-feira, no sábado, no domingo ou em véspera de feriado (Lei 14.015/2020).\n\n### Bancos\n- O CDC se aplica às **instituições financeiras** (Súmula 297 do STJ; ADI 2.591 do STF).\n- Respondem **objetivamente** por fraudes e delitos de terceiros em operações bancárias: **fortuito interno** (Súmula 479).\n- Os **juros remuneratórios** não se limitam a 12% ao ano; a abusividade exige demonstração de que superam muito a **taxa média de mercado**.\n- Vedação da cobrança de tarifas por serviços não contratados.\n\n### Planos de saúde (Lei 9.656/1998)\n- Aplica-se o CDC, salvo aos de **autogestão** (Súmula 608).\n- É abusiva a cláusula que **limita no tempo a internação** hospitalar (Súmula 302).\n- O prazo de **carência** não prevalece em situações de **urgência e emergência** (após 24 horas da contratação).\n- A recusa indevida de cobertura pode gerar **dano moral**.\n- Reajuste por **faixa etária**: válido se previsto, com percentuais razoáveis e sem discriminar o idoso.\n- O rol da ANS é, em regra, **taxativo com exceções** definidas na Lei 14.454/2022 (cobertura de tratamento fora do rol com comprovação científica).\n\n### Transporte aéreo\n- **Voos nacionais**: aplica-se o CDC, com **reparação integral**.\n- **Voos internacionais**: o STF (Tema 210) decidiu que as **Convenções de Varsóvia e Montreal** prevalecem sobre o CDC quanto ao **dano material** (extravio de bagagem), com limite de indenização; o **dano moral** segue o CDC.\n- A ANAC (Resolução 400) prevê **assistência material** em atrasos: comunicação após 1 hora, alimentação após 2 horas, hospedagem após 4 horas.\n\n### Incorporação imobiliária\n- **Atraso na entrega** do imóvel: admite-se cláusula de tolerância de até **180 dias**; passado esse prazo, o comprador tem direito a lucros cessantes presumidos.\n- **Distrato** (Lei 13.786/2018): na desistência do comprador, a incorporadora pode reter até **25%** dos valores pagos (até **50%** no regime de patrimônio de afetação).\n- A comissão de corretagem pode ser transferida ao comprador, se **informada previamente** (STJ).\n\n### Telefonia e internet\n- Direito ao cancelamento sem ônus quando o serviço não é prestado como contratado.\n- É abusiva a cobrança por serviços não solicitados.\n- **Lei do SAC** (Decreto 11.034/2022): atendimento gratuito, acessível e com possibilidade de cancelamento pelo mesmo canal.\n\n### Proteção de dados\nA **LGPD** (Lei 13.709/2018) reforça os direitos do consumidor sobre seus **dados pessoais**: consentimento, finalidade, acesso, correção e eliminação.\n\n### Dano moral nas relações de consumo\n- **Mero aborrecimento** ou simples descumprimento contratual, em regra, não gera dano moral.\n- Gera dano moral: **negativação indevida**, corpo estranho em alimento (mesmo sem ingestão, segundo o STJ), recusa indevida de cobertura médica, extravio de bagagem.\n- **Teoria do desvio produtivo**: indeniza a **perda de tempo útil** do consumidor obrigado a resolver problema causado pelo fornecedor.\n\n### *Recall* (art. 10)\nO fornecedor que, depois de colocar o produto no mercado, descobre que ele é **perigoso** deve **comunicar imediatamente** as autoridades e os consumidores, por anúncios publicitários, e promover o reparo ou a troca **gratuitamente**.",
+      "revisao": "**Lembre:**\n- Serviço essencial deve ser contínuo; corte exige aviso prévio.\n- Bancos respondem por fraude de terceiros (fortuito interno).\n- Plano de saúde não pode limitar o tempo de internação.\n- Voo internacional: convenção limita o dano material; dano moral segue o CDC.\n- Recall: avisar e consertar de graça."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-consumidor-1",
+      "topico": "relacao",
+      "nivel": "conceitual",
+      "pergunta": "Para o CDC, consumidor é a pessoa que adquire ou utiliza produto ou serviço como:",
+      "opcoes": [
+        "Destinatário final",
+        "Intermediário comercial",
+        "Revendedor",
+        "Sócio do fornecedor"
+      ],
+      "correta": 0,
+      "explicacao": "Pessoas físicas e jurídicas podem ser consumidoras."
+    },
+    {
+      "id": "direito-consumidor-2",
+      "topico": "relacao",
+      "nivel": "conceitual",
+      "pergunta": "Para ser considerado fornecedor, exige-se que a atividade seja exercida com:",
+      "opcoes": [
+        "Capital mínimo registrado",
+        "Habitualidade",
+        "Sede no Brasil",
+        "Exclusividade de marca"
+      ],
+      "correta": 1,
+      "explicacao": "Quem vende um bem próprio de forma eventual não se enquadra no conceito."
+    },
+    {
+      "id": "direito-consumidor-3",
+      "topico": "relacao",
+      "nivel": "conceitual",
+      "pergunta": "A vulnerabilidade do consumidor no mercado de consumo é:",
+      "opcoes": [
+        "Verificada caso a caso pelo juiz",
+        "Exclusiva das pessoas pobres",
+        "Presumida de forma absoluta pela lei",
+        "Afastada por cláusula contratual"
+      ],
+      "correta": 2,
+      "explicacao": "A hipossuficiência, diferente dela, é analisada em cada processo."
+    },
+    {
+      "id": "direito-consumidor-4",
+      "topico": "relacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um pedestre é atingido pela explosão de um botijão comprado pelo vizinho. Ele pode invocar o CDC contra o fabricante?",
+      "opcoes": [
+        "Não, pois não comprou o produto",
+        "Só se for parente do comprador",
+        "Só se provar culpa do fabricante",
+        "Sim, pois as vítimas do acidente de consumo são consumidoras por equiparação"
+      ],
+      "correta": 3,
+      "explicacao": "São os chamados bystanders, previstos no art. 17 do CDC."
+    },
+    {
+      "id": "direito-consumidor-5",
+      "topico": "relacao",
+      "nivel": "analise",
+      "pergunta": "Por que o STJ adota o finalismo mitigado para definir consumidor?",
+      "opcoes": [
+        "Para proteger quem, mesmo usando o bem profissionalmente, é vulnerável diante do fornecedor",
+        "Para excluir as pessoas jurídicas do CDC",
+        "Para aplicar o CDC a todos os contratos",
+        "Para proteger os fornecedores"
+      ],
+      "correta": 0,
+      "explicacao": "É o caso do pequeno profissional que compra de uma grande empresa."
+    },
+    {
+      "id": "direito-consumidor-6",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "A responsabilidade do fornecedor por danos causados ao consumidor é, em regra:",
+      "opcoes": [
+        "Subjetiva, com prova de culpa",
+        "Objetiva, independente de culpa",
+        "Inexistente se houver contrato",
+        "Limitada ao valor do produto"
+      ],
+      "correta": 1,
+      "explicacao": "A exceção são os profissionais liberais, que respondem mediante culpa."
+    },
+    {
+      "id": "direito-consumidor-7",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "O prazo para reclamar de vício aparente em produto durável é de:",
+      "opcoes": [
+        "30 dias",
+        "7 dias",
+        "90 dias",
+        "5 anos"
+      ],
+      "correta": 2,
+      "explicacao": "Para produtos não duráveis, o prazo é de 30 dias."
+    },
+    {
+      "id": "direito-consumidor-8",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "No acidente de consumo (fato do produto), o comerciante responde:",
+      "opcoes": [
+        "Sempre solidariamente com o fabricante",
+        "Nunca",
+        "Somente se tiver agido com dolo",
+        "Apenas subsidiariamente, em hipóteses como a de fabricante não identificado"
+      ],
+      "correta": 3,
+      "explicacao": "No vício do produto, ao contrário, o comerciante é solidário."
+    },
+    {
+      "id": "direito-consumidor-9",
+      "topico": "responsabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "A TV de João apresentou defeito e ficou 40 dias na assistência sem conserto. Ele pode exigir:",
+      "opcoes": [
+        "A troca, a devolução do dinheiro ou o abatimento do preço, à sua escolha",
+        "Apenas esperar o conserto",
+        "Apenas uma TV usada",
+        "Nada, pois o prazo é de 60 dias"
+      ],
+      "correta": 0,
+      "explicacao": "O fornecedor tem 30 dias para sanar o vício; depois disso, a escolha é do consumidor."
+    },
+    {
+      "id": "direito-consumidor-10",
+      "topico": "responsabilidade",
+      "nivel": "analise",
+      "pergunta": "Por que fraudes praticadas por terceiros em contas bancárias não afastam a responsabilidade do banco?",
+      "opcoes": [
+        "Porque o banco é sempre o autor da fraude",
+        "Porque são fortuito interno, ligado ao risco da própria atividade bancária",
+        "Porque o cliente é sempre culpado",
+        "Porque o CDC não se aplica a bancos"
+      ],
+      "correta": 1,
+      "explicacao": "Só o fortuito externo, estranho à atividade, rompe o nexo causal."
+    },
+    {
+      "id": "direito-consumidor-11",
+      "topico": "praticas",
+      "nivel": "conceitual",
+      "pergunta": "A publicidade que se aproveita da deficiência de julgamento da criança é classificada como:",
+      "opcoes": [
+        "Enganosa",
+        "Comparativa",
+        "Abusiva",
+        "Institucional"
+      ],
+      "correta": 2,
+      "explicacao": "A enganosa, por sua vez, é a que induz o consumidor em erro."
+    },
+    {
+      "id": "direito-consumidor-12",
+      "topico": "praticas",
+      "nivel": "conceitual",
+      "pergunta": "Condicionar a venda de um produto à compra de outro configura:",
+      "opcoes": [
+        "Promoção lícita",
+        "Oferta vinculante",
+        "Garantia estendida",
+        "Venda casada, prática abusiva"
+      ],
+      "correta": 3,
+      "explicacao": "Exemplo: exigir seguro para liberar um empréstimo."
+    },
+    {
+      "id": "direito-consumidor-13",
+      "topico": "praticas",
+      "nivel": "conceitual",
+      "pergunta": "O produto enviado ao consumidor sem solicitação prévia é considerado:",
+      "opcoes": [
+        "Amostra grátis, sem obrigação de pagamento",
+        "Venda a prazo",
+        "Compra tácita",
+        "Doação com encargo"
+      ],
+      "correta": 0,
+      "explicacao": "É o caso do cartão de crédito enviado sem pedido."
+    },
+    {
+      "id": "direito-consumidor-14",
+      "topico": "praticas",
+      "nivel": "aplicacao",
+      "pergunta": "Carla foi cobrada indevidamente em R$ 200 na fatura e pagou. Não houve engano justificável. Ela tem direito a receber:",
+      "opcoes": [
+        "R$ 200 apenas",
+        "R$ 400, com correção e juros",
+        "R$ 100",
+        "Nada, pois já pagou"
+      ],
+      "correta": 1,
+      "explicacao": "A repetição do indébito é em dobro quando o consumidor paga o que não devia."
+    },
+    {
+      "id": "direito-consumidor-15",
+      "topico": "praticas",
+      "nivel": "analise",
+      "pergunta": "Por que a oferta suficientemente precisa vincula o fornecedor?",
+      "opcoes": [
+        "Porque toda publicidade é um contrato registrado",
+        "Porque o consumidor pode alterar a oferta",
+        "Porque gera confiança legítima no consumidor e passa a integrar o contrato",
+        "Porque a oferta só vale se assinada"
+      ],
+      "correta": 2,
+      "explicacao": "Se o fornecedor recusar, o consumidor pode exigir o cumprimento forçado."
+    },
+    {
+      "id": "direito-consumidor-16",
+      "topico": "contratos",
+      "nivel": "conceitual",
+      "pergunta": "O prazo de arrependimento nas compras feitas fora do estabelecimento comercial é de:",
+      "opcoes": [
+        "30 dias",
+        "90 dias",
+        "24 horas",
+        "7 dias"
+      ],
+      "correta": 3,
+      "explicacao": "O prazo conta da assinatura ou do recebimento do produto."
+    },
+    {
+      "id": "direito-consumidor-17",
+      "topico": "contratos",
+      "nivel": "conceitual",
+      "pergunta": "As cláusulas abusivas nos contratos de consumo são:",
+      "opcoes": [
+        "Nulas de pleno direito",
+        "Válidas se o consumidor assinar",
+        "Anuláveis em 4 anos",
+        "Válidas em contratos de adesão"
+      ],
+      "correta": 0,
+      "explicacao": "A nulidade de uma cláusula, em regra, não invalida o restante do contrato."
+    },
+    {
+      "id": "direito-consumidor-18",
+      "topico": "contratos",
+      "nivel": "conceitual",
+      "pergunta": "Nos contratos de crédito ao consumidor, a multa por atraso não pode ultrapassar:",
+      "opcoes": [
+        "10% do valor da prestação",
+        "2% do valor da prestação",
+        "20% do valor total",
+        "50% do valor da dívida"
+      ],
+      "correta": 1,
+      "explicacao": "O consumidor também tem direito a quitar antes, com redução dos juros."
+    },
+    {
+      "id": "direito-consumidor-19",
+      "topico": "contratos",
+      "nivel": "aplicacao",
+      "pergunta": "Pedro comprou um tênis pela internet e, ao receber, não gostou da cor. Cinco dias depois, ele pode:",
+      "opcoes": [
+        "Apenas trocar por outro modelo",
+        "Devolver pagando multa de 10%",
+        "Desistir da compra e receber de volta o que pagou, inclusive o frete",
+        "Nada fazer, pois o produto não tem defeito"
+      ],
+      "correta": 2,
+      "explicacao": "O direito de arrependimento não exige justificativa."
+    },
+    {
+      "id": "direito-consumidor-20",
+      "topico": "contratos",
+      "nivel": "analise",
+      "pergunta": "Qual é o objetivo da lei do superendividamento ao prever um plano de pagamento?",
+      "opcoes": [
+        "Perdoar todas as dívidas do consumidor",
+        "Proibir a concessão de crédito",
+        "Punir o consumidor inadimplente",
+        "Permitir que o consumidor de boa-fé pague suas dívidas preservando o mínimo existencial"
+      ],
+      "correta": 3,
+      "explicacao": "O plano pode durar até cinco anos e envolve todos os credores."
+    },
+    {
+      "id": "direito-consumidor-21",
+      "topico": "juizo",
+      "nivel": "conceitual",
+      "pergunta": "Os direitos cujos titulares são pessoas indeterminadas, ligadas por circunstâncias de fato, são:",
+      "opcoes": [
+        "Difusos",
+        "Coletivos em sentido estrito",
+        "Individuais homogêneos",
+        "Personalíssimos"
+      ],
+      "correta": 0,
+      "explicacao": "Exemplo: o interesse de todos em não ser expostos a publicidade enganosa."
+    },
+    {
+      "id": "direito-consumidor-22",
+      "topico": "juizo",
+      "nivel": "conceitual",
+      "pergunta": "Para propor ação coletiva de consumo, a associação precisa estar constituída há pelo menos:",
+      "opcoes": [
+        "6 meses",
+        "1 ano",
+        "5 anos",
+        "10 anos"
+      ],
+      "correta": 1,
+      "explicacao": "O juiz pode dispensar esse requisito diante de manifesto interesse social."
+    },
+    {
+      "id": "direito-consumidor-23",
+      "topico": "juizo",
+      "nivel": "conceitual",
+      "pergunta": "O Procon tem competência para:",
+      "opcoes": [
+        "Proferir sentenças com força de coisa julgada",
+        "Decretar a prisão de fornecedores",
+        "Fiscalizar e aplicar sanções administrativas aos fornecedores",
+        "Legislar sobre consumo"
+      ],
+      "correta": 2,
+      "explicacao": "É um órgão administrativo do Sistema Nacional de Defesa do Consumidor."
+    },
+    {
+      "id": "direito-consumidor-24",
+      "topico": "juizo",
+      "nivel": "aplicacao",
+      "pergunta": "Um consumidor de Recife quer processar uma empresa com sede em São Paulo por defeito no produto. Ele pode ajuizar a ação:",
+      "opcoes": [
+        "Apenas em São Paulo",
+        "Apenas em Brasília",
+        "Apenas onde o produto foi fabricado",
+        "Em Recife, foro de seu domicílio"
+      ],
+      "correta": 3,
+      "explicacao": "A regra facilita o acesso do consumidor à Justiça."
+    },
+    {
+      "id": "direito-consumidor-25",
+      "topico": "juizo",
+      "nivel": "analise",
+      "pergunta": "Por que a improcedência da ação coletiva não impede o consumidor de propor ação individual?",
+      "opcoes": [
+        "Porque a coisa julgada coletiva só se estende aos indivíduos para beneficiá-los",
+        "Porque a ação coletiva não tem valor jurídico",
+        "Porque o consumidor é obrigado a participar da ação coletiva",
+        "Porque o juiz não pode julgar ações coletivas improcedentes"
+      ],
+      "correta": 0,
+      "explicacao": "É o chamado transporte in utilibus da coisa julgada."
+    },
+    {
+      "id": "direito-consumidor-26",
+      "topico": "setores",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o STJ, a cláusula de plano de saúde que limita o tempo de internação hospitalar é:",
+      "opcoes": [
+        "Válida",
+        "Abusiva",
+        "Obrigatória",
+        "Válida apenas para idosos"
+      ],
+      "correta": 1,
+      "explicacao": "É o entendimento da Súmula 302 do STJ: o tempo de internação depende da necessidade do paciente, não do contrato."
+    },
+    {
+      "id": "direito-consumidor-27",
+      "topico": "setores",
+      "nivel": "conceitual",
+      "pergunta": "Quando o fornecedor descobre que um produto já vendido é perigoso, ele deve:",
+      "opcoes": [
+        "Aguardar reclamações",
+        "Apenas parar de vender",
+        "Comunicar autoridades e consumidores e promover o reparo gratuito",
+        "Cobrar pelo conserto"
+      ],
+      "correta": 2,
+      "explicacao": "Esse procedimento é conhecido como recall."
+    },
+    {
+      "id": "direito-consumidor-28",
+      "topico": "setores",
+      "nivel": "conceitual",
+      "pergunta": "O corte de serviço público essencial por falta de pagamento exige:",
+      "opcoes": [
+        "Ordem judicial em todos os casos",
+        "Atraso mínimo de um ano",
+        "Autorização do Procon",
+        "Aviso prévio ao consumidor"
+      ],
+      "correta": 3,
+      "explicacao": "O STJ não admite o corte por débitos antigos."
+    },
+    {
+      "id": "direito-consumidor-29",
+      "topico": "setores",
+      "nivel": "aplicacao",
+      "pergunta": "Em voo internacional, a mala de Ana foi extraviada. Quanto ao dano material, aplica-se:",
+      "opcoes": [
+        "O limite de indenização das Convenções de Varsóvia e Montreal",
+        "A reparação integral do CDC, sem limite",
+        "Apenas a lei do país de destino",
+        "Nenhuma norma, pois não há indenização"
+      ],
+      "correta": 0,
+      "explicacao": "O dano moral, porém, continua regido pelo CDC."
+    },
+    {
+      "id": "direito-consumidor-30",
+      "topico": "setores",
+      "nivel": "analise",
+      "pergunta": "O que a teoria do desvio produtivo do consumidor reconhece?",
+      "opcoes": [
+        "Que o consumidor deve produzir provas",
+        "Que a perda de tempo útil para resolver problema causado pelo fornecedor é dano indenizável",
+        "Que o fornecedor pode desviar produtos",
+        "Que o tempo do consumidor não tem valor"
+      ],
+      "correta": 1,
+      "explicacao": "Ela vai além da ideia de mero aborrecimento."
+    }
+  ]
+}

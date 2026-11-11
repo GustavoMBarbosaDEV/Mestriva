@@ -1,0 +1,465 @@
+{
+  "id": "processo-trabalho",
+  "nome": "Direito Processual do Trabalho",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "organizacao",
+      "nome": "Justiça do Trabalho: organização, competência e princípios",
+      "resumo": "### Organização (CF, art. 111)\n- **Tribunal Superior do Trabalho (TST)**: 27 ministros; uniformiza a jurisprudência trabalhista.\n- **Tribunais Regionais do Trabalho (TRTs)**: 24 regiões; julgam recursos e ações originárias (como dissídios coletivos).\n- **Juízes do Trabalho**: atuam nas **Varas do Trabalho**, como **juiz singular** (as antigas Juntas com juízes classistas foram extintas pela EC 24/1999).\n- Onde não houver Vara do Trabalho, a jurisdição pode ser atribuída ao **juiz de direito**.\n- **Ministério Público do Trabalho (MPT)**: ramo do MPU; defende a ordem jurídica e os direitos sociais indisponíveis.\n\n### Competência material (CF, art. 114, após a EC 45/2004)\nCompete à Justiça do Trabalho processar e julgar:\n- ações oriundas da **relação de trabalho** (não só de emprego);\n- ações que envolvam o **direito de greve**;\n- ações sobre **representação sindical**;\n- mandado de segurança, habeas corpus e habeas data em matéria trabalhista;\n- ações de **indenização por dano moral ou patrimonial** decorrentes da relação de trabalho, inclusive **acidente de trabalho** contra o empregador (Súmula Vinculante 22);\n- ações relativas às **penalidades administrativas** impostas pela fiscalização do trabalho;\n- execução, de ofício, das **contribuições previdenciárias** decorrentes das sentenças que proferir.\n\n**Não compete** à Justiça do Trabalho:\n- causas de **servidores estatutários** (ADI 3.395): Justiça Comum;\n- **ações penais** (ADI 3.684);\n- ações **acidentárias contra o INSS**: Justiça Estadual;\n- relação de **consumo** e, segundo o STF, contratos de representação comercial autônoma e de transporte autônomo de cargas.\n\n### Competência territorial (CLT, art. 651)\n- Regra: o local da **prestação dos serviços**, ainda que o empregado tenha sido contratado em outro lugar.\n- **Agente ou viajante comercial**: Vara da localidade em que a empresa tenha agência ou filial a que ele esteja subordinado; na falta, a do domicílio do empregado.\n- Empresa que promove atividades **fora do lugar da contratação**: o empregado escolhe entre o foro da **contratação** ou o da **prestação**.\n- É competência **relativa**: deve ser arguida por **exceção de incompetência**, em 5 dias da notificação (art. 800).\n\n### Princípios do processo do trabalho\n- **Proteção** (mitigada no processo): regras mais favoráveis ao trabalhador, como o arquivamento para o autor ausente e a revelia para o réu ausente.\n- ***Jus postulandi*** (art. 791): empregado e empregador podem atuar **sem advogado** nas Varas e nos TRTs. **Não alcança** a ação rescisória, a ação cautelar, o mandado de segurança e os recursos ao **TST** (Súmula 425).\n- **Oralidade**: predomínio da palavra falada; concentração dos atos em audiência.\n- **Conciliação**: tentada em qualquer fase; obrigatória em dois momentos no rito ordinário.\n- **Simplicidade e informalidade**.\n- **Celeridade**: os créditos têm natureza alimentar.\n- **Irrecorribilidade imediata das decisões interlocutórias** (art. 893, § 1º).\n- **Subsidiariedade** (art. 769): o processo comum (CPC) aplica-se nos casos **omissos**, se **compatível**.\n- **Extrapetição**: em certos casos o juiz concede o que não foi pedido expressamente (juros, correção, indenização no lugar da reintegração).\n\n### Comissão de Conciliação Prévia\nA submissão da demanda à comissão é **facultativa**, segundo o STF: não é condição para ajuizar a ação.",
+      "revisao": "**Lembre:**\n- Varas (juiz singular), TRTs e TST.\n- Competência: relação de trabalho, greve, sindicatos, dano moral, acidente contra o empregador.\n- Fora: estatutários, ações penais e ações contra o INSS.\n- Foro: local da prestação dos serviços.\n- Jus postulandi não vale no TST, rescisória, cautelar e MS."
+    },
+    {
+      "id": "reclamacao",
+      "nome": "Reclamação trabalhista e audiência",
+      "resumo": "### Petição inicial (art. 840)\nA reclamação pode ser **escrita ou verbal** (reduzida a termo pelo servidor).\n- Requisitos da escrita: designação do juízo; qualificação das partes; **breve exposição dos fatos**; o **pedido**, que deve ser **certo, determinado e com indicação de seu valor**; data e assinatura.\n- Desde a Reforma Trabalhista (Lei 13.467/2017), os pedidos sem valor levam à **extinção sem resolução do mérito** quanto a eles. O TST entende que o valor indicado é **estimativa**.\n- **Não se exige** fundamentação jurídica detalhada.\n- A reclamação verbal deve ser reduzida a termo em **5 dias**; se o reclamante não comparecer, perde por **6 meses** o direito de reclamar (perempção trabalhista, arts. 731 e 732), o mesmo ocorrendo com quem der causa a **dois arquivamentos seguidos**.\n\n### Notificação\nO reclamado é **notificado** (citado) por **via postal**, em 48 horas, para comparecer à audiência, que deve ocorrer com intervalo mínimo de **5 dias**. Presume-se recebida a notificação 48 horas após a postagem (Súmula 16 do TST).\n\n### Audiência\n- **Una**, em regra: conciliação, defesa, instrução e julgamento na mesma sessão.\n- Realizada entre **8h e 18h**, com duração máxima de **5 horas** seguidas, salvo urgência.\n- Se o juiz se atrasar mais de **15 minutos**, as partes podem se retirar, constando o fato no livro de registro. A tolerância **não se aplica** às partes.\n\n### Comparecimento das partes (arts. 843 e 844)\n- Devem comparecer **pessoalmente**, independentemente dos advogados.\n- O empregador pode se fazer substituir por **preposto**, que **não precisa ser empregado** (após a Reforma), mas deve ter conhecimento dos fatos.\n- **Ausência do reclamante**: **arquivamento** da reclamação, com condenação em **custas**, ainda que beneficiário da justiça gratuita, salvo se comprovar motivo justificável em 15 dias (regra validada pelo STF).\n- **Ausência do reclamado**: **revelia** e **confissão** quanto à matéria de fato. A revelia não produz efeitos se houver litisconsórcio com contestação, direitos indisponíveis ou alegações inverossímeis. Presente o advogado, aceitam-se a contestação e os documentos.\n- Na audiência **em prosseguimento**, a ausência de quem deveria depor gera **confissão ficta** (Súmula 74).\n\n### Tentativas de conciliação\n- **Primeira**: na abertura da audiência, antes da defesa (art. 846).\n- **Segunda**: após as razões finais, antes da sentença (art. 850).\n- O acordo homologado vale como **decisão irrecorrível** para as partes (só atacável por **ação rescisória**, Súmula 259), salvo para a Previdência quanto às contribuições.\n- O juiz **não é obrigado** a homologar acordo (Súmula 418).\n\n### Defesa (art. 847)\n- Apresentada **em audiência**, oralmente em **20 minutos**, ou por escrito pelo sistema eletrônico até a audiência.\n- Compreende a **contestação**, as **exceções** (incompetência territorial, suspeição e impedimento) e a **reconvenção**.\n- **Compensação e retenção** só podem ser arguidas na defesa e restritas a dívidas trabalhistas.\n- **Prescrição**: **5 anos** durante o contrato, até o limite de **2 anos** após a extinção (CF, art. 7º, XXIX). Admite-se a **prescrição intercorrente** em 2 anos na execução.\n\n### Homologação de acordo extrajudicial (art. 855-B)\nProcesso de jurisdição voluntária, com **petição conjunta** e partes representadas por **advogados distintos**.",
+      "revisao": "**Lembre:**\n- Reclamação escrita ou verbal; pedido certo, determinado e com valor.\n- Audiência una; reclamante ausente: arquivamento; reclamado ausente: revelia.\n- Preposto não precisa ser empregado.\n- Duas tentativas de conciliação: no início e depois das razões finais.\n- Prescrição: 5 anos, até 2 anos após o fim do contrato."
+    },
+    {
+      "id": "provas",
+      "nome": "Provas, sentença e procedimentos",
+      "resumo": "### Ônus da prova (art. 818)\n- Ao **reclamante**, quanto ao **fato constitutivo** de seu direito.\n- Ao **reclamado**, quanto aos fatos **impeditivos, modificativos ou extintivos**.\n- **Distribuição dinâmica**: o juiz pode atribuir o ônus de modo diverso, por decisão fundamentada, a quem tiver mais facilidade de provar; deve fazê-lo **antes da instrução**.\n- **Súmula 338 do TST**: o empregador com **mais de 20 empregados** (regra legal atual) deve manter registro de jornada; a **não apresentação** injustificada dos cartões de ponto gera **presunção relativa** da jornada alegada. Cartões com horários **uniformes** (\"britânicos\") são inválidos como prova.\n- **Súmula 212**: o ônus de provar o **término do contrato**, quando negados a prestação de serviço e o despedimento, é do **empregador**, pelo princípio da continuidade.\n\n### Meios de prova\n- **Depoimento pessoal** e interrogatório das partes.\n- **Testemunhas**: até **3** para cada parte no rito **ordinário**; **2** no **sumaríssimo**; **6** no **inquérito para apuração de falta grave**. Comparecem **independentemente de intimação**; se faltarem, são intimadas. Não torna suspeita a testemunha o fato de litigar contra o mesmo empregador (Súmula 357).\n- **Documentos**: juntados com a inicial e a defesa.\n- **Perícia**: **obrigatória** para os pedidos de **insalubridade e periculosidade** (art. 195, § 2º). Os **honorários periciais** são da parte **sucumbente no objeto da perícia**; se beneficiária da justiça gratuita, a União responde (STF, ADI 5.766).\n- **Inspeção judicial**.\n\n### Procedimentos\n| Rito | Valor da causa | Características |\n|---|---|---|\n| **Sumário** (Lei 5.584/1970) | Até **2 salários mínimos** | Sem recurso, salvo matéria constitucional |\n| **Sumaríssimo** (arts. 852-A a 852-I) | Até **40 salários mínimos** | Pedido líquido; **sem citação por edital**; audiência única em **15 dias**; 2 testemunhas; sentença sem relatório; **excluída a administração pública** direta, autárquica e fundacional |\n| **Ordinário** | Acima de 40 salários mínimos | 3 testemunhas; rito padrão |\n\n### Razões finais\nOrais, em **10 minutos** para cada parte, seguidas da segunda proposta de conciliação.\n\n### Sentença\n- Deve conter relatório (dispensado no sumaríssimo), **fundamentação** e **dispositivo**.\n- Fixa as **custas**: **2%** sobre o valor da condenação (ou da causa, do acordo), com mínimo legal e teto de quatro vezes o limite dos benefícios do RGPS; pagas pelo **vencido**, ao final, ou no prazo do recurso.\n- **Honorários de sucumbência** (art. 791-A, após a Reforma): de **5% a 15%**; devidos inclusive pelo reclamante vencido. O STF (ADI 5.766) declarou inconstitucional a cobrança automática do beneficiário da **justiça gratuita** com créditos obtidos no processo.\n- **Justiça gratuita** (art. 790): a quem recebe salário igual ou inferior a **40% do teto do RGPS** ou comprovar insuficiência de recursos.\n- **Litigância de má-fé**: multa de 1% a 10% do valor da causa, aplicável também à **testemunha** que mentir.\n\n### Inquérito para apuração de falta grave (art. 853)\nAção do **empregador** para dispensar empregado com **estabilidade** (como o dirigente sindical). Deve ser proposta em **30 dias** da **suspensão** do empregado (prazo decadencial).\n\n### Dissídio coletivo\nAção de competência originária dos **TRTs** ou do TST para criar ou interpretar normas coletivas. O de natureza **econômica** exige **comum acordo** entre as partes (CF, art. 114, § 2º). A decisão é a **sentença normativa** (poder normativo da Justiça do Trabalho), com vigência máxima de **4 anos**.\n\n### Ação de cumprimento\nPara exigir o cumprimento de sentença normativa, acordo ou convenção coletiva; pode ser proposta pelo sindicato como substituto processual.",
+      "revisao": "**Lembre:**\n- Autor prova o fato constitutivo; réu, os impeditivos, modificativos e extintivos.\n- Testemunhas: 3 (ordinário), 2 (sumaríssimo), 6 (inquérito).\n- Insalubridade e periculosidade exigem perícia.\n- Sumaríssimo: até 40 salários mínimos, sem edital, sem ente público.\n- Custas de 2%; honorários de 5% a 15%."
+    },
+    {
+      "id": "recursos",
+      "nome": "Recursos trabalhistas",
+      "resumo": "### Regras gerais\n- **Prazo uniforme**: **8 dias** para recorrer e para contra-arrazoar (salvo embargos de declaração, 5 dias, e recurso extraordinário, 15 dias). Contam-se em **dias úteis** (art. 775).\n- **Prazo em dobro** para a Fazenda Pública e o Ministério Público.\n- **Efeito apenas devolutivo**, em regra (art. 899): permite a execução provisória até a penhora.\n- **Irrecorribilidade imediata das interlocutórias**: são impugnadas no recurso contra a decisão final. Exceções (Súmula 214): decisão de TRT contrária a súmula do TST; decisão suscetível de recurso para o mesmo tribunal; decisão que acolhe exceção de incompetência territorial e remete os autos a outro TRT.\n- **Unirrecorribilidade** e **fungibilidade**.\n\n### Pressupostos\n- **Intrínsecos**: cabimento, legitimidade, interesse.\n- **Extrínsecos**: tempestividade, regularidade formal, representação e **preparo**.\n- **Preparo** = **custas** + **depósito recursal**.\n  - **Depósito recursal**: exigido do **empregador** condenado em pecúnia, para garantir a execução; tem teto fixado pelo TST. Reduzido **pela metade** para entidades sem fins lucrativos, empregadores domésticos, microempreendedores, micro e pequenas empresas; **isentos** os beneficiários da justiça gratuita, as entidades filantrópicas e as empresas em recuperação judicial (art. 899, §§ 9º e 10). Pode ser substituído por **fiança bancária ou seguro garantia**.\n  - O **empregado** não faz depósito recursal.\n\n### Recursos em espécie\n- **Recurso ordinário** (art. 895): contra **sentenças** das Varas (para o TRT) e contra decisões definitivas dos TRTs em processos de sua competência originária (para o TST). Equivale à apelação.\n- **Recurso de revista** (art. 896): contra acórdão de TRT em recurso ordinário, para as **Turmas do TST**. Natureza **extraordinária**: discute apenas **direito**, não fatos e provas (Súmula 126). Hipóteses: **divergência jurisprudencial** entre TRTs ou com a SDI do TST; contrariedade a **súmula** do TST ou súmula vinculante; **violação literal de lei federal ou da Constituição**. Exige **prequestionamento** e **transcendência** (econômica, política, social ou jurídica).\n  - No **sumaríssimo**: só por contrariedade a súmula do TST, súmula vinculante ou violação **direta da Constituição**.\n  - Na **execução**: só por ofensa direta e literal à **Constituição**.\n- **Agravo de petição** (art. 897, a): contra decisões do juiz na **execução**. O agravante deve **delimitar** as matérias e os valores impugnados.\n- **Agravo de instrumento** (art. 897, b): no processo do trabalho, serve **apenas para destrancar recurso** cujo seguimento foi negado. Exige depósito de **50%** do valor do depósito do recurso que se quer destrancar.\n- **Embargos de declaração** (art. 897-A): **5 dias**; contra **omissão, contradição, obscuridade** e manifesto equívoco no exame dos pressupostos extrínsecos do recurso. **Interrompem** o prazo dos demais recursos.\n- **Embargos no TST** (art. 894): à SDI, contra decisões de Turmas divergentes entre si ou contrárias a súmula; e embargos infringentes em dissídio coletivo.\n- **Agravo interno (regimental)**: contra decisões monocráticas dos relatores.\n- **Recurso extraordinário**: ao STF, em matéria constitucional, com repercussão geral.\n- **Recurso adesivo**: cabível no processo do trabalho (Súmula 283) no recurso ordinário, na revista, nos embargos e no agravo de petição.\n\n### Remessa necessária\nAplica-se às sentenças contra a **Fazenda Pública**, observados os limites de valor do CPC (Súmula 303).\n\n### Ação rescisória (art. 836)\nCabível na Justiça do Trabalho, com **depósito prévio de 20%** do valor da causa, salvo prova de miserabilidade. Prazo de **2 anos** do trânsito em julgado.",
+      "revisao": "**Lembre:**\n- Prazo geral de 8 dias úteis; embargos de declaração, 5 dias.\n- Interlocutórias não têm recurso imediato.\n- Recurso ordinário contra sentença; revista ao TST só discute direito.\n- Agravo de petição: execução; agravo de instrumento: destrancar recurso.\n- Depósito recursal é do empregador."
+    },
+    {
+      "id": "execucao",
+      "nome": "Liquidação e execução trabalhista",
+      "resumo": "### Liquidação de sentença (art. 879)\nQuando a sentença é **ilíquida**, apura-se o valor devido.\n- Modalidades: **cálculos** (a mais comum), **arbitramento** e **artigos** (procedimento comum, para provar fato novo).\n- Não se pode **modificar ou inovar** a sentença liquidanda, nem discutir matéria da causa principal.\n- Elaborada a conta, o juiz **deve abrir prazo comum de 8 dias** para as partes impugnarem fundamentadamente, sob pena de preclusão (após a Reforma).\n- A União é intimada para se manifestar sobre as **contribuições previdenciárias** em 10 dias.\n\n### Títulos executivos (art. 876)\n- **Judiciais**: sentenças transitadas em julgado ou sem recurso com efeito suspensivo; **acordos** não cumpridos.\n- **Extrajudiciais**: **termos de ajuste de conduta (TAC)** firmados com o MPT; **termos de conciliação** das Comissões de Conciliação Prévia; segundo o TST, também cheque e nota promissória emitidos em reconhecimento de dívida trabalhista.\n\n### Início da execução (art. 878)\nApós a Reforma, a execução é promovida **pelas partes**; a execução **de ofício** pelo juiz ficou restrita aos casos em que as partes **não estiverem representadas por advogado**.\n- As **contribuições previdenciárias** são executadas de ofício.\n\n### Citação e penhora (arts. 880 a 883)\n- O executado é citado, por **oficial de justiça**, para **pagar em 48 horas** ou **garantir a execução**, sob pena de **penhora**.\n- A garantia pode ser por depósito, nomeação de bens ou **seguro garantia judicial**.\n- Ordem de preferência dos bens: a do **CPC** (dinheiro em primeiro lugar).\n- **Sisbajud**: bloqueio eletrônico de valores em contas; **Renajud** (veículos) e **Infojud** (dados fiscais).\n- Decisão transitada em julgado pode ser levada a **protesto** e gerar inscrição do executado no **BNDT** (Banco Nacional de Devedores Trabalhistas) após **45 dias** da citação.\n- **Certidão Negativa de Débitos Trabalhistas (CNDT)**: exigida em licitações.\n\n### Embargos à execução e impugnação (art. 884)\n- **Garantido o juízo**, o executado tem **5 dias** para apresentar **embargos à execução**; no mesmo prazo, o exequente pode apresentar **impugnação à sentença de liquidação**.\n- Matérias: cumprimento da decisão ou do acordo, **quitação** e **prescrição** da dívida, além das hipóteses do CPC aplicáveis.\n- A exigência de garantia **não se aplica** às entidades filantrópicas e a seus diretores.\n- Da decisão cabe **agravo de petição**.\n- **Exceção de pré-executividade**: admitida para matérias de ordem pública, sem garantia do juízo.\n- **Embargos de terceiro**: para quem, não sendo parte, sofre constrição de seus bens.\n\n### Expropriação\nAvaliação pelo oficial de justiça, seguida de **adjudicação**, **alienação por iniciativa particular** ou **leilão** (hasta pública). O arrematante deve garantir o lance com sinal de **20%**.\n\n### Responsabilidade patrimonial\n- **Grupo econômico**: responsabilidade **solidária** das empresas (art. 2º, § 2º).\n- **Sucessão de empregadores**: o **sucessor** responde pelas dívidas; o sucedido responde solidariamente se houver **fraude** (art. 448-A).\n- **Sócio retirante**: responde **subsidiariamente** pelas obrigações do período em que foi sócio, em ações ajuizadas até **2 anos** após a averbação da saída (art. 10-A).\n- **Desconsideração da personalidade jurídica**: exige o **incidente** previsto no CPC (art. 855-A), com contraditório.\n- **Terceirização**: o tomador responde **subsidiariamente** (Súmula 331), se participou da relação processual.\n\n### Execução contra a Fazenda Pública\nPor **precatório** ou **requisição de pequeno valor (RPV)**; os bens públicos são impenhoráveis.\n\n### Prescrição intercorrente (art. 11-A)\nOcorre em **2 anos**, contados de quando o exequente deixa de cumprir determinação judicial no curso da execução; pode ser declarada de ofício.\n\n### Falência e recuperação judicial\nA Justiça do Trabalho apura o crédito; a habilitação e o pagamento ocorrem no **juízo universal** da falência ou recuperação.",
+      "revisao": "**Lembre:**\n- Liquidação: cálculos, arbitramento ou artigos; prazo de 8 dias para impugnar a conta.\n- Execução de ofício só se a parte não tiver advogado.\n- Citação para pagar em 48 horas ou garantir o juízo.\n- Embargos à execução: 5 dias após a garantia; depois, agravo de petição.\n- Sócio retirante: subsidiário, até 2 anos da saída."
+    },
+    {
+      "id": "especiais",
+      "nome": "Ações especiais e tutela coletiva",
+      "resumo": "### Mandado de segurança\n- Cabível contra ato ilegal ou abusivo de **autoridade** em matéria trabalhista, quando **não houver recurso próprio** (OJ 92 da SDI-2).\n- Competência: em regra, dos **TRTs**, contra atos de juízes; das Varas, contra atos de autoridades fiscalizadoras (auditores do trabalho).\n- Prazo: **120 dias**.\n- Usado, por exemplo, contra a concessão ou a negativa de **tutela provisória antes da sentença** (Súmula 414, II).\n\n### Ação rescisória\n- Desconstitui decisão de mérito **transitada em julgado**, nas hipóteses do CPC (violação manifesta de norma jurídica, prova falsa, erro de fato, dolo, entre outras).\n- Competência originária dos **TRTs** e do TST.\n- **Depósito prévio de 20%**; prazo de **2 anos**.\n- Exige advogado.\n\n### Ação de consignação em pagamento\nO **empregador** deposita em juízo valores que o empregado se recusa a receber (verbas rescisórias, por exemplo) ou quando há dúvida sobre quem deve recebê-los (morte do empregado), para se liberar da mora e da multa do art. 477.\n\n### Tutelas provisórias\nAplicam-se as regras do CPC: tutela de **urgência** (probabilidade do direito e perigo de dano) e de **evidência**. Exemplos: **reintegração** de dirigente sindical ou de empregado com estabilidade; liberação do **FGTS** e do seguro-desemprego.\n\n### Ação civil pública\n- Competência da Justiça do Trabalho para a defesa de interesses **difusos, coletivos e individuais homogêneos** trabalhistas. Ex.: combate ao **trabalho escravo** e infantil, meio ambiente do trabalho, fraudes na contratação, discriminação.\n- Legitimados: **MPT**, **sindicatos**, Defensoria, entes públicos e associações.\n- Competência territorial: local do dano; se regional ou nacional, uma das Varas da capital ou do Distrito Federal (OJ 130 da SDI-2).\n- Pode resultar em **dano moral coletivo**, revertido a fundos ou a projetos sociais.\n- **Inquérito civil** e **TAC**: instrumentos extrajudiciais do MPT.\n\n### Substituição processual pelo sindicato\nO sindicato tem legitimidade **ampla** para defender em juízo os direitos e interesses **coletivos ou individuais** da categoria (CF, art. 8º, III), **sem necessidade de autorização** dos substituídos.\n\n### Dissídio coletivo\n- **De natureza econômica**: cria novas condições de trabalho (reajuste, piso); exige **comum acordo** e esgotamento da negociação.\n- **De natureza jurídica**: interpreta norma preexistente.\n- **De greve**: declara a abusividade ou não do movimento; o **MPT** pode ajuizá-lo em caso de greve em **atividade essencial** com possibilidade de lesão ao interesse público.\n- A **sentença normativa** não transita em julgado materialmente como as demais; pode ser **revista** após um ano (dissídio de revisão).\n\n### Habeas corpus e habeas data\nCompetência trabalhista quando o ato questionado envolver matéria sujeita à sua jurisdição (CF, art. 114, IV).\n\n### Ação anulatória\nDe **cláusulas de acordo ou convenção coletiva** que violem direitos indisponíveis; proposta, em regra, pelo MPT, perante o TRT.\n\n### Reclamação constitucional\nPara preservar a competência e garantir a autoridade das decisões do TST e do STF.\n\n### Processo judicial eletrônico (PJe-JT)\nTramitação integralmente eletrônica; prazos em dias úteis; intimações pelo Diário Eletrônico e pelo Domicílio Judicial Eletrônico.\n\n### Reforma Trabalhista no processo: síntese\n- Honorários de sucumbência de **5% a 15%**.\n- Pedidos com **valor indicado**.\n- Prazos em **dias úteis**.\n- **Custas** para o reclamante ausente.\n- Preposto **não empregado**.\n- Execução de ofício limitada.\n- **Prescrição intercorrente** de 2 anos.\n- Incidente de **desconsideração** da personalidade jurídica.\n- Homologação de **acordo extrajudicial**.",
+      "revisao": "**Lembre:**\n- Mandado de segurança: sem recurso próprio, 120 dias.\n- Rescisória: depósito de 20%, 2 anos.\n- Consignação em pagamento: usada pelo empregador.\n- Ação civil pública: MPT e sindicatos; dano moral coletivo.\n- Sindicato substitui a categoria sem autorização."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "processo-trabalho-1",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Nas Varas do Trabalho, a jurisdição é exercida por:",
+      "opcoes": [
+        "Um juiz singular",
+        "Um colegiado com juízes classistas",
+        "Três desembargadores",
+        "Um juiz e dois jurados"
+      ],
+      "correta": 0,
+      "explicacao": "As antigas Juntas de Conciliação e Julgamento foram extintas em 1999."
+    },
+    {
+      "id": "processo-trabalho-2",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "A regra geral de competência territorial na Justiça do Trabalho é o local:",
+      "opcoes": [
+        "Do domicílio do empregador",
+        "Da prestação dos serviços",
+        "Da contratação, sempre",
+        "Da sede do sindicato"
+      ],
+      "correta": 1,
+      "explicacao": "Vale mesmo que o empregado tenha sido contratado em outra cidade."
+    },
+    {
+      "id": "processo-trabalho-3",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "O jus postulandi permite que as partes:",
+      "opcoes": [
+        "Recorram ao TST sem advogado",
+        "Proponham ação rescisória sem advogado",
+        "Atuem sem advogado nas Varas e nos TRTs",
+        "Dispensem o juiz"
+      ],
+      "correta": 2,
+      "explicacao": "Ele não alcança os recursos de competência do TST, a rescisória, a cautelar e o mandado de segurança."
+    },
+    {
+      "id": "processo-trabalho-4",
+      "topico": "organizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um servidor público estatutário quer cobrar horas extras do Município. A ação deve ser proposta:",
+      "opcoes": [
+        "Na Justiça do Trabalho",
+        "No TST diretamente",
+        "Na Justiça Militar",
+        "Na Justiça Comum"
+      ],
+      "correta": 3,
+      "explicacao": "O STF excluiu da Justiça do Trabalho as causas de servidores com vínculo estatutário."
+    },
+    {
+      "id": "processo-trabalho-5",
+      "topico": "organizacao",
+      "nivel": "analise",
+      "pergunta": "Por que o CPC só se aplica ao processo do trabalho de forma subsidiária?",
+      "opcoes": [
+        "Porque a aplicação exige omissão da CLT e compatibilidade com os princípios trabalhistas",
+        "Porque o CPC foi revogado",
+        "Porque a CLT proíbe o uso de outras leis",
+        "Porque o CPC só vale para a Justiça Federal"
+      ],
+      "correta": 0,
+      "explicacao": "A regra preserva a simplicidade e a celeridade próprias do processo trabalhista."
+    },
+    {
+      "id": "processo-trabalho-6",
+      "topico": "reclamacao",
+      "nivel": "conceitual",
+      "pergunta": "A ausência injustificada do reclamante à audiência inicial acarreta:",
+      "opcoes": [
+        "A revelia",
+        "O arquivamento da reclamação",
+        "A procedência do pedido",
+        "A suspensão do processo por um ano"
+      ],
+      "correta": 1,
+      "explicacao": "Ele ainda é condenado nas custas, salvo motivo justificável comprovado."
+    },
+    {
+      "id": "processo-trabalho-7",
+      "topico": "reclamacao",
+      "nivel": "conceitual",
+      "pergunta": "A ausência do reclamado à audiência em que deveria apresentar defesa gera:",
+      "opcoes": [
+        "Arquivamento",
+        "Extinção sem mérito",
+        "Revelia e confissão quanto à matéria de fato",
+        "Nova citação obrigatória"
+      ],
+      "correta": 2,
+      "explicacao": "Se o advogado estiver presente, a contestação e os documentos são aceitos."
+    },
+    {
+      "id": "processo-trabalho-8",
+      "topico": "reclamacao",
+      "nivel": "conceitual",
+      "pergunta": "Após a Reforma Trabalhista, o preposto do empregador:",
+      "opcoes": [
+        "Deve ser sócio da empresa",
+        "Deve ser advogado",
+        "Deve ser empregado há mais de um ano",
+        "Não precisa ser empregado da empresa"
+      ],
+      "correta": 3,
+      "explicacao": "Basta que tenha conhecimento dos fatos discutidos no processo."
+    },
+    {
+      "id": "processo-trabalho-9",
+      "topico": "reclamacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um trabalhador foi dispensado em março de 2020. Até quando ele pode ajuizar a reclamação?",
+      "opcoes": [
+        "Até março de 2022",
+        "Até março de 2025",
+        "Até março de 2021",
+        "A qualquer tempo"
+      ],
+      "correta": 0,
+      "explicacao": "O prazo é de dois anos após a extinção do contrato, alcançando os últimos cinco anos."
+    },
+    {
+      "id": "processo-trabalho-10",
+      "topico": "reclamacao",
+      "nivel": "analise",
+      "pergunta": "Por que a conciliação é tentada em dois momentos no rito ordinário trabalhista?",
+      "opcoes": [
+        "Porque o juiz não pode julgar sem acordo",
+        "Porque a solução consensual é princípio do processo do trabalho e pode ser facilitada após a instrução",
+        "Porque a primeira tentativa é sempre nula",
+        "Porque a lei exige dois acordos"
+      ],
+      "correta": 1,
+      "explicacao": "As tentativas ocorrem na abertura da audiência e após as razões finais."
+    },
+    {
+      "id": "processo-trabalho-11",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "No rito ordinário trabalhista, cada parte pode ouvir até:",
+      "opcoes": [
+        "2 testemunhas",
+        "6 testemunhas",
+        "3 testemunhas",
+        "10 testemunhas"
+      ],
+      "correta": 2,
+      "explicacao": "No sumaríssimo são 2, e no inquérito para apuração de falta grave, 6."
+    },
+    {
+      "id": "processo-trabalho-12",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "O pedido de adicional de insalubridade exige a produção de prova:",
+      "opcoes": [
+        "Exclusivamente testemunhal",
+        "Apenas documental",
+        "Nenhuma prova",
+        "Pericial"
+      ],
+      "correta": 3,
+      "explicacao": "A perícia é obrigatória por determinação da CLT."
+    },
+    {
+      "id": "processo-trabalho-13",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "O rito sumaríssimo aplica-se às causas de valor até:",
+      "opcoes": [
+        "40 salários mínimos",
+        "2 salários mínimos",
+        "60 salários mínimos",
+        "100 salários mínimos"
+      ],
+      "correta": 0,
+      "explicacao": "Dele estão excluídas as demandas contra a administração pública direta, autárquica e fundacional."
+    },
+    {
+      "id": "processo-trabalho-14",
+      "topico": "provas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa com 50 empregados não apresentou os cartões de ponto, sem justificativa. A consequência é:",
+      "opcoes": [
+        "Extinção do processo",
+        "Presunção relativa de veracidade da jornada alegada pelo empregado",
+        "Presunção absoluta contra o empregado",
+        "Nenhuma, pois o ônus é do empregado"
+      ],
+      "correta": 1,
+      "explicacao": "A presunção pode ser afastada por outras provas, segundo a Súmula 338 do TST."
+    },
+    {
+      "id": "processo-trabalho-15",
+      "topico": "provas",
+      "nivel": "analise",
+      "pergunta": "Por que cabe ao empregador provar o término do contrato quando ele nega a dispensa?",
+      "opcoes": [
+        "Porque o empregado nunca tem ônus de prova",
+        "Porque o juiz produz a prova",
+        "Porque o princípio da continuidade da relação de emprego gera presunção favorável ao empregado",
+        "Porque a dispensa é sempre verbal"
+      ],
+      "correta": 2,
+      "explicacao": "É o entendimento consolidado na Súmula 212 do TST."
+    },
+    {
+      "id": "processo-trabalho-16",
+      "topico": "recursos",
+      "nivel": "conceitual",
+      "pergunta": "O prazo geral dos recursos trabalhistas é de:",
+      "opcoes": [
+        "15 dias",
+        "5 dias",
+        "10 dias",
+        "8 dias"
+      ],
+      "correta": 3,
+      "explicacao": "Os embargos de declaração, com prazo de 5 dias, são a principal exceção."
+    },
+    {
+      "id": "processo-trabalho-17",
+      "topico": "recursos",
+      "nivel": "conceitual",
+      "pergunta": "O recurso cabível contra a sentença da Vara do Trabalho é o:",
+      "opcoes": [
+        "Recurso ordinário",
+        "Recurso de revista",
+        "Agravo de petição",
+        "Agravo de instrumento"
+      ],
+      "correta": 0,
+      "explicacao": "Ele é julgado pelo TRT e corresponde à apelação do processo civil."
+    },
+    {
+      "id": "processo-trabalho-18",
+      "topico": "recursos",
+      "nivel": "conceitual",
+      "pergunta": "No processo do trabalho, o agravo de instrumento serve para:",
+      "opcoes": [
+        "Impugnar qualquer decisão interlocutória",
+        "Destrancar recurso que teve seguimento negado",
+        "Recorrer de sentença",
+        "Discutir cálculos de liquidação"
+      ],
+      "correta": 1,
+      "explicacao": "As interlocutórias não são recorríveis de imediato no processo trabalhista."
+    },
+    {
+      "id": "processo-trabalho-19",
+      "topico": "recursos",
+      "nivel": "aplicacao",
+      "pergunta": "Na execução, o juiz rejeitou os embargos da empresa. Ela deve interpor:",
+      "opcoes": [
+        "Recurso ordinário",
+        "Recurso de revista",
+        "Agravo de petição",
+        "Mandado de segurança"
+      ],
+      "correta": 2,
+      "explicacao": "O agravante deve delimitar as matérias e os valores impugnados."
+    },
+    {
+      "id": "processo-trabalho-20",
+      "topico": "recursos",
+      "nivel": "analise",
+      "pergunta": "Por que o depósito recursal é exigido apenas do empregador?",
+      "opcoes": [
+        "Porque o empregado não pode recorrer",
+        "Porque é uma taxa judiciária",
+        "Porque substitui as custas",
+        "Porque sua finalidade é garantir a futura execução da condenação em dinheiro"
+      ],
+      "correta": 3,
+      "explicacao": "O empregado, em regra, não é devedor de quantia a ser garantida."
+    },
+    {
+      "id": "processo-trabalho-21",
+      "topico": "execucao",
+      "nivel": "conceitual",
+      "pergunta": "Citado na execução trabalhista, o devedor deve pagar ou garantir a execução em:",
+      "opcoes": [
+        "48 horas",
+        "15 dias",
+        "5 dias",
+        "30 dias"
+      ],
+      "correta": 0,
+      "explicacao": "Não o fazendo, seguem-se a penhora e os demais atos de constrição."
+    },
+    {
+      "id": "processo-trabalho-22",
+      "topico": "execucao",
+      "nivel": "conceitual",
+      "pergunta": "Após a Reforma Trabalhista, a execução de ofício pelo juiz ocorre:",
+      "opcoes": [
+        "Em todos os casos",
+        "Apenas quando as partes não estiverem representadas por advogado",
+        "Nunca",
+        "Apenas contra a Fazenda Pública"
+      ],
+      "correta": 1,
+      "explicacao": "As contribuições previdenciárias continuam sendo executadas de ofício."
+    },
+    {
+      "id": "processo-trabalho-23",
+      "topico": "execucao",
+      "nivel": "conceitual",
+      "pergunta": "O prazo para opor embargos à execução, após a garantia do juízo, é de:",
+      "opcoes": [
+        "8 dias",
+        "15 dias",
+        "5 dias",
+        "48 horas"
+      ],
+      "correta": 2,
+      "explicacao": "No mesmo prazo, o exequente pode impugnar a sentença de liquidação."
+    },
+    {
+      "id": "processo-trabalho-24",
+      "topico": "execucao",
+      "nivel": "aplicacao",
+      "pergunta": "Um ex-sócio saiu da empresa há três anos, com a saída averbada, e só agora foi ajuizada ação cobrando dívidas da época dele. Ele responde?",
+      "opcoes": [
+        "Sim, sempre",
+        "Sim, de forma solidária",
+        "Só se a empresa tiver falido",
+        "Não, pois a ação foi ajuizada mais de dois anos após a averbação da saída"
+      ],
+      "correta": 3,
+      "explicacao": "A responsabilidade do sócio retirante é subsidiária e limitada a esse prazo."
+    },
+    {
+      "id": "processo-trabalho-25",
+      "topico": "execucao",
+      "nivel": "analise",
+      "pergunta": "Por que a desconsideração da personalidade jurídica exige um incidente próprio na execução trabalhista?",
+      "opcoes": [
+        "Para garantir o contraditório ao sócio antes de atingir seu patrimônio",
+        "Para impedir a execução",
+        "Porque os sócios nunca respondem",
+        "Porque a CLT proíbe a penhora"
+      ],
+      "correta": 0,
+      "explicacao": "O incidente suspende o processo e permite a defesa do sócio."
+    },
+    {
+      "id": "processo-trabalho-26",
+      "topico": "especiais",
+      "nivel": "conceitual",
+      "pergunta": "A ação rescisória na Justiça do Trabalho exige depósito prévio de:",
+      "opcoes": [
+        "5% do valor da causa",
+        "20% do valor da causa",
+        "50% do valor da causa",
+        "Nenhum depósito"
+      ],
+      "correta": 1,
+      "explicacao": "O depósito é dispensado para quem prova miserabilidade jurídica."
+    },
+    {
+      "id": "processo-trabalho-27",
+      "topico": "especiais",
+      "nivel": "conceitual",
+      "pergunta": "A ação de consignação em pagamento é normalmente proposta:",
+      "opcoes": [
+        "Pelo empregado, para cobrar salários",
+        "Pelo sindicato, para declarar greve",
+        "Pelo empregador, para se liberar da obrigação",
+        "Pelo juiz, de ofício"
+      ],
+      "correta": 2,
+      "explicacao": "É comum quando o empregado se recusa a receber as verbas rescisórias."
+    },
+    {
+      "id": "processo-trabalho-28",
+      "topico": "especiais",
+      "nivel": "conceitual",
+      "pergunta": "O dissídio coletivo de natureza econômica exige:",
+      "opcoes": [
+        "Autorização do Presidente da República",
+        "Decisão do STF",
+        "Greve com duração mínima de 30 dias",
+        "Comum acordo entre as partes para o ajuizamento"
+      ],
+      "correta": 3,
+      "explicacao": "A exigência foi introduzida pela Emenda Constitucional 45/2004."
+    },
+    {
+      "id": "processo-trabalho-29",
+      "topico": "especiais",
+      "nivel": "aplicacao",
+      "pergunta": "O MPT descobre trabalhadores em condição análoga à de escravo em uma fazenda. O instrumento judicial adequado é:",
+      "opcoes": [
+        "A ação civil pública",
+        "O dissídio coletivo",
+        "A ação de consignação",
+        "O inquérito para apuração de falta grave"
+      ],
+      "correta": 0,
+      "explicacao": "Ela pode incluir pedido de dano moral coletivo."
+    },
+    {
+      "id": "processo-trabalho-30",
+      "topico": "especiais",
+      "nivel": "analise",
+      "pergunta": "Por que o sindicato pode ajuizar ação em favor da categoria sem autorização individual dos trabalhadores?",
+      "opcoes": [
+        "Porque os trabalhadores não têm capacidade processual",
+        "Porque a Constituição lhe confere legitimidade ampla como substituto processual",
+        "Porque o sindicato é órgão do Estado",
+        "Porque a CLT proíbe ações individuais"
+      ],
+      "correta": 1,
+      "explicacao": "Isso também protege o trabalhador de retaliações por demandar em nome próprio."
+    }
+  ]
+}

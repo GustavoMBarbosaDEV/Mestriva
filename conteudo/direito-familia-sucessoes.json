@@ -1,0 +1,465 @@
+{
+  "id": "direito-familia-sucessoes",
+  "nome": "Direito de Família e Sucessões",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "casamento",
+      "nome": "Família, casamento e união estável",
+      "resumo": "### Família na Constituição\n- A família é a **base da sociedade** e tem especial proteção do Estado (CF, art. 226).\n- Reconhecem-se várias **entidades familiares**: casamento, **união estável**, **família monoparental** (um dos pais e os filhos) e outras formas (anaparental, recomposta, homoafetiva).\n- O STF reconheceu a **união homoafetiva** como entidade familiar (2011), e o CNJ obrigou os cartórios a celebrar o casamento entre pessoas do mesmo sexo (Resolução 175/2013).\n- Princípios: **dignidade da pessoa humana**, **igualdade entre os cônjuges** e **entre os filhos**, **afetividade**, **solidariedade familiar**, **melhor interesse da criança**, **paternidade responsável** e **planejamento familiar livre**.\n\n### Casamento\n- Ato **solene**, celebrado perante o juiz de paz (ou religioso com efeitos civis, se registrado).\n- **Idade núbil**: **16 anos**, com autorização dos pais enquanto não atingida a maioridade. Desde a Lei 13.811/2019, **não se admite** casamento de quem não atingiu 16 anos em nenhuma hipótese.\n- **Habilitação**: processo prévio no cartório, com publicação de **proclamas** (editais).\n\n### Impedimentos (art. 1.521) — geram nulidade\nNão podem casar: ascendentes com descendentes; **afins em linha reta** (sogro e nora, mesmo após o divórcio); adotante com quem foi cônjuge do adotado; **irmãos** e demais colaterais **até o terceiro grau** (tio e sobrinha, salvo autorização em casos específicos); o adotado com o filho do adotante; **pessoas casadas**; o cônjuge sobrevivente com o condenado por homicídio ou tentativa contra o seu consorte.\n\n### Causas suspensivas (art. 1.523)\nNão **devem** casar (o casamento é válido, mas o regime é o da **separação obrigatória**): o viúvo que não fez o inventário dos bens do casal; a viúva até 10 meses após a viuvez; o divorciado sem partilha homologada; o tutor ou curador com o tutelado ou curatelado.\n\n### Invalidade\n- **Nulo**: celebrado com **impedimento**.\n- **Anulável**: idade inferior à núbil; sem autorização do representante; **erro essencial sobre a pessoa** do outro cônjuge; **coação**; incapaz de consentir; revogação do mandato; autoridade incompetente.\n- **Casamento putativo**: nulo ou anulável, mas contraído de **boa-fé**; produz efeitos ao cônjuge de boa-fé e aos filhos até a sentença.\n\n### Deveres dos cônjuges (art. 1.566)\n**Fidelidade recíproca**, **vida em comum** no domicílio conjugal, **mútua assistência**, sustento, guarda e educação dos filhos e **respeito e consideração mútuos**.\n\n### União estável (art. 1.723)\nConvivência **pública, contínua e duradoura**, estabelecida com o **objetivo de constituir família**.\n- **Não exige prazo mínimo** nem coabitação.\n- Não se constitui se houver impedimento, salvo se a pessoa casada estiver **separada de fato**.\n- Regime de bens: **comunhão parcial**, salvo contrato escrito.\n- Pode ser convertida em casamento.\n- O STF (Tema 809) equiparou o **companheiro ao cônjuge** na sucessão.\n- **Concubinato**: relação não eventual entre pessoas impedidas de casar; não gera os efeitos da união estável.\n\n### Dissolução\n- **Divórcio**: desde a **EC 66/2010**, é **direto**, **sem prazo** e **sem discussão de culpa**; é direito potestativo.\n- Pode ser **extrajudicial**, por **escritura pública** em cartório, se houver **consenso** e assistência de advogado; resolução do CNJ de 2024 admitiu a via extrajudicial também com filhos menores, se as questões deles já estiverem resolvidas judicialmente.\n- A **separação** não é mais requisito para o divórcio.",
+      "revisao": "**Lembre:**\n- Entidades familiares: casamento, união estável, monoparental e outras.\n- Idade núbil: 16 anos; abaixo disso, vedado.\n- Impedimento gera nulidade; causa suspensiva impõe separação obrigatória.\n- União estável: pública, contínua, duradoura, objetivo de família; sem prazo mínimo.\n- Divórcio direto, sem prazo e sem culpa (EC 66/2010)."
+    },
+    {
+      "id": "bens",
+      "nome": "Regimes de bens",
+      "resumo": "### Princípios\n- **Liberdade de escolha**: os noivos escolhem o regime por **pacto antenupcial**, feito por **escritura pública**; sem pacto, vale a **comunhão parcial** (regime legal).\n- **Mutabilidade justificada** (art. 1.639, § 2º): o regime pode ser alterado com **autorização judicial**, a pedido **de ambos**, com motivação, ressalvados direitos de terceiros.\n- O pacto só tem efeito contra terceiros após registro no **Registro de Imóveis** do domicílio.\n\n### Comunhão parcial (arts. 1.658 a 1.666)\n- **Comunicam-se** os bens adquiridos **onerosamente durante o casamento**, ainda que em nome de um só.\n- **Não se comunicam** (bens particulares): os que cada um **já possuía** ao casar; os recebidos por **doação ou herança** (e os sub-rogados em seu lugar); os bens de uso pessoal, livros e instrumentos de profissão; os **proventos do trabalho pessoal** de cada um (segundo a lei, embora o STJ inclua os valores acumulados na partilha); as pensões.\n- Os **frutos** dos bens particulares, percebidos durante o casamento, **se comunicam**.\n\n### Comunhão universal (arts. 1.667 a 1.671)\n- **Comunicam-se** todos os bens **presentes e futuros**, inclusive os anteriores ao casamento e os recebidos por herança ou doação.\n- **Exceções**: bens doados ou herdados com **cláusula de incomunicabilidade**; dívidas anteriores ao casamento (salvo as do enxoval ou revertidas em proveito comum); bens de uso pessoal.\n- Exige pacto antenupcial.\n\n### Participação final nos aquestos (arts. 1.672 a 1.686)\nRegime **misto**: durante o casamento, funciona como **separação** (cada um administra o seu patrimônio); na dissolução, cada um tem direito à **metade dos bens adquiridos onerosamente** pelo casal. Pouco usado.\n\n### Separação de bens\n- **Convencional**: escolhida por pacto; **não há comunicação**, e cada um administra e pode alienar seus bens livremente.\n- **Obrigatória** (legal, art. 1.641): imposta a quem casa com **causa suspensiva**, a quem depende de **suprimento judicial** para casar e à pessoa **maior de 70 anos**.\n  - **Súmula 377 do STF**: no regime de separação legal, **comunicam-se os bens adquiridos na constância do casamento**; o STJ exige prova do **esforço comum**.\n  - O STF (Tema 1.236, 2024) decidiu que a separação obrigatória do maior de 70 anos **pode ser afastada** por escritura pública.\n\n### Outorga conjugal (art. 1.647)\nNenhum cônjuge pode, **sem autorização do outro**, **exceto no regime de separação absoluta**:\n- **alienar ou gravar** de ônus real **bens imóveis**;\n- pleitear como autor ou réu sobre esses bens;\n- **prestar fiança ou aval**;\n- fazer doação, não remuneratória, de bens comuns.\n- Sem a outorga, o ato é **anulável** em até **2 anos** após o fim da sociedade conjugal. O juiz pode **suprir** a outorga negada sem motivo justo.\n\n### Bem de família\n- **Legal** (Lei 8.009/1990): o **imóvel residencial** da família é **impenhorável**, com exceções (dívida de pensão alimentícia, IPTU do imóvel, financiamento do próprio imóvel, **fiança em locação**).\n- Súmula 364 do STJ: a proteção abrange o imóvel de **pessoas solteiras, separadas e viúvas**.\n- **Voluntário** (convencional): instituído por escritura, até 1/3 do patrimônio líquido.",
+      "revisao": "**Lembre:**\n- Sem pacto: comunhão parcial.\n- Parcial: comunica o adquirido onerosamente no casamento; herança e doação não.\n- Universal: comunica tudo, salvo cláusula de incomunicabilidade.\n- Separação obrigatória: maior de 70 anos, causas suspensivas; Súmula 377.\n- Outorga conjugal para vender imóvel e dar fiança, salvo separação absoluta."
+    },
+    {
+      "id": "filiacao",
+      "nome": "Filiação, poder familiar, guarda e alimentos",
+      "resumo": "### Filiação\n- **Igualdade entre os filhos** (CF, art. 227, § 6º): havidos ou não do casamento, ou adotados, têm **os mesmos direitos**; proíbem-se designações discriminatórias.\n- **Presunção de paternidade** (art. 1.597): presumem-se filhos do marido os nascidos **180 dias** após o início da convivência conjugal e **300 dias** após a dissolução; também os havidos por **fecundação artificial homóloga** (mesmo após a morte do marido) e **heteróloga**, com autorização prévia do marido.\n- **Reconhecimento** de filho: ato **irrevogável**; pode ser feito no registro, por escritura, testamento ou manifestação perante o juiz.\n- **Ação de investigação de paternidade**: imprescritível. Súmula 301 do STJ: a **recusa ao exame de DNA** induz **presunção relativa** de paternidade.\n- **Socioafetividade**: o vínculo construído pelo afeto gera parentesco. O STF (Tema 622) admitiu a **multiparentalidade**: a paternidade socioafetiva não impede o reconhecimento da biológica, com efeitos jurídicos próprios.\n\n### Parentesco\n- **Natural** (consanguíneo), **civil** (adoção, socioafetividade) e por **afinidade** (com os parentes do cônjuge ou companheiro).\n- **Linha reta**: ascendentes e descendentes, sem limite.\n- **Colateral**: até o **quarto grau** (primos). Contagem: sobe até o ascendente comum e desce até o parente. Irmãos são colaterais de **2º grau**; tio e sobrinho, de **3º**; primos, de **4º**.\n- A afinidade em linha reta **não se extingue** com o divórcio.\n\n### Poder familiar\n- Exercido **pelos dois pais**, em igualdade, sobre os filhos menores.\n- **Suspensão**: abuso de autoridade, descumprimento dos deveres, condenação criminal com pena superior a 2 anos.\n- **Perda** (destituição, por decisão judicial): castigo imoderado, **abandono**, atos contrários à moral, entrega irregular do filho para adoção, crimes graves contra o outro genitor ou contra o filho.\n- **Extinção**: morte, emancipação, maioridade, adoção.\n\n### Guarda\n- **Compartilhada**: responsabilização **conjunta** pelas decisões sobre o filho. É a **regra** (Lei 13.058/2014), mesmo sem consenso, salvo se um dos pais declarar que não deseja a guarda ou houver risco de violência doméstica. **Não significa** divisão igual do tempo nem dispensa a pensão.\n- **Unilateral**: atribuída a um dos pais; o outro tem **direito de convivência** (visitas) e de supervisionar.\n- **Alienação parental** (Lei 12.318/2010): interferência na formação psicológica da criança para que **repudie o outro genitor**.\n\n### Alimentos\nTudo o que é necessário para a **subsistência**: alimentação, moradia, saúde, educação, vestuário, lazer.\n- **Binômio (trinômio)**: **necessidade** de quem pede, **possibilidade** de quem paga e **proporcionalidade**.\n- **Reciprocidade** entre pais e filhos e entre os parentes; obrigação dos ascendentes, depois descendentes, depois irmãos.\n- **Avós**: obrigação **complementar e subsidiária** (Súmula 596 do STJ).\n- Características: **irrenunciáveis** (entre parentes), **imprescritível** o direito (mas as **prestações vencidas prescrevem em 2 anos**), **impenhoráveis**, **incompensáveis**, **irrepetíveis**, **transmissíveis** aos herdeiros do devedor, até as forças da herança.\n- **Gravídicos** (Lei 11.804/2008): devidos à gestante; após o nascimento, convertem-se em pensão para o filho.\n- A maioridade **não extingue automaticamente** a pensão: exige decisão judicial, com contraditório (Súmula 358 do STJ); costuma-se manter até os 24 anos se o filho estuda.\n- **Execução**: a **prisão civil** é admitida pelo débito das **três últimas prestações** anteriores ao ajuizamento e das que vencerem no curso do processo (Súmula 309 do STJ); regime fechado, de 1 a 3 meses. É a única prisão civil por dívida admitida no Brasil.\n- **Revisão** a qualquer tempo, se mudar a situação financeira.\n\n### Adoção (ECA)\n- Medida **excepcional e irrevogável**; atribui a condição de filho, com os mesmos direitos, **desligando** o adotado da família biológica (salvo impedimentos matrimoniais).\n- O adotante deve ter **mais de 18 anos** e ser **16 anos mais velho** que o adotado.\n- Não podem adotar os **ascendentes** e os **irmãos** do adotando.\n- Exige **cadastro** e **estágio de convivência**. O adotado tem direito de conhecer sua origem biológica.",
+      "revisao": "**Lembre:**\n- Filhos têm direitos iguais; reconhecimento é irrevogável.\n- Recusa ao DNA: presunção relativa de paternidade.\n- Guarda compartilhada é a regra.\n- Alimentos: necessidade, possibilidade e proporcionalidade; avós complementam.\n- Prisão civil: três últimas prestações."
+    },
+    {
+      "id": "sucessao-geral",
+      "nome": "Sucessão em geral e herança",
+      "resumo": "### Abertura da sucessão\n- Com a **morte**, a herança se transmite **imediatamente** aos herdeiros legítimos e testamentários: **princípio da *saisine*** (art. 1.784).\n- Lugar: o **último domicílio** do falecido.\n- A lei aplicável é a vigente **ao tempo da abertura** da sucessão.\n- A herança é um **todo unitário e indivisível** até a partilha; os herdeiros são **condôminos**. É considerada **bem imóvel** para efeitos legais.\n\n### Espécies de sucessão\n- **Legítima**: determinada pela **lei**, quando não há testamento ou ele não abrange todos os bens.\n- **Testamentária**: por **disposição de última vontade**.\n- Podem coexistir.\n\n### Herdeiros\n- **Necessários** (art. 1.845): **descendentes**, **ascendentes** e **cônjuge**. Têm direito à **legítima**: **metade** da herança.\n- Havendo herdeiros necessários, o testador só pode dispor da **metade disponível**.\n- **Facultativos**: os **colaterais** até o 4º grau; podem ser excluídos por testamento.\n\n### Capacidade sucessória\n- Legitimam-se a suceder as pessoas **nascidas ou já concebidas** no momento da abertura (o **nascituro**).\n- No testamento, também a **prole eventual** de pessoa indicada (deve ser concebida em até 2 anos), as pessoas jurídicas e as fundações.\n\n### Aceitação e renúncia\n- **Aceitação**: expressa, **tácita** (atos próprios de herdeiro) ou presumida. É **irrevogável**.\n- **Renúncia**: deve ser **expressa**, por **escritura pública ou termo judicial**; é **irrevogável**. O renunciante é tratado **como se nunca tivesse existido**: seus descendentes **não o representam** (na mesma classe, a parte acresce aos outros herdeiros).\n- Não se pode aceitar ou renunciar **em parte**, sob condição ou a termo.\n- Os credores do renunciante podem aceitar a herança em nome dele, até o valor da dívida.\n\n### Exclusão da sucessão\n- **Indignidade** (art. 1.814): exclui o herdeiro que for **autor, coautor ou partícipe de homicídio doloso**, ou tentativa, contra o autor da herança, seu cônjuge, companheiro, ascendente ou descendente; que o **acusar caluniosamente** em juízo ou cometer crime contra sua honra; ou que, por violência ou fraude, o **impedir de dispor** livremente dos bens.\n  - Declarada por **sentença** em ação proposta em até **4 anos**; desde 2023, efeito automático da condenação criminal transitada em julgado por homicídio doloso.\n  - Os **efeitos são pessoais**: os **descendentes do excluído herdam por representação**, como se ele estivesse morto.\n- **Deserdação**: feita pelo próprio autor da herança, por **testamento**, com expressa declaração da causa, contra herdeiro **necessário**; causas da indignidade e outras, como ofensa física e injúria grave.\n\n### Herança jacente e vacante\n- **Jacente**: não há herdeiros conhecidos; os bens ficam sob guarda de um **curador**.\n- **Vacante**: após as diligências e um ano da publicação dos editais, sem herdeiros habilitados; os bens passam ao **Município** ou ao Distrito Federal (ou à União, se nos territórios).\n\n### Responsabilidade pelas dívidas\nO herdeiro **não responde** por encargos superiores às **forças da herança** (art. 1.792): as dívidas do falecido são pagas com os bens deixados, não com o patrimônio pessoal dos herdeiros.\n\n### Cessão de direitos hereditários\nSó por **escritura pública**. Os **coerdeiros têm preferência** na cessão a estranho.\n\n### Petição de herança\nAção do herdeiro para ser reconhecido e receber sua parte; prescreve em **10 anos** (STJ).",
+      "revisao": "**Lembre:**\n- Saisine: a herança se transmite na hora da morte.\n- Herdeiros necessários: descendentes, ascendentes e cônjuge; legítima é metade.\n- Renúncia: expressa, por escritura ou termo; ninguém representa o renunciante.\n- Indignidade: efeitos pessoais; descendentes do excluído o representam.\n- Herdeiro não responde além das forças da herança."
+    },
+    {
+      "id": "legitima",
+      "nome": "Sucessão legítima e ordem de vocação",
+      "resumo": "### Ordem de vocação hereditária (art. 1.829)\n1. **Descendentes**, em **concorrência com o cônjuge** sobrevivente, salvo se casado no regime da **comunhão universal**, da **separação obrigatória** ou, na **comunhão parcial**, se o falecido **não deixou bens particulares**.\n2. **Ascendentes**, em concorrência com o cônjuge (em qualquer regime).\n3. **Cônjuge** sobrevivente, sozinho.\n4. **Colaterais** até o **4º grau**.\n5. Na falta de todos, o **Município** (herança vacante).\n- O STF equiparou o **companheiro** ao cônjuge para todos os efeitos sucessórios (Tema 809, 2017), declarando inconstitucional o art. 1.790.\n\n### Regras gerais\n- **Classes**: a classe mais próxima **exclui a mais remota** (havendo descendentes, os ascendentes nada recebem).\n- **Graus**: dentro da classe, o grau mais próximo exclui o mais remoto (filhos excluem netos), **salvo o direito de representação**.\n\n### Direito de representação\nO descendente de um herdeiro **pré-morto** (ou indigno) recebe o que este receberia.\n- Ocorre **na linha reta descendente**, **nunca na ascendente**.\n- Na linha colateral, só em favor dos **filhos de irmãos** do falecido (sobrinhos), quando concorrerem com irmãos deste.\n- **Partilha por estirpe**: os representantes dividem entre si a parte que caberia ao representado.\n- Quando todos os herdeiros estão no mesmo grau (só netos, por exemplo), a divisão é **por cabeça**.\n- **Não há representação do renunciante**.\n\n### Concorrência do cônjuge com descendentes (art. 1.832)\n- O cônjuge recebe **quinhão igual** ao dos que sucederem por cabeça.\n- Sua quota **não pode ser inferior a 1/4** da herança se for **ascendente dos herdeiros** com quem concorre (filhos comuns).\n- Na comunhão parcial, o cônjuge concorre apenas sobre os **bens particulares** do falecido (entendimento do STJ); nos bens comuns, ele já tem a **meação**.\n\n### Meação não é herança\n- **Meação**: a metade dos bens comuns que **já pertence** ao cônjuge pelo regime de bens; não é transmitida pela morte.\n- **Herança**: o patrimônio do falecido, dividido entre os herdeiros.\n\n### Concorrência com ascendentes (art. 1.837)\n- Concorrendo com **pai e mãe** do falecido: o cônjuge recebe **1/3**.\n- Concorrendo com **um só ascendente** de 1º grau, ou com ascendentes de grau maior (avós): recebe **metade**.\n\n### Ascendentes\n- Não há representação: o de grau mais próximo exclui o mais remoto, **sem distinção de linhas**.\n- Havendo igualdade de grau e diversidade de linhas, a herança se divide **metade para a linha paterna e metade para a materna**.\n\n### Colaterais\n- O mais próximo exclui o mais remoto, salvo a representação dos sobrinhos.\n- **Irmãos bilaterais** (mesmo pai e mesma mãe) recebem o **dobro** do que recebem os **unilaterais**.\n- Na falta de irmãos, herdam os filhos destes (sobrinhos); na falta, os tios.\n\n### Direito real de habitação (art. 1.831)\nAo cônjuge sobrevivente, **qualquer que seja o regime de bens**, é assegurado o direito de **continuar morando** no imóvel destinado à residência da família, se for o **único** dessa natureza a inventariar. Estende-se ao companheiro.",
+      "revisao": "**Lembre:**\n- Ordem: descendentes (+ cônjuge), ascendentes (+ cônjuge), cônjuge, colaterais até 4º grau.\n- Classe mais próxima exclui a mais remota.\n- Representação: linha descendente e sobrinhos; nunca ascendente.\n- Cônjuge com filhos comuns: no mínimo 1/4.\n- Irmão bilateral recebe o dobro do unilateral."
+    },
+    {
+      "id": "testamento",
+      "nome": "Testamento, inventário e partilha",
+      "resumo": "### Testamento\nAto **personalíssimo**, **unilateral**, **solene**, **gratuito** e **revogável** a qualquer tempo, pelo qual a pessoa dispõe de seus bens (ou faz disposições não patrimoniais, como **reconhecer filho**) para depois da morte.\n- **Capacidade de testar**: maiores de **16 anos**, com pleno discernimento.\n- Proibido o **testamento conjuntivo** (de mão comum): feito por duas pessoas no mesmo ato.\n- O reconhecimento de filho feito em testamento **não se revoga**.\n\n### Formas ordinárias\n- **Público**: escrito pelo **tabelião** em seu livro, conforme as declarações do testador, na presença de **duas testemunhas**; lido em voz alta e assinado. É a única forma permitida ao **cego** e ao analfabeto.\n- **Cerrado** (secreto): escrito pelo testador (ou por outrem a seu rogo), entregue ao tabelião na presença de duas testemunhas, que lavra o auto de aprovação e o **cerra e cose**. Se for aberto ou violado pelo testador, considera-se **revogado**.\n- **Particular**: escrito e assinado pelo testador e lido perante **três testemunhas**, que também assinam. Após a morte, deve ser **confirmado em juízo**. Em circunstâncias excepcionais declaradas, pode ser feito **sem testemunhas**.\n\n### Formas especiais\n**Marítimo**, **aeronáutico** e **militar**; caducam se o testador não morrer na viagem ou em campanha e não testar de outra forma em 90 dias.\n\n### Codicilo\nEscrito particular, datado e assinado, com disposições sobre o **enterro**, **esmolas de pouca monta** e **bens móveis de pequeno valor** (roupas, joias de pouco valor).\n\n### Disposições\n- **Herdeiro** (recebe fração do patrimônio) e **legatário** (recebe **bem determinado**: legado).\n- **Cláusulas restritivas**: inalienabilidade, impenhorabilidade e incomunicabilidade; sobre a **legítima**, só com **justa causa** declarada.\n- **Substituição**: vulgar (alguém no lugar do herdeiro que não quiser ou não puder aceitar) e **fideicomissária** (o fiduciário recebe e depois transmite ao fideicomissário; só em favor de quem não estava concebido).\n- **Redução das disposições testamentárias**: as que excederem a parte disponível são reduzidas para preservar a legítima.\n\n### Invalidade, revogação e caducidade\n- **Revogação**: pelo mesmo modo e forma em que pode ser feito; total ou parcial.\n- **Rompimento**: sobrevindo **descendente** que o testador não conhecia, ou não tinha ao testar, o testamento se rompe.\n- **Caducidade**: o herdeiro ou legatário morre antes do testador, ou a coisa legada perece.\n- Prazo para impugnar a validade: **5 anos** do registro.\n\n### Inventário\n- Deve ser **aberto em 2 meses** da morte e encerrado em **12 meses** (art. 611 do CPC); o atraso pode gerar multa no imposto.\n- **Judicial**: obrigatório quando há **testamento** ou **interessado incapaz** (com flexibilizações pelo STJ e pelo CNJ, se houver consenso e acompanhamento do MP ou do juiz).\n- **Extrajudicial**: por **escritura pública** no cartório, se todos forem **capazes** e **concordes**, com **advogado**.\n- **Arrolamento sumário**: forma simplificada quando há acordo entre herdeiros capazes; **arrolamento comum**: para bens de pequeno valor.\n- **Inventariante**: administra o espólio; nomeado na ordem legal (cônjuge ou companheiro, herdeiro na posse dos bens etc.).\n- **Espólio**: o conjunto de bens do falecido; representado pelo inventariante em juízo.\n- **Colação**: os descendentes que receberam **doações em vida** do ascendente devem trazê-las ao inventário para **igualar as legítimas**, salvo dispensa expressa do doador (bens da parte disponível).\n- **Sonegados**: o herdeiro que oculta bens perde o direito a eles.\n- **Imposto**: **ITCMD**, estadual.\n\n### Partilha\n- **Amigável**: por escritura, termo nos autos ou documento homologado, entre herdeiros capazes.\n- **Judicial**: quando há divergência ou incapaz.\n- Pode ser **anulada** por vício de consentimento em **1 ano**; a judicial é rescindível.\n- **Sobrepartilha**: bens descobertos depois da partilha.",
+      "revisao": "**Lembre:**\n- Testamento: personalíssimo, solene e revogável; capacidade a partir de 16 anos.\n- Público: tabelião e 2 testemunhas; cerrado: 2 testemunhas; particular: 3.\n- Testamento conjuntivo é proibido.\n- Inventário extrajudicial: todos capazes, de acordo, com advogado.\n- Colação: doações em vida a descendentes voltam ao inventário."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-familia-sucessoes-1",
+      "topico": "casamento",
+      "nivel": "conceitual",
+      "pergunta": "A idade mínima para casar, segundo o Código Civil, é de:",
+      "opcoes": [
+        "16 anos, com autorização dos pais enquanto menor",
+        "14 anos, com autorização judicial",
+        "18 anos, sem exceção",
+        "12 anos, em caso de gravidez"
+      ],
+      "correta": 0,
+      "explicacao": "Desde 2019, não se admite casamento de quem ainda não completou 16 anos em nenhuma hipótese."
+    },
+    {
+      "id": "direito-familia-sucessoes-2",
+      "topico": "casamento",
+      "nivel": "conceitual",
+      "pergunta": "O casamento celebrado com infringência de impedimento é:",
+      "opcoes": [
+        "Anulável",
+        "Nulo",
+        "Válido, mas com separação obrigatória de bens",
+        "Inexistente apenas para terceiros"
+      ],
+      "correta": 1,
+      "explicacao": "As causas suspensivas, ao contrário, não invalidam o casamento."
+    },
+    {
+      "id": "direito-familia-sucessoes-3",
+      "topico": "casamento",
+      "nivel": "conceitual",
+      "pergunta": "Para a configuração da união estável, a lei exige:",
+      "opcoes": [
+        "Prazo mínimo de cinco anos",
+        "Coabitação obrigatória",
+        "Convivência pública, contínua e duradoura com objetivo de constituir família",
+        "Registro em cartório"
+      ],
+      "correta": 2,
+      "explicacao": "Não há prazo mínimo nem exigência de morar na mesma casa."
+    },
+    {
+      "id": "direito-familia-sucessoes-4",
+      "topico": "casamento",
+      "nivel": "aplicacao",
+      "pergunta": "Um casal sem filhos menores ou incapazes e em pleno acordo quer se divorciar rapidamente. A via mais simples é:",
+      "opcoes": [
+        "A ação judicial de separação, aguardando um ano",
+        "O pedido ao juiz de paz que celebrou o casamento",
+        "A simples declaração verbal de um dos cônjuges",
+        "A escritura pública de divórcio em cartório, com advogado"
+      ],
+      "correta": 3,
+      "explicacao": "Desde a EC 66/2010, o divórcio não depende de prazo nem de separação prévia."
+    },
+    {
+      "id": "direito-familia-sucessoes-5",
+      "topico": "casamento",
+      "nivel": "analise",
+      "pergunta": "Por que a Emenda Constitucional 66/2010 é considerada um marco no direito de família?",
+      "opcoes": [
+        "Porque eliminou prazos e a discussão de culpa, tornando o divórcio um direito potestativo",
+        "Porque proibiu o divórcio",
+        "Porque criou a união estável",
+        "Porque tornou obrigatória a separação judicial"
+      ],
+      "correta": 0,
+      "explicacao": "Basta a vontade de um dos cônjuges para pôr fim ao casamento."
+    },
+    {
+      "id": "direito-familia-sucessoes-6",
+      "topico": "bens",
+      "nivel": "conceitual",
+      "pergunta": "Na falta de pacto antenupcial, vigora o regime da:",
+      "opcoes": [
+        "Comunhão universal de bens",
+        "Comunhão parcial de bens",
+        "Separação total de bens",
+        "Participação final nos aquestos"
+      ],
+      "correta": 1,
+      "explicacao": "O mesmo regime se aplica à união estável sem contrato escrito."
+    },
+    {
+      "id": "direito-familia-sucessoes-7",
+      "topico": "bens",
+      "nivel": "conceitual",
+      "pergunta": "No regime da comunhão parcial, não se comunicam:",
+      "opcoes": [
+        "Os bens comprados durante o casamento",
+        "Os frutos dos bens particulares",
+        "Os bens recebidos por herança ou doação",
+        "Os bens adquiridos por esforço comum"
+      ],
+      "correta": 2,
+      "explicacao": "Esses bens permanecem como particulares de quem os recebeu."
+    },
+    {
+      "id": "direito-familia-sucessoes-8",
+      "topico": "bens",
+      "nivel": "conceitual",
+      "pergunta": "É obrigatório o regime da separação de bens no casamento:",
+      "opcoes": [
+        "De qualquer pessoa com mais de 50 anos",
+        "De quem já tem filhos",
+        "De quem tem imóveis",
+        "Da pessoa maior de 70 anos, salvo escritura em sentido contrário"
+      ],
+      "correta": 3,
+      "explicacao": "O STF passou a admitir que esse regime seja afastado por manifestação de vontade."
+    },
+    {
+      "id": "direito-familia-sucessoes-9",
+      "topico": "bens",
+      "nivel": "aplicacao",
+      "pergunta": "Casado em comunhão parcial, Roberto quer vender um apartamento que comprou antes do casamento. Ele precisa da autorização da esposa?",
+      "opcoes": [
+        "Sim, pois a outorga conjugal é exigida para alienar imóveis, salvo no regime de separação absoluta",
+        "Não, pois o bem é particular",
+        "Só se o imóvel valer mais de 100 salários mínimos",
+        "Só se tiverem filhos"
+      ],
+      "correta": 0,
+      "explicacao": "A exigência protege a moradia e o patrimônio familiar, independentemente de quem é o dono."
+    },
+    {
+      "id": "direito-familia-sucessoes-10",
+      "topico": "bens",
+      "nivel": "analise",
+      "pergunta": "Por que o imóvel residencial pode ser penhorado para pagar dívida de fiança em contrato de locação, apesar de ser bem de família?",
+      "opcoes": [
+        "Porque o bem de família nunca é protegido",
+        "Porque a Lei 8.009/1990 prevê essa exceção à impenhorabilidade, validada pelo STF",
+        "Porque a fiança é crime",
+        "Porque o locador é sempre o Estado"
+      ],
+      "correta": 1,
+      "explicacao": "A exceção tem por objetivo facilitar o acesso à locação com a garantia da fiança."
+    },
+    {
+      "id": "direito-familia-sucessoes-11",
+      "topico": "filiacao",
+      "nivel": "conceitual",
+      "pergunta": "A recusa do suposto pai a fazer o exame de DNA gera:",
+      "opcoes": [
+        "Presunção absoluta de paternidade",
+        "Extinção do processo",
+        "Presunção relativa de paternidade",
+        "Prisão civil"
+      ],
+      "correta": 2,
+      "explicacao": "É o entendimento da Súmula 301 do STJ: a recusa pesa contra o réu, mas pode ser afastada por outras provas do processo."
+    },
+    {
+      "id": "direito-familia-sucessoes-12",
+      "topico": "filiacao",
+      "nivel": "conceitual",
+      "pergunta": "A guarda compartilhada, segundo a legislação atual:",
+      "opcoes": [
+        "Só é possível se os pais morarem juntos",
+        "Elimina a obrigação de pagar pensão",
+        "Exige divisão exata do tempo de convivência",
+        "É a regra, mesmo sem acordo entre os pais, salvo exceções legais"
+      ],
+      "correta": 3,
+      "explicacao": "Ela significa responsabilização conjunta pelas decisões sobre o filho."
+    },
+    {
+      "id": "direito-familia-sucessoes-13",
+      "topico": "filiacao",
+      "nivel": "conceitual",
+      "pergunta": "A obrigação alimentar dos avós é:",
+      "opcoes": [
+        "Complementar e subsidiária",
+        "Principal e prioritária",
+        "Inexistente",
+        "Exclusiva quando os pais são vivos"
+      ],
+      "correta": 0,
+      "explicacao": "Os avós só são chamados se os pais não puderem arcar com toda a obrigação."
+    },
+    {
+      "id": "direito-familia-sucessoes-14",
+      "topico": "filiacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um pai deixou de pagar pensão por oito meses. Pela via da prisão civil, o credor pode cobrar:",
+      "opcoes": [
+        "Todas as oito prestações",
+        "As três últimas prestações anteriores ao ajuizamento e as que vencerem no processo",
+        "Apenas a última prestação",
+        "Nenhuma, pois a prisão por dívida é proibida"
+      ],
+      "correta": 1,
+      "explicacao": "As parcelas mais antigas devem ser cobradas pelo rito da penhora de bens."
+    },
+    {
+      "id": "direito-familia-sucessoes-15",
+      "topico": "filiacao",
+      "nivel": "analise",
+      "pergunta": "O que significa a multiparentalidade reconhecida pelo STF?",
+      "opcoes": [
+        "Que o filho só pode ter um pai",
+        "Que a paternidade biológica sempre prevalece",
+        "Que a paternidade socioafetiva pode coexistir com a biológica, ambas produzindo efeitos jurídicos",
+        "Que o pai socioafetivo não paga alimentos"
+      ],
+      "correta": 2,
+      "explicacao": "O filho pode ter, por exemplo, direito a herança e alimentos dos dois pais."
+    },
+    {
+      "id": "direito-familia-sucessoes-16",
+      "topico": "sucessao-geral",
+      "nivel": "conceitual",
+      "pergunta": "Pelo princípio da saisine, a herança se transmite aos herdeiros:",
+      "opcoes": [
+        "Na partilha",
+        "No registro do formal de partilha",
+        "Após o pagamento do imposto",
+        "No momento da morte do autor da herança"
+      ],
+      "correta": 3,
+      "explicacao": "Por isso a lei aplicável é a vigente na data do falecimento."
+    },
+    {
+      "id": "direito-familia-sucessoes-17",
+      "topico": "sucessao-geral",
+      "nivel": "conceitual",
+      "pergunta": "São herdeiros necessários:",
+      "opcoes": [
+        "Descendentes, ascendentes e cônjuge",
+        "Irmãos, tios e primos",
+        "Apenas os filhos",
+        "Todos os parentes até o 4º grau"
+      ],
+      "correta": 0,
+      "explicacao": "A eles pertence, de pleno direito, metade dos bens da herança."
+    },
+    {
+      "id": "direito-familia-sucessoes-18",
+      "topico": "sucessao-geral",
+      "nivel": "conceitual",
+      "pergunta": "A renúncia à herança deve ser feita:",
+      "opcoes": [
+        "Verbalmente, perante os demais herdeiros",
+        "De forma expressa, por escritura pública ou termo judicial",
+        "Por simples omissão",
+        "Por carta registrada"
+      ],
+      "correta": 1,
+      "explicacao": "Ela é irrevogável e não admite condições."
+    },
+    {
+      "id": "direito-familia-sucessoes-19",
+      "topico": "sucessao-geral",
+      "nivel": "aplicacao",
+      "pergunta": "Um filho foi declarado indigno por ter tentado matar o pai. Ele tem dois filhos. O que acontece com a parte que lhe caberia?",
+      "opcoes": [
+        "A parte vai para o Município",
+        "A parte é dividida entre os outros irmãos, sempre",
+        "Os filhos dele herdam por representação, como se ele estivesse morto",
+        "Ele herda normalmente"
+      ],
+      "correta": 2,
+      "explicacao": "Os efeitos da exclusão são pessoais e não atingem os descendentes do indigno."
+    },
+    {
+      "id": "direito-familia-sucessoes-20",
+      "topico": "sucessao-geral",
+      "nivel": "analise",
+      "pergunta": "Por que os herdeiros não são obrigados a pagar com seus próprios bens as dívidas do falecido que superem a herança?",
+      "opcoes": [
+        "Porque as dívidas se extinguem com a morte",
+        "Porque o Estado paga as dívidas",
+        "Porque os credores perdem o direito com a morte",
+        "Porque o herdeiro só responde até as forças da herança"
+      ],
+      "correta": 3,
+      "explicacao": "As dívidas são pagas com o patrimônio deixado, antes da partilha."
+    },
+    {
+      "id": "direito-familia-sucessoes-21",
+      "topico": "legitima",
+      "nivel": "conceitual",
+      "pergunta": "Na ordem de vocação hereditária, a primeira classe chamada é a dos:",
+      "opcoes": [
+        "Descendentes, em concorrência com o cônjuge em certos casos",
+        "Ascendentes",
+        "Colaterais",
+        "Municípios"
+      ],
+      "correta": 0,
+      "explicacao": "A classe mais próxima exclui a mais remota."
+    },
+    {
+      "id": "direito-familia-sucessoes-22",
+      "topico": "legitima",
+      "nivel": "conceitual",
+      "pergunta": "O direito de representação ocorre:",
+      "opcoes": [
+        "Na linha reta ascendente",
+        "Na linha reta descendente, nunca na ascendente",
+        "Em favor do herdeiro que renunciou",
+        "Entre primos"
+      ],
+      "correta": 1,
+      "explicacao": "Na colateral, só os filhos de irmãos do falecido representam o pai pré-morto."
+    },
+    {
+      "id": "direito-familia-sucessoes-23",
+      "topico": "legitima",
+      "nivel": "conceitual",
+      "pergunta": "Concorrendo irmãos bilaterais com unilaterais, cada irmão unilateral recebe:",
+      "opcoes": [
+        "O mesmo que os bilaterais",
+        "O dobro dos bilaterais",
+        "Metade do que recebe cada bilateral",
+        "Nada"
+      ],
+      "correta": 2,
+      "explicacao": "Bilaterais são filhos do mesmo pai e da mesma mãe."
+    },
+    {
+      "id": "direito-familia-sucessoes-24",
+      "topico": "legitima",
+      "nivel": "aplicacao",
+      "pergunta": "Ana morreu deixando o marido e os pais vivos, sem filhos. Quanto o marido recebe da herança?",
+      "opcoes": [
+        "Metade",
+        "Tudo",
+        "Nada, pois os pais o excluem",
+        "Um terço"
+      ],
+      "correta": 3,
+      "explicacao": "Concorrendo com pai e mãe do falecido, o cônjuge recebe 1/3; com um só ascendente, metade."
+    },
+    {
+      "id": "direito-familia-sucessoes-25",
+      "topico": "legitima",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre meação e herança para o cônjuge viúvo?",
+      "opcoes": [
+        "A meação já pertence ao cônjuge pelo regime de bens; a herança é parte do patrimônio do falecido",
+        "São a mesma coisa",
+        "A meação só existe na separação total",
+        "A herança é paga pelo cônjuge aos filhos"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso o cônjuge pode ter meação e, em certos regimes, também herdar."
+    },
+    {
+      "id": "direito-familia-sucessoes-26",
+      "topico": "testamento",
+      "nivel": "conceitual",
+      "pergunta": "Pode fazer testamento a pessoa com mais de:",
+      "opcoes": [
+        "18 anos apenas",
+        "16 anos e pleno discernimento",
+        "21 anos",
+        "12 anos com autorização dos pais"
+      ],
+      "correta": 1,
+      "explicacao": "O testamento é ato personalíssimo, que não admite representação."
+    },
+    {
+      "id": "direito-familia-sucessoes-27",
+      "topico": "testamento",
+      "nivel": "conceitual",
+      "pergunta": "O testamento conjuntivo, feito por duas pessoas no mesmo ato, é:",
+      "opcoes": [
+        "Obrigatório para casais",
+        "Permitido apenas na comunhão universal",
+        "Proibido",
+        "Permitido se houver três testemunhas"
+      ],
+      "correta": 2,
+      "explicacao": "A proibição garante a liberdade e a revogabilidade de cada testamento."
+    },
+    {
+      "id": "direito-familia-sucessoes-28",
+      "topico": "testamento",
+      "nivel": "conceitual",
+      "pergunta": "O inventário extrajudicial, em cartório, exige:",
+      "opcoes": [
+        "Autorização do juiz",
+        "A presença do Ministério Público sempre",
+        "Que o falecido não tenha bens",
+        "Herdeiros capazes e de acordo, assistidos por advogado"
+      ],
+      "correta": 3,
+      "explicacao": "Havendo divergência entre os herdeiros, o inventário deve ser judicial."
+    },
+    {
+      "id": "direito-familia-sucessoes-29",
+      "topico": "testamento",
+      "nivel": "aplicacao",
+      "pergunta": "Um pai doou um apartamento a um dos filhos em vida, sem dispensa de colação. Na morte dele, o filho donatário deve:",
+      "opcoes": [
+        "Trazer o valor da doação ao inventário para igualar as legítimas",
+        "Devolver o imóvel ao Município",
+        "Ficar com o imóvel e herdar normalmente sem compensação",
+        "Pagar ITCMD em dobro"
+      ],
+      "correta": 0,
+      "explicacao": "A doação de ascendente a descendente é tratada como adiantamento da legítima."
+    },
+    {
+      "id": "direito-familia-sucessoes-30",
+      "topico": "testamento",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que o testamento é ato revogável, mas o reconhecimento de filho feito nele não é?",
+      "opcoes": [
+        "Porque nada no testamento pode ser revogado",
+        "Porque as disposições patrimoniais podem mudar, mas o estado de filiação é irrevogável",
+        "Porque o filho precisa aceitar o testamento",
+        "Porque o juiz confirma o reconhecimento"
+      ],
+      "correta": 1,
+      "explicacao": "O reconhecimento produz efeitos que não dependem da vontade posterior do testador."
+    }
+  ]
+}

@@ -1367,6 +1367,67 @@ export const EXTRA = {
       "Direito Penal Parte Especial I",
       "Direito Penal Parte Especial II"
     ]
+  },
+  "direito-familia-sucessoes": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito de Família",
+      "Direito das Famílias",
+      "Direito de Família e Sucessões",
+      "Direito das Sucessões",
+      "Direito Civil V",
+      "Direito Civil VI",
+      "Direito Civil: Família",
+      "Direito Civil - Família",
+      "Direito Civil: Sucessões",
+      "Direito Civil - Sucessões",
+      "Família e Sucessões",
+      "Direito de Família e das Sucessões",
+      "Sucessões"
+    ]
+  },
+  "direito-coisas": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito das Coisas",
+      "Direitos Reais",
+      "Direito Civil IV",
+      "Direito Civil: Coisas",
+      "Direito Civil - Coisas",
+      "Direito Civil: Direitos Reais",
+      "Direito Civil - Direitos Reais",
+      "Direito das Coisas e Direitos Reais",
+      "Posse e Propriedade",
+      "Direito Imobiliário"
+    ]
+  },
+  "direito-consumidor": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito do Consumidor",
+      "Direitos do Consumidor",
+      "Direito das Relações de Consumo",
+      "Código de Defesa do Consumidor",
+      "Defesa do Consumidor",
+      "Direito do Consumidor I",
+      "Relações de Consumo",
+      "Noções de Direito do Consumidor"
+    ]
+  },
+  "processo-trabalho": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Processual do Trabalho",
+      "Processo do Trabalho",
+      "Direito Processual do Trabalho I",
+      "Direito Processual do Trabalho II",
+      "Processo do Trabalho I",
+      "Processo do Trabalho II",
+      "Processo Trabalhista",
+      "Direito Processual Trabalhista",
+      "Prática Trabalhista",
+      "Noções de Processo do Trabalho"
+    ]
   }
 };
 
