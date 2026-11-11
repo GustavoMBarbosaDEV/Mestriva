@@ -1300,6 +1300,73 @@ export const EXTRA = {
       "Anatomia e Fisiologia Animal",
       "Anatomia Animal Comparada"
     ]
+  },
+  "direito-tributario": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Tributário",
+      "Direito Tributário I",
+      "Direito Tributário II",
+      "Direito Tributário e Financeiro",
+      "Direito Financeiro e Tributário",
+      "Introdução ao Direito Tributário",
+      "Legislação Tributária",
+      "Direito Tributário Nacional",
+      "Sistema Tributário Nacional",
+      "Noções de Direito Tributário",
+      "Direito e Legislação Tributária"
+    ]
+  },
+  "processo-penal": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Processual Penal",
+      "Processo Penal",
+      "Direito Processual Penal I",
+      "Direito Processual Penal II",
+      "Processo Penal I",
+      "Processo Penal II",
+      "Teoria Geral do Processo Penal",
+      "Noções de Processo Penal",
+      "Direito Processual Penal Geral"
+    ]
+  },
+  "direito-civil-obrigacoes": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Civil II",
+      "Direito Civil III",
+      "Direito das Obrigações",
+      "Direito Civil: Obrigações",
+      "Direito Civil - Obrigações",
+      "Teoria Geral das Obrigações",
+      "Obrigações",
+      "Direito dos Contratos",
+      "Direito Civil: Contratos",
+      "Direito Civil - Contratos",
+      "Contratos",
+      "Teoria Geral dos Contratos",
+      "Contratos em Espécie",
+      "Responsabilidade Civil",
+      "Direito Civil: Responsabilidade Civil",
+      "Obrigações e Contratos",
+      "Direito das Obrigações e Contratos"
+    ]
+  },
+  "direito-penal-especial": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Penal: Parte Especial",
+      "Direito Penal - Parte Especial",
+      "Direito Penal Parte Especial",
+      "Direito Penal III",
+      "Direito Penal IV",
+      "Direito Penal Especial",
+      "Crimes em Espécie",
+      "Parte Especial do Direito Penal",
+      "Direito Penal Parte Especial I",
+      "Direito Penal Parte Especial II"
+    ]
   }
 };
 

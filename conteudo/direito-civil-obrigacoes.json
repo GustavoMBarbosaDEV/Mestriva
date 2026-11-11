@@ -1,0 +1,465 @@
+{
+  "id": "direito-civil-obrigacoes",
+  "nome": "Direito Civil – Obrigações e Contratos",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "modalidades",
+      "nome": "Conceito e modalidades das obrigações",
+      "resumo": "### Conceito\n**Obrigação** é a relação jurídica **transitória**, de natureza **patrimonial**, em que o **devedor** deve cumprir uma **prestação** em favor do **credor**, respondendo com seu **patrimônio** em caso de descumprimento.\n\n### Elementos\n- **Subjetivo**: credor (sujeito ativo) e devedor (sujeito passivo).\n- **Objetivo**: a **prestação** (dar, fazer ou não fazer), que deve ser lícita, possível, determinada ou determinável.\n- **Vínculo jurídico**: **débito** (o dever de prestar, *schuld*) e **responsabilidade** (a sujeição do patrimônio, *haftung*).\n  - **Obrigação natural**: há débito, mas não responsabilidade. Ex.: **dívida prescrita** e dívida de jogo. Não pode ser cobrada, mas, se paga, **não se pode pedir de volta**.\n  - Responsabilidade sem débito: o **fiador**.\n\n### Fontes\nA **lei**, os **contratos**, os **atos unilaterais** (promessa de recompensa, gestão de negócios, pagamento indevido, enriquecimento sem causa), os **atos ilícitos** e os títulos de crédito.\n\n### Direitos pessoais e reais\n- **Obrigacional** (pessoal): relação entre pessoas; efeito **entre as partes**.\n- **Real**: poder sobre a coisa; oponível **a todos** (*erga omnes*).\n- **Obrigação *propter rem***: acompanha a coisa; quem for o dono deve. Ex.: **despesas de condomínio**, IPTU.\n\n### Obrigação de dar\n- **Coisa certa**: individualizada. O credor **não é obrigado a receber outra**, ainda que mais valiosa. O acessório segue o principal.\n  - **Perda sem culpa** do devedor antes da tradição: a obrigação se **resolve**, sem indenização (*res perit domino*, a coisa perece para o dono).\n  - **Perda com culpa**: o devedor responde pelo **equivalente mais perdas e danos**.\n  - **Deterioração** sem culpa: o credor pode resolver ou aceitar com abatimento; com culpa, cabe também perdas e danos.\n- **Coisa incerta**: indicada ao menos pelo **gênero e pela quantidade**. A **escolha** (concentração) cabe, em regra, ao **devedor**, que não pode dar a pior nem é obrigado a dar a melhor. Antes da escolha, **o gênero não perece**: o devedor não pode alegar perda.\n- **Restituir**: devolver coisa que já é do credor (comodato, depósito).\n\n### Obrigação de fazer\n- **Fungível**: pode ser cumprida por terceiro, à custa do devedor.\n- **Infungível** (personalíssima): só o devedor pode cumprir (um quadro de pintor famoso). A recusa gera **perdas e danos**.\n- O juiz pode fixar **multa diária** (*astreintes*) para forçar o cumprimento.\n\n### Obrigação de não fazer\nDever de **abstenção**. Descumprida, o credor pode exigir que o ato seja **desfeito**, mais perdas e danos.\n\n### Outras modalidades\n- **Alternativa**: duas ou mais prestações, e o devedor se libera cumprindo **uma**; a escolha é, em regra, do **devedor**.\n- **Facultativa**: uma só prestação devida, com a faculdade de substituí-la.\n- **Divisível e indivisível**: conforme a prestação possa ser fracionada. Na indivisível com vários devedores, cada um responde pelo todo. Se a obrigação se converte em perdas e danos, **perde a indivisibilidade**.\n- **De meio** (o devedor emprega diligência, sem garantir o resultado: médico, advogado) e **de resultado** (garante o resultado: transportador, cirurgião plástico estético).\n- **Líquida** (certa quanto à existência e determinada quanto ao valor) e **ilíquida**.\n\n### Solidariedade\nHá solidariedade quando, na mesma obrigação, concorrem vários credores ou devedores, cada um com direito ou obrigado **à dívida toda**.\n- **Não se presume**: resulta **da lei ou da vontade das partes** (art. 265).\n- **Ativa**: qualquer credor pode exigir tudo; o pagamento a um libera o devedor.\n- **Passiva**: o credor pode cobrar de **qualquer devedor** a dívida inteira. Quem pagou tem **direito de regresso** contra os demais, pela quota de cada um.\n- A morte de um devedor solidário: os herdeiros respondem só pela quota de seu quinhão.",
+      "revisao": "**Lembre:**\n- Elementos: sujeitos, prestação e vínculo (débito e responsabilidade).\n- Dívida prescrita: obrigação natural; paga, não se devolve.\n- Coisa certa perdida sem culpa: resolve-se a obrigação.\n- Coisa incerta: escolha do devedor; o gênero não perece.\n- Solidariedade não se presume: lei ou vontade das partes."
+    },
+    {
+      "id": "pagamento",
+      "nome": "Adimplemento e extinção das obrigações",
+      "resumo": "### Pagamento (adimplemento)\nÉ o **cumprimento** da prestação, o modo normal de extinguir a obrigação.\n\n### Quem deve pagar\n- O **devedor** ou **qualquer interessado** (fiador, avalista), que se **sub-roga** nos direitos do credor.\n- O **terceiro não interessado** também pode pagar: se paga **em nome próprio**, tem direito a **reembolso**, mas não se sub-roga.\n\n### A quem pagar\n- Ao **credor** ou a quem o **represente**.\n- Pagamento ao **credor putativo** (aquele que aparenta ser o credor), de **boa-fé**, é **válido**.\n- \"**Quem paga mal paga duas vezes**\": pagamento a quem não podia receber não libera o devedor.\n\n### Objeto e prova\n- O credor não é obrigado a receber **prestação diversa**, nem **em partes**, se assim não se ajustou.\n- **Princípio do nominalismo**: as dívidas em dinheiro são pagas em **moeda corrente** e pelo valor nominal.\n- **Quitação**: o devedor tem **direito ao recibo** e pode reter o pagamento enquanto não lhe for dado.\n- A entrega do **título** ao devedor faz presumir o pagamento; a quitação da **última parcela** faz presumir a das anteriores.\n\n### Lugar\n- Regra: no **domicílio do devedor** (dívida **quesível**, *quérable*).\n- Se convencionado no domicílio do credor: dívida **portável** (*portable*).\n- O pagamento reiterado em outro lugar faz presumir **renúncia** do credor ao lugar previsto (*supressio*).\n\n### Tempo\n- Sem prazo ajustado, o credor pode exigir **imediatamente**.\n- **Vencimento antecipado**: falência do devedor, penhora dos bens dados em garantia, cessação das garantias.\n\n### Pagamentos especiais\n- **Consignação em pagamento**: depósito da coisa devida, **judicial ou em banco**, quando o credor **recusa** receber, é desconhecido ou há dúvida sobre quem deve receber.\n- **Sub-rogação**: substituição do credor por quem pagou a dívida; **legal** (como a do fiador) ou **convencional**.\n- **Imputação do pagamento**: o devedor de várias dívidas ao mesmo credor **indica** qual está pagando; havendo capital e juros, imputa-se primeiro nos **juros**.\n- **Dação em pagamento**: o credor **aceita** receber **prestação diversa** da devida (um carro no lugar do dinheiro).\n\n### Extinção sem pagamento\n- **Novação**: cria-se **obrigação nova** para extinguir a anterior. **Objetiva** (muda o objeto) ou **subjetiva** (muda o devedor ou o credor). Exige ***animus novandi*** (intenção de novar). Extingue os acessórios e garantias da dívida antiga.\n- **Compensação**: duas pessoas são **ao mesmo tempo credora e devedora** uma da outra; as dívidas se extinguem **até onde se compensarem**. Requisitos: dívidas **líquidas, vencidas e de coisas fungíveis**. Não se compensam dívidas de **alimentos**.\n- **Confusão**: as qualidades de credor e devedor se reúnem **na mesma pessoa** (o devedor herda o crédito).\n- **Remissão**: **perdão** da dívida, que precisa ser **aceito** pelo devedor.\n\n### Transmissão das obrigações\n- **Cessão de crédito**: o credor transfere o crédito a terceiro. **Não depende do consentimento do devedor**, mas ele deve ser **notificado** para que a cessão tenha eficácia contra ele. O cedente responde pela **existência** do crédito, não pela solvência do devedor (salvo ajuste).\n- **Assunção de dívida** (cessão de débito): um terceiro assume a dívida, **com o consentimento expresso do credor**.",
+      "revisao": "**Lembre:**\n- Pagamento a credor putativo de boa-fé é válido.\n- Regra: pagamento no domicílio do devedor (quesível).\n- Dação: credor aceita coisa diversa.\n- Novação: nova obrigação extingue a antiga; compensação: créditos recíprocos.\n- Cessão de crédito não exige consentimento do devedor; assunção de dívida exige o do credor."
+    },
+    {
+      "id": "inadimplemento",
+      "nome": "Inadimplemento, mora e cláusula penal",
+      "resumo": "### Inadimplemento\n- **Absoluto**: a prestação **não pode mais ser cumprida** ou **não interessa mais** ao credor. Consequência: **perdas e danos**, juros, atualização monetária e honorários de advogado.\n- **Relativo** (**mora**): atraso ou cumprimento imperfeito, mas a prestação **ainda é útil** ao credor.\n- **Violação positiva do contrato**: descumprimento dos **deveres anexos** da boa-fé (informação, lealdade, proteção).\n- O devedor **não responde** por **caso fortuito ou força maior**, salvo se expressamente se responsabilizou ou se já estava em **mora**.\n\n### Mora do devedor (*solvendi*)\nO devedor não paga **no tempo, lugar e forma** devidos, por **culpa** sua.\n- ***Ex re*** (automática): obrigação **positiva, líquida e com termo certo**; o simples vencimento constitui em mora (***dies interpellat pro homine***, \"o dia interpela pelo homem\").\n- ***Ex persona***: sem prazo, depende de **interpelação** judicial ou extrajudicial.\n- Nas obrigações decorrentes de **ato ilícito**, a mora começa **desde o evento**.\n- Efeitos: responde pelos **prejuízos**, juros e atualização; responde pela **impossibilidade da prestação** mesmo por caso fortuito, salvo se provar que o dano ocorreria de qualquer modo (***perpetuatio obligationis***).\n\n### Mora do credor (*accipiendi*)\nO credor **recusa-se** a receber sem justa causa. Efeitos: o devedor **não responde** pela conservação da coisa (salvo dolo); o credor arca com as despesas de conservação.\n\n### Purgação da mora\nO devedor oferece a prestação **mais os prejuízos** do atraso, e a mora cessa.\n\n### Perdas e danos\n- **Dano emergente**: o que o credor **efetivamente perdeu**.\n- **Lucro cessante**: o que **razoavelmente deixou de ganhar**.\n- Só os prejuízos **diretos e imediatos**.\n- **Perda de uma chance**: indeniza-se a oportunidade séria e real que foi perdida.\n\n### Juros\n- **Moratórios**: pelo **atraso**; devidos mesmo sem prova de prejuízo.\n- **Compensatórios** (remuneratórios): remuneram o uso do capital.\n- **Taxa legal**: a Lei 14.905/2024 fixou a **Selic deduzida do IPCA** quando não houver taxa convencionada.\n- **Anatocismo**: juros sobre juros; em regra vedado, salvo capitalização autorizada por lei.\n\n### Cláusula penal (multa contratual)\nPacto acessório que fixa **antecipadamente** uma penalidade para o descumprimento.\n- **Compensatória**: para o **inadimplemento total**; o credor escolhe **entre** a multa e a obrigação (não cumula). Em regra, substitui as perdas e danos.\n- **Moratória**: para o **atraso** ou o descumprimento de uma cláusula; o credor pode exigir a **multa e a obrigação**.\n- **Limite**: não pode exceder o valor da **obrigação principal** (art. 412).\n- O juiz **deve reduzir** a multa se a obrigação foi **cumprida em parte** ou se o valor for **manifestamente excessivo** (art. 413).\n- Para exigi-la, **não é preciso provar prejuízo**.\n- Indenização suplementar só se houver previsão no contrato.\n\n### Arras (sinal)\nValor dado na conclusão do contrato.\n- **Confirmatórias**: confirmam o negócio e servem de princípio de pagamento. Se quem **deu** as arras descumpre, **perde-as**; se quem **recebeu** descumpre, **devolve em dobro** (mais o equivalente). Admitem indenização suplementar.\n- **Penitenciais**: quando há **direito de arrependimento**; funcionam como indenização e **não admitem** indenização suplementar.",
+      "revisao": "**Lembre:**\n- Absoluto: prestação inútil; relativo: mora, ainda útil.\n- Mora ex re: dívida líquida com termo certo, automática.\n- Dano emergente (perdeu) e lucro cessante (deixou de ganhar).\n- Cláusula penal não excede a obrigação principal; juiz reduz se excessiva.\n- Arras: quem deu perde; quem recebeu devolve em dobro."
+    },
+    {
+      "id": "contratos",
+      "nome": "Teoria geral dos contratos",
+      "resumo": "### Conceito\n**Contrato** é o **acordo de vontades** que cria, modifica ou extingue direitos de natureza patrimonial. É um **negócio jurídico bilateral** (ou plurilateral) na formação.\n\n### Princípios\n- **Autonomia privada**: liberdade de contratar, de escolher com quem e de fixar o conteúdo, nos limites da lei.\n- **Função social do contrato** (art. 421): a liberdade contratual se exerce nos limites da função social.\n- **Boa-fé objetiva** (art. 422): padrão de **conduta leal e honesta**, na conclusão e na execução; gera **deveres anexos** (informação, cooperação, proteção, sigilo). Vale nas fases **pré-contratual, contratual e pós-contratual**. Desdobramentos:\n  - ***Venire contra factum proprium***: proibição do **comportamento contraditório**.\n  - ***Supressio***: perda de um direito pelo **não exercício** prolongado. ***Surrectio***: surgimento de um direito pela prática reiterada.\n  - ***Tu quoque***: quem violou a norma não pode invocá-la a seu favor.\n  - ***Duty to mitigate the loss***: o credor deve **mitigar o próprio prejuízo**.\n- **Força obrigatória** (*pacta sunt servanda*): o contrato faz lei entre as partes.\n- **Relatividade dos efeitos**: o contrato só vincula as partes. Exceções: **estipulação em favor de terceiro** (seguro de vida) e promessa de fato de terceiro.\n- **Consensualismo**: em regra, basta o acordo de vontades.\n- **Equilíbrio econômico**.\n\n### Formação\n- **Negociações preliminares** (puntuação): não vinculam, mas a ruptura abusiva pode gerar responsabilidade pré-contratual.\n- **Proposta** (oferta): **obriga o proponente**, salvo se o contrário resultar dos seus termos, da natureza do negócio ou das circunstâncias.\n- **Aceitação**: forma o contrato. Aceitação fora do prazo ou com modificações é **nova proposta** (contraproposta).\n- Entre **ausentes**, o contrato se forma quando a aceitação é **expedida** (teoria da expedição, com exceções).\n- Lugar: onde foi **proposto**.\n- **Contrato preliminar** (pré-contrato, promessa): obriga a celebrar o definitivo; deve conter os requisitos essenciais, **exceto a forma**.\n\n### Classificação\n- **Unilateral** (obrigações para uma só parte: doação pura, comodato) e **bilateral** ou sinalagmático (obrigações recíprocas: compra e venda).\n- **Oneroso** (vantagem e sacrifício para ambos) e **gratuito** (benéfico; interpreta-se **restritivamente**).\n- **Comutativo** (prestações certas e equivalentes) e **aleatório** (depende de risco: seguro, jogo).\n- **Consensual** (forma-se pelo acordo) e **real** (exige a **entrega da coisa**: comodato, mútuo, depósito).\n- **Solene** (forma exigida em lei: compra e venda de imóvel acima de 30 salários mínimos exige **escritura pública**) e **não solene**.\n- **Típico** (nominado, regulado em lei) e **atípico**.\n- **De execução instantânea**, **diferida** e **continuada** (trato sucessivo).\n- **Paritário** e **de adesão**: neste, as cláusulas são impostas por uma parte. Cláusulas **ambíguas** se interpretam **a favor do aderente**; é nula a renúncia antecipada a direito inerente ao negócio.\n\n### Vícios e garantias\n- **Vício redibitório**: defeito **oculto** que torna a coisa imprópria ou lhe diminui o valor, em contrato **comutativo**. O adquirente pode **rejeitar a coisa** (ação redibitória) ou pedir **abatimento do preço** (ação *quanti minoris* ou estimatória). Prazos: **30 dias** (móveis) e **1 ano** (imóveis), da entrega.\n- **Evicção**: perda da coisa por **decisão judicial ou ato administrativo** que a atribui a terceiro, por direito **anterior**. O alienante responde em contratos **onerosos**, mesmo em hasta pública; restitui o preço e indeniza.\n\n### Extinção\n- **Resolução**: por **inadimplemento**. **Cláusula resolutiva expressa** opera de pleno direito; a **tácita** depende de interpelação judicial.\n- **Resilição**: pela **vontade**. **Bilateral**: **distrato** (mesma forma do contrato). **Unilateral**: **denúncia**, nos casos em que a lei permite.\n- **Rescisão**: usada na prática como gênero; tecnicamente ligada a lesão e estado de perigo.\n- **Exceção de contrato não cumprido** (*exceptio non adimpleti contractus*): nos contratos **bilaterais**, quem não cumpriu sua parte **não pode exigir** a do outro.\n- **Onerosidade excessiva** (art. 478): em contratos de execução **continuada ou diferida**, se a prestação se torna excessivamente onerosa por acontecimentos **extraordinários e imprevisíveis**, com extrema vantagem para a outra parte, cabe **resolução** ou **revisão** (teoria da imprevisão).",
+      "revisao": "**Lembre:**\n- Princípios: autonomia privada, função social, boa-fé objetiva, força obrigatória.\n- Proposta obriga o proponente.\n- Vício redibitório: defeito oculto; 30 dias (móvel), 1 ano (imóvel).\n- Evicção: perda da coisa por decisão que a dá a terceiro.\n- Resolução: inadimplemento; resilição: vontade (distrato)."
+    },
+    {
+      "id": "especie",
+      "nome": "Contratos em espécie",
+      "resumo": "### Compra e venda\nUm contratante se obriga a **transferir o domínio** de uma coisa e o outro, a **pagar o preço em dinheiro**.\n- Elementos: **coisa**, **preço** e **consentimento**.\n- É **consensual**: gera só a **obrigação** de transferir. A propriedade se transfere pela **tradição** (móveis) ou pelo **registro** (imóveis).\n- Até a tradição, os riscos da coisa são do **vendedor**; os do preço, do comprador.\n- **Venda de ascendente a descendente**: **anulável**, salvo com consentimento dos **outros descendentes** e do **cônjuge**.\n- ***Ad corpus*** (imóvel vendido como coisa certa; a área é só enunciativa) e ***ad mensuram*** (o preço depende da medida; diferença superior a **1/20** autoriza complemento, abatimento ou resolução).\n- Cláusulas especiais: **retrovenda** (recompra do imóvel em até **3 anos**), **preempção** (preferência), **venda com reserva de domínio**, venda a contento.\n\n### Doação\nUma pessoa, por **liberalidade**, transfere bens ao donatário, que os **aceita**.\n- Gratuita e, em regra, **unilateral**; deve ser feita por **escrito** (salvo bem móvel de pequeno valor, com tradição imediata).\n- **Doação universal** (de todos os bens, sem reserva para subsistência) é **nula**.\n- **Doação inoficiosa**: é nula na parte que **excede** o que o doador poderia dispor em testamento (a metade disponível, havendo herdeiros necessários).\n- Doação de ascendente a descendente: **adiantamento da legítima**.\n- **Revogação**: por **ingratidão** do donatário ou por descumprimento do **encargo**.\n\n### Locação de coisas\nUso e gozo de coisa **não fungível**, por tempo determinado ou não, mediante **aluguel**. A locação de imóveis urbanos segue a **Lei 8.245/1991** (Lei do Inquilinato): ação de **despejo**; garantias (caução, **fiança**, seguro-fiança), vedada mais de uma garantia no mesmo contrato; **direito de preferência** do locatário na venda.\n\n### Empréstimo\n- **Comodato**: empréstimo **gratuito** de coisa **não fungível** (infungível); devolve-se **a mesma coisa**. Empréstimo de **uso**. Contrato **real**.\n- **Mútuo**: empréstimo de coisa **fungível** (dinheiro); o mutuário devolve **outra** do mesmo gênero, qualidade e quantidade. Empréstimo de **consumo**; **transfere a propriedade**. Pode ser oneroso (mútuo feneratício, com juros).\n\n### Prestação de serviço e empreitada\n- **Prestação de serviço**: atividade lícita mediante retribuição, sem vínculo de emprego; prazo máximo de **4 anos**.\n- **Empreitada**: o empreiteiro se obriga a entregar uma **obra**; **de lavor** (só mão de obra) ou **mista** (com materiais). Nas construções consideráveis, responde por **5 anos** pela solidez e segurança.\n\n### Depósito\nO depositário recebe um bem **móvel** para **guardar** e restituir. Voluntário ou necessário. A prisão civil do depositário infiel **não é admitida** (Súmula Vinculante 25).\n\n### Mandato\nAlguém recebe poderes para, **em nome de outrem**, praticar atos ou administrar interesses. A **procuração** é o instrumento do mandato. Mandato **em termos gerais** só confere poderes de **administração**; para alienar, hipotecar ou transigir, exige **poderes especiais e expressos**. Extingue-se por revogação, renúncia, morte ou conclusão do negócio.\n\n### Fiança\nGarantia **pessoal**: o fiador se obriga a pagar se o devedor não pagar.\n- Contrato **acessório**, **gratuito** em regra, feito por **escrito**; **não admite interpretação extensiva**.\n- Exige **outorga conjugal** (salvo separação absoluta); sem ela, é ineficaz no todo (Súmula 332 do STJ).\n- **Benefício de ordem**: o fiador pode exigir que primeiro sejam executados os bens do devedor; pode ser renunciado.\n- O fiador que paga se **sub-roga** nos direitos do credor.\n\n### Seguro\nO segurador se obriga, mediante o **prêmio**, a garantir interesse do segurado contra **riscos predeterminados**. Prova-se pela **apólice**. Exige a mais estrita **boa-fé**. O **agravamento intencional do risco** faz perder a garantia.\n\n### Transporte\nDe pessoas ou coisas; responsabilidade **objetiva** do transportador, com **cláusula de incolumidade**; é nula a cláusula que exclui a responsabilidade.",
+      "revisao": "**Lembre:**\n- Compra e venda: consensual; propriedade só com tradição ou registro.\n- Venda de ascendente a descendente: anulável sem consentimento.\n- Comodato: infungível, gratuito, uso; mútuo: fungível, consumo.\n- Fiança: escrita, não se estende, exige outorga conjugal.\n- Mandato geral: só administração."
+    },
+    {
+      "id": "responsabilidade",
+      "nome": "Atos unilaterais e responsabilidade civil",
+      "resumo": "### Atos unilaterais\n- **Promessa de recompensa**: quem anuncia publicamente uma recompensa fica obrigado a cumpri-la.\n- **Gestão de negócios**: alguém, **sem autorização**, cuida do negócio de outro, conforme o interesse presumido do dono.\n- **Pagamento indevido**: quem recebeu o que não lhe era devido deve **restituir** (ação de repetição de indébito).\n- **Enriquecimento sem causa**: quem se enriquece **à custa de outrem**, sem justa causa, deve restituir.\n\n### Responsabilidade civil\nDever de **reparar o dano** causado a outrem.\n- Art. **186**: comete **ato ilícito** quem, por ação ou omissão voluntária, negligência ou imprudência, viola direito e causa dano, **ainda que exclusivamente moral**.\n- Art. **187**: **abuso de direito** também é ato ilícito.\n- Art. **927**: quem causa dano por ato ilícito fica obrigado a repará-lo.\n- **Contratual** (descumprimento de contrato) e **extracontratual** (aquiliana).\n\n### Pressupostos\n1. **Conduta** (ação ou omissão).\n2. **Culpa** em sentido amplo (dolo ou culpa), na responsabilidade subjetiva.\n3. **Nexo causal**.\n4. **Dano**.\n\n### Subjetiva e objetiva\n- **Subjetiva**: a **regra** do Código Civil; exige prova de **culpa** (negligência, imprudência ou imperícia).\n- **Objetiva**: **independe de culpa**; bastam conduta, dano e nexo. Cabe nos casos **previstos em lei** ou quando a **atividade** normalmente desenvolvida implicar, por sua natureza, **risco** para os direitos de outrem (art. 927, parágrafo único: **teoria do risco**).\n- Exemplos de objetiva: Estado (CF, art. 37, § 6º), fornecedor (CDC), transportador, dono de animal, responsabilidade pelo fato de terceiro.\n\n### Responsabilidade por fato de outrem (art. 932)\nRespondem, **objetivamente**: os **pais** pelos filhos menores sob sua autoridade; o tutor e o curador; o **empregador** pelos atos dos empregados no exercício do trabalho; donos de hotéis e escolas. Quem pagou tem direito de **regresso**, salvo se o causador for seu descendente incapaz.\n- O **incapaz** responde de forma **subsidiária** e equitativa, se os responsáveis não puderem pagar.\n\n### Excludentes\n- De ilicitude: **legítima defesa**, **exercício regular de direito** e **estado de necessidade** (neste, pode haver dever de indenizar a vítima inocente, com regresso contra o causador do perigo).\n- De nexo causal: **culpa exclusiva da vítima**, **fato exclusivo de terceiro** e **caso fortuito ou força maior**.\n- **Culpa concorrente**: **reduz** a indenização, sem excluí-la.\n- Cláusula de não indenizar: admitida com limites; nula em relações de consumo e no transporte.\n\n### Dano\n- **Material**: **dano emergente** e **lucro cessante**.\n- **Moral**: lesão a direitos da personalidade; a indenização tem função **compensatória**. Em alguns casos é presumido (***in re ipsa***), como na inscrição indevida em cadastro de inadimplentes. A **pessoa jurídica pode sofrer dano moral** (Súmula 227 do STJ).\n- **Estético**: pode ser **cumulado** com o moral (Súmula 387 do STJ).\n- **Perda de uma chance**.\n- A indenização **se mede pela extensão do dano** (art. 944); o juiz pode reduzi-la se houver desproporção entre a culpa e o dano.\n\n### Regras úteis\n- **Independência das esferas**: a responsabilidade civil independe da criminal, mas não se discute mais a **existência do fato** ou a **autoria** quando decididas no juízo criminal.\n- **Solidariedade**: se o dano tem mais de um autor, todos respondem **solidariamente** (art. 942).\n- **Prescrição**: **3 anos** para a reparação civil extracontratual (art. 206, § 3º, V); 10 anos para a contratual, segundo o STJ; 5 anos no CDC.\n- Juros de mora desde o **evento danoso** no ilícito extracontratual (Súmula 54 do STJ).",
+      "revisao": "**Lembre:**\n- Pressupostos: conduta, culpa (se subjetiva), nexo causal e dano.\n- Regra: subjetiva; objetiva nos casos da lei ou em atividade de risco.\n- Pais e empregador respondem objetivamente por terceiros.\n- Excludentes: culpa exclusiva da vítima, fato de terceiro, caso fortuito.\n- Indenização mede-se pela extensão do dano; prescrição de 3 anos."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-civil-obrigacoes-1",
+      "topico": "modalidades",
+      "nivel": "conceitual",
+      "pergunta": "A dívida prescrita é exemplo de obrigação:",
+      "opcoes": [
+        "Natural, que não pode ser cobrada, mas, se paga, não se restitui",
+        "Solidária",
+        "Alternativa",
+        "Propter rem"
+      ],
+      "correta": 0,
+      "explicacao": "Nela existe o débito, mas falta a responsabilidade patrimonial."
+    },
+    {
+      "id": "direito-civil-obrigacoes-2",
+      "topico": "modalidades",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o Código Civil, a solidariedade:",
+      "opcoes": [
+        "Presume-se sempre que há mais de um devedor",
+        "Não se presume; resulta da lei ou da vontade das partes",
+        "Só existe entre cônjuges",
+        "Depende de decisão judicial"
+      ],
+      "correta": 1,
+      "explicacao": "É a regra do artigo 265 do Código Civil."
+    },
+    {
+      "id": "direito-civil-obrigacoes-3",
+      "topico": "modalidades",
+      "nivel": "conceitual",
+      "pergunta": "Na obrigação de dar coisa incerta, a escolha cabe, em regra:",
+      "opcoes": [
+        "Ao credor",
+        "Ao juiz",
+        "Ao devedor",
+        "A um terceiro sorteado"
+      ],
+      "correta": 2,
+      "explicacao": "Ele não pode dar a pior coisa do gênero nem é obrigado a entregar a melhor."
+    },
+    {
+      "id": "direito-civil-obrigacoes-4",
+      "topico": "modalidades",
+      "nivel": "aplicacao",
+      "pergunta": "João vendeu um cavalo específico a Pedro. Antes da entrega, o animal morreu atingido por um raio, sem culpa de João. O que acontece?",
+      "opcoes": [
+        "João deve entregar outro cavalo",
+        "João deve pagar o valor mais perdas e danos",
+        "Pedro deve pagar o preço assim mesmo",
+        "A obrigação se resolve, sem perdas e danos"
+      ],
+      "correta": 3,
+      "explicacao": "Na obrigação de dar coisa certa, a perda sem culpa antes da tradição extingue a obrigação."
+    },
+    {
+      "id": "direito-civil-obrigacoes-5",
+      "topico": "modalidades",
+      "nivel": "analise",
+      "pergunta": "Por que o cirurgião plástico em cirurgia puramente estética responde de modo diferente do médico que trata uma doença?",
+      "opcoes": [
+        "Porque o primeiro assume obrigação de resultado e o segundo, de meio",
+        "Porque o cirurgião plástico não tem contrato com o paciente",
+        "Porque o tratamento de doença é obrigação de resultado",
+        "Porque médicos nunca respondem por danos"
+      ],
+      "correta": 0,
+      "explicacao": "Na obrigação de resultado, a não obtenção do resultado prometido faz presumir a culpa."
+    },
+    {
+      "id": "direito-civil-obrigacoes-6",
+      "topico": "pagamento",
+      "nivel": "conceitual",
+      "pergunta": "Na falta de ajuste, o pagamento deve ser feito:",
+      "opcoes": [
+        "No domicílio do credor",
+        "No domicílio do devedor",
+        "No cartório da comarca",
+        "No local escolhido pelo juiz"
+      ],
+      "correta": 1,
+      "explicacao": "Nesse caso a dívida é chamada de quesível, pois o credor deve buscar o pagamento."
+    },
+    {
+      "id": "direito-civil-obrigacoes-7",
+      "topico": "pagamento",
+      "nivel": "conceitual",
+      "pergunta": "Na dação em pagamento:",
+      "opcoes": [
+        "O devedor deposita a coisa em juízo",
+        "As dívidas recíprocas se extinguem",
+        "O credor aceita receber prestação diversa da que lhe é devida",
+        "O credor perdoa a dívida"
+      ],
+      "correta": 2,
+      "explicacao": "Exemplo é a entrega de um veículo no lugar da quantia em dinheiro."
+    },
+    {
+      "id": "direito-civil-obrigacoes-8",
+      "topico": "pagamento",
+      "nivel": "conceitual",
+      "pergunta": "A compensação extingue a obrigação quando:",
+      "opcoes": [
+        "O credor e o devedor passam a ser a mesma pessoa",
+        "O credor perdoa a dívida",
+        "Cria-se nova obrigação no lugar da antiga",
+        "Duas pessoas são, ao mesmo tempo, credora e devedora uma da outra"
+      ],
+      "correta": 3,
+      "explicacao": "As dívidas devem ser líquidas, vencidas e de coisas fungíveis."
+    },
+    {
+      "id": "direito-civil-obrigacoes-9",
+      "topico": "pagamento",
+      "nivel": "aplicacao",
+      "pergunta": "O locador se recusa, sem motivo, a receber o aluguel. Para se livrar da mora, o inquilino deve:",
+      "opcoes": [
+        "Fazer a consignação em pagamento",
+        "Esperar que o locador mude de ideia",
+        "Pedir a novação da dívida",
+        "Compensar o valor com outra dívida"
+      ],
+      "correta": 0,
+      "explicacao": "O depósito judicial ou bancário da quantia devida libera o devedor."
+    },
+    {
+      "id": "direito-civil-obrigacoes-10",
+      "topico": "pagamento",
+      "nivel": "analise",
+      "pergunta": "Por que a cessão de crédito não depende do consentimento do devedor, mas a assunção de dívida exige o do credor?",
+      "opcoes": [
+        "Porque o devedor nunca é parte da obrigação",
+        "Porque ao devedor é indiferente a quem pagar, mas ao credor importa a solvência de quem lhe deve",
+        "Porque o credor não pode transferir seu crédito",
+        "Porque a lei proíbe a troca de devedor"
+      ],
+      "correta": 1,
+      "explicacao": "Trocar o devedor pode reduzir a garantia de recebimento do crédito."
+    },
+    {
+      "id": "direito-civil-obrigacoes-11",
+      "topico": "inadimplemento",
+      "nivel": "conceitual",
+      "pergunta": "A mora se distingue do inadimplemento absoluto porque nela:",
+      "opcoes": [
+        "A prestação já não pode ser cumprida",
+        "Não há atraso",
+        "A prestação ainda é útil ao credor",
+        "Não cabe cobrança de juros"
+      ],
+      "correta": 2,
+      "explicacao": "No inadimplemento absoluto a prestação se tornou impossível ou inútil para o credor."
+    },
+    {
+      "id": "direito-civil-obrigacoes-12",
+      "topico": "inadimplemento",
+      "nivel": "conceitual",
+      "pergunta": "O valor da cláusula penal não pode exceder:",
+      "opcoes": [
+        "Dez por cento da dívida",
+        "O dobro da obrigação",
+        "Um salário mínimo",
+        "O da obrigação principal"
+      ],
+      "correta": 3,
+      "explicacao": "É o limite fixado pelo artigo 412 do Código Civil."
+    },
+    {
+      "id": "direito-civil-obrigacoes-13",
+      "topico": "inadimplemento",
+      "nivel": "conceitual",
+      "pergunta": "Os lucros cessantes correspondem:",
+      "opcoes": [
+        "Ao que o credor razoavelmente deixou de ganhar",
+        "Ao que o credor efetivamente perdeu",
+        "À multa fixada no contrato",
+        "Aos juros pelo atraso"
+      ],
+      "correta": 0,
+      "explicacao": "O que foi efetivamente perdido é o dano emergente."
+    },
+    {
+      "id": "direito-civil-obrigacoes-14",
+      "topico": "inadimplemento",
+      "nivel": "aplicacao",
+      "pergunta": "Ana deu R$ 10 mil de sinal na compra de um carro e depois desistiu, sem que o contrato previsse arrependimento. O que acontece com o sinal?",
+      "opcoes": [
+        "O vendedor devolve o valor em dobro",
+        "Ana perde o valor em favor do vendedor",
+        "O vendedor devolve o valor simples",
+        "O valor é dividido entre as partes"
+      ],
+      "correta": 1,
+      "explicacao": "Se o descumprimento fosse do vendedor, ele teria de devolver as arras mais o equivalente."
+    },
+    {
+      "id": "direito-civil-obrigacoes-15",
+      "topico": "inadimplemento",
+      "nivel": "analise",
+      "pergunta": "Por que, nas dívidas líquidas com data certa de vencimento, a mora independe de notificação?",
+      "opcoes": [
+        "Porque o credor nunca precisa cobrar",
+        "Porque o juiz notifica de ofício",
+        "Porque o próprio termo interpela o devedor, que já sabe quando deve pagar",
+        "Porque não há juros nessas dívidas"
+      ],
+      "correta": 2,
+      "explicacao": "É a mora ex re, resumida no brocardo dies interpellat pro homine."
+    },
+    {
+      "id": "direito-civil-obrigacoes-16",
+      "topico": "contratos",
+      "nivel": "conceitual",
+      "pergunta": "A boa-fé objetiva impõe às partes:",
+      "opcoes": [
+        "A crença pessoal de que se age corretamente",
+        "A obrigação de aceitar qualquer proposta",
+        "A renúncia aos direitos contratuais",
+        "Um padrão de conduta leal e honesta, com deveres de informação e cooperação"
+      ],
+      "correta": 3,
+      "explicacao": "Ela se aplica antes, durante e depois da execução do contrato."
+    },
+    {
+      "id": "direito-civil-obrigacoes-17",
+      "topico": "contratos",
+      "nivel": "conceitual",
+      "pergunta": "Vício redibitório é:",
+      "opcoes": [
+        "O defeito oculto que torna a coisa imprópria ao uso ou lhe diminui o valor",
+        "A perda da coisa por decisão judicial",
+        "O atraso no pagamento",
+        "O perdão da dívida"
+      ],
+      "correta": 0,
+      "explicacao": "A perda da coisa em favor de terceiro, por direito anterior, é a evicção."
+    },
+    {
+      "id": "direito-civil-obrigacoes-18",
+      "topico": "contratos",
+      "nivel": "conceitual",
+      "pergunta": "O distrato é uma forma de:",
+      "opcoes": [
+        "Resolução por inadimplemento",
+        "Resilição bilateral do contrato",
+        "Anulação por vício",
+        "Novação da dívida"
+      ],
+      "correta": 1,
+      "explicacao": "Ele deve ser feito pela mesma forma exigida para o contrato."
+    },
+    {
+      "id": "direito-civil-obrigacoes-19",
+      "topico": "contratos",
+      "nivel": "aplicacao",
+      "pergunta": "Em um contrato de compra e venda, o vendedor não entregou o produto e mesmo assim cobra o preço. O comprador pode alegar:",
+      "opcoes": [
+        "A evicção",
+        "A onerosidade excessiva",
+        "A exceção de contrato não cumprido",
+        "A supressio"
+      ],
+      "correta": 2,
+      "explicacao": "Nos contratos bilaterais, quem não cumpriu sua obrigação não pode exigir a do outro."
+    },
+    {
+      "id": "direito-civil-obrigacoes-20",
+      "topico": "contratos",
+      "nivel": "analise",
+      "pergunta": "Por que as cláusulas ambíguas de um contrato de adesão são interpretadas a favor do aderente?",
+      "opcoes": [
+        "Porque o aderente é sempre incapaz",
+        "Porque contratos de adesão são nulos",
+        "Porque o aderente redigiu o contrato",
+        "Porque ele não participou da redação e apenas aceitou cláusulas impostas pela outra parte"
+      ],
+      "correta": 3,
+      "explicacao": "Quem redige o contrato deve suportar as consequências da falta de clareza."
+    },
+    {
+      "id": "direito-civil-obrigacoes-21",
+      "topico": "especie",
+      "nivel": "conceitual",
+      "pergunta": "No contrato de compra e venda, a propriedade de um bem móvel se transfere:",
+      "opcoes": [
+        "Pela tradição (entrega da coisa)",
+        "Pela simples assinatura do contrato",
+        "Pelo pagamento do preço",
+        "Pelo registro em cartório de imóveis"
+      ],
+      "correta": 0,
+      "explicacao": "O contrato gera apenas a obrigação de transferir o domínio."
+    },
+    {
+      "id": "direito-civil-obrigacoes-22",
+      "topico": "especie",
+      "nivel": "conceitual",
+      "pergunta": "O comodato é o empréstimo:",
+      "opcoes": [
+        "Oneroso de dinheiro",
+        "Gratuito de coisa não fungível, que deve ser devolvida",
+        "De coisa fungível para consumo",
+        "Que transfere a propriedade ao comodatário"
+      ],
+      "correta": 1,
+      "explicacao": "O empréstimo de coisas fungíveis, como dinheiro, é o mútuo."
+    },
+    {
+      "id": "direito-civil-obrigacoes-23",
+      "topico": "especie",
+      "nivel": "conceitual",
+      "pergunta": "A fiança:",
+      "opcoes": [
+        "Pode ser verbal",
+        "Estende-se a todas as dívidas futuras do devedor",
+        "Deve ser escrita e não admite interpretação extensiva",
+        "Dispensa a anuência do cônjuge em qualquer regime"
+      ],
+      "correta": 2,
+      "explicacao": "O fiador casado, em regra, precisa da outorga do cônjuge."
+    },
+    {
+      "id": "direito-civil-obrigacoes-24",
+      "topico": "especie",
+      "nivel": "aplicacao",
+      "pergunta": "Um pai quer vender um imóvel a um dos três filhos. Para que a venda não seja anulável, é preciso:",
+      "opcoes": [
+        "Apenas a escritura pública",
+        "A autorização do juiz",
+        "O registro em nome dos três filhos",
+        "O consentimento dos outros filhos e do cônjuge do vendedor"
+      ],
+      "correta": 3,
+      "explicacao": "A regra evita que a venda disfarce uma doação em prejuízo dos demais herdeiros."
+    },
+    {
+      "id": "direito-civil-obrigacoes-25",
+      "topico": "especie",
+      "nivel": "analise",
+      "pergunta": "Por que o mútuo transfere a propriedade da coisa emprestada e o comodato não?",
+      "opcoes": [
+        "Porque no mútuo a coisa é fungível e será consumida, devolvendo-se outra equivalente",
+        "Porque o comodato é sempre oneroso",
+        "Porque no mútuo a coisa é imóvel",
+        "Porque o comodatário pode vender a coisa"
+      ],
+      "correta": 0,
+      "explicacao": "No comodato devolve-se exatamente o mesmo bem que foi emprestado."
+    },
+    {
+      "id": "direito-civil-obrigacoes-26",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "A regra geral do Código Civil é a responsabilidade:",
+      "opcoes": [
+        "Objetiva, em qualquer caso",
+        "Subjetiva, que exige prova de culpa",
+        "Solidária, entre todos os envolvidos",
+        "Limitada a danos materiais"
+      ],
+      "correta": 1,
+      "explicacao": "A responsabilidade objetiva cabe nos casos da lei ou em atividades de risco."
+    },
+    {
+      "id": "direito-civil-obrigacoes-27",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "É causa que exclui o nexo de causalidade:",
+      "opcoes": [
+        "A culpa concorrente",
+        "O dano moral",
+        "A culpa exclusiva da vítima",
+        "O lucro cessante"
+      ],
+      "correta": 2,
+      "explicacao": "A culpa concorrente apenas reduz o valor da indenização."
+    },
+    {
+      "id": "direito-civil-obrigacoes-28",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "O prazo de prescrição da pretensão de reparação civil extracontratual é de:",
+      "opcoes": [
+        "1 ano",
+        "10 anos",
+        "20 anos",
+        "3 anos"
+      ],
+      "correta": 3,
+      "explicacao": "É o prazo do artigo 206, § 3º, V, do Código Civil."
+    },
+    {
+      "id": "direito-civil-obrigacoes-29",
+      "topico": "responsabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Um motorista de empresa, em serviço, atropela um pedestre por imprudência. A empresa responde?",
+      "opcoes": [
+        "Sim, objetivamente, pelos atos do empregado no exercício do trabalho",
+        "Não, pois quem dirigia era o motorista",
+        "Só se provar que escolheu mal o empregado",
+        "Só se o motorista não tiver bens"
+      ],
+      "correta": 0,
+      "explicacao": "A empresa pode depois cobrar do empregado, em ação de regresso."
+    },
+    {
+      "id": "direito-civil-obrigacoes-30",
+      "topico": "responsabilidade",
+      "nivel": "analise",
+      "pergunta": "Por que a responsabilidade objetiva dispensa a prova de culpa?",
+      "opcoes": [
+        "Porque nela não há dano",
+        "Porque se baseia no risco da atividade: quem a explora deve arcar com os danos que ela causa",
+        "Porque a vítima sempre tem culpa",
+        "Porque o nexo causal é irrelevante"
+      ],
+      "correta": 1,
+      "explicacao": "Continua sendo necessário provar a conduta, o dano e o nexo causal."
+    }
+  ]
+}

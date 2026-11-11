@@ -1005,6 +1005,54 @@
       ]
     },
     {
+      "id": "direito-civil-obrigacoes",
+      "nome": "Direito Civil – Obrigações e Contratos",
+      "apelidos": [
+        "Direito Civil II",
+        "Direito Civil III",
+        "Direito das Obrigações",
+        "Direito Civil: Obrigações",
+        "Teoria Geral das Obrigações",
+        "Obrigações",
+        "Direito dos Contratos",
+        "Direito Civil: Contratos",
+        "Contratos",
+        "Teoria Geral dos Contratos",
+        "Contratos em Espécie",
+        "Responsabilidade Civil",
+        "Direito Civil: Responsabilidade Civil",
+        "Obrigações e Contratos",
+        "Direito das Obrigações e Contratos"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "modalidades",
+          "nome": "Conceito e modalidades das obrigações"
+        },
+        {
+          "id": "pagamento",
+          "nome": "Adimplemento e extinção das obrigações"
+        },
+        {
+          "id": "inadimplemento",
+          "nome": "Inadimplemento, mora e cláusula penal"
+        },
+        {
+          "id": "contratos",
+          "nome": "Teoria geral dos contratos"
+        },
+        {
+          "id": "especie",
+          "nome": "Contratos em espécie"
+        },
+        {
+          "id": "responsabilidade",
+          "nome": "Atos unilaterais e responsabilidade civil"
+        }
+      ]
+    },
+    {
       "id": "direito-constitucional",
       "nome": "Direito Constitucional",
       "apelidos": [
@@ -1080,6 +1128,46 @@
         {
           "id": "falencia-recuperacao",
           "nome": "Falência e recuperação de empresas"
+        }
+      ]
+    },
+    {
+      "id": "direito-penal-especial",
+      "nome": "Direito Penal – Parte Especial",
+      "apelidos": [
+        "Direito Penal III",
+        "Direito Penal IV",
+        "Direito Penal Especial",
+        "Crimes em Espécie",
+        "Parte Especial do Direito Penal",
+        "Direito Penal Parte Especial I",
+        "Direito Penal Parte Especial II"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "vida",
+          "nome": "Crimes contra a vida"
+        },
+        {
+          "id": "pessoa",
+          "nome": "Lesão corporal, honra e liberdade individual"
+        },
+        {
+          "id": "patrimonio",
+          "nome": "Crimes contra o patrimônio"
+        },
+        {
+          "id": "sexual",
+          "nome": "Crimes contra a dignidade sexual e a família"
+        },
+        {
+          "id": "fe-publica",
+          "nome": "Crimes contra a fé pública e a paz pública"
+        },
+        {
+          "id": "administracao",
+          "nome": "Crimes contra a administração pública"
         }
       ]
     },
@@ -1160,6 +1248,49 @@
         {
           "id": "extincao-contrato",
           "nome": "Extinção do contrato, estabilidades e prescrição"
+        }
+      ]
+    },
+    {
+      "id": "direito-tributario",
+      "nome": "Direito Tributário",
+      "apelidos": [
+        "Direito Tributário I",
+        "Direito Tributário II",
+        "Direito Tributário e Financeiro",
+        "Direito Financeiro e Tributário",
+        "Introdução ao Direito Tributário",
+        "Legislação Tributária",
+        "Direito Tributário Nacional",
+        "Sistema Tributário Nacional",
+        "Noções de Direito Tributário",
+        "Direito e Legislação Tributária"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "tributo",
+          "nome": "Conceito de tributo e espécies"
+        },
+        {
+          "id": "competencia",
+          "nome": "Competência tributária e impostos"
+        },
+        {
+          "id": "principios",
+          "nome": "Princípios e limitações ao poder de tributar"
+        },
+        {
+          "id": "obrigacao",
+          "nome": "Obrigação tributária e responsabilidade"
+        },
+        {
+          "id": "credito",
+          "nome": "Crédito tributário: lançamento, suspensão, extinção e exclusão"
+        },
+        {
+          "id": "processo",
+          "nome": "Legislação tributária, administração e processo"
         }
       ]
     },
@@ -2911,6 +3042,47 @@
         {
           "id": "sentenca-recursos",
           "nome": "Sentença, coisa julgada e recursos"
+        }
+      ]
+    },
+    {
+      "id": "processo-penal",
+      "nome": "Direito Processual Penal",
+      "apelidos": [
+        "Processo Penal",
+        "Direito Processual Penal I",
+        "Direito Processual Penal II",
+        "Processo Penal I",
+        "Processo Penal II",
+        "Teoria Geral do Processo Penal",
+        "Noções de Processo Penal",
+        "Direito Processual Penal Geral"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "principios",
+          "nome": "Princípios e sistemas processuais"
+        },
+        {
+          "id": "inquerito",
+          "nome": "Inquérito policial e ação penal"
+        },
+        {
+          "id": "competencia",
+          "nome": "Competência e sujeitos do processo"
+        },
+        {
+          "id": "provas",
+          "nome": "Teoria da prova"
+        },
+        {
+          "id": "prisoes",
+          "nome": "Prisões e medidas cautelares"
+        },
+        {
+          "id": "procedimentos",
+          "nome": "Procedimentos, sentença e recursos"
         }
       ]
     },

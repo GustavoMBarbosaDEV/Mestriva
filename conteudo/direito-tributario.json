@@ -1,0 +1,465 @@
+{
+  "id": "direito-tributario",
+  "nome": "Direito Tributário",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "tributo",
+      "nome": "Conceito de tributo e espécies",
+      "resumo": "### Conceito (CTN, art. 3º)\nTributo é toda **prestação pecuniária compulsória**, em moeda ou cujo valor nela se possa exprimir, **que não constitua sanção de ato ilícito**, **instituída em lei** e cobrada mediante **atividade administrativa plenamente vinculada**.\n- **Pecuniária**: paga em dinheiro.\n- **Compulsória**: independe da vontade do contribuinte.\n- **Não é sanção**: **multa não é tributo**. Mas a renda obtida com atividade ilícita pode ser tributada (*pecunia non olet*, \"dinheiro não tem cheiro\").\n- **Instituída em lei**: legalidade.\n- **Atividade vinculada**: o fisco não escolhe se cobra ou não.\n\n### As cinco espécies (teoria pentapartida, adotada pelo STF)\n1. **Impostos**: o fato gerador **independe de qualquer atividade estatal** específica em relação ao contribuinte (tributo **não vinculado**). Em regra, a receita **não pode ser vinculada** a órgão, fundo ou despesa.\n2. **Taxas**: tributo **vinculado**. Fato gerador: o **exercício regular do poder de polícia** ou a **utilização, efetiva ou potencial, de serviço público específico e divisível**. **Não podem ter base de cálculo própria de imposto**.\n3. **Contribuição de melhoria**: cobrada em razão da **valorização imobiliária decorrente de obra pública**. Limite total: o custo da obra; limite individual: a valorização do imóvel.\n4. **Empréstimos compulsórios**: só a **União**, por **lei complementar**, em caso de **calamidade pública ou guerra externa** (sem anterioridade) ou de **investimento público urgente e de relevante interesse nacional** (com anterioridade). A receita é vinculada à despesa que o justificou e deve ser **devolvida**.\n5. **Contribuições especiais**: sociais (incluindo as da seguridade social), de intervenção no domínio econômico (**CIDE**), de interesse de categorias profissionais ou econômicas, e a de iluminação pública (**COSIP**, de municípios e do DF).\n\n### Taxa e preço público (tarifa)\n- **Taxa**: tributo, compulsória, regime de direito público, instituída por lei. Ex.: taxa de coleta de lixo.\n- **Tarifa**: não é tributo; nasce de **contrato**, é facultativa; remunera serviços prestados por concessionárias. Ex.: pedágio, energia elétrica.\n- Súmula Vinculante 19: é constitucional a taxa de coleta de lixo de imóveis. Súmula Vinculante 41: **iluminação pública não pode ser remunerada por taxa**.\n\n### Classificações\n- **Fiscal** (arrecadar), **extrafiscal** (intervir na economia, como II, IE, IPI e IOF) e **parafiscal**.\n- **Direto** (quem paga suporta o ônus, como IR e IPTU) e **indireto** (o ônus é repassado ao consumidor, como ICMS e IPI).\n- **Real** (incide sobre coisas) e **pessoal** (considera características do contribuinte).\n- **Progressivo**, **proporcional** e **regressivo**.\n\n### Natureza jurídica (CTN, art. 4º)\nÉ determinada pelo **fato gerador**; são irrelevantes a denominação e a destinação legal do produto da arrecadação (regra que não se aplica bem a empréstimos compulsórios e contribuições).",
+      "revisao": "**Lembre:**\n- Tributo: compulsório, em dinheiro, não é sanção, instituído em lei.\n- Multa não é tributo.\n- Cinco espécies: imposto, taxa, contribuição de melhoria, empréstimo compulsório e contribuições.\n- Taxa: poder de polícia ou serviço específico e divisível.\n- Empréstimo compulsório: só a União, por lei complementar."
+    },
+    {
+      "id": "competencia",
+      "nome": "Competência tributária e impostos",
+      "resumo": "### Competência tributária\nPoder de **instituir** tributos, dado pela **Constituição** aos entes federativos. É **indelegável**, **irrenunciável** e não se perde pelo não uso.\n- **Capacidade tributária ativa**: as funções de **arrecadar e fiscalizar**; estas **podem ser delegadas** a outra pessoa jurídica de direito público.\n\n### Impostos da União (CF, art. 153)\n- **II** (importação) e **IE** (exportação).\n- **IR** (renda e proventos de qualquer natureza): informado por **generalidade, universalidade e progressividade**.\n- **IPI** (produtos industrializados): seletivo e não cumulativo.\n- **IOF** (operações de crédito, câmbio, seguro e títulos).\n- **ITR** (propriedade territorial rural): pode ser fiscalizado e cobrado pelo município, que então fica com 100% da receita.\n- **IGF** (grandes fortunas): previsto, mas **nunca instituído**; exige lei complementar.\n- Competência **residual**: novos impostos, por **lei complementar**, não cumulativos e sem fato gerador ou base de cálculo dos já previstos.\n- **Imposto extraordinário de guerra**.\n\n### Impostos dos Estados e do DF (art. 155)\n- **ITCMD**: transmissão **causa mortis** e **doação**.\n- **ICMS**: circulação de mercadorias e serviços de transporte interestadual e intermunicipal e de comunicação.\n- **IPVA**: propriedade de veículos automotores.\n\n### Impostos dos Municípios (art. 156)\n- **IPTU**: propriedade predial e territorial urbana.\n- **ITBI**: transmissão **inter vivos**, **onerosa**, de bens imóveis.\n- **ISS**: serviços de qualquer natureza, definidos em **lei complementar** (LC 116/2003).\n- O **Distrito Federal** acumula os impostos estaduais e municipais.\n\n### Reforma tributária (EC 132/2023)\nCria um **IVA dual**: a **CBS** (federal, substitui PIS e Cofins) e o **IBS** (de estados e municípios, substitui ICMS e ISS), além do **Imposto Seletivo** sobre bens e serviços prejudiciais à saúde ou ao meio ambiente. A implantação é gradual, com transição até 2033.\n\n### Outras competências\n- **Taxas e contribuições de melhoria**: competência **comum**; cada ente cobra pelas suas atividades e obras.\n- **Contribuições especiais**: em regra, da **União**; estados e municípios cobram a contribuição previdenciária de seus servidores; municípios e DF, a COSIP.\n\n### Bitributação e bis in idem\n- **Bitributação**: **dois entes** tributam o mesmo fato. Em regra, vedada.\n- ***Bis in idem***: o **mesmo ente** tributa duas vezes o mesmo fato. Admitido quando a Constituição autoriza.\n\n### Repartição de receitas\nParte da arrecadação é transferida a outros entes: por exemplo, **50% do IPVA** vai ao município onde o veículo é licenciado; **25% do ICMS**, aos municípios; fundos de participação (FPE e FPM) recebem parte do IR e do IPI.",
+      "revisao": "**Lembre:**\n- Competência é indelegável; arrecadar e fiscalizar podem ser delegados.\n- União: II, IE, IR, IPI, IOF, ITR, IGF.\n- Estados: ITCMD, ICMS, IPVA.\n- Municípios: IPTU, ITBI, ISS.\n- ITBI: inter vivos e oneroso; ITCMD: herança e doação."
+    },
+    {
+      "id": "principios",
+      "nome": "Princípios e limitações ao poder de tributar",
+      "resumo": "### Legalidade (art. 150, I)\nNenhum tributo será **exigido ou aumentado sem lei**. Em regra, basta **lei ordinária**; medida provisória também pode.\n- **Exceções** (alíquotas alteradas por **ato do Executivo**, dentro dos limites da lei): **II, IE, IPI e IOF**; também a CIDE-combustíveis.\n- Exigem **lei complementar**: empréstimos compulsórios, IGF, impostos residuais e novas contribuições da seguridade.\n- Atualizar a base de cálculo pelo índice oficial de inflação **não é aumento** (pode ser por decreto).\n\n### Isonomia (art. 150, II)\nProíbe tratamento desigual entre contribuintes em situação equivalente.\n\n### Capacidade contributiva (art. 145, § 1º)\nSempre que possível, os impostos terão **caráter pessoal** e serão graduados segundo a **capacidade econômica** do contribuinte. Instrumentos: **progressividade** e seletividade.\n\n### Irretroatividade (art. 150, III, a)\nA lei não alcança **fatos geradores anteriores** à sua vigência. Exceções no CTN (art. 106): lei **interpretativa** e lei **mais benéfica em matéria de penalidades**, para atos não definitivamente julgados.\n\n### Anterioridade\n- **Anual** (de exercício): o tributo não pode ser cobrado no **mesmo exercício financeiro** em que foi publicada a lei que o instituiu ou aumentou.\n- **Nonagesimal** (noventena): nem antes de **90 dias** da publicação da lei.\n- Em regra, aplicam-se **as duas**.\n- **Exceções às duas** (cobrança imediata): **II, IE, IOF**, imposto extraordinário de guerra e empréstimo compulsório de guerra ou calamidade.\n- **Só não respeita a anual** (respeita os 90 dias): **IPI**, contribuições da seguridade social, e o restabelecimento das alíquotas de CIDE e ICMS sobre combustíveis.\n- **Só não respeita a noventena** (respeita a anual): **IR** e a fixação da **base de cálculo do IPVA e do IPTU**.\n- A redução ou extinção de tributo vale de imediato.\n\n### Vedação ao confisco (art. 150, IV)\nO tributo não pode ter efeito de **confisco**, isto é, absorver parcela exagerada do patrimônio ou da renda. O STF aplica o princípio também às **multas**.\n\n### Liberdade de tráfego\nProíbe limitar o tráfego de pessoas ou bens por tributos interestaduais ou intermunicipais; ressalvado o **pedágio**.\n\n### Uniformidade geográfica\nA União não pode instituir tributo que não seja uniforme em todo o território, salvo **incentivos fiscais** para equilibrar o desenvolvimento entre regiões.\n\n### Imunidades (art. 150, VI)\nSão **limitações constitucionais**: a Constituição **retira** certas pessoas ou bens do campo da tributação. Valem para **impostos**.\n- **Recíproca**: os entes não cobram impostos sobre patrimônio, renda e serviços **uns dos outros**; estende-se a autarquias e fundações públicas.\n- **Templos de qualquer culto** (entidades religiosas).\n- **Partidos políticos** e suas fundações, **sindicatos de trabalhadores**, **instituições de educação e de assistência social sem fins lucrativos**.\n- **Livros, jornais, periódicos** e o papel destinado à sua impressão; o STF estendeu aos **livros eletrônicos**.\n- **Fonogramas e videofonogramas musicais** produzidos no Brasil com obras de autores brasileiros.\n\n### Imunidade, isenção e não incidência\n- **Imunidade**: prevista na **Constituição**.\n- **Isenção**: dispensa por **lei**; o fato gerador ocorre, mas o crédito é excluído.\n- **Não incidência**: o fato está fora da hipótese de incidência.",
+      "revisao": "**Lembre:**\n- Legalidade: exceções de alíquota para II, IE, IPI e IOF.\n- Anterioridade anual + noventena é a regra.\n- II, IE e IOF: cobrança imediata.\n- IPI: só noventena; IR: só anterioridade anual.\n- Imunidade vem da Constituição; isenção vem da lei."
+    },
+    {
+      "id": "obrigacao",
+      "nome": "Obrigação tributária e responsabilidade",
+      "resumo": "### Hipótese de incidência e fato gerador\n- **Hipótese de incidência**: a descrição **abstrata**, na lei, da situação que gera o tributo.\n- **Fato gerador**: a ocorrência **concreta** dessa situação. Com ele nasce a **obrigação tributária**.\n\n### Obrigação principal e acessória (CTN, art. 113)\n- **Principal**: tem por objeto o **pagamento** de tributo ou de **penalidade pecuniária** (multa). Decorre de **lei**.\n- **Acessória**: prestações **positivas ou negativas** no interesse da arrecadação e da fiscalização: emitir nota fiscal, entregar declaração, manter livros. Decorre da **legislação tributária**.\n- A acessória **independe** da principal: quem é imune ou isento continua obrigado a cumpri-la.\n- O descumprimento da acessória a **converte em principal**, quanto à multa.\n\n### Sujeitos\n- **Sujeito ativo**: a pessoa jurídica de direito público titular do direito de exigir.\n- **Sujeito passivo**:\n  - **Contribuinte**: tem **relação pessoal e direta** com o fato gerador.\n  - **Responsável**: sem ser contribuinte, é obrigado **por disposição expressa de lei**.\n- **Convenções particulares** (contratos) **não podem ser opostas ao fisco** para mudar o sujeito passivo (art. 123). Ex.: o contrato de aluguel que atribui o IPTU ao inquilino não muda quem o fisco pode cobrar.\n\n### Capacidade tributária passiva (art. 126)\nIndepende da **capacidade civil**, de a pessoa estar impedida de exercer atividades ou de a empresa estar regularmente constituída. Uma criança proprietária de imóvel é contribuinte do IPTU.\n\n### Solidariedade (art. 124)\nSão solidários os que têm **interesse comum** no fato gerador e os designados por lei. **Não há benefício de ordem**: o fisco cobra o total de qualquer um.\n\n### Domicílio tributário\nEm regra, é o **eleito** pelo contribuinte; o fisco pode recusá-lo se dificultar a fiscalização.\n\n### Responsabilidade tributária\n- **Por substituição**: a lei põe o responsável no lugar do contribuinte **desde o início**. Ex.: **retenção do IR na fonte**; **substituição tributária** do ICMS, **para frente** (recolhe-se antes dos fatos futuros) e para trás.\n- **Por transferência**: a obrigação nasce com o contribuinte e passa a outro por fato posterior.\n\n### Responsabilidade dos sucessores\n- **Adquirente de imóvel**: responde pelos tributos do bem, salvo se constar do título a **prova de quitação**; na **arrematação em hasta pública**, a dívida se sub-roga no preço.\n- **Sucessão causa mortis**: o espólio e os herdeiros respondem até o limite do quinhão.\n- **Fusão, incorporação, transformação**: a empresa resultante responde.\n- **Aquisição de estabelecimento** (art. 133): o adquirente que continua a exploração responde **integralmente**, se o alienante cessar a atividade, ou **subsidiariamente**, se o alienante continuar ou reiniciar atividade em seis meses.\n\n### Responsabilidade de terceiros\n- **Art. 134**: pais, tutores, administradores, inventariante, sócios na liquidação de sociedade de pessoas, quando o contribuinte não pode pagar.\n- **Art. 135**: diretores, gerentes e representantes respondem **pessoalmente** por atos praticados com **excesso de poderes ou infração de lei, contrato social ou estatutos**. O **simples inadimplemento não gera** essa responsabilidade (Súmula 430 do STJ). A **dissolução irregular** da empresa autoriza redirecionar a execução ao sócio-gerente (Súmula 435 do STJ).\n\n### Denúncia espontânea (art. 138)\nQuem confessa a infração e **paga o tributo com juros**, **antes de qualquer procedimento** de fiscalização, fica livre da **multa**. Não vale para tributo declarado e pago com atraso, nem para o simples parcelamento.",
+      "revisao": "**Lembre:**\n- Principal: pagar tributo ou multa; acessória: fazer ou não fazer.\n- Contribuinte: relação direta com o fato gerador; responsável: por lei.\n- Contrato particular não é oponível ao fisco.\n- Art. 135: excesso de poderes ou infração de lei; inadimplemento simples não basta.\n- Denúncia espontânea: paga antes da fiscalização e afasta a multa."
+    },
+    {
+      "id": "credito",
+      "nome": "Crédito tributário: lançamento, suspensão, extinção e exclusão",
+      "resumo": "### Crédito e lançamento\nA obrigação nasce com o fato gerador; o **crédito tributário** é constituído pelo **lançamento** (CTN, art. 142), procedimento administrativo **privativo** da autoridade, **vinculado e obrigatório**, que verifica o fato gerador, calcula o tributo, identifica o sujeito passivo e aplica a penalidade.\n- O lançamento se reporta à **lei vigente na data do fato gerador**.\n\n### Modalidades de lançamento\n- **De ofício** (direto): o fisco faz tudo. Ex.: **IPTU, IPVA**; também o auto de infração.\n- **Por declaração** (misto): o contribuinte informa os fatos e o fisco calcula. Ex.: ITBI, ITCMD em vários estados.\n- **Por homologação** (autolançamento): o contribuinte **apura e paga antecipadamente**, e o fisco homologa depois. É o mais comum: **ICMS, IPI, IR**, contribuições. Se o fisco não se manifestar em **5 anos do fato gerador**, ocorre a **homologação tácita**.\n\n### Suspensão da exigibilidade (art. 151)\nO fisco fica impedido de cobrar. Mnemônico **MODERECOPA**:\n- **MO**ratória;\n- **DE**pósito do montante **integral** (em dinheiro; Súmula 112 do STJ);\n- **RE**clamações e recursos administrativos;\n- **CO**ncessão de liminar em mandado de segurança ou de tutela em outras ações;\n- **PA**rcelamento.\nA suspensão **não dispensa** as obrigações acessórias.\n\n### Extinção (art. 156)\n- **Pagamento**; compensação; transação; **remissão** (perdão do **tributo**); **prescrição e decadência**; conversão do depósito em renda; pagamento antecipado e homologação; consignação em pagamento; decisão administrativa irreformável; decisão judicial transitada em julgado; **dação em pagamento de bens imóveis**.\n\n### Exclusão (art. 175)\nImpede a constituição do crédito:\n- **Isenção**: dispensa legal do **tributo**.\n- **Anistia**: perdão das **infrações** (multas), para fatos **anteriores** à lei.\n- **Remissão × anistia**: a remissão perdoa o tributo (extingue); a anistia perdoa a penalidade (exclui).\n\n### Decadência\nPerda do direito de **constituir** o crédito (lançar). Prazo de **5 anos**:\n- Regra geral (art. 173, I): a partir do **primeiro dia do exercício seguinte** àquele em que o lançamento poderia ter sido feito.\n- Lançamento por homologação com pagamento (art. 150, § 4º): **5 anos do fato gerador**.\n\n### Prescrição\nPerda do direito de **cobrar** o crédito já constituído. Prazo de **5 anos** a partir da **constituição definitiva** (art. 174). Interrompe-se pelo **despacho do juiz que ordena a citação** na execução fiscal, pelo protesto judicial, por ato que constitua o devedor em mora ou pelo **reconhecimento do débito** (como o pedido de parcelamento).\n- **Súmula Vinculante 8**: prazos de prescrição e decadência exigem **lei complementar**.\n- **Prescrição intercorrente**: na execução fiscal parada por falta de bens.\n\n### Repetição de indébito\nDireito de reaver tributo pago indevidamente; prazo de **5 anos** do pagamento. No tributo indireto, quem pede deve provar que **assumiu o encargo** ou está autorizado por quem o assumiu (art. 166).\n\n### Garantias e cobrança\n- O crédito tributário **prefere** a qualquer outro, salvo os **trabalhistas** e de acidente de trabalho; na **falência**, também cede aos créditos extraconcursais e aos com **garantia real**.\n- **Dívida ativa**: crédito inscrito após o prazo de pagamento; a **certidão de dívida ativa (CDA)** é título executivo. Cobrança pela **execução fiscal** (Lei 6.830/1980).\n- **Certidão negativa** e **positiva com efeitos de negativa** (quando há suspensão da exigibilidade ou penhora).",
+      "revisao": "**Lembre:**\n- Lançamento constitui o crédito; é vinculado e obrigatório.\n- De ofício: IPTU, IPVA; por homologação: ICMS, IR, IPI.\n- Suspensão: moratória, depósito integral, recursos, liminar, parcelamento.\n- Decadência: 5 anos para lançar; prescrição: 5 anos para cobrar.\n- Isenção e anistia excluem; remissão extingue."
+    },
+    {
+      "id": "processo",
+      "nome": "Legislação tributária, administração e processo",
+      "resumo": "### Fontes\n- **Constituição**: competências, princípios e imunidades.\n- **Lei complementar** (art. 146): resolver **conflitos de competência**, regular as **limitações ao poder de tributar** e estabelecer **normas gerais** (definição de tributos, fatos geradores, bases de cálculo, contribuintes, obrigação, lançamento, prescrição e decadência).\n- O **CTN** (Lei 5.172/1966) é lei ordinária na forma, mas foi **recepcionado com status de lei complementar**.\n- **Lei ordinária** e **medida provisória** instituem e aumentam tributos (salvo os reservados à lei complementar).\n- **Resoluções do Senado**: fixam alíquotas do ICMS interestadual e máximas do ITCMD.\n- **Tratados internacionais**, **decretos** e **normas complementares** (atos normativos, decisões administrativas com eficácia normativa, práticas reiteradas e convênios).\n- \"**Legislação tributária**\" (art. 96) é expressão mais ampla que \"lei\".\n\n### Vigência e aplicação\n- A lei se aplica a **fatos geradores futuros e pendentes**.\n- **Retroage** (art. 106): a lei **expressamente interpretativa** e, para atos não definitivamente julgados, a que **deixe de definir o ato como infração** ou comine **penalidade menos severa**. A retroatividade benéfica vale para **multas**, não para o tributo.\n\n### Interpretação e integração\n- Integração (art. 108), nesta ordem: **analogia**, **princípios gerais de direito tributário**, **princípios gerais de direito público** e **equidade**.\n- A **analogia não pode criar tributo**; a **equidade não pode dispensar** tributo devido.\n- **Interpretação literal** (art. 111) para: suspensão ou exclusão do crédito, **outorga de isenção** e dispensa de obrigações acessórias.\n- Interpretação **mais favorável ao acusado** (art. 112) em caso de dúvida sobre infrações e penalidades.\n\n### Administração tributária\n- **Fiscalização**: o fisco pode examinar livros e documentos; a atividade é essencial ao Estado.\n- **Sigilo fiscal**: a Fazenda não pode divulgar a situação econômica dos contribuintes, com exceções legais. O STF admitiu que o fisco requisite dados bancários sem ordem judicial (LC 105/2001), mantendo o sigilo.\n\n### Processo administrativo fiscal\n- Começa com a **impugnação** do lançamento ou do auto de infração; **suspende a exigibilidade**.\n- No âmbito federal: julgamento pelas Delegacias de Julgamento e, em recurso, pelo **CARF**.\n- **Não se pode exigir depósito prévio** para admitir recurso administrativo (Súmula Vinculante 21).\n- **Consulta fiscal**: o contribuinte pergunta ao fisco como interpretar a norma.\n\n### Processo judicial\nAções do contribuinte:\n- **Ação declaratória** (antes do lançamento) e **anulatória** (depois do lançamento).\n- **Mandado de segurança**: direito líquido e certo, prazo de **120 dias**; não admite produção de provas além das documentais.\n- **Repetição de indébito** e **consignação em pagamento**.\n- **Embargos à execução fiscal**: em regra, após a **garantia do juízo**, no prazo de **30 dias**. **Exceção de pré-executividade**: para matérias conhecíveis de ofício, sem necessidade de prova nem de garantia (Súmula 393 do STJ).\nAções do fisco:\n- **Execução fiscal** (Lei 6.830/1980), com base na CDA.\n- **Medida cautelar fiscal**.\n\n### Crimes tributários\n**Lei 8.137/1990**: sonegação. **Súmula Vinculante 24**: não se tipifica crime material contra a ordem tributária **antes do lançamento definitivo** do tributo. O **pagamento integral** extingue a punibilidade.\n\n### Simples Nacional\nRegime simplificado para **microempresas e empresas de pequeno porte** (LC 123/2006), com recolhimento unificado de vários tributos em uma guia.",
+      "revisao": "**Lembre:**\n- Lei complementar: normas gerais, conflitos de competência, limitações.\n- CTN tem status de lei complementar.\n- Integração: analogia, princípios tributários, princípios de direito público, equidade.\n- Isenção: interpretação literal.\n- Súmula Vinculante 24: crime tributário só após o lançamento definitivo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-tributario-1",
+      "topico": "tributo",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o artigo 3º do CTN, tributo é prestação pecuniária compulsória que:",
+      "opcoes": [
+        "Não constitui sanção de ato ilícito e é instituída em lei",
+        "Constitui punição por infração",
+        "Depende de contrato com o contribuinte",
+        "Pode ser criada por decreto em qualquer caso"
+      ],
+      "correta": 0,
+      "explicacao": "A multa, por ser sanção, não se enquadra no conceito de tributo."
+    },
+    {
+      "id": "direito-tributario-2",
+      "topico": "tributo",
+      "nivel": "conceitual",
+      "pergunta": "A taxa pode ser cobrada em razão:",
+      "opcoes": [
+        "De qualquer fato que revele riqueza do contribuinte",
+        "Do exercício do poder de polícia ou de serviço público específico e divisível",
+        "Da valorização de imóvel por obra pública",
+        "De guerra externa"
+      ],
+      "correta": 1,
+      "explicacao": "É tributo vinculado a uma atividade estatal dirigida ao contribuinte."
+    },
+    {
+      "id": "direito-tributario-3",
+      "topico": "tributo",
+      "nivel": "conceitual",
+      "pergunta": "O empréstimo compulsório só pode ser instituído:",
+      "opcoes": [
+        "Por qualquer ente, por lei ordinária",
+        "Pelos estados, por decreto",
+        "Pela União, por lei complementar",
+        "Pelos municípios, por medida provisória"
+      ],
+      "correta": 2,
+      "explicacao": "As hipóteses são calamidade pública, guerra externa e investimento público urgente e relevante."
+    },
+    {
+      "id": "direito-tributario-4",
+      "topico": "tributo",
+      "nivel": "aplicacao",
+      "pergunta": "Uma prefeitura pavimentou uma rua e os imóveis vizinhos se valorizaram. Para custear a obra, o tributo adequado é a:",
+      "opcoes": [
+        "Taxa de pavimentação",
+        "Tarifa de serviço",
+        "Contribuição de iluminação pública",
+        "Contribuição de melhoria"
+      ],
+      "correta": 3,
+      "explicacao": "Ela exige valorização imobiliária decorrente de obra pública e respeita o custo da obra como limite."
+    },
+    {
+      "id": "direito-tributario-5",
+      "topico": "tributo",
+      "nivel": "analise",
+      "pergunta": "Por que a renda obtida com uma atividade ilícita pode ser tributada, se tributo não é sanção de ato ilícito?",
+      "opcoes": [
+        "Porque o que se tributa é o fato de auferir renda, e não a ilicitude da atividade",
+        "Porque o tributo, nesse caso, funciona como multa",
+        "Porque a lei penal autoriza o confisco por meio de imposto",
+        "Porque atividades ilícitas têm alíquota maior"
+      ],
+      "correta": 0,
+      "explicacao": "É o princípio do pecunia non olet: a origem do dinheiro é irrelevante para a incidência."
+    },
+    {
+      "id": "direito-tributario-6",
+      "topico": "competencia",
+      "nivel": "conceitual",
+      "pergunta": "A competência tributária, isto é, o poder de instituir tributos, é:",
+      "opcoes": [
+        "Delegável a empresas privadas",
+        "Indelegável",
+        "Transferível por convênio",
+        "Perdida pelo não uso"
+      ],
+      "correta": 1,
+      "explicacao": "Podem ser delegadas apenas as funções de arrecadar e fiscalizar."
+    },
+    {
+      "id": "direito-tributario-7",
+      "topico": "competencia",
+      "nivel": "conceitual",
+      "pergunta": "São impostos de competência dos municípios:",
+      "opcoes": [
+        "ICMS, IPVA e ITCMD",
+        "IR, IPI e IOF",
+        "IPTU, ITBI e ISS",
+        "ITR, II e IE"
+      ],
+      "correta": 2,
+      "explicacao": "O Distrito Federal acumula os impostos municipais e os estaduais."
+    },
+    {
+      "id": "direito-tributario-8",
+      "topico": "competencia",
+      "nivel": "conceitual",
+      "pergunta": "O imposto sobre grandes fortunas (IGF):",
+      "opcoes": [
+        "É cobrado pelos estados desde 1988",
+        "É de competência dos municípios",
+        "Foi extinto pela reforma tributária",
+        "Está previsto na Constituição, mas nunca foi instituído"
+      ],
+      "correta": 3,
+      "explicacao": "Sua instituição depende de lei complementar da União."
+    },
+    {
+      "id": "direito-tributario-9",
+      "topico": "competencia",
+      "nivel": "aplicacao",
+      "pergunta": "Maria recebeu um apartamento de herança do pai. O imposto devido pela transmissão é o:",
+      "opcoes": [
+        "ITCMD, de competência estadual",
+        "ITBI, de competência municipal",
+        "IPTU, de competência municipal",
+        "IR, de competência federal"
+      ],
+      "correta": 0,
+      "explicacao": "O ITBI incide apenas nas transmissões onerosas entre vivos."
+    },
+    {
+      "id": "direito-tributario-10",
+      "topico": "competencia",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre bitributação e bis in idem?",
+      "opcoes": [
+        "São expressões sinônimas",
+        "Na bitributação, dois entes tributam o mesmo fato; no bis in idem, o mesmo ente o tributa duas vezes",
+        "No bis in idem há dois entes; na bitributação, apenas um",
+        "A bitributação só ocorre com taxas"
+      ],
+      "correta": 1,
+      "explicacao": "A bitributação é, em regra, vedada, pois invade a competência de outro ente."
+    },
+    {
+      "id": "direito-tributario-11",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "Podem ter as alíquotas alteradas por ato do Poder Executivo, nos limites da lei:",
+      "opcoes": [
+        "IR, ITR e IGF",
+        "ICMS, IPVA e ITCMD",
+        "II, IE, IPI e IOF",
+        "IPTU, ITBI e ISS"
+      ],
+      "correta": 2,
+      "explicacao": "São impostos de função extrafiscal, usados para regular a economia."
+    },
+    {
+      "id": "direito-tributario-12",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "As imunidades tributárias são previstas:",
+      "opcoes": [
+        "Em lei ordinária de cada ente",
+        "Em decreto do Executivo",
+        "Em contrato com o contribuinte",
+        "Na Constituição Federal"
+      ],
+      "correta": 3,
+      "explicacao": "A isenção, ao contrário, é concedida por lei do ente competente."
+    },
+    {
+      "id": "direito-tributario-13",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da anterioridade nonagesimal impede a cobrança do tributo:",
+      "opcoes": [
+        "Antes de 90 dias da publicação da lei que o instituiu ou aumentou",
+        "Sobre fatos anteriores à lei",
+        "Com efeito de confisco",
+        "Sem lei que o estabeleça"
+      ],
+      "correta": 0,
+      "explicacao": "Em regra, ele se soma à anterioridade anual, de exercício."
+    },
+    {
+      "id": "direito-tributario-14",
+      "topico": "principios",
+      "nivel": "aplicacao",
+      "pergunta": "Uma lei publicada em 10 de dezembro aumenta a alíquota do IPI. A partir de quando o aumento pode ser cobrado?",
+      "opcoes": [
+        "Imediatamente",
+        "Após 90 dias da publicação, mesmo que no meio do ano seguinte",
+        "Só em 1º de janeiro, sem esperar os 90 dias",
+        "Somente dois anos depois"
+      ],
+      "correta": 1,
+      "explicacao": "O IPI é exceção à anterioridade anual, mas deve respeitar a noventena."
+    },
+    {
+      "id": "direito-tributario-15",
+      "topico": "principios",
+      "nivel": "analise",
+      "pergunta": "Um templo religioso aluga um imóvel de sua propriedade e aplica o aluguel em suas atividades essenciais. Por que o IPTU não incide?",
+      "opcoes": [
+        "Porque todo imóvel alugado é isento",
+        "Porque o inquilino é sempre o contribuinte",
+        "Porque a imunidade alcança o patrimônio cuja renda é usada nas finalidades essenciais da entidade",
+        "Porque a imunidade vale para qualquer tributo e pessoa"
+      ],
+      "correta": 2,
+      "explicacao": "O STF consolidou esse entendimento, desde que a renda seja destinada aos fins da entidade."
+    },
+    {
+      "id": "direito-tributario-16",
+      "topico": "obrigacao",
+      "nivel": "conceitual",
+      "pergunta": "A obrigação tributária principal tem por objeto:",
+      "opcoes": [
+        "A emissão de nota fiscal",
+        "A entrega de declarações",
+        "A manutenção de livros fiscais",
+        "O pagamento de tributo ou de penalidade pecuniária"
+      ],
+      "correta": 3,
+      "explicacao": "As demais condutas citadas são objeto de obrigações acessórias."
+    },
+    {
+      "id": "direito-tributario-17",
+      "topico": "obrigacao",
+      "nivel": "conceitual",
+      "pergunta": "O responsável tributário é aquele que:",
+      "opcoes": [
+        "Sem ser contribuinte, é obrigado ao pagamento por disposição expressa de lei",
+        "Tem relação pessoal e direta com o fato gerador",
+        "Assume a dívida por contrato particular",
+        "É sempre o sócio da empresa"
+      ],
+      "correta": 0,
+      "explicacao": "O contribuinte é quem tem relação pessoal e direta com a situação que constitui o fato gerador."
+    },
+    {
+      "id": "direito-tributario-18",
+      "topico": "obrigacao",
+      "nivel": "conceitual",
+      "pergunta": "A capacidade tributária passiva:",
+      "opcoes": [
+        "Exige maioridade",
+        "Independe da capacidade civil da pessoa",
+        "Exige empresa regularmente registrada",
+        "Depende de autorização judicial"
+      ],
+      "correta": 1,
+      "explicacao": "Um menor de idade proprietário de imóvel é contribuinte do IPTU."
+    },
+    {
+      "id": "direito-tributario-19",
+      "topico": "obrigacao",
+      "nivel": "aplicacao",
+      "pergunta": "Um contrato de locação prevê que o inquilino pagará o IPTU. O inquilino não paga. De quem o município pode cobrar o imposto?",
+      "opcoes": [
+        "Apenas do inquilino",
+        "De ninguém, pois o contrato afasta a cobrança",
+        "Do proprietário, pois convenções particulares não são oponíveis ao fisco",
+        "Da imobiliária"
+      ],
+      "correta": 2,
+      "explicacao": "O proprietário pode depois cobrar do inquilino, com base no contrato, na esfera civil."
+    },
+    {
+      "id": "direito-tributario-20",
+      "topico": "obrigacao",
+      "nivel": "analise",
+      "pergunta": "Por que o simples não pagamento do tributo pela empresa não torna o sócio-gerente pessoalmente responsável?",
+      "opcoes": [
+        "Porque sócios nunca respondem por dívidas tributárias",
+        "Porque a responsabilidade é sempre solidária",
+        "Porque a empresa não tem personalidade jurídica",
+        "Porque o artigo 135 do CTN exige excesso de poderes ou infração de lei, contrato social ou estatutos"
+      ],
+      "correta": 3,
+      "explicacao": "A dissolução irregular da sociedade, por outro lado, autoriza o redirecionamento da execução."
+    },
+    {
+      "id": "direito-tributario-21",
+      "topico": "credito",
+      "nivel": "conceitual",
+      "pergunta": "O crédito tributário é constituído:",
+      "opcoes": [
+        "Pelo lançamento",
+        "Pela ocorrência do fato gerador",
+        "Pela inscrição em dívida ativa",
+        "Pela execução fiscal"
+      ],
+      "correta": 0,
+      "explicacao": "O fato gerador faz nascer a obrigação; o lançamento a torna líquida e exigível."
+    },
+    {
+      "id": "direito-tributario-22",
+      "topico": "credito",
+      "nivel": "conceitual",
+      "pergunta": "No lançamento por homologação:",
+      "opcoes": [
+        "O fisco calcula tudo sem participação do contribuinte",
+        "O contribuinte apura e paga o tributo antes de qualquer exame do fisco",
+        "O contribuinte apenas declara os fatos e aguarda a cobrança",
+        "Não há pagamento"
+      ],
+      "correta": 1,
+      "explicacao": "É a modalidade do ICMS, do IPI e do imposto de renda."
+    },
+    {
+      "id": "direito-tributario-23",
+      "topico": "credito",
+      "nivel": "conceitual",
+      "pergunta": "É causa de suspensão da exigibilidade do crédito tributário:",
+      "opcoes": [
+        "A remissão",
+        "A anistia",
+        "O parcelamento",
+        "A decadência"
+      ],
+      "correta": 2,
+      "explicacao": "Remissão e decadência extinguem o crédito; a anistia o exclui."
+    },
+    {
+      "id": "direito-tributario-24",
+      "topico": "credito",
+      "nivel": "aplicacao",
+      "pergunta": "Uma lei perdoa as multas por atraso na entrega de declarações referentes a fatos anteriores à sua vigência. Trata-se de:",
+      "opcoes": [
+        "Remissão",
+        "Isenção",
+        "Moratória",
+        "Anistia"
+      ],
+      "correta": 3,
+      "explicacao": "A anistia alcança infrações e penalidades; a remissão perdoa o próprio tributo."
+    },
+    {
+      "id": "direito-tributario-25",
+      "topico": "credito",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre decadência e prescrição no direito tributário?",
+      "opcoes": [
+        "A decadência atinge o direito de lançar; a prescrição, o direito de cobrar o crédito já constituído",
+        "A decadência tem prazo de 10 anos e a prescrição, de 5",
+        "A prescrição ocorre antes do lançamento",
+        "São prazos fixados por lei ordinária de cada município"
+      ],
+      "correta": 0,
+      "explicacao": "As duas têm prazo de cinco anos e extinguem o crédito tributário."
+    },
+    {
+      "id": "direito-tributario-26",
+      "topico": "processo",
+      "nivel": "conceitual",
+      "pergunta": "Cabe à lei complementar, em matéria tributária:",
+      "opcoes": [
+        "Fixar as alíquotas do IPTU de cada cidade",
+        "Estabelecer normas gerais, como as de prescrição e decadência",
+        "Autorizar o pagamento parcelado em cada caso",
+        "Julgar recursos administrativos"
+      ],
+      "correta": 1,
+      "explicacao": "O CTN foi recepcionado com esse status pela Constituição de 1988."
+    },
+    {
+      "id": "direito-tributario-27",
+      "topico": "processo",
+      "nivel": "conceitual",
+      "pergunta": "Na ausência de disposição expressa, o primeiro método de integração da legislação tributária é:",
+      "opcoes": [
+        "A equidade",
+        "O costume",
+        "A analogia",
+        "A jurisprudência"
+      ],
+      "correta": 2,
+      "explicacao": "A analogia, contudo, não pode resultar na exigência de tributo não previsto em lei."
+    },
+    {
+      "id": "direito-tributario-28",
+      "topico": "processo",
+      "nivel": "conceitual",
+      "pergunta": "A legislação que concede isenção deve ser interpretada:",
+      "opcoes": [
+        "De forma extensiva",
+        "Por analogia",
+        "Por equidade",
+        "Literalmente"
+      ],
+      "correta": 3,
+      "explicacao": "A regra do artigo 111 do CTN evita a ampliação de benefícios fiscais."
+    },
+    {
+      "id": "direito-tributario-29",
+      "topico": "processo",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa foi multada em 100% e recorreu. Antes do julgamento definitivo, nova lei reduziu a multa para 50%. Qual percentual se aplica?",
+      "opcoes": [
+        "50%, pois a lei mais benéfica retroage para atos não definitivamente julgados",
+        "100%, pois vale a lei da data do fato",
+        "0%, pois a multa foi extinta",
+        "75%, por média entre as duas leis"
+      ],
+      "correta": 0,
+      "explicacao": "A retroatividade benéfica do artigo 106 vale para penalidades, não para o valor do tributo."
+    },
+    {
+      "id": "direito-tributario-30",
+      "topico": "processo",
+      "nivel": "analise",
+      "pergunta": "Por que não se pode exigir depósito prévio como condição para recorrer na esfera administrativa?",
+      "opcoes": [
+        "Porque o recurso administrativo não existe",
+        "Porque isso restringe o direito de defesa e de petição, conforme a Súmula Vinculante 21",
+        "Porque o depósito extingue o crédito",
+        "Porque a multa sempre é anulada"
+      ],
+      "correta": 1,
+      "explicacao": "A exigência dificultaria o acesso ao recurso por quem não tem recursos financeiros."
+    }
+  ]
+}

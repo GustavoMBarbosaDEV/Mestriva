@@ -1,0 +1,465 @@
+{
+  "id": "processo-penal",
+  "nome": "Direito Processual Penal",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "principios",
+      "nome": "Princípios e sistemas processuais",
+      "resumo": "### Para que serve\nO processo penal é o caminho **obrigatório** para o Estado aplicar a pena: não há pena sem processo (*nulla poena sine judicio*). Ele serve tanto para punir quanto para **proteger o acusado** contra abusos.\n\n### Sistemas processuais\n- **Inquisitório**: o mesmo órgão **acusa, defende e julga**; o processo é sigiloso e o réu é objeto.\n- **Acusatório**: as funções de **acusar, defender e julgar** são de órgãos **distintos**; há contraditório, publicidade e juiz imparcial. É o adotado pela **Constituição de 1988**, que deu ao **Ministério Público** a titularidade da ação penal pública (art. 129, I). O art. 3º-A do CPP (Pacote Anticrime) o afirma expressamente.\n- **Misto**: fase inicial inquisitória e fase de julgamento acusatória.\n\n### Princípios constitucionais\n- **Devido processo legal** (art. 5º, LIV): ninguém será privado da liberdade ou de seus bens sem ele.\n- **Presunção de inocência** (não culpabilidade; art. 5º, LVII): ninguém será considerado culpado **até o trânsito em julgado** da sentença condenatória. Consequências: o **ônus da prova é da acusação**; na dúvida, absolve-se (***in dubio pro reo***); a prisão antes do trânsito só é possível como **medida cautelar**.\n- **Contraditório**: direito de ser informado e de **reagir** aos atos da outra parte.\n- **Ampla defesa**: **defesa técnica** (por advogado; **obrigatória e irrenunciável**) e **autodefesa** (direito de presença e de ser ouvido; renunciável). Súmula 523 do STF: a **falta** de defesa é nulidade absoluta; a **deficiência** só anula se houver prejuízo.\n- **Direito ao silêncio** e de **não produzir prova contra si** (*nemo tenetur se detegere*): o silêncio **não** pode ser interpretado em prejuízo da defesa.\n- **Juiz natural**: ninguém será processado senão pela autoridade competente; proíbe **tribunais de exceção**.\n- **Publicidade**: os atos são públicos, salvo defesa da intimidade ou interesse social.\n- **Motivação das decisões** (art. 93, IX).\n- **Inadmissibilidade das provas ilícitas** (art. 5º, LVI).\n- **Duração razoável do processo**.\n- **Duplo grau de jurisdição**: direito de recorrer (previsto na Convenção Americana de Direitos Humanos).\n- ***Ne bis in idem***: ninguém pode ser processado duas vezes pelo mesmo fato.\n\n### Princípios do processo\n- **Verdade real** (busca da verdade): o juiz não se contenta com a verdade formal; hoje se fala em verdade processualmente possível.\n- **Favor rei**: na dúvida, prevalece o interesse do réu.\n- **Identidade física do juiz**: quem presidiu a instrução deve sentenciar.\n\n### Lei processual penal no tempo e no espaço\n- **Tempo** (art. 2º do CPP): aplica-se **imediatamente** (*tempus regit actum*), sem prejuízo dos atos já praticados, **mesmo que seja mais gravosa**. Normas **híbridas** (com conteúdo penal) seguem a regra penal: só retroagem para beneficiar.\n- **Espaço**: princípio da **territorialidade**.\n\n### Juiz das garantias\nCriado pela Lei 13.964/2019: um juiz atua na fase de **investigação**, controlando a legalidade e decidindo medidas cautelares, e **outro** juiz conduz a instrução e julga. O STF declarou a figura constitucional.",
+      "revisao": "**Lembre:**\n- Sistema acusatório: acusar, defender e julgar são funções separadas.\n- Presunção de inocência: até o trânsito em julgado; ônus da prova é da acusação.\n- Defesa técnica é obrigatória; autodefesa é renunciável.\n- Silêncio não prejudica o réu.\n- Lei processual: aplicação imediata."
+    },
+    {
+      "id": "inquerito",
+      "nome": "Inquérito policial e ação penal",
+      "resumo": "### Inquérito policial\nProcedimento **administrativo** conduzido pela **polícia judiciária** (civil ou federal), presidido pelo **delegado**, para apurar a **materialidade** do crime e os **indícios de autoria**, servindo de base à ação penal.\n\n### Características\n- **Escrito**.\n- **Sigiloso** (art. 20 do CPP); mas o **advogado** tem acesso aos elementos **já documentados** (Súmula Vinculante 14).\n- **Inquisitivo**: sem contraditório e ampla defesa plenos.\n- **Dispensável**: se já houver elementos suficientes, o MP pode denunciar sem ele.\n- **Indisponível**: o **delegado não pode arquivar** o inquérito (art. 17).\n- **Oficial** e **oficioso** (nos crimes de ação pública incondicionada, age de ofício).\n- Os vícios do inquérito, em regra, **não anulam** a ação penal.\n\n### Início\n- De ofício (portaria), por **requisição** do juiz ou do MP, por **requerimento** da vítima, ou pelo **auto de prisão em flagrante**.\n- ***Notitia criminis***: o conhecimento do fato pela autoridade. A **denúncia anônima** não basta, sozinha, para instaurar inquérito: exige verificação prévia.\n- Na ação pública **condicionada**, depende de **representação**; na **privada**, de requerimento do ofendido.\n\n### Prazos (regra do CPP)\n- **10 dias** se o indiciado estiver **preso**; **30 dias** se estiver **solto**.\n- Justiça Federal: 15 dias (preso), prorrogáveis. Lei de Drogas: 30 (preso) e 90 (solto), duplicáveis.\n\n### Encerramento\nO delegado faz o **relatório** e remete os autos. O MP pode: **oferecer denúncia**, requisitar **novas diligências** ou promover o **arquivamento**.\n- O arquivamento por falta de provas não faz coisa julgada material: surgindo **provas novas**, pode-se desarquivar (Súmula 524 do STF).\n- **Indiciamento**: ato privativo do delegado, que atribui a autoria a alguém.\n\n### Outros instrumentos\n- **Termo circunstanciado**: substitui o inquérito nas infrações de **menor potencial ofensivo**.\n- O **MP pode investigar** diretamente (STF).\n- **Acordo de não persecução penal (ANPP)** (art. 28-A): para crimes **sem violência ou grave ameaça**, com **pena mínima inferior a 4 anos**, havendo **confissão**; o investigado cumpre condições e evita o processo.\n\n### Ação penal\n- **Pública incondicionada**: a regra. Titular: o **MP**, por meio da **denúncia**. Não depende da vontade da vítima.\n- **Pública condicionada**: depende de **representação** do ofendido (ou de requisição do Ministro da Justiça). Prazo: **6 meses** do conhecimento da autoria (decadencial). A representação é **retratável até o oferecimento da denúncia**. Ex.: ameaça; estelionato, em regra.\n- **Privada**: movida pelo ofendido, por **queixa-crime**, no prazo de **6 meses**. Ex.: crimes contra a honra, em regra.\n  - **Exclusiva**, **personalíssima** e **subsidiária da pública** (quando o MP **não age no prazo**).\n\n### Princípios da ação penal\n- **Pública**: **obrigatoriedade** (havendo elementos, o MP deve denunciar), **indisponibilidade** (não pode desistir da ação), **oficialidade**, **divisibilidade** (STF) e **intranscendência** (só contra o autor do fato).\n- **Privada**: **oportunidade** (o ofendido escolhe se propõe), **disponibilidade** (pode desistir: **perdão** e **perempção**) e **indivisibilidade** (a queixa contra um obriga ao processo de todos; a **renúncia** a um se estende a todos).\n\n### Denúncia e queixa\nRequisitos (art. 41): exposição do **fato criminoso** com suas circunstâncias, **qualificação do acusado**, **classificação do crime** e rol de testemunhas. Prazo da denúncia: **5 dias** (réu preso) ou **15 dias** (solto). **Rejeição** (art. 395): inépcia, falta de pressuposto ou condição da ação, ou falta de **justa causa**.",
+      "revisao": "**Lembre:**\n- Inquérito: administrativo, sigiloso, inquisitivo e dispensável.\n- Delegado não arquiva inquérito.\n- Prazo: 10 dias preso, 30 dias solto.\n- Ação pública: MP, denúncia; privada: ofendido, queixa, 6 meses.\n- Representação: retratável até o oferecimento da denúncia."
+    },
+    {
+      "id": "competencia",
+      "nome": "Competência e sujeitos do processo",
+      "resumo": "### Jurisdição e competência\n**Jurisdição** é o poder de dizer o direito; **competência** é a medida da jurisdição de cada órgão.\n\n### Critérios\n- **Em razão da matéria** (natureza da infração): Justiça **Comum** (Estadual e Federal) e **Especial** (Militar e Eleitoral). Absoluta.\n- **Em razão da pessoa** (prerrogativa de função): absoluta.\n- **Em razão do lugar** (territorial): relativa.\n\n### Competência territorial (art. 70 do CPP)\n- Regra: o **lugar em que o crime se consumou**; na tentativa, o lugar do **último ato de execução** (teoria do **resultado**).\n- Se o lugar for desconhecido: o **domicílio ou a residência do réu**.\n- Na ação privada exclusiva, o querelante pode escolher o foro do domicílio do réu.\n- Juizados Especiais: o lugar onde foi **praticada** a infração (teoria da atividade).\n- **Prevenção**: quando há mais de um juiz competente, fica o que primeiro praticou ato do processo.\n\n### Justiça Federal (CF, art. 109)\nCrimes contra **bens, serviços ou interesses da União**, de suas autarquias e empresas públicas (não inclui sociedades de economia mista); crimes previstos em tratados com caráter transnacional (tráfico **internacional** de drogas); crimes contra a organização do trabalho; crimes a bordo de navios e aeronaves; grave violação de direitos humanos (por deslocamento de competência).\n- **Contravenções penais**: sempre da Justiça **Estadual**.\n\n### Tribunal do Júri\nJulga os **crimes dolosos contra a vida**, consumados ou tentados (**homicídio, induzimento ao suicídio, infanticídio e aborto**), e os conexos. **Latrocínio** não vai a júri (é crime contra o patrimônio).\n\n### Foro por prerrogativa de função\n- **STF**: Presidente e Vice, deputados federais e senadores, ministros, Procurador-Geral da República.\n- **STJ**: governadores, desembargadores.\n- **TJ**: prefeitos (crimes comuns estaduais), juízes e promotores.\n- O STF restringiu o foro a crimes cometidos **durante o cargo e em razão dele**.\n- Súmula Vinculante 45: a competência do **júri** prevalece sobre o foro previsto **só em Constituição estadual**.\n\n### Conexão e continência\nReúnem os processos para julgamento conjunto.\n- **Conexão**: ligação entre **dois ou mais crimes** (intersubjetiva, objetiva ou probatória).\n- **Continência**: várias pessoas acusadas do **mesmo crime**, ou concurso formal.\n- Regras de prevalência (art. 78): o **júri** atrai os conexos; entre jurisdições da mesma categoria, prevalece o lugar da infração com **pena mais grave**; a Justiça **especial** prevalece sobre a comum. Súmula 122 do STJ: a Justiça **Federal** atrai o crime estadual conexo.\n\n### Sujeitos processuais\n- **Juiz**: imparcial. **Impedimento** (causas objetivas, como parentesco com a parte ou atuação anterior no processo; art. 252) e **suspeição** (causas subjetivas, como amizade íntima ou inimizade; art. 254).\n- **Ministério Público**: titular da ação penal pública e fiscal da lei; pode pedir a absolvição.\n- **Acusado**: nenhum acusado será processado **sem defensor**. O réu **não é obrigado** a comparecer ao interrogatório nem a responder perguntas.\n- **Defensor**: constituído, dativo ou público.\n- **Assistente de acusação**: a vítima ou seu representante, na ação **pública**; admitido **após o recebimento da denúncia** e até o trânsito em julgado.\n- **Querelante** e **querelado**: partes da ação privada.\n\n### Citação e intimação\n- **Citação**: ato que chama o réu ao processo. Regra: **pessoal**, por mandado.\n- **Por hora certa**: quando o réu se oculta.\n- **Por edital**: réu em lugar incerto; se **não comparecer nem constituir advogado**, **suspendem-se o processo e a prescrição** (art. 366).\n- **Revelia**: o processo segue sem o réu, mas **não gera presunção de veracidade** dos fatos.",
+      "revisao": "**Lembre:**\n- Regra: lugar da consumação do crime.\n- Júri: crimes dolosos contra a vida.\n- Contravenção: sempre Justiça Estadual.\n- Impedimento é objetivo; suspeição é subjetiva.\n- Citação por edital sem comparecimento: suspende processo e prescrição."
+    },
+    {
+      "id": "provas",
+      "nome": "Teoria da prova",
+      "resumo": "### Conceitos\n- **Prova**: tudo o que serve para formar a convicção do juiz. **Elementos de informação**: colhidos no inquérito, sem contraditório.\n- O juiz **não pode condenar com base exclusivamente** nos elementos do inquérito, ressalvadas as provas **cautelares, não repetíveis e antecipadas** (art. 155).\n- **Ônus da prova**: de quem alega; a **acusação** deve provar a autoria e a materialidade.\n\n### Sistemas de avaliação\n- **Livre convencimento motivado** (persuasão racional): a **regra**. O juiz avalia livremente, mas deve **fundamentar**. Não há hierarquia entre as provas.\n- **Íntima convicção**: os **jurados** não fundamentam o voto.\n- **Prova tarifada** (legal): resquício na exigência de exame de corpo de delito.\n\n### Provas ilícitas (art. 157)\n- São **inadmissíveis** as obtidas com **violação de normas constitucionais ou legais** e devem ser **desentranhadas**.\n- **Frutos da árvore envenenada**: as provas **derivadas** da ilícita também são ilícitas.\n- Exceções: **fonte independente** e **descoberta inevitável**.\n- A prova ilícita **a favor do réu** é admitida.\n\n### Exame de corpo de delito\n- **Indispensável** quando a infração **deixa vestígios**; a **confissão não o supre** (art. 158).\n- Se os vestígios desapareceram, a **prova testemunhal** pode suprir a falta (art. 167).\n- Feito por **um perito oficial**; na falta, por duas pessoas idôneas com diploma superior.\n- **Cadeia de custódia**: registro de todo o caminho do vestígio, da coleta ao descarte.\n- O juiz **não fica preso ao laudo**.\n\n### Interrogatório\n- Meio de **prova e de defesa**. É o **último ato** da instrução.\n- Sempre na **presença do defensor**, com direito a entrevista prévia e reservada.\n- O réu tem **direito ao silêncio**; não precisa dizer a verdade sobre os fatos.\n\n### Confissão\n- **Divisível** e **retratável**.\n- Tem **valor relativo**: deve ser confrontada com as outras provas.\n- O **silêncio não importa confissão**.\n\n### Testemunhas\n- **Toda pessoa** pode ser testemunha. Tem o **dever de depor** e de dizer a verdade (compromisso), sob pena de **falso testemunho**.\n- **Podem recusar-se**: ascendente, descendente, cônjuge e irmão do acusado, salvo se não houver outro meio de prova; se depuserem, **não prestam compromisso** (informantes).\n- **Proibidos de depor**: quem deve guardar **segredo** por profissão (advogado, médico, padre), salvo se desobrigado pelo interessado e quiser.\n- Número máximo: **8** por parte no procedimento ordinário; **5** no sumário.\n- As perguntas são feitas **diretamente pelas partes** (*cross-examination*); o juiz complementa.\n- **Contradita**: impugnação da testemunha suspeita.\n\n### Outros meios\n- **Reconhecimento de pessoas** (art. 226): a pessoa descreve o suspeito, que é colocado **ao lado de outras semelhantes**. O STJ exige a observância do procedimento.\n- **Acareação**: confronto entre pessoas com versões divergentes.\n- **Busca e apreensão**: a busca **domiciliar** exige **mandado judicial** e se cumpre **durante o dia**, salvo consentimento do morador, **flagrante delito**, desastre ou socorro (CF, art. 5º, XI). A **busca pessoal** exige **fundada suspeita**.\n- **Interceptação telefônica** (Lei 9.296/1996): só por **ordem judicial**, para crimes punidos com **reclusão**, quando houver indícios de autoria e a prova não puder ser feita por outro meio; prazo de **15 dias**, renovável.\n- **Colaboração premiada** (Lei 12.850/2013): meio de obtenção de prova; a palavra do colaborador, **sozinha, não basta** para condenar.\n- **Prova emprestada**: admitida se respeitado o contraditório.",
+      "revisao": "**Lembre:**\n- Livre convencimento motivado é a regra; jurados julgam por íntima convicção.\n- Prova ilícita e derivada são inadmissíveis.\n- Corpo de delito: indispensável se há vestígios; confissão não supre.\n- Interrogatório é o último ato; silêncio não prejudica.\n- Busca domiciliar: mandado judicial, de dia, salvo flagrante ou consentimento."
+    },
+    {
+      "id": "prisoes",
+      "nome": "Prisões e medidas cautelares",
+      "resumo": "### Regra geral\nA liberdade é a regra; a prisão antes da condenação definitiva é **exceção** e tem natureza **cautelar**. A CF (art. 5º, LXI) só admite prisão em **flagrante delito** ou por **ordem escrita e fundamentada** da autoridade judiciária.\n\n### Prisão em flagrante\nQualquer do povo **pode** e a autoridade policial **deve** prender quem esteja em flagrante (art. 301).\n- **Flagrante próprio**: está cometendo ou **acabou de cometer** o crime.\n- **Impróprio** (quase flagrante): é **perseguido logo após**, em situação que faça presumir a autoria.\n- **Presumido** (ficto): é **encontrado logo depois** com instrumentos, armas ou objetos que façam presumir a autoria.\n- **Preparado** (provocado): alguém induz o crime e torna impossível a consumação. É **ilegal**: crime impossível (Súmula 145 do STF).\n- **Esperado**: a polícia apenas aguarda; é **válido**.\n- **Forjado**: situação fabricada; ilegal.\n- **Crime permanente**: há flagrante enquanto durar a permanência (sequestro, guarda de drogas).\n\n### Depois do flagrante\n- Comunicação **imediata** ao juiz, ao MP e à família; **nota de culpa** em 24 horas.\n- **Audiência de custódia**: o preso é apresentado ao juiz em até **24 horas**. O juiz (art. 310):\n  1. **relaxa** a prisão, se **ilegal**;\n  2. **converte** em **preventiva**, se presentes os requisitos e insuficientes as outras medidas;\n  3. concede **liberdade provisória**, com ou sem fiança.\n\n### Prisão preventiva\nCabe em **qualquer fase** da investigação ou do processo. O juiz **não pode decretá-la de ofício**: depende de pedido do MP, do querelante, do assistente ou de representação do delegado.\n- **Pressupostos**: **prova da existência do crime** e **indício suficiente de autoria** (*fumus commissi delicti*), além do **perigo gerado pelo estado de liberdade** do imputado.\n- **Fundamentos** (art. 312): garantia da **ordem pública**, da **ordem econômica**, **conveniência da instrução criminal** ou para **assegurar a aplicação da lei penal**.\n- **Hipóteses** (art. 313): crime doloso com **pena máxima superior a 4 anos**; **reincidente** em crime doloso; **violência doméstica**, para garantir medidas protetivas.\n- **Não tem prazo** fixo, mas deve ser **revisada a cada 90 dias**.\n- É a **última opção**: só cabe se as outras cautelares forem insuficientes.\n- Não se decreta preventiva como **antecipação de pena** nem só pela gravidade abstrata do crime.\n\n### Prisão temporária (Lei 7.960/1989)\n- Só na **fase de investigação**, decretada pelo juiz a pedido do MP ou do delegado, **nunca de ofício**.\n- Para crimes do rol legal, quando **imprescindível às investigações**.\n- Prazo: **5 dias**, prorrogáveis por mais 5; **30 + 30** dias nos **crimes hediondos**.\n\n### Prisão domiciliar\nSubstitui a preventiva (art. 318) para: maior de **80 anos**; pessoa extremamente debilitada por doença grave; **gestante**; mulher com filho de **até 12 anos**; homem único responsável por filho de até 12 anos.\n\n### Medidas cautelares diversas da prisão (art. 319)\nComparecimento periódico em juízo, proibição de frequentar lugares ou de contato com pessoas, proibição de ausentar-se da comarca, recolhimento domiciliar noturno, suspensão de função pública, **fiança** e **monitoração eletrônica**.\n\n### Liberdade provisória e fiança\n- **Fiança**: garantia paga para responder em liberdade. O **delegado** pode arbitrá-la em crimes com pena máxima **de até 4 anos**; acima disso, só o juiz.\n- **Inafiançáveis**: **racismo**, **tortura**, **tráfico**, **terrorismo**, **crimes hediondos** e ação de grupos armados contra a ordem constitucional. Inafiançável não significa que a liberdade provisória seja proibida.\n\n### Habeas corpus\nAção constitucional que protege a **liberdade de locomoção** contra ilegalidade ou abuso de poder. Pode ser impetrado por **qualquer pessoa**, sem advogado. **Preventivo** (salvo-conduto) ou **liberatório**.\n\n### Execução da pena\nO STF decidiu que a pena só se executa após o **trânsito em julgado**; no júri, admitiu a execução imediata da condenação.",
+      "revisao": "**Lembre:**\n- Flagrante próprio, impróprio e presumido; preparado é ilegal.\n- Audiência de custódia em 24 horas: relaxar, converter ou soltar.\n- Preventiva: não de ofício; ordem pública, instrução, aplicação da lei.\n- Temporária: só na investigação; 5+5 dias (30+30 em hediondos).\n- Habeas corpus: liberdade de locomoção, qualquer pessoa."
+    },
+    {
+      "id": "procedimentos",
+      "nome": "Procedimentos, sentença e recursos",
+      "resumo": "### Escolha do procedimento comum\nDepende da **pena máxima** prevista:\n- **Ordinário**: pena máxima **igual ou superior a 4 anos**.\n- **Sumário**: pena máxima **inferior a 4 anos**.\n- **Sumaríssimo** (Lei 9.099/1995): **infrações de menor potencial ofensivo**: contravenções e crimes com pena máxima **de até 2 anos**.\n\n### Procedimento ordinário\n1. Oferecimento da **denúncia** ou queixa.\n2. **Recebimento** (ou rejeição) pelo juiz.\n3. **Citação** do réu.\n4. **Resposta à acusação**, em **10 dias**, por escrito.\n5. Possível **absolvição sumária** (art. 397): excludente de ilicitude ou de culpabilidade (exceto inimputabilidade) manifestas, fato atípico ou punibilidade extinta.\n6. **Audiência de instrução e julgamento** (em até 60 dias): ofendido, **testemunhas de acusação**, **de defesa**, peritos, acareações, reconhecimento e, por último, o **interrogatório**.\n7. **Alegações finais** orais (ou memoriais) e **sentença**.\n\n### Juizados Especiais Criminais\nOrientados por oralidade, informalidade, economia e celeridade. Institutos **despenalizadores**:\n- **Composição civil dos danos**: acordo com a vítima; na ação privada e na condicionada, implica **renúncia**.\n- **Transação penal**: o MP propõe pena restritiva de direitos ou multa **antes** da denúncia; não gera reincidência. Não cabe se o autor já foi beneficiado nos últimos **5 anos**.\n- **Suspensão condicional do processo** (*sursis* processual, art. 89): para crimes com **pena mínima de até 1 ano**; o processo fica suspenso por **2 a 4 anos**, sob condições.\n- A Lei 9.099 **não se aplica** aos crimes de violência doméstica contra a mulher (Lei Maria da Penha).\n\n### Tribunal do Júri\nProcedimento **bifásico**:\n- **Primeira fase** (sumário da culpa): termina com **pronúncia** (há materialidade e indícios de autoria; remete ao júri), **impronúncia**, **absolvição sumária** ou **desclassificação**.\n- **Segunda fase**: julgamento em plenário pelo **Conselho de Sentença**, com **7 jurados** sorteados entre 25.\n- Princípios constitucionais: **plenitude de defesa**, **sigilo das votações**, **soberania dos veredictos** e competência para os crimes dolosos contra a vida.\n\n### Sentença\n- Partes: **relatório**, **fundamentação** e **dispositivo**.\n- **Absolutória** (art. 386): fato inexistente, não provado ou atípico; réu não é o autor; excludente; **insuficiência de provas**.\n- **Absolutória imprópria**: absolve o inimputável e aplica **medida de segurança**.\n- **Condenatória**.\n- ***Emendatio libelli*** (art. 383): o juiz dá ao fato **definição jurídica diferente**, sem alterar a descrição; pode fazê-lo de ofício, pois o réu se defende dos **fatos**.\n- ***Mutatio libelli*** (art. 384): surge **fato novo** não descrito na denúncia; o MP deve **aditar** e a defesa é ouvida.\n- **Princípio da correlação**: a sentença deve corresponder ao fato narrado na acusação.\n\n### Coisa julgada\nA sentença **absolutória** transitada em julgado **não pode ser revista** contra o réu.\n\n### Nulidades\n- **Absolutas**: violam interesse público; podem ser alegadas a qualquer tempo.\n- **Relativas**: devem ser alegadas no momento oportuno, sob pena de preclusão.\n- ***Pas de nullité sans grief***: **não há nulidade sem prejuízo** (art. 563).\n\n### Recursos\n- Princípios: **voluntariedade**, **taxatividade**, **unirrecorribilidade**, **fungibilidade** e proibição da ***reformatio in pejus***: em recurso **exclusivo da defesa**, a situação do réu **não pode piorar**.\n- **Apelação**: contra sentenças; prazo de **5 dias** para interpor e 8 para as razões.\n- **Recurso em sentido estrito (RESE)**: hipóteses do art. 581, como a decisão que **rejeita a denúncia** ou que **pronuncia** o réu; prazo de 5 dias.\n- **Embargos de declaração**: obscuridade, contradição ou omissão; **2 dias**.\n- **Embargos infringentes**: decisão não unânime **desfavorável ao réu**.\n- **Agravo em execução**; recursos especial e extraordinário.\n\n### Ações autônomas de impugnação\n- **Revisão criminal**: só **em favor do condenado**, **a qualquer tempo** após o trânsito em julgado.\n- **Habeas corpus** e **mandado de segurança**.",
+      "revisao": "**Lembre:**\n- Ordinário: pena máxima ≥ 4 anos; sumário: < 4; sumaríssimo: até 2 anos.\n- Resposta à acusação: 10 dias.\n- Júri: duas fases; 7 jurados; soberania dos veredictos.\n- Emendatio: muda a classificação; mutatio: fato novo, exige aditamento.\n- Revisão criminal: só a favor do réu, a qualquer tempo."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "processo-penal-1",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "No sistema acusatório, adotado pela Constituição de 1988:",
+      "opcoes": [
+        "As funções de acusar, defender e julgar cabem a órgãos distintos",
+        "O juiz acusa e julga ao mesmo tempo",
+        "O processo é sempre sigiloso",
+        "O réu não tem direito a defesa"
+      ],
+      "correta": 0,
+      "explicacao": "A titularidade da ação penal pública foi atribuída ao Ministério Público."
+    },
+    {
+      "id": "processo-penal-2",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "Pelo princípio da presunção de inocência, ninguém será considerado culpado até:",
+      "opcoes": [
+        "O recebimento da denúncia",
+        "O trânsito em julgado da sentença penal condenatória",
+        "A prisão em flagrante",
+        "O fim do inquérito policial"
+      ],
+      "correta": 1,
+      "explicacao": "Por isso o ônus de provar a acusação recai sobre quem acusa."
+    },
+    {
+      "id": "processo-penal-3",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "A lei processual penal nova, em regra:",
+      "opcoes": [
+        "Só se aplica a crimes cometidos após sua vigência",
+        "Retroage para anular todos os atos anteriores",
+        "Aplica-se imediatamente, sem prejuízo dos atos já praticados",
+        "Nunca se aplica a processos em curso"
+      ],
+      "correta": 2,
+      "explicacao": "É a regra do tempus regit actum, prevista no artigo 2º do CPP."
+    },
+    {
+      "id": "processo-penal-4",
+      "topico": "principios",
+      "nivel": "aplicacao",
+      "pergunta": "Em seu interrogatório, o réu preferiu ficar calado. O juiz pode considerar esse silêncio como indício de culpa?",
+      "opcoes": [
+        "Sim, pois quem cala consente",
+        "Sim, se o crime for grave",
+        "Sim, desde que o promotor peça",
+        "Não, pois o silêncio é direito do réu e não pode ser interpretado em seu prejuízo"
+      ],
+      "correta": 3,
+      "explicacao": "O direito de não produzir prova contra si decorre da Constituição."
+    },
+    {
+      "id": "processo-penal-5",
+      "topico": "principios",
+      "nivel": "analise",
+      "pergunta": "Por que a defesa técnica é irrenunciável, enquanto a autodefesa pode ser dispensada pelo réu?",
+      "opcoes": [
+        "Porque só o advogado garante a paridade de armas diante de uma acusação técnica",
+        "Porque o réu nunca pode falar no processo",
+        "Porque o juiz faz a defesa do réu",
+        "Porque a autodefesa é proibida por lei"
+      ],
+      "correta": 0,
+      "explicacao": "A falta de defesa técnica gera nulidade absoluta, conforme a Súmula 523 do STF."
+    },
+    {
+      "id": "processo-penal-6",
+      "topico": "inquerito",
+      "nivel": "conceitual",
+      "pergunta": "O inquérito policial é um procedimento:",
+      "opcoes": [
+        "Judicial, com contraditório pleno",
+        "Administrativo, inquisitivo e dispensável para a ação penal",
+        "Obrigatório para toda denúncia",
+        "Presidido pelo Ministério Público"
+      ],
+      "correta": 1,
+      "explicacao": "Se o MP já tiver elementos suficientes, pode oferecer denúncia sem o inquérito."
+    },
+    {
+      "id": "processo-penal-7",
+      "topico": "inquerito",
+      "nivel": "conceitual",
+      "pergunta": "A autoridade policial pode mandar arquivar o inquérito?",
+      "opcoes": [
+        "Sim, sempre que achar que não houve crime",
+        "Sim, com autorização da vítima",
+        "Não; o delegado não pode arquivar autos de inquérito",
+        "Sim, após 30 dias sem resultado"
+      ],
+      "correta": 2,
+      "explicacao": "A regra está no artigo 17 do Código de Processo Penal."
+    },
+    {
+      "id": "processo-penal-8",
+      "topico": "inquerito",
+      "nivel": "conceitual",
+      "pergunta": "A ação penal privada é iniciada por meio de:",
+      "opcoes": [
+        "Denúncia, oferecida pelo Ministério Público",
+        "Portaria do delegado",
+        "Representação ao juiz",
+        "Queixa-crime, oferecida pelo ofendido"
+      ],
+      "correta": 3,
+      "explicacao": "A denúncia é a peça inicial da ação penal pública."
+    },
+    {
+      "id": "processo-penal-9",
+      "topico": "inquerito",
+      "nivel": "aplicacao",
+      "pergunta": "Em um crime de ação pública condicionada, a vítima representou e depois se arrependeu. Até quando ela pode se retratar?",
+      "opcoes": [
+        "Até o oferecimento da denúncia",
+        "Até a sentença",
+        "Até o trânsito em julgado",
+        "Não pode se retratar"
+      ],
+      "correta": 0,
+      "explicacao": "Depois de oferecida a denúncia, a representação se torna irretratável."
+    },
+    {
+      "id": "processo-penal-10",
+      "topico": "inquerito",
+      "nivel": "analise",
+      "pergunta": "Por que o advogado tem acesso aos autos do inquérito, mesmo sendo ele sigiloso?",
+      "opcoes": [
+        "Porque o inquérito é sempre público",
+        "Para exercer o direito de defesa quanto aos elementos de prova já documentados",
+        "Para acompanhar diligências ainda em andamento",
+        "Porque o advogado preside o inquérito"
+      ],
+      "correta": 1,
+      "explicacao": "A Súmula Vinculante 14 garante o acesso, preservando as diligências em curso."
+    },
+    {
+      "id": "processo-penal-11",
+      "topico": "competencia",
+      "nivel": "conceitual",
+      "pergunta": "Em regra, a competência territorial é determinada pelo lugar:",
+      "opcoes": [
+        "Da residência da vítima",
+        "Onde o réu foi preso",
+        "Em que se consumou a infração",
+        "Do domicílio do juiz"
+      ],
+      "correta": 2,
+      "explicacao": "Na tentativa, considera-se o lugar em que foi praticado o último ato de execução."
+    },
+    {
+      "id": "processo-penal-12",
+      "topico": "competencia",
+      "nivel": "conceitual",
+      "pergunta": "Compete ao Tribunal do Júri julgar:",
+      "opcoes": [
+        "Todos os crimes hediondos",
+        "Os crimes contra o patrimônio com morte",
+        "As contravenções penais",
+        "Os crimes dolosos contra a vida"
+      ],
+      "correta": 3,
+      "explicacao": "O latrocínio, por ser crime contra o patrimônio, é julgado pelo juiz singular."
+    },
+    {
+      "id": "processo-penal-13",
+      "topico": "competencia",
+      "nivel": "conceitual",
+      "pergunta": "A amizade íntima do juiz com uma das partes é causa de:",
+      "opcoes": [
+        "Suspeição",
+        "Impedimento",
+        "Incompetência territorial",
+        "Litispendência"
+      ],
+      "correta": 0,
+      "explicacao": "As causas de impedimento são objetivas, como o parentesco com a parte."
+    },
+    {
+      "id": "processo-penal-14",
+      "topico": "competencia",
+      "nivel": "aplicacao",
+      "pergunta": "O réu, citado por edital, não compareceu nem constituiu advogado. O que acontece?",
+      "opcoes": [
+        "O réu é condenado à revelia de imediato",
+        "Ficam suspensos o processo e o prazo prescricional",
+        "O processo é extinto",
+        "Os fatos são presumidos verdadeiros"
+      ],
+      "correta": 1,
+      "explicacao": "É a regra do artigo 366 do CPP, que protege o direito de defesa."
+    },
+    {
+      "id": "processo-penal-15",
+      "topico": "competencia",
+      "nivel": "analise",
+      "pergunta": "Por que a revelia no processo penal não gera presunção de veracidade dos fatos alegados pela acusação?",
+      "opcoes": [
+        "Porque o réu revel é sempre absolvido",
+        "Porque o processo penal não admite revelia",
+        "Porque vigora a presunção de inocência e o ônus da prova é da acusação",
+        "Porque a vítima deve provar a inocência do réu"
+      ],
+      "correta": 2,
+      "explicacao": "No processo civil a revelia pode gerar esse efeito, mas no penal a liberdade está em jogo."
+    },
+    {
+      "id": "processo-penal-16",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "O sistema de avaliação das provas adotado como regra no processo penal é o:",
+      "opcoes": [
+        "Da íntima convicção",
+        "Da prova tarifada",
+        "Do juízo de Deus",
+        "Livre convencimento motivado"
+      ],
+      "correta": 3,
+      "explicacao": "O juiz avalia as provas com liberdade, mas deve fundamentar a decisão."
+    },
+    {
+      "id": "processo-penal-17",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "Quando a infração deixa vestígios, o exame de corpo de delito é:",
+      "opcoes": [
+        "Indispensável, não podendo ser suprido pela confissão",
+        "Dispensável se o réu confessar",
+        "Facultativo, a critério do delegado",
+        "Substituído por qualquer documento"
+      ],
+      "correta": 0,
+      "explicacao": "Se os vestígios desapareceram, a prova testemunhal pode suprir a falta do exame."
+    },
+    {
+      "id": "processo-penal-18",
+      "topico": "provas",
+      "nivel": "conceitual",
+      "pergunta": "No procedimento comum, o interrogatório do réu é realizado:",
+      "opcoes": [
+        "Antes do recebimento da denúncia",
+        "Ao final da instrução, depois das testemunhas",
+        "Logo após a citação",
+        "Somente em grau de recurso"
+      ],
+      "correta": 1,
+      "explicacao": "Assim o réu se manifesta depois de conhecer toda a prova produzida."
+    },
+    {
+      "id": "processo-penal-19",
+      "topico": "provas",
+      "nivel": "aplicacao",
+      "pergunta": "A polícia entrou em uma casa sem mandado e sem flagrante e apreendeu documentos, que levaram à descoberta de outras provas. Essas outras provas são:",
+      "opcoes": [
+        "Válidas, pois foram obtidas depois",
+        "Válidas, se o crime for grave",
+        "Ilícitas por derivação",
+        "Convalidadas pelo delegado"
+      ],
+      "correta": 2,
+      "explicacao": "É a teoria dos frutos da árvore envenenada, com exceções como a fonte independente."
+    },
+    {
+      "id": "processo-penal-20",
+      "topico": "provas",
+      "nivel": "analise",
+      "pergunta": "Por que o juiz não pode condenar com base apenas nos elementos colhidos no inquérito policial?",
+      "opcoes": [
+        "Porque o inquérito é sempre nulo",
+        "Porque o delegado não tem competência para investigar",
+        "Porque só a confissão vale como prova",
+        "Porque eles foram produzidos sem contraditório e ampla defesa"
+      ],
+      "correta": 3,
+      "explicacao": "Ficam ressalvadas as provas cautelares, não repetíveis e antecipadas."
+    },
+    {
+      "id": "processo-penal-21",
+      "topico": "prisoes",
+      "nivel": "conceitual",
+      "pergunta": "O flagrante em que o agente é perseguido logo após o crime é chamado de:",
+      "opcoes": [
+        "Impróprio",
+        "Próprio",
+        "Presumido",
+        "Preparado"
+      ],
+      "correta": 0,
+      "explicacao": "No presumido, o agente é encontrado logo depois com objetos que indicam a autoria."
+    },
+    {
+      "id": "processo-penal-22",
+      "topico": "prisoes",
+      "nivel": "conceitual",
+      "pergunta": "A prisão temporária só pode ser decretada:",
+      "opcoes": [
+        "De ofício pelo juiz, em qualquer fase",
+        "Durante a investigação, a pedido do MP ou do delegado",
+        "Depois da sentença",
+        "Pelo delegado, sem ordem judicial"
+      ],
+      "correta": 1,
+      "explicacao": "Seu prazo é de 5 dias, prorrogável, ou de 30 dias nos crimes hediondos."
+    },
+    {
+      "id": "processo-penal-23",
+      "topico": "prisoes",
+      "nivel": "conceitual",
+      "pergunta": "O habeas corpus protege:",
+      "opcoes": [
+        "O direito à informação pessoal",
+        "O direito líquido e certo em geral",
+        "A liberdade de locomoção",
+        "A moralidade administrativa"
+      ],
+      "correta": 2,
+      "explicacao": "Pode ser impetrado por qualquer pessoa, mesmo sem advogado."
+    },
+    {
+      "id": "processo-penal-24",
+      "topico": "prisoes",
+      "nivel": "aplicacao",
+      "pergunta": "Na audiência de custódia, o juiz verifica que a prisão em flagrante foi ilegal. O que ele deve fazer?",
+      "opcoes": [
+        "Convertê-la em prisão temporária",
+        "Arbitrar fiança",
+        "Mantê-la até a sentença",
+        "Relaxar a prisão"
+      ],
+      "correta": 3,
+      "explicacao": "O relaxamento se aplica à prisão ilegal; a liberdade provisória, à prisão legal mas desnecessária."
+    },
+    {
+      "id": "processo-penal-25",
+      "topico": "prisoes",
+      "nivel": "analise",
+      "pergunta": "Por que a gravidade abstrata do crime não basta para decretar a prisão preventiva?",
+      "opcoes": [
+        "Porque a preventiva é medida cautelar e exige perigo concreto, não podendo antecipar a pena",
+        "Porque crimes graves não admitem prisão",
+        "Porque a preventiva só cabe em contravenções",
+        "Porque a gravidade só importa na sentença"
+      ],
+      "correta": 0,
+      "explicacao": "A decisão deve apontar fatos concretos que justifiquem a necessidade da prisão."
+    },
+    {
+      "id": "processo-penal-26",
+      "topico": "procedimentos",
+      "nivel": "conceitual",
+      "pergunta": "O procedimento comum ordinário se aplica aos crimes com pena máxima:",
+      "opcoes": [
+        "De até 2 anos",
+        "Igual ou superior a 4 anos",
+        "Inferior a 4 anos",
+        "Superior a 8 anos apenas"
+      ],
+      "correta": 1,
+      "explicacao": "O sumário se aplica quando a pena máxima é inferior a 4 anos."
+    },
+    {
+      "id": "processo-penal-27",
+      "topico": "procedimentos",
+      "nivel": "conceitual",
+      "pergunta": "O Conselho de Sentença do Tribunal do Júri é formado por:",
+      "opcoes": [
+        "12 jurados",
+        "3 juízes",
+        "7 jurados",
+        "25 jurados"
+      ],
+      "correta": 2,
+      "explicacao": "São sorteados 25 jurados para a sessão, e 7 compõem o conselho."
+    },
+    {
+      "id": "processo-penal-28",
+      "topico": "procedimentos",
+      "nivel": "conceitual",
+      "pergunta": "A revisão criminal pode ser proposta:",
+      "opcoes": [
+        "Pelo MP, para agravar a pena",
+        "Apenas em até dois anos do trânsito em julgado",
+        "Contra sentença absolutória",
+        "Somente em favor do condenado, a qualquer tempo"
+      ],
+      "correta": 3,
+      "explicacao": "Ela desfaz a coisa julgada quando há erro judiciário contra o réu."
+    },
+    {
+      "id": "processo-penal-29",
+      "topico": "procedimentos",
+      "nivel": "aplicacao",
+      "pergunta": "A denúncia narrou um furto, mas o juiz entende que o fato descrito é, na verdade, apropriação indébita, sem mudança dos fatos. O juiz deve aplicar:",
+      "opcoes": [
+        "A emendatio libelli, dando nova definição jurídica ao fato",
+        "A mutatio libelli, com aditamento da denúncia",
+        "A absolvição sumária",
+        "A extinção do processo"
+      ],
+      "correta": 0,
+      "explicacao": "Como os fatos são os mesmos, o réu não é surpreendido, pois se defende dos fatos."
+    },
+    {
+      "id": "processo-penal-30",
+      "topico": "procedimentos",
+      "nivel": "analise",
+      "pergunta": "Por que, em recurso exclusivo da defesa, o tribunal não pode aumentar a pena do réu?",
+      "opcoes": [
+        "Porque o tribunal não pode alterar sentenças",
+        "Porque vigora a proibição da reformatio in pejus, que evita desestimular o direito de recorrer",
+        "Porque o MP sempre recorre junto",
+        "Porque a pena é fixada pelos jurados"
+      ],
+      "correta": 1,
+      "explicacao": "Se o réu pudesse ser prejudicado, teria receio de exercer o direito ao recurso."
+    }
+  ]
+}
