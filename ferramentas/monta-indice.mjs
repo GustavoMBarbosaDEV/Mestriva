@@ -1626,6 +1626,62 @@ export const EXTRA = {
       "Psicologia nas Organizações",
       "Psicologia e Trabalho"
     ]
+  },
+  "saude-mental": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Saúde Mental",
+      "Enfermagem em Saúde Mental",
+      "Enfermagem Psiquiátrica",
+      "Enfermagem em Saúde Mental e Psiquiatria",
+      "Enfermagem em Saúde Mental e Psiquiátrica",
+      "Saúde Mental e Psiquiatria",
+      "Assistência de Enfermagem em Saúde Mental",
+      "Cuidado em Saúde Mental",
+      "Saúde Mental I",
+      "Saúde Mental II",
+      "Atenção Psicossocial",
+      "Saúde Mental Coletiva",
+      "Políticas de Saúde Mental"
+    ]
+  },
+  "saude-mulher": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Saúde da Mulher",
+      "Enfermagem em Saúde da Mulher",
+      "Enfermagem Obstétrica",
+      "Enfermagem Ginecológica e Obstétrica",
+      "Enfermagem em Ginecologia e Obstetrícia",
+      "Enfermagem Obstétrica e Ginecológica",
+      "Assistência de Enfermagem à Saúde da Mulher",
+      "Obstetrícia",
+      "Ginecologia e Obstetrícia",
+      "Enfermagem Materno-Infantil",
+      "Saúde Materno-Infantil",
+      "Enfermagem na Saúde da Mulher",
+      "Cuidado à Saúde da Mulher",
+      "Saúde da Mulher e do Recém-Nascido"
+    ]
+  },
+  "saude-crianca": {
+    "area": "Biológicas e Saúde",
+    "apelidos": [
+      "Saúde da Criança",
+      "Saúde da Criança e do Adolescente",
+      "Enfermagem Pediátrica",
+      "Enfermagem em Saúde da Criança",
+      "Enfermagem em Saúde da Criança e do Adolescente",
+      "Enfermagem em Pediatria",
+      "Pediatria",
+      "Enfermagem Neonatal",
+      "Enfermagem Pediátrica e Neonatal",
+      "Assistência de Enfermagem à Saúde da Criança",
+      "Puericultura",
+      "Enfermagem na Saúde da Criança e do Adolescente",
+      "Cuidado à Saúde da Criança",
+      "Neonatologia"
+    ]
   }
 };
 

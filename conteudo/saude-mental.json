@@ -1,0 +1,465 @@
+{
+  "id": "saude-mental",
+  "nome": "Saúde Mental e Enfermagem Psiquiátrica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "reforma",
+      "nome": "Reforma psiquiátrica e política de saúde mental",
+      "resumo": "### Do manicômio ao cuidado em liberdade\n- **Modelo manicomial (asilar, hospitalocêntrico)**: tratamento baseado na **internação prolongada** e no isolamento em hospitais psiquiátricos, com perda de direitos e de vínculos.\n- **Philippe Pinel** (fim do século XVIII): libertou os alienados das correntes e inaugurou o \"tratamento moral\", mas manteve o isolamento no asilo.\n- **Franco Basaglia** (Itália, anos 1970): fechou o manicômio de Trieste e propôs a **desinstitucionalização**; inspirou a **Lei 180** italiana e a reforma brasileira. Ideia central: colocar \"a doença entre parênteses\" para cuidar da **pessoa**.\n\n### Reforma psiquiátrica brasileira\n- Movimento iniciado no fim dos anos 1970 por trabalhadores de saúde mental, usuários e familiares.\n- **1987**: lema **\"Por uma sociedade sem manicômios\"** e criação do primeiro CAPS, em São Paulo.\n- **18 de maio**: Dia Nacional da **Luta Antimanicomial**.\n- **Lei 10.216/2001** (Lei Paulo Delgado): marco legal. Redireciona o modelo assistencial e protege os direitos das pessoas com transtornos mentais.\n\n### Lei 10.216/2001\n- **Direitos**: acesso ao melhor tratamento; ser tratado com **humanidade e respeito**; proteção contra abuso; **sigilo**; receber informações sobre a doença e o tratamento; ser tratado em **ambiente terapêutico pelos meios menos invasivos**; preferencialmente em **serviços comunitários**.\n- **Internação**: só quando os recursos **extra-hospitalares forem insuficientes**. É vedada em instituições com características **asilares**.\n- **Tipos de internação**:\n  - **Voluntária**: com o **consentimento** do usuário.\n  - **Involuntária**: sem consentimento, a pedido de **terceiro**; deve ser comunicada ao **Ministério Público em 72 horas**, assim como a alta.\n  - **Compulsória**: determinada pela **Justiça**.\n- Toda internação exige **laudo médico** circunstanciado.\n\n### Rede de Atenção Psicossocial (RAPS)\nInstituída pela Portaria 3.088/2011. Articula os pontos de atenção para pessoas com sofrimento ou transtorno mental e com necessidades decorrentes do uso de álcool e outras drogas.\n- **Atenção básica**: unidades básicas, equipes de Saúde da Família, consultório na rua.\n- **Atenção psicossocial especializada**: **CAPS**.\n- **Urgência e emergência**: SAMU, UPA, pronto-socorro.\n- **Atenção residencial de caráter transitório**: unidades de acolhimento.\n- **Atenção hospitalar**: **leitos de saúde mental em hospital geral**.\n- **Estratégias de desinstitucionalização**: **Serviços Residenciais Terapêuticos (SRT)**, moradias para egressos de longas internações, e o programa **De Volta para Casa** (auxílio-reabilitação).\n- **Reabilitação psicossocial**: geração de trabalho e renda, cooperativas.\n\n### CAPS (Centro de Atenção Psicossocial)\nServiço **comunitário, aberto e territorial**, substitutivo ao hospital psiquiátrico; atende pessoas com transtornos mentais **graves e persistentes**. Funciona por **acolhimento**, sem necessidade de encaminhamento.\n- **CAPS I**: municípios menores.\n- **CAPS II**: municípios médios.\n- **CAPS III**: funciona **24 horas**, com acolhimento noturno.\n- **CAPS i**: **infantojuvenil**.\n- **CAPS AD**: **álcool e outras drogas**; o AD III funciona 24 horas.\n- Trabalha com **equipe multiprofissional** e **Projeto Terapêutico Singular**.\n\n### Conceitos do modelo psicossocial\n- **Território**: o lugar de vida da pessoa, com suas relações e recursos.\n- **Projeto Terapêutico Singular (PTS)**: plano de cuidado construído **com** o usuário e a família, com metas e responsáveis.\n- **Técnico de referência**: profissional que acompanha o caso.\n- **Matriciamento (apoio matricial)**: a equipe especializada **apoia** a atenção básica, compartilhando o cuidado.\n- **Clínica ampliada**: olhar para o sujeito e seu contexto, além da doença.\n- **Reabilitação psicossocial**: recuperar autonomia em **moradia, trabalho e rede social** (Saraceno).\n- **Redução de danos**: diminuir os prejuízos do uso de drogas **sem exigir abstinência** como condição.",
+      "revisao": "**Lembre:**\n- Reforma: do manicômio ao cuidado em liberdade, no território.\n- Lei 10.216/2001: internação só quando o extra-hospitalar não basta.\n- Internação voluntária, involuntária (avisar o MP em 72 h) e compulsória (juiz).\n- CAPS: serviço aberto e comunitário; CAPS III funciona 24 horas.\n- PTS: plano de cuidado feito com o usuário."
+    },
+    {
+      "id": "exame",
+      "nome": "Exame do estado mental e relação terapêutica",
+      "resumo": "### Exame do estado mental\nAvaliação organizada das **funções psíquicas**, feita por observação e entrevista. Descreve como a pessoa está **naquele momento**.\n\n### Funções psíquicas e principais alterações\n- **Aparência e atitude**: higiene, vestuário, postura; atitude cooperativa, hostil, desconfiada.\n- **Consciência** (nível de vigília): **lúcido**; **obnubilação** (rebaixamento leve), **torpor** e **coma**. ***Delirium***: quadro **agudo** e flutuante de confusão, com causa **orgânica**.\n- **Orientação**: **autopsíquica** (quem sou) e **alopsíquica** (tempo e espaço).\n- **Atenção**: hipoprosexia (diminuída) e distraibilidade.\n- **Memória**: **amnésia** (perda), anterógrada ou retrógrada; **confabulação** (preencher lacunas com fatos inventados, sem intenção de mentir).\n- **Sensopercepção**:\n  - **Ilusão**: percepção **deformada** de um objeto **real**.\n  - **Alucinação**: percepção **sem objeto**. As **auditivas** são as mais comuns na esquizofrenia; as visuais sugerem causa orgânica.\n- **Pensamento**:\n  - **Curso**: acelerado (**fuga de ideias**), lentificado, **bloqueio**.\n  - **Forma**: desagregação, afrouxamento das associações.\n  - **Conteúdo**: **delírio** — crença **falsa, fixa e irredutível** à argumentação, fora do contexto cultural. Tipos: **persecutório** (o mais comum), de grandeza, de ciúme, de ruína e de referência. **Ideias obsessivas**: pensamentos intrusivos que a pessoa reconhece como seus e absurdos.\n- **Linguagem**: logorreia (fala excessiva), mutismo, ecolalia (repete o que ouve), neologismos.\n- **Humor e afeto**: **humor** é o estado emocional de base; **afeto** é sua expressão. **Eutimia** (normal), **hipotimia** (depressivo), **hipertimia** (eufórico), **labilidade** (oscila rápido), **embotamento afetivo** e **anedonia** (perda do prazer).\n- **Vontade e psicomotricidade**: **abulia** (falta de vontade), agitação, lentificação, **catatonia**, estereotipias.\n- **Juízo de realidade** e **crítica (*insight*)**: consciência da própria doença.\n- **Inteligência**.\n\n### Ilusão, alucinação e delírio\n| | O que é | Função alterada |\n|---|---|---|\n| Ilusão | Percebe errado algo que existe | Sensopercepção |\n| Alucinação | Percebe algo que não existe | Sensopercepção |\n| Delírio | Acredita em algo falso | Pensamento |\n\n### Relacionamento terapêutico\nA relação é o **principal instrumento** de trabalho da enfermagem em saúde mental.\n- **Hildegard Peplau**: teoria das **relações interpessoais**. Fases: **orientação**, **identificação**, **exploração** e **resolução**. A enfermeira assume papéis de estranha, provedora de recursos, educadora, líder, substituta e conselheira.\n- **Joyce Travelbee**: relação pessoa a pessoa.\n\n### Comunicação terapêutica\n**Técnicas que ajudam**\n- **Escuta ativa** e silêncio terapêutico.\n- **Perguntas abertas** (\"como você tem se sentido?\").\n- **Reflexão** e **clarificação** (\"você quis dizer que...?\").\n- **Validação** do sentimento.\n- **Oferecer presença** e estabelecer limites com clareza.\n\n**Barreiras (evitar)**\n- Dar **falsas garantias** (\"vai ficar tudo bem\").\n- Dar conselhos e opiniões pessoais.\n- **Julgar**, moralizar ou desafiar.\n- Mudar de assunto.\n- Usar jargão ou infantilizar.\n\n### Como agir diante de sintomas psicóticos\n- **Não confrontar** o delírio nem **concordar** com ele: reconhecer o **sentimento** (\"percebo que isso assusta você\") sem validar o conteúdo.\n- Diante de alucinações: dizer com calma que **não percebe** o mesmo, sem negar a vivência; trazer para a realidade e para atividades concretas.\n- Manter ambiente calmo, com poucos estímulos.\n\n### Princípios\n**Empatia**, **aceitação** sem julgamento, **autenticidade**, **limites** claros, **sigilo** e respeito à **autonomia**.\n\n### Processo de enfermagem\nHistórico, diagnósticos de enfermagem, planejamento, implementação e avaliação, registrados no prontuário.",
+      "revisao": "**Lembre:**\n- Ilusão: deforma o real; alucinação: sem objeto; delírio: crença falsa e fixa.\n- Delirium é agudo e orgânico; não confundir com delírio.\n- Peplau: orientação, identificação, exploração e resolução.\n- Não confrontar nem concordar com o delírio; acolher o sentimento.\n- Evitar falsas garantias, conselhos e julgamentos."
+    },
+    {
+      "id": "transtornos",
+      "nome": "Principais transtornos mentais",
+      "resumo": "### Esquizofrenia\nTranstorno psicótico crônico, com início em geral no fim da adolescência ou começo da vida adulta.\n- **Sintomas positivos** (acréscimos): **delírios**, **alucinações** (sobretudo auditivas), pensamento e comportamento desorganizados.\n- **Sintomas negativos** (perdas): **embotamento afetivo**, **alogia** (pobreza da fala), **avolição**, **anedonia** e **isolamento social**.\n- **Sintomas cognitivos**: atenção e memória.\n- Cuidados: adesão à medicação, rotina, vínculo, apoio à família e reinserção social.\n\n### Transtornos do humor\n**Depressão (transtorno depressivo maior)**\n- Critério central: **humor deprimido** e/ou **perda de interesse e prazer (anedonia)**, por pelo menos **duas semanas**.\n- Outros sintomas: alterações do sono e do apetite, fadiga, lentificação, culpa, dificuldade de concentração e **ideação suicida**.\n\n**Transtorno afetivo bipolar**\n- Alterna episódios de **mania** (ou hipomania) e de **depressão**.\n- **Mania**: humor **eufórico ou irritável**, **aumento de energia**, **diminuição da necessidade de sono**, **fala acelerada**, fuga de ideias, **grandiosidade**, gastos excessivos e comportamentos de risco.\n- **Tipo I**: ao menos um episódio de **mania**. **Tipo II**: **hipomania** e depressão.\n- Cuidados na mania: ambiente com **poucos estímulos**, limites firmes e calmos, oferta de alimentos fáceis de comer e hidratação, proteção contra exaustão.\n\n### Transtornos de ansiedade\n- **Ansiedade generalizada**: preocupação excessiva e persistente.\n- **Transtorno de pânico**: **ataques** súbitos de medo intenso, com palpitação, falta de ar, tremor e sensação de morte iminente.\n- **Fobias**: medo desproporcional de objeto ou situação (**específica**, **social** e **agorafobia**).\n- No ataque de pânico: permanecer junto, falar com calma, orientar respiração lenta e ambiente tranquilo.\n\n### Transtorno obsessivo-compulsivo (TOC)\n- **Obsessões**: pensamentos intrusivos e repetitivos que geram ansiedade.\n- **Compulsões**: atos repetitivos feitos para aliviá-la (lavar as mãos, verificar).\n\n### Transtorno de estresse pós-traumático (TEPT)\nApós evento traumático: **revivescência** (*flashbacks*, pesadelos), **evitação**, hipervigilância e alterações do humor.\n\n### Transtornos da personalidade\nPadrões rígidos e duradouros de comportamento.\n- **Borderline (limítrofe)**: **instabilidade** nas relações, na autoimagem e no afeto; **impulsividade**, medo de abandono e **autolesão**.\n- **Antissocial**: desrespeito às normas e aos direitos alheios.\n- Cuidado: **limites consistentes** e a mesma conduta por toda a equipe.\n\n### Transtornos alimentares\n- **Anorexia nervosa**: restrição alimentar, **medo intenso de engordar**, distorção da imagem corporal e **baixo peso**.\n- **Bulimia nervosa**: episódios de **compulsão** seguidos de **comportamentos compensatórios** (vômito, laxantes); peso em geral normal.\n\n### Demências\nDeclínio **progressivo** das funções cognitivas, com prejuízo da autonomia. A mais comum é a **doença de Alzheimer** (começa pela memória recente).\n- Cuidados: ambiente seguro e rotina estável, orientação para a realidade, comunicação simples e apoio ao **cuidador**.\n\n### *Delirium* x demência\n| | *Delirium* | Demência |\n|---|---|---|\n| Início | **Agudo** (horas, dias) | **Insidioso** (meses, anos) |\n| Curso | **Flutuante** | Progressivo |\n| Consciência | **Alterada** | Preservada no início |\n| Reversível | Em geral, **sim** | Em geral, não |\n| Causa | Orgânica (infecção, remédios) | Degenerativa |\n\n### Infância e adolescência\n- **Transtorno do espectro autista (TEA)**: déficits na **comunicação e interação social** e **comportamentos repetitivos e interesses restritos**.\n- **TDAH**: **desatenção**, **hiperatividade** e **impulsividade**.\n- Deficiência intelectual e transtornos de aprendizagem.\n\n### Classificações\n**CID** (OMS) e **DSM** (Associação Americana de Psiquiatria).",
+      "revisao": "**Lembre:**\n- Esquizofrenia: positivos (delírio, alucinação) e negativos (embotamento, isolamento).\n- Depressão: humor deprimido ou anedonia por duas semanas.\n- Mania: euforia, pouca necessidade de sono, fala acelerada, grandiosidade.\n- Anorexia: baixo peso e medo de engordar; bulimia: compulsão e compensação.\n- Delirium é agudo e reversível; demência é lenta e progressiva."
+    },
+    {
+      "id": "psicofarmacos",
+      "nome": "Psicofármacos e cuidados de enfermagem",
+      "resumo": "### Antipsicóticos (neurolépticos)\nTratam psicoses; agem principalmente **bloqueando receptores de dopamina (D2)**.\n- **Típicos (primeira geração)**: **haloperidol**, **clorpromazina**. Atuam sobre os sintomas **positivos**; causam mais **efeitos extrapiramidais**.\n- **Atípicos (segunda geração)**: **risperidona**, **olanzapina**, **quetiapina**, **clozapina**. Menos efeitos extrapiramidais, mas mais **efeitos metabólicos** (ganho de peso, diabetes, dislipidemia).\n- **Clozapina**: para esquizofrenia **refratária**; risco de **agranulocitose**, o que exige **hemogramas periódicos**.\n- **De depósito** (decanoato de haloperidol): injeção mensal; ajuda na adesão.\n\n**Efeitos extrapiramidais**\n- **Distonia aguda**: contrações musculares involuntárias (torcicolo, crise oculógira); surge cedo.\n- **Acatisia**: inquietação, incapacidade de ficar parado.\n- **Parkinsonismo**: tremor, rigidez e lentidão.\n- **Discinesia tardia**: movimentos involuntários de boca e língua, após uso prolongado; pode ser irreversível.\n- Tratados com **anticolinérgicos** (biperideno).\n\n**Síndrome neuroléptica maligna**: emergência rara e grave — **febre alta**, **rigidez muscular intensa**, alteração da consciência e instabilidade autonômica. Suspender o fármaco e dar suporte.\n\nOutros efeitos: sedação, **hipotensão postural**, boca seca e constipação.\n\n### Antidepressivos\nDemoram cerca de **2 a 4 semanas** para fazer efeito; a pessoa precisa ser orientada a não interromper.\n- **ISRS** (inibidores seletivos da recaptação de serotonina): **fluoxetina**, **sertralina**, paroxetina, escitalopram. Primeira escolha; efeitos: náusea, insônia, disfunção sexual.\n- **Tricíclicos**: **amitriptilina**, imipramina, nortriptilina. Efeitos **anticolinérgicos** (boca seca, constipação, retenção urinária, visão turva), sedação e **cardiotoxicidade**; perigosos em superdosagem.\n- **IMAO** (inibidores da monoaminoxidase): tranilcipromina. Exigem dieta **sem tiramina** (queijos curados, embutidos, vinho), sob risco de **crise hipertensiva**.\n- **Duais** (venlafaxina, duloxetina) e outros (bupropiona, mirtazapina).\n- **Síndrome serotoninérgica**: agitação, tremor, febre, sudorese; por associação de fármacos serotoninérgicos.\n- **Atenção**: no início do tratamento, a **energia melhora antes do humor**, o que pode aumentar o **risco de suicídio**.\n\n### Estabilizadores do humor\n- **Carbonato de lítio**: padrão no transtorno bipolar. Tem **faixa terapêutica estreita** — exige **litemia** periódica (em torno de 0,6 a 1,2 mEq/L).\n  - **Intoxicação**: tremores grosseiros, náusea e vômito, diarreia, ataxia, confusão e convulsões.\n  - Orientar: manter **ingestão regular de sal e de líquidos** (a desidratação e a dieta hipossódica elevam o lítio); cuidado com diuréticos e anti-inflamatórios.\n  - Controlar função **renal** e **tireoidiana**.\n- **Anticonvulsivantes**: ácido valproico, carbamazepina e lamotrigina.\n\n### Ansiolíticos e hipnóticos\n- **Benzodiazepínicos**: **diazepam**, clonazepam, alprazolam, lorazepam. Potencializam o **GABA**. Efeito rápido.\n  - Riscos: **sedação**, **dependência e tolerância**, prejuízo da memória, **quedas em idosos** e depressão respiratória (sobretudo com álcool).\n  - Uso por **curto prazo**; retirada **gradual** para evitar abstinência.\n  - Antídoto: **flumazenil**.\n- **Buspirona**: ansiolítico sem dependência.\n\n### Outros\n- **Metilfenidato**: psicoestimulante usado no TDAH.\n- **Anticolinesterásicos** (donepezila, rivastigmina): Alzheimer.\n\n### Cuidados gerais de enfermagem\n- Aplicar os **certos** da medicação e **verificar se o paciente engoliu** o comprimido.\n- Observar e registrar **efeitos terapêuticos e adversos**.\n- Monitorar **sinais vitais**; orientar a levantar-se devagar (hipotensão postural).\n- Educar o usuário e a família sobre o tempo de ação, os efeitos e a importância de **não interromper** por conta própria.\n- Orientar a **não associar com álcool**.\n- Favorecer a **adesão**: esquemas simples e escuta das queixas.\n\n### Eletroconvulsoterapia (ECT)\nIndicada em depressão grave refratária, risco de suicídio e catatonia. Feita sob **anestesia** e relaxante muscular. Cuidados: jejum, consentimento, monitorização e observação da confusão e da amnésia transitórias após o procedimento.",
+      "revisao": "**Lembre:**\n- Antipsicóticos típicos: mais efeitos extrapiramidais; atípicos: mais efeitos metabólicos.\n- Clozapina: risco de agranulocitose; exige hemograma.\n- Antidepressivos levam de 2 a 4 semanas para agir.\n- Lítio: faixa estreita; litemia, sal e líquidos regulares.\n- Benzodiazepínicos: dependência, sedação e queda em idosos."
+    },
+    {
+      "id": "crise",
+      "nome": "Crise, risco de suicídio e emergências",
+      "resumo": "### Crise\nMomento de **ruptura do equilíbrio** psíquico, em que os recursos habituais da pessoa não dão conta. É também **oportunidade** de mudança. O cuidado busca **acolher**, garantir segurança e manter os vínculos, evitando a internação sempre que possível.\n\n### Emergências psiquiátricas\nSituações com **risco à vida** ou à integridade da pessoa ou de terceiros: tentativa de suicídio, agitação psicomotora, agressividade, surto psicótico, intoxicação e abstinência graves.\n- Sempre **descartar causa orgânica** (hipoglicemia, infecção, traumatismo, intoxicação).\n\n### Suicídio\nProblema de saúde pública; é **evitável** na maior parte dos casos.\n- **Fatores de risco**: **tentativa anterior** (o principal preditor), **transtorno mental** (depressão, bipolaridade, esquizofrenia, dependência química), desesperança, isolamento, doença crônica e dor, perdas recentes, acesso a meios letais, história familiar.\n- **Fatores de proteção**: vínculos familiares e sociais, acesso ao cuidado, crenças, projetos de vida.\n- **Sinais de alerta**: falar em morrer ou em ser um peso, despedir-se, doar pertences, isolar-se, melhora súbita e inexplicada após período de depressão.\n\n**Mitos**\n- \"Quem fala não faz\": **falso**. A maioria avisa.\n- \"Perguntar induz\": **falso**. Perguntar **protege** e alivia.\n\n**Avaliação do risco**\n- Há **ideação**? Há **plano**? Há **meios** disponíveis? Há data marcada? Há tentativa anterior?\n- Risco **baixo** (ideias sem plano), **médio** (ideias e plano, sem intenção imediata) e **alto** (plano definido, meios e intenção).\n\n**Condutas**\n- **Perguntar diretamente**, com respeito; escutar sem julgar e levar a sério.\n- **Não deixar a pessoa sozinha** no risco alto; observação contínua.\n- **Retirar meios** letais (objetos cortantes, medicamentos, cordas).\n- Envolver a **família** e a rede.\n- Encaminhar e garantir a continuidade no **CAPS** ou em outro ponto da rede.\n- **Notificação compulsória**: a tentativa de suicídio e a violência autoprovocada devem ser notificadas em até **24 horas**.\n- **CVV**: telefone **188**, apoio emocional gratuito.\n- **Posvenção**: cuidado aos familiares e amigos enlutados.\n\n### Agitação e agressividade\n- Primeira medida: **abordagem verbal** — tom calmo e firme, frases curtas, postura não ameaçadora, manter distância segura e uma saída livre.\n- **Reduzir estímulos**; não ficar sozinho com a pessoa; retirar objetos perigosos.\n- **Contenção química**: medicação, por prescrição.\n- **Contenção mecânica (física)**: **último recurso**, quando há risco iminente e as outras medidas falharam.\n  - Deve ter **indicação clínica**, nunca caráter **punitivo** ou de conveniência da equipe.\n  - Feita por equipe treinada (idealmente cinco pessoas), com faixas adequadas.\n  - Exige **monitoramento frequente**: sinais vitais, perfusão das extremidades, hidratação, conforto e nível de consciência.\n  - Pelo **menor tempo possível**; registrar tudo no prontuário.\n  - Resolução do **Cofen** regulamenta a atuação da enfermagem na contenção.\n\n### Álcool e outras drogas\n- **Uso**, **uso nocivo (abuso)** e **dependência** (tolerância, abstinência, perda do controle).\n- **Síndrome de abstinência alcoólica**: começa horas após parar de beber — **tremores**, sudorese, ansiedade, náusea, taquicardia, insônia; pode haver convulsões.\n- ***Delirium tremens***: forma **grave**, de 48 a 96 horas após a última dose — **confusão**, **alucinações visuais** (animais pequenos), tremores intensos, febre e agitação. É **emergência**.\n- Tratamento: **benzodiazepínicos**, hidratação e **tiamina** (vitamina B1), para prevenir a **encefalopatia de Wernicke**.\n- **Intoxicação por opioides**: miose, depressão respiratória; antídoto **naloxona**.\n- **Estimulantes** (cocaína, crack): agitação, taquicardia, paranoia.\n- **Redução de danos** e **entrevista motivacional** (estágios de mudança: pré-contemplação, contemplação, preparação, ação e manutenção).\n- Grupos de ajuda mútua (AA, NA) e CAPS AD.\n\n### Família\nAcolher, informar e incluir a família no cuidado; ela também adoece e precisa de apoio.",
+      "revisao": "**Lembre:**\n- Tentativa anterior é o principal fator de risco de suicídio.\n- Perguntar sobre suicídio protege; não induz.\n- Avaliar ideação, plano e meios; no risco alto, não deixar só.\n- Contenção mecânica: último recurso, nunca punição, com monitoramento.\n- Delirium tremens: confusão e alucinações visuais; emergência."
+    },
+    {
+      "id": "cuidado",
+      "nome": "Cuidado no território e grupos específicos",
+      "resumo": "### Saúde mental na atenção básica\nA maior parte do sofrimento mental chega primeiro à **unidade básica de saúde**.\n- **Acolhimento** e escuta qualificada.\n- **Transtornos mentais comuns**: ansiedade, depressão leve e queixas somáticas.\n- **Matriciamento**: a equipe de saúde mental apoia a equipe de Saúde da Família, com discussão de casos, consultas conjuntas e visitas.\n- Ações: grupos, visitas domiciliares, acompanhamento do uso de medicação e articulação com o CAPS.\n- **Projeto Terapêutico Singular** nos casos complexos.\n\n### Tecnologias de cuidado\n- **Leves**: vínculo, acolhimento e escuta — as mais importantes em saúde mental (Merhy).\n- **Leve-duras**: saberes estruturados.\n- **Duras**: equipamentos.\n\n### Atividades terapêuticas\n- **Grupos terapêuticos** e **oficinas** (expressivas, de geração de renda, de alfabetização).\n- **Assembleias** de usuários e familiares.\n- **Atendimento familiar** e visita domiciliar.\n- **Acompanhamento terapêutico**: circular com o usuário pela cidade.\n- **Ambiência**: o ambiente como parte do tratamento.\n- **Práticas integrativas**.\n\n### Papel da enfermagem\n- Acolher, avaliar e planejar o cuidado (**processo de enfermagem**).\n- Administrar e monitorar medicações.\n- Coordenar grupos e oficinas; atuar como **técnico de referência**.\n- Promover o **autocuidado**: higiene, alimentação e sono.\n- Cuidar da **saúde física**: pessoas com transtorno mental grave têm mais doenças cardiovasculares e metabólicas e morrem mais cedo.\n- Educação em saúde para usuário e família.\n- Registro e trabalho em equipe.\n\n### Infância e adolescência\n- **CAPS i**; articulação com escola, conselho tutelar e assistência social.\n- **TEA**: rotina previsível, comunicação clara, intervenção precoce e apoio à família.\n- **TDAH**, depressão, autolesão e uso de substâncias na adolescência.\n- Atenção a sinais de **violência**; notificação obrigatória.\n- Evitar a **medicalização** de comportamentos próprios da idade.\n\n### Mulher\n- **Depressão pós-parto**: tristeza persistente, culpa e dificuldade de cuidar do bebê, por semanas ou meses. Diferente do ***baby blues*** (tristeza leve e passageira, nos primeiros dias).\n- **Psicose puerperal**: rara e grave; é emergência.\n- Sofrimento ligado à **violência de gênero**.\n\n### Idoso\n- **Depressão** (muitas vezes mascarada por queixas físicas), **demência** e ***delirium***.\n- Risco de **suicídio** elevado em idosos.\n- Cuidado com a **polifarmácia** e com benzodiazepínicos (quedas).\n- Apoio ao **cuidador** e prevenção de maus-tratos.\n\n### População em situação de rua e outros grupos\n- **Consultório na rua**: equipe que vai até as pessoas.\n- Populações negra, indígena e LGBTQIA+: sofrimento ligado a preconceito e exclusão.\n\n### Saúde mental do trabalhador de saúde\n- **Burnout**, sobrecarga, sofrimento moral.\n- Importância da **supervisão clínico-institucional**, do apoio entre a equipe e do autocuidado.\n\n### Estigma\nO preconceito afasta as pessoas do cuidado e da vida social. Combate-se com informação, convivência e linguagem respeitosa (\"pessoa com transtorno mental\", e não \"louco\" ou \"doente mental\").\n\n### Direitos e ética\n- **Autonomia** e **consentimento**; participação do usuário nas decisões.\n- **Sigilo** profissional.\n- **Protagonismo** de usuários e familiares; controle social (conferências e conselhos de saúde).\n- Denúncia de maus-tratos e violações.\n- **Curatela** e tomada de decisão apoiada (Lei Brasileira de Inclusão): a deficiência **não afeta a plena capacidade civil**.\n\n### Promoção da saúde mental\nSono, atividade física, vínculos, lazer, trabalho digno e redução de desigualdades.",
+      "revisao": "**Lembre:**\n- A atenção básica é a porta de entrada; matriciamento apoia a equipe.\n- Tecnologias leves (vínculo, escuta) são centrais.\n- Enfermagem cuida também da saúde física do usuário.\n- Depressão pós-parto dura semanas; baby blues é leve e passageiro.\n- Combater o estigma com informação e linguagem respeitosa."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "saude-mental-1",
+      "topico": "reforma",
+      "nivel": "conceitual",
+      "pergunta": "A lei que redirecionou o modelo de assistência em saúde mental no Brasil e protege os direitos das pessoas com transtornos mentais é a:",
+      "opcoes": [
+        "Lei 10.216/2001",
+        "Lei 8.080/1990",
+        "Lei 8.142/1990",
+        "Lei 7.498/1986"
+      ],
+      "correta": 0,
+      "explicacao": "Conhecida como Lei Paulo Delgado, é o marco legal da reforma psiquiátrica brasileira."
+    },
+    {
+      "id": "saude-mental-2",
+      "topico": "reforma",
+      "nivel": "conceitual",
+      "pergunta": "A internação psiquiátrica involuntária deve ser comunicada ao Ministério Público em até:",
+      "opcoes": [
+        "24 horas",
+        "72 horas",
+        "7 dias",
+        "30 dias"
+      ],
+      "correta": 1,
+      "explicacao": "A comunicação vale tanto para a internação quanto para a alta do paciente."
+    },
+    {
+      "id": "saude-mental-3",
+      "topico": "reforma",
+      "nivel": "conceitual",
+      "pergunta": "O CAPS que funciona 24 horas, com acolhimento noturno, é o:",
+      "opcoes": [
+        "CAPS I",
+        "CAPS II",
+        "CAPS III",
+        "CAPS infantojuvenil"
+      ],
+      "correta": 2,
+      "explicacao": "Os CAPS I e II funcionam apenas durante o dia, sem acolhimento noturno."
+    },
+    {
+      "id": "saude-mental-4",
+      "topico": "reforma",
+      "nivel": "aplicacao",
+      "pergunta": "Um morador de hospital psiquiátrico há 20 anos, sem vínculos familiares, recebe alta. O dispositivo da RAPS indicado para sua moradia é:",
+      "opcoes": [
+        "A UPA",
+        "O pronto-socorro",
+        "A enfermaria de clínica médica",
+        "O Serviço Residencial Terapêutico"
+      ],
+      "correta": 3,
+      "explicacao": "As residências terapêuticas acolhem egressos de longas internações na comunidade."
+    },
+    {
+      "id": "saude-mental-5",
+      "topico": "reforma",
+      "nivel": "analise",
+      "pergunta": "Por que o CAPS é considerado um serviço substitutivo ao hospital psiquiátrico, e não complementar?",
+      "opcoes": [
+        "Porque oferece cuidado intensivo em liberdade, no território, tornando desnecessária a internação asilar",
+        "Porque só atende casos leves",
+        "Porque interna os pacientes por longos períodos",
+        "Porque funciona dentro do manicômio"
+      ],
+      "correta": 0,
+      "explicacao": "A proposta é cuidar sem romper os vínculos da pessoa com a família e a comunidade."
+    },
+    {
+      "id": "saude-mental-6",
+      "topico": "exame",
+      "nivel": "conceitual",
+      "pergunta": "A percepção de algo que não existe, como ouvir vozes sem que haja som, é uma:",
+      "opcoes": [
+        "Ilusão",
+        "Alucinação",
+        "Ideia obsessiva",
+        "Confabulação"
+      ],
+      "correta": 1,
+      "explicacao": "Na ilusão, ao contrário, existe um objeto real que é percebido de forma deformada."
+    },
+    {
+      "id": "saude-mental-7",
+      "topico": "exame",
+      "nivel": "conceitual",
+      "pergunta": "O delírio é uma alteração:",
+      "opcoes": [
+        "Da sensopercepção",
+        "Do nível de consciência",
+        "Do conteúdo do pensamento",
+        "Da memória"
+      ],
+      "correta": 2,
+      "explicacao": "Trata-se de uma crença falsa, fixa e irredutível à argumentação lógica."
+    },
+    {
+      "id": "saude-mental-8",
+      "topico": "exame",
+      "nivel": "conceitual",
+      "pergunta": "A teoria das relações interpessoais na enfermagem foi formulada por:",
+      "opcoes": [
+        "Florence Nightingale",
+        "Wanda Horta",
+        "Dorothea Orem",
+        "Hildegard Peplau"
+      ],
+      "correta": 3,
+      "explicacao": "Ela descreve as fases de orientação, identificação, exploração e resolução."
+    },
+    {
+      "id": "saude-mental-9",
+      "topico": "exame",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente afirma, convicto, que a polícia implantou um chip em sua cabeça. A melhor resposta da enfermeira é:",
+      "opcoes": [
+        "Reconhecer o medo que ele sente, sem confirmar nem contestar a ideia",
+        "Dizer que isso é impossível e que ele está errado",
+        "Concordar que o chip existe",
+        "Rir para descontrair"
+      ],
+      "correta": 0,
+      "explicacao": "Confrontar reforça a desconfiança, e concordar valida o delírio."
+    },
+    {
+      "id": "saude-mental-10",
+      "topico": "exame",
+      "nivel": "analise",
+      "pergunta": "Por que dizer 'não se preocupe, vai ficar tudo bem' é considerada uma barreira à comunicação terapêutica?",
+      "opcoes": [
+        "Porque é uma pergunta aberta",
+        "Porque é uma falsa garantia que desvaloriza o sentimento da pessoa e encerra a conversa",
+        "Porque demonstra empatia excessiva",
+        "Porque é uma técnica de clarificação"
+      ],
+      "correta": 1,
+      "explicacao": "A escuta e a validação do sentimento ajudam mais do que tranquilizar sem fundamento."
+    },
+    {
+      "id": "saude-mental-11",
+      "topico": "transtornos",
+      "nivel": "conceitual",
+      "pergunta": "São sintomas negativos da esquizofrenia:",
+      "opcoes": [
+        "Delírios e alucinações",
+        "Euforia e fala acelerada",
+        "Embotamento afetivo e isolamento social",
+        "Compulsões e obsessões"
+      ],
+      "correta": 2,
+      "explicacao": "Os sintomas positivos, como delírios e alucinações, são acréscimos à experiência normal."
+    },
+    {
+      "id": "saude-mental-12",
+      "topico": "transtornos",
+      "nivel": "conceitual",
+      "pergunta": "No episódio de mania do transtorno bipolar, é típico encontrar:",
+      "opcoes": [
+        "Lentificação e desânimo",
+        "Medo intenso de engordar",
+        "Perda progressiva de memória",
+        "Diminuição da necessidade de sono e fala acelerada"
+      ],
+      "correta": 3,
+      "explicacao": "Também são comuns a grandiosidade, os gastos excessivos e os comportamentos de risco."
+    },
+    {
+      "id": "saude-mental-13",
+      "topico": "transtornos",
+      "nivel": "conceitual",
+      "pergunta": "Na bulimia nervosa, ocorrem:",
+      "opcoes": [
+        "Episódios de compulsão alimentar seguidos de comportamentos compensatórios",
+        "Restrição alimentar com peso muito baixo, sempre",
+        "Alucinações auditivas",
+        "Rituais de verificação"
+      ],
+      "correta": 0,
+      "explicacao": "Diferente da anorexia, o peso costuma ficar próximo do normal."
+    },
+    {
+      "id": "saude-mental-14",
+      "topico": "transtornos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma idosa internada por infecção urinária fica, de repente, confusa e agitada à noite, com períodos de lucidez durante o dia. O quadro sugere:",
+      "opcoes": [
+        "Demência de Alzheimer",
+        "Delirium",
+        "Esquizofrenia",
+        "Transtorno de pânico"
+      ],
+      "correta": 1,
+      "explicacao": "O início agudo, o curso flutuante e a causa orgânica são característicos."
+    },
+    {
+      "id": "saude-mental-15",
+      "topico": "transtornos",
+      "nivel": "analise",
+      "pergunta": "Por que, no cuidado à pessoa com transtorno de personalidade borderline, toda a equipe deve manter a mesma conduta e limites consistentes?",
+      "opcoes": [
+        "Porque o paciente não percebe diferenças entre profissionais",
+        "Porque limites são proibidos em saúde mental",
+        "Porque a instabilidade nas relações favorece a divisão da equipe e limites variáveis aumentam a insegurança",
+        "Porque o transtorno é causado pela equipe"
+      ],
+      "correta": 2,
+      "explicacao": "Condutas coerentes dão previsibilidade e reduzem conflitos."
+    },
+    {
+      "id": "saude-mental-16",
+      "topico": "psicofarmacos",
+      "nivel": "conceitual",
+      "pergunta": "O uso de clozapina exige o controle periódico de:",
+      "opcoes": [
+        "Litemia",
+        "Glicemia capilar a cada hora",
+        "Tempo de protrombina",
+        "Hemograma, pelo risco de agranulocitose"
+      ],
+      "correta": 3,
+      "explicacao": "A queda acentuada dos glóbulos brancos é o efeito adverso mais temido desse fármaco."
+    },
+    {
+      "id": "saude-mental-17",
+      "topico": "psicofarmacos",
+      "nivel": "conceitual",
+      "pergunta": "O efeito terapêutico dos antidepressivos costuma aparecer após:",
+      "opcoes": [
+        "Duas a quatro semanas de uso",
+        "Algumas horas",
+        "Um a dois dias",
+        "Seis meses"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso é importante orientar a pessoa a não abandonar o tratamento logo no início."
+    },
+    {
+      "id": "saude-mental-18",
+      "topico": "psicofarmacos",
+      "nivel": "conceitual",
+      "pergunta": "Os benzodiazepínicos têm como risco importante:",
+      "opcoes": [
+        "Agranulocitose",
+        "Dependência e sedação",
+        "Crise hipertensiva com queijos",
+        "Discinesia tardia"
+      ],
+      "correta": 1,
+      "explicacao": "Em idosos, a sedação aumenta o risco de quedas."
+    },
+    {
+      "id": "saude-mental-19",
+      "topico": "psicofarmacos",
+      "nivel": "aplicacao",
+      "pergunta": "Um paciente em uso de lítio apresenta tremores grosseiros, vômitos, diarreia e confusão após um dia de calor intenso com pouca ingestão de líquidos. A suspeita é de:",
+      "opcoes": [
+        "Síndrome neuroléptica maligna",
+        "Efeito esperado sem importância",
+        "Intoxicação por lítio",
+        "Crise de pânico"
+      ],
+      "correta": 2,
+      "explicacao": "A desidratação eleva a concentração do lítio no sangue, que tem faixa terapêutica estreita."
+    },
+    {
+      "id": "saude-mental-20",
+      "topico": "psicofarmacos",
+      "nivel": "analise",
+      "pergunta": "Por que o risco de suicídio pode aumentar nas primeiras semanas de tratamento com antidepressivos?",
+      "opcoes": [
+        "Porque os antidepressivos causam alucinações",
+        "Porque o remédio piora o humor de forma definitiva",
+        "Porque a pessoa deixa de dormir",
+        "Porque a energia e a iniciativa melhoram antes do humor, dando forças para agir"
+      ],
+      "correta": 3,
+      "explicacao": "Esse período exige vigilância e acompanhamento mais próximo."
+    },
+    {
+      "id": "saude-mental-21",
+      "topico": "crise",
+      "nivel": "conceitual",
+      "pergunta": "O principal fator de risco para o suicídio é:",
+      "opcoes": [
+        "Tentativa anterior",
+        "Idade jovem, isoladamente",
+        "Ter emprego estável",
+        "Praticar atividade física"
+      ],
+      "correta": 0,
+      "explicacao": "A presença de transtorno mental também é um fator muito importante."
+    },
+    {
+      "id": "saude-mental-22",
+      "topico": "crise",
+      "nivel": "conceitual",
+      "pergunta": "A contenção mecânica em saúde mental deve ser usada:",
+      "opcoes": [
+        "Como punição por mau comportamento",
+        "Como último recurso, por indicação clínica e com monitoramento",
+        "Sempre que faltar pessoal na equipe",
+        "Como rotina na admissão"
+      ],
+      "correta": 1,
+      "explicacao": "Ela deve durar o menor tempo possível e ser registrada no prontuário."
+    },
+    {
+      "id": "saude-mental-23",
+      "topico": "crise",
+      "nivel": "conceitual",
+      "pergunta": "O delirium tremens é uma complicação grave da:",
+      "opcoes": [
+        "Intoxicação por lítio",
+        "Depressão pós-parto",
+        "Abstinência alcoólica",
+        "Esquizofrenia"
+      ],
+      "correta": 2,
+      "explicacao": "Manifesta-se com confusão, tremores intensos e alucinações visuais."
+    },
+    {
+      "id": "saude-mental-24",
+      "topico": "crise",
+      "nivel": "aplicacao",
+      "pergunta": "Um usuário do CAPS diz que 'não aguenta mais viver'. A conduta inicial adequada do enfermeiro é:",
+      "opcoes": [
+        "Mudar de assunto para não estimular a ideia",
+        "Dizer que ele tem tudo para ser feliz",
+        "Ignorar, pois quem fala não faz",
+        "Perguntar diretamente sobre pensamentos de morte, plano e meios, escutando sem julgar"
+      ],
+      "correta": 3,
+      "explicacao": "Perguntar com respeito permite avaliar o risco e funciona como proteção."
+    },
+    {
+      "id": "saude-mental-25",
+      "topico": "crise",
+      "nivel": "analise",
+      "pergunta": "Por que a abordagem verbal deve vir antes de qualquer contenção diante de um paciente agitado?",
+      "opcoes": [
+        "Porque muitas vezes acalma a pessoa, evitando medidas mais invasivas e com mais riscos",
+        "Porque a contenção é sempre proibida",
+        "Porque o paciente agitado não oferece risco",
+        "Porque a medicação nunca funciona"
+      ],
+      "correta": 0,
+      "explicacao": "Tom calmo, frases curtas e redução de estímulos resolvem boa parte das situações."
+    },
+    {
+      "id": "saude-mental-26",
+      "topico": "cuidado",
+      "nivel": "conceitual",
+      "pergunta": "O apoio que a equipe de saúde mental oferece à atenção básica, com discussão de casos e atendimentos conjuntos, chama-se:",
+      "opcoes": [
+        "Triagem",
+        "Matriciamento",
+        "Referência hospitalar",
+        "Auditoria"
+      ],
+      "correta": 1,
+      "explicacao": "Ele permite que o cuidado em saúde mental seja compartilhado no território."
+    },
+    {
+      "id": "saude-mental-27",
+      "topico": "cuidado",
+      "nivel": "conceitual",
+      "pergunta": "Vínculo, acolhimento e escuta são classificados como tecnologias:",
+      "opcoes": [
+        "Duras",
+        "Leve-duras",
+        "Leves",
+        "Hospitalares"
+      ],
+      "correta": 2,
+      "explicacao": "São as mais importantes para o cuidado em saúde mental."
+    },
+    {
+      "id": "saude-mental-28",
+      "topico": "cuidado",
+      "nivel": "conceitual",
+      "pergunta": "O baby blues diferencia-se da depressão pós-parto por ser:",
+      "opcoes": [
+        "Mais grave e prolongado",
+        "Uma psicose",
+        "Exclusivo de mulheres com transtorno prévio",
+        "Leve e passageiro, nos primeiros dias após o parto"
+      ],
+      "correta": 3,
+      "explicacao": "A depressão pós-parto dura semanas ou meses e prejudica o cuidado de si e do bebê."
+    },
+    {
+      "id": "saude-mental-29",
+      "topico": "cuidado",
+      "nivel": "aplicacao",
+      "pergunta": "Uma agente comunitária relata um morador que não sai de casa há meses e se recusa a ir à unidade. A equipe deve:",
+      "opcoes": [
+        "Realizar visita domiciliar e discutir o caso com o apoio matricial",
+        "Aguardar que ele procure o serviço",
+        "Solicitar internação compulsória de imediato",
+        "Encerrar o acompanhamento"
+      ],
+      "correta": 0,
+      "explicacao": "O cuidado no território vai até a pessoa e constrói o vínculo aos poucos."
+    },
+    {
+      "id": "saude-mental-30",
+      "topico": "cuidado",
+      "nivel": "analise",
+      "pergunta": "Por que a enfermagem em saúde mental também deve acompanhar a saúde física dos usuários?",
+      "opcoes": [
+        "Porque os psicofármacos não têm efeitos no corpo",
+        "Porque pessoas com transtornos mentais graves têm mais doenças clínicas e maior mortalidade precoce",
+        "Porque a saúde física não se relaciona com a mental",
+        "Porque isso substitui o cuidado psicossocial"
+      ],
+      "correta": 1,
+      "explicacao": "Efeitos metabólicos dos medicamentos, tabagismo e menor acesso ao cuidado contribuem para isso."
+    }
+  ]
+}

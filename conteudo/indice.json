@@ -4158,6 +4158,146 @@
       ]
     },
     {
+      "id": "saude-crianca",
+      "nome": "Saúde da Criança e Enfermagem Pediátrica",
+      "apelidos": [
+        "Saúde da Criança",
+        "Saúde da Criança e do Adolescente",
+        "Enfermagem Pediátrica",
+        "Enfermagem em Saúde da Criança",
+        "Enfermagem em Saúde da Criança e do Adolescente",
+        "Enfermagem em Pediatria",
+        "Pediatria",
+        "Enfermagem Neonatal",
+        "Enfermagem Pediátrica e Neonatal",
+        "Assistência de Enfermagem à Saúde da Criança",
+        "Puericultura",
+        "Enfermagem na Saúde da Criança e do Adolescente",
+        "Cuidado à Saúde da Criança",
+        "Neonatologia"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "politica",
+          "nome": "Políticas e direitos da criança"
+        },
+        {
+          "id": "neonato",
+          "nome": "Cuidado ao recém-nascido"
+        },
+        {
+          "id": "crescimento",
+          "nome": "Crescimento, desenvolvimento e puericultura"
+        },
+        {
+          "id": "alimentacao",
+          "nome": "Alimentação e imunização"
+        },
+        {
+          "id": "agravos",
+          "nome": "Agravos prevalentes na infância"
+        },
+        {
+          "id": "tecnicas",
+          "nome": "Procedimentos e cuidados de enfermagem pediátrica"
+        }
+      ]
+    },
+    {
+      "id": "saude-mental",
+      "nome": "Saúde Mental e Enfermagem Psiquiátrica",
+      "apelidos": [
+        "Saúde Mental",
+        "Enfermagem em Saúde Mental",
+        "Enfermagem Psiquiátrica",
+        "Enfermagem em Saúde Mental e Psiquiatria",
+        "Enfermagem em Saúde Mental e Psiquiátrica",
+        "Saúde Mental e Psiquiatria",
+        "Assistência de Enfermagem em Saúde Mental",
+        "Cuidado em Saúde Mental",
+        "Saúde Mental I",
+        "Saúde Mental II",
+        "Atenção Psicossocial",
+        "Saúde Mental Coletiva",
+        "Políticas de Saúde Mental"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "reforma",
+          "nome": "Reforma psiquiátrica e política de saúde mental"
+        },
+        {
+          "id": "exame",
+          "nome": "Exame do estado mental e relação terapêutica"
+        },
+        {
+          "id": "transtornos",
+          "nome": "Principais transtornos mentais"
+        },
+        {
+          "id": "psicofarmacos",
+          "nome": "Psicofármacos e cuidados de enfermagem"
+        },
+        {
+          "id": "crise",
+          "nome": "Crise, risco de suicídio e emergências"
+        },
+        {
+          "id": "cuidado",
+          "nome": "Cuidado no território e grupos específicos"
+        }
+      ]
+    },
+    {
+      "id": "saude-mulher",
+      "nome": "Saúde da Mulher e Enfermagem Obstétrica",
+      "apelidos": [
+        "Saúde da Mulher",
+        "Enfermagem em Saúde da Mulher",
+        "Enfermagem Obstétrica",
+        "Enfermagem Ginecológica e Obstétrica",
+        "Enfermagem em Ginecologia e Obstetrícia",
+        "Enfermagem Obstétrica e Ginecológica",
+        "Assistência de Enfermagem à Saúde da Mulher",
+        "Obstetrícia",
+        "Ginecologia e Obstetrícia",
+        "Enfermagem Materno-Infantil",
+        "Saúde Materno-Infantil",
+        "Enfermagem na Saúde da Mulher",
+        "Cuidado à Saúde da Mulher",
+        "Saúde da Mulher e do Recém-Nascido"
+      ],
+      "area": "Biológicas e Saúde",
+      "topicos": [
+        {
+          "id": "politica",
+          "nome": "Política de saúde da mulher e planejamento reprodutivo"
+        },
+        {
+          "id": "ginecologia",
+          "nome": "Atenção ginecológica e prevenção do câncer"
+        },
+        {
+          "id": "prenatal",
+          "nome": "Assistência pré-natal"
+        },
+        {
+          "id": "intercorrencias",
+          "nome": "Intercorrências na gestação"
+        },
+        {
+          "id": "parto",
+          "nome": "Trabalho de parto, parto e nascimento"
+        },
+        {
+          "id": "puerperio",
+          "nome": "Puerpério e aleitamento materno"
+        }
+      ]
+    },
+    {
       "id": "semiologia",
       "nome": "Semiologia",
       "apelidos": [

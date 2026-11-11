@@ -1,0 +1,465 @@
+{
+  "id": "saude-mulher",
+  "nome": "Saúde da Mulher e Enfermagem Obstétrica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "politica",
+      "nome": "Política de saúde da mulher e planejamento reprodutivo",
+      "resumo": "### Da saúde materno-infantil à atenção integral\n- Até os anos 1970, os programas viam a mulher apenas como **mãe**.\n- **PAISM** (Programa de Assistência Integral à Saúde da Mulher, 1984): rompe com essa visão e propõe cuidado em **todas as fases da vida**.\n- **PNAISM** (Política Nacional de Atenção Integral à Saúde da Mulher, 2004): incorpora o enfoque de **gênero**, os **direitos sexuais e reprodutivos** e grupos antes esquecidos (mulheres negras, indígenas, lésbicas, presidiárias, do campo).\n\n### Rede de atenção materna e infantil\n- **Rede Cegonha** (2011): garante à mulher o direito ao **planejamento reprodutivo** e à atenção humanizada na gravidez, no parto e no puerpério, e à criança o nascimento seguro e o desenvolvimento saudável. Componentes: **pré-natal**, **parto e nascimento**, **puerpério e atenção à criança** e **sistema logístico** (transporte e regulação). Foi sucedida pela **Rede Alyne** (2024), com foco na redução da mortalidade materna.\n- **Vinculação**: a gestante deve conhecer antes a **maternidade de referência** onde dará à luz (Lei 11.634/2007).\n- **Lei do acompanhante** (Lei 11.108/2005): direito a **um acompanhante de livre escolha** durante o trabalho de parto, o parto e o pós-parto imediato.\n\n### Mortalidade materna\nMorte de uma mulher **durante a gestação ou até 42 dias** após seu término, por causa relacionada ou agravada pela gravidez.\n- **Causas obstétricas diretas** (as principais): **hipertensão**, **hemorragia**, **infecção puerperal** e **aborto**.\n- **Indiretas**: doenças preexistentes agravadas pela gestação.\n- A maior parte é **evitável**. É evento de **investigação obrigatória**.\n- **Razão de mortalidade materna** = óbitos maternos / nascidos vivos × 100.000.\n\n### Direitos sexuais e reprodutivos\nDecidir livremente **se, quando e quantos** filhos ter, com acesso a informação e a métodos; viver a sexualidade sem coerção nem violência.\n\n### Planejamento reprodutivo (Lei 9.263/1996)\nDireito de **todo cidadão**; o SUS deve oferecer **todos os métodos**, com informação para escolha **livre e informada**.\n\n**Métodos**\n- **Comportamentais**: tabelinha, muco cervical (Billings), temperatura basal, coito interrompido. Baixa eficácia.\n- **De barreira**: **preservativo masculino e feminino** (os únicos que também protegem contra **IST**), diafragma.\n- **Hormonais**: **pílula combinada** (estrogênio e progestagênio), **minipílula** (só progestagênio; indicada na amamentação), **injetável** mensal e trimestral, implante, adesivo e anel.\n- **Dispositivo intrauterino (DIU)**: **de cobre** (não hormonal, dura até 10 anos) e hormonal (levonorgestrel). O enfermeiro capacitado pode inseri-lo.\n- **Definitivos**: **laqueadura** tubária e **vasectomia**.\n- **Contracepção de emergência** (levonorgestrel): até **72 horas** após a relação desprotegida (quanto antes, melhor); **não é abortiva**.\n- **Método da amenorreia da lactação (LAM)**: exige amamentação **exclusiva**, **amenorreia** e bebê com **menos de 6 meses**.\n\n**Esterilização voluntária** (Lei 14.443/2022): permitida a pessoas com capacidade civil plena e **maiores de 21 anos** **ou** com **dois filhos vivos**; prazo mínimo de **60 dias** entre a manifestação da vontade e o procedimento; **dispensa o consentimento do cônjuge**; pode ser feita no **parto**.\n\n### Contraindicações importantes\nAnticoncepcional combinado **não** deve ser usado por mulheres **fumantes com 35 anos ou mais**, com hipertensão grave, história de **trombose**, enxaqueca com aura ou câncer de mama.\n\n### Violência contra a mulher\n- **Lei Maria da Penha** (Lei 11.340/2006): violência **física, psicológica, sexual, patrimonial e moral**.\n- **Notificação compulsória** nos serviços de saúde; a violência sexual, em até **24 horas**.\n- **Violência sexual**: acolhimento, **profilaxia de IST e HIV** (até 72 horas), **contracepção de emergência**, coleta de vestígios e acompanhamento. O atendimento **não depende de boletim de ocorrência**.\n- **Aborto legal**: gravidez por **estupro**, **risco de vida** para a gestante e **anencefalia** fetal.",
+      "revisao": "**Lembre:**\n- PAISM (1984): cuidado integral, não só materno.\n- Morte materna: na gestação ou até 42 dias depois; hipertensão e hemorragia lideram.\n- Preservativo é o único método que protege contra IST.\n- Contracepção de emergência: até 72 horas; não é abortiva.\n- Acompanhante de livre escolha no parto é direito."
+    },
+    {
+      "id": "ginecologia",
+      "nome": "Atenção ginecológica e prevenção do câncer",
+      "resumo": "### Ciclo menstrual\nDura em média **28 dias** (normal entre 21 e 35).\n- **Fase folicular (proliferativa)**: o **FSH** estimula os folículos; o **estrogênio** faz o endométrio crescer.\n- **Ovulação**: por volta do 14º dia, disparada pelo **pico de LH**.\n- **Fase lútea (secretora)**: o **corpo lúteo** produz **progesterona**, que prepara o endométrio. Sem fecundação, os hormônios caem e ocorre a **menstruação**.\n- **Menarca**: primeira menstruação. **Menopausa**: última, confirmada após **12 meses** sem menstruar.\n\n### Consulta de enfermagem ginecológica\nHistórico, exame das mamas, exame especular, coleta do citopatológico, abordagem sindrômica das IST, orientação sexual e reprodutiva.\n\n### Câncer do colo do útero\n- Causa principal: infecção **persistente** por tipos oncogênicos do **HPV** (16 e 18).\n- **Fatores de risco**: início precoce da vida sexual, múltiplos parceiros, **tabagismo**, imunossupressão.\n- **Prevenção primária**: **vacina contra o HPV** (no SUS, para meninas e meninos de 9 a 14 anos, entre outros grupos) e **preservativo**.\n- **Rastreamento**: **exame citopatológico (Papanicolaou)**.\n  - Público: mulheres de **25 a 64 anos** que já tiveram atividade sexual.\n  - Periodicidade: **anual** nos dois primeiros exames; com **dois resultados normais consecutivos**, passa a ser **a cada 3 anos**.\n  - O Ministério da Saúde vem incorporando o **teste molecular de DNA-HPV**, com intervalo maior.\n- **Coleta**: da **ectocérvice** (espátula de Ayre) e da **endocérvice** (escova); o objetivo é alcançar a **junção escamocolunar**, onde surge a maioria das lesões.\n- **Preparo**: não estar menstruada; evitar relação sexual, duchas e cremes vaginais nas **48 horas** anteriores.\n- Resultados alterados seguem para **colposcopia** e biópsia.\n\n### Câncer de mama\n- O mais comum entre as mulheres (excluído o de pele não melanoma).\n- **Fatores de risco**: **idade** (acima de 50 anos), história familiar, menarca precoce, menopausa tardia, nuliparidade, primeira gestação tardia, terapia hormonal, obesidade e álcool. A **amamentação** protege.\n- **Rastreamento**: **mamografia** a cada **2 anos** para mulheres de **50 a 69 anos** (recomendação do Ministério da Saúde, com ampliação em discussão para outras faixas).\n- **Exame clínico das mamas**: parte da consulta.\n- **Autoexame**: não é método de rastreamento; estimula-se o **autoconhecimento** (\"estar alerta\").\n- **Sinais de alerta**: **nódulo** fixo e indolor, retração da pele ou do mamilo, pele em **\"casca de laranja\"**, **secreção** sanguinolenta pelo mamilo, nódulos na axila.\n- **Lei dos 60 dias**: tratamento do câncer no SUS deve começar em até 60 dias após o diagnóstico.\n\n### Infecções sexualmente transmissíveis (IST)\n- **Abordagem sindrômica**: trata-se pela síndrome (corrimento, úlcera, verrugas) quando não há laboratório.\n- **Sífilis**: causada pelo ***Treponema pallidum***.\n  - **Primária**: **cancro duro**, úlcera única e **indolor**.\n  - **Secundária**: manchas na pele, inclusive nas **palmas e plantas**.\n  - **Latente** e **terciária**.\n  - Tratamento: **penicilina benzatina**. Diagnóstico: teste **treponêmico** (teste rápido) e **não treponêmico** (VDRL, para acompanhar).\n- **Gonorreia e clamídia**: cervicite, corrimento; podem levar à **doença inflamatória pélvica** e à infertilidade.\n- **HPV**: verrugas genitais (condilomas).\n- **Herpes genital**: vesículas dolorosas e recorrentes.\n- **HIV**: testagem, **PEP** (profilaxia pós-exposição, até 72 horas) e **PrEP** (pré-exposição).\n- **Hepatites B e C**.\n- Sempre **tratar a parceria** e oferecer testes rápidos.\n\n### Vulvovaginites\n- **Candidíase**: corrimento **branco, grumoso** (\"leite coalhado\"), com **prurido** intenso; não é IST.\n- **Vaginose bacteriana**: corrimento acinzentado com **odor fétido** (de peixe), que piora após a relação.\n- **Tricomoníase**: corrimento **amarelo-esverdeado, bolhoso**; é IST e trata-se a parceria.\n\n### Climatério\nTransição do período reprodutivo para o não reprodutivo, em geral entre 40 e 65 anos.\n- Sintomas: **fogachos** (ondas de calor), suor noturno, irregularidade menstrual, secura vaginal, alterações do sono e do humor.\n- Aumentam os riscos de **osteoporose** e de doença cardiovascular.\n- Cuidados: alimentação rica em cálcio, atividade física, exposição solar, lubrificantes e, em casos selecionados, terapia hormonal.\n\n### Outros agravos\nEndometriose, miomas, síndrome dos ovários policísticos, incontinência urinária e prolapsos.",
+      "revisao": "**Lembre:**\n- Ovulação: pico de LH; fase lútea: progesterona.\n- Papanicolaou: 25 a 64 anos; dois anuais normais, depois a cada 3 anos.\n- Mamografia: 50 a 69 anos, a cada 2 anos.\n- Sífilis primária: cancro duro indolor; tratamento com penicilina benzatina.\n- Candidíase: corrimento grumoso com coceira; vaginose: odor fétido."
+    },
+    {
+      "id": "prenatal",
+      "nome": "Assistência pré-natal",
+      "resumo": "### Objetivo\nAcompanhar a gestação para que termine com o nascimento de uma criança saudável, sem prejuízo para a saúde da mãe. O pré-natal de **risco habitual** pode ser acompanhado **integralmente pelo enfermeiro**, em consultas intercaladas com o médico.\n\n### Diagnóstico de gravidez\n- **Sinais de presunção**: atraso menstrual, náuseas, aumento das mamas.\n- **Sinais de probabilidade**: amolecimento do colo, aumento do útero, **beta-hCG** positivo.\n- **Sinais de certeza**: **batimentos cardíacos fetais**, movimentos fetais percebidos pelo examinador e **ultrassonografia**.\n\n### Calendário de consultas\n- **Mínimo de 6 consultas** (Ministério da Saúde); início **precoce**, até a **12ª semana**.\n- Periodicidade: **mensal** até a 28ª semana; **quinzenal** da 28ª à 36ª; **semanal** da 36ª até o parto.\n- **Não existe alta do pré-natal**: o acompanhamento vai até o parto.\n\n### Idade gestacional e data provável do parto\n- A gestação dura cerca de **40 semanas** (280 dias), contadas a partir do **primeiro dia da última menstruação (DUM)**.\n- **Regra de Näegele**: somar **7 dias** ao primeiro dia da DUM e **subtrair 3 meses** (ou somar 9). Ex.: DUM em 10/03 → DPP em 17/12.\n- **Termo**: de 37 a 41 semanas e 6 dias. **Pré-termo**: antes de 37 semanas. **Pós-termo**: 42 semanas ou mais.\n\n### Exame físico obstétrico\n- **Peso e IMC**; **pressão arterial** em toda consulta.\n- **Altura uterina**: medida da sínfise púbica ao fundo do útero; entre 20 e 34 semanas, os centímetros se aproximam das semanas.\n- **Batimentos cardiofetais (BCF)**: audíveis com sonar a partir de 10 a 12 semanas; normal entre **110 e 160 bpm**.\n- **Manobras de Leopold**: palpação do abdome em quatro tempos para identificar **situação**, **posição**, **apresentação** e insinuação do feto.\n- **Edema** e movimentos fetais.\n\n### Exames de rotina\n- **Primeira consulta**: tipagem sanguínea e **fator Rh** (Coombs indireto, se Rh negativo), **hemograma**, **glicemia de jejum**, **testes rápidos para sífilis, HIV e hepatites B e C**, toxoplasmose, urina e urocultura, ultrassonografia.\n- **Segundo trimestre**: **teste oral de tolerância à glicose** (24 a 28 semanas).\n- **Terceiro trimestre**: repetir hemograma, glicemia, sífilis, HIV, hepatite B e urina; pesquisa de **estreptococo do grupo B** (35 a 37 semanas), conforme protocolo.\n\n### Suplementação\n- **Ácido fólico**: desde antes da concepção e no início da gestação, para prevenir **defeitos do tubo neural**.\n- **Sulfato ferroso**: prevenção da **anemia**.\n- **Cálcio**: prevenção da pré-eclâmpsia, conforme protocolo.\n\n### Vacinas na gestação\n- **dTpa** (difteria, tétano e coqueluche): a partir da **20ª semana**, a cada gestação — protege o bebê contra a coqueluche.\n- **dT**, conforme a situação vacinal.\n- **Hepatite B**.\n- **Influenza** e **covid-19**.\n- **Contraindicadas**: vacinas de **vírus vivos atenuados** (tríplice viral, varicela, febre amarela em regra).\n\n### Queixas comuns e orientações\n- **Náuseas**: fracionar as refeições, evitar frituras.\n- **Azia**: refeições pequenas, não deitar logo após comer.\n- **Constipação**: fibras e água.\n- **Lombalgia**: postura e calçados adequados.\n- **Câimbras** e **varizes**: elevar as pernas.\n- Orientar sobre atividade física, alimentação, sexualidade, amamentação e sinais do trabalho de parto.\n\n### Sinais de alerta\n**Sangramento vaginal**, **perda de líquido**, **dor de cabeça forte**, visão turva ou pontos luminosos, dor na \"boca do estômago\", **inchaço** súbito, febre, **diminuição dos movimentos fetais** e contrações antes do tempo.\n\n### Estratificação de risco\nIdentifica gestantes que precisam de **pré-natal de alto risco**: hipertensão, diabetes, gemelaridade, doenças crônicas, extremos de idade. A atenção básica continua acompanhando.\n\n### Pré-natal do parceiro\nEnvolve o parceiro, com exames e vacinas; favorece o vínculo e o tratamento conjunto de IST.\n\n### Caderneta da gestante\nRegistro de todas as informações; a mulher deve levá-la a todo atendimento.",
+      "revisao": "**Lembre:**\n- Mínimo de 6 consultas, começando até a 12ª semana.\n- Näegele: DUM + 7 dias − 3 meses.\n- BCF normal: 110 a 160 bpm.\n- Ácido fólico previne defeitos do tubo neural; sulfato ferroso, anemia.\n- dTpa a partir da 20ª semana; vacinas de vírus vivo são contraindicadas."
+    },
+    {
+      "id": "intercorrencias",
+      "nome": "Intercorrências na gestação",
+      "resumo": "### Síndromes hipertensivas\nEstão entre as principais causas de morte materna.\n- **Hipertensão crônica**: presente **antes** da gestação ou diagnosticada **antes de 20 semanas**.\n- **Hipertensão gestacional**: surge **após 20 semanas**, **sem** proteinúria.\n- **Pré-eclâmpsia**: hipertensão (PA ≥ **140/90 mmHg**) **após 20 semanas**, com **proteinúria** ou sinais de lesão de órgãos.\n  - **Sinais de gravidade**: PA ≥ 160/110, **cefaleia** intensa, **escotomas** (distúrbios visuais), **dor epigástrica** ou no hipocôndrio direito, oligúria e edema pulmonar.\n- **Eclâmpsia**: **convulsões** em gestante com pré-eclâmpsia.\n- **Síndrome HELLP**: **h**emólise, **e**nzimas hepáticas elevadas e **p**laquetas baixas.\n- **Tratamento**: **sulfato de magnésio** para **prevenir e tratar convulsões**; anti-hipertensivos (metildopa, nifedipino, hidralazina); o tratamento definitivo é o **parto**.\n- **Cuidados com o sulfato de magnésio**: monitorar **reflexo patelar**, **frequência respiratória** (acima de 16 irpm) e **diurese** (acima de 25 mL/h). Antídoto: **gluconato de cálcio**.\n- Na convulsão: decúbito **lateral esquerdo**, proteger de traumas, manter via aérea e oxigênio.\n- **Prevenção** em gestantes de risco: **ácido acetilsalicílico** em dose baixa e **cálcio**.\n\n### Diabetes mellitus gestacional\nHiperglicemia detectada pela primeira vez na gestação.\n- **Riscos**: **macrossomia** (bebê grande), parto difícil, **hipoglicemia neonatal**, polidrâmnio e pré-eclâmpsia.\n- **Rastreio**: glicemia de jejum na primeira consulta; **TOTG** com 75 g entre **24 e 28 semanas**.\n- **Tratamento**: **dieta** e **atividade física**; **insulina** quando necessário.\n\n### Hemorragias da primeira metade\n- **Abortamento**: interrupção da gestação **antes de 20 a 22 semanas** ou com feto abaixo de 500 g. Formas: **ameaça** (colo fechado), **inevitável**, **incompleto**, **completo**, **retido** e **infectado**.\n- **Gravidez ectópica**: implantação **fora do útero**, mais comum na **tuba**. Tríade: atraso menstrual, **dor abdominal** e sangramento. Se romper, causa hemorragia interna e choque.\n- **Doença trofoblástica gestacional (mola)**: sangramento, útero maior que o esperado e beta-hCG muito alto.\n\n### Hemorragias da segunda metade\n| | Placenta prévia | Descolamento prematuro da placenta (DPP) |\n|---|---|---|\n| O que é | Placenta **baixa**, sobre o colo | Placenta **se solta** antes do parto |\n| Sangramento | **Vermelho vivo**, **indolor**, recorrente | **Escuro**, pode ficar **oculto** |\n| Dor | **Ausente** | **Dor súbita e intensa** |\n| Útero | Tônus normal | **Hipertônico** (\"útero lenhoso\") |\n| Fator ligado | Cesáreas anteriores | **Hipertensão**, trauma, cocaína |\n\n- Na **placenta prévia**, o **toque vaginal é contraindicado**.\n- O DPP é emergência, com alto risco de sofrimento fetal.\n\n### Trabalho de parto prematuro\nContrações regulares com modificação do colo **antes de 37 semanas**.\n- **Corticoide** (betametasona) entre 24 e 34 semanas: **acelera a maturação pulmonar** fetal.\n- Tocolíticos para adiar o parto; sulfato de magnésio para **neuroproteção** fetal.\n\n### Rotura prematura de membranas\nPerda de líquido amniótico **antes do início do trabalho de parto**. Risco de **infecção** (corioamnionite) e de prematuridade. Evitar toques repetidos.\n\n### Infecções\n- **Infecção urinária**: comum; a bacteriúria assintomática **deve ser tratada** na gestação, pois pode levar a pielonefrite e parto prematuro.\n- **Sífilis**: tratar a gestante e a parceria com **penicilina benzatina**; previne a **sífilis congênita**.\n- **HIV**: terapia antirretroviral, **AZT** no parto conforme a carga viral e **contraindicação à amamentação**, para evitar a **transmissão vertical**.\n- **Toxoplasmose**: evitar carne crua e contato com fezes de gato.\n- **Hepatite B**: vacina e imunoglobulina no recém-nascido.\n- **Zika**: risco de microcefalia; uso de repelente.\n\n### Incompatibilidade Rh\nMãe **Rh negativo** e feto **Rh positivo**: a mãe pode produzir anticorpos que atacam as hemácias do feto em gestações **seguintes** (**doença hemolítica perinatal**).\n- Prevenção: **imunoglobulina anti-D** na **28ª semana** e em até **72 horas após o parto** (ou após aborto e sangramentos), se a mãe não for sensibilizada (Coombs indireto negativo).\n\n### Outras\n- **Hiperêmese gravídica**: vômitos intensos, com desidratação e perda de peso.\n- **Anemia**: hemoglobina abaixo de 11 g/dL.\n- **Gestação múltipla** e **restrição do crescimento fetal**.",
+      "revisao": "**Lembre:**\n- Pré-eclâmpsia: hipertensão após 20 semanas com proteinúria; eclâmpsia: convulsão.\n- Sulfato de magnésio: vigiar reflexo patelar, respiração e diurese; antídoto é o gluconato de cálcio.\n- Placenta prévia: sangue vivo e sem dor; DPP: dor e útero endurecido.\n- Corticoide amadurece o pulmão fetal.\n- Mãe Rh negativo: imunoglobulina anti-D."
+    },
+    {
+      "id": "parto",
+      "nome": "Trabalho de parto, parto e nascimento",
+      "resumo": "### Sinais do trabalho de parto\n- **Contrações regulares**, dolorosas e progressivas (duas ou mais em 10 minutos).\n- **Dilatação e apagamento** do colo.\n- Perda do **tampão mucoso**; pode haver rotura da bolsa.\n- **Falso trabalho de parto** (contrações de Braxton Hicks): irregulares, não aumentam e não dilatam o colo.\n\n### Períodos clínicos do parto\n1. **Dilatação**: do início do trabalho de parto até a dilatação total (**10 cm**).\n   - **Fase latente**: dilatação lenta.\n   - **Fase ativa**: a partir de cerca de **5 a 6 cm** (OMS), com contrações regulares.\n2. **Expulsão**: da dilatação total até a **saída do feto**.\n3. **Dequitação (secundamento)**: saída da **placenta**, em geral em até **30 minutos**.\n4. **Período de Greenberg**: **primeira hora** após a saída da placenta; fase de maior risco de **hemorragia**. Vigiar sangramento, contração uterina e sinais vitais.\n\n### Partograma\n**Gráfico** que registra a evolução do trabalho de parto: dilatação, descida da apresentação, contrações, batimentos fetais e condições da mãe. Permite **identificar desvios** e evitar intervenções desnecessárias. Inicia-se na **fase ativa**.\n\n### Avaliação\n- **Dinâmica uterina**: frequência, duração e intensidade das contrações.\n- **Toque vaginal**: dilatação, apagamento, apresentação e bolsa; fazer só quando necessário.\n- **Ausculta dos BCF**: intermitente no baixo risco; normal entre 110 e 160 bpm.\n- **Líquido amniótico**: claro é normal; **meconial** (esverdeado) pode indicar sofrimento fetal.\n\n### Estática fetal\n- **Situação**: relação entre o maior eixo do feto e o da mãe — **longitudinal** (normal), transversa ou oblíqua.\n- **Apresentação**: parte que se apresenta ao canal — **cefálica** (a mais comum), **pélvica** ou córmica.\n- **Posição**: lado do dorso fetal (esquerda ou direita).\n- **Planos de De Lee**: altura da apresentação em relação às espinhas isquiáticas (plano zero).\n\n### Boas práticas (humanização do parto)\nRecomendadas pela OMS e pelo Ministério da Saúde:\n- **Acompanhante** de livre escolha.\n- **Liberdade de posição e de movimento**; posições verticais.\n- **Oferta de líquidos** e dieta leve.\n- **Métodos não farmacológicos de alívio da dor**: banho morno, massagem, bola, respiração e deambulação.\n- **Contato pele a pele** imediato e **amamentação na primeira hora**.\n- **Clampeamento oportuno do cordão** (após 1 a 3 minutos).\n- Respeito à privacidade e ao **plano de parto**.\n\n**Práticas a evitar como rotina**: **episiotomia**, **tricotomia**, **enema**, **manobra de Kristeller** (pressão no fundo do útero; proscrita), jejum, posição de litotomia obrigatória, ocitocina e amniotomia de rotina.\n\n### Violência obstétrica\nDesrespeito, negligência, intervenções sem consentimento e negação de direitos durante a gestação, o parto e o puerpério.\n\n### Terceiro período\n- **Manejo ativo**: **ocitocina 10 UI por via intramuscular** logo após o nascimento, tração controlada do cordão e verificação do tônus uterino. Previne a **hemorragia pós-parto**.\n- Conferir se a **placenta e as membranas** saíram inteiras.\n- **Globo de segurança de Pinard**: útero firme e contraído, abaixo do umbigo.\n\n### Hemorragia pós-parto\nPerda de sangue acima de **500 mL** no parto vaginal ou **1.000 mL** na cesárea. Causas — os **\"4 T\"**:\n- **Tônus**: **atonia uterina** (a causa mais comum).\n- **Trauma**: lacerações.\n- **Tecido**: restos placentários.\n- **Trombina**: distúrbios de coagulação.\n- Conduta: **massagem uterina**, ocitocina e outros uterotônicos, acesso venoso e reposição de volume.\n\n### Cesárea\nCirurgia com indicações precisas: sofrimento fetal, desproporção, placenta prévia, apresentação anômala. Não deve ser feita sem indicação; a OMS considera adequadas taxas em torno de 10% a 15%.\n\n### Cuidados imediatos ao recém-nascido\n- Secar, aquecer e colocar **em contato pele a pele**.\n- **Escala de Apgar** no **1º e no 5º minuto**: frequência cardíaca, respiração, tônus, irritabilidade reflexa e cor; de 0 a 10.\n- **Vitamina K** (previne a doença hemorrágica), prevenção da oftalmia neonatal, identificação e exame físico.\n- Vacinas **BCG** e **hepatite B**.",
+      "revisao": "**Lembre:**\n- Períodos: dilatação, expulsão, dequitação e Greenberg (primeira hora).\n- Partograma acompanha a evolução na fase ativa.\n- Boas práticas: acompanhante, livre posição, alívio não farmacológico da dor, pele a pele.\n- Episiotomia de rotina e Kristeller não são recomendadas.\n- Hemorragia pós-parto: atonia uterina é a principal causa."
+    },
+    {
+      "id": "puerperio",
+      "nome": "Puerpério e aleitamento materno",
+      "resumo": "### Puerpério\nPeríodo que vai da saída da placenta até o retorno do organismo ao estado anterior à gravidez.\n- **Imediato**: do **1º ao 10º dia**.\n- **Tardio**: do **11º ao 45º dia**.\n- **Remoto**: após o 45º dia.\n\n### Modificações\n- **Involução uterina**: logo após o parto, o fundo do útero fica na altura do **umbigo** e desce cerca de **1 cm por dia**; por volta do 10º ao 12º dia, deixa de ser palpável no abdome.\n- **Lóquios** (secreção vaginal):\n  - **Rubros** (vermelhos): primeiros 3 a 4 dias.\n  - **Serossanguinolentos** (rosados, acastanhados): até cerca do 10º dia.\n  - **Alvos / serosos** (amarelados, esbranquiçados): depois.\n  - **Odor fétido** sugere infecção.\n- **Mamas**: **colostro** nos primeiros dias; **apojadura** (\"descida do leite\") entre o 3º e o 5º dia.\n\n### Cuidados de enfermagem\n- Avaliar **sinais vitais**, **mamas**, **involução uterina**, **lóquios**, **períneo** ou ferida operatória, **eliminações** e **membros inferiores** (sinais de trombose).\n- Estimular a **deambulação precoce** (previne trombose) e a hidratação.\n- Apoiar o **vínculo** e o aleitamento.\n- Orientar higiene, retorno da atividade sexual e **contracepção**.\n\n### Consultas\n- **Primeira semana de saúde integral**: visita domiciliar ou consulta nos **primeiros 7 dias**, para mãe e bebê.\n- **Consulta puerperal** até o **42º dia**.\n\n### Complicações\n- **Hemorragia pós-parto**.\n- **Infecção puerperal**: **febre** (38 °C ou mais) após as primeiras 24 horas, dor e **lóquios fétidos**; a **endometrite** é a forma mais comum.\n- **Tromboembolismo**: dor, calor e edema em uma perna.\n- **Ingurgitamento**, **fissura** e **mastite**.\n\n### Saúde mental\n- ***Baby blues* (tristeza puerperal)**: muito comum; choro fácil e instabilidade nos **primeiros dias**, com melhora espontânea em até duas semanas.\n- **Depressão pós-parto**: tristeza persistente, culpa, desinteresse e dificuldade de cuidar do bebê; exige tratamento.\n- **Psicose puerperal**: rara; delírios e alucinações; é **emergência**.\n\n### Aleitamento materno\n- **Exclusivo até os 6 meses**: só leite materno, **sem água, chá ou outros alimentos**.\n- **Complementado até os 2 anos ou mais**.\n- **Livre demanda**: sem horários fixos.\n\n**Benefícios**\n- Para o bebê: nutrição completa, **anticorpos** (menos diarreia e infecções respiratórias), menor risco de alergias e obesidade, desenvolvimento da face e vínculo.\n- Para a mãe: **involução uterina** mais rápida (pela **ocitocina**), menor sangramento, menor risco de câncer de **mama** e de **ovário**, efeito contraceptivo parcial e economia.\n\n**Fisiologia**\n- **Prolactina**: **produz** o leite.\n- **Ocitocina**: **ejeta** o leite (reflexo de descida).\n- A **sucção** é o estímulo principal: quanto mais o bebê mama, mais leite se produz.\n- **Colostro**: primeiro leite, espesso e amarelado, rico em **anticorpos** e proteínas.\n- **Leite anterior** (do começo da mamada, mais aquoso) e **leite posterior** (do fim, mais **gorduroso**, sacia e engorda). Por isso, **esvaziar uma mama antes de oferecer a outra**.\n\n**Pega e posição corretas**\n- Bebê **de frente** para a mãe, \"barriga com barriga\", cabeça e corpo alinhados.\n- Boca **bem aberta**, **lábio inferior virado para fora**, **queixo tocando a mama** e **mais aréola visível acima** da boca do que abaixo.\n- Bochechas arredondadas; **sem dor** e sem estalidos.\n\n**Problemas e manejo**\n- **Fissuras**: causadas por **pega incorreta**; corrigir a pega, variar posições e passar o próprio leite no mamilo.\n- **Ingurgitamento mamário** (\"leite empedrado\"): mamas cheias e doloridas; **ordenha** de alívio, mamadas frequentes e compressas frias após a mamada.\n- **Mastite**: inflamação com dor, vermelhidão e **febre**; **manter a amamentação**, esvaziar a mama e, se necessário, antibiótico.\n- Não oferecer **chupetas e mamadeiras** (confusão de bicos).\n- **Ordenha e armazenamento**: leite cru dura **12 horas na geladeira** e **15 dias no congelador**; oferecer em copinho.\n\n**Contraindicações**\nMães com **HIV** ou **HTLV**; uso de alguns medicamentos (quimioterápicos); bebê com **galactosemia**.\n\n**Proteção legal e programas**\nLicença-maternidade de **120 dias** (180 em empresas cidadãs), pausas para amamentar, **Iniciativa Hospital Amigo da Criança**, **bancos de leite humano**, **alojamento conjunto** e **Método Canguru**.",
+      "revisao": "**Lembre:**\n- Puerpério imediato: até o 10º dia; tardio: até o 45º.\n- Lóquios: rubros, serossanguinolentos e alvos; odor fétido é sinal de infecção.\n- Aleitamento exclusivo até 6 meses, complementado até 2 anos ou mais.\n- Prolactina produz o leite; ocitocina ejeta.\n- Fissura vem de pega incorreta; na mastite, manter a amamentação."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "saude-mulher-1",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "O programa de 1984 que rompeu com a visão da mulher apenas como mãe e propôs atenção integral foi o:",
+      "opcoes": [
+        "PAISM",
+        "PSF",
+        "PNI",
+        "SAMU"
+      ],
+      "correta": 0,
+      "explicacao": "Ele ampliou o cuidado para todas as fases da vida da mulher."
+    },
+    {
+      "id": "saude-mulher-2",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "Considera-se morte materna a que ocorre durante a gestação ou em até quantos dias após seu término?",
+      "opcoes": [
+        "7 dias",
+        "42 dias",
+        "28 dias",
+        "1 ano"
+      ],
+      "correta": 1,
+      "explicacao": "As causas devem estar relacionadas à gravidez ou ser agravadas por ela."
+    },
+    {
+      "id": "saude-mulher-3",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "O método contraceptivo que também protege contra infecções sexualmente transmissíveis é:",
+      "opcoes": [
+        "O DIU de cobre",
+        "A pílula combinada",
+        "O preservativo",
+        "A laqueadura"
+      ],
+      "correta": 2,
+      "explicacao": "Por isso é recomendado mesmo quando se usa outro método."
+    },
+    {
+      "id": "saude-mulher-4",
+      "topico": "politica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mulher procura a unidade 30 horas após uma relação sexual desprotegida, com medo de engravidar. A conduta adequada é:",
+      "opcoes": [
+        "Dizer que já passou do prazo",
+        "Agendar a inserção de DIU para o mês seguinte, sem outra medida",
+        "Solicitar teste de gravidez e aguardar",
+        "Oferecer a contracepção de emergência"
+      ],
+      "correta": 3,
+      "explicacao": "O método pode ser usado até 72 horas, com maior eficácia quanto mais cedo."
+    },
+    {
+      "id": "saude-mulher-5",
+      "topico": "politica",
+      "nivel": "analise",
+      "pergunta": "Por que a maior parte das mortes maternas é considerada evitável?",
+      "opcoes": [
+        "Porque decorre de causas como hipertensão e hemorragia, que podem ser prevenidas e tratadas com assistência adequada",
+        "Porque são causadas por doenças genéticas raras",
+        "Porque ocorrem apenas em gestações múltiplas",
+        "Porque não têm relação com a qualidade do cuidado"
+      ],
+      "correta": 0,
+      "explicacao": "Pré-natal de qualidade e atendimento oportuno ao parto reduzem muito esses óbitos."
+    },
+    {
+      "id": "saude-mulher-6",
+      "topico": "ginecologia",
+      "nivel": "conceitual",
+      "pergunta": "O exame citopatológico do colo do útero é recomendado, como rastreamento, para mulheres de:",
+      "opcoes": [
+        "15 a 49 anos",
+        "25 a 64 anos",
+        "50 a 69 anos",
+        "Qualquer idade após a menarca"
+      ],
+      "correta": 1,
+      "explicacao": "Após dois exames anuais normais, o intervalo passa a ser de três anos."
+    },
+    {
+      "id": "saude-mulher-7",
+      "topico": "ginecologia",
+      "nivel": "conceitual",
+      "pergunta": "O principal agente associado ao câncer do colo do útero é:",
+      "opcoes": [
+        "O vírus da hepatite B",
+        "A Candida albicans",
+        "O papilomavírus humano (HPV)",
+        "O Treponema pallidum"
+      ],
+      "correta": 2,
+      "explicacao": "A infecção persistente pelos tipos 16 e 18 é a mais implicada."
+    },
+    {
+      "id": "saude-mulher-8",
+      "topico": "ginecologia",
+      "nivel": "conceitual",
+      "pergunta": "No ciclo menstrual, a ovulação é desencadeada pelo pico do hormônio:",
+      "opcoes": [
+        "Progesterona",
+        "Prolactina",
+        "Ocitocina",
+        "LH"
+      ],
+      "correta": 3,
+      "explicacao": "Ela ocorre por volta do 14º dia em um ciclo de 28 dias."
+    },
+    {
+      "id": "saude-mulher-9",
+      "topico": "ginecologia",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mulher queixa-se de corrimento branco, grumoso, com coceira intensa na vulva. O quadro sugere:",
+      "opcoes": [
+        "Candidíase",
+        "Vaginose bacteriana",
+        "Tricomoníase",
+        "Sífilis primária"
+      ],
+      "correta": 0,
+      "explicacao": "A vaginose, em contraste, causa odor fétido e pouca coceira."
+    },
+    {
+      "id": "saude-mulher-10",
+      "topico": "ginecologia",
+      "nivel": "analise",
+      "pergunta": "Por que a coleta do citopatológico deve alcançar a junção escamocolunar?",
+      "opcoes": [
+        "Porque é o local com menos células",
+        "Porque é nessa região que surge a maioria das lesões precursoras do câncer",
+        "Porque evita desconforto na coleta",
+        "Porque dispensa o uso do espéculo"
+      ],
+      "correta": 1,
+      "explicacao": "Uma amostra sem células dessa área pode deixar passar alterações."
+    },
+    {
+      "id": "saude-mulher-11",
+      "topico": "prenatal",
+      "nivel": "conceitual",
+      "pergunta": "O Ministério da Saúde recomenda, no pré-natal, o mínimo de:",
+      "opcoes": [
+        "3 consultas",
+        "9 consultas",
+        "6 consultas",
+        "12 consultas"
+      ],
+      "correta": 2,
+      "explicacao": "O acompanhamento deve começar cedo, de preferência até a 12ª semana."
+    },
+    {
+      "id": "saude-mulher-12",
+      "topico": "prenatal",
+      "nivel": "conceitual",
+      "pergunta": "A frequência normal dos batimentos cardíacos fetais é de:",
+      "opcoes": [
+        "60 a 100 bpm",
+        "160 a 200 bpm",
+        "80 a 110 bpm",
+        "110 a 160 bpm"
+      ],
+      "correta": 3,
+      "explicacao": "Valores fora dessa faixa exigem avaliação do bem-estar fetal."
+    },
+    {
+      "id": "saude-mulher-13",
+      "topico": "prenatal",
+      "nivel": "conceitual",
+      "pergunta": "A suplementação de ácido fólico no início da gestação previne:",
+      "opcoes": [
+        "Defeitos do tubo neural",
+        "Diabetes gestacional",
+        "Hipertensão",
+        "Infecção urinária"
+      ],
+      "correta": 0,
+      "explicacao": "O ideal é começar antes mesmo da concepção."
+    },
+    {
+      "id": "saude-mulher-14",
+      "topico": "prenatal",
+      "nivel": "aplicacao",
+      "pergunta": "A última menstruação de uma gestante começou em 10 de março. Pela regra de Näegele, a data provável do parto é:",
+      "opcoes": [
+        "10 de dezembro",
+        "17 de dezembro",
+        "17 de novembro",
+        "3 de janeiro"
+      ],
+      "correta": 1,
+      "explicacao": "Somam-se 7 dias ao primeiro dia da última menstruação e subtraem-se 3 meses."
+    },
+    {
+      "id": "saude-mulher-15",
+      "topico": "prenatal",
+      "nivel": "analise",
+      "pergunta": "Por que a vacina dTpa é indicada a cada gestação, a partir da 20ª semana?",
+      "opcoes": [
+        "Porque trata a infecção urinária",
+        "Porque previne a diabetes gestacional",
+        "Porque os anticorpos da mãe passam pela placenta e protegem o bebê contra a coqueluche nos primeiros meses",
+        "Porque substitui o sulfato ferroso"
+      ],
+      "correta": 2,
+      "explicacao": "O recém-nascido só completa o próprio esquema vacinal meses depois."
+    },
+    {
+      "id": "saude-mulher-16",
+      "topico": "intercorrencias",
+      "nivel": "conceitual",
+      "pergunta": "A pré-eclâmpsia caracteriza-se por:",
+      "opcoes": [
+        "Glicemia elevada no primeiro trimestre",
+        "Sangramento indolor no terceiro trimestre",
+        "Vômitos intensos no início da gestação",
+        "Hipertensão após a 20ª semana, com proteinúria ou lesão de órgãos"
+      ],
+      "correta": 3,
+      "explicacao": "Quando surgem convulsões, o quadro passa a ser chamado de eclâmpsia."
+    },
+    {
+      "id": "saude-mulher-17",
+      "topico": "intercorrencias",
+      "nivel": "conceitual",
+      "pergunta": "O medicamento usado para prevenir e tratar as convulsões na pré-eclâmpsia grave é:",
+      "opcoes": [
+        "O sulfato de magnésio",
+        "A ocitocina",
+        "O sulfato ferroso",
+        "A betametasona"
+      ],
+      "correta": 0,
+      "explicacao": "Seu antídoto, em caso de intoxicação, é o gluconato de cálcio."
+    },
+    {
+      "id": "saude-mulher-18",
+      "topico": "intercorrencias",
+      "nivel": "conceitual",
+      "pergunta": "Na placenta prévia, o sangramento costuma ser:",
+      "opcoes": [
+        "Escuro e com dor intensa",
+        "Vermelho vivo e indolor",
+        "Ausente",
+        "Acompanhado de útero endurecido"
+      ],
+      "correta": 1,
+      "explicacao": "Dor súbita e útero hipertônico sugerem descolamento prematuro da placenta."
+    },
+    {
+      "id": "saude-mulher-19",
+      "topico": "intercorrencias",
+      "nivel": "aplicacao",
+      "pergunta": "Uma gestante de 30 semanas entra em trabalho de parto prematuro. Para proteger o bebê, está indicado administrar:",
+      "opcoes": [
+        "Imunoglobulina anti-D",
+        "Vacina tríplice viral",
+        "Corticoide para acelerar a maturação pulmonar fetal",
+        "Anticoncepcional injetável"
+      ],
+      "correta": 2,
+      "explicacao": "A betametasona reduz as complicações respiratórias do prematuro."
+    },
+    {
+      "id": "saude-mulher-20",
+      "topico": "intercorrencias",
+      "nivel": "analise",
+      "pergunta": "Por que a mãe Rh negativo com filho Rh positivo deve receber imunoglobulina anti-D após o parto?",
+      "opcoes": [
+        "Para tratar a anemia materna",
+        "Para aumentar a produção de leite",
+        "Para prevenir a infecção puerperal",
+        "Para impedir que produza anticorpos que atacariam as hemácias de um feto Rh positivo em gestação futura"
+      ],
+      "correta": 3,
+      "explicacao": "A sensibilização materna é a causa da doença hemolítica perinatal."
+    },
+    {
+      "id": "saude-mulher-21",
+      "topico": "parto",
+      "nivel": "conceitual",
+      "pergunta": "O período clínico do parto que vai da dilatação total até a saída do feto é o de:",
+      "opcoes": [
+        "Expulsão",
+        "Dilatação",
+        "Dequitação",
+        "Greenberg"
+      ],
+      "correta": 0,
+      "explicacao": "A dequitação corresponde à saída da placenta."
+    },
+    {
+      "id": "saude-mulher-22",
+      "topico": "parto",
+      "nivel": "conceitual",
+      "pergunta": "O partograma é:",
+      "opcoes": [
+        "Um exame de imagem",
+        "O registro gráfico da evolução do trabalho de parto",
+        "Um medicamento para induzir o parto",
+        "A cicatriz da cesárea"
+      ],
+      "correta": 1,
+      "explicacao": "Ele ajuda a identificar desvios e a evitar intervenções desnecessárias."
+    },
+    {
+      "id": "saude-mulher-23",
+      "topico": "parto",
+      "nivel": "conceitual",
+      "pergunta": "A principal causa de hemorragia pós-parto é:",
+      "opcoes": [
+        "A laceração do colo",
+        "O distúrbio de coagulação",
+        "A atonia uterina",
+        "A retenção de membranas"
+      ],
+      "correta": 2,
+      "explicacao": "O útero que não contrai deixa abertos os vasos do local onde estava a placenta."
+    },
+    {
+      "id": "saude-mulher-24",
+      "topico": "parto",
+      "nivel": "aplicacao",
+      "pergunta": "Uma parturiente de baixo risco, na fase ativa, pede algo para aliviar a dor. Entre as medidas não farmacológicas, a enfermeira pode oferecer:",
+      "opcoes": [
+        "Enema e tricotomia",
+        "Jejum absoluto",
+        "Manobra de Kristeller",
+        "Banho morno, massagem e liberdade de movimento"
+      ],
+      "correta": 3,
+      "explicacao": "Essas medidas fazem parte das boas práticas de atenção ao parto."
+    },
+    {
+      "id": "saude-mulher-25",
+      "topico": "parto",
+      "nivel": "analise",
+      "pergunta": "Por que a primeira hora após a saída da placenta exige vigilância rigorosa da puérpera?",
+      "opcoes": [
+        "Porque é o período de maior risco de hemorragia, e o útero precisa manter-se contraído",
+        "Porque a mulher não pode amamentar",
+        "Porque o bebê ainda não nasceu",
+        "Porque é quando se inicia a dilatação"
+      ],
+      "correta": 0,
+      "explicacao": "Avaliam-se o sangramento, o tônus uterino e os sinais vitais nesse período."
+    },
+    {
+      "id": "saude-mulher-26",
+      "topico": "puerperio",
+      "nivel": "conceitual",
+      "pergunta": "O aleitamento materno exclusivo é recomendado até:",
+      "opcoes": [
+        "Os 2 meses de vida",
+        "Os 6 meses de vida",
+        "O primeiro ano",
+        "Os 2 anos"
+      ],
+      "correta": 1,
+      "explicacao": "Depois disso, ele deve ser complementado até os dois anos ou mais."
+    },
+    {
+      "id": "saude-mulher-27",
+      "topico": "puerperio",
+      "nivel": "conceitual",
+      "pergunta": "O hormônio responsável pela ejeção do leite é a:",
+      "opcoes": [
+        "Prolactina",
+        "Progesterona",
+        "Ocitocina",
+        "Insulina"
+      ],
+      "correta": 2,
+      "explicacao": "A prolactina, por sua vez, é responsável pela produção do leite."
+    },
+    {
+      "id": "saude-mulher-28",
+      "topico": "puerperio",
+      "nivel": "conceitual",
+      "pergunta": "Os lóquios rubros são observados:",
+      "opcoes": [
+        "Somente após o 20º dia",
+        "Apenas em caso de infecção",
+        "Durante a gestação",
+        "Nos primeiros dias após o parto"
+      ],
+      "correta": 3,
+      "explicacao": "Depois eles se tornam serossanguinolentos e, mais tarde, claros."
+    },
+    {
+      "id": "saude-mulher-29",
+      "topico": "puerperio",
+      "nivel": "aplicacao",
+      "pergunta": "Uma puérpera apresenta fissuras dolorosas nos mamilos no quinto dia de amamentação. A principal orientação é:",
+      "opcoes": [
+        "Corrigir a pega e a posição do bebê",
+        "Suspender a amamentação",
+        "Oferecer mamadeira",
+        "Lavar os mamilos com sabão a cada mamada"
+      ],
+      "correta": 0,
+      "explicacao": "A pega incorreta é a causa mais comum das fissuras."
+    },
+    {
+      "id": "saude-mulher-30",
+      "topico": "puerperio",
+      "nivel": "analise",
+      "pergunta": "Por que se orienta esvaziar uma mama antes de oferecer a outra ao bebê?",
+      "opcoes": [
+        "Porque o leite do início é prejudicial",
+        "Porque o leite do fim da mamada é mais rico em gordura, saciando e favorecendo o ganho de peso",
+        "Porque a segunda mama produz menos leite",
+        "Porque o bebê só mama em um lado"
+      ],
+      "correta": 1,
+      "explicacao": "Trocar de mama cedo demais faz o bebê receber apenas o leite mais aquoso."
+    }
+  ]
+}

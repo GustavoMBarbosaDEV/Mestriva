@@ -1,0 +1,465 @@
+{
+  "id": "saude-crianca",
+  "nome": "Saúde da Criança e Enfermagem Pediátrica",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "politica",
+      "nome": "Políticas e direitos da criança",
+      "resumo": "### Faixas etárias\n- **Recém-nascido (neonato)**: do nascimento aos **28 dias**. **Neonatal precoce**: 0 a 6 dias; **tardio**: 7 a 27 dias.\n- **Lactente**: de 29 dias a **2 anos** incompletos.\n- **Pré-escolar**: de 2 a 6 anos.\n- **Escolar**: de 6 a 10 anos (ou até a puberdade).\n- **Adolescente**: de **10 a 19 anos** para a OMS e o Ministério da Saúde; de **12 a 18 anos** incompletos para o ECA.\n- **Criança**, para o ECA: até **12 anos incompletos**.\n\n### Estatuto da Criança e do Adolescente (Lei 8.069/1990)\n- **Doutrina da proteção integral**: criança e adolescente são **sujeitos de direitos**, com **prioridade absoluta**.\n- **Direito à saúde**: atendimento integral pelo SUS; direito a **acompanhante em tempo integral** durante a internação (pai, mãe ou responsável).\n- **Maus-tratos**: os casos de **suspeita ou confirmação** devem ser **obrigatoriamente comunicados ao Conselho Tutelar**. O profissional de saúde que não comunica comete infração.\n- **Conselho Tutelar**: órgão permanente e autônomo, encarregado de zelar pelos direitos.\n\n### Mortalidade infantil\nÓbitos de **menores de 1 ano** por mil nascidos vivos. Indicador sensível das condições de vida.\n- **Neonatal precoce** (0 a 6 dias), **neonatal tardia** (7 a 27 dias) e **pós-neonatal** (28 a 364 dias).\n- Hoje, a maior parte dos óbitos é **neonatal**, ligada à **prematuridade**, a infecções e à asfixia — ou seja, à qualidade do pré-natal e do parto.\n- O componente **pós-neonatal** se liga mais às condições ambientais: diarreia, pneumonia e desnutrição.\n- **Mortalidade na infância**: menores de 5 anos.\n\n### PNAISC\n**Política Nacional de Atenção Integral à Saúde da Criança** (2015), em sete eixos:\n1. Atenção humanizada à gestação, ao parto, ao nascimento e ao recém-nascido.\n2. **Aleitamento materno** e alimentação complementar saudável.\n3. Promoção e acompanhamento do **crescimento e do desenvolvimento**.\n4. Atenção a agravos prevalentes e a doenças crônicas.\n5. Atenção à criança em situação de **violência**, prevenção de acidentes e cultura de paz.\n6. Atenção à criança com **deficiência** ou em situações de vulnerabilidade.\n7. Vigilância e prevenção do **óbito infantil**.\n\n### Estratégias e programas\n- **AIDPI** (Atenção Integrada às Doenças Prevalentes na Infância): avalia a criança de forma sistemática, classificando por **sinais de perigo** e por cores (vermelho: urgência; amarelo: tratamento; verde: orientação em casa).\n- **Método Canguru**: contato **pele a pele** para o recém-nascido de baixo peso; favorece vínculo, controle térmico e aleitamento.\n- **Iniciativa Hospital Amigo da Criança** e **bancos de leite humano**.\n- **Programa Saúde na Escola (PSE)**.\n- **Programa Nacional de Imunizações (PNI)**.\n- **Bolsa Família**: condicionalidades de saúde (vacinação e acompanhamento do crescimento).\n- **Caderneta da Criança**: registra crescimento, desenvolvimento e vacinas; documento da família.\n\n### Cuidado centrado na criança e na família\n- A família é parte da unidade de cuidado; os pais participam das decisões.\n- **Brinquedo terapêutico**: usa o brincar para preparar a criança para procedimentos e ajudá-la a expressar medos. Tipos: **dramático**, **instrucional** e **capacitador de funções fisiológicas**.\n- **Hospitalização**: gera medo, separação e perda de rotina. Direitos: acompanhante, **brinquedoteca** (obrigatória em hospitais com internação pediátrica) e **classe hospitalar**.\n- Comunicação adequada à idade; nunca mentir sobre a dor de um procedimento.\n\n### Violência\n- Tipos: **física**, **psicológica**, **sexual** e **negligência** (a mais frequente).\n- **Sinais de alerta**: lesões em diferentes estágios de cicatrização, história incompatível com a lesão, demora em procurar atendimento, medo excessivo do adulto.\n- **Síndrome do bebê sacudido**: hemorragias cerebral e retiniana.\n- Conduta: acolher, proteger, **notificar** e comunicar ao **Conselho Tutelar**.",
+      "revisao": "**Lembre:**\n- Recém-nascido: até 28 dias; lactente: até 2 anos.\n- ECA: proteção integral, prioridade absoluta e acompanhante na internação.\n- Suspeita de maus-tratos: comunicar ao Conselho Tutelar.\n- Mortalidade infantil: menores de 1 ano; hoje predomina a neonatal.\n- AIDPI classifica por sinais de perigo e cores."
+    },
+    {
+      "id": "neonato",
+      "nome": "Cuidado ao recém-nascido",
+      "resumo": "### Classificação\n**Pela idade gestacional**\n- **Pré-termo**: menos de **37 semanas**.\n- **A termo**: de 37 a 41 semanas e 6 dias.\n- **Pós-termo**: 42 semanas ou mais.\n\n**Pelo peso ao nascer**\n- **Baixo peso**: menos de **2.500 g**.\n- **Muito baixo peso**: menos de 1.500 g.\n- **Extremo baixo peso**: menos de 1.000 g.\n- **Macrossômico**: 4.000 g ou mais.\n\n**Peso para a idade gestacional**: **PIG** (pequeno), **AIG** (adequado) e **GIG** (grande).\n\n### Escala de Apgar\nAvalia a vitalidade no **1º e no 5º minuto**. Cinco itens, de 0 a 2 pontos cada:\n- **Frequência cardíaca** (ausente; menor que 100; maior que 100).\n- **Esforço respiratório**.\n- **Tônus muscular**.\n- **Irritabilidade reflexa**.\n- **Cor** da pele.\nResultado: **7 a 10**, boa vitalidade; **4 a 6**, asfixia moderada; **0 a 3**, asfixia grave. O Apgar **não decide** o início da reanimação.\n\n### Cuidados na sala de parto\nTrês perguntas iniciais: **gestação a termo? respira ou chora? tem bom tônus?**\n- Se **sim** para todas: **contato pele a pele** com a mãe, **clampeamento oportuno do cordão** (1 a 3 minutos), secar e cobrir, e **amamentar na primeira hora**.\n- Se **não**: levar à mesa de reanimação — **prover calor**, posicionar a cabeça, aspirar se necessário, secar e avaliar.\n- A **ventilação com pressão positiva** deve começar no **primeiro minuto** (\"minuto de ouro\") se houver apneia, respiração irregular ou frequência cardíaca abaixo de 100.\n\n### Cuidados de rotina\n- **Vitamina K** (1 mg intramuscular): previne a **doença hemorrágica do recém-nascido**.\n- **Prevenção da oftalmia neonatal**: colírio ou pomada antibiótica.\n- **Identificação**: pulseiras na mãe e no bebê; impressão plantar.\n- **Antropometria**: peso, comprimento e perímetro cefálico.\n- **Vacinas ao nascer**: **BCG** e **hepatite B**.\n- **Alojamento conjunto**: mãe e bebê juntos 24 horas.\n- **Coto umbilical**: manter **limpo e seco**; cai entre 7 e 15 dias. Vermelhidão, secreção e odor indicam infecção (onfalite).\n- **Banho** pode ser adiado nas primeiras horas, para evitar hipotermia.\n\n### Características normais\n- **Vérnix caseoso** (camada branca e gordurosa), **lanugem** (pelos finos), ***milium*** (pontinhos brancos no nariz), **mancha mongólica** (azulada na região lombar e sacral) e **eritema tóxico**.\n- **Fontanelas**: a **anterior (bregmática)** fecha entre **9 e 18 meses**; a **posterior (lambdoide)**, até os **2 meses**. Abaulada sugere hipertensão intracraniana; deprimida, desidratação.\n- **Bossa serossanguínea**: edema que **ultrapassa as suturas**; some em dias. **Céfalo-hematoma**: sangue sob o periósteo, **não ultrapassa as suturas**.\n- **Perda de peso fisiológica**: até **10%** nos primeiros dias, recuperada por volta do 10º dia.\n- **Mecônio**: primeiras fezes, escuras e viscosas, eliminadas nas primeiras 24 a 48 horas.\n- **Sinais vitais**: frequência cardíaca de 120 a 160 bpm; respiratória de 40 a 60 irpm.\n\n### Reflexos primitivos\nPresentes ao nascer e desaparecem com a maturação: **sucção**, **busca** (procura), **preensão palmar e plantar**, **Moro** (abre e fecha os braços diante de um susto), **marcha automática**, **Babinski** e tônico-cervical. A ausência ou a persistência além do esperado sugere problema neurológico.\n\n### Triagem neonatal\n- **Teste do pezinho** (entre o **3º e o 5º dia**): fenilcetonúria, hipotireoidismo congênito, doença falciforme, fibrose cística, hiperplasia adrenal congênita e deficiência de biotinidase, com ampliação prevista em lei para outras doenças.\n- **Teste do olhinho** (reflexo vermelho): catarata e retinoblastoma.\n- **Teste da orelhinha** (emissões otoacústicas): surdez.\n- **Teste do coraçãozinho** (oximetria de pulso, entre 24 e 48 horas): cardiopatias congênitas críticas.\n- **Teste da linguinha**: freio lingual curto.\n\n### Icterícia neonatal\nCor amarelada por aumento da **bilirrubina**.\n- **Fisiológica**: surge **após 24 horas** de vida, atinge o pico entre o 3º e o 5º dia e desaparece em até duas semanas.\n- **Patológica**: surge nas **primeiras 24 horas**, sobe rápido ou persiste; causas como incompatibilidade Rh e ABO.\n- Progride da cabeça para os pés (**zonas de Kramer**).\n- Risco: ***kernicterus*** (lesão cerebral pela bilirrubina).\n- **Fototerapia**: cuidados — **proteger os olhos**, deixar a pele exposta, **mudar o decúbito**, controlar a temperatura e a hidratação e manter o aleitamento.\n\n### Outros agravos\n- **Hipoglicemia** (filhos de mãe diabética, prematuros, PIG e GIG).\n- **Hipotermia**: o recém-nascido perde calor com facilidade.\n- **Desconforto respiratório**: gemido, batimento de asa do nariz, tiragem; avaliado pelo **boletim de Silverman-Andersen**.\n- **Sepse neonatal**, sífilis congênita e prematuridade.",
+      "revisao": "**Lembre:**\n- Pré-termo: menos de 37 semanas; baixo peso: menos de 2.500 g.\n- Apgar no 1º e no 5º minuto: frequência cardíaca, respiração, tônus, reflexos e cor.\n- Vitamina K previne hemorragia; BCG e hepatite B ao nascer.\n- Teste do pezinho entre o 3º e o 5º dia.\n- Icterícia nas primeiras 24 horas é patológica."
+    },
+    {
+      "id": "crescimento",
+      "nome": "Crescimento, desenvolvimento e puericultura",
+      "resumo": "### Puericultura\nAcompanhamento periódico da criança **saudável**, para promover a saúde e detectar problemas cedo.\n- **Calendário mínimo** de consultas (Ministério da Saúde): na **1ª semana**, com **1 mês**, **2**, **4**, **6**, **9** e **12 meses** (sete no primeiro ano); **18** e **24 meses** no segundo ano; depois, **anual**.\n- O enfermeiro realiza consultas de puericultura, intercaladas com o médico.\n\n### Crescimento\nAumento **físico** do corpo; mede-se por **peso, comprimento/estatura e perímetro cefálico**.\n- **Peso**: o bebê **dobra** o peso do nascimento por volta dos **4 a 5 meses** e **triplica** com **1 ano**.\n- **Comprimento**: cresce cerca de **25 cm no primeiro ano**; aos 4 anos tem cerca de 1 metro.\n- **Perímetro cefálico**: medido até os **2 anos**; reflete o crescimento do cérebro. Detecta **microcefalia** e **macrocefalia**.\n- **Comprimento** (deitado) até 2 anos; **estatura** (em pé) depois.\n- **IMC** para a idade: avalia magreza, sobrepeso e obesidade.\n\n### Curvas de crescimento\n- Usam-se as curvas da **OMS**, na Caderneta da Criança, em **escore z** (ou percentis).\n- Entre **escore z −2 e +2**: adequado.\n- Mais importante que um ponto isolado é a **direção do traçado**:\n  - **ascendente**: bom;\n  - **horizontal**: alerta;\n  - **descendente**: sinal de perigo.\n\n### Desenvolvimento\nAquisição progressiva de **habilidades**: motoras, de linguagem, cognitivas e sociais. Segue os sentidos **cefalocaudal** (da cabeça para os pés) e **proximodistal** (do centro para as extremidades).\n\n**Marcos do desenvolvimento** (idades aproximadas)\n| Idade | Marco |\n|---|---|\n| 1 mês | Fixa o olhar no rosto |\n| 2 meses | **Sorriso social** |\n| 3 a 4 meses | **Sustenta a cabeça**; junta as mãos |\n| 6 meses | **Senta com apoio**, rola e leva objetos à boca |\n| 9 meses | **Senta sem apoio**, engatinha, estranha desconhecidos; pinça inferior |\n| 12 meses | **Anda com apoio** ou sozinho; primeiras palavras; **pinça** com polegar e indicador |\n| 18 meses | Anda bem, sobe degraus; fala várias palavras |\n| 2 anos | Corre, forma **frases de duas palavras** |\n| 3 anos | Pedala triciclo; controle dos esfíncteres durante o dia |\n\n- A avaliação usa instrumentos como a **Caderneta** e a **escala de Denver**.\n- Atraso em um marco exige orientação e reavaliação; atraso em vários, encaminhamento.\n- **Sinais de alerta para autismo**: não olhar nos olhos, não responder ao nome, não apontar, perda de habilidades. O **M-CHAT** é aplicado entre 16 e 30 meses.\n\n### Dentição\nOs primeiros dentes surgem por volta dos **6 meses**; a dentição de leite completa-se em torno dos **2 anos e meio** (20 dentes). Higiene bucal desde o primeiro dente.\n\n### Sono e segurança\n- **Dormir de barriga para cima** reduz o risco da **síndrome da morte súbita do lactente**.\n- Berço sem travesseiros, protetores ou brinquedos soltos.\n\n### Prevenção de acidentes\nPrincipal causa de morte de crianças acima de 1 ano. Varia conforme a idade:\n- **Lactente**: **quedas**, **asfixia e engasgo**, queimaduras com líquidos quentes, afogamento na banheira.\n- **Pré-escolar**: **intoxicações** (produtos de limpeza e remédios ao alcance), queimaduras, quedas, afogamento e atropelamento.\n- **Escolar**: acidentes de trânsito, quedas de bicicleta.\n- **Transporte**: bebê-conforto **de costas para o movimento** até pelo menos 1 ano; cadeirinha; assento de elevação; banco de trás até os 10 anos.\n- **Engasgo**: em menores de 1 ano, **5 tapas nas costas e 5 compressões no tórax**; em maiores, **manobra de Heimlich**.\n\n### Suplementação\n- **Vitamina A**: megadoses para crianças de **6 a 59 meses** em áreas de risco; previne a cegueira noturna e reduz a mortalidade.\n- **Sulfato ferroso**: profilaxia da **anemia ferropriva**, em geral dos 6 aos 24 meses.\n- **Vitamina D**: conforme recomendação.\n\n### Uso de telas\nEvitar para menores de **2 anos**; limitar o tempo nas demais idades.",
+      "revisao": "**Lembre:**\n- Puericultura: sete consultas no primeiro ano.\n- Peso dobra aos 4 a 5 meses e triplica com 1 ano.\n- Curva: o que importa é a direção do traçado.\n- Marcos: sorriso social aos 2 meses, senta sem apoio aos 9, anda por volta de 1 ano.\n- Bebê dorme de barriga para cima."
+    },
+    {
+      "id": "alimentacao",
+      "nome": "Alimentação e imunização",
+      "resumo": "### Aleitamento materno\n- **Exclusivo até os 6 meses**: sem água, chá, suco ou outros leites.\n- **Complementado até os 2 anos ou mais**.\n- **Livre demanda**.\n- Tipos (OMS): **exclusivo**, **predominante** (com água ou chás), **complementado**, **misto ou parcial** (com outros leites).\n- Benefícios: proteção contra **diarreia** e **infecções respiratórias**, menor mortalidade infantil, vínculo e prevenção de obesidade.\n- Evitar **mamadeira e chupeta**.\n\n### Alimentação complementar\nSegundo o **Guia Alimentar para Crianças Brasileiras Menores de 2 Anos**:\n- Começa aos **6 meses**, mantendo o leite materno.\n- Oferecer **comida de verdade**, amassada com o garfo (não liquidificada nem peneirada), evoluindo a consistência até chegar à comida da família por volta de **1 ano**.\n- Variar os grupos: **cereais e tubérculos**, **feijões**, **carnes e ovos**, **legumes e verduras** e **frutas**.\n- Aos 6 meses: papa de fruta e uma refeição principal; aos 7 meses, duas refeições principais.\n- **Não oferecer açúcar** nem preparações com açúcar **até os 2 anos**.\n- **Não oferecer alimentos ultraprocessados** (biscoitos recheados, refrigerantes, salgadinhos, macarrão instantâneo).\n- **Sal**: mínimo.\n- **Mel**: proibido no primeiro ano (risco de **botulismo**).\n- **Leite de vaca**: não antes de 1 ano; quando o aleitamento não é possível, usar fórmula infantil.\n- Oferecer **água** nos intervalos, a partir dos 6 meses.\n- Respeitar os sinais de fome e saciedade; a criança pode recusar um alimento várias vezes antes de aceitá-lo.\n\n### Distúrbios nutricionais\n- **Desnutrição**: **marasmo** (deficiência de calorias; criança muito magra, \"pele e osso\") e ***kwashiorkor*** (deficiência de proteínas; **edema**, lesões de pele e cabelos descoloridos).\n- **Anemia ferropriva**: a carência nutricional mais comum; palidez, cansaço e atraso do desenvolvimento.\n- **Hipovitaminose A**.\n- **Obesidade infantil**: em crescimento; ligada a ultraprocessados e ao sedentarismo.\n\n### Imunização\n- **Imunidade ativa**: o corpo produz anticorpos (**vacina** ou doença); duradoura.\n- **Imunidade passiva**: recebe anticorpos prontos (**soro**, imunoglobulina, leite materno, placenta); imediata e temporária.\n- **Vacinas atenuadas** (vírus ou bactérias **vivos enfraquecidos**): BCG, rotavírus, pólio oral, tríplice viral, varicela e febre amarela. **Contraindicadas** em gestantes e imunodeprimidos.\n- **Vacinas inativadas**: hepatite B, penta, pólio inativada (VIP), pneumocócica, meningocócica, influenza, HPV.\n\n### Calendário básico da criança (principais)\n| Idade | Vacinas |\n|---|---|\n| Ao nascer | **BCG** e **hepatite B** |\n| 2 meses | **Penta** (difteria, tétano, coqueluche, hepatite B e Hib), **VIP**, **pneumocócica 10** e **rotavírus** |\n| 3 meses | **Meningocócica C** |\n| 4 meses | Penta, VIP, pneumocócica 10 e rotavírus (2ª dose) |\n| 5 meses | Meningocócica C (2ª dose) |\n| 6 meses | Penta e VIP (3ª dose); covid-19 e influenza conforme campanha |\n| 9 meses | **Febre amarela** |\n| 12 meses | **Tríplice viral** (sarampo, caxumba e rubéola), reforços da pneumocócica e da meningocócica |\n| 15 meses | **DTP** (reforço), pólio (reforço), **hepatite A** e **tetraviral** (inclui varicela) |\n| 4 anos | DTP (2º reforço), febre amarela (reforço) e varicela |\n| 9 a 14 anos | **HPV** |\n\nO calendário é atualizado com frequência pelo **PNI**; consulte sempre a versão vigente.\n\n### Vias e locais\n- **BCG**: **intradérmica**, na inserção inferior do músculo deltoide **direito**; forma uma pequena cicatriz.\n- **Rotavírus** e pólio oral: **via oral**.\n- **Tríplice viral, varicela e febre amarela**: **subcutânea**.\n- **Penta, hepatite B, VIP, pneumocócica e meningocócica**: **intramuscular**. Em menores de 2 anos, no **vasto lateral da coxa**.\n\n### Rede de frio\nConservação das vacinas entre **+2 °C e +8 °C**, do laboratório à sala de vacina. Registrar a temperatura diariamente.\n\n### Contraindicações e falsas contraindicações\n- **Verdadeiras**: **reação anafilática** a dose anterior ou a componente; vacinas vivas em **imunodeprimidos** e gestantes.\n- **Adiar**: doença **febril grave**.\n- **Falsas contraindicações** (não impedem vacinar): resfriado, febre baixa, diarreia leve, uso de antibiótico, prematuridade, desnutrição, aleitamento materno e alergias não relacionadas.\n- **Rotavírus** tem **limite de idade** para as doses.\n\n### Eventos adversos\nDor, vermelhidão e febre baixa são comuns. Eventos graves são raros e devem ser **notificados**.",
+      "revisao": "**Lembre:**\n- Aleitamento exclusivo até 6 meses; comida amassada a partir daí.\n- Sem açúcar e sem ultraprocessados até os 2 anos; sem mel no primeiro ano.\n- Ao nascer: BCG e hepatite B; aos 2 meses: penta, VIP, pneumo 10 e rotavírus.\n- BCG é intradérmica no braço direito.\n- Rede de frio: de +2 a +8 °C; resfriado não contraindica vacina."
+    },
+    {
+      "id": "agravos",
+      "nome": "Agravos prevalentes na infância",
+      "resumo": "### Diarreia aguda\nAumento do número de evacuações com fezes amolecidas, por até 14 dias; em geral de causa viral (**rotavírus**). O principal risco é a **desidratação**.\n\n**Avaliação da hidratação**\n| Sinal | Hidratada | Desidratada | Desidratação grave |\n|---|---|---|---|\n| Estado geral | Alerta | **Irritada**, inquieta | **Letárgica**, comatosa |\n| Olhos | Normais | **Fundos** | Muito fundos |\n| Sede | Normal | **Bebe avidamente** | Não consegue beber |\n| Sinal da prega | Some rápido | Some **lentamente** | Some muito lentamente (mais de 2 segundos) |\n| Lágrimas, boca | Presentes, úmida | Ausentes, **seca** | Ausentes, muito seca |\n\n**Planos de tratamento**\n- **Plano A** (sem desidratação): em **casa** — oferecer mais líquidos e **soro de reidratação oral (SRO)** após cada evacuação, **manter a alimentação** e o aleitamento, e ensinar os sinais de perigo. Administrar **zinco**.\n- **Plano B** (com desidratação): **SRO na unidade de saúde**, sob observação, até a reidratação.\n- **Plano C** (desidratação grave): **hidratação venosa** imediata, em serviço de urgência.\n- Não suspender a alimentação nem usar antidiarreicos.\n\n### Infecções respiratórias agudas\n- **Resfriado comum**: coriza, tosse e febre baixa; trata-se com hidratação e lavagem nasal.\n- **Otite média aguda**: dor de ouvido, febre e irritabilidade.\n- **Amigdalite**: viral ou bacteriana (estreptocócica).\n- **Bronquiolite**: em **menores de 2 anos**, causada pelo **vírus sincicial respiratório**; chiado, tosse e desconforto respiratório.\n- **Pneumonia**: principal causa infecciosa de morte em menores de 5 anos. O sinal mais sensível é a **respiração rápida (taquipneia)**:\n  - menos de 2 meses: **60 ou mais** respirações por minuto;\n  - de 2 a 11 meses: **50 ou mais**;\n  - de 1 a 4 anos: **40 ou mais**.\n  - **Tiragem subcostal** indica gravidade.\n- **Asma**: inflamação crônica com episódios de **chiado**, tosse e falta de ar. Tratamento da crise com **broncodilatador inalatório** (salbutamol) por espaçador; controle com corticoide inalatório.\n- **Laringite (crupe)**: tosse \"de cachorro\", rouquidão e **estridor**.\n\n### Sinais gerais de perigo (AIDPI)\nExigem **encaminhamento urgente**: a criança **não consegue beber ou mamar**, **vomita tudo** o que ingere, teve **convulsões**, está **letárgica ou inconsciente**.\n\n### Febre\n- Temperatura axilar acima de **37,8 °C**.\n- Em **menores de 3 meses**, toda febre exige avaliação médica.\n- **Convulsão febril**: entre 6 meses e 5 anos; em geral benigna. Colocar a criança de lado, proteger de traumas e não pôr nada na boca.\n- Antitérmicos conforme o peso; evitar ácido acetilsalicílico (risco de síndrome de Reye).\n\n### Doenças exantemáticas\n| Doença | Agente | Característica |\n|---|---|---|\n| **Sarampo** | Vírus | Febre alta, tosse, coriza, conjuntivite e **manchas de Koplik** (pontos brancos na boca); exantema da cabeça para os pés |\n| **Rubéola** | Vírus | Exantema leve e **gânglios** atrás da orelha; grave na gestação |\n| **Varicela (catapora)** | Vírus varicela-zóster | Lesões em **vários estágios** ao mesmo tempo (mancha, vesícula e crosta), com coceira |\n| **Escarlatina** | Estreptococo | Língua \"**em framboesa**\", pele áspera e palidez ao redor da boca |\n| **Eritema infeccioso** | Parvovírus B19 | Face \"**esbofeteada**\" |\n| **Exantema súbito (roséola)** | Herpesvírus 6 | Febre alta por 3 dias; o exantema aparece **quando a febre cede** |\n\n- **Caxumba**: aumento das glândulas parótidas.\n- **Coqueluche**: tosse em **acessos**, seguida de \"guincho\" inspiratório.\n- **Meningite**: febre, vômitos, **rigidez de nuca**, fontanela abaulada no lactente e manchas na pele (meningocócica); é **emergência** e de notificação imediata.\n\n### Parasitoses e problemas de pele\n- **Verminoses**: ascaridíase, giardíase, oxiuríase (coceira anal noturna).\n- **Pediculose** (piolho), **escabiose** (sarna) e **impetigo**.\n- **Dermatite de fraldas**: trocar com frequência, limpar e manter a pele seca.\n\n### Outras condições\n- **Infecção urinária**, **refluxo gastroesofágico** e **cólica do lactente**.\n- **Anemia falciforme**, **diabetes tipo 1**, **cardiopatias congênitas** e **câncer infantil** (a **leucemia** é o mais comum).\n- **Desnutrição** e **obesidade**.",
+      "revisao": "**Lembre:**\n- Diarreia: plano A em casa, B com soro oral na unidade, C com soro na veia.\n- Desidratação: olhos fundos, sede intensa, prega que demora a sumir.\n- Pneumonia: respiração rápida; tiragem indica gravidade.\n- Sinais de perigo: não bebe, vomita tudo, convulsão, letargia.\n- Sarampo: manchas de Koplik; varicela: lesões em vários estágios."
+    },
+    {
+      "id": "tecnicas",
+      "nome": "Procedimentos e cuidados de enfermagem pediátrica",
+      "resumo": "### Sinais vitais na criança\nVariam com a idade: quanto **menor** a criança, **maiores** as frequências cardíaca e respiratória e **menor** a pressão arterial.\n\n| Idade | Frequência cardíaca (bpm) | Frequência respiratória (irpm) |\n|---|---|---|\n| Recém-nascido | 120 a 160 | 40 a 60 |\n| Lactente | 100 a 150 | 30 a 50 |\n| Pré-escolar | 80 a 120 | 20 a 30 |\n| Escolar | 70 a 110 | 18 a 25 |\n\n- Contar a frequência respiratória e a cardíaca por **1 minuto inteiro**, de preferência com a criança calma.\n- **Ordem** sugerida: respiração, pulso, pressão e, por último, temperatura (a que mais incomoda).\n- **Pressão arterial**: o manguito deve cobrir cerca de **dois terços** do braço; manguito pequeno superestima o valor.\n- **Dor**: é o quinto sinal vital. Escalas por idade: **NIPS** (neonatos), **FLACC** (crianças que não falam), **escala de faces** (a partir de 3 anos) e **numérica** (escolares).\n\n### Alívio da dor\n- **Não farmacológico**: sucção não nutritiva, **solução adocicada** e amamentação durante procedimentos em bebês; contenção gentil (enrolamento), colo, distração, brinquedo e presença dos pais.\n- **Farmacológico**: analgésicos conforme prescrição; anestésico tópico antes de punções.\n\n### Administração de medicamentos\n- As doses são calculadas pelo **peso** (mg/kg) ou pela superfície corporal; **conferir sempre o cálculo**, pois pequenos erros são graves.\n- **Via oral**: seringa dosadora, com a criança semissentada; não misturar na mamadeira inteira.\n- **Intramuscular**:\n  - menores de 2 anos: **vasto lateral da coxa**;\n  - a região **dorsoglútea é contraindicada** em menores de 2 anos (músculo pouco desenvolvido e risco de lesão do nervo ciático);\n  - o deltoide só em crianças maiores, para pequenos volumes.\n- **Intravenosa**: veias do dorso da mão, do antebraço e, em lactentes, do couro cabeludo; usar **bomba de infusão** e bureta para controlar o volume; vigiar **infiltração** e flebite.\n- **Inalatória**: aerossol dosimetrado com **espaçador** e máscara.\n- Os **certos** da medicação e a **dupla checagem** em medicamentos de alta vigilância.\n\n### Balanço hídrico\n- A criança tem **mais água corporal** e desidrata mais rápido.\n- Controlar **entradas e saídas**; pesar fraldas (1 g = 1 mL).\n- **Diurese** esperada: 1 a 2 mL/kg/hora.\n- **Hidratação venosa de manutenção** pela regra de **Holliday-Segar**: 100 mL/kg para os primeiros 10 kg; 50 mL/kg para os 10 kg seguintes; 20 mL/kg para o que exceder.\n\n### Higiene e conforto\n- **Banho**: água morna (em torno de 37 °C), nunca deixar a criança sozinha.\n- **Higiene íntima**: nas meninas, sempre **da frente para trás**.\n- **Troca de fraldas** frequente; prevenir assaduras.\n\n### Oxigenoterapia e vias aéreas\n- **Sinais de desconforto respiratório**: taquipneia, **batimento de asa do nariz**, **tiragem** intercostal e subcostal, **gemido**, cianose e balanço da cabeça.\n- Cateter nasal, máscara e capacete (halo); monitorar a **saturação**.\n- **Aspiração** de vias aéreas: técnica estéril, rápida e com pressão adequada.\n- **Lavagem nasal** com soro fisiológico.\n\n### Suporte básico de vida pediátrico\n- **Parada cardiorrespiratória** na criança: quase sempre de causa **respiratória**.\n- **Compressões**: frequência de **100 a 120 por minuto**; profundidade de cerca de **um terço do tórax** (4 cm no lactente; 5 cm na criança).\n  - Lactente: **dois dedos** (um socorrista) ou **dois polegares** envolvendo o tórax (dois socorristas).\n  - Criança: uma ou duas mãos.\n- **Relação compressão-ventilação**: **30:2** com um socorrista; **15:2** com dois socorristas profissionais.\n- **Pulso**: braquial no lactente; carotídeo ou femoral na criança.\n- **Engasgo**: lactente consciente — **5 golpes nas costas e 5 compressões torácicas**; criança — **compressões abdominais** (Heimlich).\n\n### Segurança do paciente\n- **Identificação** com pulseira, conferida com o acompanhante.\n- Prevenção de **quedas**: grades do berço elevadas, nunca deixar a criança sozinha em superfície alta.\n- **Higiene das mãos** e prevenção de infecções.\n- **Contenção**: apenas quando necessária para a segurança, pelo menor tempo e com explicação.\n\n### Hospitalização e preparo\n- Explicar os procedimentos em linguagem adequada à idade; usar o **brinquedo terapêutico**.\n- Manter os pais presentes e informados.\n- **Cuidados paliativos pediátricos**: conforto, controle da dor e apoio à família.\n\n### Processo de enfermagem\nHistórico (com dados de nascimento, vacinas, alimentação e desenvolvimento), diagnósticos, planejamento, implementação e avaliação, sempre incluindo a **família**.",
+      "revisao": "**Lembre:**\n- Quanto menor a criança, mais rápidos o coração e a respiração.\n- Dose por peso; conferir sempre o cálculo.\n- Injeção em menores de 2 anos: vasto lateral da coxa, nunca o glúteo.\n- RCP: 100 a 120 compressões por minuto; 30:2 (um socorrista) ou 15:2 (dois).\n- Engasgo no lactente: 5 golpes nas costas e 5 compressões no tórax."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "saude-crianca-1",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "O período neonatal corresponde aos primeiros:",
+      "opcoes": [
+        "28 dias de vida",
+        "7 dias de vida",
+        "6 meses de vida",
+        "12 meses de vida"
+      ],
+      "correta": 0,
+      "explicacao": "Depois disso, e até os dois anos, a criança é chamada de lactente."
+    },
+    {
+      "id": "saude-crianca-2",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "A doutrina adotada pelo Estatuto da Criança e do Adolescente é a da:",
+      "opcoes": [
+        "Situação irregular",
+        "Proteção integral",
+        "Tutela do Estado",
+        "Responsabilidade exclusiva da família"
+      ],
+      "correta": 1,
+      "explicacao": "Crianças e adolescentes são sujeitos de direitos, com prioridade absoluta."
+    },
+    {
+      "id": "saude-crianca-3",
+      "topico": "politica",
+      "nivel": "conceitual",
+      "pergunta": "A taxa de mortalidade infantil considera os óbitos de crianças:",
+      "opcoes": [
+        "Menores de 5 anos",
+        "Menores de 28 dias apenas",
+        "Menores de 1 ano",
+        "De 1 a 4 anos"
+      ],
+      "correta": 2,
+      "explicacao": "Os óbitos de menores de cinco anos compõem a mortalidade na infância."
+    },
+    {
+      "id": "saude-crianca-4",
+      "topico": "politica",
+      "nivel": "aplicacao",
+      "pergunta": "Uma enfermeira atende uma criança com hematomas em diferentes fases de cicatrização e história que não combina com as lesões. Ela deve:",
+      "opcoes": [
+        "Aguardar a confirmação pela polícia",
+        "Orientar a família e liberar",
+        "Registrar apenas no prontuário",
+        "Notificar o caso e comunicar ao Conselho Tutelar"
+      ],
+      "correta": 3,
+      "explicacao": "A simples suspeita de maus-tratos já torna a comunicação obrigatória."
+    },
+    {
+      "id": "saude-crianca-5",
+      "topico": "politica",
+      "nivel": "analise",
+      "pergunta": "Por que a redução da mortalidade infantil no Brasil depende hoje, principalmente, da qualidade do pré-natal e do parto?",
+      "opcoes": [
+        "Porque a maior parte dos óbitos é neonatal, ligada à prematuridade, à asfixia e a infecções",
+        "Porque as crianças não adoecem após o primeiro mês",
+        "Porque a diarreia é a principal causa de morte",
+        "Porque as vacinas não têm efeito sobre a mortalidade"
+      ],
+      "correta": 0,
+      "explicacao": "O componente pós-neonatal caiu muito com saneamento, vacinas e reidratação oral."
+    },
+    {
+      "id": "saude-crianca-6",
+      "topico": "neonato",
+      "nivel": "conceitual",
+      "pergunta": "A escala de Apgar é aplicada ao recém-nascido no:",
+      "opcoes": [
+        "1º e 10º dia de vida",
+        "1º e 5º minuto de vida",
+        "Momento da alta",
+        "Primeiro mês"
+      ],
+      "correta": 1,
+      "explicacao": "Ela avalia frequência cardíaca, respiração, tônus, irritabilidade reflexa e cor."
+    },
+    {
+      "id": "saude-crianca-7",
+      "topico": "neonato",
+      "nivel": "conceitual",
+      "pergunta": "A vitamina K é administrada ao recém-nascido para prevenir:",
+      "opcoes": [
+        "A icterícia",
+        "A hipoglicemia",
+        "A doença hemorrágica",
+        "A oftalmia neonatal"
+      ],
+      "correta": 2,
+      "explicacao": "O recém-nascido tem baixas reservas dessa vitamina, necessária à coagulação."
+    },
+    {
+      "id": "saude-crianca-8",
+      "topico": "neonato",
+      "nivel": "conceitual",
+      "pergunta": "O teste do pezinho deve ser colhido, idealmente:",
+      "opcoes": [
+        "Na primeira hora de vida",
+        "Após o primeiro mês",
+        "Somente se houver sintomas",
+        "Entre o 3º e o 5º dia de vida"
+      ],
+      "correta": 3,
+      "explicacao": "Ele permite detectar doenças como fenilcetonúria e hipotireoidismo congênito antes dos sintomas."
+    },
+    {
+      "id": "saude-crianca-9",
+      "topico": "neonato",
+      "nivel": "aplicacao",
+      "pergunta": "Um recém-nascido apresenta pele amarelada com 18 horas de vida. A enfermeira deve considerar a icterícia como:",
+      "opcoes": [
+        "Patológica, exigindo avaliação imediata",
+        "Fisiológica, sem necessidade de avaliação",
+        "Consequência normal do aleitamento",
+        "Sinal de boa hidratação"
+      ],
+      "correta": 0,
+      "explicacao": "A icterícia fisiológica só aparece depois das primeiras 24 horas."
+    },
+    {
+      "id": "saude-crianca-10",
+      "topico": "neonato",
+      "nivel": "analise",
+      "pergunta": "Por que se recomenda o contato pele a pele imediato entre mãe e recém-nascido com boa vitalidade?",
+      "opcoes": [
+        "Porque substitui a vacina BCG",
+        "Porque ajuda a manter a temperatura do bebê, favorece o vínculo e o início da amamentação",
+        "Porque dispensa a avaliação do Apgar",
+        "Porque evita a queda do coto umbilical"
+      ],
+      "correta": 1,
+      "explicacao": "O recém-nascido perde calor com facilidade, e o corpo da mãe o aquece."
+    },
+    {
+      "id": "saude-crianca-11",
+      "topico": "crescimento",
+      "nivel": "conceitual",
+      "pergunta": "No primeiro ano de vida, o Ministério da Saúde recomenda no mínimo:",
+      "opcoes": [
+        "Duas consultas",
+        "Doze consultas",
+        "Sete consultas de puericultura",
+        "Uma consulta por trimestre"
+      ],
+      "correta": 2,
+      "explicacao": "Elas ocorrem na primeira semana e com 1, 2, 4, 6, 9 e 12 meses."
+    },
+    {
+      "id": "saude-crianca-12",
+      "topico": "crescimento",
+      "nivel": "conceitual",
+      "pergunta": "O peso de nascimento costuma triplicar por volta de:",
+      "opcoes": [
+        "4 meses",
+        "6 meses",
+        "2 anos",
+        "1 ano de idade"
+      ],
+      "correta": 3,
+      "explicacao": "Ele dobra antes disso, por volta dos quatro a cinco meses."
+    },
+    {
+      "id": "saude-crianca-13",
+      "topico": "crescimento",
+      "nivel": "conceitual",
+      "pergunta": "O sorriso social é um marco do desenvolvimento esperado por volta de:",
+      "opcoes": [
+        "2 meses",
+        "6 meses",
+        "9 meses",
+        "12 meses"
+      ],
+      "correta": 0,
+      "explicacao": "É uma resposta ao rosto e à voz de quem cuida do bebê."
+    },
+    {
+      "id": "saude-crianca-14",
+      "topico": "crescimento",
+      "nivel": "aplicacao",
+      "pergunta": "Na caderneta, o peso de um lactente está dentro da faixa adequada, mas a curva ficou horizontal nas duas últimas consultas. A interpretação correta é:",
+      "opcoes": [
+        "Situação normal, sem conduta",
+        "Sinal de alerta, que pede investigação e retorno mais próximo",
+        "Indício de obesidade",
+        "Erro de pesagem, necessariamente"
+      ],
+      "correta": 1,
+      "explicacao": "A direção do traçado importa mais do que um ponto isolado da curva."
+    },
+    {
+      "id": "saude-crianca-15",
+      "topico": "crescimento",
+      "nivel": "analise",
+      "pergunta": "Por que o bebê deve ser colocado para dormir de barriga para cima?",
+      "opcoes": [
+        "Porque acelera o desenvolvimento motor",
+        "Porque evita a icterícia",
+        "Porque essa posição reduz o risco da síndrome da morte súbita do lactente",
+        "Porque melhora a digestão do leite"
+      ],
+      "correta": 2,
+      "explicacao": "O berço também deve ficar livre de travesseiros e objetos soltos."
+    },
+    {
+      "id": "saude-crianca-16",
+      "topico": "alimentacao",
+      "nivel": "conceitual",
+      "pergunta": "A alimentação complementar deve ser iniciada aos:",
+      "opcoes": [
+        "2 meses",
+        "4 meses, suspendendo o leite materno",
+        "12 meses",
+        "6 meses, mantendo o leite materno"
+      ],
+      "correta": 3,
+      "explicacao": "Antes disso, o leite materno supre sozinho as necessidades do bebê."
+    },
+    {
+      "id": "saude-crianca-17",
+      "topico": "alimentacao",
+      "nivel": "conceitual",
+      "pergunta": "A vacina BCG é aplicada por via:",
+      "opcoes": [
+        "Intradérmica",
+        "Intramuscular",
+        "Subcutânea",
+        "Oral"
+      ],
+      "correta": 0,
+      "explicacao": "A aplicação é feita no braço direito e costuma deixar uma pequena cicatriz."
+    },
+    {
+      "id": "saude-crianca-18",
+      "topico": "alimentacao",
+      "nivel": "conceitual",
+      "pergunta": "As vacinas devem ser conservadas na rede de frio entre:",
+      "opcoes": [
+        "−20 °C e −10 °C",
+        "+2 °C e +8 °C",
+        "+10 °C e +15 °C",
+        "0 °C e +2 °C"
+      ],
+      "correta": 1,
+      "explicacao": "A temperatura deve ser registrada todos os dias na sala de vacina."
+    },
+    {
+      "id": "saude-crianca-19",
+      "topico": "alimentacao",
+      "nivel": "aplicacao",
+      "pergunta": "A mãe de um bebê de 2 meses com coriza e sem febre pergunta se pode vaciná-lo. A orientação é:",
+      "opcoes": [
+        "Adiar por um mês",
+        "Suspender o esquema vacinal",
+        "Vacinar normalmente, pois resfriado leve não contraindica",
+        "Vacinar apenas com a BCG"
+      ],
+      "correta": 2,
+      "explicacao": "Resfriado, febre baixa e uso de antibiótico são falsas contraindicações."
+    },
+    {
+      "id": "saude-crianca-20",
+      "topico": "alimentacao",
+      "nivel": "analise",
+      "pergunta": "Por que não se deve oferecer mel a crianças menores de 1 ano?",
+      "opcoes": [
+        "Porque o mel causa cárie imediata",
+        "Porque o mel não tem calorias",
+        "Porque interfere nas vacinas",
+        "Pelo risco de botulismo, já que o intestino do bebê ainda não combate os esporos da bactéria"
+      ],
+      "correta": 3,
+      "explicacao": "A toxina produzida no intestino pode causar paralisia grave."
+    },
+    {
+      "id": "saude-crianca-21",
+      "topico": "agravos",
+      "nivel": "conceitual",
+      "pergunta": "Na diarreia sem sinais de desidratação, o tratamento indicado é o:",
+      "opcoes": [
+        "Plano A, em casa, com mais líquidos e manutenção da alimentação",
+        "Plano C, com hidratação venosa",
+        "Jejum por 24 horas",
+        "Uso de antidiarreicos"
+      ],
+      "correta": 0,
+      "explicacao": "O plano B é usado quando já há desidratação, e o C, na forma grave."
+    },
+    {
+      "id": "saude-crianca-22",
+      "topico": "agravos",
+      "nivel": "conceitual",
+      "pergunta": "O sinal mais sensível para suspeitar de pneumonia na criança é:",
+      "opcoes": [
+        "A febre baixa",
+        "A respiração rápida",
+        "A coriza",
+        "A dor de garganta"
+      ],
+      "correta": 1,
+      "explicacao": "A tiragem subcostal, quando presente, indica maior gravidade."
+    },
+    {
+      "id": "saude-crianca-23",
+      "topico": "agravos",
+      "nivel": "conceitual",
+      "pergunta": "As manchas de Koplik são características do:",
+      "opcoes": [
+        "Eritema infeccioso",
+        "Exantema súbito",
+        "Sarampo",
+        "Impetigo"
+      ],
+      "correta": 2,
+      "explicacao": "São pequenos pontos brancos na mucosa da boca, anteriores ao exantema."
+    },
+    {
+      "id": "saude-crianca-24",
+      "topico": "agravos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma criança com diarreia está irritada, com olhos fundos, bebe água avidamente e a prega da pele volta devagar. A classificação e a conduta são:",
+      "opcoes": [
+        "Sem desidratação; plano A em casa",
+        "Desidratação grave; alta com orientações",
+        "Sem desidratação; suspender a alimentação",
+        "Desidratação; plano B, com soro oral na unidade de saúde"
+      ],
+      "correta": 3,
+      "explicacao": "A criança deve ficar em observação até estar reidratada."
+    },
+    {
+      "id": "saude-crianca-25",
+      "topico": "agravos",
+      "nivel": "analise",
+      "pergunta": "Por que a alimentação e o aleitamento devem ser mantidos durante a diarreia?",
+      "opcoes": [
+        "Porque evitam a desnutrição e ajudam na recuperação do intestino",
+        "Porque aumentam o número de evacuações",
+        "Porque substituem o soro oral",
+        "Porque o jejum cura a diarreia"
+      ],
+      "correta": 0,
+      "explicacao": "Suspender a comida agrava a perda de peso e prolonga o quadro."
+    },
+    {
+      "id": "saude-crianca-26",
+      "topico": "tecnicas",
+      "nivel": "conceitual",
+      "pergunta": "Em menores de 2 anos, o local indicado para injeção intramuscular é:",
+      "opcoes": [
+        "A região dorsoglútea",
+        "O vasto lateral da coxa",
+        "O deltoide",
+        "A região abdominal"
+      ],
+      "correta": 1,
+      "explicacao": "O glúteo é pouco desenvolvido nessa idade e há risco de lesão do nervo ciático."
+    },
+    {
+      "id": "saude-crianca-27",
+      "topico": "tecnicas",
+      "nivel": "conceitual",
+      "pergunta": "Em relação aos sinais vitais, quanto menor a criança:",
+      "opcoes": [
+        "Menores as frequências cardíaca e respiratória",
+        "Maior a pressão arterial",
+        "Maiores as frequências cardíaca e respiratória",
+        "Menor a temperatura normal"
+      ],
+      "correta": 2,
+      "explicacao": "Os valores vão se aproximando dos do adulto com o crescimento."
+    },
+    {
+      "id": "saude-crianca-28",
+      "topico": "tecnicas",
+      "nivel": "conceitual",
+      "pergunta": "Na reanimação cardiopulmonar de uma criança por dois socorristas profissionais, a relação entre compressões e ventilações é de:",
+      "opcoes": [
+        "30:2",
+        "5:1",
+        "3:1",
+        "15:2"
+      ],
+      "correta": 3,
+      "explicacao": "Com um único socorrista, usa-se a relação de 30 compressões para 2 ventilações."
+    },
+    {
+      "id": "saude-crianca-29",
+      "topico": "tecnicas",
+      "nivel": "aplicacao",
+      "pergunta": "Um bebê de 8 meses engasga com um pedaço de alimento, está consciente, mas não consegue chorar nem tossir. A conduta é:",
+      "opcoes": [
+        "Aplicar 5 golpes nas costas e 5 compressões no tórax, alternando",
+        "Fazer a manobra de Heimlich com compressões abdominais",
+        "Tentar retirar o objeto com o dedo às cegas",
+        "Oferecer água"
+      ],
+      "correta": 0,
+      "explicacao": "As compressões abdominais são reservadas a crianças maiores de um ano."
+    },
+    {
+      "id": "saude-crianca-30",
+      "topico": "tecnicas",
+      "nivel": "analise",
+      "pergunta": "Por que o cálculo da dose de medicamentos exige conferência redobrada em pediatria?",
+      "opcoes": [
+        "Porque as crianças não metabolizam medicamentos",
+        "Porque as doses são calculadas pelo peso, e pequenos erros podem causar danos graves",
+        "Porque todas as doses são iguais às do adulto",
+        "Porque os medicamentos pediátricos não têm efeitos adversos"
+      ],
+      "correta": 1,
+      "explicacao": "A dupla checagem é uma medida de segurança do paciente."
+    }
+  ]
+}
