@@ -1,0 +1,465 @@
+{
+  "id": "administracao-producao",
+  "nome": "Administração da Produção e Operações",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos de produção e operações",
+      "resumo": "### O que é\nGestão dos recursos que **transformam insumos** (*inputs*) em **produtos e serviços** (*outputs*). Vale para fábricas, hospitais, bancos, escolas e restaurantes.\n\n### Modelo de transformação (Slack)\n- **Recursos a serem transformados**: **materiais**, **informações** e **consumidores**.\n- **Recursos de transformação**: **instalações** e **funcionários**.\n- Processo de transformação → produtos e serviços → consumidores.\n\n### Os 4 Vs dos processos\n| Dimensão | Efeito |\n|---|---|\n| **Volume** | Alto volume favorece padronização e baixo custo unitário |\n| **Variedade** | Alta variedade exige flexibilidade e eleva o custo |\n| **Variação da demanda** | Demanda instável exige capacidade ajustável |\n| **Visibilidade** | Quanto o cliente vê e participa do processo |\n\n### Bens x serviços\nServiços são **intangíveis**, **simultâneos** (produzidos e consumidos ao mesmo tempo), **perecíveis** (não estocáveis), **heterogêneos** (variam) e com **participação do cliente**.\n\n### Objetivos de desempenho (Slack)\n**Qualidade** (fazer certo), **rapidez** (fazer rápido), **confiabilidade** (fazer no prazo), **flexibilidade** (mudar o que se faz) e **custo** (fazer barato).\n\n### Evolução histórica\n- **Produção artesanal**.\n- **Administração científica** (Taylor): estudo de **tempos e movimentos**, padronização.\n- **Produção em massa** (Henry **Ford**, linha de montagem, 1913): alto volume, baixa variedade.\n- **Sistema Toyota de Produção** (Taiichi **Ohno**): **produção enxuta** (*lean*).\n- **Customização em massa**, indústria **4.0** (automação, internet das coisas, dados).\n\n### Tipos de processo\n- **Manufatura** (do menor para o maior volume): **projeto** (navio, obra), **jobbing** (por encomenda), **lote ou batelada**, **produção em massa** e **contínuo** (refinaria).\n- **Serviços**: **profissionais** (consultoria, alta customização), **lojas de serviço** e **serviços de massa** (transporte público, banco de varejo).",
+      "revisao": "**Lembre:** produção transforma insumos em bens e serviços. 4 Vs: volume, variedade, variação e visibilidade. Objetivos: qualidade, rapidez, confiabilidade, flexibilidade e custo. Processos: projeto, jobbing, lote, massa e contínuo."
+    },
+    {
+      "id": "capacidade",
+      "nome": "Localização, arranjo físico e capacidade",
+      "resumo": "### Localização\nFatores: proximidade de **mercados** e de **matérias-primas**, custo e qualificação da **mão de obra**, **transporte**, incentivos fiscais, infraestrutura, qualidade de vida.\n- **Método do centro de gravidade**: localização que minimiza o custo de transporte ponderado pelo volume.\n- **Método dos fatores ponderados**: notas a critérios com pesos.\n\n### Arranjo físico (*layout*)\n| Tipo | Como é | Exemplo |\n|---|---|---|\n| **Posicional** (fixo) | O produto fica parado; recursos vão até ele | Navio, construção civil, cirurgia |\n| **Funcional** (por processo) | Recursos semelhantes agrupados | Hospital por departamentos, oficina, supermercado |\n| **Celular** | Células com os recursos para uma família de produtos | Fábrica de peças, praça de alimentação |\n| **Por produto** (linear) | Recursos em sequência, seguindo o fluxo | Linha de montagem de carros, autosserviço em bandejão |\n\n### Capacidade\n- **Capacidade de projeto** (teórica): máximo possível em condições ideais.\n- **Capacidade efetiva**: descontadas as perdas **planejadas** (manutenção preventiva, *setup*, intervalos).\n- **Produção real**: descontadas também as perdas **não planejadas** (quebras, faltas).\n- **Utilização** = produção real ÷ capacidade de projeto.\n- **Eficiência** = produção real ÷ capacidade efetiva.\n- **Gargalo**: etapa com a **menor capacidade**; limita a produção de todo o sistema.\n\n### Teoria das Restrições (Eliyahu Goldratt, *A Meta*)\n1. **Identificar** a restrição (gargalo).\n2. **Explorar** ao máximo a restrição.\n3. **Subordinar** tudo à restrição.\n4. **Elevar** a restrição (aumentar sua capacidade).\n5. Se a restrição foi quebrada, **voltar ao passo 1**.\n\"Uma hora perdida no gargalo é uma hora perdida no sistema inteiro.\"\n\n### Ajuste da capacidade à demanda\n- **Capacidade constante** (nivelada, com estoques).\n- **Acompanhar a demanda** (horas extras, temporários).\n- **Gerenciar a demanda** (promoções, preços diferenciados em horários de pico).",
+      "revisao": "**Lembre:** layout posicional (produto parado), funcional (agrupado por processo), celular e por produto (linha). Utilização = real ÷ projeto; eficiência = real ÷ efetiva. Gargalo limita o sistema; Goldratt: identificar, explorar, subordinar, elevar e repetir."
+    },
+    {
+      "id": "planejamento",
+      "nome": "Planejamento e controle da produção (PCP)",
+      "resumo": "### Previsão de demanda\n- **Qualitativa**: opinião de especialistas, **Delphi** (consulta anônima em rodadas), pesquisa de mercado.\n- **Quantitativa**: **média móvel** (média dos últimos períodos), média móvel **ponderada**, **suavização exponencial** (ajusta a previsão anterior pelo erro: nova previsão = anterior + α × (real − anterior)), regressão, séries temporais (tendência, sazonalidade).\n\n### Hierarquia do planejamento\n1. **Planejamento agregado** (vendas e operações, S&OP): médio prazo, famílias de produtos.\n2. **Plano mestre de produção (PMP/MPS)**: o que produzir, quanto e quando, por produto final.\n3. **MRP** e programação detalhada.\n4. **Controle** da produção (sequenciamento, acompanhamento).\n\n### MRP (planejamento das necessidades de materiais)\n- Calcula **o que**, **quanto** e **quando** comprar ou produzir de cada componente.\n- Insumos: **PMP**, **lista de materiais** (estrutura do produto, *BOM*) e **registros de estoque**.\n- Trata a demanda de componentes como **dependente** (derivada do produto final).\n- **MRP II**: amplia para recursos de produção (capacidade, mão de obra, finanças).\n- **ERP**: sistema integrado de gestão de toda a empresa.\n\n### Demanda dependente x independente\n- **Independente**: do mercado, deve ser **prevista** (produto final).\n- **Dependente**: **calculada** a partir da demanda do produto final (rodas de um carro).\n\n### Sequenciamento\nRegras de prioridade: **PEPS** (primeiro a entrar, primeiro a sair), **menor tempo de processamento** (reduz o tempo médio de espera), **data de entrega mais próxima**, razão crítica.\n\n### Sistemas empurrado x puxado\n- **Empurrado**: produz conforme o **plano** (MRP), e os itens são empurrados para a etapa seguinte.\n- **Puxado**: produz conforme o **consumo** da etapa seguinte (*kanban*, JIT).",
+      "revisao": "**Lembre:** previsão qualitativa (Delphi) e quantitativa (média móvel, suavização exponencial). PMP define o que, quanto e quando produzir. MRP usa PMP + lista de materiais + estoques para a demanda dependente. Empurrado segue o plano; puxado segue o consumo."
+    },
+    {
+      "id": "estoques",
+      "nome": "Gestão de estoques",
+      "resumo": "### Funções e custos\n- Estoques protegem contra **incertezas**, permitem **economias de escala** e desacoplam etapas.\n- **Custos**: de **pedir** (emissão, transporte, recebimento), de **manter** (armazenagem, capital parado, seguros, obsolescência) e de **falta** (vendas perdidas).\n\n### Lote econômico de compra (LEC)\nQuantidade que **minimiza** o custo total de pedir + manter:\n**LEC = √(2 × D × Cp ÷ Cm)**\nD = demanda anual; Cp = custo por pedido; Cm = custo de manter uma unidade por ano.\nNo LEC, o custo anual de pedir é **igual** ao custo anual de manter.\n\n### Ponto de pedido (reposição)\n**PP = demanda diária × tempo de reposição (*lead time*) + estoque de segurança**.\nO **estoque de segurança** protege contra variações da demanda e do prazo de entrega.\n\n### Curva ABC (princípio de Pareto)\n| Classe | Itens | Valor (consumo) | Controle |\n|---|---|---|---|\n| **A** | Poucos (cerca de 20%) | Grande parte (cerca de 80%) | **Rigoroso** |\n| **B** | Intermediários | Intermediário | Moderado |\n| **C** | Muitos | Pequena parte | Simples |\n\n### Sistemas de revisão\n- **Revisão contínua** (ponto de pedido): pede-se **quantidade fixa** quando o estoque atinge o ponto de pedido.\n- **Revisão periódica**: verifica-se em **intervalos fixos** e pede-se a quantidade necessária para atingir o nível máximo.\n\n### Indicadores e métodos de avaliação\n- **Giro de estoque** = custo das vendas ÷ estoque médio; **cobertura** = período que o estoque atende.\n- Avaliação: **PEPS** (primeiro a entrar, primeiro a sair), **custo médio ponderado**. O UEPS não é aceito pelo fisco brasileiro.\n\n### Inventário\n- **Periódico** (geral, de uma vez) e **rotativo** (contagens contínuas por grupos, sem parar a operação).\n- **Acuracidade** = itens com registro correto ÷ total de itens verificados.",
+      "revisao": "**Lembre:** LEC = raiz de (2 × D × Cp ÷ Cm), onde custo de pedir = custo de manter. Ponto de pedido = demanda diária × lead time + estoque de segurança. Curva ABC: poucos itens A somam a maior parte do valor e pedem controle rigoroso."
+    },
+    {
+      "id": "lean",
+      "nome": "Produção enxuta e Just in Time",
+      "resumo": "### Sistema Toyota de Produção\nCriado por **Taiichi Ohno** e **Shigeo Shingo**. Pilares: **Just in Time** e ***jidoka*** (autonomação: a máquina ou o operador **param** ao detectar defeito, evitando produzir peças ruins).\n\n### Just in Time (JIT)\nProduzir **o item certo, na quantidade certa, no momento certo**. Estoques mínimos; produção **puxada** pela demanda.\n- **Kanban**: cartão ou sinal visual que **autoriza** produzir ou movimentar (sistema puxado).\n- **Heijunka**: nivelamento da produção (volume e mix).\n- **SMED** (Shingo): troca rápida de ferramentas, *setup* em menos de 10 minutos, viabilizando lotes pequenos.\n- **Poka-yoke**: dispositivo **à prova de erros** (ex.: tomada que só encaixa de um jeito).\n\n### Os sete desperdícios (*muda*)\n1. **Superprodução** (o pior, pois gera os demais).\n2. **Espera**.\n3. **Transporte** desnecessário.\n4. **Processamento** excessivo ou inadequado.\n5. **Estoque**.\n6. **Movimentação** desnecessária das pessoas.\n7. **Defeitos** (retrabalho).\nMuitos autores acrescentam o 8º: **talento (criatividade) não aproveitado**.\n\n### Ferramentas lean\n- **5S**: *seiri* (**utilização**, descarte do desnecessário), *seiton* (**ordenação**), *seiso* (**limpeza**), *seiketsu* (**padronização**, saúde), *shitsuke* (**autodisciplina**).\n- **Kaizen**: **melhoria contínua**, em pequenos passos, com participação de todos (x *kaikaku*, mudança radical).\n- **Mapeamento do fluxo de valor** (VSM): enxerga o fluxo de materiais e informações e identifica desperdícios.\n- **TPM** (manutenção produtiva total): operadores cuidam da manutenção básica; meta de **zero quebras**.\n- **OEE** (eficiência global do equipamento) = **disponibilidade × desempenho × qualidade**.\n- **Gestão visual** e **andon** (sinal luminoso de problema).\n\n### Lean thinking (Womack e Jones)\nCinco princípios: **valor** (definido pelo cliente), **fluxo de valor**, **fluxo contínuo**, **produção puxada** e **perfeição**.",
+      "revisao": "**Lembre:** Toyota: JIT e jidoka. Kanban sinaliza a produção puxada; poka-yoke evita erros; SMED reduz setup. Sete desperdícios, com a superprodução como o pior. 5S: utilização, ordenação, limpeza, padronização e autodisciplina. Kaizen = melhoria contínua."
+    },
+    {
+      "id": "qualidade",
+      "nome": "Gestão da qualidade",
+      "resumo": "### Evolução\n**Inspeção** → **controle estatístico** (Shewhart) → **garantia da qualidade** → **gestão da qualidade total** (TQM) → gestão estratégica da qualidade.\n\n### Gurus\n- **W. Edwards Deming**: **14 pontos**; ciclo **PDCA**; a maior parte dos problemas é do **sistema** (gestão), não dos operários; reduzir a **variação**.\n- **Joseph Juran**: **trilogia** da qualidade — **planejamento**, **controle** e **melhoria**; qualidade como **adequação ao uso**.\n- **Philip Crosby**: **zero defeito**; \"qualidade é **conformidade** com os requisitos\"; \"a qualidade é gratuita\" (o custo está na não qualidade).\n- **Kaoru Ishikawa**: diagrama de **causa e efeito**; **círculos de controle da qualidade** (CCQ).\n- **Armand Feigenbaum**: **controle da qualidade total**, envolvendo todos os departamentos.\n- **Genichi Taguchi**: **função perda** (qualquer desvio do valor-alvo gera perda) e projeto robusto.\n\n### Sete ferramentas da qualidade\n1. **Folha de verificação** (coleta de dados).\n2. **Diagrama de Pareto** (poucas causas vitais respondem pela maioria dos problemas, 80/20).\n3. **Diagrama de Ishikawa** (causa e efeito, espinha de peixe): **6M** — método, máquina, mão de obra, material, meio ambiente e medida.\n4. **Histograma** (distribuição de frequência).\n5. **Diagrama de dispersão** (relação entre duas variáveis).\n6. **Gráfico de controle** (variação ao longo do tempo, com limites de controle; causas **comuns** x **especiais**).\n7. **Fluxograma** (ou estratificação, conforme o autor).\n\n### Seis Sigma\nMetodologia criada pela **Motorola** e difundida pela GE. Busca reduzir a **variação** a no máximo **3,4 defeitos por milhão** de oportunidades. Roteiro **DMAIC**: **D**efinir, **M**edir, **A**nalisar, **I**mplementar melhorias (*improve*), **C**ontrolar. Faixas: *green belt*, *black belt*, *master black belt*.\n\n### ISO 9001\nNorma de **sistema de gestão da qualidade**, com **certificação** por organismo independente. Princípios: foco no cliente, liderança, engajamento das pessoas, **abordagem de processo**, melhoria, decisão baseada em evidências e gestão de relacionamentos. Pensamento baseado em **risco** (versão 2015).\n\n### Custos da qualidade\n**Prevenção** e **avaliação** (custos de conformidade) x **falhas internas** e **falhas externas** (custos da não conformidade). Investir em prevenção reduz as falhas.",
+      "revisao": "**Lembre:** Deming (PDCA, 14 pontos, o problema é do sistema), Juran (trilogia: planejar, controlar, melhorar), Crosby (zero defeito, qualidade é gratuita), Ishikawa (espinha de peixe, 6M). Seis Sigma: 3,4 defeitos por milhão e DMAIC. ISO 9001: sistema de gestão da qualidade."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "administracao-producao-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Slack, os cinco objetivos de desempenho da produção são:",
+      "opcoes": [
+        "Qualidade, rapidez, confiabilidade, flexibilidade e custo",
+        "Produto, preço, praça, promoção e pessoas",
+        "Planejar, organizar, dirigir, controlar e avaliar",
+        "Forças, fraquezas, oportunidades, ameaças e metas"
+      ],
+      "correta": 0,
+      "explicacao": "Esses objetivos orientam como a operação contribui para a competitividade da organização."
+    },
+    {
+      "id": "administracao-producao-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual característica dos serviços indica que eles não podem ser estocados?",
+      "opcoes": [
+        "Tangibilidade",
+        "Perecibilidade",
+        "Homogeneidade",
+        "Separabilidade"
+      ],
+      "correta": 1,
+      "explicacao": "Um assento vazio num voo que já partiu é capacidade perdida, pois o serviço não pode ser guardado."
+    },
+    {
+      "id": "administracao-producao-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O tipo de processo de manufatura usado em uma refinaria de petróleo, com volume muito alto e operação ininterrupta, é o processo:",
+      "opcoes": [
+        "De projeto",
+        "Jobbing",
+        "Contínuo",
+        "Por lote pequeno"
+      ],
+      "correta": 2,
+      "explicacao": "Processos contínuos produzem grandes volumes, com baixa variedade, em fluxo praticamente ininterrupto."
+    },
+    {
+      "id": "administracao-producao-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um estaleiro constrói navios sob encomenda, cada um com especificações únicas e longo prazo de execução. O tipo de processo é:",
+      "opcoes": [
+        "Contínuo",
+        "Em massa",
+        "Serviço de massa",
+        "De projeto"
+      ],
+      "correta": 3,
+      "explicacao": "Produtos únicos, complexos e de longa duração caracterizam o processo de projeto."
+    },
+    {
+      "id": "administracao-producao-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que operações com alta variedade de produtos tendem a ter custo unitário maior?",
+      "opcoes": [
+        "Porque exigem mais flexibilidade, trocas de configuração e menor padronização",
+        "Porque usam sempre matérias-primas importadas",
+        "Porque não têm clientes",
+        "Porque eliminam os estoques"
+      ],
+      "correta": 0,
+      "explicacao": "A variedade reduz a repetição e a escala, o que encarece cada unidade produzida."
+    },
+    {
+      "id": "administracao-producao-6",
+      "topico": "capacidade",
+      "nivel": "conceitual",
+      "pergunta": "O arranjo físico em que o produto permanece parado e os recursos se deslocam até ele é o:",
+      "opcoes": [
+        "Funcional",
+        "Posicional",
+        "Celular",
+        "Por produto"
+      ],
+      "correta": 1,
+      "explicacao": "No layout posicional, como na construção de um prédio, é o produto que fica fixo."
+    },
+    {
+      "id": "administracao-producao-7",
+      "topico": "capacidade",
+      "nivel": "conceitual",
+      "pergunta": "Na Teoria das Restrições, o gargalo é:",
+      "opcoes": [
+        "A etapa com mais funcionários",
+        "O setor de vendas da empresa",
+        "A etapa de menor capacidade, que limita a produção de todo o sistema",
+        "O estoque de produtos acabados"
+      ],
+      "correta": 2,
+      "explicacao": "Goldratt mostrou que o desempenho do sistema é ditado pela sua restrição."
+    },
+    {
+      "id": "administracao-producao-8",
+      "topico": "capacidade",
+      "nivel": "conceitual",
+      "pergunta": "A eficiência de uma operação é calculada pela relação entre:",
+      "opcoes": [
+        "Capacidade de projeto e produção real",
+        "Custo fixo e custo variável",
+        "Demanda e preço",
+        "Produção real e capacidade efetiva"
+      ],
+      "correta": 3,
+      "explicacao": "A eficiência compara o que foi produzido com o que seria possível após as perdas planejadas."
+    },
+    {
+      "id": "administracao-producao-9",
+      "topico": "capacidade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma linha tem três etapas com capacidades de 100, 60 e 90 peças por hora. Qual é a capacidade máxima da linha?",
+      "opcoes": [
+        "60 peças por hora",
+        "90 peças por hora",
+        "100 peças por hora",
+        "250 peças por hora"
+      ],
+      "correta": 0,
+      "explicacao": "A etapa de 60 peças por hora é o gargalo e limita a produção de toda a linha."
+    },
+    {
+      "id": "administracao-producao-10",
+      "topico": "capacidade",
+      "nivel": "analise",
+      "pergunta": "Por que aumentar a capacidade de uma etapa que não é gargalo não aumenta a produção total?",
+      "opcoes": [
+        "Porque toda etapa extra reduz a demanda",
+        "Porque o sistema continua limitado pela etapa de menor capacidade",
+        "Porque etapas que não são gargalo não produzem",
+        "Porque a capacidade não tem relação com a produção"
+      ],
+      "correta": 1,
+      "explicacao": "Investir fora do gargalo só gera ociosidade ou estoque, sem aumentar a saída do sistema."
+    },
+    {
+      "id": "administracao-producao-11",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "Quais são as três entradas básicas do MRP?",
+      "opcoes": [
+        "Missão, visão e valores",
+        "Preço, praça e promoção",
+        "Plano mestre de produção, lista de materiais e registros de estoque",
+        "Receita, despesa e lucro"
+      ],
+      "correta": 2,
+      "explicacao": "Com essas informações o MRP calcula as necessidades de cada componente no tempo certo."
+    },
+    {
+      "id": "administracao-producao-12",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "A demanda pelos pneus usados na fabricação de carros é considerada:",
+      "opcoes": [
+        "Independente, pois deve ser prevista pelo mercado",
+        "Sazonal, sem relação com o produto final",
+        "Aleatória e impossível de calcular",
+        "Dependente, pois é calculada a partir da demanda do produto final"
+      ],
+      "correta": 3,
+      "explicacao": "Sabendo quantos carros serão produzidos, calcula-se exatamente quantos pneus serão necessários."
+    },
+    {
+      "id": "administracao-producao-13",
+      "topico": "planejamento",
+      "nivel": "conceitual",
+      "pergunta": "O método Delphi de previsão consiste em:",
+      "opcoes": [
+        "Consultar especialistas de forma anônima, em rodadas sucessivas, até chegar a um consenso",
+        "Calcular a média dos últimos três meses",
+        "Usar apenas a regressão linear",
+        "Repetir a venda do ano anterior"
+      ],
+      "correta": 0,
+      "explicacao": "O anonimato evita que opiniões dominantes influenciem os demais especialistas."
+    },
+    {
+      "id": "administracao-producao-14",
+      "topico": "planejamento",
+      "nivel": "aplicacao",
+      "pergunta": "As vendas dos últimos três meses foram 100, 120 e 140 unidades. Pela média móvel simples de três períodos, a previsão para o próximo mês é:",
+      "opcoes": [
+        "140 unidades",
+        "120 unidades",
+        "160 unidades",
+        "100 unidades"
+      ],
+      "correta": 1,
+      "explicacao": "A soma de 100, 120 e 140 é 360, que dividida por três resulta em 120 unidades."
+    },
+    {
+      "id": "administracao-producao-15",
+      "topico": "planejamento",
+      "nivel": "analise",
+      "pergunta": "Por que a média móvel simples tende a ficar atrasada quando a demanda tem tendência de alta?",
+      "opcoes": [
+        "Porque considera apenas o dado mais recente",
+        "Porque ignora todos os dados passados",
+        "Porque dá o mesmo peso a dados antigos e mais baixos, sem captar o crescimento",
+        "Porque só funciona com demanda zero"
+      ],
+      "correta": 2,
+      "explicacao": "Ao igualar pesos, a média fica sempre abaixo dos valores recentes numa série crescente."
+    },
+    {
+      "id": "administracao-producao-16",
+      "topico": "estoques",
+      "nivel": "conceitual",
+      "pergunta": "No lote econômico de compra, o custo anual de pedir é:",
+      "opcoes": [
+        "Sempre o dobro do custo de manter",
+        "Zero",
+        "Maior que qualquer outro custo",
+        "Igual ao custo anual de manter os estoques"
+      ],
+      "correta": 3,
+      "explicacao": "O ponto de mínimo custo total ocorre onde as duas curvas de custo se igualam."
+    },
+    {
+      "id": "administracao-producao-17",
+      "topico": "estoques",
+      "nivel": "conceitual",
+      "pergunta": "Na curva ABC, os itens da classe A são:",
+      "opcoes": [
+        "Poucos itens que representam a maior parte do valor e exigem controle rigoroso",
+        "Muitos itens de baixo valor com controle simples",
+        "Itens obsoletos que devem ser descartados",
+        "Itens sem movimentação no ano"
+      ],
+      "correta": 0,
+      "explicacao": "A classificação aplica o princípio de Pareto para concentrar esforços onde há mais valor."
+    },
+    {
+      "id": "administracao-producao-18",
+      "topico": "estoques",
+      "nivel": "conceitual",
+      "pergunta": "O estoque de segurança tem a função de:",
+      "opcoes": [
+        "Aumentar o giro de estoque",
+        "Proteger contra variações da demanda e do prazo de entrega",
+        "Eliminar o custo de pedir",
+        "Substituir o ponto de pedido"
+      ],
+      "correta": 1,
+      "explicacao": "Ele evita falta de produtos quando o consumo ou o lead time ficam acima do previsto."
+    },
+    {
+      "id": "administracao-producao-19",
+      "topico": "estoques",
+      "nivel": "aplicacao",
+      "pergunta": "Uma loja vende 20 unidades por dia, o fornecedor entrega em 5 dias e o estoque de segurança é de 40 unidades. Qual é o ponto de pedido?",
+      "opcoes": [
+        "100 unidades",
+        "60 unidades",
+        "140 unidades",
+        "25 unidades"
+      ],
+      "correta": 2,
+      "explicacao": "A conta é 20 vezes 5, igual a 100, mais 40 de segurança, o que dá 140 unidades."
+    },
+    {
+      "id": "administracao-producao-20",
+      "topico": "estoques",
+      "nivel": "analise",
+      "pergunta": "Por que estoques excessivos são considerados um problema, e não só uma garantia?",
+      "opcoes": [
+        "Porque garantem que nunca faltará produto",
+        "Porque eliminam o custo de manter",
+        "Porque reduzem o giro a zero sem nenhum custo",
+        "Porque imobilizam capital, ocupam espaço, podem ficar obsoletos e escondem problemas do processo"
+      ],
+      "correta": 3,
+      "explicacao": "Na visão enxuta, estoque alto encobre falhas como quebras e atrasos, que deveriam ser resolvidas."
+    },
+    {
+      "id": "administracao-producao-21",
+      "topico": "lean",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Ohno, o pior dos sete desperdícios, por gerar vários outros, é a:",
+      "opcoes": [
+        "Superprodução",
+        "Movimentação",
+        "Espera",
+        "Transporte"
+      ],
+      "correta": 0,
+      "explicacao": "Produzir antes ou além do necessário gera estoques, transporte, espera e esconde defeitos."
+    },
+    {
+      "id": "administracao-producao-22",
+      "topico": "lean",
+      "nivel": "conceitual",
+      "pergunta": "O dispositivo à prova de erros, que impede a montagem errada de uma peça, chama-se:",
+      "opcoes": [
+        "Kanban",
+        "Poka-yoke",
+        "Kaizen",
+        "Heijunka"
+      ],
+      "correta": 1,
+      "explicacao": "O poka-yoke evita que o erro aconteça ou o detecta imediatamente, sem depender de atenção."
+    },
+    {
+      "id": "administracao-producao-23",
+      "topico": "lean",
+      "nivel": "conceitual",
+      "pergunta": "No programa 5S, o senso de seiri corresponde a:",
+      "opcoes": [
+        "Limpeza do ambiente",
+        "Autodisciplina",
+        "Utilização, separando e descartando o que é desnecessário",
+        "Padronização das rotinas"
+      ],
+      "correta": 2,
+      "explicacao": "Seiri é o primeiro senso: manter só o que é útil no posto de trabalho."
+    },
+    {
+      "id": "administracao-producao-24",
+      "topico": "lean",
+      "nivel": "aplicacao",
+      "pergunta": "Numa fábrica, uma etapa só produz quando recebe um cartão da etapa seguinte indicando que ela consumiu peças. Esse sistema é o:",
+      "opcoes": [
+        "MRP, típico da produção empurrada",
+        "Inventário rotativo",
+        "Arranjo posicional",
+        "Kanban, típico da produção puxada"
+      ],
+      "correta": 3,
+      "explicacao": "O cartão kanban autoriza a produção apenas conforme o consumo real, limitando os estoques."
+    },
+    {
+      "id": "administracao-producao-25",
+      "topico": "lean",
+      "nivel": "analise",
+      "pergunta": "Por que o sistema just in time exige setups rápidos, como os do SMED?",
+      "opcoes": [
+        "Porque produzir em lotes pequenos e variados só é viável se a troca de ferramentas for rápida",
+        "Porque o JIT trabalha com lotes cada vez maiores",
+        "Porque o setup não influencia o tamanho dos lotes",
+        "Porque o JIT elimina todas as máquinas"
+      ],
+      "correta": 0,
+      "explicacao": "Com setup longo, compensa fazer lotes grandes; o SMED derruba essa barreira e permite fluxo enxuto."
+    },
+    {
+      "id": "administracao-producao-26",
+      "topico": "qualidade",
+      "nivel": "conceitual",
+      "pergunta": "O diagrama de causa e efeito, também chamado de espinha de peixe, foi criado por:",
+      "opcoes": [
+        "W. Edwards Deming",
+        "Kaoru Ishikawa",
+        "Philip Crosby",
+        "Henry Ford"
+      ],
+      "correta": 1,
+      "explicacao": "O diagrama de Ishikawa organiza as causas possíveis de um problema, como nos 6M."
+    },
+    {
+      "id": "administracao-producao-27",
+      "topico": "qualidade",
+      "nivel": "conceitual",
+      "pergunta": "A meta do Seis Sigma é chegar a no máximo:",
+      "opcoes": [
+        "1 defeito por cem unidades",
+        "6 defeitos por mil unidades",
+        "3,4 defeitos por milhão de oportunidades",
+        "Zero inspeções no processo"
+      ],
+      "correta": 2,
+      "explicacao": "O Seis Sigma reduz a variação para que quase nenhum produto fique fora das especificações."
+    },
+    {
+      "id": "administracao-producao-28",
+      "topico": "qualidade",
+      "nivel": "conceitual",
+      "pergunta": "A trilogia da qualidade, formada por planejamento, controle e melhoria, foi proposta por:",
+      "opcoes": [
+        "Philip Crosby",
+        "Genichi Taguchi",
+        "Frederick Taylor",
+        "Joseph Juran"
+      ],
+      "correta": 3,
+      "explicacao": "Juran via a gestão da qualidade em três processos, de modo semelhante à gestão financeira."
+    },
+    {
+      "id": "administracao-producao-29",
+      "topico": "qualidade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa analisa as reclamações e descobre que 3 tipos de defeito respondem por 80% delas. A ferramenta usada para mostrar isso é o:",
+      "opcoes": [
+        "Diagrama de Pareto",
+        "Fluxograma",
+        "Diagrama de dispersão",
+        "Histograma de idade"
+      ],
+      "correta": 0,
+      "explicacao": "O Pareto ordena as causas por frequência e revela as poucas causas vitais."
+    },
+    {
+      "id": "administracao-producao-30",
+      "topico": "qualidade",
+      "nivel": "analise",
+      "pergunta": "Por que Crosby afirmou que a qualidade é gratuita?",
+      "opcoes": [
+        "Porque produtos de qualidade não têm custo de produção",
+        "Porque o custo de prevenir é menor que o custo das falhas, do retrabalho e da perda de clientes",
+        "Porque a qualidade dispensa investimentos em treinamento",
+        "Porque os clientes pagam a inspeção"
+      ],
+      "correta": 1,
+      "explicacao": "Os custos da não conformidade, como falhas internas e externas, superam o investimento em prevenção."
+    }
+  ]
+}

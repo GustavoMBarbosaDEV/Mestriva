@@ -1,0 +1,465 @@
+{
+  "id": "administracao-publica",
+  "nome": "Administração Pública",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "modelos",
+      "nome": "Modelos de administração pública",
+      "resumo": "### Patrimonialismo\n- Típico das monarquias absolutas e, no Brasil, do período colonial, do Império e da República Velha.\n- **Confusão entre o público e o privado**: o Estado é extensão do poder do governante.\n- **Nepotismo**, clientelismo, **corrupção**, cargos como prêmio (sinecuras).\n\n### Burocracia (modelo racional-legal)\n- Inspirado em **Max Weber**: dominação **racional-legal**.\n- Características: **impessoalidade**, **formalidade** (normas escritas), **hierarquia**, **profissionalização** (mérito, concurso, carreira), divisão do trabalho, controle **a priori** dos **processos**.\n- No Brasil, implantado na **Era Vargas**, com a criação do **DASP** (Departamento Administrativo do Serviço Público, **1938**).\n- **Disfunções** (Merton): apego excessivo às regras, formalismo, lentidão, resistência a mudanças, foco no **meio** e não no resultado, despersonalização do atendimento.\n\n### Administração gerencial (Nova Gestão Pública)\n- Surge nos anos 1980 (Thatcher, no Reino Unido; Reagan, nos EUA), diante da crise fiscal e da ineficiência.\n- Foco em **resultados** (controle **a posteriori**), **eficiência**, **descentralização**, **cidadão como cliente**, contratos de gestão, avaliação de desempenho, competição.\n- No Brasil: **Decreto-Lei 200/1967** (primeira tentativa: descentralização para a administração indireta) e, sobretudo, o **PDRAE** (Plano Diretor da Reforma do Aparelho do Estado, **1995**), de **Bresser-Pereira**, no governo FHC, e a **EC 19/1998** (incluiu a **eficiência** no art. 37).\n- **Não rompe** totalmente com a burocracia: mantém a profissionalização e o mérito.\n\n### Pós-gerencialismo e Novo Serviço Público\n- **Novo Serviço Público** (Denhardt e Denhardt): o cidadão não é cliente, é **cidadão**; o Estado deve **servir**, não \"dirigir\"; ênfase no **interesse público** e na participação.\n- **Governança pública**: redes, parcerias, coprodução, transparência e **accountability**.\n- **Governo digital** e serviços centrados no usuário.\n\n### Comparação\n| Modelo | Foco | Controle |\n|---|---|---|\n| Patrimonialista | Governante | Nenhum (arbítrio) |\n| Burocrático | Processos e regras | **A priori** (prévio) |\n| Gerencial | Resultados e cidadão-cliente | **A posteriori** (de resultados) |",
+      "revisao": "**Lembre:** patrimonialismo confunde público e privado; burocracia (Weber, DASP 1938) traz impessoalidade e controle prévio dos processos; gerencial (PDRAE 1995, EC 19/1998) foca resultados e controle posterior. Novo Serviço Público: cidadão, não cliente."
+    },
+    {
+      "id": "organizacao",
+      "nome": "Organização da administração pública",
+      "resumo": "### Administração direta\nÓrgãos **sem personalidade jurídica** própria, integrantes da estrutura dos entes federativos (União, estados, DF e municípios): ministérios, secretarias. Resultado da **desconcentração** (distribuição interna de competências, com **hierarquia**).\n\n### Administração indireta (Decreto-Lei 200/1967; CF, art. 37, XIX)\nEntidades **com personalidade jurídica** própria, criadas por **descentralização** (transferência a outra pessoa, com **controle finalístico** ou **tutela**, sem hierarquia):\n| Entidade | Personalidade | Criação |\n|---|---|---|\n| **Autarquia** | Direito **público** | **Criada por lei** específica |\n| **Fundação pública** | Pública ou privada | Autorizada por lei (ou criada, se de direito público) |\n| **Empresa pública** | Direito **privado**; capital **100% público** | **Autorizada** por lei |\n| **Sociedade de economia mista** | Direito **privado**; maioria do capital votante público; **sempre S.A.** | **Autorizada** por lei |\n- **Agências reguladoras** (Anatel, Aneel, Anvisa, ANS, ANP...): autarquias em **regime especial**, com dirigentes com **mandato fixo** e autonomia (Lei 13.848/2019).\n- **Agências executivas**: qualificação dada a autarquia ou fundação que firma **contrato de gestão** e plano de reestruturação.\n- **Consórcios públicos** (Lei 11.107/2005).\n\n### Terceiro setor (entidades paraestatais)\nPessoas privadas **sem fins lucrativos** que colaboram com o Estado:\n- **Serviços sociais autônomos** (Sistema S: Sesi, Senai, Sesc, Senac, Sebrae).\n- **Organizações Sociais (OS)** (Lei 9.637/1998): firmam **contrato de gestão**.\n- **OSCIP** (Lei 9.790/1999): firmam **termo de parceria**.\n- **Organizações da sociedade civil** (MROSC, Lei 13.019/2014): **termo de colaboração**, **termo de fomento** e **acordo de cooperação**.\n\n### Setores do Estado no PDRAE\n1. **Núcleo estratégico** (formula políticas: Poderes, ministros).\n2. **Atividades exclusivas** (só o Estado faz: fiscalização, polícia, regulação) — agências executivas e reguladoras.\n3. **Serviços não exclusivos** (saúde, educação, cultura, pesquisa) — **publicização** para OS.\n4. **Produção de bens e serviços para o mercado** — **privatização**.",
+      "revisao": "**Lembre:** desconcentração = dentro da mesma pessoa (hierarquia); descentralização = para outra pessoa (controle finalístico). Autarquia é criada por lei; empresa pública e economia mista são autorizadas. Sociedade de economia mista é sempre S.A. OS firma contrato de gestão; OSCIP, termo de parceria."
+    },
+    {
+      "id": "principios",
+      "nome": "Princípios e controle",
+      "resumo": "### Princípios expressos (CF, art. 37, caput) — **LIMPE**\n- **Legalidade**: a administração só pode fazer o que a **lei permite** (diferente do particular, que pode fazer tudo o que a lei não proíbe).\n- **Impessoalidade**: atuação voltada ao interesse público, sem favorecimentos; vedada a **promoção pessoal** de autoridades na publicidade oficial (art. 37, § 1º).\n- **Moralidade**: atuação ética, honesta, de **boa-fé**. Súmula Vinculante 13 proíbe o **nepotismo** (até o 3º grau).\n- **Publicidade**: transparência dos atos; condição de eficácia. Exceções: segurança da sociedade e do Estado e intimidade.\n- **Eficiência**: incluído pela **EC 19/1998**; fazer mais e melhor com os recursos disponíveis.\n\n### Outros princípios\nSupremacia e **indisponibilidade do interesse público**, **razoabilidade** e **proporcionalidade**, **motivação**, **autotutela** (Súmula 473 do STF: a administração pode **anular** atos ilegais e **revogar** atos inconvenientes), continuidade do serviço público, segurança jurídica.\n\n### Controle da administração\n| Tipo | Quem exerce | Exemplos |\n|---|---|---|\n| **Interno** | O próprio Poder | CGU, controladorias, autotutela |\n| **Externo** | Outro Poder | **Congresso**, com auxílio do **Tribunal de Contas** (CF, art. 71) |\n| **Judicial** | Poder Judiciário | Controle de **legalidade** (não do mérito administrativo) |\n| **Social** | Cidadãos e sociedade | Ouvidorias, conselhos, ação popular, denúncia ao TCU |\n- **Tribunal de Contas da União**: **órgão auxiliar** do Congresso (não pertence ao Judiciário); julga as contas dos administradores e **aprecia** (emite parecer prévio sobre) as contas do Presidente, que são **julgadas pelo Congresso**.\n\n### Accountability\n- Responsabilização dos governantes, com **prestação de contas** e possibilidade de **sanção**.\n- **Vertical**: eleitores sobre os eleitos (eleições); **horizontal**: entre órgãos do Estado (tribunais de contas, MP, Judiciário); **societal**: imprensa, ONGs, movimentos.\n\n### Transparência\n- **Lei de Acesso à Informação** (LAI, Lei 12.527/2011): o acesso é a **regra** e o sigilo, a **exceção**; **transparência ativa** (divulgar sem pedido) e **passiva** (responder pedidos em até **20 dias**, prorrogáveis por mais **10**); não é preciso justificar o pedido.\n- **Portais da transparência** (LRF e LC 131/2009).\n- **Lei de Improbidade** (Lei 8.429/1992, alterada pela Lei 14.230/2021: exige **dolo**).",
+      "revisao": "**Lembre:** LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência (EC 19/1998). Controle interno, externo (Congresso com o TCU), judicial (só legalidade) e social. LAI: acesso é a regra, resposta em 20 dias + 10, sem justificar o pedido."
+    },
+    {
+      "id": "politicas",
+      "nome": "Políticas públicas",
+      "resumo": "### Conceito\n**Thomas Dye**: política pública é \"**o que o governo escolhe fazer ou não fazer**\". Conjunto de decisões e ações para enfrentar **problemas públicos**.\n\n### Ciclo de políticas públicas\n1. **Identificação do problema**.\n2. **Formação da agenda**: o problema passa a receber atenção do governo.\n3. **Formulação de alternativas**.\n4. **Tomada de decisão**.\n5. **Implementação**.\n6. **Avaliação**.\n7. **Extinção** (ou reformulação).\n\n### Modelos de análise\n- **Múltiplos fluxos** (John **Kingdon**): uma questão entra na agenda quando convergem os fluxos de **problemas**, de **soluções (políticas)** e **político**, abrindo uma **janela de oportunidade** aproveitada por **empreendedores de políticas**.\n- **Incrementalismo** (Charles **Lindblom**): decisões feitas por **pequenos ajustes** em relação ao que já existe, e não por análise racional completa (\"ciência de se virar\", *muddling through*).\n- **Racionalidade limitada** (Herbert **Simon**): o decisor busca soluções **satisfatórias**, não ótimas.\n- **Equilíbrio pontuado** (Baumgartner e Jones): longos períodos de estabilidade interrompidos por mudanças bruscas.\n- **Coalizões de defesa** (Sabatier).\n- **Lata de lixo** (Cohen, March e Olsen): soluções procuram problemas em organizações anárquicas.\n\n### Tipologia de Lowi\n- **Distributivas**: benefícios concentrados, custos difusos (obras locais).\n- **Redistributivas**: transferem recursos entre grupos (Bolsa Família, imposto progressivo); geram conflito.\n- **Regulatórias**: estabelecem regras e padrões (trânsito, meio ambiente).\n- **Constitutivas** (estruturadoras): definem as regras do jogo e os procedimentos.\n\n### Implementação\n- ***Top-down*** (de cima para baixo): foco nas decisões centrais; falhas vistas como desvio.\n- ***Bottom-up*** (de baixo para cima): valoriza os implementadores; **burocracia de nível de rua** (Michael **Lipsky**): professores, policiais e agentes de saúde exercem **discricionariedade** e, na prática, \"fazem\" a política.\n\n### Avaliação\n- ***Ex ante*** (antes) e ***ex post*** (depois).\n- Critérios: **eficiência** (custo), **eficácia** (metas), **efetividade** (impacto na realidade).\n- Avaliação de **processo**, de **resultado** e de **impacto** (com grupo de comparação).",
+      "revisao": "**Lembre:** ciclo: problema, agenda, formulação, decisão, implementação, avaliação e extinção. Kingdon: três fluxos e janela de oportunidade. Lindblom: incrementalismo. Lowi: distributivas, redistributivas, regulatórias e constitutivas. Lipsky: burocracia de nível de rua."
+    },
+    {
+      "id": "pessoas",
+      "nome": "Gestão de pessoas no setor público",
+      "resumo": "### Acesso aos cargos (CF, art. 37)\n- **Concurso público** de provas ou de provas e títulos para cargos e empregos **efetivos** (inciso II).\n- Exceções: **cargos em comissão** (livre nomeação e exoneração, só para **direção, chefia e assessoramento**), **contratação temporária** por excepcional interesse público (inciso IX), mandatos eletivos.\n- **Funções de confiança**: exclusivas de servidores **efetivos**.\n- Validade do concurso: até **2 anos**, prorrogável **uma vez** por igual período.\n- Reserva de vagas para **pessoas com deficiência** e cotas raciais (Lei 15.142/2025 ampliou a reserva para 30%, incluindo pessoas pretas, pardas, indígenas e quilombolas).\n\n### Estabilidade (CF, art. 41)\n- Adquirida após **3 anos** de efetivo exercício e aprovação em **avaliação especial de desempenho**.\n- O estável só perde o cargo por: **sentença judicial transitada em julgado**, **processo administrativo** com ampla defesa, **avaliação periódica de desempenho** insuficiente (na forma de lei complementar) ou **excesso de despesa com pessoal** (art. 169).\n- **Estágio probatório**: período de avaliação do servidor novo (aptidão, assiduidade, disciplina, produtividade, responsabilidade).\n\n### Regimes\n- **Estatutário**: servidores efetivos (na União, **Lei 8.112/1990**).\n- **Celetista**: empregados públicos de empresas estatais (CLT), contratados por concurso.\n\n### Gestão por competências\n- **Competência** = **CHA**: **c**onhecimentos, **h**abilidades e **a**titudes, mobilizados para gerar resultados.\n- Mapeamento do **gap** (lacuna) entre as competências necessárias e as existentes; orienta capacitação, seleção e avaliação.\n- No governo federal: **Política Nacional de Desenvolvimento de Pessoas** (**PNDP**, Decreto 9.991/2019).\n\n### Avaliação de desempenho\n- Métodos: escalas gráficas, escolha forçada, incidentes críticos, autoavaliação, **360 graus**.\n- Erros: **efeito halo** (um traço influencia toda a avaliação), **tendência central** (notas medianas para todos), leniência ou rigor, recenticidade.\n\n### Ética\n**Código de Ética Profissional do Servidor Civil do Poder Executivo Federal** (Decreto 1.171/1994): pena aplicável pela Comissão de Ética é a **censura**. Conflito de interesses (Lei 12.813/2013).",
+      "revisao": "**Lembre:** concurso é a regra; cargo em comissão só para direção, chefia e assessoramento. Concurso vale até 2 anos, prorrogável uma vez. Estabilidade após 3 anos + avaliação especial. Competência = CHA. Efeito halo: um traço contamina a avaliação inteira."
+    },
+    {
+      "id": "governanca",
+      "nome": "Governança, compras e governo digital",
+      "resumo": "### Governança pública\n- **TCU**: governança compreende os mecanismos de **liderança**, **estratégia** e **controle** postos em prática para **avaliar, direcionar e monitorar** a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.\n- **Decreto 9.203/2017** (Política de Governança da Administração Federal). Princípios: **capacidade de resposta**, **integridade**, **confiabilidade**, **melhoria regulatória**, **prestação de contas e responsabilidade** e **transparência**.\n- **Governança** (direcionar) x **gestão** (executar).\n- **Programas de integridade** (*compliance*) e **gestão de riscos**.\n\n### Compras públicas (Lei 14.133/2021, Nova Lei de Licitações)\n- **Modalidades**: **pregão** (bens e serviços **comuns**, inclusive serviços comuns de engenharia), **concorrência** (bens e serviços especiais e obras), **concurso** (trabalho técnico, científico ou artístico, com prêmio), **leilão** (alienação de bens) e **diálogo competitivo** (soluções inovadoras).\n- **Extintas**: tomada de preços e convite.\n- **Critérios de julgamento**: menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance, maior retorno econômico.\n- **Contratação direta**: **dispensa** (a lei permite não licitar, como compras de pequeno valor) e **inexigibilidade** (competição **inviável**, como fornecedor exclusivo ou artista consagrado).\n- Fase **preparatória** com **estudo técnico preliminar**, gestão de riscos e plano de contratações anual.\n- **PNCP**: Portal Nacional de Contratações Públicas, para divulgação centralizada.\n\n### Governo digital\n- **Lei 14.129/2021** (Lei do Governo Digital): serviços digitais, **gov.br**, dados abertos, desburocratização, laboratórios de inovação.\n- **Lei 13.460/2017** (Código de Defesa do Usuário do Serviço Público): direitos do usuário, **ouvidorias**, **carta de serviços ao usuário**.\n- **Lei 13.726/2018** (desburocratização): dispensa reconhecimento de firma e autenticação de cópias, em regra.\n- **LGPD** (Lei 13.709/2018) também se aplica ao poder público.\n\n### Qualidade e inovação\n- **Gespública** (Programa Nacional de Gestão Pública e Desburocratização, extinto em 2017) e modelos de excelência em gestão.\n- **Inovação no setor público**: laboratórios, *design* de serviços, foco no usuário.\n- **Coprodução**: cidadãos participam da produção de serviços públicos.",
+      "revisao": "**Lembre:** governança = avaliar, direcionar e monitorar (TCU, Decreto 9.203/2017). Lei 14.133/2021: pregão, concorrência, concurso, leilão e diálogo competitivo; tomada de preços e convite acabaram. Dispensa (lei permite não licitar) x inexigibilidade (competição inviável)."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "administracao-publica-1",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "O modelo de administração pública marcado pela confusão entre o patrimônio público e o privado do governante é o:",
+      "opcoes": [
+        "Patrimonialista",
+        "Burocrático",
+        "Gerencial",
+        "Novo Serviço Público"
+      ],
+      "correta": 0,
+      "explicacao": "No patrimonialismo o Estado é tratado como propriedade de quem governa, o que favorece nepotismo e corrupção."
+    },
+    {
+      "id": "administracao-publica-2",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, o modelo burocrático foi implantado na Era Vargas com a criação do:",
+      "opcoes": [
+        "PDRAE, em 1995",
+        "DASP, em 1938",
+        "Decreto-Lei 200, em 1967",
+        "Ministério da Fazenda, em 1808"
+      ],
+      "correta": 1,
+      "explicacao": "O Departamento Administrativo do Serviço Público introduziu concurso, carreira e padronização."
+    },
+    {
+      "id": "administracao-publica-3",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "A administração gerencial caracteriza-se por:",
+      "opcoes": [
+        "Controle rígido e prévio de todos os procedimentos",
+        "Nomeação de parentes para cargos públicos",
+        "Foco nos resultados, com controle a posteriori e descentralização",
+        "Ausência total de avaliação de desempenho"
+      ],
+      "correta": 2,
+      "explicacao": "O gerencialismo desloca o controle dos meios para os fins, cobrando resultados dos gestores."
+    },
+    {
+      "id": "administracao-publica-4",
+      "topico": "modelos",
+      "nivel": "aplicacao",
+      "pergunta": "Um órgão exige dez assinaturas e três cópias autenticadas para um pedido simples, e o servidor diz que 'a norma manda assim', mesmo quando o pedido perde o prazo. Esse comportamento ilustra:",
+      "opcoes": [
+        "Uma característica do patrimonialismo",
+        "O controle por resultados do modelo gerencial",
+        "A coprodução de serviços públicos",
+        "Uma disfunção da burocracia"
+      ],
+      "correta": 3,
+      "explicacao": "Apego excessivo às regras e foco nos meios, e não no resultado, são disfunções descritas por Merton."
+    },
+    {
+      "id": "administracao-publica-5",
+      "topico": "modelos",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que o modelo gerencial não rompeu totalmente com a burocracia?",
+      "opcoes": [
+        "Porque manteve conquistas como a profissionalização, o concurso e o mérito, mudando o foco do controle para os resultados",
+        "Porque restabeleceu o nepotismo",
+        "Porque eliminou o concurso público",
+        "Porque proibiu qualquer avaliação de desempenho"
+      ],
+      "correta": 0,
+      "explicacao": "A reforma gerencial flexibilizou a burocracia, mas conservou seus fundamentos de impessoalidade e mérito."
+    },
+    {
+      "id": "administracao-publica-6",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "A distribuição de competências entre órgãos dentro da mesma pessoa jurídica, com hierarquia, chama-se:",
+      "opcoes": [
+        "Descentralização",
+        "Desconcentração",
+        "Privatização",
+        "Publicização"
+      ],
+      "correta": 1,
+      "explicacao": "Na desconcentração não surge nova pessoa jurídica; apenas se repartem competências internamente."
+    },
+    {
+      "id": "administracao-publica-7",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "A entidade da administração indireta com personalidade de direito público, criada diretamente por lei específica, é a:",
+      "opcoes": [
+        "Empresa pública",
+        "Sociedade de economia mista",
+        "Autarquia",
+        "Organização social"
+      ],
+      "correta": 2,
+      "explicacao": "As autarquias são criadas por lei e executam atividades típicas de Estado."
+    },
+    {
+      "id": "administracao-publica-8",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "A sociedade de economia mista deve adotar obrigatoriamente a forma de:",
+      "opcoes": [
+        "Sociedade limitada",
+        "Fundação",
+        "Autarquia",
+        "Sociedade anônima"
+      ],
+      "correta": 3,
+      "explicacao": "A sociedade de economia mista é sempre S.A., com a maioria do capital votante nas mãos do poder público."
+    },
+    {
+      "id": "administracao-publica-9",
+      "topico": "organizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma entidade privada sem fins lucrativos é qualificada como Organização Social para gerir um hospital público. O instrumento firmado com o poder público é o:",
+      "opcoes": [
+        "Contrato de gestão",
+        "Termo de parceria",
+        "Contrato de concessão comum",
+        "Convênio de cooperação técnica internacional"
+      ],
+      "correta": 0,
+      "explicacao": "A Lei 9.637/1998 prevê o contrato de gestão para as Organizações Sociais."
+    },
+    {
+      "id": "administracao-publica-10",
+      "topico": "organizacao",
+      "nivel": "analise",
+      "pergunta": "Por que as agências reguladoras têm dirigentes com mandato fixo?",
+      "opcoes": [
+        "Para que possam ser demitidos a qualquer momento pelo presidente",
+        "Para garantir autonomia técnica e estabilidade das regras, protegendo a regulação de pressões políticas de curto prazo",
+        "Para permitir que lucrem com o setor regulado",
+        "Para que não precisem cumprir a lei"
+      ],
+      "correta": 1,
+      "explicacao": "A estabilidade dos dirigentes dá segurança a investidores e usuários e reforça a independência técnica."
+    },
+    {
+      "id": "administracao-publica-11",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da eficiência foi incluído expressamente no art. 37 da Constituição pela:",
+      "opcoes": [
+        "Emenda Constitucional 45/2004",
+        "Lei 8.112/1990",
+        "Emenda Constitucional 19/1998",
+        "Emenda Constitucional 103/2019"
+      ],
+      "correta": 2,
+      "explicacao": "A EC 19/1998, ligada à reforma gerencial, acrescentou a eficiência aos princípios expressos."
+    },
+    {
+      "id": "administracao-publica-12",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "O controle externo da administração pública federal é exercido pelo:",
+      "opcoes": [
+        "Próprio órgão que praticou o ato",
+        "Presidente da República",
+        "Supremo Tribunal Federal exclusivamente",
+        "Congresso Nacional, com o auxílio do Tribunal de Contas da União"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 71 da Constituição atribui ao Congresso o controle externo, auxiliado pelo TCU."
+    },
+    {
+      "id": "administracao-publica-13",
+      "topico": "principios",
+      "nivel": "conceitual",
+      "pergunta": "Pela Lei de Acesso à Informação, o órgão público deve responder ao pedido de informação em até:",
+      "opcoes": [
+        "20 dias, prorrogáveis por mais 10 com justificativa",
+        "5 dias úteis, sem prorrogação",
+        "90 dias",
+        "1 ano"
+      ],
+      "correta": 0,
+      "explicacao": "A LAI fixa 20 dias, prorrogáveis por 10, e dispensa o cidadão de justificar o pedido."
+    },
+    {
+      "id": "administracao-publica-14",
+      "topico": "principios",
+      "nivel": "aplicacao",
+      "pergunta": "Um prefeito coloca seu nome e sua foto em placas de obras pagas com dinheiro público. Que princípio é violado?",
+      "opcoes": [
+        "Eficiência",
+        "Impessoalidade",
+        "Continuidade",
+        "Autotutela"
+      ],
+      "correta": 1,
+      "explicacao": "A Constituição veda nomes, símbolos ou imagens que caracterizem promoção pessoal na publicidade oficial."
+    },
+    {
+      "id": "administracao-publica-15",
+      "topico": "principios",
+      "nivel": "analise",
+      "pergunta": "Por que o Judiciário, em regra, não pode rever o mérito de um ato administrativo discricionário?",
+      "opcoes": [
+        "Porque o Judiciário não controla nenhum ato da administração",
+        "Porque todos os atos administrativos são vinculados",
+        "Porque cabe ao administrador avaliar a conveniência e a oportunidade, e o Judiciário controla a legalidade e a razoabilidade",
+        "Porque a Constituição proíbe ações contra o Estado"
+      ],
+      "correta": 2,
+      "explicacao": "A separação de Poderes reserva o juízo de mérito à administração, mas atos ilegais ou desproporcionais podem ser anulados."
+    },
+    {
+      "id": "administracao-publica-16",
+      "topico": "politicas",
+      "nivel": "conceitual",
+      "pergunta": "No modelo de múltiplos fluxos de Kingdon, um tema entra na agenda quando:",
+      "opcoes": [
+        "O Judiciário determina sua inclusão",
+        "Existe uma solução técnica ótima",
+        "O orçamento do ano anterior é repetido",
+        "Convergem os fluxos de problemas, de soluções e político, abrindo uma janela de oportunidade"
+      ],
+      "correta": 3,
+      "explicacao": "A janela se abre quando as três correntes se encontram e um empreendedor de políticas a aproveita."
+    },
+    {
+      "id": "administracao-publica-17",
+      "topico": "politicas",
+      "nivel": "conceitual",
+      "pergunta": "Na tipologia de Lowi, programas de transferência de renda para famílias pobres são políticas:",
+      "opcoes": [
+        "Redistributivas",
+        "Distributivas",
+        "Regulatórias",
+        "Constitutivas"
+      ],
+      "correta": 0,
+      "explicacao": "Políticas redistributivas transferem recursos de um grupo para outro e costumam gerar conflito."
+    },
+    {
+      "id": "administracao-publica-18",
+      "topico": "politicas",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de burocracia de nível de rua, de Michael Lipsky, refere-se:",
+      "opcoes": [
+        "Aos ministros que formulam as políticas",
+        "Aos servidores da linha de frente, como professores e policiais, que exercem discricionariedade na implementação",
+        "Aos servidores que trabalham em escritórios fechados",
+        "Às regras de trânsito urbano"
+      ],
+      "correta": 1,
+      "explicacao": "Lipsky mostrou que esses agentes, ao decidir no contato com o cidadão, moldam a política real."
+    },
+    {
+      "id": "administracao-publica-19",
+      "topico": "politicas",
+      "nivel": "aplicacao",
+      "pergunta": "Após uma tragédia muito noticiada, um tema antigo de segurança em barragens finalmente entra na pauta do Congresso. Pelo modelo de Kingdon, o acidente funcionou como:",
+      "opcoes": [
+        "Prova de que o incrementalismo é inválido",
+        "Política redistributiva",
+        "Evento-foco que ajudou a abrir uma janela de oportunidade",
+        "Avaliação ex ante"
+      ],
+      "correta": 2,
+      "explicacao": "Eventos-foco chamam a atenção para problemas e aceleram a convergência dos fluxos."
+    },
+    {
+      "id": "administracao-publica-20",
+      "topico": "politicas",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre eficácia e efetividade na avaliação de políticas públicas?",
+      "opcoes": [
+        "São sinônimos",
+        "Eficácia mede custo; efetividade mede prazo",
+        "Efetividade é atingir metas; eficácia é reduzir custos",
+        "Eficácia é atingir as metas previstas; efetividade é gerar impacto real e duradouro na realidade social"
+      ],
+      "correta": 3,
+      "explicacao": "Uma política pode cumprir as metas de entrega sem mudar o problema que pretendia resolver."
+    },
+    {
+      "id": "administracao-publica-21",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Constituição, o servidor nomeado para cargo efetivo em virtude de concurso adquire estabilidade após:",
+      "opcoes": [
+        "Três anos de efetivo exercício e aprovação em avaliação especial de desempenho",
+        "Dois anos de exercício, automaticamente",
+        "Cinco anos de exercício",
+        "A posse no cargo"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 41 exige três anos de efetivo exercício e avaliação especial de desempenho."
+    },
+    {
+      "id": "administracao-publica-22",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "Os cargos em comissão destinam-se apenas a atribuições de:",
+      "opcoes": [
+        "Atividades técnicas permanentes",
+        "Direção, chefia e assessoramento",
+        "Serviços de limpeza e vigilância",
+        "Qualquer função, conforme a vontade do gestor"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 37, V, limita os cargos em comissão a essas atribuições, para evitar burlar o concurso."
+    },
+    {
+      "id": "administracao-publica-23",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "Na gestão por competências, a sigla CHA significa:",
+      "opcoes": [
+        "Cargos, horários e avaliações",
+        "Controle, hierarquia e autoridade",
+        "Conhecimentos, habilidades e atitudes",
+        "Capacitação, hábitos e aptidões físicas"
+      ],
+      "correta": 2,
+      "explicacao": "As competências combinam saber, saber fazer e querer fazer, mobilizados para gerar resultados."
+    },
+    {
+      "id": "administracao-publica-24",
+      "topico": "pessoas",
+      "nivel": "aplicacao",
+      "pergunta": "Um chefe dá nota máxima em todos os critérios a um servidor só porque ele é muito simpático. Esse erro de avaliação é o:",
+      "opcoes": [
+        "Erro de tendência central",
+        "Efeito de recenticidade",
+        "Erro de leniência coletiva",
+        "Efeito halo"
+      ],
+      "correta": 3,
+      "explicacao": "No efeito halo, uma característica marcante contamina a avaliação de todos os outros aspectos."
+    },
+    {
+      "id": "administracao-publica-25",
+      "topico": "pessoas",
+      "nivel": "analise",
+      "pergunta": "Por que a estabilidade do servidor público é considerada uma garantia para a sociedade, e não só um privilégio?",
+      "opcoes": [
+        "Porque protege o servidor de pressões políticas, permitindo atuar com impessoalidade e continuidade",
+        "Porque impede qualquer tipo de demissão",
+        "Porque garante promoções automáticas",
+        "Porque dispensa a avaliação de desempenho"
+      ],
+      "correta": 0,
+      "explicacao": "A estabilidade evita perseguições e apadrinhamentos, mas admite a perda do cargo nas hipóteses constitucionais."
+    },
+    {
+      "id": "administracao-publica-26",
+      "topico": "governanca",
+      "nivel": "conceitual",
+      "pergunta": "Na Lei 14.133/2021, a modalidade de licitação usada para bens e serviços comuns é o:",
+      "opcoes": [
+        "Leilão",
+        "Pregão",
+        "Concurso",
+        "Diálogo competitivo"
+      ],
+      "correta": 1,
+      "explicacao": "O pregão é obrigatório para bens e serviços comuns, com julgamento por menor preço ou maior desconto."
+    },
+    {
+      "id": "administracao-publica-27",
+      "topico": "governanca",
+      "nivel": "conceitual",
+      "pergunta": "Quais modalidades de licitação deixaram de existir com a Lei 14.133/2021?",
+      "opcoes": [
+        "Pregão e concorrência",
+        "Leilão e concurso",
+        "Tomada de preços e convite",
+        "Diálogo competitivo e pregão"
+      ],
+      "correta": 2,
+      "explicacao": "A nova lei extinguiu a tomada de preços e o convite e criou o diálogo competitivo."
+    },
+    {
+      "id": "administracao-publica-28",
+      "topico": "governanca",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o TCU, as funções da governança pública são:",
+      "opcoes": [
+        "Executar, comprar e contratar",
+        "Planejar, licitar e pagar",
+        "Fiscalizar, punir e arquivar",
+        "Avaliar, direcionar e monitorar a gestão"
+      ],
+      "correta": 3,
+      "explicacao": "A governança orienta a gestão, que é responsável pela execução das atividades."
+    },
+    {
+      "id": "administracao-publica-29",
+      "topico": "governanca",
+      "nivel": "aplicacao",
+      "pergunta": "Um município contrata, sem licitação, o show de um cantor consagrado pela crítica, por meio de seu empresário exclusivo. Essa contratação direta é caso de:",
+      "opcoes": [
+        "Inexigibilidade, pois a competição é inviável",
+        "Dispensa por pequeno valor",
+        "Pregão eletrônico",
+        "Leilão"
+      ],
+      "correta": 0,
+      "explicacao": "A lei considera inviável a competição na contratação de artista consagrado por empresário exclusivo."
+    },
+    {
+      "id": "administracao-publica-30",
+      "topico": "governanca",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre dispensa e inexigibilidade de licitação?",
+      "opcoes": [
+        "As duas são sinônimos",
+        "Na dispensa a competição é possível, mas a lei permite não licitar; na inexigibilidade a competição é inviável",
+        "A inexigibilidade só vale para obras",
+        "A dispensa ocorre quando só há um fornecedor no mercado"
+      ],
+      "correta": 1,
+      "explicacao": "Na inexigibilidade não há como comparar propostas; na dispensa a lei autoriza não fazer a disputa."
+    }
+  ]
+}

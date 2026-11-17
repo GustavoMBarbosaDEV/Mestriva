@@ -1954,6 +1954,43 @@ export const EXTRA = {
       "Inovação",
       "Empreendedorismo Digital"
     ]
+  },
+  "administracao-publica": {
+    "area": "Negócios",
+    "apelidos": [
+      "Administração Pública",
+      "Administração Pública I",
+      "Gestão Pública",
+      "Introdução à Administração Pública",
+      "Fundamentos da Administração Pública",
+      "Administração Pública Brasileira",
+      "Gestão Pública e Políticas Públicas",
+      "Políticas Públicas",
+      "Análise de Políticas Públicas",
+      "Gestão de Políticas Públicas",
+      "Teoria da Administração Pública",
+      "Administração Pública e Governança"
+    ]
+  },
+  "administracao-producao": {
+    "area": "Negócios",
+    "apelidos": [
+      "Administração da Produção",
+      "Administração da Produção e Operações",
+      "Administração da Produção I",
+      "Administração da Produção II",
+      "Gestão da Produção",
+      "Gestão de Operações",
+      "Gestão da Produção e Operações",
+      "Administração de Operações",
+      "Planejamento e Controle da Produção",
+      "PCP",
+      "Gestão da Qualidade",
+      "Gestão da Qualidade Total",
+      "Qualidade e Produtividade",
+      "Produção Enxuta",
+      "Administração da Produção e Logística"
+    ]
   }
 };
 

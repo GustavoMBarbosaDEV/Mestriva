@@ -50,6 +50,97 @@
       ]
     },
     {
+      "id": "administracao-producao",
+      "nome": "Administração da Produção e Operações",
+      "apelidos": [
+        "Administração da Produção",
+        "Administração da Produção I",
+        "Administração da Produção II",
+        "Gestão da Produção",
+        "Gestão de Operações",
+        "Gestão da Produção e Operações",
+        "Administração de Operações",
+        "Planejamento e Controle da Produção",
+        "PCP",
+        "Gestão da Qualidade",
+        "Gestão da Qualidade Total",
+        "Qualidade e Produtividade",
+        "Produção Enxuta",
+        "Administração da Produção e Logística"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos de produção e operações"
+        },
+        {
+          "id": "capacidade",
+          "nome": "Localização, arranjo físico e capacidade"
+        },
+        {
+          "id": "planejamento",
+          "nome": "Planejamento e controle da produção (PCP)"
+        },
+        {
+          "id": "estoques",
+          "nome": "Gestão de estoques"
+        },
+        {
+          "id": "lean",
+          "nome": "Produção enxuta e Just in Time"
+        },
+        {
+          "id": "qualidade",
+          "nome": "Gestão da qualidade"
+        }
+      ]
+    },
+    {
+      "id": "administracao-publica",
+      "nome": "Administração Pública",
+      "apelidos": [
+        "Administração Pública I",
+        "Gestão Pública",
+        "Introdução à Administração Pública",
+        "Fundamentos da Administração Pública",
+        "Administração Pública Brasileira",
+        "Gestão Pública e Políticas Públicas",
+        "Políticas Públicas",
+        "Análise de Políticas Públicas",
+        "Gestão de Políticas Públicas",
+        "Teoria da Administração Pública",
+        "Administração Pública e Governança"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "modelos",
+          "nome": "Modelos de administração pública"
+        },
+        {
+          "id": "organizacao",
+          "nome": "Organização da administração pública"
+        },
+        {
+          "id": "principios",
+          "nome": "Princípios e controle"
+        },
+        {
+          "id": "politicas",
+          "nome": "Políticas públicas"
+        },
+        {
+          "id": "pessoas",
+          "nome": "Gestão de pessoas no setor público"
+        },
+        {
+          "id": "governanca",
+          "nome": "Governança, compras e governo digital"
+        }
+      ]
+    },
+    {
       "id": "alfabetizacao-letramento",
       "nome": "Alfabetização e Letramento",
       "apelidos": [
