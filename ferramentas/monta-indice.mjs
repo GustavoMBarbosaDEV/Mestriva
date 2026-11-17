@@ -1876,6 +1876,48 @@ export const EXTRA = {
       "Teoria e Prática do Currículo",
       "Currículo e Avaliação"
     ]
+  },
+  "direito-ambiental": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Ambiental",
+      "Direito Ambiental I",
+      "Direito Ambiental II",
+      "Direito Ambiental e Urbanístico",
+      "Direito do Ambiente",
+      "Direito e Meio Ambiente",
+      "Legislação Ambiental",
+      "Direito Ambiental e Sustentabilidade",
+      "Tutela Jurídica do Meio Ambiente",
+      "Direito Ambiental Brasileiro"
+    ]
+  },
+  "direito-previdenciario": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Previdenciário",
+      "Direito Previdenciário I",
+      "Direito Previdenciário II",
+      "Direito da Seguridade Social",
+      "Direito Previdenciário e Seguridade Social",
+      "Seguridade Social e Direito Previdenciário",
+      "Legislação Previdenciária",
+      "Prática Previdenciária",
+      "Direito Previdenciário e Assistencial",
+      "Previdência Social"
+    ]
+  },
+  "direito-internacional": {
+    "area": "Direito",
+    "apelidos": [
+      "Direito Internacional",
+      "Direito Internacional Público",
+      "Direito Internacional Privado",
+      "Direito Internacional I",
+      "Direito Internacional II",
+      "Direito Internacional Público e Privado",
+      "Direito Internacional Público I",
+    ]
   }
 };
 

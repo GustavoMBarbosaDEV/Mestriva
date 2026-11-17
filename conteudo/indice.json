@@ -1448,6 +1448,48 @@
       ]
     },
     {
+      "id": "direito-ambiental",
+      "nome": "Direito Ambiental",
+      "apelidos": [
+        "Direito Ambiental I",
+        "Direito Ambiental II",
+        "Direito Ambiental e Urbanístico",
+        "Direito do Ambiente",
+        "Direito e Meio Ambiente",
+        "Legislação Ambiental",
+        "Direito Ambiental e Sustentabilidade",
+        "Tutela Jurídica do Meio Ambiente",
+        "Direito Ambiental Brasileiro"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Fundamentos e princípios"
+        },
+        {
+          "id": "pnma",
+          "nome": "Política Nacional do Meio Ambiente e licenciamento"
+        },
+        {
+          "id": "codigo-florestal",
+          "nome": "Código Florestal e espaços protegidos"
+        },
+        {
+          "id": "responsabilidade",
+          "nome": "Responsabilidade civil e administrativa"
+        },
+        {
+          "id": "crimes",
+          "nome": "Crimes ambientais (Lei 9.605/1998)"
+        },
+        {
+          "id": "tutela",
+          "nome": "Recursos hídricos, resíduos e clima"
+        }
+      ]
+    },
+    {
       "id": "direito-civil-geral",
       "nome": "Direito Civil – Parte Geral",
       "apelidos": [
@@ -1739,6 +1781,45 @@
       ]
     },
     {
+      "id": "direito-internacional",
+      "nome": "Direito Internacional Público e Privado",
+      "apelidos": [
+        "Direito Internacional",
+        "Direito Internacional Público",
+        "Direito Internacional Privado",
+        "Direito Internacional I",
+        "Direito Internacional II",
+        "Direito Internacional Público I"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "fontes",
+          "nome": "Fundamentos e fontes"
+        },
+        {
+          "id": "tratados",
+          "nome": "Tratados internacionais"
+        },
+        {
+          "id": "sujeitos",
+          "nome": "Estados, organizações e ONU"
+        },
+        {
+          "id": "pessoas",
+          "nome": "Nacionalidade, migração e extradição"
+        },
+        {
+          "id": "dih",
+          "nome": "Direitos humanos e Tribunal Penal Internacional"
+        },
+        {
+          "id": "dipr",
+          "nome": "Direito Internacional Privado"
+        }
+      ]
+    },
+    {
       "id": "direito-penal-especial",
       "nome": "Direito Penal – Parte Especial",
       "apelidos": [
@@ -1815,6 +1896,48 @@
         {
           "id": "penas-concurso",
           "nome": "Penas, dosimetria e concurso de crimes"
+        }
+      ]
+    },
+    {
+      "id": "direito-previdenciario",
+      "nome": "Direito Previdenciário",
+      "apelidos": [
+        "Direito Previdenciário I",
+        "Direito Previdenciário II",
+        "Direito da Seguridade Social",
+        "Direito Previdenciário e Seguridade Social",
+        "Seguridade Social e Direito Previdenciário",
+        "Legislação Previdenciária",
+        "Prática Previdenciária",
+        "Direito Previdenciário e Assistencial",
+        "Previdência Social"
+      ],
+      "area": "Direito",
+      "topicos": [
+        {
+          "id": "seguridade",
+          "nome": "Seguridade social e princípios"
+        },
+        {
+          "id": "segurados",
+          "nome": "Segurados, dependentes e filiação"
+        },
+        {
+          "id": "aposentadorias",
+          "nome": "Aposentadorias após a EC 103/2019"
+        },
+        {
+          "id": "beneficios",
+          "nome": "Benefícios por incapacidade e outros"
+        },
+        {
+          "id": "custeio",
+          "nome": "Contribuições e salário de contribuição"
+        },
+        {
+          "id": "servidores",
+          "nome": "Regimes próprios e previdência complementar"
         }
       ]
     },

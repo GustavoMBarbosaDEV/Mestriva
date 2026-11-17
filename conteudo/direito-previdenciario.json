@@ -1,0 +1,465 @@
+{
+  "id": "direito-previdenciario",
+  "nome": "Direito Previdenciário",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "seguridade",
+      "nome": "Seguridade social e princípios",
+      "resumo": "### Seguridade social (CF, art. 194)\nConjunto **integrado** de ações dos Poderes Públicos e da sociedade para assegurar os direitos relativos à:\n| Área | Quem tem acesso | Contribuição |\n|---|---|---|\n| **Saúde** (art. 196) | **Todos** (universal) | Não exige contribuição |\n| **Previdência** (art. 201) | **Segurados** e dependentes | **Contributiva** e de filiação obrigatória |\n| **Assistência social** (art. 203) | **A quem dela necessitar** | Não exige contribuição |\n\n### Princípios (art. 194, parágrafo único)\n- **Universalidade da cobertura e do atendimento**.\n- **Uniformidade e equivalência** dos benefícios às populações **urbanas e rurais**.\n- **Seletividade e distributividade** na prestação dos benefícios.\n- **Irredutibilidade do valor** dos benefícios (nominal; a previdência ainda tem a preservação do valor **real**, art. 201, § 4º).\n- **Equidade na forma de participação no custeio**.\n- **Diversidade da base de financiamento**.\n- Caráter **democrático e descentralizado**, com **gestão quadripartite**: trabalhadores, empregadores, aposentados e Governo.\n\n### Regras de custeio\n- **Contrapartida** (art. 195, § 5º): nenhum benefício pode ser criado, majorado ou estendido **sem a correspondente fonte de custeio total**.\n- **Anterioridade nonagesimal** (art. 195, § 6º): as contribuições sociais só podem ser exigidas **90 dias** depois da lei que as instituiu ou modificou (não se aplica a anterioridade anual).\n- Fontes: orçamentos da União, estados, DF e municípios; contribuições do **empregador** (folha, receita ou faturamento, lucro), do **trabalhador**, sobre **concursos de prognósticos** e do **importador**.\n\n### Regimes previdenciários\n- **RGPS** (Regime Geral, administrado pelo **INSS**): trabalhadores da iniciativa privada e servidores sem regime próprio.\n- **RPPS** (Regimes Próprios): servidores titulares de **cargo efetivo**.\n- **Previdência complementar**: **facultativa**, autônoma em relação ao RGPS; fechada (fundos de pensão) ou aberta (bancos e seguradoras).\n\n### Fontes normativas\nCF (arts. 194 a 204), **Lei 8.212/1991** (custeio), **Lei 8.213/1991** (benefícios), **Decreto 3.048/1999** (regulamento), **EC 103/2019** (Reforma da Previdência).",
+      "revisao": "**Lembre:** saúde é para todos, previdência exige contribuição e assistência é para quem necessitar. Contrapartida: nenhum benefício sem fonte de custeio. Contribuições sociais respeitam só a noventena. Gestão quadripartite."
+    },
+    {
+      "id": "segurados",
+      "nome": "Segurados, dependentes e filiação",
+      "resumo": "### Segurados obrigatórios (Lei 8.213/1991, art. 11)\n- **Empregado**: presta serviço com subordinação, de forma não eventual e mediante remuneração.\n- **Empregado doméstico**: serviço contínuo a pessoa ou família, no âmbito residencial, **sem fins lucrativos**, por **mais de 2 dias por semana** (LC 150/2015).\n- **Contribuinte individual**: autônomos, empresários, sócios, MEI, diaristas eventuais, motoristas de aplicativo.\n- **Trabalhador avulso**: presta serviço a várias empresas, sem vínculo, com intermediação do sindicato ou do **órgão gestor de mão de obra** (OGMO, nos portos).\n- **Segurado especial**: produtor rural, pescador artesanal e assemelhados que trabalham em **regime de economia familiar** (até **4 módulos fiscais**), com cônjuge e filhos maiores de 16 anos. Contribui sobre a **comercialização** da produção.\n\n### Segurado facultativo\nMaior de **16 anos** que **não exerce atividade remunerada** que o torne segurado obrigatório: dona de casa, estudante, desempregado, síndico não remunerado. **Não pode** ser facultativo quem participa de RPPS.\n\n### Idade mínima\n**16 anos**, salvo o **aprendiz**, a partir dos **14** (CF, art. 7º, XXXIII).\n\n### Qualidade de segurado e período de graça (art. 15)\nMesmo sem contribuir, o segurado mantém a qualidade por um tempo:\n- **Sem limite** de prazo: quem está em gozo de benefício (exceto auxílio-acidente).\n- **12 meses** após cessar as contribuições (empregado, individual etc.).\n- **+12 meses** se já tiver pago mais de **120 contribuições** sem perder a qualidade.\n- **+12 meses** se estiver **desempregado** e comprovar a situação.\n- **6 meses**: segurado **facultativo**.\n\n### Dependentes (art. 16)\n| Classe | Quem | Dependência econômica |\n|---|---|---|\n| **1ª** | Cônjuge, companheiro(a), filho **menor de 21** ou **inválido** ou com deficiência intelectual, mental ou grave | **Presumida** |\n| **2ª** | **Pais** | Deve ser comprovada |\n| **3ª** | **Irmão** menor de 21, inválido ou com deficiência | Deve ser comprovada |\n- A existência de dependente de **classe anterior exclui** os das classes seguintes.\n- **Enteado** e **menor tutelado** equiparam-se a filho mediante declaração e comprovação da dependência econômica.\n- União estável **homoafetiva** gera os mesmos direitos.",
+      "revisao": "**Lembre:** obrigatórios: empregado, doméstico, contribuinte individual, avulso e segurado especial. Facultativo a partir de 16 anos, sem atividade remunerada. Período de graça: 12 meses (+12 com 120 contribuições, +12 se desempregado); facultativo, 6. Dependentes: classe anterior exclui a posterior."
+    },
+    {
+      "id": "aposentadorias",
+      "nome": "Aposentadorias após a EC 103/2019",
+      "resumo": "### Aposentadoria programada (regra permanente do RGPS)\n| | Homem | Mulher |\n|---|---|---|\n| **Idade mínima** | **65 anos** | **62 anos** |\n| **Tempo de contribuição** | **20 anos** (filiados após a EC; quem já era filiado: **15**) | **15 anos** |\n- **Acabou** a aposentadoria só por tempo de contribuição (sem idade) para novos segurados.\n\n### Cálculo do valor\n- **Salário de benefício**: média de **100% dos salários de contribuição** desde **julho de 1994** (antes, descartavam-se os 20% menores).\n- **Valor**: **60%** da média + **2% por ano** de contribuição que exceder **20 anos** (homem) ou **15 anos** (mulher).\n- Nenhum benefício que substitua o salário pode ser **inferior ao salário mínimo** nem superior ao **teto** do RGPS.\n\n### Aposentadorias com regras próprias\n- **Professor** (educação infantil, fundamental e médio, efetivo magistério): **60 anos (homem)** e **57 (mulher)**, com **25 anos** de contribuição no magistério.\n- **Trabalhador rural** e segurado especial: **60 anos (homem)** e **55 (mulher)**, com **15 anos** de atividade rural (não mudou com a reforma).\n- **Especial** (exposição a agentes nocivos): idade mínima de **55, 58 ou 60 anos**, com **15, 20 ou 25 anos** de atividade especial, conforme o grau de risco. A conversão de tempo especial em comum foi **vedada** para períodos posteriores à EC.\n- **Pessoa com deficiência** (LC 142/2013): por tempo de contribuição, conforme o grau (leve, moderada, grave), ou por idade (60 H / 55 M com 15 anos), sem idade mínima na primeira hipótese.\n\n### Regras de transição (para quem já contribuía em 13/11/2019)\n1. **Pontos** (idade + tempo): começou em **86 (M) / 96 (H)** em 2019 e sobe **1 ponto por ano** até **100 / 105**; exige 30 anos (M) / 35 anos (H) de contribuição.\n2. **Tempo de contribuição + idade mínima progressiva**: 56 (M) / 61 (H) em 2019, subindo **6 meses por ano** até 62 / 65.\n3. **Pedágio de 50%**: para quem estava a até **2 anos** de completar o tempo; valor com **fator previdenciário**.\n4. **Pedágio de 100%**: idade mínima de 57 (M) / 60 (H) e o dobro do tempo que faltava; valor de **100% da média**.\n5. **Idade** (transição da antiga aposentadoria por idade): mulher chegou a **62 anos em 2023**.\n\n### Direito adquirido\nQuem completou os requisitos até **13/11/2019** pode se aposentar pelas regras antigas a qualquer tempo.",
+      "revisao": "**Lembre:** regra permanente: 65 H / 62 M, com 20 anos (homem novo) ou 15 (mulher). Valor: 60% + 2% por ano acima de 20 (H) ou 15 (M), média de todos os salários desde 7/1994. Professor: 60 H / 57 M com 25 anos. Rural: 60 H / 55 M."
+    },
+    {
+      "id": "beneficios",
+      "nome": "Benefícios por incapacidade e outros",
+      "resumo": "### Carência\nNúmero mínimo de **contribuições mensais** para ter direito ao benefício.\n| Benefício | Carência |\n|---|---|\n| Auxílio por incapacidade temporária e aposentadoria por incapacidade permanente | **12** contribuições (dispensada em acidente de qualquer natureza, doença profissional ou do trabalho e doenças graves da lista) |\n| Aposentadoria programada | **180** contribuições |\n| Auxílio-reclusão | **24** contribuições (Lei 13.846/2019) |\n| **Pensão por morte**, **auxílio-acidente**, **salário-família** | **Sem carência** |\n\n### Benefícios por incapacidade (nova nomenclatura da EC 103/2019)\n- **Auxílio por incapacidade temporária** (antigo auxílio-doença): incapacidade para o trabalho por **mais de 15 dias**; o empregador paga os 15 primeiros dias do empregado. Valor: **91%** do salário de benefício, limitado à média dos 12 últimos salários de contribuição.\n- **Aposentadoria por incapacidade permanente** (antiga aposentadoria por invalidez): incapacidade total e definitiva, sem possibilidade de reabilitação. Valor: **60% + 2%** por ano acima de 20/15 anos; **100%** se decorrer de **acidente do trabalho**, doença profissional ou do trabalho. Acréscimo de **25%** se precisar de assistência permanente de outra pessoa.\n- **Auxílio-acidente**: **indenização** por sequela que **reduz** a capacidade para o trabalho habitual, após consolidação das lesões. Valor: **50%** do salário de benefício. **Não exige carência**, pode ser recebido junto com o salário e cessa com a aposentadoria.\n\n### Pensão por morte\n- Devida aos dependentes do segurado falecido; **sem carência**.\n- **Valor** (EC 103/2019): **cota familiar de 50%** da aposentadoria (recebida ou a que teria direito) **+ 10% por dependente**, até 100%. As cotas **não se revertem** aos demais quando um dependente perde a qualidade.\n- Exceção: **100%** se houver dependente inválido ou com deficiência grave, até o limite do teto.\n- **Duração para cônjuge ou companheiro**: **4 meses** se o óbito ocorrer sem 18 contribuições ou com menos de 2 anos de casamento ou união; com esses requisitos, varia conforme a **idade** do beneficiário, sendo **vitalícia** a partir de 45 anos (idades atualizadas por portaria).\n\n### Outros benefícios\n- **Salário-maternidade**: **120 dias** (inclusive adoção e guarda para adoção). Para a empregada, **sem carência**; o STF (ADI 2110, 2024) afastou a exigência de carência também para as demais seguradas.\n- **Auxílio-reclusão**: para dependentes do segurado de **baixa renda** preso em regime **fechado**.\n- **Salário-família**: para segurado de baixa renda com filho de até 14 anos ou inválido.\n\n### Benefício assistencial (BPC/LOAS)\nNão é previdenciário: **1 salário mínimo** ao **idoso de 65 anos ou mais** ou à **pessoa com deficiência** com renda familiar **por pessoa** de até **1/4 do salário mínimo** (Lei 8.742/1993). Não exige contribuição, **não gera pensão** e **não paga 13º**. Operacionalizado pelo INSS.",
+      "revisao": "**Lembre:** carência de 12 para incapacidade, 180 para aposentadoria; pensão, auxílio-acidente e salário-família sem carência. Auxílio-acidente = 50%, indenizatório. Pensão = 50% + 10% por dependente. BPC é assistência: 65 anos ou deficiência, renda até 1/4 do mínimo."
+    },
+    {
+      "id": "custeio",
+      "nome": "Contribuições e salário de contribuição",
+      "resumo": "### Salário de contribuição\nBase sobre a qual incide a contribuição do segurado. Tem **limite mínimo** (salário mínimo ou piso da categoria) e **limite máximo** (**teto** do RGPS, reajustado todo ano).\n\n### Contribuição do empregado, doméstico e avulso (EC 103/2019)\nAlíquotas **progressivas** por faixa de salário, como no imposto de renda:\n| Faixa | Alíquota |\n|---|---|\n| Até 1 salário mínimo | **7,5%** |\n| Faixa seguinte | **9%** |\n| Faixa seguinte | **12%** |\n| Até o teto | **14%** |\nCada alíquota incide só sobre a parcela do salário dentro da faixa. O empregador **desconta e recolhe**.\n\n### Contribuinte individual e facultativo\n- **20%** sobre o salário de contribuição escolhido (entre o mínimo e o teto).\n- **Plano simplificado**: **11%** sobre o salário mínimo (sem direito à aposentadoria por tempo de contribuição remanescente nem à certidão para outro regime, salvo complementação).\n- **MEI** e **facultativo de baixa renda** (dona de casa de família inscrita no CadÚnico): **5%** do salário mínimo.\n- O contribuinte individual que presta serviço a empresa tem a contribuição de **11%** retida pela empresa.\n\n### Contribuições da empresa (Lei 8.212/1991)\n- **20%** sobre a folha de salários (cota patronal).\n- **RAT/SAT** (riscos ambientais do trabalho): **1%, 2% ou 3%**, multiplicado pelo **FAP** (0,5 a 2), conforme a acidentalidade.\n- **Terceiros** (Sistema S, salário-educação, Incra).\n- **COFINS** e **CSLL** (faturamento e lucro); a reforma tributária substitui a COFINS pela **CBS** a partir de 2027.\n\n### Segurado especial\nContribuição sobre a **receita bruta da comercialização** da produção rural. Pode também contribuir como facultativo para ter benefícios acima do mínimo.\n\n### Decadência e prescrição (Lei 8.213/1991, art. 103)\n- **Revisão** do ato de concessão do benefício: **10 anos** de decadência.\n- **Parcelas** atrasadas: prescrevem em **5 anos** (prescrição quinquenal), contados de cada parcela.\n- O **direito ao benefício** em si **não prescreve** (fundo de direito), salvo o que foi indeferido.",
+      "revisao": "**Lembre:** empregado paga alíquotas progressivas de 7,5% a 14%. Individual: 20% (ou 11% no plano simplificado); MEI e baixa renda: 5%. Empresa: 20% sobre a folha + RAT x FAP. Revisão: 10 anos de decadência; parcelas: 5 anos de prescrição."
+    },
+    {
+      "id": "servidores",
+      "nome": "Regimes próprios e previdência complementar",
+      "resumo": "### Regime próprio (RPPS) — CF, art. 40\n- Para servidores titulares de **cargo efetivo** da União, estados, DF e municípios.\n- **Contributivo e solidário**: contribuem o ente, os servidores ativos, os aposentados e os pensionistas.\n- Ocupante **exclusivamente de cargo em comissão**, de cargo temporário ou de emprego público vincula-se ao **RGPS**.\n\n### Aposentadoria voluntária do servidor federal (EC 103/2019)\n- **65 anos (homem)** e **62 anos (mulher)**.\n- **25 anos de contribuição**, **10 anos de serviço público** e **5 anos no cargo**.\n- Valor: **60% da média + 2%** por ano acima de 20 anos.\n- **Compulsória**: aos **75 anos** (LC 152/2015).\n- Estados e municípios definem suas próprias regras por emenda à constituição estadual ou lei orgânica (muitos aderiram a regras parecidas).\n\n### Integralidade e paridade\n- **Integralidade**: aposentadoria igual à **última remuneração**.\n- **Paridade**: reajuste igual ao dos servidores **ativos**.\n- Garantidas apenas a quem ingressou no serviço público até **31/12/2003** e cumpre as regras de transição.\n\n### Previdência complementar\n- **Facultativa**, **autônoma** em relação ao regime geral, baseada na constituição de **reservas** (CF, art. 202).\n- **Entidades fechadas** (fundos de pensão, EFPC): para empregados de empresas ou servidores; sem fins lucrativos; fiscalização da **Previc**.\n- **Entidades abertas** (EAPC): bancos e seguradoras, para qualquer pessoa (PGBL e VGBL); fiscalização da **Susep**.\n- Servidores que ingressaram depois da criação da previdência complementar do ente (na União, a **Funpresp**, 2013) têm aposentadoria do RPPS limitada ao **teto do RGPS**.\n\n### Contagem recíproca\nO tempo de contribuição no RGPS e no RPPS pode ser somado para aposentadoria, com **compensação financeira** entre os regimes (CF, art. 201, § 9º). Não se pode contar o **mesmo período** duas vezes.",
+      "revisao": "**Lembre:** RPPS só para cargo efetivo. Servidor federal: 65 H / 62 M, com 25 anos de contribuição, 10 de serviço público e 5 no cargo; compulsória aos 75. Integralidade e paridade só para quem entrou até 2003. Contagem recíproca com compensação entre regimes."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-previdenciario-1",
+      "topico": "seguridade",
+      "nivel": "conceitual",
+      "pergunta": "Qual área da seguridade social exige contribuição do beneficiário?",
+      "opcoes": [
+        "Previdência social",
+        "Saúde",
+        "Assistência social",
+        "Todas as três"
+      ],
+      "correta": 0,
+      "explicacao": "Só a previdência tem caráter contributivo; saúde e assistência independem de contribuição."
+    },
+    {
+      "id": "direito-previdenciario-2",
+      "topico": "seguridade",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da contrapartida determina que:",
+      "opcoes": [
+        "Todo trabalhador receba benefício igual ao que contribuiu",
+        "Nenhum benefício seja criado, majorado ou estendido sem a correspondente fonte de custeio total",
+        "Os benefícios não podem ser reajustados",
+        "Só os empregadores financiem a seguridade"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 195, § 5º, da Constituição busca o equilíbrio financeiro do sistema."
+    },
+    {
+      "id": "direito-previdenciario-3",
+      "topico": "seguridade",
+      "nivel": "conceitual",
+      "pergunta": "As contribuições sociais para a seguridade podem ser exigidas:",
+      "opcoes": [
+        "Somente no exercício financeiro seguinte",
+        "Imediatamente, na data da publicação",
+        "Após 90 dias da publicação da lei que as instituiu ou modificou",
+        "Após um ano da publicação"
+      ],
+      "correta": 2,
+      "explicacao": "Elas seguem a anterioridade nonagesimal do art. 195, § 6º, sem a anterioridade anual."
+    },
+    {
+      "id": "direito-previdenciario-4",
+      "topico": "seguridade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa que nunca contribuiu procura atendimento em um hospital do SUS. Ela tem direito?",
+      "opcoes": [
+        "Não, porque só segurados do INSS podem usar o SUS",
+        "Só se pagar a contribuição atrasada",
+        "Só se comprovar baixa renda",
+        "Sim, porque a saúde é direito de todos e não exige contribuição"
+      ],
+      "correta": 3,
+      "explicacao": "O acesso à saúde é universal e igualitário, independentemente de contribuição."
+    },
+    {
+      "id": "direito-previdenciario-5",
+      "topico": "seguridade",
+      "nivel": "analise",
+      "pergunta": "Por que a gestão da seguridade é chamada de quadripartite?",
+      "opcoes": [
+        "Porque envolve trabalhadores, empregadores, aposentados e Governo nos órgãos colegiados",
+        "Porque se divide em quatro ministérios",
+        "Porque só existem quatro benefícios",
+        "Porque é financiada por quatro impostos"
+      ],
+      "correta": 0,
+      "explicacao": "A participação desses quatro grupos concretiza o caráter democrático e descentralizado da gestão."
+    },
+    {
+      "id": "direito-previdenciario-6",
+      "topico": "segurados",
+      "nivel": "conceitual",
+      "pergunta": "O pescador artesanal que trabalha com a família em regime de economia familiar é segurado:",
+      "opcoes": [
+        "Facultativo",
+        "Especial",
+        "Avulso",
+        "Empregado doméstico"
+      ],
+      "correta": 1,
+      "explicacao": "O segurado especial trabalha individualmente ou em economia familiar e contribui sobre a comercialização da produção."
+    },
+    {
+      "id": "direito-previdenciario-7",
+      "topico": "segurados",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o período de graça do segurado facultativo após deixar de contribuir?",
+      "opcoes": [
+        "12 meses",
+        "24 meses",
+        "6 meses",
+        "36 meses"
+      ],
+      "correta": 2,
+      "explicacao": "O facultativo mantém a qualidade de segurado por 6 meses após a cessação das contribuições."
+    },
+    {
+      "id": "direito-previdenciario-8",
+      "topico": "segurados",
+      "nivel": "conceitual",
+      "pergunta": "São dependentes de primeira classe, com dependência econômica presumida:",
+      "opcoes": [
+        "Pais e irmãos",
+        "Avós e netos",
+        "Tios e sobrinhos",
+        "Cônjuge, companheiro e filho menor de 21 anos ou inválido"
+      ],
+      "correta": 3,
+      "explicacao": "A primeira classe tem dependência presumida e exclui pais e irmãos do benefício."
+    },
+    {
+      "id": "direito-previdenciario-9",
+      "topico": "segurados",
+      "nivel": "aplicacao",
+      "pergunta": "Uma estudante de 19 anos, sem trabalho remunerado, quer contribuir para o INSS. Ela pode se inscrever como:",
+      "opcoes": [
+        "Segurada facultativa",
+        "Segurada especial",
+        "Contribuinte avulsa",
+        "Empregada doméstica"
+      ],
+      "correta": 0,
+      "explicacao": "Quem tem mais de 16 anos e não exerce atividade remunerada pode filiar-se como facultativo."
+    },
+    {
+      "id": "direito-previdenciario-10",
+      "topico": "segurados",
+      "nivel": "analise",
+      "pergunta": "Um segurado morre deixando esposa e mãe que dependia economicamente dele. Quem recebe a pensão por morte?",
+      "opcoes": [
+        "A esposa e a mãe, divididas igualmente",
+        "Apenas a esposa, pois a existência de dependente de primeira classe exclui os pais",
+        "Apenas a mãe, pois comprovou dependência",
+        "Ninguém, pois há dois dependentes"
+      ],
+      "correta": 1,
+      "explicacao": "Pela regra das classes, os dependentes da classe anterior excluem os das classes seguintes."
+    },
+    {
+      "id": "direito-previdenciario-11",
+      "topico": "aposentadorias",
+      "nivel": "conceitual",
+      "pergunta": "Após a EC 103/2019, a idade mínima da aposentadoria programada no RGPS é de:",
+      "opcoes": [
+        "60 anos para homens e 55 anos para mulheres",
+        "65 anos para ambos",
+        "65 anos para homens e 62 anos para mulheres",
+        "Não há idade mínima"
+      ],
+      "correta": 2,
+      "explicacao": "A reforma fixou as idades de 65 e 62 anos, com tempo mínimo de contribuição."
+    },
+    {
+      "id": "direito-previdenciario-12",
+      "topico": "aposentadorias",
+      "nivel": "conceitual",
+      "pergunta": "Pela regra permanente, o valor da aposentadoria programada corresponde a:",
+      "opcoes": [
+        "100% do último salário recebido",
+        "80% dos maiores salários de contribuição",
+        "Um salário mínimo fixo para todos",
+        "60% da média dos salários, mais 2% por ano que exceder 20 anos (homem) ou 15 anos (mulher)"
+      ],
+      "correta": 3,
+      "explicacao": "A EC 103/2019 criou o cálculo de 60% com acréscimo de 2% por ano adicional de contribuição."
+    },
+    {
+      "id": "direito-previdenciario-13",
+      "topico": "aposentadorias",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a idade mínima de aposentadoria do trabalhador rural e do segurado especial?",
+      "opcoes": [
+        "60 anos para homens e 55 anos para mulheres",
+        "65 anos para homens e 62 anos para mulheres",
+        "55 anos para ambos",
+        "70 anos para ambos"
+      ],
+      "correta": 0,
+      "explicacao": "As idades reduzidas do trabalho rural foram mantidas pela reforma, com 15 anos de atividade."
+    },
+    {
+      "id": "direito-previdenciario-14",
+      "topico": "aposentadorias",
+      "nivel": "aplicacao",
+      "pergunta": "Uma mulher completa 62 anos com 25 anos de contribuição pela regra permanente. Qual percentual da média ela recebe?",
+      "opcoes": [
+        "60%",
+        "80%",
+        "70%",
+        "100%"
+      ],
+      "correta": 1,
+      "explicacao": "São 10 anos acima dos 15 exigidos: 60% mais 10 vezes 2%, o que resulta em 80% da média."
+    },
+    {
+      "id": "direito-previdenciario-15",
+      "topico": "aposentadorias",
+      "nivel": "analise",
+      "pergunta": "Por que o cálculo pela média de 100% dos salários desde 1994 tende a reduzir o valor dos benefícios?",
+      "opcoes": [
+        "Porque elimina o teto do RGPS",
+        "Porque considera apenas os salários mais altos",
+        "Porque os salários mais baixos, que antes eram descartados, passam a entrar na média",
+        "Porque passa a usar o salário mínimo como base para todos"
+      ],
+      "correta": 2,
+      "explicacao": "Antes, os 20% menores salários eram descartados; agora todos entram e puxam a média para baixo."
+    },
+    {
+      "id": "direito-previdenciario-16",
+      "topico": "beneficios",
+      "nivel": "conceitual",
+      "pergunta": "Qual benefício tem natureza indenizatória, é pago por sequela que reduz a capacidade de trabalho e pode ser recebido junto com o salário?",
+      "opcoes": [
+        "Auxílio por incapacidade temporária",
+        "Aposentadoria por incapacidade permanente",
+        "Benefício de prestação continuada",
+        "Auxílio-acidente"
+      ],
+      "correta": 3,
+      "explicacao": "O auxílio-acidente corresponde a 50% do salário de benefício e não impede o trabalho."
+    },
+    {
+      "id": "direito-previdenciario-17",
+      "topico": "beneficios",
+      "nivel": "conceitual",
+      "pergunta": "Após a EC 103/2019, a pensão por morte corresponde a:",
+      "opcoes": [
+        "Uma cota familiar de 50% mais 10% por dependente, até o limite de 100%",
+        "100% da aposentadoria em todos os casos",
+        "Um salário mínimo fixo",
+        "70% da média de todos os salários"
+      ],
+      "correta": 0,
+      "explicacao": "A reforma criou o sistema de cotas, com exceção para dependentes inválidos ou com deficiência grave."
+    },
+    {
+      "id": "direito-previdenciario-18",
+      "topico": "beneficios",
+      "nivel": "conceitual",
+      "pergunta": "O benefício de prestação continuada (BPC/LOAS) é devido ao idoso a partir de:",
+      "opcoes": [
+        "60 anos, independentemente da renda",
+        "65 anos, com renda familiar por pessoa de até 1/4 do salário mínimo",
+        "70 anos, com 15 anos de contribuição",
+        "62 anos, para mulheres que contribuíram"
+      ],
+      "correta": 1,
+      "explicacao": "O BPC é assistencial: não exige contribuição, mas exige comprovar a baixa renda familiar."
+    },
+    {
+      "id": "direito-previdenciario-19",
+      "topico": "beneficios",
+      "nivel": "aplicacao",
+      "pergunta": "Um empregado sofre acidente de carro fora do trabalho, logo no segundo mês de emprego, e fica 60 dias afastado. Ele tem direito ao auxílio por incapacidade temporária?",
+      "opcoes": [
+        "Não, porque precisa de 12 contribuições em qualquer caso",
+        "Não, porque o acidente não foi de trabalho",
+        "Sim, porque o acidente de qualquer natureza dispensa a carência",
+        "Só se tiver 180 contribuições"
+      ],
+      "correta": 2,
+      "explicacao": "A Lei 8.213/1991 dispensa a carência nos casos de acidente de qualquer natureza."
+    },
+    {
+      "id": "direito-previdenciario-20",
+      "topico": "beneficios",
+      "nivel": "analise",
+      "pergunta": "Por que o BPC não gera pensão por morte nem paga 13º?",
+      "opcoes": [
+        "Porque é pago pelos municípios",
+        "Porque é um empréstimo a ser devolvido",
+        "Porque só é pago a quem já é aposentado",
+        "Porque é benefício assistencial, sem contribuição, e não previdenciário"
+      ],
+      "correta": 3,
+      "explicacao": "Por ser assistência social, o BPC é pessoal e intransferível, sem as regras dos benefícios previdenciários."
+    },
+    {
+      "id": "direito-previdenciario-21",
+      "topico": "custeio",
+      "nivel": "conceitual",
+      "pergunta": "Após a EC 103/2019, as alíquotas de contribuição do segurado empregado são:",
+      "opcoes": [
+        "Progressivas, de 7,5% a 14%, aplicadas por faixa de salário",
+        "Fixas em 11% para todos",
+        "De 20% sobre todo o salário",
+        "De 8%, 9% e 11% sobre o salário total"
+      ],
+      "correta": 0,
+      "explicacao": "As alíquotas progressivas incidem sobre cada parcela do salário, de modo semelhante ao imposto de renda."
+    },
+    {
+      "id": "direito-previdenciario-22",
+      "topico": "custeio",
+      "nivel": "conceitual",
+      "pergunta": "O microempreendedor individual (MEI) contribui para a previdência com:",
+      "opcoes": [
+        "20% do faturamento",
+        "5% do salário mínimo",
+        "11% sobre o teto do RGPS",
+        "Nada, pois é isento"
+      ],
+      "correta": 1,
+      "explicacao": "O MEI tem alíquota reduzida de 5% sobre o salário mínimo, incluída no pagamento mensal do DAS."
+    },
+    {
+      "id": "direito-previdenciario-23",
+      "topico": "custeio",
+      "nivel": "conceitual",
+      "pergunta": "O prazo para pedir a revisão do ato de concessão de um benefício previdenciário é de:",
+      "opcoes": [
+        "2 anos (prescrição)",
+        "5 anos (decadência)",
+        "10 anos (decadência)",
+        "Não há prazo"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 103 da Lei 8.213/1991 fixa prazo decadencial de 10 anos para a revisão."
+    },
+    {
+      "id": "direito-previdenciario-24",
+      "topico": "custeio",
+      "nivel": "aplicacao",
+      "pergunta": "Um aposentado descobre um erro e ganha a revisão do benefício concedido há 8 anos. Quais parcelas atrasadas ele pode receber?",
+      "opcoes": [
+        "Todas as dos 8 anos",
+        "Apenas as do último ano",
+        "Nenhuma, pois o direito decaiu",
+        "As dos últimos 5 anos, por causa da prescrição quinquenal"
+      ],
+      "correta": 3,
+      "explicacao": "A revisão está no prazo de 10 anos, mas as parcelas vencidas há mais de 5 anos prescreveram."
+    },
+    {
+      "id": "direito-previdenciario-25",
+      "topico": "custeio",
+      "nivel": "analise",
+      "pergunta": "Por que a contribuição ao RAT é multiplicada pelo FAP?",
+      "opcoes": [
+        "Para cobrar mais das empresas com mais acidentes e menos das que investem em prevenção",
+        "Para igualar a contribuição de todas as empresas",
+        "Para financiar apenas a saúde pública",
+        "Para isentar as empresas de grande porte"
+      ],
+      "correta": 0,
+      "explicacao": "O FAP varia de 0,5 a 2 conforme a acidentalidade, criando incentivo à prevenção."
+    },
+    {
+      "id": "direito-previdenciario-26",
+      "topico": "servidores",
+      "nivel": "conceitual",
+      "pergunta": "Ocupante exclusivamente de cargo em comissão, sem vínculo efetivo, vincula-se a qual regime?",
+      "opcoes": [
+        "Regime próprio do ente",
+        "Regime Geral de Previdência Social",
+        "Previdência complementar obrigatória",
+        "Nenhum regime"
+      ],
+      "correta": 1,
+      "explicacao": "A Constituição reserva o RPPS aos servidores titulares de cargo efetivo."
+    },
+    {
+      "id": "direito-previdenciario-27",
+      "topico": "servidores",
+      "nivel": "conceitual",
+      "pergunta": "A aposentadoria compulsória do servidor público ocorre aos:",
+      "opcoes": [
+        "70 anos de idade",
+        "65 anos de idade",
+        "75 anos de idade",
+        "80 anos de idade"
+      ],
+      "correta": 2,
+      "explicacao": "A LC 152/2015 estendeu a compulsória para 75 anos a todos os servidores."
+    },
+    {
+      "id": "direito-previdenciario-28",
+      "topico": "servidores",
+      "nivel": "conceitual",
+      "pergunta": "Os planos PGBL e VGBL são oferecidos por:",
+      "opcoes": [
+        "Regimes próprios dos servidores",
+        "INSS, como benefício obrigatório",
+        "Fundos de pensão fechados exclusivamente",
+        "Entidades abertas de previdência complementar"
+      ],
+      "correta": 3,
+      "explicacao": "As entidades abertas, como bancos e seguradoras, oferecem planos a qualquer pessoa."
+    },
+    {
+      "id": "direito-previdenciario-29",
+      "topico": "servidores",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa trabalhou 12 anos na iniciativa privada e depois passou em concurso para cargo efetivo. Para se aposentar como servidora, ela pode:",
+      "opcoes": [
+        "Somar o tempo do RGPS ao do RPPS pela contagem recíproca",
+        "Usar apenas o tempo de serviço público",
+        "Receber duas aposentadorias pelo mesmo período",
+        "Perder todo o tempo da iniciativa privada"
+      ],
+      "correta": 0,
+      "explicacao": "A contagem recíproca soma os períodos de regimes diferentes, com compensação financeira entre eles."
+    },
+    {
+      "id": "direito-previdenciario-30",
+      "topico": "servidores",
+      "nivel": "analise",
+      "pergunta": "Por que servidores que ingressaram após a criação da previdência complementar do ente recebem do RPPS no máximo o teto do RGPS?",
+      "opcoes": [
+        "Porque perdem o direito à aposentadoria",
+        "Porque o regime próprio passa a pagar até o teto e a complementação depende de adesão ao fundo complementar",
+        "Porque passam a contribuir apenas para o INSS",
+        "Porque recebem integralidade e paridade"
+      ],
+      "correta": 1,
+      "explicacao": "A complementação acima do teto fica a cargo da previdência complementar, como a Funpresp na União."
+    }
+  ]
+}

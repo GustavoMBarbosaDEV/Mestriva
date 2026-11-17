@@ -1,0 +1,465 @@
+{
+  "id": "direito-ambiental",
+  "nome": "Direito Ambiental",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos e princípios",
+      "resumo": "### Meio ambiente na Constituição (art. 225)\n\"Todos têm direito ao **meio ambiente ecologicamente equilibrado**, **bem de uso comum do povo** e essencial à sadia qualidade de vida, impondo-se ao **Poder Público e à coletividade** o dever de defendê-lo e preservá-lo para as **presentes e futuras gerações**.\"\n- Direito **fundamental** de **terceira geração** (dimensão), de titularidade **difusa**.\n- **Solidariedade intergeracional**.\n\n### Conceito legal (Lei 6.938/1981, art. 3º, I)\nMeio ambiente é o conjunto de condições, leis, influências e interações de ordem **física, química e biológica** que permite, abriga e rege a vida em todas as suas formas.\nAspectos: **natural**, **artificial** (cidades), **cultural** (patrimônio) e **do trabalho**.\n\n### Princípios\n| Princípio | Ideia |\n|---|---|\n| **Prevenção** | Risco **conhecido**: evitar danos já sabidos (base do licenciamento e do EIA) |\n| **Precaução** | Risco **incerto**: na dúvida científica, protege-se o ambiente (**in dubio pro natura**); Rio-92, princípio 15 |\n| **Poluidor-pagador** | Quem polui arca com os custos de prevenir e reparar; **não** é \"pagar para poluir\" |\n| **Usuário-pagador** | Quem usa recurso natural paga por ele (cobrança pelo uso da água) |\n| **Protetor-recebedor** | Quem protege recebe incentivo (pagamento por serviços ambientais) |\n| **Desenvolvimento sustentável** | Atender às necessidades presentes sem comprometer as gerações futuras (Relatório Brundtland, 1987) |\n| **Participação** e **informação** | Audiências públicas, acesso a dados ambientais (Lei 10.650/2003) |\n| **Vedação do retrocesso** | Não se pode reduzir o nível de proteção já alcançado |\n| **Função socioambiental da propriedade** | CF, arts. 170, VI, e 186, II |\n\n### Marcos internacionais\n- **Estocolmo (1972)**: primeira grande conferência da ONU sobre meio ambiente.\n- **Rio-92 (Eco-92)**: Declaração do Rio, Agenda 21, convenções do clima e da biodiversidade.\n- **Protocolo de Kyoto (1997)** e **Acordo de Paris (2015)**: mudança do clima.\n- **Rio+20 (2012)**.\n\n### Competências (CF)\n- **Legislativa concorrente** (art. 24, VI): União (normas gerais), estados e DF; municípios suplementam no interesse local (art. 30).\n- **Material comum** (art. 23, VI e VII): todos os entes protegem o ambiente; cooperação regulada pela **LC 140/2011**.",
+      "revisao": "**Lembre:** art. 225: bem de uso comum do povo, dever do Poder Público e da coletividade, para presentes e futuras gerações. Prevenção = risco conhecido; precaução = risco incerto. Poluidor-pagador não autoriza poluir."
+    },
+    {
+      "id": "pnma",
+      "nome": "Política Nacional do Meio Ambiente e licenciamento",
+      "resumo": "### Lei 6.938/1981 (PNMA)\n- Cria o **Sisnama** (Sistema Nacional do Meio Ambiente): **Conselho de Governo** (superior), **Conama** (consultivo e **deliberativo**, edita resoluções), **Ministério do Meio Ambiente** (central), **Ibama** e **ICMBio** (executores), órgãos estaduais (seccionais) e municipais (locais).\n- **Instrumentos**: padrões de qualidade, **zoneamento ambiental**, **avaliação de impactos ambientais**, **licenciamento**, incentivos, espaços protegidos, sistema de informações, cadastros, **penalidades**, instrumentos econômicos (concessão florestal, servidão ambiental, seguro ambiental).\n- **Responsabilidade civil objetiva** do poluidor (art. 14, § 1º).\n\n### Licenciamento ambiental\nProcedimento administrativo para atividades **efetiva ou potencialmente poluidoras** (Resolução Conama 237/1997; LC 140/2011).\nTrês licenças (modelo trifásico):\n| Licença | Fase | Para quê |\n|---|---|---|\n| **Licença Prévia (LP)** | Planejamento | Aprova localização e concepção; atesta a viabilidade ambiental |\n| **Licença de Instalação (LI)** | Obras | Autoriza a instalação conforme o projeto aprovado |\n| **Licença de Operação (LO)** | Funcionamento | Autoriza operar após verificar as condicionantes |\n- A licença ambiental tem **prazo de validade** e pode ser **revista**: não gera direito adquirido de poluir.\n- **Competência** (LC 140/2011): em regra, um **único ente** licencia (União para atividades em mais de um estado, em terras indígenas, no mar territorial etc.; estados na regra geral; municípios para impacto local).\n- A Lei 15.190/2025 (Lei Geral do Licenciamento Ambiental) trouxe novas modalidades, como a licença por adesão e compromisso (LAC); o tema teve vetos e disputa judicial, por isso convém conferir a situação atual.\n\n### EIA/Rima\n- **Estudo prévio de impacto ambiental** exigido para obra ou atividade **potencialmente causadora de significativa degradação** (CF, art. 225, § 1º, IV), **com publicidade**.\n- **Rima**: relatório em linguagem **acessível** ao público.\n- Pode haver **audiência pública**.\n- Feito por equipe técnica **multidisciplinar**, custeado pelo empreendedor.\n\n### Zoneamento ecológico-econômico (ZEE)\nOrganiza o território segundo suas potencialidades e fragilidades.",
+      "revisao": "**Lembre:** Sisnama tem o Conama como órgão deliberativo e o Ibama e o ICMBio como executores. Licenças: prévia (localização), de instalação (obras) e de operação. EIA para significativa degradação, com Rima acessível."
+    },
+    {
+      "id": "codigo-florestal",
+      "nome": "Código Florestal e espaços protegidos",
+      "resumo": "### Lei 12.651/2012 (Código Florestal)\n**Área de Preservação Permanente (APP)**: área protegida, coberta ou não por vegetação nativa, com função de preservar recursos hídricos, paisagem, estabilidade geológica, biodiversidade e solo.\n- Margens de **cursos d'água** naturais: faixa mínima de **30 metros** (rios com menos de 10 m de largura), chegando a **500 metros** (rios com mais de 600 m).\n- Entorno de **nascentes** e olhos d'água perenes: raio mínimo de **50 metros**.\n- Encostas com declividade superior a **45°**, topos de morro, restingas, manguezais (em toda a extensão), veredas.\n- Supressão só em hipóteses de **utilidade pública**, **interesse social** ou **baixo impacto**.\n\n**Reserva Legal (RL)**: percentual do imóvel **rural** com vegetação nativa para uso **sustentável**.\n| Região | Reserva Legal |\n|---|---|\n| Amazônia Legal, **floresta** | **80%** |\n| Amazônia Legal, **cerrado** | **35%** |\n| Amazônia Legal, campos gerais | **20%** |\n| **Demais regiões** do país | **20%** |\n- Pode haver **manejo sustentável**; não pode haver corte raso.\n- Registro no **Cadastro Ambiental Rural (CAR)**, registro público eletrônico obrigatório para todos os imóveis rurais.\n\n**Diferenças**: APP protege funções ambientais específicas, em locais definidos, e também existe em área urbana; RL é percentual do imóvel rural e admite uso sustentável.\n\n**Programa de Regularização Ambiental (PRA)** e regras transitórias para áreas rurais consolidadas até **22/7/2008** (o STF validou a maior parte do código nas ADIs 4901, 4902, 4903, 4937 e ADC 42).\n\n### Unidades de conservação (Lei 9.985/2000, SNUC)\n- **Proteção integral** (uso **indireto**): estação ecológica, reserva biológica, **parque nacional**, monumento natural, refúgio de vida silvestre.\n- **Uso sustentável**: área de proteção ambiental (**APA**), área de relevante interesse ecológico, floresta nacional, reserva extrativista, reserva de fauna, reserva de desenvolvimento sustentável, **RPPN** (reserva particular do patrimônio natural).\n- Criação por **ato do Poder Público**; **alteração ou supressão só por lei** (CF, art. 225, § 1º, III).\n- **Compensação ambiental** (art. 36): empreendimento de significativo impacto apoia unidades de conservação.",
+      "revisao": "**Lembre:** APP de rio: mínimo 30 m; nascente: raio de 50 m. Reserva Legal: 80% floresta amazônica, 35% cerrado amazônico, 20% no resto. SNUC: proteção integral (parque, reserva biológica) e uso sustentável (APA, RPPN). Reduzir UC só por lei."
+    },
+    {
+      "id": "responsabilidade",
+      "nome": "Responsabilidade civil e administrativa",
+      "resumo": "### Tríplice responsabilidade (CF, art. 225, § 3º)\nAs condutas lesivas sujeitam os infratores, **pessoas físicas ou jurídicas**, a sanções **penais e administrativas**, independentemente da obrigação de **reparar o dano**. As três esferas são **independentes**.\n\n### Responsabilidade civil\n- **Objetiva**: independe de culpa (Lei 6.938/1981, art. 14, § 1º).\n- **Teoria do risco integral** (STJ): **não admite excludentes** como caso fortuito, força maior ou fato de terceiro (recursos repetitivos, como o REsp 1.374.284).\n- **Solidária** entre os poluidores diretos e indiretos.\n- **Obrigação *propter rem***: acompanha o imóvel; o novo proprietário responde pela recuperação, mesmo sem ter causado o dano (**Súmula 623 do STJ**).\n- **Imprescritível** a pretensão de reparação civil do dano ambiental (**STF, Tema 999**).\n- Possível **inversão do ônus da prova** (**Súmula 618 do STJ**).\n- Cumulação de **obrigação de fazer** (recuperar) com **indenização** (Súmula 629 do STJ).\n- **Dano moral coletivo** ambiental é admitido.\n- Reparação prioritária: **in natura** (recuperar), depois compensação, por último indenização.\n\n### Responsabilidade administrativa\n- **Lei 9.605/1998** (cap. VI) e **Decreto 6.514/2008**.\n- Sanções: advertência, **multa simples** (de R$ 50 a R$ 50 milhões), multa diária, apreensão, embargo, demolição, suspensão de atividades, restritivas de direitos.\n- Segundo o STJ, a responsabilidade administrativa ambiental é **subjetiva**: exige a demonstração de **culpa ou dolo** do infrator (1ª Seção, EREsp 1.318.051).\n- Omissão do Estado na fiscalização: responsabilidade civil **solidária**, mas de **execução subsidiária** (**Súmula 652 do STJ**).\n- Poder de polícia de todos os entes do Sisnama; **prevalece o auto de infração** do ente licenciador (LC 140/2011, art. 17).\n\n### Instrumentos processuais\n- **Ação civil pública** (Lei 7.347/1985): Ministério Público, Defensoria, entes públicos, associações.\n- **Ação popular** (CF, art. 5º, LXXIII): qualquer cidadão.\n- **Termo de ajustamento de conduta (TAC)**.\n- **Inquérito civil** (exclusivo do MP).",
+      "revisao": "**Lembre:** responsabilidade civil ambiental é objetiva, pelo risco integral (sem excludentes), solidária, propter rem (Súmula 623) e imprescritível (STF, Tema 999). A administrativa é subjetiva (STJ). As três esferas são independentes."
+    },
+    {
+      "id": "crimes",
+      "nome": "Crimes ambientais (Lei 9.605/1998)",
+      "resumo": "### Responsabilidade penal da pessoa jurídica\n- Prevista na CF (art. 225, § 3º) e na Lei 9.605/1998 (art. 3º).\n- Requisitos: infração cometida por **decisão** do representante legal, contratual ou do **órgão colegiado**, no **interesse ou benefício** da entidade.\n- **Dupla imputação não é obrigatória**: o STF (RE 548.181) e o STJ admitem processar a pessoa jurídica **mesmo sem** denunciar a pessoa física.\n- Penas para a pessoa jurídica: **multa**, **restritivas de direitos** (suspensão de atividades, interdição, proibição de contratar com o poder público) e **prestação de serviços à comunidade**.\n- **Liquidação forçada** da empresa constituída ou usada preponderantemente para crimes ambientais (art. 24).\n- **Desconsideração da personalidade jurídica** quando ela for obstáculo ao ressarcimento (art. 4º, teoria **menor**).\n\n### Pessoa física\n- Penas privativas de liberdade **substituídas** por restritivas de direitos quando o crime for culposo ou a pena for **inferior a 4 anos** (art. 7º).\n- Atenuantes: baixo grau de instrução, **arrependimento** com reparação espontânea, comunicação prévia do perigo.\n- Agravantes: reincidência, obter vantagem, atingir áreas protegidas, à noite, em época de seca, em domingos ou feriados etc.\n\n### Benefícios\n- **Transação penal** depende de **prévia composição do dano** ambiental (art. 27).\n- **Suspensão condicional do processo**: a extinção da punibilidade depende de **laudo de reparação** do dano (art. 28).\n- A maioria dos crimes ambientais é de **menor potencial ofensivo** e de **ação penal pública incondicionada** (art. 26).\n\n### Tipos\n- **Contra a fauna** (arts. 29 a 37): matar, caçar, maus-tratos. Maus-tratos a **cães e gatos**: reclusão de **2 a 5 anos** (art. 32, § 1º-A, Lei 14.064/2020). O abate para saciar a fome própria ou da família, **em estado de necessidade**, não é crime (art. 37).\n- **Contra a flora** (arts. 38 a 53): destruir floresta de preservação permanente, provocar incêndio.\n- **Poluição** (art. 54): causar poluição que resulte ou possa resultar em danos à saúde humana, mortandade de animais ou destruição significativa da flora.\n- **Ordenamento urbano e patrimônio cultural** (arts. 62 a 65): **pichação** (art. 65); o grafite autorizado não é crime.\n- **Contra a administração ambiental** (arts. 66 a 69-A): funcionário que faz afirmação falsa; estudo ou laudo **falso ou enganoso** no licenciamento.\n\n### Princípio da insignificância\nAdmitido em casos excepcionais, quando a lesão ao bem ambiental é mínima (STJ e STF analisam caso a caso).",
+      "revisao": "**Lembre:** pessoa jurídica responde penalmente por decisão do representante no interesse dela, sem dupla imputação obrigatória (STF). Transação exige composição do dano. Maus-tratos a cão e gato: 2 a 5 anos. Abate por fome não é crime."
+    },
+    {
+      "id": "tutela",
+      "nome": "Recursos hídricos, resíduos e clima",
+      "resumo": "### Política Nacional de Recursos Hídricos (Lei 9.433/1997, \"Lei das Águas\")\n- A água é **bem de domínio público**, recurso **limitado**, dotado de **valor econômico**.\n- Em situação de **escassez**, uso prioritário para **consumo humano** e **dessedentação de animais**.\n- **Bacia hidrográfica** é a unidade de planejamento.\n- Gestão **descentralizada e participativa** (poder público, usuários, comunidades).\n- Instrumentos: **planos de recursos hídricos**, **enquadramento** dos corpos d'água em classes, **outorga** de direito de uso, **cobrança** pelo uso, sistema de informações.\n- Órgãos: **Conselho Nacional de Recursos Hídricos**, **comitês de bacia** (\"parlamento das águas\"), **agências de água**, **ANA** (Agência Nacional de Águas e Saneamento Básico).\n\n### Política Nacional de Resíduos Sólidos (Lei 12.305/2010)\n- **Ordem de prioridade**: **não geração**, **redução**, **reutilização**, **reciclagem**, **tratamento** e **disposição final** ambientalmente adequada dos rejeitos.\n- **Responsabilidade compartilhada** pelo ciclo de vida dos produtos (fabricantes, importadores, distribuidores, comerciantes, consumidores e poder público).\n- **Logística reversa**: retorno de produtos e embalagens após o uso (agrotóxicos, pilhas e baterias, pneus, óleos lubrificantes, lâmpadas, eletroeletrônicos).\n- Fim dos **lixões**: prazo original de 2014, prorrogado pelo **Marco do Saneamento** (Lei 14.026/2020), com prazos escalonados até **2024**, conforme o porte do município.\n- Inclusão dos **catadores** de materiais recicláveis.\n\n### Mudança do clima\n- **Política Nacional sobre Mudança do Clima** (Lei 12.187/2009).\n- **Acordo de Paris** (2015): limitar o aquecimento a **bem abaixo de 2 °C**, buscando **1,5 °C**; metas nacionais (**NDCs**).\n- STF reconheceu tratados ambientais como **tratados de direitos humanos** (ADPF 708, Fundo Clima), com status **supralegal**.\n- **COP30** realizada em **Belém (PA)**, em 2025.\n- **Mercado de carbono**: Sistema Brasileiro de Comércio de Emissões (SBCE), Lei 15.042/2024.\n\n### Patrimônio genético e biodiversidade\n- **Lei 13.123/2015**: acesso ao patrimônio genético e ao **conhecimento tradicional associado**, com **repartição de benefícios**.\n- **Convenção sobre Diversidade Biológica** (Rio-92) e Protocolo de Nagoya.",
+      "revisao": "**Lembre:** Lei das Águas: bacia como unidade, consumo humano e animais com prioridade na escassez, outorga e cobrança, comitês de bacia. PNRS: não gerar, reduzir, reutilizar, reciclar, tratar e dispor; logística reversa; responsabilidade compartilhada."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-ambiental-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual princípio se aplica quando há incerteza científica sobre o dano que uma atividade pode causar ao meio ambiente?",
+      "opcoes": [
+        "Precaução",
+        "Prevenção",
+        "Usuário-pagador",
+        "Protetor-recebedor"
+      ],
+      "correta": 0,
+      "explicacao": "A precaução atua diante do risco incerto: a falta de certeza não justifica deixar de proteger."
+    },
+    {
+      "id": "direito-ambiental-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o art. 225 da Constituição, o meio ambiente ecologicamente equilibrado é:",
+      "opcoes": [
+        "Bem dominical de propriedade exclusiva da União",
+        "Bem de uso comum do povo, cuja defesa cabe ao Poder Público e à coletividade",
+        "Bem privado de quem ocupa a área",
+        "Interesse individual de cada proprietário rural"
+      ],
+      "correta": 1,
+      "explicacao": "O texto constitucional define o bem como de uso comum e impõe o dever de proteção a todos."
+    },
+    {
+      "id": "direito-ambiental-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Sobre o princípio do poluidor-pagador, é correto afirmar:",
+      "opcoes": [
+        "Permite poluir livremente mediante pagamento de taxa",
+        "Obriga o Estado a pagar pelos danos causados por empresas",
+        "Impõe ao poluidor os custos de prevenção e reparação, e não autoriza pagar para poluir",
+        "Só se aplica a pessoas físicas"
+      ],
+      "correta": 2,
+      "explicacao": "O princípio internaliza os custos ambientais na atividade, sem criar direito de poluir."
+    },
+    {
+      "id": "direito-ambiental-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um município cobra pelo uso da água bruta captada de um rio por uma indústria, mesmo sem poluição. Que princípio fundamenta essa cobrança?",
+      "opcoes": [
+        "Poluidor-pagador",
+        "Precaução",
+        "Vedação do retrocesso",
+        "Usuário-pagador"
+      ],
+      "correta": 3,
+      "explicacao": "Paga-se pelo uso do recurso natural escasso, independentemente de haver dano ambiental."
+    },
+    {
+      "id": "direito-ambiental-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que uma lei que reduz drasticamente a proteção de áreas ambientais já protegidas pode ser questionada?",
+      "opcoes": [
+        "Pelo princípio da vedação do retrocesso socioambiental, que impede a redução do nível de proteção alcançado",
+        "Porque leis ambientais não podem ser alteradas em nenhuma hipótese",
+        "Porque só os municípios legislam sobre meio ambiente",
+        "Porque o meio ambiente é direito apenas das gerações futuras"
+      ],
+      "correta": 0,
+      "explicacao": "Retrocessos sem justificativa e sem medidas compensatórias violam a proteção constitucional do ambiente."
+    },
+    {
+      "id": "direito-ambiental-6",
+      "topico": "pnma",
+      "nivel": "conceitual",
+      "pergunta": "No licenciamento ambiental trifásico, a licença que aprova a localização e atesta a viabilidade ambiental do empreendimento é a:",
+      "opcoes": [
+        "Licença de Instalação",
+        "Licença Prévia",
+        "Licença de Operação",
+        "Licença de Funcionamento Municipal"
+      ],
+      "correta": 1,
+      "explicacao": "A licença prévia é concedida na fase de planejamento, antes das obras e do funcionamento."
+    },
+    {
+      "id": "direito-ambiental-7",
+      "topico": "pnma",
+      "nivel": "conceitual",
+      "pergunta": "O órgão do Sisnama com função consultiva e deliberativa, que edita resoluções sobre normas e padrões ambientais, é o:",
+      "opcoes": [
+        "Ibama",
+        "ICMBio",
+        "Conama",
+        "Ministério Público"
+      ],
+      "correta": 2,
+      "explicacao": "O Conselho Nacional do Meio Ambiente delibera e edita resoluções, como a 237/1997."
+    },
+    {
+      "id": "direito-ambiental-8",
+      "topico": "pnma",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Constituição, o estudo prévio de impacto ambiental é exigido para:",
+      "opcoes": [
+        "Qualquer reforma residencial",
+        "Apenas atividades da administração pública",
+        "Somente empreendimentos no litoral",
+        "Obra ou atividade potencialmente causadora de significativa degradação do meio ambiente"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 225, § 1º, IV, exige o EIA, com publicidade, para atividades de significativo impacto."
+    },
+    {
+      "id": "direito-ambiental-9",
+      "topico": "pnma",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa obteve a licença de instalação e terminou a fábrica. Antes de começar a produzir, ela precisa:",
+      "opcoes": [
+        "Obter a licença de operação, após a verificação das condicionantes",
+        "Pedir uma nova licença prévia",
+        "Apenas comunicar o início à prefeitura",
+        "Nada, pois a licença de instalação autoriza o funcionamento"
+      ],
+      "correta": 0,
+      "explicacao": "Só a licença de operação autoriza o funcionamento da atividade licenciada."
+    },
+    {
+      "id": "direito-ambiental-10",
+      "topico": "pnma",
+      "nivel": "analise",
+      "pergunta": "Por que a licença ambiental não gera direito adquirido de poluir indefinidamente?",
+      "opcoes": [
+        "Porque é concedida apenas verbalmente",
+        "Porque tem prazo de validade e pode ser revista ou cancelada diante de novos riscos ou do descumprimento de condicionantes",
+        "Porque só vale para pessoas físicas",
+        "Porque o licenciamento é facultativo"
+      ],
+      "correta": 1,
+      "explicacao": "A licença é ato administrativo sujeito a renovação e revisão, em proteção ao interesse difuso."
+    },
+    {
+      "id": "direito-ambiental-11",
+      "topico": "codigo-florestal",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o percentual de Reserva Legal exigido para imóvel rural situado em área de floresta na Amazônia Legal?",
+      "opcoes": [
+        "20%",
+        "35%",
+        "80%",
+        "50%"
+      ],
+      "correta": 2,
+      "explicacao": "O Código Florestal exige 80% de Reserva Legal nos imóveis em área de floresta na Amazônia Legal."
+    },
+    {
+      "id": "direito-ambiental-12",
+      "topico": "codigo-florestal",
+      "nivel": "conceitual",
+      "pergunta": "O entorno das nascentes e olhos d'água perenes é APP em raio mínimo de:",
+      "opcoes": [
+        "10 metros",
+        "100 metros",
+        "500 metros",
+        "50 metros"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 4º do Código Florestal fixa raio mínimo de 50 metros ao redor das nascentes perenes."
+    },
+    {
+      "id": "direito-ambiental-13",
+      "topico": "codigo-florestal",
+      "nivel": "conceitual",
+      "pergunta": "Qual destas é uma unidade de conservação de proteção integral?",
+      "opcoes": [
+        "Parque Nacional",
+        "Área de Proteção Ambiental",
+        "Reserva Extrativista",
+        "Floresta Nacional"
+      ],
+      "correta": 0,
+      "explicacao": "Os parques nacionais admitem apenas uso indireto, como pesquisa e visitação, por isso são de proteção integral."
+    },
+    {
+      "id": "direito-ambiental-14",
+      "topico": "codigo-florestal",
+      "nivel": "aplicacao",
+      "pergunta": "Um governo quer reduzir os limites de um parque nacional por decreto. Isso é possível?",
+      "opcoes": [
+        "Sim, porque o decreto é suficiente para qualquer mudança",
+        "Não, pois a alteração ou supressão de espaço protegido só pode ser feita por lei",
+        "Sim, desde que o Ibama concorde",
+        "Não, porque parques nunca podem ser alterados, nem por lei"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 225, § 1º, III, da Constituição exige lei para alterar ou suprimir espaços especialmente protegidos."
+    },
+    {
+      "id": "direito-ambiental-15",
+      "topico": "codigo-florestal",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal diferença entre APP e Reserva Legal?",
+      "opcoes": [
+        "As duas são idênticas e se aplicam só em área urbana",
+        "A Reserva Legal pode ser desmatada livremente",
+        "A APP protege funções ambientais em locais definidos e existe também na cidade; a Reserva Legal é percentual do imóvel rural com uso sustentável",
+        "A APP só existe na Amazônia"
+      ],
+      "correta": 2,
+      "explicacao": "As duas são cumulativas em regra, mas têm fundamentos, localização e regimes de uso diferentes."
+    },
+    {
+      "id": "direito-ambiental-16",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "No STJ, a responsabilidade civil por dano ambiental adota a teoria:",
+      "opcoes": [
+        "Da culpa presumida, que admite qualquer excludente",
+        "Subjetiva, exigindo prova de dolo",
+        "Do risco administrativo, com todas as excludentes",
+        "Do risco integral, que não admite excludentes como força maior ou fato de terceiro"
+      ],
+      "correta": 3,
+      "explicacao": "Pelo risco integral, basta o nexo entre a atividade e o dano, sem excludentes de responsabilidade."
+    },
+    {
+      "id": "direito-ambiental-17",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o STF (Tema 999), a pretensão de reparação civil de dano ambiental é:",
+      "opcoes": [
+        "Imprescritível",
+        "Prescritível em 3 anos",
+        "Prescritível em 5 anos",
+        "Prescritível em 10 anos"
+      ],
+      "correta": 0,
+      "explicacao": "O STF fixou que a reparação civil do dano ambiental não se sujeita à prescrição."
+    },
+    {
+      "id": "direito-ambiental-18",
+      "topico": "responsabilidade",
+      "nivel": "conceitual",
+      "pergunta": "A obrigação de recuperar a área degradada tem natureza propter rem, o que significa que:",
+      "opcoes": [
+        "Só pode ser cobrada de quem causou o dano pessoalmente",
+        "Acompanha o imóvel e pode ser exigida do atual proprietário, mesmo que ele não tenha causado o dano",
+        "Desaparece com a venda do imóvel",
+        "Depende de condenação criminal prévia"
+      ],
+      "correta": 1,
+      "explicacao": "A Súmula 623 do STJ permite cobrar do proprietário atual ou dos anteriores, à escolha do credor."
+    },
+    {
+      "id": "direito-ambiental-19",
+      "topico": "responsabilidade",
+      "nivel": "aplicacao",
+      "pergunta": "Uma pessoa compra uma fazenda em que o antigo dono desmatou a APP. O Ministério Público pede a recuperação. O comprador:",
+      "opcoes": [
+        "Não responde, pois não causou o desmatamento",
+        "Só responde se for condenado criminalmente",
+        "Responde pela recuperação, pois a obrigação ambiental acompanha o imóvel",
+        "Responde apenas se a compra tiver ocorrido há menos de um ano"
+      ],
+      "correta": 2,
+      "explicacao": "Por ser propter rem, a obrigação de recompor a APP se transmite ao novo proprietário."
+    },
+    {
+      "id": "direito-ambiental-20",
+      "topico": "responsabilidade",
+      "nivel": "analise",
+      "pergunta": "Por que uma empresa pode ser condenada a reparar um dano ambiental mesmo absolvida na esfera penal por falta de dolo?",
+      "opcoes": [
+        "Porque a absolvição penal sempre obriga a reparar",
+        "Porque a esfera civil depende da penal",
+        "Porque a responsabilidade civil exige dolo",
+        "Porque as esferas são independentes e a responsabilidade civil ambiental é objetiva"
+      ],
+      "correta": 3,
+      "explicacao": "A Constituição prevê sanções penais e administrativas independentemente da obrigação civil de reparar."
+    },
+    {
+      "id": "direito-ambiental-21",
+      "topico": "crimes",
+      "nivel": "conceitual",
+      "pergunta": "Para o STF, o processo penal contra a pessoa jurídica por crime ambiental:",
+      "opcoes": [
+        "Pode ocorrer mesmo sem a imputação simultânea de uma pessoa física",
+        "Exige sempre denunciar também o diretor da empresa",
+        "É proibido pela Constituição",
+        "Só é possível se a empresa for pública"
+      ],
+      "correta": 0,
+      "explicacao": "No RE 548.181 o STF afastou a exigência da dupla imputação obrigatória."
+    },
+    {
+      "id": "direito-ambiental-22",
+      "topico": "crimes",
+      "nivel": "conceitual",
+      "pergunta": "Na Lei 9.605/1998, a transação penal em crime ambiental de menor potencial ofensivo depende de:",
+      "opcoes": [
+        "Confissão escrita do acusado",
+        "Prévia composição do dano ambiental, salvo comprovada impossibilidade",
+        "Pagamento de fiança em dobro",
+        "Autorização do Ibama"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 27 condiciona a transação à composição prévia do dano ambiental."
+    },
+    {
+      "id": "direito-ambiental-23",
+      "topico": "crimes",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a pena prevista para maus-tratos a cães e gatos após a Lei 14.064/2020?",
+      "opcoes": [
+        "Detenção de 3 meses a 1 ano",
+        "Apenas multa administrativa",
+        "Reclusão de 2 a 5 anos, multa e proibição da guarda",
+        "Advertência verbal"
+      ],
+      "correta": 2,
+      "explicacao": "A lei criou o § 1º-A no art. 32, com pena mais grave para maus-tratos a cães e gatos."
+    },
+    {
+      "id": "direito-ambiental-24",
+      "topico": "crimes",
+      "nivel": "aplicacao",
+      "pergunta": "Um morador de área rural, sem recursos, abate um animal silvestre para alimentar a família faminta. Segundo a Lei 9.605/1998:",
+      "opcoes": [
+        "Há crime inafiançável",
+        "Há crime, mas só com pena de multa",
+        "Há crime contra a administração ambiental",
+        "Não há crime, pois o abate em estado de necessidade para saciar a fome não é crime"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 37, I, da lei afasta o crime no abate para saciar a fome do agente ou de sua família."
+    },
+    {
+      "id": "direito-ambiental-25",
+      "topico": "crimes",
+      "nivel": "analise",
+      "pergunta": "Por que a lei condiciona os benefícios penais à reparação do dano ambiental?",
+      "opcoes": [
+        "Porque a prioridade do direito ambiental é a recuperação do bem lesado, e não só a punição",
+        "Porque a reparação substitui toda responsabilidade civil",
+        "Porque o dano ambiental é sempre irrelevante",
+        "Porque o crime ambiental não admite pena"
+      ],
+      "correta": 0,
+      "explicacao": "A lógica reparatória busca restaurar o ambiente, interesse difuso que a punição sozinha não recupera."
+    },
+    {
+      "id": "direito-ambiental-26",
+      "topico": "tutela",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Lei 9.433/1997, em situação de escassez, o uso prioritário dos recursos hídricos é:",
+      "opcoes": [
+        "A geração de energia elétrica",
+        "O consumo humano e a dessedentação de animais",
+        "A irrigação de grandes lavouras",
+        "O uso industrial"
+      ],
+      "correta": 1,
+      "explicacao": "A lei fixa a prioridade do consumo humano e da dessedentação de animais nas situações de escassez."
+    },
+    {
+      "id": "direito-ambiental-27",
+      "topico": "tutela",
+      "nivel": "conceitual",
+      "pergunta": "Na Política Nacional de Resíduos Sólidos, a primeira prioridade na gestão de resíduos é:",
+      "opcoes": [
+        "A reciclagem",
+        "A incineração",
+        "A não geração",
+        "A disposição em aterro"
+      ],
+      "correta": 2,
+      "explicacao": "A ordem começa pela não geração, seguida de redução, reutilização, reciclagem, tratamento e disposição final."
+    },
+    {
+      "id": "direito-ambiental-28",
+      "topico": "tutela",
+      "nivel": "conceitual",
+      "pergunta": "A unidade territorial de planejamento e gestão dos recursos hídricos é:",
+      "opcoes": [
+        "O município",
+        "O estado",
+        "O bioma",
+        "A bacia hidrográfica"
+      ],
+      "correta": 3,
+      "explicacao": "A Lei das Águas adota a bacia hidrográfica como unidade de implementação da política."
+    },
+    {
+      "id": "direito-ambiental-29",
+      "topico": "tutela",
+      "nivel": "aplicacao",
+      "pergunta": "Um fabricante de pneus é obrigado a estruturar um sistema para receber os pneus usados e dar a eles destino adequado. Esse instrumento é a:",
+      "opcoes": [
+        "Logística reversa",
+        "Outorga de direito de uso",
+        "Licença prévia",
+        "Compensação ambiental do SNUC"
+      ],
+      "correta": 0,
+      "explicacao": "Pneus estão entre os produtos sujeitos à logística reversa obrigatória na Lei 12.305/2010."
+    },
+    {
+      "id": "direito-ambiental-30",
+      "topico": "tutela",
+      "nivel": "analise",
+      "pergunta": "Por que a Lei das Águas atribui valor econômico à água e prevê a cobrança pelo seu uso?",
+      "opcoes": [
+        "Para privatizar todos os rios do país",
+        "Para estimular o uso racional de um recurso limitado e financiar a gestão da bacia",
+        "Para impedir o consumo humano de água",
+        "Para substituir a outorga de direito de uso"
+      ],
+      "correta": 1,
+      "explicacao": "A cobrança sinaliza a escassez, incentiva a economia e gera recursos para os planos da bacia."
+    }
+  ]
+}

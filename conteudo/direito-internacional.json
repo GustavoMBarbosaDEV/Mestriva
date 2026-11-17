@@ -1,0 +1,465 @@
+{
+  "id": "direito-internacional",
+  "nome": "Direito Internacional Público e Privado",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fontes",
+      "nome": "Fundamentos e fontes",
+      "resumo": "### Direito Internacional Público (DIP)\nConjunto de normas que regula as relações entre **sujeitos de direito internacional**: **Estados**, **organizações internacionais** e, em certa medida, o **indivíduo**. Não há um legislador central: as normas nascem do **consentimento** dos Estados e dos costumes.\n\n### Fontes (Estatuto da Corte Internacional de Justiça, art. 38)\n1. **Tratados** (convenções internacionais).\n2. **Costume internacional**: prática geral (**elemento material**, *inveterata consuetudo*) aceita como direito (**elemento psicológico**, *opinio juris*).\n3. **Princípios gerais de direito** reconhecidos pelas nações.\n4. **Meios auxiliares**: **jurisprudência** e **doutrina** dos juristas mais qualificados.\n- A Corte pode decidir *ex aequo et bono* (por **equidade**) se as partes concordarem.\n- **Não há hierarquia** formal entre tratado e costume.\n- Outras fontes reconhecidas pela doutrina: **atos unilaterais** dos Estados e **decisões das organizações internacionais**.\n\n### Jus cogens\nNormas **imperativas** de direito internacional geral, aceitas pela comunidade internacional como **inderrogáveis** (Convenção de Viena de 1969, art. 53). Tratado que as viole é **nulo**. Exemplos: proibição de **genocídio**, **escravidão**, **tortura**, uso agressivo da força.\n\n### Obrigações *erga omnes*\nDevidas à comunidade internacional como um todo; qualquer Estado tem interesse em sua proteção.\n\n### Soft law\nInstrumentos **não vinculantes** (declarações, recomendações, códigos de conduta), mas que orientam a prática e podem virar costume ou tratado.\n\n### Relação com o direito interno\n- **Monismo**: direito internacional e interno formam **uma só ordem**; com primazia do internacional (Kelsen) ou do interno.\n- **Dualismo**: são ordens **separadas**; a norma internacional só vale internamente após ser **incorporada** (Triepel).\n- O Brasil adota, na prática, um **dualismo moderado**: o tratado precisa de aprovação do Congresso e de **decreto presidencial** de promulgação.",
+      "revisao": "**Lembre:** fontes do art. 38 da CIJ: tratados, costume (prática + opinio juris), princípios gerais; jurisprudência e doutrina como auxiliares. Jus cogens é inderrogável e anula tratados contrários. Brasil: dualismo moderado."
+    },
+    {
+      "id": "tratados",
+      "nome": "Tratados internacionais",
+      "resumo": "### Conceito (Convenção de Viena sobre o Direito dos Tratados, 1969)\nAcordo internacional celebrado **por escrito** entre Estados (ou com organizações internacionais, Convenção de 1986) e regido pelo direito internacional. O nome é indiferente: tratado, convenção, pacto, acordo, protocolo, carta.\n\n### Princípios\n- ***Pacta sunt servanda***: todo tratado em vigor obriga as partes e deve ser cumprido de **boa-fé** (art. 26).\n- Um Estado **não pode invocar seu direito interno** para justificar o descumprimento de um tratado (art. 27).\n- ***Rebus sic stantibus***: mudança fundamental das circunstâncias pode permitir a extinção (art. 62), em hipóteses restritas.\n\n### Fases\n1. **Negociação**.\n2. **Assinatura**: autentica o texto; em regra não obriga, mas o Estado deve abster-se de frustrar o objeto do tratado.\n3. **Ratificação**: ato **internacional** pelo qual o Estado manifesta o consentimento definitivo.\n4. **Entrada em vigor** e **registro** na ONU (art. 102 da Carta).\n- **Reservas**: declarações que excluem ou modificam efeitos de cláusulas, salvo se proibidas ou incompatíveis com o objeto e a finalidade.\n- **Denúncia**: retirada unilateral do Estado.\n\n### Incorporação no Brasil\n| Etapa | Quem | Ato |\n|---|---|---|\n| Celebração e assinatura | **Presidente da República** (CF, art. 84, VIII) | Assinatura |\n| Aprovação | **Congresso Nacional** (CF, art. 49, I) | **Decreto legislativo** |\n| Ratificação | Presidente | Depósito do instrumento |\n| Promulgação e publicação | Presidente | **Decreto presidencial** |\n\n### Hierarquia no Brasil\n- **Tratados comuns**: status de **lei ordinária** (conflito resolvido por especialidade ou pela regra da lei posterior).\n- **Tratados de direitos humanos** aprovados pelo rito comum: status **supralegal** (acima das leis, abaixo da Constituição) — STF, RE 466.343 (prisão do depositário infiel, Pacto de São José; Súmula Vinculante 25).\n- **Tratados de direitos humanos** aprovados em **dois turnos**, por **três quintos** dos votos em cada Casa (CF, art. 5º, § 3º, EC 45/2004): equivalentes a **emendas constitucionais**. Exemplos: Convenção sobre os Direitos das Pessoas com Deficiência, **Tratado de Marraqueche** e **Convenção Interamericana contra o Racismo**.\n- **Tratados tributários**: prevalecem sobre a legislação interna (CTN, art. 98).",
+      "revisao": "**Lembre:** pacta sunt servanda; Estado não invoca direito interno para descumprir tratado. Brasil: assina o Presidente, aprova o Congresso (decreto legislativo), ratifica e promulga o Presidente (decreto). Direitos humanos: supralegal ou, pelo rito de 3/5, emenda."
+    },
+    {
+      "id": "sujeitos",
+      "nome": "Estados, organizações e ONU",
+      "resumo": "### Estado\nElementos: **população permanente**, **território** delimitado, **governo** soberano e **capacidade** de se relacionar com outros Estados (Convenção de Montevidéu, 1933).\n- **Reconhecimento de Estado**: ato **declaratório** (teoria majoritária) e **discricionário**.\n- **Reconhecimento de governo**: Doutrina **Tobar** (só reconhecer governos legítimos e constitucionais) x Doutrina **Estrada** (não se pronunciar; apenas manter ou retirar diplomatas).\n- **Sucessão de Estados**: fusão, desmembramento, independência.\n\n### Imunidades\n- **Imunidade de jurisdição do Estado**: relativa. Há imunidade para **atos de império** (soberanos), mas não para **atos de gestão** (como contratos trabalhistas e comerciais). O STF tem decisão (ARE 954.858, Tema 944) negando imunidade a Estado estrangeiro por **atos ilícitos** que violam direitos humanos em tempo de guerra no território brasileiro.\n- **Imunidade de execução**: em regra, os bens do Estado estrangeiro afetados à missão são **impenhoráveis**.\n- **Diplomatas** (Convenção de Viena de **1961**): imunidade penal **absoluta** no Estado acreditado; inviolabilidade da missão; o Estado acreditante pode **renunciar** à imunidade. **Cônsules** (Convenção de **1963**): imunidade só para atos **funcionais**.\n- *Persona non grata*: o Estado pode declarar indesejado um diplomata, sem justificar.\n\n### Organizações internacionais\nCriadas por **tratado**, com personalidade jurídica própria e competências **atribuídas** pelos Estados.\n\n### ONU (Carta de São Francisco, 1945)\n- **Propósitos**: manter a **paz e a segurança** internacionais, fomentar relações amistosas, cooperação, respeito aos **direitos humanos**.\n- **Princípios**: igualdade soberana, solução **pacífica** das controvérsias, **proibição do uso da força** (art. 2º, § 4º), não intervenção.\n- Exceções ao uso da força: **legítima defesa** individual ou coletiva (art. 51) e ação autorizada pelo **Conselho de Segurança** (capítulo VII).\n- **Órgãos**: **Assembleia Geral** (todos os membros, recomendações), **Conselho de Segurança** (15 membros, **5 permanentes com veto**: EUA, Rússia, China, Reino Unido e França; decisões **vinculantes**), **Corte Internacional de Justiça** (Haia), **Secretariado**, **Conselho Econômico e Social** e **Conselho de Tutela** (inativo).\n\n### Solução de controvérsias\n- **Diplomáticas**: negociação, bons ofícios, mediação, conciliação, inquérito.\n- **Jurisdicionais**: **arbitragem** e **cortes** internacionais.\n- **CIJ**: julga **somente Estados** (contenciosa), cuja competência depende de **aceitação**; também emite **pareceres consultivos**.\n- **Tribunal Penal Internacional**: julga **indivíduos** (tópico seguinte).",
+      "revisao": "**Lembre:** Estado: população, território, governo e capacidade. Imunidade relativa: atos de império sim, de gestão não. Diplomata: imunidade penal absoluta (Viena 1961). ONU: Conselho de Segurança com 5 membros permanentes com veto; CIJ julga só Estados."
+    },
+    {
+      "id": "pessoas",
+      "nome": "Nacionalidade, migração e extradição",
+      "resumo": "### Nacionalidade (CF, art. 12)\n- **Brasileiros natos**:\n  a) nascidos **no Brasil**, ainda que de pais estrangeiros, **desde que** estes não estejam a serviço de seu país (*jus soli*);\n  b) nascidos no estrangeiro de pai ou mãe brasileiros **a serviço do Brasil**;\n  c) nascidos no estrangeiro de pai ou mãe brasileiros, **registrados** em repartição brasileira competente **ou** que venham a residir no Brasil e optem, após a maioridade, pela nacionalidade brasileira.\n- **Naturalizados**: na forma da lei; originários de **países de língua portuguesa** exigem 1 ano de residência ininterrupta e idoneidade moral; demais estrangeiros, **15 anos** de residência e sem condenação penal (naturalização extraordinária).\n- **Cargos privativos de brasileiro nato**: Presidente e Vice, Presidente da Câmara e do Senado, Ministro do **STF**, carreira **diplomática**, oficial das **Forças Armadas**, **Ministro de Estado da Defesa**.\n- **Perda** (EC 131/2023): cancelamento da naturalização por sentença judicial em razão de **fraude** ou atentado contra a ordem constitucional; ou **pedido expresso** do brasileiro. A aquisição de outra nacionalidade **não** gera mais perda automática.\n\n### Lei de Migração (Lei 13.445/2017)\nTrata o migrante como **sujeito de direitos**; repudia a xenofobia; não criminaliza a migração.\n| Medida | O que é |\n|---|---|\n| **Repatriação** | Devolução imediata de quem é impedido de entrar |\n| **Deportação** | Retirada **compulsória** de quem está em situação **migratória irregular** (após prazo para regularizar) |\n| **Expulsão** | Retirada de quem cometeu **crime** (genocídio, crimes contra a humanidade, guerra, agressão, ou crime comum doloso com pena de prisão), com **impedimento de reingresso** por prazo determinado |\n| **Extradição** | Entrega a outro Estado, a **pedido** dele, de pessoa **processada ou condenada** criminalmente |\n\n### Extradição (CF, art. 5º, LI e LII)\n- **Brasileiro nato**: **nunca** é extraditado.\n- **Naturalizado**: só por **crime comum** praticado **antes** da naturalização ou por comprovado envolvimento em **tráfico de drogas**.\n- **Estrangeiro**: não pode ser extraditado por **crime político ou de opinião**.\n- Pedido julgado pelo **STF** (art. 102, I, \"g\"); a decisão final de entregar é do **Presidente da República**.\n- Exigências: **dupla tipicidade**, não prescrição, compromisso de **comutar** pena de morte, perpétua ou corporal em prisão de no máximo **40 anos**.\n\n### Asilo e refúgio\n- **Asilo político** (CF, art. 4º, X): concessão **discricionária**, por perseguição política; pode ser **territorial** ou **diplomático**.\n- **Refúgio** (Lei 9.474/1997; Convenção de 1951): fundado temor de perseguição por **raça, religião, nacionalidade, grupo social ou opinião política**, ou **grave e generalizada violação de direitos humanos**. Decisão do **Conare**. Princípio do ***non-refoulement*** (não devolução).",
+      "revisao": "**Lembre:** nato nunca é extraditado; naturalizado só por crime comum anterior ou tráfico; estrangeiro não por crime político. Deportação = irregularidade migratória; expulsão = crime; extradição = pedido de outro Estado. Refúgio: Conare e non-refoulement."
+    },
+    {
+      "id": "dih",
+      "nome": "Direitos humanos e Tribunal Penal Internacional",
+      "resumo": "### Sistemas de proteção\n- **Global (ONU)**: Declaração Universal (**1948**), Pacto Internacional dos Direitos Civis e Políticos e Pacto dos Direitos Econômicos, Sociais e Culturais (**1966**), convenções temáticas.\n- **Interamericano (OEA)**: **Convenção Americana sobre Direitos Humanos** (**Pacto de São José da Costa Rica**, 1969; vigente no Brasil desde 1992).\n  - **Comissão Interamericana** (Washington): recebe **petições individuais**, faz recomendações.\n  - **Corte Interamericana** (São José): só a Comissão e os **Estados** podem submeter casos; o Brasil reconheceu a jurisdição em **1998**. Casos contra o Brasil: **Ximenes Lopes** (primeira condenação), Gomes Lund (Guerrilha do Araguaia), Favela Nova Brasília, Herzog.\n  - Regra do **esgotamento dos recursos internos** antes de recorrer ao sistema.\n- **Controle de convencionalidade**: juízes nacionais verificam se as leis são compatíveis com os tratados de direitos humanos.\n\n### Federalização das graves violações (CF, art. 109, § 5º)\nO **Procurador-Geral da República** pode pedir ao **STJ** o deslocamento de competência para a Justiça Federal (**IDC**), para garantir o cumprimento de obrigações internacionais.\n\n### Tribunal Penal Internacional (Estatuto de Roma, 1998)\n- Sede em **Haia**; **permanente**; julga **indivíduos** (não Estados).\n- Crimes: **genocídio**, **crimes contra a humanidade**, **crimes de guerra** e **crime de agressão**.\n- **Complementaridade**: só atua se o Estado **não quiser ou não puder** julgar.\n- **Irretroatividade**: crimes posteriores a **1º/7/2002**.\n- **Imprescritibilidade** dos crimes.\n- **Irrelevância da qualidade oficial**: chefes de Estado não têm imunidade perante o TPI.\n- Penas: prisão de até **30 anos** ou **perpétua** (em casos de extrema gravidade).\n- O Brasil se submete à jurisdição do TPI (CF, art. 5º, § 4º, EC 45/2004).\n- **Entrega** (*surrender*) ao TPI é diferente de **extradição**: o tribunal não é outro Estado, por isso a doutrina majoritária entende que é possível entregar inclusive brasileiro nato.\n\n### Direito internacional humanitário\nRegras aplicáveis em **conflitos armados**: **Convenções de Genebra** (1949) e protocolos adicionais; proteção de **feridos, prisioneiros e civis**; papel do **Comitê Internacional da Cruz Vermelha**.",
+      "revisao": "**Lembre:** Corte Interamericana: só Estados e Comissão levam casos; Brasil aceitou em 1998. TPI julga indivíduos por genocídio, contra a humanidade, guerra e agressão; é complementar; entrega não é extradição. IDC: PGR pede ao STJ."
+    },
+    {
+      "id": "dipr",
+      "nome": "Direito Internacional Privado",
+      "resumo": "### O que é\nRamo do direito **interno** que resolve **conflitos de leis no espaço** em relações privadas com **elemento estrangeiro** (casamento entre pessoas de países diferentes, contrato internacional, herança com bens no exterior). Indica **qual lei** aplicar (normas **indiretas**, de conexão).\nTambém trata de **competência internacional** e **cooperação jurídica internacional**.\n\n### Elementos de conexão na LINDB (Decreto-Lei 4.657/1942)\n| Matéria | Lei aplicável |\n|---|---|\n| Começo e fim da personalidade, **nome**, **capacidade**, **direitos de família** (art. 7º) | Lei do **domicílio** da pessoa |\n| Casamento celebrado no Brasil (art. 7º, § 1º) | Lei **brasileira** quanto aos impedimentos e às formalidades |\n| **Regime de bens** (art. 7º, § 4º) | Lei do país do **domicílio dos nubentes** ou, se diverso, do **primeiro domicílio conjugal** |\n| **Bens** (art. 8º) | Lei do país em que **estão situados** (*lex rei sitae*) |\n| **Obrigações** (art. 9º) | Lei do país em que **se constituírem** (*locus regit actum*); contrato entre ausentes: lugar em que **residir o proponente** |\n| **Sucessão** (art. 10) | Lei do **domicílio do falecido**, qualquer que seja a natureza e a situação dos bens |\n| Sucessão de bens de estrangeiro **situados no Brasil** (CF, art. 5º, XXXI; LINDB, art. 10, § 1º) | Lei **brasileira** em benefício do cônjuge ou dos filhos brasileiros, **sempre que não lhes for mais favorável** a lei pessoal do falecido |\n| **Pessoas jurídicas** (art. 11) | Lei do Estado em que **se constituírem** |\n\n### Limites à aplicação da lei estrangeira (art. 17)\nLeis, atos e sentenças estrangeiras **não terão eficácia** no Brasil quando ofenderem a **soberania nacional**, a **ordem pública** e os **bons costumes**.\n- **Vedação do reenvio** (art. 16): aplica-se a lei estrangeira **sem considerar** a remissão por ela feita a outra lei.\n- **Prova** do direito estrangeiro: o juiz pode exigir de quem o invoca prova do texto e da vigência (art. 14).\n\n### Cooperação jurídica internacional\n- **Homologação de sentença estrangeira**: competência do **STJ** (CF, art. 105, I, \"i\"). Requisitos: autoridade competente, citação regular ou revelia, **trânsito em julgado** ou eficácia, tradução, sem ofensa à ordem pública. **Divórcio consensual simples** dispensa homologação (averbação direta em cartório, CPC, art. 961, § 5º).\n- **Carta rogatória**: pedido de diligência (citação, prova); recebe ***exequatur*** do **STJ** e é cumprida pela **Justiça Federal**.\n- **Auxílio direto**: cooperação sem necessidade de juízo de delibação, via autoridade central (em regra, o Ministério da Justiça).\n- **Competência exclusiva** da Justiça brasileira (CPC, art. 23): ações sobre **imóveis situados no Brasil**, inventário e partilha de bens situados no Brasil.",
+      "revisao": "**Lembre:** domicílio rege capacidade, nome e família; bens, a lei de onde estão; obrigações, a do lugar em que se constituíram; sucessão, o domicílio do falecido (com a lei mais favorável ao cônjuge ou aos filhos brasileiros). Homologação e exequatur: STJ. Ordem pública limita a lei estrangeira."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "direito-internacional-1",
+      "topico": "fontes",
+      "nivel": "conceitual",
+      "pergunta": "O costume internacional é formado por dois elementos:",
+      "opcoes": [
+        "A prática geral e reiterada (material) e a convicção de obrigatoriedade, a opinio juris (psicológico)",
+        "A assinatura e a ratificação",
+        "O tratado e a jurisprudência",
+        "A lei interna e a sentença estrangeira"
+      ],
+      "correta": 0,
+      "explicacao": "Sem a opinio juris, a prática repetida é só uso ou cortesia, e não costume jurídico."
+    },
+    {
+      "id": "direito-internacional-2",
+      "topico": "fontes",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Convenção de Viena de 1969, é nulo o tratado que:",
+      "opcoes": [
+        "Não foi traduzido para o português",
+        "Conflita com uma norma imperativa de direito internacional geral (jus cogens)",
+        "Tem mais de dois Estados partes",
+        "Foi assinado fora da sede da ONU"
+      ],
+      "correta": 1,
+      "explicacao": "As normas de jus cogens são inderrogáveis, e o tratado que as contraria é nulo."
+    },
+    {
+      "id": "direito-internacional-3",
+      "topico": "fontes",
+      "nivel": "conceitual",
+      "pergunta": "No art. 38 do Estatuto da CIJ, a jurisprudência e a doutrina são consideradas:",
+      "opcoes": [
+        "Fontes superiores aos tratados",
+        "Fontes proibidas",
+        "Meios auxiliares para a determinação das regras de direito",
+        "Fontes exclusivas do direito interno"
+      ],
+      "correta": 2,
+      "explicacao": "Decisões judiciais e doutrina ajudam a identificar o direito, mas não o criam diretamente."
+    },
+    {
+      "id": "direito-internacional-4",
+      "topico": "fontes",
+      "nivel": "aplicacao",
+      "pergunta": "Dois Estados firmam um tratado que autoriza o tráfico de escravos entre eles. Segundo o direito internacional, esse tratado é:",
+      "opcoes": [
+        "Válido, pois decorre do consentimento das partes",
+        "Válido apenas entre os dois Estados",
+        "Válido até que a ONU o anule",
+        "Nulo, por violar norma de jus cogens"
+      ],
+      "correta": 3,
+      "explicacao": "A proibição da escravidão é norma imperativa, que nenhum acordo entre Estados pode afastar."
+    },
+    {
+      "id": "direito-internacional-5",
+      "topico": "fontes",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre as teorias monista e dualista?",
+      "opcoes": [
+        "Para o monismo há uma só ordem jurídica; para o dualismo, a norma internacional precisa ser incorporada ao direito interno",
+        "O monismo nega a existência de tratados; o dualismo nega o costume",
+        "As duas defendem que o direito interno não existe",
+        "O dualismo é adotado apenas por organizações internacionais"
+      ],
+      "correta": 0,
+      "explicacao": "No dualismo, as ordens são separadas e a recepção exige ato interno, como o decreto de promulgação."
+    },
+    {
+      "id": "direito-internacional-6",
+      "topico": "tratados",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, a aprovação de um tratado pelo Congresso Nacional é formalizada por meio de:",
+      "opcoes": [
+        "Lei complementar",
+        "Decreto legislativo",
+        "Medida provisória",
+        "Resolução do Senado apenas"
+      ],
+      "correta": 1,
+      "explicacao": "O Congresso resolve definitivamente sobre tratados por decreto legislativo, conforme o art. 49, I, da Constituição."
+    },
+    {
+      "id": "direito-internacional-7",
+      "topico": "tratados",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o STF, tratados de direitos humanos aprovados sem o rito do art. 5º, § 3º, da Constituição têm status:",
+      "opcoes": [
+        "De emenda constitucional",
+        "De lei ordinária",
+        "Supralegal",
+        "De decreto regulamentar"
+      ],
+      "correta": 2,
+      "explicacao": "Desde o RE 466.343, esses tratados ficam acima das leis e abaixo da Constituição."
+    },
+    {
+      "id": "direito-internacional-8",
+      "topico": "tratados",
+      "nivel": "conceitual",
+      "pergunta": "O princípio pacta sunt servanda significa que:",
+      "opcoes": [
+        "Tratados podem ser descumpridos livremente",
+        "Só os costumes obrigam os Estados",
+        "O direito interno sempre prevalece sobre o tratado",
+        "Todo tratado em vigor obriga as partes e deve ser cumprido de boa-fé"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 26 da Convenção de Viena consagra a obrigatoriedade dos tratados em vigor."
+    },
+    {
+      "id": "direito-internacional-9",
+      "topico": "tratados",
+      "nivel": "aplicacao",
+      "pergunta": "Um tratado de direitos humanos é aprovado em cada Casa do Congresso, em dois turnos, por três quintos dos votos. No Brasil, ele terá status de:",
+      "opcoes": [
+        "Emenda constitucional",
+        "Lei ordinária",
+        "Norma supralegal",
+        "Resolução administrativa"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 5º, § 3º, da Constituição dá equivalência de emenda aos tratados aprovados por esse rito."
+    },
+    {
+      "id": "direito-internacional-10",
+      "topico": "tratados",
+      "nivel": "analise",
+      "pergunta": "Por que a prisão civil do depositário infiel deixou de ser aplicada no Brasil, embora prevista na Constituição?",
+      "opcoes": [
+        "Porque o STF revogou o texto constitucional",
+        "Porque o Pacto de São José, com status supralegal, paralisou a eficácia das leis que a regulavam",
+        "Porque o Congresso aprovou uma emenda proibindo a prisão",
+        "Porque o tratado tem status de emenda constitucional"
+      ],
+      "correta": 1,
+      "explicacao": "A norma supralegal tornou inaplicável a legislação infraconstitucional, como reconhece a Súmula Vinculante 25."
+    },
+    {
+      "id": "direito-internacional-11",
+      "topico": "sujeitos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o direito internacional atual, um Estado estrangeiro tem imunidade de jurisdição:",
+      "opcoes": [
+        "Para todos os atos, sem exceção",
+        "Para nenhum ato praticado no Brasil",
+        "Para atos de império, mas não para atos de gestão, como contratos de trabalho",
+        "Apenas para atos comerciais"
+      ],
+      "correta": 2,
+      "explicacao": "A imunidade relativa protege os atos soberanos e permite julgar, por exemplo, reclamações trabalhistas."
+    },
+    {
+      "id": "direito-internacional-12",
+      "topico": "sujeitos",
+      "nivel": "conceitual",
+      "pergunta": "Quantos membros permanentes, com direito de veto, tem o Conselho de Segurança da ONU?",
+      "opcoes": [
+        "10",
+        "15",
+        "193",
+        "5"
+      ],
+      "correta": 3,
+      "explicacao": "EUA, Rússia, China, Reino Unido e França são os membros permanentes com poder de veto."
+    },
+    {
+      "id": "direito-internacional-13",
+      "topico": "sujeitos",
+      "nivel": "conceitual",
+      "pergunta": "A Corte Internacional de Justiça, em sua competência contenciosa, julga litígios entre:",
+      "opcoes": [
+        "Estados",
+        "Indivíduos acusados de crimes de guerra",
+        "Empresas multinacionais",
+        "Cidadãos e seus governos"
+      ],
+      "correta": 0,
+      "explicacao": "A CIJ resolve controvérsias entre Estados que aceitaram sua jurisdição; indivíduos vão ao TPI."
+    },
+    {
+      "id": "direito-internacional-14",
+      "topico": "sujeitos",
+      "nivel": "aplicacao",
+      "pergunta": "Um diplomata estrangeiro comete um crime de trânsito grave no Brasil. Pela Convenção de Viena de 1961, o Brasil pode:",
+      "opcoes": [
+        "Prendê-lo e processá-lo normalmente na Justiça brasileira",
+        "Declará-lo persona non grata ou pedir que o Estado acreditante renuncie à imunidade",
+        "Invadir a embaixada para detê-lo",
+        "Expulsar todo o corpo diplomático do país"
+      ],
+      "correta": 1,
+      "explicacao": "O diplomata tem imunidade penal, mas o Estado pode retirá-lo do convívio ou obter renúncia à imunidade."
+    },
+    {
+      "id": "direito-internacional-15",
+      "topico": "sujeitos",
+      "nivel": "analise",
+      "pergunta": "Por que a proibição do uso da força (art. 2º, § 4º, da Carta da ONU) é considerada central na ordem internacional?",
+      "opcoes": [
+        "Porque autoriza qualquer intervenção humanitária unilateral",
+        "Porque permite a guerra entre membros permanentes",
+        "Porque só admite exceções como a legítima defesa e a ação autorizada pelo Conselho de Segurança, buscando preservar a paz",
+        "Porque não tem nenhuma exceção prevista"
+      ],
+      "correta": 2,
+      "explicacao": "A Carta concentrou o uso legítimo da força em hipóteses estritas para evitar novas guerras de agressão."
+    },
+    {
+      "id": "direito-internacional-16",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Constituição, o brasileiro nato:",
+      "opcoes": [
+        "Pode ser extraditado por qualquer crime",
+        "Só pode ser extraditado por tráfico de drogas",
+        "Pode ser extraditado se tiver dupla nacionalidade",
+        "Nunca será extraditado"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 5º, LI, proíbe a extradição de brasileiro nato em qualquer hipótese."
+    },
+    {
+      "id": "direito-internacional-17",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "A retirada compulsória de estrangeiro em situação migratória irregular, como visto vencido, chama-se:",
+      "opcoes": [
+        "Deportação",
+        "Extradição",
+        "Expulsão",
+        "Repatriação"
+      ],
+      "correta": 0,
+      "explicacao": "A deportação decorre da irregularidade migratória, e não da prática de crime."
+    },
+    {
+      "id": "direito-internacional-18",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "É cargo privativo de brasileiro nato:",
+      "opcoes": [
+        "Deputado federal",
+        "Ministro do Supremo Tribunal Federal",
+        "Senador",
+        "Ministro do Superior Tribunal de Justiça"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 12, § 3º, da Constituição reserva aos natos o cargo de Ministro do STF, entre outros."
+    },
+    {
+      "id": "direito-internacional-19",
+      "topico": "pessoas",
+      "nivel": "aplicacao",
+      "pergunta": "Um italiano naturalizado brasileiro em 2015 é procurado pela Itália por um homicídio cometido lá em 2010. Ele pode ser extraditado?",
+      "opcoes": [
+        "Não, pois todo brasileiro é inextraditável",
+        "Sim, mas só se tiver praticado tráfico de drogas",
+        "Sim, por se tratar de crime comum praticado antes da naturalização",
+        "Não, porque o crime ocorreu no exterior"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição permite extraditar o naturalizado por crime comum anterior à naturalização."
+    },
+    {
+      "id": "direito-internacional-20",
+      "topico": "pessoas",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença essencial entre extradição e expulsão?",
+      "opcoes": [
+        "As duas são a mesma medida com nomes diferentes",
+        "A expulsão depende sempre de pedido de outro país",
+        "A extradição só se aplica a quem está com o visto vencido",
+        "Na extradição outro Estado pede a entrega para processar ou punir; na expulsão o Brasil retira o estrangeiro por iniciativa própria, após crime"
+      ],
+      "correta": 3,
+      "explicacao": "A extradição é cooperação penal entre Estados; a expulsão é medida soberana de retirada do território."
+    },
+    {
+      "id": "direito-internacional-21",
+      "topico": "dih",
+      "nivel": "conceitual",
+      "pergunta": "O Tribunal Penal Internacional julga:",
+      "opcoes": [
+        "Indivíduos acusados de genocídio, crimes contra a humanidade, crimes de guerra e agressão",
+        "Estados que descumprem tratados comerciais",
+        "Empresas por crimes ambientais",
+        "Disputas de fronteira entre países"
+      ],
+      "correta": 0,
+      "explicacao": "O Estatuto de Roma criou uma corte penal permanente para a responsabilização individual."
+    },
+    {
+      "id": "direito-internacional-22",
+      "topico": "dih",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da complementaridade do TPI significa que ele:",
+      "opcoes": [
+        "Substitui sempre os tribunais nacionais",
+        "Só atua quando o Estado com jurisdição não quer ou não pode julgar o caso",
+        "Julga apenas casos já julgados pelos Estados",
+        "Atua somente com autorização do Conselho de Segurança"
+      ],
+      "correta": 1,
+      "explicacao": "A jurisdição primária é dos Estados; o TPI age para evitar a impunidade."
+    },
+    {
+      "id": "direito-internacional-23",
+      "topico": "dih",
+      "nivel": "conceitual",
+      "pergunta": "Na Corte Interamericana de Direitos Humanos, podem submeter casos:",
+      "opcoes": [
+        "Qualquer indivíduo diretamente",
+        "Somente organizações não governamentais",
+        "A Comissão Interamericana e os Estados partes",
+        "Apenas o Conselho de Segurança da ONU"
+      ],
+      "correta": 2,
+      "explicacao": "O indivíduo peticiona à Comissão, que pode levar o caso à Corte."
+    },
+    {
+      "id": "direito-internacional-24",
+      "topico": "dih",
+      "nivel": "aplicacao",
+      "pergunta": "Um grave caso de violação de direitos humanos está sem andamento na Justiça estadual, e o Brasil corre risco de responsabilização internacional. O que pode ser feito?",
+      "opcoes": [
+        "A vítima pode levar o caso direto ao TPI",
+        "O governador pode transferir o processo para o STF",
+        "Nada pode ser feito até a condenação internacional",
+        "O Procurador-Geral da República pode pedir ao STJ o deslocamento da competência para a Justiça Federal"
+      ],
+      "correta": 3,
+      "explicacao": "O incidente de deslocamento de competência, do art. 109, § 5º, existe para essas situações."
+    },
+    {
+      "id": "direito-internacional-25",
+      "topico": "dih",
+      "nivel": "analise",
+      "pergunta": "Por que a entrega de um brasileiro nato ao TPI não é considerada extradição pela doutrina majoritária?",
+      "opcoes": [
+        "Porque a entrega é feita a um tribunal internacional do qual o Brasil participa, e não a outro Estado soberano",
+        "Porque o TPI só julga estrangeiros",
+        "Porque a Constituição permite extraditar natos ao TPI expressamente",
+        "Porque o TPI não aplica penas de prisão"
+      ],
+      "correta": 0,
+      "explicacao": "A extradição é entre Estados; a entrega ao TPI é cooperação com uma jurisdição que o próprio Brasil aceitou."
+    },
+    {
+      "id": "direito-internacional-26",
+      "topico": "dipr",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a LINDB, a capacidade, o nome e os direitos de família regem-se pela lei:",
+      "opcoes": [
+        "Do país de nacionalidade da pessoa",
+        "Do país em que a pessoa for domiciliada",
+        "Do país em que os bens estão situados",
+        "Sempre brasileira"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 7º da LINDB adota o domicílio como elemento de conexão para o estatuto pessoal."
+    },
+    {
+      "id": "direito-internacional-27",
+      "topico": "dipr",
+      "nivel": "conceitual",
+      "pergunta": "Compete ao STJ:",
+      "opcoes": [
+        "Julgar todos os casos de casamento entre estrangeiros",
+        "Extraditar estrangeiros por decisão final",
+        "Homologar sentenças estrangeiras e conceder exequatur às cartas rogatórias",
+        "Naturalizar estrangeiros"
+      ],
+      "correta": 2,
+      "explicacao": "Desde a EC 45/2004, essas competências passaram do STF para o STJ (art. 105, I, i)."
+    },
+    {
+      "id": "direito-internacional-28",
+      "topico": "dipr",
+      "nivel": "conceitual",
+      "pergunta": "Os bens, segundo a LINDB, regem-se pela lei:",
+      "opcoes": [
+        "Do domicílio do proprietário",
+        "Da nacionalidade do proprietário",
+        "Escolhida livremente pelo juiz",
+        "Do país em que estiverem situados"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 8º da LINDB adota a regra da lex rei sitae para qualificar e regular os bens."
+    },
+    {
+      "id": "direito-internacional-29",
+      "topico": "dipr",
+      "nivel": "aplicacao",
+      "pergunta": "Um estrangeiro domiciliado na Espanha morre deixando um apartamento no Brasil e uma filha brasileira. Qual lei rege a sucessão desse bem?",
+      "opcoes": [
+        "A lei espanhola, salvo se a lei brasileira for mais favorável à filha brasileira",
+        "Sempre a lei espanhola, sem exceções",
+        "Sempre a lei do país de nacionalidade do falecido",
+        "Nenhuma, pois o bem fica para o Estado"
+      ],
+      "correta": 0,
+      "explicacao": "A regra é o domicílio do falecido, mas a Constituição protege cônjuge e filhos brasileiros com a lei mais favorável."
+    },
+    {
+      "id": "direito-internacional-30",
+      "topico": "dipr",
+      "nivel": "analise",
+      "pergunta": "Por que o juiz brasileiro pode recusar a aplicação de uma lei estrangeira indicada pela LINDB?",
+      "opcoes": [
+        "Porque a lei estrangeira nunca pode ser aplicada no Brasil",
+        "Porque o art. 17 nega eficácia às leis que ofendem a soberania nacional, a ordem pública ou os bons costumes",
+        "Porque basta o juiz preferir a lei brasileira",
+        "Porque toda lei estrangeira precisa de aprovação do Congresso"
+      ],
+      "correta": 1,
+      "explicacao": "A ordem pública funciona como filtro que impede efeitos incompatíveis com os valores fundamentais do país."
+    }
+  ]
+}
