@@ -1,0 +1,465 @@
+{
+  "id": "planejamento-estrategico",
+  "nome": "Planejamento Estratégico",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Estratégia e níveis de planejamento",
+      "resumo": "### O que é estratégia\n- Origem militar (*strategos*, o general). Na empresa: o caminho escolhido para alcançar os **objetivos** de longo prazo e obter **vantagem competitiva**.\n- **Michael Porter**: estratégia é escolher **o que fazer e o que não fazer**; ser **diferente** dos concorrentes, e não só fazer melhor a mesma coisa (eficiência operacional não é estratégia).\n- **Henry Mintzberg**, os **5 Ps**: estratégia como **plano**, **pretexto** (manobra), **padrão** (comportamento consistente), **posição** (lugar no mercado) e **perspectiva** (maneira de ver o mundo).\n- **Estratégia deliberada** (planejada e realizada) x **emergente** (surge da prática, sem ter sido planejada). A estratégia realizada costuma misturar as duas.\n\n### Níveis de planejamento\n| Nível | Quem faz | Prazo | Abrangência |\n|---|---|---|---|\n| **Estratégico** | Alta direção | **Longo** | Organização inteira |\n| **Tático** | Gerência média | Médio | Uma área ou departamento |\n| **Operacional** | Supervisão | Curto | Tarefas e rotinas |\n\n### Níveis de estratégia\n- **Corporativa**: em que negócios atuar (diversificar, integrar, sair).\n- **De negócio (competitiva)**: como competir em cada mercado.\n- **Funcional**: como cada área (marketing, finanças, produção) apoia a estratégia.\n\n### Etapas do processo\n1. **Identidade**: missão, visão e valores.\n2. **Diagnóstico**: análise externa e interna (SWOT).\n3. **Formulação**: objetivos e estratégias.\n4. **Implementação**: planos de ação, orçamento, projetos.\n5. **Controle e avaliação**: indicadores (BSC, OKRs) e ajustes.\n\n### Planejamento x administração estratégica\nO **planejamento** é a elaboração do plano; a **administração (gestão) estratégica** é o processo **contínuo** que inclui implementar, controlar e revisar.",
+      "revisao": "**Lembre:** estratégia é escolher o que fazer e o que não fazer (Porter). Planejamento estratégico = alta direção, longo prazo, organização toda; tático = área; operacional = tarefa. Mintzberg: 5 Ps e estratégias emergentes."
+    },
+    {
+      "id": "identidade",
+      "nome": "Missão, visão, valores e objetivos",
+      "resumo": "### Identidade organizacional\n- **Missão**: a **razão de ser** da organização; o que ela faz, para quem e como. Responde \"**por que existimos?**\". É relativamente **permanente**.\n- **Visão**: o que a organização **quer ser** no futuro; um estado desejado, inspirador e com **horizonte de tempo**. Responde \"**aonde queremos chegar?**\".\n- **Valores**: crenças e princípios que orientam **comportamentos e decisões** (ética, inovação, foco no cliente).\n- **Propósito**: impacto que a organização quer causar no mundo (termo cada vez mais usado).\n\n### Objetivos e metas\n- **Objetivo**: resultado **qualitativo** que se quer alcançar (\"aumentar a participação de mercado\").\n- **Meta**: objetivo **quantificado** e com **prazo** (\"chegar a 15% de participação até dezembro de 2027\").\n- **SMART** (critérios para metas): **e**specífica (*specific*), **m**ensurável, **a**tingível, **r**elevante e **t**emporal (com prazo).\n\n### Desdobramento\nMissão e visão → objetivos estratégicos → metas → **planos de ação** (o que, quem, quando, onde, por que, como, quanto: **5W2H**).\n\n### Fatores críticos de sucesso\nAquilo que a empresa **precisa** fazer bem para vencer no seu setor (por exemplo, logística eficiente no varejo on-line).\n\n### Stakeholders\nPartes interessadas: acionistas, clientes, funcionários, fornecedores, governo, comunidade. Uma boa estratégia considera seus interesses.",
+      "revisao": "**Lembre:** missão = razão de ser (por que existimos); visão = futuro desejado (aonde queremos chegar); valores = princípios de conduta. Objetivo é qualitativo; meta é quantificada e com prazo (SMART). Plano de ação: 5W2H."
+    },
+    {
+      "id": "ambiente",
+      "nome": "Análise do ambiente",
+      "resumo": "### Análise SWOT (FOFA)\n| | Positivo | Negativo |\n|---|---|---|\n| **Interno** (controlável) | **Forças** (*Strengths*) | **Fraquezas** (*Weaknesses*) |\n| **Externo** (não controlável) | **Oportunidades** (*Opportunities*) | **Ameaças** (*Threats*) |\n- **SWOT cruzada** (matriz TOWS): forças + oportunidades = estratégias **ofensivas** (de desenvolvimento); forças + ameaças = de **confronto** (manutenção); fraquezas + oportunidades = de **reforço** (crescimento com correção); fraquezas + ameaças = **defensivas** (sobrevivência).\n\n### Macroambiente — PESTEL\nFatores **P**olíticos, **E**conômicos, **S**ociais (socioculturais), **T**ecnológicos, **E**cológicos (ambientais) e **L**egais.\n\n### Cinco forças de Porter (atratividade do setor)\n1. **Rivalidade** entre os concorrentes existentes.\n2. **Ameaça de novos entrantes** (barreiras de entrada: escala, capital, marca, regulação).\n3. **Ameaça de produtos substitutos**.\n4. **Poder de barganha dos fornecedores**.\n5. **Poder de barganha dos clientes (compradores)**.\nQuanto mais fortes as forças, **menos atrativo** (menos lucrativo) é o setor.\n\n### Análise interna\n- **Cadeia de valor** (Porter): atividades **primárias** (logística de entrada, operações, logística de saída, marketing e vendas, serviços) e de **apoio** (infraestrutura, gestão de pessoas, tecnologia, aquisição).\n- **Visão baseada em recursos (RBV)** e modelo **VRIO**: um recurso gera **vantagem competitiva sustentável** se for **V**alioso, **R**aro, difícil de **I**mitar e explorado pela **O**rganização.\n- **Competências essenciais** (*core competences*, Prahalad e Hamel): habilidades centrais que dão acesso a vários mercados e são difíceis de copiar.\n\n### Cenários\nConstrução de futuros alternativos (otimista, pessimista, mais provável) para preparar respostas.",
+      "revisao": "**Lembre:** SWOT: forças e fraquezas são internas; oportunidades e ameaças, externas. PESTEL analisa o macroambiente. Cinco forças: rivalidade, entrantes, substitutos, fornecedores e clientes. VRIO: valioso, raro, inimitável e organizado."
+    },
+    {
+      "id": "estrategias",
+      "nome": "Estratégias competitivas e de crescimento",
+      "resumo": "### Estratégias genéricas de Porter\n| Estratégia | Ideia |\n|---|---|\n| **Liderança em custo** | Ser o produtor de **menor custo** do setor (escala, eficiência), podendo cobrar preços menores |\n| **Diferenciação** | Oferecer algo **único** e valorizado pelo cliente (marca, qualidade, design, inovação), com preço *premium* |\n| **Enfoque (foco)** | Atender um **nicho** específico, com custo ou diferenciação |\nRisco: ficar \"**preso no meio**\" (*stuck in the middle*), sem ser nem o mais barato nem diferente.\n\n### Matriz de Ansoff (crescimento)\n| | Produtos atuais | Produtos novos |\n|---|---|---|\n| **Mercados atuais** | **Penetração** de mercado | **Desenvolvimento de produtos** |\n| **Mercados novos** | **Desenvolvimento de mercado** | **Diversificação** (maior risco) |\n\n### Matriz BCG (portfólio)\nCruza **participação relativa de mercado** e **taxa de crescimento** do mercado:\n- **Estrela**: alta participação, alto crescimento (investir).\n- **Vaca leiteira**: alta participação, baixo crescimento (gera caixa).\n- **Ponto de interrogação** (criança-problema): baixa participação, alto crescimento (decidir: investir ou sair).\n- **Abacaxi** (cão): baixa participação, baixo crescimento (desinvestir).\n\n### Outras estratégias\n- **Integração vertical**: para trás (fornecedores) ou para frente (distribuição).\n- **Integração horizontal**: comprar ou unir-se a concorrentes.\n- **Alianças**, *joint ventures*, fusões e aquisições.\n- **Oceano azul** (Kim e Mauborgne): criar um **espaço de mercado novo**, sem concorrência, tornando-a irrelevante (x **oceano vermelho**, setores saturados).\n- Estratégias de retração: **redução**, **desinvestimento**, **liquidação**.\n\n### Vantagem competitiva\nCapacidade de criar **mais valor** para o cliente ou a **custo menor** que os concorrentes, de forma **sustentável**.",
+      "revisao": "**Lembre:** Porter: custo, diferenciação ou foco; cuidado com ficar preso no meio. Ansoff: penetração, desenvolvimento de produto, de mercado e diversificação (maior risco). BCG: estrela, vaca leiteira, interrogação e abacaxi. Oceano azul cria mercado sem concorrência."
+    },
+    {
+      "id": "execucao",
+      "nome": "Implementação e controle: BSC e OKRs",
+      "resumo": "### Balanced Scorecard (BSC)\nCriado por **Kaplan e Norton** (1992). Traduz a estratégia em **objetivos e indicadores** equilibrados em **quatro perspectivas**:\n1. **Financeira**: como os acionistas nos veem? (lucro, retorno, receita).\n2. **Clientes**: como os clientes nos veem? (satisfação, retenção, participação).\n3. **Processos internos**: em que processos precisamos ser excelentes? (qualidade, prazo, inovação).\n4. **Aprendizado e crescimento**: como continuar melhorando? (pessoas, sistemas, cultura).\n- **Relação de causa e efeito**: pessoas capacitadas → processos melhores → clientes satisfeitos → resultado financeiro.\n- **Mapa estratégico**: diagrama que mostra essas relações.\n- Equilibra indicadores **financeiros e não financeiros**, de **resultado** (*lag*, de ocorrência) e **de tendência** (*lead*, vetores de desempenho).\n- No setor público, a perspectiva financeira costuma dar lugar à **sociedade** ou à **missão** no topo.\n\n### OKRs (Objectives and Key Results)\nPopularizados pela Intel (Andy Grove) e pelo Google.\n- **Objetivo**: qualitativo, inspirador.\n- **Resultados-chave**: 3 a 5 medidas **quantitativas** que mostram se o objetivo foi atingido.\n- Ciclos **curtos** (trimestrais), transparência, metas **ambiciosas** (atingir cerca de 70% já é bom resultado).\n\n### Indicadores (KPIs)\nMedidas de desempenho; devem ter **fórmula**, **fonte**, **frequência**, **meta** e **responsável**.\n- **Eficiência**: uso dos recursos (fazer certo as coisas).\n- **Eficácia**: alcance dos resultados (fazer as coisas certas).\n- **Efetividade**: impacto real e duradouro.\n\n### Ciclo PDCA\n**P**lan (planejar), **D**o (executar), **C**heck (verificar), **A**ct (agir corretivamente). Ciclo de melhoria contínua (Shewhart e Deming).\n\n### Barreiras à implementação\nFalta de comunicação da estratégia, desalinhamento do orçamento, ausência de responsáveis, resistência à mudança, excesso de indicadores.",
+      "revisao": "**Lembre:** BSC (Kaplan e Norton) tem quatro perspectivas: financeira, clientes, processos internos e aprendizado e crescimento, ligadas por causa e efeito no mapa estratégico. OKR = objetivo qualitativo + 3 a 5 resultados-chave mensuráveis. PDCA para melhorar sempre."
+    },
+    {
+      "id": "publico",
+      "nome": "Planejamento no setor público",
+      "resumo": "### Instrumentos constitucionais (CF, art. 165)\n| Instrumento | Prazo | Conteúdo |\n|---|---|---|\n| **PPA** (Plano Plurianual) | **4 anos** (do 2º ano de um mandato ao 1º do seguinte) | Diretrizes, **objetivos e metas** da administração para despesas de capital e programas de duração continuada |\n| **LDO** (Lei de Diretrizes Orçamentárias) | Anual | **Metas e prioridades**, orienta a elaboração da LOA, metas fiscais (LRF) |\n| **LOA** (Lei Orçamentária Anual) | Anual | Orçamento **fiscal**, de **investimento** das estatais e da **seguridade social** |\nOs três devem estar **integrados**: a LOA executa o que o PPA planeja, segundo as prioridades da LDO.\n\n### Planejamento estratégico governamental\n- Uso de **missão, visão, SWOT e BSC** adaptados (no topo do mapa, o **valor público** para a sociedade).\n- **Programa**: conjunto de ações para resolver um **problema** da sociedade, com indicadores.\n- Princípio da **eficiência** (CF, art. 37) e foco em **resultados**.\n\n### Ferramentas de gestão pública\n- **Gestão por resultados** e contratos de gestão.\n- **Planejamento Estratégico Situacional (PES)**, de **Carlos Matus**: o planejamento é feito por um **ator** que está **dentro** da realidade, em interação com outros atores com interesses diferentes; momentos **explicativo**, **normativo**, **estratégico** e **tático-operacional**; **triângulo de governo** (projeto de governo, governabilidade e capacidade de governo).\n- **Planejamento normativo (tradicional)**: o planejador está \"de fora\", supõe um só ator e um futuro previsível — criticado por Matus.\n\n### Diferenças em relação à empresa\n- Objetivo é o **interesse público**, não o lucro.\n- Muitas partes interessadas e **controle social**.\n- Regras legais rígidas (orçamento, licitações) e ciclos políticos.",
+      "revisao": "**Lembre:** PPA (4 anos, objetivos e metas), LDO (metas e prioridades anuais) e LOA (orçamentos fiscal, de investimento e da seguridade) são integrados. Matus (PES): planejador é ator dentro da realidade; triângulo de governo: projeto, governabilidade e capacidade."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "planejamento-estrategico-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O planejamento de longo prazo, feito pela alta direção e que abrange a organização inteira, é o planejamento:",
+      "opcoes": [
+        "Estratégico",
+        "Tático",
+        "Operacional",
+        "Orçamentário de curto prazo"
+      ],
+      "correta": 0,
+      "explicacao": "O nível estratégico define os rumos gerais; os níveis tático e operacional o desdobram."
+    },
+    {
+      "id": "planejamento-estrategico-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Para Mintzberg, a estratégia que surge da prática, sem ter sido planejada previamente, é chamada de:",
+      "opcoes": [
+        "Deliberada",
+        "Emergente",
+        "Corporativa",
+        "Funcional"
+      ],
+      "correta": 1,
+      "explicacao": "Estratégias emergentes formam padrões ao longo do tempo, a partir de decisões e aprendizados do dia a dia."
+    },
+    {
+      "id": "planejamento-estrategico-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Porter, a eficiência operacional:",
+      "opcoes": [
+        "É a própria estratégia da empresa",
+        "Garante vantagem competitiva permanente",
+        "Não é estratégia, pois a estratégia exige posicionamento diferente dos concorrentes",
+        "Substitui a necessidade de escolhas"
+      ],
+      "correta": 2,
+      "explicacao": "Fazer melhor o mesmo que os rivais é facilmente copiado; a estratégia exige escolhas distintas."
+    },
+    {
+      "id": "planejamento-estrategico-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Um grupo empresarial decide vender sua divisão de cosméticos e investir em alimentos. Essa decisão é de qual nível de estratégia?",
+      "opcoes": [
+        "Funcional",
+        "Operacional",
+        "Tática de marketing",
+        "Corporativa"
+      ],
+      "correta": 3,
+      "explicacao": "Decidir em quais negócios atuar é próprio da estratégia corporativa."
+    },
+    {
+      "id": "planejamento-estrategico-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Por que a gestão estratégica é considerada um processo contínuo e não apenas a elaboração de um plano?",
+      "opcoes": [
+        "Porque o ambiente muda e é preciso implementar, monitorar e revisar as estratégias constantemente",
+        "Porque o plano deve ser feito uma única vez e nunca alterado",
+        "Porque dispensa indicadores de desempenho",
+        "Porque só envolve a área financeira"
+      ],
+      "correta": 0,
+      "explicacao": "Sem acompanhamento e ajustes, o plano envelhece e perde a conexão com a realidade."
+    },
+    {
+      "id": "planejamento-estrategico-6",
+      "topico": "identidade",
+      "nivel": "conceitual",
+      "pergunta": "A declaração que expressa a razão de ser da organização, o que ela faz e para quem, é a:",
+      "opcoes": [
+        "Visão",
+        "Missão",
+        "Meta",
+        "Análise SWOT"
+      ],
+      "correta": 1,
+      "explicacao": "A missão responde por que a organização existe e tende a ser estável ao longo do tempo."
+    },
+    {
+      "id": "planejamento-estrategico-7",
+      "topico": "identidade",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre objetivo e meta?",
+      "opcoes": [
+        "O objetivo sempre tem número e prazo; a meta não",
+        "São sinônimos perfeitos",
+        "A meta é o objetivo quantificado e com prazo definido",
+        "A meta é definida só pela área operacional sem relação com objetivos"
+      ],
+      "correta": 2,
+      "explicacao": "Metas tornam os objetivos mensuráveis, permitindo acompanhar o desempenho."
+    },
+    {
+      "id": "planejamento-estrategico-8",
+      "topico": "identidade",
+      "nivel": "conceitual",
+      "pergunta": "Na ferramenta 5W2H, os dois Hs significam:",
+      "opcoes": [
+        "Quem (who) e onde (where)",
+        "Por que (why) e quando (when)",
+        "O que (what) e qual (which)",
+        "Como (how) e quanto custa (how much)"
+      ],
+      "correta": 3,
+      "explicacao": "Os 5W são o que, por que, onde, quando e quem; os 2H são como e quanto."
+    },
+    {
+      "id": "planejamento-estrategico-9",
+      "topico": "identidade",
+      "nivel": "aplicacao",
+      "pergunta": "Ser referência nacional em educação a distância até 2030 é um exemplo de:",
+      "opcoes": [
+        "Visão",
+        "Missão",
+        "Valor",
+        "Fator crítico de sucesso"
+      ],
+      "correta": 0,
+      "explicacao": "A frase descreve um estado futuro desejado com horizonte de tempo, característica da visão."
+    },
+    {
+      "id": "planejamento-estrategico-10",
+      "topico": "identidade",
+      "nivel": "analise",
+      "pergunta": "Por que a meta melhorar o atendimento é considerada mal formulada pelos critérios SMART?",
+      "opcoes": [
+        "Porque tem números demais",
+        "Porque não é específica, não tem medida nem prazo, o que impede acompanhar o resultado",
+        "Porque é ambiciosa demais",
+        "Porque menciona o cliente"
+      ],
+      "correta": 1,
+      "explicacao": "Sem indicador e sem data, não é possível saber se a meta foi ou não atingida."
+    },
+    {
+      "id": "planejamento-estrategico-11",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Na análise SWOT, oportunidades e ameaças referem-se ao:",
+      "opcoes": [
+        "Ambiente interno, que a empresa controla",
+        "Orçamento anual da empresa",
+        "Ambiente externo, que a empresa não controla",
+        "Clima organizacional"
+      ],
+      "correta": 2,
+      "explicacao": "Forças e fraquezas são internas; oportunidades e ameaças vêm do ambiente externo."
+    },
+    {
+      "id": "planejamento-estrategico-12",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "Qual destas NÃO é uma das cinco forças competitivas de Porter?",
+      "opcoes": [
+        "Ameaça de novos entrantes",
+        "Ameaça de produtos substitutos",
+        "Poder de barganha dos fornecedores",
+        "Poder de barganha dos funcionários"
+      ],
+      "correta": 3,
+      "explicacao": "As cinco forças são rivalidade, entrantes, substitutos, fornecedores e clientes; funcionários não estão na lista."
+    },
+    {
+      "id": "planejamento-estrategico-13",
+      "topico": "ambiente",
+      "nivel": "conceitual",
+      "pergunta": "No modelo VRIO, um recurso gera vantagem competitiva sustentável quando é:",
+      "opcoes": [
+        "Valioso, raro, difícil de imitar e explorado pela organização",
+        "Barato, comum e fácil de copiar",
+        "Apenas valioso",
+        "Comprado de fornecedores"
+      ],
+      "correta": 0,
+      "explicacao": "Recursos comuns ou fáceis de copiar não sustentam vantagem por muito tempo."
+    },
+    {
+      "id": "planejamento-estrategico-14",
+      "topico": "ambiente",
+      "nivel": "aplicacao",
+      "pergunta": "Uma nova lei que exige reduzir o uso de plástico nas embalagens, num estudo PESTEL, é classificada como fator:",
+      "opcoes": [
+        "Tecnológico",
+        "Legal (e também ecológico)",
+        "Social",
+        "Interno da empresa"
+      ],
+      "correta": 1,
+      "explicacao": "Normas jurídicas são fatores legais; por tratar do ambiente, o tema também é ecológico."
+    },
+    {
+      "id": "planejamento-estrategico-15",
+      "topico": "ambiente",
+      "nivel": "analise",
+      "pergunta": "Na SWOT cruzada, uma empresa com marca forte (força) diante de um mercado em expansão (oportunidade) deve adotar estratégias:",
+      "opcoes": [
+        "Defensivas, reduzindo as operações",
+        "De sobrevivência, vendendo a marca",
+        "Ofensivas, usando a força para aproveitar a oportunidade",
+        "De confronto com fornecedores"
+      ],
+      "correta": 2,
+      "explicacao": "Combinar forças internas e oportunidades externas leva a estratégias de crescimento e ataque."
+    },
+    {
+      "id": "planejamento-estrategico-16",
+      "topico": "estrategias",
+      "nivel": "conceitual",
+      "pergunta": "Na matriz BCG, o produto com alta participação em um mercado de baixo crescimento, que gera caixa para a empresa, é chamado de:",
+      "opcoes": [
+        "Estrela",
+        "Ponto de interrogação",
+        "Abacaxi",
+        "Vaca leiteira"
+      ],
+      "correta": 3,
+      "explicacao": "A vaca leiteira tem posição consolidada em mercado maduro e financia outros negócios."
+    },
+    {
+      "id": "planejamento-estrategico-17",
+      "topico": "estrategias",
+      "nivel": "conceitual",
+      "pergunta": "Na matriz de Ansoff, lançar produtos novos em mercados novos é a estratégia de:",
+      "opcoes": [
+        "Diversificação",
+        "Penetração de mercado",
+        "Desenvolvimento de mercado",
+        "Desenvolvimento de produtos"
+      ],
+      "correta": 0,
+      "explicacao": "A diversificação combina duas novidades e, por isso, é a estratégia de maior risco."
+    },
+    {
+      "id": "planejamento-estrategico-18",
+      "topico": "estrategias",
+      "nivel": "conceitual",
+      "pergunta": "A estratégia de oceano azul consiste em:",
+      "opcoes": [
+        "Competir por preço em mercados saturados",
+        "Criar um novo espaço de mercado, tornando a concorrência irrelevante",
+        "Reduzir a empresa até a liquidação",
+        "Comprar todos os concorrentes do setor"
+      ],
+      "correta": 1,
+      "explicacao": "Kim e Mauborgne propõem inovar em valor para sair da disputa sangrenta dos oceanos vermelhos."
+    },
+    {
+      "id": "planejamento-estrategico-19",
+      "topico": "estrategias",
+      "nivel": "aplicacao",
+      "pergunta": "Uma rede de supermercados compra uma transportadora para fazer a própria entrega de mercadorias aos clientes. Essa estratégia é de:",
+      "opcoes": [
+        "Integração horizontal",
+        "Integração vertical para trás",
+        "Integração vertical para frente",
+        "Desinvestimento"
+      ],
+      "correta": 2,
+      "explicacao": "Assumir etapas em direção ao cliente, como a distribuição, é integração vertical para frente."
+    },
+    {
+      "id": "planejamento-estrategico-20",
+      "topico": "estrategias",
+      "nivel": "analise",
+      "pergunta": "Por que Porter alerta para o risco de uma empresa ficar presa no meio?",
+      "opcoes": [
+        "Porque o meio do mercado é sempre o mais lucrativo",
+        "Porque toda empresa deve adotar as três estratégias ao mesmo tempo",
+        "Porque o enfoque é proibido em mercados grandes",
+        "Porque, sem custo mais baixo nem diferenciação clara, ela perde para os líderes de cada estratégia"
+      ],
+      "correta": 3,
+      "explicacao": "Sem posicionamento definido, a empresa não tem argumento competitivo e tende a ter baixa rentabilidade."
+    },
+    {
+      "id": "planejamento-estrategico-21",
+      "topico": "execucao",
+      "nivel": "conceitual",
+      "pergunta": "Quais são as quatro perspectivas do Balanced Scorecard?",
+      "opcoes": [
+        "Financeira, clientes, processos internos e aprendizado e crescimento",
+        "Forças, fraquezas, oportunidades e ameaças",
+        "Produto, preço, praça e promoção",
+        "Planejar, executar, verificar e agir"
+      ],
+      "correta": 0,
+      "explicacao": "Kaplan e Norton equilibraram a visão financeira com perspectivas não financeiras."
+    },
+    {
+      "id": "planejamento-estrategico-22",
+      "topico": "execucao",
+      "nivel": "conceitual",
+      "pergunta": "No BSC, o mapa estratégico serve para:",
+      "opcoes": [
+        "Desenhar o organograma da empresa",
+        "Mostrar as relações de causa e efeito entre os objetivos das perspectivas",
+        "Listar os fornecedores",
+        "Calcular o ponto de equilíbrio"
+      ],
+      "correta": 1,
+      "explicacao": "O mapa conecta, por exemplo, capacitação de pessoas a melhoria de processos e a resultados."
+    },
+    {
+      "id": "planejamento-estrategico-23",
+      "topico": "execucao",
+      "nivel": "conceitual",
+      "pergunta": "Nos OKRs, os resultados-chave devem ser:",
+      "opcoes": [
+        "Frases inspiradoras sem números",
+        "Tarefas do dia a dia sem prazo",
+        "Medidas quantitativas que mostram se o objetivo foi atingido",
+        "Valores éticos da empresa"
+      ],
+      "correta": 2,
+      "explicacao": "O objetivo inspira; os resultados-chave medem o avanço de forma objetiva."
+    },
+    {
+      "id": "planejamento-estrategico-24",
+      "topico": "execucao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa mede o número de horas de treinamento por funcionário. No BSC, esse indicador pertence à perspectiva:",
+      "opcoes": [
+        "Financeira",
+        "Clientes",
+        "Processos internos",
+        "Aprendizado e crescimento"
+      ],
+      "correta": 3,
+      "explicacao": "Capacitação de pessoas é base da perspectiva de aprendizado e crescimento."
+    },
+    {
+      "id": "planejamento-estrategico-25",
+      "topico": "execucao",
+      "nivel": "analise",
+      "pergunta": "Por que o BSC combina indicadores financeiros e não financeiros?",
+      "opcoes": [
+        "Porque os financeiros mostram o passado, e os não financeiros sinalizam o desempenho futuro",
+        "Porque indicadores financeiros são proibidos",
+        "Porque os não financeiros substituem o lucro",
+        "Porque reduz o número de indicadores a um só"
+      ],
+      "correta": 0,
+      "explicacao": "Indicadores de tendência permitem agir antes de o problema aparecer no resultado financeiro."
+    },
+    {
+      "id": "planejamento-estrategico-26",
+      "topico": "publico",
+      "nivel": "conceitual",
+      "pergunta": "O Plano Plurianual (PPA) tem vigência de:",
+      "opcoes": [
+        "Um ano, coincidente com o exercício financeiro",
+        "Quatro anos, do segundo ano de um mandato ao primeiro do seguinte",
+        "Oito anos, igual a dois mandatos",
+        "Dez anos, como o Plano Nacional de Educação"
+      ],
+      "correta": 1,
+      "explicacao": "O PPA estabelece objetivos e metas de médio prazo e atravessa a troca de governo."
+    },
+    {
+      "id": "planejamento-estrategico-27",
+      "topico": "publico",
+      "nivel": "conceitual",
+      "pergunta": "No Planejamento Estratégico Situacional, de Carlos Matus, o triângulo de governo é formado por:",
+      "opcoes": [
+        "Missão, visão e valores",
+        "Custo, prazo e qualidade",
+        "Projeto de governo, governabilidade e capacidade de governo",
+        "Receita, despesa e resultado"
+      ],
+      "correta": 2,
+      "explicacao": "Matus mostra que governar depende do projeto, do controle sobre os recursos e da competência para conduzir."
+    },
+    {
+      "id": "planejamento-estrategico-28",
+      "topico": "publico",
+      "nivel": "conceitual",
+      "pergunta": "A lei que define as metas e prioridades da administração e orienta a elaboração do orçamento anual é a:",
+      "opcoes": [
+        "Lei Orçamentária Anual (LOA)",
+        "Lei de Licitações",
+        "Lei de Acesso à Informação",
+        "Lei de Diretrizes Orçamentárias (LDO)"
+      ],
+      "correta": 3,
+      "explicacao": "A LDO faz a ponte entre o planejamento do PPA e o orçamento anual da LOA."
+    },
+    {
+      "id": "planejamento-estrategico-29",
+      "topico": "publico",
+      "nivel": "aplicacao",
+      "pergunta": "Um município quer usar o Balanced Scorecard. Que adaptação costuma ser feita?",
+      "opcoes": [
+        "Colocar a sociedade ou o valor público no topo do mapa, no lugar da perspectiva financeira",
+        "Eliminar todos os indicadores de processos",
+        "Substituir os cidadãos por acionistas",
+        "Usar apenas indicadores de lucro"
+      ],
+      "correta": 0,
+      "explicacao": "No setor público o fim é o interesse público, e as finanças são um meio para gerá-lo."
+    },
+    {
+      "id": "planejamento-estrategico-30",
+      "topico": "publico",
+      "nivel": "analise",
+      "pergunta": "Qual é a crítica de Matus ao planejamento normativo tradicional?",
+      "opcoes": [
+        "Ele dá importância demais aos atores políticos",
+        "Ele supõe um planejador externo e um único ator, ignorando conflitos e incertezas da realidade social",
+        "Ele não utiliza nenhum tipo de diagnóstico",
+        "Ele é usado apenas por empresas privadas"
+      ],
+      "correta": 1,
+      "explicacao": "Para Matus, quem planeja disputa a realidade com outros atores e precisa de estratégias, não só de normas."
+    }
+  ]
+}

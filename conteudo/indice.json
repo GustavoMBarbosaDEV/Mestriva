@@ -2113,6 +2113,52 @@
       ]
     },
     {
+      "id": "empreendedorismo",
+      "nome": "Empreendedorismo",
+      "apelidos": [
+        "Empreendedorismo I",
+        "Empreendedorismo II",
+        "Empreendedorismo e Inovação",
+        "Inovação e Empreendedorismo",
+        "Empreendedorismo e Plano de Negócios",
+        "Plano de Negócios",
+        "Gestão de Pequenas Empresas",
+        "Gestão de Micro e Pequenas Empresas",
+        "Empreendedorismo e Novos Negócios",
+        "Criação de Novos Negócios",
+        "Gestão da Inovação",
+        "Inovação",
+        "Empreendedorismo Digital"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "O que é empreender"
+        },
+        {
+          "id": "oportunidades",
+          "nome": "Ideias, oportunidades e inovação"
+        },
+        {
+          "id": "plano",
+          "nome": "Plano de negócios"
+        },
+        {
+          "id": "modelos",
+          "nome": "Modelos de negócio, startups e validação"
+        },
+        {
+          "id": "formalizacao",
+          "nome": "Formalização e pequenas empresas"
+        },
+        {
+          "id": "gestao",
+          "nome": "Gestão do pequeno negócio e marketing"
+        }
+      ]
+    },
+    {
       "id": "engenharia-software",
       "nome": "Engenharia de Software",
       "apelidos": [
@@ -4006,6 +4052,50 @@
         {
           "id": "carcinogenese",
           "nome": "Carcinogênese e bases moleculares do câncer"
+        }
+      ]
+    },
+    {
+      "id": "planejamento-estrategico",
+      "nome": "Planejamento Estratégico",
+      "apelidos": [
+        "Planejamento Estratégico I",
+        "Planejamento Estratégico II",
+        "Administração Estratégica",
+        "Gestão Estratégica",
+        "Estratégia Empresarial",
+        "Estratégia Organizacional",
+        "Estratégia Competitiva",
+        "Planejamento Empresarial",
+        "Planejamento e Estratégia Empresarial",
+        "Administração Estratégica e Planejamento",
+        "Estratégia"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Estratégia e níveis de planejamento"
+        },
+        {
+          "id": "identidade",
+          "nome": "Missão, visão, valores e objetivos"
+        },
+        {
+          "id": "ambiente",
+          "nome": "Análise do ambiente"
+        },
+        {
+          "id": "estrategias",
+          "nome": "Estratégias competitivas e de crescimento"
+        },
+        {
+          "id": "execucao",
+          "nome": "Implementação e controle: BSC e OKRs"
+        },
+        {
+          "id": "publico",
+          "nome": "Planejamento no setor público"
         }
       ]
     },

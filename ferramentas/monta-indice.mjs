@@ -1918,6 +1918,42 @@ export const EXTRA = {
       "Direito Internacional Público e Privado",
       "Direito Internacional Público I",
     ]
+  },
+  "planejamento-estrategico": {
+    "area": "Negócios",
+    "apelidos": [
+      "Planejamento Estratégico",
+      "Planejamento Estratégico I",
+      "Planejamento Estratégico II",
+      "Administração Estratégica",
+      "Gestão Estratégica",
+      "Estratégia Empresarial",
+      "Estratégia Organizacional",
+      "Estratégia Competitiva",
+      "Planejamento Empresarial",
+      "Planejamento e Estratégia Empresarial",
+      "Administração Estratégica e Planejamento",
+      "Estratégia"
+    ]
+  },
+  "empreendedorismo": {
+    "area": "Negócios",
+    "apelidos": [
+      "Empreendedorismo",
+      "Empreendedorismo I",
+      "Empreendedorismo II",
+      "Empreendedorismo e Inovação",
+      "Inovação e Empreendedorismo",
+      "Empreendedorismo e Plano de Negócios",
+      "Plano de Negócios",
+      "Gestão de Pequenas Empresas",
+      "Gestão de Micro e Pequenas Empresas",
+      "Empreendedorismo e Novos Negócios",
+      "Criação de Novos Negócios",
+      "Gestão da Inovação",
+      "Inovação",
+      "Empreendedorismo Digital"
+    ]
   }
 };
 

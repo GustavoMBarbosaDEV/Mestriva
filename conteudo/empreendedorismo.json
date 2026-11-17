@@ -1,0 +1,465 @@
+{
+  "id": "empreendedorismo",
+  "nome": "Empreendedorismo",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "O que é empreender",
+      "resumo": "### Conceitos clássicos\n- **Joseph Schumpeter**: o empreendedor é o agente da **inovação** que provoca a \"**destruição criativa**\", substituindo produtos, processos e modelos antigos por novos.\n- **Peter Drucker** (*Inovação e espírito empreendedor*, 1985): o empreendedor **busca a mudança**, reage a ela e a **explora como oportunidade**; a inovação é o instrumento específico do empreendedorismo e pode ser **sistematizada**.\n- **Jean-Baptiste Say**: o empreendedor transfere recursos de áreas de baixa para áreas de **maior produtividade**.\n- **Richard Cantillon**: quem assume **riscos** comprando a um preço certo para vender a um preço incerto.\n- **José Dornelas** (Brasil): empreender é **identificar oportunidades** e transformá-las em negócios, assumindo riscos calculados.\n\n### Tipos de empreendedorismo\n- **Por oportunidade**: a pessoa identifica uma chance de mercado e decide empreender.\n- **Por necessidade**: empreende por falta de alternativa de trabalho e renda. O **GEM** (*Global Entrepreneurship Monitor*) acompanha essa proporção no Brasil, onde a necessidade pesa bastante.\n- **Intraempreendedorismo** (*intrapreneurship*, Gifford Pinchot): empreender **dentro** de uma organização já existente, como funcionário.\n- **Empreendedorismo social**: o objetivo principal é gerar **impacto social ou ambiental**, com sustentabilidade financeira (negócios de impacto).\n- **Empreendedorismo corporativo**, **digital**, **feminino**, **de base tecnológica**.\n\n### Características do empreendedor (McClelland e Sebrae/Empretec)\n**David McClelland** destacou a **necessidade de realização**. O programa **Empretec** (ONU/Sebrae) trabalha **10 características comportamentais**, como:\n- busca de **oportunidades** e iniciativa;\n- **persistência**;\n- **comprometimento**;\n- exigência de **qualidade e eficiência**;\n- correr **riscos calculados**;\n- estabelecimento de **metas**;\n- busca de **informações**;\n- **planejamento** e monitoramento sistemáticos;\n- **persuasão** e rede de contatos;\n- **independência** e **autoconfiança**.\n\n### Mitos\n\"Empreendedor nasce pronto\", \"basta ter uma boa ideia\", \"precisa de muito dinheiro\", \"empreendedor gosta de risco alto\". Comportamentos empreendedores **podem ser aprendidos**, e o risco buscado é **calculado**.",
+      "revisao": "**Lembre:** Schumpeter: inovação e destruição criativa. Drucker: empreendedor explora a mudança como oportunidade. Oportunidade x necessidade (GEM). Intraempreendedor empreende dentro da empresa. Riscos calculados e comportamentos que se aprendem (Empretec)."
+    },
+    {
+      "id": "oportunidades",
+      "nome": "Ideias, oportunidades e inovação",
+      "resumo": "### Ideia x oportunidade\n- **Ideia**: algo que se imagina; pode não ter mercado.\n- **Oportunidade**: ideia com **mercado** (pessoas dispostas a pagar), **viabilidade** e **momento** adequado.\nDornelas propõe avaliar com o **3M**: **demanda de Mercado**, **tamanho e estrutura do Mercado** e **análise de Margem**.\n\n### Fontes de oportunidades (Drucker, sete fontes de inovação)\nInternas: o **inesperado**, a **incongruência**, a **necessidade de processo**, mudanças na **estrutura do setor**. Externas: mudanças **demográficas**, mudanças de **percepção** e **novos conhecimentos**.\n\n### Inovação\n- **Manual de Oslo** (OCDE): implementação de um produto ou processo **novo ou significativamente melhorado**, disponibilizado aos usuários ou colocado em uso.\n- **Tipos**: de **produto** (bem ou serviço) e de **processo de negócio** (produção, marketing, organização, logística).\n- **Grau**: **incremental** (melhorias contínuas) e **radical** (ruptura).\n- **Inovação disruptiva** (Clayton **Christensen**): começa atendendo segmentos **ignorados** ou de baixo custo com um produto mais simples e barato e, aos poucos, desloca os líderes.\n- **Inovação aberta** (Henry **Chesbrough**): usar ideias **externas** (universidades, startups, clientes) e internas.\n\n### Criatividade e ferramentas\n- *Brainstorming* (sem críticas na geração de ideias).\n- **Design thinking**: **empatia** com o usuário, **definição** do problema, **ideação**, **prototipagem** e **teste**.\n- Mapa de empatia, SCAMPER, entrevistas com clientes.\n\n### Proteção\n**Marcas e patentes** no **INPI**; patente de invenção vale **20 anos** e de modelo de utilidade **15 anos**, contados do depósito (Lei 9.279/1996).",
+      "revisao": "**Lembre:** oportunidade = ideia com mercado, viabilidade e momento (3M de Dornelas). Inovação incremental x radical; disruptiva (Christensen) começa por baixo; aberta (Chesbrough) usa ideias de fora. Design thinking: empatia, definição, ideação, protótipo e teste."
+    },
+    {
+      "id": "plano",
+      "nome": "Plano de negócios",
+      "resumo": "### O que é\nDocumento que descreve o negócio, o mercado, as estratégias e as **projeções financeiras**. Serve para **planejar**, reduzir riscos, orientar decisões e **captar recursos** (bancos, investidores, sócios).\n\n### Estrutura comum (modelo Sebrae)\n1. **Sumário executivo**: resumo do plano (escrito por **último**, lido **primeiro**).\n2. **Análise de mercado**: clientes (segmentação), concorrentes e fornecedores.\n3. **Plano de marketing**: produtos e serviços, **preço**, estratégias promocionais, estrutura de comercialização, localização (4 Ps).\n4. **Plano operacional**: *layout*, capacidade produtiva, processos, pessoal.\n5. **Plano financeiro**: investimentos, custos, receitas, **fluxo de caixa**, indicadores.\n6. **Construção de cenários** e **avaliação estratégica** (SWOT).\n\n### Investimento inicial\n- **Investimentos fixos**: máquinas, equipamentos, móveis, veículos.\n- **Capital de giro**: dinheiro para manter a operação (estoques, prazos de recebimento, despesas) até o negócio se pagar.\n- **Investimentos pré-operacionais**: reforma, registro, divulgação inicial.\n\n### Indicadores de viabilidade\n- **Ponto de equilíbrio**: receita em que não há lucro nem prejuízo. PE (em valor) = **custos fixos ÷ índice de margem de contribuição**.\n- **Lucratividade**: lucro líquido ÷ receita total.\n- **Rentabilidade**: lucro líquido ÷ investimento total (retorno sobre o investimento).\n- **Prazo de retorno do investimento** (*payback*): investimento total ÷ lucro líquido (em meses ou anos).\n- **VPL** e **TIR** (análises com valor do dinheiro no tempo).\n\n### Margem de contribuição\nPreço de venda − custos e despesas **variáveis**. É o quanto cada venda contribui para pagar os custos **fixos** e gerar lucro.\n\n### Fluxo de caixa\nRegistro das **entradas e saídas** de dinheiro ao longo do tempo. Um negócio pode dar **lucro** e mesmo assim **quebrar por falta de caixa**.",
+      "revisao": "**Lembre:** plano de negócios: sumário executivo, mercado, marketing, operacional, financeiro e cenários. Investimento = fixo + capital de giro + pré-operacional. PE = custos fixos ÷ índice de margem de contribuição. Lucratividade (sobre receita), rentabilidade (sobre investimento) e payback."
+    },
+    {
+      "id": "modelos",
+      "nome": "Modelos de negócio, startups e validação",
+      "resumo": "### Business Model Canvas (Osterwalder e Pigneur)\nQuadro com **9 blocos** que descrevem como a empresa cria, entrega e captura valor:\n1. **Segmentos de clientes**;\n2. **Proposta de valor**;\n3. **Canais**;\n4. **Relacionamento com clientes**;\n5. **Fontes de receita**;\n6. **Recursos principais**;\n7. **Atividades principais**;\n8. **Parcerias principais**;\n9. **Estrutura de custos**.\nO lado **direito** trata do valor e do cliente; o **esquerdo**, da eficiência e dos custos.\n\n### Startup\nSegundo **Steve Blank**, organização **temporária** em busca de um **modelo de negócio repetível e escalável**. Segundo **Eric Ries**, instituição humana que cria produtos ou serviços em condições de **extrema incerteza**.\n- No Brasil, o **Marco Legal das Startups** (**LC 182/2021**) define critérios (receita bruta até **R$ 16 milhões** no ano anterior, até **10 anos** de inscrição no CNPJ, uso de modelos inovadores), cria o **sandbox regulatório** e regula o **investidor-anjo** (que não responde por dívidas da empresa nem é sócio).\n\n### Lean Startup (Eric Ries)\n- Ciclo **construir → medir → aprender**.\n- **MVP** (produto mínimo viável): versão mais simples que permite **testar hipóteses** com clientes reais, com o mínimo de esforço.\n- **Pivotar**: mudar de rumo (cliente, problema, solução, modelo) quando a hipótese não se confirma; **perseverar** quando se confirma.\n- **Métricas acionáveis** x **métricas de vaidade** (números que impressionam, mas não orientam decisões).\n- **Desenvolvimento de clientes** (Steve Blank): **sair do escritório** e conversar com clientes.\n\n### Escalabilidade\nCapacidade de **aumentar a receita** sem que os custos cresçam na mesma proporção (comum em software e plataformas digitais).\n\n### Fontes de financiamento\n**Recursos próprios** (*bootstrapping*), família e amigos, **investidor-anjo**, **aceleradoras**, **incubadoras**, **capital semente**, ***venture capital*** (capital de risco), ***private equity***, **crowdfunding** (coletivo), bancos de fomento (BNDES), subvenções (Finep), editais.",
+      "revisao": "**Lembre:** Canvas: 9 blocos, com proposta de valor no centro. Startup busca modelo repetível e escalável sob extrema incerteza. Lean: construir, medir, aprender; MVP testa hipóteses; pivotar é mudar de rumo. Marco Legal das Startups: LC 182/2021."
+    },
+    {
+      "id": "formalizacao",
+      "nome": "Formalização e pequenas empresas",
+      "resumo": "### Portes (LC 123/2006, Estatuto da Microempresa)\n| Porte | Receita bruta anual |\n|---|---|\n| **MEI** (microempreendedor individual) | Até **R$ 81 mil** |\n| **ME** (microempresa) | Até **R$ 360 mil** |\n| **EPP** (empresa de pequeno porte) | Acima de R$ 360 mil até **R$ 4,8 milhões** |\n\n### MEI\n- Trabalha por conta própria, com até **1 empregado** (que recebe salário mínimo ou piso da categoria).\n- **Não pode** ter participação em outra empresa como sócio ou titular.\n- Atividades permitidas em lista oficial (profissões regulamentadas como advogado e médico não podem ser MEI).\n- Paga um valor **fixo mensal** pelo **DAS** (contribuição ao INSS de 5% do salário mínimo + ISS e/ou ICMS fixos).\n- Tem **CNPJ**, pode emitir nota fiscal e tem cobertura previdenciária (aposentadoria por idade, auxílios, salário-maternidade).\n\n### Simples Nacional\nRegime tributário **simplificado** e **unificado** para ME e EPP: recolhe vários tributos (IRPJ, CSLL, PIS, Cofins, IPI, ICMS, ISS e contribuição patronal) numa **guia única** (DAS), com alíquotas por **anexos** e faixas de receita. Algumas atividades são vedadas.\n\n### Natureza jurídica\n- **Empresário individual**: responde com o patrimônio pessoal.\n- **Sociedade limitada (Ltda.)**: a responsabilidade dos sócios é limitada ao valor de suas quotas (após a integralização do capital). Desde a Lei 13.874/2019, pode ser **unipessoal** (um único sócio).\n- A **EIRELI** foi extinta e transformada em sociedade limitada unipessoal (Lei 14.195/2021).\n- **Sociedade anônima (S.A.)**: capital dividido em ações.\n\n### Tratamento favorecido\nA Constituição (arts. 170, IX, e 179) garante **tratamento diferenciado** às micro e pequenas empresas: simplificação, acesso a crédito, preferência em **licitações** (desempate a favor de ME e EPP e licitações exclusivas até R$ 80 mil).\n\n### Apoio\n**Sebrae**, incubadoras, aceleradoras, parques tecnológicos, agências de fomento e **Redesim** (abertura e baixa simplificadas).\n\n### Mortalidade\nPrincipais causas de fechamento: **falta de planejamento**, gestão deficiente, falta de **capital de giro**, desconhecimento do mercado e do cliente.",
+      "revisao": "**Lembre:** MEI até R$ 81 mil, com 1 empregado e DAS fixo; ME até R$ 360 mil; EPP até R$ 4,8 milhões. Simples Nacional unifica tributos numa guia. Ltda. limita a responsabilidade às quotas e pode ser unipessoal. Principal causa de fechamento: falta de planejamento."
+    },
+    {
+      "id": "gestao",
+      "nome": "Gestão do pequeno negócio e marketing",
+      "resumo": "### Precificação\n- **Markup**: índice aplicado sobre o **custo** para formar o preço. Markup divisor = 1 − (soma dos percentuais de despesas variáveis, impostos e lucro desejado); preço = custo ÷ markup divisor.\n- Considerar também o **valor percebido** pelo cliente e os **preços da concorrência**.\n\n### Gestão financeira\n- **Separar as finanças pessoais das da empresa**: definir um **pró-labore** (remuneração do sócio).\n- Controle de **fluxo de caixa**, **contas a pagar e a receber** e **estoques**.\n- **Capital de giro** e **ciclo financeiro** (prazo médio de estoque + prazo médio de recebimento − prazo médio de pagamento).\n\n### Marketing para pequenos negócios\n- **Público-alvo** e **persona** (perfil semifictício do cliente ideal).\n- **Composto de marketing (4 Ps)**: produto, preço, praça e promoção.\n- **Marketing digital**: redes sociais, conteúdo, Google Meu Negócio, WhatsApp Business, SEO.\n- **Funil de vendas**: atração → interesse → decisão → compra → fidelização.\n- **Fidelização**: é mais barato manter um cliente do que conquistar um novo; programas de fidelidade, pós-venda.\n- **Proposta única de valor**: por que o cliente compraria de você.\n\n### Indicadores para startups\n- **CAC** (custo de aquisição de cliente) e **LTV** (*lifetime value*, valor do cliente ao longo do relacionamento). Saudável quando **LTV é bem maior que o CAC**.\n- **Churn**: taxa de cancelamento de clientes.\n- **MRR**: receita recorrente mensal.\n\n### Ética e responsabilidade\nCumprimento das leis (tributárias, trabalhistas, **Código de Defesa do Consumidor**, **LGPD**), sustentabilidade, relação justa com funcionários e fornecedores.\n\n### Franquias (Lei 13.966/2019)\nO **franqueador** cede ao **franqueado** o uso de **marca**, **know-how** e sistema de negócio, mediante pagamento (taxa inicial, **royalties**, fundo de propaganda). A **Circular de Oferta de Franquia (COF)** deve ser entregue pelo menos **10 dias** antes da assinatura do contrato ou do pagamento de qualquer taxa.",
+      "revisao": "**Lembre:** separe finanças pessoais e da empresa (pró-labore). Preço = custo ÷ markup divisor, conferindo valor percebido e concorrência. Startups: LTV bem maior que o CAC; churn é cancelamento. Franquia: COF entregue 10 dias antes de assinar ou pagar."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "empreendedorismo-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de destruição criativa, em que inovações substituem produtos e modelos antigos, é associado a:",
+      "opcoes": [
+        "Joseph Schumpeter",
+        "Peter Drucker",
+        "Frederick Taylor",
+        "Michael Porter"
+      ],
+      "correta": 0,
+      "explicacao": "Schumpeter via o empreendedor inovador como motor das transformações do capitalismo."
+    },
+    {
+      "id": "empreendedorismo-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O funcionário que desenvolve novos projetos e negócios dentro da própria empresa em que trabalha é chamado de:",
+      "opcoes": [
+        "Empreendedor por necessidade",
+        "Intraempreendedor",
+        "Investidor-anjo",
+        "Franqueado"
+      ],
+      "correta": 1,
+      "explicacao": "O intraempreendedor aplica comportamentos empreendedores dentro de uma organização existente."
+    },
+    {
+      "id": "empreendedorismo-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Em relação ao risco, o comportamento típico do empreendedor é:",
+      "opcoes": [
+        "Buscar sempre os maiores riscos possíveis",
+        "Evitar qualquer tipo de risco",
+        "Correr riscos calculados, avaliando alternativas e reduzindo incertezas",
+        "Delegar todos os riscos ao governo"
+      ],
+      "correta": 2,
+      "explicacao": "O empreendedor de sucesso assume riscos moderados e procura controlá-los com informação e planejamento."
+    },
+    {
+      "id": "empreendedorismo-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Após ser demitida e sem encontrar emprego, uma pessoa abre um pequeno negócio de marmitas para sustentar a família. Esse é um caso de empreendedorismo:",
+      "opcoes": [
+        "Por oportunidade",
+        "Corporativo",
+        "De base tecnológica",
+        "Por necessidade"
+      ],
+      "correta": 3,
+      "explicacao": "Empreender por falta de alternativa de renda caracteriza o empreendedorismo por necessidade."
+    },
+    {
+      "id": "empreendedorismo-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Por que a ideia de que o empreendedor nasce pronto é considerada um mito?",
+      "opcoes": [
+        "Porque comportamentos empreendedores podem ser desenvolvidos por formação, prática e experiência",
+        "Porque só herdeiros podem empreender",
+        "Porque empreender não exige nenhuma habilidade",
+        "Porque todas as pessoas já nascem empreendedoras"
+      ],
+      "correta": 0,
+      "explicacao": "Programas como o Empretec mostram que características como planejamento e persistência podem ser treinadas."
+    },
+    {
+      "id": "empreendedorismo-6",
+      "topico": "oportunidades",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a diferença entre ideia e oportunidade de negócio?",
+      "opcoes": [
+        "A ideia sempre gera lucro; a oportunidade não",
+        "A oportunidade é uma ideia que tem mercado, viabilidade e momento adequado",
+        "São sinônimos",
+        "A oportunidade dispensa clientes"
+      ],
+      "correta": 1,
+      "explicacao": "Nem toda boa ideia vira negócio: é preciso haver demanda e viabilidade econômica."
+    },
+    {
+      "id": "empreendedorismo-7",
+      "topico": "oportunidades",
+      "nivel": "conceitual",
+      "pergunta": "A inovação que começa atendendo clientes ignorados com um produto mais simples e barato e acaba deslocando os líderes é chamada de:",
+      "opcoes": [
+        "Incremental",
+        "Fechada",
+        "Disruptiva",
+        "Defensiva"
+      ],
+      "correta": 2,
+      "explicacao": "Clayton Christensen descreveu como entrantes simples superam líderes focados nos clientes mais exigentes."
+    },
+    {
+      "id": "empreendedorismo-8",
+      "topico": "oportunidades",
+      "nivel": "conceitual",
+      "pergunta": "A primeira etapa do design thinking, que busca compreender profundamente o usuário, é a:",
+      "opcoes": [
+        "Prototipagem",
+        "Teste",
+        "Precificação",
+        "Empatia"
+      ],
+      "correta": 3,
+      "explicacao": "O processo começa entendendo as necessidades reais das pessoas antes de propor soluções."
+    },
+    {
+      "id": "empreendedorismo-9",
+      "topico": "oportunidades",
+      "nivel": "aplicacao",
+      "pergunta": "Uma montadora passa a buscar soluções de startups e universidades por meio de desafios e parcerias. Essa prática é chamada de:",
+      "opcoes": [
+        "Inovação aberta",
+        "Inovação incremental fechada",
+        "Integração horizontal",
+        "Destruição criativa interna"
+      ],
+      "correta": 0,
+      "explicacao": "Chesbrough chamou de inovação aberta o uso combinado de fontes internas e externas de ideias."
+    },
+    {
+      "id": "empreendedorismo-10",
+      "topico": "oportunidades",
+      "nivel": "analise",
+      "pergunta": "Por que uma empresa que lança a cada ano um celular um pouco mais rápido faz inovação incremental?",
+      "opcoes": [
+        "Porque cria um mercado totalmente novo",
+        "Porque melhora gradualmente um produto existente, sem romper com o modelo atual",
+        "Porque atende só clientes ignorados",
+        "Porque abandona o produto anterior"
+      ],
+      "correta": 1,
+      "explicacao": "Melhorias contínuas em produtos existentes caracterizam a inovação incremental."
+    },
+    {
+      "id": "empreendedorismo-11",
+      "topico": "plano",
+      "nivel": "conceitual",
+      "pergunta": "Qual parte do plano de negócios deve ser escrita por último, embora venha no início do documento?",
+      "opcoes": [
+        "Plano financeiro",
+        "Análise de mercado",
+        "Sumário executivo",
+        "Plano operacional"
+      ],
+      "correta": 2,
+      "explicacao": "O sumário resume todo o plano, por isso só pode ser escrito depois das outras partes."
+    },
+    {
+      "id": "empreendedorismo-12",
+      "topico": "plano",
+      "nivel": "conceitual",
+      "pergunta": "A margem de contribuição unitária é calculada como:",
+      "opcoes": [
+        "Preço de venda menos custos fixos",
+        "Lucro líquido dividido pelo investimento",
+        "Receita total menos impostos sobre o lucro",
+        "Preço de venda menos custos e despesas variáveis"
+      ],
+      "correta": 3,
+      "explicacao": "Ela mostra quanto cada unidade vendida contribui para cobrir os custos fixos e gerar lucro."
+    },
+    {
+      "id": "empreendedorismo-13",
+      "topico": "plano",
+      "nivel": "conceitual",
+      "pergunta": "O indicador que relaciona o lucro líquido ao investimento total é a:",
+      "opcoes": [
+        "Rentabilidade",
+        "Lucratividade",
+        "Margem de contribuição",
+        "Capacidade produtiva"
+      ],
+      "correta": 0,
+      "explicacao": "A rentabilidade mostra o retorno que o investimento proporciona aos donos do negócio."
+    },
+    {
+      "id": "empreendedorismo-14",
+      "topico": "plano",
+      "nivel": "aplicacao",
+      "pergunta": "Uma loja tem custos fixos de R$ 10.000 por mês e índice de margem de contribuição de 40%. Qual é o ponto de equilíbrio em faturamento mensal?",
+      "opcoes": [
+        "R$ 4.000",
+        "R$ 25.000",
+        "R$ 14.000",
+        "R$ 40.000"
+      ],
+      "correta": 1,
+      "explicacao": "O ponto de equilíbrio é 10.000 dividido por 0,40, o que resulta em R$ 25.000 de faturamento."
+    },
+    {
+      "id": "empreendedorismo-15",
+      "topico": "plano",
+      "nivel": "analise",
+      "pergunta": "Por que uma empresa lucrativa pode quebrar por falta de capital de giro?",
+      "opcoes": [
+        "Porque o lucro sempre é igual ao caixa disponível",
+        "Porque capital de giro só importa para empresas com prejuízo",
+        "Porque o lucro contábil não garante dinheiro em caixa no momento de pagar as contas, se as vendas forem recebidas a prazo",
+        "Porque o fluxo de caixa não registra saídas"
+      ],
+      "correta": 2,
+      "explicacao": "Prazos longos de recebimento e estoques altos prendem o dinheiro, mesmo com vendas lucrativas."
+    },
+    {
+      "id": "empreendedorismo-16",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "No Business Model Canvas, o bloco que descreve o valor que a empresa entrega para resolver o problema do cliente é:",
+      "opcoes": [
+        "Estrutura de custos",
+        "Parcerias principais",
+        "Recursos principais",
+        "Proposta de valor"
+      ],
+      "correta": 3,
+      "explicacao": "A proposta de valor é o centro do Canvas e explica por que o cliente escolheria a empresa."
+    },
+    {
+      "id": "empreendedorismo-17",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "Na metodologia Lean Startup, o MVP é:",
+      "opcoes": [
+        "A versão mais simples do produto capaz de testar hipóteses com clientes reais",
+        "A versão final e completa do produto",
+        "O plano financeiro de cinco anos",
+        "O nome dado ao primeiro investidor"
+      ],
+      "correta": 0,
+      "explicacao": "O MVP acelera o aprendizado com o mínimo de esforço antes de investir pesado."
+    },
+    {
+      "id": "empreendedorismo-18",
+      "topico": "modelos",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, o Marco Legal das Startups foi instituído pela:",
+      "opcoes": [
+        "Lei 6.404/1976",
+        "Lei Complementar 182/2021",
+        "Lei Complementar 123/2006",
+        "Lei 13.874/2019"
+      ],
+      "correta": 1,
+      "explicacao": "A LC 182/2021 define startups, cria o sandbox regulatório e protege o investidor-anjo."
+    },
+    {
+      "id": "empreendedorismo-19",
+      "topico": "modelos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma startup lançou um aplicativo para estudantes, mas descobre que quem paga pelo serviço são as escolas. Ela muda o foco para vender às escolas. Essa mudança é chamada de:",
+      "opcoes": [
+        "Perseverar",
+        "Escalar",
+        "Pivotar",
+        "Incubar"
+      ],
+      "correta": 2,
+      "explicacao": "Pivotar é mudar um elemento fundamental do modelo quando as hipóteses iniciais não se confirmam."
+    },
+    {
+      "id": "empreendedorismo-20",
+      "topico": "modelos",
+      "nivel": "analise",
+      "pergunta": "Por que o número de downloads de um aplicativo pode ser considerado uma métrica de vaidade?",
+      "opcoes": [
+        "Porque é impossível de medir",
+        "Porque é a única métrica que importa",
+        "Porque sempre indica lucro garantido",
+        "Porque impressiona, mas não mostra se os usuários usam, pagam ou permanecem, e não orienta decisões"
+      ],
+      "correta": 3,
+      "explicacao": "Métricas acionáveis, como retenção e conversão, mostram causa e efeito e ajudam a decidir."
+    },
+    {
+      "id": "empreendedorismo-21",
+      "topico": "formalizacao",
+      "nivel": "conceitual",
+      "pergunta": "O microempreendedor individual (MEI) pode faturar por ano até:",
+      "opcoes": [
+        "R$ 81 mil",
+        "R$ 360 mil",
+        "R$ 4,8 milhões",
+        "R$ 16 milhões"
+      ],
+      "correta": 0,
+      "explicacao": "O limite anual do MEI é R$ 81 mil, enquanto a ME vai até R$ 360 mil."
+    },
+    {
+      "id": "empreendedorismo-22",
+      "topico": "formalizacao",
+      "nivel": "conceitual",
+      "pergunta": "Quantos empregados o MEI pode contratar?",
+      "opcoes": [
+        "Nenhum",
+        "Um",
+        "Cinco",
+        "Dez"
+      ],
+      "correta": 1,
+      "explicacao": "O MEI pode ter um único empregado, que recebe salário mínimo ou o piso da categoria."
+    },
+    {
+      "id": "empreendedorismo-23",
+      "topico": "formalizacao",
+      "nivel": "conceitual",
+      "pergunta": "Na sociedade limitada, a responsabilidade dos sócios é:",
+      "opcoes": [
+        "Ilimitada sobre todo o patrimônio pessoal em qualquer caso",
+        "Inexistente, mesmo com capital não integralizado",
+        "Limitada ao valor de suas quotas, e todos respondem solidariamente pela integralização do capital",
+        "Igual à do empresário individual"
+      ],
+      "correta": 2,
+      "explicacao": "A limitação protege o patrimônio pessoal, desde que o capital social esteja integralizado."
+    },
+    {
+      "id": "empreendedorismo-24",
+      "topico": "formalizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa fatura R$ 1,2 milhão por ano. Pelo critério de receita da LC 123/2006, ela é:",
+      "opcoes": [
+        "Microempresa",
+        "Microempreendedor individual",
+        "Grande empresa",
+        "Empresa de pequeno porte"
+      ],
+      "correta": 3,
+      "explicacao": "A receita está acima de R$ 360 mil e abaixo de R$ 4,8 milhões, faixa da empresa de pequeno porte."
+    },
+    {
+      "id": "empreendedorismo-25",
+      "topico": "formalizacao",
+      "nivel": "analise",
+      "pergunta": "Por que a falta de planejamento é apontada como uma das principais causas de fechamento de pequenas empresas?",
+      "opcoes": [
+        "Porque o negócio começa sem conhecer o mercado, os custos e a necessidade de capital de giro",
+        "Porque o planejamento é proibido para pequenas empresas",
+        "Porque toda pequena empresa fecha no primeiro ano",
+        "Porque planejar aumenta os impostos"
+      ],
+      "correta": 0,
+      "explicacao": "Sem planejamento, o empreendedor subestima custos e prazos e fica sem caixa para sobreviver."
+    },
+    {
+      "id": "empreendedorismo-26",
+      "topico": "gestao",
+      "nivel": "conceitual",
+      "pergunta": "A remuneração que o sócio retira mensalmente pelo trabalho na empresa, separando as finanças pessoais das do negócio, é o:",
+      "opcoes": [
+        "Markup",
+        "Pró-labore",
+        "Royalty",
+        "Capital de giro"
+      ],
+      "correta": 1,
+      "explicacao": "Definir um pró-labore evita misturar o caixa da empresa com as despesas pessoais do dono."
+    },
+    {
+      "id": "empreendedorismo-27",
+      "topico": "gestao",
+      "nivel": "conceitual",
+      "pergunta": "Na Lei de Franquias, a Circular de Oferta de Franquia deve ser entregue ao candidato:",
+      "opcoes": [
+        "Somente depois da inauguração da unidade",
+        "No mesmo dia da assinatura",
+        "Pelo menos 10 dias antes da assinatura do contrato ou do pagamento de qualquer taxa",
+        "Apenas se o candidato pedir por escrito após um ano"
+      ],
+      "correta": 2,
+      "explicacao": "O prazo permite ao candidato analisar com calma as informações e os riscos do negócio."
+    },
+    {
+      "id": "empreendedorismo-28",
+      "topico": "gestao",
+      "nivel": "conceitual",
+      "pergunta": "O indicador churn, muito usado em startups, mede:",
+      "opcoes": [
+        "O custo para conquistar um novo cliente",
+        "A receita total de um ano",
+        "O número de funcionários contratados",
+        "A taxa de clientes que cancelam ou deixam de comprar"
+      ],
+      "correta": 3,
+      "explicacao": "Um churn alto indica dificuldade de reter clientes e ameaça a receita recorrente."
+    },
+    {
+      "id": "empreendedorismo-29",
+      "topico": "gestao",
+      "nivel": "aplicacao",
+      "pergunta": "Um produto custa R$ 60, e a soma de impostos, despesas variáveis e lucro desejado é de 40% do preço. Qual é o preço de venda pelo markup divisor?",
+      "opcoes": [
+        "R$ 100",
+        "R$ 84",
+        "R$ 90",
+        "R$ 120"
+      ],
+      "correta": 0,
+      "explicacao": "O markup divisor é 1 menos 0,40, igual a 0,60, e 60 dividido por 0,60 resulta em R$ 100."
+    },
+    {
+      "id": "empreendedorismo-30",
+      "topico": "gestao",
+      "nivel": "analise",
+      "pergunta": "Por que um negócio com CAC maior que o LTV não é sustentável?",
+      "opcoes": [
+        "Porque o CAC deve sempre ser zero",
+        "Porque gasta mais para conquistar cada cliente do que esse cliente gera de valor ao longo do relacionamento",
+        "Porque o LTV não tem relação com receita",
+        "Porque clientes antigos não geram valor"
+      ],
+      "correta": 1,
+      "explicacao": "Crescer nessas condições aumenta o prejuízo a cada novo cliente conquistado."
+    }
+  ]
+}
