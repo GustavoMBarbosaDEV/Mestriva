@@ -1,0 +1,465 @@
+{
+  "id": "contabilidade-gerencial",
+  "nome": "Contabilidade Gerencial e Controladoria",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Contabilidade gerencial e financeira",
+      "resumo": "### O que é\nA Contabilidade Gerencial produz **informações para os gestores** tomarem decisões, planejarem e controlarem a empresa. Olha para **dentro** e para o **futuro**.\n\n### Gerencial x financeira\n| | Financeira (societária) | Gerencial |\n|---|---|---|\n| **Usuários** | **Externos**: sócios, credores, fisco | **Internos**: gestores |\n| **Regras** | Segue normas (CPC, lei) | **Livre**: o que for útil |\n| **Obrigatoriedade** | **Obrigatória** | **Facultativa** |\n| **Tempo** | Passado | Passado, presente e **futuro** |\n| **Detalhe** | Empresa como um todo | Por produto, setor, cliente |\n| **Frequência** | Anual, trimestral | Quando necessário |\n| **Unidade** | Moeda | Moeda e medidas **físicas** |\n| **Critério** | Objetividade e verificabilidade | **Relevância** e oportunidade |\n\nA **contabilidade de custos** serve às duas: avalia estoques para a financeira e fornece dados de decisão para a gerencial.\n\n### Processo de gestão\n**Planejamento** (estratégico e operacional) → **execução** → **controle** (comparar o realizado com o planejado e corrigir).\n\n### Controladoria\nÁrea responsável pelo **sistema de informações gerenciais** e por zelar pela eficácia da empresa.\n- **Funções**: planejamento e orçamento, custos, avaliação de desempenho, controles internos, relatórios gerenciais e apoio à decisão.\n- ***Controller***: o gestor da área; fornece informação, mas **não toma** a decisão pelos gestores.\n- **Missão**: otimizar o **resultado econômico** global, e não o de cada área isolada.\n\n### Classificação dos custos para decisão\n- **Fixos**: não variam no total com o volume, dentro de certa capacidade (aluguel). O custo fixo **unitário** cai quando o volume sobe.\n- **Variáveis**: variam no total com o volume (matéria-prima). O custo variável **unitário** é constante.\n- **Semivariáveis** e **semifixos** (em degraus).\n- **Diretos** (identificados com o produto) e **indiretos** (precisam de rateio).\n- **Custo** (gasto na produção) x **despesa** (gasto para vender e administrar) x **investimento** x **perda**.\n\n### Custos relevantes para decisão\n- **Custo de oportunidade**: o benefício da **melhor alternativa abandonada**.\n- **Custo afundado (*sunk cost*)**: já ocorreu e **não muda** com a decisão; é **irrelevante**.\n- **Custo diferencial (incremental)**: a diferença de custo entre duas alternativas.\n- **Custo evitável** e **inevitável**.\n- **Custo controlável** (o gestor influencia) e **não controlável**.\n- Só importam os custos e receitas **futuros** e **diferentes** entre as alternativas.\n\n### Sistemas de custeio\n- **Por absorção**: todos os custos de produção (fixos e variáveis) vão ao produto; aceito pela legislação.\n- **Variável (direto)**: só os custos **variáveis** vão ao produto; os fixos são despesa do período. O preferido para **decisões**.\n- **ABC (por atividades)**: aloca os custos indiretos pelas atividades que os consomem.\n- **Custo-padrão**: custo previsto em condições normais de eficiência; serve ao controle.\n- **Custo-meta (*target costing*)**: parte do preço de mercado e da margem desejada para chegar ao custo máximo admissível.\n- **Custeio pleno (RKW)**: aloca também as despesas.\n\n### Qualidade da informação gerencial\nDeve ser **relevante**, **oportuna**, **confiável**, **compreensível** e ter **custo menor que o benefício**.\n\n### Ética\nO contador gerencial deve agir com **competência**, **confidencialidade**, **integridade** e **credibilidade**.",
+      "revisao": "**Lembre:**\n- Gerencial: usuários internos, sem regras fixas, voltada ao futuro.\n- Financeira: usuários externos, obrigatória, segue normas.\n- Custo fixo total não muda com o volume; o unitário cai.\n- Custo de oportunidade conta na decisão; custo afundado, não.\n- Controller informa; quem decide é o gestor."
+    },
+    {
+      "id": "cvl",
+      "nome": "Margem de contribuição e análise custo-volume-lucro",
+      "resumo": "### Margem de contribuição\nO quanto cada unidade vendida **contribui** para pagar os custos fixos e formar o lucro.\n\n**MC unitária = preço de venda − custos e despesas variáveis unitários**\n\n- **MC total** = receita − custos e despesas variáveis totais.\n- **Índice de margem de contribuição**: MC / preço (em %).\n- É a base das decisões de **curto prazo**: os custos fixos, que não mudam, ficam de fora da comparação entre produtos.\n\n### Demonstração pelo custeio variável\n**Receita**\n(−) Custos e despesas **variáveis**\n**(=) Margem de contribuição**\n(−) Custos e despesas **fixos**\n**(=) Lucro operacional**\n\n### Ponto de equilíbrio\nVolume em que a **receita total iguala os custos totais**: lucro **zero**.\n\n- **Contábil**: **PEC = custos e despesas fixos / MC unitária** (em unidades).\n- Em valor: custos fixos / índice de MC.\n- **Econômico**: inclui o **lucro desejado** (ou o custo de oportunidade): (fixos + lucro desejado) / MC unitária.\n- **Financeiro**: exclui os custos que **não são desembolso**, como a **depreciação**: (fixos − depreciação) / MC unitária.\n- Em geral: **financeiro < contábil < econômico**.\n\n**Exemplo**: custos fixos de R$ 40.000; preço de R$ 50; custo variável de R$ 30. MC unitária = R$ 20. PEC = 40.000 / 20 = **2.000 unidades**.\n\n### O que altera o ponto de equilíbrio\n- **Aumento dos custos fixos** → ponto de equilíbrio **sobe**.\n- **Aumento do preço** → **desce**.\n- **Aumento do custo variável** → **sobe**.\n\n### Margem de segurança\nQuanto as vendas podem **cair** antes de a empresa ter prejuízo:\n\n**MS = (vendas atuais − vendas no ponto de equilíbrio) / vendas atuais**\n\nQuanto maior, menor o risco.\n\n### Alavancagem operacional\nMede como uma variação nas **vendas** se amplia no **lucro**, por causa dos custos fixos.\n\n**GAO = margem de contribuição total / lucro operacional**\n\n- GAO de 3: um aumento de 10% nas vendas eleva o lucro em 30% (e uma queda de 10% o reduz em 30%).\n- Empresas com **muitos custos fixos** têm alavancagem e **risco** maiores.\n- O GAO é o **inverso da margem de segurança**.\n\n### Vários produtos\n- Calcula-se a **margem de contribuição média ponderada** pelo *mix* de vendas.\n- Mudar o *mix* muda o ponto de equilíbrio.\n\n### Fator limitante (restrição)\nQuando há um recurso **escasso** (horas de máquina, matéria-prima), deve-se priorizar o produto de **maior margem de contribuição por unidade do fator limitante**, e não o de maior margem unitária.\n\n**Exemplo**: o produto A tem MC de R$ 30 e usa 3 horas de máquina (R$ 10 por hora); o B tem MC de R$ 20 e usa 1 hora (R$ 20 por hora). Com horas escassas, **prioriza-se o B**.\n\n- **Teoria das restrições** (Goldratt): identificar o **gargalo**, explorá-lo ao máximo e subordinar o resto a ele.\n\n### Limitações da análise CVL\nSupõe preço e custo variável unitário **constantes**, custos fixos estáveis na faixa analisada, *mix* constante e produção igual às vendas.\n\n### Absorção x variável: efeito no lucro\n- **Produção > vendas** (estoque aumenta): o lucro pelo **absorção** é **maior**, pois parte dos custos fixos fica no estoque.\n- **Produção < vendas**: o lucro pelo **variável** é maior.\n- **Produção = vendas**: os lucros são iguais.\n- O custeio variável evita que o gestor \"melhore\" o lucro apenas produzindo mais para estocar.",
+      "revisao": "**Lembre:**\n- Margem de contribuição = preço − custos e despesas variáveis.\n- Ponto de equilíbrio contábil = custos fixos / MC unitária.\n- Econômico inclui lucro desejado; financeiro exclui depreciação.\n- Margem de segurança: folga das vendas acima do ponto de equilíbrio.\n- Com recurso escasso, vale a margem por unidade do fator limitante."
+    },
+    {
+      "id": "decisoes",
+      "nome": "Decisões especiais e formação de preços",
+      "resumo": "### Regra geral\nComparar apenas **receitas e custos diferenciais**: o que muda entre as alternativas. Ignorar custos afundados e os fixos que permanecem iguais.\n\n### Aceitar ou rejeitar um pedido especial\nHavendo **capacidade ociosa**, vale aceitar um pedido a preço menor que o normal se o preço **superar o custo variável** (margem de contribuição positiva), pois os custos fixos já estão cobertos. Cuidados: não afetar as vendas normais nem o preço de mercado.\n- **Sem** capacidade ociosa, considera-se também a margem **perdida** nas vendas que deixarão de ser feitas (custo de oportunidade).\n\n### Comprar ou fabricar (*make or buy*)\nCompara-se o **preço de compra** com os **custos evitáveis** de fabricar (em geral os variáveis e os fixos que deixariam de existir).\n- Custos fixos que continuam, mesmo comprando, **não entram**.\n- Considerar o **uso alternativo** da capacidade liberada e fatores qualitativos: qualidade, prazo, dependência do fornecedor e sigilo.\n\n### Eliminar ou manter um produto ou segmento\nUm produto com **prejuízo após rateio** dos custos fixos pode ainda ter **margem de contribuição positiva**. Se ela for positiva e os custos fixos não forem evitáveis, **eliminá-lo piora** o resultado da empresa.\n- Usa-se a **margem de contribuição do segmento**, depois de deduzir os fixos **identificáveis** e evitáveis.\n\n### Vender ou processar mais\nEm produtos conjuntos, os custos até o **ponto de separação** são **irrelevantes**. Processa-se além se a **receita adicional superar o custo adicional**.\n\n### Substituir equipamento\nO valor contábil do equipamento antigo é **custo afundado**. Importam: custo do novo, economias operacionais futuras e valor de venda do antigo.\n\n### Formação do preço de venda\n**Com base no custo**\n- ***Mark-up***: índice aplicado sobre o custo para cobrir tributos, despesas e a margem de lucro.\n  - **Multiplicador**: preço = custo × *mark-up*.\n  - **Divisor**: **preço = custo / (1 − soma dos percentuais sobre o preço)**.\n  - Ex.: custo de R$ 60; tributos de 18%, comissão de 5%, despesas de 7% e lucro de 10% (total de 40%). Preço = 60 / 0,60 = **R$ 100**.\n- **Erro comum**: somar o percentual sobre o custo, quando os percentuais incidem sobre o **preço**.\n- **Margem** (sobre o preço) é diferente de ***mark-up*** (sobre o custo): um *mark-up* de 100% equivale a margem de 50%.\n\n**Com base no mercado**\n- **Concorrência**: seguir os preços praticados.\n- **Valor percebido** pelo cliente.\n- **Custo-meta**: **custo-alvo = preço de mercado − lucro desejado**; a empresa precisa projetar o produto para caber nesse custo.\n\n**Estratégias**: **penetração** (preço baixo para ganhar mercado), **desnatamento** (preço alto no lançamento), preço psicológico e discriminação de preços.\n\n### Preço mínimo\nNo curto prazo, o piso é o **custo variável**; no longo prazo, o preço precisa cobrir **todos** os custos e remunerar o capital.\n\n### Preço de transferência\nValor cobrado nas transações **entre divisões** da mesma empresa. Bases: **preço de mercado** (o mais indicado quando existe), **custo** (total ou variável, com ou sem margem) e **negociado**. Afeta a avaliação de cada divisão e pode induzir decisões ruins para o todo.\n\n### Análise de rentabilidade de clientes\nNem todo cliente dá lucro: descontos, fretes, devoluções e atendimento reduzem a margem. A análise por cliente orienta a política comercial.\n\n### Gestão estratégica de custos\n- **Cadeia de valor**: analisar os custos além dos muros da empresa, de fornecedores a clientes.\n- **Direcionadores de custo**: os fatores que causam os custos.\n- ***Kaizen costing***: redução contínua de custos.\n- **Custo do ciclo de vida** e **custos da qualidade** (prevenção, avaliação, falhas internas e externas).",
+      "revisao": "**Lembre:**\n- Decide-se pelos custos e receitas diferenciais.\n- Com ociosidade, pedido especial vale se o preço cobrir o custo variável.\n- Produto com margem de contribuição positiva não deve ser cortado se os fixos permanecem.\n- Preço = custo / (1 − percentuais sobre o preço).\n- Custo-meta = preço de mercado − lucro desejado."
+    },
+    {
+      "id": "orcamento",
+      "nome": "Orçamento e custo-padrão",
+      "resumo": "### Orçamento\nPlano **quantificado** das operações para um período; traduz a estratégia em números.\n- **Funções**: planejar, coordenar as áreas, comunicar metas, motivar, controlar e avaliar o desempenho.\n\n### Orçamento geral (mestre)\n**Orçamento operacional**\n1. **Vendas**: ponto de partida, pois condiciona os demais.\n2. **Produção**: vendas + estoque final desejado − estoque inicial.\n3. **Matérias-primas** (consumo e compras), **mão de obra direta** e **custos indiretos**.\n4. **Custo dos produtos vendidos**.\n5. **Despesas** de vendas e administrativas.\n\n**Orçamento financeiro**\n6. **Investimentos** (capital).\n7. **Orçamento de caixa**: recebimentos e pagamentos.\n8. **Demonstrações projetadas**: resultado e balanço.\n\n### Tipos\n- **Estático**: para um único nível de atividade.\n- **Flexível**: ajustado ao **volume real**; separa o efeito do volume do efeito da eficiência. É a base correta para avaliar o desempenho.\n- **Contínuo (rolante)**: acrescenta um período ao fim de cada um.\n- **Base zero (OBZ)**: toda despesa é justificada **do zero**, sem partir do histórico.\n- **Incremental**: ajusta o ano anterior.\n- **Por atividades**.\n- **Participativo** (de baixo para cima) x **impositivo** (de cima para baixo).\n\n### Problemas comportamentais\n- **Folga orçamentária**: o gestor subestima receitas ou superestima despesas para facilitar a meta.\n- Metas inalcançáveis desmotivam; metas fáceis não desafiam.\n- \"Gastar a verba\" no fim do ano para não perdê-la.\n\n### Custo-padrão\nCusto **predeterminado**, que deveria ocorrer em condições normais de eficiência.\n- **Ideal**: sem nenhuma perda; inatingível.\n- **Corrente**: considera perdas normais; é a meta realista.\n- **Estimado**: baseado em médias passadas.\n- Finalidade principal: **controle**, pela comparação com o custo **real**.\n\n### Análise das variações\n**Variação = custo real − custo-padrão**\n- Real **maior** que o padrão: variação **desfavorável**.\n- Real **menor**: **favorável**.\n\n**Materiais diretos**\n- **Variação de preço** = (preço real − preço-padrão) × quantidade real. Responsável típico: **compras**.\n- **Variação de quantidade (eficiência)** = (quantidade real − quantidade-padrão) × preço-padrão. Responsável típico: **produção**.\n- **Variação mista**: efeito conjunto.\n\n**Mão de obra direta**\n- **Variação de taxa** (salário por hora) e **de eficiência** (horas usadas).\n\n**Custos indiretos**\n- Variação de **custo (gasto)**, de **eficiência** e de **volume** (pelo uso da capacidade).\n\n**Vendas**: variação de **preço**, de **volume** e de ***mix***.\n\n### Interpretação\n- Uma variação favorável nem sempre é boa: comprar material mais barato e pior pode aumentar o desperdício na produção.\n- **Administração por exceção**: investigar só as variações **significativas**.\n- Buscar a **causa**, e não apenas o culpado.\n\n### Controle orçamentário\nRelatórios periódicos de **orçado x realizado**, com análise das variações e **ações corretivas**. O orçamento flexível evita comparar custos de volumes diferentes.\n\n### Orçamento de caixa\nProjeta saldos, mostrando quando haverá **necessidade de captação** ou **sobra para aplicar**. Considera os **prazos** de recebimento e pagamento, e não o regime de competência.\n\n### Além do orçamento\n- ***Beyond budgeting***: substitui o orçamento anual fixo por metas relativas e previsões contínuas.\n- ***Rolling forecast***: previsão revista com frequência.",
+      "revisao": "**Lembre:**\n- O orçamento começa pelas vendas e termina nas demonstrações projetadas.\n- Orçamento flexível ajusta-se ao volume real.\n- Base zero: justifica cada gasto do zero.\n- Variação de preço (compras) e de quantidade (produção).\n- Real maior que o padrão: variação desfavorável."
+    },
+    {
+      "id": "desempenho",
+      "nome": "Avaliação de desempenho e descentralização",
+      "resumo": "### Descentralização\nDelegar o poder de decisão aos gestores de níveis mais baixos.\n- **Vantagens**: decisões mais rápidas e próximas da operação, motivação, formação de gestores e alívio da alta direção.\n- **Desvantagens**: risco de **decisões incongruentes** (boas para a divisão, ruins para a empresa), duplicação de atividades e custo de coordenação.\n\n### Contabilidade por responsabilidade\nCada gestor é avaliado pelo que **controla**.\n\n| Centro | Responde por | Medida típica |\n|---|---|---|\n| **De custo** | Custos | Orçado x realizado, custo-padrão |\n| **De receita** | Vendas | Metas de receita |\n| **De lucro** | Receitas e custos | Lucro, margem de contribuição |\n| **De investimento** | Lucro e **capital investido** | **ROI**, lucro residual, EVA |\n\n- **Custos controláveis**: só eles devem pesar na avaliação do gestor.\n\n### Retorno sobre o investimento (ROI)\n**ROI = lucro operacional / investimento**\n\nPela **análise DuPont**: **ROI = margem × giro**\n- **Margem** = lucro / vendas.\n- **Giro** = vendas / investimento.\n- Melhora-se aumentando a margem, as vendas ou reduzindo o investimento.\n- **Problema**: um gestor com ROI alto pode **rejeitar** um projeto bom para a empresa, se ele reduzir o seu ROI médio.\n\n### Lucro residual\n**Lucro residual = lucro operacional − (investimento × taxa mínima de retorno)**\n\nMede o lucro **acima** do mínimo exigido. Incentiva aceitar todo projeto que renda mais que o custo de capital. Limite: dificulta comparar divisões de tamanhos diferentes.\n\n### EVA (valor econômico agregado)\n**EVA = lucro operacional após impostos − (capital investido × custo médio ponderado de capital)**\n\n- **EVA positivo**: a empresa **criou valor**, pois rendeu mais que o custo de todo o capital (de terceiros e próprio).\n- **MVA** (valor de mercado agregado): valor de mercado menos o capital investido.\n- **Gestão baseada em valor**.\n\n### *Balanced Scorecard* (Kaplan e Norton)\nTraduz a estratégia em objetivos e indicadores, em **quatro perspectivas**:\n1. **Financeira**: como os acionistas nos veem? (lucro, ROI, crescimento)\n2. **Clientes**: como os clientes nos veem? (satisfação, retenção, participação de mercado)\n3. **Processos internos**: em que devemos ser excelentes? (qualidade, prazo, produtividade)\n4. **Aprendizado e crescimento**: como continuar melhorando? (capacitação, sistemas, clima)\n- Combina indicadores **financeiros e não financeiros**, de **resultado** (passado) e de **tendência** (futuro).\n- **Mapa estratégico**: mostra as relações de **causa e efeito** entre os objetivos.\n- Para cada objetivo: **indicador**, **meta** e **iniciativa**.\n\n### Indicadores (KPIs)\nDevem ser poucos, ligados à estratégia, mensuráveis e influenciáveis por quem é avaliado. **Metas SMART**: específicas, mensuráveis, atingíveis, relevantes e com prazo.\n\n### Remuneração por desempenho\nBônus, participação nos lucros e opções de ações. Risco: incentivar o **curto prazo** e a manipulação de resultados.\n\n### *Benchmarking*\nComparar processos e resultados com os das **melhores** empresas, para identificar melhorias.\n\n### Gestão baseada em atividades (ABM)\nUsa as informações do custeio ABC para eliminar atividades que **não agregam valor**.\n\n### Relatórios gerenciais\nDevem ser claros, tempestivos, comparativos (orçado, realizado, período anterior) e adequados a cada nível: mais sintéticos para a alta direção, mais detalhados para a operação. Painéis (*dashboards*) e *business intelligence*.",
+      "revisao": "**Lembre:**\n- Centros: de custo, de receita, de lucro e de investimento.\n- ROI = margem × giro.\n- Lucro residual: lucro acima do retorno mínimo exigido.\n- EVA positivo: retorno superou o custo de todo o capital.\n- BSC: financeira, clientes, processos internos, aprendizado e crescimento."
+    },
+    {
+      "id": "investimentos",
+      "nome": "Análise de investimentos e gestão financeira de curto prazo",
+      "resumo": "### Decisões de investimento\nEnvolvem grandes valores, longo prazo e são difíceis de reverter. Analisam-se **fluxos de caixa incrementais**, e não lucros contábeis.\n- Incluir: investimento inicial, entradas líquidas, **valor residual** e variação do **capital de giro**.\n- **Depreciação**: não é saída de caixa, mas gera **economia de imposto**.\n- **Custos afundados** não entram; **custos de oportunidade**, sim.\n\n### Taxa mínima de atratividade (TMA)\nRetorno mínimo aceitável; em geral o **custo de capital** (WACC).\n\n### Métodos\n- ***Payback* simples**: tempo para **recuperar** o investimento. Simples; mede risco e liquidez. Ignora o **valor do dinheiro no tempo** e os fluxos **após** a recuperação.\n- ***Payback* descontado**: usa os fluxos a valor presente.\n- **Valor presente líquido (VPL)**: valor presente das entradas menos o investimento, descontado pela TMA.\n  - **VPL > 0**: aceitar. **VPL < 0**: rejeitar.\n  - É o critério tecnicamente mais correto.\n- **Taxa interna de retorno (TIR)**: taxa que **zera o VPL**. Aceitar se **TIR > TMA**.\n  - Limites: pode haver mais de uma TIR; supõe reinvestimento à própria TIR.\n- **Índice de lucratividade**: valor presente das entradas / investimento; aceitar se maior que 1.\n- **Taxa de retorno contábil**: lucro médio / investimento; ignora o valor do dinheiro no tempo.\n- Em projetos **mutuamente excludentes** com conflito entre os critérios, **prevalece o VPL**.\n\n### Risco\nAnálise de **sensibilidade**, de **cenários** e simulação.\n\n### Capital de giro\n- **Capital circulante líquido** = ativo circulante − passivo circulante.\n- **Necessidade de capital de giro (NCG)** = ativo circulante operacional − passivo circulante operacional.\n- **Ciclo operacional** = prazo médio de estocagem + prazo médio de recebimento.\n- **Ciclo financeiro (de caixa)** = ciclo operacional − prazo médio de pagamento. Quanto menor, menos capital a empresa precisa.\n- Reduz-se o ciclo girando os estoques mais rápido, recebendo antes e negociando prazos maiores com fornecedores.\n\n### Indicadores para a gestão\n- **Liquidez**: corrente (AC / PC), seca e geral.\n- **Endividamento**: capital de terceiros / patrimônio líquido.\n- **Rentabilidade**: margens bruta, operacional e líquida; **ROA** e **ROE**.\n- **Atividade**: giro dos estoques e prazos médios.\n- **EBITDA**: lucro antes de juros, impostos, depreciação e amortização; aproxima a geração operacional de caixa.\n\n### Fluxo de caixa gerencial\n- **Método direto** (recebimentos e pagamentos) e **indireto** (parte do lucro e ajusta).\n- Separa atividades **operacionais**, de **investimento** e de **financiamento**.\n- **Lucro não é caixa**: vendas a prazo, estoques e investimentos consomem caixa mesmo com lucro.\n\n### Gestão de estoques\n- Custos de **pedir**, de **manter** e de **faltar**.\n- **Lote econômico de compra**, **ponto de pedido** e **estoque de segurança**.\n- **Curva ABC**: poucos itens concentram o valor.\n- ***Just in time***.\n\n### Gestão de contas a receber\nPolítica de crédito (prazo, limites, descontos) e de cobrança; equilibra vendas maiores com o risco de inadimplência e o custo do capital parado.\n\n### Tecnologia e informação\n- **ERP**: sistema integrado que alimenta a contabilidade e os relatórios.\n- ***Business intelligence*** e análise de dados.\n- A qualidade do relatório depende da qualidade do **dado de origem**.\n\n### Sustentabilidade\nRelato integrado e indicadores **ESG** (ambiental, social e governança) entram cada vez mais nos painéis de gestão.",
+      "revisao": "**Lembre:**\n- Investimento se avalia por fluxo de caixa incremental.\n- VPL positivo: aceitar; TIR maior que a TMA: aceitar.\n- Payback simples ignora o valor do dinheiro no tempo.\n- Ciclo financeiro = estocagem + recebimento − pagamento.\n- Lucro não é caixa."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "contabilidade-gerencial-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "A contabilidade gerencial destina-se principalmente a:",
+      "opcoes": [
+        "Usuários internos, como os gestores da empresa",
+        "Acionistas e credores externos",
+        "O fisco",
+        "Os auditores independentes"
+      ],
+      "correta": 0,
+      "explicacao": "Por isso não precisa seguir normas contábeis obrigatórias, mas sim ser útil à decisão."
+    },
+    {
+      "id": "contabilidade-gerencial-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O benefício da melhor alternativa que se deixou de escolher é o custo:",
+      "opcoes": [
+        "Afundado",
+        "De oportunidade",
+        "Fixo",
+        "Padrão"
+      ],
+      "correta": 1,
+      "explicacao": "Ele não aparece nos registros contábeis, mas é relevante para a decisão."
+    },
+    {
+      "id": "contabilidade-gerencial-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Quando o volume de produção aumenta, o custo fixo unitário:",
+      "opcoes": [
+        "Aumenta",
+        "Permanece constante",
+        "Diminui",
+        "Torna-se variável"
+      ],
+      "correta": 2,
+      "explicacao": "O custo fixo total não muda e passa a ser dividido por mais unidades."
+    },
+    {
+      "id": "contabilidade-gerencial-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa já gastou R$ 50.000 em um projeto e precisa decidir se o continua. Na decisão, esse valor deve ser:",
+      "opcoes": [
+        "Somado aos custos futuros",
+        "Tratado como custo de oportunidade",
+        "Considerado o principal fator",
+        "Ignorado, por ser custo afundado"
+      ],
+      "correta": 3,
+      "explicacao": "Só importam as receitas e os custos futuros que diferem entre as alternativas."
+    },
+    {
+      "id": "contabilidade-gerencial-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que o custeio variável é preferido ao custeio por absorção para decisões de curto prazo?",
+      "opcoes": [
+        "Porque separa os custos fixos, que não mudam com a decisão, e evidencia a margem de contribuição",
+        "Porque é exigido pela legislação fiscal",
+        "Porque inclui todos os custos no produto",
+        "Porque elimina os custos variáveis"
+      ],
+      "correta": 0,
+      "explicacao": "O rateio de custos fixos no custeio por absorção pode distorcer a rentabilidade dos produtos."
+    },
+    {
+      "id": "contabilidade-gerencial-6",
+      "topico": "cvl",
+      "nivel": "conceitual",
+      "pergunta": "A margem de contribuição unitária é obtida subtraindo-se do preço de venda:",
+      "opcoes": [
+        "Os custos fixos unitários",
+        "Os custos e despesas variáveis unitários",
+        "Todos os custos e despesas",
+        "Apenas os tributos"
+      ],
+      "correta": 1,
+      "explicacao": "Ela mostra quanto cada unidade contribui para cobrir os custos fixos e gerar lucro."
+    },
+    {
+      "id": "contabilidade-gerencial-7",
+      "topico": "cvl",
+      "nivel": "conceitual",
+      "pergunta": "O ponto de equilíbrio contábil é o volume de vendas em que:",
+      "opcoes": [
+        "O lucro é máximo",
+        "O caixa é zero",
+        "O lucro é zero, pois a receita iguala os custos totais",
+        "A empresa atinge a meta de lucro"
+      ],
+      "correta": 2,
+      "explicacao": "Ele é calculado dividindo os custos fixos pela margem de contribuição unitária."
+    },
+    {
+      "id": "contabilidade-gerencial-8",
+      "topico": "cvl",
+      "nivel": "conceitual",
+      "pergunta": "O ponto de equilíbrio financeiro difere do contábil por:",
+      "opcoes": [
+        "Incluir o lucro desejado",
+        "Ignorar os custos variáveis",
+        "Considerar apenas as despesas",
+        "Excluir custos que não representam desembolso, como a depreciação"
+      ],
+      "correta": 3,
+      "explicacao": "O ponto de equilíbrio econômico, por sua vez, acrescenta o lucro desejado."
+    },
+    {
+      "id": "contabilidade-gerencial-9",
+      "topico": "cvl",
+      "nivel": "aplicacao",
+      "pergunta": "Uma empresa tem custos fixos de R$ 90.000, preço de R$ 40 e custo variável de R$ 25 por unidade. Seu ponto de equilíbrio contábil é de:",
+      "opcoes": [
+        "6.000 unidades",
+        "2.250 unidades",
+        "3.600 unidades",
+        "9.000 unidades"
+      ],
+      "correta": 0,
+      "explicacao": "A margem de contribuição é de R$ 15 por unidade; divide-se 90.000 por 15."
+    },
+    {
+      "id": "contabilidade-gerencial-10",
+      "topico": "cvl",
+      "nivel": "analise",
+      "pergunta": "Quando há um recurso escasso na produção, por que não se deve simplesmente priorizar o produto de maior margem de contribuição unitária?",
+      "opcoes": [
+        "Porque a margem unitária é sempre negativa",
+        "Porque o que maximiza o lucro é a margem por unidade do recurso escasso",
+        "Porque os custos fixos mudam com o produto",
+        "Porque o preço deixa de importar"
+      ],
+      "correta": 1,
+      "explicacao": "Um produto de margem menor pode render mais se consumir pouco do recurso limitado."
+    },
+    {
+      "id": "contabilidade-gerencial-11",
+      "topico": "decisoes",
+      "nivel": "conceitual",
+      "pergunta": "Na decisão entre comprar ou fabricar um componente, compara-se o preço de compra com:",
+      "opcoes": [
+        "Todos os custos, inclusive os fixos que permanecem",
+        "Apenas a depreciação",
+        "Os custos evitáveis de fabricar",
+        "O preço de venda do produto final"
+      ],
+      "correta": 2,
+      "explicacao": "Custos fixos que continuarão existindo de qualquer forma não entram na comparação."
+    },
+    {
+      "id": "contabilidade-gerencial-12",
+      "topico": "decisoes",
+      "nivel": "conceitual",
+      "pergunta": "No método do custo-meta, o custo máximo admissível é obtido por:",
+      "opcoes": [
+        "Custo de produção mais margem",
+        "Custo variável mais custo fixo",
+        "Preço de venda mais tributos",
+        "Preço de mercado menos lucro desejado"
+      ],
+      "correta": 3,
+      "explicacao": "O produto precisa ser projetado para caber dentro desse custo."
+    },
+    {
+      "id": "contabilidade-gerencial-13",
+      "topico": "decisoes",
+      "nivel": "conceitual",
+      "pergunta": "O valor cobrado nas transações entre divisões de uma mesma empresa é o:",
+      "opcoes": [
+        "Preço de transferência",
+        "Custo-padrão",
+        "Custo de oportunidade",
+        "Preço de penetração"
+      ],
+      "correta": 0,
+      "explicacao": "Ele influencia o resultado atribuído a cada divisão."
+    },
+    {
+      "id": "contabilidade-gerencial-14",
+      "topico": "decisoes",
+      "nivel": "aplicacao",
+      "pergunta": "Uma fábrica com capacidade ociosa recebe pedido especial a R$ 18 por unidade. O custo variável é R$ 12 e o custo total, R$ 20. Considerando só o resultado financeiro, ela deve:",
+      "opcoes": [
+        "Rejeitar, pois o preço é menor que o custo total",
+        "Aceitar, pois o preço supera o custo variável e gera margem de contribuição",
+        "Rejeitar, pois terá prejuízo de R$ 2 por unidade",
+        "Aceitar apenas se o preço chegar a R$ 20"
+      ],
+      "correta": 1,
+      "explicacao": "Os custos fixos já existem com ou sem o pedido; cada unidade acrescenta R$ 6 ao lucro."
+    },
+    {
+      "id": "contabilidade-gerencial-15",
+      "topico": "decisoes",
+      "nivel": "analise",
+      "pergunta": "Por que eliminar um produto que apresenta prejuízo depois do rateio dos custos fixos pode piorar o resultado da empresa?",
+      "opcoes": [
+        "Porque os custos fixos desaparecem com o produto",
+        "Porque o produto não gera receita",
+        "Porque, se ele tem margem de contribuição positiva, os custos fixos que absorvia passam aos demais produtos",
+        "Porque os custos variáveis continuam existindo"
+      ],
+      "correta": 2,
+      "explicacao": "A margem de contribuição que o produto gerava deixaria de ajudar a cobrir os custos fixos."
+    },
+    {
+      "id": "contabilidade-gerencial-16",
+      "topico": "orcamento",
+      "nivel": "conceitual",
+      "pergunta": "O orçamento empresarial começa normalmente pelo orçamento de:",
+      "opcoes": [
+        "Caixa",
+        "Investimentos",
+        "Custos indiretos",
+        "Vendas"
+      ],
+      "correta": 3,
+      "explicacao": "O volume de vendas previsto condiciona a produção, as compras e as despesas."
+    },
+    {
+      "id": "contabilidade-gerencial-17",
+      "topico": "orcamento",
+      "nivel": "conceitual",
+      "pergunta": "O orçamento ajustado ao nível real de atividade, para comparar com os custos reais, é o orçamento:",
+      "opcoes": [
+        "Flexível",
+        "Estático",
+        "Base zero",
+        "Incremental"
+      ],
+      "correta": 0,
+      "explicacao": "Ele separa o efeito da variação de volume do efeito da eficiência."
+    },
+    {
+      "id": "contabilidade-gerencial-18",
+      "topico": "orcamento",
+      "nivel": "conceitual",
+      "pergunta": "No custo-padrão, a variação de preço dos materiais é normalmente de responsabilidade do setor de:",
+      "opcoes": [
+        "Produção",
+        "Compras",
+        "Vendas",
+        "Contabilidade"
+      ],
+      "correta": 1,
+      "explicacao": "A variação de quantidade, por sua vez, costuma ser atribuída à produção."
+    },
+    {
+      "id": "contabilidade-gerencial-19",
+      "topico": "orcamento",
+      "nivel": "aplicacao",
+      "pergunta": "O padrão de um produto é de 2 kg de material a R$ 10 o quilo. A fábrica usou 2,2 kg, pagando os mesmos R$ 10. A variação de quantidade por unidade é:",
+      "opcoes": [
+        "R$ 2 favorável",
+        "R$ 0,20 desfavorável",
+        "R$ 2 desfavorável",
+        "Nula"
+      ],
+      "correta": 2,
+      "explicacao": "Foram usados 0,2 kg a mais, valorizados ao preço-padrão de R$ 10."
+    },
+    {
+      "id": "contabilidade-gerencial-20",
+      "topico": "orcamento",
+      "nivel": "analise",
+      "pergunta": "Por que uma variação favorável de preço na compra de materiais nem sempre é boa para a empresa?",
+      "opcoes": [
+        "Porque variação favorável sempre indica fraude",
+        "Porque o preço não afeta o custo",
+        "Porque a produção deixa de usar o material",
+        "Porque material mais barato e de pior qualidade pode aumentar o desperdício na produção"
+      ],
+      "correta": 3,
+      "explicacao": "As variações precisam ser analisadas em conjunto, buscando suas causas."
+    },
+    {
+      "id": "contabilidade-gerencial-21",
+      "topico": "desempenho",
+      "nivel": "conceitual",
+      "pergunta": "O gestor de um centro de investimento é avaliado:",
+      "opcoes": [
+        "Pelo lucro em relação ao capital investido",
+        "Apenas pelos custos",
+        "Apenas pelas receitas",
+        "Somente pelo número de empregados"
+      ],
+      "correta": 0,
+      "explicacao": "Medidas típicas são o retorno sobre o investimento e o lucro residual."
+    },
+    {
+      "id": "contabilidade-gerencial-22",
+      "topico": "desempenho",
+      "nivel": "conceitual",
+      "pergunta": "Pela análise DuPont, o retorno sobre o investimento é o produto de:",
+      "opcoes": [
+        "Liquidez e endividamento",
+        "Margem e giro",
+        "Custo fixo e custo variável",
+        "Receita e despesa"
+      ],
+      "correta": 1,
+      "explicacao": "A margem é o lucro sobre as vendas, e o giro, as vendas sobre o investimento."
+    },
+    {
+      "id": "contabilidade-gerencial-23",
+      "topico": "desempenho",
+      "nivel": "conceitual",
+      "pergunta": "As quatro perspectivas do Balanced Scorecard são:",
+      "opcoes": [
+        "Custos, receitas, lucros e investimentos",
+        "Planejamento, execução, controle e ação",
+        "Financeira, clientes, processos internos e aprendizado e crescimento",
+        "Liquidez, rentabilidade, atividade e endividamento"
+      ],
+      "correta": 2,
+      "explicacao": "O modelo combina indicadores financeiros e não financeiros ligados à estratégia."
+    },
+    {
+      "id": "contabilidade-gerencial-24",
+      "topico": "desempenho",
+      "nivel": "aplicacao",
+      "pergunta": "Uma divisão tem lucro operacional de R$ 200.000 e investimento de R$ 1.000.000. Com taxa mínima de retorno de 12%, seu lucro residual é de:",
+      "opcoes": [
+        "R$ 120.000",
+        "R$ 200.000",
+        "R$ 20.000",
+        "R$ 80.000"
+      ],
+      "correta": 3,
+      "explicacao": "O retorno mínimo exigido é de R$ 120.000, que se subtrai do lucro operacional."
+    },
+    {
+      "id": "contabilidade-gerencial-25",
+      "topico": "desempenho",
+      "nivel": "analise",
+      "pergunta": "Por que avaliar gestores apenas pelo ROI pode levar a decisões ruins para a empresa?",
+      "opcoes": [
+        "Porque o gestor pode rejeitar projetos rentáveis que reduziriam o ROI médio de sua divisão",
+        "Porque o ROI ignora o lucro",
+        "Porque o ROI só considera custos fixos",
+        "Porque o ROI é sempre negativo"
+      ],
+      "correta": 0,
+      "explicacao": "O lucro residual e o EVA corrigem esse problema ao medir o ganho acima do custo de capital."
+    },
+    {
+      "id": "contabilidade-gerencial-26",
+      "topico": "investimentos",
+      "nivel": "conceitual",
+      "pergunta": "Um projeto de investimento deve ser aceito quando seu valor presente líquido é:",
+      "opcoes": [
+        "Negativo",
+        "Positivo",
+        "Igual ao investimento inicial",
+        "Menor que a taxa interna de retorno"
+      ],
+      "correta": 1,
+      "explicacao": "Isso indica que o projeto rende mais do que a taxa mínima de atratividade."
+    },
+    {
+      "id": "contabilidade-gerencial-27",
+      "topico": "investimentos",
+      "nivel": "conceitual",
+      "pergunta": "A principal limitação do payback simples é:",
+      "opcoes": [
+        "Ser difícil de calcular",
+        "Exigir o cálculo do custo de capital",
+        "Ignorar o valor do dinheiro no tempo e os fluxos após a recuperação",
+        "Considerar apenas o lucro contábil"
+      ],
+      "correta": 2,
+      "explicacao": "Ainda assim é usado como medida de risco e de liquidez do projeto."
+    },
+    {
+      "id": "contabilidade-gerencial-28",
+      "topico": "investimentos",
+      "nivel": "conceitual",
+      "pergunta": "O ciclo financeiro de uma empresa é calculado por:",
+      "opcoes": [
+        "Prazo de pagamento mais prazo de recebimento",
+        "Ativo circulante menos passivo circulante",
+        "Lucro dividido pelas vendas",
+        "Prazo de estocagem mais prazo de recebimento menos prazo de pagamento"
+      ],
+      "correta": 3,
+      "explicacao": "Quanto menor esse ciclo, menor a necessidade de capital de giro."
+    },
+    {
+      "id": "contabilidade-gerencial-29",
+      "topico": "investimentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um investimento de R$ 100.000 gera entradas de caixa de R$ 25.000 por ano. Seu payback simples é de:",
+      "opcoes": [
+        "4 anos",
+        "2,5 anos",
+        "5 anos",
+        "10 anos"
+      ],
+      "correta": 0,
+      "explicacao": "Divide-se o investimento inicial pela entrada anual de caixa."
+    },
+    {
+      "id": "contabilidade-gerencial-30",
+      "topico": "investimentos",
+      "nivel": "analise",
+      "pergunta": "Por que uma empresa lucrativa pode enfrentar falta de caixa?",
+      "opcoes": [
+        "Porque o lucro sempre reduz o caixa",
+        "Porque vendas a prazo, aumento de estoques e investimentos consomem caixa mesmo havendo lucro",
+        "Porque a depreciação é paga em dinheiro",
+        "Porque lucro e caixa são sempre iguais"
+      ],
+      "correta": 1,
+      "explicacao": "O lucro segue o regime de competência, enquanto o caixa depende dos recebimentos e pagamentos."
+    }
+  ]
+}

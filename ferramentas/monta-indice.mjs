@@ -1785,6 +1785,34 @@ export const EXTRA = {
       "Auditoria Empresarial",
       "Auditoria Governamental"
     ]
+  },
+  "contabilidade-gerencial": {
+    "area": "Negócios",
+    "apelidos": [
+      "Contabilidade Gerencial",
+      "Contabilidade Gerencial I",
+      "Contabilidade Gerencial II",
+      "Controladoria",
+      "Contabilidade Gerencial e Controladoria",
+      "Controladoria e Contabilidade Gerencial",
+      "Contabilidade para Tomada de Decisão",
+      "Controladoria Empresarial"
+    ]
+  },
+  "contabilidade-publica": {
+    "area": "Negócios",
+    "apelidos": [
+      "Contabilidade Pública",
+      "Contabilidade Pública I",
+      "Contabilidade Pública II",
+      "Contabilidade Aplicada ao Setor Público",
+      "Contabilidade Governamental",
+      "Orçamento Público",
+      "Contabilidade e Orçamento Público",
+      "Orçamento e Contabilidade Pública",
+      "Planejamento e Orçamento Público",
+      "Contabilidade do Setor Público",
+    ]
   }
 };
 

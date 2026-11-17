@@ -1031,6 +1031,46 @@
       ]
     },
     {
+      "id": "contabilidade-gerencial",
+      "nome": "Contabilidade Gerencial e Controladoria",
+      "apelidos": [
+        "Contabilidade Gerencial",
+        "Contabilidade Gerencial I",
+        "Contabilidade Gerencial II",
+        "Controladoria",
+        "Controladoria e Contabilidade Gerencial",
+        "Contabilidade para Tomada de Decisão",
+        "Controladoria Empresarial"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Contabilidade gerencial e financeira"
+        },
+        {
+          "id": "cvl",
+          "nome": "Margem de contribuição e análise custo-volume-lucro"
+        },
+        {
+          "id": "decisoes",
+          "nome": "Decisões especiais e formação de preços"
+        },
+        {
+          "id": "orcamento",
+          "nome": "Orçamento e custo-padrão"
+        },
+        {
+          "id": "desempenho",
+          "nome": "Avaliação de desempenho e descentralização"
+        },
+        {
+          "id": "investimentos",
+          "nome": "Análise de investimentos e gestão financeira de curto prazo"
+        }
+      ]
+    },
+    {
       "id": "contabilidade-introdutoria",
       "nome": "Contabilidade Introdutória",
       "apelidos": [
@@ -1068,6 +1108,49 @@
         {
           "id": "competencia-principios",
           "nome": "Regime de competência e princípios contábeis"
+        }
+      ]
+    },
+    {
+      "id": "contabilidade-publica",
+      "nome": "Contabilidade Pública e Orçamento Público",
+      "apelidos": [
+        "Contabilidade Pública",
+        "Contabilidade Pública I",
+        "Contabilidade Pública II",
+        "Contabilidade Aplicada ao Setor Público",
+        "Contabilidade Governamental",
+        "Orçamento Público",
+        "Contabilidade e Orçamento Público",
+        "Orçamento e Contabilidade Pública",
+        "Planejamento e Orçamento Público",
+        "Contabilidade do Setor Público"
+      ],
+      "area": "Negócios",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Contabilidade aplicada ao setor público"
+        },
+        {
+          "id": "orcamento",
+          "nome": "Orçamento público: instrumentos e princípios"
+        },
+        {
+          "id": "receita",
+          "nome": "Receita pública"
+        },
+        {
+          "id": "despesa",
+          "nome": "Despesa pública"
+        },
+        {
+          "id": "demonstracoes",
+          "nome": "Demonstrações contábeis do setor público"
+        },
+        {
+          "id": "lrf",
+          "nome": "Lei de Responsabilidade Fiscal e controle"
         }
       ]
     },

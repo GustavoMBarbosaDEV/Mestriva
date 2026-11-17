@@ -1,0 +1,465 @@
+{
+  "id": "contabilidade-publica",
+  "nome": "Contabilidade Pública e Orçamento Público",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Contabilidade aplicada ao setor público",
+      "resumo": "### O que é\nRamo da contabilidade que registra, controla e demonstra o **patrimônio público** e a **execução do orçamento** dos entes e entidades do setor público. Hoje é chamada de **Contabilidade Aplicada ao Setor Público (CASP)**.\n\n### Objetivo\nFornecer informações úteis para a **prestação de contas e responsabilização** (*accountability*) e para a **tomada de decisão**. O objeto é o **patrimônio público**.\n\n### Quem aplica\n- **Administração direta**: União, estados, Distrito Federal e municípios, com seus Poderes e órgãos.\n- **Autarquias** e **fundações públicas**.\n- **Fundos** especiais.\n- **Empresas estatais dependentes**: recebem recursos do ente para custeio.\n- As estatais **independentes** seguem a contabilidade societária (Lei 6.404/1976).\n\n### Base normativa\n- **Constituição Federal**, arts. 165 a 169.\n- **Lei 4.320/1964**: normas gerais de direito financeiro; orçamentos e balanços.\n- **LRF** (Lei Complementar 101/2000): responsabilidade na gestão fiscal.\n- **NBC TSP**: normas do CFC convergentes com as internacionais (**IPSAS**).\n- **MCASP** (Manual de Contabilidade Aplicada ao Setor Público) e **PCASP** (Plano de Contas), da **Secretaria do Tesouro Nacional (STN)**, órgão central de contabilidade da União.\n\n### Regimes\n- **Regime orçamentário** (Lei 4.320, art. 35): pertencem ao exercício as **receitas nele arrecadadas** (caixa) e as **despesas nele legalmente empenhadas** (competência). É o chamado **regime misto**, que vale para o **orçamento**.\n- **Regime contábil (patrimonial)**: **competência** integral — as variações patrimoniais são reconhecidas quando ocorre o **fato gerador**, independentemente do pagamento ou do recebimento.\n\n### Enfoques\n- **Orçamentário**: controla a previsão e a arrecadação da receita e a fixação e a execução da despesa.\n- **Patrimonial**: registra ativos, passivos e variações do patrimônio.\n- **Fiscal**: apura indicadores da LRF.\n\n### Exercício financeiro\nCoincide com o **ano civil**: de 1º de janeiro a 31 de dezembro.\n\n### Subsistemas de informação\n- **Orçamentário**: planejamento e execução do orçamento.\n- **Patrimonial**: fatos que alteram o patrimônio.\n- **De controle (compensação)**: atos que podem vir a afetar o patrimônio (contratos, garantias) e controles.\n- (O subsistema de **custos** apoia a gestão.)\n\n### Plano de contas (PCASP) — classes\n| Classe | Conteúdo | Natureza da informação |\n|---|---|---|\n| 1 | **Ativo** | Patrimonial |\n| 2 | **Passivo e patrimônio líquido** | Patrimonial |\n| 3 | **Variações patrimoniais diminutivas (VPD)** | Patrimonial |\n| 4 | **Variações patrimoniais aumentativas (VPA)** | Patrimonial |\n| 5 | Controles da aprovação do planejamento e orçamento | Orçamentária |\n| 6 | Controles da execução do planejamento e orçamento | Orçamentária |\n| 7 | Controles devedores | Controle |\n| 8 | Controles credores | Controle |\n\nOs lançamentos são fechados **dentro da mesma natureza** de informação.\n\n### Patrimônio público\n- **Ativo**: recurso controlado pela entidade, resultante de evento passado, com potencial de serviços ou de benefícios econômicos.\n- **Passivo**: obrigação presente.\n- **Patrimônio líquido**: diferença entre ativo e passivo.\n- **Bens públicos**: de **uso comum** do povo (ruas, praças), de **uso especial** (prédios de repartições) e **dominicais** (sem destinação).\n- Reconhecem-se **depreciação**, redução ao valor recuperável e **reavaliação**.\n\n### Variações patrimoniais\n- **Quantitativas**: alteram o patrimônio líquido — **aumentativas (VPA)** e **diminutivas (VPD)**.\n- **Qualitativas**: trocam elementos, **sem alterar** o patrimônio líquido (comprar um veículo à vista).\n- **Resultado patrimonial** = VPA − VPD.\n\n### Sistemas\n- **SIAFI**: sistema da União. **SIAFEM/SIAFIC**: estados e municípios.\n- **Conta única** do Tesouro: princípio da **unidade de tesouraria**.",
+      "revisao": "**Lembre:**\n- CASP: controla o patrimônio público e a execução do orçamento.\n- Lei 4.320/1964, LRF e MCASP são a base.\n- Regime orçamentário: receita arrecadada (caixa) e despesa empenhada (competência).\n- Regime patrimonial: competência integral.\n- PCASP: classes 1 a 4 patrimoniais, 5 e 6 orçamentárias, 7 e 8 de controle."
+    },
+    {
+      "id": "orcamento",
+      "nome": "Orçamento público: instrumentos e princípios",
+      "resumo": "### Orçamento público\nInstrumento de **planejamento** em que se **prevê a receita** e se **fixa a despesa** de um exercício. No Brasil é **autorizativo**, com parcelas impositivas (emendas parlamentares), e aprovado por **lei**.\n\n### Os três instrumentos (CF, art. 165)\nTodos são leis de **iniciativa do Poder Executivo**.\n\n| Instrumento | Conteúdo | Vigência |\n|---|---|---|\n| **PPA** (Plano Plurianual) | **Diretrizes, objetivos e metas** da administração para as despesas de capital e os programas de duração continuada, de forma regionalizada | **4 anos**; começa no **2º ano** do mandato e vai até o 1º ano do mandato seguinte |\n| **LDO** (Lei de Diretrizes Orçamentárias) | **Metas e prioridades** para o exercício seguinte; **orienta a elaboração da LOA**; alterações na legislação tributária; política das agências de fomento | **Anual** |\n| **LOA** (Lei Orçamentária Anual) | **Estima a receita e fixa a despesa** do exercício | **Anual** |\n\n- **PPA**: planejamento **estratégico** de médio prazo.\n- **LDO**: elo entre o PPA e a LOA. A LRF acrescentou a ela o **Anexo de Metas Fiscais** e o **Anexo de Riscos Fiscais**.\n- **LOA**: compõe-se de **três orçamentos** — **fiscal**, **da seguridade social** e **de investimento** das empresas estatais.\n\n### Ciclo orçamentário\n1. **Elaboração** da proposta (Executivo).\n2. **Discussão, votação e aprovação** (Legislativo).\n3. **Execução**.\n4. **Controle e avaliação** (interno e externo).\n\n### Princípios orçamentários\n- **Unidade**: um **só orçamento** para cada ente, em cada exercício.\n- **Universalidade**: o orçamento contém **todas** as receitas e despesas.\n- **Anualidade (periodicidade)**: vale para um exercício.\n- **Exclusividade**: a LOA **não conterá matéria estranha** à previsão da receita e à fixação da despesa. Exceções: autorização para **créditos suplementares** e para **operações de crédito**, inclusive por antecipação de receita.\n- **Orçamento bruto**: receitas e despesas pelos valores **totais**, vedadas deduções.\n- **Legalidade**: aprovado por lei.\n- **Publicidade** e **transparência**.\n- **Não vinculação (não afetação) da receita de impostos**: é vedado vincular impostos a órgão, fundo ou despesa. Exceções: repartição constitucional, **saúde**, **educação**, administração tributária e garantias.\n- **Equilíbrio**: despesa fixada igual à receita prevista.\n- **Especificação (discriminação)**: receitas e despesas detalhadas; vedam-se dotações globais. Exceção: reserva de contingência.\n- **Unidade de tesouraria**: recolhimento em **conta única**.\n- **Programação**.\n\n### Créditos adicionais\nAutorizações de despesa **não computadas** ou **insuficientemente dotadas** na LOA.\n| Tipo | Finalidade | Autorização | Abertura |\n|---|---|---|---|\n| **Suplementar** | **Reforçar** dotação existente | Lei (pode ser a própria LOA) | Decreto |\n| **Especial** | Despesa **sem dotação** específica | Lei específica | Decreto |\n| **Extraordinário** | Despesas **urgentes e imprevisíveis** (guerra, comoção interna, calamidade pública) | Independe de autorização prévia | Medida provisória (União) ou decreto |\n\n- Suplementares e especiais exigem **indicação dos recursos**: **superávit financeiro** do exercício anterior, **excesso de arrecadação**, **anulação de dotações** e **operações de crédito**.\n- Os extraordinários **não** exigem indicação de recursos.\n\n### Classificação da despesa\n- **Institucional**: quem gasta — **órgão** e **unidade orçamentária**.\n- **Funcional**: em que área — **função** e **subfunção** (saúde, educação).\n- **Programática**: para quê — **programa** e **ação** (projeto, atividade ou operação especial).\n  - **Projeto**: limitado no tempo; resulta em produto que expande ou aperfeiçoa a ação do governo.\n  - **Atividade**: contínua e permanente; manutenção.\n- **Por natureza**: categoria econômica, grupo, modalidade de aplicação e elemento.\n\n### Técnicas orçamentárias\n- **Orçamento tradicional (clássico)**: foco no objeto do gasto.\n- **Orçamento de desempenho**.\n- **Orçamento-programa**: adotado no Brasil; liga os gastos a **programas, objetivos e metas**.\n- **Orçamento base zero** e **orçamento participativo**.",
+      "revisao": "**Lembre:**\n- PPA (4 anos, diretrizes, objetivos e metas), LDO (metas e prioridades; orienta a LOA) e LOA (estima receita e fixa despesa).\n- LOA: orçamentos fiscal, da seguridade e de investimento das estatais.\n- Exclusividade admite créditos suplementares e operações de crédito.\n- Créditos adicionais: suplementar (reforça), especial (cria) e extraordinário (urgência).\n- Brasil adota o orçamento-programa."
+    },
+    {
+      "id": "receita",
+      "nome": "Receita pública",
+      "resumo": "### Conceito\n- **Sentido amplo (ingressos)**: toda entrada de recursos nos cofres públicos.\n- **Receita orçamentária**: ingresso que **pertence ao ente** e pode ser usado para financiar despesas.\n- **Ingresso extraorçamentário**: recurso de **terceiros**, de caráter **transitório**, de que o Estado é mero depositário — **cauções**, **depósitos**, **consignações** em folha e **operações de crédito por antecipação de receita (ARO)**. Não depende de autorização orçamentária.\n\n### Enfoques\n- **Orçamentário**: registra-se na **arrecadação**.\n- **Patrimonial**: a **variação patrimonial aumentativa** é reconhecida no **fato gerador**. Ex.: o IPTU é reconhecido no lançamento; a arrecadação posterior é só troca de ativo.\n\n### Classificação por categoria econômica\n**Receitas correntes** — financiam, em regra, as despesas correntes:\n- **Impostos, taxas e contribuições de melhoria** (tributária).\n- **Contribuições** (sociais, de intervenção, de categorias, de iluminação pública).\n- **Patrimonial**: aluguéis, juros de aplicações, dividendos, concessões.\n- **Agropecuária**, **industrial** e **de serviços**.\n- **Transferências correntes**.\n- **Outras receitas correntes**: multas, juros de mora, indenizações.\n\n**Receitas de capital** — alteram o patrimônio duradouro:\n- **Operações de crédito**: empréstimos e emissão de títulos.\n- **Alienação de bens**.\n- **Amortização de empréstimos** concedidos (recebimento do principal).\n- **Transferências de capital**.\n- **Outras receitas de capital**.\n\nHá ainda as receitas **intraorçamentárias**: operações entre órgãos do **mesmo ente**, identificadas para evitar dupla contagem.\n\n### Codificação\nA natureza da receita detalha: **categoria econômica**, **origem**, **espécie**, desdobramentos e **tipo** (principal, multa e juros, dívida ativa).\n\n### Receita efetiva e não efetiva\n- **Efetiva**: aumenta a situação líquida patrimonial no momento do reconhecimento (em geral, as correntes).\n- **Não efetiva (por mutação)**: não altera o patrimônio líquido, pois é troca — **operação de crédito** (entra dinheiro e nasce dívida) e **alienação de bens**.\n\n### Etapas da receita\n1. **Previsão**: estimativa na LOA; a LRF exige metodologia e considera inflação, crescimento econômico e alterações legais.\n2. **Lançamento**: identifica o fato gerador, o devedor e o valor (IPTU, IPVA). Nem toda receita passa por ele.\n3. **Arrecadação**: o contribuinte **entrega** os recursos aos agentes arrecadadores (bancos).\n4. **Recolhimento**: transferência dos valores para a **conta única** do Tesouro.\n\nO regime orçamentário considera a receita **na arrecadação**.\n\n### Dívida ativa\nCréditos da Fazenda **não pagos no vencimento**, inscritos após apuração de liquidez e certeza.\n- **Tributária** (tributos e multas) e **não tributária**.\n- É um **ativo**; a inscrição dá origem à **certidão de dívida ativa**, título executivo.\n- O recebimento é **receita orçamentária** do exercício em que ocorre.\n\n### Renúncia de receita (LRF, art. 14)\nAnistia, remissão, subsídio, crédito presumido, isenção não geral e redução de alíquota. Exige **estimativa do impacto** no exercício e nos dois seguintes, atendimento à LDO e demonstração de que não afeta as metas **ou** **medidas de compensação**.\n\n### Receita corrente líquida (RCL)\nSoma das receitas correntes, deduzidas, entre outras, as **transferências constitucionais** a outros entes e as contribuições dos servidores à previdência. É a **base** dos limites da LRF (pessoal, dívida, operações de crédito). Apurada no mês de referência e nos **11 anteriores**.\n\n### Regra de ouro (CF, art. 167, III)\nÉ vedada a realização de **operações de crédito que excedam as despesas de capital**: o ente não deve endividar-se para pagar despesas correntes.\n\n### Repartição de receitas\nA União e os estados **transferem** parte dos impostos: **FPE** e **FPM** (IR e IPI), cota-parte do ICMS e do IPVA aos municípios.\n\n### Fonte ou destinação de recursos\nCódigo que liga a receita à **finalidade** em que deve ser aplicada (recursos vinculados à saúde, à educação). Controla as vinculações.\n\n### Deduções e restituições\nRestituições de tributos pagos a maior são registradas como **dedução da receita**, e não como despesa.",
+      "revisao": "**Lembre:**\n- Receita orçamentária pertence ao ente; extraorçamentária é de terceiros (cauções, depósitos).\n- Correntes: tributária, contribuições, patrimonial, serviços e transferências.\n- De capital: operações de crédito, alienação de bens e amortização de empréstimos.\n- Etapas: previsão, lançamento, arrecadação e recolhimento.\n- RCL é a base dos limites da LRF; regra de ouro: crédito não supera despesa de capital."
+    },
+    {
+      "id": "despesa",
+      "nome": "Despesa pública",
+      "resumo": "### Conceito\n- **Despesa orçamentária**: depende de **autorização legislativa** (dotação na LOA ou em crédito adicional).\n- **Dispêndio extraorçamentário**: saída que **não depende** de autorização — **devolução de cauções e depósitos**, repasse de consignações, pagamento de **restos a pagar** e resgate de ARO.\n\n### Classificação por natureza\n**Categoria econômica**\n- **Despesas correntes**: **não contribuem diretamente** para formar ou adquirir um bem de capital. Manutenção.\n- **Despesas de capital**: **contribuem** para a formação ou aquisição de bem de capital.\n\n**Grupos de natureza de despesa**\n| Correntes | De capital |\n|---|---|\n| 1 – **Pessoal e encargos sociais** | 4 – **Investimentos** |\n| 2 – **Juros e encargos da dívida** | 5 – **Inversões financeiras** |\n| 3 – **Outras despesas correntes** | 6 – **Amortização da dívida** |\n\n- **Investimentos**: **obras**, equipamentos e material permanente; **aumentam o PIB**.\n- **Inversões financeiras**: aquisição de **imóveis já em uso**, de ações e concessão de empréstimos; não aumentam o PIB.\n- **Juros** são despesa **corrente**; a **amortização** do principal é de **capital**.\n- **Modalidade de aplicação**: se a aplicação é direta ou por transferência (a outro ente, a entidades privadas).\n- **Elemento de despesa**: o objeto do gasto (vencimentos, material de consumo, diárias, obras).\n\n### Despesa efetiva e não efetiva\n- **Efetiva**: reduz o patrimônio líquido (em geral, as correntes).\n- **Não efetiva**: troca patrimonial — **investimentos** (sai dinheiro, entra bem) e **amortização da dívida**.\n\n### Etapas da despesa\n**Planejamento**: fixação na LOA, descentralização de créditos, programação financeira e **licitação**.\n\n**Execução** (Lei 4.320/1964) — três estágios:\n1. **Empenho**: ato da autoridade competente que **cria para o Estado obrigação de pagamento**, pendente ou não de condição. **Reserva** a dotação. É **prévio**: é vedada despesa sem prévio empenho. Formaliza-se na **nota de empenho**.\n   - **Ordinário**: valor **conhecido**, pagamento **de uma só vez**.\n   - **Por estimativa**: valor **não conhecido** de antemão (água, luz, telefone).\n   - **Global**: valor conhecido, pagamento **parcelado** (contratos, aluguéis).\n2. **Liquidação**: **verificação do direito adquirido pelo credor**, com base nos documentos — confere-se se o bem foi entregue ou o serviço prestado. É aqui que ocorre, em regra, o **fato gerador** da despesa.\n3. **Pagamento**: entrega do numerário ao credor, **só após a liquidação**, por ordem de pagamento.\n\nO regime orçamentário considera a despesa **no empenho**.\n\n### Restos a pagar\nDespesas **empenhadas e não pagas até 31 de dezembro**.\n- **Processados**: já **liquidados**; falta só pagar.\n- **Não processados**: empenhados, mas **não liquidados**.\n- São dívida **flutuante**; o pagamento no exercício seguinte é **extraorçamentário**.\n- **LRF, art. 42**: nos **dois últimos quadrimestres do mandato**, é vedado contrair obrigação que não possa ser paga no exercício, ou que tenha parcelas no seguinte **sem disponibilidade de caixa**.\n\n### Despesas de exercícios anteriores\nDespesas de exercícios **encerrados**, pagas à conta do orçamento **atual**: aquelas para as quais havia crédito, mas não foram processadas na época; restos a pagar com **prescrição interrompida**; e compromissos reconhecidos após o encerramento.\n\n### Suprimento de fundos (adiantamento)\nEntrega de numerário a **servidor**, sempre precedida de empenho, para despesas que **não possam aguardar o processo normal** (pequeno vulto, urgentes, sigilosas). Exige **prestação de contas**. Vedado a servidor em alcance ou com dois suprimentos pendentes.\n\n### Descentralização de créditos\n- **Provisão**: descentralização **interna** (entre unidades do mesmo órgão).\n- **Destaque**: descentralização **externa** (entre órgãos diferentes).\n- A movimentação **financeira** correspondente: **cota**, **repasse** (externo) e **sub-repasse** (interno).\n\n### Dívida pública\n- **Flutuante**: de curto prazo — restos a pagar, depósitos, serviço da dívida a pagar e débitos de tesouraria.\n- **Fundada (consolidada)**: prazo **superior a 12 meses**, para atender desequilíbrio orçamentário ou financiar obras.\n\n### Licitações e contratos\nA despesa passa, em regra, por **licitação** (Lei 14.133/2021), salvo dispensa ou inexigibilidade.\n\n### Precatórios\nPagamentos devidos pela Fazenda em virtude de **sentença judicial**; incluídos no orçamento e pagos em **ordem cronológica**.",
+      "revisao": "**Lembre:**\n- Correntes: pessoal, juros e outras; de capital: investimentos, inversões e amortização.\n- Estágios: empenho, liquidação e pagamento.\n- Empenho ordinário (uma vez), por estimativa (valor incerto) e global (parcelado).\n- Restos a pagar processados (liquidados) e não processados.\n- Juros são despesa corrente; amortização é de capital."
+    },
+    {
+      "id": "demonstracoes",
+      "nome": "Demonstrações contábeis do setor público",
+      "resumo": "### Quais são (MCASP)\n1. **Balanço Orçamentário**.\n2. **Balanço Financeiro**.\n3. **Balanço Patrimonial**.\n4. **Demonstração das Variações Patrimoniais (DVP)**.\n5. **Demonstração dos Fluxos de Caixa (DFC)**.\n6. **Demonstração das Mutações do Patrimônio Líquido (DMPL)** — obrigatória para as estatais dependentes e na consolidação.\n7. **Notas explicativas**.\n\n### Balanço Orçamentário\nConfronta as **receitas e despesas previstas com as realizadas**.\n- Receitas: previsão inicial, previsão atualizada e **receitas realizadas**.\n- Despesas: dotação inicial, dotação atualizada, despesas **empenhadas**, **liquidadas** e **pagas**.\n- **Resultado orçamentário** = receitas realizadas − despesas **empenhadas**.\n  - Receita **maior**: **superávit orçamentário**.\n  - Despesa **maior**: **déficit orçamentário**.\n- Compara-se também a **previsão com a arrecadação**: **excesso** ou **insuficiência de arrecadação**; e a **dotação com a despesa**: **economia orçamentária**.\n- Um déficit pode decorrer do uso de **superávit financeiro de exercícios anteriores**, o que não é irregular.\n\n### Balanço Financeiro\nMostra as **receitas e despesas orçamentárias** e os **recebimentos e pagamentos extraorçamentários**, conjugados com os **saldos de caixa** do exercício anterior e os que passam para o seguinte.\n\n**Ingressos**: receita orçamentária + transferências recebidas + recebimentos extraorçamentários + **saldo anterior**.\n**Dispêndios**: despesa orçamentária + transferências concedidas + pagamentos extraorçamentários + **saldo para o exercício seguinte**.\n\n- Os **restos a pagar inscritos no exercício** entram como **recebimento extraorçamentário**, para compensar a despesa empenhada e não paga.\n- **Resultado financeiro** = saldo seguinte − saldo anterior. **Não** se confunde com o superávit financeiro do balanço patrimonial.\n\n### Balanço Patrimonial\nEvidencia o **ativo**, o **passivo** e o **patrimônio líquido**, em **circulante** e **não circulante**.\n- Traz um quadro com a visão da **Lei 4.320/1964**:\n  - **Ativo financeiro**: créditos e valores realizáveis **independentemente de autorização orçamentária** (caixa, bancos).\n  - **Ativo permanente**: bens, créditos e valores cuja mobilização **depende de autorização legislativa**.\n  - **Passivo financeiro**: dívida **flutuante**, cujo pagamento independe de autorização orçamentária (restos a pagar, depósitos).\n  - **Passivo permanente**: dívida **fundada**.\n- **Superávit financeiro** = **ativo financeiro − passivo financeiro**. É **fonte de recursos** para abrir créditos adicionais no exercício seguinte.\n- **Saldo patrimonial** = ativo − passivo.\n\n### Demonstração das Variações Patrimoniais\nEvidencia as **alterações do patrimônio** e o **resultado patrimonial** do exercício.\n- **Resultado patrimonial** = **VPA − VPD**. Positivo: **superávit patrimonial**; negativo: **déficit patrimonial**.\n- VPA: impostos, contribuições, transferências recebidas, valorização de ativos.\n- VPD: pessoal, benefícios, uso de bens e serviços, **depreciação**, transferências concedidas.\n- Equivale à demonstração do resultado, mas o setor público **não visa ao lucro**: o resultado mede a variação do patrimônio, não o desempenho.\n\n### Demonstração dos Fluxos de Caixa\nEntradas e saídas de caixa em três fluxos: das **operações**, dos **investimentos** e dos **financiamentos**. Elaborada pelo método **direto**.\n\n### Quatro resultados que não se confundem\n| Resultado | Onde | Cálculo |\n|---|---|---|\n| **Orçamentário** | Balanço Orçamentário | Receita realizada − despesa empenhada |\n| **Financeiro** | Balanço Financeiro | Variação do saldo de caixa |\n| **Superávit financeiro** | Balanço Patrimonial | Ativo financeiro − passivo financeiro |\n| **Patrimonial** | DVP | VPA − VPD |\n\n### Consolidação\n- **BGU** (Balanço Geral da União) e balanços gerais dos estados e municípios.\n- **Balanço do Setor Público Nacional (BSPN)**: consolida todos os entes.\n- Excluem-se as operações **intraorçamentárias**.\n\n### Relatórios da LRF\n- **RREO** (Relatório Resumido da Execução Orçamentária): **bimestral**, de todos os Poderes, publicado pelo Executivo até 30 dias após o bimestre.\n- **RGF** (Relatório de Gestão Fiscal): **quadrimestral**, de cada Poder e órgão; mostra os limites de pessoal, dívida, garantias e operações de crédito.\n\n### Prestação de contas\nO chefe do Executivo presta contas **anualmente**; o **Tribunal de Contas** emite **parecer prévio** e o **Legislativo** julga.",
+      "revisao": "**Lembre:**\n- Balanço Orçamentário: previsto x realizado; resultado = receita realizada − despesa empenhada.\n- Balanço Financeiro: ingressos e dispêndios orçamentários e extraorçamentários, com saldos de caixa.\n- Superávit financeiro = ativo financeiro − passivo financeiro (Balanço Patrimonial).\n- DVP: resultado patrimonial = VPA − VPD.\n- RREO é bimestral; RGF é quadrimestral."
+    },
+    {
+      "id": "lrf",
+      "nome": "Lei de Responsabilidade Fiscal e controle",
+      "resumo": "### Lei Complementar 101/2000\nEstabelece normas de finanças públicas voltadas à **responsabilidade na gestão fiscal**. Vale para a **União, os estados, o Distrito Federal e os municípios**, todos os Poderes, o Ministério Público, os Tribunais de Contas, autarquias, fundações e estatais **dependentes**.\n\n### Pilares\n- **Planejamento**: PPA, LDO (com anexos de metas e de riscos fiscais) e LOA.\n- **Transparência**: divulgação ampla, inclusive em meio eletrônico e em tempo real.\n- **Controle**: limites e condições.\n- **Responsabilização**: sanções a quem descumpre.\n- Objetivo: **ação planejada e transparente**, prevenindo riscos e corrigindo desvios que afetem o **equilíbrio das contas públicas**.\n\n### Limites da despesa com pessoal\nPercentuais da **receita corrente líquida (RCL)**:\n| Ente | Limite total | Executivo | Legislativo | Judiciário | Ministério Público |\n|---|---|---|---|---|---|\n| **União** | **50%** | 40,9% | 2,5% | 6% | 0,6% |\n| **Estados** | **60%** | 49% | 3% | 6% | 2% |\n| **Municípios** | **60%** | **54%** | **6%** | — | — |\n\n- **Limite de alerta**: 90% do limite — o Tribunal de Contas **alerta**.\n- **Limite prudencial**: **95%** do limite — ficam vedados aumentos, criação de cargos, admissões (salvo reposição em saúde, educação e segurança) e horas extras.\n- **Excedido o limite**: o excesso deve ser eliminado nos **dois quadrimestres** seguintes, ao menos um terço no primeiro. Medidas da Constituição (art. 169): reduzir em ao menos **20% os cargos em comissão**, exonerar **não estáveis** e, se preciso, **estáveis**.\n- Sem ajuste: o ente fica impedido de receber **transferências voluntárias**, obter garantias e contratar **operações de crédito**.\n- É nulo o ato que aumente a despesa com pessoal nos **180 dias** anteriores ao fim do mandato.\n\n### Geração de despesa\n- **Despesa obrigatória de caráter continuado**: fixada por lei, com execução por **mais de dois exercícios**. Exige estimativa do impacto e demonstração da **origem dos recursos**, com compensação por aumento permanente de receita ou redução permanente de despesa.\n- Toda criação de despesa exige **estimativa do impacto orçamentário-financeiro** e declaração de adequação à LOA, à LDO e ao PPA.\n\n### Dívida e endividamento\n- **Limites** fixados pelo **Senado Federal**: a dívida consolidada líquida não pode passar de **2 vezes a RCL** nos estados e de **1,2 vez** nos municípios.\n- **Operações de crédito**: dependem de autorização legal e de verificação pelo Ministério da Fazenda.\n- **ARO** (antecipação de receita orçamentária): para insuficiência de caixa; deve ser quitada até **10 de dezembro**; **proibida no último ano do mandato**.\n- **Vedações**: operação de crédito **entre entes** da Federação; e entre instituição financeira estatal e o ente que a controla.\n- **Regra de ouro**: operações de crédito não superam as despesas de capital.\n\n### Outras regras\n- **Limitação de empenho (contingenciamento)**: se a receita não comportar as metas de resultado, limita-se o empenho nos 30 dias seguintes ao bimestre. Não atinge despesas obrigatórias.\n- **Reserva de contingência**: dotação para passivos contingentes e riscos fiscais.\n- **Art. 42**: restos a pagar no fim do mandato.\n- **Transferências voluntárias**: exigem que o ente esteja em dia e cumpra os limites; não podem ser suspensas as de saúde, educação e assistência social.\n- **Receita de alienação de bens** não pode financiar despesa **corrente**, salvo previdência.\n\n### Transparência\nInstrumentos: planos, orçamentos, LDO, **prestações de contas e parecer prévio**, **RREO** e **RGF**. Exige **audiências públicas** e **portais da transparência**, com informações em tempo real (LC 131/2009). Complementada pela **Lei de Acesso à Informação**.\n\n### Controle\n- **Interno**: de cada Poder; no Executivo federal, a **CGU**.\n- **Externo**: do **Poder Legislativo**, com auxílio dos **Tribunais de Contas**.\n- **Social**: cidadãos, conselhos e audiências.\n- **Tomada de contas especial**: apura responsabilidade por dano ao erário.\n\n### Sanções\n- **Institucionais**: suspensão de transferências voluntárias, de garantias e de operações de crédito.\n- **Pessoais**: a **Lei de Crimes Fiscais** (Lei 10.028/2000) prevê penas; também improbidade administrativa e inelegibilidade.\n\n### Regime fiscal\nO **Regime Fiscal Sustentável** (Lei Complementar 200/2023, o \"arcabouço fiscal\") substituiu o teto de gastos: limita o **crescimento real da despesa** a uma parcela do crescimento da receita e fixa metas de **resultado primário**.\n- **Resultado primário**: receitas menos despesas, **sem juros**.\n- **Resultado nominal**: inclui os **juros**.",
+      "revisao": "**Lembre:**\n- LRF: planejamento, transparência, controle e responsabilização.\n- Pessoal: 50% da RCL na União; 60% em estados e municípios (54% Executivo e 6% Legislativo municipais).\n- Limite prudencial: 95% do limite.\n- ARO: quitar até 10 de dezembro; proibida no último ano do mandato.\n- Controle externo: Legislativo com o Tribunal de Contas."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "contabilidade-publica-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Pelo regime orçamentário da Lei 4.320/1964, pertencem ao exercício financeiro:",
+      "opcoes": [
+        "As receitas nele arrecadadas e as despesas nele empenhadas",
+        "As receitas lançadas e as despesas pagas",
+        "As receitas previstas e as despesas fixadas",
+        "Somente as receitas e despesas pagas em dinheiro"
+      ],
+      "correta": 0,
+      "explicacao": "Esse critério vale para o orçamento; o patrimônio segue o regime de competência integral."
+    },
+    {
+      "id": "contabilidade-publica-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "O objeto da contabilidade aplicada ao setor público é:",
+      "opcoes": [
+        "O lucro das empresas estatais",
+        "O patrimônio público",
+        "A folha de pagamento",
+        "O mercado de capitais"
+      ],
+      "correta": 1,
+      "explicacao": "Ela também controla a execução do orçamento e apoia a prestação de contas."
+    },
+    {
+      "id": "contabilidade-publica-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "No plano de contas do setor público, as classes 3 e 4 registram, respectivamente:",
+      "opcoes": [
+        "Ativo e passivo",
+        "Controles devedores e credores",
+        "Variações patrimoniais diminutivas e aumentativas",
+        "Receita prevista e despesa fixada"
+      ],
+      "correta": 2,
+      "explicacao": "A diferença entre elas forma o resultado patrimonial do exercício."
+    },
+    {
+      "id": "contabilidade-publica-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma prefeitura compra um veículo à vista, pagando com recursos do caixa. Do ponto de vista patrimonial, ocorre uma variação:",
+      "opcoes": [
+        "Aumentativa",
+        "Diminutiva",
+        "Extraorçamentária",
+        "Qualitativa, pois troca um ativo por outro sem alterar o patrimônio líquido"
+      ],
+      "correta": 3,
+      "explicacao": "O dinheiro sai, mas entra um bem de valor equivalente."
+    },
+    {
+      "id": "contabilidade-publica-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que a contabilidade pública passou a adotar o regime de competência para o patrimônio, além do controle orçamentário?",
+      "opcoes": [
+        "Para evidenciar ativos, passivos e variações no momento do fato gerador, e não só o que foi arrecadado e empenhado",
+        "Para deixar de controlar o orçamento",
+        "Porque a Lei 4.320 foi revogada",
+        "Para apurar o lucro dos entes públicos"
+      ],
+      "correta": 0,
+      "explicacao": "Sem isso, obrigações e direitos ainda não pagos ou recebidos ficariam fora das demonstrações."
+    },
+    {
+      "id": "contabilidade-publica-6",
+      "topico": "orcamento",
+      "nivel": "conceitual",
+      "pergunta": "O instrumento que estabelece as diretrizes, os objetivos e as metas da administração para quatro anos é:",
+      "opcoes": [
+        "A Lei de Diretrizes Orçamentárias",
+        "O Plano Plurianual",
+        "A Lei Orçamentária Anual",
+        "O Relatório de Gestão Fiscal"
+      ],
+      "correta": 1,
+      "explicacao": "Ele começa a valer no segundo ano do mandato e vai até o primeiro do mandato seguinte."
+    },
+    {
+      "id": "contabilidade-publica-7",
+      "topico": "orcamento",
+      "nivel": "conceitual",
+      "pergunta": "A Lei Orçamentária Anual compreende os orçamentos:",
+      "opcoes": [
+        "Corrente, de capital e extraordinário",
+        "Federal, estadual e municipal",
+        "Fiscal, da seguridade social e de investimento das estatais",
+        "Do Executivo, do Legislativo e do Judiciário"
+      ],
+      "correta": 2,
+      "explicacao": "Os três integram uma única lei, em atenção ao princípio da unidade."
+    },
+    {
+      "id": "contabilidade-publica-8",
+      "topico": "orcamento",
+      "nivel": "conceitual",
+      "pergunta": "O crédito adicional destinado a reforçar uma dotação já existente no orçamento é o:",
+      "opcoes": [
+        "Especial",
+        "Extraordinário",
+        "Ordinário",
+        "Suplementar"
+      ],
+      "correta": 3,
+      "explicacao": "O crédito especial atende a despesas para as quais não havia dotação específica."
+    },
+    {
+      "id": "contabilidade-publica-9",
+      "topico": "orcamento",
+      "nivel": "aplicacao",
+      "pergunta": "Uma enchente destrói bairros de um município, que precisa realizar despesas urgentes e imprevisíveis. O crédito adicional adequado é o:",
+      "opcoes": [
+        "Extraordinário",
+        "Suplementar",
+        "Especial",
+        "Global"
+      ],
+      "correta": 0,
+      "explicacao": "Ele dispensa autorização legislativa prévia e indicação da fonte de recursos."
+    },
+    {
+      "id": "contabilidade-publica-10",
+      "topico": "orcamento",
+      "nivel": "analise",
+      "pergunta": "Por que o princípio da exclusividade proíbe que a lei orçamentária trate de matérias estranhas ao orçamento?",
+      "opcoes": [
+        "Para impedir a abertura de créditos suplementares",
+        "Para evitar que assuntos sem relação com receitas e despesas sejam aprovados de carona na lei orçamentária",
+        "Para reduzir o número de leis",
+        "Para dispensar a aprovação pelo Legislativo"
+      ],
+      "correta": 1,
+      "explicacao": "As exceções são a autorização para créditos suplementares e para operações de crédito."
+    },
+    {
+      "id": "contabilidade-publica-11",
+      "topico": "receita",
+      "nivel": "conceitual",
+      "pergunta": "É exemplo de receita de capital:",
+      "opcoes": [
+        "O imposto sobre serviços",
+        "O aluguel de imóvel público",
+        "A operação de crédito",
+        "A multa de trânsito"
+      ],
+      "correta": 2,
+      "explicacao": "Tributos, receitas patrimoniais e multas são receitas correntes."
+    },
+    {
+      "id": "contabilidade-publica-12",
+      "topico": "receita",
+      "nivel": "conceitual",
+      "pergunta": "A etapa da receita em que o contribuinte entrega os recursos aos agentes arrecadadores é a:",
+      "opcoes": [
+        "Previsão",
+        "Lançamento",
+        "Recolhimento",
+        "Arrecadação"
+      ],
+      "correta": 3,
+      "explicacao": "O recolhimento vem depois, com a transferência dos valores à conta única do Tesouro."
+    },
+    {
+      "id": "contabilidade-publica-13",
+      "topico": "receita",
+      "nivel": "conceitual",
+      "pergunta": "Cauções e depósitos de terceiros recebidos pelo ente público são classificados como:",
+      "opcoes": [
+        "Ingressos extraorçamentários",
+        "Receitas correntes",
+        "Receitas de capital",
+        "Dívida ativa"
+      ],
+      "correta": 0,
+      "explicacao": "São recursos transitórios, de que o Estado é apenas depositário."
+    },
+    {
+      "id": "contabilidade-publica-14",
+      "topico": "receita",
+      "nivel": "aplicacao",
+      "pergunta": "Um município obtém empréstimo bancário de longo prazo para construir uma escola. Sob o enfoque patrimonial, essa receita é:",
+      "opcoes": [
+        "Efetiva, pois aumenta o patrimônio líquido",
+        "Não efetiva, pois o ingresso de dinheiro é compensado pelo surgimento de uma dívida",
+        "Extraorçamentária",
+        "Corrente"
+      ],
+      "correta": 1,
+      "explicacao": "Há apenas uma troca: aumenta o ativo e, na mesma medida, o passivo."
+    },
+    {
+      "id": "contabilidade-publica-15",
+      "topico": "receita",
+      "nivel": "analise",
+      "pergunta": "Qual é a finalidade da chamada regra de ouro das finanças públicas?",
+      "opcoes": [
+        "Proibir qualquer operação de crédito",
+        "Garantir aumento anual da arrecadação",
+        "Impedir que o ente se endivide para pagar despesas correntes",
+        "Vincular os impostos à saúde"
+      ],
+      "correta": 2,
+      "explicacao": "As operações de crédito não podem exceder o montante das despesas de capital."
+    },
+    {
+      "id": "contabilidade-publica-16",
+      "topico": "despesa",
+      "nivel": "conceitual",
+      "pergunta": "O estágio da despesa em que se verifica o direito adquirido pelo credor, com base nos documentos, é:",
+      "opcoes": [
+        "O empenho",
+        "O pagamento",
+        "A fixação",
+        "A liquidação"
+      ],
+      "correta": 3,
+      "explicacao": "É nele que se confere a entrega do bem ou a prestação do serviço."
+    },
+    {
+      "id": "contabilidade-publica-17",
+      "topico": "despesa",
+      "nivel": "conceitual",
+      "pergunta": "As despesas com obras públicas e aquisição de equipamentos são classificadas no grupo:",
+      "opcoes": [
+        "Investimentos",
+        "Outras despesas correntes",
+        "Inversões financeiras",
+        "Pessoal e encargos sociais"
+      ],
+      "correta": 0,
+      "explicacao": "As inversões financeiras abrangem a compra de imóveis já em uso e a concessão de empréstimos."
+    },
+    {
+      "id": "contabilidade-publica-18",
+      "topico": "despesa",
+      "nivel": "conceitual",
+      "pergunta": "Restos a pagar processados são despesas:",
+      "opcoes": [
+        "Empenhadas e não liquidadas",
+        "Empenhadas e liquidadas, mas não pagas até 31 de dezembro",
+        "Pagas antes do empenho",
+        "Não empenhadas"
+      ],
+      "correta": 1,
+      "explicacao": "Os não processados foram apenas empenhados, sem liquidação."
+    },
+    {
+      "id": "contabilidade-publica-19",
+      "topico": "despesa",
+      "nivel": "aplicacao",
+      "pergunta": "Para pagar a conta de energia elétrica do ano, cujo valor mensal não é conhecido de antemão, a prefeitura deve emitir empenho:",
+      "opcoes": [
+        "Ordinário",
+        "Global",
+        "Por estimativa",
+        "Extraordinário"
+      ],
+      "correta": 2,
+      "explicacao": "O empenho global é usado quando o valor total é conhecido e o pagamento é parcelado."
+    },
+    {
+      "id": "contabilidade-publica-20",
+      "topico": "despesa",
+      "nivel": "analise",
+      "pergunta": "Por que a lei proíbe a realização de despesa sem prévio empenho?",
+      "opcoes": [
+        "Porque o empenho substitui a licitação",
+        "Porque o empenho é o pagamento ao credor",
+        "Porque o empenho dispensa a liquidação",
+        "Porque o empenho reserva a dotação e garante que há crédito orçamentário para a obrigação"
+      ],
+      "correta": 3,
+      "explicacao": "Sem a reserva, o gestor poderia assumir compromissos acima do autorizado no orçamento."
+    },
+    {
+      "id": "contabilidade-publica-21",
+      "topico": "demonstracoes",
+      "nivel": "conceitual",
+      "pergunta": "O resultado orçamentário é apurado pelo confronto entre:",
+      "opcoes": [
+        "Receitas realizadas e despesas empenhadas",
+        "Ativo financeiro e passivo financeiro",
+        "Variações aumentativas e diminutivas",
+        "Saldo inicial e saldo final de caixa"
+      ],
+      "correta": 0,
+      "explicacao": "Ele é evidenciado no Balanço Orçamentário."
+    },
+    {
+      "id": "contabilidade-publica-22",
+      "topico": "demonstracoes",
+      "nivel": "conceitual",
+      "pergunta": "O superávit financeiro, fonte para abertura de créditos adicionais, é calculado no:",
+      "opcoes": [
+        "Balanço Orçamentário, pela diferença entre receita e despesa",
+        "Balanço Patrimonial, pela diferença entre ativo financeiro e passivo financeiro",
+        "Balanço Financeiro, pela variação do caixa",
+        "Demonstrativo das variações patrimoniais"
+      ],
+      "correta": 1,
+      "explicacao": "Ele se refere ao exercício anterior e pode financiar créditos suplementares e especiais."
+    },
+    {
+      "id": "contabilidade-publica-23",
+      "topico": "demonstracoes",
+      "nivel": "conceitual",
+      "pergunta": "O Relatório Resumido da Execução Orçamentária é publicado com periodicidade:",
+      "opcoes": [
+        "Quadrimestral",
+        "Anual",
+        "Bimestral",
+        "Mensal"
+      ],
+      "correta": 2,
+      "explicacao": "O Relatório de Gestão Fiscal, por sua vez, é quadrimestral."
+    },
+    {
+      "id": "contabilidade-publica-24",
+      "topico": "demonstracoes",
+      "nivel": "aplicacao",
+      "pergunta": "Em um exercício, as variações patrimoniais aumentativas somaram R$ 900 mil e as diminutivas, R$ 1 milhão. O resultado patrimonial foi de:",
+      "opcoes": [
+        "Superávit de R$ 100 mil",
+        "Superávit de R$ 1,9 milhão",
+        "Resultado nulo",
+        "Déficit de R$ 100 mil"
+      ],
+      "correta": 3,
+      "explicacao": "O resultado patrimonial é a diferença entre as variações aumentativas e as diminutivas."
+    },
+    {
+      "id": "contabilidade-publica-25",
+      "topico": "demonstracoes",
+      "nivel": "analise",
+      "pergunta": "Por que os restos a pagar inscritos no exercício aparecem como recebimento extraorçamentário no Balanço Financeiro?",
+      "opcoes": [
+        "Para compensar a despesa orçamentária registrada pelo empenho, que ainda não saiu do caixa",
+        "Porque representam dinheiro recebido de terceiros",
+        "Porque são receitas de capital",
+        "Porque reduzem o saldo de caixa"
+      ],
+      "correta": 0,
+      "explicacao": "É um artifício para que o balanço feche com o saldo de caixa efetivo."
+    },
+    {
+      "id": "contabilidade-publica-26",
+      "topico": "lrf",
+      "nivel": "conceitual",
+      "pergunta": "Nos municípios, o limite total da despesa com pessoal, em relação à receita corrente líquida, é de:",
+      "opcoes": [
+        "50%",
+        "60%",
+        "54%",
+        "95%"
+      ],
+      "correta": 1,
+      "explicacao": "Desse total, 54% cabem ao Executivo e 6% ao Legislativo municipal."
+    },
+    {
+      "id": "contabilidade-publica-27",
+      "topico": "lrf",
+      "nivel": "conceitual",
+      "pergunta": "O limite prudencial da despesa com pessoal corresponde a:",
+      "opcoes": [
+        "90% do limite máximo",
+        "100% da receita corrente líquida",
+        "95% do limite máximo",
+        "50% do limite máximo"
+      ],
+      "correta": 2,
+      "explicacao": "Ao atingi-lo, o órgão fica impedido de conceder aumentos e criar cargos."
+    },
+    {
+      "id": "contabilidade-publica-28",
+      "topico": "lrf",
+      "nivel": "conceitual",
+      "pergunta": "O controle externo da administração pública é exercido:",
+      "opcoes": [
+        "Pelo próprio órgão fiscalizado",
+        "Pela Controladoria-Geral da União",
+        "Pelo Banco Central",
+        "Pelo Poder Legislativo, com o auxílio do Tribunal de Contas"
+      ],
+      "correta": 3,
+      "explicacao": "O controle interno é mantido por cada Poder dentro da sua estrutura."
+    },
+    {
+      "id": "contabilidade-publica-29",
+      "topico": "lrf",
+      "nivel": "aplicacao",
+      "pergunta": "Um prefeito, no último ano do mandato, pretende contratar operação de crédito por antecipação de receita para cobrir falta de caixa. Pela LRF, essa operação é:",
+      "opcoes": [
+        "Proibida no último ano do mandato",
+        "Permitida sem restrições",
+        "Permitida se aprovada pelos vereadores",
+        "Obrigatória"
+      ],
+      "correta": 0,
+      "explicacao": "A vedação evita que dívidas sejam transferidas ao sucessor."
+    },
+    {
+      "id": "contabilidade-publica-30",
+      "topico": "lrf",
+      "nivel": "analise",
+      "pergunta": "Por que a LRF restringe a assunção de obrigações nos dois últimos quadrimestres do mandato?",
+      "opcoes": [
+        "Para aumentar os investimentos no fim do mandato",
+        "Para impedir que o gestor deixe dívidas sem recursos em caixa para o sucessor pagar",
+        "Para proibir o pagamento de salários",
+        "Para reduzir a arrecadação"
+      ],
+      "correta": 1,
+      "explicacao": "A regra do artigo 42 exige disponibilidade de caixa para as despesas contraídas nesse período."
+    }
+  ]
+}
