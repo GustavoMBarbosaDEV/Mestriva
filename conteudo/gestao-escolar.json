@@ -1,0 +1,465 @@
+{
+  "id": "gestao-escolar",
+  "nome": "Gestão Escolar",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "Administração e gestão escolar",
+      "resumo": "### De administração a gestão\n- **Administração escolar** (visão clássica): inspirada na administração de empresas (Taylor, Fayol), com hierarquia rígida, controle e foco na **eficiência**. Autores pioneiros no Brasil: José Querino Ribeiro, Anísio Teixeira, Lourenço Filho.\n- **Gestão escolar**: conceito mais amplo, ligado à **participação**, à **autonomia** e ao **trabalho coletivo**. Considera a especificidade da escola, cujo \"produto\" é a formação humana.\n- **Heloísa Lück**: a gestão é um enfoque de **mobilização** de pessoas e de articulação das dimensões da escola em torno da aprendizagem dos alunos.\n- **Vitor Paro**: a administração escolar deve ser **mediação** para os fins educativos; critica transpor a lógica empresarial para a escola e defende a **gestão democrática** (*Gestão democrática da escola pública*).\n\n### Concepções (José Carlos Libâneo)\n| Concepção | Características |\n|---|---|\n| **Técnico-científica** | Hierarquia, normas, divisão de tarefas, eficiência |\n| **Autogestionária** | Decisões coletivas, sem hierarquia; recusa normas externas |\n| **Interpretativa** | Valoriza significados, cultura e relações subjetivas |\n| **Democrático-participativa** | Decisões coletivas, mas com **responsabilidades definidas**, coordenação e avaliação |\nLibâneo defende a **democrático-participativa**.\n\n### Dimensões da gestão (Lück)\n- **Pedagógica**: currículo, ensino e aprendizagem (a central).\n- **Administrativa**: recursos, documentação, rotina, patrimônio.\n- **Financeira**: planejamento e prestação de contas dos recursos.\n- **De pessoas**: equipe, formação continuada, clima.\n- **Democrática e participativa**: comunidade, colegiados.\n- **Resultados educacionais** e **cultura e clima organizacional**.\n\n### Equipe gestora\n**Diretor(a)**, **vice-diretor(a)**, **coordenador(a) pedagógico(a)** e, em algumas redes, **orientador(a) educacional** e **secretário(a) escolar**. A coordenação cuida da formação dos professores e do acompanhamento pedagógico; a orientação educacional cuida do desenvolvimento do aluno e da relação com as famílias.",
+      "revisao": "**Lembre:** gestão é mais ampla que administração: participação, autonomia e foco na aprendizagem. Libâneo defende a concepção democrático-participativa; Paro critica a lógica empresarial; a dimensão pedagógica é a central."
+    },
+    {
+      "id": "democratica",
+      "nome": "Gestão democrática",
+      "resumo": "### Base legal\n- **Constituição Federal**, art. 206, VI: \"gestão democrática do ensino público, na forma da lei\".\n- **LDB**, art. 14: os sistemas definirão as normas da gestão democrática conforme os princípios:\n  I. **participação dos profissionais da educação** na elaboração do **projeto pedagógico** da escola;\n  II. **participação das comunidades escolar e local** em **conselhos escolares** ou equivalentes.\n- **LDB**, art. 15: progressivos graus de **autonomia pedagógica, administrativa e de gestão financeira**.\n- **PNE** (Lei 13.005/2014), **meta 19**: efetivar a gestão democrática, associando **critérios técnicos de mérito e desempenho** à **consulta pública à comunidade escolar** para a nomeação de diretores.\n- A gestão democrática vale para o **ensino público**; nas escolas privadas não é exigência constitucional.\n\n### Instrumentos de participação\n- **Conselho escolar**: órgão **colegiado** com representantes de todos os segmentos (direção, professores, funcionários, pais, alunos e comunidade). Funções: **deliberativa**, **consultiva**, **fiscal** e **mobilizadora**.\n- **Projeto político-pedagógico (PPP)** construído coletivamente.\n- **Grêmio estudantil**: organização dos estudantes, assegurada pela **Lei 7.398/1985**.\n- **Associação de pais e mestres (APM)** ou caixa escolar: entidade que pode receber e gerir recursos.\n- **Conselho de classe**: avaliação coletiva do processo de ensino e aprendizagem.\n\n### Escolha do diretor\nFormas: **indicação política**, **concurso**, **eleição**, **processos mistos** (seleção técnica + consulta à comunidade). A indicação puramente política é a mais criticada.\n\n### Participação real x formal\nParticipação **formal**: os colegiados existem só no papel ou apenas referendam decisões prontas. Participação **real**: a comunidade influencia de fato as decisões.",
+      "revisao": "**Lembre:** gestão democrática do ensino público está na CF (art. 206) e na LDB (arts. 14 e 15): professores no PPP e comunidade nos conselhos. PNE meta 19: mérito + consulta para diretores. Grêmio: Lei 7.398/1985."
+    },
+    {
+      "id": "ppp",
+      "nome": "Projeto político-pedagógico e planejamento",
+      "resumo": "### Projeto político-pedagógico (PPP)\n- Previsto na LDB (arts. 12, 13 e 14) como **proposta pedagógica** elaborada e executada pela escola, com participação dos docentes.\n- **Político**: compromisso com uma formação cidadã e com um projeto de sociedade.\n- **Pedagógico**: define as ações educativas para cumprir esse compromisso.\n- **Ilma Passos Veiga**: o PPP é construído **coletivamente**, é a **identidade** da escola e deve ser vivido, não só arquivado.\n\n### Marcos (partes) do PPP\n- **Marco situacional** (diagnóstico): onde estamos? realidade da escola e da comunidade.\n- **Marco conceitual (doutrinal)**: o que queremos? concepções de sociedade, ser humano, educação.\n- **Marco operativo** (programação): como chegar lá? ações, metas, responsáveis, prazos, avaliação.\n\n### Incumbências da escola (LDB, art. 12)\nElaborar e executar a proposta pedagógica; administrar pessoal e recursos; cumprir os **dias letivos e as horas-aula**; zelar pelo cumprimento do plano de trabalho docente; prover a **recuperação**; **articular-se com as famílias**; **informar pais e responsáveis** sobre frequência e rendimento; notificar o **Conselho Tutelar** sobre faltas acima de **30% do percentual permitido**; promover medidas de **combate à violência**, ao *bullying* e de **cultura de paz**.\n\n### Incumbências dos docentes (LDB, art. 13)\nParticipar da elaboração da proposta pedagógica; elaborar e cumprir o **plano de trabalho**; zelar pela aprendizagem; estabelecer **estratégias de recuperação**; ministrar os dias letivos; participar do planejamento, da avaliação e do **desenvolvimento profissional**; colaborar com a articulação com as famílias.\n\n### Níveis de planejamento\n**Planejamento educacional** (sistema) → **planejamento escolar** (PPP, plano de gestão) → **plano de ensino** (componente, ano) → **plano de aula**.\n\n### Regimento escolar\nDocumento **normativo**: organização, direitos e deveres, regras de convivência e de avaliação. O PPP diz **para onde** a escola vai; o regimento diz as **regras** de funcionamento.",
+      "revisao": "**Lembre:** PPP = identidade da escola, construída coletivamente (Veiga), com marcos situacional, conceitual e operativo. Regimento traz as regras. A escola notifica o Conselho Tutelar quando as faltas passam de 30% do permitido."
+    },
+    {
+      "id": "financas",
+      "nome": "Financiamento e recursos da escola",
+      "resumo": "### Vinculação constitucional (CF, art. 212)\n- **União**: mínimo de **18%** da receita de impostos em manutenção e desenvolvimento do ensino (**MDE**).\n- **Estados, DF e municípios**: mínimo de **25%**.\n- **Salário-educação** (art. 212, § 5º): contribuição social das empresas, fonte adicional da educação básica pública.\n\n### Fundeb\n- **Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação**.\n- Tornou-se **permanente** com a **EC 108/2020**, regulamentado pela **Lei 14.113/2020**.\n- Um fundo **por estado**, formado por parte de impostos de estados e municípios; a **complementação da União** sobe gradualmente até **23%** (em 2026).\n- Distribuição pelo número de **matrículas** (Censo Escolar), com pesos por etapa e modalidade.\n- Pelo menos **70%** de cada fundo vai para a **remuneração** dos profissionais da educação básica em efetivo exercício.\n- Fiscalização por **conselhos de acompanhamento e controle social (CACS)**.\n\n### Programas do FNDE\n- **PDDE** (Programa Dinheiro Direto na Escola): repassa recursos **diretamente** à escola, por meio da **unidade executora** (APM, caixa escolar, conselho escolar). Exige **prestação de contas**.\n- **PNAE**: alimentação escolar; pelo menos **30%** dos recursos repassados pelo FNDE (Lei 11.947/2009) para compra da **agricultura familiar**.\n- **PNLD**: livros didáticos.\n- **PNATE** e Caminho da Escola: transporte escolar.\n\n### Gestão dos recursos na escola\n- Planejar o uso a partir das prioridades do **PPP**.\n- Decidir com o **conselho escolar**.\n- **Prestar contas** com transparência à comunidade e aos órgãos de controle.\n- Seguir as regras de compras (pesquisa de preços).",
+      "revisao": "**Lembre:** CF art. 212: União 18%, estados e municípios 25% em MDE. Fundeb permanente (EC 108/2020), 70% para remuneração. PDDE vai direto à escola pela unidade executora, com prestação de contas."
+    },
+    {
+      "id": "pessoas",
+      "nome": "Liderança, pessoas e clima escolar",
+      "resumo": "### Liderança do gestor\n- **Liderança pedagógica** (instrucional): o diretor foca na **aprendizagem**, acompanha o ensino, apoia os professores e usa **dados** para decidir.\n- **Liderança compartilhada (distribuída)**: responsabilidades divididas com coordenadores, professores e colegiados.\n- Estilos clássicos: **autocrático** (decide sozinho), **democrático** (participação), **laissez-faire** (omissão; deixa fazer).\n\n### Coordenação pedagógica\n- Responsável pela **formação continuada em serviço** dos professores (horas de trabalho pedagógico coletivo, HTPC ou ATPC).\n- Acompanha o planejamento, as aulas e os resultados; articula o PPP.\n- Deve ser **articuladora, formadora e transformadora**, e não \"apagadora de incêndios\" ou fiscal burocrático (Vera Placco e Laurinda Almeida).\n\n### Clima e cultura organizacional\n- **Cultura**: valores, crenças e práticas compartilhadas que dão identidade à escola.\n- **Clima**: percepção das pessoas sobre o ambiente (relações, confiança, segurança).\n- Um clima positivo favorece a aprendizagem e reduz a **rotatividade** de professores.\n\n### Mediação de conflitos e convivência\n- Estratégias: **mediação de conflitos**, **círculos restaurativos** (justiça restaurativa), **assembleias** escolares, regras construídas com os alunos.\n- **Lei 13.185/2015**: Programa de Combate à Intimidação Sistemática (*bullying*).\n- **Lei 14.811/2024**: tipifica o crime de **intimidação sistemática** (*bullying* e *cyberbullying*) no Código Penal e trata da proteção de crianças e adolescentes nas escolas.\n- **Lei 15.100/2025**: restringe o uso de **celulares** por estudantes nas escolas da educação básica, inclusive no recreio (com exceções pedagógicas, de acessibilidade, saúde e direitos fundamentais).\n\n### Valorização profissional\nLDB, art. 67: ingresso por **concurso**, plano de carreira, **piso salarial**, formação continuada, **período reservado** a estudos e planejamento incluído na carga horária. Lei do Piso (Lei 11.738/2008): no máximo **2/3** da jornada em interação com os alunos.",
+      "revisao": "**Lembre:** liderança pedagógica foca a aprendizagem; coordenação é formadora, não apagadora de incêndios. Clima positivo ajuda a aprender. Bullying: Lei 13.185/2015 e crime pela Lei 14.811/2024. Celular restrito: Lei 15.100/2025. Lei do Piso: até 2/3 com alunos."
+    },
+    {
+      "id": "legislacao",
+      "nome": "Organização da educação básica",
+      "resumo": "### Níveis e etapas (LDB, art. 21)\n- **Educação básica**: educação **infantil** (creche: 0 a 3 anos; pré-escola: 4 e 5 anos), ensino **fundamental** (9 anos: anos iniciais e finais) e ensino **médio**.\n- **Educação superior**.\n\n### Obrigatoriedade (CF, art. 208, I, com a EC 59/2009)\nEducação básica **obrigatória e gratuita dos 4 aos 17 anos**. A **creche** não é obrigatória para a família, mas é **direito** da criança e dever do Estado oferecer (STF, Tema 548).\n\n### Carga horária (LDB, art. 24)\n- Mínimo de **800 horas** anuais em **200 dias** letivos no fundamental e no médio.\n- No ensino médio, a carga anual deve ser ampliada progressivamente para **1.000 horas**; a Lei 14.945/2024 fixou **3.000 horas** totais, com **2.400** de formação geral básica (ou **2.100** quando houver itinerário técnico).\n\n### Modalidades\n**Educação especial**, **educação de jovens e adultos (EJA)**, **educação profissional e tecnológica**, **educação do campo**, **educação escolar indígena**, **educação escolar quilombola**, **educação a distância** e **educação bilíngue de surdos**.\n\n### Organização dos sistemas (regime de colaboração, CF art. 211)\n- **Municípios**: atuação prioritária no **ensino fundamental** e na **educação infantil**.\n- **Estados e DF**: prioridade no **ensino fundamental** e no **médio**.\n- **União**: organiza o sistema federal, tem função **redistributiva e supletiva** e coordena a política nacional.\n\n### Documentos e órgãos\n- **BNCC**: define as **aprendizagens essenciais** (competências e habilidades); os currículos das redes e os PPPs a seguem.\n- **Conselho Nacional de Educação (CNE)**, conselhos estaduais e municipais: função **normativa**.\n- **Censo Escolar** (Inep): base de matrículas para o Fundeb.\n- **ECA**: dever de comunicar ao **Conselho Tutelar** casos de **maus-tratos**, faltas reiteradas e evasão (art. 56).",
+      "revisao": "**Lembre:** educação obrigatória dos 4 aos 17 anos. 800 horas em 200 dias letivos. Municípios cuidam da infantil e do fundamental; estados, do fundamental e do médio; União, função redistributiva e supletiva. BNCC traz as aprendizagens essenciais."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "gestao-escolar-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Na classificação de Libâneo, a concepção de gestão que combina decisões coletivas com responsabilidades definidas e coordenação é a:",
+      "opcoes": [
+        "Democrático-participativa",
+        "Técnico-científica",
+        "Autogestionária",
+        "Interpretativa"
+      ],
+      "correta": 0,
+      "explicacao": "Libâneo defende essa concepção, que une participação e organização com papéis claros."
+    },
+    {
+      "id": "gestao-escolar-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Vitor Paro é conhecido por:",
+      "opcoes": [
+        "Defender a escola como empresa voltada ao lucro",
+        "Criticar a transposição da lógica empresarial para a escola e defender a gestão democrática",
+        "Criar a taxonomia dos objetivos educacionais",
+        "Propor o método fônico de alfabetização"
+      ],
+      "correta": 1,
+      "explicacao": "Para Paro, a administração escolar deve servir aos fins educativos, e não à lógica de mercado."
+    },
+    {
+      "id": "gestao-escolar-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Entre as dimensões da gestão escolar, qual é considerada a central, pois dá sentido às demais?",
+      "opcoes": [
+        "A financeira",
+        "A patrimonial",
+        "A pedagógica",
+        "A de marketing"
+      ],
+      "correta": 2,
+      "explicacao": "A razão de ser da escola é a aprendizagem, por isso a gestão pedagógica orienta as outras dimensões."
+    },
+    {
+      "id": "gestao-escolar-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "O diretor decide sozinho o calendário, as regras e o uso dos recursos, e a equipe só cumpre ordens. Essa prática se aproxima de qual concepção?",
+      "opcoes": [
+        "Democrático-participativa",
+        "Autogestionária",
+        "Interpretativa",
+        "Técnico-científica"
+      ],
+      "correta": 3,
+      "explicacao": "Hierarquia rígida e centralização das decisões caracterizam a concepção técnico-científica."
+    },
+    {
+      "id": "gestao-escolar-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Por que a escola não deve ser administrada exatamente como uma empresa?",
+      "opcoes": [
+        "Porque seu fim é a formação humana, que não se reduz a produtividade e lucro",
+        "Porque escolas não têm recursos para administrar",
+        "Porque a gestão escolar dispensa planejamento",
+        "Porque empresas não usam pessoas"
+      ],
+      "correta": 0,
+      "explicacao": "A especificidade educativa exige que os meios administrativos estejam a serviço dos fins pedagógicos."
+    },
+    {
+      "id": "gestao-escolar-6",
+      "topico": "democratica",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a LDB, art. 14, um dos princípios da gestão democrática é:",
+      "opcoes": [
+        "A nomeação dos professores pelo diretor sem concurso",
+        "A participação das comunidades escolar e local em conselhos escolares ou equivalentes",
+        "A eliminação do projeto pedagógico",
+        "A decisão exclusiva da secretaria de educação"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 14 prevê a participação dos profissionais no projeto e da comunidade nos conselhos."
+    },
+    {
+      "id": "gestao-escolar-7",
+      "topico": "democratica",
+      "nivel": "conceitual",
+      "pergunta": "O conselho escolar é um órgão:",
+      "opcoes": [
+        "Formado apenas pelo diretor e pelo vice",
+        "Exclusivo dos alunos",
+        "Colegiado, com representantes dos diversos segmentos da comunidade escolar",
+        "Privado, sem relação com a escola pública"
+      ],
+      "correta": 2,
+      "explicacao": "A composição plural garante que pais, alunos, professores e funcionários participem das decisões."
+    },
+    {
+      "id": "gestao-escolar-8",
+      "topico": "democratica",
+      "nivel": "conceitual",
+      "pergunta": "A meta 19 do PNE (2014-2024) trata de:",
+      "opcoes": [
+        "Universalizar a educação infantil",
+        "Ampliar o número de vagas no ensino superior",
+        "Valorizar o salário dos professores",
+        "Efetivar a gestão democrática, combinando critérios técnicos e consulta à comunidade para escolher diretores"
+      ],
+      "correta": 3,
+      "explicacao": "A meta 19 associa mérito e desempenho à consulta pública na nomeação de diretores escolares."
+    },
+    {
+      "id": "gestao-escolar-9",
+      "topico": "democratica",
+      "nivel": "aplicacao",
+      "pergunta": "Os estudantes de uma escola pública querem criar um grêmio, mas a direção proíbe. Essa proibição é:",
+      "opcoes": [
+        "Ilegal, pois a organização de grêmios é assegurada por lei",
+        "Legal, pois só a direção pode criar entidades",
+        "Legal se o grêmio tiver menos de 50 alunos",
+        "Obrigatória no ensino médio"
+      ],
+      "correta": 0,
+      "explicacao": "A Lei 7.398/1985 assegura aos estudantes o direito de se organizarem em grêmios estudantis."
+    },
+    {
+      "id": "gestao-escolar-10",
+      "topico": "democratica",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre participação formal e participação real nos colegiados?",
+      "opcoes": [
+        "Na formal todos votam; na real ninguém vota",
+        "Na formal o colegiado só existe no papel ou referenda decisões prontas; na real ele influencia de fato as decisões",
+        "A formal é exigida por lei e a real é proibida",
+        "Não há diferença entre elas"
+      ],
+      "correta": 1,
+      "explicacao": "A gestão democrática exige que os colegiados tenham poder efetivo e não sirvam apenas para legitimar a direção."
+    },
+    {
+      "id": "gestao-escolar-11",
+      "topico": "ppp",
+      "nivel": "conceitual",
+      "pergunta": "O marco do PPP que responde à pergunta 'como chegar lá?', com ações, metas e prazos, é o:",
+      "opcoes": [
+        "Marco situacional",
+        "Marco conceitual",
+        "Marco operativo",
+        "Marco histórico"
+      ],
+      "correta": 2,
+      "explicacao": "O marco operativo traduz as intenções em ações concretas com responsáveis e cronograma."
+    },
+    {
+      "id": "gestao-escolar-12",
+      "topico": "ppp",
+      "nivel": "conceitual",
+      "pergunta": "Por que o PPP recebe o adjetivo 'político'?",
+      "opcoes": [
+        "Porque é escrito por partidos políticos",
+        "Porque só vale em ano de eleição",
+        "Porque substitui a legislação educacional",
+        "Porque expressa um compromisso com a formação cidadã e com um projeto de sociedade"
+      ],
+      "correta": 3,
+      "explicacao": "Toda escolha educativa tem dimensão política, pois forma cidadãos para um tipo de sociedade."
+    },
+    {
+      "id": "gestao-escolar-13",
+      "topico": "ppp",
+      "nivel": "conceitual",
+      "pergunta": "Qual documento da escola traz principalmente as regras de funcionamento, direitos e deveres?",
+      "opcoes": [
+        "Regimento escolar",
+        "Plano de aula",
+        "Marco conceitual",
+        "Diário de classe"
+      ],
+      "correta": 0,
+      "explicacao": "O regimento é normativo, enquanto o PPP expressa intenções e caminhos pedagógicos."
+    },
+    {
+      "id": "gestao-escolar-14",
+      "topico": "ppp",
+      "nivel": "aplicacao",
+      "pergunta": "Um aluno acumula faltas acima de 30% do percentual permitido em lei. Segundo a LDB, a escola deve:",
+      "opcoes": [
+        "Cancelar a matrícula do aluno imediatamente",
+        "Notificar o Conselho Tutelar do município",
+        "Aplicar multa à família",
+        "Esperar o fim do ano para tomar providências"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 12 da LDB manda notificar o Conselho Tutelar e outros órgãos quando as faltas passam desse limite."
+    },
+    {
+      "id": "gestao-escolar-15",
+      "topico": "ppp",
+      "nivel": "analise",
+      "pergunta": "Por que um PPP elaborado só pela direção e guardado na gaveta perde seu sentido?",
+      "opcoes": [
+        "Porque a lei proíbe que a direção participe",
+        "Porque o PPP só tem validade se for publicado em jornal",
+        "Porque o PPP deve ser construído coletivamente e orientar o cotidiano, sendo a identidade viva da escola",
+        "Porque o PPP deve ser idêntico em todas as escolas"
+      ],
+      "correta": 2,
+      "explicacao": "Sem participação e uso real, o projeto vira mera formalidade burocrática, sem efeito sobre a prática."
+    },
+    {
+      "id": "gestao-escolar-16",
+      "topico": "financas",
+      "nivel": "conceitual",
+      "pergunta": "Pela Constituição, estados, DF e municípios devem aplicar em manutenção e desenvolvimento do ensino no mínimo:",
+      "opcoes": [
+        "18% da receita de impostos",
+        "10% do PIB",
+        "50% da arrecadação total",
+        "25% da receita de impostos"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 212 fixa 25% para estados, DF e municípios e 18% para a União."
+    },
+    {
+      "id": "gestao-escolar-17",
+      "topico": "financas",
+      "nivel": "conceitual",
+      "pergunta": "Qual emenda constitucional tornou o Fundeb permanente?",
+      "opcoes": [
+        "EC 108/2020",
+        "EC 14/1996",
+        "EC 53/2006",
+        "EC 95/2016"
+      ],
+      "correta": 0,
+      "explicacao": "A EC 108/2020 transformou o Fundeb em instrumento permanente e ampliou a complementação da União."
+    },
+    {
+      "id": "gestao-escolar-18",
+      "topico": "financas",
+      "nivel": "conceitual",
+      "pergunta": "De cada fundo do Fundeb, qual percentual mínimo vai para a remuneração dos profissionais da educação básica em efetivo exercício?",
+      "opcoes": [
+        "40%",
+        "70%",
+        "50%",
+        "100%"
+      ],
+      "correta": 1,
+      "explicacao": "A Lei 14.113/2020 destina ao menos 70% de cada fundo à remuneração desses profissionais."
+    },
+    {
+      "id": "gestao-escolar-19",
+      "topico": "financas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola recebeu recursos do PDDE e quer comprar materiais pedagógicos. Qual procedimento é adequado?",
+      "opcoes": [
+        "O diretor decidir sozinho e não guardar comprovantes",
+        "Repassar o dinheiro aos professores em espécie",
+        "Definir prioridades com o conselho escolar e a unidade executora, comprar com pesquisa de preços e prestar contas",
+        "Usar os recursos para pagar dívidas pessoais da equipe"
+      ],
+      "correta": 2,
+      "explicacao": "O PDDE exige gestão pela unidade executora, decisões compartilhadas e prestação de contas."
+    },
+    {
+      "id": "gestao-escolar-20",
+      "topico": "financas",
+      "nivel": "analise",
+      "pergunta": "Por que o Fundeb distribui recursos pelo número de matrículas, com complementação da União?",
+      "opcoes": [
+        "Para concentrar recursos nos estados mais ricos",
+        "Para premiar apenas as escolas particulares",
+        "Para substituir a vinculação constitucional de impostos",
+        "Para reduzir desigualdades entre redes e garantir um valor mínimo por aluno em todo o país"
+      ],
+      "correta": 3,
+      "explicacao": "A redistribuição dentro de cada estado e a complementação federal equalizam o investimento por estudante."
+    },
+    {
+      "id": "gestao-escolar-21",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Lei do Piso (Lei 11.738/2008), a jornada do professor em atividades de interação com os educandos deve ser de no máximo:",
+      "opcoes": [
+        "Dois terços da carga horária",
+        "Toda a carga horária",
+        "Metade da carga horária",
+        "Um quarto da carga horária"
+      ],
+      "correta": 0,
+      "explicacao": "O terço restante é reservado a planejamento, estudo e outras atividades extraclasse."
+    },
+    {
+      "id": "gestao-escolar-22",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "A principal função do coordenador pedagógico é:",
+      "opcoes": [
+        "Cuidar apenas da disciplina dos alunos no pátio",
+        "Promover a formação continuada dos professores e articular o trabalho pedagógico",
+        "Fazer a limpeza e a manutenção da escola",
+        "Substituir professores faltosos de forma permanente"
+      ],
+      "correta": 1,
+      "explicacao": "A coordenação é formadora e articuladora do projeto pedagógico, não um fiscal burocrático."
+    },
+    {
+      "id": "gestao-escolar-23",
+      "topico": "pessoas",
+      "nivel": "conceitual",
+      "pergunta": "O estilo de liderança em que o gestor se omite e deixa cada um fazer o que quer é chamado de:",
+      "opcoes": [
+        "Autocrático",
+        "Democrático",
+        "Laissez-faire",
+        "Distribuído"
+      ],
+      "correta": 2,
+      "explicacao": "No laissez-faire falta direção, e a escola tende à desorganização e à falta de metas comuns."
+    },
+    {
+      "id": "gestao-escolar-24",
+      "topico": "pessoas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola tem muitos conflitos entre alunos. Qual estratégia está alinhada à cultura de paz?",
+      "opcoes": [
+        "Suspender automaticamente todos os envolvidos sem conversa",
+        "Ignorar os conflitos para não chamar atenção",
+        "Proibir os alunos de conversarem no recreio",
+        "Implantar círculos restaurativos e mediação de conflitos com participação dos estudantes"
+      ],
+      "correta": 3,
+      "explicacao": "Práticas restaurativas responsabilizam, reparam danos e reconstroem relações, prevenindo novos conflitos."
+    },
+    {
+      "id": "gestao-escolar-25",
+      "topico": "pessoas",
+      "nivel": "analise",
+      "pergunta": "Por que a liderança pedagógica do diretor tem relação com melhores resultados de aprendizagem?",
+      "opcoes": [
+        "Porque concentra a gestão no ensino, apoia os professores e usa dados para orientar decisões pedagógicas",
+        "Porque o diretor passa a dar todas as aulas",
+        "Porque elimina a necessidade de professores qualificados",
+        "Porque substitui a participação da comunidade"
+      ],
+      "correta": 0,
+      "explicacao": "Pesquisas indicam que gestores que priorizam o pedagógico criam condições para que os professores ensinem melhor."
+    },
+    {
+      "id": "gestao-escolar-26",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "A Constituição, após a EC 59/2009, torna obrigatória e gratuita a educação básica:",
+      "opcoes": [
+        "Dos 0 aos 14 anos de idade",
+        "Dos 4 aos 17 anos de idade",
+        "Dos 6 aos 14 anos de idade",
+        "Dos 7 aos 18 anos de idade"
+      ],
+      "correta": 1,
+      "explicacao": "A emenda estendeu a obrigatoriedade da pré-escola ao ensino médio, dos 4 aos 17 anos."
+    },
+    {
+      "id": "gestao-escolar-27",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "A carga horária mínima anual do ensino fundamental pela LDB é de:",
+      "opcoes": [
+        "600 horas em 150 dias letivos",
+        "1.200 horas em 180 dias letivos",
+        "800 horas, distribuídas em no mínimo 200 dias de efetivo trabalho escolar",
+        "400 horas em 100 dias letivos"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 24 da LDB exige 800 horas anuais em pelo menos 200 dias letivos."
+    },
+    {
+      "id": "gestao-escolar-28",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a Constituição, os municípios atuam prioritariamente:",
+      "opcoes": [
+        "No ensino superior e na pós-graduação",
+        "Apenas no ensino médio",
+        "Somente na educação profissional",
+        "No ensino fundamental e na educação infantil"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 211 atribui aos municípios a prioridade na educação infantil e no ensino fundamental."
+    },
+    {
+      "id": "gestao-escolar-29",
+      "topico": "legislacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma professora percebe sinais de maus-tratos em um aluno. Segundo o ECA, a direção da escola deve:",
+      "opcoes": [
+        "Comunicar o caso ao Conselho Tutelar",
+        "Esperar a família procurar a escola",
+        "Transferir o aluno para outra escola",
+        "Resolver o caso internamente sem avisar ninguém"
+      ],
+      "correta": 0,
+      "explicacao": "O art. 56 do ECA obriga os dirigentes a comunicar ao Conselho Tutelar casos de maus-tratos."
+    },
+    {
+      "id": "gestao-escolar-30",
+      "topico": "legislacao",
+      "nivel": "analise",
+      "pergunta": "Qual é a relação entre a BNCC e o projeto político-pedagógico da escola?",
+      "opcoes": [
+        "A BNCC substitui o PPP de todas as escolas",
+        "A BNCC define as aprendizagens essenciais, e o PPP e os currículos locais as contextualizam à realidade da escola",
+        "O PPP pode ignorar a BNCC livremente",
+        "A BNCC só vale para escolas particulares"
+      ],
+      "correta": 1,
+      "explicacao": "A base é referência comum obrigatória, mas cada rede e escola adaptam o currículo ao seu contexto."
+    }
+  ]
+}

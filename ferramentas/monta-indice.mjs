@@ -233,7 +233,6 @@ export const EXTRA = {
       "Didática e Formação de Professores",
       "Organização do Trabalho Pedagógico",
       "Planejamento e Avaliação",
-      "Avaliação da Aprendizagem",
       "Teoria e Prática de Ensino"
     ]
   },
@@ -1812,6 +1811,70 @@ export const EXTRA = {
       "Orçamento e Contabilidade Pública",
       "Planejamento e Orçamento Público",
       "Contabilidade do Setor Público",
+    ]
+  },
+  "educacao-inclusiva": {
+    "area": "Educação",
+    "apelidos": [
+      "Educação Inclusiva",
+      "Educação Especial",
+      "Educação Especial e Inclusiva",
+      "Educação Especial e Inclusão",
+      "Fundamentos da Educação Especial",
+      "Fundamentos da Educação Inclusiva",
+      "Educação Especial na Perspectiva Inclusiva",
+      "Educação Especial na Perspectiva da Educação Inclusiva",
+      "Inclusão Escolar",
+      "Educação e Diversidade",
+      "Atendimento Educacional Especializado",
+      "Educação Inclusiva I",
+      "Educação Especial I"
+    ]
+  },
+  "avaliacao-aprendizagem": {
+    "area": "Educação",
+    "apelidos": [
+      "Avaliação da Aprendizagem",
+      "Avaliação Educacional",
+      "Avaliação Escolar",
+      "Avaliação da Aprendizagem Escolar",
+      "Avaliação Educacional e Escolar",
+      "Avaliação Institucional e da Aprendizagem",
+      "Avaliação no Processo de Ensino e Aprendizagem",
+      "Avaliação Educacional e Institucional"
+    ]
+  },
+  "gestao-escolar": {
+    "area": "Educação",
+    "apelidos": [
+      "Gestão Escolar",
+      "Gestão Educacional",
+      "Gestão Escolar I",
+      "Gestão Escolar II",
+      "Gestão Democrática da Escola",
+      "Gestão Democrática",
+      "Administração Escolar",
+      "Gestão e Organização da Escola",
+      "Organização e Gestão da Escola",
+      "Gestão do Trabalho Pedagógico",
+      "Coordenação Pedagógica",
+      "Gestão Escolar e Coordenação Pedagógica",
+      "Supervisão Escolar"
+    ]
+  },
+  "curriculo": {
+    "area": "Educação",
+    "apelidos": [
+      "Currículo",
+      "Teorias do Currículo",
+      "Currículo e Teorias do Currículo",
+      "Currículo Escolar",
+      "Currículos e Programas",
+      "Currículo e Didática",
+      "Políticas de Currículo",
+      "Currículo e Cultura",
+      "Teoria e Prática do Currículo",
+      "Currículo e Avaliação"
     ]
   }
 };

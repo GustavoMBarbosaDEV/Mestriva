@@ -1,0 +1,465 @@
+{
+  "id": "avaliacao-aprendizagem",
+  "nome": "Avaliação da Aprendizagem",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "O que é avaliar",
+      "resumo": "### Avaliar x examinar\n- **Examinar**: classificar e selecionar, com foco no **resultado** final e na nota. Olha para o passado.\n- **Avaliar**: diagnosticar a situação para **tomar decisões** e reorientar o ensino. Olha para o futuro.\nCipriano **Luckesi**: avaliação é um **juízo de qualidade** sobre dados relevantes, tendo em vista uma **tomada de decisão**. Ele critica a \"**pedagogia do exame**\", em que a escola gira em torno das provas e das notas.\n\n### Medir, testar, avaliar\n- **Medir**: atribuir número (quantas questões certas).\n- **Testar**: aplicar um instrumento.\n- **Avaliar**: interpretar os dados e **decidir** o que fazer.\n\n### Funções da avaliação (Bloom e outros)\n| Função | Quando | Para quê |\n|---|---|---|\n| **Diagnóstica** | Início do processo | Conhecer o que o aluno já sabe e suas dificuldades |\n| **Formativa** | Durante | Acompanhar, dar **retorno** e ajustar o ensino |\n| **Somativa** | Final | Fazer o balanço e classificar ou certificar |\n\nA **formativa** (termo de **Scriven**, 1967, aplicado à aprendizagem por **Bloom**) é a que mais contribui para aprender.\n\n### Avaliação na LDB (art. 24, V, \"a\")\n\"Avaliação **contínua e cumulativa** do desempenho do aluno, com **prevalência dos aspectos qualitativos sobre os quantitativos** e dos resultados **ao longo do período** sobre os de eventuais provas finais.\"\nTambém prevê:\n- **recuperação**, de preferência **paralela** ao período letivo;\n- **aceleração** de estudos para alunos com atraso escolar;\n- **avanço** mediante verificação do aprendizado;\n- **aproveitamento** de estudos concluídos com êxito.\n\n### Referenciais de comparação\n- **Por norma** (normativa): compara o aluno com o **grupo** (ranking).\n- **Por critério** (criterial): compara com **objetivos** definidos (o aluno domina ou não a habilidade).\n- **Ipsativa**: compara o aluno **com ele mesmo** ao longo do tempo.",
+      "revisao": "**Lembre:** avaliar é diagnosticar para decidir (Luckesi), não só examinar. Diagnóstica no início, formativa durante, somativa no fim. A LDB pede avaliação contínua, cumulativa e com prevalência do qualitativo."
+    },
+    {
+      "id": "formativa",
+      "nome": "Avaliação formativa e mediadora",
+      "resumo": "### Avaliação formativa\n- Integra-se ao ensino; o foco é **regular** a aprendizagem.\n- Depende de **feedback**: informação sobre o que o aluno fez, o que falta e **como avançar**.\n- **Philippe Perrenoud**: avaliação formativa ajuda o aluno a aprender e o professor a ensinar; critica a avaliação a serviço da **seleção** e da **fabricação do fracasso escolar**.\n- **Black e Wiliam** (1998, *Inside the Black Box*): práticas formativas elevam significativamente o desempenho, sobretudo dos alunos com mais dificuldade.\n\n### Feedback eficaz\n- **Específico**, ligado ao objetivo (não só \"muito bem\" ou uma nota).\n- **Oportuno**, enquanto ainda dá tempo de melhorar.\n- Aponta **próximos passos**.\n- Foca na **tarefa e no processo**, não na pessoa.\n\n### Autoavaliação e avaliação entre pares\nO aluno aprende a reconhecer critérios de qualidade e a regular o próprio trabalho (**autorregulação** e **metacognição**).\n\n### Avaliação mediadora (Jussara Hoffmann)\n- O professor é **mediador**: observa, questiona, provoca novas reflexões.\n- O erro é **ponto de partida** para o diálogo.\n- Crítica à avaliação como \"**mito**\" e como mera correção de provas.\n- Obra: *Avaliação: mito e desafio*; *Avaliação mediadora*.\n\n### Avaliação emancipatória e dialógica\n- **Ana Maria Saul**: avaliação **emancipatória**, que ajuda os envolvidos a se libertarem de condicionamentos e a construírem alternativas.\n- **Pedro Demo**: avaliação qualitativa; o aluno deve **reconstruir** o conhecimento.\n- **Celso Vasconcellos**: crítica à avaliação classificatória e excludente; propõe mudar a **postura** do professor e a lógica da reprovação.\n\n### Avaliação classificatória\nUsa a nota para **comparar, selecionar e excluir**; termina na aprovação ou na reprovação, sem ação sobre o que não foi aprendido.",
+      "revisao": "**Lembre:** formativa = feedback específico e oportuno para avançar. Hoffmann: avaliação mediadora (erro como ponto de partida). Saul: emancipatória. Perrenoud: avaliação a serviço da aprendizagem, não da seleção."
+    },
+    {
+      "id": "instrumentos",
+      "nome": "Instrumentos e critérios",
+      "resumo": "### Variedade de instrumentos\nNenhum instrumento capta tudo. Combinar:\n- **Prova** (questões objetivas e discursivas);\n- **Observação** com registros (diário de bordo, fichas);\n- **Portfólio**: coleção organizada de trabalhos que mostra a **evolução** do aluno, com reflexões dele;\n- **Seminários**, projetos, relatórios, mapas conceituais;\n- **Autoavaliação** e avaliação entre pares;\n- **Rubricas** (matrizes de avaliação).\n\n### Questões objetivas\n- Múltipla escolha, verdadeiro ou falso, associação.\n- Vantagens: correção rápida e uniforme, cobrem muitos conteúdos.\n- Cuidados: **distratores plausíveis**, um só gabarito, evitar \"pegadinhas\" e pistas no enunciado.\n- Estrutura do item (padrão Inep): **texto-base**, **enunciado** (comando), **alternativas** (gabarito + distratores).\n\n### Questões discursivas\nAvaliam argumentação, síntese e criatividade. Exigem **critérios de correção** claros para reduzir a subjetividade.\n\n### Rubrica\nTabela com **critérios** (o que será avaliado) e **níveis de desempenho** descritos (insuficiente, básico, proficiente, avançado). Torna a correção **transparente** e serve de guia ao aluno **antes** da tarefa.\n\n### Qualidades de um instrumento\n- **Validade**: mede aquilo que se propõe a medir (alinhado aos objetivos).\n- **Fidedignidade (confiabilidade)**: resultados consistentes, independentemente de quem corrige ou de quando se aplica.\n- **Praticabilidade**: viável de aplicar e corrigir.\n\n### Alinhamento\nObjetivo de ensino → atividade de ensino → avaliação devem estar **coerentes**. A **Taxonomia de Bloom** (lembrar, entender, aplicar, analisar, avaliar, criar — versão revisada de Anderson e Krathwohl, 2001) ajuda a formular objetivos e questões de níveis diferentes.\n\n### Erro\nNa perspectiva construtivista, o erro revela **hipóteses** do aluno e é fonte de informação para o professor.",
+      "revisao": "**Lembre:** usar instrumentos variados. Portfólio mostra a evolução; rubrica traz critérios e níveis descritos. Validade = mede o que deve medir; fidedignidade = resultados consistentes. Alinhar objetivo, ensino e avaliação."
+    },
+    {
+      "id": "recuperacao",
+      "nome": "Recuperação, progressão e fracasso escolar",
+      "resumo": "### Recuperação\n- **Paralela** (preferida pela LDB): ao longo do período, logo que a dificuldade aparece.\n- **Contínua**: dentro da própria aula, retomando conteúdos.\n- **Final**: depois do período letivo.\nRecuperar é **recuperar a aprendizagem**, não apenas a nota.\n\n### Progressão\n- **Seriação**: aprovação ou reprovação ao fim de cada ano.\n- **Ciclos** (ou ciclos de aprendizagem): o tempo de aprender é ampliado; a retenção ocorre só no fim do ciclo.\n- **Progressão continuada**: prevista na LDB (art. 32, § 2º) para estabelecimentos que usam a progressão regular por série, \"sem prejuízo da avaliação do processo de ensino-aprendizagem\". Não significa \"**aprovação automática**\" sem aprendizagem.\n- **Progressão parcial** (dependência): o aluno avança com pendência em alguns componentes (LDB, art. 24, III).\n- A **BNCC** e as diretrizes tratam os **dois primeiros anos do fundamental** como ciclo de alfabetização, com foco na ação pedagógica.\n\n### Reprovação e fracasso escolar\n- Pesquisas mostram que a **reprovação** em geral **não melhora** a aprendizagem e aumenta a **distorção idade-série** e o **abandono**.\n- **Maria Helena Souza Patto**, *A produção do fracasso escolar*: o fracasso é **produzido** pela escola e pelo sistema (práticas, preconceitos), não é culpa individual do aluno ou da família pobre.\n- **Conselho de classe**: espaço coletivo para analisar o desempenho e decidir encaminhamentos; deve olhar o **processo**, não só as notas.\n\n### Frequência\nA LDB exige **75%** de frequência mínima do total de horas letivas para aprovação (art. 24, VI).",
+      "revisao": "**Lembre:** recuperação paralela é a preferida da LDB. Progressão continuada não é aprovação automática. Reprovação tende a aumentar o abandono; Patto mostra que o fracasso é produzido pela escola. Frequência mínima: 75%."
+    },
+    {
+      "id": "larga-escala",
+      "nome": "Avaliação em larga escala",
+      "resumo": "### O que é\nAvaliação **externa**, aplicada a muitos alunos com instrumentos padronizados, para **diagnosticar o sistema** e orientar políticas públicas. Não substitui a avaliação feita pelo professor.\n\n### Brasil\n- **Saeb** (Sistema de Avaliação da Educação Básica), do **Inep**: desde 1990; provas de **língua portuguesa** (leitura) e **matemática** em anos-chave (2º, 5º e 9º anos do fundamental e 3ª série do médio), além de questionários.\n- **Ideb** (Índice de Desenvolvimento da Educação Básica), criado em **2007**: combina o **desempenho no Saeb** com o **fluxo escolar** (taxa de aprovação do Censo Escolar). Escala de 0 a 10.\n- **Enem** (1998): hoje usado sobretudo como porta de entrada no ensino superior (Sisu, Prouni, Fies).\n- **Enade**: desempenho dos concluintes do ensino superior (parte do **Sinaes**).\n- **Encceja**: certificação de jovens e adultos.\n- Avaliações estaduais (como o Saresp, em São Paulo).\n\n### Internacional\n- **Pisa** (OCDE): estudantes de **15 anos**, leitura, matemática e ciências, a cada três anos (com interrupções). Mede o **letramento**: usar o conhecimento em situações reais.\n\n### Teoria de Resposta ao Item (TRI)\nUsada no Saeb e no Enem. A nota considera a **dificuldade**, a **discriminação** de cada item e a **coerência** das respostas (o modelo reduz o ganho do \"chute\"). Permite **comparar** resultados entre anos e provas diferentes numa mesma escala.\n\n### Matriz de referência\nLista os **descritores** (habilidades) avaliados. **Não é** o currículo inteiro: é um recorte do que pode ser medido em prova.\n\n### Usos e críticas\n- Uso positivo: diagnosticar desigualdades, definir metas, direcionar recursos.\n- Críticas: **estreitamento do currículo** (\"ensinar para o teste\"), ranqueamento de escolas, responsabilização que ignora o **contexto socioeconômico**.",
+      "revisao": "**Lembre:** Saeb (Inep) mede português e matemática; Ideb = desempenho no Saeb x fluxo (aprovação). Pisa avalia jovens de 15 anos. A TRI considera dificuldade, discriminação e coerência. Cuidado com ensinar para o teste."
+    },
+    {
+      "id": "etica",
+      "nome": "Avaliação, ética e inclusão",
+      "resumo": "### Avaliação e poder\nA nota pode ser usada como instrumento de **controle** e **disciplina** (\"vale ponto\"), o que desvia a avaliação de sua função pedagógica. Luckesi e Vasconcellos criticam o **uso autoritário** da avaliação.\n\n### Princípios éticos\n- **Transparência**: os alunos conhecem antes os **critérios**.\n- **Coerência** com o que foi ensinado.\n- **Justiça e equidade**: condições adequadas a todos; adaptações para quem precisa.\n- **Devolutiva**: o aluno tem direito de ver a correção e entender seus erros.\n- **Não usar a avaliação como punição**.\n\n### Avaliação de estudantes com deficiência\n- Avaliar o **progresso individual** em relação ao **plano educacional** (PEI).\n- Garantir **recursos de acessibilidade**: tempo adicional, prova ampliada ou em Braille, ledor, transcritor, intérprete de Libras.\n- Valorizar diferentes formas de expressão (oral, visual, prática).\n\n### Educação infantil (LDB, art. 31)\n- Avaliação mediante **acompanhamento e registro** do desenvolvimento, **sem objetivo de promoção**, nem mesmo para o acesso ao ensino fundamental.\n- Instrumentos: **observação**, **registros**, **portfólios**, relatórios descritivos.\n- Frequência mínima de **60%** do total de horas (art. 31, IV).\n\n### Autoavaliação institucional\nA escola avalia o próprio trabalho (gestão, currículo, práticas) para planejar melhorias, ligando-se ao **projeto político-pedagógico**.\n\n### Avaliação e currículo (BNCC)\nA BNCC orienta avaliações **formativas** e de processo, que considerem os contextos, para melhorar o desempenho da escola, dos professores e dos alunos.",
+      "revisao": "**Lembre:** critérios claros, coerência e devolutiva; avaliação não é punição. Educação infantil: acompanhamento e registro, sem promoção e com frequência mínima de 60%. Alunos com deficiência: progresso individual e recursos de acessibilidade."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "avaliacao-aprendizagem-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Para Luckesi, a principal diferença entre avaliar e examinar é que avaliar:",
+      "opcoes": [
+        "Serve para diagnosticar e tomar decisões que melhorem a aprendizagem",
+        "Serve apenas para classificar e reprovar alunos",
+        "Dispensa qualquer coleta de dados",
+        "É sinônimo de aplicar prova no fim do bimestre"
+      ],
+      "correta": 0,
+      "explicacao": "Luckesi critica a pedagogia do exame e defende a avaliação como diagnóstico para a tomada de decisão."
+    },
+    {
+      "id": "avaliacao-aprendizagem-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "A avaliação feita durante o processo, com retorno ao aluno e ajuste do ensino, é chamada de:",
+      "opcoes": [
+        "Somativa",
+        "Formativa",
+        "Classificatória",
+        "Normativa"
+      ],
+      "correta": 1,
+      "explicacao": "A função formativa acompanha a aprendizagem enquanto ela acontece e orienta correções de rota."
+    },
+    {
+      "id": "avaliacao-aprendizagem-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a LDB, a avaliação do rendimento escolar deve ter:",
+      "opcoes": [
+        "Peso maior da prova final sobre todo o restante",
+        "Caráter exclusivamente quantitativo",
+        "Prevalência dos aspectos qualitativos sobre os quantitativos e dos resultados ao longo do período",
+        "Uma única prova anual obrigatória"
+      ],
+      "correta": 2,
+      "explicacao": "O art. 24 da LDB define avaliação contínua e cumulativa, com prevalência do qualitativo."
+    },
+    {
+      "id": "avaliacao-aprendizagem-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "No primeiro dia de aula, a professora aplica uma atividade para descobrir o que a turma já sabe sobre frações. Essa avaliação tem função:",
+      "opcoes": [
+        "Somativa",
+        "Certificadora",
+        "Punitiva",
+        "Diagnóstica"
+      ],
+      "correta": 3,
+      "explicacao": "Avaliar no início para conhecer saberes prévios e dificuldades é a marca da função diagnóstica."
+    },
+    {
+      "id": "avaliacao-aprendizagem-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença entre a avaliação referenciada em norma e a referenciada em critério?",
+      "opcoes": [
+        "A de norma compara o aluno com o grupo; a de critério compara com objetivos de aprendizagem definidos",
+        "A de norma usa só questões abertas; a de critério só objetivas",
+        "As duas comparam o aluno somente com ele mesmo",
+        "A de critério é proibida pela LDB"
+      ],
+      "correta": 0,
+      "explicacao": "Na normativa importa a posição no grupo; na criterial importa se o aluno atingiu o objetivo previsto."
+    },
+    {
+      "id": "avaliacao-aprendizagem-6",
+      "topico": "formativa",
+      "nivel": "conceitual",
+      "pergunta": "A autora associada à proposta de avaliação mediadora, em que o erro é ponto de partida para o diálogo, é:",
+      "opcoes": [
+        "Ana Maria Saul",
+        "Jussara Hoffmann",
+        "Magda Soares",
+        "Emilia Ferreiro"
+      ],
+      "correta": 1,
+      "explicacao": "Jussara Hoffmann propõe o professor como mediador, que observa e provoca novas reflexões a partir do erro."
+    },
+    {
+      "id": "avaliacao-aprendizagem-7",
+      "topico": "formativa",
+      "nivel": "conceitual",
+      "pergunta": "Uma característica do feedback eficaz é:",
+      "opcoes": [
+        "Limitar-se a uma nota sem comentários",
+        "Ser dado só no fim do ano",
+        "Ser específico, oportuno e indicar os próximos passos",
+        "Comparar o aluno com o melhor da turma"
+      ],
+      "correta": 2,
+      "explicacao": "Feedback útil mostra onde o aluno está, onde precisa chegar e o que fazer para chegar lá."
+    },
+    {
+      "id": "avaliacao-aprendizagem-8",
+      "topico": "formativa",
+      "nivel": "conceitual",
+      "pergunta": "A avaliação emancipatória, que busca libertar os envolvidos de condicionamentos, foi proposta por:",
+      "opcoes": [
+        "Benjamin Bloom",
+        "Ralph Tyler",
+        "Jean Piaget",
+        "Ana Maria Saul"
+      ],
+      "correta": 3,
+      "explicacao": "Ana Maria Saul desenvolveu a avaliação emancipatória com base na perspectiva crítica e dialógica."
+    },
+    {
+      "id": "avaliacao-aprendizagem-9",
+      "topico": "formativa",
+      "nivel": "aplicacao",
+      "pergunta": "Ao corrigir um texto, qual comentário é mais formativo?",
+      "opcoes": [
+        "Seus argumentos são bons; falta um exemplo no segundo parágrafo para sustentar a ideia principal",
+        "Nota 6",
+        "Ruim, refaça",
+        "Está igual aos outros"
+      ],
+      "correta": 0,
+      "explicacao": "O comentário aponta o que está bom, o que falta e como melhorar, o que caracteriza o feedback formativo."
+    },
+    {
+      "id": "avaliacao-aprendizagem-10",
+      "topico": "formativa",
+      "nivel": "analise",
+      "pergunta": "Por que práticas formativas tendem a beneficiar mais os alunos com dificuldade?",
+      "opcoes": [
+        "Porque eliminam a necessidade de ensinar conteúdos",
+        "Porque identificam as lacunas cedo e permitem intervir antes que se acumulem até o fim do período",
+        "Porque aprovam todos automaticamente",
+        "Porque só são aplicadas aos melhores alunos"
+      ],
+      "correta": 1,
+      "explicacao": "Ao acompanhar o processo, o professor atua a tempo, o que reduz as desigualdades de desempenho."
+    },
+    {
+      "id": "avaliacao-aprendizagem-11",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "Um instrumento de avaliação tem validade quando:",
+      "opcoes": [
+        "Produz sempre notas altas",
+        "Pode ser corrigido em poucos minutos",
+        "Mede de fato aquilo que se propõe a medir",
+        "Tem muitas questões de múltipla escolha"
+      ],
+      "correta": 2,
+      "explicacao": "Validade é a adequação do instrumento aos objetivos que ele pretende avaliar."
+    },
+    {
+      "id": "avaliacao-aprendizagem-12",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "A rubrica é um instrumento que apresenta:",
+      "opcoes": [
+        "Apenas a nota final do aluno",
+        "Uma lista de alunos aprovados",
+        "Somente as respostas certas da prova objetiva",
+        "Critérios de avaliação e descrição dos níveis de desempenho em cada um"
+      ],
+      "correta": 3,
+      "explicacao": "Ao descrever cada nível, a rubrica deixa a correção transparente e orienta o aluno."
+    },
+    {
+      "id": "avaliacao-aprendizagem-13",
+      "topico": "instrumentos",
+      "nivel": "conceitual",
+      "pergunta": "Na Taxonomia de Bloom revisada, o nível cognitivo mais alto é:",
+      "opcoes": [
+        "Criar",
+        "Lembrar",
+        "Entender",
+        "Aplicar"
+      ],
+      "correta": 0,
+      "explicacao": "A sequência revisada vai de lembrar até criar, passando por entender, aplicar, analisar e avaliar."
+    },
+    {
+      "id": "avaliacao-aprendizagem-14",
+      "topico": "instrumentos",
+      "nivel": "aplicacao",
+      "pergunta": "Um professor quer acompanhar a evolução da escrita de cada aluno ao longo do ano, com reflexões dos próprios estudantes. Qual instrumento é o mais indicado?",
+      "opcoes": [
+        "Prova objetiva única no fim do ano",
+        "Portfólio",
+        "Chamada oral",
+        "Teste de verdadeiro ou falso"
+      ],
+      "correta": 1,
+      "explicacao": "O portfólio reúne produções ao longo do tempo e mostra o percurso de cada aluno."
+    },
+    {
+      "id": "avaliacao-aprendizagem-15",
+      "topico": "instrumentos",
+      "nivel": "analise",
+      "pergunta": "Um professor ensinou a turma a interpretar gráficos, mas a prova pediu apenas a definição decorada de gráfico. Qual problema existe?",
+      "opcoes": [
+        "Excesso de fidedignidade do instrumento",
+        "Uso indevido de rubricas",
+        "Falta de alinhamento entre objetivo, ensino e avaliação, o que compromete a validade da prova",
+        "Avaliação formativa em excesso"
+      ],
+      "correta": 2,
+      "explicacao": "A prova não mede a habilidade que foi ensinada e que se queria desenvolver, por isso perde validade."
+    },
+    {
+      "id": "avaliacao-aprendizagem-16",
+      "topico": "recuperacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a frequência mínima exigida pela LDB para a aprovação na educação básica?",
+      "opcoes": [
+        "50% das aulas",
+        "90% do total de horas letivas",
+        "Não há frequência mínima",
+        "75% do total de horas letivas"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 24, VI, da LDB fixa a exigência de 75% de frequência do total de horas letivas."
+    },
+    {
+      "id": "avaliacao-aprendizagem-17",
+      "topico": "recuperacao",
+      "nivel": "conceitual",
+      "pergunta": "A LDB indica que a recuperação deve ser, de preferência:",
+      "opcoes": [
+        "Paralela ao período letivo",
+        "Somente no fim do ano",
+        "Opcional e paga à parte",
+        "Substituída pela reprovação"
+      ],
+      "correta": 0,
+      "explicacao": "A recuperação paralela intervém assim que a dificuldade aparece, sem esperar o fim do período."
+    },
+    {
+      "id": "avaliacao-aprendizagem-18",
+      "topico": "recuperacao",
+      "nivel": "conceitual",
+      "pergunta": "Na obra A produção do fracasso escolar, Maria Helena Souza Patto defende que o fracasso:",
+      "opcoes": [
+        "É causado apenas pela falta de inteligência do aluno",
+        "É produzido por práticas da escola e do sistema, e não por deficiências do aluno pobre",
+        "Decorre unicamente da família",
+        "Não existe nas escolas públicas"
+      ],
+      "correta": 1,
+      "explicacao": "Patto desmonta explicações que culpam o aluno e a família e aponta a responsabilidade da instituição."
+    },
+    {
+      "id": "avaliacao-aprendizagem-19",
+      "topico": "recuperacao",
+      "nivel": "aplicacao",
+      "pergunta": "Após a prova, a escola apenas aplica outra prova igual a quem tirou nota baixa, sem retomar o conteúdo. Essa prática é adequada?",
+      "opcoes": [
+        "Sim, porque o objetivo da recuperação é só mudar a nota",
+        "Sim, porque a LDB proíbe retomar conteúdos",
+        "Não, porque a recuperação deve retomar a aprendizagem e não apenas dar outra chance de nota",
+        "Não, porque a recuperação é proibida no ensino fundamental"
+      ],
+      "correta": 2,
+      "explicacao": "Recuperar é rever o conteúdo com novas estratégias para que o aluno aprenda o que não aprendeu."
+    },
+    {
+      "id": "avaliacao-aprendizagem-20",
+      "topico": "recuperacao",
+      "nivel": "analise",
+      "pergunta": "Por que a progressão continuada não deve ser confundida com aprovação automática?",
+      "opcoes": [
+        "Porque nela todos são reprovados no fim do ano",
+        "Porque dispensa a avaliação",
+        "Porque só vale para o ensino superior",
+        "Porque pressupõe acompanhamento contínuo e intervenção pedagógica para garantir a aprendizagem"
+      ],
+      "correta": 3,
+      "explicacao": "Sem acompanhamento e recuperação, a progressão vira mera promoção sem aprendizagem, o que deturpa a proposta."
+    },
+    {
+      "id": "avaliacao-aprendizagem-21",
+      "topico": "larga-escala",
+      "nivel": "conceitual",
+      "pergunta": "O Ideb é calculado a partir de:",
+      "opcoes": [
+        "Desempenho dos alunos no Saeb e taxa de aprovação (fluxo escolar)",
+        "Apenas o número de matrículas",
+        "Notas do Enem e do Enade",
+        "Salário médio dos professores"
+      ],
+      "correta": 0,
+      "explicacao": "O índice combina aprendizagem medida no Saeb e fluxo escolar obtido no Censo Escolar."
+    },
+    {
+      "id": "avaliacao-aprendizagem-22",
+      "topico": "larga-escala",
+      "nivel": "conceitual",
+      "pergunta": "O Pisa, coordenado pela OCDE, avalia estudantes de:",
+      "opcoes": [
+        "6 anos, em alfabetização",
+        "15 anos, em leitura, matemática e ciências",
+        "Ensino superior, em formação profissional",
+        "18 anos, apenas em redação"
+      ],
+      "correta": 1,
+      "explicacao": "O Pisa mede o letramento de jovens de 15 anos para usar o conhecimento em situações reais."
+    },
+    {
+      "id": "avaliacao-aprendizagem-23",
+      "topico": "larga-escala",
+      "nivel": "conceitual",
+      "pergunta": "Uma característica da Teoria de Resposta ao Item é:",
+      "opcoes": [
+        "Atribuir o mesmo peso a todas as questões",
+        "Impedir a comparação entre anos diferentes",
+        "Considerar a dificuldade e a discriminação dos itens e a coerência das respostas",
+        "Depender apenas do número bruto de acertos"
+      ],
+      "correta": 2,
+      "explicacao": "Com a TRI, dois alunos com o mesmo número de acertos podem ter notas diferentes, conforme a coerência."
+    },
+    {
+      "id": "avaliacao-aprendizagem-24",
+      "topico": "larga-escala",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola passa o ano treinando somente os descritores da prova externa e deixa de lado artes e ciências. Que efeito indesejado isso ilustra?",
+      "opcoes": [
+        "Avaliação formativa bem-sucedida",
+        "Aumento da validade da prova",
+        "Respeito à matriz curricular completa",
+        "Estreitamento do currículo por ensinar para o teste"
+      ],
+      "correta": 3,
+      "explicacao": "A matriz de referência é um recorte; tomá-la como currículo empobrece a formação dos alunos."
+    },
+    {
+      "id": "avaliacao-aprendizagem-25",
+      "topico": "larga-escala",
+      "nivel": "analise",
+      "pergunta": "Por que o Ideb considera o fluxo escolar além das notas?",
+      "opcoes": [
+        "Para evitar que a escola melhore a média reprovando ou excluindo alunos com dificuldade",
+        "Para premiar escolas que reprovam mais",
+        "Para medir apenas a frequência dos professores",
+        "Porque as notas não têm importância"
+      ],
+      "correta": 0,
+      "explicacao": "Ao combinar desempenho e aprovação, o índice desestimula a retenção como forma de inflar resultados."
+    },
+    {
+      "id": "avaliacao-aprendizagem-26",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "Na educação infantil, segundo a LDB, a avaliação deve ser feita:",
+      "opcoes": [
+        "Por provas bimestrais com notas",
+        "Por acompanhamento e registro do desenvolvimento, sem objetivo de promoção",
+        "Por exame classificatório para o ensino fundamental",
+        "Apenas pela família"
+      ],
+      "correta": 1,
+      "explicacao": "O art. 31 da LDB proíbe a avaliação com fins de promoção na educação infantil."
+    },
+    {
+      "id": "avaliacao-aprendizagem-27",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a frequência mínima exigida na pré-escola pela LDB?",
+      "opcoes": [
+        "75% do total de horas",
+        "90% do total de horas",
+        "60% do total de horas",
+        "Não há exigência de frequência"
+      ],
+      "correta": 2,
+      "explicacao": "Na educação infantil a lei pede controle de frequência com mínimo de 60% do total de horas."
+    },
+    {
+      "id": "avaliacao-aprendizagem-28",
+      "topico": "etica",
+      "nivel": "conceitual",
+      "pergunta": "Um princípio ético da avaliação da aprendizagem é:",
+      "opcoes": [
+        "Esconder os critérios para evitar cola",
+        "Usar a nota para punir a indisciplina",
+        "Não devolver as provas corrigidas",
+        "Informar aos alunos os critérios antes da atividade"
+      ],
+      "correta": 3,
+      "explicacao": "A transparência dos critérios permite ao aluno saber o que se espera e se preparar."
+    },
+    {
+      "id": "avaliacao-aprendizagem-29",
+      "topico": "etica",
+      "nivel": "aplicacao",
+      "pergunta": "Um professor tira pontos da prova de matemática de um aluno porque ele conversou durante a aula. Essa prática:",
+      "opcoes": [
+        "Desvirtua a avaliação, que passa a servir como punição disciplinar e não mede a aprendizagem",
+        "É a forma correta de avaliar conteúdos",
+        "É exigida pela LDB",
+        "Aumenta a validade da prova"
+      ],
+      "correta": 0,
+      "explicacao": "Misturar comportamento e conteúdo na nota compromete a validade e transforma a avaliação em controle."
+    },
+    {
+      "id": "avaliacao-aprendizagem-30",
+      "topico": "etica",
+      "nivel": "analise",
+      "pergunta": "Por que avaliar um aluno com deficiência pelo seu progresso individual não significa baixar a exigência?",
+      "opcoes": [
+        "Porque alunos com deficiência não devem ser avaliados",
+        "Porque o objetivo é verificar avanços reais em relação a metas planejadas para ele, com os apoios necessários",
+        "Porque a nota deles deve ser sempre a máxima",
+        "Porque a lei proíbe metas para esses alunos"
+      ],
+      "correta": 1,
+      "explicacao": "Metas ajustadas e acessíveis mantêm o desafio e permitem medir aprendizagens efetivas."
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "curriculo",
+  "nome": "Currículo e Teorias do Currículo",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "conceitos",
+      "nome": "O que é currículo",
+      "resumo": "### Definições\n- Etimologia: do latim *curriculum*, \"**percurso**\", \"pista de corrida\".\n- Sentido restrito: lista de **conteúdos** e disciplinas.\n- Sentido amplo: **tudo o que acontece na escola** e forma os alunos — conteúdos, experiências, relações, valores, tempos e espaços.\n- **Tomaz Tadeu da Silva**: o currículo é **lugar, espaço, território**; é relação de **poder**; é **documento de identidade**. A pergunta central de toda teoria do currículo é \"**o que** deve ser ensinado?\", ligada a \"**quem** queremos formar?\".\n- **J. Gimeno Sacristán**: o currículo é uma **práxis**, construída em vários níveis, e não só um documento.\n\n### Níveis do currículo (Sacristán)\n| Nível | O que é |\n|---|---|\n| **Prescrito** | O que os documentos oficiais determinam (BNCC, diretrizes) |\n| **Apresentado** | O que chega aos professores por livros didáticos e materiais |\n| **Moldado** | O que o professor planeja a partir disso |\n| **Em ação** (realizado na prática) | O que de fato acontece na aula |\n| **Realizado** | Os efeitos produzidos nos alunos |\n| **Avaliado** | O que as avaliações cobram e acabam valorizando |\n\n### Currículo formal, real e oculto\n- **Formal (oficial)**: o planejado nos documentos.\n- **Real (vivido)**: o que de fato se realiza na sala.\n- **Oculto**: aprendizagens **não explícitas**, transmitidas pelas **rotinas, regras, relações e rituais** (obediência, pontualidade, hierarquia, estereótipos). Termo associado a **Philip Jackson** (*Life in Classrooms*, 1968).\n- **Currículo nulo** (Elliot Eisner): o que a escola **não ensina** e, por isso, também educa (silêncios e ausências).\n\n### Currículo e cultura\nO currículo é uma **seleção** dentro da cultura. Toda seleção implica **inclusões e exclusões**: o que entra, o que fica de fora e quem decide.",
+      "revisao": "**Lembre:** currículo é percurso e vai além da lista de conteúdos. Sacristán: prescrito, apresentado, moldado, em ação, realizado e avaliado. Currículo oculto = o que se aprende pelas rotinas e relações, sem estar escrito."
+    },
+    {
+      "id": "tradicionais",
+      "nome": "Teorias tradicionais",
+      "resumo": "### Contexto\nSurgem nos **Estados Unidos**, no início do século XX, com a industrialização e a escolarização em massa. Preocupação: **como** organizar o currículo de forma **eficiente**.\n\n### Franklin Bobbitt (*The Curriculum*, 1918)\n- Escola funcionando como uma **fábrica** (influência de **Taylor**).\n- Currículo como especificação de **objetivos**, procedimentos e métodos para obter **resultados mensuráveis**.\n- Educar é preparar para as **atividades da vida adulta** e do trabalho.\n\n### Ralph Tyler (*Princípios básicos de currículo e ensino*, 1949)\nQuatro perguntas (o \"**racional de Tyler**\"):\n1. Que **objetivos** educacionais a escola deve buscar?\n2. Que **experiências** educacionais podem ser oferecidas para atingir esses objetivos?\n3. Como **organizar** eficientemente essas experiências?\n4. Como **avaliar** se os objetivos foram atingidos?\nOs objetivos devem ser formulados em termos de **comportamentos** observáveis.\n\n### Outras vertentes\n- **John Dewey** (progressivismo): currículo centrado nas **experiências e interesses** das crianças e na **democracia**. Mais aberto que Bobbitt, mas ainda dentro das teorias \"não críticas\" na classificação de Tomaz Tadeu.\n- **Tecnicismo** no Brasil (anos 1960-70): influência dessas teorias, com ênfase em planejamento, objetivos operacionais e instrução programada (Lei 5.692/1971).\n\n### Palavras-chave (Tomaz Tadeu)\n**Ensino, aprendizagem, avaliação, metodologia, didática, organização, planejamento, eficiência, objetivos.**\n\n### Crítica\nAs teorias tradicionais se apresentam como **neutras** e **técnicas**, aceitando o conhecimento e a sociedade como **dados**, sem questionar **por que** certos conhecimentos são escolhidos.",
+      "revisao": "**Lembre:** teorias tradicionais = eficiência e objetivos. Bobbitt (1918) pensa a escola como fábrica; Tyler (1949) organiza tudo em objetivos, experiências, organização e avaliação. Pretendem-se neutras."
+    },
+    {
+      "id": "criticas",
+      "nome": "Teorias críticas",
+      "resumo": "### Mudança de pergunta\nNão mais \"**como** fazer o currículo?\", mas \"**por que** este conhecimento e não outro?\" e \"**a quem** ele serve?\". Surgem nos anos **1960-70**.\n\n### Autores e ideias\n- **Louis Althusser**: a escola é um **aparelho ideológico de Estado**, que transmite a ideologia dominante e reproduz as relações de produção.\n- **Bowles e Gintis**: **princípio da correspondência** — as relações sociais da escola **correspondem** às do trabalho (obediência para uns, autonomia para outros).\n- **Pierre Bourdieu e Jean-Claude Passeron** (*A reprodução*, 1970): a escola reproduz a desigualdade ao valorizar o **capital cultural** das classes dominantes; **violência simbólica**; **habitus**.\n- **Michael Apple** (*Ideologia e currículo*): o currículo nunca é neutro; relação entre currículo, **hegemonia** e poder; o conhecimento escolar é uma **seleção** feita por grupos dominantes.\n- **Henry Giroux**: **resistência**; professores como **intelectuais transformadores**; possibilidade de emancipação.\n- **Paulo Freire**: crítica à **educação bancária**; educação **problematizadora** e **dialógica**; **temas geradores** a partir da realidade dos educandos.\n- **Nova Sociologia da Educação** (Michael **Young**, Inglaterra, 1971): o conhecimento escolar é **socialmente construído**; questiona como ele é organizado e legitimado.\n- **Reconceptualização** (EUA, anos 1970): William Pinar, entre outros; currículo como experiência vivida (*currere*).\n\n### Palavras-chave (Tomaz Tadeu)\n**Ideologia, reprodução cultural e social, poder, classe social, capitalismo, relações sociais de produção, conscientização, emancipação e libertação, currículo oculto, resistência.**",
+      "revisao": "**Lembre:** teorias críticas perguntam por que e a quem serve. Althusser (aparelho ideológico), Bourdieu (capital cultural e reprodução), Apple (ideologia e hegemonia), Giroux (resistência), Freire (educação bancária x problematizadora)."
+    },
+    {
+      "id": "pos-criticas",
+      "nome": "Teorias pós-críticas",
+      "resumo": "### Ampliação do foco\nAs teorias pós-críticas não abandonam a questão do poder, mas o veem **espalhado** em muitas relações, não só na classe social. Influências: **pós-estruturalismo**, **pós-modernismo**, **Michel Foucault**, estudos culturais.\n\n### Principais vertentes\n- **Multiculturalismo**: reconhece a **diversidade cultural**. Vertente liberal (tolerância e respeito) e vertente **crítica** (questiona as relações de poder que produzem as diferenças).\n- **Gênero e sexualidade**: o currículo produz e reforça identidades de gênero; teoria *queer* questiona normas e binarismos.\n- **Relações étnico-raciais**: denúncia do **eurocentrismo** e do racismo no currículo.\n- **Estudos culturais**: a cultura (inclusive mídia e cultura popular) é campo de disputa de significados; o currículo é um **artefato cultural**.\n- **Pós-colonialismo** e **decolonialidade**: questiona a herança colonial no conhecimento e valoriza saberes **subalternizados** (indígenas, africanos, populares).\n- **Pós-estruturalismo** (Foucault): **saber e poder** estão ligados; o currículo produz **sujeitos** e **verdades**; discurso.\n\n### Palavras-chave (Tomaz Tadeu)\n**Identidade, alteridade, diferença, subjetividade, significação e discurso, saber-poder, representação, cultura, gênero, raça, etnia, sexualidade, multiculturalismo.**\n\n### Identidade e diferença\nSão **produzidas** socialmente, na linguagem e nas relações de poder; não são essências naturais. O currículo participa dessa produção.\n\n### Comparação rápida\n| Teoria | Pergunta central | Foco |\n|---|---|---|\n| Tradicional | Como ensinar? | Eficiência, técnica |\n| Crítica | Por que e a quem serve? | Classe, ideologia, reprodução |\n| Pós-crítica | Que identidades produz? | Diferença, cultura, discurso |",
+      "revisao": "**Lembre:** pós-críticas = poder espalhado em várias relações. Palavras-chave: identidade, diferença, discurso, gênero, raça, multiculturalismo, saber-poder (Foucault). O currículo produz sujeitos."
+    },
+    {
+      "id": "organizacao",
+      "nome": "Organização do currículo",
+      "resumo": "### Formas de organizar\n- **Disciplinar**: conhecimento dividido em disciplinas separadas (grade curricular).\n- **Multidisciplinar**: várias disciplinas tratam do mesmo tema, **lado a lado**, sem integração.\n- **Interdisciplinar**: as disciplinas **dialogam** e integram conceitos e métodos em torno de um problema (Ivani **Fazenda**, Hilton **Japiassu**).\n- **Transdisciplinar**: vai **além** das disciplinas, buscando um conhecimento integrado (Basarab Nicolescu, Edgar **Morin**).\n- **Currículo integrado** e **projetos de trabalho**: Fernando **Hernández** e Montserrat Ventura organizam o estudo a partir de **problemas e projetos**; Jurjo **Torres Santomé**, *Globalização e interdisciplinaridade*.\n- **Currículo em espiral** (Jerome **Bruner**): os conceitos voltam várias vezes, com complexidade crescente.\n\n### Temas transversais e contemporâneos\n- **PCN (1997-98)**: temas transversais — ética, meio ambiente, saúde, pluralidade cultural, orientação sexual, trabalho e consumo.\n- **BNCC**: **temas contemporâneos transversais** (TCTs), em seis macroáreas: meio ambiente, economia, saúde, cidadania e civismo, multiculturalismo, ciência e tecnologia.\n\n### Conteúdos obrigatórios por lei (LDB)\n- **História e cultura afro-brasileira e indígena** (art. 26-A; Leis 10.639/2003 e 11.645/2008).\n- **Educação ambiental** (Lei 9.795/1999), de forma integrada.\n- Conteúdos sobre **direitos humanos** e **prevenção da violência contra a criança, o adolescente e a mulher**.\n- **Educação para o trânsito**, **educação alimentar e nutricional**, **educação financeira** (como tema transversal na BNCC).\n\n### Complexidade (Edgar Morin)\n*Os sete saberes necessários à educação do futuro*: contra a fragmentação; ensinar a **condição humana**, a **compreensão**, a **incerteza**, a **identidade terrena** e o conhecimento pertinente.\n\n### Competências (Perrenoud)\nCompetência é a capacidade de **mobilizar** conhecimentos, habilidades e atitudes para resolver situações complexas. Base do modelo da **BNCC**.",
+      "revisao": "**Lembre:** multidisciplinar = lado a lado; interdisciplinar = disciplinas dialogam; transdisciplinar = além delas. Bruner: currículo em espiral; Hernández: projetos. Afro-brasileira e indígena obrigatórias (art. 26-A). BNCC: temas contemporâneos transversais."
+    },
+    {
+      "id": "bncc",
+      "nome": "Políticas curriculares no Brasil",
+      "resumo": "### Percurso\n- **LDB (1996)**, art. 26: currículos com **base nacional comum** complementada por uma **parte diversificada** conforme as características regionais e locais.\n- **PCN** (1997-1998): referências **não obrigatórias**, com temas transversais.\n- **Diretrizes Curriculares Nacionais (DCN)**: normas **obrigatórias** do CNE (por exemplo, DCN Gerais da Educação Básica, 2010).\n- **PNE 2014**: metas 2, 3 e 7 previam a base nacional comum.\n- **BNCC**: homologada em **2017** (educação infantil e fundamental) e **2018** (ensino médio). Documento **normativo** e obrigatório.\n\n### Estrutura da BNCC\n- **10 competências gerais** da educação básica (conhecimento, pensamento científico e crítico, repertório cultural, comunicação, cultura digital, trabalho e projeto de vida, argumentação, autoconhecimento, empatia e cooperação, responsabilidade e cidadania).\n- **Educação infantil**: **6 direitos de aprendizagem** (conviver, brincar, participar, explorar, expressar, conhecer-se) e **5 campos de experiência** (o eu, o outro e o nós; corpo, gestos e movimentos; traços, sons, cores e formas; escuta, fala, pensamento e imaginação; espaços, tempos, quantidades, relações e transformações). Eixos estruturantes: **interações e brincadeira**.\n- **Ensino fundamental**: **áreas do conhecimento**, **componentes curriculares**, unidades temáticas, objetos de conhecimento e **habilidades** (com códigos alfanuméricos, como EF05MA08).\n- **Alfabetização**: foco nos **dois primeiros anos** do fundamental.\n- **Ensino médio**: quatro áreas (linguagens, matemática, ciências da natureza, ciências humanas e sociais aplicadas) + **itinerários formativos**; reformado pela Lei 13.415/2017 e depois pela **Lei 14.945/2024**.\n\n### BNCC não é currículo\nA BNCC é **referência obrigatória**; cada rede elabora seu **currículo** (por exemplo, os currículos estaduais) e cada escola, seu **PPP**, contextualizando as aprendizagens.\n\n### Críticas\nRisco de **padronização**, ligação com avaliações externas, pouca participação docente, influência de fundações privadas, versões que retiraram temas como **gênero**.",
+      "revisao": "**Lembre:** LDB art. 26 = base comum + parte diversificada. BNCC (2017/2018) é normativa: 10 competências gerais; na infantil, 6 direitos e 5 campos de experiência. BNCC não é o currículo: as redes e as escolas o constroem."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "curriculo-1",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O currículo oculto refere-se a:",
+      "opcoes": [
+        "Aprendizagens não explícitas transmitidas pelas rotinas, regras e relações da escola",
+        "Conteúdos que o professor esconde dos alunos",
+        "Provas secretas aplicadas pela secretaria",
+        "O currículo das escolas militares"
+      ],
+      "correta": 0,
+      "explicacao": "Valores e atitudes como obediência e hierarquia são aprendidos pela vivência, sem estarem nos planos."
+    },
+    {
+      "id": "curriculo-2",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "Para Gimeno Sacristán, o currículo que se expressa nos documentos oficiais, como a BNCC, é o currículo:",
+      "opcoes": [
+        "Em ação",
+        "Prescrito",
+        "Realizado",
+        "Oculto"
+      ],
+      "correta": 1,
+      "explicacao": "O currículo prescrito é o nível das determinações oficiais, que depois é interpretado nos demais níveis."
+    },
+    {
+      "id": "curriculo-3",
+      "topico": "conceitos",
+      "nivel": "conceitual",
+      "pergunta": "O conceito de currículo nulo, de Elliot Eisner, refere-se:",
+      "opcoes": [
+        "A disciplinas com nota zero",
+        "Ao currículo das escolas fechadas",
+        "Àquilo que a escola deixa de ensinar e que, pela ausência, também educa",
+        "Ao período de férias escolares"
+      ],
+      "correta": 2,
+      "explicacao": "As omissões do currículo também comunicam o que é considerado importante ou irrelevante."
+    },
+    {
+      "id": "curriculo-4",
+      "topico": "conceitos",
+      "nivel": "aplicacao",
+      "pergunta": "Numa escola, os meninos sempre carregam as cadeiras e as meninas sempre arrumam a sala, sem que isso esteja escrito em lugar nenhum. Isso exemplifica o currículo:",
+      "opcoes": [
+        "Prescrito",
+        "Apresentado",
+        "Formal",
+        "Oculto"
+      ],
+      "correta": 3,
+      "explicacao": "Papéis de gênero aprendidos pela rotina, sem estarem previstos nos planos, são parte do currículo oculto."
+    },
+    {
+      "id": "curriculo-5",
+      "topico": "conceitos",
+      "nivel": "analise",
+      "pergunta": "Por que se diz que todo currículo envolve relações de poder?",
+      "opcoes": [
+        "Porque selecionar conhecimentos implica decidir o que é válido e quem fica de fora",
+        "Porque o currículo é escrito apenas pelo diretor da escola",
+        "Porque o currículo não influencia a formação dos alunos",
+        "Porque toda disciplina tem a mesma carga horária"
+      ],
+      "correta": 0,
+      "explicacao": "A seleção cultural privilegia certos saberes e grupos, por isso nunca é neutra."
+    },
+    {
+      "id": "curriculo-6",
+      "topico": "tradicionais",
+      "nivel": "conceitual",
+      "pergunta": "Qual autor publicou The Curriculum (1918) e comparou a escola a uma fábrica, influenciado pela administração científica?",
+      "opcoes": [
+        "Michael Apple",
+        "Franklin Bobbitt",
+        "Paulo Freire",
+        "Henry Giroux"
+      ],
+      "correta": 1,
+      "explicacao": "Bobbitt aplicou ao currículo a lógica de Taylor, com objetivos e resultados mensuráveis."
+    },
+    {
+      "id": "curriculo-7",
+      "topico": "tradicionais",
+      "nivel": "conceitual",
+      "pergunta": "O chamado racional de Tyler organiza o currículo em torno de:",
+      "opcoes": [
+        "Classe social, ideologia, poder e resistência",
+        "Identidade, diferença, gênero e raça",
+        "Objetivos, experiências, organização e avaliação",
+        "Hegemonia, cultura popular e mídia"
+      ],
+      "correta": 2,
+      "explicacao": "As quatro perguntas de Tyler definem o planejamento curricular por objetivos."
+    },
+    {
+      "id": "curriculo-8",
+      "topico": "tradicionais",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Tomaz Tadeu da Silva, um conceito típico das teorias tradicionais é:",
+      "opcoes": [
+        "Ideologia",
+        "Emancipação",
+        "Multiculturalismo",
+        "Eficiência"
+      ],
+      "correta": 3,
+      "explicacao": "Eficiência, objetivos e planejamento caracterizam as teorias tradicionais, preocupadas com o como fazer."
+    },
+    {
+      "id": "curriculo-9",
+      "topico": "tradicionais",
+      "nivel": "aplicacao",
+      "pergunta": "Uma rede de ensino define objetivos comportamentais observáveis para cada aula e mede se foram atingidos, sem discutir por que aqueles conteúdos foram escolhidos. Essa prática se aproxima de qual teoria?",
+      "opcoes": [
+        "Tradicional",
+        "Crítica",
+        "Pós-crítica",
+        "Pós-colonial"
+      ],
+      "correta": 0,
+      "explicacao": "Foco em objetivos mensuráveis e ausência de questionamento sobre a seleção é traço tradicional."
+    },
+    {
+      "id": "curriculo-10",
+      "topico": "tradicionais",
+      "nivel": "analise",
+      "pergunta": "Qual é a principal crítica feita às teorias tradicionais do currículo?",
+      "opcoes": [
+        "Elas não se preocupam com nenhuma forma de organização",
+        "Elas se dizem neutras e técnicas, mas aceitam sem questionar o conhecimento dominante e a ordem social",
+        "Elas recusam qualquer tipo de avaliação",
+        "Elas defendem a revolução social pela escola"
+      ],
+      "correta": 1,
+      "explicacao": "Ao tratar o currículo como questão técnica, essas teorias ocultam as escolhas políticas envolvidas."
+    },
+    {
+      "id": "curriculo-11",
+      "topico": "criticas",
+      "nivel": "conceitual",
+      "pergunta": "Para Bourdieu e Passeron, a escola reproduz as desigualdades porque:",
+      "opcoes": [
+        "Ensina apenas conteúdos técnicos neutros",
+        "Oferece a mesma educação para todos sem qualquer efeito",
+        "Valoriza o capital cultural das classes dominantes como se fosse natural e universal",
+        "É controlada exclusivamente pelos alunos"
+      ],
+      "correta": 2,
+      "explicacao": "Alunos que já trazem o capital cultural valorizado têm vantagem, e isso parece mérito individual."
+    },
+    {
+      "id": "curriculo-12",
+      "topico": "criticas",
+      "nivel": "conceitual",
+      "pergunta": "Michael Apple é conhecido pela obra:",
+      "opcoes": [
+        "The Curriculum",
+        "Pedagogia da autonomia",
+        "Vigiar e punir",
+        "Ideologia e currículo"
+      ],
+      "correta": 3,
+      "explicacao": "Apple analisa como o currículo se relaciona com a hegemonia e com a seleção feita pelos grupos dominantes."
+    },
+    {
+      "id": "curriculo-13",
+      "topico": "criticas",
+      "nivel": "conceitual",
+      "pergunta": "O princípio da correspondência, de Bowles e Gintis, afirma que:",
+      "opcoes": [
+        "As relações sociais na escola correspondem às relações sociais do trabalho capitalista",
+        "Cada disciplina corresponde a uma profissão",
+        "Cada aluno corresponde a um professor",
+        "A nota corresponde exatamente à inteligência"
+      ],
+      "correta": 0,
+      "explicacao": "A escola treinaria obediência ou autonomia conforme o lugar que cada grupo ocupará no trabalho."
+    },
+    {
+      "id": "curriculo-14",
+      "topico": "criticas",
+      "nivel": "aplicacao",
+      "pergunta": "Um professor organiza o estudo a partir de temas geradores tirados da realidade dos alunos, com diálogo e problematização. Essa prática se baseia em:",
+      "opcoes": [
+        "Franklin Bobbitt",
+        "Paulo Freire",
+        "Ralph Tyler",
+        "Frederick Taylor"
+      ],
+      "correta": 1,
+      "explicacao": "Os temas geradores e a educação problematizadora são marcas da pedagogia freiriana."
+    },
+    {
+      "id": "curriculo-15",
+      "topico": "criticas",
+      "nivel": "analise",
+      "pergunta": "Em que Giroux se diferencia das teorias da reprodução, como a de Althusser?",
+      "opcoes": [
+        "Ao defender que a escola é neutra",
+        "Ao propor objetivos comportamentais",
+        "Ao destacar a resistência e a possibilidade de a escola contribuir para a emancipação",
+        "Ao negar que exista ideologia"
+      ],
+      "correta": 2,
+      "explicacao": "Giroux vê espaço para contestação e para professores como intelectuais transformadores, não só reprodução."
+    },
+    {
+      "id": "curriculo-16",
+      "topico": "pos-criticas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo Tomaz Tadeu da Silva, um conceito característico das teorias pós-críticas é:",
+      "opcoes": [
+        "Eficiência",
+        "Objetivos comportamentais",
+        "Relações sociais de produção como único eixo",
+        "Identidade e diferença"
+      ],
+      "correta": 3,
+      "explicacao": "As pós-críticas destacam a produção das identidades, das diferenças e dos significados."
+    },
+    {
+      "id": "curriculo-17",
+      "topico": "pos-criticas",
+      "nivel": "conceitual",
+      "pergunta": "O pensador cuja relação entre saber e poder influenciou as teorias pós-críticas do currículo é:",
+      "opcoes": [
+        "Michel Foucault",
+        "Ralph Tyler",
+        "Franklin Bobbitt",
+        "Émile Durkheim"
+      ],
+      "correta": 0,
+      "explicacao": "Foucault mostra que saberes e poderes se produzem juntos, ideia central no pós-estruturalismo."
+    },
+    {
+      "id": "curriculo-18",
+      "topico": "pos-criticas",
+      "nivel": "conceitual",
+      "pergunta": "O multiculturalismo crítico, diferentemente do liberal, busca:",
+      "opcoes": [
+        "Apenas pedir tolerância entre culturas",
+        "Questionar as relações de poder que produzem as diferenças e as desigualdades",
+        "Eliminar a diversidade cultural da escola",
+        "Ensinar uma única cultura considerada superior"
+      ],
+      "correta": 1,
+      "explicacao": "A vertente crítica vai além do respeito e investiga como as diferenças são hierarquizadas."
+    },
+    {
+      "id": "curriculo-19",
+      "topico": "pos-criticas",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola revisa seus livros e percebe que os heróis são sempre homens brancos europeus. Ao incluir personagens negros, indígenas e mulheres, ela atua na perspectiva:",
+      "opcoes": [
+        "Tradicional, ao aumentar a eficiência do ensino",
+        "Tecnicista, ao definir objetivos operacionais",
+        "Pós-crítica, ao questionar as representações e as identidades produzidas pelo currículo",
+        "Behaviorista, ao reforçar comportamentos"
+      ],
+      "correta": 2,
+      "explicacao": "Rever representações e combater o eurocentrismo é preocupação central das teorias pós-críticas."
+    },
+    {
+      "id": "curriculo-20",
+      "topico": "pos-criticas",
+      "nivel": "analise",
+      "pergunta": "Qual é a diferença central entre as teorias críticas e as pós-críticas quanto ao poder?",
+      "opcoes": [
+        "As críticas negam o poder e as pós-críticas o aceitam",
+        "As duas ignoram completamente o poder",
+        "As pós-críticas tratam só da eficiência econômica",
+        "As críticas o centram na classe social e no Estado; as pós-críticas o veem disperso em relações de gênero, raça, sexualidade e discurso"
+      ],
+      "correta": 3,
+      "explicacao": "As pós-críticas ampliam a análise para além da economia, sem abandonar a questão do poder."
+    },
+    {
+      "id": "curriculo-21",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "Quando as disciplinas dialogam e integram conceitos e métodos em torno de um problema comum, a abordagem é:",
+      "opcoes": [
+        "Interdisciplinar",
+        "Multidisciplinar",
+        "Disciplinar",
+        "Seriada"
+      ],
+      "correta": 0,
+      "explicacao": "Na interdisciplinaridade há integração real, e não apenas justaposição de olhares."
+    },
+    {
+      "id": "curriculo-22",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "O currículo em espiral, em que os conceitos são retomados com complexidade crescente, foi proposto por:",
+      "opcoes": [
+        "Franklin Bobbitt",
+        "Jerome Bruner",
+        "Louis Althusser",
+        "Michael Apple"
+      ],
+      "correta": 1,
+      "explicacao": "Bruner defendia que qualquer assunto pode ser ensinado de forma adequada e retomado em níveis mais complexos."
+    },
+    {
+      "id": "curriculo-23",
+      "topico": "organizacao",
+      "nivel": "conceitual",
+      "pergunta": "O art. 26-A da LDB torna obrigatório nos estabelecimentos de ensino fundamental e médio o estudo de:",
+      "opcoes": [
+        "Língua latina",
+        "Ensino religioso confessional",
+        "História e cultura afro-brasileira e indígena",
+        "Educação moral e cívica"
+      ],
+      "correta": 2,
+      "explicacao": "As Leis 10.639/2003 e 11.645/2008 incluíram esse conteúdo obrigatório no currículo."
+    },
+    {
+      "id": "curriculo-24",
+      "topico": "organizacao",
+      "nivel": "aplicacao",
+      "pergunta": "Em um projeto sobre a água, professores de geografia, química e português planejam juntos, e cada um apenas dá sua aula sobre o tema, sem integrar conceitos. A abordagem é:",
+      "opcoes": [
+        "Interdisciplinar",
+        "Transdisciplinar",
+        "Integrada por projetos de trabalho",
+        "Multidisciplinar"
+      ],
+      "correta": 3,
+      "explicacao": "As disciplinas tratam do mesmo tema lado a lado, sem diálogo entre conceitos e métodos."
+    },
+    {
+      "id": "curriculo-25",
+      "topico": "organizacao",
+      "nivel": "analise",
+      "pergunta": "Por que a BNCC adota o conceito de competência, inspirado em autores como Perrenoud?",
+      "opcoes": [
+        "Para enfatizar a mobilização de conhecimentos, habilidades e atitudes na resolução de situações reais",
+        "Para eliminar os conteúdos do ensino",
+        "Para tornar a avaliação exclusivamente quantitativa",
+        "Para substituir os professores por apostilas"
+      ],
+      "correta": 0,
+      "explicacao": "Competência une saber e saber fazer, buscando aprendizagens que façam sentido fora da escola."
+    },
+    {
+      "id": "curriculo-26",
+      "topico": "bncc",
+      "nivel": "conceitual",
+      "pergunta": "Quantas competências gerais a BNCC define para a educação básica?",
+      "opcoes": [
+        "5",
+        "10",
+        "6",
+        "12"
+      ],
+      "correta": 1,
+      "explicacao": "As dez competências gerais atravessam todas as etapas e áreas da educação básica."
+    },
+    {
+      "id": "curriculo-27",
+      "topico": "bncc",
+      "nivel": "conceitual",
+      "pergunta": "Na educação infantil, a BNCC organiza o currículo em:",
+      "opcoes": [
+        "Disciplinas com provas mensais",
+        "Áreas do conhecimento e itinerários formativos",
+        "Campos de experiência, com interações e brincadeira como eixos estruturantes",
+        "Apostilas obrigatórias de alfabetização"
+      ],
+      "correta": 2,
+      "explicacao": "Os cinco campos de experiência e os seis direitos de aprendizagem estruturam a etapa."
+    },
+    {
+      "id": "curriculo-28",
+      "topico": "bncc",
+      "nivel": "conceitual",
+      "pergunta": "Pela LDB, os currículos da educação básica têm:",
+      "opcoes": [
+        "Somente conteúdos escolhidos pelo professor",
+        "Um currículo único sem variação regional",
+        "Apenas temas transversais",
+        "Uma base nacional comum, complementada por uma parte diversificada regional e local"
+      ],
+      "correta": 3,
+      "explicacao": "O art. 26 combina a base comum com a parte diversificada conforme as características locais."
+    },
+    {
+      "id": "curriculo-29",
+      "topico": "bncc",
+      "nivel": "aplicacao",
+      "pergunta": "Uma secretaria municipal copia a BNCC e a distribui às escolas como se fosse o currículo pronto, sem adaptar nada à realidade local. Qual é o problema?",
+      "opcoes": [
+        "A BNCC é referência obrigatória, mas o currículo deve ser elaborado e contextualizado pelas redes e escolas",
+        "A BNCC proíbe que redes municipais a utilizem",
+        "Não há problema, pois a BNCC é o próprio currículo de cada escola",
+        "A BNCC só vale para escolas particulares"
+      ],
+      "correta": 0,
+      "explicacao": "A base orienta as aprendizagens essenciais, mas o currículo precisa considerar contexto, cultura e PPP."
+    },
+    {
+      "id": "curriculo-30",
+      "topico": "bncc",
+      "nivel": "analise",
+      "pergunta": "Qual crítica costuma ser feita à BNCC por estudiosos do currículo?",
+      "opcoes": [
+        "O fato de não trazer nenhuma competência",
+        "O risco de padronização e de alinhar o ensino às avaliações externas, reduzindo a autonomia das escolas",
+        "A ausência total de habilidades no ensino fundamental",
+        "A proibição de ensinar matemática"
+      ],
+      "correta": 1,
+      "explicacao": "Críticos apontam que uma base muito detalhada pode estreitar o currículo e favorecer o ensino para o teste."
+    }
+  ]
+}

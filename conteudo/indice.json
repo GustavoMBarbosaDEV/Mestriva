@@ -434,6 +434,46 @@
       ]
     },
     {
+      "id": "avaliacao-aprendizagem",
+      "nome": "Avaliação da Aprendizagem",
+      "apelidos": [
+        "Avaliação Educacional",
+        "Avaliação Escolar",
+        "Avaliação da Aprendizagem Escolar",
+        "Avaliação Educacional e Escolar",
+        "Avaliação Institucional e da Aprendizagem",
+        "Avaliação no Processo de Ensino e Aprendizagem",
+        "Avaliação Educacional e Institucional"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "O que é avaliar"
+        },
+        {
+          "id": "formativa",
+          "nome": "Avaliação formativa e mediadora"
+        },
+        {
+          "id": "instrumentos",
+          "nome": "Instrumentos e critérios"
+        },
+        {
+          "id": "recuperacao",
+          "nome": "Recuperação, progressão e fracasso escolar"
+        },
+        {
+          "id": "larga-escala",
+          "nome": "Avaliação em larga escala"
+        },
+        {
+          "id": "etica",
+          "nome": "Avaliação, ética e inclusão"
+        }
+      ]
+    },
+    {
       "id": "avaliacao-psicologica",
       "nome": "Avaliação Psicológica",
       "apelidos": [
@@ -1199,6 +1239,48 @@
       ]
     },
     {
+      "id": "curriculo",
+      "nome": "Currículo e Teorias do Currículo",
+      "apelidos": [
+        "Currículo",
+        "Teorias do Currículo",
+        "Currículo Escolar",
+        "Currículos e Programas",
+        "Currículo e Didática",
+        "Políticas de Currículo",
+        "Currículo e Cultura",
+        "Teoria e Prática do Currículo",
+        "Currículo e Avaliação"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "O que é currículo"
+        },
+        {
+          "id": "tradicionais",
+          "nome": "Teorias tradicionais"
+        },
+        {
+          "id": "criticas",
+          "nome": "Teorias críticas"
+        },
+        {
+          "id": "pos-criticas",
+          "nome": "Teorias pós-críticas"
+        },
+        {
+          "id": "organizacao",
+          "nome": "Organização do currículo"
+        },
+        {
+          "id": "bncc",
+          "nome": "Políticas curriculares no Brasil"
+        }
+      ]
+    },
+    {
       "id": "desenho-tecnico",
       "nome": "Desenho Técnico",
       "apelidos": [
@@ -1297,7 +1379,6 @@
         "Didática e Formação de Professores",
         "Organização do Trabalho Pedagógico",
         "Planejamento e Avaliação",
-        "Avaliação da Aprendizagem",
         "Teoria e Prática de Ensino"
       ],
       "area": "Educação",
@@ -1859,6 +1940,52 @@
         {
           "id": "biomas",
           "nome": "Biomas brasileiros e problemas ambientais"
+        }
+      ]
+    },
+    {
+      "id": "educacao-inclusiva",
+      "nome": "Educação Inclusiva e Educação Especial",
+      "apelidos": [
+        "Educação Inclusiva",
+        "Educação Especial",
+        "Educação Especial e Inclusiva",
+        "Educação Especial e Inclusão",
+        "Fundamentos da Educação Especial",
+        "Fundamentos da Educação Inclusiva",
+        "Educação Especial na Perspectiva Inclusiva",
+        "Educação Especial na Perspectiva da Educação Inclusiva",
+        "Inclusão Escolar",
+        "Educação e Diversidade",
+        "Atendimento Educacional Especializado",
+        "Educação Inclusiva I",
+        "Educação Especial I"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "fundamentos",
+          "nome": "Da exclusão à inclusão"
+        },
+        {
+          "id": "legislacao",
+          "nome": "Marcos legais e documentos"
+        },
+        {
+          "id": "aee",
+          "nome": "Público-alvo e atendimento educacional especializado"
+        },
+        {
+          "id": "sensoriais",
+          "nome": "Surdez, cegueira e baixa visão"
+        },
+        {
+          "id": "tea-di",
+          "nome": "TEA, deficiência intelectual, transtornos e altas habilidades"
+        },
+        {
+          "id": "praticas",
+          "nome": "Práticas pedagógicas inclusivas"
         }
       ]
     },
@@ -2611,6 +2738,51 @@
         {
           "id": "quadricas",
           "nome": "Coordenadas e superfícies quádricas"
+        }
+      ]
+    },
+    {
+      "id": "gestao-escolar",
+      "nome": "Gestão Escolar",
+      "apelidos": [
+        "Gestão Educacional",
+        "Gestão Escolar I",
+        "Gestão Escolar II",
+        "Gestão Democrática da Escola",
+        "Gestão Democrática",
+        "Administração Escolar",
+        "Gestão e Organização da Escola",
+        "Organização e Gestão da Escola",
+        "Gestão do Trabalho Pedagógico",
+        "Coordenação Pedagógica",
+        "Gestão Escolar e Coordenação Pedagógica",
+        "Supervisão Escolar"
+      ],
+      "area": "Educação",
+      "topicos": [
+        {
+          "id": "conceitos",
+          "nome": "Administração e gestão escolar"
+        },
+        {
+          "id": "democratica",
+          "nome": "Gestão democrática"
+        },
+        {
+          "id": "ppp",
+          "nome": "Projeto político-pedagógico e planejamento"
+        },
+        {
+          "id": "financas",
+          "nome": "Financiamento e recursos da escola"
+        },
+        {
+          "id": "pessoas",
+          "nome": "Liderança, pessoas e clima escolar"
+        },
+        {
+          "id": "legislacao",
+          "nome": "Organização da educação básica"
         }
       ]
     },

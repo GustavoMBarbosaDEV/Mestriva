@@ -1,0 +1,465 @@
+{
+  "id": "educacao-inclusiva",
+  "nome": "Educação Inclusiva e Educação Especial",
+  "versao": 1,
+  "topicos": [
+    {
+      "id": "fundamentos",
+      "nome": "Da exclusão à inclusão",
+      "resumo": "### O que é educação inclusiva\nProposta de escola **para todos**, em que cada estudante aprende **junto com os demais**, na turma comum, com os apoios de que precisa. A escola é que se adapta ao aluno, e não o contrário.\n\n### Educação especial\nÉ uma **modalidade** de ensino que **perpassa** todos os níveis, etapas e modalidades (LDB, art. 58). Ela **não substitui** a escolarização comum: oferece recursos, serviços e o **atendimento educacional especializado (AEE)**.\n\n### Quatro fases históricas\n| Fase | Como a pessoa com deficiência era tratada |\n|---|---|\n| **Exclusão** | Sem acesso à escola; vista como incapaz |\n| **Segregação** | Educada à parte, em instituições e escolas especiais |\n| **Integração** | Entra na escola comum **se** conseguir se ajustar a ela |\n| **Inclusão** | A escola muda para receber **todos**; a diferença é valorizada |\n\n### Integração x inclusão\n- **Integração**: o esforço é do **aluno**, que precisa \"estar pronto\". Modelo das classes especiais e do \"sistema em cascata\".\n- **Inclusão**: o esforço é da **escola e do sistema**, que removem barreiras. Nenhum aluno fica de fora da turma comum.\n\n### Modelo médico x modelo social da deficiência\n- **Médico**: a deficiência é um problema do corpo a ser tratado ou corrigido.\n- **Social** (base da Convenção da ONU e da LBI): a deficiência resulta da **interação** entre o impedimento e as **barreiras** do ambiente e das atitudes. Mudam-se as barreiras, muda a participação.\n\n### Barreiras (LBI, art. 3º)\nUrbanísticas, arquitetônicas, nos transportes, nas **comunicações e na informação**, **atitudinais** (preconceito, baixa expectativa) e **tecnológicas**.\n\n### Ideias-chave\n- **Equidade**: dar a cada um o apoio de que precisa para ter as mesmas oportunidades.\n- **Diversidade** como valor, não como problema.\n- **Capacitismo**: discriminação que presume a incapacidade da pessoa com deficiência.",
+      "revisao": "**Lembre:** inclusão é a escola mudar para receber todos; integração é o aluno ter de se ajustar. A deficiência, no modelo social, nasce do encontro do impedimento com as barreiras."
+    },
+    {
+      "id": "legislacao",
+      "nome": "Marcos legais e documentos",
+      "resumo": "### Internacionais\n| Documento | Ano | Ideia central |\n|---|---|---|\n| Declaração Mundial sobre Educação para Todos (**Jomtien**) | 1990 | Satisfazer as necessidades básicas de aprendizagem de todos |\n| **Declaração de Salamanca** | 1994 | Escolas comuns com orientação inclusiva são o meio mais eficaz de combater a discriminação |\n| Convenção da Guatemala | 1999 | Eliminação da discriminação contra pessoas com deficiência |\n| **Convenção da ONU sobre os Direitos das Pessoas com Deficiência** | 2006 | Sistema educacional inclusivo em todos os níveis |\n\nA Convenção da ONU foi aprovada no Brasil com **quórum de emenda constitucional** (Decreto Legislativo 186/2008; Decreto 6.949/2009). Tem, portanto, **status de emenda constitucional**.\n\n### Nacionais\n- **Constituição Federal (1988)**, art. 208, III: atendimento educacional especializado, **preferencialmente na rede regular** de ensino.\n- **ECA** (Lei 8.069/1990): mesmo direito.\n- **LDB** (Lei 9.394/1996), arts. 58 a 60: educação especial como modalidade.\n- **Lei 10.436/2002**: reconhece a **Libras** como meio legal de comunicação e expressão; regulamentada pelo **Decreto 5.626/2005**.\n- **Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva** (**PNEEPEI, 2008**): matrícula na classe comum e AEE complementar ou suplementar.\n- **Resolução CNE/CEB 4/2009** e **Decreto 7.611/2011**: diretrizes e financiamento do AEE.\n- **Lei 12.764/2012** (Lei Berenice Piana): a pessoa com **TEA** é considerada pessoa com deficiência para todos os efeitos legais.\n- **Lei Brasileira de Inclusão** (**LBI**, Lei 13.146/2015, **Estatuto da Pessoa com Deficiência**): sistema educacional inclusivo em todos os níveis; proíbe **cobrança adicional** nas escolas privadas pelos apoios (confirmado pelo STF na ADI 5357).\n- **Lei 14.191/2021**: insere na LDB a **educação bilíngue de surdos** como modalidade própria.\n- **Lei 14.254/2021**: acompanhamento integral de estudantes com **dislexia, TDAH** ou outro transtorno de aprendizagem.\n- O **Decreto 10.502/2020**, que estimulava escolas e classes especializadas, foi **suspenso pelo STF** e depois **revogado** (Decreto 11.370/2023).\n\n### Recusa de matrícula\nRecusar, cobrar a mais ou dificultar a matrícula por causa da deficiência é **crime** (Lei 7.853/1989, art. 8º, com redação da LBI).",
+      "revisao": "**Lembre:** Salamanca (1994) e a Convenção da ONU (2006, com status de emenda) sustentam a escola inclusiva. No Brasil: PNEEPEI (2008), LBI (2015) sem cobrança extra, Libras (2002) e TEA como deficiência (2012)."
+    },
+    {
+      "id": "aee",
+      "nome": "Público-alvo e atendimento educacional especializado",
+      "resumo": "### Público-alvo da educação especial\nPela LDB (art. 58) e pela PNEEPEI:\n1. Estudantes com **deficiência** (física, intelectual, auditiva, visual, múltipla).\n2. Estudantes com **transtorno do espectro autista (TEA)** (antes chamado de transtornos globais do desenvolvimento).\n3. Estudantes com **altas habilidades ou superdotação**.\n\nDislexia, TDAH e outros **transtornos funcionais específicos** não são público-alvo da educação especial, mas a escola deve atuar com eles de forma articulada (Lei 14.254/2021).\n\n### O que é o AEE\nConjunto de atividades, recursos de acessibilidade e pedagógicos que **eliminam barreiras** à participação do aluno. É:\n- **Complementar** (para alunos com deficiência e TEA) ou **suplementar** (para altas habilidades);\n- Oferecido **no contraturno**, de preferência na **sala de recursos multifuncionais (SRM)** da própria escola ou de outra escola próxima, ou em centros de AEE;\n- **Não substitutivo** do ensino comum: não é reforço escolar nem aula particular.\n\n### Quem faz\nO **professor de AEE**, com formação em educação especial. Ele:\n- identifica as necessidades e elabora o **plano de AEE**;\n- produz materiais acessíveis e ensina o uso de **tecnologia assistiva**;\n- orienta o professor da sala comum e a família;\n- ensina códigos e recursos: **Braille**, **soroban**, **Libras**, comunicação alternativa, orientação e mobilidade.\n\n### Dupla matrícula\nO aluno é contado **duas vezes** no Fundeb: na classe comum e no AEE (Decreto 7.611/2011).\n\n### Laudo\nO AEE **não depende de laudo médico**: o que importa é a **avaliação pedagógica** das necessidades (Nota Técnica MEC 4/2014). O laudo pode complementar, mas não é condição.\n\n### Outros apoios\n- **Profissional de apoio escolar**: higiene, alimentação, locomoção (LBI).\n- **Tradutor e intérprete de Libras**.\n- **Guia-intérprete** para surdocegos.",
+      "revisao": "**Lembre:** público-alvo = deficiência, TEA e altas habilidades. O AEE é complementar ou suplementar, no contraturno, na sala de recursos, sem substituir a turma comum e sem exigir laudo."
+    },
+    {
+      "id": "sensoriais",
+      "nome": "Surdez, cegueira e baixa visão",
+      "resumo": "### Surdez\n- **Surdo**: pessoa que compreende e interage com o mundo por **experiências visuais**, manifestando sua cultura principalmente pela **Libras** (Decreto 5.626/2005).\n- **Deficiência auditiva**: perda bilateral, parcial ou total, de **41 dB ou mais** (aferida por audiograma).\n- **Libras**: língua com **gramática própria** (não é mímica nem português sinalizado). Parâmetros: configuração de mão, ponto de articulação, movimento, orientação da palma e **expressões não manuais**.\n- **Abordagens históricas**: **oralismo** (fala e leitura labial; Congresso de Milão, 1880), **comunicação total** (todos os recursos ao mesmo tempo) e **bilinguismo** (Libras como **primeira língua** e português **escrito** como segunda).\n- **Educação bilíngue de surdos** (Lei 14.191/2021): modalidade própria, em escolas e classes bilíngues ou em escolas comuns inclusivas.\n- A **Libras é disciplina obrigatória** nos cursos de formação de professores e de fonoaudiologia.\n- Na escola comum: **intérprete de Libras**, avaliação que valorize o **conteúdo** sobre a forma do português escrito, recursos visuais.\n\n### Cegueira e baixa visão\n- **Cegueira**: acuidade visual igual ou menor que **0,05** no melhor olho, com a melhor correção.\n- **Baixa visão**: acuidade entre **0,3 e 0,05** no melhor olho, com a melhor correção.\n- **Sistema Braille**: leitura e escrita em **cela de seis pontos** (duas colunas de três), criado por **Louis Braille** (1825). Escreve-se com **reglete e punção** (da direita para a esquerda) ou com **máquina Perkins**.\n- **Soroban**: ábaco japonês adaptado para cálculo.\n- **Orientação e mobilidade**: uso da **bengala longa** e técnicas de deslocamento.\n- Recursos para baixa visão: **ampliação** de fontes, lupas, contraste alto, iluminação adequada, **leitores de tela**.\n- **Audiodescrição**: tradução de imagens em palavras.\n\n### Surdocegueira\nDeficiência única com perdas auditivas e visuais combinadas. Comunicação por **Libras tátil**, alfabeto manual tátil, Tadoma. Apoio do **guia-intérprete**.",
+      "revisao": "**Lembre:** surdo usa Libras como primeira língua e português escrito como segunda (bilinguismo). Braille usa cela de seis pontos; reglete escreve da direita para a esquerda. Baixa visão pede ampliação e contraste."
+    },
+    {
+      "id": "tea-di",
+      "nome": "TEA, deficiência intelectual, transtornos e altas habilidades",
+      "resumo": "### Transtorno do espectro autista (TEA)\n- Alterações **persistentes na comunicação e na interação social** e **padrões restritos e repetitivos** de comportamento, interesses ou atividades (DSM-5-TR).\n- É um **espectro**: os níveis de suporte variam (1, 2 e 3).\n- Na escola: **rotina previsível**, antecipação de mudanças, **apoios visuais** (agenda, quadros), instruções curtas e diretas, atenção à **sensibilidade sensorial**, uso dos interesses do aluno para engajar.\n- **Comunicação alternativa e aumentativa (CAA)**: pranchas, cartões (como o PECS), aplicativos.\n- Direito a **acompanhante especializado** na turma comum, quando comprovada a necessidade (Lei 12.764/2012).\n\n### Deficiência intelectual\n- Limitações significativas no **funcionamento intelectual** e no **comportamento adaptativo** (habilidades conceituais, sociais e práticas), com início no **período do desenvolvimento**.\n- Estratégias: **concretizar** os conceitos, dividir tarefas em etapas, repetir em contextos variados, valorizar a **autonomia** e a vida prática.\n- Vygotsky: atuar na **zona de desenvolvimento proximal**; a deficiência primária gera consequências sociais que a educação pode compensar.\n\n### Transtornos funcionais específicos (não são público-alvo da educação especial)\n- **Dislexia**: dificuldade persistente na decodificação e na fluência de leitura, sem relação com inteligência.\n- **Discalculia**: dificuldade com números e cálculo.\n- **Disortografia** e **disgrafia**: escrita ortográfica e traçado.\n- **TDAH**: desatenção, hiperatividade e impulsividade.\nA Lei 14.254/2021 garante **identificação precoce**, encaminhamento e apoio pedagógico.\n\n### Altas habilidades ou superdotação\n- Potencial elevado em uma ou mais áreas (intelectual, acadêmica, liderança, artes, psicomotricidade), com **criatividade** e **envolvimento com a tarefa**.\n- **Modelo dos três anéis** (Renzulli): habilidade acima da média + criatividade + comprometimento com a tarefa.\n- Atendimento: **enriquecimento curricular**, projetos, mentoria e, quando indicado, **aceleração** (avanço de série, LDB art. 59, II).\n- Mitos: \"superdotado não precisa de ajuda\", \"tira nota alta em tudo\".",
+      "revisao": "**Lembre:** TEA = comunicação social + comportamentos repetitivos, com rotina e apoio visual. DI envolve funcionamento intelectual e adaptativo. Dislexia e TDAH não são público da educação especial. Renzulli: três anéis."
+    },
+    {
+      "id": "praticas",
+      "nome": "Práticas pedagógicas inclusivas",
+      "resumo": "### Desenho Universal para a Aprendizagem (DUA)\nPlanejar **desde o início** para a diversidade, em vez de adaptar depois. Três princípios:\n1. **Múltiplos meios de engajamento** (o *porquê* da aprendizagem): interesses, escolhas, desafios ajustados.\n2. **Múltiplos meios de representação** (o *quê*): texto, imagem, áudio, vídeo, material concreto.\n3. **Múltiplos meios de ação e expressão** (o *como*): o aluno mostra o que aprendeu de formas diferentes.\n\n### Flexibilização (adaptação) curricular\n- **De acesso**: recursos e ambiente (rampa, mobiliário, Braille, intérprete, ampliação).\n- **Pedagógicas**: objetivos, conteúdos, metodologia, tempo e avaliação.\n- Regra: adaptar **sem empobrecer**; manter o aluno no **mesmo tema** da turma, com o nível de complexidade adequado.\n\n### Plano educacional individualizado (PEI)\nDocumento elaborado pela escola com a família e o AEE: o que o aluno já sabe, objetivos, estratégias, recursos e forma de **avaliação**. Revisto periodicamente.\n\n### Tecnologia assistiva (LBI, art. 3º)\nProdutos, recursos, metodologias e serviços que promovem a **funcionalidade**, a **autonomia** e a **participação**. Exemplos: leitor de tela, lupa eletrônica, engrossador de lápis, teclado adaptado, prancha de comunicação, acionadores.\n\n### Estratégias de sala\n- **Ensino colaborativo (coensino)**: professor da sala comum e professor de educação especial planejam e atuam juntos.\n- **Aprendizagem cooperativa** e **tutoria entre pares**.\n- Instruções claras, apoio visual, tempo ampliado, **avaliação diversificada**.\n- **Acessibilidade comunicacional**: legendas, Libras, audiodescrição, linguagem simples.\n\n### Avaliação na inclusão\n- **Processual e formativa**, comparando o aluno com **ele mesmo** (seu progresso), não só com a turma.\n- Pode haver **tempo adicional**, prova ampliada, ledor, transcritor, provas em Libras (o Enem oferece esses recursos).\n- A **terminalidade específica** (LDB, art. 59, II) é exceção para quem, em razão de deficiência, não atinge o nível exigido para concluir o fundamental.",
+      "revisao": "**Lembre:** o DUA planeja para todos desde o início (engajamento, representação, expressão). Adaptar sem empobrecer; o PEI organiza objetivos e avaliação; tecnologia assistiva amplia autonomia; avaliar o progresso do próprio aluno."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "educacao-inclusiva-1",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Qual é a principal diferença entre integração e inclusão escolar?",
+      "opcoes": [
+        "Na inclusão a escola se transforma para receber todos; na integração o aluno precisa se ajustar à escola",
+        "Na integração a escola se transforma; na inclusão o aluno se ajusta",
+        "As duas propostas defendem as classes especiais permanentes",
+        "A inclusão vale só para alunos sem deficiência"
+      ],
+      "correta": 0,
+      "explicacao": "Na integração o esforço é do aluno, enquanto na inclusão a escola remove as barreiras para todos."
+    },
+    {
+      "id": "educacao-inclusiva-2",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a LDB, a educação especial é:",
+      "opcoes": [
+        "Um nível de ensino separado do ensino fundamental",
+        "Uma modalidade que perpassa todos os níveis, etapas e modalidades de ensino",
+        "Uma etapa que substitui o ensino comum",
+        "Um curso livre oferecido apenas em clínicas"
+      ],
+      "correta": 1,
+      "explicacao": "A educação especial é modalidade transversal e não substitui a escolarização na turma comum."
+    },
+    {
+      "id": "educacao-inclusiva-3",
+      "topico": "fundamentos",
+      "nivel": "conceitual",
+      "pergunta": "No modelo social, a deficiência é entendida como:",
+      "opcoes": [
+        "Uma doença que deve ser curada antes da matrícula",
+        "Um problema exclusivamente individual do corpo",
+        "Resultado da interação entre o impedimento e as barreiras do ambiente e das atitudes",
+        "Uma condição que impede qualquer aprendizagem"
+      ],
+      "correta": 2,
+      "explicacao": "O modelo social desloca o foco para as barreiras, que podem e devem ser removidas pela sociedade."
+    },
+    {
+      "id": "educacao-inclusiva-4",
+      "topico": "fundamentos",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola só aceita o aluno cego se ele já ler Braille com fluência e não precisar de nenhum apoio. Essa postura se aproxima de qual paradigma?",
+      "opcoes": [
+        "Inclusão",
+        "Desenho universal",
+        "Equidade",
+        "Integração"
+      ],
+      "correta": 3,
+      "explicacao": "Exigir que o aluno chegue pronto e se ajuste sozinho é a marca do paradigma da integração."
+    },
+    {
+      "id": "educacao-inclusiva-5",
+      "topico": "fundamentos",
+      "nivel": "analise",
+      "pergunta": "Por que baixas expectativas dos professores sobre alunos com deficiência são consideradas uma barreira?",
+      "opcoes": [
+        "Porque são barreiras atitudinais que limitam as oportunidades e a participação do aluno",
+        "Porque são barreiras arquitetônicas previstas em lei",
+        "Porque não influenciam a aprendizagem",
+        "Porque só existem nas escolas especiais"
+      ],
+      "correta": 0,
+      "explicacao": "Atitudes de descrença reduzem desafios e oportunidades, e a LBI as reconhece como barreira atitudinal."
+    },
+    {
+      "id": "educacao-inclusiva-6",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "Qual documento internacional de 1994 afirma que escolas comuns com orientação inclusiva são o meio mais eficaz de combater atitudes discriminatórias?",
+      "opcoes": [
+        "Declaração de Jomtien",
+        "Declaração de Salamanca",
+        "Convenção da Guatemala",
+        "Declaração Universal dos Direitos Humanos"
+      ],
+      "correta": 1,
+      "explicacao": "A Declaração de Salamanca, de 1994, é o marco da orientação inclusiva para as escolas comuns."
+    },
+    {
+      "id": "educacao-inclusiva-7",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "No Brasil, a Convenção da ONU sobre os Direitos das Pessoas com Deficiência tem:",
+      "opcoes": [
+        "Status de lei ordinária comum",
+        "Valor apenas de recomendação",
+        "Status de emenda constitucional, por ter sido aprovada com o quórum especial",
+        "Status de decreto municipal"
+      ],
+      "correta": 2,
+      "explicacao": "Ela foi aprovada pelo rito do art. 5º, § 3º, da Constituição e equivale a uma emenda constitucional."
+    },
+    {
+      "id": "educacao-inclusiva-8",
+      "topico": "legislacao",
+      "nivel": "conceitual",
+      "pergunta": "A Lei 12.764/2012 estabelece que a pessoa com transtorno do espectro autista:",
+      "opcoes": [
+        "Deve estudar apenas em escola especial",
+        "Não tem direito ao atendimento educacional especializado",
+        "Só pode ser matriculada após laudo de cura",
+        "É considerada pessoa com deficiência para todos os efeitos legais"
+      ],
+      "correta": 3,
+      "explicacao": "A Lei Berenice Piana garante à pessoa com TEA os mesmos direitos das pessoas com deficiência."
+    },
+    {
+      "id": "educacao-inclusiva-9",
+      "topico": "legislacao",
+      "nivel": "aplicacao",
+      "pergunta": "Uma escola particular aceita a matrícula de um aluno com deficiência, mas cobra uma taxa extra para pagar o profissional de apoio. Pela LBI, essa cobrança é:",
+      "opcoes": [
+        "Proibida, pois os apoios não podem gerar valor adicional na mensalidade",
+        "Permitida, desde que informada no contrato",
+        "Obrigatória para escolas privadas",
+        "Permitida só no ensino médio"
+      ],
+      "correta": 0,
+      "explicacao": "A LBI veda cobrança adicional pelos apoios, e o STF confirmou essa regra no julgamento da ADI 5357."
+    },
+    {
+      "id": "educacao-inclusiva-10",
+      "topico": "legislacao",
+      "nivel": "analise",
+      "pergunta": "Por que o Decreto 10.502/2020 gerou forte reação e acabou revogado?",
+      "opcoes": [
+        "Porque tornava obrigatória a Libras para todos os alunos",
+        "Porque estimulava encaminhar alunos para escolas e classes especializadas, contrariando o sistema inclusivo previsto na Convenção e na LBI",
+        "Porque proibia o atendimento educacional especializado",
+        "Porque acabava com a educação de jovens e adultos"
+      ],
+      "correta": 1,
+      "explicacao": "O decreto foi visto como retrocesso à segregação, foi suspenso pelo STF e revogado em 2023."
+    },
+    {
+      "id": "educacao-inclusiva-11",
+      "topico": "aee",
+      "nivel": "conceitual",
+      "pergunta": "Qual é o público-alvo da educação especial na perspectiva inclusiva?",
+      "opcoes": [
+        "Todos os estudantes com notas baixas",
+        "Apenas estudantes com deficiência física",
+        "Estudantes com deficiência, com transtorno do espectro autista e com altas habilidades ou superdotação",
+        "Estudantes com dislexia e TDAH exclusivamente"
+      ],
+      "correta": 2,
+      "explicacao": "LDB e PNEEPEI definem três grupos: deficiência, TEA e altas habilidades ou superdotação."
+    },
+    {
+      "id": "educacao-inclusiva-12",
+      "topico": "aee",
+      "nivel": "conceitual",
+      "pergunta": "O atendimento educacional especializado deve ser oferecido:",
+      "opcoes": [
+        "No lugar das aulas da turma comum",
+        "Apenas em clínicas de reabilitação",
+        "Somente depois do ensino médio",
+        "No contraturno, de forma complementar ou suplementar, sem substituir a classe comum"
+      ],
+      "correta": 3,
+      "explicacao": "O AEE apoia a escolarização comum e acontece no turno inverso, em geral na sala de recursos."
+    },
+    {
+      "id": "educacao-inclusiva-13",
+      "topico": "aee",
+      "nivel": "conceitual",
+      "pergunta": "Para estudantes com altas habilidades ou superdotação, o AEE tem caráter:",
+      "opcoes": [
+        "Suplementar",
+        "Substitutivo",
+        "Corretivo",
+        "Facultativo apenas para escolas privadas"
+      ],
+      "correta": 0,
+      "explicacao": "O enriquecimento curricular oferecido a esses estudantes é chamado de atendimento suplementar."
+    },
+    {
+      "id": "educacao-inclusiva-14",
+      "topico": "aee",
+      "nivel": "aplicacao",
+      "pergunta": "A família de um aluno com sinais claros de deficiência intelectual ainda não tem laudo médico. A escola pode iniciar o AEE?",
+      "opcoes": [
+        "Não, o laudo é condição obrigatória para qualquer apoio",
+        "Sim, porque o atendimento se baseia na avaliação pedagógica e não exige laudo",
+        "Só após decisão judicial",
+        "Só se a família pagar uma avaliação particular"
+      ],
+      "correta": 1,
+      "explicacao": "Orientação do MEC deixa claro que o laudo não pode condicionar o acesso ao atendimento educacional especializado."
+    },
+    {
+      "id": "educacao-inclusiva-15",
+      "topico": "aee",
+      "nivel": "analise",
+      "pergunta": "Por que o AEE não deve ser confundido com reforço escolar?",
+      "opcoes": [
+        "Porque o AEE só trata de conteúdos de matemática",
+        "Porque o reforço é obrigatório e o AEE é proibido",
+        "Porque seu foco é eliminar barreiras de acesso e participação com recursos e estratégias próprias, e não repetir os conteúdos da turma",
+        "Porque o AEE substitui todas as aulas"
+      ],
+      "correta": 2,
+      "explicacao": "O AEE trabalha recursos como Braille, Libras e tecnologia assistiva para que o aluno participe da turma comum."
+    },
+    {
+      "id": "educacao-inclusiva-16",
+      "topico": "sensoriais",
+      "nivel": "conceitual",
+      "pergunta": "Na proposta bilíngue para surdos, a Libras e o português ocupam, respectivamente, o lugar de:",
+      "opcoes": [
+        "Segunda língua e primeira língua oral",
+        "Línguas proibidas na escola",
+        "Recursos opcionais sem papel definido",
+        "Primeira língua e segunda língua na modalidade escrita"
+      ],
+      "correta": 3,
+      "explicacao": "O bilinguismo garante a Libras como língua de instrução e o português escrito como segunda língua."
+    },
+    {
+      "id": "educacao-inclusiva-17",
+      "topico": "sensoriais",
+      "nivel": "conceitual",
+      "pergunta": "O Sistema Braille baseia-se em:",
+      "opcoes": [
+        "Uma cela de seis pontos em relevo, organizados em duas colunas de três",
+        "Uma cela de oito letras impressas em tinta",
+        "Sinais feitos com as mãos no ar",
+        "Gravações de áudio de cada palavra"
+      ],
+      "correta": 0,
+      "explicacao": "A combinação dos seis pontos da cela forma letras, números e sinais de pontuação."
+    },
+    {
+      "id": "educacao-inclusiva-18",
+      "topico": "sensoriais",
+      "nivel": "conceitual",
+      "pergunta": "Sobre a Libras, é correto afirmar:",
+      "opcoes": [
+        "É uma mímica universal igual em todos os países",
+        "É uma língua com gramática própria, reconhecida pela Lei 10.436/2002",
+        "É o português falado com gestos palavra por palavra",
+        "Não pode ser usada como língua de instrução"
+      ],
+      "correta": 1,
+      "explicacao": "Libras é língua natural, com estrutura própria, e cada país tem sua língua de sinais."
+    },
+    {
+      "id": "educacao-inclusiva-19",
+      "topico": "sensoriais",
+      "nivel": "aplicacao",
+      "pergunta": "Um professor vai corrigir a redação de um aluno surdo bilíngue. Qual atitude é a mais adequada?",
+      "opcoes": [
+        "Aplicar exatamente os mesmos descontos de ortografia usados para ouvintes",
+        "Dispensar o aluno de qualquer avaliação escrita",
+        "Valorizar o conteúdo e a organização das ideias, considerando que o português é sua segunda língua",
+        "Exigir que ele leia o texto em voz alta"
+      ],
+      "correta": 2,
+      "explicacao": "A correção deve considerar as marcas de quem escreve em segunda língua e priorizar o sentido do texto."
+    },
+    {
+      "id": "educacao-inclusiva-20",
+      "topico": "sensoriais",
+      "nivel": "analise",
+      "pergunta": "Por que o oralismo, predominante após o Congresso de Milão (1880), é hoje criticado?",
+      "opcoes": [
+        "Porque obrigava os ouvintes a aprender Libras",
+        "Porque defendia o uso do Braille por surdos",
+        "Porque valorizava demais a cultura surda",
+        "Porque proibia a língua de sinais e atrasava o desenvolvimento da linguagem e o acesso ao conhecimento"
+      ],
+      "correta": 3,
+      "explicacao": "Ao negar a língua de sinais, o oralismo deixou gerações de surdos com acesso limitado à linguagem."
+    },
+    {
+      "id": "educacao-inclusiva-21",
+      "topico": "tea-di",
+      "nivel": "conceitual",
+      "pergunta": "Segundo o modelo dos três anéis de Renzulli, a superdotação resulta da interação entre:",
+      "opcoes": [
+        "Habilidade acima da média, criatividade e envolvimento com a tarefa",
+        "Memória, disciplina e idade",
+        "Notas altas, obediência e rapidez",
+        "Inteligência verbal, timidez e isolamento"
+      ],
+      "correta": 0,
+      "explicacao": "Renzulli descreve a superdotação como a interseção desses três traços, e não só como QI alto."
+    },
+    {
+      "id": "educacao-inclusiva-22",
+      "topico": "tea-di",
+      "nivel": "conceitual",
+      "pergunta": "A deficiência intelectual caracteriza-se por limitações:",
+      "opcoes": [
+        "Apenas na fala, sem relação com a aprendizagem",
+        "No funcionamento intelectual e no comportamento adaptativo, com início no período do desenvolvimento",
+        "Somente na visão de perto",
+        "Que aparecem só na vida adulta"
+      ],
+      "correta": 1,
+      "explicacao": "As limitações atingem habilidades conceituais, sociais e práticas e surgem antes da idade adulta."
+    },
+    {
+      "id": "educacao-inclusiva-23",
+      "topico": "tea-di",
+      "nivel": "conceitual",
+      "pergunta": "Dislexia, discalculia e TDAH, em relação à educação especial, são:",
+      "opcoes": [
+        "Deficiências que dão direito automático à escola especial",
+        "Formas de altas habilidades",
+        "Transtornos funcionais específicos que não fazem parte do público-alvo, mas exigem apoio pedagógico",
+        "Condições sem qualquer amparo legal"
+      ],
+      "correta": 2,
+      "explicacao": "Esses transtornos têm amparo na Lei 14.254/2021, mas não compõem o público-alvo da educação especial."
+    },
+    {
+      "id": "educacao-inclusiva-24",
+      "topico": "tea-di",
+      "nivel": "aplicacao",
+      "pergunta": "Um aluno com TEA fica muito agitado quando a rotina da aula muda sem aviso. Qual estratégia ajuda mais?",
+      "opcoes": [
+        "Mudar a rotina com mais frequência para ele se acostumar",
+        "Retirá-lo da sala sempre que ficar agitado",
+        "Evitar falar com ele sobre a rotina",
+        "Antecipar as mudanças com uma agenda visual da aula"
+      ],
+      "correta": 3,
+      "explicacao": "Rotinas previsíveis e apoios visuais reduzem a ansiedade comum em estudantes com TEA."
+    },
+    {
+      "id": "educacao-inclusiva-25",
+      "topico": "tea-di",
+      "nivel": "analise",
+      "pergunta": "Por que a ideia de que o aluno superdotado não precisa de atendimento é um mito prejudicial?",
+      "opcoes": [
+        "Porque sem desafios adequados ele pode se desmotivar, ter baixo desempenho e ter necessidades socioemocionais ignoradas",
+        "Porque superdotados sempre têm deficiência física",
+        "Porque a lei proíbe que tirem notas altas",
+        "Porque eles não podem frequentar a turma comum"
+      ],
+      "correta": 0,
+      "explicacao": "A falta de enriquecimento leva ao tédio e ao desengajamento, e o potencial pode não se desenvolver."
+    },
+    {
+      "id": "educacao-inclusiva-26",
+      "topico": "praticas",
+      "nivel": "conceitual",
+      "pergunta": "Quais são os três princípios do Desenho Universal para a Aprendizagem?",
+      "opcoes": [
+        "Repetição, memorização e punição",
+        "Múltiplos meios de engajamento, de representação e de ação e expressão",
+        "Separação, classificação e seleção",
+        "Laudo, diagnóstico e encaminhamento"
+      ],
+      "correta": 1,
+      "explicacao": "O DUA amplia as formas de motivar, de apresentar o conteúdo e de o aluno demonstrar o que aprendeu."
+    },
+    {
+      "id": "educacao-inclusiva-27",
+      "topico": "praticas",
+      "nivel": "conceitual",
+      "pergunta": "Segundo a LBI, a tecnologia assistiva compreende:",
+      "opcoes": [
+        "Somente computadores de última geração",
+        "Apenas medicamentos para controle de comportamento",
+        "Produtos, recursos, metodologias e serviços que promovem funcionalidade, autonomia e participação",
+        "Exclusivamente aparelhos auditivos"
+      ],
+      "correta": 2,
+      "explicacao": "A definição é ampla e inclui desde um engrossador de lápis até softwares de leitura de tela."
+    },
+    {
+      "id": "educacao-inclusiva-28",
+      "topico": "praticas",
+      "nivel": "conceitual",
+      "pergunta": "O ensino colaborativo (coensino) consiste em:",
+      "opcoes": [
+        "Retirar o aluno da sala para aulas individuais permanentes",
+        "Deixar o aluno com deficiência sob responsabilidade de um colega",
+        "Trocar o currículo comum por atividades recreativas",
+        "Professor da sala comum e professor de educação especial planejarem e atuarem juntos"
+      ],
+      "correta": 3,
+      "explicacao": "No coensino os dois professores dividem planejamento, execução e avaliação na própria turma."
+    },
+    {
+      "id": "educacao-inclusiva-29",
+      "topico": "praticas",
+      "nivel": "aplicacao",
+      "pergunta": "A turma estuda o ciclo da água. Para um aluno com deficiência intelectual, qual adaptação segue o princípio de adaptar sem empobrecer?",
+      "opcoes": [
+        "Trabalhar o mesmo tema com materiais concretos, imagens e objetivos ajustados ao seu nível",
+        "Dar a ele uma atividade de colorir sem relação com o tema",
+        "Dispensá-lo da aula de ciências",
+        "Passar a mesma prova sem nenhum apoio"
+      ],
+      "correta": 0,
+      "explicacao": "Manter o tema da turma com outra complexidade garante participação e aprendizagem real."
+    },
+    {
+      "id": "educacao-inclusiva-30",
+      "topico": "praticas",
+      "nivel": "analise",
+      "pergunta": "Por que o DUA é considerado mais inclusivo do que apenas adaptar atividades depois de planejadas?",
+      "opcoes": [
+        "Porque dispensa o atendimento educacional especializado",
+        "Porque já prevê a diversidade no planejamento e beneficia todos os alunos, reduzindo a necessidade de adaptações individuais",
+        "Porque usa uma única forma de avaliação para todos",
+        "Porque é aplicado somente a alunos com deficiência"
+      ],
+      "correta": 1,
+      "explicacao": "Planejar com várias formas de acesso desde o início evita barreiras em vez de corrigi-las depois."
+    }
+  ]
+}
